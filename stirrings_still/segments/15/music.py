@@ -30,7 +30,6 @@ commands(
     baca.markup(
         r"\stirrings-still-text-twenty-four",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(8 - 1),
     ),
     baca.rehearsal_mark(
@@ -79,7 +78,6 @@ commands(
     baca.markup(
         r"\baca-thirteen-d-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     stirrings_still.pickets(4, 2),
 )
@@ -123,7 +121,6 @@ commands(
     baca.markup(
         r"\baca-nine-d-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     stirrings_still.pickets(4, 1),
 )
@@ -159,7 +156,6 @@ commands(
     baca.markup(
         r"\baca-seven-d-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     stirrings_still.pickets(4, 0),
 )

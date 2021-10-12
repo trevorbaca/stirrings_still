@@ -63,19 +63,16 @@ commands(
     baca.markup(
         r"\stirrings-still-text-sixteen",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(41 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-seventeen",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(86 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-eighteen",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(111 - 1),
     ),
 )
@@ -134,7 +131,6 @@ commands(
     baca.markup(
         r"\baca-seven-f-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.flat_glissando("Etqf4"),
 )
@@ -401,7 +397,6 @@ commands(
         baca.markup(
             r"\baca-thirteen-b-flat",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.flat_glissando("Gqf4"),
         stirrings_still.pickets(
@@ -419,7 +414,6 @@ commands(
         baca.markup(
             r"\baca-seven-b-flat",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.flat_glissando("Atqf3"),
         stirrings_still.pickets(
@@ -437,7 +431,6 @@ commands(
         baca.markup(
             r"\baca-nine-b-flat",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.flat_glissando("C3"),
         stirrings_still.pickets(
@@ -736,7 +729,6 @@ commands(
     baca.markup(
         r"\baca-eleven-f-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.flat_glissando("Bqf3"),
 )
@@ -963,7 +955,6 @@ commands(
     baca.markup(
         r"\baca-five-f-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.flat_glissando("A3"),
 )

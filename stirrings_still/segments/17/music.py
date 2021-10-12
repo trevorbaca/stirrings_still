@@ -81,7 +81,6 @@ commands(
     baca.markup(
         r"\baca-eleven-e",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("Aqs5"),
 )
@@ -445,7 +444,6 @@ commands(
     baca.markup(
         r"\baca-nine-e",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("F#5"),
 )
@@ -717,7 +715,6 @@ commands(
     baca.markup(
         r"\baca-five-e",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("G#3"),
 )
@@ -1404,10 +1401,7 @@ commands(
 
 commands(
     ("vc", (73, 92)),
-    baca.markup(
-        r"\stirrings-still-tuning-peg-slowly-detune-markup",
-        literal=True,
-    ),
+    baca.markup(r"\stirrings-still-tuning-peg-slowly-detune-markup"),
     baca.ottava_bassa(),
 )
 

@@ -63,7 +63,6 @@ commands(
         # -20 because first page compresses vertical spacing
         # abjad.tweak((4, -20)).extra_offset,
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(10 - 1),
     ),
     baca.markup(
@@ -71,31 +70,26 @@ commands(
         # -20 because first page compresses vertical spacing
         # abjad.tweak((4, -20)).extra_offset,
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(19 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-four",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(24 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-five",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(28 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-six",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(61 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-seven",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(63 - 1),
     ),
 )
@@ -154,10 +148,7 @@ commands(
     baca.staff_lines(5),
     baca.suite(
         stirrings_still.margin_markup("Vn. I"),
-        baca.start_markup(
-            r"\stirrings-still-violin-i-markup",
-            literal=True,
-        ),
+        baca.start_markup(r"\stirrings-still-violin-i-markup"),
     ),
     baca.tuplet_bracket_down(),
 )
@@ -199,7 +190,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("<F4 A4>"),
     baca.tasto_spanner(
@@ -529,7 +519,6 @@ commands(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     baca.text_spanner(
         "(2°) =|",
@@ -574,10 +563,7 @@ commands(
     baca.staff_lines(5),
     baca.suite(
         stirrings_still.margin_markup("Vn. II"),
-        baca.start_markup(
-            r"\stirrings-still-violin-ii-markup",
-            literal=True,
-        ),
+        baca.start_markup(r"\stirrings-still-violin-ii-markup"),
     ),
     baca.tuplet_bracket_down(),
 )
@@ -619,7 +605,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("<E4 G#4>"),
     baca.tasto_spanner(
@@ -664,10 +649,7 @@ commands(
     baca.staff_lines(5),
     baca.suite(
         stirrings_still.margin_markup("Va."),
-        baca.start_markup(
-            r"\stirrings-still-viola-markup",
-            literal=True,
-        ),
+        baca.start_markup(r"\stirrings-still-viola-markup"),
     ),
     baca.tuplet_bracket_down(),
 )
@@ -709,7 +691,6 @@ commands(
     baca.markup(
         r"\stirrings-still-nine-plus-seven-of-b-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("<Aqf3 C#4>"),
     baca.tasto_spanner(
@@ -754,10 +735,7 @@ commands(
     baca.staff_lines(5),
     baca.suite(
         stirrings_still.margin_markup("Vc."),
-        baca.start_markup(
-            r"\stirrings-still-cello-markup",
-            literal=True,
-        ),
+        baca.start_markup(r"\stirrings-still-cello-markup"),
     ),
     baca.tuplet_bracket_down(),
 )
@@ -843,7 +821,6 @@ commands(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     baca.note_head_style_harmonic(),
     stirrings_still.cello_cell(),
@@ -895,7 +872,6 @@ commands(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     baca.note_head_style_harmonic(),
     stirrings_still.cello_cell(),

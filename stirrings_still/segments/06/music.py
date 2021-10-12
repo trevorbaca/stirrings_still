@@ -31,7 +31,6 @@ commands(
     baca.markup(
         r"\stirrings-still-text-nineteen",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(11 - 1),
     ),
     baca.rehearsal_mark(
@@ -65,7 +64,6 @@ commands(
     baca.markup(
         r"\baca-thirteen-plus-nine-e-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(
@@ -90,7 +88,6 @@ commands(
     baca.markup(
         r"\baca-seven-plus-five-e-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(

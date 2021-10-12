@@ -45,7 +45,6 @@ commands(
     baca.markup(
         r"\stirrings-still-repeat-three-markup",
         abjad.tweak((0, 10)).extra_offset,
-        literal=True,
         measures=11,
         selector=baca.selectors.skip(0),
     ),
@@ -187,10 +186,7 @@ commands(
     ),
     baca.new(
         baca.flat_glissando("<F#4 Dqf5>"),
-        baca.markup(
-            r"\stirrings-still-seven-plus-nine-of-e-markup",
-            literal=True,
-        ),
+        baca.markup(r"\stirrings-still-seven-plus-nine-of-e-markup"),
         baca.tasto_spanner(
             abjad.tweak(5.5).staff_padding,
         ),
@@ -201,7 +197,6 @@ commands(
         baca.markup(
             r"\stirrings-still-eleven-plus-three-of-e-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.tasto_spanner(
             abjad.tweak(5.5).staff_padding,
@@ -229,7 +224,6 @@ commands(
     baca.markup(
         r"\stirrings-still-third-time-no-breath-markup",
         abjad.tweak(3).staff_padding,
-        literal=True,
     ),
 )
 

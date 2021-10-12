@@ -47,13 +47,11 @@ commands(
     baca.markup(
         r"\stirrings-still-text-twenty",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(8 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-one",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(18 - 1),
     ),
 )
@@ -94,7 +92,6 @@ commands(
         baca.markup(
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         match=0,
     ),
@@ -147,7 +144,6 @@ commands(
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         match=2,
     ),
@@ -195,7 +191,6 @@ commands(
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         stirrings_still.flight(
             "B",
@@ -267,7 +262,6 @@ commands(
         baca.markup(
             r"\stirrings-still-seven-plus-nine-of-e-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.tasto_spanner(
             abjad.tweak(5.5).staff_padding,
@@ -280,7 +274,6 @@ commands(
         baca.markup(
             r"\stirrings-still-eleven-plus-three-of-e-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.tasto_spanner(
             abjad.tweak(5.5).staff_padding,
@@ -306,7 +299,6 @@ commands(
         baca.markup(
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         match=0,
     ),
@@ -354,7 +346,6 @@ commands(
         baca.markup(
             r"\stirrings-still-nine-plus-seven-of-b-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         match=0,
     ),

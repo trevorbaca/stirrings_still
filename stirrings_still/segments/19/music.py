@@ -33,26 +33,22 @@ commands(
     baca.markup(
         r"\stirrings-still-text-twenty-six",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(9 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-seven",
         # abjad.tweak((14, -50)).extra_offset,
         abjad.tweak((4, -50)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(16 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-eight",
         abjad.tweak((9, -75)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(20 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-nine",
         abjad.tweak((28, -100)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(20 - 1),
     ),
     baca.rehearsal_mark(
@@ -100,7 +96,6 @@ commands(
         baca.markup(
             r"\baca-string-iv-markup",
             direction=abjad.Down,
-            literal=True,
         ),
         match=0,
     ),
@@ -142,7 +137,6 @@ commands(
         baca.markup(
             r"\baca-string-iv-markup",
             direction=abjad.Down,
-            literal=True,
         ),
         match=0,
     ),

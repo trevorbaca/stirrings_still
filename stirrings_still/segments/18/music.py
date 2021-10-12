@@ -42,7 +42,6 @@ commands(
     baca.markup(
         r"\stirrings-still-text-twenty-five",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(17 - 1),
     ),
 )

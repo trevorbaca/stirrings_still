@@ -69,19 +69,16 @@ commands(
     baca.markup(
         r"\stirrings-still-text-thirteen",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(37 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-fourteen",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(46 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-fifteen",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(64 - 1),
     ),
 )
@@ -156,7 +153,6 @@ commands(
         r"\baca-string-iv-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     baca.new(
         baca.dynamic_text_self_alignment_x(
@@ -332,7 +328,6 @@ commands(
         baca.markup(
             r"\baca-thirteen-d-flat",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         stirrings_still.circles((1, 8)),
         match=0,
@@ -342,7 +337,6 @@ commands(
         baca.markup(
             r"\baca-nine-d-flat",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         stirrings_still.circles((1, 4)),
         match=1,
@@ -351,7 +345,6 @@ commands(
         baca.markup(
             r"\baca-seven-d-flat",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.pitch("Bqf3"),
         stirrings_still.circles(
@@ -951,7 +944,6 @@ commands(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     baca.note_head_style_harmonic(),
     stirrings_still.cello_cell(),
@@ -1057,7 +1049,6 @@ commands(
     baca.markup(
         r"\stirrings-still-seven-plus-nine-of-e-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
 )
 
@@ -1068,7 +1059,6 @@ commands(
             baca.markup(
                 r"\stirrings-still-three-plus-seven-of-f-markup",
                 abjad.tweak(1.5).padding,
-                literal=True,
             ),
             baca.untie(
                 baca.selectors.pleaf(0),
@@ -1115,7 +1105,6 @@ commands(
     baca.markup(
         r"\stirrings-still-five-plus-thirteen-of-e-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
 )
 
@@ -1126,7 +1115,6 @@ commands(
             baca.markup(
                 r"\stirrings-still-nine-plus-eleven-of-f-markup",
                 abjad.tweak(1.5).padding,
-                literal=True,
             ),
             baca.untie(
                 baca.selectors.pleaf(0),
@@ -1145,7 +1133,6 @@ commands(
     baca.markup(
         r"\stirrings-still-eleven-plus-three-of-e-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
 )
 
@@ -1155,7 +1142,6 @@ commands(
     baca.markup(
         r"\baca-five-f-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
 )
 

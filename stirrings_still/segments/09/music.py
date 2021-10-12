@@ -73,7 +73,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
 )
 
@@ -167,7 +166,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
 )
 
@@ -189,7 +187,6 @@ commands(
     baca.markup(
         r"\baca-seven-d-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
 )
 
@@ -203,7 +200,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
 )
 
@@ -230,7 +226,6 @@ commands(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     baca.note_head_style_harmonic(),
 )
@@ -260,7 +255,6 @@ commands(
         r"\stirrings-still-ninth-partial-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
