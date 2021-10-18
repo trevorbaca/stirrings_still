@@ -4392,12 +4392,6 @@ segment.03.Violin.I.Music.Voice = {
         %! SPANNER_STOP
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
-        - \tweak to-barline ##t
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_STOP
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
         \baca-effort-ff
         %! REAPPLIED_MARGIN_MARKUP_ALERT
         %! baca._attach_latent_indicator_alert()
@@ -4844,12 +4838,6 @@ segment.03.Violin.I.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         - \tweak color #(x11-color 'blue)
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_STOP
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak to-barline ##t
         %! baca.hairpin()
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_STOP
@@ -5718,12 +5706,6 @@ segment.03.Violin.I.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -6985,12 +6967,6 @@ segment.03.Violin.I.Music.Voice = {
     %! SPANNER_STOP
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
     \baca-effort-ff
     %! baca.articulations()
     %! baca.IndicatorCommand._call()
@@ -7122,18 +7098,6 @@ segment.03.Violin.I.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak self-alignment-X #left
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -7332,12 +7296,6 @@ segment.03.Violin.I.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -7640,12 +7598,6 @@ segment.03.Violin.I.Music.Voice = {
         %! SPANNER_STOP
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
-        - \tweak shorten-pair #'(0 . 3.5)
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_STOP
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
         \f
         %! EXPLICIT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
@@ -7904,12 +7856,6 @@ segment.03.Violin.I.Music.Voice = {
             %! SPANNER_STOP
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
-            - \tweak shorten-pair #'(0 . 3.5)
-            %! baca.hairpin()
-            %! baca.PiecewiseCommand._call(3)
-            %! SPANNER_STOP
-            %! baca._set_status_tag()
-            %! EXPLICIT_DYNAMIC
             \!
             %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
@@ -8144,12 +8090,6 @@ segment.03.Violin.II.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -8581,12 +8521,6 @@ segment.03.Violin.II.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -9288,12 +9222,6 @@ segment.03.Violin.II.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         - \tweak color #(x11-color 'blue)
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_STOP
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak to-barline ##t
         %! baca.hairpin()
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_STOP
@@ -10561,12 +10489,6 @@ segment.03.Violin.II.Music.Voice = {
     %! SPANNER_STOP
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
     \baca-effort-ff
     %! baca.articulations()
     %! baca.IndicatorCommand._call()
@@ -10701,18 +10623,6 @@ segment.03.Violin.II.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak self-alignment-X #left
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -10911,12 +10821,6 @@ segment.03.Violin.II.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -11195,12 +11099,6 @@ segment.03.Violin.II.Music.Voice = {
     %! SPANNER_STOP
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
-    - \tweak shorten-pair #'(0 . 3.5)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
     \f
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
@@ -11404,12 +11302,6 @@ segment.03.Violin.II.Music.Voice = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
-            %! baca.hairpin()
-            %! baca.PiecewiseCommand._call(3)
-            %! SPANNER_STOP
-            %! baca._set_status_tag()
-            %! EXPLICIT_DYNAMIC
-            - \tweak shorten-pair #'(0 . 3.5)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -11632,12 +11524,6 @@ segment.03.Viola.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         - \tweak color #(x11-color 'blue)
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_STOP
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak to-barline ##t
         %! baca.hairpin()
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_STOP
@@ -12097,12 +11983,6 @@ segment.03.Viola.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         - \tweak color #(x11-color 'blue)
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_STOP
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak to-barline ##t
         %! baca.hairpin()
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_STOP
@@ -12997,12 +12877,6 @@ segment.03.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -14271,12 +14145,6 @@ segment.03.Viola.Music.Voice = {
     %! SPANNER_STOP
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
     \baca-effort-ff
     %! baca.articulations()
     %! baca.IndicatorCommand._call()
@@ -14411,18 +14279,6 @@ segment.03.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak self-alignment-X #left
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -14621,12 +14477,6 @@ segment.03.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -14912,12 +14762,6 @@ segment.03.Viola.Music.Voice = {
         %! SPANNER_STOP
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
-        - \tweak shorten-pair #'(0 . 3.5)
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_STOP
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
         \f
         %! EXPLICIT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
@@ -15185,12 +15029,6 @@ segment.03.Viola.Music.Voice = {
             %! SPANNER_STOP
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
-            - \tweak shorten-pair #'(0 . 3.5)
-            %! baca.hairpin()
-            %! baca.PiecewiseCommand._call(3)
-            %! SPANNER_STOP
-            %! baca._set_status_tag()
-            %! EXPLICIT_DYNAMIC
             \!
             %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
@@ -15427,12 +15265,6 @@ segment.03.Cello.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         - \tweak color #(x11-color 'blue)
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_STOP
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak to-barline ##t
         %! baca.hairpin()
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_STOP
@@ -15910,12 +15742,6 @@ segment.03.Cello.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         - \tweak color #(x11-color 'blue)
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_STOP
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak to-barline ##t
         %! baca.hairpin()
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_STOP
@@ -16737,12 +16563,6 @@ segment.03.Cello.Music.Voice = {
     %! SPANNER_STOP
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
     \pp
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
@@ -17127,12 +16947,6 @@ segment.03.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -18073,12 +17887,6 @@ segment.03.Cello.Music.Voice = {
     %! SPANNER_STOP
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
     \baca-effort-ff
     %! baca.articulations()
     %! baca.IndicatorCommand._call()
@@ -18297,12 +18105,6 @@ segment.03.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -18584,12 +18386,6 @@ segment.03.Cello.Music.Voice = {
         %! SPANNER_STOP
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
-        - \tweak shorten-pair #'(0 . 3.5)
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_STOP
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
         \f
         %! EXPLICIT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
@@ -18816,12 +18612,6 @@ segment.03.Cello.Music.Voice = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
-            %! baca.hairpin()
-            %! baca.PiecewiseCommand._call(3)
-            %! SPANNER_STOP
-            %! baca._set_status_tag()
-            %! EXPLICIT_DYNAMIC
-            - \tweak shorten-pair #'(0 . 3.5)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
