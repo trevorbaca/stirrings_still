@@ -8,4 +8,3 @@ Stirrings Still
     https://github.com/ambv/black)
 
 Stirrings Still (2018) for narrator and string quartet.
-
