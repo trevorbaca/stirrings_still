@@ -2532,7 +2532,7 @@ segment.11.Global.Skips = {
     %! PHANTOM
     \once \override Score.SpanBar.transparent = ##t
 
-%! abjad.ScoreTemplate._make_global_context()
+%! baca.make_global_context()
 %! baca.path.extern()
 }
 
@@ -2825,7 +2825,7 @@ segment.11.Global.Rests = {
     %! PHANTOM
     R1 * 1/4
 
-%! abjad.ScoreTemplate._make_global_context()
+%! baca.make_global_context()
 %! baca.path.extern()
 }
 
@@ -7760,9 +7760,9 @@ segment.11.Violin.I.Music.Voice = {
 %! baca.path.extern()
 segment.11.Violin.I.Music.Staff = <<
 
-    %! abjad.ScoreTemplate._make_global_context()
+    %! baca.make_global_context()
     \context GlobalRests = "Global_Rests"
-    %! abjad.ScoreTemplate._make_global_context()
+    %! baca.make_global_context()
     %! baca.path.extern()
     { \segment.11.Global.Rests }
 
