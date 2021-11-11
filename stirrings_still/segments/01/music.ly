@@ -28,18 +28,18 @@
         %! stirrings_still.make_empty_score()
         <<
 
-            %! abjad.ScoreTemplate._make_global_context()
+            %! baca.make_global_context()
             \context GlobalContext = "Global_Context"
-            %! abjad.ScoreTemplate._make_global_context()
+            %! baca.make_global_context()
             <<
 
-                %! abjad.ScoreTemplate._make_global_context()
+                %! baca.make_global_context()
                 \context GlobalSkips = "Global_Skips"
-                %! abjad.ScoreTemplate._make_global_context()
+                %! baca.make_global_context()
                 %! baca.path.extern()
                 { \segment.01.Global.Skips }
 
-            %! abjad.ScoreTemplate._make_global_context()
+            %! baca.make_global_context()
             >>
 
             %! stirrings_still.make_empty_score()
@@ -52,7 +52,7 @@
                 %! stirrings_still.make_empty_score()
                 <<
 
-                    %! baca.ScoreTemplate._attach_liypond_tag()
+                    %! baca.attach_lilypond_tag()
                     \tag ViolinI
                     %! stirrings_still.make_empty_score()
                     \context Staff = "Violin_I_Music_Staff"
@@ -60,7 +60,7 @@
                     %! baca.path.extern()
                     { \segment.01.Violin.I.Music.Staff }
 
-                    %! baca.ScoreTemplate._attach_liypond_tag()
+                    %! baca.attach_lilypond_tag()
                     \tag ViolinII
                     %! stirrings_still.make_empty_score()
                     \context Staff = "Violin_II_MusicStaff"
@@ -68,7 +68,7 @@
                     %! baca.path.extern()
                     { \segment.01.Violin.II.MusicStaff }
 
-                    %! baca.ScoreTemplate._attach_liypond_tag()
+                    %! baca.attach_lilypond_tag()
                     \tag viola
                     %! stirrings_still.make_empty_score()
                     \context Staff = "Viola_Music_Staff"
@@ -76,7 +76,7 @@
                     %! baca.path.extern()
                     { \segment.01.Viola.Music.Staff }
 
-                    %! baca.ScoreTemplate._attach_liypond_tag()
+                    %! baca.attach_lilypond_tag()
                     \tag cello
                     %! stirrings_still.make_empty_score()
                     \context Staff = "Cello_Music_Staff"
