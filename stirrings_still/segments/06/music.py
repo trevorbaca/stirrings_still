@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from stirrings_still import library as stirrings_still
+from stirrings_still import library
 
 #########################################################################################
 ######################################### 06 [F] ########################################
@@ -13,16 +13,16 @@ stage_markup = (
     ("[C.2.3-4]", 12, "#darkgreen"),
 )
 
-score = stirrings_still.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=stirrings_still.instruments,
-    margin_markups=stirrings_still.margin_markups,
-    metronome_marks=stirrings_still.metronome_marks,
-    time_signatures=stirrings_still.time_signatures("F"),
-    voice_abbreviations=stirrings_still.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures("F"),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -46,7 +46,7 @@ time = (
     ("long", 14),
 )
 
-stirrings_still.time(commands, time)
+library.time(commands, time)
 
 # v1
 
@@ -65,8 +65,8 @@ commands(
         r"\baca-thirteen-plus-nine-e-flat",
         abjad.tweak(1.5).padding,
     ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner(
+    library.clouded_pane(),
+    library.clouded_pane_spanner(
         "clouded pane (doublestop partials) -|",
         8,
     ),
@@ -89,8 +89,8 @@ commands(
         r"\baca-seven-plus-five-e-flat",
         abjad.tweak(1.5).padding,
     ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner(
+    library.clouded_pane(),
+    library.clouded_pane_spanner(
         "clouded pane (doublestop partials) -|",
         8,
     ),
@@ -105,7 +105,7 @@ commands(
         '"mf"',
         abjad.tweak(-0.75).self_alignment_X,
     ),
-    stirrings_still.tailpiece(
+    library.tailpiece(
         abjad.tweak(2).bound_details__right__padding,
     ),
 )
@@ -129,8 +129,8 @@ commands(
         pieces=baca.selectors.mgroups([2, 4, 2 + 1]),
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner("clouded pane (continues) -|", 5.5),
+    library.clouded_pane(),
+    library.clouded_pane_spanner("clouded pane (continues) -|", 5.5),
 )
 
 # v1, v2, vc
@@ -169,7 +169,7 @@ commands(
     ),
     baca.new(
         baca.flat_glissando("Bb4"),
-        stirrings_still.desynchronization(4, [1]),
+        library.desynchronization(4, [1]),
         match=0,
     ),
     baca.new(
@@ -177,18 +177,18 @@ commands(
             "G4",
             stop_pitch="A4",
         ),
-        stirrings_still.desynchronization(4, [0]),
+        library.desynchronization(4, [0]),
         match=1,
     ),
     baca.new(
         baca.flat_glissando("Bb4"),
-        stirrings_still.desynchronization(4, [2]),
+        library.desynchronization(4, [2]),
         match=2,
     ),
     baca.new(
         baca.clef("treble"),
         baca.flat_glissando("Bb4"),
-        stirrings_still.desynchronization(4, [-1]),
+        library.desynchronization(4, [-1]),
         match=3,
     ),
 )

@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from stirrings_still import library as stirrings_still
+from stirrings_still import library
 
 #########################################################################################
 ######################################### 14 [N] ########################################
@@ -20,16 +20,16 @@ stage_markup = (
     ("[N.7]", 37),
 )
 
-score = stirrings_still.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=stirrings_still.instruments,
-    margin_markups=stirrings_still.margin_markups,
-    metronome_marks=stirrings_still.metronome_marks,
-    time_signatures=stirrings_still.time_signatures("N"),
-    voice_abbreviations=stirrings_still.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures("N"),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -70,7 +70,7 @@ time = (
     ("very_long", 39),
 )
 
-stirrings_still.time(commands, time)
+library.time(commands, time)
 
 # v1
 
@@ -84,7 +84,7 @@ commands(
         r"\baca-nine-b-flat",
         abjad.tweak(1.5).padding,
     ),
-    stirrings_still.clouded_pane(),
+    library.clouded_pane(),
 )
 
 commands(
@@ -113,7 +113,7 @@ commands(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.tweak(1.5).padding,
     ),
-    stirrings_still.clouded_pane(),
+    library.clouded_pane(),
 )
 
 commands(
@@ -151,7 +151,7 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    stirrings_still.flight(
+    library.flight(
         "C",
         0,
         start=0,
@@ -199,7 +199,7 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    stirrings_still.flight(
+    library.flight(
         "C",
         0,
         start=1,
@@ -224,14 +224,14 @@ commands(
         abjad.tweak(5.5).staff_padding,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.eighths(),
+    library.eighths(),
 )
 
 # trio
 
 commands(
     ("trio", (1, 8)),
-    stirrings_still.clouded_pane_spanner("clouded pane -|", 8),
+    library.clouded_pane_spanner("clouded pane -|", 8),
 )
 
 commands(
@@ -255,17 +255,17 @@ commands(
 
 commands(
     ("trio", (13, 28)),
-    stirrings_still.urtext_spanner("urtext (field) -|", 8),
+    library.urtext_spanner("urtext (field) -|", 8),
 )
 
 commands(
     ("trio", (30, 35)),
-    stirrings_still.urtext_spanner("urtext (field) -|", 8),
+    library.urtext_spanner("urtext (field) -|", 8),
 )
 
 commands(
     ("trio", (37, 38)),
-    stirrings_still.urtext_spanner(
+    library.urtext_spanner(
         "urtext / clouded pane (composite) -|",
         8,
     ),
@@ -290,7 +290,7 @@ commands(
         r"\baca-eleven-b-flat",
         abjad.tweak(1.5).padding,
     ),
-    stirrings_still.clouded_pane(),
+    library.clouded_pane(),
 )
 
 commands(
@@ -319,7 +319,7 @@ commands(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.tweak(1.5).padding,
     ),
-    stirrings_still.clouded_pane(),
+    library.clouded_pane(),
 )
 
 commands(
@@ -357,7 +357,7 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    stirrings_still.flight(
+    library.flight(
         "C",
         -1,
         start=1,
@@ -405,7 +405,7 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    stirrings_still.flight(
+    library.flight(
         "C",
         -1,
         start=2,
@@ -430,7 +430,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.eighths(),
+    library.eighths(),
 )
 
 # va
@@ -445,7 +445,7 @@ commands(
         r"\baca-thirteen-b-flat",
         abjad.tweak(1.5).padding,
     ),
-    stirrings_still.clouded_pane(),
+    library.clouded_pane(),
 )
 
 commands(
@@ -474,7 +474,7 @@ commands(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.tweak(1.5).padding,
     ),
-    stirrings_still.clouded_pane(),
+    library.clouded_pane(),
 )
 
 commands(
@@ -512,7 +512,7 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    stirrings_still.flight(
+    library.flight(
         "C",
         -2,
         start=2,
@@ -560,7 +560,7 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    stirrings_still.flight(
+    library.flight(
         "C",
         -2,
         start=3,
@@ -585,7 +585,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.eighths(),
+    library.eighths(),
 )
 
 # vc
@@ -596,8 +596,8 @@ commands(
         baca.dots_transparent(),
         baca.stem_transparent(),
     ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner("clouded pane -|", 8),
+    library.clouded_pane(),
+    library.clouded_pane_spanner("clouded pane -|", 8),
 )
 
 commands(
@@ -618,8 +618,8 @@ commands(
     baca.half_clt_spanner(
         abjad.tweak(3 + 6).staff_padding,
     ),
-    stirrings_still.cello_cell(),
-    stirrings_still.cello_cell_bcps(
+    library.cello_cell(),
+    library.cello_cell_bcps(
         staff_padding=3,
     ),
 )
@@ -631,12 +631,12 @@ commands(
         baca.stem_transparent(),
         selector=baca.selectors.leaves((None, -1)),
     ),
-    stirrings_still.clouded_pane(),
+    library.clouded_pane(),
 )
 
 commands(
     ("vc", [(13, 22), (37, 38)]),
-    stirrings_still.clouded_pane_spanner("clouded pane -|", 8),
+    library.clouded_pane_spanner("clouded pane -|", 8),
 )
 
 commands(
@@ -671,7 +671,7 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    stirrings_still.flight(
+    library.flight(
         "C",
         -3,
         start=3,
@@ -688,7 +688,7 @@ commands(
         ),
         match=0,
     ),
-    stirrings_still.urtext_spanner("urtext (field) -|", 8),
+    library.urtext_spanner("urtext (field) -|", 8),
 )
 
 commands(
@@ -733,7 +733,7 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    stirrings_still.flight(
+    library.flight(
         "C",
         -3,
         start=4,
@@ -757,7 +757,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.clouded_pane(),
+    library.clouded_pane(),
 )
 
 if __name__ == "__main__":

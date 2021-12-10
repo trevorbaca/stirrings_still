@@ -2,7 +2,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-from stirrings_still import library as stirrings_still
+from stirrings_still import library
 
 #########################################################################################
 ######################################### 16 [P] ########################################
@@ -16,16 +16,16 @@ stage_markup = (
     ("[P.5]", 21),
 )
 
-score = stirrings_still.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=stirrings_still.instruments,
-    margin_markups=stirrings_still.margin_markups,
-    metronome_marks=stirrings_still.metronome_marks,
-    time_signatures=stirrings_still.time_signatures("P"),
-    voice_abbreviations=stirrings_still.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures("P"),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -45,7 +45,7 @@ time = (
     ("presto", 26),
 )
 
-stirrings_still.time(commands, time)
+library.time(commands, time)
 
 commands(
     ("tutti", (1, 4)),
@@ -97,7 +97,7 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                stirrings_still.wave((4, 16), (1, 16)).rhythm_maker,
+                library.wave((4, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 5]),
                 remember_state_across_gaps=True,
             ),
@@ -148,7 +148,7 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                stirrings_still.wave((4, 16), (1, 16)).rhythm_maker,
+                library.wave((4, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 5]),
                 remember_state_across_gaps=True,
             ),
@@ -199,7 +199,7 @@ commands(
         -0.75,
         selector=baca.selectors.leaves(),
     ),
-    stirrings_still.clouded_pane_spanner("clouded pane -|", 10.5),
+    library.clouded_pane_spanner("clouded pane -|", 10.5),
 )
 
 commands(
@@ -210,7 +210,7 @@ commands(
 commands(
     ("tutti", (21, 25)),
     baca.breathe(),
-    stirrings_still.eighths(),
+    library.eighths(),
 )
 
 # v1, va, vc
@@ -256,7 +256,7 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                stirrings_still.wave((6, 16), (1, 16)).rhythm_maker,
+                library.wave((6, 16), (1, 16)).rhythm_maker,
                 abjad.index([0, 2, 4]),
                 remember_state_across_gaps=True,
             ),
@@ -299,12 +299,12 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                stirrings_still.wave((6, 16), (1, 16)).rhythm_maker,
+                library.wave((6, 16), (1, 16)).rhythm_maker,
                 abjad.index([0, 2, 4]),
                 remember_state_across_gaps=True,
             ),
             rmakers.assign(
-                stirrings_still.eighths().rhythm_maker,
+                library.eighths().rhythm_maker,
                 abjad.index([5]),
             ),
             rmakers.assign(
@@ -369,7 +369,7 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                stirrings_still.wave((5, 16), (1, 16)).rhythm_maker,
+                library.wave((5, 16), (1, 16)).rhythm_maker,
                 abjad.index([3, 4, 5]),
                 remember_state_across_gaps=True,
             ),
@@ -411,7 +411,7 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                stirrings_still.wave((5, 16), (1, 16)).rhythm_maker,
+                library.wave((5, 16), (1, 16)).rhythm_maker,
                 abjad.index([3, 4, 5]),
                 remember_state_across_gaps=True,
             ),
@@ -464,7 +464,7 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                stirrings_still.wave((7, 16), (1, 16)).rhythm_maker,
+                library.wave((7, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 3]),
                 remember_state_across_gaps=True,
             ),
@@ -506,12 +506,12 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                stirrings_still.wave((7, 16), (1, 16)).rhythm_maker,
+                library.wave((7, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 3]),
                 remember_state_across_gaps=True,
             ),
             rmakers.assign(
-                stirrings_still.eighths().rhythm_maker,
+                library.eighths().rhythm_maker,
                 abjad.index([4, 5]),
             ),
             rmakers.assign(

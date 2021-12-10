@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from stirrings_still import library as stirrings_still
+from stirrings_still import library
 
 #########################################################################################
 ######################################### 01 [A] ########################################
@@ -34,16 +34,16 @@ stage_markup = (
     ("[A.18]", 62),
 )
 
-score = stirrings_still.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=stirrings_still.instruments,
-    margin_markups=stirrings_still.margin_markups,
-    metronome_marks=stirrings_still.metronome_marks,
-    time_signatures=stirrings_still.time_signatures("A"),
-    voice_abbreviations=stirrings_still.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures("A"),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -139,7 +139,7 @@ time = (
     ("long", 63),
 )
 
-stirrings_still.time(commands, time)
+library.time(commands, time)
 
 # v1
 
@@ -147,7 +147,7 @@ commands(
     "v1",
     baca.staff_lines(5),
     baca.suite(
-        stirrings_still.margin_markup("Vn. I"),
+        library.margin_markup("Vn. I"),
         baca.start_markup(r"\stirrings-still-violin-i-markup"),
     ),
     baca.tuplet_bracket_down(),
@@ -182,7 +182,7 @@ commands(
 commands(
     ("v1", [23, 26, (30, 45)]),
     baca.flat_glissando("B4"),
-    stirrings_still.desynchronization(4, [1]),
+    library.desynchronization(4, [1]),
 )
 
 commands(
@@ -195,8 +195,8 @@ commands(
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
     ),
-    stirrings_still.loure_tuplets(0),
-    stirrings_still.urtext_spanner("urtext (double stop G.1) -|", 8),
+    library.loure_tuplets(0),
+    library.urtext_spanner("urtext (double stop G.1) -|", 8),
 )
 
 commands(
@@ -214,7 +214,7 @@ commands(
         abjad.tweak(True).to_barline,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.desynchronization(4, [1]),
+    library.desynchronization(4, [1]),
 )
 
 commands(
@@ -253,15 +253,15 @@ commands(
         baca.stop_on_string(),
         selector=baca.selectors.pleaf(-1),
     ),
-    stirrings_still.breathe(
+    library.breathe(
         baca.selectors.pleaf(1),
     ),
-    stirrings_still.declamation(),
+    library.declamation(),
 )
 
 commands(
     ("trio", (1, 16)),
-    stirrings_still.urtext_spanner("urtext (cds) A, B -|", 8),
+    library.urtext_spanner("urtext (cds) A, B -|", 8),
 )
 
 commands(
@@ -325,10 +325,10 @@ commands(
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
     ),
-    stirrings_still.breathe(
+    library.breathe(
         selector=baca.selectors.leaf(1),
     ),
-    stirrings_still.declamation(
+    library.declamation(
         protract=True,
     ),
 )
@@ -355,18 +355,18 @@ commands(
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
     ),
-    stirrings_still.breathe(
+    library.breathe(
         selector=baca.selectors.pleaf(1),
     ),
-    stirrings_still.breathe(
+    library.breathe(
         selector=baca.selectors.pleaf(-1),
     ),
-    stirrings_still.declamation(),
+    library.declamation(),
 )
 
 commands(
     ("trio", [(18, 22), 25, 29]),
-    stirrings_still.urtext_spanner("C, D -|", 8),
+    library.urtext_spanner("C, D -|", 8),
 )
 
 commands(
@@ -492,11 +492,11 @@ commands(
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
     ),
-    stirrings_still.breathe(
+    library.breathe(
         selector=baca.selectors.pleaf(1),
     ),
-    stirrings_still.declamation(),
-    stirrings_still.urtext_spanner("A, B -|", 8),
+    library.declamation(),
+    library.urtext_spanner("A, B -|", 8),
 )
 
 # tutti
@@ -536,7 +536,7 @@ commands(
         pieces=baca.selectors.mgroups([1, 2]),
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.urtext_spanner("urtext (rasp) -|", 10.5),
+    library.urtext_spanner("urtext (rasp) -|", 10.5),
 )
 
 commands(
@@ -553,7 +553,7 @@ commands(
         abjad.tweak(True).to_barline,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.circles((1, 4)),
+    library.circles((1, 4)),
 )
 
 # v2
@@ -562,7 +562,7 @@ commands(
     "v2",
     baca.staff_lines(5),
     baca.suite(
-        stirrings_still.margin_markup("Vn. II"),
+        library.margin_markup("Vn. II"),
         baca.start_markup(r"\stirrings-still-violin-ii-markup"),
     ),
     baca.tuplet_bracket_down(),
@@ -597,7 +597,7 @@ commands(
 commands(
     ("v2", [23, 26, (30, 45)]),
     baca.flat_glissando("Db4"),
-    stirrings_still.desynchronization(4, [0]),
+    library.desynchronization(4, [0]),
 )
 
 commands(
@@ -610,8 +610,8 @@ commands(
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
     ),
-    stirrings_still.loure_tuplets(1),
-    stirrings_still.urtext_spanner("urtext (double stop G.1) -|", 8),
+    library.loure_tuplets(1),
+    library.urtext_spanner("urtext (double stop G.1) -|", 8),
 )
 
 commands(
@@ -629,7 +629,7 @@ commands(
         abjad.tweak(True).to_barline,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.desynchronization(4, [0]),
+    library.desynchronization(4, [0]),
 )
 
 commands(
@@ -648,7 +648,7 @@ commands(
     "va",
     baca.staff_lines(5),
     baca.suite(
-        stirrings_still.margin_markup("Va."),
+        library.margin_markup("Va."),
         baca.start_markup(r"\stirrings-still-viola-markup"),
     ),
     baca.tuplet_bracket_down(),
@@ -683,7 +683,7 @@ commands(
 commands(
     ("va", [23, 26, (30, 45)]),
     baca.flat_glissando("A3"),
-    stirrings_still.desynchronization(4, [2]),
+    library.desynchronization(4, [2]),
 )
 
 commands(
@@ -696,8 +696,8 @@ commands(
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
     ),
-    stirrings_still.clouded_pane_spanner("clouded (partial G.1) -|", 8),
-    stirrings_still.loure_tuplets(-1),
+    library.clouded_pane_spanner("clouded (partial G.1) -|", 8),
+    library.loure_tuplets(-1),
 )
 
 commands(
@@ -715,7 +715,7 @@ commands(
         abjad.tweak(True).to_barline,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.desynchronization(4, [2]),
+    library.desynchronization(4, [2]),
 )
 
 commands(
@@ -734,7 +734,7 @@ commands(
     "vc",
     baca.staff_lines(5),
     baca.suite(
-        stirrings_still.margin_markup("Vc."),
+        library.margin_markup("Vc."),
         baca.start_markup(r"\stirrings-still-cello-markup"),
     ),
     baca.tuplet_bracket_down(),
@@ -760,7 +760,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
         left_broken_text=r"\baca-left-broken-t-markup",
     ),
-    stirrings_still.urtext_spanner("urtext (field) -|", 8),
+    library.urtext_spanner("urtext (field) -|", 8),
 )
 
 commands(
@@ -771,11 +771,11 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.pitch("B1"),
-    stirrings_still.clouded_pane_spanner(
+    library.clouded_pane_spanner(
         "clouded pane (pane / urtext) -|",
         5.5,
     ),
-    stirrings_still.taper((1, 1)),
+    library.taper((1, 1)),
 )
 
 commands(
@@ -796,7 +796,7 @@ commands(
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
     ),
-    stirrings_still.urtext_spanner("urtext (field) -|", 8),
+    library.urtext_spanner("urtext (field) -|", 8),
 )
 
 commands(
@@ -823,8 +823,8 @@ commands(
         direction=abjad.Down,
     ),
     baca.note_head_style_harmonic(),
-    stirrings_still.cello_cell(),
-    stirrings_still.cello_cell_bcps(
+    library.cello_cell(),
+    library.cello_cell_bcps(
         staff_padding=4.5,
     ),
 )
@@ -849,7 +849,7 @@ commands(
         abjad.tweak(True).to_barline,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.desynchronization(4, [-1]),
+    library.desynchronization(4, [-1]),
 )
 
 commands(
@@ -874,8 +874,8 @@ commands(
         direction=abjad.Down,
     ),
     baca.note_head_style_harmonic(),
-    stirrings_still.cello_cell(),
-    stirrings_still.cello_cell_bcps(
+    library.cello_cell(),
+    library.cello_cell_bcps(
         staff_padding=4.5,
     ),
 )

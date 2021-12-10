@@ -2,7 +2,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-from stirrings_still import library as stirrings_still
+from stirrings_still import library
 
 #########################################################################################
 ######################################### 13 [M] ########################################
@@ -18,16 +18,16 @@ stage_markup = (
     ("[M.7]", 29),
 )
 
-score = stirrings_still.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=stirrings_still.instruments,
-    margin_markups=stirrings_still.margin_markups,
-    metronome_marks=stirrings_still.metronome_marks,
-    time_signatures=stirrings_still.time_signatures("M"),
-    voice_abbreviations=stirrings_still.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures("M"),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -46,7 +46,7 @@ time = (
     ("larghissimo", 31),
 )
 
-stirrings_still.time(commands, time)
+library.time(commands, time)
 
 # v1
 
@@ -89,7 +89,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
         qualifier="very-wide",
     ),
-    stirrings_still.pickets(4, 2),
+    library.pickets(4, 2),
 )
 
 commands(
@@ -126,7 +126,7 @@ commands(
         abjad.tweak(8).staff_padding,
         selector=baca.selectors.leaf(1),
     ),
-    stirrings_still.pickets(
+    library.pickets(
         4,
         2,
         rmakers.force_note(baca.selectors.tuplet(0)),
@@ -143,7 +143,7 @@ commands(
         qualifier="very-wide",
         selector=baca.selectors.leaves((1, None), rleak=True),
     ),
-    stirrings_still.pickets(
+    library.pickets(
         4,
         2,
         rmakers.force_note(baca.selectors.tuplet(0)),
@@ -195,21 +195,21 @@ commands(
 
 commands(
     ("trio", (1, 8)),
-    stirrings_still.clouded_pane_spanner("clouded pane -|", 8),
+    library.clouded_pane_spanner("clouded pane -|", 8),
 )
 
 commands(
     ("trio", (9, 12)),
     # TODO: allow score-specific simultaneous material spanners
-    # stirrings_still.circle_spanner(
+    # library.circle_spanner(
     #     "intercalated ds circles -|", 10.5,
     # ),
-    stirrings_still.urtext_spanner("urtext (ds) -|", 8),
+    library.urtext_spanner("urtext (ds) -|", 8),
 )
 
 commands(
     ("trio", (13, 16)),
-    stirrings_still.clouded_pane_spanner(
+    library.clouded_pane_spanner(
         "clouded pane -|",
         8,
         selector=lambda _: baca.Selection(_).leaves().rleak().rleak(),
@@ -219,10 +219,10 @@ commands(
 commands(
     ("trio", (17, 20)),
     # TODO: allow score-specific simultaneous material spanners
-    # stirrings_still.circle_spanner(
+    # library.circle_spanner(
     #     "intercalated ds circles -|", 10.5,
     # ),
-    stirrings_still.urtext_spanner(
+    library.urtext_spanner(
         "urtext (ds) -|",
         8,
         selector=baca.selectors.leaves((1, None), rleak=True),
@@ -231,21 +231,21 @@ commands(
 
 commands(
     ("trio", (21, 25)),
-    stirrings_still.clouded_pane_spanner("clouded pane -|", 8),
+    library.clouded_pane_spanner("clouded pane -|", 8),
 )
 
 commands(
     ("trio", (26, 28)),
     # TODO: allow score-specific simultaneous material spanners
-    # stirrings_still.circle_spanner(
+    # library.circle_spanner(
     #     "intercalated ds circles -|", 10.5,
     # ),
-    stirrings_still.urtext_spanner("urtext (ds) -|", 8),
+    library.urtext_spanner("urtext (ds) -|", 8),
 )
 
 commands(
     ("trio", (29, 32)),
-    stirrings_still.clouded_pane_spanner("clouded pane -|", 8),
+    library.clouded_pane_spanner("clouded pane -|", 8),
 )
 
 # v2
@@ -289,7 +289,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
         qualifier="very-wide",
     ),
-    stirrings_still.pickets(4, 1),
+    library.pickets(4, 1),
 )
 
 commands(
@@ -326,7 +326,7 @@ commands(
         abjad.tweak(8).staff_padding,
         selector=baca.selectors.leaf(1),
     ),
-    stirrings_still.pickets(
+    library.pickets(
         4,
         1,
         rmakers.force_note(baca.selectors.tuplet(0)),
@@ -343,7 +343,7 @@ commands(
         qualifier="very-wide",
         selector=baca.selectors.leaves((1, None), rleak=True),
     ),
-    stirrings_still.pickets(
+    library.pickets(
         4,
         1,
         rmakers.force_note(baca.selectors.tuplet(0)),
@@ -402,7 +402,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
         qualifier="very-wide",
     ),
-    stirrings_still.pickets(4, 0),
+    library.pickets(4, 0),
 )
 
 commands(
@@ -439,7 +439,7 @@ commands(
         abjad.tweak(8).staff_padding,
         selector=baca.selectors.leaf(1),
     ),
-    stirrings_still.pickets(
+    library.pickets(
         4,
         0,
         rmakers.force_note(baca.selectors.tuplet(0)),
@@ -456,7 +456,7 @@ commands(
         qualifier="very-wide",
         selector=baca.selectors.leaves((1, None), rleak=True),
     ),
-    stirrings_still.pickets(
+    library.pickets(
         4,
         0,
         rmakers.force_note(baca.selectors.tuplet(0)),
@@ -494,7 +494,7 @@ commands(
         measures=29,
         selector=baca.selectors.leaf(0),
     ),
-    stirrings_still.clouded_pane_spanner(
+    library.clouded_pane_spanner(
         "clouded pane (semitone down) -|",
         5.5,
         # TODO: extend to phantom measure
@@ -509,7 +509,7 @@ commands(
         hide_middle_stems=True,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.clouded_pane(),
+    library.clouded_pane(),
 )
 
 commands(
@@ -521,7 +521,7 @@ commands(
         right_broken_show_next=True,
         stop_pitch="Bb1",
     ),
-    stirrings_still.clouded_pane(),
+    library.clouded_pane(),
 )
 
 if __name__ == "__main__":

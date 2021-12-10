@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from stirrings_still import library as stirrings_still
+from stirrings_still import library
 
 #########################################################################################
 ######################################### 03 [C] ########################################
@@ -32,16 +32,16 @@ stage_markup = (
     ("[C.19]", 71),
 )
 
-score = stirrings_still.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=stirrings_still.instruments,
-    margin_markups=stirrings_still.margin_markups,
-    metronome_marks=stirrings_still.metronome_marks,
-    time_signatures=stirrings_still.time_signatures("C"),
-    voice_abbreviations=stirrings_still.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures("C"),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -129,7 +129,7 @@ time = (
     ("fermata", 77),
 )
 
-stirrings_still.time(commands, time)
+library.time(commands, time)
 
 # v1
 
@@ -141,8 +141,8 @@ commands(
         abjad.tweak(1.5).padding,
     ),
     baca.pitch("<F4 A4>"),
-    stirrings_still.loure_tuplets(0),
-    stirrings_still.urtext_spanner("urtext (ds) -|", 8),
+    library.loure_tuplets(0),
+    library.urtext_spanner("urtext (ds) -|", 8),
 )
 
 commands(
@@ -170,8 +170,8 @@ commands(
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
     ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner("clouded pane (beacon) -|", 8),
+    library.clouded_pane(),
+    library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
 )
 
 commands(
@@ -256,8 +256,8 @@ commands(
         ),
         match=2,
     ),
-    stirrings_still.urtext_spanner("urtext (ds field) -|", 5.5),
-    stirrings_still.urtext_field(),
+    library.urtext_spanner("urtext (ds field) -|", 5.5),
+    library.urtext_field(),
 )
 
 # tutti
@@ -283,19 +283,19 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [1]),
+        library.desynchronization(4, [1]),
         match=0,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [0]),
+        library.desynchronization(4, [0]),
         match=1,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [2]),
+        library.desynchronization(4, [2]),
         match=2,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [-1]),
+        library.desynchronization(4, [-1]),
         match=3,
     ),
 )
@@ -316,7 +316,7 @@ commands(
     ),
     baca.new(
         baca.flat_glissando("Bb4"),
-        stirrings_still.desynchronization(4, [1]),
+        library.desynchronization(4, [1]),
         match=0,
     ),
     baca.new(
@@ -324,17 +324,17 @@ commands(
             "G4",
             stop_pitch="A4",
         ),
-        stirrings_still.desynchronization(4, [0]),
+        library.desynchronization(4, [0]),
         match=1,
     ),
     baca.new(
         baca.flat_glissando("Bb4"),
-        stirrings_still.desynchronization(4, [2]),
+        library.desynchronization(4, [2]),
         match=2,
     ),
     baca.new(
         baca.flat_glissando("Bb4"),
-        stirrings_still.desynchronization(4, [-1]),
+        library.desynchronization(4, [-1]),
         match=3,
     ),
 )
@@ -346,19 +346,19 @@ commands(
         abjad.tweak(-0.75).self_alignment_X,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [1], rests=True),
+        library.desynchronization(4, [1], rests=True),
         match=0,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [0], rests=True),
+        library.desynchronization(4, [0], rests=True),
         match=1,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [2], rests=True),
+        library.desynchronization(4, [2], rests=True),
         match=2,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [-1], rests=True),
+        library.desynchronization(4, [-1], rests=True),
         match=3,
     ),
     baca.text_spanner(
@@ -383,19 +383,19 @@ commands(
     ("tutti", (16, 19)),
     baca.dynamic("p", redundant=True),
     baca.new(
-        stirrings_still.desynchronization(4, [1], rests=True),
+        library.desynchronization(4, [1], rests=True),
         match=0,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [0], rests=True),
+        library.desynchronization(4, [0], rests=True),
         match=1,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [2], rests=True),
+        library.desynchronization(4, [2], rests=True),
         match=2,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [-1], rests=True),
+        library.desynchronization(4, [-1], rests=True),
         match=3,
     ),
     baca.text_spanner(
@@ -412,25 +412,25 @@ commands(
     ("tutti", (20, 23)),
     baca.dynamic("p", redundant=True),
     baca.new(
-        stirrings_still.desynchronization(4, [1], rests=([2], 3)),
+        library.desynchronization(4, [1], rests=([2], 3)),
         match=0,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [0], rests=([2], 3)),
+        library.desynchronization(4, [0], rests=([2], 3)),
         match=1,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [2], rests=([2], 3)),
+        library.desynchronization(4, [2], rests=([2], 3)),
         match=2,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [-1], rests=([2], 3)),
+        library.desynchronization(4, [-1], rests=([2], 3)),
         match=3,
     ),
     baca.text_spanner(
         r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
         abjad.tweak(5.5).staff_padding,
-        stirrings_still.left_broken_circle_bow_tweak(),
+        library.left_broken_circle_bow_tweak(),
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.selectors.omgroups([2]),
@@ -442,19 +442,19 @@ commands(
     ("tutti", (24, 27)),
     baca.dynamic("p", redundant=True),
     baca.new(
-        stirrings_still.desynchronization(4, [1]),
+        library.desynchronization(4, [1]),
         match=0,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [0]),
+        library.desynchronization(4, [0]),
         match=1,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [2]),
+        library.desynchronization(4, [2]),
         match=2,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [-1]),
+        library.desynchronization(4, [-1]),
         match=3,
     ),
     baca.circle_bow_spanner(
@@ -478,25 +478,25 @@ commands(
         bookend=False,
         pieces=baca.selectors.runs(),
     ),
-    stirrings_still.synchronized_circles(rests=[-1]),
+    library.synchronized_circles(rests=[-1]),
 )
 
 commands(
     ("tutti", (36, 55)),
     baca.new(
-        stirrings_still.synchronized_circles(rotation=0),
+        library.synchronized_circles(rotation=0),
         match=0,
     ),
     baca.new(
-        stirrings_still.synchronized_circles(rotation=-1),
+        library.synchronized_circles(rotation=-1),
         match=1,
     ),
     baca.new(
-        stirrings_still.synchronized_circles(rotation=-2),
+        library.synchronized_circles(rotation=-2),
         match=2,
     ),
     baca.new(
-        stirrings_still.synchronized_circles(rotation=-3),
+        library.synchronized_circles(rotation=-3),
         match=3,
     ),
 )
@@ -563,19 +563,19 @@ commands(
         selector=lambda _: baca.Selection(_).leaves().lleak().rleak(),
     ),
     baca.new(
-        stirrings_still.synchronized_circles(gaps=False, rotation=0),
+        library.synchronized_circles(gaps=False, rotation=0),
         match=0,
     ),
     baca.new(
-        stirrings_still.synchronized_circles(gaps=False, rotation=-1),
+        library.synchronized_circles(gaps=False, rotation=-1),
         match=1,
     ),
     baca.new(
-        stirrings_still.synchronized_circles(gaps=False, rotation=-2),
+        library.synchronized_circles(gaps=False, rotation=-2),
         match=2,
     ),
     baca.new(
-        stirrings_still.synchronized_circles(gaps=False, rotation=-3),
+        library.synchronized_circles(gaps=False, rotation=-3),
         match=3,
     ),
 )
@@ -607,7 +607,7 @@ commands(
         baca.pitch("B1"),
         match=3,
     ),
-    stirrings_still.synchronized_circles(
+    library.synchronized_circles(
         rests=[-1],
         rotation=0,
     ),
@@ -639,7 +639,7 @@ commands(
             "Bb4",
             stop_pitch="G4",
         ),
-        stirrings_still.desynchronization(4, [1]),
+        library.desynchronization(4, [1]),
         match=0,
     ),
     baca.new(
@@ -647,7 +647,7 @@ commands(
             "Ab4",
             stop_pitch="F4",
         ),
-        stirrings_still.desynchronization(4, [0]),
+        library.desynchronization(4, [0]),
         match=1,
     ),
     baca.new(
@@ -655,7 +655,7 @@ commands(
             "A3",
             stop_pitch="B2",
         ),
-        stirrings_still.desynchronization(4, [2]),
+        library.desynchronization(4, [2]),
         match=2,
     ),
     baca.new(
@@ -663,7 +663,7 @@ commands(
             "G2",
             stop_pitch="Bb1",
         ),
-        stirrings_still.desynchronization(4, [-1]),
+        library.desynchronization(4, [-1]),
         match=3,
     ),
     baca.text_spanner(
@@ -687,8 +687,8 @@ commands(
         abjad.tweak(1.5).padding,
     ),
     baca.pitch("<E4 G#4>"),
-    stirrings_still.loure_tuplets(1),
-    stirrings_still.urtext_spanner("urtext (ds) -|", 8),
+    library.loure_tuplets(1),
+    library.urtext_spanner("urtext (ds) -|", 8),
 )
 
 commands(
@@ -716,7 +716,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
     ),
     baca.new(
-        stirrings_still.clockticks(),
+        library.clockticks(),
         measures=28,
     ),
     baca.new(
@@ -755,8 +755,8 @@ commands(
         abjad.tweak(1.5).padding,
     ),
     baca.pitch("<Aqf3 C#4>"),
-    stirrings_still.clouded_pane_spanner("clouded (partial: stopped) -|", 8),
-    stirrings_still.loure_tuplets(-1),
+    library.clouded_pane_spanner("clouded (partial: stopped) -|", 8),
+    library.loure_tuplets(-1),
 )
 
 commands(
@@ -784,8 +784,8 @@ commands(
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
     ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner("clouded pane (beacon) -|", 8),
+    library.clouded_pane(),
+    library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
 )
 
 commands(
@@ -833,15 +833,15 @@ commands(
     baca.clef("bass"),
     baca.hairpin(
         "o< f >o niente",
-        pieces=stirrings_still.rleaves_partition_by_counts([1, 1, 1]),
+        pieces=library.rleaves_partition_by_counts([1, 1, 1]),
         selector=baca.selectors.rleaves(),
     ),
     baca.pitch("B1"),
-    stirrings_still.clouded_pane_spanner(
+    library.clouded_pane_spanner(
         "clouded pane (pane / urtext) -|",
         5.5,
     ),
-    stirrings_still.taper((1, 1)),
+    library.taper((1, 1)),
 )
 
 commands(
@@ -872,8 +872,8 @@ commands(
         abjad.tweak(True).to_barline,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
+    library.clouded_pane(),
+    library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
 )
 
 commands(
@@ -885,8 +885,8 @@ commands(
         abjad.tweak(True).to_barline,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
+    library.clouded_pane(),
+    library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
 )
 
 commands(

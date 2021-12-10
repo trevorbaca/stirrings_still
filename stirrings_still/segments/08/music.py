@@ -2,7 +2,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-from stirrings_still import library as stirrings_still
+from stirrings_still import library
 
 #########################################################################################
 ######################################### 08 [H] ########################################
@@ -32,16 +32,16 @@ stage_markup = (
     ("[H.14.2]", 56),
 )
 
-score = stirrings_still.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=stirrings_still.instruments,
-    margin_markups=stirrings_still.margin_markups,
-    metronome_marks=stirrings_still.metronome_marks,
-    time_signatures=stirrings_still.time_signatures("H"),
-    voice_abbreviations=stirrings_still.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures("H"),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -90,7 +90,7 @@ time = (
     ("largo", 56),
 )
 
-stirrings_still.time(commands, time)
+library.time(commands, time)
 
 # v1
 
@@ -122,13 +122,13 @@ commands(
         r"\baca-thirteen-d-flat",
         abjad.tweak(1.5).padding,
     ),
-    stirrings_still.circles((1, 8)),
+    library.circles((1, 8)),
     baca.flat_glissando("Aqs4"),
 )
 
 commands(
     ("v1", (7, 8)),
-    stirrings_still.accelerando((1, 2), (8, 32)),
+    library.accelerando((1, 2), (8, 32)),
 )
 
 commands(
@@ -142,7 +142,7 @@ commands(
 
 commands(
     ("v1", (9, 16)),
-    stirrings_still.desynchronization(4, [0, 2, 1]),
+    library.desynchronization(4, [0, 2, 1]),
 )
 
 commands(
@@ -190,7 +190,7 @@ commands(
         pieces=baca.selectors.mgroups([3, 5 + 1]),
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.urtext_spanner("urtext (rasp) -|", 10.5),
+    library.urtext_spanner("urtext (rasp) -|", 10.5),
 )
 
 commands(
@@ -238,7 +238,7 @@ commands(
 
 commands(
     ("v2", (11, 12)),
-    stirrings_still.accelerando((1, 2), (7, 32)),
+    library.accelerando((1, 2), (7, 32)),
 )
 
 commands(
@@ -252,7 +252,7 @@ commands(
 
 commands(
     ("v2", (13, 16)),
-    stirrings_still.desynchronization(4, [1, 0, 2]),
+    library.desynchronization(4, [1, 0, 2]),
 )
 
 commands(
@@ -280,7 +280,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
     ),
     baca.new(
-        stirrings_still.clockticks(),
+        library.clockticks(),
         measures=33,
     ),
     baca.new(
@@ -316,7 +316,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
     ),
     baca.new(
-        stirrings_still.clockticks(),
+        library.clockticks(),
         measures=53,
     ),
     baca.new(
@@ -364,7 +364,7 @@ commands(
         abjad.tweak(1.5).padding,
     ),
     baca.pitch("Bqf3"),
-    stirrings_still.circles(
+    library.circles(
         (1, 2),
         rmakers.force_rest(baca.selectors.lt(0)),
         remainder=abjad.Left,
@@ -373,7 +373,7 @@ commands(
 
 commands(
     ("va", (7, 8)),
-    stirrings_still.accelerando((1, 2), (6, 32)),
+    library.accelerando((1, 2), (6, 32)),
 )
 
 commands(
@@ -387,7 +387,7 @@ commands(
 
 commands(
     ("va", (9, 16)),
-    stirrings_still.desynchronization(4, [1, 0, 2]),
+    library.desynchronization(4, [1, 0, 2]),
 )
 
 commands(
@@ -448,10 +448,10 @@ commands(
     baca.half_clt_spanner(
         abjad.tweak(6 + 6.5).staff_padding,
     ),
-    stirrings_still.transition_bcps(
+    library.transition_bcps(
         staff_padding=6,
     ),
-    stirrings_still.eighths(),
+    library.eighths(),
 )
 
 commands(
@@ -486,7 +486,7 @@ commands(
         ),
         baca.finger_pressure_transition(),
     ),
-    stirrings_still.clouded_pane_spanner("clouded pane -|", 8),
+    library.clouded_pane_spanner("clouded pane -|", 8),
 )
 
 commands(
@@ -554,13 +554,13 @@ commands(
         abjad.tweak(10.5).staff_padding,
     ),
     baca.tuplet_bracket_down(),
-    stirrings_still.bcps(
+    library.bcps(
         -4,
         clt=True,
         staff_padding=3,
     ),
     baca.flat_glissando("Db2"),
-    stirrings_still.trajectories("A", -1, 0),
+    library.trajectories("A", -1, 0),
 )
 
 commands(
@@ -578,8 +578,8 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.pitch("B1"),
-    stirrings_still.taper((1, 1)),
-    stirrings_still.clouded_pane_spanner("clouded pane (pane / urtext) -|", 8),
+    library.taper((1, 1)),
+    library.clouded_pane_spanner("clouded pane (pane / urtext) -|", 8),
 )
 
 commands(
@@ -631,7 +631,7 @@ commands(
             abjad.tweak(1.5).padding,
         ),
         baca.flat_glissando("Gqf4"),
-        stirrings_still.pickets(
+        library.pickets(
             4,
             2,
             rmakers.force_rest(baca.selectors.tuplet(0)),
@@ -644,7 +644,7 @@ commands(
             abjad.tweak(1.5).padding,
         ),
         baca.flat_glissando("Atqf3"),
-        stirrings_still.pickets(
+        library.pickets(
             4,
             1,
             rmakers.force_rest(baca.selectors.tuplet(0)),
@@ -657,7 +657,7 @@ commands(
             abjad.tweak(1.5).padding,
         ),
         baca.flat_glissando("C3"),
-        stirrings_still.pickets(
+        library.pickets(
             4,
             0,
             rmakers.force_rest(baca.selectors.tuplet(0)),
@@ -675,15 +675,15 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
-        stirrings_still.accelerando((1, 2), (4, 32)),
+        library.accelerando((1, 2), (4, 32)),
         match=0,
     ),
     baca.new(
-        stirrings_still.accelerando((1, 2), (8, 32)),
+        library.accelerando((1, 2), (8, 32)),
         match=1,
     ),
     baca.new(
-        stirrings_still.accelerando((1, 2), (12, 32)),
+        library.accelerando((1, 2), (12, 32)),
         match=2,
     ),
     baca.text_spanner(
@@ -704,15 +704,15 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
-        stirrings_still.accelerando((1, 2), (4, 32)),
+        library.accelerando((1, 2), (4, 32)),
         match=0,
     ),
     baca.new(
-        stirrings_still.accelerando((1, 2), (8, 32)),
+        library.accelerando((1, 2), (8, 32)),
         match=1,
     ),
     baca.new(
-        stirrings_still.accelerando((1, 2), (12, 32)),
+        library.accelerando((1, 2), (12, 32)),
         match=2,
     ),
     baca.text_spanner(
@@ -733,15 +733,15 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
-        stirrings_still.accelerando((1, 2), (4, 32)),
+        library.accelerando((1, 2), (4, 32)),
         match=0,
     ),
     baca.new(
-        stirrings_still.accelerando((1, 2), (8, 32)),
+        library.accelerando((1, 2), (8, 32)),
         match=1,
     ),
     baca.new(
-        stirrings_still.accelerando((1, 2), (12, 32)),
+        library.accelerando((1, 2), (12, 32)),
         match=2,
     ),
     baca.text_spanner(
@@ -766,7 +766,7 @@ commands(
             abjad.tweak(1.5).padding,
         ),
         baca.flat_glissando("Aqs4"),
-        stirrings_still.pickets(4, 2),
+        library.pickets(4, 2),
         match=0,
     ),
     baca.new(
@@ -775,7 +775,7 @@ commands(
             abjad.tweak(1.5).padding,
         ),
         baca.flat_glissando("Eb4"),
-        stirrings_still.pickets(4, 1),
+        library.pickets(4, 1),
         match=1,
     ),
     baca.new(
@@ -784,7 +784,7 @@ commands(
             abjad.tweak(1).padding,
         ),
         baca.flat_glissando("Bqf3"),
-        stirrings_still.pickets(4, 0),
+        library.pickets(4, 0),
         match=2,
     ),
     baca.text_spanner(
@@ -803,14 +803,14 @@ commands(
     baca.dynamic("mp"),
     baca.new(
         baca.pitch("<F4 A4>"),
-        stirrings_still.loure_tuplets(0),
-        stirrings_still.urtext_spanner("urtext (ds) -|", 8),
+        library.loure_tuplets(0),
+        library.urtext_spanner("urtext (ds) -|", 8),
         match=0,
     ),
     baca.new(
         baca.pitch("<E4 G#4>"),
-        stirrings_still.loure_tuplets(1),
-        stirrings_still.urtext_spanner("urtext (ds) -|", 8),
+        library.loure_tuplets(1),
+        library.urtext_spanner("urtext (ds) -|", 8),
         match=1,
     ),
     baca.new(
@@ -819,8 +819,8 @@ commands(
             abjad.tweak(1).padding,
         ),
         baca.pitch("<Aqf3 C#4>"),
-        stirrings_still.clouded_pane_spanner("clouded pane (partial) -|", 8),
-        stirrings_still.loure_tuplets(-1),
+        library.clouded_pane_spanner("clouded pane (partial) -|", 8),
+        library.loure_tuplets(-1),
         match=2,
     ),
 )
@@ -830,20 +830,20 @@ commands(
     baca.dynamic("mp"),
     baca.new(
         baca.pitch("<F4 A4>"),
-        stirrings_still.loure_tuplets(0),
-        stirrings_still.urtext_spanner("urtext (ds) -|", 8),
+        library.loure_tuplets(0),
+        library.urtext_spanner("urtext (ds) -|", 8),
         match=0,
     ),
     baca.new(
         baca.pitch("<E4 G#4>"),
-        stirrings_still.loure_tuplets(1),
-        stirrings_still.urtext_spanner("urtext (ds) -|", 8),
+        library.loure_tuplets(1),
+        library.urtext_spanner("urtext (ds) -|", 8),
         match=1,
     ),
     baca.new(
         baca.pitch("<Aqf3 C#4>"),
-        stirrings_still.clouded_pane_spanner("clouded pane (partial) -|", 8),
-        stirrings_still.loure_tuplets(-1),
+        library.clouded_pane_spanner("clouded pane (partial) -|", 8),
+        library.loure_tuplets(-1),
         match=2,
     ),
 )
@@ -874,7 +874,7 @@ commands(
             "Aqs4",
             right_broken=True,
         ),
-        stirrings_still.circles((1, 8)),
+        library.circles((1, 8)),
         match=0,
     ),
     baca.new(
@@ -886,7 +886,7 @@ commands(
             "Eb4",
             right_broken=True,
         ),
-        stirrings_still.circles((1, 4)),
+        library.circles((1, 4)),
         match=1,
     ),
 )
@@ -969,8 +969,8 @@ commands(
         match=2,
     ),
     baca.tuplet_bracket_down(),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner("clouded pane (beacon) -|", 8),
+    library.clouded_pane(),
+    library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
 )
 
 commands(
@@ -997,8 +997,8 @@ commands(
         baca.flat_glissando("E2"),
         match=2,
     ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner("clouded pane (beacon) -|", 8),
+    library.clouded_pane(),
+    library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
 )
 
 # tutti
@@ -1046,7 +1046,7 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
-        stirrings_still.urtext_spanner("urtext (rasp) -|", 10.5),
+        library.urtext_spanner("urtext (rasp) -|", 10.5),
         match=[0, 2, 3],
     ),
 )
@@ -1097,7 +1097,7 @@ commands(
         pieces=baca.selectors.mgroups([1, 2]),
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.urtext_spanner("urtext (rasp) -|", 10.5),
+    library.urtext_spanner("urtext (rasp) -|", 10.5),
 )
 
 commands(

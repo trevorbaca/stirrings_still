@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from stirrings_still import library as stirrings_still
+from stirrings_still import library
 
 #########################################################################################
 ######################################### 19 [S] ########################################
@@ -15,16 +15,16 @@ stage_markup = (
     ("[S.5]", 17),
 )
 
-score = stirrings_still.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=stirrings_still.instruments,
-    margin_markups=stirrings_still.margin_markups,
-    metronome_marks=stirrings_still.metronome_marks,
-    time_signatures=stirrings_still.time_signatures("S"),
-    voice_abbreviations=stirrings_still.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures("S"),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -67,7 +67,7 @@ time = (
     ("very_long", 20),
 )
 
-stirrings_still.time(commands, time)
+library.time(commands, time)
 
 # v1
 
@@ -99,7 +99,7 @@ commands(
         ),
         match=0,
     ),
-    stirrings_still.wave((1, 4), (3, 32)),
+    library.wave((1, 4), (3, 32)),
 )
 
 # v1, v2, vc
@@ -140,7 +140,7 @@ commands(
         ),
         match=0,
     ),
-    stirrings_still.wave((5, 32), (1, 4)),
+    library.wave((5, 32), (1, 4)),
 )
 
 # va
