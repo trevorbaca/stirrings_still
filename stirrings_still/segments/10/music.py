@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from stirrings_still import library as stirrings_still
+from stirrings_still import library
 
 #########################################################################################
 ######################################### 10 [J] ########################################
@@ -18,16 +18,16 @@ stage_markup = (
     ("[J.6]", 14),
 )
 
-score = stirrings_still.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=stirrings_still.instruments,
-    margin_markups=stirrings_still.margin_markups,
-    metronome_marks=stirrings_still.metronome_marks,
-    time_signatures=stirrings_still.time_signatures("J"),
-    voice_abbreviations=stirrings_still.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures("J"),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -65,7 +65,7 @@ time = (
     ("andante", 11),
 )
 
-stirrings_still.time(commands, time)
+library.time(commands, time)
 
 # v1
 
@@ -88,7 +88,7 @@ commands(
 
 commands(
     ("v1", (12, 17)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("A4", 4), ("C5", 2), ("B4", 8), ("Db5", 3), ("C5", None)],
         "E5",
     ),
@@ -107,8 +107,8 @@ commands(
         abjad.tweak(True).to_barline,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.urtext_field(),
-    stirrings_still.urtext_spanner("urtext (ds field) -|", 8),
+    library.urtext_field(),
+    library.urtext_spanner("urtext (ds field) -|", 8),
 )
 
 commands(
@@ -122,12 +122,12 @@ commands(
         "appena-udibile -- ! < fff-poco-scratch",
         pieces=baca.selectors.mgroups([2, 5]),
     ),
-    stirrings_still.urtext_field(),
+    library.urtext_field(),
 )
 
 commands(
     ("trio", (5, 11)),
-    stirrings_still.urtext_spanner("urtext (ds field) -|", 8),
+    library.urtext_spanner("urtext (ds field) -|", 8),
 )
 
 commands(
@@ -145,30 +145,30 @@ commands(
         selector=baca.selectors.leaves(),
     ),
     baca.new(
-        stirrings_still.bcps(
+        library.bcps(
             -6,
             clt=True,
             staff_padding=4,
         ),
-        stirrings_still.trajectories("C", -1, -2),
+        library.trajectories("C", -1, -2),
         match=0,
     ),
     baca.new(
-        stirrings_still.bcps(
+        library.bcps(
             -6,
             clt=True,
             staff_padding=4,
         ),
-        stirrings_still.trajectories("C", -2, -1),
+        library.trajectories("C", -2, -1),
         match=1,
     ),
     baca.new(
-        stirrings_still.bcps(
+        library.bcps(
             -5,
             clt=True,
             staff_padding=4,
         ),
-        stirrings_still.trajectories("C", -3, 0),
+        library.trajectories("C", -3, 0),
         match=2,
     ),
     baca.tuplet_bracket_down(),
@@ -208,8 +208,8 @@ commands(
         match=2,
     ),
     baca.tuplet_bracket_down(),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner("clouded pane (beacon) -|", 8),
+    library.clouded_pane(),
+    library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
 )
 
 # tutti
@@ -230,7 +230,7 @@ commands(
 commands(
     ("tutti", 13),
     baca.new(
-        stirrings_still.breathe(),
+        library.breathe(),
         match=[0, 1, 2],
     ),
     baca.new(
@@ -260,7 +260,7 @@ commands(
 
 commands(
     ("v2", (12, 17)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("G#4", 7), ("B4", 7), ("A4", 7), ("C5", 8), ("B4", None)],
         "C#5",
     ),
@@ -281,7 +281,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
     ),
     baca.new(
-        stirrings_still.clockticks(),
+        library.clockticks(),
         measures=3,
     ),
     baca.new(
@@ -315,7 +315,7 @@ commands(
 
 commands(
     ("va", (12, 17)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("F4", 5), ("E4", 5), ("Gb4", 6), ("F4", 7), ("Eb4", None)],
         "D4",
     ),
@@ -361,7 +361,7 @@ commands(
     baca.hairpin(
         "pp < fff-poco-scratch",
     ),
-    stirrings_still.urtext_field(),
+    library.urtext_field(),
 )
 
 commands(
@@ -377,7 +377,7 @@ commands(
     baca.hairpin(
         "fff > pp",
     ),
-    stirrings_still.accelerando((1, 4), (3, 32)),
+    library.accelerando((1, 4), (3, 32)),
 )
 
 commands(

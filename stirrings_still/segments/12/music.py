@@ -2,7 +2,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-from stirrings_still import library as stirrings_still
+from stirrings_still import library
 
 #########################################################################################
 ######################################### 12 [L] ########################################
@@ -10,16 +10,16 @@ from stirrings_still import library as stirrings_still
 
 stage_markup = (("[L.1]", 1),)
 
-score = stirrings_still.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=stirrings_still.instruments,
-    margin_markups=stirrings_still.margin_markups,
-    metronome_marks=stirrings_still.metronome_marks,
-    time_signatures=stirrings_still.time_signatures("L"),
-    voice_abbreviations=stirrings_still.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures("L"),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -34,7 +34,7 @@ commands(
 
 time = (("largo meno mosso", 1),)
 
-stirrings_still.time(commands, time)
+library.time(commands, time)
 
 # v1
 
@@ -61,35 +61,35 @@ commands(
     "v1",
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
-    stirrings_still.bcps(
+    library.bcps(
         -8,
         clt=True,
         measures=(1, 2),
         selector=baca.selectors.rleaves(),
         staff_padding=7,
     ),
-    stirrings_still.bcps(
+    library.bcps(
         -8 - 2,
         clt=True,
         measures=(4, 6),
         selector=baca.selectors.rleaves(),
         staff_padding=7,
     ),
-    stirrings_still.bcps(
+    library.bcps(
         -8 - 4,
         clt=True,
         measures=(8, 10),
         selector=baca.selectors.rleaves(),
         staff_padding=7,
     ),
-    stirrings_still.bcps(
+    library.bcps(
         -8 - 6,
         clt=True,
         measures=(12, 14),
         selector=baca.selectors.rleaves(),
         staff_padding=7,
     ),
-    stirrings_still.trajectories(
+    library.trajectories(
         "C",
         0,
         -3,
@@ -104,7 +104,7 @@ commands(
 
 commands(
     ("v1", (1, 2)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("G6", None)],
         "Bqf5",
         rleak_final_stage=True,
@@ -128,13 +128,13 @@ commands(
 
 commands(
     ("v1", (4, 6)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("Bqf5", None)],
         "G6",
         measures=4,
         rleak_final_stage=True,
     ),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("G6", None)],
         "Bqf5",
         measures=(5, 6),
@@ -144,13 +144,13 @@ commands(
 
 commands(
     ("v1", (8, 10)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("Bqf5", None)],
         "G6",
         measures=8,
         rleak_final_stage=True,
     ),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("G6", None)],
         "Bqf5",
         measures=(9, 10),
@@ -160,13 +160,13 @@ commands(
 
 commands(
     ("v1", (12, 14)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("Bqf5", None)],
         "G6",
         measures=12,
         rleak_final_stage=True,
     ),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("G6", None)],
         "Bqf5",
         measures=(13, 14),
@@ -191,35 +191,35 @@ commands(
     "v2",
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
-    stirrings_still.bcps(
+    library.bcps(
         -7,
         clt=True,
         measures=(1, 2),
         selector=baca.selectors.rleaves(),
         staff_padding=4,
     ),
-    stirrings_still.bcps(
+    library.bcps(
         -7 - 2,
         clt=True,
         measures=(4, 6),
         selector=baca.selectors.rleaves(),
         staff_padding=4,
     ),
-    stirrings_still.bcps(
+    library.bcps(
         -7 - 4,
         clt=True,
         measures=(8, 10),
         selector=baca.selectors.rleaves(),
         staff_padding=4,
     ),
-    stirrings_still.bcps(
+    library.bcps(
         -7 - 6,
         clt=True,
         measures=(12, 14),
         selector=baca.selectors.rleaves(),
         staff_padding=4,
     ),
-    stirrings_still.trajectories(
+    library.trajectories(
         "C",
         -1,
         -2,
@@ -234,7 +234,7 @@ commands(
 
 commands(
     ("v2", (1, 2)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("A5", None)],
         "Eb5",
         rleak_final_stage=True,
@@ -258,13 +258,13 @@ commands(
 
 commands(
     ("v2", (4, 6)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("Eb5", None)],
         "A5",
         measures=4,
         rleak_final_stage=True,
     ),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("A5", None)],
         "Eb5",
         measures=(5, 6),
@@ -274,13 +274,13 @@ commands(
 
 commands(
     ("v2", (8, 10)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("Eb5", None)],
         "A5",
         measures=8,
         rleak_final_stage=True,
     ),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("A5", None)],
         "Eb5",
         measures=(9, 10),
@@ -290,13 +290,13 @@ commands(
 
 commands(
     ("v2", (12, 14)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("Eb5", None)],
         "A5",
         measures=12,
         rleak_final_stage=True,
     ),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("A5", None)],
         "Eb5",
         measures=(13, 14),
@@ -311,35 +311,35 @@ commands(
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
     baca.tuplet_bracket_staff_padding(1.5),
-    stirrings_still.bcps(
+    library.bcps(
         -6,
         clt=True,
         measures=(1, 2),
         selector=baca.selectors.rleaves(),
         staff_padding=3,
     ),
-    stirrings_still.bcps(
+    library.bcps(
         -6 - 2,
         clt=True,
         measures=(4, 6),
         selector=baca.selectors.rleaves(),
         staff_padding=3,
     ),
-    stirrings_still.bcps(
+    library.bcps(
         -6 - 4,
         clt=True,
         measures=(8, 10),
         selector=baca.selectors.rleaves(),
         staff_padding=3,
     ),
-    stirrings_still.bcps(
+    library.bcps(
         -6 - 6,
         clt=True,
         measures=(12, 14),
         selector=baca.selectors.rleaves(),
         staff_padding=3,
     ),
-    stirrings_still.trajectories(
+    library.trajectories(
         "C",
         -2,
         -1,
@@ -354,7 +354,7 @@ commands(
 
 commands(
     ("va", (1, 2)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("D3", None)],
         "F3",
         rleak_final_stage=True,
@@ -378,13 +378,13 @@ commands(
 
 commands(
     ("va", (4, 6)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("F3", None)],
         "D3",
         measures=4,
         rleak_final_stage=True,
     ),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("D3", None)],
         "F3",
         measures=(5, 6),
@@ -394,13 +394,13 @@ commands(
 
 commands(
     ("va", (8, 10)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("F3", None)],
         "D3",
         measures=8,
         rleak_final_stage=True,
     ),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("D3", None)],
         "F3",
         measures=(9, 10),
@@ -410,13 +410,13 @@ commands(
 
 commands(
     ("va", (12, 14)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("F3", None)],
         "D3",
         measures=12,
         rleak_final_stage=True,
     ),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("D3", None)],
         "F3",
         measures=(13, 14),
@@ -439,8 +439,8 @@ commands(
         measures=(1, 15),
         pieces=baca.selectors.cmgroups([2, 1, 1]),
     ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner(
+    library.clouded_pane(),
+    library.clouded_pane_spanner(
         "clouded pane (continues) -|",
         5.5,
         # TODO: extend to phantom measure

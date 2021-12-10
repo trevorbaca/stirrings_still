@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from stirrings_still import library as stirrings_still
+from stirrings_still import library
 
 #########################################################################################
 ######################################### 18 [R] ########################################
@@ -14,16 +14,16 @@ stage_markup = (
     ("[R.4]", 13),
 )
 
-score = stirrings_still.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=stirrings_still.instruments,
-    margin_markups=stirrings_still.margin_markups,
-    metronome_marks=stirrings_still.metronome_marks,
-    time_signatures=stirrings_still.time_signatures("R"),
-    voice_abbreviations=stirrings_still.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures("R"),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -54,7 +54,7 @@ commands(
 
 time = (("fermata", 17),)
 
-stirrings_still.time(commands, time)
+library.time(commands, time)
 
 # v1
 
@@ -69,7 +69,7 @@ commands(
         abjad.tweak(8 + 6).staff_padding,
     ),
     baca.tuplet_bracket_down(),
-    stirrings_still.bcps(
+    library.bcps(
         -8,
         clt=True,
         staff_padding=8,
@@ -78,7 +78,7 @@ commands(
         "A6",
         left_broken=True,
     ),
-    stirrings_still.trajectories("C", 0, -3),
+    library.trajectories("C", 0, -3),
 )
 
 commands(
@@ -112,7 +112,7 @@ commands(
         abjad.tweak(4.5 + 6).staff_padding,
     ),
     baca.tuplet_bracket_down(),
-    stirrings_still.bcps(
+    library.bcps(
         -9,
         clt=True,
         staff_padding=4.5,
@@ -121,7 +121,7 @@ commands(
         "Ab5",
         left_broken=True,
     ),
-    stirrings_still.trajectories("C", -1, -2),
+    library.trajectories("C", -1, -2),
 )
 
 commands(

@@ -2,7 +2,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-from stirrings_still import library as stirrings_still
+from stirrings_still import library
 
 #########################################################################################
 ######################################### 09 [I] ########################################
@@ -18,16 +18,16 @@ stage_markup = (
     ("[I.7]", 10),
 )
 
-score = stirrings_still.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=stirrings_still.instruments,
-    margin_markups=stirrings_still.margin_markups,
-    metronome_marks=stirrings_still.metronome_marks,
-    time_signatures=stirrings_still.time_signatures("I"),
-    voice_abbreviations=stirrings_still.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures("I"),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -46,7 +46,7 @@ time = (
     ("larghissimo", 6),
 )
 
-stirrings_still.time(commands, time)
+library.time(commands, time)
 
 # v1
 
@@ -88,15 +88,15 @@ commands(
         measures=(4, 7),
     ),
     baca.new(
-        stirrings_still.circles((1, 8)),
+        library.circles((1, 8)),
         match=0,
     ),
     baca.new(
-        stirrings_still.circles((1, 4)),
+        library.circles((1, 4)),
         match=1,
     ),
     baca.new(
-        stirrings_still.circles(
+        library.circles(
             (1, 2),
             rmakers.force_rest(baca.selectors.lt(0)),
             remainder=abjad.Left,
@@ -126,9 +126,9 @@ commands(
         abjad.tweak(True).to_barline,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.urtext_field(),
+    library.urtext_field(),
     # TODO: allow right-broken spanner
-    stirrings_still.urtext_spanner(
+    library.urtext_spanner(
         "urtext (sustained ds) -|",
         5.5,
         selector=baca.selectors.leaves(),
@@ -240,8 +240,8 @@ commands(
             selector=baca.selectors.rleaves(),
         ),
     ),
-    stirrings_still.eighths(),
-    stirrings_still.transition_bcps(
+    library.eighths(),
+    library.transition_bcps(
         final_spanner=True,
         staff_padding=6,
     ),
@@ -256,8 +256,8 @@ commands(
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
     ),
-    stirrings_still.cello_cell(),
-    stirrings_still.cello_cell_bcps(
+    library.cello_cell(),
+    library.cello_cell_bcps(
         staff_padding=6,
     ),
 )

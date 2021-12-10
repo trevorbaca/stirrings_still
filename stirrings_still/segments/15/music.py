@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from stirrings_still import library as stirrings_still
+from stirrings_still import library
 
 #########################################################################################
 ######################################### 15 [O] ########################################
@@ -12,16 +12,16 @@ stage_markup = (
     ("[H.13.4]", 7, "#darkgreen"),
 )
 
-score = stirrings_still.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=stirrings_still.instruments,
-    margin_markups=stirrings_still.margin_markups,
-    metronome_marks=stirrings_still.metronome_marks,
-    time_signatures=stirrings_still.time_signatures("O"),
-    voice_abbreviations=stirrings_still.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures("O"),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -45,7 +45,7 @@ time = (
     ("very_long", 8),
 )
 
-stirrings_still.time(commands, time)
+library.time(commands, time)
 
 # v1
 
@@ -61,7 +61,7 @@ commands(
         abjad.tweak(True).to_barline,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.circles((1, 4)),
+    library.circles((1, 4)),
 )
 
 commands(
@@ -79,7 +79,7 @@ commands(
         r"\baca-thirteen-d-flat",
         abjad.tweak(1.5).padding,
     ),
-    stirrings_still.pickets(4, 2),
+    library.pickets(4, 2),
 )
 
 # tutti
@@ -104,7 +104,7 @@ commands(
         abjad.tweak(True).to_barline,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.circles((1, 4)),
+    library.circles((1, 4)),
 )
 
 commands(
@@ -122,7 +122,7 @@ commands(
         r"\baca-nine-d-flat",
         abjad.tweak(1.5).padding,
     ),
-    stirrings_still.pickets(4, 1),
+    library.pickets(4, 1),
 )
 
 # va
@@ -139,7 +139,7 @@ commands(
         abjad.tweak(True).to_barline,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.circles((1, 4)),
+    library.circles((1, 4)),
 )
 
 commands(
@@ -157,7 +157,7 @@ commands(
         r"\baca-seven-d-flat",
         abjad.tweak(1.5).padding,
     ),
-    stirrings_still.pickets(4, 0),
+    library.pickets(4, 0),
 )
 
 # vc
@@ -174,7 +174,7 @@ commands(
         abjad.tweak(True).to_barline,
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.circles((1, 4)),
+    library.circles((1, 4)),
 )
 
 commands(
@@ -189,12 +189,12 @@ commands(
         abjad.tweak(3 + 6.5).staff_padding,
     ),
     baca.tuplet_bracket_down(),
-    stirrings_still.bcps(
+    library.bcps(
         -4,
         clt=True,
         staff_padding=3,
     ),
-    stirrings_still.trajectories("A", -1, 0),
+    library.trajectories("A", -1, 0),
 )
 
 if __name__ == "__main__":

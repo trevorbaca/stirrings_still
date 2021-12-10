@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from stirrings_still import library as stirrings_still
+from stirrings_still import library
 
 #########################################################################################
 ######################################### 11 [K] ########################################
@@ -26,16 +26,16 @@ stage_markup = (
     ("[K.10]", 46),
 )
 
-score = stirrings_still.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=stirrings_still.instruments,
-    margin_markups=stirrings_still.margin_markups,
-    metronome_marks=stirrings_still.metronome_marks,
-    time_signatures=stirrings_still.time_signatures("K"),
-    voice_abbreviations=stirrings_still.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures("K"),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -80,7 +80,7 @@ time = (
     ("short", 54),
 )
 
-stirrings_still.time(commands, time)
+library.time(commands, time)
 
 # v1
 
@@ -89,17 +89,17 @@ commands(
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
     ),
-    stirrings_still.bcps(
+    library.bcps(
         0,
         clt=True,
         staff_padding=4,
     ),
-    stirrings_still.trajectories("B", 0, 0, end_counts=[1]),
+    library.trajectories("B", 0, 0, end_counts=[1]),
 )
 
 commands(
     ("v1", (1, 2)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("E5", 3), ("D5", None)],
         "F5",
     ),
@@ -116,25 +116,25 @@ commands(
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        pieces=stirrings_still.rleaves_partition_by_ratio((1, 1, 1)),
+        pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
     ),
-    stirrings_still.desynchronization(4, [2]),
+    library.desynchronization(4, [2]),
     baca.flat_glissando("Bqf5"),
 )
 
 commands(
     ("v1", (5, 8)),
-    stirrings_still.accelerando(
+    library.accelerando(
         (8, 32),
         (1, 2),
         measures=(6, 8),
     ),
-    stirrings_still.bcps(
+    library.bcps(
         0,
         clt=True,
         staff_padding=4,
     ),
-    stirrings_still.trajectories(
+    library.trajectories(
         "B",
         0,
         0,
@@ -151,7 +151,7 @@ commands(
 
 commands(
     ("v1", (5, 16)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [
             ("F5", 5),
             ("Gb5", 4),
@@ -170,12 +170,12 @@ commands(
 
 commands(
     ("v1", [9, (11, 14), 16]),
-    stirrings_still.bcps(
+    library.bcps(
         -3,
         clt=True,
         staff_padding=4,
     ),
-    stirrings_still.trajectories("B", -3, -3),
+    library.trajectories("B", -3, -3),
 )
 
 commands(
@@ -204,7 +204,7 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    stirrings_still.flight(
+    library.flight(
         "A",
         0,
         start=0,
@@ -228,7 +228,7 @@ commands(
         abjad.tweak(1.5).padding,
     ),
     baca.flat_glissando("Aqs4"),
-    stirrings_still.pickets(4, 2),
+    library.pickets(4, 2),
 )
 
 commands(
@@ -246,7 +246,7 @@ commands(
         qualifier="wide",
     ),
     baca.flat_glissando("Aqs4"),
-    stirrings_still.pickets(4, 2),
+    library.pickets(4, 2),
 )
 
 commands(
@@ -271,7 +271,7 @@ commands(
         pieces=baca.selectors.plts((None, -1)),
     ),
     baca.flat_glissando("Aqf5"),
-    stirrings_still.flight(
+    library.flight(
         "A",
         0,
         start=0,
@@ -303,7 +303,7 @@ commands(
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
-    stirrings_still.flight(
+    library.flight(
         "A",
         0,
         start=0,
@@ -350,7 +350,7 @@ commands(
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
-    stirrings_still.flight(
+    library.flight(
         "A",
         0,
         start=0,
@@ -451,17 +451,17 @@ commands(
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
     ),
-    stirrings_still.bcps(
+    library.bcps(
         -1,
         clt=True,
         staff_padding=4,
     ),
-    stirrings_still.trajectories("B", -1, -1, end_counts=[1]),
+    library.trajectories("B", -1, -1, end_counts=[1]),
 )
 
 commands(
     ("v2", (1, 2)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("C#5", 4), ("E5", 2), ("D5", None)],
         "Eb5",
     ),
@@ -478,21 +478,21 @@ commands(
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        pieces=stirrings_still.rleaves_partition_by_ratio((1, 1, 1)),
+        pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
     ),
-    stirrings_still.desynchronization(4, [1]),
+    library.desynchronization(4, [1]),
     baca.flat_glissando("Bb4"),
 )
 
 commands(
     ("v2", (5, 8)),
-    stirrings_still.accelerando((10, 32), (1, 2), measures=(6, 8)),
-    stirrings_still.bcps(
+    library.accelerando((10, 32), (1, 2), measures=(6, 8)),
+    library.bcps(
         -1,
         clt=True,
         staff_padding=4,
     ),
-    stirrings_still.trajectories("B", -1, -1, measures=5),
+    library.trajectories("B", -1, -1, measures=5),
 )
 
 commands(
@@ -504,7 +504,7 @@ commands(
 
 commands(
     ("v2", (5, 16)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [
             ("Eb5", 4),
             ("F5", 9),
@@ -521,12 +521,12 @@ commands(
 
 commands(
     ("v2", [9, 13, (15, 16)]),
-    stirrings_still.bcps(
+    library.bcps(
         -3,
         clt=True,
         staff_padding=4,
     ),
-    stirrings_still.trajectories("B", -3, -3),
+    library.trajectories("B", -3, -3),
 )
 
 commands(
@@ -555,7 +555,7 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    stirrings_still.flight(
+    library.flight(
         "A",
         0,
         start=2,
@@ -579,7 +579,7 @@ commands(
         abjad.tweak(1.5).padding,
     ),
     baca.flat_glissando("Eb4"),
-    stirrings_still.pickets(4, 1),
+    library.pickets(4, 1),
 )
 
 commands(
@@ -597,7 +597,7 @@ commands(
         qualifier="wide",
     ),
     baca.flat_glissando("Eb4"),
-    stirrings_still.pickets(4, 1),
+    library.pickets(4, 1),
 )
 
 commands(
@@ -621,7 +621,7 @@ commands(
         pieces=baca.selectors.plts((None, -1)),
     ),
     baca.flat_glissando("F5"),
-    stirrings_still.flight(
+    library.flight(
         "A",
         0,
         start=2,
@@ -653,7 +653,7 @@ commands(
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
-    stirrings_still.flight(
+    library.flight(
         "A",
         0,
         start=2,
@@ -698,7 +698,7 @@ commands(
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
-    stirrings_still.flight(
+    library.flight(
         "A",
         0,
         start=2,
@@ -731,17 +731,17 @@ commands(
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
     ),
-    stirrings_still.bcps(
+    library.bcps(
         -2,
         clt=True,
         staff_padding=4,
     ),
-    stirrings_still.trajectories("B", -2, -2, end_counts=[1]),
+    library.trajectories("B", -2, -2, end_counts=[1]),
 )
 
 commands(
     ("va", (1, 2)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("D4", 6), ("A3", None)],
         "B3",
     ),
@@ -758,9 +758,9 @@ commands(
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        pieces=stirrings_still.rleaves_partition_by_ratio((1, 1, 1)),
+        pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
     ),
-    stirrings_still.desynchronization(4, [0]),
+    library.desynchronization(4, [0]),
     baca.flat_glissando("Bqf3"),
 )
 
@@ -771,7 +771,7 @@ commands(
         abjad.tweak((0, 0)).X_extent,
         abjad.tweak((-3, 0)).extra_offset,
     ),
-    stirrings_still.tailpiece(
+    library.tailpiece(
         abjad.tweak(0).bound_details__right__Y,
         abjad.tweak(1.5).bound_details__right__padding,
     ),
@@ -782,12 +782,12 @@ commands(
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
     ),
-    stirrings_still.bcps(
+    library.bcps(
         -3,
         clt=True,
         staff_padding=4,
     ),
-    stirrings_still.trajectories("B", -3, -3),
+    library.trajectories("B", -3, -3),
 )
 
 commands(
@@ -796,7 +796,7 @@ commands(
         "p < mp",
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("B3", 2), ("A3", 4), ("C4", 4), ("Ab3", 7), ("B3", None)],
         "G#3",
         rleak_final_stage=True,
@@ -825,7 +825,7 @@ commands(
         selector=baca.selectors.pleaves(),
     ),
     baca.flat_glissando("G#3"),
-    stirrings_still.flight(
+    library.flight(
         "A",
         -1,
         start=4,
@@ -849,7 +849,7 @@ commands(
         abjad.tweak(1.5).padding,
     ),
     baca.flat_glissando("Bqf3"),
-    stirrings_still.pickets(4, 0),
+    library.pickets(4, 0),
 )
 
 commands(
@@ -867,7 +867,7 @@ commands(
         qualifier="wide",
     ),
     baca.flat_glissando("Bqf3"),
-    stirrings_still.pickets(4, 0),
+    library.pickets(4, 0),
 )
 
 commands(
@@ -891,7 +891,7 @@ commands(
         pieces=baca.selectors.plts((None, -1)),
     ),
     baca.flat_glissando("G3"),
-    stirrings_still.flight(
+    library.flight(
         "A",
         -1,
         start=4,
@@ -923,7 +923,7 @@ commands(
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
-    stirrings_still.flight(
+    library.flight(
         "A",
         -1,
         start=4,
@@ -959,7 +959,7 @@ commands(
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
-    stirrings_still.flight(
+    library.flight(
         "A",
         -1,
         start=4,
@@ -976,12 +976,12 @@ commands(
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
     ),
-    stirrings_still.bcps(
+    library.bcps(
         -2,
         clt=True,
         staff_padding=4,
     ),
-    stirrings_still.to_flight([(8, 8), (3, 16)]),
+    library.to_flight([(8, 8), (3, 16)]),
 )
 
 commands(
@@ -1010,17 +1010,17 @@ commands(
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
     ),
-    stirrings_still.bcps(
+    library.bcps(
         -3,
         clt=True,
         staff_padding=4,
     ),
-    stirrings_still.trajectories("B", -3, -3, end_counts=[1]),
+    library.trajectories("B", -3, -3, end_counts=[1]),
 )
 
 commands(
     ("vc", (1, 2)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [("D4", 4), ("Ab3", 2), ("B3", None)],
         "F3",
     ),
@@ -1037,21 +1037,21 @@ commands(
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        pieces=stirrings_still.rleaves_partition_by_ratio((1, 1, 1)),
+        pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
     ),
-    stirrings_still.desynchronization(4, [-1]),
+    library.desynchronization(4, [-1]),
     baca.flat_glissando("Bb2"),
 )
 
 commands(
     ("vc", (5, 8)),
-    stirrings_still.accelerando((11, 32), (1, 2), measures=(6, 8)),
-    stirrings_still.bcps(
+    library.accelerando((11, 32), (1, 2), measures=(6, 8)),
+    library.bcps(
         -3,
         clt=True,
         staff_padding=4,
     ),
-    stirrings_still.trajectories("B", -3, -3, measures=5),
+    library.trajectories("B", -3, -3, measures=5),
 )
 
 commands(
@@ -1063,7 +1063,7 @@ commands(
 
 commands(
     ("vc", (5, 14)),
-    stirrings_still.multistage_leaf_glissando(
+    library.multistage_leaf_glissando(
         [
             ("F3", 4),
             ("C3", 5),
@@ -1080,12 +1080,12 @@ commands(
 
 commands(
     ("vc", [(9, 10), (13, 14)]),
-    stirrings_still.bcps(
+    library.bcps(
         -3,
         clt=True,
         staff_padding=4,
     ),
-    stirrings_still.trajectories("B", -3, -3),
+    library.trajectories("B", -3, -3),
 )
 
 commands(
@@ -1110,7 +1110,7 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    stirrings_still.flight(
+    library.flight(
         "A",
         -2,
         start=6,
@@ -1138,8 +1138,8 @@ commands(
         direction=abjad.Down,
     ),
     baca.note_head_style_harmonic(),
-    stirrings_still.cello_cell(),
-    stirrings_still.cello_cell_bcps(
+    library.cello_cell(),
+    library.cello_cell_bcps(
         staff_padding=4.5,
     ),
     baca.flat_glissando("A5"),
@@ -1162,7 +1162,7 @@ commands(
         pieces=baca.selectors.plts((None, -1)),
     ),
     baca.flat_glissando("Eb2"),
-    stirrings_still.flight(
+    library.flight(
         "A",
         -2,
         start=6,
@@ -1194,7 +1194,7 @@ commands(
         pieces=baca.selectors.cmgroups([1, 1, 1, 2, 1, 1]),
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.flight(
+    library.flight(
         "A",
         -2,
         start=6,
@@ -1203,7 +1203,7 @@ commands(
 
 commands(
     ("vc", (32, -1)),
-    stirrings_still.clouded_pane_spanner(
+    library.clouded_pane_spanner(
         "clouded pane -|",
         13,
         # TODO: allow spanner to extend to phantom measure
@@ -1227,7 +1227,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
         pieces=baca.selectors.cmgroups([8, 8]),
     ),
-    stirrings_still.clouded_pane(),
+    library.clouded_pane(),
 )
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-from stirrings_still import library as stirrings_still
+from stirrings_still import library
 
 #########################################################################################
 ######################################### 04 [D] ########################################
@@ -42,16 +42,16 @@ stage_markup = (
     ("[C.2]", 97, "#darkgreen"),
 )
 
-score = stirrings_still.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=stirrings_still.instruments,
-    margin_markups=stirrings_still.margin_markups,
-    metronome_marks=stirrings_still.metronome_marks,
-    time_signatures=stirrings_still.time_signatures("D"),
-    voice_abbreviations=stirrings_still.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures("D"),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -123,7 +123,7 @@ time = (
     ("short", 99),
 )
 
-stirrings_still.time(commands, time)
+library.time(commands, time)
 
 # v1
 
@@ -162,7 +162,7 @@ commands(
         baca.hairpin("pp < mp"),
     ),
     baca.note_head_style_harmonic(),
-    stirrings_still.accelerando((1, 4), (1, 16)),
+    library.accelerando((1, 4), (1, 16)),
 )
 
 commands(
@@ -194,7 +194,7 @@ commands(
     baca.repeat_tie(
         baca.selectors.pleaf(0),
     ),
-    stirrings_still.continuous_tremolo(),
+    library.continuous_tremolo(),
 )
 
 commands(
@@ -209,7 +209,7 @@ commands(
 
 commands(
     (["v1", "v2"], (90, 92)),
-    stirrings_still.urtext_spanner("urtext (NEW cds) -|", 8),
+    library.urtext_spanner("urtext (NEW cds) -|", 8),
 )
 
 commands(
@@ -219,7 +219,7 @@ commands(
 
 commands(
     (["v1", "v2"], (94, 96)),
-    stirrings_still.continuous_tremolo(),
+    library.continuous_tremolo(),
 )
 
 # trio
@@ -290,11 +290,11 @@ commands(
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
     ),
-    stirrings_still.breathe(
+    library.breathe(
         selector=baca.selectors.pleaf(1),
     ),
-    stirrings_still.declamation(),
-    stirrings_still.urtext_spanner("A, B -|", 8),
+    library.declamation(),
+    library.urtext_spanner("A, B -|", 8),
 )
 
 commands(
@@ -307,8 +307,8 @@ commands(
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
     ),
-    stirrings_still.urtext_field(),
-    stirrings_still.urtext_spanner("urtext (cds) -|", 8),
+    library.urtext_field(),
+    library.urtext_spanner("urtext (cds) -|", 8),
 )
 
 commands(
@@ -329,7 +329,7 @@ commands(
             r"\baca-thirteen-d-flat",
             abjad.tweak(1.5).padding,
         ),
-        stirrings_still.circles((1, 8)),
+        library.circles((1, 8)),
         match=0,
     ),
     baca.new(
@@ -338,7 +338,7 @@ commands(
             r"\baca-nine-d-flat",
             abjad.tweak(1.5).padding,
         ),
-        stirrings_still.circles((1, 4)),
+        library.circles((1, 4)),
         match=1,
     ),
     baca.new(
@@ -347,7 +347,7 @@ commands(
             abjad.tweak(1.5).padding,
         ),
         baca.pitch("Bqf3"),
-        stirrings_still.circles(
+        library.circles(
             (1, 2),
             rmakers.force_rest(baca.selectors.lt(0)),
             remainder=abjad.Left,
@@ -362,26 +362,26 @@ commands(
         "p-sempre",
         abjad.tweak(-0.75).self_alignment_X,
     ),
-    stirrings_still.urtext_field(),
+    library.urtext_field(),
 )
 
 commands(
     ("trio", (67, 89)),
-    stirrings_still.urtext_spanner("urtext (resumes) -|", 8),
+    library.urtext_spanner("urtext (resumes) -|", 8),
 )
 
 commands(
     ("trio", (68, 83)),
     baca.new(
-        stirrings_still.flight("A", 0),
+        library.flight("A", 0),
         match=0,
     ),
     baca.new(
-        stirrings_still.flight("C", -1),
+        library.flight("C", -1),
         match=1,
     ),
     baca.new(
-        stirrings_still.flight("B", -2),
+        library.flight("B", -2),
         match=2,
     ),
     baca.suite(
@@ -409,7 +409,7 @@ commands(
         pieces=baca.selectors.mgroups([2, 1 + 1]),
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.urtext_spanner("urtext (resumes) -|", 8),
+    library.urtext_spanner("urtext (resumes) -|", 8),
 )
 
 commands(
@@ -428,7 +428,7 @@ commands(
     ),
     baca.new(
         baca.flat_glissando("Bb4"),
-        stirrings_still.desynchronization(4, [1]),
+        library.desynchronization(4, [1]),
         match=0,
     ),
     baca.new(
@@ -436,11 +436,11 @@ commands(
             "G4",
             stop_pitch="A4",
         ),
-        stirrings_still.desynchronization(4, [0]),
+        library.desynchronization(4, [0]),
         match=1,
     ),
     baca.new(
-        stirrings_still.desynchronization(4, [2]),
+        library.desynchronization(4, [2]),
         baca.flat_glissando("Ab4"),
         match=2,
     ),
@@ -457,7 +457,7 @@ commands(
     ("tutti", (1, 6)),
     baca.dynamic("p"),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             0,
             rmakers.force_rest(
                 baca.selectors.tuplets(([0], 2)),
@@ -466,7 +466,7 @@ commands(
         match=0,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             -1,
             rmakers.force_rest(
                 baca.selectors.tuplets(([1], 2)),
@@ -475,7 +475,7 @@ commands(
         match=1,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             -2,
             rmakers.force_rest(
                 baca.selectors.tuplets(([0, 1], 3)),
@@ -484,7 +484,7 @@ commands(
         match=2,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             3,
             rmakers.force_rest(
                 baca.selectors.tuplets(([1, 2], 3)),
@@ -512,7 +512,7 @@ commands(
         pieces=baca.selectors.lts(nontrivial=True),
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             0,
             rmakers.force_rest(
                 baca.selectors.tuplets(([0], 2)),
@@ -521,7 +521,7 @@ commands(
         match=0,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             -1,
             rmakers.force_rest(
                 baca.selectors.tuplets(([1], 2)),
@@ -530,7 +530,7 @@ commands(
         match=1,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             -2,
             rmakers.force_rest(
                 baca.selectors.tuplets(([0], 3)),
@@ -539,7 +539,7 @@ commands(
         match=2,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             -3,
             rmakers.force_rest(
                 baca.selectors.tuplets(([1, 2], 3)),
@@ -557,7 +557,7 @@ commands(
         pieces=baca.selectors.lts(nontrivial=True),
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             0,
             rmakers.force_rest(
                 baca.selectors.tuplets(([0], 2)),
@@ -566,7 +566,7 @@ commands(
         match=0,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             -1,
             rmakers.force_rest(
                 baca.selectors.tuplets(([1], 2)),
@@ -575,7 +575,7 @@ commands(
         match=1,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             -2,
             rmakers.force_rest(
                 baca.selectors.tuplets(([0], 3)),
@@ -584,7 +584,7 @@ commands(
         match=2,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             -3,
             rmakers.force_rest(
                 baca.selectors.tuplets(([1], 3)),
@@ -602,7 +602,7 @@ commands(
         pieces=baca.selectors.lts(nontrivial=True),
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             0,
             rmakers.force_rest(
                 baca.selectors.tuplets(([0], 2)),
@@ -611,7 +611,7 @@ commands(
         match=0,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             0,
             rmakers.force_rest(
                 baca.selectors.tuplets(([2], 3)),
@@ -620,7 +620,7 @@ commands(
         match=1,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             -2,
             rmakers.force_rest(
                 baca.selectors.tuplets(([0], 3)),
@@ -629,7 +629,7 @@ commands(
         match=2,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             -3,
             rmakers.force_rest(
                 baca.selectors.tuplets(([1], 3)),
@@ -647,7 +647,7 @@ commands(
         pieces=baca.selectors.lts(nontrivial=True),
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             0,
             rmakers.force_rest(
                 baca.selectors.tuplets(([0], 2)),
@@ -656,7 +656,7 @@ commands(
         match=0,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             0,
             rmakers.force_rest(
                 baca.selectors.tuplets(([2], 3)),
@@ -665,7 +665,7 @@ commands(
         match=1,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             -2,
             rmakers.force_rest(
                 baca.selectors.tuplets(([0], 2)),
@@ -674,7 +674,7 @@ commands(
         match=2,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             -2,
             rmakers.force_rest(
                 baca.selectors.tuplets(([2], 3)),
@@ -688,7 +688,7 @@ commands(
     ("tutti", (31, 36)),
     baca.dynamic('"ff"'),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             0,
             rmakers.force_rest(
                 baca.selectors.tuplets(([0], 2)),
@@ -697,7 +697,7 @@ commands(
         match=0,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             0,
             rmakers.force_rest(
                 baca.selectors.tuplets(([2], 3)),
@@ -706,7 +706,7 @@ commands(
         match=1,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             0,
             rmakers.force_rest(
                 baca.selectors.tuplets(([1], 2)),
@@ -715,7 +715,7 @@ commands(
         match=2,
     ),
     baca.new(
-        stirrings_still.strokes(
+        library.strokes(
             0,
             rmakers.force_rest(
                 baca.selectors.tuplets(([0], 3)),
@@ -752,9 +752,9 @@ commands(
             ),
             map=baca.selectors.lts(nontrivial=True),
         ),
-        stirrings_still.ntlt_flat_glissandi(),
+        library.ntlt_flat_glissandi(),
     ),
-    stirrings_still.strokes(0),
+    library.strokes(0),
 )
 
 commands(
@@ -775,9 +775,9 @@ commands(
             ),
             map=baca.selectors.lts(nontrivial=True),
         ),
-        stirrings_still.ntlt_flat_glissandi(),
+        library.ntlt_flat_glissandi(),
     ),
-    stirrings_still.strokes(0),
+    library.strokes(0),
 )
 
 
@@ -813,7 +813,7 @@ commands(
         baca.hairpin("pp < mp"),
     ),
     baca.note_head_style_harmonic(),
-    stirrings_still.accelerando((1, 4), (2, 16)),
+    library.accelerando((1, 4), (2, 16)),
 )
 
 commands(
@@ -855,7 +855,7 @@ commands(
         abjad.tweak((-2, 0)).extra_offset,
         abjad.tweak((0, 0)).X_extent,
     ),
-    stirrings_still.tailpiece(
+    library.tailpiece(
         abjad.tweak(1.5).bound_details__right__padding,
     ),
 )
@@ -869,7 +869,7 @@ commands(
     ),
     baca.make_repeat_tied_notes(),
     baca.pitch("Bb2"),
-    stirrings_still.flight_spanner("memory of flight -|", 5.5),
+    library.flight_spanner("memory of flight -|", 5.5),
 )
 
 commands(
@@ -897,7 +897,7 @@ commands(
         ),
         match=0,
     ),
-    stirrings_still.continuous_tremolo(),
+    library.continuous_tremolo(),
 )
 
 commands(
@@ -906,7 +906,7 @@ commands(
         '"mf"',
         abjad.tweak(-0.75).self_alignment_X,
     ),
-    stirrings_still.tailpiece(
+    library.tailpiece(
         abjad.tweak(0).bound_details__right__Y,
         abjad.tweak(5.5).bound_details__right__padding,
     ),
@@ -946,8 +946,8 @@ commands(
         direction=abjad.Down,
     ),
     baca.note_head_style_harmonic(),
-    stirrings_still.cello_cell(),
-    stirrings_still.cello_cell_bcps(
+    library.cello_cell(),
+    library.cello_cell_bcps(
         staff_padding=4.5,
     ),
 )
@@ -970,7 +970,7 @@ commands(
         baca.clef("bass"),
         match=0,
     ),
-    stirrings_still.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
+    library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
 )
 
 commands(
@@ -988,7 +988,7 @@ commands(
     baca.flat_glissando("B1"),
     baca.hairpin("o<| mf"),
     baca.skeleton("c2. ~ c4"),
-    stirrings_still.flight_spanner("memory of flight -|", 5.5),
+    library.flight_spanner("memory of flight -|", 5.5),
 )
 
 commands(
@@ -1009,8 +1009,8 @@ commands(
         baca.hairpin("niente o< p"),
         map=lambda _: baca.Selection(_).cmgroups()[:3].group(),
     ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner("clouded pane (arrival) -|", 5.5),
+    library.clouded_pane(),
+    library.clouded_pane_spanner("clouded pane (arrival) -|", 5.5),
 )
 
 commands(
@@ -1030,8 +1030,8 @@ commands(
         measures=(94, 96),
         selector=baca.selectors.rleaves(),
     ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner(
+    library.clouded_pane(),
+    library.clouded_pane_spanner(
         "clouded pane (stepwise up) -|",
         5.5,
         # TODO: extend spanner to phantom measure
@@ -1080,7 +1080,7 @@ commands(
             ),
             map=baca.selectors.lts(nontrivial=True),
         ),
-        stirrings_still.ntlt_flat_glissandi(),
+        library.ntlt_flat_glissandi(),
     ),
 )
 
@@ -1093,7 +1093,7 @@ commands(
             ),
             map=baca.selectors.lts(nontrivial=True),
         ),
-        stirrings_still.ntlt_flat_glissandi(),
+        library.ntlt_flat_glissandi(),
     ),
 )
 
