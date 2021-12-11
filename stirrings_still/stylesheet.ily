@@ -71,13 +71,11 @@
     composer = \markup {
         \override #'(font-name . "Palatino")
         \fontsize #5
-        %%%\line { Trevor Bača (*1975) \hspace #15 }
-        %%%\line { Trevor Bača (*1975) }
-        \line { Trevor Bača }
+        \line { Trevor Bača (*1975) }
     }
     poet = \markup {
         \fontsize #5
-        \line { Samuel Beckett }
+        \line { Samuel Beckett (1906-89) }
     }
     tagline = \markup { "" }
     title = \markup \column {
@@ -128,6 +126,8 @@
                 }
             }
             " "
+            " "
+            " "
             \override #'(font-name . "Palatino Italic")
             \fontsize #3
             \line {
@@ -140,6 +140,9 @@
                 JACK \hspace #0.75
                 Quartet
             }
+            " "
+            " "
+            " "
         }
     }
 }
