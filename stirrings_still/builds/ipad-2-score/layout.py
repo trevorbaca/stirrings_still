@@ -4,7 +4,7 @@ below_time_signatures = 20
 below_staff = 30
 distances = (below_time_signatures, below_staff)
 first_system_y_offset = 10
-second_system_y_offset = 130 
+second_system_y_offset = 130
 
 textholding_fermata_measures = [
     10,
@@ -12,7 +12,7 @@ textholding_fermata_measures = [
     24,
     28,
     61,
-    63,   # A
+    63,  # A
     91,
     129,  # B
     140,
