@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[papersize={11in,8.5in},margin=0.5in]{geometry}
+\usepackage{fontspec,graphicx,nopageno,tikz,xltxtra,xunicode}
+\usetikzlibrary{calc}
+\defaultfontfeatures{Scale=MatchLowercase}
+\newlength{\drop}
+\parindent=0pt
+\setmainfont{Adobe Garamond Pro Bold}
+
+\begin{document}
+    \begin{titlepage}
+
+        \begin{tikzpicture}[remember picture, overlay]
+            \draw[line width = 6pt]
+                ($(current page.north west) + (0.75in,-0.75in)$)
+                rectangle
+                ($(current page.south east) + (-0.75in,0.75in)$);
+        \end{tikzpicture}
+
+        \drop=0.1\textheight
+        \centering
+
+        \vspace*{2\baselineskip}
+        {
+            \scalebox{1}[2.5]
+            {\fontsize{1.5cm}{1em}\selectfont STIRRINGS \hspace{2pt} STILL}
+            \vspace*{8\baselineskip}
+        }
+
+
+        {
+            \scalebox{1}[2]
+            {\fontsize{0.5cm}{1em}\selectfont \itshape for}
+            \vspace*{1\baselineskip}
+        }
+
+        {
+            \scalebox{1}[2]
+            {\fontsize{0.5cm}{1em}\selectfont
+                \itshape narrator \& string quartet
+            }
+            \vspace*{1\baselineskip}
+        }
+
+        {
+            \scalebox{1}[2]
+            {\fontsize{0.5cm}{1em}\selectfont \itshape (2016\,--18)}
+        }
+
+        \vfill
+
+        {
+            \scalebox{1}[2]
+            {\fontsize{1.75cm}{1em}\selectfont TREVOR \hspace{1pt} BA\v{C}A}
+            \vspace*{3\baselineskip}
+        }
+
+    \end{titlepage}
+\end{document}
