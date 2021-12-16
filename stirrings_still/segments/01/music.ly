@@ -3,6 +3,7 @@
 \version "2.22.1"
 \include "../stylesheet.ily"
 \include "stylesheet.ily"
+\include "header.ily"
 %! baca.path.extern()
 \include "music.ily"
 
