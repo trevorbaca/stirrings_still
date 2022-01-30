@@ -16,6 +16,6 @@ if __name__ == "__main__":
         name="stirrings_still",
         packages=["stirrings_still"],
         platforms="Any",
-        python_requires=">=3.9",
+        python_requires=">=3.10",
         url="https://github.com/trevorbaca/stirrings_still",
     )
