@@ -4066,7 +4066,7 @@ def operations() -> abjad.TypedList:
         >>> string = abjad.storage(operations)
         >>> print(string)
         abjad.TypedList(
-            [
+            items=[
                 stirrings_still.stirrings_still.library.Operation(
                     source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='G',
@@ -4829,7 +4829,8 @@ def operations() -> abjad.TypedList:
                         description='inception',
                         ),
                     ),
-                ]
+                ],
+            keep_sorted=False,
             )
 
     """
