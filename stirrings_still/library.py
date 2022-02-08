@@ -2,6 +2,7 @@
     >>> import stirrings_still
 
 """
+import dataclasses
 import inspect
 import typing
 
@@ -83,6 +84,7 @@ time_signature_series["C"] = _time_signatures
 # classes
 
 
+@dataclasses.dataclass(slots=True)
 class Operation:
     """
     Operation.
@@ -96,55 +98,32 @@ class Operation:
         ...     target_stage=stirrings_still.library.StageToken('A', 9, 'iteratum', 2),
         ...     )
         >>> operation
-        Operation(source_stage=StageToken(letter='G', number=9, description='inception', length=1), source_measures=1, verb='suffix', target_stage=StageToken(letter='A', number=9, description='iteratum', length=2))
+        Operation(source_stage=StageToken(letter='G', number=9, description='inception', length=1), source_measures=1, verb='suffix', target_stage=StageToken(letter='A', number=9, description='iteratum', length=2), target_site=None, include_after=None)
 
     """
 
-    ### CLASS VARIABLES ###
-
-    __slots__ = (
-        "_include_after",
-        "_source_measures",
-        "_source_stage",
-        "_target_stage",
-        "_target_site",
-        "_verb",
-    )
+    source_stage: typing.Any = None
+    source_measures: typing.Any = None
+    verb: typing.Any = None
+    target_stage: typing.Any = None
+    target_site: typing.Any = None
+    include_after: typing.Any = None
 
     _verbs = ("bisect", "prefix", "replace", "suffix")
 
-    ### INITIALIZER ###
-
-    def __init__(
-        self,
-        source_stage=None,
-        source_measures=None,
-        verb=None,
-        target_stage=None,
-        target_site=None,
-        *,
-        include_after=None,
-    ):
-        if source_stage is not None:
-            assert isinstance(source_stage, StageToken)
-        self._source_stage = source_stage
-        if source_measures is not None:
-            assert isinstance(source_measures, (int, tuple))
-        self._source_measures = source_measures
-        if verb is not None:
-            assert isinstance(verb, str)
-        self._verb = verb
-        if target_stage is not None:
-            assert isinstance(target_stage, StageToken)
-        self._target_stage = target_stage
-        if target_site is not None or verb == "bisect":
-            assert isinstance(target_site, tuple)
-        self._target_site = target_site
-        if include_after is not None:
-            include_after = bool(include_after)
-        self._include_after = include_after
-
-    ### SPECIAL METHODS ###
+    def __post_init__(self):
+        if self.source_stage is not None:
+            assert isinstance(self.source_stage, StageToken)
+        if self.source_measures is not None:
+            assert isinstance(self.source_measures, (int, tuple))
+        if self.verb is not None:
+            assert isinstance(self.verb, str)
+        if self.target_stage is not None:
+            assert isinstance(self.target_stage, StageToken)
+        if self.target_site is not None or self.verb == "bisect":
+            assert isinstance(self.target_site, tuple)
+        if self.include_after is not None:
+            self.include_after = bool(self.include_after)
 
     def __call__(self, source_stage, target_stage):
         """
@@ -210,108 +189,20 @@ class Operation:
             raise ValueError(self.verb)
         return target_stage_
 
-    def __repr__(self):
-        """
-        Gets repr.
-        """
-        return abjad.format.get_repr(self)
 
-    ### PRIVATE METHODS ###
-
-    def _get_format_specification(self):
-        return abjad.FormatSpecification()
-
-    ### PUBLIC PROPERTIES ###
-
-    @property
-    def include_after(self):
-        """
-        Is true when operation includes source measures after-time-signature.
-        """
-        return self._include_after
-
-    @property
-    def source_measures(self):
-        """
-        Gets source measures.
-        """
-        return self._source_measures
-
-    @property
-    def source_stage(self):
-        """
-        Gets source stage.
-        """
-        return self._source_stage
-
-    @property
-    def target_site(self):
-        """
-        Gets target site between two measures.
-        """
-        return self._target_site
-
-    @property
-    def target_stage(self):
-        """
-        Gets target stage.
-        """
-        return self._target_stage
-
-    @property
-    def verb(self):
-        """
-        Gets verb.
-        """
-        return self._verb
-
-
+@dataclasses.dataclass(slots=True)
 class StageSpecifier:
     """
     Stage specifier.
     """
 
-    ### CLASS VARIABLES ###
-
-    __slots__ = (
-        "after",
-        "measure_numbers",
-        "operation",
-        "postsuffix",
-        "stage_number",
-        "suffix",
-        "time_signatures",
-    )
-
-    ### INITIALIZER ###
-
-    def __init__(
-        self,
-        stage_number=None,
-        measure_numbers=None,
-        time_signatures=None,
-        after=None,
-        suffix=None,
-        postsuffix=None,
-        operation=None,
-    ):
-        self.stage_number = stage_number
-        self.measure_numbers = measure_numbers
-        self.time_signatures = time_signatures
-        self.after = after
-        self.suffix = suffix
-        self.postsuffix = postsuffix
-        self.operation = operation
-
-    ### SPECIAL METHODS ###
-
-    def __repr__(self):
-        """
-        Gets repr.
-        """
-        return abjad.format.get_repr(self)
-
-    ### PUBLIC PROPERTIES ###
+    stage_number: typing.Any = None
+    measure_numbers: typing.Any = None
+    time_signatures: typing.Any = None
+    after: typing.Any = None
+    suffix: typing.Any = None
+    postsuffix: typing.Any = None
+    operation: typing.Any = None
 
     @property
     def time_signature_count(self):
@@ -329,8 +220,6 @@ class StageSpecifier:
             print(repr(self))
             raise Exception(result, self.all_time_signatures())
         return result
-
-    ### PUBLIC METHODS  ###
 
     def all_time_signatures(self):
         """
@@ -354,14 +243,16 @@ class StageSpecifier:
         return result
 
 
+@dataclasses.dataclass(slots=True)
 class StageToken:
     """
     Stage token.
     """
 
-    ### CLASS VARIABLES ###
-
-    __slots__ = ("_description", "_length", "_letter", "_number")
+    letter: typing.Any = None
+    number: typing.Any = None
+    description: typing.Any = None
+    length: typing.Any = None
 
     _descriptions = (
         "clearing",
@@ -376,59 +267,15 @@ class StageToken:
         "transformatum",
     )
 
-    ### INITIALIZER ###
-
-    def __init__(self, letter=None, number=None, description=None, length=None):
-        if description is not None:
-            assert description in self._descriptions, repr(description)
-        self._description = description
-        if length is not None:
-            assert isinstance(length, int)
-        self._length = length
-        if letter is not None:
-            assert isinstance(letter, str)
-        self._letter = letter
-        if number is not None:
-            assert isinstance(number, int)
-        self._number = number
-
-    ### SPECIAL METHODS ###
-
-    def __repr__(self):
-        """
-        Gets repr.
-        """
-        return abjad.format.get_repr(self)
-
-    ### PUBLIC PROPERTIES ###
-
-    @property
-    def description(self):
-        """
-        Gets description.
-        """
-        return self._description
-
-    @property
-    def length(self):
-        """
-        Gets length.
-        """
-        return self._length
-
-    @property
-    def letter(self):
-        """
-        Gets letter.
-        """
-        return self._letter
-
-    @property
-    def number(self):
-        """
-        Gets number.
-        """
-        return self._number
+    def __post_init__(self):
+        if self.description is not None:
+            assert self.description in self._descriptions, repr(self.description)
+        if self.length is not None:
+            assert isinstance(self.length, int)
+        if self.letter is not None:
+            assert isinstance(self.letter, str)
+        if self.number is not None:
+            assert isinstance(self.number, int)
 
 
 # selectors
@@ -1087,41 +934,41 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=1, measure_numbers=[1], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[3], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=2, measure_numbers=[3], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[5, 6], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=3, measure_numbers=[5, 6], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[8, 9], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=4, measure_numbers=[8, 9], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[11, 12, 13, 14, 15, 16], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=5, measure_numbers=[11, 12, 13, 14, 15, 16], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[18], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=6, measure_numbers=[18], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[20], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=7, measure_numbers=[20], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[22, 23], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=8, measure_numbers=[22, 23], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[25, 26], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=9, measure_numbers=[25, 26], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[28, 29, 30, 31, 32, 33], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=10, measure_numbers=[28, 29, 30, 31, 32, 33], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[34, 35, 36, 37, 38, 39], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=11, measure_numbers=[34, 35, 36, 37, 38, 39], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[40, 41, 42, 43], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=12, measure_numbers=[40, 41, 42, 43], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[44, 45, 46, 47], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=13, measure_numbers=[44, 45, 46, 47], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         14:
-        StageSpecifier(stage_number=14, measure_numbers=[49], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=14, measure_numbers=[49], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         15:
-        StageSpecifier(stage_number=15, measure_numbers=[51], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=15, measure_numbers=[51], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         16:
-        StageSpecifier(stage_number=16, measure_numbers=[53], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=16, measure_numbers=[53], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         17:
-        StageSpecifier(stage_number=17, measure_numbers=[55], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=17, measure_numbers=[55], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         18:
-        StageSpecifier(stage_number=18, measure_numbers=[57], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=18, measure_numbers=[57], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
 
     ..  container:: example
 
@@ -1133,53 +980,53 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[5], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[5], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[6, 7], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[6, 7], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[8, 9, 10, 11], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[8, 9, 10, 11], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[12], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None))
+        StageSpecifier(stage_number=5, measure_numbers=[12], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None), suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[14], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None))
+        StageSpecifier(stage_number=6, measure_numbers=[14], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None), suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[16], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None))
+        StageSpecifier(stage_number=7, measure_numbers=[16], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None), suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[18, 19], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=8, measure_numbers=[18, 19], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[20, 21], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=9, measure_numbers=[20, 21], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[22], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=10, measure_numbers=[22], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[23, 24], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=11, measure_numbers=[23, 24], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[25, 26], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=12, measure_numbers=[25, 26], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[28, 29], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=13, measure_numbers=[28, 29], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         14:
-        StageSpecifier(stage_number=14, measure_numbers=[31, 32], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=14, measure_numbers=[31, 32], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         15:
-        StageSpecifier(stage_number=15, measure_numbers=[34, 35], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=15, measure_numbers=[34, 35], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         16:
-        StageSpecifier(stage_number=16, measure_numbers=[37, 38], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=16, measure_numbers=[37, 38], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         17:
-        StageSpecifier(stage_number=17, measure_numbers=[40, 41], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=17, measure_numbers=[40, 41], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         18:
-        StageSpecifier(stage_number=18, measure_numbers=[43, 44], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=18, measure_numbers=[43, 44], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         19:
-        StageSpecifier(stage_number=19, measure_numbers=[45, 46, 47, 48, 49, 50], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=19, measure_numbers=[45, 46, 47, 48, 49, 50], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         20:
-        StageSpecifier(stage_number=20, measure_numbers=[51, 52], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=20, measure_numbers=[51, 52], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         21:
-        StageSpecifier(stage_number=21, measure_numbers=[53], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=21, measure_numbers=[53], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         22:
-        StageSpecifier(stage_number=22, measure_numbers=[54], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=22, measure_numbers=[54], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         23:
-        StageSpecifier(stage_number=23, measure_numbers=[55], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=23, measure_numbers=[55], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         24:
-        StageSpecifier(stage_number=24, measure_numbers=[57], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=24, measure_numbers=[57], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1192,33 +1039,33 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[5], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[5], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[6, 7], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[6, 7], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[8, 9], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[8, 9], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[10, 11], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[10, 11], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[12, 13], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[12, 13], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[14, 15], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=7, measure_numbers=[14, 15], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[16, 17, 18, 19, 20, 21], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=8, measure_numbers=[16, 17, 18, 19, 20, 21], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[22, 23, 24, 25, 26, 27], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=9, measure_numbers=[22, 23, 24, 25, 26, 27], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[29, 30], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=10, measure_numbers=[29, 30], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[32, 33, 34], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=11, measure_numbers=[32, 33, 34], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[36, 37, 38, 39], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=12, measure_numbers=[36, 37, 38, 39], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[41, 42, 43, 44], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=13, measure_numbers=[41, 42, 43, 44], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         14:
-        StageSpecifier(stage_number=14, measure_numbers=[45, 46], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=14, measure_numbers=[45, 46], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
     ..  container:: example
 
@@ -1230,39 +1077,39 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         0:
-        StageSpecifier(stage_number=0, measure_numbers=[1, 2], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=0, measure_numbers=[1, 2], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[4, 5, 6, 7, 8, 9], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[4, 5, 6, 7, 8, 9], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[10, 11, 12, 13, 14, 15, 16, 17], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[10, 11, 12, 13, 14, 15, 16, 17], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[18, 19, 20, 21], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[18, 19, 20, 21], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[22, 23, 24, 25], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[22, 23, 24, 25], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[26, 27, 28, 29], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[26, 27, 28, 29], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[30, 31, 32, 33], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[30, 31, 32, 33], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[34, 35, 36, 37], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=7, measure_numbers=[34, 35, 36, 37], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[39, 40, 41, 42, 43, 44, 45, 46], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=8, measure_numbers=[39, 40, 41, 42, 43, 44, 45, 46], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[47, 48, 49, 50, 51, 52, 53, 54], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=9, measure_numbers=[47, 48, 49, 50, 51, 52, 53, 54], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[55, 56], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=10, measure_numbers=[55, 56], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[58, 59, 60, 61], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=11, measure_numbers=[58, 59, 60, 61], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[63, 64, 65, 66], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=12, measure_numbers=[63, 64, 65, 66], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[68, 69, 70, 71], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=13, measure_numbers=[68, 69, 70, 71], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         14:
-        StageSpecifier(stage_number=14, measure_numbers=[72, 73], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=14, measure_numbers=[72, 73], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         15:
-        StageSpecifier(stage_number=15, measure_numbers=[74, 75], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=15, measure_numbers=[74, 75], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         16:
-        StageSpecifier(stage_number=16, measure_numbers=[76, 77, 78, 79, 80, 81, 82, 83], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=16, measure_numbers=[76, 77, 78, 79, 80, 81, 82, 83], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1275,43 +1122,43 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[6, 7, 8, 9], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=2, measure_numbers=[6, 7, 8, 9], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[11, 12, 13, 14], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[11, 12, 13, 14], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[15, 16, 17, 18], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[15, 16, 17, 18], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[19, 20, 21, 22], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[19, 20, 21, 22], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[23, 24, 25, 26], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[23, 24, 25, 26], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[27], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None))
+        StageSpecifier(stage_number=7, measure_numbers=[27], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None), suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[29, 30, 31, 32], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=8, measure_numbers=[29, 30, 31, 32], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[33, 34, 35, 36], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=9, measure_numbers=[33, 34, 35, 36], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[37, 38, 39, 40], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=10, measure_numbers=[37, 38, 39, 40], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[41, 42, 43, 44], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=11, measure_numbers=[41, 42, 43, 44], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[45, 46, 47, 48], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=12, measure_numbers=[45, 46, 47, 48], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[49, 50, 51, 52], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=13, measure_numbers=[49, 50, 51, 52], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         14:
-        StageSpecifier(stage_number=14, measure_numbers=[53, 54, 55, 56], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=14, measure_numbers=[53, 54, 55, 56], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         15:
-        StageSpecifier(stage_number=15, measure_numbers=[57, 58], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=15, measure_numbers=[57, 58], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         16:
-        StageSpecifier(stage_number=16, measure_numbers=[59, 60], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=16, measure_numbers=[59, 60], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         17:
-        StageSpecifier(stage_number=17, measure_numbers=[61, 62], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=17, measure_numbers=[61, 62], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         18:
-        StageSpecifier(stage_number=18, measure_numbers=[63, 64], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=18, measure_numbers=[63, 64], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         19:
-        StageSpecifier(stage_number=19, measure_numbers=[66, 67, 68, 69, 70, 71], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=19, measure_numbers=[66, 67, 68, 69, 70, 71], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1324,49 +1171,49 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[7, 8, 9, 10, 11, 12], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[7, 8, 9, 10, 11, 12], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[13, 14, 15, 16, 17, 18], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[13, 14, 15, 16, 17, 18], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[19, 20, 21, 22, 23, 24], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[19, 20, 21, 22, 23, 24], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[25, 26, 27, 28, 29, 30], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[25, 26, 27, 28, 29, 30], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[31, 32, 33, 34, 35, 36], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=6, measure_numbers=[31, 32, 33, 34, 35, 36], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[38, 39, 40, 41, 42, 43], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=7, measure_numbers=[38, 39, 40, 41, 42, 43], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[45], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=8, measure_numbers=[45], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[47, 48, 49, 50], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=9, measure_numbers=[47, 48, 49, 50], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[52], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=10, measure_numbers=[52], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[54, 55, 56, 57, 58, 59], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=11, measure_numbers=[54, 55, 56, 57, 58, 59], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[61, 62], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=12, measure_numbers=[61, 62], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[63, 64, 65, 66], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=13, measure_numbers=[63, 64, 65, 66], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         14:
-        StageSpecifier(stage_number=14, measure_numbers=[67, 68, 69, 70], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=14, measure_numbers=[67, 68, 69, 70], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         15:
-        StageSpecifier(stage_number=15, measure_numbers=[71, 72, 73, 74], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=15, measure_numbers=[71, 72, 73, 74], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         16:
-        StageSpecifier(stage_number=16, measure_numbers=[75, 76, 77, 78], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=16, measure_numbers=[75, 76, 77, 78], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         17:
-        StageSpecifier(stage_number=17, measure_numbers=[79, 80], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=17, measure_numbers=[79, 80], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         18:
-        StageSpecifier(stage_number=18, measure_numbers=[81, 82], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=18, measure_numbers=[81, 82], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         19:
-        StageSpecifier(stage_number=19, measure_numbers=[83, 84], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=19, measure_numbers=[83, 84], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         20:
-        StageSpecifier(stage_number=20, measure_numbers=[85, 86], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=20, measure_numbers=[85, 86], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         21:
-        StageSpecifier(stage_number=21, measure_numbers=[87, 88], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=21, measure_numbers=[87, 88], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         22:
-        StageSpecifier(stage_number=22, measure_numbers=[89, 90], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=22, measure_numbers=[89, 90], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1379,39 +1226,39 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         0:
-        StageSpecifier(stage_number=0, measure_numbers=[1, 2], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=0, measure_numbers=[1, 2], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[4, 5, 6, 7, 8, 9], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[4, 5, 6, 7, 8, 9], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[10, 11, 12, 13, 14, 15, 16, 17], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[10, 11, 12, 13, 14, 15, 16, 17], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[18, 19, 20, 21], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[18, 19, 20, 21], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[22, 23, 24, 25], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[22, 23, 24, 25], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[26, 27, 28, 29], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[26, 27, 28, 29], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[30, 31, 32, 33], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[30, 31, 32, 33], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[34, 35, 36, 37], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=7, measure_numbers=[34, 35, 36, 37], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[39, 40, 41, 42, 43, 44, 45, 46], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=8, measure_numbers=[39, 40, 41, 42, 43, 44, 45, 46], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[47, 48, 49, 50, 51, 52, 53, 54], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=9, measure_numbers=[47, 48, 49, 50, 51, 52, 53, 54], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[55, 56], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=10, measure_numbers=[55, 56], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[58, 59, 60, 61], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=11, measure_numbers=[58, 59, 60, 61], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[63, 64, 65, 66], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=12, measure_numbers=[63, 64, 65, 66], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[68, 69, 70, 71], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=13, measure_numbers=[68, 69, 70, 71], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         14:
-        StageSpecifier(stage_number=14, measure_numbers=[72, 73], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=14, measure_numbers=[72, 73], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         15:
-        StageSpecifier(stage_number=15, measure_numbers=[74, 75], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=15, measure_numbers=[74, 75], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         16:
-        StageSpecifier(stage_number=16, measure_numbers=[76, 77, 78, 79, 80, 81, 82, 83], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=16, measure_numbers=[76, 77, 78, 79, 80, 81, 82, 83], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1424,9 +1271,9 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[9, 10], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=2, measure_numbers=[9, 10], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1439,17 +1286,17 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=1, measure_numbers=[1], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[3], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=2, measure_numbers=[3], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[5], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=3, measure_numbers=[5], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[7], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=4, measure_numbers=[7], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[9, 10], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=5, measure_numbers=[9, 10], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[12, 13], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=6, measure_numbers=[12, 13], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1462,33 +1309,33 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[5], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[5], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[6, 7], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[6, 7], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[8, 9], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[8, 9], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[10, 11], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[10, 11], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[12, 13], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[12, 13], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[14, 15], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=7, measure_numbers=[14, 15], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[16, 17, 18, 19, 20, 21], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=8, measure_numbers=[16, 17, 18, 19, 20, 21], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[22, 23, 24, 25, 26, 27], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=9, measure_numbers=[22, 23, 24, 25, 26, 27], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[29, 30], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=10, measure_numbers=[29, 30], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[32, 33, 34], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=11, measure_numbers=[32, 33, 34], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[36, 37, 38, 39], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=12, measure_numbers=[36, 37, 38, 39], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[41, 42, 43, 44], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=13, measure_numbers=[41, 42, 43, 44], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         14:
-        StageSpecifier(stage_number=14, measure_numbers=[45, 46], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=14, measure_numbers=[45, 46], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1501,19 +1348,19 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[3], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[3], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[4], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[4], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[5], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[5], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[6, 7], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[6, 7], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[8, 9], time_signatures=[TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[8, 9], time_signatures=[TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[10, 11], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=7, measure_numbers=[10, 11], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1526,17 +1373,17 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[5, 6], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[5, 6], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[7, 8], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[7, 8], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[9], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[9], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[10, 11], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[10, 11], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[12, 13, 14, 15], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[12, 13, 14, 15], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1549,25 +1396,25 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[4, 5, 6], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[4, 5, 6], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[7, 8, 9], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[7, 8, 9], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[10, 11, 12], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[10, 11, 12], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[13, 14, 15], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[13, 14, 15], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[16, 17, 18], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[16, 17, 18], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[19, 20, 21, 22, 23, 24, 25, 26], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=7, measure_numbers=[19, 20, 21, 22, 23, 24, 25, 26], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[27, 28, 29, 30, 31, 32], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=8, measure_numbers=[27, 28, 29, 30, 31, 32], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[33, 34, 35, 36, 37, 38, 39, 40], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=9, measure_numbers=[33, 34, 35, 36, 37, 38, 39, 40], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[41, 42, 43, 44, 45, 46, 47, 48], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=10, measure_numbers=[41, 42, 43, 44, 45, 46, 47, 48], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1580,7 +1427,7 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1593,19 +1440,19 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[9, 10, 11, 12], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[9, 10, 11, 12], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[13, 14, 15, 16], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[13, 14, 15, 16], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[17, 18, 19, 20], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[17, 18, 19, 20], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[21, 22, 23, 24], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[21, 22, 23, 24], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[25, 26, 27, 28], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[25, 26, 27, 28], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[29, 30, 31, 32], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=7, measure_numbers=[29, 30, 31, 32], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1618,19 +1465,19 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[7, 8], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[7, 8], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[9, 10], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[9, 10], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[11, 12, 13, 14], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[11, 12, 13, 14], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[15, 16, 17, 18, 19, 20], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[15, 16, 17, 18, 19, 20], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='very_long')
+        StageSpecifier(stage_number=6, measure_numbers=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='very_long', suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[34, 35], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after='very_long')
+        StageSpecifier(stage_number=7, measure_numbers=[34, 35], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after='very_long', suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1643,7 +1490,7 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)], after='very_long')
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)], after='very_long', suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1656,15 +1503,15 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[5, 6, 7, 8, 9, 10], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[5, 6, 7, 8, 9, 10], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[11, 12, 13, 14], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[11, 12, 13, 14], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[15, 16, 17, 18, 19, 20], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[15, 16, 17, 18, 19, 20], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[21, 22, 23, 24, 25, 26], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[21, 22, 23, 24, 25, 26], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1677,31 +1524,31 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[21, 22, 23, 24, 25, 26], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[21, 22, 23, 24, 25, 26], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[27, 28, 29, 30, 31, 32, 33, 34, 35, 36], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[27, 28, 29, 30, 31, 32, 33, 34, 35, 36], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[37, 38, 39, 40, 41], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[37, 38, 39, 40, 41], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[42, 43, 44, 45, 46, 47, 48, 49], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[42, 43, 44, 45, 46, 47, 48, 49], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[50, 51, 52, 53], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=7, measure_numbers=[50, 51, 52, 53], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[54, 55, 56, 57, 58, 59], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=8, measure_numbers=[54, 55, 56, 57, 58, 59], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[60, 61, 62], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=9, measure_numbers=[60, 61, 62], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[63, 64, 65, 66], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=10, measure_numbers=[63, 64, 65, 66], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[67, 68], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=11, measure_numbers=[67, 68], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[69, 70], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=12, measure_numbers=[69, 70], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=13, measure_numbers=[72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1714,13 +1561,13 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[5, 6, 7, 8], time_signatures=[TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[5, 6, 7, 8], time_signatures=[TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[9, 10, 11, 12], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[9, 10, 11, 12], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[13, 14, 15, 16], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=4, measure_numbers=[13, 14, 15, 16], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -1733,15 +1580,15 @@ def first_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=1, measure_numbers=[1], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[3, 4], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=2, measure_numbers=[3, 4], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[6, 7, 8], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=3, measure_numbers=[6, 7, 8], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[10, 11, 12, 13, 14, 15], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=4, measure_numbers=[10, 11, 12, 13, 14, 15], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[17, 18, 19], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after='very_long')
+        StageSpecifier(stage_number=5, measure_numbers=[17, 18, 19], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after='very_long', suffix=None, postsuffix=None, operation=None)
 
 
 
@@ -2175,54 +2022,54 @@ def operations():
         48
 
         >>> for _ in operations: _
-        Operation(source_stage=StageToken(letter='G', number=1, description='inception', length=1), source_measures=1, verb='suffix', target_stage=StageToken(letter='A', number=9, description='iteratum'))
-        Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='A', number=12, description='conclusion', length=4), target_site=(2, 3))
-        Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='A', number=13, description='iteratum', length=4), target_site=(2, 3))
-        Operation(source_stage=StageToken(letter='H', number=1, description='inception', length=4), source_measures=(1, 2), verb='suffix', target_stage=StageToken(letter='A', number=15, description='iteratum'))
-        Operation(source_stage=StageToken(letter='A', number=1, description='isolatum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='B', number=12, description='conclusion', length=2), target_site=(1, 2))
-        Operation(source_stage=StageToken(letter='H', number=1, description='inception', length=4), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='B', number=14, description='iteratum'))
-        Operation(source_stage=StageToken(letter='A', number=18, description='isolatum', length=1), source_measures=1, verb='suffix', target_stage=StageToken(letter='B', number=16, description='iteratum'))
-        Operation(source_stage=StageToken(letter='D', number=9, description='isolatum', length=4), source_measures=1, verb='bisect', target_stage=StageToken(letter='B', number=17, description='iteratum', length=2), target_site=(1, 2))
-        Operation(source_stage=StageToken(letter='D', number=17, description='development', length=2), source_measures=2, verb='prolong', target_stage=StageToken(letter='B', number=17, description='pause'))
-        Operation(source_stage=StageToken(letter='D', number=16, description='development', length=2), source_measures=1, verb='prefix', target_stage=StageToken(letter='B', number=24, description='isolatum'))
-        Operation(source_stage=StageToken(letter='G', number=1, description='inception', length=1), source_measures=1, verb='suffix', target_stage=StageToken(letter='C', number=1, description='isolatum'))
-        Operation(source_stage=StageToken(letter='D', number=9, description='isolatum', length=4), source_measures=(1, 2), verb='suffix', target_stage=StageToken(letter='C', number=8, description='development'))
-        Operation(source_stage=StageToken(letter='C', number=8, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=10, description='process'), target_site=(1, 4))
-        Operation(source_stage=StageToken(letter='C', number=9, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=11, description='process'), target_site=(1, 4))
-        Operation(source_stage=StageToken(letter='C', number=8, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=12, description='process'), target_site=(1, 4))
-        Operation(source_stage=StageToken(letter='C', number=9, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=13, description='process'), target_site=(1, 4))
-        Operation(source_stage=StageToken(letter='J', number=1, description='clearing', length=4), source_measures=(1, 2), verb='suffix', target_stage=StageToken(letter='C', number=14, description='conclusion'))
-        Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='prolong', target_stage=StageToken(letter='D', number=6, description='pause'))
-        Operation(source_stage=StageToken(letter='F', number=2, description='clearing', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='D', number=9, description='isolatum', length=4), target_site=(2, 3))
-        Operation(source_stage=StageToken(letter='S', number=1, description='transformatum', length=1), source_measures=1, verb='prefix', target_stage=StageToken(letter='D', number=11, description='isolatum'))
-        Operation(source_stage=StageToken(letter='I', number=1, description='clearing', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='D', number=12, description='inception', length=2), target_site=(1, 2))
-        Operation(source_stage=StageToken(letter='F', number=2, description='clearing', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='D', number=21, description='clearing', length=2), target_site=(1, 2))
-        Operation(source_stage=StageToken(letter='C', number=2, description='process', length=4), source_measures=(3, 4), verb='suffix', target_stage=StageToken(letter='D', number=22, description='conclusion'))
-        Operation(source_stage=StageToken(letter='H', number=9, description='clearing', length=6), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='E', number=1, description='inception'))
-        Operation(source_stage=StageToken(letter='A', number=1, description='isolatum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='E', number=6, description='clearing', length=4), target_site=(2, 3))
-        Operation(source_stage=StageToken(letter='Q', number=1, description='inception', length=8), source_measures=(1, 8), verb='prolong', target_stage=StageToken(letter='E', number=7, description='pause'))
-        Operation(source_stage=StageToken(letter='Q', number=2, description='transformatum', length=12), source_measures=(1, 12), verb='prolong', target_stage=StageToken(letter='E', number=7, description='pause'))
-        Operation(source_stage=StageToken(letter='Q', number=1, description='inception', length=8), source_measures=(1, 8), verb='bisect', target_stage=StageToken(letter='E', number=12, description='development', length=4), target_site=(2, 3))
-        Operation(source_stage=StageToken(letter='Q', number=2, description='transformatum', length=12), source_measures=(1, 12), verb='bisect', target_stage=StageToken(letter='E', number=12, description='development', length=4), target_site=(2, 3))
-        Operation(source_stage=StageToken(letter='C', number=2, description='process', length=4), source_measures=(3, 4), verb='prolong', target_stage=StageToken(letter='F', number=2, description='pause'))
-        Operation(source_stage=StageToken(letter='J', number=1, description='clearing', length=4), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='G', number=3, description='iteratum'))
+        Operation(source_stage=StageToken(letter='G', number=1, description='inception', length=1), source_measures=1, verb='suffix', target_stage=StageToken(letter='A', number=9, description='iteratum', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='A', number=12, description='conclusion', length=4), target_site=(2, 3), include_after=None)
+        Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='A', number=13, description='iteratum', length=4), target_site=(2, 3), include_after=None)
+        Operation(source_stage=StageToken(letter='H', number=1, description='inception', length=4), source_measures=(1, 2), verb='suffix', target_stage=StageToken(letter='A', number=15, description='iteratum', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='A', number=1, description='isolatum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='B', number=12, description='conclusion', length=2), target_site=(1, 2), include_after=None)
+        Operation(source_stage=StageToken(letter='H', number=1, description='inception', length=4), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='B', number=14, description='iteratum', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='A', number=18, description='isolatum', length=1), source_measures=1, verb='suffix', target_stage=StageToken(letter='B', number=16, description='iteratum', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='D', number=9, description='isolatum', length=4), source_measures=1, verb='bisect', target_stage=StageToken(letter='B', number=17, description='iteratum', length=2), target_site=(1, 2), include_after=None)
+        Operation(source_stage=StageToken(letter='D', number=17, description='development', length=2), source_measures=2, verb='prolong', target_stage=StageToken(letter='B', number=17, description='pause', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='D', number=16, description='development', length=2), source_measures=1, verb='prefix', target_stage=StageToken(letter='B', number=24, description='isolatum', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='G', number=1, description='inception', length=1), source_measures=1, verb='suffix', target_stage=StageToken(letter='C', number=1, description='isolatum', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='D', number=9, description='isolatum', length=4), source_measures=(1, 2), verb='suffix', target_stage=StageToken(letter='C', number=8, description='development', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='C', number=8, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=10, description='process', length=None), target_site=(1, 4), include_after=None)
+        Operation(source_stage=StageToken(letter='C', number=9, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=11, description='process', length=None), target_site=(1, 4), include_after=None)
+        Operation(source_stage=StageToken(letter='C', number=8, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=12, description='process', length=None), target_site=(1, 4), include_after=None)
+        Operation(source_stage=StageToken(letter='C', number=9, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=13, description='process', length=None), target_site=(1, 4), include_after=None)
+        Operation(source_stage=StageToken(letter='J', number=1, description='clearing', length=4), source_measures=(1, 2), verb='suffix', target_stage=StageToken(letter='C', number=14, description='conclusion', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='prolong', target_stage=StageToken(letter='D', number=6, description='pause', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='F', number=2, description='clearing', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='D', number=9, description='isolatum', length=4), target_site=(2, 3), include_after=None)
+        Operation(source_stage=StageToken(letter='S', number=1, description='transformatum', length=1), source_measures=1, verb='prefix', target_stage=StageToken(letter='D', number=11, description='isolatum', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='I', number=1, description='clearing', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='D', number=12, description='inception', length=2), target_site=(1, 2), include_after=None)
+        Operation(source_stage=StageToken(letter='F', number=2, description='clearing', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='D', number=21, description='clearing', length=2), target_site=(1, 2), include_after=None)
+        Operation(source_stage=StageToken(letter='C', number=2, description='process', length=4), source_measures=(3, 4), verb='suffix', target_stage=StageToken(letter='D', number=22, description='conclusion', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='H', number=9, description='clearing', length=6), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='E', number=1, description='inception', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='A', number=1, description='isolatum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='E', number=6, description='clearing', length=4), target_site=(2, 3), include_after=None)
+        Operation(source_stage=StageToken(letter='Q', number=1, description='inception', length=8), source_measures=(1, 8), verb='prolong', target_stage=StageToken(letter='E', number=7, description='pause', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='Q', number=2, description='transformatum', length=12), source_measures=(1, 12), verb='prolong', target_stage=StageToken(letter='E', number=7, description='pause', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='Q', number=1, description='inception', length=8), source_measures=(1, 8), verb='bisect', target_stage=StageToken(letter='E', number=12, description='development', length=4), target_site=(2, 3), include_after=None)
+        Operation(source_stage=StageToken(letter='Q', number=2, description='transformatum', length=12), source_measures=(1, 12), verb='bisect', target_stage=StageToken(letter='E', number=12, description='development', length=4), target_site=(2, 3), include_after=None)
+        Operation(source_stage=StageToken(letter='C', number=2, description='process', length=4), source_measures=(3, 4), verb='prolong', target_stage=StageToken(letter='F', number=2, description='pause', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='J', number=1, description='clearing', length=4), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='G', number=3, description='iteratum', length=None), target_site=None, include_after=None)
         Operation(source_stage=StageToken(letter='C', number=7, description='isolatum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='G', number=5, description='iteratum', length=2), target_site=(1, 2), include_after=True)
-        Operation(source_stage=StageToken(letter='D', number=11, description='isolatum', length=6), source_measures=(1, 6), verb='prolong', target_stage=StageToken(letter='G', number=6, description='pause'))
-        Operation(source_stage=StageToken(letter='I', number=1, description='clearing', length=2), source_measures=2, verb='prolong', target_stage=StageToken(letter='H', number=2, description='pause'))
-        Operation(source_stage=StageToken(letter='C', number=7, description='iteratum', length=1), source_measures=1, verb='prolong', target_stage=StageToken(letter='H', number=10, description='pause'), include_after=True)
-        Operation(source_stage=StageToken(letter='H', number=1, description='inception', length=4), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='H', number=11, description='iteratum'))
-        Operation(source_stage=StageToken(letter='G', number=5, description='iteratum', length=2), source_measures=(1, 2), verb='bisect', target_stage=StageToken(letter='H', number=14, description='clearing', length=2), target_site=(1, 2))
+        Operation(source_stage=StageToken(letter='D', number=11, description='isolatum', length=6), source_measures=(1, 6), verb='prolong', target_stage=StageToken(letter='G', number=6, description='pause', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='I', number=1, description='clearing', length=2), source_measures=2, verb='prolong', target_stage=StageToken(letter='H', number=2, description='pause', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='C', number=7, description='iteratum', length=1), source_measures=1, verb='prolong', target_stage=StageToken(letter='H', number=10, description='pause', length=None), target_site=None, include_after=True)
+        Operation(source_stage=StageToken(letter='H', number=1, description='inception', length=4), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='H', number=11, description='iteratum', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='G', number=5, description='iteratum', length=2), source_measures=(1, 2), verb='bisect', target_stage=StageToken(letter='H', number=14, description='clearing', length=2), target_site=(1, 2), include_after=None)
         Operation(source_stage=StageToken(letter='C', number=7, description='iteratum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='H', number=14, description='clearing', length=4), target_site=(2, 3), include_after=True)
         Operation(source_stage=StageToken(letter='C', number=7, description='isolatum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='J', number=1, description='clearing', length=4), target_site=(2, 3), include_after=True)
-        Operation(source_stage=StageToken(letter='C', number=14, description='conclusion', length=4), source_measures=(3, 4), verb='bisect', target_stage=StageToken(letter='K', number=1, description='inception', length=4), target_site=(2, 3))
-        Operation(source_stage=StageToken(letter='H', number=13, description='development', length=4), source_measures=3, verb='suffix', target_stage=StageToken(letter='K', number=6, description='clearing'))
-        Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='suffix', target_stage=StageToken(letter='K', number=6, description='clearing'))
-        Operation(source_stage=StageToken(letter='H', number=13, description='development', length=4), source_measures=4, verb='suffix', target_stage=StageToken(letter='K', number=6, description='clearing'))
-        Operation(source_stage=StageToken(letter='K', number=5, description='development', length=3), source_measures=(1, 3), verb='replace', target_stage=StageToken(letter='K', number=9, description='conclusion', length=8), target_site=(6, 8))
-        Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='N', number=4, description='inception'))
-        Operation(source_stage=StageToken(letter='K', number=6, description='clearing', length=3), source_measures=1, verb='bisect', target_stage=StageToken(letter='N', number=6, description='conclusion', length=12), target_site=(6, 7))
-        Operation(source_stage=StageToken(letter='H', number=13, description='development', length=4), source_measures=4, verb='suffix', target_stage=StageToken(letter='O', number=1, description='isolatum'))
-        Operation(source_stage=StageToken(letter='K', number=6, description='clearing', length=3), source_measures=1, verb='prefix', target_stage=StageToken(letter='Q', number=1, description='inception'))
+        Operation(source_stage=StageToken(letter='C', number=14, description='conclusion', length=4), source_measures=(3, 4), verb='bisect', target_stage=StageToken(letter='K', number=1, description='inception', length=4), target_site=(2, 3), include_after=None)
+        Operation(source_stage=StageToken(letter='H', number=13, description='development', length=4), source_measures=3, verb='suffix', target_stage=StageToken(letter='K', number=6, description='clearing', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='suffix', target_stage=StageToken(letter='K', number=6, description='clearing', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='H', number=13, description='development', length=4), source_measures=4, verb='suffix', target_stage=StageToken(letter='K', number=6, description='clearing', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='K', number=5, description='development', length=3), source_measures=(1, 3), verb='replace', target_stage=StageToken(letter='K', number=9, description='conclusion', length=8), target_site=(6, 8), include_after=None)
+        Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='N', number=4, description='inception', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='K', number=6, description='clearing', length=3), source_measures=1, verb='bisect', target_stage=StageToken(letter='N', number=6, description='conclusion', length=12), target_site=(6, 7), include_after=None)
+        Operation(source_stage=StageToken(letter='H', number=13, description='development', length=4), source_measures=4, verb='suffix', target_stage=StageToken(letter='O', number=1, description='isolatum', length=None), target_site=None, include_after=None)
+        Operation(source_stage=StageToken(letter='K', number=6, description='clearing', length=3), source_measures=1, verb='prefix', target_stage=StageToken(letter='Q', number=1, description='inception', length=None), target_site=None, include_after=None)
 
     """
 
@@ -2635,41 +2482,41 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[3, 4], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=2, measure_numbers=[3, 4], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[5, 6, 7], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=3, measure_numbers=[5, 6, 7], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[8, 9, 10], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=4, measure_numbers=[8, 9, 10], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[11, 12, 13, 14, 15, 16, 17], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=5, measure_numbers=[11, 12, 13, 14, 15, 16, 17], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[18, 19], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=6, measure_numbers=[18, 19], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[20, 21], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=7, measure_numbers=[20, 21], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[22, 23, 24], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=8, measure_numbers=[22, 23, 24], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[25, 26, 27, 28], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], suffix=[TimeSignature(pair=(14, 16), hide=False, partial=None)], postsuffix='fermata', operation=[Operation(source_stage=StageToken(letter='G', number=1, description='inception', length=1), source_measures=1, verb='suffix', target_stage=StageToken(letter='A', number=9, description='iteratum'))])
+        StageSpecifier(stage_number=9, measure_numbers=[25, 26, 27, 28], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=[TimeSignature(pair=(14, 16), hide=False, partial=None)], postsuffix='fermata', operation=[Operation(source_stage=StageToken(letter='G', number=1, description='inception', length=1), source_measures=1, verb='suffix', target_stage=StageToken(letter='A', number=9, description='iteratum', length=None), target_site=None, include_after=None)])
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[29, 30, 31, 32, 33, 34], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=10, measure_numbers=[29, 30, 31, 32, 33, 34], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[35, 36, 37, 38, 39, 40], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=11, measure_numbers=[35, 36, 37, 38, 39, 40], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[41, 42, 43, 44, 45], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='A', number=12, description='conclusion', length=4), target_site=(2, 3))])
+        StageSpecifier(stage_number=12, measure_numbers=[41, 42, 43, 44, 45], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='A', number=12, description='conclusion', length=4), target_site=(2, 3), include_after=None)])
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[46, 47, 48, 49, 50, 51], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata', operation=[Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='A', number=13, description='iteratum', length=4), target_site=(2, 3))])
+        StageSpecifier(stage_number=13, measure_numbers=[46, 47, 48, 49, 50, 51], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='A', number=13, description='iteratum', length=4), target_site=(2, 3), include_after=None)])
         14:
-        StageSpecifier(stage_number=14, measure_numbers=[52, 53], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=14, measure_numbers=[52, 53], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         15:
-        StageSpecifier(stage_number=15, measure_numbers=[54, 55, 56, 57], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], suffix=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], postsuffix='fermata', operation=[Operation(source_stage=StageToken(letter='H', number=1, description='inception', length=4), source_measures=(1, 2), verb='suffix', target_stage=StageToken(letter='A', number=15, description='iteratum'))])
+        StageSpecifier(stage_number=15, measure_numbers=[54, 55, 56, 57], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], postsuffix='fermata', operation=[Operation(source_stage=StageToken(letter='H', number=1, description='inception', length=4), source_measures=(1, 2), verb='suffix', target_stage=StageToken(letter='A', number=15, description='iteratum', length=None), target_site=None, include_after=None)])
         16:
-        StageSpecifier(stage_number=16, measure_numbers=[58, 59], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=16, measure_numbers=[58, 59], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         17:
-        StageSpecifier(stage_number=17, measure_numbers=[60, 61], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=17, measure_numbers=[60, 61], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         18:
-        StageSpecifier(stage_number=18, measure_numbers=[62, 63], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=18, measure_numbers=[62, 63], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -2682,53 +2529,53 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[5], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[5], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[6, 7], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[6, 7], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[8, 9, 10, 11], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[8, 9, 10, 11], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[12, 13], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None))
+        StageSpecifier(stage_number=5, measure_numbers=[12, 13], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None), suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[14, 15], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None))
+        StageSpecifier(stage_number=6, measure_numbers=[14, 15], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None), suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[16, 17], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None))
+        StageSpecifier(stage_number=7, measure_numbers=[16, 17], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None), suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[18, 19], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=8, measure_numbers=[18, 19], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[20, 21], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=9, measure_numbers=[20, 21], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[22], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=10, measure_numbers=[22], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[23, 24], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=11, measure_numbers=[23, 24], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[25, 26, 27, 28], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='fermata', operation=[Operation(source_stage=StageToken(letter='A', number=1, description='isolatum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='B', number=12, description='conclusion', length=2), target_site=(1, 2))])
+        StageSpecifier(stage_number=12, measure_numbers=[25, 26, 27, 28], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='A', number=1, description='isolatum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='B', number=12, description='conclusion', length=2), target_site=(1, 2), include_after=None)])
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[29, 30, 31], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=13, measure_numbers=[29, 30, 31], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         14:
-        StageSpecifier(stage_number=14, measure_numbers=[32, 33, 34, 35, 36], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='fermata', operation=[Operation(source_stage=StageToken(letter='H', number=1, description='inception', length=4), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='B', number=14, description='iteratum'))])
+        StageSpecifier(stage_number=14, measure_numbers=[32, 33, 34, 35, 36], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='H', number=1, description='inception', length=4), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='B', number=14, description='iteratum', length=None), target_site=None, include_after=None)])
         15:
-        StageSpecifier(stage_number=15, measure_numbers=[37, 38, 39], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=15, measure_numbers=[37, 38, 39], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         16:
-        StageSpecifier(stage_number=16, measure_numbers=[40, 41, 42, 43], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], suffix=[TimeSignature(pair=(12, 16), hide=False, partial=None)], postsuffix='fermata', operation=[Operation(source_stage=StageToken(letter='A', number=18, description='isolatum', length=1), source_measures=1, verb='suffix', target_stage=StageToken(letter='B', number=16, description='iteratum'))])
+        StageSpecifier(stage_number=16, measure_numbers=[40, 41, 42, 43], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=[TimeSignature(pair=(12, 16), hide=False, partial=None)], postsuffix='fermata', operation=[Operation(source_stage=StageToken(letter='A', number=18, description='isolatum', length=1), source_measures=1, verb='suffix', target_stage=StageToken(letter='B', number=16, description='iteratum', length=None), target_site=None, include_after=None)])
         17:
-        StageSpecifier(stage_number=17, measure_numbers=[44, 45, 46, 47, 48, 49], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='fermata', suffix=[TimeSignature(pair=(16, 16), hide=False, partial=None)], postsuffix='fermata', operation=[Operation(source_stage=StageToken(letter='D', number=9, description='isolatum', length=4), source_measures=1, verb='bisect', target_stage=StageToken(letter='B', number=17, description='iteratum', length=2), target_site=(1, 2)), Operation(source_stage=StageToken(letter='D', number=17, description='development', length=2), source_measures=2, verb='prolong', target_stage=StageToken(letter='B', number=17, description='pause'))])
+        StageSpecifier(stage_number=17, measure_numbers=[44, 45, 46, 47, 48, 49], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='fermata', suffix=[TimeSignature(pair=(16, 16), hide=False, partial=None)], postsuffix='fermata', operation=[Operation(source_stage=StageToken(letter='D', number=9, description='isolatum', length=4), source_measures=1, verb='bisect', target_stage=StageToken(letter='B', number=17, description='iteratum', length=2), target_site=(1, 2), include_after=None), Operation(source_stage=StageToken(letter='D', number=17, description='development', length=2), source_measures=2, verb='prolong', target_stage=StageToken(letter='B', number=17, description='pause', length=None), target_site=None, include_after=None)])
         18:
-        StageSpecifier(stage_number=18, measure_numbers=[50, 51], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=18, measure_numbers=[50, 51], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         19:
-        StageSpecifier(stage_number=19, measure_numbers=[52, 53, 54, 55, 56, 57], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=19, measure_numbers=[52, 53, 54, 55, 56, 57], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         20:
-        StageSpecifier(stage_number=20, measure_numbers=[58, 59], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=20, measure_numbers=[58, 59], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         21:
-        StageSpecifier(stage_number=21, measure_numbers=[60], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=21, measure_numbers=[60], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         22:
-        StageSpecifier(stage_number=22, measure_numbers=[61], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=22, measure_numbers=[61], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         23:
-        StageSpecifier(stage_number=23, measure_numbers=[62, 63], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=23, measure_numbers=[62, 63], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         24:
-        StageSpecifier(stage_number=24, measure_numbers=[64, 65, 66], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after='fermata', operation=[Operation(source_stage=StageToken(letter='D', number=16, description='development', length=2), source_measures=1, verb='prefix', target_stage=StageToken(letter='B', number=24, description='isolatum'))])
+        StageSpecifier(stage_number=24, measure_numbers=[64, 65, 66], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='D', number=16, description='development', length=2), source_measures=1, verb='prefix', target_stage=StageToken(letter='B', number=24, description='isolatum', length=None), target_site=None, include_after=None)])
 
 
     ..  container:: example
@@ -2741,43 +2588,43 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], suffix=[TimeSignature(pair=(14, 16), hide=False, partial=None)], postsuffix='fermata', operation=[Operation(source_stage=StageToken(letter='G', number=1, description='inception', length=1), source_measures=1, verb='suffix', target_stage=StageToken(letter='C', number=1, description='isolatum'))])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=[TimeSignature(pair=(14, 16), hide=False, partial=None)], postsuffix='fermata', operation=[Operation(source_stage=StageToken(letter='G', number=1, description='inception', length=1), source_measures=1, verb='suffix', target_stage=StageToken(letter='C', number=1, description='isolatum', length=None), target_site=None, include_after=None)])
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[7, 8, 9, 10, 11], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=2, measure_numbers=[7, 8, 9, 10, 11], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[12, 13, 14, 15], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[12, 13, 14, 15], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[16, 17, 18, 19], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[16, 17, 18, 19], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[20, 21, 22, 23], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[20, 21, 22, 23], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[24, 25, 26, 27], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[24, 25, 26, 27], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[28, 29], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None))
+        StageSpecifier(stage_number=7, measure_numbers=[28, 29], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None)], after=TimeSignature(pair=(5, 12), hide=False, partial=None), suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[30, 31, 32, 33, 34, 35], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], suffix=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='D', number=9, description='isolatum', length=4), source_measures=(1, 2), verb='suffix', target_stage=StageToken(letter='C', number=8, description='development'))])
+        StageSpecifier(stage_number=8, measure_numbers=[30, 31, 32, 33, 34, 35], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], postsuffix=None, operation=[Operation(source_stage=StageToken(letter='D', number=9, description='isolatum', length=4), source_measures=(1, 2), verb='suffix', target_stage=StageToken(letter='C', number=8, description='development', length=None), target_site=None, include_after=None)])
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[36, 37, 38, 39], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=9, measure_numbers=[36, 37, 38, 39], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[40, 41, 42, 43], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='C', number=8, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=10, description='process'), target_site=(1, 4))])
+        StageSpecifier(stage_number=10, measure_numbers=[40, 41, 42, 43], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='C', number=8, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=10, description='process', length=None), target_site=(1, 4), include_after=None)])
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[44, 45, 46, 47], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='C', number=9, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=11, description='process'), target_site=(1, 4))])
+        StageSpecifier(stage_number=11, measure_numbers=[44, 45, 46, 47], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='C', number=9, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=11, description='process', length=None), target_site=(1, 4), include_after=None)])
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[48, 49, 50, 51], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='C', number=8, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=12, description='process'), target_site=(1, 4))])
+        StageSpecifier(stage_number=12, measure_numbers=[48, 49, 50, 51], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='C', number=8, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=12, description='process', length=None), target_site=(1, 4), include_after=None)])
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[52, 53, 54, 55], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='C', number=9, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=13, description='process'), target_site=(1, 4))])
+        StageSpecifier(stage_number=13, measure_numbers=[52, 53, 54, 55], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='C', number=9, description='process', length=4), source_measures=(1, 4), verb='replace', target_stage=StageToken(letter='C', number=13, description='process', length=None), target_site=(1, 4), include_after=None)])
         14:
-        StageSpecifier(stage_number=14, measure_numbers=[56, 57, 58, 59, 60, 61], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], suffix=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='J', number=1, description='clearing', length=4), source_measures=(1, 2), verb='suffix', target_stage=StageToken(letter='C', number=14, description='conclusion'))])
+        StageSpecifier(stage_number=14, measure_numbers=[56, 57, 58, 59, 60, 61], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], postsuffix=None, operation=[Operation(source_stage=StageToken(letter='J', number=1, description='clearing', length=4), source_measures=(1, 2), verb='suffix', target_stage=StageToken(letter='C', number=14, description='conclusion', length=None), target_site=None, include_after=None)])
         15:
-        StageSpecifier(stage_number=15, measure_numbers=[62, 63], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=15, measure_numbers=[62, 63], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         16:
-        StageSpecifier(stage_number=16, measure_numbers=[64, 65], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=16, measure_numbers=[64, 65], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         17:
-        StageSpecifier(stage_number=17, measure_numbers=[66, 67], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=17, measure_numbers=[66, 67], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         18:
-        StageSpecifier(stage_number=18, measure_numbers=[68, 69, 70], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=18, measure_numbers=[68, 69, 70], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         19:
-        StageSpecifier(stage_number=19, measure_numbers=[71, 72, 73, 74, 75, 76, 77], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=19, measure_numbers=[71, 72, 73, 74, 75, 76, 77], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -2790,49 +2637,49 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[7, 8, 9, 10, 11, 12], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[7, 8, 9, 10, 11, 12], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[13, 14, 15, 16, 17, 18], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[13, 14, 15, 16, 17, 18], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[19, 20, 21, 22, 23, 24], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[19, 20, 21, 22, 23, 24], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[25, 26, 27, 28, 29, 30], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[25, 26, 27, 28, 29, 30], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[31, 32, 33, 34, 35, 36, 37, 38, 39], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata', suffix=[TimeSignature(pair=(3, 4), hide=False, partial=None)], postsuffix='fermata', operation=[Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='prolong', target_stage=StageToken(letter='D', number=6, description='pause'))])
+        StageSpecifier(stage_number=6, measure_numbers=[31, 32, 33, 34, 35, 36, 37, 38, 39], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata', suffix=[TimeSignature(pair=(3, 4), hide=False, partial=None)], postsuffix='fermata', operation=[Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='prolong', target_stage=StageToken(letter='D', number=6, description='pause', length=None), target_site=None, include_after=None)])
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[40, 41, 42, 43, 44, 45, 46], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=7, measure_numbers=[40, 41, 42, 43, 44, 45, 46], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[47, 48], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=8, measure_numbers=[47, 48], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[49, 50, 51, 52, 53, 54], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after='long', operation=[Operation(source_stage=StageToken(letter='F', number=2, description='clearing', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='D', number=9, description='isolatum', length=4), target_site=(2, 3))])
+        StageSpecifier(stage_number=9, measure_numbers=[49, 50, 51, 52, 53, 54], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='F', number=2, description='clearing', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='D', number=9, description='isolatum', length=4), target_site=(2, 3), include_after=None)])
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[55, 56], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=10, measure_numbers=[55, 56], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[57, 58, 59, 60, 61, 62, 63, 64], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='long', operation=[Operation(source_stage=StageToken(letter='S', number=1, description='transformatum', length=1), source_measures=1, verb='prefix', target_stage=StageToken(letter='D', number=11, description='isolatum'))])
+        StageSpecifier(stage_number=11, measure_numbers=[57, 58, 59, 60, 61, 62, 63, 64], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='S', number=1, description='transformatum', length=1), source_measures=1, verb='prefix', target_stage=StageToken(letter='D', number=11, description='isolatum', length=None), target_site=None, include_after=None)])
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[65, 66, 67], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='I', number=1, description='clearing', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='D', number=12, description='inception', length=2), target_site=(1, 2))])
+        StageSpecifier(stage_number=12, measure_numbers=[65, 66, 67], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='I', number=1, description='clearing', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='D', number=12, description='inception', length=2), target_site=(1, 2), include_after=None)])
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[68, 69, 70, 71], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=13, measure_numbers=[68, 69, 70, 71], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         14:
-        StageSpecifier(stage_number=14, measure_numbers=[72, 73, 74, 75], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=14, measure_numbers=[72, 73, 74, 75], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         15:
-        StageSpecifier(stage_number=15, measure_numbers=[76, 77, 78, 79], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=15, measure_numbers=[76, 77, 78, 79], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         16:
-        StageSpecifier(stage_number=16, measure_numbers=[80, 81, 82, 83], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=16, measure_numbers=[80, 81, 82, 83], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         17:
-        StageSpecifier(stage_number=17, measure_numbers=[84, 85], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=17, measure_numbers=[84, 85], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         18:
-        StageSpecifier(stage_number=18, measure_numbers=[86, 87], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=18, measure_numbers=[86, 87], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         19:
-        StageSpecifier(stage_number=19, measure_numbers=[88, 89], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=19, measure_numbers=[88, 89], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         20:
-        StageSpecifier(stage_number=20, measure_numbers=[90, 91], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=20, measure_numbers=[90, 91], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         21:
-        StageSpecifier(stage_number=21, measure_numbers=[92, 93, 94], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='F', number=2, description='clearing', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='D', number=21, description='clearing', length=2), target_site=(1, 2))])
+        StageSpecifier(stage_number=21, measure_numbers=[92, 93, 94], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='F', number=2, description='clearing', length=2), source_measures=2, verb='bisect', target_stage=StageToken(letter='D', number=21, description='clearing', length=2), target_site=(1, 2), include_after=None)])
         22:
-        StageSpecifier(stage_number=22, measure_numbers=[95, 96, 97, 98, 99], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], suffix=[TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], postsuffix='short', operation=[Operation(source_stage=StageToken(letter='C', number=2, description='process', length=4), source_measures=(3, 4), verb='suffix', target_stage=StageToken(letter='D', number=22, description='conclusion'))])
+        StageSpecifier(stage_number=22, measure_numbers=[95, 96, 97, 98, 99], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=[TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], postsuffix='short', operation=[Operation(source_stage=StageToken(letter='C', number=2, description='process', length=4), source_measures=(3, 4), verb='suffix', target_stage=StageToken(letter='D', number=22, description='conclusion', length=None), target_site=None, include_after=None)])
 
 
     ..  container:: example
@@ -2845,39 +2692,39 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         0:
-        StageSpecifier(stage_number=0, measure_numbers=[1, 2, 3], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=0, measure_numbers=[1, 2, 3], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[4, 5, 6, 7, 8, 9, 10, 11], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='H', number=9, description='clearing', length=6), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='E', number=1, description='inception'))])
+        StageSpecifier(stage_number=1, measure_numbers=[4, 5, 6, 7, 8, 9, 10, 11], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='H', number=9, description='clearing', length=6), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='E', number=1, description='inception', length=None), target_site=None, include_after=None)])
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[12, 13, 14, 15, 16, 17, 18, 19], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[12, 13, 14, 15, 16, 17, 18, 19], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[20, 21, 22, 23], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[20, 21, 22, 23], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[24, 25, 26, 27], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[24, 25, 26, 27], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[28, 29, 30, 31], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[28, 29, 30, 31], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[32, 33, 34, 35, 36], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='A', number=1, description='isolatum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='E', number=6, description='clearing', length=4), target_site=(2, 3))])
+        StageSpecifier(stage_number=6, measure_numbers=[32, 33, 34, 35, 36], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='A', number=1, description='isolatum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='E', number=6, description='clearing', length=4), target_site=(2, 3), include_after=None)])
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='fermata', suffix=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], postsuffix='fermata', operation=[Operation(source_stage=StageToken(letter='Q', number=1, description='inception', length=8), source_measures=(1, 8), verb='prolong', target_stage=StageToken(letter='E', number=7, description='pause')), Operation(source_stage=StageToken(letter='Q', number=2, description='transformatum', length=12), source_measures=(1, 12), verb='prolong', target_stage=StageToken(letter='E', number=7, description='pause'))])
+        StageSpecifier(stage_number=7, measure_numbers=[37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='fermata', suffix=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], postsuffix='fermata', operation=[Operation(source_stage=StageToken(letter='Q', number=1, description='inception', length=8), source_measures=(1, 8), verb='prolong', target_stage=StageToken(letter='E', number=7, description='pause', length=None), target_site=None, include_after=None), Operation(source_stage=StageToken(letter='Q', number=2, description='transformatum', length=12), source_measures=(1, 12), verb='prolong', target_stage=StageToken(letter='E', number=7, description='pause', length=None), target_site=None, include_after=None)])
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[63, 64, 65, 66, 67, 68, 69, 70], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=8, measure_numbers=[63, 64, 65, 66, 67, 68, 69, 70], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[71, 72, 73, 74, 75, 76, 77, 78], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=9, measure_numbers=[71, 72, 73, 74, 75, 76, 77, 78], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[79, 80, 81], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=10, measure_numbers=[79, 80, 81], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[82, 83, 84, 85, 86], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=11, measure_numbers=[82, 83, 84, 85, 86], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='fermata', operation=[Operation(source_stage=StageToken(letter='Q', number=1, description='inception', length=8), source_measures=(1, 8), verb='bisect', target_stage=StageToken(letter='E', number=12, description='development', length=4), target_site=(2, 3)), Operation(source_stage=StageToken(letter='Q', number=2, description='transformatum', length=12), source_measures=(1, 12), verb='bisect', target_stage=StageToken(letter='E', number=12, description='development', length=4), target_site=(2, 3))])
+        StageSpecifier(stage_number=12, measure_numbers=[87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='Q', number=1, description='inception', length=8), source_measures=(1, 8), verb='bisect', target_stage=StageToken(letter='E', number=12, description='development', length=4), target_site=(2, 3), include_after=None), Operation(source_stage=StageToken(letter='Q', number=2, description='transformatum', length=12), source_measures=(1, 12), verb='bisect', target_stage=StageToken(letter='E', number=12, description='development', length=4), target_site=(2, 3), include_after=None)])
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[112, 113, 114, 115], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=13, measure_numbers=[112, 113, 114, 115], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         14:
-        StageSpecifier(stage_number=14, measure_numbers=[116, 117], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=14, measure_numbers=[116, 117], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         15:
-        StageSpecifier(stage_number=15, measure_numbers=[118, 119], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=15, measure_numbers=[118, 119], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         16:
-        StageSpecifier(stage_number=16, measure_numbers=[120, 121, 122, 123, 124, 125, 126, 127], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=16, measure_numbers=[120, 121, 122, 123, 124, 125, 126, 127], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -2890,9 +2737,9 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[9, 10, 11, 12, 13, 14], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after='long', suffix=[TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], postsuffix='long', operation=[Operation(source_stage=StageToken(letter='C', number=2, description='process', length=4), source_measures=(3, 4), verb='prolong', target_stage=StageToken(letter='F', number=2, description='pause'))])
+        StageSpecifier(stage_number=2, measure_numbers=[9, 10, 11, 12, 13, 14], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after='long', suffix=[TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], postsuffix='long', operation=[Operation(source_stage=StageToken(letter='C', number=2, description='process', length=4), source_measures=(3, 4), verb='prolong', target_stage=StageToken(letter='F', number=2, description='pause', length=None), target_site=None, include_after=None)])
 
 
     ..  container:: example
@@ -2905,17 +2752,17 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[3, 4], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=2, measure_numbers=[3, 4], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[5, 6, 7, 8], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata', operation=[Operation(source_stage=StageToken(letter='J', number=1, description='clearing', length=4), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='G', number=3, description='iteratum'))])
+        StageSpecifier(stage_number=3, measure_numbers=[5, 6, 7, 8], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='J', number=1, description='clearing', length=4), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='G', number=3, description='iteratum', length=None), target_site=None, include_after=None)])
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[9, 10], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=4, measure_numbers=[9, 10], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[11, 12, 13, 14, 15], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 12), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='long', operation=[Operation(source_stage=StageToken(letter='C', number=7, description='isolatum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='G', number=5, description='iteratum', length=2), target_site=(1, 2), include_after=True)])
+        StageSpecifier(stage_number=5, measure_numbers=[11, 12, 13, 14, 15], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 12), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='C', number=7, description='isolatum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='G', number=5, description='iteratum', length=2), target_site=(1, 2), include_after=True)])
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[16, 17, 18, 19, 20, 21, 22, 23, 24, 25], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)], after='long', suffix=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], postsuffix='long', operation=[Operation(source_stage=StageToken(letter='D', number=11, description='isolatum', length=6), source_measures=(1, 6), verb='prolong', target_stage=StageToken(letter='G', number=6, description='pause'))])
+        StageSpecifier(stage_number=6, measure_numbers=[16, 17, 18, 19, 20, 21, 22, 23, 24, 25], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)], after='long', suffix=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], postsuffix='long', operation=[Operation(source_stage=StageToken(letter='D', number=11, description='isolatum', length=6), source_measures=(1, 6), verb='prolong', target_stage=StageToken(letter='G', number=6, description='pause', length=None), target_site=None, include_after=None)])
 
 
     ..  container:: example
@@ -2928,33 +2775,33 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[5, 6], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)], suffix=[TimeSignature(pair=(3, 4), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='I', number=1, description='clearing', length=2), source_measures=2, verb='prolong', target_stage=StageToken(letter='H', number=2, description='pause'))])
+        StageSpecifier(stage_number=2, measure_numbers=[5, 6], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=[TimeSignature(pair=(3, 4), hide=False, partial=None)], postsuffix=None, operation=[Operation(source_stage=StageToken(letter='I', number=1, description='clearing', length=2), source_measures=2, verb='prolong', target_stage=StageToken(letter='H', number=2, description='pause', length=None), target_site=None, include_after=None)])
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[7, 8], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[7, 8], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[9, 10], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[9, 10], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[11, 12], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[11, 12], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[13, 14], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[13, 14], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[15, 16], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=7, measure_numbers=[15, 16], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[17, 18, 19, 20, 21, 22], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=8, measure_numbers=[17, 18, 19, 20, 21, 22], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[23, 24, 25, 26, 27, 28, 29], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=9, measure_numbers=[23, 24, 25, 26, 27, 28, 29], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[30, 31, 32, 33, 34, 35], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='short', suffix=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 12), hide=False, partial=None)], postsuffix='short', operation=[Operation(source_stage=StageToken(letter='C', number=7, description='iteratum', length=1), source_measures=1, verb='prolong', target_stage=StageToken(letter='H', number=10, description='pause'), include_after=True)])
+        StageSpecifier(stage_number=10, measure_numbers=[30, 31, 32, 33, 34, 35], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='short', suffix=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 12), hide=False, partial=None)], postsuffix='short', operation=[Operation(source_stage=StageToken(letter='C', number=7, description='iteratum', length=1), source_measures=1, verb='prolong', target_stage=StageToken(letter='H', number=10, description='pause', length=None), target_site=None, include_after=True)])
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[36, 37, 38, 39, 40, 41], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short', operation=[Operation(source_stage=StageToken(letter='H', number=1, description='inception', length=4), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='H', number=11, description='iteratum'))])
+        StageSpecifier(stage_number=11, measure_numbers=[36, 37, 38, 39, 40, 41], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='H', number=1, description='inception', length=4), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='H', number=11, description='iteratum', length=None), target_site=None, include_after=None)])
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[42, 43, 44, 45, 46], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=12, measure_numbers=[42, 43, 44, 45, 46], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[47, 48, 49, 50], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=13, measure_numbers=[47, 48, 49, 50], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         14:
-        StageSpecifier(stage_number=14, measure_numbers=[51, 52, 53, 54, 55, 56], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 12), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='G', number=5, description='iteratum', length=2), source_measures=(1, 2), verb='bisect', target_stage=StageToken(letter='H', number=14, description='clearing', length=2), target_site=(1, 2)), Operation(source_stage=StageToken(letter='C', number=7, description='iteratum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='H', number=14, description='clearing', length=4), target_site=(2, 3), include_after=True)])
+        StageSpecifier(stage_number=14, measure_numbers=[51, 52, 53, 54, 55, 56], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 12), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='G', number=5, description='iteratum', length=2), source_measures=(1, 2), verb='bisect', target_stage=StageToken(letter='H', number=14, description='clearing', length=2), target_site=(1, 2), include_after=None), Operation(source_stage=StageToken(letter='C', number=7, description='iteratum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='H', number=14, description='clearing', length=4), target_site=(2, 3), include_after=True)])
 
 
     ..  container:: example
@@ -2967,19 +2814,19 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[3], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[3], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[4], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[4], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[5], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[5], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[6, 7], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[6, 7], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[8, 9], time_signatures=[TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[8, 9], time_signatures=[TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[10, 11], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=7, measure_numbers=[10, 11], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -2992,17 +2839,17 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 12), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='C', number=7, description='isolatum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='J', number=1, description='clearing', length=4), target_site=(2, 3), include_after=True)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6], time_signatures=[TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(5, 12), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='C', number=7, description='isolatum', length=1), source_measures=1, verb='bisect', target_stage=StageToken(letter='J', number=1, description='clearing', length=4), target_site=(2, 3), include_after=True)])
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[7, 8], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[7, 8], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[9, 10], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[9, 10], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[11], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[11], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[12, 13], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[12, 13], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[14, 15, 16, 17], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[14, 15, 16, 17], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -3015,25 +2862,25 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='C', number=14, description='conclusion', length=4), source_measures=(3, 4), verb='bisect', target_stage=StageToken(letter='K', number=1, description='inception', length=4), target_site=(2, 3))])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='C', number=14, description='conclusion', length=4), source_measures=(3, 4), verb='bisect', target_stage=StageToken(letter='K', number=1, description='inception', length=4), target_site=(2, 3), include_after=None)])
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[6, 7, 8], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[6, 7, 8], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[9, 10, 11], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[9, 10, 11], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[12, 13, 14], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[12, 13, 14], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[15, 16, 17], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[15, 16, 17], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[18, 19, 20, 21, 22, 23], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], suffix=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='H', number=13, description='development', length=4), source_measures=3, verb='suffix', target_stage=StageToken(letter='K', number=6, description='clearing')), Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='suffix', target_stage=StageToken(letter='K', number=6, description='clearing')), Operation(source_stage=StageToken(letter='H', number=13, description='development', length=4), source_measures=4, verb='suffix', target_stage=StageToken(letter='K', number=6, description='clearing'))])
+        StageSpecifier(stage_number=6, measure_numbers=[18, 19, 20, 21, 22, 23], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], postsuffix=None, operation=[Operation(source_stage=StageToken(letter='H', number=13, description='development', length=4), source_measures=3, verb='suffix', target_stage=StageToken(letter='K', number=6, description='clearing', length=None), target_site=None, include_after=None), Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=2, verb='suffix', target_stage=StageToken(letter='K', number=6, description='clearing', length=None), target_site=None, include_after=None), Operation(source_stage=StageToken(letter='H', number=13, description='development', length=4), source_measures=4, verb='suffix', target_stage=StageToken(letter='K', number=6, description='clearing', length=None), target_site=None, include_after=None)])
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[24, 25, 26, 27, 28, 29, 30, 31], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=7, measure_numbers=[24, 25, 26, 27, 28, 29, 30, 31], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[32, 33, 34, 35, 36, 37], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=8, measure_numbers=[32, 33, 34, 35, 36, 37], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[38, 39, 40, 41, 42, 43, 44, 45], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='K', number=5, description='development', length=3), source_measures=(1, 3), verb='replace', target_stage=StageToken(letter='K', number=9, description='conclusion', length=8), target_site=(6, 8))])
+        StageSpecifier(stage_number=9, measure_numbers=[38, 39, 40, 41, 42, 43, 44, 45], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='K', number=5, description='development', length=3), source_measures=(1, 3), verb='replace', target_stage=StageToken(letter='K', number=9, description='conclusion', length=8), target_site=(6, 8), include_after=None)])
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[46, 47, 48, 49, 50, 51, 52, 53, 54], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after='short')
+        StageSpecifier(stage_number=10, measure_numbers=[46, 47, 48, 49, 50, 51, 52, 53, 54], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after='short', suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -3046,7 +2893,7 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -3059,19 +2906,19 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[9, 10, 11, 12], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[9, 10, 11, 12], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[13, 14, 15, 16], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[13, 14, 15, 16], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[17, 18, 19, 20], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[17, 18, 19, 20], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[21, 22, 23, 24], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[21, 22, 23, 24], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[25, 26, 27, 28], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[25, 26, 27, 28], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[29, 30, 31, 32], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=7, measure_numbers=[29, 30, 31, 32], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -3084,19 +2931,19 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[7, 8], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[7, 8], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[9, 10], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[9, 10], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[11, 12, 13, 14, 15, 16], time_signatures=[TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='N', number=4, description='inception'))])
+        StageSpecifier(stage_number=4, measure_numbers=[11, 12, 13, 14, 15, 16], time_signatures=[TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='I', number=6, description='current', length=2), source_measures=(1, 2), verb='prefix', target_stage=StageToken(letter='N', number=4, description='inception', length=None), target_site=None, include_after=None)])
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[17, 18, 19, 20, 21, 22], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[17, 18, 19, 20, 21, 22], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='very_long', operation=[Operation(source_stage=StageToken(letter='K', number=6, description='clearing', length=3), source_measures=1, verb='bisect', target_stage=StageToken(letter='N', number=6, description='conclusion', length=12), target_site=(6, 7))])
+        StageSpecifier(stage_number=6, measure_numbers=[23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='very_long', suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='K', number=6, description='clearing', length=3), source_measures=1, verb='bisect', target_stage=StageToken(letter='N', number=6, description='conclusion', length=12), target_site=(6, 7), include_after=None)])
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[37, 38, 39], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after='very_long')
+        StageSpecifier(stage_number=7, measure_numbers=[37, 38, 39], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after='very_long', suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -3109,7 +2956,7 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)], suffix=[TimeSignature(pair=(8, 8), hide=False, partial=None)], postsuffix='very_long', operation=[Operation(source_stage=StageToken(letter='H', number=13, description='development', length=4), source_measures=4, verb='suffix', target_stage=StageToken(letter='O', number=1, description='isolatum'))])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)], after=None, suffix=[TimeSignature(pair=(8, 8), hide=False, partial=None)], postsuffix='very_long', operation=[Operation(source_stage=StageToken(letter='H', number=13, description='development', length=4), source_measures=4, verb='suffix', target_stage=StageToken(letter='O', number=1, description='isolatum', length=None), target_site=None, include_after=None)])
 
 
     ..  container:: example
@@ -3122,15 +2969,15 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[5, 6, 7, 8, 9, 10], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[5, 6, 7, 8, 9, 10], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[11, 12, 13, 14], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[11, 12, 13, 14], time_signatures=[TimeSignature(pair=(10, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[15, 16, 17, 18, 19, 20], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[15, 16, 17, 18, 19, 20], time_signatures=[TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(8, 16), hide=False, partial=None), TimeSignature(pair=(12, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[21, 22, 23, 24, 25, 26], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[21, 22, 23, 24, 25, 26], time_signatures=[TimeSignature(pair=(12, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(14, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(16, 16), hide=False, partial=None), TimeSignature(pair=(10, 16), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -3143,31 +2990,31 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], operation=[Operation(source_stage=StageToken(letter='K', number=6, description='clearing', length=3), source_measures=1, verb='prefix', target_stage=StageToken(letter='Q', number=1, description='inception'))])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9], time_signatures=[TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=[Operation(source_stage=StageToken(letter='K', number=6, description='clearing', length=3), source_measures=1, verb='prefix', target_stage=StageToken(letter='Q', number=1, description='inception', length=None), target_site=None, include_after=None)])
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[22, 23, 24, 25, 26, 27], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[22, 23, 24, 25, 26, 27], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[28, 29, 30, 31, 32, 33, 34, 35, 36, 37], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=4, measure_numbers=[28, 29, 30, 31, 32, 33, 34, 35, 36, 37], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[38, 39, 40, 41, 42], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=5, measure_numbers=[38, 39, 40, 41, 42], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         6:
-        StageSpecifier(stage_number=6, measure_numbers=[43, 44, 45, 46, 47, 48, 49, 50], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=6, measure_numbers=[43, 44, 45, 46, 47, 48, 49, 50], time_signatures=[TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         7:
-        StageSpecifier(stage_number=7, measure_numbers=[51, 52, 53, 54], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=7, measure_numbers=[51, 52, 53, 54], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         8:
-        StageSpecifier(stage_number=8, measure_numbers=[55, 56, 57, 58, 59, 60], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=8, measure_numbers=[55, 56, 57, 58, 59, 60], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         9:
-        StageSpecifier(stage_number=9, measure_numbers=[61, 62, 63], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=9, measure_numbers=[61, 62, 63], time_signatures=[TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         10:
-        StageSpecifier(stage_number=10, measure_numbers=[64, 65, 66, 67], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=10, measure_numbers=[64, 65, 66, 67], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         11:
-        StageSpecifier(stage_number=11, measure_numbers=[68, 69], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=11, measure_numbers=[68, 69], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         12:
-        StageSpecifier(stage_number=12, measure_numbers=[70, 71, 72], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=12, measure_numbers=[70, 71, 72], time_signatures=[TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
         13:
-        StageSpecifier(stage_number=13, measure_numbers=[73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)])
+        StageSpecifier(stage_number=13, measure_numbers=[73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92], time_signatures=[TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(7, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(6, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(8, 8), hide=False, partial=None), TimeSignature(pair=(4, 8), hide=False, partial=None), TimeSignature(pair=(5, 8), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -3180,13 +3027,13 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2, 3, 4], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[5, 6, 7, 8], time_signatures=[TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=2, measure_numbers=[5, 6, 7, 8], time_signatures=[TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[9, 10, 11, 12], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)])
+        StageSpecifier(stage_number=3, measure_numbers=[9, 10, 11, 12], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after=None, suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[13, 14, 15, 16, 17], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='fermata')
+        StageSpecifier(stage_number=4, measure_numbers=[13, 14, 15, 16, 17], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='fermata', suffix=None, postsuffix=None, operation=None)
 
 
     ..  container:: example
@@ -3199,15 +3046,15 @@ def second_order_stages(segment):
         ...     print(f"{number}:")
         ...     print(stage)
         1:
-        StageSpecifier(stage_number=1, measure_numbers=[1, 2], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=1, measure_numbers=[1, 2], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
         2:
-        StageSpecifier(stage_number=2, measure_numbers=[3, 4, 5], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=2, measure_numbers=[3, 4, 5], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
         3:
-        StageSpecifier(stage_number=3, measure_numbers=[6, 7, 8, 9], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=3, measure_numbers=[6, 7, 8, 9], time_signatures=[TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None), TimeSignature(pair=(6, 4), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
         4:
-        StageSpecifier(stage_number=4, measure_numbers=[10, 11, 12, 13, 14, 15, 16], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='long')
+        StageSpecifier(stage_number=4, measure_numbers=[10, 11, 12, 13, 14, 15, 16], time_signatures=[TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(5, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None)], after='long', suffix=None, postsuffix=None, operation=None)
         5:
-        StageSpecifier(stage_number=5, measure_numbers=[17, 18, 19, 20], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after='very_long')
+        StageSpecifier(stage_number=5, measure_numbers=[17, 18, 19, 20], time_signatures=[TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(4, 4), hide=False, partial=None), TimeSignature(pair=(3, 4), hide=False, partial=None)], after='very_long', suffix=None, postsuffix=None, operation=None)
 
 
     """
