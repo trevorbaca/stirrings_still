@@ -151,8 +151,8 @@ class Operation:
             assert source_stage.after
             source_time_signatures.append(source_stage.after)
         assert source_time_signatures, repr(source_time_signatures)
-        target_stage_ = abjad.new(target_stage, operation=self)
-        target_stage_ = abjad.new(target_stage)
+        target_stage_ = dataclasses.replace(target_stage, operation=self)
+        target_stage_ = dataclasses.replace(target_stage)
         if isinstance(target_stage.operation, list):
             operations = target_stage.operation[:] + [self]
         else:
@@ -1990,7 +1990,20 @@ def multistage_leaf_glissando(
     )
     commands.append(chunk)
     if measures is not None:
-        commands = [abjad.new(_, measures=measures) for _ in commands]
+        commands_ = []
+        for item in commands:
+            if isinstance(item, baca.Command):
+                item_ = dataclasses.replace(item, measures=measures)
+            else:
+                assert isinstance(item, baca.Suite)
+                new_suite_commands = []
+                for suite_command in item:
+                    assert isinstance(suite_command, baca.Command)
+                    item_ = dataclasses.replace(suite_command, measures=measures)
+                    new_suite_commands.append(item_)
+                item_ = baca.suite(*new_suite_commands)
+            commands_.append(item_)
+        commands = commands_
     return baca.chunk(*commands)
 
 
@@ -3073,7 +3086,7 @@ def second_order_stages(segment):
     dictionary = dict()
     measure_number = 1
     for stage_number, target_stage in target_stages.items():
-        target_stage = abjad.new(target_stage)
+        target_stage = dataclasses.replace(target_stage)
         stop = measure_number + target_stage.time_signature_count
         target_stage.measure_numbers = list(range(measure_number, stop))
         measure_number += target_stage.time_signature_count
