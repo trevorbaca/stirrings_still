@@ -255,7 +255,7 @@ def measure_starts_plus_rest(argument):
     selection_2 = baca.Selection(argument)
     selection_2 = selection_2.leaves()
     selection_2 = selection_2[-1:]
-    selection = selection_1 + selection_2
+    selection = baca.Selection(list(selection_1) + list(selection_2))
     return selection
 
 
