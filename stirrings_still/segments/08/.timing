@@ -10358,3 +10358,8 @@ LilyPond runtime: 2 seconds
 Segment interpretation time: 13 seconds
 Abjad format time: 0 seconds
 LilyPond runtime: 2 seconds
+
+2022-02-18 15:10:59
+Segment interpretation time: 17 seconds
+Abjad format time: 0 seconds
+LilyPond runtime: 4 seconds
