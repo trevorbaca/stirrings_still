@@ -60,7 +60,7 @@ def operand(argument):
     return argument
 
 mask = baca.Sequence([0, 1, 1, 0, 0, 1])
-for item in baca.Sequence([mask]).accumulate([operand]):
+for item in baca.sequence.accumulate([mask], [operand]):
     print(item)
 
 Sequence([Sequence([0, 1, 1, 0, 0, 1])])

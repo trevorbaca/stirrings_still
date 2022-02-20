@@ -64,19 +64,22 @@ metronome_marks = dict(
 time_signature_series = dict()
 
 numerators = baca.Sequence([[3, 4, 4], [3, 4, 5, 6]])
-numerators = numerators.helianthate(-1, 1).flatten()
+numerators = baca.sequence.helianthate(numerators, -1, 1)
+numerators = baca.Sequence(numerators).flatten()
 assert len(numerators) == 84
 _time_signatures = [abjad.TimeSignature((_, 4)) for _ in numerators]
 time_signature_series["A"] = _time_signatures
 
 numerators = baca.Sequence([[6, 7, 7], [4, 5], [6, 8, 8]])
-numerators = numerators.helianthate(-1, 1).flatten()
+numerators = baca.sequence.helianthate(numerators, -1, 1)
+numerators = abjad.Sequence(numerators).flatten()
 assert len(numerators) == 48
 _time_signatures = [abjad.TimeSignature((_, 8)) for _ in numerators]
 time_signature_series["B"] = _time_signatures
 
 numerators = baca.Sequence([[8, 12, 12], [14, 14, 16, 16], [10, 12]])
-numerators = numerators.helianthate(-1, 1).flatten()
+numerators = baca.sequence.helianthate(numerators, -1, 1)
+numerators = baca.Sequence(numerators).flatten()
 assert len(numerators) == 108
 _time_signatures = [abjad.TimeSignature((_, 16)) for _ in numerators]
 time_signature_series["C"] = _time_signatures
