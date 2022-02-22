@@ -346,8 +346,8 @@ def bcps(
     bcps = bcps.flatten(depth=1)
     bcps = bcps.rotate(n=rotation)
     if clt:
-        bcps = bcps.replace((0, 7), (1, 7))
-        bcps = bcps.replace((0, 4), (1, 4))
+        bcps = abjad.sequence.replace(bcps, (0, 7), (1, 7))
+        bcps = abjad.sequence.replace(bcps, (0, 4), (1, 4))
     bcps_, previous_bcp = [], None
     for bcp in bcps:
         if bcp != previous_bcp:
