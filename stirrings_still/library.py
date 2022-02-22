@@ -335,14 +335,12 @@ def bcps(
     Makes bow contact points.
     """
     assert staff_padding is not None, repr(staff_padding)
-    bcps = abjad.Sequence(
-        [
-            [(0, 7), (4, 7), (5, 7), (6, 7), (7, 7), (6, 7)],
-            [(7, 7), (0, 7), (7, 7), (0, 7), (7, 7)],
-            [(0, 7), (4, 7), (5, 7), (6, 7), (7, 7), (6, 7), (7, 7)],
-            [(0, 4), (1, 4), (2, 4), (1, 4)],
-        ]
-    )
+    bcps = [
+        [(0, 7), (4, 7), (5, 7), (6, 7), (7, 7), (6, 7)],
+        [(7, 7), (0, 7), (7, 7), (0, 7), (7, 7)],
+        [(0, 7), (4, 7), (5, 7), (6, 7), (7, 7), (6, 7), (7, 7)],
+        [(0, 4), (1, 4), (2, 4), (1, 4)],
+    ]
     bcps = abjad.sequence.flatten(bcps, depth=1)
     bcps = abjad.sequence.rotate(bcps, n=rotation)
     if clt:
@@ -608,9 +606,9 @@ def declamation(*, measures=None, protract=False):
     if protract is True:
 
         def preprocessor(divisions):
-            divisions = abjad.Sequence(
-                baca.sequence.split_divisions(_, [(1, 4)]) for _ in divisions
-            )
+            divisions = [
+                baca.sequence.split_divisions([_], [(1, 4)]) for _ in divisions
+            ]
             return divisions
 
         command = baca.rhythm(
@@ -1751,7 +1749,7 @@ def flight(counts, rotation, *, measures=None, start=0):
 
     counts_ = {"A": counts_a, "B": counts_b, "C": counts_c}[counts]
 
-    counts_ = abjad.Sequence(counts_)
+    counts_ = counts_[:]
     counts_ = counts_[start:]
     extra_counts = abjad.sequence.rotate([1, 0, 2], n=rotation)
 
@@ -1794,7 +1792,7 @@ def grid(*, rotation, measures=None):
     """
     Makes grid.
     """
-    counts = abjad.Sequence([1, -3, 1, -3, 1, -2])
+    counts = [1, -3, 1, -3, 1, -2]
     counts = abjad.sequence.rotate(counts, n=rotation)
 
     command = baca.rhythm(
@@ -1813,7 +1811,7 @@ def grid_to_trajectory(counts, rotation, extra, *, measures=None):
     """
     Makes grid-to-trajectory transition.
     """
-    counts_ = {0: abjad.Sequence([2, 14, 2, 10, 2, 18])}[counts]
+    counts_ = {0: [2, 14, 2, 10, 2, 18]}[counts]
     counts_ = abjad.sequence.rotate(counts_, n=rotation)
     assert isinstance(extra, int), repr(extra)
     extra_counts = [extra]
@@ -3150,7 +3148,7 @@ def synchronized_circles(
     """
     Makes rhythm for synchronized circles.
     """
-    counts = abjad.Sequence([3, -2, 3, -2, 3, -2, 3, -1])
+    counts = [3, -2, 3, -2, 3, -2, 3, -1]
     rotation *= 2
     counts = abjad.sequence.rotate(counts, n=rotation)
     if not gaps:
@@ -3213,7 +3211,7 @@ def talea_eighths(counts, rotation, extra, *, end_counts=(), measures=None):
     assert isinstance(extra, int), extra
     extra_counts = [extra]
     assert isinstance(rotation, int), rotation
-    counts_ = abjad.Sequence(counts)
+    counts_ = counts[:]
     counts_ = abjad.sequence.rotate(counts_, n=rotation)
     if end_counts is not None:
         assert all(isinstance(_, int) for _ in end_counts), repr(end_counts)
@@ -3329,11 +3327,11 @@ def trajectories(
         "B": [1, 2, 2, 3],
         "C": [1, 2, 3, 1, 1, 2, 3, 1, 1, 1, 2, 3],
     }[counts]
-    counts_ = abjad.Sequence(counts__)
+    counts_ = counts__[:]
     counts_ = abjad.sequence.rotate(counts_, n=rotation)
     if end_counts is not None:
         assert all(isinstance(_, int) for _ in end_counts)
-    extra_counts = abjad.Sequence([1, 1, 0, -1])
+    extra_counts = [1, 1, 0, -1]
     extra_counts = abjad.sequence.rotate(extra_counts, n=extra_counts_rotation)
 
     command = baca.rhythm(
