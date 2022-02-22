@@ -65,21 +65,21 @@ time_signature_series = dict()
 
 numerators = [[3, 4, 4], [3, 4, 5, 6]]
 numerators = baca.sequence.helianthate(numerators, -1, 1)
-numerators = abjad.Sequence(numerators).flatten()
+numerators = abjad.sequence.flatten(numerators)
 assert len(numerators) == 84
 _time_signatures = [abjad.TimeSignature((_, 4)) for _ in numerators]
 time_signature_series["A"] = _time_signatures
 
 numerators = [[6, 7, 7], [4, 5], [6, 8, 8]]
 numerators = baca.sequence.helianthate(numerators, -1, 1)
-numerators = abjad.Sequence(numerators).flatten()
+numerators = abjad.sequence.flatten(numerators)
 assert len(numerators) == 48
 _time_signatures = [abjad.TimeSignature((_, 8)) for _ in numerators]
 time_signature_series["B"] = _time_signatures
 
 numerators = [[8, 12, 12], [14, 14, 16, 16], [10, 12]]
 numerators = baca.sequence.helianthate(numerators, -1, 1)
-numerators = abjad.Sequence(numerators).flatten()
+numerators = abjad.sequence.flatten(numerators)
 assert len(numerators) == 108
 _time_signatures = [abjad.TimeSignature((_, 16)) for _ in numerators]
 time_signature_series["C"] = _time_signatures
@@ -343,8 +343,8 @@ def bcps(
             [(0, 4), (1, 4), (2, 4), (1, 4)],
         ]
     )
-    bcps = bcps.flatten(depth=1)
-    bcps = bcps.rotate(n=rotation)
+    bcps = abjad.sequence.flatten(bcps, depth=1)
+    bcps = abjad.sequence.rotate(bcps, n=rotation)
     if clt:
         bcps = abjad.sequence.replace(bcps, (0, 7), (1, 7))
         bcps = abjad.sequence.replace(bcps, (0, 4), (1, 4))
@@ -1598,7 +1598,7 @@ def first_order_stages(segment):
     """
     series, rotation, stages = stage_to_time_signatures[segment]
     series = time_signature_series[series]
-    series = abjad.Sequence(series).rotate(rotation)
+    series = abjad.sequence.rotate(series, rotation)
     series = abjad.CyclicTuple(series)
     fermatas = ("very_short", "short", "fermata", "long", "very_long")
     time_signatures, fermata_measures = [], []
@@ -1753,7 +1753,7 @@ def flight(counts, rotation, *, measures=None, start=0):
 
     counts_ = abjad.Sequence(counts_)
     counts_ = counts_[start:]
-    extra_counts = abjad.Sequence([1, 0, 2]).rotate(n=rotation)
+    extra_counts = abjad.sequence.rotate([1, 0, 2], n=rotation)
 
     command = baca.rhythm(
         rmakers.talea(counts_, 8, extra_counts=extra_counts),
@@ -1795,7 +1795,7 @@ def grid(*, rotation, measures=None):
     Makes grid.
     """
     counts = abjad.Sequence([1, -3, 1, -3, 1, -2])
-    counts = counts.rotate(n=rotation)
+    counts = abjad.sequence.rotate(counts, n=rotation)
 
     command = baca.rhythm(
         rmakers.talea(counts, 8),
@@ -1814,7 +1814,7 @@ def grid_to_trajectory(counts, rotation, extra, *, measures=None):
     Makes grid-to-trajectory transition.
     """
     counts_ = {0: abjad.Sequence([2, 14, 2, 10, 2, 18])}[counts]
-    counts_ = counts_.rotate(n=rotation)
+    counts_ = abjad.sequence.rotate(counts_, n=rotation)
     assert isinstance(extra, int), repr(extra)
     extra_counts = [extra]
 
@@ -1947,7 +1947,7 @@ def multistage_leaf_glissando(
     commands.append(command)
 
     start, stop = 0, None
-    for pair_1, pair_2 in abjad.Sequence(pairs).nwise():
+    for pair_1, pair_2 in abjad.sequence.nwise(pairs):
         start_pitch, leaf_count = pair_1
         stop_pitch = pair_2[0]
         assert isinstance(start_pitch, str), repr(start_pitch)
@@ -3136,7 +3136,7 @@ def strokes(rotation, *commands, measures=None):
         rmakers.extract_trivial(),
         rmakers.split_measures(),
         measures=measures,
-        preprocessor=lambda _: abjad.Sequence(_).rotate(n=rotation),
+        preprocessor=lambda _: abjad.sequence.rotate(_, n=rotation),
     )
     tag = abjad.Tag("stirrings_still.strokes()")
     result = baca.tag(tag, command)
@@ -3152,7 +3152,7 @@ def synchronized_circles(
     """
     counts = abjad.Sequence([3, -2, 3, -2, 3, -2, 3, -1])
     rotation *= 2
-    counts = counts.rotate(n=rotation)
+    counts = abjad.sequence.rotate(counts, n=rotation)
     if not gaps:
         counts = [abs(_) for _ in counts]
 
@@ -3214,7 +3214,7 @@ def talea_eighths(counts, rotation, extra, *, end_counts=(), measures=None):
     extra_counts = [extra]
     assert isinstance(rotation, int), rotation
     counts_ = abjad.Sequence(counts)
-    counts_ = counts_.rotate(n=rotation)
+    counts_ = abjad.sequence.rotate(counts_, n=rotation)
     if end_counts is not None:
         assert all(isinstance(_, int) for _ in end_counts), repr(end_counts)
 
@@ -3330,11 +3330,11 @@ def trajectories(
         "C": [1, 2, 3, 1, 1, 2, 3, 1, 1, 1, 2, 3],
     }[counts]
     counts_ = abjad.Sequence(counts__)
-    counts_ = counts_.rotate(n=rotation)
+    counts_ = abjad.sequence.rotate(counts_, n=rotation)
     if end_counts is not None:
         assert all(isinstance(_, int) for _ in end_counts)
     extra_counts = abjad.Sequence([1, 1, 0, -1])
-    extra_counts = extra_counts.rotate(n=extra_counts_rotation)
+    extra_counts = abjad.sequence.rotate(extra_counts, n=extra_counts_rotation)
 
     command = baca.rhythm(
         rmakers.talea(counts_, 8, end_counts=end_counts, extra_counts=extra_counts),
