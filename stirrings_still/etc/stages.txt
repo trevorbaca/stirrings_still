@@ -1,5 +1,5 @@
-SEGMENTS
-========
+STAGES (BY SECTION)
+===================
 
 [A] time series A; rotation 0
 
