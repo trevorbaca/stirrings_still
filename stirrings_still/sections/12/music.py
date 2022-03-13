@@ -41,18 +41,21 @@ library.time(commands, time)
 
 def lleak_tuplet_pleaves(indices):
     def selector(argument):
-        selection = baca.Selection(argument).tuplets().get(indices)
-        selection = [baca.Selection(_).pleaves().lleak() for _ in selection]
-        return baca.Selection(selection)
+        selection = abjad.select.tuplets(argument)
+        selection = abjad.select.get(selection, indices)
+        selection = [baca.pleaves(_) for _ in selection]
+        selection = [baca.lleak(_) for _ in selection]
+        return selection
 
     return selector
 
 
 def nonlast_tuplet_pleaves(indices):
     def selector(argument):
-        selection = baca.Selection(argument).tuplets().get(indices)
-        selection = [baca.Selection(_).pleaves()[:-1] for _ in selection]
-        return baca.Selection(selection)
+        selection = abjad.select.tuplets(argument)
+        selection = abjad.select.get(selection, indices)
+        selection = [baca.pleaves(_)[:-1] for _ in selection]
+        return selection
 
     return selector
 

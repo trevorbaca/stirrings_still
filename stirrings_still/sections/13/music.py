@@ -131,7 +131,7 @@ commands(
         2,
         rmakers.force_note(baca.selectors.tuplet(0)),
         rmakers.tie(
-            lambda _: baca.Selection(_).tuplets()[:1].leaves()[:-1],
+            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
         ),
     ),
 )
@@ -148,7 +148,7 @@ commands(
         2,
         rmakers.force_note(baca.selectors.tuplet(0)),
         rmakers.tie(
-            selector=lambda _: baca.Selection(_).tuplets()[:1].leaves()[:-1],
+            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
         ),
     ),
 )
@@ -178,7 +178,7 @@ commands(
     baca.hairpin(
         "o< ff",
         measures=(13, 16),
-        selector=lambda _: baca.Selection(_).leaves().rleak().rleak(),
+        selector=lambda _: baca.rleak(abjad.select.leaves(_), count=2),
     ),
     baca.hairpin(
         ">o",
@@ -212,7 +212,7 @@ commands(
     library.clouded_pane_spanner(
         "clouded pane -|",
         8,
-        selector=lambda _: baca.Selection(_).leaves().rleak().rleak(),
+        selector=lambda _: baca.rleak(abjad.select.leaves(_), count=2),
     ),
 )
 
@@ -331,7 +331,7 @@ commands(
         1,
         rmakers.force_note(baca.selectors.tuplet(0)),
         rmakers.tie(
-            selector=lambda _: baca.Selection(_).tuplets()[:1].leaves()[:-1],
+            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
         ),
     ),
 )
@@ -348,7 +348,7 @@ commands(
         1,
         rmakers.force_note(baca.selectors.tuplet(0)),
         rmakers.tie(
-            lambda _: baca.Selection(_).tuplets()[:1].leaves()[:-1],
+            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
         ),
     ),
 )
@@ -444,7 +444,7 @@ commands(
         0,
         rmakers.force_note(baca.selectors.tuplet(0)),
         rmakers.tie(
-            lambda _: baca.Selection(_).tuplets()[:1].leaves()[:-1],
+            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
         ),
     ),
 )
@@ -461,7 +461,7 @@ commands(
         0,
         rmakers.force_note(baca.selectors.tuplet(0)),
         rmakers.tie(
-            lambda _: baca.Selection(_).tuplets()[:1].leaves()[:-1],
+            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
         ),
     ),
 )

@@ -10,8 +10,6 @@ import abjad
 import baca
 from abjadext import rmakers
 
-# instruments & margin markup
-
 instruments = dict(
     [
         ("ViolinI", abjad.Violin(pitch_range="[F3, +inf]")),
@@ -32,8 +30,6 @@ margin_markups = dict(
         ),
     ]
 )
-
-# metronome marks
 
 metronome_marks = dict(
     [
@@ -59,8 +55,6 @@ metronome_marks = dict(
     ]
 )
 
-# time signature series
-
 time_signature_series = dict()
 
 numerators = [[3, 4, 4], [3, 4, 5, 6]]
@@ -83,8 +77,6 @@ numerators = abjad.sequence.flatten(numerators)
 assert len(numerators) == 108
 _time_signatures = [abjad.TimeSignature((_, 16)) for _ in numerators]
 time_signature_series["C"] = _time_signatures
-
-# classes
 
 
 @dataclasses.dataclass(slots=True)
@@ -281,14 +273,11 @@ class StageToken:
             assert isinstance(self.number, int)
 
 
-# selectors
-
-
 def rleaves_partition_by_counts(counts):
     def selector(argument):
-        result = baca.Selection(argument).leaves()
-        result = result.rleak()
-        result = result.partition_by_counts(counts)
+        result = abjad.select.leaves(argument)
+        result = baca.rleak(result)
+        result = abjad.select.partition_by_counts(result, counts)
         return result
 
     return selector
@@ -296,21 +285,15 @@ def rleaves_partition_by_counts(counts):
 
 def rleaves_partition_by_ratio(ratio):
     def selector(argument):
-        result = baca.Selection(argument).leaves()
-        result = result.rleak()
-        result = result.partition_by_ratio(ratio)
+        result = abjad.select.leaves(argument)
+        result = baca.rleak(result)
+        result = abjad.select.partition_by_ratio(result, ratio)
         return result
 
     return selector
 
 
-# functions
-
-
 def accelerando(start, stop, *, measures=None):
-    """
-    Makes accelerando.
-    """
     command = baca.rhythm(
         rmakers.accelerando([start, stop, (1, 16)]),
         rmakers.duration_bracket(),
@@ -331,9 +314,6 @@ def bcps(
     selector=baca.selectors.leaves(),
     staff_padding=None,
 ):
-    """
-    Makes bow contact points.
-    """
     assert staff_padding is not None, repr(staff_padding)
     bcps = [
         [(0, 7), (4, 7), (5, 7), (6, 7), (7, 7), (6, 7)],
@@ -381,9 +361,6 @@ def breathe(selector=baca.selectors.pleaf(-1)):
 
 
 def cello_cell():
-    """
-    Makes cello cell.
-    """
     command = baca.rhythm(
         rmakers.talea([3, 1, 2, 2], 16),
         rmakers.beam(),
@@ -397,9 +374,6 @@ def cello_cell():
 
 
 def cello_cell_bcps(*, staff_padding=None):
-    """
-    Makes cello cell bow contact points.
-    """
     assert staff_padding is not None, repr(staff_padding)
     bcps = [(4, 7), (7, 7), (1, 7), (5, 7)]
     command = baca.bcps(
@@ -423,9 +397,6 @@ def circle_spanner(
     measures=None,
     selector=baca.selectors.rleaves(),
 ):
-    """
-    Makes circle annotation spanner.
-    """
     command = baca.material_annotation_spanner(
         string,
         abjad.tweak("#darkyellow").color,
@@ -445,10 +416,6 @@ def circles(
     measures=None,
     remainder=abjad.Right,
 ):
-    """
-    Makes circle rhythm with ``duration``.
-    """
-
     def preprocessor(divisions):
         divisions = baca.sequence.fuse(divisions)
         divisions = baca.sequence.split_divisions(
@@ -484,10 +451,6 @@ def clockticks(
     encroach=False,
     measures=None,
 ):
-    """
-    Makes clockticks.
-    """
-
     def preprocessor_(divisions):
         divisions = baca.sequence.fuse(divisions)
         divisions = baca.sequence.split_divisions(divisions, [(1, 4)], cyclic=True)
@@ -519,9 +482,6 @@ def clockticks(
 
 
 def clouded_pane():
-    """
-    Makes clouded pane.
-    """
     command = baca.make_repeat_tied_notes(
         rmakers.reduce_multiplier(),
         do_not_rewrite_meter=True,
@@ -539,9 +499,6 @@ def clouded_pane_spanner(
     measures=None,
     selector=baca.selectors.rleaves(),
 ):
-    """
-    Makes clouded pane annotation spanner.
-    """
     command = baca.material_annotation_spanner(
         string,
         abjad.tweak("#red").color,
@@ -556,9 +513,6 @@ def clouded_pane_spanner(
 
 
 def continuous_tremolo():
-    """
-    Makes continuous tremolo.
-    """
     command = baca.suite(
         baca.rhythm(
             rmakers.note(),
@@ -579,9 +533,6 @@ def continuous_tremolo():
 
 
 def declamation(*, measures=None, protract=False):
-    """
-    Makes declamation.
-    """
 
     tuplet_rhythm_maker = rmakers.stack(
         rmakers.tuplet([(3, 1)]),
@@ -640,9 +591,6 @@ def desynchronization(
     measures=None,
     rests=None,
 ):
-    """
-    Makes desynchronization rhythms.
-    """
     assert isinstance(denominator, int), repr(denominator)
     denominators = [denominator]
     assert isinstance(extra_counts, list), repr(extra_counts)
@@ -687,9 +635,6 @@ def desynchronization(
 
 
 def eighths():
-    """
-    Makes eighths.
-    """
     command = baca.rhythm(
         rmakers.talea([1], 8),
         rmakers.extract_trivial(),
@@ -1653,9 +1598,6 @@ def first_order_stages(segment):
 
 
 def flight(counts, rotation, *, measures=None, start=0):
-    """
-    Makes flight.
-    """
 
     if start is not None and start < 0:
         raise Exception("set start to nonnegative integer (not {start}).")
@@ -1773,9 +1715,6 @@ def flight(counts, rotation, *, measures=None, start=0):
 
 
 def flight_spanner(string, staff_padding, measures=None):
-    """
-    Makes flight annotation spanner.
-    """
     command = baca.material_annotation_spanner(
         string,
         abjad.tweak("#darkmagenta").color,
@@ -1789,9 +1728,6 @@ def flight_spanner(string, staff_padding, measures=None):
 
 
 def grid(*, rotation, measures=None):
-    """
-    Makes grid.
-    """
     counts = [1, -3, 1, -3, 1, -2]
     counts = abjad.sequence.rotate(counts, n=rotation)
 
@@ -1808,9 +1744,6 @@ def grid(*, rotation, measures=None):
 
 
 def grid_to_trajectory(counts, rotation, extra, *, measures=None):
-    """
-    Makes grid-to-trajectory transition.
-    """
     counts_ = {0: [2, 14, 2, 10, 2, 18]}[counts]
     counts_ = abjad.sequence.rotate(counts_, n=rotation)
     assert isinstance(extra, int), repr(extra)
@@ -1832,9 +1765,6 @@ def grid_to_trajectory(counts, rotation, extra, *, measures=None):
 
 
 def left_broken_circle_bow_tweak():
-    """
-    Makes left-broken circle bow tweak.
-    """
     markup = abjad.Markup(r"\baca-left-broken-circle-bowing-markup")
     return (
         abjad.tweak(markup, expression=True).bound_details__left_broken__text,
@@ -1843,9 +1773,6 @@ def left_broken_circle_bow_tweak():
 
 
 def left_broken_tasto_tweak():
-    """
-    Makes left-broken tasto tweak.
-    """
     markup = abjad.Markup(r"\baca-left-broken-t-markup")
     return (
         abjad.tweak(markup, expression=True).bound_details__left_broken__text,
@@ -1854,9 +1781,6 @@ def left_broken_tasto_tweak():
 
 
 def loure_tuplets(extra_count, *, measures=None):
-    """
-    Makes louré tuplets.
-    """
     command = baca.suite(
         baca.espressivo(selector=baca.selectors.pheads()),
         desynchronization(8, [extra_count]),
@@ -1875,9 +1799,6 @@ def margin_markup(
     context="Staff",
     selector=baca.selectors.leaf(0),
 ):
-    """
-    Makes tagged margin markup indicator command.
-    """
     margin_markup = margin_markups[key]
     command = baca.margin_markup(
         margin_markup,
@@ -1889,9 +1810,6 @@ def margin_markup(
 
 
 def measure_initiation():
-    """
-    Makes measure initiation.
-    """
     command = baca.rhythm(
         rmakers.incised(prefix_talea=[2], prefix_counts=[1], talea_denominator=8),
         rmakers.beam(),
@@ -1911,9 +1829,6 @@ def multistage_leaf_glissando(
     rleak_final_stage=False,
     use_pleaves_lleak=False,
 ):
-    """
-    Makes multistage leaf glissando.
-    """
     assert isinstance(pairs, list), repr(pairs)
     assert all(isinstance(_, tuple) for _ in pairs), repr(pairs)
 
@@ -1923,8 +1838,9 @@ def multistage_leaf_glissando(
 
         def _start_stop_selector(start, stop):
             def _inner_selector(argument):
-                result = baca.selectors.pleaves(lleak=True)(argument)
-                result = baca.Selection(result)[start:stop]
+                result = baca.pleaves(argument)
+                result = baca.lleak(result)
+                result = result[start:stop]
                 return result
 
             return _inner_selector
@@ -2009,9 +1925,6 @@ def multistage_leaf_glissando(
 
 
 def ntlt_flat_glissandi():
-    """
-    Changes nontrivial logical ties to flat glissandi.
-    """
     return baca.suite(
         baca.glissando(allow_repeats=True, allow_ties=True, zero_padding=True),
         baca.new(
@@ -2410,9 +2323,6 @@ def pickets(
     *commands,
     measures=None,
 ):
-    """
-    Makes picket polyrhythm.
-    """
 
     assert isinstance(fuse, int)
 
@@ -2447,9 +2357,6 @@ def pickets(
 
 
 def rasp():
-    """
-    Makes rasp.
-    """
     command = baca.make_repeat_tied_notes(do_not_rewrite_meter=True)
     tag = abjad.Tag("stirrings_still.rasp()")
     result = baca.tag(tag, command)
@@ -2458,9 +2365,6 @@ def rasp():
 
 
 def running_quarter_divisions(count, *, measures=None):
-    """
-    Makes running quarter divisions.
-    """
     assert isinstance(count, int), repr(count)
     assert 0 < count, repr(count)
     ratio = tuple(count * [1])
@@ -3097,9 +3001,6 @@ def second_order_stages(segment):
 
 
 def solid_line_rhythm(*, measures=None):
-    """
-    Makes solid line rhythm.
-    """
     command = baca.rhythm(
         rmakers.note(spelling=rmakers.Spelling(forbidden_note_duration=(1, 2))),
         rmakers.beam(
@@ -3114,9 +3015,6 @@ def solid_line_rhythm(*, measures=None):
 
 
 def strokes(rotation, *commands, measures=None):
-    """
-    Makes strokes.
-    """
     command = baca.rhythm(
         rmakers.incised(
             suffix_talea=[1],
@@ -3143,9 +3041,6 @@ def strokes(rotation, *commands, measures=None):
 def synchronized_circles(
     gaps=True, measures=None, rests=None, rotation=0, sustain=None
 ):
-    """
-    Makes rhythm for synchronized circles.
-    """
     counts = [3, -2, 3, -2, 3, -2, 3, -1]
     rotation *= 2
     counts = abjad.sequence.rotate(counts, n=rotation)
@@ -3174,9 +3069,6 @@ def synchronized_circles(
 
 
 def tailpiece(*tweaks, measures=None):
-    """
-    Makes tailpiece.
-    """
     command = baca.suite(
         baca.dots_transparent(
             selector=baca.selectors.leaves((1, None)),
@@ -3202,9 +3094,6 @@ def tailpiece(*tweaks, measures=None):
 
 
 def talea_eighths(counts, rotation, extra, *, end_counts=(), measures=None):
-    """
-    Makes talea eighths.
-    """
 
     assert isinstance(extra, int), extra
     extra_counts = [extra]
@@ -3233,9 +3122,6 @@ def talea_eighths(counts, rotation, extra, *, end_counts=(), measures=None):
 
 
 def taper(tuplet_ratio=(1, 4, 1), *, measures=None):
-    """
-    Makes taper.
-    """
     command = baca.rhythm(
         rmakers.tuplet([tuplet_ratio]),
         rmakers.beam(),
@@ -3252,9 +3138,6 @@ def taper(tuplet_ratio=(1, 4, 1), *, measures=None):
 
 
 def time(maker: baca.CommandAccumulator, pairs: typing.Tuple):
-    """
-    Makes time.
-    """
     for value, lmn in pairs:
         if value in baca.GlobalFermataCommand.description_to_command:
             maker(
@@ -3275,9 +3158,6 @@ def time(maker: baca.CommandAccumulator, pairs: typing.Tuple):
 
 
 def time_signatures(segment):
-    """
-    Makes ``segment`` time signatures.
-    """
     time_signatures = []
     dictionary = second_order_stages(segment)
     for stage_number, stage_specifier in dictionary.items():
@@ -3286,10 +3166,6 @@ def time_signatures(segment):
 
 
 def to_flight(divisions, *, measures=None, start=(1, 4), stop=(1, 8)):
-    """
-    Makes trajectories-to-flight.
-    """
-
     def preprocessor(divisions_):
         result = baca.sequence.fuse(divisions_)
         result = baca.sequence.split_divisions(result, divisions, cyclic=True)
@@ -3317,9 +3193,6 @@ def trajectories(
     end_counts=(),
     measures=None,
 ):
-    """
-    Makes trajectories.
-    """
     counts__ = {
         "A": [1, 1, 1, 2],
         "B": [1, 2, 2, 3],
@@ -3354,9 +3227,6 @@ def trajectory_spanner(
     measures=None,
     selector=baca.selectors.rleaves(),
 ):
-    """
-    Makes trajectory annotation spanner.
-    """
     command = baca.material_annotation_spanner(
         string,
         abjad.tweak("#blue").color,
@@ -3371,9 +3241,6 @@ def trajectory_spanner(
 
 
 def transition_bcps(*, final_spanner=False, staff_padding=None):
-    """
-    Makes transition bow contact points.
-    """
     assert staff_padding is not None, repr(staff_padding)
 
     bcps = [
@@ -3414,9 +3281,6 @@ def transition_bcps(*, final_spanner=False, staff_padding=None):
 
 
 def urtext_field(*, measures=None):
-    """
-    Makes urtext field.
-    """
     command = baca.make_repeat_tied_notes(do_not_rewrite_meter=True, measures=measures)
     tag = abjad.Tag("stirrings_still.urtext_field()")
     result = baca.tag(tag, command)
@@ -3431,9 +3295,6 @@ def urtext_spanner(
     measures=None,
     selector=baca.selectors.rleaves(),
 ):
-    """
-    Makes urtext annotation spanner.
-    """
     command = baca.material_annotation_spanner(
         string,
         abjad.tweak("#darkred").color,
@@ -3448,9 +3309,6 @@ def urtext_spanner(
 
 
 def wave(start, stop, *, measures=None):
-    """
-    Makes wave rhythm.
-    """
     command = baca.rhythm(
         rmakers.accelerando([start, stop, (1, 16)], [stop, start, (1, 16)]),
         rmakers.duration_bracket(),

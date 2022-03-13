@@ -249,13 +249,10 @@ commands(
 
 
 def measure_starts_plus_rest(argument):
-    selection_1 = baca.Selection(argument)
-    selection_1 = selection_1.cmgroups()
-    selection_1 = baca.Selection(baca.Selection(_).leaf(0) for _ in selection_1)
-    selection_2 = baca.Selection(argument)
-    selection_2 = selection_2.leaves()
-    selection_2 = selection_2[-1:]
-    selection = baca.Selection(list(selection_1) + list(selection_2))
+    selection_1 = baca.cmgroups(argument)
+    selection_1 = [abjad.select.leaf(_, 0) for _ in selection_1]
+    selection_2 = abjad.select.leaves(argument)[-1:]
+    selection = selection_1 + selection_2
     return selection
 
 
@@ -742,13 +739,13 @@ commands(
     ("v2", (6, 23)),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
-        map=lambda _: baca.Selection(_)
-        .plts()
-        .partition_by_counts(
-            [4, 1, 3, 1, 2, 1, 99],
-            cyclic=True,
-        )
-        .get([0], 2),
+        map=lambda _: abjad.select.get(
+            abjad.select.partition_by_counts(
+                baca.plts(_), [4, 1, 3, 1, 2, 1, 99], cyclic=True
+            ),
+            [0],
+            2,
+        ),
     ),
     baca.new(
         baca.accent(),
@@ -963,13 +960,13 @@ commands(
     ("va", (6, 23)),
     baca.damp_spanner(
         abjad.tweak(5.5).staff_padding,
-        map=lambda _: baca.Selection(_)
-        .plts()
-        .partition_by_counts(
-            [4, 1, 3, 1, 2, 1, 99],
-            cyclic=True,
-        )
-        .get([0], 2),
+        map=lambda _: abjad.select.get(
+            abjad.select.partition_by_counts(
+                baca.plts(_), [4, 1, 3, 1, 2, 1, 99], cyclic=True
+            ),
+            [0],
+            2,
+        ),
     ),
     baca.new(
         baca.accent(),
@@ -1023,7 +1020,7 @@ commands(
             baca.xfb_spanner(
                 abjad.tweak(5.5).staff_padding,
             ),
-            map=lambda _: baca.Selection(_).plts()[:-1].get([1], 2),
+            map=lambda _: abjad.select.get(baca.plts(_)[:-1], [1], 2),
         ),
         baca.new(
             baca.hairpin(
