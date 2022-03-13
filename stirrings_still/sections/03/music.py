@@ -504,9 +504,9 @@ commands(
 
 def grouped_pheads(start=0, stop=None):
     def selector(argument):
-        selection = baca.Selection(argument).pheads()
-        selection = selection[start:stop]
-        return baca.Selection([baca.Selection(_).group() for _ in selection])
+        result = baca.pheads(argument)
+        result = result[start:stop]
+        return [[_] for _ in result]
 
     return selector
 
@@ -560,7 +560,7 @@ commands(
     baca.hairpin(
         '"ff" -- !',
         abjad.tweak(True).to_barline,
-        selector=lambda _: baca.Selection(_).leaves().lleak().rleak(),
+        selector=lambda _: baca.rleak(baca.lleak(abjad.select.leaves(_))),
     ),
     baca.new(
         library.synchronized_circles(gaps=False, rotation=0),
@@ -672,7 +672,7 @@ commands(
         # spanner terminates at double bar:
         (abjad.tweak(7.75).bound_details__right__padding, -1),
         bookend=False,
-        pieces=lambda _: baca.Selection(_).leaves().mgroups([3, 3 + 1]),
+        pieces=lambda _: baca.mgroups(_, [3, 3 + 1]),
         selector=baca.selectors.rleaves(),
     ),
 )

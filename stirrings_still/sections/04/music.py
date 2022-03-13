@@ -1007,7 +1007,7 @@ commands(
     ),
     baca.new(
         baca.hairpin("niente o< p"),
-        map=lambda _: baca.Selection(_).cmgroups()[:3].group(),
+        map=lambda _: [baca.cmgroups(_)[:3]],
     ),
     library.clouded_pane(),
     library.clouded_pane_spanner("clouded pane (arrival) -|", 5.5),
