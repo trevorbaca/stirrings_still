@@ -152,7 +152,7 @@ commands(
     baca.markup(
         r"\baca-string-iv-markup",
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.new(
         baca.dynamic_text_self_alignment_x(
@@ -350,7 +350,7 @@ commands(
         library.circles(
             (1, 2),
             rmakers.force_rest(baca.selectors.lt(0)),
-            remainder=abjad.Left,
+            remainder=abjad.LEFT,
         ),
         match=2,
     ),
@@ -943,7 +943,7 @@ commands(
     baca.markup(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),
     library.cello_cell(),

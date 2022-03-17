@@ -367,7 +367,7 @@ commands(
     library.circles(
         (1, 2),
         rmakers.force_rest(baca.selectors.lt(0)),
-        remainder=abjad.Left,
+        remainder=abjad.LEFT,
     ),
 )
 
@@ -463,7 +463,7 @@ commands(
     baca.markup(
         r"\baca-string-iv-markup",
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.bow_speed_spanner(
         "flaut. -> ord.",
@@ -1014,7 +1014,7 @@ commands(
     baca.markup(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.new(
         baca.breathe(),
@@ -1063,7 +1063,7 @@ commands(
     baca.markup(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.new(
         baca.flat_glissando("Gb4"),

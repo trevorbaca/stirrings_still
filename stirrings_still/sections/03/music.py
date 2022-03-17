@@ -231,7 +231,7 @@ commands(
     baca.breathe(),
     baca.hairpin(
         "appena-udibile -- !",
-        abjad.tweak(abjad.Left).self_alignment_X,
+        abjad.tweak(abjad.LEFT).self_alignment_X,
         abjad.tweak(True).to_barline,
         selector=baca.selectors.rleaves(),
     ),

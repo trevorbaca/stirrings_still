@@ -95,7 +95,7 @@ commands(
     baca.new(
         baca.markup(
             r"\baca-string-iv-markup",
-            direction=abjad.Down,
+            direction=abjad.DOWN,
         ),
         match=0,
     ),
@@ -136,7 +136,7 @@ commands(
     baca.new(
         baca.markup(
             r"\baca-string-iv-markup",
-            direction=abjad.Down,
+            direction=abjad.DOWN,
         ),
         match=0,
     ),
@@ -216,7 +216,7 @@ commands(
         baca.mark(r"\stirrings-still-colophon-markup"),
         baca.rehearsal_mark_down(),
         baca.rehearsal_mark_padding(6),
-        baca.rehearsal_mark_self_alignment_x(abjad.Right),
+        baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
         selector=baca.selectors.rleaf(-1),
     ),
 )

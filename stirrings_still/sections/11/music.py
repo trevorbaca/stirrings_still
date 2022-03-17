@@ -259,7 +259,7 @@ commands(
     baca.markup(
         r"\baca-eleven-e-flat",
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -315,7 +315,7 @@ commands(
     baca.markup(
         r"\baca-seven-d-flat",
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.flat_glissando("Bqf5"),
 )
@@ -1135,7 +1135,7 @@ commands(
     baca.markup(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),
     library.cello_cell(),
