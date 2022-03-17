@@ -370,7 +370,7 @@ commands(
     baca.markup(
         r"\stirrings-still-seven-plus-nine-of-e-markup",
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.pitch("<F#4 Dqf5>"),
 )
@@ -592,7 +592,7 @@ commands(
     baca.markup(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.text_spanner(
         "2° =|",

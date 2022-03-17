@@ -336,7 +336,7 @@ def bcps(
         bcps_,
         abjad.tweak(staff_padding).staff_padding,
         bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(abjad.LEFT).self_alignment_X,
             abjad.tweak(staff_padding + 2.5).staff_padding,
         ),
         selector=selector,
@@ -380,7 +380,7 @@ def cello_cell_bcps(*, staff_padding=None):
         bcps,
         abjad.tweak(staff_padding).staff_padding,
         bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(abjad.LEFT).self_alignment_X,
             abjad.tweak(staff_padding + 2.5).staff_padding,
         ),
     )
@@ -414,7 +414,7 @@ def circles(
     duration,
     *commands,
     measures=None,
-    remainder=abjad.Right,
+    remainder=abjad.RIGHT,
 ):
     def preprocessor(divisions):
         divisions = baca.sequence.fuse(divisions)
@@ -2332,7 +2332,7 @@ def pickets(
             divisions,
             [(fuse, 4)],
             cyclic=True,
-            remainder=abjad.Left,
+            remainder=abjad.LEFT,
         )
         return divisions
 
@@ -3268,7 +3268,7 @@ def transition_bcps(*, final_spanner=False, staff_padding=None):
         padded_bcps,
         abjad.tweak(staff_padding).staff_padding,
         bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(abjad.LEFT).self_alignment_X,
             abjad.tweak(staff_padding + 2.5).staff_padding,
         ),
         final_spanner=final_spanner,

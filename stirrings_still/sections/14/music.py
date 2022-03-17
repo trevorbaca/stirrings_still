@@ -681,7 +681,7 @@ commands(
     baca.markup(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.pitch("G2"),
     baca.stem_tremolo(

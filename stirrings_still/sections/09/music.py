@@ -99,7 +99,7 @@ commands(
         library.circles(
             (1, 2),
             rmakers.force_rest(baca.selectors.lt(0)),
-            remainder=abjad.Left,
+            remainder=abjad.LEFT,
         ),
         match=2,
     ),
@@ -225,7 +225,7 @@ commands(
     baca.markup(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),
 )
@@ -254,7 +254,7 @@ commands(
     baca.markup(
         r"\stirrings-still-ninth-partial-markup",
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     library.cello_cell(),
     library.cello_cell_bcps(
