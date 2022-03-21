@@ -1765,17 +1765,17 @@ def grid_to_trajectory(counts, rotation, extra, *, measures=None):
 
 
 def left_broken_circle_bow_tweak():
-    markup = abjad.Markup(r"\baca-left-broken-circle-bowing-markup")
+    string = r"\baca-left-broken-circle-bowing-markup"
     return (
-        abjad.tweak(markup, expression=True).bound_details__left_broken__text,
+        abjad.tweak(string, expression=True).bound_details__left_broken__text,
         -1,
     )
 
 
 def left_broken_tasto_tweak():
-    markup = abjad.Markup(r"\baca-left-broken-t-markup")
+    string = r"\baca-left-broken-t-markup"
     return (
-        abjad.tweak(markup, expression=True).bound_details__left_broken__text,
+        abjad.tweak(string, expression=True).bound_details__left_broken__text,
         -1,
     )
 
