@@ -32,29 +32,28 @@ commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-twenty-six",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(9 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-seven",
-        # abjad.tweak((14, -50)).extra_offset,
-        abjad.tweak((4, -50)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -50)"),
         selector=baca.selectors.skip(16 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-eight",
-        abjad.tweak((9, -75)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(9 . -75)"),
         selector=baca.selectors.skip(20 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-nine",
-        abjad.tweak((28, -100)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(28 . -100)"),
         selector=baca.selectors.skip(20 - 1),
     ),
     baca.rehearsal_mark(
         "S",
         baca.selectors.leaf(0),
-        abjad.tweak((0, 10)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
     baca.bar_line("|.", baca.selectors.skip(-1)),
 )

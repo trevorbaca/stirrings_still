@@ -52,7 +52,7 @@ commands(
     baca.rehearsal_mark(
         "A",
         baca.selectors.skip(18 - 1),
-        abjad.tweak((0, 12)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 12)"),
     ),
 )
 
@@ -62,34 +62,34 @@ commands(
         r"\stirrings-still-text-two",
         # -20 because first page compresses vertical spacing
         # abjad.tweak((4, -20)).extra_offset,
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(10 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-three",
         # -20 because first page compresses vertical spacing
         # abjad.tweak((4, -20)).extra_offset,
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(19 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-four",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(24 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-five",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(28 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-six",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(61 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-seven",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(63 - 1),
     ),
 )
@@ -189,7 +189,7 @@ commands(
     ("v1", 27),
     baca.markup(
         r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("<F4 A4>"),
     baca.tasto_spanner(
@@ -517,7 +517,7 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-string-iii-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
         direction=abjad.DOWN,
     ),
     baca.text_spanner(
@@ -604,7 +604,7 @@ commands(
     ("v2", 27),
     baca.markup(
         r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("<E4 G#4>"),
     baca.tasto_spanner(
@@ -690,7 +690,7 @@ commands(
     ("va", 27),
     baca.markup(
         r"\stirrings-still-nine-plus-seven-of-b-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("<Aqf3 C#4>"),
     baca.tasto_spanner(
@@ -819,7 +819,7 @@ commands(
     ),
     baca.markup(
         r"\baca-string-iii-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
         direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),
@@ -870,7 +870,7 @@ commands(
     ),
     baca.markup(
         r"\baca-string-iii-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
         direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),

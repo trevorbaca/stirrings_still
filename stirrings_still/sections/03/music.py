@@ -50,7 +50,7 @@ commands(
     baca.rehearsal_mark(
         "C",
         baca.selectors.leaf(0),
-        abjad.tweak((0, 10)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
 
@@ -58,17 +58,17 @@ commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-ten",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(11 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-eleven",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(70 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twelve",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(77 - 1),
     ),
 )
@@ -138,7 +138,7 @@ commands(
     baca.dynamic("mp"),
     baca.markup(
         r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("<F4 A4>"),
     library.loure_tuplets(0),
@@ -165,7 +165,7 @@ commands(
     ),
     baca.markup(
         r"\stirrings-still-seven-plus-nine-of-e-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -684,7 +684,7 @@ commands(
     baca.dynamic("mp"),
     baca.markup(
         r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("<E4 G#4>"),
     library.loure_tuplets(1),
@@ -752,7 +752,7 @@ commands(
     baca.dynamic("mp"),
     baca.markup(
         r"\stirrings-still-nine-plus-seven-of-b-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("<Aqf3 C#4>"),
     library.clouded_pane_spanner("clouded (partial: stopped) -|", 8),
@@ -779,7 +779,7 @@ commands(
     ),
     baca.markup(
         r"\stirrings-still-eleven-plus-three-of-e-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,

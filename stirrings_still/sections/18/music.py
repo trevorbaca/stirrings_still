@@ -33,7 +33,7 @@ commands(
     baca.rehearsal_mark(
         "R",
         baca.selectors.leaf(0),
-        abjad.tweak((0, 10)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
 
@@ -41,7 +41,7 @@ commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-twenty-five",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(17 - 1),
     ),
 )

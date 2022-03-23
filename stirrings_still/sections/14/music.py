@@ -38,7 +38,7 @@ commands(
     baca.rehearsal_mark(
         "N",
         baca.selectors.leaf(0),
-        abjad.tweak((0, 10)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
 
@@ -46,7 +46,7 @@ commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-twenty-three",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(39 - 1),
     ),
 )
@@ -82,7 +82,7 @@ commands(
     ),
     baca.markup(
         r"\baca-nine-b-flat",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     library.clouded_pane(),
 )
@@ -111,7 +111,7 @@ commands(
     ),
     baca.markup(
         r"\stirrings-still-twenty-four-et-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     library.clouded_pane(),
 )
@@ -122,7 +122,7 @@ commands(
     baca.new(
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
-            abjad.tweak(8).staff_padding,
+            abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
         match=-1,
     ),
@@ -165,7 +165,7 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-eleven-e",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("Aqs5"),
     baca.stem_tremolo(
@@ -282,7 +282,7 @@ commands(
     ),
     baca.markup(
         r"\baca-eleven-b-flat",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     library.clouded_pane(),
 )
@@ -311,7 +311,7 @@ commands(
     ),
     baca.markup(
         r"\stirrings-still-twenty-four-et-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     library.clouded_pane(),
 )
@@ -322,7 +322,7 @@ commands(
     baca.new(
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         match=-1,
     ),
@@ -364,7 +364,7 @@ commands(
     ),
     baca.markup(
         r"\baca-nine-e",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("F#5"),
     baca.make_repeat_tied_notes(),
@@ -431,7 +431,7 @@ commands(
     ),
     baca.markup(
         r"\baca-thirteen-b-flat",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     library.clouded_pane(),
 )
@@ -460,7 +460,7 @@ commands(
     ),
     baca.markup(
         r"\stirrings-still-twenty-four-et-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     library.clouded_pane(),
 )
@@ -471,7 +471,7 @@ commands(
     baca.new(
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
-            abjad.tweak(8).staff_padding,
+            abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
         match=-1,
     ),
@@ -514,7 +514,7 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-five-e",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("G#3"),
     baca.stem_tremolo(
@@ -663,7 +663,7 @@ commands(
     baca.new(
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         match=0,
     ),
@@ -680,7 +680,7 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-string-iii-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
         direction=abjad.DOWN,
     ),
     baca.pitch("G2"),

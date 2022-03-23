@@ -36,7 +36,7 @@ commands(
     baca.rehearsal_mark(
         "M",
         baca.selectors.leaf(0),
-        abjad.tweak((0, 10)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
 
@@ -58,18 +58,18 @@ commands(
     baca.new(
         baca.markup(
             r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.markup(
             r"\baca-nine-c",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         match=0,
     ),
     baca.new(
         baca.markup(
             r"\baca-nine-c",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         match=[1, 2, 3],
     ),
@@ -97,7 +97,7 @@ commands(
     baca.flat_glissando("<D#4 A4>"),
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
 )
 
@@ -123,7 +123,7 @@ commands(
     ),
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=baca.selectors.leaf(1),
     ),
     library.pickets(
@@ -258,18 +258,18 @@ commands(
     baca.new(
         baca.markup(
             r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.markup(
             r"\baca-eleven-c",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         match=0,
     ),
     baca.new(
         baca.markup(
             r"\baca-eleven-c",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         match=[1, 2, 3],
     ),
@@ -297,7 +297,7 @@ commands(
     baca.flat_glissando("<Dqs4 Gtqs4>"),
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
 )
 
@@ -323,7 +323,7 @@ commands(
     ),
     baca.markup(
         r"\stirrings-still-twenty-four-et-markup",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=baca.selectors.leaf(1),
     ),
     library.pickets(
@@ -375,14 +375,14 @@ commands(
         baca.markup(r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup"),
         baca.markup(
             r"\baca-thirteen-c",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         match=0,
     ),
     baca.new(
         baca.markup(
             r"\baca-thirteen-c",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         match=[1, 2, 3],
     ),
@@ -410,7 +410,7 @@ commands(
     baca.flat_glissando("<D4 G#4>"),
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
 )
 
@@ -436,7 +436,7 @@ commands(
     ),
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=baca.selectors.leaf(1),
     ),
     library.pickets(

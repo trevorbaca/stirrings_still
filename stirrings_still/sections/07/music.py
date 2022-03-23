@@ -38,7 +38,7 @@ commands(
     baca.rehearsal_mark(
         "G",
         baca.selectors.leaf(0),
-        abjad.tweak((0, 10)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
 
@@ -46,12 +46,12 @@ commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-twenty",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(8 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-one",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(18 - 1),
     ),
 )
@@ -91,7 +91,7 @@ commands(
     baca.new(
         baca.markup(
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         match=0,
     ),
@@ -143,7 +143,7 @@ commands(
         ),
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         match=2,
     ),
@@ -190,7 +190,7 @@ commands(
         baca.flat_glissando("<Ab3 C4>"),
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         library.flight(
             "B",
@@ -261,7 +261,7 @@ commands(
         baca.flat_glissando("<F#4 Dqf5>"),
         baca.markup(
             r"\stirrings-still-seven-plus-nine-of-e-markup",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.tasto_spanner(
             abjad.tweak(5.5).staff_padding,
@@ -273,7 +273,7 @@ commands(
         baca.flat_glissando("<B2 Aqs3>"),
         baca.markup(
             r"\stirrings-still-eleven-plus-three-of-e-markup",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.tasto_spanner(
             abjad.tweak(5.5).staff_padding,
@@ -298,7 +298,7 @@ commands(
     baca.new(
         baca.markup(
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         match=0,
     ),
@@ -345,7 +345,7 @@ commands(
     baca.new(
         baca.markup(
             r"\stirrings-still-nine-plus-seven-of-b-markup",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         match=0,
     ),
