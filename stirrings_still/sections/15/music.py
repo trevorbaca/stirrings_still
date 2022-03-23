@@ -52,7 +52,7 @@ library.time(commands, time)
 commands(
     ("v1", (1, 6)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="granulation",
     ),
     baca.flat_glissando("Eb4"),
@@ -67,7 +67,7 @@ commands(
 commands(
     ("v1", 7),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.flat_glissando("Aqs4"),
@@ -95,7 +95,7 @@ commands(
 commands(
     ("v2", (1, 6)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="granulation",
     ),
     baca.flat_glissando("D4"),
@@ -110,7 +110,7 @@ commands(
 commands(
     ("v2", 7),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.flat_glissando("Eb4"),
@@ -130,7 +130,7 @@ commands(
 commands(
     ("va", (1, 6)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="granulation",
     ),
     baca.flat_glissando("G3"),
@@ -145,7 +145,7 @@ commands(
 commands(
     ("va", 7),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.flat_glissando("Bqf3"),
@@ -165,7 +165,7 @@ commands(
 commands(
     ("vc", (1, 6)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="granulation",
     ),
     baca.flat_glissando("Ab3"),
@@ -186,7 +186,7 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
-        abjad.tweak(3 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {3 + 6.5}"),
     ),
     baca.tuplet_bracket_down(),
     library.bcps(

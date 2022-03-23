@@ -79,7 +79,7 @@ commands(
 commands(
     ("v1", [1, (3, 4), (6, 8), (10, 15)]),
     baca.circle_bow_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
         qualifier="wide",
     ),
     baca.dynamic_text_self_alignment_x(
@@ -120,7 +120,7 @@ commands(
 commands(
     ("v2", [1, (3, 4), (6, 8), (10, 15)]),
     baca.circle_bow_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
         qualifier="wide",
     ),
     baca.dynamic_text_self_alignment_x(

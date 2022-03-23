@@ -1804,13 +1804,13 @@ segment.07.Violin.I.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 3]
     <f' a'>8
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
     %! REDUNDANT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -2408,13 +2408,13 @@ segment.07.Violin.I.Music.Voice = {
     %! baca._style_fermata_measures(7)
 %%% \once \override Score.SpanBar.transparent = ##t
     <f' a'>8
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
     %! REDUNDANT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -2622,13 +2622,13 @@ segment.07.Violin.I.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 11]
     <f' a'>8
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
     %! REDUNDANT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -4097,13 +4097,13 @@ segment.07.Violin.II.Music.Voice = {
         %! REAPPLIED_MARGIN_MARKUP_COLOR
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)
         <e' gs'!>8
-        %! REDUNDANT_DYNAMIC_COLOR
+        %! EXPLICIT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
         %! baca.dynamic()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'DeepPink1)
+        - \tweak color #(x11-color 'blue)
         %! baca.dynamic()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
@@ -4710,13 +4710,13 @@ segment.07.Violin.II.Music.Voice = {
         %! baca.PiecewiseCommand._call(3)
         %! SPANNER_STOP
         \!
-        %! REDUNDANT_DYNAMIC_COLOR
+        %! EXPLICIT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
         %! baca.dynamic()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'DeepPink1)
+        - \tweak color #(x11-color 'blue)
         %! baca.dynamic()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
@@ -7007,13 +7007,13 @@ segment.07.Viola.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 3]
         <aqf! cs'!>8
-        %! EXPLICIT_DYNAMIC_COLOR
+        %! REDUNDANT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
         %! baca.dynamic()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
         %! REDUNDANT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #(x11-color 'DeepPink1)
         %! baca.dynamic()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
@@ -7603,13 +7603,13 @@ segment.07.Viola.Music.Voice = {
         %! baca._style_fermata_measures(3)
         \startStaff
         <aqf! cs'!>8
-        %! EXPLICIT_DYNAMIC_COLOR
+        %! REDUNDANT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
         %! baca.dynamic()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
         %! REDUNDANT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #(x11-color 'DeepPink1)
         %! baca.dynamic()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
@@ -7817,13 +7817,13 @@ segment.07.Viola.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 11]
         <aqf! cs'!>8
-        %! EXPLICIT_DYNAMIC_COLOR
+        %! REDUNDANT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
         %! baca.dynamic()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
         %! REDUNDANT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #(x11-color 'DeepPink1)
         %! baca.dynamic()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()

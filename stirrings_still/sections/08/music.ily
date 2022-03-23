@@ -9760,13 +9760,13 @@ segment.08.Violin.II.Music.Voice = {
         %! baca.PiecewiseCommand._call(3)
         %! SPANNER_STOP
         \!
-        %! EXPLICIT_DYNAMIC_COLOR
+        %! REDUNDANT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
         %! baca.dynamic()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
         %! REDUNDANT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #(x11-color 'DeepPink1)
         %! baca.dynamic()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()

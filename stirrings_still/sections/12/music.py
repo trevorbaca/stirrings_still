@@ -117,7 +117,7 @@ commands(
 commands(
     ("v1", [(1, 2), (4, 6), (8, 10), (12, 14)]),
     baca.half_clt_spanner(
-        abjad.tweak(7 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {7 + 6.5}"),
     ),
 )
 
@@ -247,7 +247,7 @@ commands(
 commands(
     ("v2", [(1, 2), (4, 6), (8, 10), (12, 14)]),
     baca.half_clt_spanner(
-        abjad.tweak(4 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
 )
 
@@ -367,7 +367,7 @@ commands(
 commands(
     ("va", [(1, 2), (4, 6), (8, 10), (12, 14)]),
     baca.half_clt_spanner(
-        abjad.tweak(3 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {3 + 6.5}"),
     ),
 )
 

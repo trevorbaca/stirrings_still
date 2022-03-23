@@ -334,11 +334,8 @@ def bcps(
 
     command = baca.bcps(
         bcps_,
-        abjad.tweak(staff_padding).staff_padding,
-        # abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
+        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
         bow_change_tweaks=(
-            # abjad.tweak(abjad.LEFT).self_alignment_X,
-            # abjad.tweak(staff_padding + 2.5).staff_padding,
             abjad.Tweak(r"- \tweak self-alignment-X #left"),
             abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
         ),
@@ -381,11 +378,8 @@ def cello_cell_bcps(*, staff_padding=None):
     bcps = [(4, 7), (7, 7), (1, 7), (5, 7)]
     command = baca.bcps(
         bcps,
-        abjad.tweak(staff_padding).staff_padding,
-        # abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
+        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
         bow_change_tweaks=(
-            # abjad.tweak(abjad.LEFT).self_alignment_X,
-            # abjad.tweak(staff_padding + 2.5).staff_padding,
             abjad.Tweak(r"- \tweak self-alignment-X #left"),
             abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
         ),
@@ -405,8 +399,8 @@ def circle_spanner(
 ):
     command = baca.material_annotation_spanner(
         string,
-        abjad.tweak("#darkyellow").color,
-        abjad.tweak(staff_padding).staff_padding,
+        abjad.Tweak(r"- \tweak color #darkyellow"),
+        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
         measures=measures,
         selector=selector,
     )
@@ -507,8 +501,8 @@ def clouded_pane_spanner(
 ):
     command = baca.material_annotation_spanner(
         string,
-        abjad.tweak("#red").color,
-        abjad.tweak(staff_padding).staff_padding,
+        abjad.Tweak(r"- \tweak color #red"),
+        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
         measures=measures,
         selector=selector,
     )
@@ -1723,8 +1717,8 @@ def flight(counts, rotation, *, measures=None, start=0):
 def flight_spanner(string, staff_padding, measures=None):
     command = baca.material_annotation_spanner(
         string,
-        abjad.tweak("#darkmagenta").color,
-        abjad.tweak(staff_padding).staff_padding,
+        abjad.Tweak(r"- \tweak color #darkmagenta"),
+        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
         measures=measures,
     )
     tag = abjad.Tag("MATERIAL:FLIGHT")
@@ -1773,7 +1767,7 @@ def grid_to_trajectory(counts, rotation, extra, *, measures=None):
 def left_broken_circle_bow_tweak():
     string = r"\baca-left-broken-circle-bowing-markup"
     return (
-        abjad.tweak(string).bound_details__left_broken__text,
+        abjad.Tweak(rf"- \tweak bound-details.left-broken.text {string}"),
         -1,
     )
 
@@ -1781,7 +1775,7 @@ def left_broken_circle_bow_tweak():
 def left_broken_tasto_tweak():
     string = r"\baca-left-broken-t-markup"
     return (
-        abjad.tweak(string).bound_details__left_broken__text,
+        abjad.Tweak(rf"- \tweak bound-details.left-broken.text {string}"),
         -1,
     )
 
@@ -3235,8 +3229,8 @@ def trajectory_spanner(
 ):
     command = baca.material_annotation_spanner(
         string,
-        abjad.tweak("#blue").color,
-        abjad.tweak(staff_padding).staff_padding,
+        abjad.Tweak(r"- \tweak color #blue"),
+        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
         measures=measures,
         selector=selector,
     )
@@ -3272,7 +3266,7 @@ def transition_bcps(*, final_spanner=False, staff_padding=None):
 
     command = baca.bcps(
         padded_bcps,
-        abjad.tweak(staff_padding).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
         bow_change_tweaks=(
             abjad.Tweak(r"- \tweak self-alignment-X #left"),
             abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
@@ -3303,8 +3297,8 @@ def urtext_spanner(
 ):
     command = baca.material_annotation_spanner(
         string,
-        abjad.tweak("#darkred").color,
-        abjad.tweak(staff_padding).staff_padding,
+        abjad.Tweak(r"- \tweak color #darkred"),
+        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
         measures=measures,
         selector=selector,
     )

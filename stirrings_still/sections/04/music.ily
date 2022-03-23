@@ -6083,13 +6083,13 @@ segment.04.Violin.I.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 32]
     ef''!4.
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
     %! REDUNDANT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -15972,13 +15972,13 @@ segment.04.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 31]
     ef''!4
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
     %! REDUNDANT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()

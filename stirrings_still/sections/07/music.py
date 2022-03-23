@@ -97,7 +97,7 @@ commands(
     ),
     baca.pitch("<F4 A4>"),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.loure_tuplets(0),
     library.urtext_spanner("urtext (double stop) -|", 8),
@@ -217,7 +217,7 @@ commands(
         baca.untie(baca.selectors.leaves()),
         baca.scp_spanner(
             "T -> P ->",
-            abjad.tweak(5.5).staff_padding,
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=baca.selectors.plts((None, -1)),
         ),
@@ -232,7 +232,7 @@ commands(
 commands(
     ("tutti", (19, 24)),
     baca.damp_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.hairpin("mf >o niente"),
     baca.pitch("C#6"),
@@ -264,7 +264,7 @@ commands(
             abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.tasto_spanner(
-            abjad.tweak(5.5).staff_padding,
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
         ),
         library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
         match=0,
@@ -276,7 +276,7 @@ commands(
             abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.tasto_spanner(
-            abjad.tweak(5.5).staff_padding,
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
         ),
         library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
         match=1,
@@ -304,7 +304,7 @@ commands(
     ),
     baca.pitch("<E4 G#4>"),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.loure_tuplets(1),
     library.urtext_spanner("urtext (double stop) -|", 8),
@@ -314,7 +314,7 @@ commands(
     ("v2", (12, 13)),
     baca.alternate_bow_strokes(),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.hairpin(
         "mp -- !",
@@ -322,7 +322,7 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.new(
         library.clockticks(),
@@ -351,7 +351,7 @@ commands(
     ),
     baca.pitch("<Aqf3 C#4>"),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.clouded_pane_spanner("clouded pane (partial) -|", 8),
     library.loure_tuplets(-1),
