@@ -335,9 +335,12 @@ def bcps(
     command = baca.bcps(
         bcps_,
         abjad.tweak(staff_padding).staff_padding,
+        # abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
         bow_change_tweaks=(
-            abjad.tweak(abjad.LEFT).self_alignment_X,
-            abjad.tweak(staff_padding + 2.5).staff_padding,
+            # abjad.tweak(abjad.LEFT).self_alignment_X,
+            # abjad.tweak(staff_padding + 2.5).staff_padding,
+            abjad.Tweak(r"- \tweak self-alignment-X #left"),
+            abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
         ),
         selector=selector,
     )
@@ -379,9 +382,12 @@ def cello_cell_bcps(*, staff_padding=None):
     command = baca.bcps(
         bcps,
         abjad.tweak(staff_padding).staff_padding,
+        # abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
         bow_change_tweaks=(
-            abjad.tweak(abjad.LEFT).self_alignment_X,
-            abjad.tweak(staff_padding + 2.5).staff_padding,
+            # abjad.tweak(abjad.LEFT).self_alignment_X,
+            # abjad.tweak(staff_padding + 2.5).staff_padding,
+            abjad.Tweak(r"- \tweak self-alignment-X #left"),
+            abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
         ),
     )
     tag = abjad.Tag("stirrings_still.cello_cell_bcps()")
@@ -3268,8 +3274,8 @@ def transition_bcps(*, final_spanner=False, staff_padding=None):
         padded_bcps,
         abjad.tweak(staff_padding).staff_padding,
         bow_change_tweaks=(
-            abjad.tweak(abjad.LEFT).self_alignment_X,
-            abjad.tweak(staff_padding + 2.5).staff_padding,
+            abjad.Tweak(r"- \tweak self-alignment-X #left"),
+            abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
         ),
         final_spanner=final_spanner,
         helper=helper,

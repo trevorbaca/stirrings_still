@@ -36,7 +36,7 @@ commands(
     baca.rehearsal_mark(
         "I",
         baca.selectors.leaf(0),
-        abjad.tweak((0, 10)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
 
@@ -72,7 +72,7 @@ commands(
     ),
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
 )
 
@@ -165,7 +165,7 @@ commands(
     ),
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
 )
 
@@ -186,7 +186,7 @@ commands(
     ),
     baca.markup(
         r"\baca-seven-d-flat",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
 )
 
@@ -199,7 +199,7 @@ commands(
     ),
     baca.markup(
         r"\stirrings-still-twenty-four-et-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
 )
 
@@ -224,7 +224,7 @@ commands(
     ),
     baca.markup(
         r"\baca-string-iii-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
         direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),
@@ -253,7 +253,7 @@ commands(
     baca.flat_glissando("A5"),
     baca.markup(
         r"\stirrings-still-ninth-partial-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
         direction=abjad.DOWN,
     ),
     library.cello_cell(),

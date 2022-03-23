@@ -60,7 +60,7 @@ commands(
     baca.rehearsal_mark(
         "D",
         baca.selectors.leaf(0),
-        abjad.tweak((0, 10)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
 
@@ -68,17 +68,17 @@ commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-thirteen",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(37 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-fourteen",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(46 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-fifteen",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(64 - 1),
     ),
 )
@@ -151,7 +151,7 @@ commands(
     baca.flat_glissando("Bb4"),
     baca.markup(
         r"\baca-string-iv-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
         direction=abjad.DOWN,
     ),
     baca.new(
@@ -327,7 +327,7 @@ commands(
         baca.flat_glissando("Aqs4"),
         baca.markup(
             r"\baca-thirteen-d-flat",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         library.circles((1, 8)),
         match=0,
@@ -336,7 +336,7 @@ commands(
         baca.flat_glissando("Eb4"),
         baca.markup(
             r"\baca-nine-d-flat",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         library.circles((1, 4)),
         match=1,
@@ -344,7 +344,7 @@ commands(
     baca.new(
         baca.markup(
             r"\baca-seven-d-flat",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.pitch("Bqf3"),
         library.circles(
@@ -942,7 +942,7 @@ commands(
     ),
     baca.markup(
         r"\baca-string-iii-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
         direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),
@@ -1048,7 +1048,7 @@ commands(
     baca.flat_glissando("<F#4 Dqf5>"),
     baca.markup(
         r"\stirrings-still-seven-plus-nine-of-e-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
 )
 
@@ -1058,7 +1058,7 @@ commands(
         baca.new(
             baca.markup(
                 r"\stirrings-still-three-plus-seven-of-f-markup",
-                abjad.tweak(1.5).padding,
+                abjad.Tweak(r"- \tweak padding 1.5"),
             ),
             baca.untie(
                 baca.selectors.pleaf(0),
@@ -1104,7 +1104,7 @@ commands(
     baca.flat_glissando("<Cqs4 Ab4>"),
     baca.markup(
         r"\stirrings-still-five-plus-thirteen-of-e-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
 )
 
@@ -1114,7 +1114,7 @@ commands(
         baca.new(
             baca.markup(
                 r"\stirrings-still-nine-plus-eleven-of-f-markup",
-                abjad.tweak(1.5).padding,
+                abjad.Tweak(r"- \tweak padding 1.5"),
             ),
             baca.untie(
                 baca.selectors.pleaf(0),
@@ -1132,7 +1132,7 @@ commands(
     baca.flat_glissando("<B2 Aqs3>"),
     baca.markup(
         r"\stirrings-still-eleven-plus-three-of-e-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
 )
 
@@ -1141,7 +1141,7 @@ commands(
     baca.flat_glissando("A3"),
     baca.markup(
         r"\baca-five-f-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
 )
 

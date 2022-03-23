@@ -28,7 +28,7 @@ commands(
     baca.rehearsal_mark(
         "L",
         baca.selectors.leaf(0),
-        abjad.tweak((0, 10)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
 

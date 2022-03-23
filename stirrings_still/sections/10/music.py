@@ -36,7 +36,7 @@ commands(
     baca.rehearsal_mark(
         "J",
         baca.selectors.leaf(0),
-        abjad.tweak((0, 10)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
 
@@ -44,7 +44,7 @@ commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-repeat-three-markup",
-        abjad.tweak((0, 10)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
         measures=11,
         selector=baca.selectors.skip(0),
     ),
@@ -196,7 +196,7 @@ commands(
         baca.flat_glissando("<B2 Aqs3>"),
         baca.markup(
             r"\stirrings-still-eleven-plus-three-of-e-markup",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.tasto_spanner(
             abjad.tweak(5.5).staff_padding,
@@ -223,7 +223,7 @@ commands(
     ("tutti", 11),
     baca.markup(
         r"\stirrings-still-third-time-no-breath-markup",
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 

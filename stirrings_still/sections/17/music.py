@@ -42,7 +42,7 @@ commands(
     baca.rehearsal_mark(
         "Q",
         baca.selectors.leaf(0),
-        abjad.tweak((0, 10)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
 
@@ -80,7 +80,7 @@ commands(
     ("v1", 1),
     baca.markup(
         r"\baca-eleven-e",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("Aqs5"),
 )
@@ -443,7 +443,7 @@ commands(
     ("v2", 1),
     baca.markup(
         r"\baca-nine-e",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("F#5"),
 )
@@ -714,7 +714,7 @@ commands(
     ("va", 1),
     baca.markup(
         r"\baca-five-e",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("G#3"),
 )

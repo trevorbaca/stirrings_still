@@ -30,13 +30,13 @@ commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-nineteen",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(11 - 1),
     ),
     baca.rehearsal_mark(
         "F",
         baca.selectors.leaf(0),
-        abjad.tweak((0, 10)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
 
@@ -63,7 +63,7 @@ commands(
     ),
     baca.markup(
         r"\baca-thirteen-plus-nine-e-flat",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     library.clouded_pane(),
     library.clouded_pane_spanner(
@@ -87,7 +87,7 @@ commands(
     ),
     baca.markup(
         r"\baca-seven-plus-five-e-flat",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     library.clouded_pane(),
     library.clouded_pane_spanner(

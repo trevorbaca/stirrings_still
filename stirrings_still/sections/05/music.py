@@ -54,7 +54,7 @@ commands(
     baca.rehearsal_mark(
         "E",
         baca.selectors.leaf(0),
-        abjad.tweak((0, 10)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
 
@@ -62,17 +62,17 @@ commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-sixteen",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(41 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-seventeen",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(86 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-eighteen",
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(111 - 1),
     ),
 )
@@ -130,7 +130,7 @@ commands(
     ("v1", (1, 2)),
     baca.markup(
         r"\baca-seven-f-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.flat_glissando("Etqf4"),
 )
@@ -393,7 +393,7 @@ commands(
         ),
         baca.markup(
             r"\baca-thirteen-b-flat",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.flat_glissando("Gqf4"),
         library.pickets(
@@ -410,7 +410,7 @@ commands(
         ),
         baca.markup(
             r"\baca-seven-b-flat",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.flat_glissando("Atqf3"),
         library.pickets(
@@ -427,7 +427,7 @@ commands(
         ),
         baca.markup(
             r"\baca-nine-b-flat",
-            abjad.tweak(1.5).padding,
+            abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.flat_glissando("C3"),
         library.pickets(
@@ -725,7 +725,7 @@ commands(
     ("v2", (1, 2)),
     baca.markup(
         r"\baca-eleven-f-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.flat_glissando("Bqf3"),
 )
@@ -951,7 +951,7 @@ commands(
     ("va", (1, 2)),
     baca.markup(
         r"\baca-five-f-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.flat_glissando("A3"),
 )
