@@ -61,14 +61,12 @@ commands(
     baca.markup(
         r"\stirrings-still-text-two",
         # -20 because first page compresses vertical spacing
-        # abjad.tweak((4, -20)).extra_offset,
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(10 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-three",
         # -20 because first page compresses vertical spacing
-        # abjad.tweak((4, -20)).extra_offset,
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=baca.selectors.skip(19 - 1),
     ),
@@ -193,7 +191,7 @@ commands(
     ),
     baca.pitch("<F4 A4>"),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.loure_tuplets(0),
     library.urtext_spanner("urtext (double stop G.1) -|", 8),
@@ -202,11 +200,11 @@ commands(
 commands(
     ("v1", [(46, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="tight",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.flat_glissando("C5"),
     baca.hairpin(
@@ -241,7 +239,7 @@ commands(
     ),
     baca.scp_spanner(
         "tasto (T) =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         left_broken_text=r"\baca-left-broken-t-markup",
     ),
 )
@@ -279,7 +277,7 @@ commands(
 commands(
     ("trio", [3, (5, 6), (8, 9)]),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
 )
 
@@ -323,7 +321,7 @@ commands(
         selector=baca.selectors.leaves((2, None), rleak=True),
     ),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.breathe(
         selector=baca.selectors.leaf(1),
@@ -353,7 +351,7 @@ commands(
 commands(
     ("trio", [18, 20, 22, 25, 29]),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.breathe(
         selector=baca.selectors.pleaf(1),
@@ -396,7 +394,7 @@ commands(
 commands(
     ("trio", 23),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="mod-width",
     ),
     baca.hairpin(
@@ -422,8 +420,8 @@ commands(
     ("trio", 26),
     baca.circle_bow_spanner(
         # manual padding because spanner ends at espressivo
-        abjad.tweak(3.25).bound_details__right__padding,
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 3.25"),
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.hairpin(
@@ -459,8 +457,8 @@ commands(
     ("trio", (30, 45)),
     baca.circle_bow_spanner(
         # manual padding because spanner ends at end-of-system
-        abjad.tweak(3.25).bound_details__right__padding,
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 3.25"),
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
     ),
 )
@@ -490,7 +488,7 @@ commands(
         selector=baca.selectors.pleaf(-1),
     ),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.breathe(
         selector=baca.selectors.pleaf(1),
@@ -522,7 +520,7 @@ commands(
     ),
     baca.text_spanner(
         "(2°) =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=True,
         bookend=False,
         lilypond_id=1,
@@ -530,7 +528,7 @@ commands(
     ),
     baca.text_spanner(
         "rasp -> flaut. =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.selectors.mgroups([1, 2]),
@@ -542,11 +540,11 @@ commands(
 commands(
     ("tutti", 62),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-tight",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.hairpin(
         "p -- !",
@@ -608,7 +606,7 @@ commands(
     ),
     baca.pitch("<E4 G#4>"),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.loure_tuplets(1),
     library.urtext_spanner("urtext (double stop G.1) -|", 8),
@@ -617,11 +615,11 @@ commands(
 commands(
     ("v2", [(46, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="tight",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.flat_glissando("C4"),
     baca.hairpin(
@@ -694,7 +692,7 @@ commands(
     ),
     baca.pitch("<Aqf3 C#4>"),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.clouded_pane_spanner("clouded (partial G.1) -|", 8),
     library.loure_tuplets(-1),
@@ -703,11 +701,11 @@ commands(
 commands(
     ("va", [(46, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="tight",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.flat_glissando("Ab3"),
     baca.hairpin(
@@ -757,7 +755,7 @@ commands(
     ),
     baca.scp_spanner(
         "tasto (T) =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         left_broken_text=r"\baca-left-broken-t-markup",
     ),
     library.urtext_spanner("urtext (field) -|", 8),
@@ -794,7 +792,7 @@ commands(
         do_not_rewrite_meter=True,
     ),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.urtext_spanner("urtext (field) -|", 8),
 )
@@ -815,7 +813,7 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
-        abjad.tweak(4.5 + 6.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 11.0"),
     ),
     baca.markup(
         r"\baca-string-iii-markup",
@@ -837,11 +835,11 @@ commands(
 commands(
     ("vc", [(46, 47), (49, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="tight",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.flat_glissando("G3"),
     baca.hairpin(
@@ -866,7 +864,7 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
-        abjad.tweak(4.5 + 6.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 11.0"),
     ),
     baca.markup(
         r"\baca-string-iii-markup",

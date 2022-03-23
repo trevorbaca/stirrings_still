@@ -66,7 +66,7 @@ commands(
 commands(
     ("v1", (1, 8)),
     baca.half_clt_spanner(
-        abjad.tweak(8 + 6).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {8 + 6}"),
     ),
     baca.tuplet_bracket_down(),
     library.bcps(
@@ -109,7 +109,7 @@ commands(
 commands(
     ("v2", (1, 8)),
     baca.half_clt_spanner(
-        abjad.tweak(4.5 + 6).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
     ),
     baca.tuplet_bracket_down(),
     library.bcps(

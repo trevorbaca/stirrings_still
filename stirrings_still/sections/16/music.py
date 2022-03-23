@@ -88,7 +88,7 @@ commands(
         rleak=True,
     ),
     baca.tasto_spanner(
-        abjad.tweak(v1_spanner_staff_padding).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
     ),
 )
 
@@ -138,7 +138,7 @@ commands(
 commands(
     ("v1", [(6, 7), 10, (16, 17), (20, 25)]),
     baca.circle_bow_spanner(
-        abjad.tweak(v1_spanner_staff_padding).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
         qualifier="wide-poss",
     ),
 )
@@ -230,7 +230,7 @@ commands(
         rleak=True,
     ),
     baca.tasto_spanner(
-        abjad.tweak(v2_spanner_staff_padding).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {v2_spanner_staff_padding}"),
     ),
 )
 
@@ -246,7 +246,7 @@ commands(
 commands(
     ("v2", [5, 7, 9, 15, 17, (19, 25)]),
     baca.circle_bow_spanner(
-        abjad.tweak(v2_spanner_staff_padding).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {v2_spanner_staff_padding}"),
         qualifier="wide-poss",
     ),
 )
@@ -360,7 +360,7 @@ commands(
         rleak=True,
     ),
     baca.tasto_spanner(
-        abjad.tweak(va_spanner_staff_padding).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
     ),
 )
 
@@ -401,7 +401,7 @@ commands(
 commands(
     ("va", [(8, 10), (18, 25)]),
     baca.circle_bow_spanner(
-        abjad.tweak(va_spanner_staff_padding).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
         qualifier="wide-poss",
     ),
 )
@@ -450,7 +450,7 @@ commands(
         rleak=True,
     ),
     baca.tasto_spanner(
-        abjad.tweak(vc_spanner_staff_padding).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
     ),
 )
 
@@ -496,7 +496,7 @@ commands(
 commands(
     ("vc", [(6, 8), (16, 25)]),
     baca.circle_bow_spanner(
-        abjad.tweak(vc_spanner_staff_padding).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
         qualifier="wide-poss",
     ),
 )

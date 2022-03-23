@@ -54,7 +54,7 @@ commands(
     ("v1", (1, 7)),
     baca.beam(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.flat_glissando(
@@ -147,7 +147,7 @@ commands(
 commands(
     ("v2", (1, 7)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.flat_glissando(
@@ -174,7 +174,7 @@ commands(
 commands(
     ("va", (1, 7)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide-poss",
     ),
     baca.flat_glissando("Bqf3"),
@@ -218,7 +218,7 @@ commands(
         selector=baca.selectors.leaves(),
     ),
     baca.half_clt_spanner(
-        abjad.tweak(6 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {6 + 6.5}"),
         # TODO: extend spanner to phantom measure
         selector=baca.selectors.leaves(),
     ),

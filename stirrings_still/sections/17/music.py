@@ -89,11 +89,11 @@ commands(
     ("v1", (2, 9)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [2]),
@@ -138,7 +138,7 @@ commands(
 commands(
     ("v1", (18, 24)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -146,11 +146,11 @@ commands(
     ("v1", (25, 27)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [2]),
@@ -190,7 +190,7 @@ commands(
 commands(
     ("v1", (35, 40)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -198,11 +198,11 @@ commands(
     ("v1", (41, 42)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [2]),
@@ -242,7 +242,7 @@ commands(
 commands(
     ("v1", (49, 52)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -250,11 +250,11 @@ commands(
     ("v1", (53, 54)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=baca.selectors.ltleaves_rleak(),
     ),
     baca.dynamic("p"),
@@ -295,7 +295,7 @@ commands(
 commands(
     ("v1", (59, 62)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -303,11 +303,11 @@ commands(
     ("v1", 63),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [2]),
@@ -342,7 +342,7 @@ commands(
 commands(
     ("v1", (64, 68)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -355,11 +355,11 @@ commands(
     ("v1", 69),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [2]),
@@ -389,7 +389,7 @@ commands(
 commands(
     ("v1", 71),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -400,7 +400,7 @@ commands(
         abjad.tweak(-0.75).self_alignment_X,
     ),
     baca.half_clt_spanner(
-        abjad.tweak(14).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 14"),
     ),
     baca.tuplet_bracket_down(),
     library.bcps(
@@ -452,11 +452,11 @@ commands(
     ("v2", (2, 13)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [1]),
@@ -488,7 +488,7 @@ commands(
 commands(
     ("v2", (18, 21)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -496,11 +496,11 @@ commands(
     ("v2", (22, 30)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [1]),
@@ -527,7 +527,7 @@ commands(
 commands(
     ("v2", (35, 37)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -535,11 +535,11 @@ commands(
     ("v2", (38, 45)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [1]),
@@ -566,7 +566,7 @@ commands(
 commands(
     ("v2", (48, 50)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -574,11 +574,11 @@ commands(
     ("v2", (51, 56)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [1]),
@@ -605,7 +605,7 @@ commands(
 commands(
     ("v2", (59, 60)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -613,11 +613,11 @@ commands(
     ("v2", (61, 64)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic(
         "p",
@@ -647,7 +647,7 @@ commands(
 commands(
     ("v2", (66, 67)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
         selector=baca.selectors.tleaves(rleak=True),
     ),
 )
@@ -656,11 +656,11 @@ commands(
     ("v2", (68, 70)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [1]),
@@ -674,7 +674,7 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
-        abjad.tweak(4.5 + 6).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
     ),
     baca.tuplet_bracket_down(),
     library.bcps(
@@ -693,7 +693,7 @@ commands(
         abjad.tweak(-0.75).self_alignment_X,
     ),
     baca.half_clt_spanner(
-        abjad.tweak(4.5 + 6).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
     ),
     baca.tuplet_bracket_down(),
     library.bcps(
@@ -723,11 +723,11 @@ commands(
     ("va", (2, 9)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [0]),
@@ -772,7 +772,7 @@ commands(
 commands(
     ("va", (18, 21)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -780,11 +780,11 @@ commands(
     ("va", (22, 27)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [0]),
@@ -824,7 +824,7 @@ commands(
 commands(
     ("va", (35, 37)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -832,11 +832,11 @@ commands(
     ("va", (38, 42)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [0]),
@@ -875,7 +875,7 @@ commands(
 commands(
     ("va", (48, 50)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -883,11 +883,11 @@ commands(
     ("va", (51, 54)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [0]),
@@ -927,7 +927,7 @@ commands(
 commands(
     ("va", (59, 60)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -935,11 +935,11 @@ commands(
     ("va", (61, 63)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic(
         "p",
@@ -982,7 +982,7 @@ commands(
 commands(
     ("va", (66, 67)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -990,11 +990,11 @@ commands(
     ("va", (68, 69)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [0]),
@@ -1024,7 +1024,7 @@ commands(
 commands(
     ("va", 71),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -1056,11 +1056,11 @@ commands(
         abjad.tweak((-1, 0)).extra_offset,
     ),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [-1]),
@@ -1105,7 +1105,7 @@ commands(
 commands(
     ("vc", (18, 21)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -1116,11 +1116,11 @@ commands(
         abjad.tweak((-1, 0)).extra_offset,
     ),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [-1]),
@@ -1164,7 +1164,7 @@ commands(
 commands(
     ("vc", (35, 37)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -1175,11 +1175,11 @@ commands(
         abjad.tweak((-1, 0)).extra_offset,
     ),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [-1]),
@@ -1219,7 +1219,7 @@ commands(
 commands(
     ("vc", (48, 50)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -1230,11 +1230,11 @@ commands(
         abjad.tweak((-1, 0)).extra_offset,
     ),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [-1]),
@@ -1274,7 +1274,7 @@ commands(
 commands(
     ("vc", (59, 60)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -1285,11 +1285,11 @@ commands(
         abjad.tweak((-1, 0)).extra_offset,
     ),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic(
         "p",
@@ -1332,7 +1332,7 @@ commands(
 commands(
     ("vc", (66, 67)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 
@@ -1343,11 +1343,11 @@ commands(
         abjad.tweak((-1, 0)).extra_offset,
     ),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [-1]),
@@ -1377,7 +1377,7 @@ commands(
 commands(
     ("vc", 71),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
 )
 

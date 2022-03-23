@@ -139,7 +139,7 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
-        abjad.tweak(4 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
         # TODO: allow spanner to extend to phantom measure
         # selector=baca.selectors.rleaves(),
         selector=baca.selectors.leaves(),
@@ -188,7 +188,7 @@ commands(
         baca.flat_glissando("<F#4 Dqf5>"),
         baca.markup(r"\stirrings-still-seven-plus-nine-of-e-markup"),
         baca.tasto_spanner(
-            abjad.tweak(5.5).staff_padding,
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
         ),
         match=0,
     ),
@@ -199,7 +199,7 @@ commands(
             abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.tasto_spanner(
-            abjad.tweak(5.5).staff_padding,
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
         ),
         match=1,
     ),
@@ -270,7 +270,7 @@ commands(
     ("v2", (3, 4)),
     baca.alternate_bow_strokes(),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.hairpin(
         "mp -- !",
@@ -278,7 +278,7 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.new(
         library.clockticks(),
@@ -367,7 +367,7 @@ commands(
 commands(
     ("vc", (12, 13)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.flat_glissando(

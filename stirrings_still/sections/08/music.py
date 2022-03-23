@@ -115,7 +115,7 @@ commands(
     ("v1", 6),
     baca.beam(),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.markup(
@@ -161,7 +161,7 @@ commands(
 commands(
     ("v1", (52, 55)),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
 )
 
@@ -176,7 +176,7 @@ commands(
     ),
     baca.text_spanner(
         "2° =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=True,
         bookend=False,
         lilypond_id=1,
@@ -184,7 +184,7 @@ commands(
     ),
     baca.text_spanner(
         "rasp -> flaut. =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.selectors.mgroups([3, 5 + 1]),
@@ -228,7 +228,7 @@ commands(
         r" \baca-circle-tight-markup ->"
         r" \baca-circle-mod-markup ->"
         r" \baca-circle-wide-markup =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.selectors.mgroups([1, 1, 2, 2, 2 + 1]),
@@ -269,7 +269,7 @@ commands(
     ("v2", (33, 34)),
     baca.alternate_bow_strokes(),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.hairpin(
         "mp -- !",
@@ -277,7 +277,7 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.new(
         library.clockticks(),
@@ -297,7 +297,7 @@ commands(
 commands(
     ("v2", [52, 55]),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
 )
 
@@ -305,7 +305,7 @@ commands(
     ("v2", (53, 54)),
     baca.alternate_bow_strokes(),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.hairpin(
         "mp -- !",
@@ -313,7 +313,7 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.new(
         library.clockticks(),
@@ -356,7 +356,7 @@ commands(
 commands(
     ("va", 6),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
     ),
     baca.markup(
@@ -403,7 +403,7 @@ commands(
 commands(
     ("va", (52, 55)),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
 )
 
@@ -446,7 +446,7 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
-        abjad.tweak(6 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {6 + 6.5}"),
     ),
     library.transition_bcps(
         staff_padding=6,
@@ -467,7 +467,7 @@ commands(
     ),
     baca.bow_speed_spanner(
         "flaut. -> ord.",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
         selector=baca.selectors.leaves(),
@@ -509,7 +509,7 @@ commands(
     ("vc", (9, 27)),
     baca.text_spanner(
         "no overpressure -> molto overpressure =|" " (molto) -> no overpressure.",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         pieces=baca.selectors.mgroups([8, 6, 5 + 1]),
         selector=baca.selectors.rleaves(),
     ),
@@ -551,7 +551,7 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
     baca.tuplet_bracket_down(),
     library.bcps(
@@ -616,7 +616,7 @@ commands(
 commands(
     ("trio", (23, 28)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.hairpin(
@@ -688,7 +688,7 @@ commands(
     ),
     baca.text_spanner(
         r"\baca-circle-very-wide-markup -> \baca-circle-tight-markup =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.selectors.mgroups([1, 2]),
@@ -717,7 +717,7 @@ commands(
     ),
     baca.text_spanner(
         r"\baca-circle-wide-markup -> \baca-circle-tight-markup =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.selectors.mgroups([1, 2 + 1]),
@@ -746,7 +746,7 @@ commands(
     ),
     baca.text_spanner(
         r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.selectors.mgroups([2, 2 + 1]),
@@ -789,7 +789,7 @@ commands(
     ),
     baca.text_spanner(
         r"\baca-circle-very-tight-markup -> \baca-circle-wide-markup =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.selectors.mgroups([3, 2 + 1]),
@@ -853,7 +853,7 @@ commands(
 commands(
     (["v1", "v2"], 56),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
         # TODO: allow spanner to run to end of segment
         # selector=baca.selectors.rleaves(),
@@ -920,7 +920,7 @@ commands(
         r" \baca-circle-tight-markup ->"
         r" \baca-circle-mod-markup ->"
         r" \baca-circle-wide-markup =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.selectors.mgroups([2, 2, 2, 5]),
@@ -948,7 +948,7 @@ commands(
             abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.tasto_spanner(
-            abjad.tweak(5.5).staff_padding,
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
         ),
         baca.flat_glissando("<F#4 Dqf5>"),
         match=0,
@@ -959,7 +959,7 @@ commands(
             abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.tasto_spanner(
-            abjad.tweak(5.5).staff_padding,
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
         ),
         baca.flat_glissando("<B2 Aqs3>"),
         match=1,
@@ -1029,7 +1029,7 @@ commands(
     ),
     baca.text_spanner(
         "2° =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=True,
         bookend=False,
         lilypond_id=1,
@@ -1038,7 +1038,7 @@ commands(
     ),
     baca.text_spanner(
         "rasp -> flaut. =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         match=[0, 2, 3],
@@ -1083,7 +1083,7 @@ commands(
     ),
     baca.text_spanner(
         "2° =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=True,
         bookend=False,
         lilypond_id=1,
@@ -1091,7 +1091,7 @@ commands(
     ),
     baca.text_spanner(
         "rasp -> poco rasp =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.selectors.mgroups([1, 2]),

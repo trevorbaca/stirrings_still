@@ -95,7 +95,7 @@ commands(
     ),
     baca.scp_spanner(
         "T -> O",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
         selector=baca.selectors.rleaves(),
@@ -141,7 +141,7 @@ commands(
     ),
     baca.scp_spanner(
         "O -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -186,7 +186,7 @@ commands(
     ),
     baca.scp_spanner(
         "O -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -214,8 +214,8 @@ commands(
     ),
     baca.text_spanner(
         "slow bow -> stopped",
-        abjad.tweak(11).bound_details__right__padding,
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=baca.selectors.rleaves(),
     ),
     library.eighths(),
@@ -295,7 +295,7 @@ commands(
     ),
     baca.scp_spanner(
         "T -> O",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
         selector=baca.selectors.rleaves(),
@@ -341,7 +341,7 @@ commands(
     ),
     baca.scp_spanner(
         "O -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -386,7 +386,7 @@ commands(
     ),
     baca.scp_spanner(
         "O -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -414,8 +414,8 @@ commands(
     ),
     baca.text_spanner(
         "slow bow -> stopped",
-        abjad.tweak(11).bound_details__right__padding,
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=baca.selectors.rleaves(),
     ),
     library.eighths(),
@@ -444,7 +444,7 @@ commands(
     ),
     baca.scp_spanner(
         "T -> O",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
         selector=baca.selectors.rleaves(),
@@ -490,7 +490,7 @@ commands(
     ),
     baca.scp_spanner(
         "O -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -535,7 +535,7 @@ commands(
     ),
     baca.scp_spanner(
         "O -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -563,8 +563,8 @@ commands(
     ),
     baca.text_spanner(
         "slow bow -> stopped",
-        abjad.tweak(11).bound_details__right__padding,
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=baca.selectors.rleaves(),
     ),
     library.eighths(),
@@ -598,7 +598,7 @@ commands(
 commands(
     ("vc", (11, 12)),
     baca.half_clt_spanner(
-        abjad.tweak(3 + 6).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {3 + 6}"),
     ),
     library.cello_cell(),
     library.cello_cell_bcps(
@@ -643,7 +643,7 @@ commands(
     ),
     baca.scp_spanner(
         "O -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -702,7 +702,7 @@ commands(
     ),
     baca.scp_spanner(
         "O -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -725,12 +725,12 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.tasto_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
     baca.text_spanner(
         "slow bow -> stopped",
-        abjad.tweak(11).bound_details__right__padding,
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=baca.selectors.rleaves(),
     ),
     library.clouded_pane(),

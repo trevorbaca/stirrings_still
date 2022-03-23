@@ -86,7 +86,7 @@ commands(
 commands(
     ("v1", (9, 12)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
     ),
     library.pickets(4, 2),
@@ -113,7 +113,7 @@ commands(
 commands(
     ("v1", (17, 20)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
         selector=baca.selectors.leaves((1, None), rleak=True),
     ),
@@ -139,7 +139,7 @@ commands(
 commands(
     ("v1", (25, 28)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
         selector=baca.selectors.leaves((1, None), rleak=True),
     ),
@@ -286,7 +286,7 @@ commands(
 commands(
     ("v2", (9, 12)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
     ),
     library.pickets(4, 1),
@@ -313,7 +313,7 @@ commands(
 commands(
     ("v2", (17, 20)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
         selector=baca.selectors.leaves((1, None), rleak=True),
     ),
@@ -339,7 +339,7 @@ commands(
 commands(
     ("v2", (25, 28)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
         selector=baca.selectors.leaves((1, None), rleak=True),
     ),
@@ -399,7 +399,7 @@ commands(
 commands(
     ("va", (9, 12)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
     ),
     library.pickets(4, 0),
@@ -426,7 +426,7 @@ commands(
 commands(
     ("va", (17, 20)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
         selector=baca.selectors.leaves((1, None), rleak=True),
     ),
@@ -452,7 +452,7 @@ commands(
 commands(
     ("va", (25, 28)),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
         selector=baca.selectors.leaves((1, None), rleak=True),
     ),

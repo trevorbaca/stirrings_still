@@ -87,7 +87,7 @@ library.time(commands, time)
 commands(
     ("v1", (1, 2)),
     baca.half_clt_spanner(
-        abjad.tweak(4 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
     library.bcps(
         0,
@@ -108,12 +108,12 @@ commands(
 commands(
     ("v1", (3, 4)),
     baca.circle_bow_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         qualifier="wide-poss",
     ),
     baca.text_spanner(
         r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
@@ -145,7 +145,7 @@ commands(
 commands(
     ("v1", [(5, 9), (11, 14), 16]),
     baca.half_clt_spanner(
-        abjad.tweak(4 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
 )
 
@@ -214,7 +214,7 @@ commands(
 commands(
     ("v1", 21),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="tight",
     ),
     baca.dynamic_text_self_alignment_x(-0.75),
@@ -242,7 +242,7 @@ commands(
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.hairpin('"ff" > mf'),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.flat_glissando("Aqs4"),
@@ -266,7 +266,7 @@ commands(
     ),
     baca.scp_spanner(
         "T -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -289,8 +289,8 @@ commands(
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
         " trem. larghiss. -> no trem.",
-        abjad.tweak(1.5).bound_details__right__padding,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
@@ -299,7 +299,7 @@ commands(
     ),
     baca.scp_spanner(
         "T -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -337,7 +337,7 @@ commands(
     ),
     baca.text_spanner(
         r"\baca-null-markup || \baca-null-markup || \baca-damp-markup =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=True,
         bookend=False,
         final_piece_spanner=False,
@@ -346,7 +346,7 @@ commands(
     ),
     baca.scp_spanner(
         "T1 -> T3 -> T2 -> T3 ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -364,13 +364,13 @@ commands(
         do_not_rewrite_meter=True,
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         # TODO: allow spanner to extend to phantom measure
         selector=baca.selectors.leaves(),
     ),
     baca.scp_spanner(
         "T poss. =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         # TODO: allow spanner to extend to phantom measure
         selector=baca.selectors.leaves(),
     ),
@@ -407,7 +407,7 @@ commands(
     ("tutti", (24, 31)),
     baca.text_spanner(
         "each time more ponticello =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=True,
         bookend=False,
         lilypond_id=2,
@@ -419,7 +419,7 @@ commands(
     ("tutti", (32, 37)),
     baca.text_spanner(
         "each time less ponticello =|",
-        abjad.tweak(10.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
         autodetect_right_padding=True,
         bookend=False,
         lilypond_id=2,
@@ -449,7 +449,7 @@ commands(
 commands(
     ("v2", (1, 2)),
     baca.half_clt_spanner(
-        abjad.tweak(4 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
     library.bcps(
         -1,
@@ -470,12 +470,12 @@ commands(
 commands(
     ("v2", (3, 4)),
     baca.circle_bow_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         qualifier="wide-poss",
     ),
     baca.text_spanner(
         r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
@@ -498,7 +498,7 @@ commands(
 commands(
     ("v2", [(5, 9), 13, (15, 16)]),
     baca.half_clt_spanner(
-        abjad.tweak(4 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
 )
 
@@ -565,7 +565,7 @@ commands(
 commands(
     ("v2", 21),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="tight",
     ),
     baca.dynamic_text_self_alignment_x(-0.75),
@@ -593,7 +593,7 @@ commands(
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.hairpin('"ff" > mf'),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.flat_glissando("Eb4"),
@@ -616,7 +616,7 @@ commands(
     ),
     baca.scp_spanner(
         "T -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -639,8 +639,8 @@ commands(
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
         " trem. larghiss. -> no trem.",
-        abjad.tweak(1.5).bound_details__right__padding,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
@@ -649,7 +649,7 @@ commands(
     ),
     baca.scp_spanner(
         "T -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -686,7 +686,7 @@ commands(
     ),
     baca.text_spanner(
         r"\baca-null-markup || \baca-damp-markup =| \baca-null-markup ||",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
@@ -694,7 +694,7 @@ commands(
     ),
     baca.scp_spanner(
         "T1 -> T3 -> T2 -> T3 ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -712,13 +712,13 @@ commands(
         do_not_rewrite_meter=True,
     ),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         # TODO: allow spanner to extend to phantom measure
         selector=baca.selectors.leaves(),
     ),
     baca.scp_spanner(
         "T poss. =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         # TODO: allow spanner to extend to phantom measure
         selector=baca.selectors.leaves(),
     ),
@@ -729,7 +729,7 @@ commands(
 commands(
     ("va", (1, 2)),
     baca.half_clt_spanner(
-        abjad.tweak(4 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
     library.bcps(
         -2,
@@ -750,12 +750,12 @@ commands(
 commands(
     ("va", (3, 4)),
     baca.circle_bow_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         qualifier="wide-poss",
     ),
     baca.text_spanner(
         r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
@@ -780,7 +780,7 @@ commands(
 commands(
     ("va", [(12, 13), (16, 17)]),
     baca.half_clt_spanner(
-        abjad.tweak(4 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
     library.bcps(
         -3,
@@ -835,7 +835,7 @@ commands(
 commands(
     ("va", 21),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="tight",
     ),
     baca.dynamic_text_self_alignment_x(-0.75),
@@ -863,7 +863,7 @@ commands(
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.hairpin('"ff" > mf'),
     baca.circle_bow_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
     baca.flat_glissando("Bqf3"),
@@ -886,7 +886,7 @@ commands(
     ),
     baca.scp_spanner(
         "T -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -909,8 +909,8 @@ commands(
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
         " trem. larghiss. -> no trem.",
-        abjad.tweak(1.5).bound_details__right__padding,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
@@ -919,7 +919,7 @@ commands(
     ),
     baca.scp_spanner(
         "T -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -946,7 +946,7 @@ commands(
     ),
     baca.text_spanner(
         r"\baca-null-markup || \baca-damp-markup =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=True,
         bookend=False,
         final_piece_spanner=False,
@@ -955,7 +955,7 @@ commands(
     ),
     baca.scp_spanner(
         "T1 -> T3 -> T2 -> T3 ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -974,7 +974,7 @@ commands(
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
-        abjad.tweak(4 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
     library.bcps(
         -2,
@@ -987,7 +987,7 @@ commands(
 commands(
     ("va", (46, 53)),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         # TODO: allow spanner to extend to phantom measure
         selector=baca.selectors.leaves(),
     ),
@@ -997,7 +997,7 @@ commands(
     ),
     baca.scp_spanner(
         "T poss. =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         # TODO: allow spanner to extend to phantom measure
         selector=baca.selectors.leaves(),
     ),
@@ -1008,7 +1008,7 @@ commands(
 commands(
     ("vc", (1, 2)),
     baca.half_clt_spanner(
-        abjad.tweak(4 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
     library.bcps(
         -3,
@@ -1029,12 +1029,12 @@ commands(
 commands(
     ("vc", (3, 4)),
     baca.circle_bow_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         qualifier="wide",
     ),
     baca.text_spanner(
         r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
@@ -1057,7 +1057,7 @@ commands(
 commands(
     ("vc", [(5, 10), (13, 14)]),
     baca.half_clt_spanner(
-        abjad.tweak(4 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
 )
 
@@ -1130,7 +1130,7 @@ commands(
         pieces=baca.selectors.cmgroups(),
     ),
     baca.half_clt_spanner(
-        abjad.tweak(4.5 + 6.5).staff_padding,
+        abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6.5}"),
     ),
     baca.markup(
         r"\baca-string-iii-markup",
@@ -1157,7 +1157,7 @@ commands(
     ),
     baca.scp_spanner(
         "T -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -1176,7 +1176,7 @@ commands(
     ),
     baca.scp_spanner(
         "T -> P ->",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=baca.selectors.plts((None, -1)),
     ),
@@ -1186,8 +1186,8 @@ commands(
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
         " trem. larghiss. -> no trem.",
-        abjad.tweak(1.5).bound_details__right__padding,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
@@ -1224,7 +1224,7 @@ commands(
     ),
     baca.scp_spanner(
         "T -> T poss. =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         pieces=baca.selectors.cmgroups([8, 8]),
     ),
     library.clouded_pane(),

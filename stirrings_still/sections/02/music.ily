@@ -9913,16 +9913,6 @@ segment.02.Violin.I.Music.Voice = {
         %! baca.scp_spanner()
         %! SCP_SPANNER
         %! baca.PiecewiseCommand._call(2)
-        %! AUTODETECT
-        %! SPANNER_START
-        %! baca.scp_spanner()
-        %! SCP_SPANNER
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-        %! baca.scp_spanner()
-        %! SCP_SPANNER
-        %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         - \tweak staff-padding 13
         %! baca.scp_spanner()
