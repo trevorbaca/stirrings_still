@@ -772,8 +772,8 @@ commands(
         abjad.Tweak(r"- \tweak extra-offset #'(-3 . 0)"),
     ),
     library.tailpiece(
-        abjad.tweak(0).bound_details__right__Y,
-        abjad.tweak(1.5).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.Y 0"),
+        abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
     ),
 )
 

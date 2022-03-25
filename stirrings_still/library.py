@@ -355,7 +355,7 @@ def breathe(selector=baca.selectors.pleaf(-1)):
     """
     command = baca.breathe(
         selector,
-        abjad.tweak((-0.25, 2)).extra_offset,
+        abjad.Tweak(r"\tweak extra-offset #'(-0.25 . 2)"),
     )
     tag = abjad.Tag("stirrings_still.breathe()")
     result = baca.tag(tag, command)

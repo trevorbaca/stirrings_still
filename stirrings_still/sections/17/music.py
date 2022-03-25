@@ -1053,7 +1053,7 @@ commands(
     ("vc", (2, 9)),
     baca.breathe(
         baca.selectors.pleaf(-1),
-        abjad.tweak((-1, 0)).extra_offset,
+        abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
     ),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1113,7 +1113,7 @@ commands(
     ("vc", (22, 27)),
     baca.breathe(
         baca.selectors.pleaf(-1),
-        abjad.tweak((-1, 0)).extra_offset,
+        abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
     ),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1172,7 +1172,7 @@ commands(
     ("vc", (38, 42)),
     baca.breathe(
         baca.selectors.pleaf(-1),
-        abjad.tweak((-1, 0)).extra_offset,
+        abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
     ),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1227,7 +1227,7 @@ commands(
     ("vc", (51, 54)),
     baca.breathe(
         baca.selectors.pleaf(-1),
-        abjad.tweak((-1, 0)).extra_offset,
+        abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
     ),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1282,7 +1282,7 @@ commands(
     ("vc", (61, 63)),
     baca.breathe(
         baca.selectors.pleaf(-1),
-        abjad.tweak((-1, 0)).extra_offset,
+        abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
     ),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1340,7 +1340,7 @@ commands(
     ("vc", (68, 69)),
     baca.breathe(
         baca.selectors.pleaf(-1),
-        abjad.tweak((-1, 0)).extra_offset,
+        abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
     ),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),

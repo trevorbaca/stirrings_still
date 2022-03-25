@@ -106,7 +106,7 @@ commands(
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
     library.tailpiece(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
     ),
 )
 
