@@ -183,7 +183,7 @@ commands(
     ("vc", (3, 4)),
     baca.hairpin(
         "o< f -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([1, 1 + 1]),
         selector=baca.selectors.rleaves(),
     ),
@@ -193,7 +193,7 @@ commands(
     ("vc", (6, 8)),
     baca.hairpin(
         "o< ff -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([1, 2 + 1]),
         selector=baca.selectors.rleaves(),
     ),
@@ -203,7 +203,7 @@ commands(
     ("vc", (10, 15)),
     baca.hairpin(
         "o< fff -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([2, 4 + 1]),
         selector=baca.selectors.rleaves(),
     ),

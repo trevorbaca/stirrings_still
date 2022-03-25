@@ -209,7 +209,7 @@ commands(
     baca.flat_glissando("C5"),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.desynchronization(4, [1]),
@@ -399,7 +399,7 @@ commands(
     ),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -426,7 +426,7 @@ commands(
     ),
     baca.hairpin(
         "pp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -508,7 +508,7 @@ commands(
     ("tutti", (55, 56)),
     baca.hairpin(
         "o< mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([1, 2]),
         selector=baca.selectors.rleaves(),
     ),
@@ -548,7 +548,7 @@ commands(
     ),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.circles((1, 4)),
@@ -624,7 +624,7 @@ commands(
     baca.flat_glissando("C4"),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.desynchronization(4, [0]),
@@ -710,7 +710,7 @@ commands(
     baca.flat_glissando("Ab3"),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.desynchronization(4, [2]),
@@ -808,7 +808,7 @@ commands(
     baca.flat_glissando("A5"),
     baca.hairpin(
         'niente o< "f" -- !',
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([1, 2]),
         selector=baca.selectors.rleaves(),
     ),
@@ -844,7 +844,7 @@ commands(
     baca.flat_glissando("G3"),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.desynchronization(4, [-1]),
@@ -860,7 +860,7 @@ commands(
     baca.flat_glissando("A5"),
     baca.hairpin(
         '"f" -- !',
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(

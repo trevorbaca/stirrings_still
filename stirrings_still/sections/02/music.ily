@@ -4245,31 +4245,31 @@ segment.02.Violin.I.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \mp
-        %! EXPLICIT_DYNAMIC_COLOR
+        %! REDUNDANT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
         %! baca.hairpin()
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        %! REDUNDANT_DYNAMIC
+        - \tweak color #(x11-color 'DeepPink1)
         %! baca.hairpin()
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
+        %! REDUNDANT_DYNAMIC
         - \tweak to-barline ##t
         %! baca.hairpin()
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
+        %! REDUNDANT_DYNAMIC
         - \tweak stencil #constante-hairpin
         %! baca.hairpin()
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
+        %! REDUNDANT_DYNAMIC
         \<
 
         fs''!8

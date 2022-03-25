@@ -135,7 +135,7 @@ commands(
     ("v1", (7, 14)),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -215,7 +215,7 @@ commands(
     ("v2", (9, 14)),
     baca.hairpin(
         "(mp) > p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([2, 4 + 1]),
         selector=baca.selectors.rleaves(),
     ),
@@ -273,7 +273,7 @@ commands(
     ),
     baca.hairpin(
         "mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
@@ -309,7 +309,7 @@ commands(
     ),
     baca.hairpin(
         "mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
@@ -380,7 +380,7 @@ commands(
     ("va", (7, 14)),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -520,7 +520,7 @@ commands(
     baca.dynamic_text_self_alignment_x(-1),
     baca.hairpin(
         "(ff) > ppp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([5, 4 + 1]),
         selector=baca.selectors.rleaves(),
     ),
@@ -530,7 +530,7 @@ commands(
     ("vc", (38, 46)),
     baca.hairpin(
         "ppp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.make_notes(),
@@ -546,7 +546,7 @@ commands(
     ("vc", (47, 51)),
     baca.hairpin(
         "(ppp) < p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([3, 2 + 1]),
         selector=baca.selectors.rleaves(),
     ),
@@ -621,7 +621,7 @@ commands(
     ),
     baca.hairpin(
         "niente o< p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([2, 4 + 1]),
         selector=baca.selectors.ltleaves_rleak(),
     ),
@@ -671,7 +671,7 @@ commands(
     ("trio", (30, 31)),
     baca.hairpin(
         "mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -700,7 +700,7 @@ commands(
     ("trio", (38, 40)),
     baca.hairpin(
         "mf -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -729,7 +729,7 @@ commands(
     ("trio", (42, 45)),
     baca.hairpin(
         "f -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -861,7 +861,7 @@ commands(
     ),
     baca.hairpin(
         "mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.ltleaves_rleak(),
     ),
     baca.new(
@@ -939,7 +939,7 @@ commands(
     (["v1", "va", "vc"], (33, 34)),
     baca.hairpin(
         "pp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -977,7 +977,7 @@ commands(
     (["v1", "va", "vc"], (53, 54)),
     baca.hairpin(
         "pp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -1055,7 +1055,7 @@ commands(
     ("tutti", (36, 37)),
     baca.hairpin(
         "niente o< mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([1, 1 + 1]),
         selector=baca.selectors.rleaves(),
     ),

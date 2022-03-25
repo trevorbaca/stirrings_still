@@ -159,7 +159,7 @@ commands(
     ("v1", 29),
     baca.hairpin(
         "mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.make_repeat_tied_notes(),
@@ -232,7 +232,7 @@ commands(
     ("trio", (6, 8)),
     baca.hairpin(
         "(fff) >o niente",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -359,7 +359,7 @@ commands(
     ("v2", 29),
     baca.hairpin(
         "mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.markup(
@@ -508,7 +508,7 @@ commands(
     ("va", 29),
     baca.hairpin(
         "mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.make_repeat_tied_notes(),
@@ -674,7 +674,7 @@ commands(
     ("vc", 29),
     baca.hairpin(
         "mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.make_repeat_tied_notes(),

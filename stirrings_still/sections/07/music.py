@@ -118,8 +118,8 @@ commands(
     ),
     baca.hairpin(
         "appena-udibile -- !",
-        abjad.tweak(True).to_barline,
-        abjad.tweak(-0.75).self_alignment_X,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
+        abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -254,7 +254,7 @@ commands(
     (["v1", "va", "vc"], (12, 13)),
     baca.hairpin(
         "pp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -318,7 +318,7 @@ commands(
     ),
     baca.hairpin(
         "mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(

@@ -58,7 +58,7 @@ commands(
     baca.flat_glissando("Eb4"),
     baca.hairpin(
         '"mf" -- !',
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.circles((1, 4)),
@@ -101,7 +101,7 @@ commands(
     baca.flat_glissando("D4"),
     baca.hairpin(
         '"mf" -- !',
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.circles((1, 4)),
@@ -136,7 +136,7 @@ commands(
     baca.flat_glissando("G3"),
     baca.hairpin(
         '"mf" -- !',
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.circles((1, 4)),
@@ -171,7 +171,7 @@ commands(
     baca.flat_glissando("Ab3"),
     baca.hairpin(
         '"mf" -- !',
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.circles((1, 4)),
@@ -182,7 +182,7 @@ commands(
     baca.flat_glissando("Db2"),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
