@@ -455,8 +455,8 @@ commands(
 #     ("trio", (24, 31)),
 #     baca.pitch_annotation_spanner(
 #         "slight independent pitch ascents -|",
-#         abjad.tweak("#magenta").color,
-#         abjad.tweak(3).staff_padding,
+#         abjad.Tweak(r"- \tweak color #magenta"),
+#         abjad.Tweak(r"- \tweak staff-padding 3"),
 #     ),
 # )
 
@@ -1215,7 +1215,7 @@ commands(
     baca.new(
         baca.breathe(
             baca.selectors.leaf(-1),
-            abjad.tweak((-1, 0)).extra_offset,
+            abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
         ),
         library.desynchronization(4, [-1]),
         baca.flat_glissando("C3"),

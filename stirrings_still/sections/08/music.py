@@ -1023,7 +1023,7 @@ commands(
     baca.new(
         baca.breathe(
             baca.selectors.pleaf(-1),
-            abjad.tweak((-1, 0)).extra_offset,
+            abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
         ),
         match=3,
     ),
