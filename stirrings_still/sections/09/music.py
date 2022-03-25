@@ -123,7 +123,7 @@ commands(
     ),
     baca.hairpin(
         "appena-udibile -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.urtext_field(),
@@ -180,7 +180,7 @@ commands(
     baca.flat_glissando("Bqf3"),
     baca.hairpin(
         "mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         measures=(1, 3),
         selector=baca.selectors.ltleaves_rleak(),
     ),

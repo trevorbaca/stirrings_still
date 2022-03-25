@@ -201,7 +201,7 @@ commands(
     (["v1", "v2"], (86, 92)),
     baca.hairpin(
         "(p) < mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([3, 4 + 1]),
         selector=baca.selectors.rleaves(),
     ),
@@ -301,7 +301,7 @@ commands(
     ("trio", 65),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.tasto_spanner(
@@ -319,7 +319,7 @@ commands(
     ),
     baca.hairpin(
         "mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.ltleaves_rleak(),
     ),
     baca.new(
@@ -360,7 +360,7 @@ commands(
     ("trio", 67),
     baca.dynamic(
         "p-sempre",
-        abjad.tweak(-0.75).self_alignment_X,
+        abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
     library.urtext_field(),
 )
@@ -398,7 +398,7 @@ commands(
     ("trio", (94, 96)),
     baca.hairpin(
         "mp >o",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         bookend=False,
         selector=baca.selectors.rleaves(),
     ),
@@ -423,7 +423,7 @@ commands(
     ),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -852,8 +852,8 @@ commands(
     ("va", (49, 53)),
     baca.dynamic(
         '"mf"',
-        abjad.tweak((-2, 0)).extra_offset,
-        abjad.tweak((0, 0)).X_extent,
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
     ),
     library.tailpiece(
         abjad.tweak(1.5).bound_details__right__padding,
@@ -864,7 +864,7 @@ commands(
     ("va", 57),
     baca.hairpin(
         "pp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.make_repeat_tied_notes(),
@@ -904,7 +904,7 @@ commands(
     ("va", (90, 93)),
     baca.dynamic(
         '"mf"',
-        abjad.tweak(-0.75).self_alignment_X,
+        abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
     library.tailpiece(
         abjad.tweak(0).bound_details__right__Y,
@@ -934,7 +934,7 @@ commands(
     baca.flat_glissando("A5"),
     baca.hairpin(
         '"f" -- !',
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
@@ -962,7 +962,7 @@ commands(
     baca.flat_glissando("E2"),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
@@ -1000,7 +1000,7 @@ commands(
     ),
     baca.hairpin(
         "(p) < fff -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         measures=(86, 92),
         pieces=baca.selectors.mgroups([3, 4 + 1]),
         selector=baca.selectors.rleaves(),

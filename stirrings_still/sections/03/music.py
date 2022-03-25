@@ -160,7 +160,7 @@ commands(
     baca.flat_glissando("<F#4 Dqf5>"),
     baca.hairpin(
         "pp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.markup(
@@ -231,8 +231,8 @@ commands(
     baca.breathe(),
     baca.hairpin(
         "appena-udibile -- !",
-        abjad.tweak(abjad.LEFT).self_alignment_X,
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak self-alignment-X #left"),
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -279,7 +279,7 @@ commands(
     baca.flat_glissando("G4"),
     baca.hairpin(
         '"ff" -- !',
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -311,7 +311,7 @@ commands(
     ),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -343,7 +343,7 @@ commands(
     ("tutti", (12, 15)),
     baca.dynamic(
         "p-ancora",
-        abjad.tweak(-0.75).self_alignment_X,
+        abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
     baca.new(
         library.desynchronization(4, [1], rests=True),
@@ -559,7 +559,7 @@ commands(
     baca.breathe(),
     baca.hairpin(
         '"ff" -- !',
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.rleak(baca.lleak(abjad.select.leaves(_))),
     ),
     baca.new(
@@ -588,7 +588,7 @@ commands(
     ),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -631,7 +631,7 @@ commands(
     ("tutti", (71, 76)),
     baca.hairpin(
         "f >o niente",
-        abjad.tweak((0, 3.5)).shorten_pair,
+        abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -709,7 +709,7 @@ commands(
     ),
     baca.hairpin(
         "mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
@@ -774,7 +774,7 @@ commands(
     baca.flat_glissando("<B2 Aqs3>"),
     baca.hairpin(
         "pp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.markup(
@@ -869,7 +869,7 @@ commands(
     baca.flat_glissando("E2"),
     baca.hairpin(
         "pp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.clouded_pane(),
@@ -882,7 +882,7 @@ commands(
     baca.flat_glissando("E2", allow_repitch=True),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.clouded_pane(),

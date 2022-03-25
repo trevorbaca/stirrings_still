@@ -207,7 +207,7 @@ commands(
     ),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.desynchronization(4, [2]),
@@ -281,7 +281,7 @@ commands(
     ("v1", (79, 80)),
     baca.hairpin(
         "o< mf -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([1, 1 + 1]),
         selector=baca.selectors.rleaves(),
     ),
@@ -321,7 +321,7 @@ commands(
     ),
     baca.hairpin(
         "p-ancora -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.desynchronization(4, [2]),
@@ -370,7 +370,7 @@ commands(
     ),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.tasto_spanner(
@@ -604,8 +604,8 @@ commands(
     baca.hairpin(
         "p -- !",
         # terminate at double bar:
-        abjad.tweak((0, 3.5)).shorten_pair,
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -821,7 +821,7 @@ commands(
     ),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.desynchronization(4, [1]),
@@ -876,7 +876,7 @@ commands(
     ("v2", (78, 80)),
     baca.hairpin(
         "o< mf -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([2, 1 + 1]),
         selector=baca.selectors.rleaves(),
     ),
@@ -916,7 +916,7 @@ commands(
     ),
     baca.hairpin(
         "p-ancora -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.desynchronization(4, [1]),
@@ -1067,7 +1067,7 @@ commands(
     ("va", (77, 80)),
     baca.hairpin(
         "o< mf -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([3, 1 + 1]),
         selector=baca.selectors.rleaves(),
     ),
@@ -1115,7 +1115,7 @@ commands(
     ),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -1203,7 +1203,7 @@ commands(
     ),
     baca.hairpin(
         "p-ancora -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -1332,7 +1332,7 @@ commands(
     ("vc", (20, 27)),
     baca.hairpin(
         "p < fff-poco-scratch -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([4, 4 + 1]),
         selector=baca.selectors.rleaves(),
     ),

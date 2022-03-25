@@ -397,7 +397,7 @@ commands(
     ("v1", (73, 92)),
     baca.dynamic(
         "ppp",
-        abjad.tweak(-0.75).self_alignment_X,
+        abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
     baca.half_clt_spanner(
         abjad.Tweak(r"- \tweak staff-padding 14"),
@@ -428,7 +428,7 @@ commands(
     ("tutti", 1),
     baca.hairpin(
         "mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.make_repeat_tied_notes(),
@@ -621,7 +621,7 @@ commands(
     ),
     baca.dynamic(
         "p",
-        abjad.tweak(-0.75).self_alignment_X,
+        abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
     library.desynchronization(4, [1]),
 )
@@ -690,7 +690,7 @@ commands(
     ("v2", (73, 92)),
     baca.dynamic(
         "ppp",
-        abjad.tweak(-0.75).self_alignment_X,
+        abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
@@ -943,7 +943,7 @@ commands(
     ),
     baca.dynamic(
         "p",
-        abjad.tweak(-0.75).self_alignment_X,
+        abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
     library.desynchronization(4, [0]),
 )
@@ -1032,7 +1032,7 @@ commands(
     ("va", (73, 92)),
     baca.dynamic(
         "pp-sempre",
-        abjad.tweak(-0.75).self_alignment_X,
+        abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
     baca.make_repeat_tied_notes(),
     baca.flat_glissando(
@@ -1293,7 +1293,7 @@ commands(
     ),
     baca.dynamic(
         "p",
-        abjad.tweak(-0.75).self_alignment_X,
+        abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
     library.desynchronization(4, [-1]),
 )
@@ -1391,7 +1391,7 @@ commands(
     ("vc", (73, 88)),
     baca.dynamic(
         "pp-sempre",
-        abjad.tweak(-0.75).self_alignment_X,
+        abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
     baca.flat_glissando(
         "Bb1",

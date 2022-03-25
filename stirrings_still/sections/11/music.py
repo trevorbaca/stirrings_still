@@ -220,7 +220,7 @@ commands(
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.hairpin(
         '"ff" -- !',
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.markup(
@@ -389,7 +389,7 @@ commands(
     ("tutti", (1, 2)),
     baca.hairpin(
         "pp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -398,7 +398,7 @@ commands(
     ("tutti", (3, 4)),
     baca.hairpin(
         '"f" -- !',
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -571,7 +571,7 @@ commands(
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.hairpin(
         '"ff" -- !',
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.markup(
@@ -768,8 +768,8 @@ commands(
     ("va", (5, 11)),
     baca.dynamic(
         '"mf"',
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-3, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-3 . 0)"),
     ),
     library.tailpiece(
         abjad.tweak(0).bound_details__right__Y,
@@ -841,7 +841,7 @@ commands(
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.hairpin(
         '"ff" -- !',
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.markup(
@@ -970,7 +970,7 @@ commands(
     ("va", (43, 45)),
     baca.hairpin(
         '"mf" -- !',
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(

@@ -104,7 +104,7 @@ commands(
     ),
     baca.hairpin(
         "appena-udibile -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     library.urtext_field(),
@@ -134,7 +134,7 @@ commands(
     ("trio", (12, 17)),
     baca.hairpin(
         '"fff" > pp -- !',
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([2, 4 + 1]),
         selector=baca.selectors.rleaves(),
     ),
@@ -181,7 +181,7 @@ commands(
     (["v1", "va", "vc"], (3, 4)),
     baca.hairpin(
         "pp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
@@ -274,7 +274,7 @@ commands(
     ),
     baca.hairpin(
         "mp -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(

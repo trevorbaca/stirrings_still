@@ -103,7 +103,7 @@ commands(
     baca.staff_lines(1),
     baca.dynamic(
         '"mf"',
-        abjad.tweak(-0.75).self_alignment_X,
+        abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
     library.tailpiece(
         abjad.tweak(2).bound_details__right__padding,
@@ -164,7 +164,7 @@ commands(
     ),
     baca.hairpin(
         "p -- !",
-        abjad.tweak(True).to_barline,
+        abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=baca.selectors.rleaves(),
     ),
     baca.new(
