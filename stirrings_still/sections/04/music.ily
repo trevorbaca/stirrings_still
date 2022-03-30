@@ -22307,7 +22307,12 @@ segment.04.Cello.Music.Voice = {
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
-    <> \bacaStopTextSpanRhythmAnnotation
+    <>
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(4)
+    %! SPANNER_STOP
+    \bacaStopTextSpanRhythmAnnotation
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 58]
