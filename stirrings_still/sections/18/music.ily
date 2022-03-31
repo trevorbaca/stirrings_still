@@ -990,21 +990,6 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.half_clt_spanner()
         %! HALF_CLT_SPANNER
         %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-        %! baca.half_clt_spanner()
-        %! HALF_CLT_SPANNER
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        - \baca-text-spanner-left-text "½ clt"
-        %! baca.half_clt_spanner()
-        %! HALF_CLT_SPANNER
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-        %! baca.half_clt_spanner()
-        %! HALF_CLT_SPANNER
-        %! baca.PiecewiseCommand._call(2)
         %! AUTODETECT
         %! SPANNER_START
         %! baca.half_clt_spanner()
@@ -1021,7 +1006,26 @@ segment.18.Violin.I.Music.Voice = {
         %! HALF_CLT_SPANNER
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+        %! baca.half_clt_spanner()
+        %! HALF_CLT_SPANNER
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \baca-text-spanner-left-text "½ clt"
+        %! baca.half_clt_spanner()
+        %! HALF_CLT_SPANNER
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
+        %! baca.half_clt_spanner()
+        %! HALF_CLT_SPANNER
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
         \bacaStartTextSpanHalfCLT
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1030,10 +1034,6 @@ segment.18.Violin.I.Music.Voice = {
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #7 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1079,15 +1079,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1113,15 +1113,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #7 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1147,15 +1147,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1177,15 +1177,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #4 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1199,15 +1199,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #5 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1221,15 +1221,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #6 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1255,15 +1255,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #7 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1298,15 +1298,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #6 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1333,15 +1333,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #7 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1367,15 +1367,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #4
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1401,15 +1401,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #2 #4
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1424,15 +1424,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #4
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1459,15 +1459,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1487,15 +1487,15 @@ segment.18.Violin.I.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 8
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #4 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 8
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -1510,15 +1510,15 @@ segment.18.Violin.I.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 8
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #5 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 8
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -1533,15 +1533,15 @@ segment.18.Violin.I.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 8
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #6 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 8
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -1567,15 +1567,15 @@ segment.18.Violin.I.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 8
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #7 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 8
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -1601,15 +1601,15 @@ segment.18.Violin.I.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 8
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #6 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 8
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -1684,15 +1684,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #7 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1718,15 +1718,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1753,15 +1753,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #7 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1787,15 +1787,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1821,15 +1821,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #7 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1856,15 +1856,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1879,15 +1879,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #4 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1911,15 +1911,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #5 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1934,15 +1934,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #6 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -1968,15 +1968,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #7 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -2003,15 +2003,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #6 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -2047,15 +2047,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #7 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -2082,15 +2082,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #4
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -2116,15 +2116,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #2 #4
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -2139,15 +2139,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #4
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -2173,15 +2173,15 @@ segment.18.Violin.I.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 8
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 8
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -2199,15 +2199,15 @@ segment.18.Violin.I.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 8
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #4 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 8
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -2221,15 +2221,15 @@ segment.18.Violin.I.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 8
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #5 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 8
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -2243,6 +2243,10 @@ segment.18.Violin.I.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 8
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
@@ -2252,10 +2256,6 @@ segment.18.Violin.I.Music.Voice = {
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-right-text #7 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 8
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -2672,21 +2672,6 @@ segment.18.Violin.II.Music.Voice = {
     %! baca.half_clt_spanner()
     %! HALF_CLT_SPANNER
     %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-    %! baca.half_clt_spanner()
-    %! HALF_CLT_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \baca-text-spanner-left-text "½ clt"
-    %! baca.half_clt_spanner()
-    %! HALF_CLT_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-    %! baca.half_clt_spanner()
-    %! HALF_CLT_SPANNER
-    %! baca.PiecewiseCommand._call(2)
     %! AUTODETECT
     %! SPANNER_START
     %! baca.half_clt_spanner()
@@ -2703,7 +2688,26 @@ segment.18.Violin.II.Music.Voice = {
     %! HALF_CLT_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.half_clt_spanner()
+    %! HALF_CLT_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "½ clt"
+    %! baca.half_clt_spanner()
+    %! HALF_CLT_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
+    %! baca.half_clt_spanner()
+    %! HALF_CLT_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
     \bacaStartTextSpanHalfCLT
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 4.5
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -2712,10 +2716,6 @@ segment.18.Violin.II.Music.Voice = {
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #1 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 4.5
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -2761,15 +2761,15 @@ segment.18.Violin.II.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 4.5
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #7 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 4.5
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -2796,15 +2796,15 @@ segment.18.Violin.II.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 4.5
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #1 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 4.5
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -2818,15 +2818,15 @@ segment.18.Violin.II.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 4.5
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #4 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 4.5
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -2841,15 +2841,15 @@ segment.18.Violin.II.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 4.5
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #5 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 4.5
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -2871,15 +2871,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #6 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -2905,15 +2905,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #7 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -2948,15 +2948,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #6 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -2983,15 +2983,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #7 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3017,15 +3017,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #4
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3051,15 +3051,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #2 #4
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3074,15 +3074,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #4
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3109,15 +3109,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3141,15 +3141,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #4 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3164,15 +3164,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #5 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3187,15 +3187,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #6 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3221,15 +3221,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #7 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3255,15 +3255,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #6 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3334,15 +3334,15 @@ segment.18.Violin.II.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 4.5
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #7 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 4.5
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -3368,15 +3368,15 @@ segment.18.Violin.II.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 4.5
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #1 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 4.5
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -3403,15 +3403,15 @@ segment.18.Violin.II.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 4.5
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #7 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 4.5
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -3437,15 +3437,15 @@ segment.18.Violin.II.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 4.5
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #1 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 4.5
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -3471,15 +3471,15 @@ segment.18.Violin.II.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 4.5
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #7 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 4.5
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -3505,15 +3505,15 @@ segment.18.Violin.II.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 4.5
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #1 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 4.5
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -3527,15 +3527,15 @@ segment.18.Violin.II.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 4.5
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #4 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 4.5
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -3549,15 +3549,15 @@ segment.18.Violin.II.Music.Voice = {
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 4.5
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
     - \abjad-solid-line-with-arrow
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #5 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 4.5
     %! baca.bcps()
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(2)
@@ -3580,15 +3580,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #6 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3614,15 +3614,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #7 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3649,15 +3649,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #6 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3693,15 +3693,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #7 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3728,15 +3728,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #4
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3762,15 +3762,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #2 #4
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3785,15 +3785,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #4
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3819,15 +3819,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3849,15 +3849,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #4 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3871,15 +3871,15 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #5 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
@@ -3893,6 +3893,10 @@ segment.18.Violin.II.Music.Voice = {
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
+        - \tweak staff-padding 4.5
+        %! baca.bcps()
+        %! stirrings_still.bcps()
+        %! baca.BCPCommand._call(2)
         - \abjad-solid-line-with-arrow
         %! baca.bcps()
         %! stirrings_still.bcps()
@@ -3902,10 +3906,6 @@ segment.18.Violin.II.Music.Voice = {
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
         - \baca-bcp-spanner-right-text #7 #7
-        %! baca.bcps()
-        %! stirrings_still.bcps()
-        %! baca.BCPCommand._call(2)
-        - \tweak staff-padding 4.5
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(2)
