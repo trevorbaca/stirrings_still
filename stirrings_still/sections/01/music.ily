@@ -6647,16 +6647,6 @@ segment.01.Violin.I.Music.Voice = {
         %! baca.circle_bow_spanner()
         %! CIRCLE_BOW_SPANNER
         %! baca.PiecewiseCommand._call(2)
-        %! AUTODETECT
-        %! SPANNER_START
-        %! baca.circle_bow_spanner()
-        %! CIRCLE_BOW_SPANNER
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-        %! baca.circle_bow_spanner()
-        %! CIRCLE_BOW_SPANNER
-        %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         - \tweak bound-details.right.padding 3.25
         %! baca.circle_bow_spanner()
@@ -7283,16 +7273,6 @@ segment.01.Violin.I.Music.Voice = {
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
-        %! baca.circle_bow_spanner()
-        %! CIRCLE_BOW_SPANNER
-        %! baca.PiecewiseCommand._call(2)
-        %! AUTODETECT
-        %! SPANNER_START
-        %! baca.circle_bow_spanner()
-        %! CIRCLE_BOW_SPANNER
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
         %! baca.circle_bow_spanner()
         %! CIRCLE_BOW_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -12611,16 +12591,6 @@ segment.01.Violin.II.Music.Voice = {
     %! baca.circle_bow_spanner()
     %! CIRCLE_BOW_SPANNER
     %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
-    %! baca.circle_bow_spanner()
-    %! CIRCLE_BOW_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-    %! baca.circle_bow_spanner()
-    %! CIRCLE_BOW_SPANNER
-    %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     - \tweak bound-details.right.padding 3.25
     %! baca.circle_bow_spanner()
@@ -13237,16 +13207,6 @@ segment.01.Violin.II.Music.Voice = {
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
-    %! baca.circle_bow_spanner()
-    %! CIRCLE_BOW_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
-    %! baca.circle_bow_spanner()
-    %! CIRCLE_BOW_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
     %! baca.circle_bow_spanner()
     %! CIRCLE_BOW_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -18407,16 +18367,6 @@ segment.01.Viola.Music.Voice = {
         %! baca.circle_bow_spanner()
         %! CIRCLE_BOW_SPANNER
         %! baca.PiecewiseCommand._call(2)
-        %! AUTODETECT
-        %! SPANNER_START
-        %! baca.circle_bow_spanner()
-        %! CIRCLE_BOW_SPANNER
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-        %! baca.circle_bow_spanner()
-        %! CIRCLE_BOW_SPANNER
-        %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         - \tweak bound-details.right.padding 3.25
         %! baca.circle_bow_spanner()
@@ -19031,16 +18981,6 @@ segment.01.Viola.Music.Voice = {
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
         \bacaStopTextSpanMaterialAnnotation
-        %! baca.circle_bow_spanner()
-        %! CIRCLE_BOW_SPANNER
-        %! baca.PiecewiseCommand._call(2)
-        %! AUTODETECT
-        %! SPANNER_START
-        %! baca.circle_bow_spanner()
-        %! CIRCLE_BOW_SPANNER
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
         %! baca.circle_bow_spanner()
         %! CIRCLE_BOW_SPANNER
         %! baca.PiecewiseCommand._call(2)
