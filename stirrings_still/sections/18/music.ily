@@ -1636,6 +1636,7 @@ segment.18.Violin.I.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
+        [
         %! EXPLICIT_DYNAMIC_COLOR
         %! baca.treat_persistent_wrapper()
         %! baca.hairpin()
@@ -1662,7 +1663,6 @@ segment.18.Violin.I.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \>
-        [
 
         a'''8
         %! baca.bcps()
@@ -3300,6 +3300,27 @@ segment.18.Violin.II.Music.Voice = {
     %! stirrings_still.bcps()
     %! baca.BCPCommand._call(7)
     - \upbow
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(3)
+    \bacaStopTextSpanBCP
+    [
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
+    - \tweak staff-padding 4.5
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
+    - \abjad-solid-line-with-arrow
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
+    - \baca-bcp-spanner-left-text #7 #7
+    %! baca.bcps()
+    %! stirrings_still.bcps()
+    %! baca.BCPCommand._call(2)
+    \bacaStartTextSpanBCP
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -3326,27 +3347,6 @@ segment.18.Violin.II.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(3)
-    \bacaStopTextSpanBCP
-    [
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \tweak staff-padding 4.5
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \abjad-solid-line-with-arrow
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    - \baca-bcp-spanner-left-text #7 #7
-    %! baca.bcps()
-    %! stirrings_still.bcps()
-    %! baca.BCPCommand._call(2)
-    \bacaStartTextSpanBCP
 
     af''!8
     %! baca.bcps()
