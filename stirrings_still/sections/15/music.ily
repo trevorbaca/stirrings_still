@@ -485,6 +485,11 @@ segment.15.Violin.I.Music.Voice = {
     %! EXPLICIT_BAR_EXTENT
     %! baca._reanalyze_reapplied_synthetic_wrappers()
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
@@ -500,11 +505,6 @@ segment.15.Violin.I.Music.Voice = {
     %! EXPLICIT_STAFF_LINES
     %! baca._reanalyze_reapplied_synthetic_wrappers()
     \startStaff
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \stirrings-still-vn-i-markup
     %! baca.dls_staff_padding()
@@ -555,6 +555,35 @@ segment.15.Violin.I.Music.Voice = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
+    %! baca.glissando()
+    %! abjad.glissando(7)
+    \glissando
+    %! EXPLICIT_DYNAMIC_COLOR
+    %! baca.treat_persistent_wrapper()
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    - \tweak color #(x11-color 'blue)
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    - \tweak to-barline ##t
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    - \tweak stencil #constante-hairpin
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    \<
     %! baca.circle_bow_spanner()
     %! CIRCLE_BOW_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -590,35 +619,6 @@ segment.15.Violin.I.Music.Voice = {
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     \bacaStartTextSpanCircleBow
-    %! baca.glissando()
-    %! abjad.glissando(7)
-    \glissando
-    %! EXPLICIT_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak stencil #constante-hairpin
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    \<
     %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -716,10 +716,6 @@ segment.15.Violin.I.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_I_Music_Voice measure 7]
         aqs'!4
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(3)
-        %! SPANNER_STOP
-        \!
         %! EXPLICIT_DYNAMIC_COLOR
         %! baca.treat_persistent_wrapper()
         %! baca.hairpin()
@@ -734,6 +730,10 @@ segment.15.Violin.I.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \mf
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(3)
+        %! SPANNER_STOP
+        \!
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         - \tweak padding 1.5
@@ -745,6 +745,35 @@ segment.15.Violin.I.Music.Voice = {
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
         \bacaStopTextSpanCircleBow
+        %! baca.glissando()
+        %! abjad.glissando(7)
+        \glissando
+        %! EXPLICIT_DYNAMIC_COLOR
+        %! baca.treat_persistent_wrapper()
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        %! baca._set_status_tag()
+        %! EXPLICIT_DYNAMIC
+        - \tweak color #(x11-color 'blue)
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        %! baca._set_status_tag()
+        %! EXPLICIT_DYNAMIC
+        - \tweak to-barline ##t
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        %! baca._set_status_tag()
+        %! EXPLICIT_DYNAMIC
+        - \tweak circled-tip ##t
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        %! baca._set_status_tag()
+        %! EXPLICIT_DYNAMIC
+        \>
         %! baca.circle_bow_spanner()
         %! CIRCLE_BOW_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -780,35 +809,6 @@ segment.15.Violin.I.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanCircleBow
-        %! baca.glissando()
-        %! abjad.glissando(7)
-        \glissando
-        %! EXPLICIT_DYNAMIC_COLOR
-        %! baca.treat_persistent_wrapper()
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak to-barline ##t
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak circled-tip ##t
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        \>
 
         %! baca.glissando()
         %! abjad.glissando(1)
@@ -1067,6 +1067,11 @@ segment.15.Violin.II.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 1]
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
@@ -1082,11 +1087,6 @@ segment.15.Violin.II.Music.Voice = {
     %! EXPLICIT_STAFF_LINES
     %! baca._reanalyze_reapplied_synthetic_wrappers()
     \startStaff
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \stirrings-still-vn-ii-markup
     %! baca.dls_staff_padding()
@@ -1137,6 +1137,35 @@ segment.15.Violin.II.Music.Voice = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
+    %! baca.glissando()
+    %! abjad.glissando(7)
+    \glissando
+    %! EXPLICIT_DYNAMIC_COLOR
+    %! baca.treat_persistent_wrapper()
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    - \tweak color #(x11-color 'blue)
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    - \tweak to-barline ##t
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    - \tweak stencil #constante-hairpin
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    \<
     %! baca.circle_bow_spanner()
     %! CIRCLE_BOW_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -1172,35 +1201,6 @@ segment.15.Violin.II.Music.Voice = {
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     \bacaStartTextSpanCircleBow
-    %! baca.glissando()
-    %! abjad.glissando(7)
-    \glissando
-    %! EXPLICIT_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak stencil #constante-hairpin
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    \<
     %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1298,10 +1298,6 @@ segment.15.Violin.II.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_II_Music_Voice measure 7]
         ef'!4
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(3)
-        %! SPANNER_STOP
-        \!
         %! EXPLICIT_DYNAMIC_COLOR
         %! baca.treat_persistent_wrapper()
         %! baca.hairpin()
@@ -1316,6 +1312,10 @@ segment.15.Violin.II.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \mf
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(3)
+        %! SPANNER_STOP
+        \!
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         - \tweak padding 1.5
@@ -1327,6 +1327,35 @@ segment.15.Violin.II.Music.Voice = {
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
         \bacaStopTextSpanCircleBow
+        %! baca.glissando()
+        %! abjad.glissando(7)
+        \glissando
+        %! EXPLICIT_DYNAMIC_COLOR
+        %! baca.treat_persistent_wrapper()
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        %! baca._set_status_tag()
+        %! EXPLICIT_DYNAMIC
+        - \tweak color #(x11-color 'blue)
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        %! baca._set_status_tag()
+        %! EXPLICIT_DYNAMIC
+        - \tweak to-barline ##t
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        %! baca._set_status_tag()
+        %! EXPLICIT_DYNAMIC
+        - \tweak circled-tip ##t
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        %! baca._set_status_tag()
+        %! EXPLICIT_DYNAMIC
+        \>
         %! baca.circle_bow_spanner()
         %! CIRCLE_BOW_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -1362,35 +1391,6 @@ segment.15.Violin.II.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanCircleBow
-        %! baca.glissando()
-        %! abjad.glissando(7)
-        \glissando
-        %! EXPLICIT_DYNAMIC_COLOR
-        %! baca.treat_persistent_wrapper()
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak to-barline ##t
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak circled-tip ##t
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        \>
 
         %! baca.glissando()
         %! abjad.glissando(1)
@@ -1626,6 +1626,11 @@ segment.15.Viola.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 1]
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \stirrings-still-va-markup
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
@@ -1641,11 +1646,6 @@ segment.15.Viola.Music.Voice = {
     %! EXPLICIT_STAFF_LINES
     %! baca._reanalyze_reapplied_synthetic_wrappers()
     \startStaff
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \stirrings-still-va-markup
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \stirrings-still-va-markup
     %! baca.dls_staff_padding()
@@ -1696,6 +1696,35 @@ segment.15.Viola.Music.Voice = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Va.”]"
+    %! baca.glissando()
+    %! abjad.glissando(7)
+    \glissando
+    %! EXPLICIT_DYNAMIC_COLOR
+    %! baca.treat_persistent_wrapper()
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    - \tweak color #(x11-color 'blue)
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    - \tweak to-barline ##t
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    - \tweak stencil #constante-hairpin
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    \<
     %! baca.circle_bow_spanner()
     %! CIRCLE_BOW_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -1731,35 +1760,6 @@ segment.15.Viola.Music.Voice = {
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     \bacaStartTextSpanCircleBow
-    %! baca.glissando()
-    %! abjad.glissando(7)
-    \glissando
-    %! EXPLICIT_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak stencil #constante-hairpin
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    \<
     %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1854,10 +1854,6 @@ segment.15.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 7]
     bqf!4
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(3)
-    %! SPANNER_STOP
-    \!
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -1872,6 +1868,10 @@ segment.15.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mf
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(3)
+    %! SPANNER_STOP
+    \!
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     - \tweak padding 1.5
@@ -1883,6 +1883,35 @@ segment.15.Viola.Music.Voice = {
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
+    %! baca.glissando()
+    %! abjad.glissando(7)
+    \glissando
+    %! EXPLICIT_DYNAMIC_COLOR
+    %! baca.treat_persistent_wrapper()
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    - \tweak color #(x11-color 'blue)
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    - \tweak to-barline ##t
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    - \tweak circled-tip ##t
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    \>
     %! baca.circle_bow_spanner()
     %! CIRCLE_BOW_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -1918,35 +1947,6 @@ segment.15.Viola.Music.Voice = {
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     \bacaStartTextSpanCircleBow
-    %! baca.glissando()
-    %! abjad.glissando(7)
-    \glissando
-    %! EXPLICIT_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak circled-tip ##t
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    \>
 
     %! baca.glissando()
     %! abjad.glissando(1)
@@ -2183,6 +2183,11 @@ segment.15.Cello.Music.Voice = {
     %! EXPLICIT_BAR_EXTENT
     %! baca._reanalyze_reapplied_synthetic_wrappers()
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \stirrings-still-vc-markup
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
@@ -2198,11 +2203,6 @@ segment.15.Cello.Music.Voice = {
     %! EXPLICIT_STAFF_LINES
     %! baca._reanalyze_reapplied_synthetic_wrappers()
     \startStaff
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \stirrings-still-vc-markup
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \stirrings-still-vc-markup
     %! baca.dls_staff_padding()
@@ -2253,6 +2253,35 @@ segment.15.Cello.Music.Voice = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"
+    %! baca.glissando()
+    %! abjad.glissando(7)
+    \glissando
+    %! EXPLICIT_DYNAMIC_COLOR
+    %! baca.treat_persistent_wrapper()
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    - \tweak color #(x11-color 'blue)
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    - \tweak to-barline ##t
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    - \tweak stencil #constante-hairpin
+    %! baca.hairpin()
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    %! baca._set_status_tag()
+    %! EXPLICIT_DYNAMIC
+    \<
     %! baca.circle_bow_spanner()
     %! CIRCLE_BOW_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -2288,35 +2317,6 @@ segment.15.Cello.Music.Voice = {
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     \bacaStartTextSpanCircleBow
-    %! baca.glissando()
-    %! abjad.glissando(7)
-    \glissando
-    %! EXPLICIT_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak to-barline ##t
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak stencil #constante-hairpin
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    \<
     %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -2418,10 +2418,6 @@ segment.15.Cello.Music.Voice = {
         %! baca.OverrideCommand._call(1)
         \override TupletBracket.direction = #down
         df,!8
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(3)
-        %! SPANNER_STOP
-        \!
         %! EXPLICIT_DYNAMIC_COLOR
         %! baca.treat_persistent_wrapper()
         %! baca.hairpin()
@@ -2436,6 +2432,10 @@ segment.15.Cello.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \p
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(3)
+        %! SPANNER_STOP
+        \!
         %! baca.bcps()
         %! stirrings_still.bcps()
         %! baca.BCPCommand._call(5)
