@@ -7169,6 +7169,10 @@ segment.14.Violin.II.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \p
+    %! baca.beam()
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    [
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! MATERIAL
@@ -7218,10 +7222,6 @@ segment.14.Violin.II.Music.Voice = {
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-    %! baca.beam()
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    [
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -10114,6 +10114,10 @@ segment.14.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \p
+    %! baca.beam()
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    [
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! MATERIAL
@@ -10163,10 +10167,6 @@ segment.14.Viola.Music.Voice = {
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-    %! baca.beam()
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    [
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando

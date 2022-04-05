@@ -6359,6 +6359,10 @@ segment.08.Violin.I.Music.Voice = {
     %! baca.PiecewiseCommand._call(4)
     %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
+    %! baca.beam()
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    [
     %! baca.circle_bow_spanner()
     %! CIRCLE_BOW_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -6420,10 +6424,6 @@ segment.08.Violin.I.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! baca.beam()
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    [
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando

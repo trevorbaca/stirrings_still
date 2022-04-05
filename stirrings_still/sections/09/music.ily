@@ -753,6 +753,10 @@ segment.09.Violin.I.Music.Voice = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
+    %! baca.beam()
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    [
     %! REAPPLIED_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca._reapply_persistent_indicators(3)
@@ -767,10 +771,6 @@ segment.09.Violin.I.Music.Voice = {
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \<
-    %! baca.beam()
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    [
     %! baca.circle_bow_spanner()
     %! CIRCLE_BOW_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -2798,6 +2798,10 @@ segment.09.Cello.Music.Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     _ \baca-string-iii-markup
+    %! baca.beam()
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    [
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -2847,10 +2851,6 @@ segment.09.Cello.Music.Voice = {
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     \bacaStartTextSpanHalfCLT
-    %! baca.beam()
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    [
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
