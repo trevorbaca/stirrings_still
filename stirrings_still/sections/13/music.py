@@ -129,7 +129,9 @@ commands(
     library.pickets(
         4,
         2,
-        rmakers.force_note(baca.selectors.tuplet(0)),
+        rmakers.force_note(
+            lambda _: baca.select.tuplet(_, 0),
+        ),
         rmakers.tie(
             lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
         ),
@@ -146,7 +148,9 @@ commands(
     library.pickets(
         4,
         2,
-        rmakers.force_note(baca.selectors.tuplet(0)),
+        rmakers.force_note(
+            lambda _: baca.select.tuplet(_, 0),
+        ),
         rmakers.tie(
             lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
         ),
@@ -329,7 +333,9 @@ commands(
     library.pickets(
         4,
         1,
-        rmakers.force_note(baca.selectors.tuplet(0)),
+        rmakers.force_note(
+            lambda _: baca.select.tuplet(_, 0),
+        ),
         rmakers.tie(
             lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
         ),
@@ -346,7 +352,9 @@ commands(
     library.pickets(
         4,
         1,
-        rmakers.force_note(baca.selectors.tuplet(0)),
+        rmakers.force_note(
+            lambda _: baca.select.tuplet(_, 0),
+        ),
         rmakers.tie(
             lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
         ),
@@ -442,7 +450,9 @@ commands(
     library.pickets(
         4,
         0,
-        rmakers.force_note(baca.selectors.tuplet(0)),
+        rmakers.force_note(
+            lambda _: baca.select.tuplet(_, 0),
+        ),
         rmakers.tie(
             lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
         ),
@@ -459,7 +469,9 @@ commands(
     library.pickets(
         4,
         0,
-        rmakers.force_note(baca.selectors.tuplet(0)),
+        rmakers.force_note(
+            lambda _: baca.select.tuplet(_, 0),
+        ),
         rmakers.tie(
             lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
         ),

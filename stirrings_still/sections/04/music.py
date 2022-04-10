@@ -460,7 +460,7 @@ commands(
         library.strokes(
             0,
             rmakers.force_rest(
-                baca.selectors.tuplets(([0], 2)),
+                lambda _: baca.select.tuplets(_, ([0], 2)),
             ),
         ),
         match=0,
@@ -469,7 +469,7 @@ commands(
         library.strokes(
             -1,
             rmakers.force_rest(
-                baca.selectors.tuplets(([1], 2)),
+                lambda _: baca.select.tuplets(_, ([1], 2)),
             ),
         ),
         match=1,
@@ -478,7 +478,7 @@ commands(
         library.strokes(
             -2,
             rmakers.force_rest(
-                baca.selectors.tuplets(([0, 1], 3)),
+                lambda _: baca.select.tuplets(_, ([0, 1], 3)),
             ),
         ),
         match=2,
@@ -487,7 +487,7 @@ commands(
         library.strokes(
             3,
             rmakers.force_rest(
-                baca.selectors.tuplets(([1, 2], 3)),
+                lambda _: baca.select.tuplets(_, ([1, 2], 3)),
             ),
         ),
         match=3,
@@ -515,7 +515,7 @@ commands(
         library.strokes(
             0,
             rmakers.force_rest(
-                baca.selectors.tuplets(([0], 2)),
+                lambda _: baca.select.tuplets(_, ([0], 2)),
             ),
         ),
         match=0,
@@ -524,7 +524,7 @@ commands(
         library.strokes(
             -1,
             rmakers.force_rest(
-                baca.selectors.tuplets(([1], 2)),
+                lambda _: baca.select.tuplets(_, ([1], 2)),
             ),
         ),
         match=1,
@@ -533,7 +533,7 @@ commands(
         library.strokes(
             -2,
             rmakers.force_rest(
-                baca.selectors.tuplets(([0], 3)),
+                lambda _: baca.select.tuplets(_, ([0], 3)),
             ),
         ),
         match=2,
@@ -542,7 +542,7 @@ commands(
         library.strokes(
             -3,
             rmakers.force_rest(
-                baca.selectors.tuplets(([1, 2], 3)),
+                lambda _: baca.select.tuplets(_, ([1, 2], 3)),
             ),
         ),
         match=3,
@@ -560,7 +560,7 @@ commands(
         library.strokes(
             0,
             rmakers.force_rest(
-                baca.selectors.tuplets(([0], 2)),
+                lambda _: baca.select.tuplets(_, ([0], 2)),
             ),
         ),
         match=0,
@@ -569,7 +569,7 @@ commands(
         library.strokes(
             -1,
             rmakers.force_rest(
-                baca.selectors.tuplets(([1], 2)),
+                lambda _: baca.select.tuplets(_, ([1], 2)),
             ),
         ),
         match=1,
@@ -578,7 +578,7 @@ commands(
         library.strokes(
             -2,
             rmakers.force_rest(
-                baca.selectors.tuplets(([0], 3)),
+                lambda _: baca.select.tuplets(_, ([0], 3)),
             ),
         ),
         match=2,
@@ -587,7 +587,7 @@ commands(
         library.strokes(
             -3,
             rmakers.force_rest(
-                baca.selectors.tuplets(([1], 3)),
+                lambda _: baca.select.tuplets(_, ([1], 3)),
             ),
         ),
         match=3,
@@ -605,7 +605,7 @@ commands(
         library.strokes(
             0,
             rmakers.force_rest(
-                baca.selectors.tuplets(([0], 2)),
+                lambda _: baca.select.tuplets(_, ([0], 2)),
             ),
         ),
         match=0,
@@ -614,7 +614,7 @@ commands(
         library.strokes(
             0,
             rmakers.force_rest(
-                baca.selectors.tuplets(([2], 3)),
+                lambda _: baca.select.tuplets(_, ([2], 3)),
             ),
         ),
         match=1,
@@ -623,7 +623,7 @@ commands(
         library.strokes(
             -2,
             rmakers.force_rest(
-                baca.selectors.tuplets(([0], 3)),
+                lambda _: baca.select.tuplets(_, ([0], 3)),
             ),
         ),
         match=2,
@@ -632,7 +632,7 @@ commands(
         library.strokes(
             -3,
             rmakers.force_rest(
-                baca.selectors.tuplets(([1], 3)),
+                lambda _: baca.select.tuplets(_, ([1], 3)),
             ),
         ),
         match=3,
@@ -650,7 +650,7 @@ commands(
         library.strokes(
             0,
             rmakers.force_rest(
-                baca.selectors.tuplets(([0], 2)),
+                lambda _: baca.select.tuplets(_, ([0], 2)),
             ),
         ),
         match=0,
@@ -659,7 +659,7 @@ commands(
         library.strokes(
             0,
             rmakers.force_rest(
-                baca.selectors.tuplets(([2], 3)),
+                lambda _: baca.select.tuplets(_, ([2], 3)),
             ),
         ),
         match=1,
@@ -668,7 +668,7 @@ commands(
         library.strokes(
             -2,
             rmakers.force_rest(
-                baca.selectors.tuplets(([0], 2)),
+                lambda _: baca.select.tuplets(_, ([0], 2)),
             ),
         ),
         match=2,
@@ -677,7 +677,7 @@ commands(
         library.strokes(
             -2,
             rmakers.force_rest(
-                baca.selectors.tuplets(([2], 3)),
+                lambda _: baca.select.tuplets(_, ([2], 3)),
             ),
         ),
         match=3,
@@ -691,7 +691,7 @@ commands(
         library.strokes(
             0,
             rmakers.force_rest(
-                baca.selectors.tuplets(([0], 2)),
+                lambda _: baca.select.tuplets(_, ([0], 2)),
             ),
         ),
         match=0,
@@ -700,7 +700,7 @@ commands(
         library.strokes(
             0,
             rmakers.force_rest(
-                baca.selectors.tuplets(([2], 3)),
+                lambda _: baca.select.tuplets(_, ([2], 3)),
             ),
         ),
         match=1,
@@ -709,7 +709,7 @@ commands(
         library.strokes(
             0,
             rmakers.force_rest(
-                baca.selectors.tuplets(([1], 2)),
+                lambda _: baca.select.tuplets(_, ([1], 2)),
             ),
         ),
         match=2,
@@ -718,7 +718,7 @@ commands(
         library.strokes(
             0,
             rmakers.force_rest(
-                baca.selectors.tuplets(([0], 3)),
+                lambda _: baca.select.tuplets(_, ([0], 3)),
             ),
         ),
         match=3,
