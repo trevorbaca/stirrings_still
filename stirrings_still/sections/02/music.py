@@ -153,7 +153,7 @@ commands(
     ("v1", (1, 4)),
     library.clockticks(
         rmakers.force_rest(
-            baca.selectors.tuplets(([0], 2)),
+            lambda _: baca.select.tuplets(_, ([0], 2)),
         ),
         displace=True,
     ),
@@ -198,7 +198,9 @@ commands(
         selector=baca.selectors.tleaves(rleak=True),
     ),
     library.clockticks(
-        rmakers.force_rest(baca.selectors.tuplet(-1)),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
     ),
 )
 
@@ -275,7 +277,9 @@ commands(
     ("v1", (18, 24)),
     baca.alternate_bow_strokes(),
     library.clockticks(
-        rmakers.force_rest(baca.selectors.tuplet(-1)),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
     ),
 )
 
@@ -819,7 +823,9 @@ commands(
     ),
     baca.tuplet_number_denominator(),
     library.clockticks(
-        rmakers.force_rest(baca.selectors.tuplet(-1)),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
     ),
 )
 
@@ -1125,7 +1131,9 @@ commands(
     baca.pitch("Eqs5"),
     baca.tuplet_bracket_staff_padding(1),
     library.clockticks(
-        rmakers.force_rest(baca.selectors.tuplet(-1)),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
     ),
 )
 
@@ -1412,7 +1420,9 @@ commands(
     baca.pitch("Dtqs5"),
     baca.tuplet_number_denominator(),
     library.clockticks(
-        rmakers.force_rest(baca.selectors.tuplet(-1)),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
     ),
 )
 
@@ -1454,7 +1464,9 @@ commands(
     baca.flat_glissando("G3"),
     library.circles(
         (1, 4),
-        rmakers.force_rest(baca.selectors.tuplet(-1)),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
     ),
 )
 

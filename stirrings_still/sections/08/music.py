@@ -634,7 +634,9 @@ commands(
         library.pickets(
             4,
             2,
-            rmakers.force_rest(baca.selectors.tuplet(0)),
+            rmakers.force_rest(
+                lambda _: baca.select.tuplet(_, 0),
+            ),
         ),
         match=0,
     ),
@@ -647,7 +649,9 @@ commands(
         library.pickets(
             4,
             1,
-            rmakers.force_rest(baca.selectors.tuplet(0)),
+            rmakers.force_rest(
+                lambda _: baca.select.tuplet(_, 0),
+            ),
         ),
         match=1,
     ),
@@ -660,7 +664,9 @@ commands(
         library.pickets(
             4,
             0,
-            rmakers.force_rest(baca.selectors.tuplet(0)),
+            rmakers.force_rest(
+                lambda _: baca.select.tuplet(_, 0),
+            ),
         ),
         match=2,
     ),
