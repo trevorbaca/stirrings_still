@@ -433,7 +433,7 @@ def circles(
         rmakers.note(),
         *commands,
         rmakers.beam(
-            baca.selectors.plts(),
+            lambda _: baca.select.plts(_),
         ),
         rmakers.rewrite_sustained(),
         rmakers.rewrite_rest_filled(),
@@ -520,7 +520,7 @@ def continuous_tremolo():
         baca.rhythm(
             rmakers.note(),
             rmakers.beam(
-                baca.selectors.plts(),
+                lambda _: baca.select.plts(_),
             ),
             rmakers.tie(
                 lambda _: baca.select.ptails(_)[:-1],
@@ -549,7 +549,7 @@ def declamation(*, measures=None, protract=False):
     note_rhythm_maker = rmakers.stack(
         rmakers.note(),
         rmakers.beam(
-            baca.selectors.plts(),
+            lambda _: baca.select.plts(_),
         ),
         rmakers.tie(
             lambda _: baca.select.ptails(_)[:-1],
@@ -3017,7 +3017,7 @@ def solid_line_rhythm(*, measures=None):
     command = baca.rhythm(
         rmakers.note(spelling=rmakers.Spelling(forbidden_note_duration=(1, 2))),
         rmakers.beam(
-            baca.selectors.plts(),
+            lambda _: baca.select.plts(_),
         ),
         measures=measures,
     )

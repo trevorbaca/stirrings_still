@@ -144,7 +144,7 @@ commands(
         baca.accent(),
         baca.dynamic("sfp"),
         baca.stem_tremolo(selector=baca.selectors.pleaves()),
-        map=baca.selectors.plts(([0], 2)),
+        map=lambda _: abjad.select.get(baca.select.plts(_), [0], 2),
     ),
     baca.suite(
         baca.hairpin(
@@ -155,7 +155,7 @@ commands(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         ),
         baca.flat_glissando("Etqf4"),
-        map=baca.selectors.plts(([1], 2)),
+        map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
     ),
     baca.pitch("Etqf4", allow_repitch=True),
     library.grid_to_trajectory(0, 0, 2),
@@ -472,7 +472,7 @@ commands(
         baca.accent(),
         baca.dynamic("sfp"),
         baca.stem_tremolo(),
-        map=baca.selectors.plts(([0], 2)),
+        map=lambda _: abjad.select.get(baca.select.plts(_), [0], 2),
     ),
     baca.new(
         baca.hairpin(
@@ -482,7 +482,7 @@ commands(
         baca.xfb_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         ),
-        map=baca.selectors.plts(([1], 2)),
+        map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
     ),
     library.measure_initiation(),
 )
@@ -550,7 +550,7 @@ commands(
         "ff > p < ff -- f > p < f --",
         bookend=False,
         final_hairpin=False,
-        pieces=baca.selectors.plts(),
+        pieces=lambda _: baca.select.plts(_),
     ),
     baca.new(
         library.talea_eighths([3, 6, 8], 0, 1, end_counts=[1]),
@@ -568,7 +568,7 @@ commands(
         "P -> T ->",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.plts((None, -1)),
+        pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -594,7 +594,7 @@ commands(
         "P -> T ->",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.plts((None, -1)),
+        pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -619,7 +619,7 @@ commands(
             "P -> T ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
-            pieces=baca.selectors.plts((None, -1)),
+            pieces=lambda _: baca.select.plts(_)[:-1],
         ),
         library.talea_eighths([3, 6, 8], 0, 1),
         match=0,
@@ -640,7 +640,7 @@ commands(
             "P -> T ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
-            pieces=baca.selectors.plts((None, -1)),
+            pieces=lambda _: baca.select.plts(_)[:-1],
         ),
         library.talea_eighths([3, 6, 8], -2, -1),
         match=2,
@@ -676,7 +676,7 @@ commands(
         "P -> T ->",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.plts((None, -1)),
+        pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -757,7 +757,7 @@ commands(
         baca.accent(),
         baca.dynamic("sfp"),
         baca.stem_tremolo(selector=baca.selectors.pleaves()),
-        map=baca.selectors.plts(([0], 2)),
+        map=lambda _: abjad.select.get(baca.select.plts(_), [0], 2),
     ),
     baca.suite(
         baca.hairpin(
@@ -768,7 +768,7 @@ commands(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         ),
         baca.flat_glissando("Bqf3"),
-        map=baca.selectors.plts(([1], 2)),
+        map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
     ),
     baca.pitch("Bqf3", allow_repitch=True),
 )
@@ -978,7 +978,7 @@ commands(
         baca.accent(),
         baca.dynamic("sfp"),
         baca.stem_tremolo(selector=baca.selectors.pleaves()),
-        map=baca.selectors.plts(([0], 2)),
+        map=lambda _: abjad.select.get(baca.select.plts(_), [0], 2),
     ),
     baca.suite(
         baca.hairpin(
@@ -989,7 +989,7 @@ commands(
             abjad.Tweak(r"- \tweak staff-padding 3"),
         ),
         baca.flat_glissando("A3"),
-        map=baca.selectors.plts(([1], 2)),
+        map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
     ),
     baca.pitch("A3", allow_repitch=True),
     library.grid_to_trajectory(0, -4, 0),
@@ -1016,7 +1016,7 @@ commands(
             baca.accent(),
             baca.dynamic("sfp"),
             baca.stem_tremolo(),
-            map=baca.selectors.plts(([0], 2)),
+            map=lambda _: abjad.select.get(baca.select.plts(_), [0], 2),
         ),
         baca.new(
             baca.hairpin(
@@ -1036,7 +1036,7 @@ commands(
             baca.xfb_spanner(
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
             ),
-            map=baca.selectors.plts((-1, None)),
+            map=lambda _: baca.select.plts(_)[-1:],
         ),
         baca.dynamic(
             "!",

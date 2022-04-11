@@ -191,7 +191,7 @@ commands(
         ),
         baca.new(
             baca.note_head_style_harmonic(),
-            map=baca.selectors.plts(([3], 4)),
+            map=lambda _: abjad.select.get(baca.select.plts(_), [3], 4),
         ),
     ),
 )
@@ -806,7 +806,7 @@ commands(
         ),
         baca.new(
             baca.note_head_style_harmonic(),
-            map=baca.selectors.plts(([4], 5)),
+            map=lambda _: abjad.select.get(baca.select.plts(_), [4], 5),
         ),
     ),
 )
@@ -905,7 +905,7 @@ commands(
         ),
         baca.new(
             baca.note_head_style_harmonic(),
-            map=baca.selectors.plts(([2], 3)),
+            map=lambda _: abjad.select.get(baca.select.plts(_), [2], 3),
         ),
     ),
 )

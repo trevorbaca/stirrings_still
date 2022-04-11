@@ -219,7 +219,7 @@ commands(
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
-            pieces=baca.selectors.plts((None, -1)),
+            pieces=lambda _: baca.select.plts(_)[:-1],
         ),
     ),
     baca.stem_tremolo(

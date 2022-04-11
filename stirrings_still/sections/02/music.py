@@ -524,7 +524,7 @@ commands(
         baca.new(
             baca.espressivo(),
             baca.stem_tremolo(selector=baca.selectors.pleaves()),
-            map=baca.selectors.plts(([1], 2)),
+            map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
         ),
         baca.untie(baca.selectors.leaves()),
     ),
