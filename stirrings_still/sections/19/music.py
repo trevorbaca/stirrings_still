@@ -33,29 +33,29 @@ commands(
     baca.markup(
         r"\stirrings-still-text-twenty-six",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(9 - 1),
+        selector=lambda _: baca.select.skip(_, 9 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-seven",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -50)"),
-        selector=baca.selectors.skip(16 - 1),
+        selector=lambda _: baca.select.skip(_, 16 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-eight",
         abjad.Tweak(r"- \tweak extra-offset #'(9 . -75)"),
-        selector=baca.selectors.skip(20 - 1),
+        selector=lambda _: baca.select.skip(_, 20 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-nine",
         abjad.Tweak(r"- \tweak extra-offset #'(28 . -100)"),
-        selector=baca.selectors.skip(20 - 1),
+        selector=lambda _: baca.select.skip(_, 20 - 1),
     ),
     baca.rehearsal_mark(
         "S",
         baca.selectors.leaf(0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
-    baca.bar_line("|.", baca.selectors.skip(-1)),
+    baca.bar_line("|.", lambda _: baca.select.skip(_, -1)),
 )
 
 time = (

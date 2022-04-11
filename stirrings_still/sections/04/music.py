@@ -69,33 +69,33 @@ commands(
     baca.markup(
         r"\stirrings-still-text-thirteen",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(37 - 1),
+        selector=lambda _: baca.select.skip(_, 37 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-fourteen",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(46 - 1),
+        selector=lambda _: baca.select.skip(_, 46 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-fifteen",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(64 - 1),
+        selector=lambda _: baca.select.skip(_, 64 - 1),
     ),
 )
 
 commands(
     "Global_Skips",
-    baca.open_volta(baca.selectors.skip(1 - 1)),
-    baca.double_volta(baca.selectors.skip(7 - 1)),
-    baca.double_volta(baca.selectors.skip(13 - 1)),
-    baca.double_volta(baca.selectors.skip(19 - 1)),
-    baca.double_volta(baca.selectors.skip(25 - 1)),
-    baca.double_volta(baca.selectors.skip(31 - 1)),
-    baca.close_volta(baca.selectors.skip(37 - 1)),
-    baca.open_volta(baca.selectors.skip(57 - 1)),
-    baca.close_volta(baca.selectors.skip(61 - 1)),
-    baca.open_volta(baca.selectors.skip(94 - 1)),
-    baca.close_volta(baca.selectors.skip(98 - 1)),
+    baca.open_volta(lambda _: baca.select.skip(_, 1 - 1)),
+    baca.double_volta(lambda _: baca.select.skip(_, 7 - 1)),
+    baca.double_volta(lambda _: baca.select.skip(_, 13 - 1)),
+    baca.double_volta(lambda _: baca.select.skip(_, 19 - 1)),
+    baca.double_volta(lambda _: baca.select.skip(_, 25 - 1)),
+    baca.double_volta(lambda _: baca.select.skip(_, 31 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 37 - 1)),
+    baca.open_volta(lambda _: baca.select.skip(_, 57 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 61 - 1)),
+    baca.open_volta(lambda _: baca.select.skip(_, 94 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 98 - 1)),
 )
 
 time = (

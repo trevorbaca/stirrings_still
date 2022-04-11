@@ -46,15 +46,15 @@ commands(
         r"\stirrings-still-repeat-three-markup",
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
         measures=11,
-        selector=baca.selectors.skip(0),
+        selector=lambda _: baca.select.skip(_, 0),
     ),
 )
 
 
 commands(
     "Global_Skips",
-    baca.open_volta(baca.selectors.skip(11 - 1)),
-    baca.close_volta(baca.selectors.skip(14 - 1)),
+    baca.open_volta(lambda _: baca.select.skip(_, 11 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 14 - 1)),
 )
 
 time = (

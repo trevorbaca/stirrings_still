@@ -59,26 +59,26 @@ commands(
     baca.markup(
         r"\stirrings-still-text-ten",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(11 - 1),
+        selector=lambda _: baca.select.skip(_, 11 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-eleven",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(70 - 1),
+        selector=lambda _: baca.select.skip(_, 70 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twelve",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(77 - 1),
+        selector=lambda _: baca.select.skip(_, 77 - 1),
     ),
 )
 
 commands(
     "Global_Skips",
-    baca.open_volta(baca.selectors.skip(4 - 1)),
-    baca.close_volta(baca.selectors.skip(8 - 1)),
-    baca.open_volta(baca.selectors.skip(74 - 1)),
-    baca.close_volta(baca.selectors.skip(77 - 1)),
+    baca.open_volta(lambda _: baca.select.skip(_, 4 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 8 - 1)),
+    baca.open_volta(lambda _: baca.select.skip(_, 74 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 77 - 1)),
 )
 
 time = (

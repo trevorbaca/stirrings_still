@@ -3151,13 +3151,26 @@ def taper(tuplet_ratio=(1, 4, 1), *, measures=None):
 
 
 def time(maker: baca.CommandAccumulator, pairs: typing.Tuple):
+    def make_rest_selector(lmn):
+        def selector(argument):
+            return baca.select.rest(argument, lmn - 1)
+
+        return selector
+
+    def make_skip_selector(lmn):
+        def selector(argument):
+            return baca.select.skip(argument, lmn - 1)
+
+        return selector
+
     for value, lmn in pairs:
         if value in baca.GlobalFermataCommand.description_to_command:
             maker(
                 "Global_Rests",
                 baca.global_fermata(
                     value,
-                    selector=baca.selectors.rest(lmn - 1),
+                    # selector=lambda _: baca.select.rest(_, lmn - 1),
+                    selector=make_rest_selector(lmn),
                 ),
             )
         else:
@@ -3165,7 +3178,8 @@ def time(maker: baca.CommandAccumulator, pairs: typing.Tuple):
                 "Global_Skips",
                 baca.metronome_mark(
                     value,
-                    selector=baca.selectors.skip(lmn - 1),
+                    # selector=lambda _: baca.select.skip(_, lmn - 1),
+                    selector=make_skip_selector(lmn),
                 ),
             )
 

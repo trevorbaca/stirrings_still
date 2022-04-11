@@ -31,7 +31,7 @@ commands(
     baca.markup(
         r"\stirrings-still-text-nineteen",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(11 - 1),
+        selector=lambda _: baca.select.skip(_, 11 - 1),
     ),
     baca.rehearsal_mark(
         "F",
