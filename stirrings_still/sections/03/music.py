@@ -616,14 +616,14 @@ commands(
 commands(
     ("tutti", [62, 64, 66, 68]),
     baca.laissez_vibrer(
-        selector=baca.selectors.ptails(),
+        selector=lambda _: baca.select.ptails(_),
     ),
 )
 
 commands(
     ("tutti", [63, 65, 67, 69]),
     baca.stop_on_string(
-        selector=baca.selectors.ptails(),
+        selector=lambda _: baca.select.ptails(_),
     ),
 )
 
