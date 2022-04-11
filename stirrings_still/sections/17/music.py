@@ -648,7 +648,7 @@ commands(
     ("v2", (66, 67)),
     baca.half_clt_spanner(
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
 )
 

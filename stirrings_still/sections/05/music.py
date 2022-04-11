@@ -384,7 +384,7 @@ commands(
     baca.hairpin(
         "niente o<|",
         bookend=False,
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.new(
         baca.circle_bow_spanner(
