@@ -185,7 +185,7 @@ commands(
         "o< f -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -195,7 +195,7 @@ commands(
         "o< ff -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([1, 2 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -205,7 +205,7 @@ commands(
         "o< fff -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([2, 4 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 

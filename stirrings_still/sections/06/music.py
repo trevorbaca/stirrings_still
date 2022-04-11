@@ -59,7 +59,7 @@ commands(
     baca.hairpin(
         "pp < f > pp < f > pp < f >o niente",
         pieces=baca.selectors.mgroups([1, 2, 1, 2, 1, 2]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.markup(
         r"\baca-thirteen-plus-nine-e-flat",
@@ -83,7 +83,7 @@ commands(
     baca.hairpin(
         "pp < f > pp < f > pp < f >o niente",
         pieces=baca.selectors.mgroups([2, 1, 2, 1, 1, 2]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.markup(
         r"\baca-seven-plus-five-e-flat",
@@ -127,7 +127,7 @@ commands(
     baca.hairpin(
         "(p) < ff -- (ff) >o niente",
         pieces=baca.selectors.mgroups([2, 4, 2 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.clouded_pane(),
     library.clouded_pane_spanner("clouded pane (continues) -|", 5.5),
@@ -165,7 +165,7 @@ commands(
     baca.hairpin(
         "p -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.new(
         baca.flat_glissando("Bb4"),

@@ -120,7 +120,7 @@ commands(
         "appena-udibile -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.new(
         baca.flat_glissando(
@@ -165,7 +165,7 @@ commands(
     ),
     baca.hairpin(
         "pp < mf",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.hairpin_shorten_pair((0, 5)),
     baca.new(
@@ -255,7 +255,7 @@ commands(
     baca.hairpin(
         "pp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.new(
         baca.flat_glissando("<F#4 Dqf5>"),
@@ -319,7 +319,7 @@ commands(
     baca.hairpin(
         "mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.half_clt_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -374,7 +374,7 @@ commands(
     baca.hairpin(
         "o< f >o !",
         pieces=baca.selectors.lparts([1, 2]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -398,7 +398,7 @@ commands(
     baca.hairpin(
         "o< f -- !",
         pieces=baca.selectors.lparts([1, 2]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -407,7 +407,7 @@ commands(
     baca.hairpin(
         "f -- ! >o niente",
         pieces=baca.selectors.lparts([1, 2]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 

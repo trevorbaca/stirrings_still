@@ -221,7 +221,7 @@ commands(
     baca.hairpin(
         '"ff" -- !',
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.markup(
         r"\baca-thirteen-d-flat",
@@ -295,7 +295,7 @@ commands(
         final_piece_spanner=False,
         lilypond_id=1,
         pieces=baca.selectors.cmgroups([1, 1, 1, 1, 2, 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -328,7 +328,7 @@ commands(
     baca.hairpin(
         "p > pp",
         measures=(41, 42),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.hairpin(
         "pp <",
@@ -390,7 +390,7 @@ commands(
     baca.hairpin(
         "pp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -399,7 +399,7 @@ commands(
     baca.hairpin(
         '"f" -- !',
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -411,7 +411,7 @@ commands(
         autodetect_right_padding=True,
         bookend=False,
         lilypond_id=2,
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -423,7 +423,7 @@ commands(
         autodetect_right_padding=True,
         bookend=False,
         lilypond_id=2,
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -440,7 +440,7 @@ commands(
     (["v1", "v2", "vc"], (5, 17)),
     baca.hairpin(
         "pp < mp",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -572,7 +572,7 @@ commands(
     baca.hairpin(
         '"ff" -- !',
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.markup(
         r"\baca-nine-d-flat",
@@ -645,7 +645,7 @@ commands(
         final_piece_spanner=False,
         lilypond_id=1,
         pieces=baca.selectors.cmgroups([1, 2, 1, 1, 1, 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -677,7 +677,7 @@ commands(
     baca.hairpin(
         "p > pp",
         measures=(41, 42),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.hairpin(
         "pp <",
@@ -794,7 +794,7 @@ commands(
     ("va", (12, 17)),
     baca.hairpin(
         "p < mp",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.multistage_leaf_glissando(
         [("B3", 2), ("A3", 4), ("C4", 4), ("Ab3", 7), ("B3", None)],
@@ -842,7 +842,7 @@ commands(
     baca.hairpin(
         '"ff" -- !',
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.markup(
         r"\baca-seven-d-flat",
@@ -915,7 +915,7 @@ commands(
         final_piece_spanner=False,
         lilypond_id=1,
         pieces=baca.selectors.cmgroups([1, 1, 2, 1, 1, 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -971,7 +971,7 @@ commands(
     baca.hairpin(
         '"mf" -- !',
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
@@ -1192,7 +1192,7 @@ commands(
         final_piece_spanner=False,
         lilypond_id=1,
         pieces=baca.selectors.cmgroups([1, 1, 1, 2, 1, 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.flight(
         "A",

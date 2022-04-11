@@ -398,7 +398,7 @@ def circle_spanner(
     staff_padding,
     *,
     measures=None,
-    selector=baca.selectors.rleaves(),
+    selector=lambda _: baca.select.rleaves(_),
 ):
     command = baca.material_annotation_spanner(
         string,
@@ -500,7 +500,7 @@ def clouded_pane_spanner(
     staff_padding,
     *,
     measures=None,
-    selector=baca.selectors.rleaves(),
+    selector=lambda _: baca.select.rleaves(_),
 ):
     command = baca.material_annotation_spanner(
         string,
@@ -1893,9 +1893,19 @@ def multistage_leaf_glissando(
     stop = None
     if leaf_count is not None:
         stop = start + leaf_count
+
+    def make_final_selector(start, stop):
+        def selector(argument):
+            result = baca.select.rleaves(argument)
+            result = result[start:stop]
+            return result
+
+        return selector
+
     _final_selector = baca.selectors.leaves((start, stop))
     if rleak_final_stage:
-        _final_selector = baca.selectors.rleaves((start, stop))
+        # _final_selector = baca.selectors.rleaves((start, stop))
+        _final_selector = make_final_selector(start, stop)
     chunk = baca.chunk(
         baca.glissando(
             allow_repeats=True,
@@ -3086,7 +3096,7 @@ def tailpiece(*tweaks, measures=None):
         baca.flat_glissando(
             None,
             *tweaks,
-            selector=baca.selectors.rleaves(),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         measures=measures,
     )
@@ -3228,7 +3238,7 @@ def trajectory_spanner(
     staff_padding,
     *,
     measures=None,
-    selector=baca.selectors.rleaves(),
+    selector=lambda _: baca.select.rleaves(_),
 ):
     command = baca.material_annotation_spanner(
         string,
@@ -3296,7 +3306,7 @@ def urtext_spanner(
     staff_padding,
     *,
     measures=None,
-    selector=baca.selectors.rleaves(),
+    selector=lambda _: baca.select.rleaves(_),
 ):
     command = baca.material_annotation_spanner(
         string,

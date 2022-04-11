@@ -85,7 +85,7 @@ commands(
     ("v1", (5, 8)),
     baca.hairpin(
         "ppp >o niente",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -128,7 +128,7 @@ commands(
     ("v2", (5, 8)),
     baca.hairpin(
         "ppp >o niente",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -176,7 +176,7 @@ commands(
     ("vc", (9, 12)),
     baca.hairpin(
         "pp >o niente",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
