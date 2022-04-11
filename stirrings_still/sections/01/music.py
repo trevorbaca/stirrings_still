@@ -855,7 +855,7 @@ commands(
     baca.clef("treble"),
     baca.clef(
         "bass",
-        selector=baca.selectors.rleaf(-1),
+        selector=lambda _: baca.select.rleaf(_, -1),
     ),
     baca.flat_glissando("A5"),
     baca.hairpin(

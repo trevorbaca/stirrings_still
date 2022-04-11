@@ -523,7 +523,7 @@ def continuous_tremolo():
                 baca.selectors.plts(),
             ),
             rmakers.tie(
-                baca.selectors.ptails((None, -1)),
+                lambda _: baca.select.ptails(_)[:-1],
             ),
             rmakers.force_repeat_tie(threshold=(1, 2)),
         ),
@@ -552,7 +552,7 @@ def declamation(*, measures=None, protract=False):
             baca.selectors.plts(),
         ),
         rmakers.tie(
-            baca.selectors.ptails((None, -1)),
+            lambda _: baca.select.ptails(_)[:-1],
         ),
         rmakers.force_repeat_tie(),
     )

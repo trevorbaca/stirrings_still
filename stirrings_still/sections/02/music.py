@@ -779,7 +779,7 @@ commands(
         baca.clef("treble"),
         baca.clef(
             "alto",
-            selector=baca.selectors.rleaf(-1),
+            selector=lambda _: baca.select.rleaf(_, -1),
         ),
         baca.dynamic(
             "mp-sub",
@@ -792,7 +792,7 @@ commands(
         baca.clef("treble"),
         baca.clef(
             "bass",
-            selector=baca.selectors.rleaf(-1),
+            selector=lambda _: baca.select.rleaf(_, -1),
         ),
         baca.dynamic("mp-sub"),
         library.grid(rotation=-3),
@@ -1126,7 +1126,7 @@ commands(
     baca.new(
         baca.clef("alto"),
         baca.clef_extra_offset((-1, 0)),
-        selector=baca.selectors.rleaf(-1),
+        selector=lambda _: baca.select.rleaf(_, -1),
     ),
     baca.pitch("Eqs5"),
     baca.tuplet_bracket_staff_padding(1),
@@ -1409,7 +1409,7 @@ commands(
     baca.clef("treble"),
     baca.clef(
         "bass",
-        selector=baca.selectors.rleaf(-1),
+        selector=lambda _: baca.select.rleaf(_, -1),
     ),
     baca.damp_spanner(
         abjad.Tweak(r"- \tweak staff-padding 8"),
