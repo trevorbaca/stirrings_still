@@ -70,19 +70,19 @@ commands(
     baca.markup(
         r"\stirrings-still-text-eight",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(28 - 1),
+        selector=lambda _: baca.select.skip(_, 28 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-nine",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(66 - 1),
+        selector=lambda _: baca.select.skip(_, 66 - 1),
     ),
 )
 
 commands(
     "Global_Skips",
-    baca.open_volta(baca.selectors.skip(29 - 1)),
-    baca.close_volta(baca.selectors.skip(32 - 1)),
+    baca.open_volta(lambda _: baca.select.skip(_, 29 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 32 - 1)),
 )
 
 time = (
@@ -1484,7 +1484,7 @@ commands(
     baca.rest_extra_offset((-0.5, 0)),
     baca.tuplet_bracket_shorten_pair(
         (-1.5, 0),
-        selector=baca.selectors.rest(-1),
+        selector=lambda _: baca.select.rest(_, -1),
     ),
 )
 

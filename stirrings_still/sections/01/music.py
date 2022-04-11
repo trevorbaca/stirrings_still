@@ -51,7 +51,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "A",
-        baca.selectors.skip(18 - 1),
+        lambda _: baca.select.skip(_, 18 - 1),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 12)"),
     ),
 )
@@ -62,40 +62,40 @@ commands(
         r"\stirrings-still-text-two",
         # -20 because first page compresses vertical spacing
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(10 - 1),
+        selector=lambda _: baca.select.skip(_, 10 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-three",
         # -20 because first page compresses vertical spacing
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(19 - 1),
+        selector=lambda _: baca.select.skip(_, 19 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-four",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(24 - 1),
+        selector=lambda _: baca.select.skip(_, 24 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-five",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(28 - 1),
+        selector=lambda _: baca.select.skip(_, 28 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-six",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(61 - 1),
+        selector=lambda _: baca.select.skip(_, 61 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-seven",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(63 - 1),
+        selector=lambda _: baca.select.skip(_, 63 - 1),
     ),
 )
 
 commands(
     "Global_Skips",
-    baca.open_volta(baca.selectors.skip(44 - 1)),
-    baca.close_volta(baca.selectors.skip(49 - 1)),
+    baca.open_volta(lambda _: baca.select.skip(_, 44 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 49 - 1)),
 )
 
 time = (

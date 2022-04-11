@@ -56,8 +56,8 @@ commands(
 
 commands(
     "Global_Skips",
-    baca.open_volta(baca.selectors.skip(30 - 1)),
-    baca.close_volta(baca.selectors.skip(37 - 1)),
+    baca.open_volta(lambda _: baca.select.skip(_, 30 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 37 - 1)),
 )
 
 time = (

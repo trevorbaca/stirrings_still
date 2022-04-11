@@ -42,14 +42,14 @@ commands(
     baca.markup(
         r"\stirrings-still-text-twenty-five",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=baca.selectors.skip(17 - 1),
+        selector=lambda _: baca.select.skip(_, 17 - 1),
     ),
 )
 
 commands(
     "Global_Skips",
-    baca.open_volta(baca.selectors.skip(3 - 1)),
-    baca.close_volta(baca.selectors.skip(5 - 1)),
+    baca.open_volta(lambda _: baca.select.skip(_, 3 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 5 - 1)),
 )
 
 time = (("fermata", 17),)
