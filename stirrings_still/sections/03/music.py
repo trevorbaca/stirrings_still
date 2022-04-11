@@ -476,7 +476,7 @@ commands(
     baca.hairpin(
         "mf mf mp p pp pp",
         bookend=False,
-        pieces=baca.selectors.runs(),
+        pieces=lambda _: baca.select.runs(_),
     ),
     library.synchronized_circles(rests=[-1]),
 )
