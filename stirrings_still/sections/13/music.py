@@ -106,7 +106,7 @@ commands(
     baca.flat_glissando(
         "D6",
         hide_middle_stems=True,
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -310,7 +310,7 @@ commands(
     baca.flat_glissando(
         "Fqs5",
         hide_middle_stems=True,
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -427,7 +427,7 @@ commands(
     baca.flat_glissando(
         "Aqf4",
         hide_middle_stems=True,
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -499,7 +499,7 @@ commands(
         bookend=False,
         measures=(7, -1),
         pieces=baca.selectors.mgroups([2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.new(
         baca.hairpin_to_barline(),
@@ -519,7 +519,7 @@ commands(
     baca.flat_glissando(
         "C2",
         hide_middle_stems=True,
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.clouded_pane(),
 )

@@ -83,7 +83,7 @@ commands(
     baca.new(
         baca.hairpin(
             "(mp) >o niente",
-            selector=baca.selectors.rleaves(),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         measures=(4, 7),
     ),
@@ -124,7 +124,7 @@ commands(
     baca.hairpin(
         "appena-udibile -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.urtext_field(),
     # TODO: allow right-broken spanner
@@ -212,7 +212,7 @@ commands(
         # TODO: extend hairpin to phantom measure
         # following two lines should remain
         # pieces=baca.selectors.mgroups([5, 4, 2 + 1]),
-        # selector=baca.selectors.rleaves(),
+        # selector=lambda _: baca.select.rleaves(_),
         # temporary:
         pieces=baca.selectors.mgroups([5, 4, 1 + 1]),
         selector=baca.selectors.leaves(),
@@ -237,7 +237,7 @@ commands(
     baca.suite(
         baca.pitches("G2 B3 D3 C#4 F4"),
         baca.glissando(
-            selector=baca.selectors.rleaves(),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     ),
     library.eighths(),

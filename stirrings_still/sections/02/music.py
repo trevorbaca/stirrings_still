@@ -186,7 +186,7 @@ commands(
     baca.hairpin(
         "mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -225,7 +225,7 @@ commands(
     baca.hairpin(
         "p -- (p) >o niente",
         pieces=baca.selectors.mgroups([8, 5 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -410,7 +410,7 @@ commands(
             library.left_broken_tasto_tweak(),
         ),
         pieces=baca.selectors.mgroups([2, 4, 5 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -480,7 +480,7 @@ commands(
     baca.hairpin(
         "p -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -570,7 +570,7 @@ commands(
         "ppp < mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "T -> ord. =|",
@@ -591,7 +591,7 @@ commands(
     baca.hairpin(
         "o< mp -- !",
         pieces=baca.selectors.mgroups([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.markup(
         r"\baca-string-iii-markup",
@@ -604,7 +604,7 @@ commands(
         autodetect_right_padding=True,
         bookend=False,
         lilypond_id=1,
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.text_spanner(
         "rasp -> flaut. =|",
@@ -612,7 +612,7 @@ commands(
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.selectors.mgroups([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.rasp(),
     library.urtext_spanner("urtext (rasp) -|", 10.5),
@@ -624,21 +624,21 @@ commands(
         "pp < mf -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "T -> poco P =|",
         abjad.Tweak(r"- \tweak staff-padding 13"),
         match=0,
         pieces=baca.selectors.mgroups([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "T -> poco P =|",
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
         match=[1, 2, 3],
         pieces=baca.selectors.mgroups([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -648,7 +648,7 @@ commands(
         "p < f -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "T -> P =|",
@@ -669,7 +669,7 @@ commands(
     baca.hairpin(
         "mp < ff -- !",
         pieces=baca.selectors.mgroups([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "T -> P molto =|",
@@ -697,7 +697,7 @@ commands(
     baca.hairpin(
         "p -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.circles((1, 4)),
 )
@@ -710,7 +710,7 @@ commands(
         pieces=lambda _: abjad.select.partition_by_counts(
             abjad.select.leaves(_), [2], overhang=True
         ),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "T -> P molto =|",
@@ -735,7 +735,7 @@ commands(
     baca.hairpin(
         "fff -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "P poss. =|",
@@ -753,7 +753,7 @@ commands(
     ("tutti", (61, 62)),
     baca.hairpin(
         ">o niente",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -808,7 +808,7 @@ commands(
     baca.hairpin(
         "mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -882,7 +882,7 @@ commands(
         "p -- (p) < mf -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([6, 3, 5 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -972,7 +972,7 @@ commands(
     baca.hairpin(
         "mf -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.bcps(
         -2,
@@ -1077,7 +1077,7 @@ commands(
             library.left_broken_tasto_tweak(),
         ),
         pieces=baca.selectors.mgroups([2, 4, 2 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.tuplet_bracket_staff_padding(1.5),
 )
@@ -1112,7 +1112,7 @@ commands(
     baca.hairpin(
         "mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1149,7 +1149,7 @@ commands(
     baca.hairpin(
         "mf -- niente o< p -- !",
         pieces=baca.selectors.mgroups([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1180,7 +1180,7 @@ commands(
     baca.hairpin(
         "p-ancora -- (p) >o niente",
         pieces=baca.selectors.mgroups([8, 2 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.circles((1, 4)),
 )
@@ -1218,7 +1218,7 @@ commands(
         "o< mf -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([2, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1249,7 +1249,7 @@ commands(
     baca.hairpin(
         "mf -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1347,7 +1347,7 @@ commands(
         baca.hairpin(
             "fff -- ff > ppp --",
             bookend=False,
-            selector=baca.selectors.rleaves(),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.scp_spanner(
             "P poss. -> P molto -> T =|",
@@ -1399,7 +1399,7 @@ commands(
     baca.hairpin(
         "mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1431,7 +1431,7 @@ commands(
     baca.hairpin(
         "mf -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1446,7 +1446,7 @@ commands(
         "o< f -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([4, 2 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.clouded_pane(),
     library.clouded_pane_spanner("clouded pane -|", 5.5),
@@ -1475,7 +1475,7 @@ commands(
     baca.hairpin(
         "p -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1554,7 +1554,7 @@ commands(
         "(p) < mf -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=baca.selectors.mgroups([3, 3 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.tasto_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5 + 2.5}"),
@@ -1591,7 +1591,7 @@ commands(
     baca.hairpin(
         "mf -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
@@ -1682,7 +1682,7 @@ commands(
     baca.hairpin(
         "p -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.clouded_pane(),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
@@ -1698,7 +1698,7 @@ commands(
     baca.hairpin(
         "p -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.pitch("E2"),
     library.clouded_pane(),
@@ -1719,7 +1719,7 @@ commands(
         "fff -- ff > ppp --",
         bookend=False,
         pieces=baca.selectors.mgroups([2, 4, 5 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1772,7 +1772,7 @@ commands(
     baca.hairpin(
         "p -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.pitch("E2"),
     library.clouded_pane(),

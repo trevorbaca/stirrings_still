@@ -113,7 +113,7 @@ commands(
     baca.hairpin(
         "ppppp < p > ppp",
         pieces=baca.selectors.cmgroups(),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -122,7 +122,7 @@ commands(
     baca.hairpin(
         "ppp < p > ppppp",
         pieces=baca.selectors.lparts([2, 4, 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -164,7 +164,7 @@ commands(
     baca.hairpin(
         "ppppp < p > ppp",
         pieces=baca.selectors.cmgroups(),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -173,7 +173,7 @@ commands(
     baca.hairpin(
         "ppp < p > ppppp",
         pieces=baca.selectors.lparts([2, 4, 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -272,7 +272,7 @@ commands(
     baca.hairpin(
         "ppppp < p > ppp",
         pieces=baca.selectors.lparts([1, 3, 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -281,7 +281,7 @@ commands(
     baca.hairpin(
         "ppp < p > ppp",
         pieces=baca.selectors.lparts([5, 1, 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -290,7 +290,7 @@ commands(
     baca.hairpin(
         "ppp < p > ppppp",
         pieces=baca.selectors.lparts([1, 3, 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -319,7 +319,7 @@ commands(
     baca.hairpin(
         "ppppp < p > pp",
         pieces=baca.selectors.lparts([1, 4, 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -328,7 +328,7 @@ commands(
     baca.hairpin(
         "ppp < p > pp",
         pieces=baca.selectors.lparts([7, 1, 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -337,7 +337,7 @@ commands(
     baca.hairpin(
         "ppp < p > ppppp",
         pieces=baca.selectors.lparts([1, 2, 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -385,7 +385,7 @@ commands(
     baca.hairpin(
         "ppppp < p > ppppp",
         pieces=baca.selectors.cmgroups([1, 2]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -427,7 +427,7 @@ commands(
     baca.hairpin(
         "ppppp < p > ppppp",
         pieces=baca.selectors.cmgroups([1, 2]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -480,7 +480,7 @@ commands(
     baca.hairpin(
         "ppppp < p > ppppp",
         pieces=baca.selectors.cmgroups([1, 2]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -526,7 +526,7 @@ commands(
     baca.hairpin(
         "ppppp < p > ppppp",
         pieces=baca.selectors.cmgroups([1, 2]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 

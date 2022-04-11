@@ -59,7 +59,7 @@ commands(
     baca.hairpin(
         '"mf" -- !',
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.circles((1, 4)),
 )
@@ -73,7 +73,7 @@ commands(
     baca.flat_glissando("Aqs4"),
     baca.hairpin(
         "mf >o niente",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.markup(
         r"\baca-thirteen-d-flat",
@@ -102,7 +102,7 @@ commands(
     baca.hairpin(
         '"mf" -- !',
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.circles((1, 4)),
 )
@@ -116,7 +116,7 @@ commands(
     baca.flat_glissando("Eb4"),
     baca.hairpin(
         "mf >o niente",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.markup(
         r"\baca-nine-d-flat",
@@ -137,7 +137,7 @@ commands(
     baca.hairpin(
         '"mf" -- !',
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.circles((1, 4)),
 )
@@ -151,7 +151,7 @@ commands(
     baca.flat_glissando("Bqf3"),
     baca.hairpin(
         "mf >o niente",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.markup(
         r"\baca-seven-d-flat",
@@ -172,7 +172,7 @@ commands(
     baca.hairpin(
         '"mf" -- !',
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.circles((1, 4)),
 )
@@ -183,7 +183,7 @@ commands(
     baca.hairpin(
         "p -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {3 + 6.5}"),
