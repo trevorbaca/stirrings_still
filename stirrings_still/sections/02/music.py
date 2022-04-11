@@ -195,7 +195,7 @@ commands(
     baca.hairpin(
         "mf -- ! >o niente",
         pieces=baca.selectors.mgroups([1, 2]),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     library.clockticks(
         rmakers.force_rest(
@@ -840,7 +840,7 @@ commands(
     baca.hairpin(
         "mf -- ! >o niente",
         pieces=baca.selectors.mgroups([1, 2]),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
 )
 
