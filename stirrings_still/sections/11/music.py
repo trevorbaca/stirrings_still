@@ -268,7 +268,7 @@ commands(
         "T -> P ->",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.plts((None, -1)),
+        pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.flat_glissando("Aqf5"),
     library.flight(
@@ -301,7 +301,7 @@ commands(
         "T -> P ->",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.plts((None, -1)),
+        pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     library.flight(
         "A",
@@ -342,13 +342,13 @@ commands(
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
-        pieces=baca.selectors.plts(),
+        pieces=lambda _: baca.select.plts(_),
     ),
     baca.scp_spanner(
         "T1 -> T3 -> T2 -> T3 ->",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.plts((None, -1)),
+        pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     library.flight(
         "A",
@@ -618,7 +618,7 @@ commands(
         "T -> P ->",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.plts((None, -1)),
+        pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.flat_glissando("F5"),
     library.flight(
@@ -651,7 +651,7 @@ commands(
         "T -> P ->",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.plts((None, -1)),
+        pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     library.flight(
         "A",
@@ -690,13 +690,13 @@ commands(
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
-        pieces=baca.selectors.plts(),
+        pieces=lambda _: baca.select.plts(_),
     ),
     baca.scp_spanner(
         "T1 -> T3 -> T2 -> T3 ->",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.plts((None, -1)),
+        pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     library.flight(
         "A",
@@ -888,7 +888,7 @@ commands(
         "T -> P ->",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.plts((None, -1)),
+        pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.flat_glissando("G3"),
     library.flight(
@@ -921,7 +921,7 @@ commands(
         "T -> P ->",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.plts((None, -1)),
+        pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     library.flight(
         "A",
@@ -951,13 +951,13 @@ commands(
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
-        pieces=baca.selectors.plts((None, -1)),
+        pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.scp_spanner(
         "T1 -> T3 -> T2 -> T3 ->",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.plts((None, -1)),
+        pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     library.flight(
         "A",
@@ -1159,7 +1159,7 @@ commands(
         "T -> P ->",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.plts((None, -1)),
+        pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.flat_glissando("Eb2"),
     library.flight(
@@ -1178,7 +1178,7 @@ commands(
         "T -> P ->",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.plts((None, -1)),
+        pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
