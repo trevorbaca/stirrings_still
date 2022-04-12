@@ -98,7 +98,7 @@ commands(
     baca.new(
         library.circles(
             (1, 2),
-            rmakers.force_rest(baca.selectors.lt(0)),
+            rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
             remainder=abjad.LEFT,
         ),
         match=2,
@@ -211,10 +211,10 @@ commands(
         'p < "f" -- "f" >o niente',
         # TODO: extend hairpin to phantom measure
         # following two lines should remain
-        # pieces=baca.selectors.mgroups([5, 4, 2 + 1]),
+        # pieces=lambda _: baca.select.mgroups(_, [5, 4, 2 + 1]),
         # selector=lambda _: baca.select.rleaves(_),
         # temporary:
-        pieces=baca.selectors.mgroups([5, 4, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [5, 4, 1 + 1]),
         selector=baca.selectors.leaves(),
     ),
     baca.half_clt_spanner(

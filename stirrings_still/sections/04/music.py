@@ -157,7 +157,7 @@ commands(
     baca.new(
         baca.dynamic_text_self_alignment_x(
             1,
-            selector=baca.selectors.pleaf(-1),
+            selector=lambda _: baca.select.pleaf(_, -1),
         ),
         baca.hairpin("pp < mp"),
     ),
@@ -170,7 +170,7 @@ commands(
     baca.scp_spanner(
         "T -> P -> T -> P =|",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        pieces=baca.selectors.lparts([1, 2, 1, 4 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 2, 1, 4 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -192,7 +192,7 @@ commands(
 commands(
     (["v1", "v2"], (84, 92)),
     baca.repeat_tie(
-        baca.selectors.pleaf(0),
+        lambda _: baca.select.pleaf(_, 0),
     ),
     library.continuous_tremolo(),
 )
@@ -202,7 +202,7 @@ commands(
     baca.hairpin(
         "(p) < mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        pieces=baca.selectors.mgroups([3, 4 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [3, 4 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -242,14 +242,14 @@ commands(
     ),
     baca.hairpin(
         "p <| mp p < mp",
-        pieces=baca.selectors.clparts([1]),
+        pieces=lambda _: baca.select.clparts(_, [1]),
     ),
     baca.new(
         baca.repeat_tie(
-            baca.selectors.pleaf(0),
+            lambda _: baca.select.pleaf(_, 0),
         ),
         baca.stop_on_string(),
-        selector=baca.selectors.pleaf(-1),
+        selector=lambda _: baca.select.pleaf(_, -1),
     ),
     baca.new(
         baca.flat_glissando(
@@ -291,7 +291,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.breathe(
-        selector=baca.selectors.pleaf(1),
+        selector=lambda _: baca.select.pleaf(_, 1),
     ),
     library.declamation(),
     library.urtext_spanner("A, B -|", 8),
@@ -349,7 +349,7 @@ commands(
         baca.pitch("Bqf3"),
         library.circles(
             (1, 2),
-            rmakers.force_rest(baca.selectors.lt(0)),
+            rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
             remainder=abjad.LEFT,
         ),
         match=2,
@@ -387,7 +387,7 @@ commands(
     baca.suite(
         baca.new(
             baca.espressivo(),
-            baca.stem_tremolo(selector=baca.selectors.pleaves()),
+            baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
             map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
         ),
         baca.untie(baca.selectors.leaves()),
@@ -406,7 +406,7 @@ commands(
         "P -> T =|",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         bookend=False,
-        pieces=baca.selectors.mgroups([2, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [2, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     library.urtext_spanner("urtext (resumes) -|", 8),
@@ -808,7 +808,7 @@ commands(
     baca.new(
         baca.dynamic_text_self_alignment_x(
             1,
-            selector=baca.selectors.pleaf(-1),
+            selector=lambda _: baca.select.pleaf(_, -1),
         ),
         baca.hairpin("pp < mp"),
     ),
@@ -821,7 +821,7 @@ commands(
     baca.scp_spanner(
         "T -> P -> T -> P =|",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        pieces=baca.selectors.lparts([2, 1, 1, 4 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [2, 1, 1, 4 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -893,7 +893,7 @@ commands(
     ("va", [(84, 89), (94, 96)]),
     baca.new(
         baca.repeat_tie(
-            baca.selectors.pleaf(0),
+            lambda _: baca.select.pleaf(_, 0),
         ),
         match=0,
     ),
@@ -1002,7 +1002,7 @@ commands(
         "(p) < fff -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         measures=(86, 92),
-        pieces=baca.selectors.mgroups([3, 4 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [3, 4 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.new(
@@ -1061,7 +1061,7 @@ commands(
                 abjad.Tweak(r"- \tweak padding 1.5"),
             ),
             baca.untie(
-                baca.selectors.pleaf(0),
+                lambda _: baca.select.pleaf(_, 0),
             ),
             match=0,
         ),
@@ -1117,7 +1117,7 @@ commands(
                 abjad.Tweak(r"- \tweak padding 1.5"),
             ),
             baca.untie(
-                baca.selectors.pleaf(0),
+                lambda _: baca.select.pleaf(_, 0),
             ),
             match=0,
         ),

@@ -131,7 +131,7 @@ commands(
 commands(
     ("v1", (23, 28)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.hairpin(
         "f < ff >",
@@ -146,7 +146,7 @@ commands(
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.flight(
         "C",
@@ -169,14 +169,14 @@ commands(
     ),
     baca.pitch("Aqs5"),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
 commands(
     ("v1", (30, 35)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.hairpin(
         "ff < fff >",
@@ -191,7 +191,7 @@ commands(
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.flight(
         "C",
@@ -209,7 +209,9 @@ commands(
     ),
     baca.hairpin(
         "p -- ! >o niente",
-        pieces=baca.selectors.cmgroups(),
+        pieces=lambda _: baca.select.cmgroups(
+            _,
+        ),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.text_spanner(
@@ -331,7 +333,7 @@ commands(
 commands(
     ("v2", (23, 28)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.hairpin(
         "f < ff >",
@@ -346,7 +348,7 @@ commands(
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.flight(
         "C",
@@ -369,14 +371,14 @@ commands(
     baca.pitch("F#5"),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
 commands(
     ("v2", (30, 35)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.hairpin(
         "ff < fff >",
@@ -391,7 +393,7 @@ commands(
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.flight(
         "C",
@@ -409,7 +411,9 @@ commands(
     ),
     baca.hairpin(
         "p -- ! >o niente",
-        pieces=baca.selectors.cmgroups(),
+        pieces=lambda _: baca.select.cmgroups(
+            _,
+        ),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.text_spanner(
@@ -480,7 +484,7 @@ commands(
 commands(
     ("va", (23, 28)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.hairpin(
         "f < ff >",
@@ -495,7 +499,7 @@ commands(
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.flight(
         "C",
@@ -518,14 +522,14 @@ commands(
     ),
     baca.pitch("G#3"),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
 commands(
     ("va", (30, 35)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.hairpin(
         "ff < fff >",
@@ -540,7 +544,7 @@ commands(
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.flight(
         "C",
@@ -558,7 +562,9 @@ commands(
     ),
     baca.hairpin(
         "p -- ! >o niente",
-        pieces=baca.selectors.cmgroups(),
+        pieces=lambda _: baca.select.cmgroups(
+            _,
+        ),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.text_spanner(
@@ -633,7 +639,7 @@ commands(
 commands(
     ("vc", (23, 28)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.hairpin(
         "f < ff >",
@@ -648,7 +654,7 @@ commands(
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.flight(
         "C",
@@ -685,14 +691,14 @@ commands(
     ),
     baca.pitch("G2"),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
 commands(
     ("vc", (30, 35)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.hairpin(
         "ff < fff >",
@@ -707,7 +713,7 @@ commands(
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.flight(
         "C",
@@ -721,7 +727,9 @@ commands(
     baca.flat_glissando("B1"),
     baca.hairpin(
         "p -- ! >o niente",
-        pieces=baca.selectors.cmgroups(),
+        pieces=lambda _: baca.select.cmgroups(
+            _,
+        ),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.tasto_spanner(

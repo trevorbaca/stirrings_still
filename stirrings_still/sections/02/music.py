@@ -194,7 +194,7 @@ commands(
     ("v1", (5, 7)),
     baca.hairpin(
         "mf -- ! >o niente",
-        pieces=baca.selectors.mgroups([1, 2]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 2]),
         selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     library.clockticks(
@@ -213,7 +213,7 @@ commands(
     baca.flat_glissando("C5"),
     library.circles(
         (1, 4),
-        rmakers.force_rest(baca.selectors.lt(-1)),
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     ),
 )
 
@@ -224,7 +224,7 @@ commands(
     ),
     baca.hairpin(
         "p -- (p) >o niente",
-        pieces=baca.selectors.mgroups([8, 5 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [8, 5 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -409,7 +409,7 @@ commands(
             abjad.Tweak(r"- \tweak staff-padding 13"),
             library.left_broken_tasto_tweak(),
         ),
-        pieces=baca.selectors.mgroups([2, 4, 5 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [2, 4, 5 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -448,24 +448,24 @@ commands(
     ),
     baca.hairpin(
         "p <| mp p < mp",
-        pieces=baca.selectors.clparts([1]),
+        pieces=lambda _: baca.select.clparts(_, [1]),
     ),
     baca.new(
         library.breathe(
-            selector=baca.selectors.pleaf(1),
+            selector=lambda _: baca.select.pleaf(_, 1),
         ),
         library.urtext_spanner("A, B -|", 8),
         match=0,
     ),
     baca.new(
         library.breathe(
-            selector=baca.selectors.pleaf(1),
+            selector=lambda _: baca.select.pleaf(_, 1),
         ),
         library.urtext_spanner("A, B -|", 10.5),
         match=[1, 2],
     ),
     baca.stop_on_string(
-        selector=baca.selectors.pleaf(-1),
+        selector=lambda _: baca.select.pleaf(_, -1),
     ),
     library.declamation(),
 )
@@ -523,7 +523,7 @@ commands(
     baca.suite(
         baca.new(
             baca.espressivo(),
-            baca.stem_tremolo(selector=baca.selectors.pleaves()),
+            baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
             map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
         ),
         baca.untie(baca.selectors.leaves()),
@@ -569,20 +569,20 @@ commands(
     baca.hairpin(
         "ppp < mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "T -> ord. =|",
         abjad.Tweak(r"- \tweak staff-padding 13"),
         match=0,
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
     ),
     baca.scp_spanner(
         "T -> ord. =|",
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
         match=[1, 2, 3],
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
     ),
 )
 
@@ -590,7 +590,7 @@ commands(
     ("tutti", (32, 33)),
     baca.hairpin(
         "o< mp -- !",
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.markup(
@@ -611,7 +611,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     library.rasp(),
@@ -623,21 +623,21 @@ commands(
     baca.hairpin(
         "pp < mf -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "T -> poco P =|",
         abjad.Tweak(r"- \tweak staff-padding 13"),
         match=0,
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "T -> poco P =|",
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
         match=[1, 2, 3],
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -647,20 +647,20 @@ commands(
     baca.hairpin(
         "p < f -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "T -> P =|",
         abjad.Tweak(r"- \tweak staff-padding 13"),
         match=0,
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
     ),
     baca.scp_spanner(
         "T -> P =|",
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
         match=[1, 2, 3],
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
     ),
 )
 
@@ -668,20 +668,20 @@ commands(
     ("tutti", (40, 41)),
     baca.hairpin(
         "mp < ff -- !",
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "T -> P molto =|",
         abjad.Tweak(r"- \tweak staff-padding 13"),
         match=0,
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
     ),
     baca.scp_spanner(
         "T -> P molto =|",
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
         match=[1, 2, 3],
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
     ),
 )
 
@@ -839,7 +839,7 @@ commands(
     ("v2", (5, 7)),
     baca.hairpin(
         "mf -- ! >o niente",
-        pieces=baca.selectors.mgroups([1, 2]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 2]),
         selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
 )
@@ -881,7 +881,7 @@ commands(
     baca.hairpin(
         "p -- (p) < mf -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        pieces=baca.selectors.mgroups([6, 3, 5 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [6, 3, 5 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -1076,7 +1076,7 @@ commands(
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
             library.left_broken_tasto_tweak(),
         ),
-        pieces=baca.selectors.mgroups([2, 4, 2 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [2, 4, 2 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.tuplet_bracket_staff_padding(1.5),
@@ -1148,7 +1148,7 @@ commands(
     ("va", (5, 7)),
     baca.hairpin(
         "mf -- niente o< p -- !",
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -1174,12 +1174,12 @@ commands(
     ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.flat_glissando("Ab3"),
     baca.hairpin(
         "p-ancora -- (p) >o niente",
-        pieces=baca.selectors.mgroups([8, 2 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [8, 2 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     library.circles((1, 4)),
@@ -1217,7 +1217,7 @@ commands(
     baca.hairpin(
         "o< mf -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        pieces=baca.selectors.mgroups([2, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [2, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -1354,7 +1354,7 @@ commands(
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
             library.left_broken_tasto_tweak(),
         ),
-        pieces=baca.selectors.mgroups([2, 4, 4 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [2, 4, 4 + 1]),
     ),
     baca.tuplet_bracket_staff_padding(1.5),
 )
@@ -1445,7 +1445,7 @@ commands(
     baca.hairpin(
         "o< f -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        pieces=baca.selectors.mgroups([4, 2 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [4, 2 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     library.clouded_pane(),
@@ -1553,7 +1553,7 @@ commands(
     baca.hairpin(
         "(p) < mf -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        pieces=baca.selectors.mgroups([3, 3 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [3, 3 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.tasto_spanner(
@@ -1566,7 +1566,7 @@ commands(
     ),
     library.trajectories("B", 0, 0),
     # stage 2:
-    baca.tie(baca.selectors.lleaf(0)),
+    baca.tie(lambda _: baca.select.lleaf(_, 0)),
     # stage 3:
     library.multistage_leaf_glissando(
         [("Bb4", 6), ("D5", 6), ("C5", 6), ("Eb5", 6), ("D5", None)],
@@ -1718,7 +1718,7 @@ commands(
     baca.hairpin(
         "fff -- ff > ppp --",
         bookend=False,
-        pieces=baca.selectors.mgroups([2, 4, 5 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [2, 4, 5 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -1729,7 +1729,7 @@ commands(
         "P poss. -> P molto -> T =|",
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
         library.left_broken_tasto_tweak(),
-        pieces=baca.selectors.mgroups([2, 4, 6 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [2, 4, 6 + 1]),
     ),
     baca.tuplet_bracket_staff_padding(1.5),
 )
