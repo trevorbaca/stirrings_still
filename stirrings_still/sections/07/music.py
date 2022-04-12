@@ -161,7 +161,7 @@ commands(
 commands(
     ("tutti", (16, 17)),
     baca.espressivo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.hairpin(
         "pp < mf",
@@ -223,7 +223,7 @@ commands(
         ),
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.tuplet_bracket_down(),
     library.urtext_spanner("urtext (ds) -|", 8),
@@ -373,7 +373,7 @@ commands(
     ("vc", [1, 3, 7, 9]),
     baca.hairpin(
         "o< f >o !",
-        pieces=baca.selectors.lparts([1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 2]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -397,7 +397,7 @@ commands(
     ("vc", 11),
     baca.hairpin(
         "o< f -- !",
-        pieces=baca.selectors.lparts([1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 2]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -406,7 +406,7 @@ commands(
     ("vc", 14),
     baca.hairpin(
         "f -- ! >o niente",
-        pieces=baca.selectors.lparts([1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 2]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )

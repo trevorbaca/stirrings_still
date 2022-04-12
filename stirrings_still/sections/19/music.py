@@ -84,12 +84,14 @@ commands(
     ),
     baca.dynamic_text_self_alignment_x(
         0.75,
-        selector=baca.selectors.pleaf(-1),
+        selector=lambda _: baca.select.pleaf(_, -1),
     ),
     baca.flat_glissando("Bb4"),
     baca.hairpin(
         "p > ppp <",
-        pieces=baca.selectors.cmgroups(),
+        pieces=lambda _: baca.select.cmgroups(
+            _,
+        ),
     ),
     baca.new(
         baca.markup(
@@ -125,12 +127,14 @@ commands(
     ),
     baca.dynamic_text_self_alignment_x(
         0.75,
-        selector=baca.selectors.pleaf(-1),
+        selector=lambda _: baca.select.pleaf(_, -1),
     ),
     baca.flat_glissando("F4"),
     baca.hairpin(
         "ppp < p >",
-        pieces=baca.selectors.cmgroups(),
+        pieces=lambda _: baca.select.cmgroups(
+            _,
+        ),
     ),
     baca.new(
         baca.markup(
@@ -184,7 +188,7 @@ commands(
     baca.hairpin(
         "o< f -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        pieces=baca.selectors.mgroups([1, 1 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -194,7 +198,7 @@ commands(
     baca.hairpin(
         "o< ff -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        pieces=baca.selectors.mgroups([1, 2 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 2 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -204,7 +208,7 @@ commands(
     baca.hairpin(
         "o< fff -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        pieces=baca.selectors.mgroups([2, 4 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [2, 4 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )

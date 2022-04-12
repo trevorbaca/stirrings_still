@@ -182,7 +182,7 @@ commands(
     ("v1", [10, 15, 17]),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
@@ -198,11 +198,11 @@ commands(
 commands(
     ("v1", (18, 20)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.breathe(),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.flight(
         "A",
@@ -252,7 +252,7 @@ commands(
 commands(
     ("v1", (24, 31)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.breathe(),
     baca.dynamic("p"),
@@ -262,7 +262,7 @@ commands(
         direction=abjad.DOWN,
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -281,10 +281,10 @@ commands(
 commands(
     ("v1", (32, 37)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
@@ -294,7 +294,7 @@ commands(
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
-        pieces=baca.selectors.cmgroups([1, 1, 1, 1, 2, 1]),
+        pieces=lambda _: baca.select.cmgroups(_, [1, 1, 1, 1, 2, 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
@@ -323,7 +323,7 @@ commands(
 commands(
     ("v1", (38, 45)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.hairpin(
         "p > pp",
@@ -533,7 +533,7 @@ commands(
     ("v2", [10, (11, 12), 14, 17]),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
@@ -549,11 +549,11 @@ commands(
 commands(
     ("v2", (18, 20)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.breathe(),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.flight(
         "A",
@@ -603,7 +603,7 @@ commands(
 commands(
     ("v2", (24, 31)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.breathe(),
     baca.dynamic("p"),
@@ -612,7 +612,7 @@ commands(
         abjad.Tweak(r"- \tweak padding 0.5"),
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -631,10 +631,10 @@ commands(
 commands(
     ("v2", (32, 37)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
@@ -644,7 +644,7 @@ commands(
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
-        pieces=baca.selectors.cmgroups([1, 2, 1, 1, 1, 1]),
+        pieces=lambda _: baca.select.cmgroups(_, [1, 2, 1, 1, 1, 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
@@ -672,7 +672,7 @@ commands(
 commands(
     ("v2", (38, 45)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.hairpin(
         "p > pp",
@@ -807,14 +807,14 @@ commands(
     ("va", (14, 15)),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
 commands(
     ("va", (18, 20)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.breathe(),
     baca.markup(
@@ -822,7 +822,7 @@ commands(
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.flat_glissando("G#3"),
     library.flight(
@@ -873,7 +873,7 @@ commands(
 commands(
     ("va", (24, 31)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.breathe(),
     baca.dynamic("p"),
@@ -882,7 +882,7 @@ commands(
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -901,10 +901,10 @@ commands(
 commands(
     ("va", (32, 37)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
@@ -914,7 +914,7 @@ commands(
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
-        pieces=baca.selectors.cmgroups([1, 1, 2, 1, 1, 1]),
+        pieces=lambda _: baca.select.cmgroups(_, [1, 1, 2, 1, 1, 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
@@ -942,7 +942,7 @@ commands(
 commands(
     ("va", (38, 42)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.text_spanner(
         r"\baca-null-markup || \baca-damp-markup =|",
@@ -1092,7 +1092,7 @@ commands(
     ("vc", [(11, 12), (15, 17)]),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
@@ -1104,11 +1104,11 @@ commands(
 commands(
     ("vc", (18, 20)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.breathe(),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.flight(
         "A",
@@ -1127,7 +1127,9 @@ commands(
     ),
     baca.hairpin(
         'niente o< "f" -- ! >o niente',
-        pieces=baca.selectors.cmgroups(),
+        pieces=lambda _: baca.select.cmgroups(
+            _,
+        ),
     ),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6.5}"),
@@ -1148,12 +1150,12 @@ commands(
 commands(
     ("vc", (24, 31)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.breathe(),
     baca.dynamic("p"),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -1172,7 +1174,7 @@ commands(
 commands(
     ("vc", (32, 37)),
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -1181,7 +1183,7 @@ commands(
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
@@ -1191,7 +1193,7 @@ commands(
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
-        pieces=baca.selectors.cmgroups([1, 1, 1, 2, 1, 1]),
+        pieces=lambda _: baca.select.cmgroups(_, [1, 1, 1, 2, 1, 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     library.flight(
@@ -1225,7 +1227,7 @@ commands(
     baca.scp_spanner(
         "T -> T poss. =|",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        pieces=baca.selectors.cmgroups([8, 8]),
+        pieces=lambda _: baca.select.cmgroups(_, [8, 8]),
     ),
     library.clouded_pane(),
 )

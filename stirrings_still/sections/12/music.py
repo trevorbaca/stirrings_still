@@ -183,7 +183,7 @@ commands(
     "trio",
     baca.hairpin(
         '"f" > p p < "ff" > p p < "fff" > p p < "fff" >o !',
-        pieces=baca.selectors.mgroups([2, 1, 1, 2, 1, 1, 2, 1, 1, 4 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [2, 1, 1, 2, 1, 1, 2, 1, 1, 4 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -440,7 +440,7 @@ commands(
     baca.hairpin(
         "p < ff ff > p < ff ff > p < fff fff > p < fff",
         measures=(1, 15),
-        pieces=baca.selectors.cmgroups([2, 1, 1]),
+        pieces=lambda _: baca.select.cmgroups(_, [2, 1, 1]),
     ),
     library.clouded_pane(),
     library.clouded_pane_spanner(

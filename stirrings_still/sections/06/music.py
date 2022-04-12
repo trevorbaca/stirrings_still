@@ -58,7 +58,7 @@ commands(
     ),
     baca.hairpin(
         "pp < f > pp < f > pp < f >o niente",
-        pieces=baca.selectors.mgroups([1, 2, 1, 2, 1, 2]),
+        pieces=lambda _: baca.select.mgroups(_, [1, 2, 1, 2, 1, 2]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.markup(
@@ -82,7 +82,7 @@ commands(
     ),
     baca.hairpin(
         "pp < f > pp < f > pp < f >o niente",
-        pieces=baca.selectors.mgroups([2, 1, 2, 1, 1, 2]),
+        pieces=lambda _: baca.select.mgroups(_, [2, 1, 2, 1, 1, 2]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.markup(
@@ -126,7 +126,7 @@ commands(
     ),
     baca.hairpin(
         "(p) < ff -- (ff) >o niente",
-        pieces=baca.selectors.mgroups([2, 4, 2 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [2, 4, 2 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     library.clouded_pane(),

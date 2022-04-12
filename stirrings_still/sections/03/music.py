@@ -178,7 +178,7 @@ commands(
     ("v1", (36, 59)),
     baca.suite(
         baca.new(
-            baca.tie(baca.selectors.lleaf(0)),
+            baca.tie(lambda _: baca.select.lleaf(_, 0)),
             measures=56,
         ),
         baca.articulations(
@@ -366,7 +366,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
-        pieces=baca.selectors.omgroups([2]),
+        pieces=lambda _: baca.select.omgroups(_, [2]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -403,7 +403,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
-        pieces=baca.selectors.omgroups([2]),
+        pieces=lambda _: baca.select.omgroups(_, [2]),
         selector=baca.selectors.ltleaves_rleak(),
     ),
 )
@@ -433,7 +433,7 @@ commands(
         library.left_broken_circle_bow_tweak(),
         autodetect_right_padding=True,
         bookend=False,
-        pieces=baca.selectors.omgroups([2]),
+        pieces=lambda _: baca.select.omgroups(_, [2]),
         selector=baca.selectors.ltleaves_rleak(),
     ),
 )
@@ -732,7 +732,7 @@ commands(
     ("v2", (36, 59)),
     baca.suite(
         baca.new(
-            baca.tie(baca.selectors.lleaf(0)),
+            baca.tie(lambda _: baca.select.lleaf(_, 0)),
             measures=56,
         ),
         baca.articulations(
@@ -792,7 +792,7 @@ commands(
     ("va", (36, 59)),
     baca.suite(
         baca.new(
-            baca.tie(baca.selectors.lleaf(0)),
+            baca.tie(lambda _: baca.select.lleaf(_, 0)),
             measures=56,
         ),
         baca.articulations(
@@ -893,7 +893,7 @@ commands(
     ("vc", (36, 59)),
     baca.suite(
         baca.new(
-            baca.tie(baca.selectors.lleaf(0)),
+            baca.tie(lambda _: baca.select.lleaf(_, 0)),
             measures=56,
         ),
         baca.articulations(

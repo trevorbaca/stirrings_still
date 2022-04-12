@@ -349,7 +349,7 @@ def bcps(
     return result_
 
 
-def breathe(selector=baca.selectors.pleaf(-1)):
+def breathe(selector=lambda _: baca.select.pleaf(_, -1)):
     """
     Makes breathe command with (-0.25, 2) extra offset.
     """
@@ -1785,7 +1785,7 @@ def left_broken_tasto_tweak():
 
 def loure_tuplets(extra_count, *, measures=None):
     command = baca.suite(
-        baca.espressivo(selector=baca.selectors.pheads()),
+        baca.espressivo(selector=lambda _: baca.select.pheads(_)),
         desynchronization(8, [extra_count]),
         measures=measures,
     )
@@ -3139,7 +3139,7 @@ def taper(tuplet_ratio=(1, 4, 1), *, measures=None):
         rmakers.tuplet([tuplet_ratio]),
         rmakers.beam(),
         rmakers.repeat_tie(
-            baca.selectors.notes((1, None)),
+            lambda _: abjad.select.notes(_)[1:],
         ),
         rmakers.extract_trivial(),
         measures=measures,
@@ -3286,7 +3286,9 @@ def transition_bcps(*, final_spanner=False, staff_padding=None):
 
     def helper(padded_bcps, argument):
         result = []
-        selector = baca.selectors.cmgroups()
+        selector = lambda _: baca.select.cmgroups(
+            _,
+        )
         for leaves in selector(argument):
             result.extend(padded_bcps[: len(leaves)])
         return result

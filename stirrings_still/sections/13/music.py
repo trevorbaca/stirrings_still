@@ -177,7 +177,7 @@ commands(
         "o< f >o",
         bookend=False,
         measures=(1, 12),
-        pieces=baca.selectors.mgroups([8, 4]),
+        pieces=lambda _: baca.select.mgroups(_, [8, 4]),
     ),
     baca.hairpin(
         "o< ff",
@@ -193,7 +193,7 @@ commands(
     baca.hairpin(
         "o< fff >o ! o< fff",
         measures=(21, 32),
-        pieces=baca.selectors.mgroups([5, 3, 4]),
+        pieces=lambda _: baca.select.mgroups(_, [5, 3, 4]),
     ),
 )
 
@@ -498,7 +498,7 @@ commands(
         "(fff) > f < fff -- (fff) > f < fff -- (fff) > f < fff",
         bookend=False,
         measures=(7, -1),
-        pieces=baca.selectors.mgroups([2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]),
+        pieces=lambda _: baca.select.mgroups(_, [2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.new(
