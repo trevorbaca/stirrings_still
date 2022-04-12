@@ -49,7 +49,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "H",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
@@ -470,7 +470,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
@@ -479,7 +479,7 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.note_head_style_harmonic(),
     baca.suite(
-        baca.untie(baca.selectors.leaf(1)),
+        baca.untie(lambda _: abjad.select.leaf(_, 1)),
         baca.pitch(
             "Ab2",
             selector=lambda _: baca.select.pleaf(_, 0),
@@ -623,7 +623,7 @@ commands(
         "niente o< p -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         pieces=lambda _: baca.select.mgroups(_, [2, 4 + 1]),
-        selector=baca.selectors.ltleaves_rleak(),
+        selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
     baca.new(
         baca.markup(
@@ -698,7 +698,7 @@ commands(
         autodetect_right_padding=True,
         bookend=False,
         pieces=lambda _: baca.select.mgroups(_, [1, 2]),
-        selector=baca.selectors.ltleaves_rleak(),
+        selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
 )
 
@@ -863,12 +863,12 @@ commands(
         qualifier="wide",
         # TODO: allow spanner to run to end of segment
         # selector=lambda _: baca.select.rleaves(_),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.hairpin(
         "mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.ltleaves_rleak(),
+        selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
     baca.new(
         baca.beam(),

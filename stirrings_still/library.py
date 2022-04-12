@@ -311,7 +311,7 @@ def bcps(
     rotation,
     clt=False,
     measures=None,
-    selector=baca.selectors.leaves(),
+    selector=lambda _: baca.select.leaves(_),
     staff_padding=None,
 ):
     assert staff_padding is not None, repr(staff_padding)
@@ -1800,7 +1800,7 @@ def margin_markup(
     *,
     alert=None,
     context="Staff",
-    selector=baca.selectors.leaf(0),
+    selector=lambda _: abjad.select.leaf(_, 0),
 ):
     margin_markup = margin_markups[key]
     command = baca.margin_markup(
@@ -1946,7 +1946,7 @@ def ntlt_flat_glissandi():
             baca.note_head_x_extent_zero(),
             selector=baca.selectors.leaves((1, None)),
         ),
-        baca.untie(baca.selectors.leaves()),
+        baca.untie(lambda _: baca.select.leaves(_)),
         map=baca.selectors.lts(nontrivial=True),
     )
 
@@ -3286,10 +3286,7 @@ def transition_bcps(*, final_spanner=False, staff_padding=None):
 
     def helper(padded_bcps, argument):
         result = []
-        selector = lambda _: baca.select.cmgroups(
-            _,
-        )
-        for leaves in selector(argument):
+        for leaves in baca.select.cmgroups(argument):
             result.extend(padded_bcps[: len(leaves)])
         return result
 

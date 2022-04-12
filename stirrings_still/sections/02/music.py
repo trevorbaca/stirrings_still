@@ -60,7 +60,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "B",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
@@ -444,7 +444,7 @@ commands(
     ("trio", 26),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.hairpin(
         "p <| mp p < mp",
@@ -526,7 +526,7 @@ commands(
             baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
             map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
         ),
-        baca.untie(baca.selectors.leaves()),
+        baca.untie(lambda _: baca.select.leaves(_)),
     ),
     # stage 2 (after tie adjustments):
     baca.new(

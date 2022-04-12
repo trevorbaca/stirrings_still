@@ -49,7 +49,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "C",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
@@ -404,7 +404,7 @@ commands(
         autodetect_right_padding=True,
         bookend=False,
         pieces=lambda _: baca.select.omgroups(_, [2]),
-        selector=baca.selectors.ltleaves_rleak(),
+        selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
 )
 
@@ -434,7 +434,7 @@ commands(
         autodetect_right_padding=True,
         bookend=False,
         pieces=lambda _: baca.select.omgroups(_, [2]),
-        selector=baca.selectors.ltleaves_rleak(),
+        selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
 )
 
@@ -459,7 +459,7 @@ commands(
     ),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.ltleaves_rleak(),
+        selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         qualifier="wide",
     ),
 )

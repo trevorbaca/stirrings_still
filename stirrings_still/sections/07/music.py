@@ -37,7 +37,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "G",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
@@ -114,7 +114,7 @@ commands(
     ("trio", (5, 6)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
     baca.hairpin(
         "appena-udibile -- !",
@@ -211,10 +211,10 @@ commands(
     baca.new(
         baca.dynamic_text_extra_offset((-5, 0)),
         measures=18,
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
     baca.suite(
-        baca.untie(baca.selectors.leaves()),
+        baca.untie(lambda _: baca.select.leaves(_)),
         baca.scp_spanner(
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -239,7 +239,7 @@ commands(
     baca.suite(
         baca.new(
             baca.stop_on_string(
-                selector=baca.selectors.leaf(-1),
+                selector=lambda _: abjad.select.leaf(_, -1),
             ),
             map=baca.selectors.lts(nontrivial=True),
         ),

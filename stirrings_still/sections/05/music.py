@@ -53,7 +53,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "E",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
@@ -188,7 +188,7 @@ commands(
             clt=True,
             staff_padding=4.5,
         ),
-        baca.untie(baca.selectors.leaves()),
+        baca.untie(lambda _: baca.select.leaves(_)),
     ),
     baca.tuplet_bracket_down(),
     baca.flat_glissando("Ab4"),
@@ -499,7 +499,7 @@ commands(
     ),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.hairpin(
         "p <| mp p < mp",
@@ -805,7 +805,7 @@ commands(
             clt=True,
             staff_padding=4.5,
         ),
-        baca.untie(baca.selectors.leaves()),
+        baca.untie(lambda _: baca.select.leaves(_)),
     ),
     baca.tuplet_bracket_down(),
     library.multistage_leaf_glissando(
@@ -1220,7 +1220,7 @@ commands(
     ),
     baca.new(
         baca.breathe(
-            baca.selectors.leaf(-1),
+            lambda _: abjad.select.leaf(_, -1),
             abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
         ),
         library.desynchronization(4, [-1]),
@@ -1318,7 +1318,7 @@ commands(
     ("vc", (4, 5)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
     baca.hairpin(
         "ff > p",
@@ -1345,7 +1345,7 @@ commands(
     baca.new(
         baca.dynamic_text_self_alignment_x(-0.75),
         measures=24,
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
 )
 
@@ -1416,7 +1416,7 @@ commands(
         "clouded pane (stepwise above) -|",
         5.5,
         # TODO: extend to phantom measure
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.flat_glissando(
         "Eb2",

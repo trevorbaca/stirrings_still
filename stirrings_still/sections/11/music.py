@@ -43,7 +43,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "K",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
@@ -366,13 +366,13 @@ commands(
     baca.damp_spanner(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         # TODO: allow spanner to extend to phantom measure
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.scp_spanner(
         "T poss. =|",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         # TODO: allow spanner to extend to phantom measure
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
@@ -714,13 +714,13 @@ commands(
     baca.damp_spanner(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         # TODO: allow spanner to extend to phantom measure
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.scp_spanner(
         "T poss. =|",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         # TODO: allow spanner to extend to phantom measure
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
@@ -989,7 +989,7 @@ commands(
     baca.damp_spanner(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         # TODO: allow spanner to extend to phantom measure
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.hairpin("p >o niente"),
     baca.make_repeat_tied_notes(
@@ -999,7 +999,7 @@ commands(
         "T poss. =|",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         # TODO: allow spanner to extend to phantom measure
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
@@ -1209,7 +1209,7 @@ commands(
         "clouded pane -|",
         13,
         # TODO: allow spanner to extend to phantom measure
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.flat_glissando(
         "Db2",

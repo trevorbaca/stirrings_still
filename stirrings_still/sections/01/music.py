@@ -231,7 +231,7 @@ commands(
     ("trio", 1),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.hairpin(
         "p <| f p < mp",
@@ -266,7 +266,7 @@ commands(
     ("trio", 3),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.hairpin(
         "p <| f p < mf",
@@ -285,7 +285,7 @@ commands(
     ("trio", (5, 6)),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.hairpin(
         "p <| f p < mf-poco-scratch",
@@ -297,7 +297,7 @@ commands(
     ("trio", (8, 9)),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.hairpin(
         "p <| f p < f-poco-scratch",
@@ -309,7 +309,7 @@ commands(
     ("trio", (11, 16)),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.hairpin(
         "p <| f",
@@ -324,7 +324,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.breathe(
-        selector=baca.selectors.leaf(1),
+        selector=lambda _: abjad.select.leaf(_, 1),
     ),
     library.declamation(
         protract=True,
@@ -340,7 +340,7 @@ commands(
     ("trio", 18),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.hairpin(
         "pp <| p pp <| p",
@@ -371,7 +371,7 @@ commands(
     ("trio", 20),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.hairpin(
         "pp <| p pp <| mp",
@@ -383,7 +383,7 @@ commands(
     ("trio", 22),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.hairpin(
         "pp <| p pp <| mf",
@@ -408,7 +408,7 @@ commands(
     ("trio", 25),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.hairpin(
         "pp <| p pp <| f",
@@ -440,7 +440,7 @@ commands(
     ("trio", 29),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.hairpin(
         "pp <| p pp <| ff",
@@ -478,7 +478,7 @@ commands(
     ("trio", 60),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.hairpin(
         "p <| f p < mp",

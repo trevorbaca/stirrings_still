@@ -59,7 +59,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "D",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
@@ -238,7 +238,7 @@ commands(
     ("trio", [47, 55]),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.hairpin(
         "p <| mp p < mp",
@@ -320,7 +320,7 @@ commands(
     baca.hairpin(
         "mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=baca.selectors.ltleaves_rleak(),
+        selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
     baca.new(
         baca.beam(),
@@ -390,7 +390,7 @@ commands(
             baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
             map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
         ),
-        baca.untie(baca.selectors.leaves()),
+        baca.untie(lambda _: baca.select.leaves(_)),
     ),
 )
 
@@ -748,7 +748,7 @@ commands(
     baca.suite(
         baca.new(
             baca.stem_tremolo(
-                selector=baca.selectors.leaf(-1),
+                selector=lambda _: abjad.select.leaf(_, -1),
             ),
             map=baca.selectors.lts(nontrivial=True),
         ),
@@ -771,7 +771,7 @@ commands(
     baca.suite(
         baca.new(
             baca.stop_on_string(
-                selector=baca.selectors.leaf(-1),
+                selector=lambda _: abjad.select.leaf(_, -1),
             ),
             map=baca.selectors.lts(nontrivial=True),
         ),
@@ -1035,7 +1035,7 @@ commands(
         "clouded pane (stepwise up) -|",
         5.5,
         # TODO: extend spanner to phantom measure
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
@@ -1076,7 +1076,7 @@ commands(
     baca.suite(
         baca.new(
             baca.stem_tremolo(
-                selector=baca.selectors.leaf(-1),
+                selector=lambda _: abjad.select.leaf(_, -1),
             ),
             map=baca.selectors.lts(nontrivial=True),
         ),
@@ -1089,7 +1089,7 @@ commands(
     baca.suite(
         baca.new(
             baca.stop_on_string(
-                selector=baca.selectors.leaf(-1),
+                selector=lambda _: abjad.select.leaf(_, -1),
             ),
             map=baca.selectors.lts(nontrivial=True),
         ),

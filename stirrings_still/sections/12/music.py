@@ -27,7 +27,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "L",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
@@ -447,7 +447,7 @@ commands(
         "clouded pane (continues) -|",
         5.5,
         # TODO: extend to phantom measure
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
