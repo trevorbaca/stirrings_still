@@ -431,7 +431,9 @@ commands(
 
 commands(
     ("trio", (46, 53)),
-    baca.stem_transparent(selector=baca.selectors.leaves((None, -1))),
+    baca.stem_transparent(
+        selector=lambda _: baca.select.leaves(_)[:-1],
+    ),
 )
 
 # v1, v2, vc
@@ -1222,7 +1224,7 @@ commands(
     baca.new(
         baca.dots_transparent(),
         baca.stem_transparent(),
-        selector=baca.selectors.leaves((None, -1)),
+        selector=lambda _: baca.select.leaves(_)[:-1],
     ),
     baca.scp_spanner(
         "T -> T poss. =|",

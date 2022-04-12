@@ -313,12 +313,12 @@ commands(
     ),
     baca.hairpin(
         "p <| f",
-        selector=baca.selectors.leaves((None, 2)),
+        selector=lambda _: baca.select.leaves(_)[:2],
     ),
     baca.hairpin(
         "p < f-scratch -- ! >o niente",
         pieces=lambda _: baca.select.omgroups(_, [1, 2]),
-        selector=baca.selectors.leaves((2, None), rleak=True),
+        selector=lambda _: baca.select.rleak(baca.select.leaves(_)[2:]),
     ),
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),

@@ -509,7 +509,7 @@ commands(
     baca.hairpin(
         "mp p",
         bookend=False,
-        pieces=baca.selectors.lts(nontrivial=True),
+        pieces=lambda _: baca.select.lts(_, nontrivial=True),
     ),
     baca.new(
         library.strokes(
@@ -554,7 +554,7 @@ commands(
     baca.hairpin(
         "mf mp",
         bookend=False,
-        pieces=baca.selectors.lts(nontrivial=True),
+        pieces=lambda _: baca.select.lts(_, nontrivial=True),
     ),
     baca.new(
         library.strokes(
@@ -599,7 +599,7 @@ commands(
     baca.hairpin(
         '"f" mf',
         bookend=False,
-        pieces=baca.selectors.lts(nontrivial=True),
+        pieces=lambda _: baca.select.lts(_, nontrivial=True),
     ),
     baca.new(
         library.strokes(
@@ -644,7 +644,7 @@ commands(
     baca.hairpin(
         '"ff" "f"',
         bookend=False,
-        pieces=baca.selectors.lts(nontrivial=True),
+        pieces=lambda _: baca.select.lts(_, nontrivial=True),
     ),
     baca.new(
         library.strokes(
@@ -750,7 +750,7 @@ commands(
             baca.stem_tremolo(
                 selector=lambda _: abjad.select.leaf(_, -1),
             ),
-            map=baca.selectors.lts(nontrivial=True),
+            map=lambda _: baca.select.lts(_, nontrivial=True),
         ),
         library.ntlt_flat_glissandi(),
     ),
@@ -773,7 +773,7 @@ commands(
             baca.stop_on_string(
                 selector=lambda _: abjad.select.leaf(_, -1),
             ),
-            map=baca.selectors.lts(nontrivial=True),
+            map=lambda _: baca.select.lts(_, nontrivial=True),
         ),
         library.ntlt_flat_glissandi(),
     ),
@@ -1078,7 +1078,7 @@ commands(
             baca.stem_tremolo(
                 selector=lambda _: abjad.select.leaf(_, -1),
             ),
-            map=baca.selectors.lts(nontrivial=True),
+            map=lambda _: baca.select.lts(_, nontrivial=True),
         ),
         library.ntlt_flat_glissandi(),
     ),
@@ -1091,7 +1091,7 @@ commands(
             baca.stop_on_string(
                 selector=lambda _: abjad.select.leaf(_, -1),
             ),
-            map=baca.selectors.lts(nontrivial=True),
+            map=lambda _: baca.select.lts(_, nontrivial=True),
         ),
         library.ntlt_flat_glissandi(),
     ),

@@ -602,12 +602,12 @@ def desynchronization(
 
     if rests is True:
         specifier = rmakers.force_rest(
-            baca.selectors.lts(([1], 2)),
+            lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
         )
         commands.append(specifier)
     elif isinstance(rests, tuple):
         specifier = rmakers.force_rest(
-            baca.selectors.lts(rests),
+            lambda _: abjad.select.get(baca.select.lts(_), rests),
         )
         commands.append(specifier)
 
@@ -1921,10 +1921,13 @@ def multistage_leaf_glissando(
 
         return selector
 
-    _final_selector = baca.selectors.leaves((start, stop))
     if rleak_final_stage:
-        # _final_selector = baca.selectors.rleaves((start, stop))
         _final_selector = make_final_selector(start, stop)
+    else:
+
+        def _final_selector(argument):
+            return baca.select.leaves(argument)[start:stop]
+
     chunk = baca.chunk(
         baca.glissando(
             allow_repeats=True,
@@ -1963,10 +1966,10 @@ def ntlt_flat_glissandi():
             baca.accidental_stencil_false(),
             baca.note_head_transparent(),
             baca.note_head_x_extent_zero(),
-            selector=baca.selectors.leaves((1, None)),
+            selector=lambda _: baca.select.leaves(_)[1:],
         ),
         baca.untie(lambda _: baca.select.leaves(_)),
-        map=baca.selectors.lts(nontrivial=True),
+        map=lambda _: baca.select.lts(_, nontrivial=True),
     )
 
 
@@ -3085,7 +3088,7 @@ def synchronized_circles(
         pass
     elif isinstance(rests, (list, tuple)):
         specifier = rmakers.force_rest(
-            baca.selectors.lts(rests),
+            lambda _: abjad.select.get(baca.select.lts(_), rests),
         )
         commands.append(specifier)
     else:
@@ -3103,13 +3106,13 @@ def synchronized_circles(
 def tailpiece(*tweaks, measures=None):
     command = baca.suite(
         baca.dots_transparent(
-            selector=baca.selectors.leaves((1, None)),
+            selector=lambda _: baca.select.leaves(_)[1:],
         ),
         baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
         baca.markup(r"\baca-boxed-markup tailpiece"),
         baca.staff_position(0),
         baca.stem_transparent(
-            selector=baca.selectors.leaves((1, None)),
+            selector=lambda _: baca.select.leaves(_)[1:],
         ),
         baca.text_script_parent_alignment_x(0),
         baca.flat_glissando(

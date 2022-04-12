@@ -617,7 +617,7 @@ commands(
     baca.new(
         baca.dots_transparent(),
         baca.stem_transparent(),
-        selector=baca.selectors.leaves((None, -1)),
+        selector=lambda _: baca.select.leaves(_)[:-1],
     ),
     library.clouded_pane(),
 )
