@@ -527,7 +527,7 @@ def continuous_tremolo():
             ),
             rmakers.force_repeat_tie(threshold=(1, 2)),
         ),
-        baca.stem_tremolo(selector=baca.selectors.pleaves()),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     )
     tag = abjad.Tag("stirrings_still.continuous_tremolo()")
     result = baca.tag(tag, command)
@@ -1836,10 +1836,19 @@ def multistage_leaf_glissando(
     assert all(isinstance(_, tuple) for _ in pairs), repr(pairs)
 
     if use_pleaves_lleak is True:
-        selector = baca.selectors.pleaves(lleak=True)
-        _rleaked_selector = baca.selectors.pleaves(lleak=True, rleak=True)
 
-        def _start_stop_selector(start, stop):
+        def selector(argument):
+            result = baca.select.pleaves(argument)
+            result = baca.select.lleak(result)
+            return result
+
+        def _rleaked_selector(argument):
+            result = baca.select.pleaves(argument)
+            result = baca.select.lleak(argument)
+            result = baca.select.rleak(argument)
+            return result
+
+        def _make_start_stop_selector(start, stop):
             def _inner_selector(argument):
                 result = baca.pleaves(argument)
                 result = baca.lleak(result)
@@ -1850,11 +1859,21 @@ def multistage_leaf_glissando(
 
     else:
 
-        selector = baca.selectors.pleaves()
-        _rleaked_selector = baca.selectors.pleaves(rleak=True)
+        def selector(argument):
+            return baca.select.pleaves(argument)
 
-        def _start_stop_selector(start, stop):
-            return baca.selectors.pleaves((start, stop))
+        def _rleaked_selector(argument):
+            result = baca.select.pleaves(argument)
+            result = baca.select.rleak(argument)
+            return result
+
+        def _make_start_stop_selector(start, stop):
+            def selector(argument):
+                result = baca.select.pleaves(argument)
+                result = result[start:stop]
+                return result
+
+            return selector
 
     commands = []
     if rleak_final_stage:
@@ -1875,12 +1894,12 @@ def multistage_leaf_glissando(
             baca.glissando(
                 allow_repeats=True,
                 hide_middle_note_heads=True,
-                selector=_start_stop_selector(start, stop),
+                selector=_make_start_stop_selector(start, stop),
             ),
             baca.interpolate_pitches(
                 start_pitch,
                 stop_pitch,
-                selector=_start_stop_selector(start, stop),
+                selector=_make_start_stop_selector(start, stop),
             ),
         )
         commands.append(chunk)
