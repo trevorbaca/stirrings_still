@@ -3058,8 +3058,12 @@ def strokes(rotation, *commands, measures=None):
             spelling=rmakers.Spelling(forbidden_note_duration=(1, 2)),
         ),
         *commands,
-        rmakers.untie(baca.selectors.leaves_in_each_tuplet(None, -1)),
-        rmakers.tie(baca.selectors.leaves_in_each_tuplet(None, -1)),
+        rmakers.untie(
+            lambda _: baca.select.leaves_in_each_tuplet(_, None, -1),
+        ),
+        rmakers.tie(
+            lambda _: baca.select.leaves_in_each_tuplet(_, None, -1),
+        ),
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
