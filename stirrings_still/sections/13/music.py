@@ -115,11 +115,11 @@ commands(
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
-        selector=baca.selectors.leaves((1, None), rleak=True),
+        selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
     ),
     baca.flat_glissando(
         "<D#4 A4>",
-        selector=baca.selectors.leaves((1, None)),
+        selector=lambda _: baca.select.leaves(_)[1:],
     ),
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
@@ -143,7 +143,7 @@ commands(
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
-        selector=baca.selectors.leaves((1, None), rleak=True),
+        selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
     ),
     library.pickets(
         4,
@@ -188,7 +188,7 @@ commands(
         ">o",
         bookend=False,
         measures=(17, 20),
-        selector=baca.selectors.leaves((1, None)),
+        selector=lambda _: baca.select.leaves(_)[1:],
     ),
     baca.hairpin(
         "o< fff >o ! o< fff",
@@ -229,7 +229,7 @@ commands(
     library.urtext_spanner(
         "urtext (ds) -|",
         8,
-        selector=baca.selectors.leaves((1, None), rleak=True),
+        selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
     ),
 )
 
@@ -319,11 +319,11 @@ commands(
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
-        selector=baca.selectors.leaves((1, None), rleak=True),
+        selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
     ),
     baca.flat_glissando(
         "<Dqs4 Gtqs4>",
-        selector=baca.selectors.leaves((1, None)),
+        selector=lambda _: baca.select.leaves(_)[1:],
     ),
     baca.markup(
         r"\stirrings-still-twenty-four-et-markup",
@@ -347,7 +347,7 @@ commands(
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
-        selector=baca.selectors.leaves((1, None), rleak=True),
+        selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
     ),
     library.pickets(
         4,
@@ -436,11 +436,11 @@ commands(
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
-        selector=baca.selectors.leaves((1, None), rleak=True),
+        selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
     ),
     baca.flat_glissando(
         "<D4 G#4>",
-        selector=baca.selectors.leaves((1, None)),
+        selector=lambda _: baca.select.leaves(_)[1:],
     ),
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
@@ -464,7 +464,7 @@ commands(
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
-        selector=baca.selectors.leaves((1, None), rleak=True),
+        selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
     ),
     library.pickets(
         4,

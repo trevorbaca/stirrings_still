@@ -241,7 +241,7 @@ commands(
             baca.stop_on_string(
                 selector=lambda _: abjad.select.leaf(_, -1),
             ),
-            map=baca.selectors.lts(nontrivial=True),
+            map=lambda _: baca.select.lts(_, nontrivial=True),
         ),
         library.ntlt_flat_glissandi(),
     ),
