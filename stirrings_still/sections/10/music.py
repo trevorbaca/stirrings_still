@@ -35,7 +35,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "J",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
@@ -100,7 +100,7 @@ commands(
     ("trio", (1, 2)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
     baca.hairpin(
         "appena-udibile -- !",
@@ -116,7 +116,7 @@ commands(
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.selectors.leaf(-1),
+        selector=lambda _: abjad.select.leaf(_, -1),
     ),
     baca.hairpin(
         "appena-udibile -- ! < fff-poco-scratch",
@@ -142,7 +142,7 @@ commands(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
         # TODO: allow spanner to extend to phantom measure
         # selector=lambda _: baca.select.rleaves(_),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.new(
         library.bcps(
@@ -352,7 +352,7 @@ commands(
     ("vc", (7, 11)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.selectors.leaf(-1),
+        selector=lambda _: abjad.select.leaf(_, -1),
     ),
     baca.flat_glissando(
         "Bb1",

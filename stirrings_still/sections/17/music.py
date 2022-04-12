@@ -41,7 +41,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "Q",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
@@ -255,7 +255,7 @@ commands(
     ),
     baca.damp_spanner(
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.ltleaves_rleak(),
+        selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
     baca.dynamic("p"),
     library.desynchronization(4, [2]),
@@ -1145,7 +1145,7 @@ commands(
     ),
     baca.dynamic_text_x_offset(
         -3,
-        selector=baca.selectors.leaf(-1),
+        selector=lambda _: abjad.select.leaf(_, -1),
     ),
     baca.tuplet_bracket_down(),
     library.bcps(

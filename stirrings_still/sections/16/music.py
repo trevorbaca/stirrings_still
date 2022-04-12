@@ -33,7 +33,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "P",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
@@ -201,7 +201,7 @@ commands(
     ("tutti", (1, 20)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     library.clouded_pane_spanner("clouded pane -|", 10.5),
 )

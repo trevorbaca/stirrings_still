@@ -35,7 +35,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "M",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
@@ -124,7 +124,7 @@ commands(
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.leaf(1),
+        selector=lambda _: abjad.select.leaf(_, 1),
     ),
     library.pickets(
         4,
@@ -328,7 +328,7 @@ commands(
     baca.markup(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.leaf(1),
+        selector=lambda _: abjad.select.leaf(_, 1),
     ),
     library.pickets(
         4,
@@ -445,7 +445,7 @@ commands(
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.leaf(1),
+        selector=lambda _: abjad.select.leaf(_, 1),
     ),
     library.pickets(
         4,
@@ -504,13 +504,13 @@ commands(
     baca.new(
         baca.hairpin_to_barline(),
         measures=29,
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
     library.clouded_pane_spanner(
         "clouded pane (semitone down) -|",
         5.5,
         # TODO: extend to phantom measure
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 

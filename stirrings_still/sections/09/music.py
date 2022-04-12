@@ -35,7 +35,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "I",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
@@ -119,7 +119,7 @@ commands(
     ("trio", (10, 11)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
     baca.hairpin(
         "appena-udibile -- !",
@@ -131,7 +131,7 @@ commands(
     library.urtext_spanner(
         "urtext (sustained ds) -|",
         5.5,
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
@@ -182,7 +182,7 @@ commands(
         "mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         measures=(1, 3),
-        selector=baca.selectors.ltleaves_rleak(),
+        selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
     baca.markup(
         r"\baca-seven-d-flat",
@@ -215,12 +215,12 @@ commands(
         # selector=lambda _: baca.select.rleaves(_),
         # temporary:
         pieces=lambda _: baca.select.mgroups(_, [5, 4, 1 + 1]),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {6 + 6.5}"),
         # TODO: extend spanner to phantom measure
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.markup(
         r"\baca-string-iii-markup",

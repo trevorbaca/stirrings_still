@@ -52,7 +52,7 @@ commands(
     ),
     baca.rehearsal_mark(
         "S",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
     baca.bar_line("|.", lambda _: baca.select.skip(_, -1)),

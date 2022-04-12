@@ -37,7 +37,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "N",
-        baca.selectors.leaf(0),
+        lambda _: abjad.select.leaf(_, 0),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
     ),
 )
