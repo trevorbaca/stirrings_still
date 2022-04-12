@@ -292,12 +292,12 @@ commands(
     ("v1", 26),
     baca.flat_glissando(
         "<E4 C5>",
-        selector=baca.selectors.pleaves((None, 2)),
+        selector=lambda _: baca.select.pleaves(_)[:2],
     ),
     baca.flat_glissando(
         "<E4 Cqs5>",
         hide_middle_stems=True,
-        selector=baca.selectors.pleaves((2, None)),
+        selector=lambda _: baca.select.pleaves(_)[2:],
     ),
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -957,12 +957,12 @@ commands(
     ("v2", 26),
     baca.flat_glissando(
         "<Eb4 B4>",
-        selector=baca.selectors.pleaves((None, 2)),
+        selector=lambda _: baca.select.pleaves(_)[:2],
     ),
     baca.flat_glissando(
         "<Eqf4 C5>",
         hide_middle_stems=True,
-        selector=baca.selectors.pleaves((2, None)),
+        selector=lambda _: baca.select.pleaves(_)[2:],
     ),
 )
 
@@ -1234,12 +1234,12 @@ commands(
     ("va", 26),
     baca.flat_glissando(
         "<D4 Gqs4>",
-        selector=baca.selectors.pleaves((None, 2)),
+        selector=lambda _: baca.select.pleaves(_)[:2],
     ),
     baca.flat_glissando(
         "<C#4 Gqs4>",
         hide_middle_stems=True,
-        selector=baca.selectors.pleaves((2, None)),
+        selector=lambda _: baca.select.pleaves(_)[2:],
     ),
 )
 
@@ -1515,7 +1515,7 @@ commands(
     ),
     baca.pitch(
         "Dtqs5",
-        selector=baca.selectors.pleaves((None, -1)),
+        selector=lambda _: baca.select.pleaves(_)[:-1],
     ),
 )
 

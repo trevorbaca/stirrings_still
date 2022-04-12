@@ -155,12 +155,12 @@ commands(
     ("v1", [1, 3, (5, 6), (8, 9), (11, 16), 60]),
     baca.flat_glissando(
         "<E4 C5>",
-        selector=baca.selectors.pleaves((None, 2)),
+        selector=lambda _: baca.select.pleaves(_)[:2],
     ),
     baca.flat_glissando(
         "<E4 Cqs5>",
         hide_middle_stems=True,
-        selector=baca.selectors.pleaves((2, None)),
+        selector=lambda _: baca.select.pleaves(_)[2:],
     ),
 )
 
@@ -168,12 +168,12 @@ commands(
     ("v1", [18, 20, 22, 25, 29]),
     baca.flat_glissando(
         "<C#4 A4>",
-        selector=baca.selectors.pleaves((None, 2)),
+        selector=lambda _: baca.select.pleaves(_)[:2],
     ),
     baca.flat_glissando(
         "<C#4 Aqs4>",
         hide_middle_stems=True,
-        selector=baca.selectors.pleaves((2, None)),
+        selector=lambda _: baca.select.pleaves(_)[2:],
     ),
 )
 
@@ -570,12 +570,12 @@ commands(
     ("v2", [1, 3, (5, 6), (8, 9), (11, 16), 60]),
     baca.flat_glissando(
         "<Eb4 B4>",
-        selector=baca.selectors.pleaves((None, 2)),
+        selector=lambda _: baca.select.pleaves(_)[:2],
     ),
     baca.flat_glissando(
         "<Eqf4 C5>",
         hide_middle_stems=True,
-        selector=baca.selectors.pleaves((2, None)),
+        selector=lambda _: baca.select.pleaves(_)[2:],
     ),
 )
 
@@ -583,12 +583,12 @@ commands(
     ("v2", [18, 20, 22, 25, 29]),
     baca.flat_glissando(
         "<C4 G#4>",
-        selector=baca.selectors.pleaves((None, 2)),
+        selector=lambda _: baca.select.pleaves(_)[:2],
     ),
     baca.flat_glissando(
         "<Cqs4 A4>",
         hide_middle_stems=True,
-        selector=baca.selectors.pleaves((2, None)),
+        selector=lambda _: baca.select.pleaves(_)[2:],
     ),
 )
 
@@ -656,12 +656,12 @@ commands(
     ("va", [1, 3, (5, 6), (8, 9), (11, 16), 60]),
     baca.flat_glissando(
         "<D4 Gqs4>",
-        selector=baca.selectors.pleaves((None, 2)),
+        selector=lambda _: baca.select.pleaves(_)[:2],
     ),
     baca.flat_glissando(
         "<C#4 Gqs4>",
         hide_middle_stems=True,
-        selector=baca.selectors.pleaves((2, None)),
+        selector=lambda _: baca.select.pleaves(_)[2:],
     ),
 )
 
@@ -669,12 +669,12 @@ commands(
     ("va", [18, 20, 22, 25, 29]),
     baca.flat_glissando(
         "<B3 Eqs4>",
-        selector=baca.selectors.pleaves((None, 2)),
+        selector=lambda _: baca.select.pleaves(_)[:2],
     ),
     baca.flat_glissando(
         "<A#3 Eqs4>",
         hide_middle_stems=True,
-        selector=baca.selectors.pleaves((2, None)),
+        selector=lambda _: baca.select.pleaves(_)[2:],
     ),
 )
 
