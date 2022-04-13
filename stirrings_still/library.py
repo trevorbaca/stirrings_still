@@ -3308,16 +3308,22 @@ def transition_bcps(*, final_spanner=False, staff_padding=None):
         (1, 7),
         (7, 7),
     ]
-    padded_bcps = baca.PaddedTuple(bcps, pad=2)
+    pad = [(1, 7), (7, 7)]
 
     def helper(padded_bcps, argument):
         result = []
         for leaves in baca.select.cmgroups(argument):
-            result.extend(padded_bcps[: len(leaves)])
+            if len(bcps) < len(leaves):
+                suffix = abjad.sequence.repeat_to_length(pad, len(leaves) - len(bcps))
+                bcps_ = bcps + suffix
+            else:
+                bcps_ = bcps[: len(leaves)]
+            assert len(bcps_) == len(leaves)
+            result.extend(bcps_)
         return result
 
     command = baca.bcps(
-        padded_bcps,
+        bcps,
         abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
         bow_change_tweaks=(
             abjad.Tweak(r"- \tweak self-alignment-X #left"),
