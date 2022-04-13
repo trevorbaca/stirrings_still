@@ -3412,7 +3412,7 @@ voice_abbreviations = {
 
 
 def make_empty_score():
-    tag = baca.function_name(inspect.currentframe())
+    tag = baca.tags.function_name(inspect.currentframe())
     global_context = baca.score.make_global_context()
 
     # VIOLIN 1
