@@ -139,6 +139,22 @@ time = (
 
 library.time(commands, time)
 
+# trio
+
+commands(
+    ("trio", [1, 3, (5, 6), (8, 9)]),
+    library.declamation(),
+    baca.attach_first_segment_default_indicators(),
+    baca.new(
+        baca.script_padding(1),
+        baca.stop_on_string(),
+        selector=lambda _: baca.select.pleaf(_, -1),
+    ),
+    library.breathe(
+        lambda _: baca.select.pleaf(_, 1),
+    ),
+)
+
 # v1
 
 commands(
@@ -242,19 +258,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         left_broken_text=r"\baca-left-broken-t-markup",
     ),
-)
-
-commands(
-    ("trio", [1, 3, (5, 6), (8, 9)]),
-    baca.new(
-        baca.script_padding(1),
-        baca.stop_on_string(),
-        selector=lambda _: baca.select.pleaf(_, -1),
-    ),
-    library.breathe(
-        lambda _: baca.select.pleaf(_, 1),
-    ),
-    library.declamation(),
 )
 
 commands(
@@ -729,12 +732,18 @@ commands(
 # vc
 
 commands(
-    "vc",
+    ("vc", (1, 11)),
+    baca.make_mmrests(),
+    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Vc."),
         baca.start_markup(r"\stirrings-still-cello-markup"),
     ),
+)
+
+commands(
+    "vc",
     baca.tuplet_bracket_down(),
 )
 
