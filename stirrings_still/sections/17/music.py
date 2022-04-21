@@ -432,6 +432,7 @@ commands(
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),

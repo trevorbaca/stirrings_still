@@ -157,6 +157,7 @@ commands(
         ),
         displace=True,
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -814,6 +815,12 @@ commands(
 
 commands(
     ("v2", (1, 7)),
+    library.clockticks(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
+    ),
+    baca.reapply_persistent_indicators(),
     baca.alternate_bow_strokes(),
     baca.damp_spanner(
         abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -822,11 +829,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.tuplet_number_denominator(),
-    library.clockticks(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-    ),
 )
 
 commands(
@@ -1118,6 +1120,12 @@ commands(
 
 commands(
     ("va", (1, 5)),
+    library.clockticks(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
+    ),
+    baca.reapply_persistent_indicators(),
     baca.alternate_bow_strokes(),
     baca.clef("treble"),
     baca.half_clt_spanner(
@@ -1130,11 +1138,6 @@ commands(
     ),
     baca.pitch("Eqs5"),
     baca.tuplet_bracket_staff_padding(1),
-    library.clockticks(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-    ),
 )
 
 commands(
@@ -1405,6 +1408,12 @@ commands(
 
 commands(
     ("vc", (1, 5)),
+    library.clockticks(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
+    ),
+    baca.reapply_persistent_indicators(),
     baca.alternate_bow_strokes(),
     baca.clef("treble"),
     baca.clef(
@@ -1419,11 +1428,6 @@ commands(
     ),
     baca.pitch("Dtqs5"),
     baca.tuplet_number_denominator(),
-    library.clockticks(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-    ),
 )
 
 commands(

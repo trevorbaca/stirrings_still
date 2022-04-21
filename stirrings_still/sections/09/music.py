@@ -81,13 +81,6 @@ commands(
 commands(
     ("trio", (1, 7)),
     baca.new(
-        baca.hairpin(
-            "(mp) >o niente",
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        measures=(4, 7),
-    ),
-    baca.new(
         library.circles((1, 8)),
         match=0,
     ),
@@ -102,6 +95,14 @@ commands(
             remainder=abjad.LEFT,
         ),
         match=2,
+    ),
+    baca.reapply_persistent_indicators(),
+    baca.new(
+        baca.hairpin(
+            "(mp) >o niente",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+        measures=(4, 7),
     ),
 )
 
@@ -233,6 +234,8 @@ commands(
 
 commands(
     ("vc", (1, 6)),
+    library.eighths(),
+    baca.reapply_persistent_indicators(),
     baca.beam(),
     baca.suite(
         baca.pitches("G2 B3 D3 C#4 F4"),
@@ -240,7 +243,6 @@ commands(
             selector=lambda _: baca.select.rleaves(_),
         ),
     ),
-    library.eighths(),
     library.transition_bcps(
         final_spanner=True,
         staff_padding=6,

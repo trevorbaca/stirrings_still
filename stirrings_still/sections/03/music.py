@@ -269,19 +269,6 @@ commands(
 
 commands(
     ("tutti", (1, 4)),
-    baca.circle_bow_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        qualifier="tight-poss-grind-at-talon",
-    ),
-    baca.damp_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-    ),
-    baca.flat_glissando("G4"),
-    baca.hairpin(
-        '"ff" -- !',
-        abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
     baca.new(
         library.desynchronization(4, [1]),
         match=0,
@@ -297,6 +284,20 @@ commands(
     baca.new(
         library.desynchronization(4, [-1]),
         match=3,
+    ),
+    baca.reapply_persistent_indicators(),
+    baca.circle_bow_spanner(
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+        qualifier="tight-poss-grind-at-talon",
+    ),
+    baca.damp_spanner(
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+    ),
+    baca.flat_glissando("G4"),
+    baca.hairpin(
+        '"ff" -- !',
+        abjad.Tweak(r"- \tweak to-barline ##t"),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 

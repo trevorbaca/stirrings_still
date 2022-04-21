@@ -98,6 +98,8 @@ commands(
 
 commands(
     ("trio", (1, 2)),
+    library.urtext_field(),
+    baca.reapply_persistent_indicators(),
     baca.dynamic_text_self_alignment_x(
         -0.75,
         selector=lambda _: abjad.select.leaf(_, 0),
@@ -107,7 +109,6 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.urtext_field(),
     library.urtext_spanner("urtext (ds field) -|", 8),
 )
 
@@ -322,6 +323,12 @@ commands(
 )
 
 # vc
+
+commands(
+    ("vc", (1, 2)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     "vc",

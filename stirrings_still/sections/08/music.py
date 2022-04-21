@@ -1017,6 +1017,7 @@ commands(
 commands(
     ("tutti", (1, 5)),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.markup(
         r"\baca-string-iii-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),

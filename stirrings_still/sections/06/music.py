@@ -52,6 +52,8 @@ library.time(commands, time)
 
 commands(
     ("v1", (1, 8)),
+    library.clouded_pane(),
+    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "<F5 Bqs5>",
         hide_middle_stems=True,
@@ -65,7 +67,6 @@ commands(
         r"\baca-thirteen-plus-nine-e-flat",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
-    library.clouded_pane(),
     library.clouded_pane_spanner(
         "clouded pane (doublestop partials) -|",
         8,
@@ -76,6 +77,8 @@ commands(
 
 commands(
     ("v2", (1, 8)),
+    library.clouded_pane(),
+    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "<G4 Dqs5>",
         hide_middle_stems=True,
@@ -89,7 +92,6 @@ commands(
         r"\baca-seven-plus-five-e-flat",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
-    library.clouded_pane(),
     library.clouded_pane_spanner(
         "clouded pane (doublestop partials) -|",
         8,
@@ -100,13 +102,14 @@ commands(
 
 commands(
     ("va", (1, 10)),
+    library.tailpiece(
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+    ),
+    baca.reapply_persistent_indicators(),
     baca.staff_lines(1),
     baca.dynamic(
         '"mf"',
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
-    ),
-    library.tailpiece(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
     ),
 )
 
@@ -119,6 +122,8 @@ commands(
 
 commands(
     ("vc", (1, 8)),
+    library.clouded_pane(),
+    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Eb2",
         hide_middle_stems=True,
@@ -129,7 +134,6 @@ commands(
         pieces=lambda _: baca.select.mgroups(_, [2, 4, 2 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.clouded_pane(),
     library.clouded_pane_spanner("clouded pane (continues) -|", 5.5),
 )
 
