@@ -78,6 +78,11 @@ commands(
 
 commands(
     ("v1", [1, (3, 4), (6, 8), (10, 15)]),
+    library.wave((1, 4), (3, 32)),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
+    ),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
         qualifier="wide",
@@ -100,7 +105,6 @@ commands(
         ),
         match=0,
     ),
-    library.wave((1, 4), (3, 32)),
 )
 
 # v1, v2, vc
@@ -121,6 +125,11 @@ commands(
 
 commands(
     ("v2", [1, (3, 4), (6, 8), (10, 15)]),
+    library.wave((5, 32), (1, 4)),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
+    ),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
         qualifier="wide",
@@ -143,19 +152,19 @@ commands(
         ),
         match=0,
     ),
-    library.wave((5, 32), (1, 4)),
 )
 
 # va
 
 commands(
     ("va", (1, 19)),
+    baca.make_notes(),
+    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Bb2",
         hide_middle_stems=True,
         left_broken=True,
     ),
-    baca.make_notes(),
 )
 
 # vc
@@ -167,9 +176,10 @@ commands(
 
 commands(
     ("vc", 1),
+    baca.skeleton("c2. ~ c4"),
+    baca.reapply_persistent_indicators(),
     baca.flat_glissando("B0"),
     baca.hairpin("o< mf"),
-    baca.skeleton("c2. ~ c4"),
     baca.ottava_bassa(),
 )
 

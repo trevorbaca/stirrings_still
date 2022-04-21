@@ -86,6 +86,8 @@ library.time(commands, time)
 
 commands(
     ("v1", (1, 2)),
+    library.trajectories("B", 0, 0, end_counts=[1]),
+    baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
@@ -94,7 +96,6 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("B", 0, 0, end_counts=[1]),
 )
 
 commands(
@@ -450,6 +451,8 @@ commands(
 
 commands(
     ("v2", (1, 2)),
+    library.trajectories("B", -1, -1, end_counts=[1]),
+    baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
@@ -458,7 +461,6 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("B", -1, -1, end_counts=[1]),
 )
 
 commands(
@@ -730,6 +732,8 @@ commands(
 
 commands(
     ("va", (1, 2)),
+    library.trajectories("B", -2, -2, end_counts=[1]),
+    baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
@@ -738,7 +742,6 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("B", -2, -2, end_counts=[1]),
 )
 
 commands(
@@ -1009,6 +1012,8 @@ commands(
 
 commands(
     ("vc", (1, 2)),
+    library.trajectories("B", -3, -3, end_counts=[1]),
+    baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
@@ -1017,7 +1022,6 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("B", -3, -3, end_counts=[1]),
 )
 
 commands(

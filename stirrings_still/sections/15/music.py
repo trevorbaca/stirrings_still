@@ -51,6 +51,8 @@ library.time(commands, time)
 
 commands(
     ("v1", (1, 6)),
+    library.circles((1, 4)),
+    baca.reapply_persistent_indicators(),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="granulation",
@@ -61,7 +63,6 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.circles((1, 4)),
 )
 
 commands(
@@ -94,6 +95,8 @@ commands(
 
 commands(
     ("v2", (1, 6)),
+    library.circles((1, 4)),
+    baca.reapply_persistent_indicators(),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="granulation",
@@ -104,7 +107,6 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.circles((1, 4)),
 )
 
 commands(
@@ -129,6 +131,8 @@ commands(
 
 commands(
     ("va", (1, 6)),
+    library.circles((1, 4)),
+    baca.reapply_persistent_indicators(),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="granulation",
@@ -139,7 +143,6 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.circles((1, 4)),
 )
 
 commands(
@@ -164,6 +167,8 @@ commands(
 
 commands(
     ("vc", (1, 6)),
+    library.circles((1, 4)),
+    baca.reapply_persistent_indicators(),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="granulation",
@@ -174,7 +179,6 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.circles((1, 4)),
 )
 
 commands(

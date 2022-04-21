@@ -365,6 +365,8 @@ commands(
 
 commands(
     ("trio", (1, 2)),
+    library.continuous_tremolo(),
+    baca.reapply_persistent_indicators(),
     baca.damp_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
@@ -376,7 +378,6 @@ commands(
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
-    library.continuous_tremolo(),
 )
 
 commands(
@@ -1291,6 +1292,11 @@ commands(
 
 commands(
     ("vc", [(1, 2), (6, 27)]),
+    library.clouded_pane(),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
+    ),
     baca.new(
         baca.flat_glissando(
             "F2",
@@ -1306,7 +1312,6 @@ commands(
         ),
         match=1,
     ),
-    library.clouded_pane(),
 )
 
 commands(

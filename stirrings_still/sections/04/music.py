@@ -449,13 +449,7 @@ commands(
 # tutti, stage 1
 
 commands(
-    "tutti",
-    baca.dls_staff_padding(6),
-)
-
-commands(
     ("tutti", (1, 6)),
-    baca.dynamic("p"),
     baca.new(
         library.strokes(
             0,
@@ -492,6 +486,13 @@ commands(
         ),
         match=3,
     ),
+    baca.reapply_persistent_indicators(),
+    baca.dynamic("p"),
+)
+
+commands(
+    "tutti",
+    baca.dls_staff_padding(6),
 )
 
 commands(

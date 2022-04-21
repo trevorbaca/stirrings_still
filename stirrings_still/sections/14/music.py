@@ -76,6 +76,8 @@ library.time(commands, time)
 
 commands(
     ("v1", (1, 8)),
+    library.clouded_pane(),
+    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "C6",
         hide_middle_stems=True,
@@ -84,7 +86,6 @@ commands(
         r"\baca-nine-b-flat",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
-    library.clouded_pane(),
 )
 
 commands(
@@ -278,6 +279,8 @@ commands(
 
 commands(
     ("v2", (1, 8)),
+    library.clouded_pane(),
+    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Eqf5",
         hide_middle_stems=True,
@@ -286,7 +289,6 @@ commands(
         r"\baca-eleven-b-flat",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
-    library.clouded_pane(),
 )
 
 commands(
@@ -429,6 +431,8 @@ commands(
 
 commands(
     ("va", (1, 8)),
+    library.clouded_pane(),
+    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Gqf4",
         hide_middle_stems=True,
@@ -437,7 +441,6 @@ commands(
         r"\baca-thirteen-b-flat",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
-    library.clouded_pane(),
 )
 
 commands(
@@ -580,11 +583,12 @@ commands(
 
 commands(
     ("vc", (1, 10)),
+    library.clouded_pane(),
+    baca.reapply_persistent_indicators(),
     baca.chunk(
         baca.dots_transparent(),
         baca.stem_transparent(),
     ),
-    library.clouded_pane(),
     library.clouded_pane_spanner("clouded pane -|", 8),
 )
 

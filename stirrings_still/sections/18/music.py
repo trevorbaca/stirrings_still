@@ -65,6 +65,8 @@ commands(
 
 commands(
     ("v1", (1, 8)),
+    library.trajectories("C", 0, -3),
+    baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {8 + 6}"),
     ),
@@ -78,7 +80,6 @@ commands(
         "A6",
         left_broken=True,
     ),
-    library.trajectories("C", 0, -3),
 )
 
 commands(
@@ -108,6 +109,8 @@ commands(
 
 commands(
     ("v2", (1, 8)),
+    library.trajectories("C", -1, -2),
+    baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
     ),
@@ -121,7 +124,6 @@ commands(
         "Ab5",
         left_broken=True,
     ),
-    library.trajectories("C", -1, -2),
 )
 
 commands(
@@ -147,6 +149,7 @@ commands(
 commands(
     "va",
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Bb2",
         hide_middle_stems=True,
@@ -165,6 +168,7 @@ commands(
 commands(
     ("vc", (1, 12)),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.ottava_bassa(),
     baca.flat_glissando(
         "B0",

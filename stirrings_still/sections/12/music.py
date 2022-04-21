@@ -62,6 +62,18 @@ def nonlast_tuplet_pleaves(indices):
 
 commands(
     "v1",
+    library.trajectories(
+        "C",
+        0,
+        -3,
+        rmakers.untie(
+            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
+        ),
+        rmakers.tie(
+            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
+        ),
+    ),
+    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
     library.bcps(
@@ -91,17 +103,6 @@ commands(
         measures=(12, 14),
         selector=lambda _: baca.select.rleaves(_),
         staff_padding=7,
-    ),
-    library.trajectories(
-        "C",
-        0,
-        -3,
-        rmakers.untie(
-            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-        rmakers.tie(
-            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
     ),
 )
 
@@ -192,6 +193,18 @@ commands(
 
 commands(
     "v2",
+    library.trajectories(
+        "C",
+        -1,
+        -2,
+        rmakers.untie(
+            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
+        ),
+        rmakers.tie(
+            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
+        ),
+    ),
+    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
     library.bcps(
@@ -221,17 +234,6 @@ commands(
         measures=(12, 14),
         selector=lambda _: baca.select.rleaves(_),
         staff_padding=4,
-    ),
-    library.trajectories(
-        "C",
-        -1,
-        -2,
-        rmakers.untie(
-            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-        rmakers.tie(
-            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
     ),
 )
 
@@ -311,6 +313,18 @@ commands(
 
 commands(
     "va",
+    library.trajectories(
+        "C",
+        -2,
+        -1,
+        rmakers.untie(
+            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
+        ),
+        rmakers.tie(
+            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
+        ),
+    ),
+    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
     baca.tuplet_bracket_staff_padding(1.5),
@@ -341,17 +355,6 @@ commands(
         measures=(12, 14),
         selector=lambda _: baca.select.rleaves(_),
         staff_padding=3,
-    ),
-    library.trajectories(
-        "C",
-        -2,
-        -1,
-        rmakers.untie(
-            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-        rmakers.tie(
-            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
     ),
 )
 
@@ -431,6 +434,8 @@ commands(
 
 commands(
     "vc",
+    library.clouded_pane(),
+    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(5),
     baca.flat_glissando(
         "Db2",
@@ -442,7 +447,6 @@ commands(
         measures=(1, 15),
         pieces=lambda _: baca.select.cmgroups(_, [2, 1, 1]),
     ),
-    library.clouded_pane(),
     library.clouded_pane_spanner(
         "clouded pane (continues) -|",
         5.5,

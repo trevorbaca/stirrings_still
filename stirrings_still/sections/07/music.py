@@ -87,6 +87,11 @@ library.time(commands, time)
 
 commands(
     ("v1", [1, 3, 7, 9, 11, 14]),
+    library.loure_tuplets(0),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
+    ),
     baca.dynamic("mp"),
     baca.new(
         baca.markup(
@@ -99,7 +104,6 @@ commands(
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
-    library.loure_tuplets(0),
     library.urtext_spanner("urtext (double stop) -|", 8),
 )
 
@@ -294,6 +298,11 @@ commands(
 
 commands(
     ("v2", [1, 3, 7, 9, 11, 14]),
+    library.loure_tuplets(1),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
+    ),
     baca.dynamic("mp"),
     baca.new(
         baca.markup(
@@ -306,7 +315,6 @@ commands(
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
-    library.loure_tuplets(1),
     library.urtext_spanner("urtext (double stop) -|", 8),
 )
 
@@ -341,6 +349,11 @@ commands(
 
 commands(
     ("va", [1, 3, 7, 9, 11, 14]),
+    library.loure_tuplets(-1),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
+    ),
     baca.dynamic("mp"),
     baca.new(
         baca.markup(
@@ -354,7 +367,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.clouded_pane_spanner("clouded pane (partial) -|", 8),
-    library.loure_tuplets(-1),
 )
 
 commands(
@@ -363,6 +375,20 @@ commands(
 )
 
 # vc
+
+commands(
+    ("vc", [1, 3, 7, 9, 11, 14]),
+    library.taper((1, 1)),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
+    ),
+    baca.pitch("B1"),
+    library.clouded_pane_spanner(
+        "clouded pane (pane / urtext) -|",
+        5.5,
+    ),
+)
 
 commands(
     "vc",
@@ -376,16 +402,6 @@ commands(
         pieces=lambda _: baca.select.lparts(_, [1, 2]),
         selector=lambda _: baca.select.rleaves(_),
     ),
-)
-
-commands(
-    ("vc", [1, 3, 7, 9, 11, 14]),
-    baca.pitch("B1"),
-    library.clouded_pane_spanner(
-        "clouded pane (pane / urtext) -|",
-        5.5,
-    ),
-    library.taper((1, 1)),
 )
 
 commands(

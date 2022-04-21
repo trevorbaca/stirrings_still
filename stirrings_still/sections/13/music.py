@@ -56,6 +56,10 @@ commands(
         do_not_rewrite_meter=True,
     ),
     baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
+    ),
+    baca.new(
         baca.markup(
             r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
@@ -260,6 +264,10 @@ commands(
         do_not_rewrite_meter=True,
     ),
     baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
+    ),
+    baca.new(
         baca.markup(
             r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
@@ -378,6 +386,10 @@ commands(
     ("va", [(1, 8), (13, 16), (21, 24), (29, 32)]),
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
+    ),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
     ),
     baca.new(
         baca.markup(r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup"),
@@ -516,12 +528,13 @@ commands(
 
 commands(
     ("vc", (1, 28)),
+    library.clouded_pane(),
+    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "C2",
         hide_middle_stems=True,
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.clouded_pane(),
 )
 
 commands(
