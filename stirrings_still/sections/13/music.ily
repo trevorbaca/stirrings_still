@@ -1876,24 +1876,24 @@ segment.13.Violin.I.Music.Voice = {
     d'''2
     % AFTER:
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    - \tweak padding 1.5
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     - \tweak padding 1.5
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-nine-c
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    - \tweak padding 1.5
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
     % SPANNER_STARTS:
       %! AUTODETECT
       %! CLOUDED_PANE
@@ -3702,24 +3702,24 @@ segment.13.Violin.II.Music.Voice = {
     fqs''!2
     % AFTER:
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    - \tweak padding 1.5
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     - \tweak padding 1.5
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-eleven-c
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    - \tweak padding 1.5
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
     % SPANNER_STARTS:
       %! AUTODETECT
       %! CLOUDED_PANE
@@ -5483,6 +5483,12 @@ segment.13.Viola.Music.Voice = {
     aqf'!2
     % AFTER:
     % MARKUP:
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    - \tweak padding 1.5
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \baca-thirteen-c
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
@@ -5492,12 +5498,6 @@ segment.13.Viola.Music.Voice = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    - \tweak padding 1.5
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \baca-thirteen-c
     % SPANNER_STARTS:
       %! AUTODETECT
       %! CLOUDED_PANE

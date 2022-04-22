@@ -9148,15 +9148,15 @@ segment.04.Violin.I.Music.Voice = {
           %! baca.hairpin()
         \pp
         % MARKUP:
-          %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
-        %@% ^ \baca-duration-multiplier-markup #"245" #"64"
           %! baca.IndicatorCommand._call()
           %! baca.markup()
         - \tweak padding 1.5
           %! baca.IndicatorCommand._call()
           %! baca.markup()
         _ \baca-string-iv-markup
+          %! DURATION_MULTIPLIER
+          %! baca._label_duration_multipliers()
+        %@% ^ \baca-duration-multiplier-markup #"245" #"64"
         % START_BEAM:
         [
         % SPANNER_STARTS:

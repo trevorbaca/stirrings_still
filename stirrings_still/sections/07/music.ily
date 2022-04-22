@@ -1875,18 +1875,18 @@ segment.07.Violin.I.Music.Voice = {
       %! baca.dynamic()
     \mp
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     - \tweak padding 1.5
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \stirrings-still-twelve-et-conflicts-with-viola-markup
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
     % START_BEAM:
     [
     % SPANNER_STARTS:
@@ -5030,18 +5030,18 @@ segment.07.Violin.II.Music.Voice = {
           %! baca.dynamic()
         \mp
         % MARKUP:
-          %! REAPPLIED_INSTRUMENT_ALERT
-          %! baca._attach_latent_indicator_alert()
-        ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
-          %! REAPPLIED_MARGIN_MARKUP_ALERT
-          %! baca._attach_latent_indicator_alert()
-        ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
           %! baca.IndicatorCommand._call()
           %! baca.markup()
         - \tweak padding 1.5
           %! baca.IndicatorCommand._call()
           %! baca.markup()
         ^ \stirrings-still-twelve-et-conflicts-with-viola-markup
+          %! REAPPLIED_INSTRUMENT_ALERT
+          %! baca._attach_latent_indicator_alert()
+        ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
+          %! REAPPLIED_MARGIN_MARKUP_ALERT
+          %! baca._attach_latent_indicator_alert()
+        ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
         % START_BEAM:
         [
         % SPANNER_STARTS:
@@ -8452,18 +8452,18 @@ segment.07.Viola.Music.Voice = {
           %! baca.dynamic()
         \mp
         % MARKUP:
-          %! REAPPLIED_INSTRUMENT_ALERT
-          %! baca._attach_latent_indicator_alert()
-        ^ \baca-reapplied-indicator-markup "(“Viola”)"
-          %! REAPPLIED_MARGIN_MARKUP_ALERT
-          %! baca._attach_latent_indicator_alert()
-        ^ \baca-reapplied-indicator-markup "[“Va.”]"
           %! baca.IndicatorCommand._call()
           %! baca.markup()
         - \tweak padding 1.5
           %! baca.IndicatorCommand._call()
           %! baca.markup()
         ^ \stirrings-still-nine-plus-seven-of-b-markup
+          %! REAPPLIED_INSTRUMENT_ALERT
+          %! baca._attach_latent_indicator_alert()
+        ^ \baca-reapplied-indicator-markup "(“Viola”)"
+          %! REAPPLIED_MARGIN_MARKUP_ALERT
+          %! baca._attach_latent_indicator_alert()
+        ^ \baca-reapplied-indicator-markup "[“Va.”]"
         % START_BEAM:
         [
         % SPANNER_STARTS:
