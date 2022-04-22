@@ -957,16 +957,16 @@ segment.19.Global.Skips = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-    - \tweak extra-offset #'(9 . -75)
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \stirrings-still-text-twenty-eight
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
     - \tweak extra-offset #'(28 . -100)
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \stirrings-still-text-twenty-nine
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    - \tweak extra-offset #'(9 . -75)
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \stirrings-still-text-twenty-eight
     % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1408,15 +1408,15 @@ segment.19.Violin.I.Music.Voice = {
           %! baca.hairpin()
         \p
         % MARKUP:
+          %! DURATION_MULTIPLIER
+          %! baca._label_duration_multipliers()
+        %@% ^ \baca-duration-multiplier-markup #"235" #"64"
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
           %! REAPPLIED_MARGIN_MARKUP_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
-          %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
-        %@% ^ \baca-duration-multiplier-markup #"235" #"64"
           %! baca.IndicatorCommand._call()
           %! baca.markup()
         _ \baca-string-iv-markup
@@ -4446,15 +4446,15 @@ segment.19.Violin.II.Music.Voice = {
           %! baca.hairpin()
         \ppp
         % MARKUP:
+          %! DURATION_MULTIPLIER
+          %! baca._label_duration_multipliers()
+        %@% ^ \baca-duration-multiplier-markup #"17" #"8"
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
           %! REAPPLIED_MARGIN_MARKUP_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
-          %! DURATION_MULTIPLIER
-          %! baca._label_duration_multipliers()
-        %@% ^ \baca-duration-multiplier-markup #"17" #"8"
           %! baca.IndicatorCommand._call()
           %! baca.markup()
         _ \baca-string-iv-markup

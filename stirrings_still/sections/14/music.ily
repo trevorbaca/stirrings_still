@@ -2472,18 +2472,18 @@ segment.14.Violin.I.Music.Voice = {
       %! baca._set_status_tag()
     \fff
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     - \tweak padding 1.5
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-nine-b-flat
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
     % SPANNER_STARTS:
       %! AUTODETECT
       %! CLOUDED_PANE
@@ -5861,18 +5861,18 @@ segment.14.Violin.II.Music.Voice = {
       %! baca._set_status_tag()
     \fff
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     - \tweak padding 1.5
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-eleven-b-flat
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
     % SPANNER_STARTS:
       %! AUTODETECT
       %! CLOUDED_PANE
@@ -9080,18 +9080,18 @@ segment.14.Viola.Music.Voice = {
       %! baca._set_status_tag()
     \fff
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Viola”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Va.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     - \tweak padding 1.5
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-thirteen-b-flat
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“Viola”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Va.”]"
     % SPANNER_STARTS:
       %! AUTODETECT
       %! CLOUDED_PANE

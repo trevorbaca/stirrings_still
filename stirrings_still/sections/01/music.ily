@@ -25959,14 +25959,14 @@ segment.01.Cello.Music.Voice = {
               %! DEFAULT_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-default-indicator-markup "(“Cello”)"
-              %! EXPLICIT_MARGIN_MARKUP_ALERT
-              %! baca._attach_latent_indicator_alert()
-            ^ \baca-explicit-indicator-markup "[“Vc.”]"
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"2"
+              %! EXPLICIT_MARGIN_MARKUP_ALERT
+              %! baca._attach_latent_indicator_alert()
+            ^ \baca-explicit-indicator-markup "[“Vc.”]"
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! DEFAULT_CLEF_REDRAW_COLOR
