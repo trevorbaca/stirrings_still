@@ -434,7 +434,7 @@ commands(
 
 commands(
     "vc",
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(5),
     baca.flat_glissando(

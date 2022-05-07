@@ -1292,7 +1292,7 @@ commands(
 
 commands(
     ("vc", [(1, 2), (6, 27)]),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,
@@ -1336,7 +1336,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
 )
 
 commands(
@@ -1366,7 +1366,7 @@ commands(
         measures=(63, 64),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (down) -|", 5.5),
     baca.flat_glissando(
         "D2",
@@ -1376,7 +1376,7 @@ commands(
 
 commands(
     ("vc", (82, 88)),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (continues) -|", 5.5),
     baca.flat_glissando(
         "D2",
@@ -1391,7 +1391,7 @@ commands(
         pieces=lambda _: baca.select.mgroups(_, [3, 4 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (continues) -|", 5.5),
     baca.flat_glissando(
         "D2",
@@ -1416,7 +1416,7 @@ commands(
         measures=(118, 119),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner(
         "clouded pane (stepwise above) -|",
         5.5,

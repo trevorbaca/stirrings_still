@@ -127,7 +127,7 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.urtext_field(),
+    library.make_urtext_field_rhythm(),
     # TODO: allow right-broken spanner
     library.urtext_spanner(
         "urtext (sustained ds) -|",

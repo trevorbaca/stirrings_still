@@ -52,7 +52,7 @@ library.time(commands, time)
 
 commands(
     ("v1", (1, 8)),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "<F5 Bqs5>",
@@ -77,7 +77,7 @@ commands(
 
 commands(
     ("v2", (1, 8)),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "<G4 Dqs5>",
@@ -122,7 +122,7 @@ commands(
 
 commands(
     ("vc", (1, 8)),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Eb2",

@@ -975,7 +975,7 @@ commands(
         match=2,
     ),
     baca.tuplet_bracket_down(),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
 )
 
@@ -1003,7 +1003,7 @@ commands(
         baca.flat_glissando("E2"),
         match=2,
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
 )
 

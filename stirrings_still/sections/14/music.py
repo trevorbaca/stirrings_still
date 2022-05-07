@@ -76,7 +76,7 @@ library.time(commands, time)
 
 commands(
     ("v1", (1, 8)),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "C6",
@@ -114,7 +114,7 @@ commands(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
 )
 
 commands(
@@ -279,7 +279,7 @@ commands(
 
 commands(
     ("v2", (1, 8)),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Eqf5",
@@ -317,7 +317,7 @@ commands(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
 )
 
 commands(
@@ -431,7 +431,7 @@ commands(
 
 commands(
     ("va", (1, 8)),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Gqf4",
@@ -469,7 +469,7 @@ commands(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
 )
 
 commands(
@@ -583,7 +583,7 @@ commands(
 
 commands(
     ("vc", (1, 10)),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     baca.reapply_persistent_indicators(),
     baca.chunk(
         baca.dots_transparent(),
@@ -623,7 +623,7 @@ commands(
         baca.stem_transparent(),
         selector=lambda _: baca.select.leaves(_)[:-1],
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
 )
 
 commands(
@@ -745,7 +745,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
 )
 
 if __name__ == "__main__":

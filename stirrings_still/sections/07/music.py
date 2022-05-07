@@ -151,7 +151,7 @@ commands(
         ),
         match=2,
     ),
-    library.urtext_field(),
+    library.make_urtext_field_rhythm(),
     library.urtext_spanner("urtext (ds field) -|", 8),
 )
 
@@ -291,7 +291,7 @@ commands(
         library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
         match=2,
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
 )
 
 # v2

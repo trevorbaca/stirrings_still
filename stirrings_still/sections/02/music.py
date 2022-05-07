@@ -157,6 +157,10 @@ commands(
         ),
         displace=True,
     ),
+)
+
+commands(
+    "v1",
     baca.reapply_persistent_indicators(),
 )
 
@@ -198,6 +202,10 @@ commands(
         pieces=lambda _: baca.select.mgroups(_, [1, 2]),
         selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
+)
+
+commands(
+    ("v1", (5, 7)),
     library.make_clocktick_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -212,6 +220,10 @@ commands(
         qualifier="tight",
     ),
     baca.flat_glissando("C5"),
+)
+
+commands(
+    ("v1", (12, 13)),
     library.make_circle_rhythm(
         (1, 4),
         rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
@@ -277,6 +289,10 @@ commands(
 commands(
     ("v1", (18, 24)),
     baca.alternate_bow_strokes(),
+)
+
+commands(
+    ("v1", (18, 24)),
     library.make_clocktick_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -320,6 +336,10 @@ commands(
         clt=True,
         staff_padding=6,
     ),
+)
+
+commands(
+    ("v1", [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57), (58, 60)]),
     library.make_trajectory_rhythm("C", 0, -3),
 )
 
@@ -426,6 +446,10 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
+)
+
+commands(
+    ("v1", (61, 62)),
     library.make_circle_rhythm((1, 4)),
 )
 
@@ -468,6 +492,10 @@ commands(
     baca.stop_on_string(
         selector=lambda _: baca.select.pleaf(_, -1),
     ),
+)
+
+commands(
+    ("trio", 26),
     library.make_declamation_rhythm(),
 )
 
@@ -487,13 +515,12 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.stem_tremolo(),
-    library.urtext_field(),
+    library.make_urtext_field_rhythm(),
     library.urtext_spanner("urtext (cds) -|", 8),
 )
 
 commands(
     ("trio", 64),
-    baca.dynamic("p"),
     baca.new(
         library.make_flight_rhythm(
             "A",
@@ -518,6 +545,11 @@ commands(
         ),
         match=2,
     ),
+)
+
+commands(
+    ("trio", 64),
+    baca.dynamic("p"),
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
@@ -615,7 +647,7 @@ commands(
         pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.rasp(),
+    library.make_rasp_rhythm(),
     library.urtext_spanner("urtext (rasp) -|", 10.5),
 )
 
@@ -1452,7 +1484,7 @@ commands(
         pieces=lambda _: baca.select.mgroups(_, [4, 2 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane -|", 5.5),
 )
 
@@ -1688,7 +1720,7 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
 )
 
@@ -1705,7 +1737,7 @@ commands(
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.pitch("E2"),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (flight) -|", 5.5),
 )
 
@@ -1779,7 +1811,7 @@ commands(
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.pitch("E2"),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (flight) -|", 5.5),
 )
 
