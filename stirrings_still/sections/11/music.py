@@ -125,7 +125,7 @@ commands(
 
 commands(
     ("v1", (5, 8)),
-    library.accelerando(
+    library.make_accelerando(
         (8, 32),
         (1, 2),
         measures=(6, 8),
@@ -490,7 +490,7 @@ commands(
 
 commands(
     ("v2", (5, 8)),
-    library.accelerando((10, 32), (1, 2), measures=(6, 8)),
+    library.make_accelerando((10, 32), (1, 2), measures=(6, 8)),
     library.bcps(
         -1,
         clt=True,
@@ -1051,7 +1051,7 @@ commands(
 
 commands(
     ("vc", (5, 8)),
-    library.accelerando((11, 32), (1, 2), measures=(6, 8)),
+    library.make_accelerando((11, 32), (1, 2), measures=(6, 8)),
     library.bcps(
         -3,
         clt=True,

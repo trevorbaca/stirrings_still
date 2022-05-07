@@ -293,7 +293,7 @@ def rleaves_partition_by_ratio(ratio):
     return selector
 
 
-def accelerando(start, stop, *, measures=None):
+def make_accelerando(start, stop, *, measures=None):
     command = baca.rhythm(
         rmakers.accelerando([start, stop, (1, 16)]),
         rmakers.duration_bracket(),
@@ -301,7 +301,7 @@ def accelerando(start, stop, *, measures=None):
         preprocessor=lambda _: baca.sequence.fuse(_),
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.accelerando()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -343,7 +343,7 @@ def bcps(
     )
     result = baca.new(command, measures=measures)
     assert isinstance(result, baca.BCPCommand)
-    tag = abjad.Tag("stirrings_still.bcps()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result_ = baca.tag(tag, result)
     assert isinstance(result_, baca.BCPCommand)
     return result_
@@ -357,7 +357,7 @@ def breathe(selector=lambda _: baca.select.pleaf(_, -1)):
         selector,
         abjad.Tweak(r"\tweak extra-offset #'(-0.25 . 2)"),
     )
-    tag = abjad.Tag("stirrings_still.breathe()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.IndicatorCommand)
     return result
@@ -370,7 +370,7 @@ def cello_cell():
         rmakers.extract_trivial(),
         preprocessor=lambda _: baca.sequence.quarters(baca.sequence.fuse(_)),
     )
-    tag = abjad.Tag("stirrings_still.cello_cell()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -387,7 +387,7 @@ def cello_cell_bcps(*, staff_padding=None):
             abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
         ),
     )
-    tag = abjad.Tag("stirrings_still.cello_cell_bcps()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.BCPCommand)
     return result
@@ -442,7 +442,7 @@ def circles(
         preprocessor=preprocessor,
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.circles()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -478,7 +478,7 @@ def clockticks(
         preprocessor=preprocessor,
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.clockticks()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -489,7 +489,7 @@ def clouded_pane():
         rmakers.reduce_multiplier(),
         do_not_rewrite_meter=True,
     )
-    tag = abjad.Tag("stirrings_still.clouded_pane()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -529,7 +529,7 @@ def continuous_tremolo():
         ),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     )
-    tag = abjad.Tag("stirrings_still.continuous_tremolo()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.Suite)
     return result
@@ -581,7 +581,7 @@ def declamation(*, measures=None, protract=False):
             ),
             measures=measures,
         )
-    tag = abjad.Tag("stirrings_still.declamation()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -631,7 +631,7 @@ def desynchronization(
         rmakers.extract_trivial(),
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.desynchronization()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -643,7 +643,7 @@ def eighths():
         rmakers.extract_trivial(),
         preprocessor=lambda _: baca.sequence.fuse(_),
     )
-    tag = abjad.Tag("stirrings_still.eighths()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -1711,7 +1711,7 @@ def flight(counts, rotation, *, measures=None, start=0):
         rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.flight()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -1740,7 +1740,7 @@ def grid(*, rotation, measures=None):
         rmakers.extract_trivial(),
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.grid()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -1761,7 +1761,7 @@ def grid_to_trajectory(counts, rotation, extra, *, measures=None):
         rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.grid_to_trajectory()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -1789,7 +1789,7 @@ def loure_tuplets(extra_count, *, measures=None):
         desynchronization(8, [extra_count]),
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.loure_tuplets()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.Suite)
     return result
@@ -1818,7 +1818,7 @@ def measure_initiation():
         rmakers.beam(),
         rmakers.extract_trivial(),
     )
-    tag = abjad.Tag("stirrings_still.measure_initiation()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -2385,7 +2385,7 @@ def pickets(
         preprocessor=preprocessor,
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.pickets()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -2393,7 +2393,7 @@ def pickets(
 
 def rasp():
     command = baca.make_repeat_tied_notes(do_not_rewrite_meter=True)
-    tag = abjad.Tag("stirrings_still.rasp()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -2416,7 +2416,7 @@ def running_quarter_divisions(count, *, measures=None):
         preprocessor=preprocessor,
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.running_quarter_divisions()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -3043,7 +3043,7 @@ def solid_line_rhythm(*, measures=None):
         ),
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.solid_line_rhythm()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -3071,7 +3071,7 @@ def strokes(rotation, *commands, measures=None):
         measures=measures,
         preprocessor=lambda _: abjad.sequence.rotate(_, n=rotation),
     )
-    tag = abjad.Tag("stirrings_still.strokes()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -3101,7 +3101,7 @@ def synchronized_circles(
     command = baca.rhythm(
         rmakers.talea(counts, 8), *commands, rmakers.beam(), measures=measures
     )
-    tag = abjad.Tag("stirrings_still.synchronized_circles()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -3126,7 +3126,7 @@ def tailpiece(*tweaks, measures=None):
         ),
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.tailpiece()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.Suite)
     return result
@@ -3154,7 +3154,7 @@ def talea_eighths(counts, rotation, extra, *, end_counts=(), measures=None):
         rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.talea_eighths()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -3170,7 +3170,7 @@ def taper(tuplet_ratio=(1, 4, 1), *, measures=None):
         rmakers.extract_trivial(),
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.taper()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -3232,7 +3232,7 @@ def to_flight(divisions, *, measures=None, start=(1, 4), stop=(1, 8)):
         preprocessor=preprocessor,
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.to_flight()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -3267,7 +3267,7 @@ def trajectories(
         rmakers.extract_trivial(),
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.trajectories()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -3332,7 +3332,7 @@ def transition_bcps(*, final_spanner=False, staff_padding=None):
         final_spanner=final_spanner,
         helper=helper,
     )
-    tag = abjad.Tag("stirrings_still.transition_bcps()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.BCPCommand)
     return result
@@ -3340,7 +3340,7 @@ def transition_bcps(*, final_spanner=False, staff_padding=None):
 
 def urtext_field(*, measures=None):
     command = baca.make_repeat_tied_notes(do_not_rewrite_meter=True, measures=measures)
-    tag = abjad.Tag("stirrings_still.urtext_field()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -3373,7 +3373,7 @@ def wave(start, stop, *, measures=None):
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         measures=measures,
     )
-    tag = abjad.Tag("stirrings_still.wave()")
+    tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
@@ -3414,7 +3414,6 @@ voice_abbreviations = {
 def make_empty_score():
     tag = baca.tags.function_name(inspect.currentframe())
     global_context = baca.score.make_global_context()
-
     # VIOLIN 1
     violin_one_music_staff = abjad.Staff(
         [abjad.Voice(name="Violin_I_Music_Voice", tag=tag)],
@@ -3428,7 +3427,6 @@ def make_empty_score():
     )
     abjad.annotate(violin_one_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("ViolinI", violin_one_music_staff)
-
     # VIOLIN 2
     violin_two_music_staff = abjad.Staff(
         [abjad.Voice(name="Violin_II_Music_Voice", tag=tag)],
@@ -3442,7 +3440,6 @@ def make_empty_score():
     )
     abjad.annotate(violin_two_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("ViolinII", violin_two_music_staff)
-
     # VIOLA
     viola_music_staff = abjad.Staff(
         [abjad.Voice(name="Viola_Music_Voice", tag=tag)],
@@ -3456,7 +3453,6 @@ def make_empty_score():
     )
     abjad.annotate(viola_music_staff, "default_clef", abjad.Clef("alto"))
     baca.score.attach_lilypond_tag("viola", viola_music_staff)
-
     # CELLO
     cello_music_staff = abjad.Staff(
         [abjad.Voice(name="Cello_Music_Voice", tag=tag)],
@@ -3470,7 +3466,6 @@ def make_empty_score():
     )
     abjad.annotate(cello_music_staff, "default_clef", abjad.Clef("bass"))
     baca.score.attach_lilypond_tag("cello", cello_music_staff)
-
     # STRING QUARTET STAFF GROUP
     string_quartet_staff_group = abjad.StaffGroup(
         [
@@ -3483,7 +3478,6 @@ def make_empty_score():
         name="String_Quartet_Staff_Group",
         tag=tag,
     )
-
     # MUSIC CONTEXT
     music_context = abjad.Context(
         [string_quartet_staff_group],
@@ -3491,7 +3485,6 @@ def make_empty_score():
         name="Music_Context",
         tag=tag,
     )
-
     # SCORE
     score = abjad.Score([global_context, music_context], name="Score", tag=tag)
     baca.score.assert_lilypond_identifiers(score)

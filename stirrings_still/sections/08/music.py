@@ -128,7 +128,7 @@ commands(
 
 commands(
     ("v1", (7, 8)),
-    library.accelerando((1, 2), (8, 32)),
+    library.make_accelerando((1, 2), (8, 32)),
 )
 
 commands(
@@ -238,7 +238,7 @@ commands(
 
 commands(
     ("v2", (11, 12)),
-    library.accelerando((1, 2), (7, 32)),
+    library.make_accelerando((1, 2), (7, 32)),
 )
 
 commands(
@@ -373,7 +373,7 @@ commands(
 
 commands(
     ("va", (7, 8)),
-    library.accelerando((1, 2), (6, 32)),
+    library.make_accelerando((1, 2), (6, 32)),
 )
 
 commands(
@@ -681,15 +681,15 @@ commands(
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.new(
-        library.accelerando((1, 2), (4, 32)),
+        library.make_accelerando((1, 2), (4, 32)),
         match=0,
     ),
     baca.new(
-        library.accelerando((1, 2), (8, 32)),
+        library.make_accelerando((1, 2), (8, 32)),
         match=1,
     ),
     baca.new(
-        library.accelerando((1, 2), (12, 32)),
+        library.make_accelerando((1, 2), (12, 32)),
         match=2,
     ),
     baca.text_spanner(
@@ -710,15 +710,15 @@ commands(
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.new(
-        library.accelerando((1, 2), (4, 32)),
+        library.make_accelerando((1, 2), (4, 32)),
         match=0,
     ),
     baca.new(
-        library.accelerando((1, 2), (8, 32)),
+        library.make_accelerando((1, 2), (8, 32)),
         match=1,
     ),
     baca.new(
-        library.accelerando((1, 2), (12, 32)),
+        library.make_accelerando((1, 2), (12, 32)),
         match=2,
     ),
     baca.text_spanner(
@@ -739,15 +739,15 @@ commands(
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.new(
-        library.accelerando((1, 2), (4, 32)),
+        library.make_accelerando((1, 2), (4, 32)),
         match=0,
     ),
     baca.new(
-        library.accelerando((1, 2), (8, 32)),
+        library.make_accelerando((1, 2), (8, 32)),
         match=1,
     ),
     baca.new(
-        library.accelerando((1, 2), (12, 32)),
+        library.make_accelerando((1, 2), (12, 32)),
         match=2,
     ),
     baca.text_spanner(
