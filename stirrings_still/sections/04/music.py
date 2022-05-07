@@ -307,7 +307,7 @@ commands(
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
-    library.urtext_field(),
+    library.make_urtext_field_rhythm(),
     library.urtext_spanner("urtext (cds) -|", 8),
 )
 
@@ -362,7 +362,7 @@ commands(
         "p-sempre",
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
-    library.urtext_field(),
+    library.make_urtext_field_rhythm(),
 )
 
 commands(
@@ -1010,7 +1010,7 @@ commands(
         baca.hairpin("niente o< p"),
         map=lambda _: [baca.cmgroups(_)[:3]],
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (arrival) -|", 5.5),
 )
 
@@ -1031,7 +1031,7 @@ commands(
         measures=(94, 96),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner(
         "clouded pane (stepwise up) -|",
         5.5,

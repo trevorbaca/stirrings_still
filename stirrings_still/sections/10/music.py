@@ -98,7 +98,7 @@ commands(
 
 commands(
     ("trio", (1, 2)),
-    library.urtext_field(),
+    library.make_urtext_field_rhythm(),
     baca.reapply_persistent_indicators(),
     baca.dynamic_text_self_alignment_x(
         -0.75,
@@ -123,7 +123,7 @@ commands(
         "appena-udibile -- ! < fff-poco-scratch",
         pieces=lambda _: baca.select.mgroups(_, [2, 5]),
     ),
-    library.urtext_field(),
+    library.make_urtext_field_rhythm(),
 )
 
 commands(
@@ -209,7 +209,7 @@ commands(
         match=2,
     ),
     baca.tuplet_bracket_down(),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
 )
 
@@ -368,7 +368,7 @@ commands(
     baca.hairpin(
         "pp < fff-poco-scratch",
     ),
-    library.urtext_field(),
+    library.make_urtext_field_rhythm(),
 )
 
 commands(

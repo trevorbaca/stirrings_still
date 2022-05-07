@@ -528,7 +528,7 @@ commands(
 
 commands(
     ("vc", (1, 28)),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "C2",
@@ -546,7 +546,7 @@ commands(
         right_broken_show_next=True,
         stop_pitch="Bb1",
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
 )
 
 if __name__ == "__main__":

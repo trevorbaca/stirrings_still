@@ -1235,7 +1235,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         pieces=lambda _: baca.select.cmgroups(_, [8, 8]),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
 )
 
 if __name__ == "__main__":

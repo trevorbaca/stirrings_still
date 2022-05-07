@@ -170,7 +170,7 @@ commands(
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
 )
 
@@ -257,7 +257,7 @@ commands(
         match=2,
     ),
     library.urtext_spanner("urtext (ds field) -|", 5.5),
-    library.urtext_field(),
+    library.make_urtext_field_rhythm(),
 )
 
 # tutti
@@ -785,7 +785,7 @@ commands(
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
 )
 
@@ -873,7 +873,7 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
 )
 
@@ -886,7 +886,7 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.clouded_pane(),
+    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
 )
 
