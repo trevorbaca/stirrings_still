@@ -99,6 +99,10 @@ commands(
 commands(
     ("trio", (1, 2)),
     library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("trio", (1, 2)),
     baca.reapply_persistent_indicators(),
     baca.dynamic_text_self_alignment_x(
         -0.75,
@@ -114,6 +118,11 @@ commands(
 
 commands(
     ("trio", (5, 11)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("trio", (5, 11)),
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.dynamic_text_self_alignment_x(
         -0.75,
@@ -123,12 +132,27 @@ commands(
         "appena-udibile -- ! < fff-poco-scratch",
         pieces=lambda _: baca.select.mgroups(_, [2, 5]),
     ),
-    library.make_urtext_field_rhythm(),
 )
 
 commands(
     ("trio", (5, 11)),
     library.urtext_spanner("urtext (ds field) -|", 8),
+)
+
+commands(
+    ("trio", (12, 17)),
+    baca.new(
+        library.make_trajectory_rhythm("C", -1, -2),
+        match=0,
+    ),
+    baca.new(
+        library.make_trajectory_rhythm("C", -2, -1),
+        match=1,
+    ),
+    baca.new(
+        library.make_trajectory_rhythm("C", -3, 0),
+        match=2,
+    ),
 )
 
 commands(
@@ -151,7 +175,6 @@ commands(
             clt=True,
             staff_padding=4,
         ),
-        library.make_trajectory_rhythm("C", -1, -2),
         match=0,
     ),
     baca.new(
@@ -160,7 +183,6 @@ commands(
             clt=True,
             staff_padding=4,
         ),
-        library.make_trajectory_rhythm("C", -2, -1),
         match=1,
     ),
     baca.new(
@@ -169,7 +191,6 @@ commands(
             clt=True,
             staff_padding=4,
         ),
-        library.make_trajectory_rhythm("C", -3, 0),
         match=2,
     ),
     baca.tuplet_bracket_down(),
@@ -177,6 +198,11 @@ commands(
 )
 
 # v1, va, vc
+
+commands(
+    (["v1", "va", "vc"], (3, 4)),
+    library.make_clouded_pane_rhythm(),
+)
 
 commands(
     (["v1", "va", "vc"], (3, 4)),
@@ -209,7 +235,6 @@ commands(
         match=2,
     ),
     baca.tuplet_bracket_down(),
-    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
 )
 
@@ -281,6 +306,12 @@ commands(
     baca.half_clt_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
+    baca.pitch("F5"),
+    baca.tuplet_bracket_staff_padding(1),
+)
+
+commands(
+    ("v2", (3, 4)),
     baca.new(
         library.make_clocktick_rhythm(),
         measures=3,
@@ -291,8 +322,6 @@ commands(
         ),
         measures=4,
     ),
-    baca.pitch("F5"),
-    baca.tuplet_bracket_staff_padding(1),
 )
 
 # va
@@ -327,6 +356,10 @@ commands(
 commands(
     ("vc", (1, 2)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -368,6 +401,10 @@ commands(
     baca.hairpin(
         "pp < fff-poco-scratch",
     ),
+)
+
+commands(
+    ("vc", (7, 11)),
     library.make_urtext_field_rhythm(),
 )
 
@@ -384,6 +421,10 @@ commands(
     baca.hairpin(
         "fff > pp",
     ),
+)
+
+commands(
+    ("vc", (12, 13)),
     library.make_accelerando((1, 4), (3, 32)),
 )
 

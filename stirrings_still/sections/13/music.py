@@ -55,6 +55,10 @@ commands(
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
     ),
+)
+
+commands(
+    ("v1", [(1, 8), (13, 16), (21, 24), (29, 32)]),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,
@@ -93,6 +97,10 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
     ),
+)
+
+commands(
+    ("v1", (9, 12)),
     library.make_picket_rhythm(4, 2),
 )
 
@@ -130,6 +138,10 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: abjad.select.leaf(_, 1),
     ),
+)
+
+commands(
+    ("v1", (17, 20)),
     library.make_picket_rhythm(
         4,
         2,
@@ -149,6 +161,10 @@ commands(
         qualifier="very-wide",
         selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
     ),
+)
+
+commands(
+    ("v1", (25, 28)),
     library.make_picket_rhythm(
         4,
         2,
@@ -263,6 +279,10 @@ commands(
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
     ),
+)
+
+commands(
+    ("v2", [(1, 8), (13, 16), (21, 24), (29, 32)]),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,
@@ -301,6 +321,10 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
     ),
+)
+
+commands(
+    ("v2", (9, 12)),
     library.make_picket_rhythm(4, 1),
 )
 
@@ -338,6 +362,10 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: abjad.select.leaf(_, 1),
     ),
+)
+
+commands(
+    ("v2", (17, 20)),
     library.make_picket_rhythm(
         4,
         1,
@@ -357,6 +385,10 @@ commands(
         qualifier="very-wide",
         selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
     ),
+)
+
+commands(
+    ("v2", (25, 28)),
     library.make_picket_rhythm(
         4,
         1,
@@ -387,6 +419,10 @@ commands(
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
     ),
+)
+
+commands(
+    ("va", [(1, 8), (13, 16), (21, 24), (29, 32)]),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,
@@ -422,6 +458,10 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
     ),
+)
+
+commands(
+    ("va", (9, 12)),
     library.make_picket_rhythm(4, 0),
 )
 
@@ -459,6 +499,10 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: abjad.select.leaf(_, 1),
     ),
+)
+
+commands(
+    ("va", (17, 20)),
     library.make_picket_rhythm(
         4,
         0,
@@ -478,6 +522,10 @@ commands(
         qualifier="very-wide",
         selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
     ),
+)
+
+commands(
+    ("va", (25, 28)),
     library.make_picket_rhythm(
         4,
         0,
@@ -529,6 +577,10 @@ commands(
 commands(
     ("vc", (1, 28)),
     library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (1, 28)),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "C2",
@@ -546,6 +598,10 @@ commands(
         right_broken_show_next=True,
         stop_pitch="Bb1",
     ),
+)
+
+commands(
+    ("vc", (29, 32)),
     library.make_clouded_pane_rhythm(),
 )
 

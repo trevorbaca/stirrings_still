@@ -53,6 +53,10 @@ library.time(commands, time)
 commands(
     ("v1", (1, 8)),
     library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("v1", (1, 8)),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "<F5 Bqs5>",
@@ -78,6 +82,10 @@ commands(
 commands(
     ("v2", (1, 8)),
     library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("v2", (1, 8)),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "<G4 Dqs5>",
@@ -123,6 +131,10 @@ commands(
 commands(
     ("vc", (1, 8)),
     library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (1, 8)),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Eb2",
@@ -159,6 +171,26 @@ commands(
 
 commands(
     ("tutti", (12, 13)),
+    baca.new(
+        library.make_desynchronization_rhythm(4, [1]),
+        match=0,
+    ),
+    baca.new(
+        library.make_desynchronization_rhythm(4, [0]),
+        match=1,
+    ),
+    baca.new(
+        library.make_desynchronization_rhythm(4, [2]),
+        match=2,
+    ),
+    baca.new(
+        library.make_desynchronization_rhythm(4, [-1]),
+        match=3,
+    ),
+)
+
+commands(
+    ("tutti", (12, 13)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="tight-poss-grind-at-talon",
@@ -173,7 +205,6 @@ commands(
     ),
     baca.new(
         baca.flat_glissando("Bb4"),
-        library.make_desynchronization_rhythm(4, [1]),
         match=0,
     ),
     baca.new(
@@ -181,18 +212,15 @@ commands(
             "G4",
             stop_pitch="A4",
         ),
-        library.make_desynchronization_rhythm(4, [0]),
         match=1,
     ),
     baca.new(
         baca.flat_glissando("Bb4"),
-        library.make_desynchronization_rhythm(4, [2]),
         match=2,
     ),
     baca.new(
         baca.clef("treble"),
         baca.flat_glissando("Bb4"),
-        library.make_desynchronization_rhythm(4, [-1]),
         match=3,
     ),
 )

@@ -77,6 +77,10 @@ library.time(commands, time)
 commands(
     ("v1", (1, 8)),
     library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("v1", (1, 8)),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "C6",
@@ -114,6 +118,10 @@ commands(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
+)
+
+commands(
+    ("v1", (13, 22)),
     library.make_clouded_pane_rhythm(),
 )
 
@@ -149,6 +157,10 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
+)
+
+commands(
+    ("v1", (23, 28)),
     library.make_flight_rhythm(
         "C",
         0,
@@ -158,12 +170,16 @@ commands(
 
 commands(
     ("v1", 29),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", 29),
     baca.hairpin(
         "mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-eleven-e",
         abjad.Tweak(r"- \tweak padding 1.5"),
@@ -194,6 +210,10 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
+)
+
+commands(
+    ("v1", (30, 35)),
     library.make_flight_rhythm(
         "C",
         0,
@@ -221,6 +241,10 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=lambda _: baca.select.rleaves(_),
     ),
+)
+
+commands(
+    ("v1", (37, 38)),
     library.make_eighth_notes(),
 )
 
@@ -280,6 +304,10 @@ commands(
 commands(
     ("v2", (1, 8)),
     library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("v2", (1, 8)),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Eqf5",
@@ -317,6 +345,10 @@ commands(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
+)
+
+commands(
+    ("v2", (13, 22)),
     library.make_clouded_pane_rhythm(),
 )
 
@@ -352,11 +384,20 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
+)
+
+commands(
+    ("v2", (23, 28)),
     library.make_flight_rhythm(
         "C",
         -1,
         start=1,
     ),
+)
+
+commands(
+    ("v2", 29),
+    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -371,7 +412,6 @@ commands(
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("F#5"),
-    baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
@@ -397,6 +437,10 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
+)
+
+commands(
+    ("v2", (30, 35)),
     library.make_flight_rhythm(
         "C",
         -1,
@@ -424,6 +468,10 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=lambda _: baca.select.rleaves(_),
     ),
+)
+
+commands(
+    ("v2", (37, 38)),
     library.make_eighth_notes(),
 )
 
@@ -432,6 +480,10 @@ commands(
 commands(
     ("va", (1, 8)),
     library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("va", (1, 8)),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Gqf4",
@@ -469,6 +521,10 @@ commands(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
+)
+
+commands(
+    ("va", (13, 22)),
     library.make_clouded_pane_rhythm(),
 )
 
@@ -504,6 +560,10 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
+)
+
+commands(
+    ("va", (23, 28)),
     library.make_flight_rhythm(
         "C",
         -2,
@@ -513,12 +573,16 @@ commands(
 
 commands(
     ("va", 29),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", 29),
     baca.hairpin(
         "mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-five-e",
         abjad.Tweak(r"- \tweak padding 1.5"),
@@ -549,6 +613,10 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
+)
+
+commands(
+    ("va", (30, 35)),
     library.make_flight_rhythm(
         "C",
         -2,
@@ -576,6 +644,10 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=lambda _: baca.select.rleaves(_),
     ),
+)
+
+commands(
+    ("va", (37, 38)),
     library.make_eighth_notes(),
 )
 
@@ -584,6 +656,10 @@ commands(
 commands(
     ("vc", (1, 10)),
     library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (1, 10)),
     baca.reapply_persistent_indicators(),
     baca.chunk(
         baca.dots_transparent(),
@@ -607,10 +683,14 @@ commands(
 
 commands(
     ("vc", (11, 12)),
+    library.make_cello_cell_rhythm(),
+)
+
+commands(
+    ("vc", (11, 12)),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {3 + 6}"),
     ),
-    library.make_cello_cell_rhythm(),
     library.cello_cell_bcps(
         staff_padding=3,
     ),
@@ -623,6 +703,10 @@ commands(
         baca.stem_transparent(),
         selector=lambda _: baca.select.leaves(_)[:-1],
     ),
+)
+
+commands(
+    ("vc", (13, 22)),
     library.make_clouded_pane_rhythm(),
 )
 
@@ -660,6 +744,10 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
+)
+
+commands(
+    ("vc", (23, 28)),
     library.make_flight_rhythm(
         "C",
         -3,
@@ -682,12 +770,16 @@ commands(
 
 commands(
     ("vc", 29),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", 29),
     baca.hairpin(
         "mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-string-iii-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
@@ -719,6 +811,10 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
+)
+
+commands(
+    ("vc", (30, 35)),
     library.make_flight_rhythm(
         "C",
         -3,
@@ -745,6 +841,10 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=lambda _: baca.select.rleaves(_),
     ),
+)
+
+commands(
+    ("vc", (37, 38)),
     library.make_clouded_pane_rhythm(),
 )
 

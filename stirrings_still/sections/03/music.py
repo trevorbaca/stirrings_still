@@ -141,8 +141,12 @@ commands(
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("<F4 A4>"),
-    library.make_loure_tuplets_material(0),
     library.urtext_spanner("urtext (ds) -|", 8),
+)
+
+commands(
+    ("v1", 5),
+    library.make_loure_tuplets_material(0),
 )
 
 commands(
@@ -170,8 +174,12 @@ commands(
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
-    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
+)
+
+commands(
+    ("v1", (28, 29)),
+    library.make_clouded_pane_rhythm(),
 )
 
 commands(
@@ -228,6 +236,11 @@ commands(
 
 commands(
     ("trio", (60, 61)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("trio", (60, 61)),
     baca.breathe(),
     baca.hairpin(
         "appena-udibile -- !",
@@ -257,7 +270,6 @@ commands(
         match=2,
     ),
     library.urtext_spanner("urtext (ds field) -|", 5.5),
-    library.make_urtext_field_rhythm(),
 )
 
 # tutti
@@ -285,6 +297,10 @@ commands(
         library.make_desynchronization_rhythm(4, [-1]),
         match=3,
     ),
+)
+
+commands(
+    ("tutti", (1, 4)),
     baca.reapply_persistent_indicators(),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -315,27 +331,31 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
+)
+
+commands(
+    ("tutti", (7, 10)),
     baca.new(
-        baca.flat_glissando("Bb4"),
         library.make_desynchronization_rhythm(4, [1]),
+        baca.flat_glissando("Bb4"),
         match=0,
     ),
     baca.new(
+        library.make_desynchronization_rhythm(4, [0]),
         baca.flat_glissando(
             "G4",
             stop_pitch="A4",
         ),
-        library.make_desynchronization_rhythm(4, [0]),
         match=1,
     ),
     baca.new(
-        baca.flat_glissando("Bb4"),
         library.make_desynchronization_rhythm(4, [2]),
+        baca.flat_glissando("Bb4"),
         match=2,
     ),
     baca.new(
-        baca.flat_glissando("Bb4"),
         library.make_desynchronization_rhythm(4, [-1]),
+        baca.flat_glissando("Bb4"),
         match=3,
     ),
 )
@@ -346,6 +366,18 @@ commands(
         "p-ancora",
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
+    baca.text_spanner(
+        r"\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|",
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+        autodetect_right_padding=True,
+        bookend=False,
+        pieces=lambda _: baca.select.omgroups(_, [2]),
+        selector=lambda _: baca.select.rleaves(_),
+    ),
+)
+
+commands(
+    ("tutti", (12, 15)),
     baca.new(
         library.make_desynchronization_rhythm(4, [1], rests=True),
         match=0,
@@ -361,14 +393,6 @@ commands(
     baca.new(
         library.make_desynchronization_rhythm(4, [-1], rests=True),
         match=3,
-    ),
-    baca.text_spanner(
-        r"\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|",
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        autodetect_right_padding=True,
-        bookend=False,
-        pieces=lambda _: baca.select.omgroups(_, [2]),
-        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -382,7 +406,6 @@ commands(
 
 commands(
     ("tutti", (16, 19)),
-    baca.dynamic("p", redundant=True),
     baca.new(
         library.make_desynchronization_rhythm(4, [1], rests=True),
         match=0,
@@ -399,6 +422,11 @@ commands(
         library.make_desynchronization_rhythm(4, [-1], rests=True),
         match=3,
     ),
+)
+
+commands(
+    ("tutti", (16, 19)),
+    baca.dynamic("p", redundant=True),
     baca.text_spanner(
         r"\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -411,7 +439,6 @@ commands(
 
 commands(
     ("tutti", (20, 23)),
-    baca.dynamic("p", redundant=True),
     baca.new(
         library.make_desynchronization_rhythm(4, [1], rests=([2], 3)),
         match=0,
@@ -428,6 +455,11 @@ commands(
         library.make_desynchronization_rhythm(4, [-1], rests=([2], 3)),
         match=3,
     ),
+)
+
+commands(
+    ("tutti", (20, 23)),
+    baca.dynamic("p", redundant=True),
     baca.text_spanner(
         r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -441,7 +473,6 @@ commands(
 
 commands(
     ("tutti", (24, 27)),
-    baca.dynamic("p", redundant=True),
     baca.new(
         library.make_desynchronization_rhythm(4, [1]),
         match=0,
@@ -458,11 +489,21 @@ commands(
         library.make_desynchronization_rhythm(4, [-1]),
         match=3,
     ),
+)
+
+commands(
+    ("tutti", (24, 27)),
+    baca.dynamic("p", redundant=True),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         qualifier="wide",
     ),
+)
+
+commands(
+    ("tutti", (30, 33)),
+    library.make_synchronized_circle_rhythm(rests=[-1]),
 )
 
 commands(
@@ -479,7 +520,6 @@ commands(
         bookend=False,
         pieces=lambda _: baca.select.runs(_),
     ),
-    library.make_synchronized_circle_rhythm(rests=[-1]),
 )
 
 commands(
@@ -563,6 +603,10 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.rleak(baca.lleak(abjad.select.leaves(_))),
     ),
+)
+
+commands(
+    ("tutti", (56, 59)),
     baca.new(
         library.make_synchronized_circle_rhythm(gaps=False, rotation=0),
         match=0,
@@ -608,6 +652,10 @@ commands(
         baca.pitch("B1"),
         match=3,
     ),
+)
+
+commands(
+    ("tutti", (62, 69)),
     library.make_synchronized_circle_rhythm(
         rests=[-1],
         rotation=0,
@@ -630,42 +678,46 @@ commands(
 
 commands(
     ("tutti", (71, 76)),
-    baca.hairpin(
-        "f >o niente",
-        abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
     baca.new(
+        library.make_desynchronization_rhythm(4, [1]),
         baca.flat_glissando(
             "Bb4",
             stop_pitch="G4",
         ),
-        library.make_desynchronization_rhythm(4, [1]),
         match=0,
     ),
     baca.new(
+        library.make_desynchronization_rhythm(4, [0]),
         baca.flat_glissando(
             "Ab4",
             stop_pitch="F4",
         ),
-        library.make_desynchronization_rhythm(4, [0]),
         match=1,
     ),
     baca.new(
+        library.make_desynchronization_rhythm(4, [2]),
         baca.flat_glissando(
             "A3",
             stop_pitch="B2",
         ),
-        library.make_desynchronization_rhythm(4, [2]),
         match=2,
     ),
     baca.new(
+        library.make_desynchronization_rhythm(4, [-1]),
         baca.flat_glissando(
             "G2",
             stop_pitch="Bb1",
         ),
-        library.make_desynchronization_rhythm(4, [-1]),
         match=3,
+    ),
+)
+
+commands(
+    ("tutti", (71, 76)),
+    baca.hairpin(
+        "f >o niente",
+        abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.text_spanner(
         r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
@@ -682,13 +734,17 @@ commands(
 
 commands(
     ("v2", 5),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", 5),
     baca.dynamic("mp"),
     baca.markup(
         r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("<E4 G#4>"),
-    library.make_loure_tuplets_material(1),
     library.urtext_spanner("urtext (ds) -|", 8),
 )
 
@@ -716,6 +772,11 @@ commands(
     baca.half_clt_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
+    baca.pitch("F5"),
+)
+
+commands(
+    ("v2", (28, 29)),
     baca.new(
         library.make_clocktick_rhythm(),
         measures=28,
@@ -726,7 +787,6 @@ commands(
         ),
         measures=29,
     ),
-    baca.pitch("F5"),
 )
 
 commands(
@@ -757,6 +817,10 @@ commands(
     ),
     baca.pitch("<Aqf3 C#4>"),
     library.clouded_pane_spanner("clouded (partial: stopped) -|", 8),
+)
+
+commands(
+    ("va", 5),
     library.make_loure_tuplets_material(-1),
 )
 
@@ -785,8 +849,12 @@ commands(
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
-    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
+)
+
+commands(
+    ("va", (28, 29)),
+    library.make_clouded_pane_rhythm(),
 )
 
 commands(
@@ -842,6 +910,10 @@ commands(
         "clouded pane (pane / urtext) -|",
         5.5,
     ),
+)
+
+commands(
+    ("vc", 5),
     library.make_taper_rhythm((1, 1)),
 )
 
@@ -873,8 +945,12 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
+)
+
+commands(
+    ("vc", (28, 29)),
+    library.make_clouded_pane_rhythm(),
 )
 
 commands(
@@ -886,8 +962,12 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
+)
+
+commands(
+    ("vc", (34, 35)),
+    library.make_clouded_pane_rhythm(),
 )
 
 commands(
