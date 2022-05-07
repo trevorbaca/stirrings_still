@@ -51,7 +51,7 @@ library.time(commands, time)
 
 commands(
     ("v1", (1, 6)),
-    library.circles((1, 4)),
+    library.make_circle_rhythm((1, 4)),
     baca.reapply_persistent_indicators(),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -80,7 +80,7 @@ commands(
         r"\baca-thirteen-d-flat",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
-    library.pickets(4, 2),
+    library.make_picket_rhythm(4, 2),
 )
 
 # tutti
@@ -95,7 +95,7 @@ commands(
 
 commands(
     ("v2", (1, 6)),
-    library.circles((1, 4)),
+    library.make_circle_rhythm((1, 4)),
     baca.reapply_persistent_indicators(),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -124,14 +124,14 @@ commands(
         r"\baca-nine-d-flat",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
-    library.pickets(4, 1),
+    library.make_picket_rhythm(4, 1),
 )
 
 # va
 
 commands(
     ("va", (1, 6)),
-    library.circles((1, 4)),
+    library.make_circle_rhythm((1, 4)),
     baca.reapply_persistent_indicators(),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -160,14 +160,14 @@ commands(
         r"\baca-seven-d-flat",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
-    library.pickets(4, 0),
+    library.make_picket_rhythm(4, 0),
 )
 
 # vc
 
 commands(
     ("vc", (1, 6)),
-    library.circles((1, 4)),
+    library.make_circle_rhythm((1, 4)),
     baca.reapply_persistent_indicators(),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -198,7 +198,7 @@ commands(
         clt=True,
         staff_padding=3,
     ),
-    library.trajectories("A", -1, 0),
+    library.make_trajectory_rhythm("A", -1, 0),
 )
 
 if __name__ == "__main__":

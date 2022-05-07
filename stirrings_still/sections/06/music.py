@@ -173,7 +173,7 @@ commands(
     ),
     baca.new(
         baca.flat_glissando("Bb4"),
-        library.desynchronization(4, [1]),
+        library.make_desynchronization_rhythm(4, [1]),
         match=0,
     ),
     baca.new(
@@ -181,18 +181,18 @@ commands(
             "G4",
             stop_pitch="A4",
         ),
-        library.desynchronization(4, [0]),
+        library.make_desynchronization_rhythm(4, [0]),
         match=1,
     ),
     baca.new(
         baca.flat_glissando("Bb4"),
-        library.desynchronization(4, [2]),
+        library.make_desynchronization_rhythm(4, [2]),
         match=2,
     ),
     baca.new(
         baca.clef("treble"),
         baca.flat_glissando("Bb4"),
-        library.desynchronization(4, [-1]),
+        library.make_desynchronization_rhythm(4, [-1]),
         match=3,
     ),
 )

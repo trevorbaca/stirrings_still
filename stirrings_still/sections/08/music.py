@@ -122,7 +122,7 @@ commands(
         r"\baca-thirteen-d-flat",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
-    library.circles((1, 8)),
+    library.make_circle_rhythm((1, 8)),
     baca.flat_glissando("Aqs4"),
 )
 
@@ -142,7 +142,7 @@ commands(
 
 commands(
     ("v1", (9, 16)),
-    library.desynchronization(4, [0, 2, 1]),
+    library.make_desynchronization_rhythm(4, [0, 2, 1]),
 )
 
 commands(
@@ -252,7 +252,7 @@ commands(
 
 commands(
     ("v2", (13, 16)),
-    library.desynchronization(4, [1, 0, 2]),
+    library.make_desynchronization_rhythm(4, [1, 0, 2]),
 )
 
 commands(
@@ -280,7 +280,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.new(
-        library.clockticks(),
+        library.make_clocktick_rhythm(),
         measures=33,
     ),
     baca.new(
@@ -316,7 +316,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.new(
-        library.clockticks(),
+        library.make_clocktick_rhythm(),
         measures=53,
     ),
     baca.new(
@@ -364,7 +364,7 @@ commands(
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("Bqf3"),
-    library.circles(
+    library.make_circle_rhythm(
         (1, 2),
         rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
         remainder=abjad.LEFT,
@@ -387,7 +387,7 @@ commands(
 
 commands(
     ("va", (9, 16)),
-    library.desynchronization(4, [1, 0, 2]),
+    library.make_desynchronization_rhythm(4, [1, 0, 2]),
 )
 
 commands(
@@ -451,7 +451,7 @@ commands(
     library.transition_bcps(
         staff_padding=6,
     ),
-    library.eighths(),
+    library.make_eighth_notes(),
 )
 
 commands(
@@ -560,7 +560,7 @@ commands(
         staff_padding=3,
     ),
     baca.flat_glissando("Db2"),
-    library.trajectories("A", -1, 0),
+    library.make_trajectory_rhythm("A", -1, 0),
 )
 
 commands(
@@ -578,7 +578,7 @@ commands(
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.pitch("B1"),
-    library.taper((1, 1)),
+    library.make_taper_rhythm((1, 1)),
     library.clouded_pane_spanner("clouded pane (pane / urtext) -|", 8),
 )
 
@@ -631,7 +631,7 @@ commands(
             abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.flat_glissando("Gqf4"),
-        library.pickets(
+        library.make_picket_rhythm(
             4,
             2,
             rmakers.force_rest(
@@ -646,7 +646,7 @@ commands(
             abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.flat_glissando("Atqf3"),
-        library.pickets(
+        library.make_picket_rhythm(
             4,
             1,
             rmakers.force_rest(
@@ -661,7 +661,7 @@ commands(
             abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.flat_glissando("C3"),
-        library.pickets(
+        library.make_picket_rhythm(
             4,
             0,
             rmakers.force_rest(
@@ -772,7 +772,7 @@ commands(
             abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.flat_glissando("Aqs4"),
-        library.pickets(4, 2),
+        library.make_picket_rhythm(4, 2),
         match=0,
     ),
     baca.new(
@@ -781,7 +781,7 @@ commands(
             abjad.Tweak(r"- \tweak padding 1.5"),
         ),
         baca.flat_glissando("Eb4"),
-        library.pickets(4, 1),
+        library.make_picket_rhythm(4, 1),
         match=1,
     ),
     baca.new(
@@ -790,7 +790,7 @@ commands(
             abjad.Tweak(r"- \tweak padding 1"),
         ),
         baca.flat_glissando("Bqf3"),
-        library.pickets(4, 0),
+        library.make_picket_rhythm(4, 0),
         match=2,
     ),
     baca.text_spanner(
@@ -809,13 +809,13 @@ commands(
     baca.dynamic("mp"),
     baca.new(
         baca.pitch("<F4 A4>"),
-        library.loure_tuplets(0),
+        library.make_loure_tuplets_material(0),
         library.urtext_spanner("urtext (ds) -|", 8),
         match=0,
     ),
     baca.new(
         baca.pitch("<E4 G#4>"),
-        library.loure_tuplets(1),
+        library.make_loure_tuplets_material(1),
         library.urtext_spanner("urtext (ds) -|", 8),
         match=1,
     ),
@@ -826,7 +826,7 @@ commands(
         ),
         baca.pitch("<Aqf3 C#4>"),
         library.clouded_pane_spanner("clouded pane (partial) -|", 8),
-        library.loure_tuplets(-1),
+        library.make_loure_tuplets_material(-1),
         match=2,
     ),
 )
@@ -836,20 +836,20 @@ commands(
     baca.dynamic("mp"),
     baca.new(
         baca.pitch("<F4 A4>"),
-        library.loure_tuplets(0),
+        library.make_loure_tuplets_material(0),
         library.urtext_spanner("urtext (ds) -|", 8),
         match=0,
     ),
     baca.new(
         baca.pitch("<E4 G#4>"),
-        library.loure_tuplets(1),
+        library.make_loure_tuplets_material(1),
         library.urtext_spanner("urtext (ds) -|", 8),
         match=1,
     ),
     baca.new(
         baca.pitch("<Aqf3 C#4>"),
         library.clouded_pane_spanner("clouded pane (partial) -|", 8),
-        library.loure_tuplets(-1),
+        library.make_loure_tuplets_material(-1),
         match=2,
     ),
 )
@@ -880,7 +880,7 @@ commands(
             "Aqs4",
             right_broken=True,
         ),
-        library.circles((1, 8)),
+        library.make_circle_rhythm((1, 8)),
         match=0,
     ),
     baca.new(
@@ -892,7 +892,7 @@ commands(
             "Eb4",
             right_broken=True,
         ),
-        library.circles((1, 4)),
+        library.make_circle_rhythm((1, 4)),
         match=1,
     ),
 )

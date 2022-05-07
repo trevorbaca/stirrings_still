@@ -151,7 +151,7 @@ commands(
             clt=True,
             staff_padding=4,
         ),
-        library.trajectories("C", -1, -2),
+        library.make_trajectory_rhythm("C", -1, -2),
         match=0,
     ),
     baca.new(
@@ -160,7 +160,7 @@ commands(
             clt=True,
             staff_padding=4,
         ),
-        library.trajectories("C", -2, -1),
+        library.make_trajectory_rhythm("C", -2, -1),
         match=1,
     ),
     baca.new(
@@ -169,7 +169,7 @@ commands(
             clt=True,
             staff_padding=4,
         ),
-        library.trajectories("C", -3, 0),
+        library.make_trajectory_rhythm("C", -3, 0),
         match=2,
     ),
     baca.tuplet_bracket_down(),
@@ -282,7 +282,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.new(
-        library.clockticks(),
+        library.make_clocktick_rhythm(),
         measures=3,
     ),
     baca.new(

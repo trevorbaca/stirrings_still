@@ -81,15 +81,15 @@ commands(
 commands(
     ("trio", (1, 7)),
     baca.new(
-        library.circles((1, 8)),
+        library.make_circle_rhythm((1, 8)),
         match=0,
     ),
     baca.new(
-        library.circles((1, 4)),
+        library.make_circle_rhythm((1, 4)),
         match=1,
     ),
     baca.new(
-        library.circles(
+        library.make_circle_rhythm(
             (1, 2),
             rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
             remainder=abjad.LEFT,
@@ -234,7 +234,7 @@ commands(
 
 commands(
     ("vc", (1, 6)),
-    library.eighths(),
+    library.make_eighth_notes(),
     baca.reapply_persistent_indicators(),
     baca.beam(),
     baca.suite(
@@ -258,7 +258,7 @@ commands(
         abjad.Tweak(r"- \tweak padding 1.5"),
         direction=abjad.DOWN,
     ),
-    library.cello_cell(),
+    library.make_cello_cell_rhythm(),
     library.cello_cell_bcps(
         staff_padding=6,
     ),

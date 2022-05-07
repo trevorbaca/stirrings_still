@@ -141,7 +141,7 @@ commands(
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("<F4 A4>"),
-    library.loure_tuplets(0),
+    library.make_loure_tuplets_material(0),
     library.urtext_spanner("urtext (ds) -|", 8),
 )
 
@@ -270,19 +270,19 @@ commands(
 commands(
     ("tutti", (1, 4)),
     baca.new(
-        library.desynchronization(4, [1]),
+        library.make_desynchronization_rhythm(4, [1]),
         match=0,
     ),
     baca.new(
-        library.desynchronization(4, [0]),
+        library.make_desynchronization_rhythm(4, [0]),
         match=1,
     ),
     baca.new(
-        library.desynchronization(4, [2]),
+        library.make_desynchronization_rhythm(4, [2]),
         match=2,
     ),
     baca.new(
-        library.desynchronization(4, [-1]),
+        library.make_desynchronization_rhythm(4, [-1]),
         match=3,
     ),
     baca.reapply_persistent_indicators(),
@@ -317,7 +317,7 @@ commands(
     ),
     baca.new(
         baca.flat_glissando("Bb4"),
-        library.desynchronization(4, [1]),
+        library.make_desynchronization_rhythm(4, [1]),
         match=0,
     ),
     baca.new(
@@ -325,17 +325,17 @@ commands(
             "G4",
             stop_pitch="A4",
         ),
-        library.desynchronization(4, [0]),
+        library.make_desynchronization_rhythm(4, [0]),
         match=1,
     ),
     baca.new(
         baca.flat_glissando("Bb4"),
-        library.desynchronization(4, [2]),
+        library.make_desynchronization_rhythm(4, [2]),
         match=2,
     ),
     baca.new(
         baca.flat_glissando("Bb4"),
-        library.desynchronization(4, [-1]),
+        library.make_desynchronization_rhythm(4, [-1]),
         match=3,
     ),
 )
@@ -347,19 +347,19 @@ commands(
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
     baca.new(
-        library.desynchronization(4, [1], rests=True),
+        library.make_desynchronization_rhythm(4, [1], rests=True),
         match=0,
     ),
     baca.new(
-        library.desynchronization(4, [0], rests=True),
+        library.make_desynchronization_rhythm(4, [0], rests=True),
         match=1,
     ),
     baca.new(
-        library.desynchronization(4, [2], rests=True),
+        library.make_desynchronization_rhythm(4, [2], rests=True),
         match=2,
     ),
     baca.new(
-        library.desynchronization(4, [-1], rests=True),
+        library.make_desynchronization_rhythm(4, [-1], rests=True),
         match=3,
     ),
     baca.text_spanner(
@@ -384,19 +384,19 @@ commands(
     ("tutti", (16, 19)),
     baca.dynamic("p", redundant=True),
     baca.new(
-        library.desynchronization(4, [1], rests=True),
+        library.make_desynchronization_rhythm(4, [1], rests=True),
         match=0,
     ),
     baca.new(
-        library.desynchronization(4, [0], rests=True),
+        library.make_desynchronization_rhythm(4, [0], rests=True),
         match=1,
     ),
     baca.new(
-        library.desynchronization(4, [2], rests=True),
+        library.make_desynchronization_rhythm(4, [2], rests=True),
         match=2,
     ),
     baca.new(
-        library.desynchronization(4, [-1], rests=True),
+        library.make_desynchronization_rhythm(4, [-1], rests=True),
         match=3,
     ),
     baca.text_spanner(
@@ -413,19 +413,19 @@ commands(
     ("tutti", (20, 23)),
     baca.dynamic("p", redundant=True),
     baca.new(
-        library.desynchronization(4, [1], rests=([2], 3)),
+        library.make_desynchronization_rhythm(4, [1], rests=([2], 3)),
         match=0,
     ),
     baca.new(
-        library.desynchronization(4, [0], rests=([2], 3)),
+        library.make_desynchronization_rhythm(4, [0], rests=([2], 3)),
         match=1,
     ),
     baca.new(
-        library.desynchronization(4, [2], rests=([2], 3)),
+        library.make_desynchronization_rhythm(4, [2], rests=([2], 3)),
         match=2,
     ),
     baca.new(
-        library.desynchronization(4, [-1], rests=([2], 3)),
+        library.make_desynchronization_rhythm(4, [-1], rests=([2], 3)),
         match=3,
     ),
     baca.text_spanner(
@@ -443,19 +443,19 @@ commands(
     ("tutti", (24, 27)),
     baca.dynamic("p", redundant=True),
     baca.new(
-        library.desynchronization(4, [1]),
+        library.make_desynchronization_rhythm(4, [1]),
         match=0,
     ),
     baca.new(
-        library.desynchronization(4, [0]),
+        library.make_desynchronization_rhythm(4, [0]),
         match=1,
     ),
     baca.new(
-        library.desynchronization(4, [2]),
+        library.make_desynchronization_rhythm(4, [2]),
         match=2,
     ),
     baca.new(
-        library.desynchronization(4, [-1]),
+        library.make_desynchronization_rhythm(4, [-1]),
         match=3,
     ),
     baca.circle_bow_spanner(
@@ -479,25 +479,25 @@ commands(
         bookend=False,
         pieces=lambda _: baca.select.runs(_),
     ),
-    library.synchronized_circles(rests=[-1]),
+    library.make_synchronized_circle_rhythm(rests=[-1]),
 )
 
 commands(
     ("tutti", (36, 55)),
     baca.new(
-        library.synchronized_circles(rotation=0),
+        library.make_synchronized_circle_rhythm(rotation=0),
         match=0,
     ),
     baca.new(
-        library.synchronized_circles(rotation=-1),
+        library.make_synchronized_circle_rhythm(rotation=-1),
         match=1,
     ),
     baca.new(
-        library.synchronized_circles(rotation=-2),
+        library.make_synchronized_circle_rhythm(rotation=-2),
         match=2,
     ),
     baca.new(
-        library.synchronized_circles(rotation=-3),
+        library.make_synchronized_circle_rhythm(rotation=-3),
         match=3,
     ),
 )
@@ -564,19 +564,19 @@ commands(
         selector=lambda _: baca.rleak(baca.lleak(abjad.select.leaves(_))),
     ),
     baca.new(
-        library.synchronized_circles(gaps=False, rotation=0),
+        library.make_synchronized_circle_rhythm(gaps=False, rotation=0),
         match=0,
     ),
     baca.new(
-        library.synchronized_circles(gaps=False, rotation=-1),
+        library.make_synchronized_circle_rhythm(gaps=False, rotation=-1),
         match=1,
     ),
     baca.new(
-        library.synchronized_circles(gaps=False, rotation=-2),
+        library.make_synchronized_circle_rhythm(gaps=False, rotation=-2),
         match=2,
     ),
     baca.new(
-        library.synchronized_circles(gaps=False, rotation=-3),
+        library.make_synchronized_circle_rhythm(gaps=False, rotation=-3),
         match=3,
     ),
 )
@@ -608,7 +608,7 @@ commands(
         baca.pitch("B1"),
         match=3,
     ),
-    library.synchronized_circles(
+    library.make_synchronized_circle_rhythm(
         rests=[-1],
         rotation=0,
     ),
@@ -640,7 +640,7 @@ commands(
             "Bb4",
             stop_pitch="G4",
         ),
-        library.desynchronization(4, [1]),
+        library.make_desynchronization_rhythm(4, [1]),
         match=0,
     ),
     baca.new(
@@ -648,7 +648,7 @@ commands(
             "Ab4",
             stop_pitch="F4",
         ),
-        library.desynchronization(4, [0]),
+        library.make_desynchronization_rhythm(4, [0]),
         match=1,
     ),
     baca.new(
@@ -656,7 +656,7 @@ commands(
             "A3",
             stop_pitch="B2",
         ),
-        library.desynchronization(4, [2]),
+        library.make_desynchronization_rhythm(4, [2]),
         match=2,
     ),
     baca.new(
@@ -664,7 +664,7 @@ commands(
             "G2",
             stop_pitch="Bb1",
         ),
-        library.desynchronization(4, [-1]),
+        library.make_desynchronization_rhythm(4, [-1]),
         match=3,
     ),
     baca.text_spanner(
@@ -688,7 +688,7 @@ commands(
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("<E4 G#4>"),
-    library.loure_tuplets(1),
+    library.make_loure_tuplets_material(1),
     library.urtext_spanner("urtext (ds) -|", 8),
 )
 
@@ -717,7 +717,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.new(
-        library.clockticks(),
+        library.make_clocktick_rhythm(),
         measures=28,
     ),
     baca.new(
@@ -757,7 +757,7 @@ commands(
     ),
     baca.pitch("<Aqf3 C#4>"),
     library.clouded_pane_spanner("clouded (partial: stopped) -|", 8),
-    library.loure_tuplets(-1),
+    library.make_loure_tuplets_material(-1),
 )
 
 commands(
@@ -842,7 +842,7 @@ commands(
         "clouded pane (pane / urtext) -|",
         5.5,
     ),
-    library.taper((1, 1)),
+    library.make_taper_rhythm((1, 1)),
 )
 
 commands(

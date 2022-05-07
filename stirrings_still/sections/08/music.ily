@@ -7314,7 +7314,7 @@ segment.08.Violin.I.Music.Voice = {
     % ARTICULATIONS:
       %! baca.IndicatorCommand._call()
       %! baca.espressivo()
-      %! stirrings_still.loure_tuplets()
+      %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -7428,7 +7428,7 @@ segment.08.Violin.I.Music.Voice = {
     % ARTICULATIONS:
       %! baca.IndicatorCommand._call()
       %! baca.espressivo()
-      %! stirrings_still.loure_tuplets()
+      %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7438,7 +7438,7 @@ segment.08.Violin.I.Music.Voice = {
     % ARTICULATIONS:
       %! baca.IndicatorCommand._call()
       %! baca.espressivo()
-      %! stirrings_still.loure_tuplets()
+      %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7448,7 +7448,7 @@ segment.08.Violin.I.Music.Voice = {
     % ARTICULATIONS:
       %! baca.IndicatorCommand._call()
       %! baca.espressivo()
-      %! stirrings_still.loure_tuplets()
+      %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7458,7 +7458,7 @@ segment.08.Violin.I.Music.Voice = {
     % ARTICULATIONS:
       %! baca.IndicatorCommand._call()
       %! baca.espressivo()
-      %! stirrings_still.loure_tuplets()
+      %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % STOP_BEAM:
     ]
@@ -7638,7 +7638,7 @@ segment.08.Violin.I.Music.Voice = {
     % ARTICULATIONS:
       %! baca.IndicatorCommand._call()
       %! baca.espressivo()
-      %! stirrings_still.loure_tuplets()
+      %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -7724,7 +7724,7 @@ segment.08.Violin.I.Music.Voice = {
     % ARTICULATIONS:
       %! baca.IndicatorCommand._call()
       %! baca.espressivo()
-      %! stirrings_still.loure_tuplets()
+      %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7734,7 +7734,7 @@ segment.08.Violin.I.Music.Voice = {
     % ARTICULATIONS:
       %! baca.IndicatorCommand._call()
       %! baca.espressivo()
-      %! stirrings_still.loure_tuplets()
+      %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7744,7 +7744,7 @@ segment.08.Violin.I.Music.Voice = {
     % ARTICULATIONS:
       %! baca.IndicatorCommand._call()
       %! baca.espressivo()
-      %! stirrings_still.loure_tuplets()
+      %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7754,7 +7754,7 @@ segment.08.Violin.I.Music.Voice = {
     % ARTICULATIONS:
       %! baca.IndicatorCommand._call()
       %! baca.espressivo()
-      %! stirrings_still.loure_tuplets()
+      %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7764,7 +7764,7 @@ segment.08.Violin.I.Music.Voice = {
     % ARTICULATIONS:
       %! baca.IndicatorCommand._call()
       %! baca.espressivo()
-      %! stirrings_still.loure_tuplets()
+      %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % STOP_BEAM:
     ]
@@ -11678,7 +11678,7 @@ segment.08.Violin.II.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
@@ -11792,7 +11792,7 @@ segment.08.Violin.II.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -11802,7 +11802,7 @@ segment.08.Violin.II.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -11812,7 +11812,7 @@ segment.08.Violin.II.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -11822,7 +11822,7 @@ segment.08.Violin.II.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -11832,7 +11832,7 @@ segment.08.Violin.II.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
         ]
@@ -12188,7 +12188,7 @@ segment.08.Violin.II.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! REDUNDANT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
@@ -12312,7 +12312,7 @@ segment.08.Violin.II.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -12322,7 +12322,7 @@ segment.08.Violin.II.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -12332,7 +12332,7 @@ segment.08.Violin.II.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -12342,7 +12342,7 @@ segment.08.Violin.II.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -12352,7 +12352,7 @@ segment.08.Violin.II.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -12362,7 +12362,7 @@ segment.08.Violin.II.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
         ]
@@ -16053,7 +16053,7 @@ segment.08.Viola.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
@@ -16174,7 +16174,7 @@ segment.08.Viola.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -16184,7 +16184,7 @@ segment.08.Viola.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -16194,7 +16194,7 @@ segment.08.Viola.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
         ]
@@ -16383,7 +16383,7 @@ segment.08.Viola.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
@@ -16469,7 +16469,7 @@ segment.08.Viola.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -16479,7 +16479,7 @@ segment.08.Viola.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -16489,7 +16489,7 @@ segment.08.Viola.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -16499,7 +16499,7 @@ segment.08.Viola.Music.Voice = {
         % ARTICULATIONS:
           %! baca.IndicatorCommand._call()
           %! baca.espressivo()
-          %! stirrings_still.loure_tuplets()
+          %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
         ]

@@ -143,7 +143,7 @@ library.time(commands, time)
 
 commands(
     ("trio", [1, 3, (5, 6), (8, 9)]),
-    library.declamation(),
+    library.make_declamation_rhythm(),
     baca.attach_first_segment_default_indicators(),
     baca.new(
         baca.script_padding(1),
@@ -196,7 +196,7 @@ commands(
 commands(
     ("v1", [23, 26, (30, 45)]),
     baca.flat_glissando("B4"),
-    library.desynchronization(4, [1]),
+    library.make_desynchronization_rhythm(4, [1]),
 )
 
 commands(
@@ -209,7 +209,7 @@ commands(
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
-    library.loure_tuplets(0),
+    library.make_loure_tuplets_material(0),
     library.urtext_spanner("urtext (double stop G.1) -|", 8),
 )
 
@@ -228,7 +228,7 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.desynchronization(4, [1]),
+    library.make_desynchronization_rhythm(4, [1]),
 )
 
 commands(
@@ -329,7 +329,7 @@ commands(
     library.breathe(
         selector=lambda _: abjad.select.leaf(_, 1),
     ),
-    library.declamation(
+    library.make_declamation_rhythm(
         protract=True,
     ),
 )
@@ -362,7 +362,7 @@ commands(
     library.breathe(
         selector=lambda _: baca.select.pleaf(_, -1),
     ),
-    library.declamation(),
+    library.make_declamation_rhythm(),
 )
 
 commands(
@@ -496,7 +496,7 @@ commands(
     library.breathe(
         selector=lambda _: baca.select.pleaf(_, 1),
     ),
-    library.declamation(),
+    library.make_declamation_rhythm(),
     library.urtext_spanner("A, B -|", 8),
 )
 
@@ -554,7 +554,7 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.circles((1, 4)),
+    library.make_circle_rhythm((1, 4)),
 )
 
 # v2
@@ -598,7 +598,7 @@ commands(
 commands(
     ("v2", [23, 26, (30, 45)]),
     baca.flat_glissando("Db4"),
-    library.desynchronization(4, [0]),
+    library.make_desynchronization_rhythm(4, [0]),
 )
 
 commands(
@@ -611,7 +611,7 @@ commands(
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
-    library.loure_tuplets(1),
+    library.make_loure_tuplets_material(1),
     library.urtext_spanner("urtext (double stop G.1) -|", 8),
 )
 
@@ -630,7 +630,7 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.desynchronization(4, [0]),
+    library.make_desynchronization_rhythm(4, [0]),
 )
 
 commands(
@@ -684,7 +684,7 @@ commands(
 commands(
     ("va", [23, 26, (30, 45)]),
     baca.flat_glissando("A3"),
-    library.desynchronization(4, [2]),
+    library.make_desynchronization_rhythm(4, [2]),
 )
 
 commands(
@@ -698,7 +698,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.clouded_pane_spanner("clouded (partial G.1) -|", 8),
-    library.loure_tuplets(-1),
+    library.make_loure_tuplets_material(-1),
 )
 
 commands(
@@ -716,7 +716,7 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.desynchronization(4, [2]),
+    library.make_desynchronization_rhythm(4, [2]),
 )
 
 commands(
@@ -782,7 +782,7 @@ commands(
         "clouded pane (pane / urtext) -|",
         5.5,
     ),
-    library.taper((1, 1)),
+    library.make_taper_rhythm((1, 1)),
 )
 
 commands(
@@ -830,7 +830,7 @@ commands(
         direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),
-    library.cello_cell(),
+    library.make_cello_cell_rhythm(),
     library.cello_cell_bcps(
         staff_padding=4.5,
     ),
@@ -856,7 +856,7 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.desynchronization(4, [-1]),
+    library.make_desynchronization_rhythm(4, [-1]),
 )
 
 commands(
@@ -881,7 +881,7 @@ commands(
         direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),
-    library.cello_cell(),
+    library.make_cello_cell_rhythm(),
     library.cello_cell_bcps(
         staff_padding=4.5,
     ),

@@ -98,7 +98,7 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                library.wave((4, 16), (1, 16)).rhythm_maker,
+                library.make_wave_rhythm((4, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 5]),
                 remember_state_across_gaps=True,
             ),
@@ -151,7 +151,7 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                library.wave((4, 16), (1, 16)).rhythm_maker,
+                library.make_wave_rhythm((4, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 5]),
                 remember_state_across_gaps=True,
             ),
@@ -215,7 +215,7 @@ commands(
 commands(
     ("tutti", (21, 25)),
     baca.breathe(),
-    library.eighths(),
+    library.make_eighth_notes(),
 )
 
 # v1, va, vc
@@ -261,7 +261,7 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                library.wave((6, 16), (1, 16)).rhythm_maker,
+                library.make_wave_rhythm((6, 16), (1, 16)).rhythm_maker,
                 abjad.index([0, 2, 4]),
                 remember_state_across_gaps=True,
             ),
@@ -304,12 +304,12 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                library.wave((6, 16), (1, 16)).rhythm_maker,
+                library.make_wave_rhythm((6, 16), (1, 16)).rhythm_maker,
                 abjad.index([0, 2, 4]),
                 remember_state_across_gaps=True,
             ),
             rmakers.assign(
-                library.eighths().rhythm_maker,
+                library.make_eighth_notes().rhythm_maker,
                 abjad.index([5]),
             ),
             rmakers.assign(
@@ -374,7 +374,7 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                library.wave((5, 16), (1, 16)).rhythm_maker,
+                library.make_wave_rhythm((5, 16), (1, 16)).rhythm_maker,
                 abjad.index([3, 4, 5]),
                 remember_state_across_gaps=True,
             ),
@@ -416,7 +416,7 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                library.wave((5, 16), (1, 16)).rhythm_maker,
+                library.make_wave_rhythm((5, 16), (1, 16)).rhythm_maker,
                 abjad.index([3, 4, 5]),
                 remember_state_across_gaps=True,
             ),
@@ -469,7 +469,7 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                library.wave((7, 16), (1, 16)).rhythm_maker,
+                library.make_wave_rhythm((7, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 3]),
                 remember_state_across_gaps=True,
             ),
@@ -511,12 +511,12 @@ commands(
     baca.rhythm(
         rmakers.bind(
             rmakers.assign(
-                library.wave((7, 16), (1, 16)).rhythm_maker,
+                library.make_wave_rhythm((7, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 3]),
                 remember_state_across_gaps=True,
             ),
             rmakers.assign(
-                library.eighths().rhythm_maker,
+                library.make_eighth_notes().rhythm_maker,
                 abjad.index([4, 5]),
             ),
             rmakers.assign(

@@ -78,7 +78,7 @@ commands(
 
 commands(
     ("v1", [1, (3, 4), (6, 8), (10, 15)]),
-    library.wave((1, 4), (3, 32)),
+    library.make_wave_rhythm((1, 4), (3, 32)),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,
@@ -125,7 +125,7 @@ commands(
 
 commands(
     ("v2", [1, (3, 4), (6, 8), (10, 15)]),
-    library.wave((5, 32), (1, 4)),
+    library.make_wave_rhythm((5, 32), (1, 4)),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,
