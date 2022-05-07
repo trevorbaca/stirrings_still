@@ -162,7 +162,7 @@ commands(
         baca.hairpin("pp < mp"),
     ),
     baca.note_head_style_harmonic(),
-    library.accelerando((1, 4), (1, 16)),
+    library.make_accelerando((1, 4), (1, 16)),
 )
 
 commands(
@@ -814,7 +814,7 @@ commands(
         baca.hairpin("pp < mp"),
     ),
     baca.note_head_style_harmonic(),
-    library.accelerando((1, 4), (2, 16)),
+    library.make_accelerando((1, 4), (2, 16)),
 )
 
 commands(

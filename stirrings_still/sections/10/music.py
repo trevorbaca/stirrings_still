@@ -384,7 +384,7 @@ commands(
     baca.hairpin(
         "fff > pp",
     ),
-    library.accelerando((1, 4), (3, 32)),
+    library.make_accelerando((1, 4), (3, 32)),
 )
 
 commands(
