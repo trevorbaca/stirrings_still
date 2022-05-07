@@ -162,6 +162,10 @@ commands(
         baca.hairpin("pp < mp"),
     ),
     baca.note_head_style_harmonic(),
+)
+
+commands(
+    ("v1", 57),
     library.make_accelerando((1, 4), (1, 16)),
 )
 
@@ -191,10 +195,10 @@ commands(
 
 commands(
     (["v1", "v2"], (84, 92)),
+    library.make_continuous_tremolo_material(),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
-    library.make_continuous_tremolo_material(),
 )
 
 commands(
@@ -218,7 +222,12 @@ commands(
 )
 
 commands(
-    (["v1", "v2"], (94, 96)),
+    ("v1", (94, 96)),
+    library.make_continuous_tremolo_material(),
+)
+
+commands(
+    ("v2", (94, 96)),
     library.make_continuous_tremolo_material(),
 )
 
@@ -232,6 +241,11 @@ commands(
 commands(
     ("trio", 38),
     baca.tacet(),
+)
+
+commands(
+    ("trio", [47, 55]),
+    library.make_declamation_rhythm(),
 )
 
 commands(
@@ -293,7 +307,6 @@ commands(
     library.breathe(
         selector=lambda _: baca.select.pleaf(_, 1),
     ),
-    library.make_declamation_rhythm(),
     library.urtext_spanner("A, B -|", 8),
 )
 
@@ -307,8 +320,12 @@ commands(
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
-    library.make_urtext_field_rhythm(),
     library.urtext_spanner("urtext (cds) -|", 8),
+)
+
+commands(
+    ("trio", 65),
+    library.make_urtext_field_rhythm(),
 )
 
 commands(
@@ -322,36 +339,40 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
+)
+
+commands(
+    ("trio", 66),
     baca.new(
+        library.make_circle_rhythm((1, 8)),
         baca.beam(),
         baca.flat_glissando("Aqs4"),
         baca.markup(
             r"\baca-thirteen-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
         ),
-        library.make_circle_rhythm((1, 8)),
         match=0,
     ),
     baca.new(
+        library.make_circle_rhythm((1, 4)),
         baca.flat_glissando("Eb4"),
         baca.markup(
             r"\baca-nine-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
         ),
-        library.make_circle_rhythm((1, 4)),
         match=1,
     ),
     baca.new(
-        baca.markup(
-            r"\baca-seven-d-flat",
-            abjad.Tweak(r"- \tweak padding 1.5"),
-        ),
-        baca.pitch("Bqf3"),
         library.make_circle_rhythm(
             (1, 2),
             rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
             remainder=abjad.LEFT,
         ),
+        baca.markup(
+            r"\baca-seven-d-flat",
+            abjad.Tweak(r"- \tweak padding 1.5"),
+        ),
+        baca.pitch("Bqf3"),
         match=2,
     ),
 )
@@ -362,6 +383,10 @@ commands(
         "p-sempre",
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
+)
+
+commands(
+    ("trio", 67),
     library.make_urtext_field_rhythm(),
 )
 
@@ -384,6 +409,10 @@ commands(
         library.make_flight_rhythm("B", -2),
         match=2,
     ),
+)
+
+commands(
+    ("trio", (68, 83)),
     baca.suite(
         baca.new(
             baca.espressivo(),
@@ -426,17 +455,21 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
+)
+
+commands(
+    ("trio", (97, 98)),
     baca.new(
-        baca.flat_glissando("Bb4"),
         library.make_desynchronization_rhythm(4, [1]),
+        baca.flat_glissando("Bb4"),
         match=0,
     ),
     baca.new(
+        library.make_desynchronization_rhythm(4, [0]),
         baca.flat_glissando(
             "G4",
             stop_pitch="A4",
         ),
-        library.make_desynchronization_rhythm(4, [0]),
         match=1,
     ),
     baca.new(
@@ -486,6 +519,10 @@ commands(
         ),
         match=3,
     ),
+)
+
+commands(
+    ("tutti", (1, 6)),
     baca.reapply_persistent_indicators(),
     baca.dynamic("p"),
 )
@@ -512,6 +549,10 @@ commands(
         bookend=False,
         pieces=lambda _: baca.select.lts(_, nontrivial=True),
     ),
+)
+
+commands(
+    ("tutti", (7, 12)),
     baca.new(
         library.make_stroke_rhythm(
             0,
@@ -552,11 +593,6 @@ commands(
 
 commands(
     ("tutti", (13, 18)),
-    baca.hairpin(
-        "mf mp",
-        bookend=False,
-        pieces=lambda _: baca.select.lts(_, nontrivial=True),
-    ),
     baca.new(
         library.make_stroke_rhythm(
             0,
@@ -596,12 +632,25 @@ commands(
 )
 
 commands(
+    ("tutti", (13, 18)),
+    baca.hairpin(
+        "mf mp",
+        bookend=False,
+        pieces=lambda _: baca.select.lts(_, nontrivial=True),
+    ),
+)
+
+commands(
     ("tutti", (19, 24)),
     baca.hairpin(
         '"f" mf',
         bookend=False,
         pieces=lambda _: baca.select.lts(_, nontrivial=True),
     ),
+)
+
+commands(
+    ("tutti", (19, 24)),
     baca.new(
         library.make_stroke_rhythm(
             0,
@@ -647,6 +696,10 @@ commands(
         bookend=False,
         pieces=lambda _: baca.select.lts(_, nontrivial=True),
     ),
+)
+
+commands(
+    ("tutti", (25, 30)),
     baca.new(
         library.make_stroke_rhythm(
             0,
@@ -688,6 +741,10 @@ commands(
 commands(
     ("tutti", (31, 36)),
     baca.dynamic('"ff"'),
+)
+
+commands(
+    ("tutti", (31, 36)),
     baca.new(
         library.make_stroke_rhythm(
             0,
@@ -755,6 +812,10 @@ commands(
         ),
         library.ntlt_flat_glissandi(),
     ),
+)
+
+commands(
+    ("tutti", (40, 45)),
     library.make_stroke_rhythm(0),
 )
 
@@ -778,6 +839,10 @@ commands(
         ),
         library.ntlt_flat_glissandi(),
     ),
+)
+
+commands(
+    ("tutti", (58, 63)),
     library.make_stroke_rhythm(0),
 )
 
@@ -814,6 +879,10 @@ commands(
         baca.hairpin("pp < mp"),
     ),
     baca.note_head_style_harmonic(),
+)
+
+commands(
+    ("v2", 57),
     library.make_accelerando((1, 4), (2, 16)),
 )
 
@@ -863,12 +932,16 @@ commands(
 
 commands(
     ("va", 57),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", 57),
     baca.hairpin(
         "pp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    baca.make_repeat_tied_notes(),
     baca.pitch("Bb2"),
     library.flight_spanner("memory of flight -|", 5.5),
 )
@@ -947,10 +1020,14 @@ commands(
         direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),
-    library.make_cello_cell_rhythm(),
     library.cello_cell_bcps(
         staff_padding=4.5,
     ),
+)
+
+commands(
+    ("vc", 38),
+    library.make_cello_cell_rhythm(),
 )
 
 commands(
@@ -966,12 +1043,16 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     baca.new(
         baca.clef("bass"),
         match=0,
     ),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
+)
+
+commands(
+    ("vc", [(49, 50), (52, 53)]),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
 )
 
 commands(
@@ -1010,8 +1091,12 @@ commands(
         baca.hairpin("niente o< p"),
         map=lambda _: [baca.cmgroups(_)[:3]],
     ),
-    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner("clouded pane (arrival) -|", 5.5),
+)
+
+commands(
+    ("vc", (65, 92)),
+    library.make_clouded_pane_rhythm(),
 )
 
 commands(
@@ -1031,13 +1116,17 @@ commands(
         measures=(94, 96),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.make_clouded_pane_rhythm(),
     library.clouded_pane_spanner(
         "clouded pane (stepwise up) -|",
         5.5,
         # TODO: extend spanner to phantom measure
         selector=lambda _: baca.select.leaves(_),
     ),
+)
+
+commands(
+    ("vc", (94, 99)),
+    library.make_clouded_pane_rhythm(),
 )
 
 # STAGE 2

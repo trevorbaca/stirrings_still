@@ -96,6 +96,10 @@ commands(
         ),
         match=2,
     ),
+)
+
+commands(
+    ("trio", (1, 7)),
     baca.reapply_persistent_indicators(),
     baca.new(
         baca.hairpin(
@@ -118,6 +122,11 @@ commands(
 
 commands(
     ("trio", (10, 11)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("trio", (10, 11)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
         selector=lambda _: abjad.select.leaf(_, 0),
@@ -127,7 +136,6 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.make_urtext_field_rhythm(),
     # TODO: allow right-broken spanner
     library.urtext_spanner(
         "urtext (sustained ds) -|",
@@ -235,6 +243,10 @@ commands(
 commands(
     ("vc", (1, 6)),
     library.make_eighth_notes(),
+)
+
+commands(
+    ("vc", (1, 6)),
     baca.reapply_persistent_indicators(),
     baca.beam(),
     baca.suite(
@@ -251,6 +263,11 @@ commands(
 
 commands(
     ("vc", (7, -1)),
+    library.make_cello_cell_rhythm(),
+)
+
+commands(
+    ("vc", (7, -1)),
     baca.clef("treble"),
     baca.flat_glissando("A5"),
     baca.markup(
@@ -258,7 +275,6 @@ commands(
         abjad.Tweak(r"- \tweak padding 1.5"),
         direction=abjad.DOWN,
     ),
-    library.make_cello_cell_rhythm(),
     library.cello_cell_bcps(
         staff_padding=6,
     ),

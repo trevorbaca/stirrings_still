@@ -88,6 +88,10 @@ library.time(commands, time)
 commands(
     ("v1", [1, 3, 7, 9, 11, 14]),
     library.make_loure_tuplets_material(0),
+)
+
+commands(
+    ("v1", [1, 3, 7, 9, 11, 14]),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,
@@ -112,6 +116,11 @@ commands(
 commands(
     "trio",
     baca.tuplet_bracket_down(),
+)
+
+commands(
+    ("trio", (5, 6)),
+    library.make_urtext_field_rhythm(),
 )
 
 commands(
@@ -151,7 +160,6 @@ commands(
         ),
         match=2,
     ),
-    library.make_urtext_field_rhythm(),
     library.urtext_spanner("urtext (ds field) -|", 8),
 )
 
@@ -160,6 +168,42 @@ commands(
 commands(
     "tutti",
     baca.dls_staff_padding(6),
+)
+
+commands(
+    ("tutti", (16, 17)),
+    baca.new(
+        library.make_flight_rhythm(
+            "A",
+            0,
+            start=4,
+        ),
+        match=0,
+    ),
+    baca.new(
+        library.make_flight_rhythm(
+            "C",
+            -1,
+            start=4,
+        ),
+        match=1,
+    ),
+    baca.new(
+        library.make_flight_rhythm(
+            "B",
+            -2,
+            start=4,
+        ),
+        match=2,
+    ),
+    baca.new(
+        library.make_flight_rhythm(
+            "B",
+            -4,
+            start=6,
+        ),
+        match=3,
+    ),
 )
 
 commands(
@@ -173,20 +217,10 @@ commands(
     ),
     baca.hairpin_shorten_pair((0, 5)),
     baca.new(
-        library.make_flight_rhythm(
-            "A",
-            0,
-            start=4,
-        ),
         baca.flat_glissando("<F#4 A#4>"),
         match=0,
     ),
     baca.new(
-        library.make_flight_rhythm(
-            "C",
-            -1,
-            start=4,
-        ),
         baca.flat_glissando("<F4 A4>"),
         match=1,
     ),
@@ -196,20 +230,10 @@ commands(
             r"\stirrings-still-twenty-four-et-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         ),
-        library.make_flight_rhythm(
-            "B",
-            -2,
-            start=4,
-        ),
         match=2,
     ),
     baca.new(
         baca.flat_glissando("<G3 B3>"),
-        library.make_flight_rhythm(
-            "B",
-            -4,
-            start=6,
-        ),
         match=3,
     ),
     baca.new(
@@ -249,10 +273,19 @@ commands(
         ),
         library.ntlt_flat_glissandi(),
     ),
+)
+
+commands(
+    ("tutti", (19, 24)),
     library.make_stroke_rhythm(0),
 )
 
 # v1, va, vc
+
+commands(
+    (["v1", "va", "vc"], (12, 13)),
+    library.make_clouded_pane_rhythm(),
+)
 
 commands(
     (["v1", "va", "vc"], (12, 13)),
@@ -291,7 +324,6 @@ commands(
         library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
         match=2,
     ),
-    library.make_clouded_pane_rhythm(),
 )
 
 # v2
@@ -299,6 +331,10 @@ commands(
 commands(
     ("v2", [1, 3, 7, 9, 11, 14]),
     library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", [1, 3, 7, 9, 11, 14]),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,
@@ -332,6 +368,11 @@ commands(
     baca.half_clt_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
+    baca.pitch("F5"),
+)
+
+commands(
+    ("v2", (12, 13)),
     baca.new(
         library.make_clocktick_rhythm(),
         measures=12,
@@ -342,7 +383,6 @@ commands(
         ),
         measures=13,
     ),
-    baca.pitch("F5"),
 )
 
 # va
@@ -350,6 +390,10 @@ commands(
 commands(
     ("va", [1, 3, 7, 9, 11, 14]),
     library.make_loure_tuplets_material(-1),
+)
+
+commands(
+    ("va", [1, 3, 7, 9, 11, 14]),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,
@@ -379,6 +423,10 @@ commands(
 commands(
     ("vc", [1, 3, 7, 9, 11, 14]),
     library.make_taper_rhythm((1, 1)),
+)
+
+commands(
+    ("vc", [1, 3, 7, 9, 11, 14]),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,

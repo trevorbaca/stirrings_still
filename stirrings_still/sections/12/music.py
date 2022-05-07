@@ -73,6 +73,10 @@ commands(
             nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
         ),
     ),
+)
+
+commands(
+    "v1",
     baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
@@ -204,6 +208,10 @@ commands(
             nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
         ),
     ),
+)
+
+commands(
+    "v2",
     baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
@@ -324,6 +332,10 @@ commands(
             nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
         ),
     ),
+)
+
+commands(
+    "va",
     baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
@@ -435,6 +447,10 @@ commands(
 commands(
     "vc",
     library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    "vc",
     baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(5),
     baca.flat_glissando(
