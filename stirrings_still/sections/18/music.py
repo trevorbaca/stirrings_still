@@ -65,7 +65,7 @@ commands(
 
 commands(
     ("v1", (1, 8)),
-    library.trajectories("C", 0, -3),
+    library.make_trajectory_rhythm("C", 0, -3),
     baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {8 + 6}"),
@@ -109,7 +109,7 @@ commands(
 
 commands(
     ("v2", (1, 8)),
-    library.trajectories("C", -1, -2),
+    library.make_trajectory_rhythm("C", -1, -2),
     baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),

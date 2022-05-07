@@ -149,7 +149,7 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "C",
         0,
         start=0,
@@ -194,7 +194,7 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "C",
         0,
         start=1,
@@ -221,7 +221,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.eighths(),
+    library.make_eighth_notes(),
 )
 
 # trio
@@ -352,7 +352,7 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "C",
         -1,
         start=1,
@@ -397,7 +397,7 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "C",
         -1,
         start=2,
@@ -424,7 +424,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.eighths(),
+    library.make_eighth_notes(),
 )
 
 # va
@@ -504,7 +504,7 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "C",
         -2,
         start=2,
@@ -549,7 +549,7 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "C",
         -2,
         start=3,
@@ -576,7 +576,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.eighths(),
+    library.make_eighth_notes(),
 )
 
 # vc
@@ -610,7 +610,7 @@ commands(
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {3 + 6}"),
     ),
-    library.cello_cell(),
+    library.make_cello_cell_rhythm(),
     library.cello_cell_bcps(
         staff_padding=3,
     ),
@@ -660,7 +660,7 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "C",
         -3,
         start=3,
@@ -719,7 +719,7 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "C",
         -3,
         start=4,

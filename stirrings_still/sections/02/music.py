@@ -151,7 +151,7 @@ library.time(commands, time)
 
 commands(
     ("v1", (1, 4)),
-    library.clockticks(
+    library.make_clocktick_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0], 2)),
         ),
@@ -198,7 +198,7 @@ commands(
         pieces=lambda _: baca.select.mgroups(_, [1, 2]),
         selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
-    library.clockticks(
+    library.make_clocktick_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
         ),
@@ -212,7 +212,7 @@ commands(
         qualifier="tight",
     ),
     baca.flat_glissando("C5"),
-    library.circles(
+    library.make_circle_rhythm(
         (1, 4),
         rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     ),
@@ -232,7 +232,7 @@ commands(
 
 commands(
     ("v1", 14),
-    library.clockticks(),
+    library.make_clocktick_rhythm(),
 )
 
 commands(
@@ -277,7 +277,7 @@ commands(
 commands(
     ("v1", (18, 24)),
     baca.alternate_bow_strokes(),
-    library.clockticks(
+    library.make_clocktick_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
         ),
@@ -320,7 +320,7 @@ commands(
         clt=True,
         staff_padding=6,
     ),
-    library.trajectories("C", 0, -3),
+    library.make_trajectory_rhythm("C", 0, -3),
 )
 
 commands(
@@ -426,7 +426,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
-    library.circles((1, 4)),
+    library.make_circle_rhythm((1, 4)),
 )
 
 # v1, v2, va
@@ -468,7 +468,7 @@ commands(
     baca.stop_on_string(
         selector=lambda _: baca.select.pleaf(_, -1),
     ),
-    library.declamation(),
+    library.make_declamation_rhythm(),
 )
 
 commands(
@@ -495,7 +495,7 @@ commands(
     ("trio", 64),
     baca.dynamic("p"),
     baca.new(
-        library.flight(
+        library.make_flight_rhythm(
             "A",
             0,
             start=16,
@@ -503,7 +503,7 @@ commands(
         match=0,
     ),
     baca.new(
-        library.flight(
+        library.make_flight_rhythm(
             "C",
             -1,
             start=16,
@@ -511,7 +511,7 @@ commands(
         match=1,
     ),
     baca.new(
-        library.flight(
+        library.make_flight_rhythm(
             "B",
             -2,
             start=16,
@@ -700,7 +700,7 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.circles((1, 4)),
+    library.make_circle_rhythm((1, 4)),
 )
 
 commands(
@@ -768,12 +768,12 @@ commands(
             "mp-sub",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         ),
-        library.grid(rotation=0),
+        library.make_grid_rhythm(rotation=0),
         match=0,
     ),
     baca.new(
         baca.dynamic("mp-sub"),
-        library.grid(rotation=-1),
+        library.make_grid_rhythm(rotation=-1),
         match=1,
     ),
     baca.new(
@@ -786,7 +786,7 @@ commands(
             "mp-sub",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         ),
-        library.grid(rotation=-2),
+        library.make_grid_rhythm(rotation=-2),
         match=2,
     ),
     baca.new(
@@ -796,7 +796,7 @@ commands(
             selector=lambda _: baca.select.rleaf(_, -1),
         ),
         baca.dynamic("mp-sub"),
-        library.grid(rotation=-3),
+        library.make_grid_rhythm(rotation=-3),
         match=3,
     ),
     baca.pitch("Eb5"),
@@ -815,7 +815,7 @@ commands(
 
 commands(
     ("v2", (1, 7)),
-    library.clockticks(
+    library.make_clocktick_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
         ),
@@ -848,7 +848,7 @@ commands(
 
 commands(
     ("v2", 12),
-    library.clockticks(),
+    library.make_clocktick_rhythm(),
 )
 
 commands(
@@ -897,7 +897,7 @@ commands(
 
 commands(
     ("v2", 14),
-    library.clockticks(),
+    library.make_clocktick_rhythm(),
 )
 
 commands(
@@ -945,7 +945,7 @@ commands(
         ],
         "G5",
     ),
-    library.trajectories("C", 0, 0),
+    library.make_trajectory_rhythm("C", 0, 0),
 )
 
 commands(
@@ -981,7 +981,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("C", -1, 0),
+    library.make_trajectory_rhythm("C", -1, 0),
 )
 
 commands(
@@ -999,7 +999,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("C", -1, -2),
+    library.make_trajectory_rhythm("C", -1, -2),
 )
 
 commands(
@@ -1100,7 +1100,7 @@ commands(
 
 commands(
     ("v2", (58, 62)),
-    library.circles((1, 4)),
+    library.make_circle_rhythm((1, 4)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
@@ -1120,7 +1120,7 @@ commands(
 
 commands(
     ("va", (1, 5)),
-    library.clockticks(
+    library.make_clocktick_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
         ),
@@ -1163,7 +1163,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="tight",
     ),
-    library.circles((1, 4)),
+    library.make_circle_rhythm((1, 4)),
 )
 
 commands(
@@ -1185,7 +1185,7 @@ commands(
         pieces=lambda _: baca.select.mgroups(_, [8, 2 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.circles((1, 4)),
+    library.make_circle_rhythm((1, 4)),
 )
 
 commands(
@@ -1212,7 +1212,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("C", 0, 0),
+    library.make_trajectory_rhythm("C", 0, 0),
 )
 
 commands(
@@ -1271,7 +1271,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("C", -2, -1),
+    library.make_trajectory_rhythm("C", -2, -1),
 )
 
 commands(
@@ -1383,7 +1383,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("C", -2, -1),
+    library.make_trajectory_rhythm("C", -2, -1),
 )
 
 commands(
@@ -1392,7 +1392,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
-    library.circles((1, 4)),
+    library.make_circle_rhythm((1, 4)),
 )
 
 # vc
@@ -1408,7 +1408,7 @@ commands(
 
 commands(
     ("vc", (1, 5)),
-    library.clockticks(
+    library.make_clocktick_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
         ),
@@ -1466,7 +1466,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.flat_glissando("G3"),
-    library.circles(
+    library.make_circle_rhythm(
         (1, 4),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -1547,7 +1547,7 @@ commands(
 commands(
     ("vc", (18, 19)),
     baca.alternate_bow_strokes(),
-    library.clockticks(
+    library.make_clocktick_rhythm(
         encroach=True,
     ),
 )
@@ -1568,7 +1568,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("B", 0, 0),
+    library.make_trajectory_rhythm("B", 0, 0),
     # stage 2:
     baca.tie(lambda _: baca.select.lleaf(_, 0)),
     # stage 3:
@@ -1608,7 +1608,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("B", 0, 0),
+    library.make_trajectory_rhythm("B", 0, 0),
 )
 
 commands(
@@ -1626,7 +1626,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("C", -3, 0),
+    library.make_trajectory_rhythm("C", -3, 0),
 )
 
 commands(
@@ -1759,7 +1759,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("C", -3, 0),
+    library.make_trajectory_rhythm("C", -3, 0),
 )
 
 commands(
@@ -1768,7 +1768,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
-    library.circles((1, 4)),
+    library.make_circle_rhythm((1, 4)),
 )
 
 commands(

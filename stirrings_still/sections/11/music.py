@@ -86,7 +86,7 @@ library.time(commands, time)
 
 commands(
     ("v1", (1, 2)),
-    library.trajectories("B", 0, 0, end_counts=[1]),
+    library.make_trajectory_rhythm("B", 0, 0, end_counts=[1]),
     baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
@@ -119,7 +119,7 @@ commands(
         bookend=False,
         pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
     ),
-    library.desynchronization(4, [2]),
+    library.make_desynchronization_rhythm(4, [2]),
     baca.flat_glissando("Bqf5"),
 )
 
@@ -135,7 +135,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories(
+    library.make_trajectory_rhythm(
         "B",
         0,
         0,
@@ -176,7 +176,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("B", -3, -3),
+    library.make_trajectory_rhythm("B", -3, -3),
 )
 
 commands(
@@ -205,7 +205,7 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "A",
         0,
         start=0,
@@ -229,7 +229,7 @@ commands(
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.flat_glissando("Aqs4"),
-    library.pickets(4, 2),
+    library.make_picket_rhythm(4, 2),
 )
 
 commands(
@@ -247,7 +247,7 @@ commands(
         qualifier="wide",
     ),
     baca.flat_glissando("Aqs4"),
-    library.pickets(4, 2),
+    library.make_picket_rhythm(4, 2),
 )
 
 commands(
@@ -272,7 +272,7 @@ commands(
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.flat_glissando("Aqf5"),
-    library.flight(
+    library.make_flight_rhythm(
         "A",
         0,
         start=0,
@@ -304,7 +304,7 @@ commands(
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "A",
         0,
         start=0,
@@ -351,7 +351,7 @@ commands(
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "A",
         0,
         start=0,
@@ -451,7 +451,7 @@ commands(
 
 commands(
     ("v2", (1, 2)),
-    library.trajectories("B", -1, -1, end_counts=[1]),
+    library.make_trajectory_rhythm("B", -1, -1, end_counts=[1]),
     baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
@@ -484,7 +484,7 @@ commands(
         bookend=False,
         pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
     ),
-    library.desynchronization(4, [1]),
+    library.make_desynchronization_rhythm(4, [1]),
     baca.flat_glissando("Bb4"),
 )
 
@@ -496,7 +496,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("B", -1, -1, measures=5),
+    library.make_trajectory_rhythm("B", -1, -1, measures=5),
 )
 
 commands(
@@ -530,7 +530,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("B", -3, -3),
+    library.make_trajectory_rhythm("B", -3, -3),
 )
 
 commands(
@@ -559,7 +559,7 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "A",
         0,
         start=2,
@@ -583,7 +583,7 @@ commands(
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.flat_glissando("Eb4"),
-    library.pickets(4, 1),
+    library.make_picket_rhythm(4, 1),
 )
 
 commands(
@@ -601,7 +601,7 @@ commands(
         qualifier="wide",
     ),
     baca.flat_glissando("Eb4"),
-    library.pickets(4, 1),
+    library.make_picket_rhythm(4, 1),
 )
 
 commands(
@@ -625,7 +625,7 @@ commands(
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.flat_glissando("F5"),
-    library.flight(
+    library.make_flight_rhythm(
         "A",
         0,
         start=2,
@@ -657,7 +657,7 @@ commands(
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "A",
         0,
         start=2,
@@ -702,7 +702,7 @@ commands(
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "A",
         0,
         start=2,
@@ -732,7 +732,7 @@ commands(
 
 commands(
     ("va", (1, 2)),
-    library.trajectories("B", -2, -2, end_counts=[1]),
+    library.make_trajectory_rhythm("B", -2, -2, end_counts=[1]),
     baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
@@ -765,7 +765,7 @@ commands(
         bookend=False,
         pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
     ),
-    library.desynchronization(4, [0]),
+    library.make_desynchronization_rhythm(4, [0]),
     baca.flat_glissando("Bqf3"),
 )
 
@@ -792,7 +792,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("B", -3, -3),
+    library.make_trajectory_rhythm("B", -3, -3),
 )
 
 commands(
@@ -830,7 +830,7 @@ commands(
         selector=lambda _: baca.select.pleaves(_),
     ),
     baca.flat_glissando("G#3"),
-    library.flight(
+    library.make_flight_rhythm(
         "A",
         -1,
         start=4,
@@ -854,7 +854,7 @@ commands(
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.flat_glissando("Bqf3"),
-    library.pickets(4, 0),
+    library.make_picket_rhythm(4, 0),
 )
 
 commands(
@@ -872,7 +872,7 @@ commands(
         qualifier="wide",
     ),
     baca.flat_glissando("Bqf3"),
-    library.pickets(4, 0),
+    library.make_picket_rhythm(4, 0),
 )
 
 commands(
@@ -896,7 +896,7 @@ commands(
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.flat_glissando("G3"),
-    library.flight(
+    library.make_flight_rhythm(
         "A",
         -1,
         start=4,
@@ -928,7 +928,7 @@ commands(
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "A",
         -1,
         start=4,
@@ -964,7 +964,7 @@ commands(
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "A",
         -1,
         start=4,
@@ -986,7 +986,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.to_flight([(8, 8), (3, 16)]),
+    library.make_to_flight_rhythm([(8, 8), (3, 16)]),
 )
 
 commands(
@@ -1012,7 +1012,7 @@ commands(
 
 commands(
     ("vc", (1, 2)),
-    library.trajectories("B", -3, -3, end_counts=[1]),
+    library.make_trajectory_rhythm("B", -3, -3, end_counts=[1]),
     baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
@@ -1045,7 +1045,7 @@ commands(
         bookend=False,
         pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
     ),
-    library.desynchronization(4, [-1]),
+    library.make_desynchronization_rhythm(4, [-1]),
     baca.flat_glissando("Bb2"),
 )
 
@@ -1057,7 +1057,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("B", -3, -3, measures=5),
+    library.make_trajectory_rhythm("B", -3, -3, measures=5),
 )
 
 commands(
@@ -1091,7 +1091,7 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-    library.trajectories("B", -3, -3),
+    library.make_trajectory_rhythm("B", -3, -3),
 )
 
 commands(
@@ -1116,7 +1116,7 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "A",
         -2,
         start=6,
@@ -1146,7 +1146,7 @@ commands(
         direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),
-    library.cello_cell(),
+    library.make_cello_cell_rhythm(),
     library.cello_cell_bcps(
         staff_padding=4.5,
     ),
@@ -1170,7 +1170,7 @@ commands(
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.flat_glissando("Eb2"),
-    library.flight(
+    library.make_flight_rhythm(
         "A",
         -2,
         start=6,
@@ -1202,7 +1202,7 @@ commands(
         pieces=lambda _: baca.select.cmgroups(_, [1, 1, 1, 2, 1, 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.flight(
+    library.make_flight_rhythm(
         "A",
         -2,
         start=6,

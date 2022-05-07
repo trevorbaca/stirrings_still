@@ -10853,7 +10853,7 @@ segment.04.Violin.I.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -10868,7 +10868,7 @@ segment.04.Violin.I.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -10883,7 +10883,7 @@ segment.04.Violin.I.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -10960,7 +10960,7 @@ segment.04.Violin.I.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -11002,7 +11002,7 @@ segment.04.Violin.I.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -11015,7 +11015,7 @@ segment.04.Violin.I.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -11071,7 +11071,7 @@ segment.04.Violin.I.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -11164,7 +11164,7 @@ segment.04.Violin.I.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -11261,7 +11261,7 @@ segment.04.Violin.I.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -11290,7 +11290,7 @@ segment.04.Violin.I.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -11415,7 +11415,7 @@ segment.04.Violin.I.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -11555,7 +11555,7 @@ segment.04.Violin.I.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11565,7 +11565,7 @@ segment.04.Violin.I.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11591,7 +11591,7 @@ segment.04.Violin.I.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % SPANNER_STOPS:
       %! SCP_SPANNER
@@ -17212,7 +17212,7 @@ segment.04.Violin.II.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -17227,7 +17227,7 @@ segment.04.Violin.II.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -17242,7 +17242,7 @@ segment.04.Violin.II.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -17319,7 +17319,7 @@ segment.04.Violin.II.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -17334,7 +17334,7 @@ segment.04.Violin.II.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -17374,7 +17374,7 @@ segment.04.Violin.II.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -17430,7 +17430,7 @@ segment.04.Violin.II.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -17523,7 +17523,7 @@ segment.04.Violin.II.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -17620,7 +17620,7 @@ segment.04.Violin.II.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -17649,7 +17649,7 @@ segment.04.Violin.II.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
@@ -17774,7 +17774,7 @@ segment.04.Violin.II.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -17914,7 +17914,7 @@ segment.04.Violin.II.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -17924,7 +17924,7 @@ segment.04.Violin.II.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -17950,7 +17950,7 @@ segment.04.Violin.II.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % SPANNER_STOPS:
       %! SCP_SPANNER
@@ -23700,7 +23700,7 @@ segment.04.Viola.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23712,7 +23712,7 @@ segment.04.Viola.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23724,7 +23724,7 @@ segment.04.Viola.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23736,7 +23736,7 @@ segment.04.Viola.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23748,7 +23748,7 @@ segment.04.Viola.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23758,7 +23758,7 @@ segment.04.Viola.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23784,7 +23784,7 @@ segment.04.Viola.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23940,7 +23940,7 @@ segment.04.Viola.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -24087,7 +24087,7 @@ segment.04.Viola.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24097,7 +24097,7 @@ segment.04.Viola.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24123,7 +24123,7 @@ segment.04.Viola.Music.Voice = {
     % STEM_TREMOLOS:
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
-      %! stirrings_still.continuous_tremolo()
+      %! stirrings_still.make_continuous_tremolo_material()
     :32
     % SPANNER_STOPS:
       %! SCP_SPANNER

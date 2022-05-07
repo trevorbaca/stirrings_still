@@ -87,7 +87,7 @@ library.time(commands, time)
 
 commands(
     ("v1", [1, 3, 7, 9, 11, 14]),
-    library.loure_tuplets(0),
+    library.make_loure_tuplets_material(0),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,
@@ -173,7 +173,7 @@ commands(
     ),
     baca.hairpin_shorten_pair((0, 5)),
     baca.new(
-        library.flight(
+        library.make_flight_rhythm(
             "A",
             0,
             start=4,
@@ -182,7 +182,7 @@ commands(
         match=0,
     ),
     baca.new(
-        library.flight(
+        library.make_flight_rhythm(
             "C",
             -1,
             start=4,
@@ -196,7 +196,7 @@ commands(
             r"\stirrings-still-twenty-four-et-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         ),
-        library.flight(
+        library.make_flight_rhythm(
             "B",
             -2,
             start=4,
@@ -205,7 +205,7 @@ commands(
     ),
     baca.new(
         baca.flat_glissando("<G3 B3>"),
-        library.flight(
+        library.make_flight_rhythm(
             "B",
             -4,
             start=6,
@@ -249,7 +249,7 @@ commands(
         ),
         library.ntlt_flat_glissandi(),
     ),
-    library.strokes(0),
+    library.make_stroke_rhythm(0),
 )
 
 # v1, va, vc
@@ -298,7 +298,7 @@ commands(
 
 commands(
     ("v2", [1, 3, 7, 9, 11, 14]),
-    library.loure_tuplets(1),
+    library.make_loure_tuplets_material(1),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,
@@ -333,7 +333,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.new(
-        library.clockticks(),
+        library.make_clocktick_rhythm(),
         measures=12,
     ),
     baca.new(
@@ -349,7 +349,7 @@ commands(
 
 commands(
     ("va", [1, 3, 7, 9, 11, 14]),
-    library.loure_tuplets(-1),
+    library.make_loure_tuplets_material(-1),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,
@@ -378,7 +378,7 @@ commands(
 
 commands(
     ("vc", [1, 3, 7, 9, 11, 14]),
-    library.taper((1, 1)),
+    library.make_taper_rhythm((1, 1)),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,

@@ -96,7 +96,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [2]),
+    library.make_desynchronization_rhythm(4, [2]),
 )
 
 commands(
@@ -127,7 +127,7 @@ commands(
         clt=True,
         staff_padding=3.5,
     ),
-    library.trajectories("C", 0, -3),
+    library.make_trajectory_rhythm("C", 0, -3),
 )
 
 commands(
@@ -153,7 +153,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [2]),
+    library.make_desynchronization_rhythm(4, [2]),
 )
 
 commands(
@@ -179,7 +179,7 @@ commands(
         clt=True,
         staff_padding=3.5,
     ),
-    library.trajectories("C", 0, -3),
+    library.make_trajectory_rhythm("C", 0, -3),
 )
 
 commands(
@@ -205,7 +205,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [2]),
+    library.make_desynchronization_rhythm(4, [2]),
 )
 
 commands(
@@ -231,7 +231,7 @@ commands(
         clt=True,
         staff_padding=3.5,
     ),
-    library.trajectories("C", 0, -3),
+    library.make_trajectory_rhythm("C", 0, -3),
 )
 
 commands(
@@ -258,7 +258,7 @@ commands(
         selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [2]),
+    library.make_desynchronization_rhythm(4, [2]),
 )
 
 commands(
@@ -284,7 +284,7 @@ commands(
         clt=True,
         staff_padding=4.5,
     ),
-    library.trajectories("C", 0, -3),
+    library.make_trajectory_rhythm("C", 0, -3),
 )
 
 commands(
@@ -310,7 +310,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [2]),
+    library.make_desynchronization_rhythm(4, [2]),
 )
 
 commands(
@@ -336,7 +336,7 @@ commands(
         clt=True,
         staff_padding=4.5,
     ),
-    library.trajectories("C", 0, -3),
+    library.make_trajectory_rhythm("C", 0, -3),
 )
 
 commands(
@@ -362,7 +362,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [2]),
+    library.make_desynchronization_rhythm(4, [2]),
 )
 
 commands(
@@ -383,7 +383,7 @@ commands(
         "Ab4",
         stop_pitch="Ab5",
     ),
-    library.trajectories("C", 0, -3),
+    library.make_trajectory_rhythm("C", 0, -3),
 )
 
 commands(
@@ -412,7 +412,7 @@ commands(
         "A6",
         right_broken=True,
     ),
-    library.trajectories("C", 0, -3),
+    library.make_trajectory_rhythm("C", 0, -3),
 )
 
 # tutti
@@ -460,7 +460,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [1]),
+    library.make_desynchronization_rhythm(4, [1]),
 )
 
 commands(
@@ -483,7 +483,7 @@ commands(
         staff_padding=3.5,
     ),
     baca.flat_glissando("Dqf5"),
-    library.trajectories("C", -1, -2),
+    library.make_trajectory_rhythm("C", -1, -2),
 )
 
 commands(
@@ -504,7 +504,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [1]),
+    library.make_desynchronization_rhythm(4, [1]),
 )
 
 commands(
@@ -522,7 +522,7 @@ commands(
         staff_padding=3.5,
     ),
     baca.flat_glissando("Dqs5"),
-    library.trajectories("C", -1, -2),
+    library.make_trajectory_rhythm("C", -1, -2),
 )
 
 commands(
@@ -543,7 +543,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [1]),
+    library.make_desynchronization_rhythm(4, [1]),
 )
 
 commands(
@@ -561,7 +561,7 @@ commands(
         staff_padding=3.5,
     ),
     baca.flat_glissando("Cqs5"),
-    library.trajectories("C", -1, -2),
+    library.make_trajectory_rhythm("C", -1, -2),
 )
 
 commands(
@@ -582,7 +582,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [1]),
+    library.make_desynchronization_rhythm(4, [1]),
 )
 
 commands(
@@ -600,7 +600,7 @@ commands(
         staff_padding=3.5,
     ),
     baca.flat_glissando("Eqs5"),
-    library.trajectories("C", -1, -2),
+    library.make_trajectory_rhythm("C", -1, -2),
 )
 
 commands(
@@ -624,7 +624,7 @@ commands(
         "p",
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
-    library.desynchronization(4, [1]),
+    library.make_desynchronization_rhythm(4, [1]),
 )
 
 commands(
@@ -642,7 +642,7 @@ commands(
         staff_padding=3.5,
     ),
     baca.flat_glissando("Fqs5"),
-    library.trajectories("C", -1, -2),
+    library.make_trajectory_rhythm("C", -1, -2),
 )
 
 commands(
@@ -664,7 +664,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [1]),
+    library.make_desynchronization_rhythm(4, [1]),
 )
 
 commands(
@@ -684,7 +684,7 @@ commands(
         staff_padding=4.5,
     ),
     baca.flat_glissando("G4"),
-    library.trajectories("C", -1, -2),
+    library.make_trajectory_rhythm("C", -1, -2),
 )
 
 commands(
@@ -706,7 +706,7 @@ commands(
         "Ab5",
         right_broken=True,
     ),
-    library.trajectories("C", -1, -2),
+    library.make_trajectory_rhythm("C", -1, -2),
 )
 
 # va
@@ -731,7 +731,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [0]),
+    library.make_desynchronization_rhythm(4, [0]),
 )
 
 commands(
@@ -762,7 +762,7 @@ commands(
         clt=True,
         staff_padding=3.5,
     ),
-    library.trajectories("C", -2, -1),
+    library.make_trajectory_rhythm("C", -2, -1),
 )
 
 commands(
@@ -788,7 +788,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [0]),
+    library.make_desynchronization_rhythm(4, [0]),
 )
 
 commands(
@@ -814,7 +814,7 @@ commands(
         clt=True,
         staff_padding=3.5,
     ),
-    library.trajectories("C", -2, -1),
+    library.make_trajectory_rhythm("C", -2, -1),
 )
 
 commands(
@@ -840,7 +840,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [0]),
+    library.make_desynchronization_rhythm(4, [0]),
 )
 
 commands(
@@ -865,7 +865,7 @@ commands(
         clt=True,
         staff_padding=3.5,
     ),
-    library.trajectories("C", -2, -1),
+    library.make_trajectory_rhythm("C", -2, -1),
 )
 
 commands(
@@ -891,7 +891,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [0]),
+    library.make_desynchronization_rhythm(4, [0]),
 )
 
 commands(
@@ -917,7 +917,7 @@ commands(
         clt=True,
         staff_padding=3.5,
     ),
-    library.trajectories("C", -2, -1),
+    library.make_trajectory_rhythm("C", -2, -1),
 )
 
 commands(
@@ -946,7 +946,7 @@ commands(
         "p",
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
-    library.desynchronization(4, [0]),
+    library.make_desynchronization_rhythm(4, [0]),
 )
 
 commands(
@@ -972,7 +972,7 @@ commands(
         clt=True,
         staff_padding=3.5,
     ),
-    library.trajectories("C", -2, -1),
+    library.make_trajectory_rhythm("C", -2, -1),
 )
 
 commands(
@@ -998,7 +998,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [0]),
+    library.make_desynchronization_rhythm(4, [0]),
 )
 
 commands(
@@ -1019,7 +1019,7 @@ commands(
         "Ab3",
         stop_pitch="B2",
     ),
-    library.trajectories("C", -2, -1),
+    library.make_trajectory_rhythm("C", -2, -1),
 )
 
 commands(
@@ -1064,7 +1064,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [-1]),
+    library.make_desynchronization_rhythm(4, [-1]),
 )
 
 commands(
@@ -1095,7 +1095,7 @@ commands(
         clt=True,
         staff_padding=3.5,
     ),
-    library.trajectories("C", -3, 0),
+    library.make_trajectory_rhythm("C", -3, 0),
 )
 
 commands(
@@ -1124,7 +1124,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [-1]),
+    library.make_desynchronization_rhythm(4, [-1]),
 )
 
 commands(
@@ -1154,7 +1154,7 @@ commands(
         clt=True,
         staff_padding=3.5,
     ),
-    library.trajectories("C", -3, 0),
+    library.make_trajectory_rhythm("C", -3, 0),
 )
 
 commands(
@@ -1183,7 +1183,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [-1]),
+    library.make_desynchronization_rhythm(4, [-1]),
 )
 
 commands(
@@ -1209,7 +1209,7 @@ commands(
         clt=True,
         staff_padding=3.5,
     ),
-    library.trajectories("C", -3, 0),
+    library.make_trajectory_rhythm("C", -3, 0),
 )
 
 commands(
@@ -1238,7 +1238,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [-1]),
+    library.make_desynchronization_rhythm(4, [-1]),
 )
 
 commands(
@@ -1264,7 +1264,7 @@ commands(
         clt=True,
         staff_padding=3.5,
     ),
-    library.trajectories("C", -3, 0),
+    library.make_trajectory_rhythm("C", -3, 0),
 )
 
 commands(
@@ -1296,7 +1296,7 @@ commands(
         "p",
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
-    library.desynchronization(4, [-1]),
+    library.make_desynchronization_rhythm(4, [-1]),
 )
 
 commands(
@@ -1322,7 +1322,7 @@ commands(
         clt=True,
         staff_padding=3.5,
     ),
-    library.trajectories("C", -3, 0),
+    library.make_trajectory_rhythm("C", -3, 0),
 )
 
 commands(
@@ -1351,7 +1351,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.dynamic("p"),
-    library.desynchronization(4, [-1]),
+    library.make_desynchronization_rhythm(4, [-1]),
 )
 
 commands(
@@ -1372,7 +1372,7 @@ commands(
         "Ab3",
         stop_pitch="Ab2",
     ),
-    library.trajectories("C", -3, 0),
+    library.make_trajectory_rhythm("C", -3, 0),
 )
 
 commands(
@@ -1385,7 +1385,7 @@ commands(
 commands(
     ("vc", (73, 87)),
     baca.beam(),
-    library.eighths(),
+    library.make_eighth_notes(),
 )
 
 commands(

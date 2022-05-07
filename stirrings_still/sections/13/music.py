@@ -93,7 +93,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
     ),
-    library.pickets(4, 2),
+    library.make_picket_rhythm(4, 2),
 )
 
 commands(
@@ -130,7 +130,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: abjad.select.leaf(_, 1),
     ),
-    library.pickets(
+    library.make_picket_rhythm(
         4,
         2,
         rmakers.force_note(
@@ -149,7 +149,7 @@ commands(
         qualifier="very-wide",
         selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
     ),
-    library.pickets(
+    library.make_picket_rhythm(
         4,
         2,
         rmakers.force_note(
@@ -210,7 +210,7 @@ commands(
     ("trio", (9, 12)),
     # TODO: allow score-specific simultaneous material spanners
     # library.circle_spanner(
-    #     "intercalated ds circles -|", 10.5,
+    #     "intercalated ds cirles -|", 10.5,
     # ),
     library.urtext_spanner("urtext (ds) -|", 8),
 )
@@ -228,7 +228,7 @@ commands(
     ("trio", (17, 20)),
     # TODO: allow score-specific simultaneous material spanners
     # library.circle_spanner(
-    #     "intercalated ds circles -|", 10.5,
+    #     "intercalated ds cirles -|", 10.5,
     # ),
     library.urtext_spanner(
         "urtext (ds) -|",
@@ -246,7 +246,7 @@ commands(
     ("trio", (26, 28)),
     # TODO: allow score-specific simultaneous material spanners
     # library.circle_spanner(
-    #     "intercalated ds circles -|", 10.5,
+    #     "intercalated ds cirles -|", 10.5,
     # ),
     library.urtext_spanner("urtext (ds) -|", 8),
 )
@@ -301,7 +301,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
     ),
-    library.pickets(4, 1),
+    library.make_picket_rhythm(4, 1),
 )
 
 commands(
@@ -338,7 +338,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: abjad.select.leaf(_, 1),
     ),
-    library.pickets(
+    library.make_picket_rhythm(
         4,
         1,
         rmakers.force_note(
@@ -357,7 +357,7 @@ commands(
         qualifier="very-wide",
         selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
     ),
-    library.pickets(
+    library.make_picket_rhythm(
         4,
         1,
         rmakers.force_note(
@@ -422,7 +422,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
     ),
-    library.pickets(4, 0),
+    library.make_picket_rhythm(4, 0),
 )
 
 commands(
@@ -459,7 +459,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: abjad.select.leaf(_, 1),
     ),
-    library.pickets(
+    library.make_picket_rhythm(
         4,
         0,
         rmakers.force_note(
@@ -478,7 +478,7 @@ commands(
         qualifier="very-wide",
         selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
     ),
-    library.pickets(
+    library.make_picket_rhythm(
         4,
         0,
         rmakers.force_note(

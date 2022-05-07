@@ -62,7 +62,7 @@ def nonlast_tuplet_pleaves(indices):
 
 commands(
     "v1",
-    library.trajectories(
+    library.make_trajectory_rhythm(
         "C",
         0,
         -3,
@@ -193,7 +193,7 @@ commands(
 
 commands(
     "v2",
-    library.trajectories(
+    library.make_trajectory_rhythm(
         "C",
         -1,
         -2,
@@ -313,7 +313,7 @@ commands(
 
 commands(
     "va",
-    library.trajectories(
+    library.make_trajectory_rhythm(
         "C",
         -2,
         -1,
