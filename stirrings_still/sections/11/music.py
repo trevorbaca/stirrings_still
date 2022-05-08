@@ -132,17 +132,19 @@ commands(
 )
 
 commands(
-    ("v1", (5, 8)),
-    library.make_accelerando(
-        (8, 32),
-        (1, 2),
-        measures=(6, 8),
-    ),
+    ("v1", 5),
     library.make_trajectory_rhythm(
         "B",
         0,
         0,
-        measures=5,
+    ),
+)
+
+commands(
+    ("v1", (6, 8)),
+    library.make_accelerando(
+        (8, 32),
+        (1, 2),
     ),
 )
 
@@ -190,14 +192,14 @@ commands(
     ),
 )
 
-commands(
-    ("v1", [9, (11, 14), 16]),
+baca.alternate_makers(
+    commands,
+    "v1",
+    [9, (11, 14), 16],
     library.make_trajectory_rhythm("B", -3, -3),
-)
-
-commands(
-    ("v1", [10, 15, 17]),
     baca.make_repeat_tied_notes(),
+    absolute_start=9,
+    total=17,
 )
 
 commands(
@@ -595,14 +597,14 @@ commands(
     ),
 )
 
-commands(
-    ("v2", [9, 13, (15, 16)]),
+baca.alternate_makers(
+    commands,
+    "v2",
+    [9, 13, (15, 16)],
     library.make_trajectory_rhythm("B", -3, -3),
-)
-
-commands(
-    ("v2", [10, (11, 12), 14, 17]),
     baca.make_repeat_tied_notes(),
+    absolute_start=9,
+    total=17,
 )
 
 commands(
@@ -900,9 +902,14 @@ commands(
     ),
 )
 
-commands(
-    ("va", [(12, 13), (16, 17)]),
+baca.alternate_makers(
+    commands,
+    "va",
+    [(12, 13), (16, 17)],
     library.make_trajectory_rhythm("B", -3, -3),
+    baca.make_repeat_tied_notes(),
+    absolute_start=12,
+    total=17,
 )
 
 commands(
@@ -916,11 +923,6 @@ commands(
         "G#3",
         rleak_final_stage=True,
     ),
-)
-
-commands(
-    ("va", (14, 15)),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -1254,14 +1256,14 @@ commands(
     ),
 )
 
-commands(
-    ("vc", [(9, 10), (13, 14)]),
+baca.alternate_makers(
+    commands,
+    "vc",
+    [(9, 10), (13, 14)],
     library.make_trajectory_rhythm("B", -3, -3),
-)
-
-commands(
-    ("vc", [(11, 12), (15, 17)]),
     baca.make_repeat_tied_notes(),
+    absolute_start=9,
+    total=17,
 )
 
 commands(
@@ -1423,7 +1425,7 @@ commands(
 )
 
 commands(
-    ("vc", (38, -1)),
+    ("vc", (38, 54)),
     library.make_clouded_pane_rhythm(),
 )
 

@@ -70,6 +70,15 @@ library.time(commands, time)
 
 # v1
 
+baca.alternate_makers(
+    commands,
+    "v1",
+    [1, (3, 4), (6, 8), (10, 15)],
+    library.make_wave_rhythm((1, 4), (3, 32)),
+    baca.make_mmrests(),
+    total=20,
+)
+
 commands(
     "v1",
     baca.dls_staff_padding(7),
@@ -78,7 +87,6 @@ commands(
 
 commands(
     ("v1", [1, (3, 4), (6, 8), (10, 15)]),
-    library.make_wave_rhythm((1, 4), (3, 32)),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,
@@ -123,9 +131,17 @@ commands(
     baca.tuplet_bracket_down(),
 )
 
+baca.alternate_makers(
+    commands,
+    "v2",
+    [1, (3, 4), (6, 8), (10, 15)],
+    library.make_wave_rhythm((5, 32), (1, 4)),
+    baca.make_mmrests(),
+    total=20,
+)
+
 commands(
     ("v2", [1, (3, 4), (6, 8), (10, 15)]),
-    library.make_wave_rhythm((5, 32), (1, 4)),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=0,
@@ -159,6 +175,10 @@ commands(
 commands(
     ("va", (1, 19)),
     baca.make_notes(),
+)
+
+commands(
+    ("va", (1, 19)),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Bb2",
@@ -170,13 +190,32 @@ commands(
 # vc
 
 commands(
+    ("vc", 1),
+    baca.skeleton("c2. ~ c4"),
+)
+
+commands(
+    ("vc", 2),
+    baca.make_mmrests(),
+)
+
+baca.alternate_makers(
+    commands,
+    "vc",
+    [(3, 4), (6, 8), (10, 15)],
+    baca.make_repeat_tied_notes(),
+    baca.make_mmrests(),
+    absolute_start=3,
+    total=20,
+)
+
+commands(
     "vc",
     baca.dls_staff_padding(6),
 )
 
 commands(
     ("vc", 1),
-    baca.skeleton("c2. ~ c4"),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando("B0"),
     baca.hairpin("o< mf"),
@@ -189,7 +228,6 @@ commands(
         "B0",
         hide_middle_stems=True,
     ),
-    baca.make_repeat_tied_notes(),
     baca.ottava_bassa(),
 )
 

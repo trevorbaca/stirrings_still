@@ -2073,7 +2073,6 @@ segment.13.Violin.I.Music.Voice = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes()
     d'''1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3902,7 +3901,6 @@ segment.13.Violin.II.Music.Voice = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes()
     fqs''!1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5683,7 +5681,6 @@ segment.13.Viola.Music.Voice = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes()
     aqf'!1
     % ABSOLUTE_BEFORE:
     % COMMANDS:

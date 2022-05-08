@@ -149,7 +149,49 @@ baca.alternate_makers(
     baca.make_mmrests(),
 )
 
-# v2
+commands(
+    ("v1", (11, 16)),
+    library.make_declamation_rhythm(
+        protract=True,
+    ),
+)
+
+commands(
+    ("v1", [18, 20, 22, 25, 29]),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v1", [23, 26, (30, 45)]),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v1", 27),
+    library.make_loure_tuplets_material(0),
+)
+
+commands(
+    ("v1", [(46, 50), 52, 54, 58]),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v1", (55, 56)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", 60),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v1", 62),
+    library.make_circle_rhythm((1, 4)),
+)
+
+# V2
 
 baca.alternate_makers(
     commands,
@@ -157,6 +199,48 @@ baca.alternate_makers(
     [1, 3, (5, 6), (8, 9)],
     library.make_declamation_rhythm(),
     baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (11, 16)),
+    library.make_declamation_rhythm(
+        protract=True,
+    ),
+)
+
+commands(
+    ("v2", [18, 20, 22, 25, 29]),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v2", [23, 26, (30, 45)]),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("v2", 27),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", [(46, 50), 52, 54, 58]),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("v2", (55, 56)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", 60),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v2", 62),
+    library.make_circle_rhythm((1, 4)),
 )
 
 # VA
@@ -167,6 +251,104 @@ baca.alternate_makers(
     [1, 3, (5, 6), (8, 9)],
     library.make_declamation_rhythm(),
     baca.make_mmrests(),
+)
+
+commands(
+    ("va", (11, 16)),
+    library.make_declamation_rhythm(
+        protract=True,
+    ),
+)
+
+commands(
+    ("va", [18, 20, 22, 25, 29]),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("va", [23, 26, (30, 45)]),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", 27),
+    library.make_loure_tuplets_material(-1),
+)
+
+commands(
+    ("va", [(46, 50), 52, 54, 58]),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", (55, 56)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", 60),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("va", 62),
+    library.make_circle_rhythm((1, 4)),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 11)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (12, 26)),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
+    ),
+)
+
+commands(
+    ("vc", 27),
+    library.make_taper_rhythm((1, 1)),
+)
+
+commands(
+    ("vc", (29, 40)),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
+    ),
+)
+
+commands(
+    ("vcx", [41, (44, 45)]),
+    baca.tacet(),
+)
+
+commands(
+    ("vc", (42, 43)),
+    library.make_cello_cell_rhythm(),
+)
+
+commands(
+    ("vc", [(46, 47), (49, 50), 52, 54, 58]),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
+    ("vc", 48),
+    library.make_cello_cell_rhythm(),
+)
+
+commands(
+    ("vc", (55, 56)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", 62),
+    library.make_circle_rhythm((1, 4)),
 )
 
 # after
@@ -224,11 +406,6 @@ commands(
 
 commands(
     ("v1", [23, 26, (30, 45)]),
-    library.make_desynchronization_rhythm(4, [1]),
-)
-
-commands(
-    ("v1", [23, 26, (30, 45)]),
     baca.flat_glissando("B4"),
 )
 
@@ -246,11 +423,6 @@ commands(
 )
 
 commands(
-    ("v1", 27),
-    library.make_loure_tuplets_material(0),
-)
-
-commands(
     ("v1", [(46, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -265,11 +437,6 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-)
-
-commands(
-    ("v1", [(46, 50), 52, 54, 58]),
-    library.make_desynchronization_rhythm(4, [1]),
 )
 
 commands(
@@ -373,13 +540,6 @@ commands(
 )
 
 commands(
-    ("trio", (11, 16)),
-    library.make_declamation_rhythm(
-        protract=True,
-    ),
-)
-
-commands(
     ("trio", 12),
     baca.dynamic_text_self_alignment_x(-0.75),
 )
@@ -407,11 +567,6 @@ commands(
     library.breathe(
         selector=lambda _: baca.select.pleaf(_, -1),
     ),
-)
-
-commands(
-    ("trio", [18, 20, 22, 25, 29]),
-    library.make_declamation_rhythm(),
 )
 
 commands(
@@ -548,21 +703,11 @@ commands(
     library.urtext_spanner("A, B -|", 8),
 )
 
-commands(
-    ("trio", 60),
-    library.make_declamation_rhythm(),
-)
-
 # tutti
 
 commands(
     "tutti",
     baca.dls_staff_padding(6),
-)
-
-commands(
-    ("tutti", (55, 56)),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -613,11 +758,6 @@ commands(
     ),
 )
 
-commands(
-    ("tutti", 62),
-    library.make_circle_rhythm((1, 4)),
-)
-
 # v2
 
 commands(
@@ -662,16 +802,6 @@ commands(
 )
 
 commands(
-    ("v2", [23, 26, (30, 45)]),
-    library.make_desynchronization_rhythm(4, [0]),
-)
-
-commands(
-    ("v2", 27),
-    library.make_loure_tuplets_material(1),
-)
-
-commands(
     ("v2", 27),
     baca.markup(
         r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
@@ -699,11 +829,6 @@ commands(
         abjad.Tweak(r"- \tweak to-barline ##t"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-)
-
-commands(
-    ("v2", [(46, 50), 52, 54, 58]),
-    library.make_desynchronization_rhythm(4, [0]),
 )
 
 commands(
@@ -756,11 +881,6 @@ commands(
 
 commands(
     ("va", [23, 26, (30, 45)]),
-    library.make_desynchronization_rhythm(4, [2]),
-)
-
-commands(
-    ("va", [23, 26, (30, 45)]),
     baca.flat_glissando("A3"),
 )
 
@@ -775,11 +895,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.clouded_pane_spanner("clouded (partial G.1) -|", 8),
-)
-
-commands(
-    ("va", 27),
-    library.make_loure_tuplets_material(-1),
 )
 
 commands(
@@ -800,11 +915,6 @@ commands(
 )
 
 commands(
-    ("va", [(46, 50), 52, 54, 58]),
-    library.make_desynchronization_rhythm(4, [2]),
-)
-
-commands(
     ("va", (55, 56)),
     baca.flat_glissando("Ab3"),
 )
@@ -815,11 +925,6 @@ commands(
 )
 
 # vc
-
-commands(
-    ("vc", (1, 11)),
-    baca.make_mmrests(),
-)
 
 commands(
     ("vc", (1, 11)),
@@ -839,13 +944,6 @@ commands(
 commands(
     ("vcx", (1, 11)),
     baca.tacet(),
-)
-
-commands(
-    ("vc", (12, 26)),
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-    ),
 )
 
 commands(
@@ -878,18 +976,6 @@ commands(
 )
 
 commands(
-    ("vc", 27),
-    library.make_taper_rhythm((1, 1)),
-)
-
-commands(
-    ("vc", (29, 40)),
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-    ),
-)
-
-commands(
     ("vc", (29, 40)),
     baca.dynamic("p"),
     baca.flat_glissando(
@@ -907,15 +993,6 @@ commands(
     library.urtext_spanner("urtext (field) -|", 8),
 )
 
-commands(
-    ("vcx", [41, (44, 45)]),
-    baca.tacet(),
-)
-
-commands(
-    ("vc", (42, 43)),
-    library.make_cello_cell_rhythm(),
-)
 
 commands(
     ("vc", (42, 43)),
@@ -962,17 +1039,6 @@ commands(
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
-
-commands(
-    ("vc", [(46, 47), (49, 50), 52, 54, 58]),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
-
-commands(
-    ("vc", 48),
-    library.make_cello_cell_rhythm(),
-)
-
 commands(
     ("vc", 48),
     baca.clef("treble"),

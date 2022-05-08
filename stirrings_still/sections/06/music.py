@@ -170,23 +170,23 @@ commands(
 )
 
 commands(
-    ("tutti", (12, 13)),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [1]),
-        match=0,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [0]),
-        match=1,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [2]),
-        match=2,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [-1]),
-        match=3,
-    ),
+    ("v1", (12, 13)),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v2", (12, 13)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("va", (12, 13)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("vc", (12, 13)),
+    library.make_desynchronization_rhythm(4, [-1]),
 )
 
 commands(

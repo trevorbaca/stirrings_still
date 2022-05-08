@@ -50,11 +50,24 @@ library.time(commands, time)
 
 # v1
 
-commands(
-    ("v1", [(1, 8), (13, 16), (21, 24), (29, 32)]),
+baca.alternate_makers(
+    commands,
+    "v1",
+    [(1, 7), (13, 16), (21, 24), (29, 32)],
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
     ),
+    library.make_picket_rhythm(
+        4,
+        2,
+        rmakers.force_note(
+            lambda _: baca.select.tuplet(_, 0),
+        ),
+        rmakers.tie(
+            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
+        ),
+    ),
+    total=32,
 )
 
 commands(
@@ -100,11 +113,6 @@ commands(
 )
 
 commands(
-    ("v1", (9, 12)),
-    library.make_picket_rhythm(4, 2),
-)
-
-commands(
     ("v1", [(9, 12), (26, 28)]),
     baca.flat_glissando("<D#4 A4>"),
     baca.markup(
@@ -141,39 +149,11 @@ commands(
 )
 
 commands(
-    ("v1", (17, 20)),
-    library.make_picket_rhythm(
-        4,
-        2,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
-    ),
-)
-
-commands(
     ("v1", (25, 28)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
         selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
-    ),
-)
-
-commands(
-    ("v1", (25, 28)),
-    library.make_picket_rhythm(
-        4,
-        2,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
     ),
 )
 
@@ -274,11 +254,24 @@ commands(
 
 # v2
 
-commands(
-    ("v2", [(1, 8), (13, 16), (21, 24), (29, 32)]),
+baca.alternate_makers(
+    commands,
+    "v2",
+    [(1, 7), (13, 16), (21, 24), (29, 32)],
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
     ),
+    library.make_picket_rhythm(
+        4,
+        1,
+        rmakers.force_note(
+            lambda _: baca.select.tuplet(_, 0),
+        ),
+        rmakers.tie(
+            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
+        ),
+    ),
+    total=32,
 )
 
 commands(
@@ -324,11 +317,6 @@ commands(
 )
 
 commands(
-    ("v2", (9, 12)),
-    library.make_picket_rhythm(4, 1),
-)
-
-commands(
     ("v2", [(9, 12), (26, 28)]),
     baca.flat_glissando("<Dqs4 Gtqs4>"),
     baca.markup(
@@ -365,39 +353,11 @@ commands(
 )
 
 commands(
-    ("v2", (17, 20)),
-    library.make_picket_rhythm(
-        4,
-        1,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
-    ),
-)
-
-commands(
     ("v2", (25, 28)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
         selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
-    ),
-)
-
-commands(
-    ("v2", (25, 28)),
-    library.make_picket_rhythm(
-        4,
-        1,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
     ),
 )
 
@@ -414,11 +374,24 @@ commands(
 
 # va
 
-commands(
-    ("va", [(1, 8), (13, 16), (21, 24), (29, 32)]),
+baca.alternate_makers(
+    commands,
+    "va",
+    [(1, 7), (13, 16), (21, 24), (29, 32)],
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
     ),
+    library.make_picket_rhythm(
+        4,
+        0,
+        rmakers.force_note(
+            lambda _: baca.select.tuplet(_, 0),
+        ),
+        rmakers.tie(
+            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
+        ),
+    ),
+    total=32,
 )
 
 commands(
@@ -461,11 +434,6 @@ commands(
 )
 
 commands(
-    ("va", (9, 12)),
-    library.make_picket_rhythm(4, 0),
-)
-
-commands(
     ("va", [(9, 12), (26, 28)]),
     baca.flat_glissando("<D4 G#4>"),
     baca.markup(
@@ -502,39 +470,11 @@ commands(
 )
 
 commands(
-    ("va", (17, 20)),
-    library.make_picket_rhythm(
-        4,
-        0,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
-    ),
-)
-
-commands(
     ("va", (25, 28)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-wide",
         selector=lambda _: baca.select.rleak(baca.select.leaves(_)[1:]),
-    ),
-)
-
-commands(
-    ("va", (25, 28)),
-    library.make_picket_rhythm(
-        4,
-        0,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
     ),
 )
 

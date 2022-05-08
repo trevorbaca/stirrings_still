@@ -147,7 +147,7 @@ time = (
 
 library.time(commands, time)
 
-# v1
+# V1
 
 commands(
     ("v1", (1, 4)),
@@ -158,6 +158,49 @@ commands(
         displace=True,
     ),
 )
+
+commands(
+    ("v1", (5, 7)),
+    library.make_clocktick_rhythm(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
+    ),
+)
+
+commands(
+    ("v1", (12, 13)),
+    library.make_circle_rhythm(
+        (1, 4),
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
+    ),
+)
+
+commands(
+    ("v1", 14),
+    library.make_clocktick_rhythm(),
+)
+
+commands(
+    ("v1", (18, 24)),
+    library.make_clocktick_rhythm(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
+    ),
+)
+
+commands(
+    ("v1", [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57), (58, 60)]),
+    library.make_trajectory_rhythm("C", 0, -3),
+)
+
+commands(
+    ("v1", (61, 62)),
+    library.make_circle_rhythm((1, 4)),
+)
+
+# after
 
 commands(
     "v1",
@@ -205,29 +248,12 @@ commands(
 )
 
 commands(
-    ("v1", (5, 7)),
-    library.make_clocktick_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-    ),
-)
-
-commands(
     ("v1", (12, 13)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="tight",
     ),
     baca.flat_glissando("C5"),
-)
-
-commands(
-    ("v1", (12, 13)),
-    library.make_circle_rhythm(
-        (1, 4),
-        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
-    ),
 )
 
 commands(
@@ -240,11 +266,6 @@ commands(
         pieces=lambda _: baca.select.mgroups(_, [8, 5 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
-)
-
-commands(
-    ("v1", 14),
-    library.make_clocktick_rhythm(),
 )
 
 commands(
@@ -292,15 +313,6 @@ commands(
 )
 
 commands(
-    ("v1", (18, 24)),
-    library.make_clocktick_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-    ),
-)
-
-commands(
     ("v1x", [25, 27]),
     baca.tacet(),
 )
@@ -336,11 +348,6 @@ commands(
         clt=True,
         staff_padding=6,
     ),
-)
-
-commands(
-    ("v1", [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57), (58, 60)]),
-    library.make_trajectory_rhythm("C", 0, -3),
 )
 
 commands(
@@ -448,11 +455,6 @@ commands(
     ),
 )
 
-commands(
-    ("v1", (61, 62)),
-    library.make_circle_rhythm((1, 4)),
-)
-
 # v1, v2, va
 
 commands(
@@ -495,7 +497,17 @@ commands(
 )
 
 commands(
-    ("trio", 26),
+    ("v1", 26),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v2", 26),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("va", 26),
     library.make_declamation_rhythm(),
 )
 
@@ -505,7 +517,17 @@ commands(
 )
 
 commands(
-    ("trio", 48),
+    ("v1", 48),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", 48),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", 48),
     library.make_urtext_field_rhythm(),
 )
 
@@ -524,30 +546,29 @@ commands(
 )
 
 commands(
-    ("trio", 64),
-    baca.new(
-        library.make_flight_rhythm(
-            "A",
-            0,
-            start=16,
-        ),
-        match=0,
+    ("v1", 64),
+    library.make_flight_rhythm(
+        "A",
+        0,
+        start=16,
     ),
-    baca.new(
-        library.make_flight_rhythm(
-            "C",
-            -1,
-            start=16,
-        ),
-        match=1,
+)
+
+commands(
+    ("v2", 64),
+    library.make_flight_rhythm(
+        "C",
+        -1,
+        start=16,
     ),
-    baca.new(
-        library.make_flight_rhythm(
-            "B",
-            -2,
-            start=16,
-        ),
-        match=2,
+)
+
+commands(
+    ("va", 64),
+    library.make_flight_rhythm(
+        "B",
+        -2,
+        start=16,
     ),
 )
 
@@ -624,7 +645,22 @@ commands(
 )
 
 commands(
-    ("tutti", (32, 33)),
+    ("v1", (32, 33)),
+    library.make_rasp_rhythm(),
+)
+
+commands(
+    ("v2", (32, 33)),
+    library.make_rasp_rhythm(),
+)
+
+commands(
+    ("va", (32, 33)),
+    library.make_rasp_rhythm(),
+)
+
+commands(
+    ("vc", (32, 33)),
     library.make_rasp_rhythm(),
 )
 
@@ -727,7 +763,22 @@ commands(
 )
 
 commands(
-    ("tutti", 42),
+    ("v1", 42),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("v2", 42),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("va", 42),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("vc", 42),
     library.make_circle_rhythm((1, 4)),
 )
 
@@ -814,10 +865,29 @@ commands(
             selector=lambda _: baca.select.rleaf(_, -1),
         ),
         baca.dynamic("mp-sub"),
-        library.make_grid_rhythm(rotation=-3),
         match=3,
     ),
     baca.pitch("Eb5"),
+)
+
+commands(
+    ("vc", 65),
+    library.make_grid_rhythm(rotation=-3),
+)
+
+commands(
+    ("v1", 65),
+    library.make_grid_rhythm(rotation=0),
+)
+
+commands(
+    ("v2", 65),
+    library.make_grid_rhythm(rotation=-1),
+)
+
+commands(
+    ("va", 65),
+    library.make_grid_rhythm(rotation=-2),
 )
 
 commands(
@@ -827,12 +897,10 @@ commands(
             "mp-sub",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         ),
-        library.make_grid_rhythm(rotation=0),
         match=0,
     ),
     baca.new(
         baca.dynamic("mp-sub"),
-        library.make_grid_rhythm(rotation=-1),
         match=1,
     ),
     baca.new(
@@ -845,7 +913,6 @@ commands(
             "mp-sub",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         ),
-        library.make_grid_rhythm(rotation=-2),
         match=2,
     ),
 )

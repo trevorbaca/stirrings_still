@@ -289,16 +289,14 @@ commands(
 )
 
 commands(
-    ("v2", (33, 34)),
-    baca.new(
-        library.make_clocktick_rhythm(),
-        measures=33,
-    ),
-    baca.new(
-        baca.skeleton(
-            r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-        ),
-        measures=34,
+    ("v2", 33),
+    library.make_clocktick_rhythm(),
+)
+
+commands(
+    ("v2", 34),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
     ),
 )
 
@@ -328,16 +326,14 @@ commands(
 )
 
 commands(
-    ("v2", (53, 54)),
-    baca.new(
-        library.make_clocktick_rhythm(),
-        measures=53,
-    ),
-    baca.new(
-        baca.skeleton(
-            r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
-        ),
-        measures=54,
+    ("v2", 53),
+    library.make_clocktick_rhythm(),
+)
+
+commands(
+    ("v2", 54),
+    baca.skeleton(
+        r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
     ),
 )
 
@@ -650,36 +646,35 @@ commands(
 )
 
 commands(
-    ("trio", (23, 28)),
-    baca.new(
-        library.make_picket_rhythm(
-            4,
-            2,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplet(_, 0),
-            ),
+    ("v1", (23, 28)),
+    library.make_picket_rhythm(
+        4,
+        2,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, 0),
         ),
-        match=0,
     ),
-    baca.new(
-        library.make_picket_rhythm(
-            4,
-            1,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplet(_, 0),
-            ),
+)
+
+commands(
+    ("v2", (23, 28)),
+    library.make_picket_rhythm(
+        4,
+        1,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, 0),
         ),
-        match=1,
     ),
-    baca.new(
-        library.make_picket_rhythm(
-            4,
-            0,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplet(_, 0),
-            ),
+)
+
+commands(
+    ("va", (23, 28)),
+    library.make_picket_rhythm(
+        4,
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, 0),
         ),
-        match=2,
     ),
 )
 
@@ -740,19 +735,18 @@ commands(
 )
 
 commands(
-    ("trio", (30, 31)),
-    baca.new(
-        library.make_accelerando((1, 2), (4, 32)),
-        match=0,
-    ),
-    baca.new(
-        library.make_accelerando((1, 2), (8, 32)),
-        match=1,
-    ),
-    baca.new(
-        library.make_accelerando((1, 2), (12, 32)),
-        match=2,
-    ),
+    ("v1", (30, 31)),
+    library.make_accelerando((1, 2), (4, 32)),
+)
+
+commands(
+    ("v2", (30, 31)),
+    library.make_accelerando((1, 2), (8, 32)),
+)
+
+commands(
+    ("va", (30, 31)),
+    library.make_accelerando((1, 2), (12, 32)),
 )
 
 commands(
@@ -773,19 +767,18 @@ commands(
 )
 
 commands(
-    ("trio", (38, 40)),
-    baca.new(
-        library.make_accelerando((1, 2), (4, 32)),
-        match=0,
-    ),
-    baca.new(
-        library.make_accelerando((1, 2), (8, 32)),
-        match=1,
-    ),
-    baca.new(
-        library.make_accelerando((1, 2), (12, 32)),
-        match=2,
-    ),
+    ("v1", (38, 40)),
+    library.make_accelerando((1, 2), (4, 32)),
+)
+
+commands(
+    ("v2", (38, 40)),
+    library.make_accelerando((1, 2), (8, 32)),
+)
+
+commands(
+    ("va", (38, 40)),
+    library.make_accelerando((1, 2), (12, 32)),
 )
 
 commands(
@@ -806,35 +799,33 @@ commands(
 )
 
 commands(
-    ("trio", (42, 45)),
-    baca.new(
-        library.make_accelerando((1, 2), (4, 32)),
-        match=0,
-    ),
-    baca.new(
-        library.make_accelerando((1, 2), (8, 32)),
-        match=1,
-    ),
-    baca.new(
-        library.make_accelerando((1, 2), (12, 32)),
-        match=2,
-    ),
+    ("v1", (42, 45)),
+    library.make_accelerando((1, 2), (4, 32)),
 )
 
 commands(
-    ("trio", (47, 51)),
-    baca.new(
-        library.make_picket_rhythm(4, 2),
-        match=0,
-    ),
-    baca.new(
-        library.make_picket_rhythm(4, 1),
-        match=1,
-    ),
-    baca.new(
-        library.make_picket_rhythm(4, 0),
-        match=2,
-    ),
+    ("v2", (42, 45)),
+    library.make_accelerando((1, 2), (8, 32)),
+)
+
+commands(
+    ("va", (42, 45)),
+    library.make_accelerando((1, 2), (12, 32)),
+)
+
+commands(
+    ("v1", (47, 51)),
+    library.make_picket_rhythm(4, 2),
+)
+
+commands(
+    ("v2", (47, 51)),
+    library.make_picket_rhythm(4, 1),
+)
+
+commands(
+    ("va", (47, 51)),
+    library.make_picket_rhythm(4, 0),
 )
 
 commands(
@@ -879,19 +870,18 @@ commands(
 )
 
 commands(
-    ("trio", 52),
-    baca.new(
-        library.make_loure_tuplets_material(0),
-        match=0,
-    ),
-    baca.new(
-        library.make_loure_tuplets_material(1),
-        match=1,
-    ),
-    baca.new(
-        library.make_loure_tuplets_material(-1),
-        match=2,
-    ),
+    ("v1", 52),
+    library.make_loure_tuplets_material(0),
+)
+
+commands(
+    ("v2", 52),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("va", 52),
+    library.make_loure_tuplets_material(-1),
 )
 
 commands(
@@ -919,19 +909,18 @@ commands(
 )
 
 commands(
-    ("trio", 55),
-    baca.new(
-        library.make_loure_tuplets_material(0),
-        match=0,
-    ),
-    baca.new(
-        library.make_loure_tuplets_material(1),
-        match=1,
-    ),
-    baca.new(
-        library.make_loure_tuplets_material(-1),
-        match=2,
-    ),
+    ("v1", 55),
+    library.make_loure_tuplets_material(0),
+)
+
+commands(
+    ("v2", 55),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("va", 55),
+    library.make_loure_tuplets_material(-1),
 )
 
 commands(
@@ -957,15 +946,13 @@ commands(
 # v1, v2
 
 commands(
-    (["v1", "v2"], 56),
-    baca.new(
-        library.make_circle_rhythm((1, 8)),
-        match=0,
-    ),
-    baca.new(
-        library.make_circle_rhythm((1, 4)),
-        match=1,
-    ),
+    ("v1", 56),
+    library.make_circle_rhythm((1, 8)),
+)
+
+commands(
+    ("v2", 56),
+    library.make_circle_rhythm((1, 4)),
 )
 
 commands(
@@ -1052,7 +1039,17 @@ commands(
 )
 
 commands(
-    (["v1", "va", "vc"], (33, 34)),
+    ("v1", (33, 34)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("va", (33, 34)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (33, 34)),
     library.make_clouded_pane_rhythm(),
 )
 
@@ -1094,7 +1091,17 @@ commands(
 )
 
 commands(
-    (["v1", "va", "vc"], (53, 54)),
+    ("v1", (53, 54)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("va", (53, 54)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (53, 54)),
     library.make_clouded_pane_rhythm(),
 )
 
@@ -1133,7 +1140,22 @@ commands(
 )
 
 commands(
-    ("tutti", (1, 5)),
+    ("v1", (1, 5)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (1, 5)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (1, 5)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (1, 5)),
     baca.make_repeat_tied_notes(),
 )
 
@@ -1181,7 +1203,22 @@ commands(
 )
 
 commands(
-    ("tutti", (36, 37)),
+    ("v1", (36, 37)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (36, 37)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (36, 37)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (36, 37)),
     baca.make_repeat_tied_notes(),
 )
 

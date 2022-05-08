@@ -194,7 +194,15 @@ commands(
 )
 
 commands(
-    (["v1", "v2"], (84, 92)),
+    ("v1", (84, 92)),
+    library.make_continuous_tremolo_material(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+
+commands(
+    ("v2", (84, 92)),
     library.make_continuous_tremolo_material(),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
@@ -244,7 +252,17 @@ commands(
 )
 
 commands(
-    ("trio", [47, 55]),
+    ("v1", [47, 55]),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v2", [47, 55]),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("va", [47, 55]),
     library.make_declamation_rhythm(),
 )
 
@@ -324,7 +342,17 @@ commands(
 )
 
 commands(
-    ("trio", 65),
+    ("v1", 65),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", 65),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", 65),
     library.make_urtext_field_rhythm(),
 )
 
@@ -342,9 +370,27 @@ commands(
 )
 
 commands(
+    ("v1", 66),
+    library.make_circle_rhythm((1, 8)),
+)
+
+commands(
+    ("v2", 66),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("va", 66),
+    library.make_circle_rhythm(
+        (1, 2),
+        rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
+        remainder=abjad.LEFT,
+    ),
+)
+
+commands(
     ("trio", 66),
     baca.new(
-        library.make_circle_rhythm((1, 8)),
         baca.beam(),
         baca.flat_glissando("Aqs4"),
         baca.markup(
@@ -354,7 +400,6 @@ commands(
         match=0,
     ),
     baca.new(
-        library.make_circle_rhythm((1, 4)),
         baca.flat_glissando("Eb4"),
         baca.markup(
             r"\baca-nine-d-flat",
@@ -363,11 +408,6 @@ commands(
         match=1,
     ),
     baca.new(
-        library.make_circle_rhythm(
-            (1, 2),
-            rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
-            remainder=abjad.LEFT,
-        ),
         baca.markup(
             r"\baca-seven-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
@@ -386,7 +426,17 @@ commands(
 )
 
 commands(
-    ("trio", 67),
+    ("v1", 67),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", 67),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", 67),
     library.make_urtext_field_rhythm(),
 )
 
@@ -396,19 +446,19 @@ commands(
 )
 
 commands(
-    ("trio", (68, 83)),
-    baca.new(
-        library.make_flight_rhythm("A", 0),
-        match=0,
-    ),
-    baca.new(
-        library.make_flight_rhythm("C", -1),
-        match=1,
-    ),
-    baca.new(
-        library.make_flight_rhythm("B", -2),
-        match=2,
-    ),
+    ("v1", (68, 83)),
+    library.make_flight_rhythm("A", 0),
+)
+
+commands(
+    ("v2", (68, 83)),
+    library.make_flight_rhythm("C", -1),
+)
+
+
+commands(
+    ("va", (68, 83)),
+    library.make_flight_rhythm("B", -2),
 )
 
 commands(
@@ -458,14 +508,27 @@ commands(
 )
 
 commands(
+    ("v1", (97, 98)),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v2", (97, 98)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("va", (97, 98)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
     ("trio", (97, 98)),
     baca.new(
-        library.make_desynchronization_rhythm(4, [1]),
         baca.flat_glissando("Bb4"),
         match=0,
     ),
     baca.new(
-        library.make_desynchronization_rhythm(4, [0]),
         baca.flat_glissando(
             "G4",
             stop_pitch="A4",
@@ -473,7 +536,6 @@ commands(
         match=1,
     ),
     baca.new(
-        library.make_desynchronization_rhythm(4, [2]),
         baca.flat_glissando("Ab4"),
         match=2,
     ),
@@ -482,42 +544,42 @@ commands(
 # tutti, stage 1
 
 commands(
-    ("tutti", (1, 6)),
-    baca.new(
-        library.make_stroke_rhythm(
-            0,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([0], 2)),
-            ),
+    ("v1", (1, 6)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 2)),
         ),
-        match=0,
     ),
-    baca.new(
-        library.make_stroke_rhythm(
-            -1,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([1], 2)),
-            ),
+)
+
+commands(
+    ("v2", (1, 6)),
+    library.make_stroke_rhythm(
+        -1,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1], 2)),
         ),
-        match=1,
     ),
-    baca.new(
-        library.make_stroke_rhythm(
-            -2,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([0, 1], 3)),
-            ),
+)
+
+commands(
+    ("va", (1, 6)),
+    library.make_stroke_rhythm(
+        -2,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0, 1], 3)),
         ),
-        match=2,
     ),
-    baca.new(
-        library.make_stroke_rhythm(
-            3,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([1, 2], 3)),
-            ),
+)
+
+commands(
+    ("vc", (1, 6)),
+    library.make_stroke_rhythm(
+        3,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1, 2], 3)),
         ),
-        match=3,
     ),
 )
 
@@ -552,82 +614,82 @@ commands(
 )
 
 commands(
-    ("tutti", (7, 12)),
-    baca.new(
-        library.make_stroke_rhythm(
-            0,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([0], 2)),
-            ),
+    ("v1", (7, 12)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 2)),
         ),
-        match=0,
-    ),
-    baca.new(
-        library.make_stroke_rhythm(
-            -1,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([1], 2)),
-            ),
-        ),
-        match=1,
-    ),
-    baca.new(
-        library.make_stroke_rhythm(
-            -2,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([0], 3)),
-            ),
-        ),
-        match=2,
-    ),
-    baca.new(
-        library.make_stroke_rhythm(
-            -3,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([1, 2], 3)),
-            ),
-        ),
-        match=3,
     ),
 )
 
 commands(
-    ("tutti", (13, 18)),
-    baca.new(
-        library.make_stroke_rhythm(
-            0,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([0], 2)),
-            ),
+    ("v2", (7, 12)),
+    library.make_stroke_rhythm(
+        -1,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1], 2)),
         ),
-        match=0,
     ),
-    baca.new(
-        library.make_stroke_rhythm(
-            -1,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([1], 2)),
-            ),
+)
+
+commands(
+    ("va", (7, 12)),
+    library.make_stroke_rhythm(
+        -2,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 3)),
         ),
-        match=1,
     ),
-    baca.new(
-        library.make_stroke_rhythm(
-            -2,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([0], 3)),
-            ),
+)
+
+commands(
+    ("vc", (7, 12)),
+    library.make_stroke_rhythm(
+        -3,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1, 2], 3)),
         ),
-        match=2,
     ),
-    baca.new(
-        library.make_stroke_rhythm(
-            -3,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([1], 3)),
-            ),
+)
+
+commands(
+    ("v1", (13, 18)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 2)),
         ),
-        match=3,
+    ),
+)
+
+commands(
+    ("v2", (13, 18)),
+    library.make_stroke_rhythm(
+        -1,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1], 2)),
+        ),
+    ),
+)
+
+commands(
+    ("va", (13, 18)),
+    library.make_stroke_rhythm(
+        -2,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 3)),
+        ),
+    ),
+)
+
+commands(
+    ("vc", (13, 18)),
+    library.make_stroke_rhythm(
+        -3,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1], 3)),
+        ),
     ),
 )
 
@@ -650,42 +712,42 @@ commands(
 )
 
 commands(
-    ("tutti", (19, 24)),
-    baca.new(
-        library.make_stroke_rhythm(
-            0,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([0], 2)),
-            ),
+    ("v1", (19, 24)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 2)),
         ),
-        match=0,
     ),
-    baca.new(
-        library.make_stroke_rhythm(
-            0,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([2], 3)),
-            ),
+)
+
+commands(
+    ("v2", (19, 24)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([2], 3)),
         ),
-        match=1,
     ),
-    baca.new(
-        library.make_stroke_rhythm(
-            -2,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([0], 3)),
-            ),
+)
+
+commands(
+    ("va", (19, 24)),
+    library.make_stroke_rhythm(
+        -2,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 3)),
         ),
-        match=2,
     ),
-    baca.new(
-        library.make_stroke_rhythm(
-            -3,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([1], 3)),
-            ),
+)
+
+commands(
+    ("vc", (19, 24)),
+    library.make_stroke_rhythm(
+        -3,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1], 3)),
         ),
-        match=3,
     ),
 )
 
@@ -699,42 +761,42 @@ commands(
 )
 
 commands(
-    ("tutti", (25, 30)),
-    baca.new(
-        library.make_stroke_rhythm(
-            0,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([0], 2)),
-            ),
+    ("v1", (25, 30)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 2)),
         ),
-        match=0,
     ),
-    baca.new(
-        library.make_stroke_rhythm(
-            0,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([2], 3)),
-            ),
+)
+
+commands(
+    ("v2", (25, 30)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([2], 3)),
         ),
-        match=1,
     ),
-    baca.new(
-        library.make_stroke_rhythm(
-            -2,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([0], 2)),
-            ),
+)
+
+commands(
+    ("va", (25, 30)),
+    library.make_stroke_rhythm(
+        -2,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 2)),
         ),
-        match=2,
     ),
-    baca.new(
-        library.make_stroke_rhythm(
-            -2,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([2], 3)),
-            ),
+)
+
+commands(
+    ("vc", (25, 30)),
+    library.make_stroke_rhythm(
+        -2,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([2], 3)),
         ),
-        match=3,
     ),
 )
 
@@ -744,43 +806,47 @@ commands(
 )
 
 commands(
+    ("v1", (31, 36)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 2)),
+        ),
+    ),
+)
+
+commands(
+    ("v2", (31, 36)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([2], 3)),
+        ),
+    ),
+)
+
+commands(
+    ("va", (31, 36)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1], 2)),
+        ),
+    ),
+)
+
+commands(
+    ("vc", (31, 36)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 3)),
+        ),
+    ),
+)
+
+commands(
     ("tutti", (31, 36)),
-    baca.new(
-        library.make_stroke_rhythm(
-            0,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([0], 2)),
-            ),
-        ),
-        match=0,
-    ),
-    baca.new(
-        library.make_stroke_rhythm(
-            0,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([2], 3)),
-            ),
-        ),
-        match=1,
-    ),
-    baca.new(
-        library.make_stroke_rhythm(
-            0,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([1], 2)),
-            ),
-        ),
-        match=2,
-    ),
-    baca.new(
-        library.make_stroke_rhythm(
-            0,
-            rmakers.force_rest(
-                lambda _: baca.select.tuplets(_, ([0], 3)),
-            ),
-        ),
-        match=3,
-    ),
     baca.pitch("Eb5"),
 )
 
@@ -815,7 +881,22 @@ commands(
 )
 
 commands(
-    ("tutti", (40, 45)),
+    ("v1", (40, 45)),
+    library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("v2", (40, 45)),
+    library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("va", (40, 45)),
+    library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("vc", (40, 45)),
     library.make_stroke_rhythm(0),
 )
 
@@ -842,10 +923,24 @@ commands(
 )
 
 commands(
-    ("tutti", (58, 63)),
+    ("v1", (58, 63)),
     library.make_stroke_rhythm(0),
 )
 
+commands(
+    ("v2", (58, 63)),
+    library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("va", (58, 63)),
+    library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("vc", (58, 63)),
+    library.make_stroke_rhythm(0),
+)
 
 # v2
 
@@ -964,13 +1059,15 @@ commands(
 )
 
 commands(
-    ("va", [(84, 89), (94, 96)]),
-    baca.new(
-        baca.repeat_tie(
-            lambda _: baca.select.pleaf(_, 0),
-        ),
-        match=0,
+    ("va", (84, 89)),
+    library.make_continuous_tremolo_material(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
     ),
+)
+
+commands(
+    ("va", (94, 96)),
     library.make_continuous_tremolo_material(),
 )
 
@@ -1051,7 +1148,12 @@ commands(
 )
 
 commands(
-    ("vc", [(49, 50), (52, 53)]),
+    ("vc", (49, 50)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+commands(
+    ("vc", (52, 53)),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
 )
 
