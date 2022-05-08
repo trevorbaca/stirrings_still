@@ -131,7 +131,80 @@ time = (
 
 library.time(commands, time)
 
-# v1
+# V1
+
+commands(
+    ("v1", (1, 4)),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v1", 5),
+    library.make_loure_tuplets_material(0),
+)
+
+commands(
+    ("v1", (7, 10)),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v1", (12, 15)),
+    library.make_desynchronization_rhythm(4, [1], rests=True),
+)
+
+commands(
+    ("v1", (16, 19)),
+    library.make_desynchronization_rhythm(4, [1], rests=True),
+)
+
+commands(
+    ("v1", (20, 23)),
+    library.make_desynchronization_rhythm(4, [1], rests=([2], 3)),
+)
+
+commands(
+    ("v1", (24, 27)),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v1", (28, 29)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("v1", (30, 33)),
+    library.make_synchronized_circle_rhythm(rests=[-1]),
+)
+
+commands(
+    ("v1", (36, 55)),
+    library.make_synchronized_circle_rhythm(rotation=0),
+)
+
+commands(
+    ("v1", (56, 59)),
+    library.make_synchronized_circle_rhythm(gaps=False, rotation=0),
+)
+
+commands(
+    ("v1", (60, 61)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v1", (62, 69)),
+    library.make_synchronized_circle_rhythm(
+        rests=[-1],
+        rotation=0,
+    ),
+)
+
+commands(
+    ("v1", (71, 76)),
+    library.make_desynchronization_rhythm(4, [1]),
+)
 
 commands(
     ("v1", 5),
@@ -142,11 +215,6 @@ commands(
     ),
     baca.pitch("<F4 A4>"),
     library.urtext_spanner("urtext (ds) -|", 8),
-)
-
-commands(
-    ("v1", 5),
-    library.make_loure_tuplets_material(0),
 )
 
 commands(
@@ -175,11 +243,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
-)
-
-commands(
-    ("v1", (28, 29)),
-    library.make_clouded_pane_rhythm(),
 )
 
 commands(
@@ -235,21 +298,6 @@ commands(
 )
 
 commands(
-    ("v1", (60, 61)),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("v2", (60, 61)),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("va", (60, 61)),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
     ("trio", (60, 61)),
     baca.breathe(),
     baca.hairpin(
@@ -290,26 +338,6 @@ commands(
 )
 
 commands(
-    ("v1", (1, 4)),
-    library.make_desynchronization_rhythm(4, [1]),
-)
-
-commands(
-    ("v2", (1, 4)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
-
-commands(
-    ("va", (1, 4)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
-
-commands(
-    ("vc", (1, 4)),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
-
-commands(
     ("tutti", (1, 4)),
     baca.reapply_persistent_indicators(),
     baca.circle_bow_spanner(
@@ -345,13 +373,11 @@ commands(
 
 commands(
     ("v1", (7, 10)),
-    library.make_desynchronization_rhythm(4, [1]),
     baca.flat_glissando("Bb4"),
 )
 
 commands(
     ("v2", (7, 10)),
-    library.make_desynchronization_rhythm(4, [0]),
     baca.flat_glissando(
         "G4",
         stop_pitch="A4",
@@ -360,13 +386,11 @@ commands(
 
 commands(
     ("va", (7, 10)),
-    library.make_desynchronization_rhythm(4, [2]),
     baca.flat_glissando("Bb4"),
 )
 
 commands(
     ("vc", (7, 10)),
-    library.make_desynchronization_rhythm(4, [-1]),
     baca.flat_glissando("Bb4"),
 )
 
@@ -387,55 +411,11 @@ commands(
 )
 
 commands(
-    ("tutti", (12, 15)),
-)
-
-commands(
-    ("v1", (12, 15)),
-    library.make_desynchronization_rhythm(4, [1], rests=True),
-)
-
-commands(
-    ("v2", (12, 15)),
-    library.make_desynchronization_rhythm(4, [0], rests=True),
-)
-
-commands(
-    ("va", (12, 15)),
-    library.make_desynchronization_rhythm(4, [2], rests=True),
-)
-
-commands(
-    ("vc", (12, 15)),
-    library.make_desynchronization_rhythm(4, [-1], rests=True),
-)
-
-commands(
     ("tutti", (12, 27)),
     baca.breathe(),
     baca.damp_spanner(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
-)
-
-commands(
-    ("v1", (16, 19)),
-    library.make_desynchronization_rhythm(4, [1], rests=True),
-)
-
-commands(
-    ("v2", (16, 19)),
-    library.make_desynchronization_rhythm(4, [0], rests=True),
-)
-
-commands(
-    ("va", (16, 19)),
-    library.make_desynchronization_rhythm(4, [2], rests=True),
-)
-
-commands(
-    ("vc", (16, 19)),
-    library.make_desynchronization_rhythm(4, [-1], rests=True),
 )
 
 commands(
@@ -449,26 +429,6 @@ commands(
         pieces=lambda _: baca.select.omgroups(_, [2]),
         selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
-)
-
-commands(
-    ("v1", (20, 23)),
-    library.make_desynchronization_rhythm(4, [1], rests=([2], 3)),
-)
-
-commands(
-    ("v2", (20, 23)),
-    library.make_desynchronization_rhythm(4, [0], rests=([2], 3)),
-)
-
-commands(
-    ("va", (20, 23)),
-    library.make_desynchronization_rhythm(4, [2], rests=([2], 3)),
-)
-
-commands(
-    ("vc", (20, 23)),
-    library.make_desynchronization_rhythm(4, [-1], rests=([2], 3)),
 )
 
 commands(
@@ -486,26 +446,6 @@ commands(
 )
 
 commands(
-    ("v1", (24, 27)),
-    library.make_desynchronization_rhythm(4, [1]),
-)
-
-commands(
-    ("v2", (24, 27)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
-
-commands(
-    ("va", (24, 27)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
-
-commands(
-    ("vc", (24, 27)),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
-
-commands(
     ("tutti", (24, 27)),
     baca.dynamic("p", redundant=True),
     baca.circle_bow_spanner(
@@ -513,26 +453,6 @@ commands(
         selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         qualifier="wide",
     ),
-)
-
-commands(
-    ("v1", (30, 33)),
-    library.make_synchronized_circle_rhythm(rests=[-1]),
-)
-
-commands(
-    ("v2", (30, 33)),
-    library.make_synchronized_circle_rhythm(rests=[-1]),
-)
-
-commands(
-    ("va", (30, 33)),
-    library.make_synchronized_circle_rhythm(rests=[-1]),
-)
-
-commands(
-    ("vc", (30, 33)),
-    library.make_synchronized_circle_rhythm(rests=[-1]),
 )
 
 commands(
@@ -549,26 +469,6 @@ commands(
         bookend=False,
         pieces=lambda _: baca.select.runs(_),
     ),
-)
-
-commands(
-    ("v1", (36, 55)),
-    library.make_synchronized_circle_rhythm(rotation=0),
-)
-
-commands(
-    ("v2", (36, 55)),
-    library.make_synchronized_circle_rhythm(rotation=-1),
-)
-
-commands(
-    ("va", (36, 55)),
-    library.make_synchronized_circle_rhythm(rotation=-2),
-)
-
-commands(
-    ("vc", (36, 55)),
-    library.make_synchronized_circle_rhythm(rotation=-3),
 )
 
 
@@ -635,26 +535,6 @@ commands(
 )
 
 commands(
-    ("v1", (56, 59)),
-    library.make_synchronized_circle_rhythm(gaps=False, rotation=0),
-)
-
-commands(
-    ("v2", (56, 59)),
-    library.make_synchronized_circle_rhythm(gaps=False, rotation=-1),
-)
-
-commands(
-    ("va", (56, 59)),
-    library.make_synchronized_circle_rhythm(gaps=False, rotation=-2),
-)
-
-commands(
-    ("vc", (56, 59)),
-    library.make_synchronized_circle_rhythm(gaps=False, rotation=-3),
-)
-
-commands(
     ("tutti", (62, 69)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -684,38 +564,6 @@ commands(
 )
 
 commands(
-    ("v1", (62, 69)),
-    library.make_synchronized_circle_rhythm(
-        rests=[-1],
-        rotation=0,
-    ),
-)
-
-commands(
-    ("v2", (62, 69)),
-    library.make_synchronized_circle_rhythm(
-        rests=[-1],
-        rotation=0,
-    ),
-)
-
-commands(
-    ("va", (62, 69)),
-    library.make_synchronized_circle_rhythm(
-        rests=[-1],
-        rotation=0,
-    ),
-)
-
-commands(
-    ("vc", (62, 69)),
-    library.make_synchronized_circle_rhythm(
-        rests=[-1],
-        rotation=0,
-    ),
-)
-
-commands(
     ("tutti", [62, 64, 66, 68]),
     baca.laissez_vibrer(
         selector=lambda _: baca.select.ptails(_),
@@ -731,7 +579,6 @@ commands(
 
 commands(
     ("v1", (71, 76)),
-    library.make_desynchronization_rhythm(4, [1]),
     baca.flat_glissando(
         "Bb4",
         stop_pitch="G4",
@@ -740,7 +587,6 @@ commands(
 
 commands(
     ("v2", (71, 76)),
-    library.make_desynchronization_rhythm(4, [0]),
     baca.flat_glissando(
         "Ab4",
         stop_pitch="F4",
@@ -749,7 +595,6 @@ commands(
 
 commands(
     ("va", (71, 76)),
-    library.make_desynchronization_rhythm(4, [2]),
     baca.flat_glissando(
         "A3",
         stop_pitch="B2",
@@ -758,7 +603,6 @@ commands(
 
 commands(
     ("vc", (71, 76)),
-    library.make_desynchronization_rhythm(4, [-1]),
     baca.flat_glissando(
         "G2",
         stop_pitch="Bb1",
@@ -783,11 +627,86 @@ commands(
     ),
 )
 
-# v2
+# V2
+
+commands(
+    ("v2", (1, 4)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
 
 commands(
     ("v2", 5),
     library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", (7, 10)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("v2", (12, 15)),
+    library.make_desynchronization_rhythm(4, [0], rests=True),
+)
+
+commands(
+    ("v2", (16, 19)),
+    library.make_desynchronization_rhythm(4, [0], rests=True),
+)
+
+commands(
+    ("v2", (20, 23)),
+    library.make_desynchronization_rhythm(4, [0], rests=([2], 3)),
+)
+
+commands(
+    ("v2", (24, 27)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("v2", 28),
+    library.make_clocktick_rhythm(),
+)
+
+commands(
+    ("v2", 29),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
+    ),
+)
+
+commands(
+    ("v2", (30, 33)),
+    library.make_synchronized_circle_rhythm(rests=[-1]),
+)
+
+commands(
+    ("v2", (36, 55)),
+    library.make_synchronized_circle_rhythm(rotation=-1),
+)
+
+commands(
+    ("v2", (56, 59)),
+    library.make_synchronized_circle_rhythm(gaps=False, rotation=-1),
+)
+
+commands(
+    ("v2", (60, 61)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", (62, 69)),
+    library.make_synchronized_circle_rhythm(
+        rests=[-1],
+        rotation=0,
+    ),
+)
+
+commands(
+    ("v2", (71, 76)),
+    library.make_desynchronization_rhythm(4, [0]),
 )
 
 commands(
@@ -829,20 +748,6 @@ commands(
 )
 
 commands(
-    ("v2", (28, 29)),
-    baca.new(
-        library.make_clocktick_rhythm(),
-        measures=28,
-    ),
-    baca.new(
-        baca.skeleton(
-            r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-        ),
-        measures=29,
-    ),
-)
-
-commands(
     ("v2", (36, 59)),
     baca.suite(
         baca.new(
@@ -859,7 +764,80 @@ commands(
     ),
 )
 
-# va
+# VA
+
+commands(
+    ("va", (1, 4)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", 5),
+    library.make_loure_tuplets_material(-1),
+)
+
+commands(
+    ("va", (7, 10)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", (12, 15)),
+    library.make_desynchronization_rhythm(4, [2], rests=True),
+)
+
+commands(
+    ("va", (16, 19)),
+    library.make_desynchronization_rhythm(4, [2], rests=True),
+)
+
+commands(
+    ("va", (20, 23)),
+    library.make_desynchronization_rhythm(4, [2], rests=([2], 3)),
+)
+
+commands(
+    ("va", (24, 27)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", (28, 29)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("va", (30, 33)),
+    library.make_synchronized_circle_rhythm(rests=[-1]),
+)
+
+commands(
+    ("va", (36, 55)),
+    library.make_synchronized_circle_rhythm(rotation=-2),
+)
+
+commands(
+    ("va", (56, 59)),
+    library.make_synchronized_circle_rhythm(gaps=False, rotation=-2),
+)
+
+commands(
+    ("va", (60, 61)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", (62, 69)),
+    library.make_synchronized_circle_rhythm(
+        rests=[-1],
+        rotation=0,
+    ),
+)
+
+commands(
+    ("va", (71, 76)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
 
 commands(
     ("va", 5),
@@ -870,11 +848,6 @@ commands(
     ),
     baca.pitch("<Aqf3 C#4>"),
     library.clouded_pane_spanner("clouded (partial: stopped) -|", 8),
-)
-
-commands(
-    ("va", 5),
-    library.make_loure_tuplets_material(-1),
 )
 
 commands(
@@ -906,11 +879,6 @@ commands(
 )
 
 commands(
-    ("va", (28, 29)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
     ("va", (36, 59)),
     baca.suite(
         baca.new(
@@ -938,7 +906,80 @@ commands(
     baca.tuplet_bracket_staff_padding(0.5),
 )
 
-# vc
+# VC
+
+commands(
+    ("vc", (1, 4)),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
+    ("vc", 5),
+    library.make_taper_rhythm((1, 1)),
+)
+
+commands(
+    ("vc", (7, 10)),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
+    ("vc", (12, 15)),
+    library.make_desynchronization_rhythm(4, [-1], rests=True),
+)
+
+commands(
+    ("vc", (16, 19)),
+    library.make_desynchronization_rhythm(4, [-1], rests=True),
+)
+
+commands(
+    ("vc", (20, 23)),
+    library.make_desynchronization_rhythm(4, [-1], rests=([2], 3)),
+)
+
+commands(
+    ("vc", (24, 27)),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
+    ("vc", (28, 29)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (30, 33)),
+    library.make_synchronized_circle_rhythm(rests=[-1]),
+)
+
+commands(
+    ("vc", (34, 35)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (36, 55)),
+    library.make_synchronized_circle_rhythm(rotation=-3),
+)
+
+commands(
+    ("vc", (56, 59)),
+    library.make_synchronized_circle_rhythm(gaps=False, rotation=-3),
+)
+
+commands(
+    ("vc", (62, 69)),
+    library.make_synchronized_circle_rhythm(
+        rests=[-1],
+        rotation=0,
+    ),
+)
+
+commands(
+    ("vc", (71, 76)),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
 
 commands(
     "vc",
@@ -963,11 +1004,6 @@ commands(
         "clouded pane (pane / urtext) -|",
         5.5,
     ),
-)
-
-commands(
-    ("vc", 5),
-    library.make_taper_rhythm((1, 1)),
 )
 
 commands(
@@ -1002,11 +1038,6 @@ commands(
 )
 
 commands(
-    ("vc", (28, 29)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
     ("vc", (34, 35)),
     baca.breathe(),
     baca.flat_glissando("E2", allow_repitch=True),
@@ -1016,11 +1047,6 @@ commands(
         selector=lambda _: baca.select.rleaves(_),
     ),
     library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
-)
-
-commands(
-    ("vc", (34, 35)),
-    library.make_clouded_pane_rhythm(),
 )
 
 commands(

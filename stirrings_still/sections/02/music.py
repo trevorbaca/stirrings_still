@@ -191,13 +191,47 @@ commands(
 )
 
 commands(
+    ("v1", 26),
+    library.make_declamation_rhythm(),
+)
+
+commands(
     ("v1", [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57), (58, 60)]),
     library.make_trajectory_rhythm("C", 0, -3),
 )
 
 commands(
+    ("v1", (32, 33)),
+    library.make_rasp_rhythm(),
+)
+
+commands(
+    ("v1", 42),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("v1", 48),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
     ("v1", (61, 62)),
     library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("v1", 64),
+    library.make_flight_rhythm(
+        "A",
+        0,
+        start=16,
+    ),
+)
+
+commands(
+    ("v1", 65),
+    library.make_grid_rhythm(rotation=0),
 )
 
 # after
@@ -497,38 +531,8 @@ commands(
 )
 
 commands(
-    ("v1", 26),
-    library.make_declamation_rhythm(),
-)
-
-commands(
-    ("v2", 26),
-    library.make_declamation_rhythm(),
-)
-
-commands(
-    ("va", 26),
-    library.make_declamation_rhythm(),
-)
-
-commands(
     ("triox", 45),
     baca.tacet(),
-)
-
-commands(
-    ("v1", 48),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("v2", 48),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("va", 48),
-    library.make_urtext_field_rhythm(),
 )
 
 commands(
@@ -543,33 +547,6 @@ commands(
     ),
     baca.stem_tremolo(),
     library.urtext_spanner("urtext (cds) -|", 8),
-)
-
-commands(
-    ("v1", 64),
-    library.make_flight_rhythm(
-        "A",
-        0,
-        start=16,
-    ),
-)
-
-commands(
-    ("v2", 64),
-    library.make_flight_rhythm(
-        "C",
-        -1,
-        start=16,
-    ),
-)
-
-commands(
-    ("va", 64),
-    library.make_flight_rhythm(
-        "B",
-        -2,
-        start=16,
-    ),
 )
 
 commands(
@@ -642,26 +619,6 @@ commands(
         match=[1, 2, 3],
         pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
     ),
-)
-
-commands(
-    ("v1", (32, 33)),
-    library.make_rasp_rhythm(),
-)
-
-commands(
-    ("v2", (32, 33)),
-    library.make_rasp_rhythm(),
-)
-
-commands(
-    ("va", (32, 33)),
-    library.make_rasp_rhythm(),
-)
-
-commands(
-    ("vc", (32, 33)),
-    library.make_rasp_rhythm(),
 )
 
 commands(
@@ -763,26 +720,6 @@ commands(
 )
 
 commands(
-    ("v1", 42),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("v2", 42),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("va", 42),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("vc", 42),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
     ("tutti", 42),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -871,26 +808,6 @@ commands(
 )
 
 commands(
-    ("vc", 65),
-    library.make_grid_rhythm(rotation=-3),
-)
-
-commands(
-    ("v1", 65),
-    library.make_grid_rhythm(rotation=0),
-)
-
-commands(
-    ("v2", 65),
-    library.make_grid_rhythm(rotation=-1),
-)
-
-commands(
-    ("va", 65),
-    library.make_grid_rhythm(rotation=-2),
-)
-
-commands(
     ("tutti", 65),
     baca.new(
         baca.dynamic(
@@ -917,16 +834,7 @@ commands(
     ),
 )
 
-# v2
-
-commands(
-    ("v2", (1, 4)),
-    baca.hairpin(
-        "mp -- !",
-        abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
+# V2
 
 commands(
     ("v2", (1, 7)),
@@ -934,6 +842,108 @@ commands(
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
         ),
+    ),
+)
+
+commands(
+    ("v2", 12),
+    library.make_clocktick_rhythm(),
+)
+
+commands(
+    ("v2", 15),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
+    ),
+)
+
+commands(
+    ("v2", 13),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
+    ),
+)
+
+commands(
+    ("v2", 14),
+    library.make_clocktick_rhythm(),
+)
+
+commands(
+    ("v2", 16),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
+        r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
+    ),
+)
+
+commands(
+    ("v2", 17),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
+    ),
+)
+
+commands(
+    ("v2", (18, 25)),
+    library.make_trajectory_rhythm("C", 0, 0),
+)
+
+commands(
+    ("v2", 26),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v2", 27),
+    library.make_trajectory_rhythm("C", -1, 0),
+)
+
+commands(
+    ("v2", [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
+    library.make_trajectory_rhythm("C", -1, -2),
+)
+
+commands(
+    ("v2", (32, 33)),
+    library.make_rasp_rhythm(),
+)
+
+commands(
+    ("v2", 42),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("v2", 48),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", (58, 62)),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("v2", 64),
+    library.make_flight_rhythm(
+        "C",
+        -1,
+        start=16,
+    ),
+)
+
+commands(
+    ("v2", 65),
+    library.make_grid_rhythm(rotation=-1),
+)
+
+commands(
+    ("v2", (1, 4)),
+    baca.hairpin(
+        "mp -- !",
+        abjad.Tweak(r"- \tweak to-barline ##t"),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -966,11 +976,6 @@ commands(
 )
 
 commands(
-    ("v2", 12),
-    library.make_clocktick_rhythm(),
-)
-
-commands(
     ("v2", (12, 13)),
     baca.alternate_bow_strokes(),
 )
@@ -981,13 +986,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.tuplet_number_denominator(),
-)
-
-commands(
-    ("v2", 15),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-    ),
 )
 
 commands(
@@ -1008,40 +1006,13 @@ commands(
 )
 
 commands(
-    ("v2", 13),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-    ),
-)
-
-commands(
-    ("v2", 14),
-    library.make_clocktick_rhythm(),
-)
-
-commands(
     ("v2", (14, 15)),
     baca.alternate_bow_strokes(),
 )
 
 commands(
-    ("v2", 16),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
-        r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
-    ),
-)
-
-commands(
     ("v2", (16, 17)),
     baca.alternate_bow_strokes(),
-)
-
-commands(
-    ("v2", 17),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-    ),
 )
 
 commands(
@@ -1064,11 +1035,6 @@ commands(
         ],
         "G5",
     ),
-)
-
-commands(
-    ("v2", (18, 25)),
-    library.make_trajectory_rhythm("C", 0, 0),
 )
 
 commands(
@@ -1107,11 +1073,6 @@ commands(
 )
 
 commands(
-    ("v2", 27),
-    library.make_trajectory_rhythm("C", -1, 0),
-)
-
-commands(
     ("v2", (29, 30)),
     baca.flat_glissando(
         "G5",
@@ -1126,11 +1087,6 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-)
-
-commands(
-    ("v2", [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
-    library.make_trajectory_rhythm("C", -1, -2),
 )
 
 commands(
@@ -1231,27 +1187,13 @@ commands(
 
 commands(
     ("v2", (58, 62)),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("v2", (58, 62)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
 )
 
-# va
-
-commands(
-    ("va", (1, 4)),
-    baca.hairpin(
-        "mp -- !",
-        abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
+# VA
 
 commands(
     ("va", (1, 5)),
@@ -1259,6 +1201,79 @@ commands(
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
         ),
+    ),
+)
+
+commands(
+    ("va", (6, 7)),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("va", (12, 21)),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("va", [(23, 25), 27]),
+    library.make_trajectory_rhythm("C", 0, 0),
+)
+
+commands(
+    ("va", 26),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("va", [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
+    library.make_trajectory_rhythm("C", -2, -1),
+)
+
+commands(
+    ("va", (32, 33)),
+    library.make_rasp_rhythm(),
+)
+
+commands(
+    ("va", 42),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("va", 48),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", (58, 59)),
+    library.make_trajectory_rhythm("C", -2, -1),
+)
+
+commands(
+    ("va", (60, 62)),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("va", 64),
+    library.make_flight_rhythm(
+        "B",
+        -2,
+        start=16,
+    ),
+)
+
+commands(
+    ("va", 65),
+    library.make_grid_rhythm(rotation=-2),
+)
+
+commands(
+    ("va", (1, 4)),
+    baca.hairpin(
+        "mp -- !",
+        abjad.Tweak(r"- \tweak to-barline ##t"),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1305,11 +1320,6 @@ commands(
 )
 
 commands(
-    ("va", (6, 7)),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
     ("va", (12, 21)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1328,11 +1338,6 @@ commands(
         pieces=lambda _: baca.select.mgroups(_, [8, 2 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
-)
-
-commands(
-    ("va", (12, 21)),
-    library.make_circle_rhythm((1, 4)),
 )
 
 commands(
@@ -1359,11 +1364,6 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-)
-
-commands(
-    ("va", [(23, 25), 27]),
-    library.make_trajectory_rhythm("C", 0, 0),
 )
 
 commands(
@@ -1422,11 +1422,6 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-)
-
-commands(
-    ("va", [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
-    library.make_trajectory_rhythm("C", -2, -1),
 )
 
 commands(
@@ -1541,11 +1536,6 @@ commands(
 )
 
 commands(
-    ("va", (58, 59)),
-    library.make_trajectory_rhythm("C", -2, -1),
-)
-
-commands(
     ("va", (60, 62)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1553,21 +1543,7 @@ commands(
     ),
 )
 
-commands(
-    ("va", (60, 62)),
-    library.make_circle_rhythm((1, 4)),
-)
-
-# vc
-
-commands(
-    ("vc", (1, 4)),
-    baca.hairpin(
-        "mp -- !",
-        abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
+# VC
 
 commands(
     ("vc", (1, 5)),
@@ -1575,6 +1551,107 @@ commands(
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
         ),
+    ),
+)
+
+commands(
+    ("vc", (6, 11)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (12, 15)),
+    library.make_circle_rhythm(
+        (1, 4),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
+    ),
+)
+
+commands(
+    ("vc", 16),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
+        r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
+    ),
+)
+
+commands(
+    ("vc", 17),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
+    ),
+)
+
+commands(
+    ("vc", (18, 19)),
+    library.make_clocktick_rhythm(
+        encroach=True,
+    ),
+)
+
+commands(
+    ("vc", (20, 25)),
+    library.make_trajectory_rhythm("B", 0, 0),
+)
+
+commands(
+    ("vc", 27),
+    library.make_trajectory_rhythm("B", 0, 0),
+)
+
+commands(
+    ("vc", [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
+    library.make_trajectory_rhythm("C", -3, 0),
+)
+
+commands(
+    ("vc", (32, 33)),
+    library.make_rasp_rhythm(),
+)
+
+commands(
+    ("vc", 42),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("vc", 45),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", 48),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (58, 61)),
+    library.make_trajectory_rhythm("C", -3, 0),
+)
+
+commands(
+    ("vc", 62),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("vc", 64),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", 65),
+    library.make_grid_rhythm(rotation=-3),
+)
+
+commands(
+    ("vc", (1, 4)),
+    baca.hairpin(
+        "mp -- !",
+        abjad.Tweak(r"- \tweak to-barline ##t"),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1608,11 +1685,6 @@ commands(
 
 commands(
     ("vc", (6, 11)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("vc", (6, 11)),
     baca.breathe(),
     baca.flat_glissando(
         "E2",
@@ -1640,16 +1712,6 @@ commands(
 )
 
 commands(
-    ("vc", (12, 15)),
-    library.make_circle_rhythm(
-        (1, 4),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-    ),
-)
-
-commands(
     ("vc", (12, 19)),
     baca.hairpin(
         "p -- !",
@@ -1670,14 +1732,6 @@ commands(
 commands(
     ("vc", (15, 19)),
     baca.tuplet_bracket_staff_padding(1),
-)
-
-commands(
-    ("vc", 16),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
-        r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
-    ),
 )
 
 commands(
@@ -1713,27 +1767,8 @@ commands(
 )
 
 commands(
-    ("vc", 17),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-    ),
-)
-
-commands(
     ("vc", (18, 19)),
     baca.alternate_bow_strokes(),
-)
-
-commands(
-    ("vc", (18, 19)),
-    library.make_clocktick_rhythm(
-        encroach=True,
-    ),
-)
-
-commands(
-    ("vc", (20, 25)),
-    library.make_trajectory_rhythm("B", 0, 0),
 )
 
 commands(
@@ -1794,11 +1829,6 @@ commands(
 )
 
 commands(
-    ("vc", 27),
-    library.make_trajectory_rhythm("B", 0, 0),
-)
-
-commands(
     ("vc", (29, 30)),
     baca.flat_glissando(
         "Fqs5",
@@ -1813,11 +1843,6 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-)
-
-commands(
-    ("vc", [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
-    library.make_trajectory_rhythm("C", -3, 0),
 )
 
 commands(
@@ -1873,11 +1898,6 @@ commands(
 
 commands(
     ("vc", 45),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("vc", 45),
     baca.flat_glissando("E2"),
     baca.hairpin(
         "p -- !",
@@ -1890,11 +1910,6 @@ commands(
 commands(
     ("vc", 46),
     baca.flat_glissando("D2"),
-)
-
-commands(
-    ("vc", 48),
-    library.make_clouded_pane_rhythm(),
 )
 
 commands(
@@ -1961,21 +1976,11 @@ commands(
 )
 
 commands(
-    ("vc", (58, 61)),
-    library.make_trajectory_rhythm("C", -3, 0),
-)
-
-commands(
     ("vc", 62),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
-)
-
-commands(
-    ("vc", 62),
-    library.make_circle_rhythm((1, 4)),
 )
 
 commands(
@@ -1987,11 +1992,6 @@ commands(
     ),
     baca.pitch("E2"),
     library.clouded_pane_spanner("clouded pane (flight) -|", 5.5),
-)
-
-commands(
-    ("vc", 64),
-    library.make_clouded_pane_rhythm(),
 )
 
 if __name__ == "__main__":
