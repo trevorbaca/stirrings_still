@@ -396,7 +396,17 @@ commands(
 # trio
 
 commands(
-    ("trio", (1, 2)),
+    ("v1", (1, 2)),
+    library.make_continuous_tremolo_material(),
+)
+
+commands(
+    ("v2", (1, 2)),
+    library.make_continuous_tremolo_material(),
+)
+
+commands(
+    ("va", (1, 2)),
     library.make_continuous_tremolo_material(),
 )
 
@@ -622,35 +632,33 @@ commands(
 )
 
 commands(
-    ("trio", (82, 85)),
-    baca.new(
-        library.make_talea_eighth_notes([3, 6, 8], 0, 1, end_counts=[1]),
-        match=0,
-    ),
-    baca.new(
-        library.make_talea_eighth_notes([3, 6, 8], -1, 0, end_counts=[1]),
-        match=1,
-    ),
-    baca.new(
-        library.make_talea_eighth_notes([3, 6, 8], -2, -1, end_counts=[1]),
-        match=2,
-    ),
+    ("v1", (82, 85)),
+    library.make_talea_eighth_notes([3, 6, 8], 0, 1, end_counts=[1]),
 )
 
 commands(
-    ("trio", (87, 88)),
-    baca.new(
-        library.make_talea_eighth_notes([3, 6, 8], 0, 1),
-        match=0,
-    ),
-    baca.new(
-        library.make_talea_eighth_notes([3, 6, 8], -1, 0),
-        match=1,
-    ),
-    baca.new(
-        library.make_talea_eighth_notes([3, 6, 8], -2, -1),
-        match=2,
-    ),
+    ("v2", (82, 85)),
+    library.make_talea_eighth_notes([3, 6, 8], -1, 0, end_counts=[1]),
+)
+
+commands(
+    ("va", (82, 85)),
+    library.make_talea_eighth_notes([3, 6, 8], -2, -1, end_counts=[1]),
+)
+
+commands(
+    ("v1", (87, 88)),
+    library.make_talea_eighth_notes([3, 6, 8], 0, 1),
+)
+
+commands(
+    ("v2", (87, 88)),
+    library.make_talea_eighth_notes([3, 6, 8], -1, 0),
+)
+
+commands(
+    ("va", (87, 88)),
+    library.make_talea_eighth_notes([3, 6, 8], -2, -1),
 )
 
 commands(
@@ -668,19 +676,18 @@ commands(
 )
 
 commands(
-    ("trio", (109, 110)),
-    baca.new(
-        library.make_talea_eighth_notes([3, 6, 8], 0, 1),
-        match=0,
-    ),
-    baca.new(
-        library.make_talea_eighth_notes([3, 6, 8], -1, 0),
-        match=1,
-    ),
-    baca.new(
-        library.make_talea_eighth_notes([3, 6, 8], -2, -1),
-        match=2,
-    ),
+    ("v1", (109, 110)),
+    library.make_talea_eighth_notes([3, 6, 8], 0, 1),
+)
+
+commands(
+    ("v2", (109, 110)),
+    library.make_talea_eighth_notes([3, 6, 8], -1, 0),
+)
+
+commands(
+    ("va", (109, 110)),
+    library.make_talea_eighth_notes([3, 6, 8], -2, -1),
 )
 
 commands(
@@ -730,19 +737,18 @@ commands(
 )
 
 commands(
-    ("trio", (112, 119)),
-    baca.new(
-        library.make_talea_eighth_notes([3, 6, 8], 0, 1),
-        match=0,
-    ),
-    baca.new(
-        library.make_talea_eighth_notes([3, 6, 8], -1, 0),
-        match=1,
-    ),
-    baca.new(
-        library.make_talea_eighth_notes([3, 6, 8], -2, -1),
-        match=2,
-    ),
+    ("v1", (112, 119)),
+    library.make_talea_eighth_notes([3, 6, 8], 0, 1),
+)
+
+commands(
+    ("v2", (112, 119)),
+    library.make_talea_eighth_notes([3, 6, 8], -1, 0),
+)
+
+commands(
+    ("va", (112, 119)),
+    library.make_talea_eighth_notes([3, 6, 8], -2, -1),
 )
 
 commands(
@@ -1254,29 +1260,33 @@ commands(
 )
 
 commands(
-    (["va", "vc"], (42, 49)),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [0]),
-        baca.flat_glissando("B3"),
-        match=0,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [-1]),
-        baca.flat_glissando("C3"),
-        match=1,
-    ),
+    ("va", (42, 49)),
+    library.make_desynchronization_rhythm(4, [0]),
 )
 
 commands(
-    (["va", "vc"], (50, 61)),
-    baca.new(
-        library.make_trajectory_rhythm("C", -2, -1),
-        match=0,
-    ),
-    baca.new(
-        library.make_trajectory_rhythm("C", -3, 0),
-        match=1,
-    ),
+    ("va", (42, 49)),
+    baca.flat_glissando("B3"),
+)
+
+commands(
+    ("vc", (42, 49)),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
+    ("vc", (42, 49)),
+    baca.flat_glissando("C3"),
+)
+
+commands(
+    ("va", (50, 61)),
+    library.make_trajectory_rhythm("C", -2, -1),
+)
+
+commands(
+    ("vc", (50, 61)),
+    library.make_trajectory_rhythm("C", -3, 0),
 )
 
 commands(
@@ -1356,15 +1366,23 @@ commands(
 )
 
 commands(
+    ("va", (89, 96)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("vc", (89, 96)),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
     (["va", "vc"], (89, 96)),
     baca.new(
-        library.make_desynchronization_rhythm(4, [0]),
         baca.breathe(),
         baca.flat_glissando("B3"),
         match=0,
     ),
     baca.new(
-        library.make_desynchronization_rhythm(4, [-1]),
         baca.breathe(
             lambda _: abjad.select.leaf(_, -1),
             abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
@@ -1375,15 +1393,13 @@ commands(
 )
 
 commands(
-    (["va", "vc"], (97, 108)),
-    baca.new(
-        library.make_trajectory_rhythm("C", -2, -1),
-        match=0,
-    ),
-    baca.new(
-        library.make_trajectory_rhythm("C", -3, 0),
-        match=1,
-    ),
+    ("va", (97, 108)),
+    library.make_trajectory_rhythm("C", -2, -1),
+)
+
+commands(
+    ("vc", (97, 108)),
+    library.make_trajectory_rhythm("C", -3, 0),
 )
 
 commands(
@@ -1445,7 +1461,12 @@ commands(
 # vc
 
 commands(
-    ("vc", [(1, 2), (6, 27)]),
+    ("vc", (1, 2)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (6, 27)),
     library.make_clouded_pane_rhythm(),
 )
 

@@ -477,7 +477,22 @@ commands(
 )
 
 commands(
-    ("tutti", 1),
+    ("v1", 1),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", 1),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", 1),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", 1),
     baca.make_repeat_tied_notes(),
 )
 

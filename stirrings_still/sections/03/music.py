@@ -235,7 +235,17 @@ commands(
 )
 
 commands(
-    ("trio", (60, 61)),
+    ("v1", (60, 61)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", (60, 61)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", (60, 61)),
     library.make_urtext_field_rhythm(),
 )
 
@@ -280,23 +290,23 @@ commands(
 )
 
 commands(
-    ("tutti", (1, 4)),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [1]),
-        match=0,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [0]),
-        match=1,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [2]),
-        match=2,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [-1]),
-        match=3,
-    ),
+    ("v1", (1, 4)),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v2", (1, 4)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("va", (1, 4)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("vc", (1, 4)),
+    library.make_desynchronization_rhythm(4, [-1]),
 )
 
 commands(
@@ -334,30 +344,30 @@ commands(
 )
 
 commands(
-    ("tutti", (7, 10)),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [1]),
-        baca.flat_glissando("Bb4"),
-        match=0,
+    ("v1", (7, 10)),
+    library.make_desynchronization_rhythm(4, [1]),
+    baca.flat_glissando("Bb4"),
+)
+
+commands(
+    ("v2", (7, 10)),
+    library.make_desynchronization_rhythm(4, [0]),
+    baca.flat_glissando(
+        "G4",
+        stop_pitch="A4",
     ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [0]),
-        baca.flat_glissando(
-            "G4",
-            stop_pitch="A4",
-        ),
-        match=1,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [2]),
-        baca.flat_glissando("Bb4"),
-        match=2,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [-1]),
-        baca.flat_glissando("Bb4"),
-        match=3,
-    ),
+)
+
+commands(
+    ("va", (7, 10)),
+    library.make_desynchronization_rhythm(4, [2]),
+    baca.flat_glissando("Bb4"),
+)
+
+commands(
+    ("vc", (7, 10)),
+    library.make_desynchronization_rhythm(4, [-1]),
+    baca.flat_glissando("Bb4"),
 )
 
 commands(
@@ -378,22 +388,26 @@ commands(
 
 commands(
     ("tutti", (12, 15)),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [1], rests=True),
-        match=0,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [0], rests=True),
-        match=1,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [2], rests=True),
-        match=2,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [-1], rests=True),
-        match=3,
-    ),
+)
+
+commands(
+    ("v1", (12, 15)),
+    library.make_desynchronization_rhythm(4, [1], rests=True),
+)
+
+commands(
+    ("v2", (12, 15)),
+    library.make_desynchronization_rhythm(4, [0], rests=True),
+)
+
+commands(
+    ("va", (12, 15)),
+    library.make_desynchronization_rhythm(4, [2], rests=True),
+)
+
+commands(
+    ("vc", (12, 15)),
+    library.make_desynchronization_rhythm(4, [-1], rests=True),
 )
 
 commands(
@@ -405,23 +419,23 @@ commands(
 )
 
 commands(
-    ("tutti", (16, 19)),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [1], rests=True),
-        match=0,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [0], rests=True),
-        match=1,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [2], rests=True),
-        match=2,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [-1], rests=True),
-        match=3,
-    ),
+    ("v1", (16, 19)),
+    library.make_desynchronization_rhythm(4, [1], rests=True),
+)
+
+commands(
+    ("v2", (16, 19)),
+    library.make_desynchronization_rhythm(4, [0], rests=True),
+)
+
+commands(
+    ("va", (16, 19)),
+    library.make_desynchronization_rhythm(4, [2], rests=True),
+)
+
+commands(
+    ("vc", (16, 19)),
+    library.make_desynchronization_rhythm(4, [-1], rests=True),
 )
 
 commands(
@@ -438,23 +452,23 @@ commands(
 )
 
 commands(
-    ("tutti", (20, 23)),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [1], rests=([2], 3)),
-        match=0,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [0], rests=([2], 3)),
-        match=1,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [2], rests=([2], 3)),
-        match=2,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [-1], rests=([2], 3)),
-        match=3,
-    ),
+    ("v1", (20, 23)),
+    library.make_desynchronization_rhythm(4, [1], rests=([2], 3)),
+)
+
+commands(
+    ("v2", (20, 23)),
+    library.make_desynchronization_rhythm(4, [0], rests=([2], 3)),
+)
+
+commands(
+    ("va", (20, 23)),
+    library.make_desynchronization_rhythm(4, [2], rests=([2], 3)),
+)
+
+commands(
+    ("vc", (20, 23)),
+    library.make_desynchronization_rhythm(4, [-1], rests=([2], 3)),
 )
 
 commands(
@@ -472,23 +486,23 @@ commands(
 )
 
 commands(
-    ("tutti", (24, 27)),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [1]),
-        match=0,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [0]),
-        match=1,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [2]),
-        match=2,
-    ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [-1]),
-        match=3,
-    ),
+    ("v1", (24, 27)),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v2", (24, 27)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("va", (24, 27)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("vc", (24, 27)),
+    library.make_desynchronization_rhythm(4, [-1]),
 )
 
 commands(
@@ -502,7 +516,22 @@ commands(
 )
 
 commands(
-    ("tutti", (30, 33)),
+    ("v1", (30, 33)),
+    library.make_synchronized_circle_rhythm(rests=[-1]),
+)
+
+commands(
+    ("v2", (30, 33)),
+    library.make_synchronized_circle_rhythm(rests=[-1]),
+)
+
+commands(
+    ("va", (30, 33)),
+    library.make_synchronized_circle_rhythm(rests=[-1]),
+)
+
+commands(
+    ("vc", (30, 33)),
     library.make_synchronized_circle_rhythm(rests=[-1]),
 )
 
@@ -523,23 +552,23 @@ commands(
 )
 
 commands(
-    ("tutti", (36, 55)),
-    baca.new(
-        library.make_synchronized_circle_rhythm(rotation=0),
-        match=0,
-    ),
-    baca.new(
-        library.make_synchronized_circle_rhythm(rotation=-1),
-        match=1,
-    ),
-    baca.new(
-        library.make_synchronized_circle_rhythm(rotation=-2),
-        match=2,
-    ),
-    baca.new(
-        library.make_synchronized_circle_rhythm(rotation=-3),
-        match=3,
-    ),
+    ("v1", (36, 55)),
+    library.make_synchronized_circle_rhythm(rotation=0),
+)
+
+commands(
+    ("v2", (36, 55)),
+    library.make_synchronized_circle_rhythm(rotation=-1),
+)
+
+commands(
+    ("va", (36, 55)),
+    library.make_synchronized_circle_rhythm(rotation=-2),
+)
+
+commands(
+    ("vc", (36, 55)),
+    library.make_synchronized_circle_rhythm(rotation=-3),
 )
 
 
@@ -606,23 +635,23 @@ commands(
 )
 
 commands(
-    ("tutti", (56, 59)),
-    baca.new(
-        library.make_synchronized_circle_rhythm(gaps=False, rotation=0),
-        match=0,
-    ),
-    baca.new(
-        library.make_synchronized_circle_rhythm(gaps=False, rotation=-1),
-        match=1,
-    ),
-    baca.new(
-        library.make_synchronized_circle_rhythm(gaps=False, rotation=-2),
-        match=2,
-    ),
-    baca.new(
-        library.make_synchronized_circle_rhythm(gaps=False, rotation=-3),
-        match=3,
-    ),
+    ("v1", (56, 59)),
+    library.make_synchronized_circle_rhythm(gaps=False, rotation=0),
+)
+
+commands(
+    ("v2", (56, 59)),
+    library.make_synchronized_circle_rhythm(gaps=False, rotation=-1),
+)
+
+commands(
+    ("va", (56, 59)),
+    library.make_synchronized_circle_rhythm(gaps=False, rotation=-2),
+)
+
+commands(
+    ("vc", (56, 59)),
+    library.make_synchronized_circle_rhythm(gaps=False, rotation=-3),
 )
 
 commands(
@@ -655,7 +684,31 @@ commands(
 )
 
 commands(
-    ("tutti", (62, 69)),
+    ("v1", (62, 69)),
+    library.make_synchronized_circle_rhythm(
+        rests=[-1],
+        rotation=0,
+    ),
+)
+
+commands(
+    ("v2", (62, 69)),
+    library.make_synchronized_circle_rhythm(
+        rests=[-1],
+        rotation=0,
+    ),
+)
+
+commands(
+    ("va", (62, 69)),
+    library.make_synchronized_circle_rhythm(
+        rests=[-1],
+        rotation=0,
+    ),
+)
+
+commands(
+    ("vc", (62, 69)),
     library.make_synchronized_circle_rhythm(
         rests=[-1],
         rotation=0,
@@ -677,38 +730,38 @@ commands(
 )
 
 commands(
-    ("tutti", (71, 76)),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [1]),
-        baca.flat_glissando(
-            "Bb4",
-            stop_pitch="G4",
-        ),
-        match=0,
+    ("v1", (71, 76)),
+    library.make_desynchronization_rhythm(4, [1]),
+    baca.flat_glissando(
+        "Bb4",
+        stop_pitch="G4",
     ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [0]),
-        baca.flat_glissando(
-            "Ab4",
-            stop_pitch="F4",
-        ),
-        match=1,
+)
+
+commands(
+    ("v2", (71, 76)),
+    library.make_desynchronization_rhythm(4, [0]),
+    baca.flat_glissando(
+        "Ab4",
+        stop_pitch="F4",
     ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [2]),
-        baca.flat_glissando(
-            "A3",
-            stop_pitch="B2",
-        ),
-        match=2,
+)
+
+commands(
+    ("va", (71, 76)),
+    library.make_desynchronization_rhythm(4, [2]),
+    baca.flat_glissando(
+        "A3",
+        stop_pitch="B2",
     ),
-    baca.new(
-        library.make_desynchronization_rhythm(4, [-1]),
-        baca.flat_glissando(
-            "G2",
-            stop_pitch="Bb1",
-        ),
-        match=3,
+)
+
+commands(
+    ("vc", (71, 76)),
+    library.make_desynchronization_rhythm(4, [-1]),
+    baca.flat_glissando(
+        "G2",
+        stop_pitch="Bb1",
     ),
 )
 

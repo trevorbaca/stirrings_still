@@ -97,7 +97,17 @@ commands(
 # trio
 
 commands(
-    ("trio", (1, 2)),
+    ("v1", (1, 2)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", (1, 2)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", (1, 2)),
     library.make_urtext_field_rhythm(),
 )
 
@@ -117,7 +127,17 @@ commands(
 )
 
 commands(
-    ("trio", (5, 11)),
+    ("v1", (5, 11)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", (5, 11)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", (5, 11)),
     library.make_urtext_field_rhythm(),
 )
 
@@ -140,19 +160,18 @@ commands(
 )
 
 commands(
-    ("trio", (12, 17)),
-    baca.new(
-        library.make_trajectory_rhythm("C", -1, -2),
-        match=0,
-    ),
-    baca.new(
-        library.make_trajectory_rhythm("C", -2, -1),
-        match=1,
-    ),
-    baca.new(
-        library.make_trajectory_rhythm("C", -3, 0),
-        match=2,
-    ),
+    ("v1", (12, 17)),
+    library.make_trajectory_rhythm("C", -1, -2),
+)
+
+commands(
+    ("v2", (12, 17)),
+    library.make_trajectory_rhythm("C", -2, -1),
+)
+
+commands(
+    ("va", (12, 17)),
+    library.make_trajectory_rhythm("C", -3, 0),
 )
 
 commands(
@@ -200,7 +219,17 @@ commands(
 # v1, va, vc
 
 commands(
-    (["v1", "va", "vc"], (3, 4)),
+    ("v1", (3, 4)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("va", (3, 4)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (3, 4)),
     library.make_clouded_pane_rhythm(),
 )
 
@@ -310,17 +339,16 @@ commands(
     baca.tuplet_bracket_staff_padding(1),
 )
 
+
 commands(
-    ("v2", (3, 4)),
-    baca.new(
-        library.make_clocktick_rhythm(),
-        measures=3,
-    ),
-    baca.new(
-        baca.skeleton(
-            r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-        ),
-        measures=4,
+    ("v2", 3),
+    library.make_clocktick_rhythm(),
+)
+
+commands(
+    ("v2", 4),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
     ),
 )
 

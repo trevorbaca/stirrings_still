@@ -86,7 +86,32 @@ library.time(commands, time)
 # v1
 
 commands(
-    ("v1", [1, 3, 7, 9, 11, 14]),
+    ("v1", 1),
+    library.make_loure_tuplets_material(0),
+)
+
+commands(
+    ("v1", 3),
+    library.make_loure_tuplets_material(0),
+)
+
+commands(
+    ("v1", 7),
+    library.make_loure_tuplets_material(0),
+)
+
+commands(
+    ("v1", 9),
+    library.make_loure_tuplets_material(0),
+)
+
+commands(
+    ("v1", 11),
+    library.make_loure_tuplets_material(0),
+)
+
+commands(
+    ("v1", 14),
     library.make_loure_tuplets_material(0),
 )
 
@@ -119,7 +144,17 @@ commands(
 )
 
 commands(
-    ("trio", (5, 6)),
+    ("v1", (5, 6)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", (5, 6)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", (5, 6)),
     library.make_urtext_field_rhythm(),
 )
 
@@ -171,38 +206,38 @@ commands(
 )
 
 commands(
-    ("tutti", (16, 17)),
-    baca.new(
-        library.make_flight_rhythm(
-            "A",
-            0,
-            start=4,
-        ),
-        match=0,
+    ("v1", (16, 17)),
+    library.make_flight_rhythm(
+        "A",
+        0,
+        start=4,
     ),
-    baca.new(
-        library.make_flight_rhythm(
-            "C",
-            -1,
-            start=4,
-        ),
-        match=1,
+)
+
+commands(
+    ("v2", (16, 17)),
+    library.make_flight_rhythm(
+        "C",
+        -1,
+        start=4,
     ),
-    baca.new(
-        library.make_flight_rhythm(
-            "B",
-            -2,
-            start=4,
-        ),
-        match=2,
+)
+
+commands(
+    ("va", (16, 17)),
+    library.make_flight_rhythm(
+        "B",
+        -2,
+        start=4,
     ),
-    baca.new(
-        library.make_flight_rhythm(
-            "B",
-            -4,
-            start=6,
-        ),
-        match=3,
+)
+
+commands(
+    ("vc", (16, 17)),
+    library.make_flight_rhythm(
+        "B",
+        -4,
+        start=6,
     ),
 )
 
@@ -276,14 +311,39 @@ commands(
 )
 
 commands(
-    ("tutti", (19, 24)),
+    ("v1", (19, 24)),
+    library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("v2", (19, 24)),
+    library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("va", (19, 24)),
+    library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("vc", (19, 24)),
     library.make_stroke_rhythm(0),
 )
 
 # v1, va, vc
 
 commands(
-    (["v1", "va", "vc"], (12, 13)),
+    ("v1", (12, 13)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("va", (12, 13)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (12, 13)),
     library.make_clouded_pane_rhythm(),
 )
 
@@ -329,7 +389,32 @@ commands(
 # v2
 
 commands(
-    ("v2", [1, 3, 7, 9, 11, 14]),
+    ("v2", 1),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", 3),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", 7),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", 9),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", 11),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", 14),
     library.make_loure_tuplets_material(1),
 )
 
@@ -372,23 +457,46 @@ commands(
 )
 
 commands(
-    ("v2", (12, 13)),
-    baca.new(
-        library.make_clocktick_rhythm(),
-        measures=12,
-    ),
-    baca.new(
-        baca.skeleton(
-            r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-        ),
-        measures=13,
+    ("v2", 12),
+    library.make_clocktick_rhythm(),
+)
+
+commands(
+    ("v2", 13),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
     ),
 )
 
 # va
 
 commands(
-    ("va", [1, 3, 7, 9, 11, 14]),
+    ("va", 1),
+    library.make_loure_tuplets_material(-1),
+)
+
+commands(
+    ("va", 3),
+    library.make_loure_tuplets_material(-1),
+)
+
+commands(
+    ("va", 7),
+    library.make_loure_tuplets_material(-1),
+)
+
+commands(
+    ("va", 9),
+    library.make_loure_tuplets_material(-1),
+)
+
+commands(
+    ("va", 11),
+    library.make_loure_tuplets_material(-1),
+)
+
+commands(
+    ("va", 14),
     library.make_loure_tuplets_material(-1),
 )
 
@@ -421,7 +529,32 @@ commands(
 # vc
 
 commands(
-    ("vc", [1, 3, 7, 9, 11, 14]),
+    ("vc", 1),
+    library.make_taper_rhythm((1, 1)),
+)
+
+commands(
+    ("vc", 3),
+    library.make_taper_rhythm((1, 1)),
+)
+
+commands(
+    ("vc", 7),
+    library.make_taper_rhythm((1, 1)),
+)
+
+commands(
+    ("vc", 9),
+    library.make_taper_rhythm((1, 1)),
+)
+
+commands(
+    ("vc", 11),
+    library.make_taper_rhythm((1, 1)),
+)
+
+commands(
+    ("vc", 14),
     library.make_taper_rhythm((1, 1)),
 )
 

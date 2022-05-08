@@ -48,7 +48,22 @@ time = (
 library.time(commands, time)
 
 commands(
-    ("tutti", (1, 4)),
+    ("v1", (1, 4)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+commands(
+    ("v2", (1, 4)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+commands(
+    ("va", (1, 4)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+commands(
+    ("vc", (1, 4)),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
 )
 
@@ -212,12 +227,42 @@ commands(
 )
 
 commands(
-    ("tutti", (11, 14)),
+    ("v1", (11, 14)),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
 )
 
 commands(
-    ("tutti", (21, 25)),
+    ("v2", (11, 14)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+commands(
+    ("va", (11, 14)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+commands(
+    ("vc", (11, 14)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+commands(
+    ("v1", (21, 25)),
+    library.make_eighth_notes(),
+)
+
+commands(
+    ("v2", (21, 25)),
+    library.make_eighth_notes(),
+)
+
+commands(
+    ("va", (21, 25)),
+    library.make_eighth_notes(),
+)
+
+commands(
+    ("vc", (21, 25)),
     library.make_eighth_notes(),
 )
 

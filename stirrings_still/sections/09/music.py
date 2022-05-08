@@ -79,22 +79,21 @@ commands(
 # trio
 
 commands(
-    ("trio", (1, 7)),
-    baca.new(
-        library.make_circle_rhythm((1, 8)),
-        match=0,
-    ),
-    baca.new(
-        library.make_circle_rhythm((1, 4)),
-        match=1,
-    ),
-    baca.new(
-        library.make_circle_rhythm(
-            (1, 2),
-            rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
-            remainder=abjad.LEFT,
-        ),
-        match=2,
+    ("v1", (1, 7)),
+    library.make_circle_rhythm((1, 8)),
+)
+
+commands(
+    ("v2", (1, 7)),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("va", (1, 7)),
+    library.make_circle_rhythm(
+        (1, 2),
+        rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
+        remainder=abjad.LEFT,
     ),
 )
 
@@ -121,7 +120,17 @@ commands(
 )
 
 commands(
-    ("trio", (10, 11)),
+    ("v1", (10, 11)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", (10, 11)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", (10, 11)),
     library.make_urtext_field_rhythm(),
 )
 
