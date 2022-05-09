@@ -80,6 +80,11 @@ commands(
 )
 
 commands(
+    ("v1", (9, 12)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (13, 22)),
     library.make_clouded_pane_rhythm(),
 )
@@ -108,8 +113,18 @@ commands(
 )
 
 commands(
+    ("v1", 36),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (37, 38)),
     library.make_eighth_notes(),
+)
+
+commands(
+    ("v1", 39),
+    baca.make_mmrests(),
 )
 
 # V2
@@ -117,6 +132,11 @@ commands(
 commands(
     ("v2", (1, 8)),
     library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("v2", (9, 12)),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -148,8 +168,18 @@ commands(
 )
 
 commands(
+    ("v2", 36),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v2", (37, 38)),
     library.make_eighth_notes(),
+)
+
+commands(
+    ("v2", 39),
+    baca.make_mmrests(),
 )
 
 # VA
@@ -157,6 +187,11 @@ commands(
 commands(
     ("va", (1, 8)),
     library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("va", (9, 12)),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -188,8 +223,18 @@ commands(
 )
 
 commands(
+    ("va", 36),
+    baca.make_mmrests(),
+)
+
+commands(
     ("va", (37, 38)),
     library.make_eighth_notes(),
+)
+
+commands(
+    ("va", 39),
+    baca.make_mmrests(),
 )
 
 # VC
@@ -233,17 +278,36 @@ commands(
 )
 
 commands(
+    ("vc", 36),
+    baca.make_mmrests(),
+)
+
+commands(
     ("vc", (37, 38)),
     library.make_clouded_pane_rhythm(),
 )
 
+commands(
+    ("vc", 39),
+    baca.make_mmrests(),
+)
+
 # phantom
+
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
+)
 
 # after
 
 commands(
-    ("v1", (1, 8)),
+    "tutti",
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("v1", (1, 8)),
     baca.flat_glissando(
         "C6",
         hide_middle_stems=True,
@@ -430,7 +494,6 @@ commands(
 
 commands(
     ("v2", (1, 8)),
-    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Eqf5",
         hide_middle_stems=True,
@@ -566,7 +629,6 @@ commands(
 
 commands(
     ("va", (1, 8)),
-    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Gqf4",
         hide_middle_stems=True,
@@ -702,7 +764,6 @@ commands(
 
 commands(
     ("vc", (1, 10)),
-    baca.reapply_persistent_indicators(),
     baca.chunk(
         baca.dots_transparent(),
         baca.stem_transparent(),
@@ -862,9 +923,12 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[39],
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(

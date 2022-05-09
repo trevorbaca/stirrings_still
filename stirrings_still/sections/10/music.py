@@ -102,6 +102,13 @@ commands(
 )
 
 commands(
+    ("v2", 4),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
+    ),
+)
+
+commands(
     ("v2", (5, 11)),
     library.make_urtext_field_rhythm(),
 )
@@ -146,6 +153,11 @@ commands(
 )
 
 commands(
+    ("vc", (5, 6)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("vc", (7, 11)),
     library.make_urtext_field_rhythm(),
 )
@@ -155,9 +167,24 @@ commands(
     library.make_accelerando((1, 4), (3, 32)),
 )
 
+commands(
+    ("vc", (14, 17)),
+    baca.make_mmrests(),
+)
+
 # phantom
 
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
+)
+
 # after
+
+commands(
+    "tutti",
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     ("v1", (1, 2)),
@@ -188,7 +215,6 @@ commands(
 
 commands(
     ("trio", (1, 2)),
-    baca.reapply_persistent_indicators(),
     baca.dynamic_text_self_alignment_x(
         -0.75,
         selector=lambda _: abjad.select.leaf(_, 0),
@@ -370,13 +396,6 @@ commands(
 )
 
 
-commands(
-    ("v2", 4),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-    ),
-)
-
 # va
 
 commands(
@@ -402,11 +421,6 @@ commands(
         [("F4", 5), ("E4", 5), ("Gb4", 6), ("F4", 7), ("Eb4", None)],
         "D4",
     ),
-)
-
-commands(
-    ("vc", (1, 2)),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -484,8 +498,11 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(
