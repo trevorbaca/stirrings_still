@@ -188,8 +188,18 @@ commands(
 )
 
 commands(
+    ("v1", (37, 39)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (40, 45)),
     library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("v1", 46),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -198,8 +208,18 @@ commands(
 )
 
 commands(
+    ("v1", (48, 54)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", 55),
     library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v1", 56),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -210,6 +230,11 @@ commands(
 commands(
     ("v1", (58, 63)),
     library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("v1", 64),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -241,6 +266,11 @@ commands(
 )
 
 commands(
+    ("v1", 93),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (94, 96)),
     library.make_continuous_tremolo_material(),
 )
@@ -248,6 +278,496 @@ commands(
 commands(
     ("v1", (97, 98)),
     library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v1", 99),
+    baca.make_mmrests(),
+)
+
+# V2
+
+commands(
+    ("v2", (1, 6)),
+    library.make_stroke_rhythm(
+        -1,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1], 2)),
+        ),
+    ),
+)
+
+commands(
+    ("v2", (7, 12)),
+    library.make_stroke_rhythm(
+        -1,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1], 2)),
+        ),
+    ),
+)
+
+commands(
+    ("v2", (13, 18)),
+    library.make_stroke_rhythm(
+        -1,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1], 2)),
+        ),
+    ),
+)
+
+commands(
+    ("v2", (19, 24)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([2], 3)),
+        ),
+    ),
+)
+
+commands(
+    ("v2", (25, 30)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([2], 3)),
+        ),
+    ),
+)
+
+commands(
+    ("v2", (31, 36)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([2], 3)),
+        ),
+    ),
+)
+
+commands(
+    ("v2", (37, 39)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (40, 45)),
+    library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("v2", 46),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 47),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v2", (48, 54)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 55),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v2", 56),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 57),
+    library.make_accelerando((1, 4), (2, 16)),
+)
+
+commands(
+    ("v2", (58, 63)),
+    library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("v2", 64),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 65),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", 66),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("v2", 67),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", (68, 83)),
+    library.make_flight_rhythm("C", -1),
+)
+
+commands(
+    ("v2", (84, 92)),
+    library.make_continuous_tremolo_material(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+
+commands(
+    ("v2", 93),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (94, 96)),
+    library.make_continuous_tremolo_material(),
+)
+
+commands(
+    ("v2", (97, 98)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("v2", 99),
+    baca.make_mmrests(),
+)
+
+# VA
+
+commands(
+    ("va", (1, 6)),
+    library.make_stroke_rhythm(
+        -2,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0, 1], 3)),
+        ),
+    ),
+)
+
+commands(
+    ("va", (7, 12)),
+    library.make_stroke_rhythm(
+        -2,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 3)),
+        ),
+    ),
+)
+
+commands(
+    ("va", (13, 18)),
+    library.make_stroke_rhythm(
+        -2,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 3)),
+        ),
+    ),
+)
+
+commands(
+    ("va", (19, 24)),
+    library.make_stroke_rhythm(
+        -2,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 3)),
+        ),
+    ),
+)
+
+commands(
+    ("va", (25, 30)),
+    library.make_stroke_rhythm(
+        -2,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 2)),
+        ),
+    ),
+)
+
+commands(
+    ("va", (31, 36)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1], 2)),
+        ),
+    ),
+)
+
+commands(
+    ("va", (37, 39)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (40, 45)),
+    library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("va", 46),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 47),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("va", 48),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (49, 53)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+commands(
+    ("va", 54),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 55),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("va", 56),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 57),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (58, 63)),
+    library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("va", 64),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 65),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", 66),
+    library.make_circle_rhythm(
+        (1, 2),
+        rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
+        remainder=abjad.LEFT,
+    ),
+)
+
+commands(
+    ("va", 67),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", (68, 83)),
+    library.make_flight_rhythm("B", -2),
+)
+
+commands(
+    ("va", (84, 89)),
+    library.make_continuous_tremolo_material(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+
+commands(
+    ("va", (90, 93)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+commands(
+    ("va", (94, 96)),
+    library.make_continuous_tremolo_material(),
+)
+
+commands(
+    ("va", (97, 98)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", 99),
+    baca.make_mmrests(),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 6)),
+    library.make_stroke_rhythm(
+        3,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1, 2], 3)),
+        ),
+    ),
+)
+
+commands(
+    ("vc", (7, 12)),
+    library.make_stroke_rhythm(
+        -3,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1, 2], 3)),
+        ),
+    ),
+)
+
+commands(
+    ("vc", (13, 18)),
+    library.make_stroke_rhythm(
+        -3,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1], 3)),
+        ),
+    ),
+)
+
+commands(
+    ("vc", (19, 24)),
+    library.make_stroke_rhythm(
+        -3,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1], 3)),
+        ),
+    ),
+)
+
+commands(
+    ("vc", (25, 30)),
+    library.make_stroke_rhythm(
+        -2,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([2], 3)),
+        ),
+    ),
+)
+
+commands(
+    ("vc", (31, 36)),
+    library.make_stroke_rhythm(
+        0,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0], 3)),
+        ),
+    ),
+)
+
+commands(
+    ("vc", 37),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 38),
+    library.make_cello_cell_rhythm(),
+)
+
+commands(
+    ("vc", 39),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (40, 45)),
+    library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("vc", (46, 48)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (49, 50)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+commands(
+    ("vc", 51),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (52, 53)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+commands(
+    ("vc", (54, 56)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 57),
+    baca.skeleton("c2. ~ c4"),
+)
+
+commands(
+    ("vc", (58, 63)),
+    library.make_stroke_rhythm(0),
+)
+
+commands(
+    ("vc", 64),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (65, 92)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", 93),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (94, 99)),
+    library.make_clouded_pane_rhythm(),
+)
+
+# phantom
+
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
+)
+
+# after
+
+commands(
+    "tutti",
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -658,131 +1178,6 @@ commands(
     ),
 )
 
-# V2
-
-commands(
-    ("v2", (1, 6)),
-    library.make_stroke_rhythm(
-        -1,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1], 2)),
-        ),
-    ),
-)
-
-commands(
-    ("v2", (7, 12)),
-    library.make_stroke_rhythm(
-        -1,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1], 2)),
-        ),
-    ),
-)
-
-commands(
-    ("v2", (13, 18)),
-    library.make_stroke_rhythm(
-        -1,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1], 2)),
-        ),
-    ),
-)
-
-commands(
-    ("v2", (19, 24)),
-    library.make_stroke_rhythm(
-        0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([2], 3)),
-        ),
-    ),
-)
-
-commands(
-    ("v2", (25, 30)),
-    library.make_stroke_rhythm(
-        0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([2], 3)),
-        ),
-    ),
-)
-
-commands(
-    ("v2", (31, 36)),
-    library.make_stroke_rhythm(
-        0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([2], 3)),
-        ),
-    ),
-)
-
-commands(
-    ("v2", (40, 45)),
-    library.make_stroke_rhythm(0),
-)
-
-commands(
-    ("v2", 47),
-    library.make_declamation_rhythm(),
-)
-
-commands(
-    ("v2", 55),
-    library.make_declamation_rhythm(),
-)
-
-commands(
-    ("v2", 57),
-    library.make_accelerando((1, 4), (2, 16)),
-)
-
-commands(
-    ("v2", (58, 63)),
-    library.make_stroke_rhythm(0),
-)
-
-commands(
-    ("v2", 65),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("v2", 66),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("v2", 67),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("v2", (68, 83)),
-    library.make_flight_rhythm("C", -1),
-)
-
-commands(
-    ("v2", (84, 92)),
-    library.make_continuous_tremolo_material(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
-
-commands(
-    ("v2", (94, 96)),
-    library.make_continuous_tremolo_material(),
-)
-
-commands(
-    ("v2", (97, 98)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
-
 commands(
     ("v2", (25, 30)),
     baca.pitch("Eb5"),
@@ -825,130 +1220,6 @@ commands(
     ),
 )
 
-# VA
-
-commands(
-    ("va", (1, 6)),
-    library.make_stroke_rhythm(
-        -2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0, 1], 3)),
-        ),
-    ),
-)
-
-commands(
-    ("va", (7, 12)),
-    library.make_stroke_rhythm(
-        -2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 3)),
-        ),
-    ),
-)
-
-commands(
-    ("va", (13, 18)),
-    library.make_stroke_rhythm(
-        -2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 3)),
-        ),
-    ),
-)
-
-commands(
-    ("va", (19, 24)),
-    library.make_stroke_rhythm(
-        -2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 3)),
-        ),
-    ),
-)
-
-commands(
-    ("va", (25, 30)),
-    library.make_stroke_rhythm(
-        -2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 2)),
-        ),
-    ),
-)
-
-commands(
-    ("va", (31, 36)),
-    library.make_stroke_rhythm(
-        0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1], 2)),
-        ),
-    ),
-)
-
-commands(
-    ("va", (40, 45)),
-    library.make_stroke_rhythm(0),
-)
-
-commands(
-    ("va", [47, 55]),
-    library.make_declamation_rhythm(),
-)
-
-commands(
-    ("va", 57),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("va", (58, 63)),
-    library.make_stroke_rhythm(0),
-)
-
-commands(
-    ("va", 65),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("va", 66),
-    library.make_circle_rhythm(
-        (1, 2),
-        rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
-        remainder=abjad.LEFT,
-    ),
-)
-
-commands(
-    ("va", 67),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("va", (68, 83)),
-    library.make_flight_rhythm("B", -2),
-)
-
-commands(
-    ("va", (84, 89)),
-    library.make_continuous_tremolo_material(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
-
-commands(
-    ("va", (94, 96)),
-    library.make_continuous_tremolo_material(),
-)
-
-commands(
-    ("va", (97, 98)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
-
 commands(
     "va",
     baca.clef("treble"),
@@ -976,11 +1247,7 @@ commands(
         abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
     ),
-)
-
-commands(
-    ("va", (49, 53)),
-    library.make_tailpiece_material(
+    library.style_tailpiece_material(
         abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
     ),
 )
@@ -1019,118 +1286,10 @@ commands(
         '"mf"',
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
-)
-
-commands(
-    ("va", (90, 93)),
-    library.make_tailpiece_material(
+    library.style_tailpiece_material(
         abjad.Tweak(r"- \tweak bound-details.right.Y 0"),
         abjad.Tweak(r"- \tweak bound-details.right.padding 5.5"),
     ),
-)
-
-# VC
-
-commands(
-    ("vc", (1, 6)),
-    library.make_stroke_rhythm(
-        3,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 2], 3)),
-        ),
-    ),
-)
-
-commands(
-    ("vc", (7, 12)),
-    library.make_stroke_rhythm(
-        -3,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 2], 3)),
-        ),
-    ),
-)
-
-commands(
-    ("vc", (13, 18)),
-    library.make_stroke_rhythm(
-        -3,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1], 3)),
-        ),
-    ),
-)
-
-commands(
-    ("vc", (19, 24)),
-    library.make_stroke_rhythm(
-        -3,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1], 3)),
-        ),
-    ),
-)
-
-commands(
-    ("vc", (25, 30)),
-    library.make_stroke_rhythm(
-        -2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([2], 3)),
-        ),
-    ),
-)
-
-commands(
-    ("vc", (31, 36)),
-    library.make_stroke_rhythm(
-        0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 3)),
-        ),
-    ),
-)
-
-commands(
-    ("vc", 38),
-    library.make_cello_cell_rhythm(),
-)
-
-commands(
-    ("vc", (40, 45)),
-    library.make_stroke_rhythm(0),
-)
-
-commands(
-    ("vc", (49, 50)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-)
-
-commands(
-    ("vc", (52, 53)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-)
-
-commands(
-    ("vc", (58, 63)),
-    library.make_stroke_rhythm(0),
-)
-
-commands(
-    ("vc", (65, 92)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("vc", (94, 99)),
-    library.make_clouded_pane_rhythm(),
-)
-
-# after
-
-commands(
-    "tutti",
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -1204,7 +1363,6 @@ commands(
     ("vc", 57),
     baca.flat_glissando("B1"),
     baca.hairpin("o<| mf"),
-    baca.skeleton("c2. ~ c4"),
     library.flight_spanner("memory of flight -|", 5.5),
 )
 
@@ -1370,9 +1528,12 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[37, 46, 64],
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(

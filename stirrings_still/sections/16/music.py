@@ -98,19 +98,7 @@ v2_spanner_staff_padding = 5.5
 va_spanner_staff_padding = 5.5
 vc_spanner_staff_padding = 5.5
 
-# v1
-
-commands(
-    ("v1", [(1, 5), (8, 9), (11, 15), (18, 19)]),
-    baca.flat_glissando(
-        "A4",
-        hide_middle_stems=True,
-        rleak=True,
-    ),
-    baca.tasto_spanner(
-        abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
-    ),
-)
+# V1
 
 commands(
     ("v1", (5, 10)),
@@ -125,6 +113,213 @@ commands(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
             ),
         ),
+    ),
+)
+
+commands(
+    ("v1", (11, 14)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+commands(
+    ("v1", (15, 20)),
+    baca.rhythm(
+        rmakers.bind(
+            rmakers.assign(
+                library.make_wave_rhythm((4, 16), (1, 16)).rhythm_maker,
+                abjad.index([1, 2, 5]),
+                remember_state_across_gaps=True,
+            ),
+            rmakers.assign(
+                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
+            ),
+        ),
+    ),
+)
+
+commands(
+    ("v1", (21, 25)),
+    library.make_eighth_notes(),
+)
+
+commands(
+    ("v1", 26),
+    baca.make_mmrests(),
+)
+
+# V2
+
+commands(
+    ("v2", (5, 10)),
+    baca.rhythm(
+        rmakers.bind(
+            rmakers.assign(
+                library.make_wave_rhythm((6, 16), (1, 16)).rhythm_maker,
+                abjad.index([0, 2, 4]),
+                remember_state_across_gaps=True,
+            ),
+            rmakers.assign(
+                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
+            ),
+        ),
+    ),
+)
+
+commands(
+    ("v2", (11, 14)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+commands(
+    ("v2", (15, 20)),
+    baca.rhythm(
+        rmakers.bind(
+            rmakers.assign(
+                library.make_wave_rhythm((6, 16), (1, 16)).rhythm_maker,
+                abjad.index([0, 2, 4]),
+                remember_state_across_gaps=True,
+            ),
+            rmakers.assign(
+                library.make_eighth_notes().rhythm_maker,
+                abjad.index([5]),
+            ),
+            rmakers.assign(
+                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
+            ),
+        ),
+    ),
+)
+
+commands(
+    ("v2", (21, 25)),
+    library.make_eighth_notes(),
+)
+
+commands(
+    ("v2", 26),
+    baca.make_mmrests(),
+)
+
+# VA
+
+commands(
+    ("va", (5, 10)),
+    baca.rhythm(
+        rmakers.bind(
+            rmakers.assign(
+                library.make_wave_rhythm((5, 16), (1, 16)).rhythm_maker,
+                abjad.index([3, 4, 5]),
+                remember_state_across_gaps=True,
+            ),
+            rmakers.assign(
+                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
+            ),
+        ),
+    ),
+)
+
+commands(
+    ("va", (11, 14)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+commands(
+    ("va", (15, 20)),
+    baca.rhythm(
+        rmakers.bind(
+            rmakers.assign(
+                library.make_wave_rhythm((5, 16), (1, 16)).rhythm_maker,
+                abjad.index([3, 4, 5]),
+                remember_state_across_gaps=True,
+            ),
+            rmakers.assign(
+                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
+            ),
+        ),
+    ),
+)
+
+commands(
+    ("va", (21, 25)),
+    library.make_eighth_notes(),
+)
+
+commands(
+    ("va", 26),
+    baca.make_mmrests(),
+)
+
+# VC
+
+commands(
+    ("vc", (5, 10)),
+    baca.rhythm(
+        rmakers.bind(
+            rmakers.assign(
+                library.make_wave_rhythm((7, 16), (1, 16)).rhythm_maker,
+                abjad.index([1, 2, 3]),
+                remember_state_across_gaps=True,
+            ),
+            rmakers.assign(
+                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
+            ),
+        ),
+    ),
+)
+
+commands(
+    ("vc", (11, 14)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+commands(
+    ("vc", (15, 20)),
+    baca.rhythm(
+        rmakers.bind(
+            rmakers.assign(
+                library.make_wave_rhythm((7, 16), (1, 16)).rhythm_maker,
+                abjad.index([1, 2, 3]),
+                remember_state_across_gaps=True,
+            ),
+            rmakers.assign(
+                library.make_eighth_notes().rhythm_maker,
+                abjad.index([4, 5]),
+            ),
+            rmakers.assign(
+                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
+            ),
+        ),
+    ),
+)
+
+commands(
+    ("vc", (21, 25)),
+    library.make_eighth_notes(),
+)
+
+commands(
+    ("vc", 26),
+    baca.make_mmrests(),
+)
+
+# phantom
+
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
+)
+
+# after
+
+commands(
+    ("v1", [(1, 5), (8, 9), (11, 15), (18, 19)]),
+    baca.flat_glissando(
+        "A4",
+        hide_middle_stems=True,
+        rleak=True,
+    ),
+    baca.tasto_spanner(
+        abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
     ),
 )
 
@@ -162,22 +357,6 @@ commands(
     baca.circle_bow_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
         qualifier="wide-poss",
-    ),
-)
-
-commands(
-    ("v1", (15, 20)),
-    baca.rhythm(
-        rmakers.bind(
-            rmakers.assign(
-                library.make_wave_rhythm((4, 16), (1, 16)).rhythm_maker,
-                abjad.index([1, 2, 5]),
-                remember_state_across_gaps=True,
-            ),
-            rmakers.assign(
-                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
-            ),
-        ),
     ),
 )
 
@@ -227,46 +406,6 @@ commands(
 )
 
 commands(
-    ("v1", (11, 14)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-)
-
-commands(
-    ("v2", (11, 14)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-)
-
-commands(
-    ("va", (11, 14)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-)
-
-commands(
-    ("vc", (11, 14)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-)
-
-commands(
-    ("v1", (21, 25)),
-    library.make_eighth_notes(),
-)
-
-commands(
-    ("v2", (21, 25)),
-    library.make_eighth_notes(),
-)
-
-commands(
-    ("va", (21, 25)),
-    library.make_eighth_notes(),
-)
-
-commands(
-    ("vc", (21, 25)),
-    library.make_eighth_notes(),
-)
-
-commands(
     ("tutti", (21, 25)),
     baca.breathe(),
 )
@@ -277,8 +416,6 @@ commands(
     ["v1", "va", "vc"],
     baca.tuplet_bracket_down(),
 )
-
-# v2
 
 commands(
     ("v2", [(1, 4), 6, 8, (10, 14), 16, 18]),
@@ -310,22 +447,6 @@ commands(
 )
 
 commands(
-    ("v2", (5, 10)),
-    baca.rhythm(
-        rmakers.bind(
-            rmakers.assign(
-                library.make_wave_rhythm((6, 16), (1, 16)).rhythm_maker,
-                abjad.index([0, 2, 4]),
-                remember_state_across_gaps=True,
-            ),
-            rmakers.assign(
-                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
-            ),
-        ),
-    ),
-)
-
-commands(
     ("v2", 5),
     baca.hairpin(
         "ppppp < p > ppp",
@@ -349,26 +470,6 @@ commands(
         "ppp < p > ppppp",
         pieces=lambda _: baca.select.lparts(_, [1, 3, 1]),
         selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-commands(
-    ("v2", (15, 20)),
-    baca.rhythm(
-        rmakers.bind(
-            rmakers.assign(
-                library.make_wave_rhythm((6, 16), (1, 16)).rhythm_maker,
-                abjad.index([0, 2, 4]),
-                remember_state_across_gaps=True,
-            ),
-            rmakers.assign(
-                library.make_eighth_notes().rhythm_maker,
-                abjad.index([5]),
-            ),
-            rmakers.assign(
-                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
-            ),
-        ),
     ),
 )
 
@@ -408,8 +509,6 @@ commands(
     ),
 )
 
-# va
-
 commands(
     ("va", [(1, 7), (11, 17)]),
     baca.flat_glissando(
@@ -419,22 +518,6 @@ commands(
     ),
     baca.tasto_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
-    ),
-)
-
-commands(
-    ("va", (5, 10)),
-    baca.rhythm(
-        rmakers.bind(
-            rmakers.assign(
-                library.make_wave_rhythm((5, 16), (1, 16)).rhythm_maker,
-                abjad.index([3, 4, 5]),
-                remember_state_across_gaps=True,
-            ),
-            rmakers.assign(
-                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
-            ),
-        ),
     ),
 )
 
@@ -465,22 +548,6 @@ commands(
 )
 
 commands(
-    ("va", (15, 20)),
-    baca.rhythm(
-        rmakers.bind(
-            rmakers.assign(
-                library.make_wave_rhythm((5, 16), (1, 16)).rhythm_maker,
-                abjad.index([3, 4, 5]),
-                remember_state_across_gaps=True,
-            ),
-            rmakers.assign(
-                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
-            ),
-        ),
-    ),
-)
-
-commands(
     ("va", (18, 20)),
     baca.hairpin(
         "ppppp < p > ppppp",
@@ -498,8 +565,6 @@ commands(
     ),
 )
 
-# vc
-
 commands(
     ("vc", [(1, 5), (9, 15)]),
     baca.flat_glissando(
@@ -515,22 +580,6 @@ commands(
 commands(
     ("vc", (1, 18)),
     baca.pitch("A2", allow_repitch=True),
-)
-
-commands(
-    ("vc", (5, 10)),
-    baca.rhythm(
-        rmakers.bind(
-            rmakers.assign(
-                library.make_wave_rhythm((7, 16), (1, 16)).rhythm_maker,
-                abjad.index([1, 2, 3]),
-                remember_state_across_gaps=True,
-            ),
-            rmakers.assign(
-                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
-            ),
-        ),
-    ),
 )
 
 commands(
@@ -556,26 +605,6 @@ commands(
     baca.circle_bow_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
         qualifier="wide-poss",
-    ),
-)
-
-commands(
-    ("vc", (15, 20)),
-    baca.rhythm(
-        rmakers.bind(
-            rmakers.assign(
-                library.make_wave_rhythm((7, 16), (1, 16)).rhythm_maker,
-                abjad.index([1, 2, 3]),
-                remember_state_across_gaps=True,
-            ),
-            rmakers.assign(
-                library.make_eighth_notes().rhythm_maker,
-                abjad.index([4, 5]),
-            ),
-            rmakers.assign(
-                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
-            ),
-        ),
     ),
 )
 
@@ -607,8 +636,11 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(

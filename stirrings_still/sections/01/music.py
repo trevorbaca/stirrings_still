@@ -150,6 +150,11 @@ baca.alternate_makers(
 )
 
 commands(
+    ("v1", 10),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (11, 16)),
     library.make_declamation_rhythm(
         protract=True,
@@ -157,12 +162,52 @@ commands(
 )
 
 commands(
-    ("v1", [18, 20, 22, 25, 29]),
+    ("v1", 17),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", 18),
     library.make_declamation_rhythm(),
 )
 
 commands(
-    ("v1", [23, 26, (30, 45)]),
+    ("v1", 19),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", 20),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v1", 21),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", 22),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v1", 23),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v1", 24),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", 25),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v1", 26),
     library.make_desynchronization_rhythm(4, [1]),
 )
 
@@ -172,7 +217,42 @@ commands(
 )
 
 commands(
-    ("v1", [(46, 50), 52, 54, 58]),
+    ("v1", 28),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", 29),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v1", (30, 45)),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v1", (46, 50)),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v1", 51),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", 52),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v1", 53),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", 54),
     library.make_desynchronization_rhythm(4, [1]),
 )
 
@@ -182,13 +262,38 @@ commands(
 )
 
 commands(
+    ("v1", 57),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", 58),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v1", 59),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", 60),
     library.make_declamation_rhythm(),
 )
 
 commands(
+    ("v1", 61),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", 62),
     library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("v1", 63),
+    baca.make_mmrests(),
 )
 
 # V2
@@ -202,6 +307,11 @@ baca.alternate_makers(
 )
 
 commands(
+    ("v2", 10),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v2", (11, 16)),
     library.make_declamation_rhythm(
         protract=True,
@@ -209,12 +319,52 @@ commands(
 )
 
 commands(
-    ("v2", [18, 20, 22, 25, 29]),
+    ("v2", 17),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 18),
     library.make_declamation_rhythm(),
 )
 
 commands(
-    ("v2", [23, 26, (30, 45)]),
+    ("v2", 19),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 20),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v2", 21),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 22),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v2", 23),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("v2", 24),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 25),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v2", 26),
     library.make_desynchronization_rhythm(4, [0]),
 )
 
@@ -224,7 +374,42 @@ commands(
 )
 
 commands(
-    ("v2", [(46, 50), 52, 54, 58]),
+    ("v2", 28),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 29),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v2", (30, 45)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("v2", (46, 50)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("v2", 51),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 52),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("v2", 53),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 54),
     library.make_desynchronization_rhythm(4, [0]),
 )
 
@@ -234,13 +419,38 @@ commands(
 )
 
 commands(
+    ("v2", 57),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 58),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("v2", 59),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v2", 60),
     library.make_declamation_rhythm(),
 )
 
 commands(
+    ("v2", 61),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v2", 62),
     library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("v2", 63),
+    baca.make_mmrests(),
 )
 
 # VA
@@ -254,6 +464,11 @@ baca.alternate_makers(
 )
 
 commands(
+    ("va", 10),
+    baca.make_mmrests(),
+)
+
+commands(
     ("va", (11, 16)),
     library.make_declamation_rhythm(
         protract=True,
@@ -261,12 +476,52 @@ commands(
 )
 
 commands(
-    ("va", [18, 20, 22, 25, 29]),
+    ("va", 17),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 18),
     library.make_declamation_rhythm(),
 )
 
 commands(
-    ("va", [23, 26, (30, 45)]),
+    ("va", 19),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 20),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("va", 21),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 22),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("va", 23),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", 24),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 25),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("va", 26),
     library.make_desynchronization_rhythm(4, [2]),
 )
 
@@ -276,7 +531,42 @@ commands(
 )
 
 commands(
-    ("va", [(46, 50), 52, 54, 58]),
+    ("va", 28),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 29),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("va", (30, 45)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", (46, 50)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", 51),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 52),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", 53),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 54),
     library.make_desynchronization_rhythm(4, [2]),
 )
 
@@ -286,13 +576,38 @@ commands(
 )
 
 commands(
+    ("va", 57),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 58),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", 59),
+    baca.make_mmrests(),
+)
+
+commands(
     ("va", 60),
     library.make_declamation_rhythm(),
 )
 
 commands(
+    ("va", 61),
+    baca.make_mmrests(),
+)
+
+commands(
     ("va", 62),
     library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("va", 63),
+    baca.make_mmrests(),
 )
 
 # VC
@@ -315,6 +630,11 @@ commands(
 )
 
 commands(
+    ("vc", 28),
+    baca.make_mmrests(),
+)
+
+commands(
     ("vc", (29, 40)),
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
@@ -322,8 +642,8 @@ commands(
 )
 
 commands(
-    ("vcx", [41, (44, 45)]),
-    baca.tacet(),
+    ("vc", 41),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -332,7 +652,12 @@ commands(
 )
 
 commands(
-    ("vc", [(46, 47), (49, 50), 52, 54, 58]),
+    ("vc", (44, 45)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (46, 47)),
     library.make_desynchronization_rhythm(4, [-1]),
 )
 
@@ -342,8 +667,48 @@ commands(
 )
 
 commands(
+    ("vc", (49, 50)),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
+    ("vc", 51),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 52),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
+    ("vc", 53),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 54),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
     ("vc", (55, 56)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", 57),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 58),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
+    ("vc", (59, 61)),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -351,11 +716,28 @@ commands(
     library.make_circle_rhythm((1, 4)),
 )
 
+commands(
+    ("vc", 63),
+    baca.make_mmrests(),
+)
+
+# phantom
+
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
+)
+
 # after
 
 commands(
     "tutti",
     baca.attach_first_segment_default_indicators(),
+)
+
+commands(
+    ("vcx", [41, (44, 45)]),
+    baca.tacet(),
 )
 
 commands(
@@ -1082,7 +1464,6 @@ commands(
     baca.flat_glissando("G3"),
 )
 
-
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(
         score,
@@ -1093,9 +1474,12 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[10, 19, 24, 28, 61, 63],
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(

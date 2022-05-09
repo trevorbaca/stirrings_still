@@ -96,9 +96,7 @@ commands(
 
 commands(
     ("va", (1, 10)),
-    library.make_tailpiece_material(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-    ),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
 )
 
 commands(
@@ -200,6 +198,13 @@ commands(
     baca.dynamic(
         '"mf"',
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+    ),
+)
+
+commands(
+    ("va", (1, 10)),
+    library.style_tailpiece_material(
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
     ),
 )
 

@@ -36,8 +36,6 @@ time = (("largo meno mosso", 1),)
 
 library.time(commands, time)
 
-# v1
-
 
 def lleak_tuplet_pleaves(indices):
     def selector(argument):
@@ -60,6 +58,8 @@ def nonlast_tuplet_pleaves(indices):
     return selector
 
 
+# V1
+
 commands(
     "v1",
     library.make_trajectory_rhythm(
@@ -75,9 +75,63 @@ commands(
     ),
 )
 
+# V2
+
+commands(
+    "v2",
+    library.make_trajectory_rhythm(
+        "C",
+        -1,
+        -2,
+        rmakers.untie(
+            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
+        ),
+        rmakers.tie(
+            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
+        ),
+    ),
+)
+
+# VA
+
+commands(
+    "va",
+    library.make_trajectory_rhythm(
+        "C",
+        -2,
+        -1,
+        rmakers.untie(
+            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
+        ),
+        rmakers.tie(
+            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
+        ),
+    ),
+)
+
+# VC
+
+commands(
+    "vc",
+    library.make_clouded_pane_rhythm(),
+)
+
+# phantom
+
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
+)
+
+# after
+
+commands(
+    "tutti",
+    baca.reapply_persistent_indicators(),
+)
+
 commands(
     "v1",
-    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
     library.bcps(
@@ -197,22 +251,6 @@ commands(
 
 commands(
     "v2",
-    library.make_trajectory_rhythm(
-        "C",
-        -1,
-        -2,
-        rmakers.untie(
-            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-        rmakers.tie(
-            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-    ),
-)
-
-commands(
-    "v2",
-    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
     library.bcps(
@@ -321,22 +359,6 @@ commands(
 
 commands(
     "va",
-    library.make_trajectory_rhythm(
-        "C",
-        -2,
-        -1,
-        rmakers.untie(
-            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-        rmakers.tie(
-            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-    ),
-)
-
-commands(
-    "va",
-    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
     baca.tuplet_bracket_staff_padding(1.5),
@@ -446,12 +468,6 @@ commands(
 
 commands(
     "vc",
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    "vc",
-    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(5),
     baca.flat_glissando(
         "Db2",
@@ -481,8 +497,11 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(

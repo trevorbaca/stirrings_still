@@ -3047,7 +3047,7 @@ segment.06.Viola.Music.Voice = {
     \override DynamicLineSpanner.staff-padding = 6
       %! baca.OverrideCommand._call(1)
       %! baca.text_script_parent_alignment_x()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override TextScript.parent-alignment-X = 0
       %! baca.OverrideCommand._call(1)
       %! baca.tuplet_bracket_down()
@@ -3121,7 +3121,7 @@ segment.06.Viola.Music.Voice = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     ^ \baca-boxed-markup tailpiece
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
@@ -3132,11 +3132,11 @@ segment.06.Viola.Music.Voice = {
     % SPANNER_STARTS:
       %! abjad.glissando(7)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     - \tweak bound-details.right.padding 2
       %! abjad.glissando(7)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \glissando
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -3161,29 +3161,29 @@ segment.06.Viola.Music.Voice = {
     % COMMANDS:
       %! baca.OverrideCommand._call(1)
       %! baca.dots_transparent()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override Dots.transparent = ##t
       %! baca.OverrideCommand._call(1)
       %! baca.stem_transparent()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override Stem.transparent = ##t
     % OPENING:
     % COMMANDS:
       %! abjad.glissando(1)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \hide NoteHead
       %! abjad.glissando(1)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override Accidental.stencil = ##f
       %! abjad.glissando(1)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override NoteColumn.glissando-skip = ##t
       %! abjad.glissando(1)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override NoteHead.no-ledgers = ##t
       %! baca.make_repeat_tied_notes()
     c'1
@@ -3257,15 +3257,15 @@ segment.06.Viola.Music.Voice = {
     % COMMANDS:
       %! baca.OverrideCommand._call(2)
       %! baca.dots_transparent()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \revert Dots.transparent
       %! baca.OverrideCommand._call(2)
       %! baca.stem_transparent()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \revert Stem.transparent
       %! baca.OverrideCommand._call(2)
       %! baca.text_script_parent_alignment_x()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \revert TextScript.parent-alignment-X
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3309,19 +3309,19 @@ segment.06.Viola.Music.Voice = {
             % COMMANDS:
               %! abjad.glissando(6)
               %! baca.glissando()
-              %! stirrings_still.make_tailpiece_material()
+              %! stirrings_still.style_tailpiece_material()
             \revert Accidental.stencil
               %! abjad.glissando(6)
               %! baca.glissando()
-              %! stirrings_still.make_tailpiece_material()
+              %! stirrings_still.style_tailpiece_material()
             \revert NoteColumn.glissando-skip
               %! abjad.glissando(6)
               %! baca.glissando()
-              %! stirrings_still.make_tailpiece_material()
+              %! stirrings_still.style_tailpiece_material()
             \revert NoteHead.no-ledgers
               %! abjad.glissando(6)
               %! baca.glissando()
-              %! stirrings_still.make_tailpiece_material()
+              %! stirrings_still.style_tailpiece_material()
             \undo \hide NoteHead
               %! HIDDEN
               %! NOTE

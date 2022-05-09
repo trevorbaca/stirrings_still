@@ -48,7 +48,7 @@ time = (
 
 library.time(commands, time)
 
-# v1
+# V1
 
 baca.alternate_makers(
     commands,
@@ -70,12 +70,78 @@ baca.alternate_makers(
     total=32,
 )
 
+# V2
+
+baca.alternate_makers(
+    commands,
+    "v2",
+    [(1, 7), (13, 16), (21, 24), (29, 32)],
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
+    ),
+    library.make_picket_rhythm(
+        4,
+        1,
+        rmakers.force_note(
+            lambda _: baca.select.tuplet(_, 0),
+        ),
+        rmakers.tie(
+            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
+        ),
+    ),
+    total=32,
+)
+
+# VA
+
+baca.alternate_makers(
+    commands,
+    "va",
+    [(1, 7), (13, 16), (21, 24), (29, 32)],
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
+    ),
+    library.make_picket_rhythm(
+        4,
+        0,
+        rmakers.force_note(
+            lambda _: baca.select.tuplet(_, 0),
+        ),
+        rmakers.tie(
+            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
+        ),
+    ),
+    total=32,
+)
+
+# VC
+
+commands(
+    ("vc", (1, 28)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (29, 32)),
+    library.make_clouded_pane_rhythm(),
+)
+
+# phantom
+
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
+)
+
+# after
+
+commands(
+    "tutti",
+    baca.reapply_persistent_indicators(),
+)
+
 commands(
     ("v1", [(1, 8), (13, 16), (21, 24), (29, 32)]),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=0,
-    ),
     baca.new(
         baca.markup(
             r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
@@ -254,32 +320,8 @@ commands(
 
 # v2
 
-baca.alternate_makers(
-    commands,
-    "v2",
-    [(1, 7), (13, 16), (21, 24), (29, 32)],
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-    ),
-    library.make_picket_rhythm(
-        4,
-        1,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
-    ),
-    total=32,
-)
-
 commands(
     ("v2", [(1, 8), (13, 16), (21, 24), (29, 32)]),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=0,
-    ),
     baca.new(
         baca.markup(
             r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
@@ -374,32 +416,8 @@ commands(
 
 # va
 
-baca.alternate_makers(
-    commands,
-    "va",
-    [(1, 7), (13, 16), (21, 24), (29, 32)],
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-    ),
-    library.make_picket_rhythm(
-        4,
-        0,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
-    ),
-    total=32,
-)
-
 commands(
     ("va", [(1, 8), (13, 16), (21, 24), (29, 32)]),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=0,
-    ),
     baca.new(
         baca.markup(r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup"),
         baca.markup(
@@ -516,12 +534,6 @@ commands(
 
 commands(
     ("vc", (1, 28)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("vc", (1, 28)),
-    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "C2",
         hide_middle_stems=True,
@@ -540,11 +552,6 @@ commands(
     ),
 )
 
-commands(
-    ("vc", (29, 32)),
-    library.make_clouded_pane_rhythm(),
-)
-
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(
         score,
@@ -555,8 +562,11 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(
