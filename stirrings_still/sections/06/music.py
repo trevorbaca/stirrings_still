@@ -295,6 +295,7 @@ if __name__ == "__main__":
         ),
         always_make_global_rests=True,
         append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[11],
         global_rests_in_topmost_staff=True,

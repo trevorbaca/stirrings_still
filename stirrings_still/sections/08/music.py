@@ -115,6 +115,11 @@ commands(
 )
 
 commands(
+    ("v1", (17, 22)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (23, 28)),
     library.make_picket_rhythm(
         4,
@@ -126,13 +131,28 @@ commands(
 )
 
 commands(
+    ("v1", 29),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (30, 31)),
     library.make_accelerando((1, 2), (4, 32)),
 )
 
 commands(
+    ("v1", 32),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (33, 34)),
     library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("v1", 35),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -146,8 +166,18 @@ commands(
 )
 
 commands(
+    ("v1", 41),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (42, 45)),
     library.make_accelerando((1, 2), (4, 32)),
+)
+
+commands(
+    ("v1", 46),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -203,6 +233,11 @@ commands(
 )
 
 commands(
+    ("v2", (17, 22)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v2", (23, 28)),
     library.make_picket_rhythm(
         4,
@@ -214,8 +249,18 @@ commands(
 )
 
 commands(
+    ("v2", 29),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v2", (30, 31)),
     library.make_accelerando((1, 2), (8, 32)),
+)
+
+commands(
+    ("v2", 32),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -231,6 +276,11 @@ commands(
 )
 
 commands(
+    ("v2", 35),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v2", (36, 37)),
     baca.make_repeat_tied_notes(),
 )
@@ -241,8 +291,18 @@ commands(
 )
 
 commands(
+    ("v2", 41),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v2", (42, 45)),
     library.make_accelerando((1, 2), (8, 32)),
+)
+
+commands(
+    ("v2", 46),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -304,6 +364,11 @@ commands(
 )
 
 commands(
+    ("va", (17, 22)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("va", (23, 28)),
     library.make_picket_rhythm(
         4,
@@ -315,13 +380,28 @@ commands(
 )
 
 commands(
+    ("va", 29),
+    baca.make_mmrests(),
+)
+
+commands(
     ("va", (30, 31)),
     library.make_accelerando((1, 2), (12, 32)),
 )
 
 commands(
+    ("va", 32),
+    baca.make_mmrests(),
+)
+
+commands(
     ("va", (33, 34)),
     library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("va", 35),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -335,8 +415,18 @@ commands(
 )
 
 commands(
+    ("va", 41),
+    baca.make_mmrests(),
+)
+
+commands(
     ("va", (42, 45)),
     library.make_accelerando((1, 2), (12, 32)),
+)
+
+commands(
+    ("va", 46),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -359,6 +449,11 @@ commands(
     library.make_loure_tuplets_material(-1),
 )
 
+commands(
+    ("va", 56),
+    baca.make_mmrests(),
+)
+
 # VC
 
 commands(
@@ -377,8 +472,18 @@ commands(
 )
 
 commands(
+    ("vc", 32),
+    baca.make_mmrests(),
+)
+
+commands(
     ("vc", (33, 34)),
     library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", 35),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -411,7 +516,24 @@ commands(
     library.make_taper_rhythm((1, 1)),
 )
 
+commands(
+    ("vc", 56),
+    baca.make_mmrests(),
+)
+
+# phantom
+
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
+)
+
 # after
+
+commands(
+    "tutti",
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     ("v1", (1, 5)),
@@ -1188,7 +1310,6 @@ commands(
 
 commands(
     ("tutti", (1, 5)),
-    baca.reapply_persistent_indicators(),
     baca.markup(
         r"\baca-string-iii-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
@@ -1292,9 +1413,12 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
         color_octaves=False,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(

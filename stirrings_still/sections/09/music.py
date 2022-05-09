@@ -56,6 +56,11 @@ commands(
 )
 
 commands(
+    ("v1", (8, 9)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (10, 11)),
     library.make_urtext_field_rhythm(),
 )
@@ -65,6 +70,11 @@ commands(
 commands(
     ("v2", (1, 7)),
     library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("v2", (8, 9)),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -84,6 +94,11 @@ commands(
 )
 
 commands(
+    ("va", (8, 9)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("va", (10, 11)),
     library.make_urtext_field_rhythm(),
 )
@@ -96,13 +111,23 @@ commands(
 )
 
 commands(
-    ("vc", (7, -1)),
+    ("vc", (7, 11)),
     library.make_cello_cell_rhythm(),
 )
 
 # phantom
 
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
+)
+
 # after
+
+commands(
+    "tutti",
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     ("v1", (1, 7)),
@@ -134,7 +159,6 @@ commands(
 
 commands(
     ("trio", (1, 7)),
-    baca.reapply_persistent_indicators(),
     baca.new(
         baca.hairpin(
             "(mp) >o niente",
@@ -271,7 +295,6 @@ commands(
 
 commands(
     ("vc", (1, 6)),
-    baca.reapply_persistent_indicators(),
     baca.beam(),
     baca.suite(
         baca.pitches("G2 B3 D3 C#4 F4"),
@@ -309,8 +332,11 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(

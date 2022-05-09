@@ -136,6 +136,11 @@ commands(
 )
 
 commands(
+    ("v1", 22),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", 23),
     library.make_picket_rhythm(4, 2),
 )
@@ -172,6 +177,11 @@ commands(
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
     ),
+)
+
+commands(
+    ("v1", 54),
+    baca.make_mmrests(),
 )
 
 # V2
@@ -221,6 +231,11 @@ commands(
 )
 
 commands(
+    ("v2", 22),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v2", 23),
     library.make_picket_rhythm(4, 1),
 )
@@ -257,6 +272,11 @@ commands(
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
     ),
+)
+
+commands(
+    ("v2", 54),
+    baca.make_mmrests(),
 )
 
 # VA
@@ -298,6 +318,11 @@ commands(
 commands(
     ("va", 21),
     library.make_picket_rhythm(4, 0),
+)
+
+commands(
+    ("va", 22),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -344,6 +369,11 @@ commands(
     ),
 )
 
+commands(
+    ("va", 54),
+    baca.make_mmrests(),
+)
+
 # VC
 
 commands(
@@ -357,13 +387,13 @@ commands(
 )
 
 commands(
-    ("vc", (5, 8)),
-    library.make_accelerando((11, 32), (1, 2), measures=(6, 8)),
+    ("vc", 5),
+    library.make_trajectory_rhythm("B", -3, -3),
 )
 
 commands(
-    ("vc", (5, 8)),
-    library.make_trajectory_rhythm("B", -3, -3, measures=5),
+    ("vc", (6, 8)),
+    library.make_accelerando((11, 32), (1, 2)),
 )
 
 baca.alternate_makers(
@@ -415,11 +445,20 @@ commands(
 
 # phantom
 
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
+)
+
 # after
 
 commands(
-    ("v1", (1, 2)),
+    "tutti",
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("v1", (1, 2)),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
@@ -743,7 +782,6 @@ commands(
 
 commands(
     ("v2", (1, 2)),
-    baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
@@ -992,7 +1030,6 @@ commands(
 
 commands(
     ("va", (1, 2)),
-    baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
@@ -1241,7 +1278,6 @@ commands(
 
 commands(
     ("vc", (1, 2)),
-    baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
@@ -1454,9 +1490,12 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[54],
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(
