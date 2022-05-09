@@ -56,7 +56,62 @@ time = (("fermata", 17),)
 
 library.time(commands, time)
 
-# v1
+# V1
+
+commands(
+    ("v1", (1, 8)),
+    library.make_trajectory_rhythm("C", 0, -3),
+)
+
+commands(
+    ("v1", (9, 17)),
+    baca.make_mmrests(),
+)
+
+# V2
+
+commands(
+    ("v2", (1, 8)),
+    library.make_trajectory_rhythm("C", -1, -2),
+)
+
+commands(
+    ("v2", (9, 17)),
+    baca.make_mmrests(),
+)
+
+# VA
+
+commands(
+    "va",
+    baca.make_repeat_tied_notes(),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 12)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (13, 17)),
+    baca.make_mmrests(),
+)
+
+# phantom
+
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
+)
+
+# after
+
+commands(
+    "tutti",
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     "v1",
@@ -65,12 +120,6 @@ commands(
 
 commands(
     ("v1", (1, 8)),
-    library.make_trajectory_rhythm("C", 0, -3),
-)
-
-commands(
-    ("v1", (1, 8)),
-    baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {8 + 6}"),
     ),
@@ -113,12 +162,6 @@ commands(
 
 commands(
     ("v2", (1, 8)),
-    library.make_trajectory_rhythm("C", -1, -2),
-)
-
-commands(
-    ("v2", (1, 8)),
-    baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
     ),
@@ -156,12 +199,6 @@ commands(
 
 commands(
     "va",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "va",
-    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Bb2",
         hide_middle_stems=True,
@@ -179,12 +216,6 @@ commands(
 
 commands(
     ("vc", (1, 12)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("vc", (1, 12)),
-    baca.reapply_persistent_indicators(),
     baca.ottava_bassa(),
     baca.flat_glissando(
         "B0",
@@ -220,9 +251,12 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[17],
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(

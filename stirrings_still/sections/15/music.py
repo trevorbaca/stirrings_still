@@ -47,7 +47,7 @@ time = (
 
 library.time(commands, time)
 
-# v1
+# V1
 
 commands(
     ("v1", (1, 6)),
@@ -55,8 +55,82 @@ commands(
 )
 
 commands(
-    ("v1", (1, 6)),
+    ("v1", 7),
+    library.make_picket_rhythm(4, 2),
+)
+
+commands(
+    ("v1", 8),
+    baca.make_mmrests(),
+)
+
+# V2
+
+commands(
+    ("v2", (1, 6)),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("v2", 7),
+    library.make_picket_rhythm(4, 1),
+)
+
+commands(
+    ("v2", 8),
+    baca.make_mmrests(),
+)
+
+# VA
+
+commands(
+    ("va", (1, 6)),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("va", 7),
+    library.make_picket_rhythm(4, 0),
+)
+
+commands(
+    ("va", 8),
+    baca.make_mmrests(),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 6)),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("vc", 7),
+    library.make_trajectory_rhythm("A", -1, 0),
+)
+
+commands(
+    ("vc", 8),
+    baca.make_mmrests(),
+)
+
+# phantom
+
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
+)
+
+# after
+
+commands(
+    "tutti",
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("v1", (1, 6)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="granulation",
@@ -86,11 +160,6 @@ commands(
     ),
 )
 
-commands(
-    ("v1", 7),
-    library.make_picket_rhythm(4, 2),
-)
-
 # tutti
 
 commands(
@@ -99,16 +168,8 @@ commands(
     baca.tuplet_bracket_down(),
 )
 
-# v2
-
 commands(
     ("v2", (1, 6)),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("v2", (1, 6)),
-    baca.reapply_persistent_indicators(),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="granulation",
@@ -139,20 +200,7 @@ commands(
 )
 
 commands(
-    ("v2", 7),
-    library.make_picket_rhythm(4, 1),
-)
-
-# va
-
-commands(
     ("va", (1, 6)),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("va", (1, 6)),
-    baca.reapply_persistent_indicators(),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="granulation",
@@ -183,20 +231,7 @@ commands(
 )
 
 commands(
-    ("va", 7),
-    library.make_picket_rhythm(4, 0),
-)
-
-# vc
-
-commands(
     ("vc", (1, 6)),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("vc", (1, 6)),
-    baca.reapply_persistent_indicators(),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="granulation",
@@ -228,11 +263,6 @@ commands(
     ),
 )
 
-commands(
-    ("vc", 7),
-    library.make_trajectory_rhythm("A", -1, 0),
-)
-
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(
         score,
@@ -243,9 +273,12 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[8],
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(

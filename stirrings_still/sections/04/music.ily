@@ -17214,6 +17214,9 @@ segment.04.Violin.II.Music.Voice = {
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
+    :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -17226,6 +17229,9 @@ segment.04.Violin.II.Music.Voice = {
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
+    :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -17237,6 +17243,9 @@ segment.04.Violin.II.Music.Voice = {
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
+    :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -17312,6 +17321,9 @@ segment.04.Violin.II.Music.Voice = {
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
+    :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -17323,6 +17335,9 @@ segment.04.Violin.II.Music.Voice = {
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
+    :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
     :32
     % SPANNER_STOPS:
       %! SCP_SPANNER
@@ -17360,6 +17375,9 @@ segment.04.Violin.II.Music.Voice = {
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
+    :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
     :32
     % SPANNER_STOPS:
       %! SCP_SPANNER
@@ -17413,6 +17431,9 @@ segment.04.Violin.II.Music.Voice = {
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
+    :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -17503,6 +17524,9 @@ segment.04.Violin.II.Music.Voice = {
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
+    :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
     :32
     % MARKUP:
       %! baca.IndicatorCommand._call()
@@ -17598,6 +17622,9 @@ segment.04.Violin.II.Music.Voice = {
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
+    :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -17623,6 +17650,9 @@ segment.04.Violin.II.Music.Voice = {
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
+    :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21417,7 +21447,7 @@ segment.04.Viola.Music.Voice = {
     % COMMANDS:
       %! baca.OverrideCommand._call(1)
       %! baca.text_script_parent_alignment_x()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override TextScript.parent-alignment-X = 0
       %! baca.make_repeat_tied_notes()
     c'2
@@ -21448,16 +21478,16 @@ segment.04.Viola.Music.Voice = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     ^ \baca-boxed-markup tailpiece
     % SPANNER_STARTS:
       %! abjad.glissando(7)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     - \tweak bound-details.right.padding 1.5
       %! abjad.glissando(7)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21466,29 +21496,29 @@ segment.04.Viola.Music.Voice = {
     % COMMANDS:
       %! baca.OverrideCommand._call(1)
       %! baca.dots_transparent()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override Dots.transparent = ##t
       %! baca.OverrideCommand._call(1)
       %! baca.stem_transparent()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override Stem.transparent = ##t
     % OPENING:
     % COMMANDS:
       %! abjad.glissando(1)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \hide NoteHead
       %! abjad.glissando(1)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override Accidental.stencil = ##f
       %! abjad.glissando(1)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override NoteColumn.glissando-skip = ##t
       %! abjad.glissando(1)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override NoteHead.no-ledgers = ##t
       %! baca.make_repeat_tied_notes()
     c'8
@@ -21524,15 +21554,15 @@ segment.04.Viola.Music.Voice = {
     % COMMANDS:
       %! baca.OverrideCommand._call(2)
       %! baca.dots_transparent()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \revert Dots.transparent
       %! baca.OverrideCommand._call(2)
       %! baca.stem_transparent()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \revert Stem.transparent
       %! baca.OverrideCommand._call(2)
       %! baca.text_script_parent_alignment_x()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \revert TextScript.parent-alignment-X
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21570,19 +21600,19 @@ segment.04.Viola.Music.Voice = {
             % COMMANDS:
               %! abjad.glissando(6)
               %! baca.glissando()
-              %! stirrings_still.make_tailpiece_material()
+              %! stirrings_still.style_tailpiece_material()
             \revert Accidental.stencil
               %! abjad.glissando(6)
               %! baca.glissando()
-              %! stirrings_still.make_tailpiece_material()
+              %! stirrings_still.style_tailpiece_material()
             \revert NoteColumn.glissando-skip
               %! abjad.glissando(6)
               %! baca.glissando()
-              %! stirrings_still.make_tailpiece_material()
+              %! stirrings_still.style_tailpiece_material()
             \revert NoteHead.no-ledgers
               %! abjad.glissando(6)
               %! baca.glissando()
-              %! stirrings_still.make_tailpiece_material()
+              %! stirrings_still.style_tailpiece_material()
             \undo \hide NoteHead
               %! HIDDEN
               %! NOTE
@@ -23672,6 +23702,9 @@ segment.04.Viola.Music.Voice = {
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
+    :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -23683,6 +23716,9 @@ segment.04.Viola.Music.Voice = {
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
+    :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23696,6 +23732,9 @@ segment.04.Viola.Music.Voice = {
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
+    :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -23707,6 +23746,9 @@ segment.04.Viola.Music.Voice = {
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
+    :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23720,6 +23762,9 @@ segment.04.Viola.Music.Voice = {
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
+    :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -23729,6 +23774,9 @@ segment.04.Viola.Music.Voice = {
       %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
+    :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23756,6 +23804,9 @@ segment.04.Viola.Music.Voice = {
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
+      %! baca.IndicatorCommand._call()
+      %! baca.stem_tremolo()
+    :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -23765,7 +23816,7 @@ segment.04.Viola.Music.Voice = {
     % COMMANDS:
       %! baca.OverrideCommand._call(1)
       %! baca.text_script_parent_alignment_x()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override TextScript.parent-alignment-X = 0
       %! baca.make_repeat_tied_notes()
     c'2.
@@ -23791,7 +23842,7 @@ segment.04.Viola.Music.Voice = {
     % MARKUP:
       %! baca.IndicatorCommand._call()
       %! baca.markup()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     ^ \baca-boxed-markup tailpiece
     % SPANNER_STOPS:
       %! MATERIAL
@@ -23809,15 +23860,15 @@ segment.04.Viola.Music.Voice = {
     % SPANNER_STARTS:
       %! abjad.glissando(7)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     - \tweak bound-details.right.Y 0
       %! abjad.glissando(7)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     - \tweak bound-details.right.padding 5.5
       %! abjad.glissando(7)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23828,29 +23879,29 @@ segment.04.Viola.Music.Voice = {
     % COMMANDS:
       %! baca.OverrideCommand._call(1)
       %! baca.dots_transparent()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override Dots.transparent = ##t
       %! baca.OverrideCommand._call(1)
       %! baca.stem_transparent()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override Stem.transparent = ##t
     % OPENING:
     % COMMANDS:
       %! abjad.glissando(1)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \hide NoteHead
       %! abjad.glissando(1)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override Accidental.stencil = ##f
       %! abjad.glissando(1)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override NoteColumn.glissando-skip = ##t
       %! abjad.glissando(1)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \override NoteHead.no-ledgers = ##t
       %! baca.make_repeat_tied_notes()
     c'2
@@ -23872,15 +23923,15 @@ segment.04.Viola.Music.Voice = {
     % COMMANDS:
       %! baca.OverrideCommand._call(2)
       %! baca.dots_transparent()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \revert Dots.transparent
       %! baca.OverrideCommand._call(2)
       %! baca.stem_transparent()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \revert Stem.transparent
       %! baca.OverrideCommand._call(2)
       %! baca.text_script_parent_alignment_x()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \revert TextScript.parent-alignment-X
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23891,19 +23942,19 @@ segment.04.Viola.Music.Voice = {
     % COMMANDS:
       %! abjad.glissando(6)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \revert Accidental.stencil
       %! abjad.glissando(6)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \revert NoteColumn.glissando-skip
       %! abjad.glissando(6)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \revert NoteHead.no-ledgers
       %! abjad.glissando(6)
       %! baca.glissando()
-      %! stirrings_still.make_tailpiece_material()
+      %! stirrings_still.style_tailpiece_material()
     \undo \hide NoteHead
     a2.
     % AFTER:

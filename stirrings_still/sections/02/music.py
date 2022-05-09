@@ -169,6 +169,11 @@ commands(
 )
 
 commands(
+    ("v1", (8, 11)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (12, 13)),
     library.make_circle_rhythm(
         (1, 4),
@@ -182,6 +187,28 @@ commands(
 )
 
 commands(
+    ("v1", 15),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
+    ),
+)
+
+commands(
+    ("v1", 16),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
+        r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
+    ),
+)
+
+commands(
+    ("v1", 17),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
+    ),
+)
+
+commands(
     ("v1", (18, 24)),
     library.make_clocktick_rhythm(
         rmakers.force_rest(
@@ -191,13 +218,28 @@ commands(
 )
 
 commands(
+    ("v1", 25),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", 26),
     library.make_declamation_rhythm(),
 )
 
 commands(
-    ("v1", [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57), (58, 60)]),
+    ("v1", (27, 28)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", (29, 30)),
     library.make_trajectory_rhythm("C", 0, -3),
+)
+
+commands(
+    ("v1", 31),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -206,8 +248,58 @@ commands(
 )
 
 commands(
+    ("v1", (34, 35)),
+    library.make_trajectory_rhythm("C", 0, -3),
+)
+
+commands(
+    ("v1", 36),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", (37, 38)),
+    library.make_trajectory_rhythm("C", 0, -3),
+)
+
+commands(
+    ("v1", 39),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", (40, 41)),
+    library.make_trajectory_rhythm("C", 0, -3),
+)
+
+commands(
     ("v1", 42),
     library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("v1", 43),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", 44),
+    library.make_trajectory_rhythm("C", 0, -3),
+)
+
+commands(
+    ("v1", 45),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", 46),
+    library.make_trajectory_rhythm("C", 0, -3),
+)
+
+commands(
+    ("v1", 47),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -216,8 +308,28 @@ commands(
 )
 
 commands(
+    ("v1", 49),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", (50, 57)),
+    library.make_trajectory_rhythm("C", 0, -3),
+)
+
+commands(
+    ("v1", (58, 60)),
+    library.make_trajectory_rhythm("C", 0, -3),
+)
+
+commands(
     ("v1", (61, 62)),
     library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("v1", 63),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -232,6 +344,560 @@ commands(
 commands(
     ("v1", 65),
     library.make_grid_rhythm(rotation=0),
+)
+
+commands(
+    ("v1", 66),
+    baca.make_mmrests(),
+)
+
+# V2
+
+commands(
+    ("v2", (1, 7)),
+    library.make_clocktick_rhythm(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
+    ),
+)
+
+commands(
+    ("v2", (8, 11)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 12),
+    library.make_clocktick_rhythm(),
+)
+
+commands(
+    ("v2", 13),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
+    ),
+)
+
+commands(
+    ("v2", 14),
+    library.make_clocktick_rhythm(),
+)
+
+commands(
+    ("v2", 15),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
+    ),
+)
+
+commands(
+    ("v2", 16),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
+        r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
+    ),
+)
+
+commands(
+    ("v2", 17),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
+    ),
+)
+
+commands(
+    ("v2", (18, 25)),
+    library.make_trajectory_rhythm("C", 0, 0),
+)
+
+commands(
+    ("v2", 26),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("v2", 27),
+    library.make_trajectory_rhythm("C", -1, 0),
+)
+
+commands(
+    ("v2", 28),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (29, 30)),
+    library.make_trajectory_rhythm("C", -1, -2),
+)
+
+commands(
+    ("v2", 31),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (32, 33)),
+    library.make_rasp_rhythm(),
+)
+
+commands(
+    ("v2", (34, 35)),
+    library.make_trajectory_rhythm("C", -1, -2),
+)
+
+commands(
+    ("v2", 36),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (37, 38)),
+    library.make_trajectory_rhythm("C", -1, -2),
+)
+
+commands(
+    ("v2", 39),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (40, 41)),
+    library.make_trajectory_rhythm("C", -1, -2),
+)
+
+commands(
+    ("v2", 42),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("v2", 43),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 44),
+    library.make_trajectory_rhythm("C", -1, -2),
+)
+
+commands(
+    ("v2", 45),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 46),
+    library.make_trajectory_rhythm("C", -1, -2),
+)
+
+commands(
+    ("v2", 47),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 48),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", 49),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (50, 57)),
+    library.make_trajectory_rhythm("C", -1, -2),
+)
+
+commands(
+    ("v2", (58, 62)),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("v2", 63),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", 64),
+    library.make_flight_rhythm(
+        "C",
+        -1,
+        start=16,
+    ),
+)
+
+commands(
+    ("v2", 65),
+    library.make_grid_rhythm(rotation=-1),
+)
+
+commands(
+    ("v2", 66),
+    baca.make_mmrests(),
+)
+
+# VA
+
+commands(
+    ("va", (1, 5)),
+    library.make_clocktick_rhythm(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
+    ),
+)
+
+commands(
+    ("va", (6, 7)),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("va", (8, 11)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (12, 21)),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("va", 22),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (23, 25)),
+    library.make_trajectory_rhythm("C", 0, 0),
+)
+
+commands(
+    ("va", 26),
+    library.make_declamation_rhythm(),
+)
+
+commands(
+    ("va", 27),
+    library.make_trajectory_rhythm("C", 0, 0),
+)
+
+commands(
+    ("va", 28),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (29, 30)),
+    library.make_trajectory_rhythm("C", -2, -1),
+)
+
+commands(
+    ("va", 31),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (32, 33)),
+    library.make_rasp_rhythm(),
+)
+
+commands(
+    ("va", (34, 35)),
+    library.make_trajectory_rhythm("C", -2, -1),
+)
+
+commands(
+    ("va", 36),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (37, 38)),
+    library.make_trajectory_rhythm("C", -2, -1),
+)
+
+commands(
+    ("va", 39),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (40, 41)),
+    library.make_trajectory_rhythm("C", -2, -1),
+)
+
+commands(
+    ("va", 42),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("va", 43),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 44),
+    library.make_trajectory_rhythm("C", -2, -1),
+)
+
+commands(
+    ("va", 45),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 46),
+    library.make_trajectory_rhythm("C", -2, -1),
+)
+
+commands(
+    ("va", 47),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 48),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", 49),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (50, 57)),
+    library.make_trajectory_rhythm("C", -2, -1),
+)
+
+commands(
+    ("va", (58, 59)),
+    library.make_trajectory_rhythm("C", -2, -1),
+)
+
+commands(
+    ("va", (60, 62)),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("va", 63),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 64),
+    library.make_flight_rhythm(
+        "B",
+        -2,
+        start=16,
+    ),
+)
+
+commands(
+    ("va", 65),
+    library.make_grid_rhythm(rotation=-2),
+)
+
+commands(
+    ("va", 66),
+    baca.make_mmrests(),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 5)),
+    library.make_clocktick_rhythm(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
+    ),
+)
+
+commands(
+    ("vc", (6, 11)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (12, 15)),
+    library.make_circle_rhythm(
+        (1, 4),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
+    ),
+)
+
+commands(
+    ("vc", 16),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
+        r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
+    ),
+)
+
+commands(
+    ("vc", 17),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
+    ),
+)
+
+commands(
+    ("vc", (18, 19)),
+    library.make_clocktick_rhythm(
+        encroach=True,
+    ),
+)
+
+commands(
+    ("vc", (20, 25)),
+    library.make_trajectory_rhythm("B", 0, 0),
+)
+
+commands(
+    ("vc", 26),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 27),
+    library.make_trajectory_rhythm("B", 0, 0),
+)
+
+commands(
+    ("vc", 28),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (29, 30)),
+    library.make_trajectory_rhythm("C", -3, 0),
+)
+
+commands(
+    ("vc", 31),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (32, 33)),
+    library.make_rasp_rhythm(),
+)
+
+commands(
+    ("vc", (34, 35)),
+    library.make_trajectory_rhythm("C", -3, 0),
+)
+
+commands(
+    ("vc", 36),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (37, 38)),
+    library.make_trajectory_rhythm("C", -3, 0),
+)
+
+commands(
+    ("vc", 39),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (40, 41)),
+    library.make_trajectory_rhythm("C", -3, 0),
+)
+
+commands(
+    ("vc", 42),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("vc", 43),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 44),
+    library.make_trajectory_rhythm("C", -3, 0),
+)
+
+commands(
+    ("vc", 45),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", 46),
+    library.make_trajectory_rhythm("C", -3, 0),
+)
+
+commands(
+    ("vc", 47),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 48),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", 49),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (50, 57)),
+    library.make_trajectory_rhythm("C", -3, 0),
+)
+
+commands(
+    ("vc", (58, 61)),
+    library.make_trajectory_rhythm("C", -3, 0),
+)
+
+commands(
+    ("vc", 62),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("vc", 63),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 64),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", 65),
+    library.make_grid_rhythm(rotation=-3),
+)
+
+commands(
+    ("vc", 66),
+    baca.make_mmrests(),
+)
+
+# phantom
+
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
 )
 
 # after
@@ -315,30 +981,8 @@ commands(
 )
 
 commands(
-    ("v1", 15),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-    ),
-)
-
-commands(
-    ("v1", 16),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
-        r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
-    ),
-)
-
-commands(
     ("v1", (16, 17)),
     baca.alternate_bow_strokes(),
-)
-
-commands(
-    ("v1", 17),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-    ),
 )
 
 commands(
@@ -834,110 +1478,6 @@ commands(
     ),
 )
 
-# V2
-
-commands(
-    ("v2", (1, 7)),
-    library.make_clocktick_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-    ),
-)
-
-commands(
-    ("v2", 12),
-    library.make_clocktick_rhythm(),
-)
-
-commands(
-    ("v2", 15),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-    ),
-)
-
-commands(
-    ("v2", 13),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-    ),
-)
-
-commands(
-    ("v2", 14),
-    library.make_clocktick_rhythm(),
-)
-
-commands(
-    ("v2", 16),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
-        r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
-    ),
-)
-
-commands(
-    ("v2", 17),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-    ),
-)
-
-commands(
-    ("v2", (18, 25)),
-    library.make_trajectory_rhythm("C", 0, 0),
-)
-
-commands(
-    ("v2", 26),
-    library.make_declamation_rhythm(),
-)
-
-commands(
-    ("v2", 27),
-    library.make_trajectory_rhythm("C", -1, 0),
-)
-
-commands(
-    ("v2", [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
-    library.make_trajectory_rhythm("C", -1, -2),
-)
-
-commands(
-    ("v2", (32, 33)),
-    library.make_rasp_rhythm(),
-)
-
-commands(
-    ("v2", 42),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("v2", 48),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("v2", (58, 62)),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("v2", 64),
-    library.make_flight_rhythm(
-        "C",
-        -1,
-        start=16,
-    ),
-)
-
-commands(
-    ("v2", 65),
-    library.make_grid_rhythm(rotation=-1),
-)
-
 commands(
     ("v2", (1, 4)),
     baca.hairpin(
@@ -1190,81 +1730,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
-)
-
-# VA
-
-commands(
-    ("va", (1, 5)),
-    library.make_clocktick_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-    ),
-)
-
-commands(
-    ("va", (6, 7)),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("va", (12, 21)),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("va", [(23, 25), 27]),
-    library.make_trajectory_rhythm("C", 0, 0),
-)
-
-commands(
-    ("va", 26),
-    library.make_declamation_rhythm(),
-)
-
-commands(
-    ("va", [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
-    library.make_trajectory_rhythm("C", -2, -1),
-)
-
-commands(
-    ("va", (32, 33)),
-    library.make_rasp_rhythm(),
-)
-
-commands(
-    ("va", 42),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("va", 48),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("va", (58, 59)),
-    library.make_trajectory_rhythm("C", -2, -1),
-)
-
-commands(
-    ("va", (60, 62)),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("va", 64),
-    library.make_flight_rhythm(
-        "B",
-        -2,
-        start=16,
-    ),
-)
-
-commands(
-    ("va", 65),
-    library.make_grid_rhythm(rotation=-2),
 )
 
 commands(
@@ -1539,116 +2004,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
     ),
-)
-
-# VC
-
-commands(
-    ("vc", (1, 5)),
-    library.make_clocktick_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-    ),
-)
-
-commands(
-    ("vc", (6, 11)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("vc", (12, 15)),
-    library.make_circle_rhythm(
-        (1, 4),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-    ),
-)
-
-commands(
-    ("vc", 16),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
-        r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
-    ),
-)
-
-commands(
-    ("vc", 17),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-    ),
-)
-
-commands(
-    ("vc", (18, 19)),
-    library.make_clocktick_rhythm(
-        encroach=True,
-    ),
-)
-
-commands(
-    ("vc", (20, 25)),
-    library.make_trajectory_rhythm("B", 0, 0),
-)
-
-commands(
-    ("vc", 27),
-    library.make_trajectory_rhythm("B", 0, 0),
-)
-
-commands(
-    ("vc", [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
-    library.make_trajectory_rhythm("C", -3, 0),
-)
-
-commands(
-    ("vc", (32, 33)),
-    library.make_rasp_rhythm(),
-)
-
-commands(
-    ("vc", 42),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("vc", 45),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("vc", 48),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("vc", (58, 61)),
-    library.make_trajectory_rhythm("C", -3, 0),
-)
-
-commands(
-    ("vc", 62),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("vc", 64),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("vc", 65),
-    library.make_grid_rhythm(rotation=-3),
-)
-
-# after
-
-commands(
-    "tutti",
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -2008,9 +2363,12 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[28, 66],
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(

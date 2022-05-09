@@ -144,8 +144,18 @@ commands(
 )
 
 commands(
+    ("v1", 6),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (7, 10)),
     library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v1", 11),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -179,6 +189,11 @@ commands(
 )
 
 commands(
+    ("v1", (34, 35)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (36, 55)),
     library.make_synchronized_circle_rhythm(rotation=0),
 )
@@ -202,8 +217,339 @@ commands(
 )
 
 commands(
+    ("v1", 70),
+    baca.make_mmrests(),
+)
+
+commands(
     ("v1", (71, 76)),
     library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v1", 77),
+    baca.make_mmrests(),
+)
+
+# V2
+
+commands(
+    ("v2", (1, 4)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("v2", 5),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", 6),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (7, 10)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("v2", 11),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (12, 15)),
+    library.make_desynchronization_rhythm(4, [0], rests=True),
+)
+
+commands(
+    ("v2", (16, 19)),
+    library.make_desynchronization_rhythm(4, [0], rests=True),
+)
+
+commands(
+    ("v2", (20, 23)),
+    library.make_desynchronization_rhythm(4, [0], rests=([2], 3)),
+)
+
+commands(
+    ("v2", (24, 27)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("v2", 28),
+    library.make_clocktick_rhythm(),
+)
+
+commands(
+    ("v2", 29),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
+    ),
+)
+
+commands(
+    ("v2", (30, 33)),
+    library.make_synchronized_circle_rhythm(rests=[-1]),
+)
+
+commands(
+    ("v2", (34, 35)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (36, 55)),
+    library.make_synchronized_circle_rhythm(rotation=-1),
+)
+
+commands(
+    ("v2", (56, 59)),
+    library.make_synchronized_circle_rhythm(gaps=False, rotation=-1),
+)
+
+commands(
+    ("v2", (60, 61)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", (62, 69)),
+    library.make_synchronized_circle_rhythm(
+        rests=[-1],
+        rotation=0,
+    ),
+)
+
+commands(
+    ("v2", 70),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (71, 76)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("v2", 77),
+    baca.make_mmrests(),
+)
+
+# VA
+
+commands(
+    ("va", (1, 4)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", 5),
+    library.make_loure_tuplets_material(-1),
+)
+
+commands(
+    ("va", 6),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (7, 10)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", 11),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (12, 15)),
+    library.make_desynchronization_rhythm(4, [2], rests=True),
+)
+
+commands(
+    ("va", (16, 19)),
+    library.make_desynchronization_rhythm(4, [2], rests=True),
+)
+
+commands(
+    ("va", (20, 23)),
+    library.make_desynchronization_rhythm(4, [2], rests=([2], 3)),
+)
+
+commands(
+    ("va", (24, 27)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", (28, 29)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("va", (30, 33)),
+    library.make_synchronized_circle_rhythm(rests=[-1]),
+)
+
+commands(
+    ("va", (34, 35)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (36, 55)),
+    library.make_synchronized_circle_rhythm(rotation=-2),
+)
+
+commands(
+    ("va", (56, 59)),
+    library.make_synchronized_circle_rhythm(gaps=False, rotation=-2),
+)
+
+commands(
+    ("va", (60, 61)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", (62, 69)),
+    library.make_synchronized_circle_rhythm(
+        rests=[-1],
+        rotation=0,
+    ),
+)
+
+commands(
+    ("va", 70),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (71, 76)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", 77),
+    baca.make_mmrests(),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 4)),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
+    ("vc", 5),
+    library.make_taper_rhythm((1, 1)),
+)
+
+commands(
+    ("vc", 6),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (7, 10)),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
+    ("vc", 11),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (12, 15)),
+    library.make_desynchronization_rhythm(4, [-1], rests=True),
+)
+
+commands(
+    ("vc", (16, 19)),
+    library.make_desynchronization_rhythm(4, [-1], rests=True),
+)
+
+commands(
+    ("vc", (20, 23)),
+    library.make_desynchronization_rhythm(4, [-1], rests=([2], 3)),
+)
+
+commands(
+    ("vc", (24, 27)),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
+    ("vc", (28, 29)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (30, 33)),
+    library.make_synchronized_circle_rhythm(rests=[-1]),
+)
+
+commands(
+    ("vc", (34, 35)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (36, 55)),
+    library.make_synchronized_circle_rhythm(rotation=-3),
+)
+
+commands(
+    ("vc", (56, 59)),
+    library.make_synchronized_circle_rhythm(gaps=False, rotation=-3),
+)
+
+commands(
+    ("vc", (60, 61)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (62, 69)),
+    library.make_synchronized_circle_rhythm(
+        rests=[-1],
+        rotation=0,
+    ),
+)
+
+commands(
+    ("vc", 70),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (71, 76)),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
+    ("vc", 77),
+    baca.make_mmrests(),
+)
+
+# phantom
+
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
+)
+
+# after
+
+commands(
+    "tutti",
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -271,6 +617,128 @@ commands(
     ("v1", (71, 76)),
     baca.tuplet_bracket_down(),
     baca.tuplet_bracket_staff_padding(1.25),
+)
+
+commands(
+    ("v2", 5),
+    baca.dynamic("mp"),
+    baca.markup(
+        r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
+        abjad.Tweak(r"- \tweak padding 1.5"),
+    ),
+    baca.pitch("<E4 G#4>"),
+    library.urtext_spanner("urtext (ds) -|", 8),
+)
+
+commands(
+    ("v2", [(12, 23), (30, 59)]),
+    baca.pitch("Bb4"),
+)
+
+commands(
+    ("v2", (24, 27)),
+    baca.flat_glissando("Bb4"),
+)
+
+commands(
+    ("v2", (28, 29)),
+    baca.alternate_bow_strokes(),
+    baca.damp_spanner(
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+    ),
+    baca.hairpin(
+        "mp -- !",
+        abjad.Tweak(r"- \tweak to-barline ##t"),
+        selector=lambda _: baca.select.rleaves(_),
+    ),
+    baca.half_clt_spanner(
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+    ),
+    baca.pitch("F5"),
+)
+
+commands(
+    ("v2", (36, 59)),
+    baca.suite(
+        baca.new(
+            baca.tie(lambda _: baca.select.lleaf(_, 0)),
+            measures=56,
+        ),
+        baca.articulations(
+            [
+                abjad.Articulation("baca-damp"),
+                abjad.Articulation("baca-damp"),
+                abjad.Articulation("baca-double-diamond"),
+            ],
+        ),
+    ),
+)
+
+commands(
+    ("va", 5),
+    baca.dynamic("mp"),
+    baca.markup(
+        r"\stirrings-still-nine-plus-seven-of-b-markup",
+        abjad.Tweak(r"- \tweak padding 1.5"),
+    ),
+    baca.pitch("<Aqf3 C#4>"),
+    library.clouded_pane_spanner("clouded (partial: stopped) -|", 8),
+)
+
+commands(
+    ("va", [(12, 23), (30, 59)]),
+    baca.pitch("Bqf3"),
+)
+
+commands(
+    ("va", (24, 27)),
+    baca.flat_glissando("Bqf3"),
+)
+
+commands(
+    ("va", (28, 29)),
+    baca.flat_glissando("<B2 Aqs3>"),
+    baca.hairpin(
+        "pp -- !",
+        abjad.Tweak(r"- \tweak to-barline ##t"),
+        selector=lambda _: baca.select.rleaves(_),
+    ),
+    baca.markup(
+        r"\stirrings-still-eleven-plus-three-of-e-markup",
+        abjad.Tweak(r"- \tweak padding 1.5"),
+    ),
+    baca.tasto_spanner(
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+    ),
+    library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
+)
+
+commands(
+    ("va", (36, 59)),
+    baca.suite(
+        baca.new(
+            baca.tie(lambda _: baca.select.lleaf(_, 0)),
+            measures=56,
+        ),
+        baca.articulations(
+            [
+                abjad.Articulation("baca-damp"),
+                abjad.Articulation("baca-double-diamond"),
+                abjad.Articulation("baca-double-diamond"),
+                abjad.Articulation("baca-damp"),
+                None,
+            ],
+        ),
+        baca.new(
+            baca.note_head_style_harmonic(),
+            map=lambda _: abjad.select.get(baca.select.plts(_), [4], 5),
+        ),
+    ),
+)
+
+commands(
+    ("va", (71, 76)),
+    baca.tuplet_bracket_staff_padding(0.5),
 )
 
 # v1, v2, va
@@ -626,366 +1094,7 @@ commands(
     ),
 )
 
-# V2
 
-commands(
-    ("v2", (1, 4)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
-
-commands(
-    ("v2", 5),
-    library.make_loure_tuplets_material(1),
-)
-
-commands(
-    ("v2", (7, 10)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
-
-commands(
-    ("v2", (12, 15)),
-    library.make_desynchronization_rhythm(4, [0], rests=True),
-)
-
-commands(
-    ("v2", (16, 19)),
-    library.make_desynchronization_rhythm(4, [0], rests=True),
-)
-
-commands(
-    ("v2", (20, 23)),
-    library.make_desynchronization_rhythm(4, [0], rests=([2], 3)),
-)
-
-commands(
-    ("v2", (24, 27)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
-
-commands(
-    ("v2", 28),
-    library.make_clocktick_rhythm(),
-)
-
-commands(
-    ("v2", 29),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-    ),
-)
-
-commands(
-    ("v2", (30, 33)),
-    library.make_synchronized_circle_rhythm(rests=[-1]),
-)
-
-commands(
-    ("v2", (36, 55)),
-    library.make_synchronized_circle_rhythm(rotation=-1),
-)
-
-commands(
-    ("v2", (56, 59)),
-    library.make_synchronized_circle_rhythm(gaps=False, rotation=-1),
-)
-
-commands(
-    ("v2", (60, 61)),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("v2", (62, 69)),
-    library.make_synchronized_circle_rhythm(
-        rests=[-1],
-        rotation=0,
-    ),
-)
-
-commands(
-    ("v2", (71, 76)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
-
-commands(
-    ("v2", 5),
-    baca.dynamic("mp"),
-    baca.markup(
-        r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
-        abjad.Tweak(r"- \tweak padding 1.5"),
-    ),
-    baca.pitch("<E4 G#4>"),
-    library.urtext_spanner("urtext (ds) -|", 8),
-)
-
-commands(
-    ("v2", [(12, 23), (30, 59)]),
-    baca.pitch("Bb4"),
-)
-
-commands(
-    ("v2", (24, 27)),
-    baca.flat_glissando("Bb4"),
-)
-
-commands(
-    ("v2", (28, 29)),
-    baca.alternate_bow_strokes(),
-    baca.damp_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-    ),
-    baca.hairpin(
-        "mp -- !",
-        abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    baca.half_clt_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-    ),
-    baca.pitch("F5"),
-)
-
-commands(
-    ("v2", (36, 59)),
-    baca.suite(
-        baca.new(
-            baca.tie(lambda _: baca.select.lleaf(_, 0)),
-            measures=56,
-        ),
-        baca.articulations(
-            [
-                abjad.Articulation("baca-damp"),
-                abjad.Articulation("baca-damp"),
-                abjad.Articulation("baca-double-diamond"),
-            ],
-        ),
-    ),
-)
-
-# VA
-
-commands(
-    ("va", (1, 4)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
-
-commands(
-    ("va", 5),
-    library.make_loure_tuplets_material(-1),
-)
-
-commands(
-    ("va", (7, 10)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
-
-commands(
-    ("va", (12, 15)),
-    library.make_desynchronization_rhythm(4, [2], rests=True),
-)
-
-commands(
-    ("va", (16, 19)),
-    library.make_desynchronization_rhythm(4, [2], rests=True),
-)
-
-commands(
-    ("va", (20, 23)),
-    library.make_desynchronization_rhythm(4, [2], rests=([2], 3)),
-)
-
-commands(
-    ("va", (24, 27)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
-
-commands(
-    ("va", (28, 29)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("va", (30, 33)),
-    library.make_synchronized_circle_rhythm(rests=[-1]),
-)
-
-commands(
-    ("va", (36, 55)),
-    library.make_synchronized_circle_rhythm(rotation=-2),
-)
-
-commands(
-    ("va", (56, 59)),
-    library.make_synchronized_circle_rhythm(gaps=False, rotation=-2),
-)
-
-commands(
-    ("va", (60, 61)),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("va", (62, 69)),
-    library.make_synchronized_circle_rhythm(
-        rests=[-1],
-        rotation=0,
-    ),
-)
-
-commands(
-    ("va", (71, 76)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
-
-commands(
-    ("va", 5),
-    baca.dynamic("mp"),
-    baca.markup(
-        r"\stirrings-still-nine-plus-seven-of-b-markup",
-        abjad.Tweak(r"- \tweak padding 1.5"),
-    ),
-    baca.pitch("<Aqf3 C#4>"),
-    library.clouded_pane_spanner("clouded (partial: stopped) -|", 8),
-)
-
-commands(
-    ("va", [(12, 23), (30, 59)]),
-    baca.pitch("Bqf3"),
-)
-
-commands(
-    ("va", (24, 27)),
-    baca.flat_glissando("Bqf3"),
-)
-
-commands(
-    ("va", (28, 29)),
-    baca.flat_glissando("<B2 Aqs3>"),
-    baca.hairpin(
-        "pp -- !",
-        abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    baca.markup(
-        r"\stirrings-still-eleven-plus-three-of-e-markup",
-        abjad.Tweak(r"- \tweak padding 1.5"),
-    ),
-    baca.tasto_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-    ),
-    library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
-)
-
-commands(
-    ("va", (36, 59)),
-    baca.suite(
-        baca.new(
-            baca.tie(lambda _: baca.select.lleaf(_, 0)),
-            measures=56,
-        ),
-        baca.articulations(
-            [
-                abjad.Articulation("baca-damp"),
-                abjad.Articulation("baca-double-diamond"),
-                abjad.Articulation("baca-double-diamond"),
-                abjad.Articulation("baca-damp"),
-                None,
-            ],
-        ),
-        baca.new(
-            baca.note_head_style_harmonic(),
-            map=lambda _: abjad.select.get(baca.select.plts(_), [4], 5),
-        ),
-    ),
-)
-
-commands(
-    ("va", (71, 76)),
-    baca.tuplet_bracket_staff_padding(0.5),
-)
-
-# VC
-
-commands(
-    ("vc", (1, 4)),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
-
-commands(
-    ("vc", 5),
-    library.make_taper_rhythm((1, 1)),
-)
-
-commands(
-    ("vc", (7, 10)),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
-
-commands(
-    ("vc", (12, 15)),
-    library.make_desynchronization_rhythm(4, [-1], rests=True),
-)
-
-commands(
-    ("vc", (16, 19)),
-    library.make_desynchronization_rhythm(4, [-1], rests=True),
-)
-
-commands(
-    ("vc", (20, 23)),
-    library.make_desynchronization_rhythm(4, [-1], rests=([2], 3)),
-)
-
-commands(
-    ("vc", (24, 27)),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
-
-commands(
-    ("vc", (28, 29)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("vc", (30, 33)),
-    library.make_synchronized_circle_rhythm(rests=[-1]),
-)
-
-commands(
-    ("vc", (34, 35)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("vc", (36, 55)),
-    library.make_synchronized_circle_rhythm(rotation=-3),
-)
-
-commands(
-    ("vc", (56, 59)),
-    library.make_synchronized_circle_rhythm(gaps=False, rotation=-3),
-)
-
-commands(
-    ("vc", (62, 69)),
-    library.make_synchronized_circle_rhythm(
-        rests=[-1],
-        rotation=0,
-    ),
-)
-
-commands(
-    ("vc", (71, 76)),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
-
-# after
-
-commands(
-    "tutti",
-    baca.reapply_persistent_indicators(),
-)
 commands(
     "vc",
     baca.clef("treble"),
@@ -1100,9 +1209,12 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[11, 70, 77],
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(

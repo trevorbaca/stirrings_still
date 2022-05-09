@@ -82,12 +82,340 @@ time = (
 
 library.time(commands, time)
 
-# v1
+# V1
 
 commands(
     ("v1", (1, 2)),
     library.make_trajectory_rhythm("B", 0, 0, end_counts=[1]),
 )
+
+commands(
+    ("v1", (3, 4)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("v1", 5),
+    library.make_trajectory_rhythm(
+        "B",
+        0,
+        0,
+    ),
+)
+
+commands(
+    ("v1", (6, 8)),
+    library.make_accelerando(
+        (8, 32),
+        (1, 2),
+    ),
+)
+
+baca.alternate_makers(
+    commands,
+    "v1",
+    [9, (11, 14), 16],
+    library.make_trajectory_rhythm("B", -3, -3),
+    baca.make_repeat_tied_notes(),
+    absolute_start=9,
+    total=17,
+)
+
+commands(
+    ("v1", (18, 20)),
+    library.make_flight_rhythm(
+        "A",
+        0,
+        start=0,
+    ),
+)
+
+commands(
+    ("v1", 21),
+    library.make_picket_rhythm(4, 2),
+)
+
+commands(
+    ("v1", 23),
+    library.make_picket_rhythm(4, 2),
+)
+
+commands(
+    ("v1", (24, 31)),
+    library.make_flight_rhythm(
+        "A",
+        0,
+        start=0,
+    ),
+)
+
+commands(
+    ("v1", (32, 37)),
+    library.make_flight_rhythm(
+        "A",
+        0,
+        start=0,
+    ),
+)
+
+commands(
+    ("v1", (38, 45)),
+    library.make_flight_rhythm(
+        "A",
+        0,
+        start=0,
+    ),
+)
+
+commands(
+    ("v1", (46, 53)),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
+    ),
+)
+
+# V2
+
+commands(
+    ("v2", (1, 2)),
+    library.make_trajectory_rhythm("B", -1, -1, end_counts=[1]),
+)
+
+commands(
+    ("v2", (3, 4)),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v2", 5),
+    library.make_trajectory_rhythm("B", -1, -1),
+)
+
+commands(
+    ("v2", (6, 8)),
+    library.make_accelerando((10, 32), (1, 2)),
+)
+
+baca.alternate_makers(
+    commands,
+    "v2",
+    [9, 13, (15, 16)],
+    library.make_trajectory_rhythm("B", -3, -3),
+    baca.make_repeat_tied_notes(),
+    absolute_start=9,
+    total=17,
+)
+
+commands(
+    ("v2", (18, 20)),
+    library.make_flight_rhythm(
+        "A",
+        0,
+        start=2,
+    ),
+)
+
+commands(
+    ("v2", 21),
+    library.make_picket_rhythm(4, 1),
+)
+
+commands(
+    ("v2", 23),
+    library.make_picket_rhythm(4, 1),
+)
+
+commands(
+    ("v2", (24, 31)),
+    library.make_flight_rhythm(
+        "A",
+        0,
+        start=2,
+    ),
+)
+
+commands(
+    ("v2", (32, 37)),
+    library.make_flight_rhythm(
+        "A",
+        0,
+        start=2,
+    ),
+)
+
+commands(
+    ("v2", (38, 45)),
+    library.make_flight_rhythm(
+        "A",
+        0,
+        start=2,
+    ),
+)
+
+commands(
+    ("v2", (46, 53)),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
+    ),
+)
+
+# VA
+
+commands(
+    ("va", (1, 2)),
+    library.make_trajectory_rhythm("B", -2, -2, end_counts=[1]),
+)
+
+commands(
+    ("va", (3, 4)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("va", (5, 11)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+)
+
+baca.alternate_makers(
+    commands,
+    "va",
+    [(12, 13), (16, 17)],
+    library.make_trajectory_rhythm("B", -3, -3),
+    baca.make_repeat_tied_notes(),
+    absolute_start=12,
+    total=17,
+)
+
+commands(
+    ("va", (18, 20)),
+    library.make_flight_rhythm(
+        "A",
+        -1,
+        start=4,
+    ),
+)
+
+commands(
+    ("va", 21),
+    library.make_picket_rhythm(4, 0),
+)
+
+commands(
+    ("va", 23),
+    library.make_picket_rhythm(4, 0),
+)
+
+commands(
+    ("va", (24, 31)),
+    library.make_flight_rhythm(
+        "A",
+        -1,
+        start=4,
+    ),
+)
+
+commands(
+    ("va", (32, 37)),
+    library.make_flight_rhythm(
+        "A",
+        -1,
+        start=4,
+    ),
+)
+
+commands(
+    ("va", (38, 42)),
+    library.make_flight_rhythm(
+        "A",
+        -1,
+        start=4,
+    ),
+)
+
+commands(
+    ("va", (43, 45)),
+    library.make_to_flight_rhythm([(8, 8), (3, 16)]),
+)
+
+commands(
+    ("va", (46, 53)),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
+    ),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 2)),
+    library.make_trajectory_rhythm("B", -3, -3, end_counts=[1]),
+)
+
+commands(
+    ("vc", (3, 4)),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
+    ("vc", (5, 8)),
+    library.make_accelerando((11, 32), (1, 2), measures=(6, 8)),
+)
+
+commands(
+    ("vc", (5, 8)),
+    library.make_trajectory_rhythm("B", -3, -3, measures=5),
+)
+
+baca.alternate_makers(
+    commands,
+    "vc",
+    [(9, 10), (13, 14)],
+    library.make_trajectory_rhythm("B", -3, -3),
+    baca.make_repeat_tied_notes(),
+    absolute_start=9,
+    total=17,
+)
+
+commands(
+    ("vc", (18, 20)),
+    library.make_flight_rhythm(
+        "A",
+        -2,
+        start=6,
+    ),
+)
+
+commands(
+    ("vc", (21, 23)),
+    library.make_cello_cell_rhythm(),
+)
+
+commands(
+    ("vc", (24, 31)),
+    library.make_flight_rhythm(
+        "A",
+        -2,
+        start=6,
+    ),
+)
+
+commands(
+    ("vc", (32, 37)),
+    library.make_flight_rhythm(
+        "A",
+        -2,
+        start=6,
+    ),
+)
+
+commands(
+    ("vc", (38, 54)),
+    library.make_clouded_pane_rhythm(),
+)
+
+# phantom
+
+# after
 
 commands(
     ("v1", (1, 2)),
@@ -124,28 +452,6 @@ commands(
         pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
     ),
     baca.flat_glissando("Bqf5"),
-)
-
-commands(
-    ("v1", (3, 4)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
-
-commands(
-    ("v1", 5),
-    library.make_trajectory_rhythm(
-        "B",
-        0,
-        0,
-    ),
-)
-
-commands(
-    ("v1", (6, 8)),
-    library.make_accelerando(
-        (8, 32),
-        (1, 2),
-    ),
 )
 
 commands(
@@ -192,16 +498,6 @@ commands(
     ),
 )
 
-baca.alternate_makers(
-    commands,
-    "v1",
-    [9, (11, 14), 16],
-    library.make_trajectory_rhythm("B", -3, -3),
-    baca.make_repeat_tied_notes(),
-    absolute_start=9,
-    total=17,
-)
-
 commands(
     ("v1", [10, 15, 17]),
     baca.stem_tremolo(
@@ -229,15 +525,6 @@ commands(
     ),
 )
 commands(
-    ("v1", (18, 20)),
-    library.make_flight_rhythm(
-        "A",
-        0,
-        start=0,
-    ),
-)
-
-commands(
     ("v1", 21),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -257,11 +544,6 @@ commands(
 )
 
 commands(
-    ("v1", 21),
-    library.make_picket_rhythm(4, 2),
-)
-
-commands(
     ("v1x", 22),
     baca.tacet(),
 )
@@ -276,11 +558,6 @@ commands(
         qualifier="wide",
     ),
     baca.flat_glissando("Aqs4"),
-)
-
-commands(
-    ("v1", 23),
-    library.make_picket_rhythm(4, 2),
 )
 
 commands(
@@ -308,15 +585,6 @@ commands(
 )
 
 commands(
-    ("v1", (24, 31)),
-    library.make_flight_rhythm(
-        "A",
-        0,
-        start=0,
-    ),
-)
-
-commands(
     ("v1", (32, 37)),
     baca.accent(
         selector=lambda _: baca.select.pheads(_),
@@ -340,15 +608,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.plts(_)[:-1],
-    ),
-)
-
-commands(
-    ("v1", (32, 37)),
-    library.make_flight_rhythm(
-        "A",
-        0,
-        start=0,
     ),
 )
 
@@ -391,22 +650,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.plts(_)[:-1],
-    ),
-)
-
-commands(
-    ("v1", (38, 45)),
-    library.make_flight_rhythm(
-        "A",
-        0,
-        start=0,
-    ),
-)
-
-commands(
-    ("v1", (46, 53)),
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
     ),
 )
 
@@ -500,11 +743,6 @@ commands(
 
 commands(
     ("v2", (1, 2)),
-    library.make_trajectory_rhythm("B", -1, -1, end_counts=[1]),
-)
-
-commands(
-    ("v2", (1, 2)),
     baca.reapply_persistent_indicators(),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
@@ -538,21 +776,6 @@ commands(
         pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
     ),
     baca.flat_glissando("Bb4"),
-)
-
-commands(
-    ("v2", (3, 4)),
-    library.make_desynchronization_rhythm(4, [1]),
-)
-
-commands(
-    ("v2", (5, 8)),
-    library.make_accelerando((10, 32), (1, 2), measures=(6, 8)),
-)
-
-commands(
-    ("v2", (5, 8)),
-    library.make_trajectory_rhythm("B", -1, -1, measures=5),
 )
 
 commands(
@@ -597,16 +820,6 @@ commands(
     ),
 )
 
-baca.alternate_makers(
-    commands,
-    "v2",
-    [9, 13, (15, 16)],
-    library.make_trajectory_rhythm("B", -3, -3),
-    baca.make_repeat_tied_notes(),
-    absolute_start=9,
-    total=17,
-)
-
 commands(
     ("v2", [10, (11, 12), 14, 17]),
     baca.stem_tremolo(
@@ -635,15 +848,6 @@ commands(
 )
 
 commands(
-    ("v2", (18, 20)),
-    library.make_flight_rhythm(
-        "A",
-        0,
-        start=2,
-    ),
-)
-
-commands(
     ("v2", 21),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -663,11 +867,6 @@ commands(
 )
 
 commands(
-    ("v2", 21),
-    library.make_picket_rhythm(4, 1),
-)
-
-commands(
     ("v2x", 22),
     baca.tacet(),
 )
@@ -682,11 +881,6 @@ commands(
         qualifier="wide",
     ),
     baca.flat_glissando("Eb4"),
-)
-
-commands(
-    ("v2", 23),
-    library.make_picket_rhythm(4, 1),
 )
 
 commands(
@@ -713,15 +907,6 @@ commands(
 )
 
 commands(
-    ("v2", (24, 31)),
-    library.make_flight_rhythm(
-        "A",
-        0,
-        start=2,
-    ),
-)
-
-commands(
     ("v2", (32, 37)),
     baca.accent(
         selector=lambda _: baca.select.pheads(_),
@@ -745,15 +930,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.plts(_)[:-1],
-    ),
-)
-
-commands(
-    ("v2", (32, 37)),
-    library.make_flight_rhythm(
-        "A",
-        0,
-        start=2,
     ),
 )
 
@@ -797,22 +973,6 @@ commands(
     ),
 )
 commands(
-    ("v2", (38, 45)),
-    library.make_flight_rhythm(
-        "A",
-        0,
-        start=2,
-    ),
-)
-
-commands(
-    ("v2", (46, 53)),
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-    ),
-)
-
-commands(
     ("v2", (46, 53)),
     baca.hairpin("p >o niente"),
     baca.damp_spanner(
@@ -829,11 +989,6 @@ commands(
 )
 
 # va
-
-commands(
-    ("va", (1, 2)),
-    library.make_trajectory_rhythm("B", -2, -2, end_counts=[1]),
-)
 
 commands(
     ("va", (1, 2)),
@@ -873,18 +1028,13 @@ commands(
 )
 
 commands(
-    ("va", (3, 4)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
-
-commands(
     ("va", (5, 11)),
     baca.dynamic(
         '"mf"',
         abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
         abjad.Tweak(r"- \tweak extra-offset #'(-3 . 0)"),
     ),
-    library.make_tailpiece_material(
+    library.style_tailpiece_material(
         abjad.Tweak(r"- \tweak bound-details.right.Y 0"),
         abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
     ),
@@ -900,16 +1050,6 @@ commands(
         clt=True,
         staff_padding=4,
     ),
-)
-
-baca.alternate_makers(
-    commands,
-    "va",
-    [(12, 13), (16, 17)],
-    library.make_trajectory_rhythm("B", -3, -3),
-    baca.make_repeat_tied_notes(),
-    absolute_start=12,
-    total=17,
 )
 
 commands(
@@ -949,15 +1089,6 @@ commands(
 )
 
 commands(
-    ("va", (18, 20)),
-    library.make_flight_rhythm(
-        "A",
-        -1,
-        start=4,
-    ),
-)
-
-commands(
     ("va", 21),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -977,11 +1108,6 @@ commands(
 )
 
 commands(
-    ("va", 21),
-    library.make_picket_rhythm(4, 0),
-)
-
-commands(
     ("vax", 22),
     baca.tacet(),
 )
@@ -996,11 +1122,6 @@ commands(
         qualifier="wide",
     ),
     baca.flat_glissando("Bqf3"),
-)
-
-commands(
-    ("va", 23),
-    library.make_picket_rhythm(4, 0),
 )
 
 commands(
@@ -1027,15 +1148,6 @@ commands(
 )
 
 commands(
-    ("va", (24, 31)),
-    library.make_flight_rhythm(
-        "A",
-        -1,
-        start=4,
-    ),
-)
-
-commands(
     ("va", (32, 37)),
     baca.accent(
         selector=lambda _: baca.select.pheads(_),
@@ -1059,15 +1171,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.plts(_)[:-1],
-    ),
-)
-
-commands(
-    ("va", (32, 37)),
-    library.make_flight_rhythm(
-        "A",
-        -1,
-        start=4,
     ),
 )
 
@@ -1103,15 +1206,6 @@ commands(
 )
 
 commands(
-    ("va", (38, 42)),
-    library.make_flight_rhythm(
-        "A",
-        -1,
-        start=4,
-    ),
-)
-
-commands(
     ("va", (43, 45)),
     baca.hairpin(
         '"mf" -- !',
@@ -1127,18 +1221,6 @@ commands(
         staff_padding=4,
     ),
 )
-commands(
-    ("va", (43, 45)),
-    library.make_to_flight_rhythm([(8, 8), (3, 16)]),
-)
-
-commands(
-    ("va", (46, 53)),
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-    ),
-)
-
 commands(
     ("va", (46, 53)),
     baca.damp_spanner(
@@ -1156,11 +1238,6 @@ commands(
 )
 
 # vc
-
-commands(
-    ("vc", (1, 2)),
-    library.make_trajectory_rhythm("B", -3, -3, end_counts=[1]),
-)
 
 commands(
     ("vc", (1, 2)),
@@ -1200,27 +1277,12 @@ commands(
 )
 
 commands(
-    ("vc", (3, 4)),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
-
-commands(
-    ("vc", (5, 8)),
-    library.make_accelerando((11, 32), (1, 2), measures=(6, 8)),
-)
-
-commands(
     ("vc", (5, 8)),
     library.bcps(
         -3,
         clt=True,
         staff_padding=4,
     ),
-)
-
-commands(
-    ("vc", (5, 8)),
-    library.make_trajectory_rhythm("B", -3, -3, measures=5),
 )
 
 commands(
@@ -1256,16 +1318,6 @@ commands(
     ),
 )
 
-baca.alternate_makers(
-    commands,
-    "vc",
-    [(9, 10), (13, 14)],
-    library.make_trajectory_rhythm("B", -3, -3),
-    baca.make_repeat_tied_notes(),
-    absolute_start=9,
-    total=17,
-)
-
 commands(
     ("vc", [(11, 12), (15, 17)]),
     baca.stem_tremolo(
@@ -1286,15 +1338,6 @@ commands(
     baca.breathe(),
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
-    ),
-)
-
-commands(
-    ("vc", (18, 20)),
-    library.make_flight_rhythm(
-        "A",
-        -2,
-        start=6,
     ),
 )
 
@@ -1328,11 +1371,6 @@ commands(
 )
 
 commands(
-    ("vc", (21, 23)),
-    library.make_cello_cell_rhythm(),
-)
-
-commands(
     ("vc", (24, 31)),
     baca.accent(
         selector=lambda _: baca.select.pheads(_),
@@ -1349,15 +1387,6 @@ commands(
         pieces=lambda _: baca.select.plts(_)[:-1],
     ),
     baca.flat_glissando("Eb2"),
-)
-
-commands(
-    ("vc", (24, 31)),
-    library.make_flight_rhythm(
-        "A",
-        -2,
-        start=6,
-    ),
 )
 
 commands(
@@ -1388,15 +1417,6 @@ commands(
 )
 
 commands(
-    ("vc", (32, 37)),
-    library.make_flight_rhythm(
-        "A",
-        -2,
-        start=6,
-    ),
-)
-
-commands(
     ("vc", (32, -1)),
     library.clouded_pane_spanner(
         "clouded pane -|",
@@ -1422,11 +1442,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         pieces=lambda _: baca.select.cmgroups(_, [8, 8]),
     ),
-)
-
-commands(
-    ("vc", (38, 54)),
-    library.make_clouded_pane_rhythm(),
 )
 
 if __name__ == "__main__":

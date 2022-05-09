@@ -68,7 +68,7 @@ time = (
 
 library.time(commands, time)
 
-# v1
+# V1
 
 baca.alternate_makers(
     commands,
@@ -79,6 +79,81 @@ baca.alternate_makers(
     total=20,
 )
 
+# V2
+
+baca.alternate_makers(
+    commands,
+    "v2",
+    [1, (3, 4), (6, 8), (10, 15)],
+    library.make_wave_rhythm((5, 32), (1, 4)),
+    baca.make_mmrests(),
+    total=20,
+)
+
+# VA
+
+commands(
+    ("va", (1, 19)),
+    baca.make_notes(),
+)
+
+commands(
+    ("va", 20),
+    baca.make_mmrests(),
+)
+
+# VC
+
+commands(
+    ("vc", 1),
+    baca.skeleton("c2. ~ c4"),
+)
+
+commands(
+    ("vc", 2),
+    baca.make_mmrests(),
+)
+
+baca.alternate_makers(
+    commands,
+    "vc",
+    [(3, 4), (6, 8), (10, 15)],
+    baca.make_repeat_tied_notes(),
+    baca.make_mmrests(),
+    absolute_start=3,
+    total=20,
+)
+
+# phantom
+
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
+)
+
+# after
+
+commands(
+    "tutti",
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    "v2",
+    baca.dls_staff_padding(6),
+    baca.note_head_style_harmonic(),
+    baca.tuplet_bracket_down(),
+)
+
+commands(
+    ("va", (1, 19)),
+    baca.flat_glissando(
+        "Bb2",
+        hide_middle_stems=True,
+        left_broken=True,
+    ),
+)
+
 commands(
     "v1",
     baca.dls_staff_padding(7),
@@ -87,10 +162,6 @@ commands(
 
 commands(
     ("v1", [1, (3, 4), (6, 8), (10, 15)]),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=0,
-    ),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
         qualifier="wide",
@@ -122,30 +193,8 @@ commands(
     baca.tacet(),
 )
 
-# v2
-
-commands(
-    "v2",
-    baca.dls_staff_padding(6),
-    baca.note_head_style_harmonic(),
-    baca.tuplet_bracket_down(),
-)
-
-baca.alternate_makers(
-    commands,
-    "v2",
-    [1, (3, 4), (6, 8), (10, 15)],
-    library.make_wave_rhythm((5, 32), (1, 4)),
-    baca.make_mmrests(),
-    total=20,
-)
-
 commands(
     ("v2", [1, (3, 4), (6, 8), (10, 15)]),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=0,
-    ),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
         qualifier="wide",
@@ -170,45 +219,6 @@ commands(
     ),
 )
 
-# va
-
-commands(
-    ("va", (1, 19)),
-    baca.make_notes(),
-)
-
-commands(
-    ("va", (1, 19)),
-    baca.reapply_persistent_indicators(),
-    baca.flat_glissando(
-        "Bb2",
-        hide_middle_stems=True,
-        left_broken=True,
-    ),
-)
-
-# vc
-
-commands(
-    ("vc", 1),
-    baca.skeleton("c2. ~ c4"),
-)
-
-commands(
-    ("vc", 2),
-    baca.make_mmrests(),
-)
-
-baca.alternate_makers(
-    commands,
-    "vc",
-    [(3, 4), (6, 8), (10, 15)],
-    baca.make_repeat_tied_notes(),
-    baca.make_mmrests(),
-    absolute_start=3,
-    total=20,
-)
-
 commands(
     "vc",
     baca.dls_staff_padding(6),
@@ -216,7 +226,6 @@ commands(
 
 commands(
     ("vc", 1),
-    baca.reapply_persistent_indicators(),
     baca.flat_glissando("B0"),
     baca.hairpin("o< mf"),
     baca.ottava_bassa(),
@@ -285,10 +294,13 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[9, 16, 20],
         final_segment=True,
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(

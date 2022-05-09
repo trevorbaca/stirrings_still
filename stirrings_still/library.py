@@ -1932,9 +1932,8 @@ def make_synchronized_circle_rhythm(
     return result
 
 
-def make_tailpiece_material(*tweaks, measures=None):
+def style_tailpiece_material(*tweaks):
     command = baca.suite(
-        baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
         baca.dots_transparent(
             selector=lambda _: baca.select.leaves(_)[1:],
         ),
@@ -1949,7 +1948,6 @@ def make_tailpiece_material(*tweaks, measures=None):
             *tweaks,
             selector=lambda _: baca.select.rleaves(_),
         ),
-        measures=measures,
     )
     tag = baca.tags.function_name(inspect.currentframe())
     result = baca.tag(tag, command)

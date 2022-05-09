@@ -72,12 +72,174 @@ time = (
 
 library.time(commands, time)
 
-# v1
+# V1
 
 commands(
     ("v1", (1, 8)),
     library.make_clouded_pane_rhythm(),
 )
+
+commands(
+    ("v1", (13, 22)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("v1", (23, 28)),
+    library.make_flight_rhythm(
+        "C",
+        0,
+        start=0,
+    ),
+)
+
+commands(
+    ("v1", 29),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v1", (30, 35)),
+    library.make_flight_rhythm(
+        "C",
+        0,
+        start=1,
+    ),
+)
+
+commands(
+    ("v1", (37, 38)),
+    library.make_eighth_notes(),
+)
+
+# V2
+
+commands(
+    ("v2", (1, 8)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("v2", (13, 22)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("v2", (23, 28)),
+    library.make_flight_rhythm(
+        "C",
+        -1,
+        start=1,
+    ),
+)
+
+commands(
+    ("v2", 29),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("v2", (30, 35)),
+    library.make_flight_rhythm(
+        "C",
+        -1,
+        start=2,
+    ),
+)
+
+commands(
+    ("v2", (37, 38)),
+    library.make_eighth_notes(),
+)
+
+# VA
+
+commands(
+    ("va", (1, 8)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("va", (13, 22)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("va", (23, 28)),
+    library.make_flight_rhythm(
+        "C",
+        -2,
+        start=2,
+    ),
+)
+
+commands(
+    ("va", 29),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (30, 35)),
+    library.make_flight_rhythm(
+        "C",
+        -2,
+        start=3,
+    ),
+)
+
+commands(
+    ("va", (37, 38)),
+    library.make_eighth_notes(),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 10)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (11, 12)),
+    library.make_cello_cell_rhythm(),
+)
+
+commands(
+    ("vc", (13, 22)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (23, 28)),
+    library.make_flight_rhythm(
+        "C",
+        -3,
+        start=3,
+    ),
+)
+
+commands(
+    ("vc", 29),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (30, 35)),
+    library.make_flight_rhythm(
+        "C",
+        -3,
+        start=4,
+    ),
+)
+
+commands(
+    ("vc", (37, 38)),
+    library.make_clouded_pane_rhythm(),
+)
+
+# phantom
+
+# after
 
 commands(
     ("v1", (1, 8)),
@@ -121,11 +283,6 @@ commands(
 )
 
 commands(
-    ("v1", (13, 22)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
     ("v1", [(23, 28), (30, 35)]),
     baca.flat_glissando("<A3 Fqs4>"),
     baca.new(
@@ -157,20 +314,6 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-)
-
-commands(
-    ("v1", (23, 28)),
-    library.make_flight_rhythm(
-        "C",
-        0,
-        start=0,
-    ),
-)
-
-commands(
-    ("v1", 29),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -213,15 +356,6 @@ commands(
 )
 
 commands(
-    ("v1", (30, 35)),
-    library.make_flight_rhythm(
-        "C",
-        0,
-        start=1,
-    ),
-)
-
-commands(
     ("v1", (37, 38)),
     baca.beam(),
     baca.flat_glissando(
@@ -241,11 +375,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-)
-
-commands(
-    ("v1", (37, 38)),
-    library.make_eighth_notes(),
 )
 
 # trio
@@ -299,13 +428,6 @@ commands(
     baca.dls_staff_padding(6),
 )
 
-# v2
-
-commands(
-    ("v2", (1, 8)),
-    library.make_clouded_pane_rhythm(),
-)
-
 commands(
     ("v2", (1, 8)),
     baca.reapply_persistent_indicators(),
@@ -348,11 +470,6 @@ commands(
 )
 
 commands(
-    ("v2", (13, 22)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
     ("v2", [(23, 28), (30, 35)]),
     baca.flat_glissando("<F#3 Dqs4>"),
     baca.new(
@@ -384,20 +501,6 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-)
-
-commands(
-    ("v2", (23, 28)),
-    library.make_flight_rhythm(
-        "C",
-        -1,
-        start=1,
-    ),
-)
-
-commands(
-    ("v2", 29),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -440,15 +543,6 @@ commands(
 )
 
 commands(
-    ("v2", (30, 35)),
-    library.make_flight_rhythm(
-        "C",
-        -1,
-        start=2,
-    ),
-)
-
-commands(
     ("v2", (37, 38)),
     baca.beam(),
     baca.flat_glissando(
@@ -468,18 +562,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-)
-
-commands(
-    ("v2", (37, 38)),
-    library.make_eighth_notes(),
-)
-
-# va
-
-commands(
-    ("va", (1, 8)),
-    library.make_clouded_pane_rhythm(),
 )
 
 commands(
@@ -524,11 +606,6 @@ commands(
 )
 
 commands(
-    ("va", (13, 22)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
     ("va", [(23, 28), (30, 35)]),
     baca.flat_glissando("<C3 Aqs3>"),
     baca.new(
@@ -560,20 +637,6 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-)
-
-commands(
-    ("va", (23, 28)),
-    library.make_flight_rhythm(
-        "C",
-        -2,
-        start=2,
-    ),
-)
-
-commands(
-    ("va", 29),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -616,15 +679,6 @@ commands(
 )
 
 commands(
-    ("va", (30, 35)),
-    library.make_flight_rhythm(
-        "C",
-        -2,
-        start=3,
-    ),
-)
-
-commands(
     ("va", (37, 38)),
     baca.beam(),
     baca.flat_glissando(
@@ -644,18 +698,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-)
-
-commands(
-    ("va", (37, 38)),
-    library.make_eighth_notes(),
-)
-
-# vc
-
-commands(
-    ("vc", (1, 10)),
-    library.make_clouded_pane_rhythm(),
 )
 
 commands(
@@ -683,11 +725,6 @@ commands(
 
 commands(
     ("vc", (11, 12)),
-    library.make_cello_cell_rhythm(),
-)
-
-commands(
-    ("vc", (11, 12)),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {3 + 6}"),
     ),
@@ -703,11 +740,6 @@ commands(
         baca.stem_transparent(),
         selector=lambda _: baca.select.leaves(_)[:-1],
     ),
-)
-
-commands(
-    ("vc", (13, 22)),
-    library.make_clouded_pane_rhythm(),
 )
 
 commands(
@@ -747,15 +779,6 @@ commands(
 )
 
 commands(
-    ("vc", (23, 28)),
-    library.make_flight_rhythm(
-        "C",
-        -3,
-        start=3,
-    ),
-)
-
-commands(
     ("vc", [(23, 28), (30, 35)]),
     baca.flat_glissando("<B2 Gqs3>"),
     baca.new(
@@ -766,11 +789,6 @@ commands(
         match=0,
     ),
     library.urtext_spanner("urtext (field) -|", 8),
-)
-
-commands(
-    ("vc", 29),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -814,15 +832,6 @@ commands(
 )
 
 commands(
-    ("vc", (30, 35)),
-    library.make_flight_rhythm(
-        "C",
-        -3,
-        start=4,
-    ),
-)
-
-commands(
     ("vc", (37, 38)),
     baca.flat_glissando("B1"),
     baca.hairpin(
@@ -841,11 +850,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=lambda _: baca.select.rleaves(_),
     ),
-)
-
-commands(
-    ("vc", (37, 38)),
-    library.make_clouded_pane_rhythm(),
 )
 
 if __name__ == "__main__":
