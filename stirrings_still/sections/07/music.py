@@ -83,7 +83,7 @@ time = (
 
 library.time(commands, time)
 
-# v1
+# V1
 
 commands(
     ("v1", 1),
@@ -93,6 +93,11 @@ commands(
 commands(
     ("v1", 3),
     library.make_loure_tuplets_material(0),
+)
+
+commands(
+    ("v1", (5, 6)),
+    library.make_urtext_field_rhythm(),
 )
 
 commands(
@@ -111,9 +116,200 @@ commands(
 )
 
 commands(
+    ("v1", (12, 13)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
     ("v1", 14),
     library.make_loure_tuplets_material(0),
 )
+
+commands(
+    ("v1", (16, 17)),
+    library.make_flight_rhythm(
+        "A",
+        0,
+        start=4,
+    ),
+)
+
+commands(
+    ("v1", (19, 24)),
+    library.make_stroke_rhythm(0),
+)
+
+# V2
+
+commands(
+    ("v2", 1),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", 3),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", (5, 6)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", 7),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", 9),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", 11),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", 12),
+    library.make_clocktick_rhythm(),
+)
+
+commands(
+    ("v2", 13),
+    baca.skeleton(
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
+    ),
+)
+
+commands(
+    ("v2", 14),
+    library.make_loure_tuplets_material(1),
+)
+
+commands(
+    ("v2", (16, 17)),
+    library.make_flight_rhythm(
+        "C",
+        -1,
+        start=4,
+    ),
+)
+
+commands(
+    ("v2", (19, 24)),
+    library.make_stroke_rhythm(0),
+)
+
+# VA
+
+commands(
+    ("va", 1),
+    library.make_loure_tuplets_material(-1),
+)
+
+commands(
+    ("va", 3),
+    library.make_loure_tuplets_material(-1),
+)
+
+commands(
+    ("va", (5, 6)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", 7),
+    library.make_loure_tuplets_material(-1),
+)
+
+commands(
+    ("va", 9),
+    library.make_loure_tuplets_material(-1),
+)
+
+commands(
+    ("va", 11),
+    library.make_loure_tuplets_material(-1),
+)
+
+commands(
+    ("va", (12, 13)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("va", 14),
+    library.make_loure_tuplets_material(-1),
+)
+
+commands(
+    ("va", (16, 17)),
+    library.make_flight_rhythm(
+        "B",
+        -2,
+        start=4,
+    ),
+)
+
+commands(
+    ("va", (19, 24)),
+    library.make_stroke_rhythm(0),
+)
+
+# VC
+
+commands(
+    ("vc", 1),
+    library.make_taper_rhythm((1, 1)),
+)
+
+commands(
+    ("vc", 3),
+    library.make_taper_rhythm((1, 1)),
+)
+
+commands(
+    ("vc", 7),
+    library.make_taper_rhythm((1, 1)),
+)
+
+commands(
+    ("vc", 9),
+    library.make_taper_rhythm((1, 1)),
+)
+
+commands(
+    ("vc", 11),
+    library.make_taper_rhythm((1, 1)),
+)
+
+commands(
+    ("vc", (12, 13)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", 14),
+    library.make_taper_rhythm((1, 1)),
+)
+
+commands(
+    ("vc", (16, 17)),
+    library.make_flight_rhythm(
+        "B",
+        -4,
+        start=6,
+    ),
+)
+
+commands(
+    ("vc", (19, 24)),
+    library.make_stroke_rhythm(0),
+)
+
+# after
 
 commands(
     ("v1", [1, 3, 7, 9, 11, 14]),
@@ -141,21 +337,6 @@ commands(
 commands(
     "trio",
     baca.tuplet_bracket_down(),
-)
-
-commands(
-    ("v1", (5, 6)),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("v2", (5, 6)),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("va", (5, 6)),
-    library.make_urtext_field_rhythm(),
 )
 
 commands(
@@ -203,42 +384,6 @@ commands(
 commands(
     "tutti",
     baca.dls_staff_padding(6),
-)
-
-commands(
-    ("v1", (16, 17)),
-    library.make_flight_rhythm(
-        "A",
-        0,
-        start=4,
-    ),
-)
-
-commands(
-    ("v2", (16, 17)),
-    library.make_flight_rhythm(
-        "C",
-        -1,
-        start=4,
-    ),
-)
-
-commands(
-    ("va", (16, 17)),
-    library.make_flight_rhythm(
-        "B",
-        -2,
-        start=4,
-    ),
-)
-
-commands(
-    ("vc", (16, 17)),
-    library.make_flight_rhythm(
-        "B",
-        -4,
-        start=6,
-    ),
 )
 
 commands(
@@ -310,42 +455,7 @@ commands(
     ),
 )
 
-commands(
-    ("v1", (19, 24)),
-    library.make_stroke_rhythm(0),
-)
-
-commands(
-    ("v2", (19, 24)),
-    library.make_stroke_rhythm(0),
-)
-
-commands(
-    ("va", (19, 24)),
-    library.make_stroke_rhythm(0),
-)
-
-commands(
-    ("vc", (19, 24)),
-    library.make_stroke_rhythm(0),
-)
-
 # v1, va, vc
-
-commands(
-    ("v1", (12, 13)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("va", (12, 13)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("vc", (12, 13)),
-    library.make_clouded_pane_rhythm(),
-)
 
 commands(
     (["v1", "va", "vc"], (12, 13)),
@@ -384,38 +494,6 @@ commands(
         library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
         match=2,
     ),
-)
-
-# v2
-
-commands(
-    ("v2", 1),
-    library.make_loure_tuplets_material(1),
-)
-
-commands(
-    ("v2", 3),
-    library.make_loure_tuplets_material(1),
-)
-
-commands(
-    ("v2", 7),
-    library.make_loure_tuplets_material(1),
-)
-
-commands(
-    ("v2", 9),
-    library.make_loure_tuplets_material(1),
-)
-
-commands(
-    ("v2", 11),
-    library.make_loure_tuplets_material(1),
-)
-
-commands(
-    ("v2", 14),
-    library.make_loure_tuplets_material(1),
 )
 
 commands(
@@ -457,50 +535,6 @@ commands(
 )
 
 commands(
-    ("v2", 12),
-    library.make_clocktick_rhythm(),
-)
-
-commands(
-    ("v2", 13),
-    baca.skeleton(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-    ),
-)
-
-# va
-
-commands(
-    ("va", 1),
-    library.make_loure_tuplets_material(-1),
-)
-
-commands(
-    ("va", 3),
-    library.make_loure_tuplets_material(-1),
-)
-
-commands(
-    ("va", 7),
-    library.make_loure_tuplets_material(-1),
-)
-
-commands(
-    ("va", 9),
-    library.make_loure_tuplets_material(-1),
-)
-
-commands(
-    ("va", 11),
-    library.make_loure_tuplets_material(-1),
-)
-
-commands(
-    ("va", 14),
-    library.make_loure_tuplets_material(-1),
-)
-
-commands(
     ("va", [1, 3, 7, 9, 11, 14]),
     baca.new(
         baca.reapply_persistent_indicators(),
@@ -524,38 +558,6 @@ commands(
 commands(
     ("va", 19),
     baca.clef("treble"),
-)
-
-# vc
-
-commands(
-    ("vc", 1),
-    library.make_taper_rhythm((1, 1)),
-)
-
-commands(
-    ("vc", 3),
-    library.make_taper_rhythm((1, 1)),
-)
-
-commands(
-    ("vc", 7),
-    library.make_taper_rhythm((1, 1)),
-)
-
-commands(
-    ("vc", 9),
-    library.make_taper_rhythm((1, 1)),
-)
-
-commands(
-    ("vc", 11),
-    library.make_taper_rhythm((1, 1)),
-)
-
-commands(
-    ("vc", 14),
-    library.make_taper_rhythm((1, 1)),
 )
 
 commands(
