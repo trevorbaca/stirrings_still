@@ -67,7 +67,97 @@ time = (
 
 library.time(commands, time)
 
-# v1
+# V1
+
+commands(
+    ("v1", (1, 2)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v1", (3, 4)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("v1", (5, 11)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v1", (12, 17)),
+    library.make_trajectory_rhythm("C", -1, -2),
+)
+
+# V2
+
+commands(
+    ("v2", (1, 2)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", 3),
+    library.make_clocktick_rhythm(),
+)
+
+commands(
+    ("v2", (5, 11)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("v2", (12, 17)),
+    library.make_trajectory_rhythm("C", -2, -1),
+)
+
+# VA
+
+commands(
+    ("va", (1, 2)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", (3, 4)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("va", (5, 11)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("va", (12, 17)),
+    library.make_trajectory_rhythm("C", -3, 0),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 2)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (3, 4)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (7, 11)),
+    library.make_urtext_field_rhythm(),
+)
+
+commands(
+    ("vc", (12, 13)),
+    library.make_accelerando((1, 4), (3, 32)),
+)
+
+# phantom
+
+# after
 
 commands(
     ("v1", (1, 2)),
@@ -97,21 +187,6 @@ commands(
 # trio
 
 commands(
-    ("v1", (1, 2)),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("v2", (1, 2)),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("va", (1, 2)),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
     ("trio", (1, 2)),
     baca.reapply_persistent_indicators(),
     baca.dynamic_text_self_alignment_x(
@@ -124,21 +199,6 @@ commands(
         selector=lambda _: baca.select.rleaves(_),
     ),
     library.urtext_spanner("urtext (ds field) -|", 8),
-)
-
-commands(
-    ("v1", (5, 11)),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("v2", (5, 11)),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("va", (5, 11)),
-    library.make_urtext_field_rhythm(),
 )
 
 commands(
@@ -157,21 +217,6 @@ commands(
 commands(
     ("trio", (5, 11)),
     library.urtext_spanner("urtext (ds field) -|", 8),
-)
-
-commands(
-    ("v1", (12, 17)),
-    library.make_trajectory_rhythm("C", -1, -2),
-)
-
-commands(
-    ("v2", (12, 17)),
-    library.make_trajectory_rhythm("C", -2, -1),
-)
-
-commands(
-    ("va", (12, 17)),
-    library.make_trajectory_rhythm("C", -3, 0),
 )
 
 commands(
@@ -217,21 +262,6 @@ commands(
 )
 
 # v1, va, vc
-
-commands(
-    ("v1", (3, 4)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("va", (3, 4)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("vc", (3, 4)),
-    library.make_clouded_pane_rhythm(),
-)
 
 commands(
     (["v1", "va", "vc"], (3, 4)),
@@ -341,11 +371,6 @@ commands(
 
 
 commands(
-    ("v2", 3),
-    library.make_clocktick_rhythm(),
-)
-
-commands(
     ("v2", 4),
     baca.skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
@@ -377,13 +402,6 @@ commands(
         [("F4", 5), ("E4", 5), ("Gb4", 6), ("F4", 7), ("Eb4", None)],
         "D4",
     ),
-)
-
-# vc
-
-commands(
-    ("vc", (1, 2)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -432,11 +450,6 @@ commands(
 )
 
 commands(
-    ("vc", (7, 11)),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
     ("vc", (12, 13)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -449,11 +462,6 @@ commands(
     baca.hairpin(
         "fff > pp",
     ),
-)
-
-commands(
-    ("vc", (12, 13)),
-    library.make_accelerando((1, 4), (3, 32)),
 )
 
 commands(

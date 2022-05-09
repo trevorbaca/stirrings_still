@@ -48,7 +48,61 @@ time = (
 
 library.time(commands, time)
 
-# v1
+# V1
+
+commands(
+    ("v1", (1, 7)),
+    library.make_circle_rhythm((1, 8)),
+)
+
+commands(
+    ("v1", (10, 11)),
+    library.make_urtext_field_rhythm(),
+)
+
+# V2
+
+commands(
+    ("v2", (1, 7)),
+    library.make_circle_rhythm((1, 4)),
+)
+
+commands(
+    ("v2", (10, 11)),
+    library.make_urtext_field_rhythm(),
+)
+
+# VA
+
+commands(
+    ("va", (1, 7)),
+    library.make_circle_rhythm(
+        (1, 2),
+        rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
+        remainder=abjad.LEFT,
+    ),
+)
+
+commands(
+    ("va", (10, 11)),
+    library.make_urtext_field_rhythm(),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 6)),
+    library.make_eighth_notes(),
+)
+
+commands(
+    ("vc", (7, -1)),
+    library.make_cello_cell_rhythm(),
+)
+
+# phantom
+
+# after
 
 commands(
     ("v1", (1, 7)),
@@ -79,25 +133,6 @@ commands(
 # trio
 
 commands(
-    ("v1", (1, 7)),
-    library.make_circle_rhythm((1, 8)),
-)
-
-commands(
-    ("v2", (1, 7)),
-    library.make_circle_rhythm((1, 4)),
-)
-
-commands(
-    ("va", (1, 7)),
-    library.make_circle_rhythm(
-        (1, 2),
-        rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
-        remainder=abjad.LEFT,
-    ),
-)
-
-commands(
     ("trio", (1, 7)),
     baca.reapply_persistent_indicators(),
     baca.new(
@@ -117,21 +152,6 @@ commands(
 commands(
     ("trio", 9),
     baca.tacet(),
-)
-
-commands(
-    ("v1", (10, 11)),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("v2", (10, 11)),
-    library.make_urtext_field_rhythm(),
-)
-
-commands(
-    ("va", (10, 11)),
-    library.make_urtext_field_rhythm(),
 )
 
 commands(
@@ -251,11 +271,6 @@ commands(
 
 commands(
     ("vc", (1, 6)),
-    library.make_eighth_notes(),
-)
-
-commands(
-    ("vc", (1, 6)),
     baca.reapply_persistent_indicators(),
     baca.beam(),
     baca.suite(
@@ -268,11 +283,6 @@ commands(
         final_spanner=True,
         staff_padding=6,
     ),
-)
-
-commands(
-    ("vc", (7, -1)),
-    library.make_cello_cell_rhythm(),
 )
 
 commands(
