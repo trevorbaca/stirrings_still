@@ -542,7 +542,6 @@ commands(
 
 commands(
     ("tutti", (1, 6)),
-    baca.reapply_persistent_indicators(),
     baca.dynamic("p"),
 )
 
@@ -977,7 +976,11 @@ commands(
         abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
     ),
-    library.tailpiece(
+)
+
+commands(
+    ("va", (49, 53)),
+    library.make_tailpiece_material(
         abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
     ),
 )
@@ -1016,7 +1019,11 @@ commands(
         '"mf"',
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
-    library.tailpiece(
+)
+
+commands(
+    ("va", (90, 93)),
+    library.make_tailpiece_material(
         abjad.Tweak(r"- \tweak bound-details.right.Y 0"),
         abjad.Tweak(r"- \tweak bound-details.right.padding 5.5"),
     ),
@@ -1117,6 +1124,13 @@ commands(
 commands(
     ("vc", (94, 99)),
     library.make_clouded_pane_rhythm(),
+)
+
+# after
+
+commands(
+    "tutti",
+    baca.reapply_persistent_indicators(),
 )
 
 commands(

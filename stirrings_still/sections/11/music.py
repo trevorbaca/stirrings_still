@@ -884,7 +884,7 @@ commands(
         abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
         abjad.Tweak(r"- \tweak extra-offset #'(-3 . 0)"),
     ),
-    library.tailpiece(
+    library.make_tailpiece_material(
         abjad.Tweak(r"- \tweak bound-details.right.Y 0"),
         abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
     ),

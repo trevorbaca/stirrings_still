@@ -48,7 +48,7 @@ time = (
 
 library.time(commands, time)
 
-# v1
+# V1
 
 commands(
     ("v1", (1, 8)),
@@ -56,8 +56,104 @@ commands(
 )
 
 commands(
-    ("v1", (1, 8)),
+    ("v1", (9, 11)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v1", (12, 13)),
+    library.make_desynchronization_rhythm(4, [1]),
+)
+
+commands(
+    ("v1", 14),
+    baca.make_mmrests(),
+)
+
+# V2
+
+commands(
+    ("v2", (1, 8)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("v2", (9, 11)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("v2", (12, 13)),
+    library.make_desynchronization_rhythm(4, [0]),
+)
+
+commands(
+    ("v2", 14),
+    baca.make_mmrests(),
+)
+
+# VA
+
+commands(
+    ("va", (1, 10)),
+    library.make_tailpiece_material(
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+    ),
+)
+
+commands(
+    ("va", 11),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (12, 13)),
+    library.make_desynchronization_rhythm(4, [2]),
+)
+
+commands(
+    ("va", 14),
+    baca.make_mmrests(),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 8)),
+    library.make_clouded_pane_rhythm(),
+)
+
+commands(
+    ("vc", (9, 11)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (12, 13)),
+    library.make_desynchronization_rhythm(4, [-1]),
+)
+
+commands(
+    ("vc", 14),
+    baca.make_mmrests(),
+)
+
+# phantom
+
+commands(
+    "tutti",
+    baca.append_phantom_measure(),
+)
+
+# after
+
+commands(
+    "tutti",
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("v1", (1, 8)),
     baca.flat_glissando(
         "<F5 Bqs5>",
         hide_middle_stems=True,
@@ -77,16 +173,8 @@ commands(
     ),
 )
 
-# v2
-
 commands(
     ("v2", (1, 8)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("v2", (1, 8)),
-    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "<G4 Dqs5>",
         hide_middle_stems=True,
@@ -106,14 +194,8 @@ commands(
     ),
 )
 
-# va
-
 commands(
     ("va", (1, 10)),
-    library.tailpiece(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-    ),
-    baca.reapply_persistent_indicators(),
     baca.staff_lines(1),
     baca.dynamic(
         '"mf"',
@@ -126,16 +208,8 @@ commands(
     baca.staff_lines(5),
 )
 
-# vc
-
 commands(
     ("vc", (1, 8)),
-    library.make_clouded_pane_rhythm(),
-)
-
-commands(
-    ("vc", (1, 8)),
-    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Eb2",
         hide_middle_stems=True,
@@ -167,26 +241,6 @@ commands(
     "tutti",
     baca.dls_staff_padding(6),
     baca.tuplet_bracket_down(),
-)
-
-commands(
-    ("v1", (12, 13)),
-    library.make_desynchronization_rhythm(4, [1]),
-)
-
-commands(
-    ("v2", (12, 13)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
-
-commands(
-    ("va", (12, 13)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
-
-commands(
-    ("vc", (12, 13)),
-    library.make_desynchronization_rhythm(4, [-1]),
 )
 
 commands(
@@ -235,9 +289,11 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[11],
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
     )
     lilypond_file = baca.make_lilypond_file(
