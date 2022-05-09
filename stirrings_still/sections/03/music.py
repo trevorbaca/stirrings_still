@@ -339,7 +339,6 @@ commands(
 
 commands(
     ("tutti", (1, 4)),
-    baca.reapply_persistent_indicators(),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="tight-poss-grind-at-talon",
@@ -981,6 +980,12 @@ commands(
     library.make_desynchronization_rhythm(4, [-1]),
 )
 
+# after
+
+commands(
+    "tutti",
+    baca.reapply_persistent_indicators(),
+)
 commands(
     "vc",
     baca.clef("treble"),

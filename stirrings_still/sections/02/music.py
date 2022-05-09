@@ -237,7 +237,7 @@ commands(
 # after
 
 commands(
-    "v1",
+    "tutti",
     baca.reapply_persistent_indicators(),
 )
 
@@ -949,7 +949,6 @@ commands(
 
 commands(
     ("v2", (1, 7)),
-    baca.reapply_persistent_indicators(),
     baca.alternate_bow_strokes(),
     baca.damp_spanner(
         abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -1279,7 +1278,6 @@ commands(
 
 commands(
     ("va", (1, 5)),
-    baca.reapply_persistent_indicators(),
     baca.alternate_bow_strokes(),
     baca.clef("treble"),
     baca.half_clt_spanner(
@@ -1646,6 +1644,13 @@ commands(
     library.make_grid_rhythm(rotation=-3),
 )
 
+# after
+
+commands(
+    "tutti",
+    baca.reapply_persistent_indicators(),
+)
+
 commands(
     ("vc", (1, 4)),
     baca.hairpin(
@@ -1657,7 +1662,6 @@ commands(
 
 commands(
     ("vc", (1, 5)),
-    baca.reapply_persistent_indicators(),
     baca.alternate_bow_strokes(),
     baca.clef("treble"),
     baca.clef(

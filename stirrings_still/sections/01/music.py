@@ -354,8 +354,12 @@ commands(
 # after
 
 commands(
-    ("trio", [1, 3, (5, 6), (8, 9)]),
+    "tutti",
     baca.attach_first_segment_default_indicators(),
+)
+
+commands(
+    ("trio", [1, 3, (5, 6), (8, 9)]),
     baca.new(
         baca.script_padding(1),
         baca.stop_on_string(),
@@ -928,12 +932,9 @@ commands(
 
 commands(
     ("vc", (1, 11)),
-    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
-    baca.suite(
-        library.margin_markup("Vc."),
-        baca.start_markup(r"\stirrings-still-cello-markup"),
-    ),
+    library.margin_markup("Vc."),
+    baca.start_markup(r"\stirrings-still-cello-markup"),
 )
 
 commands(

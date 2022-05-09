@@ -1932,6 +1932,31 @@ def make_synchronized_circle_rhythm(
     return result
 
 
+def make_tailpiece_material(*tweaks, measures=None):
+    command = baca.suite(
+        baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+        baca.dots_transparent(
+            selector=lambda _: baca.select.leaves(_)[1:],
+        ),
+        baca.markup(r"\baca-boxed-markup tailpiece"),
+        baca.staff_position(0),
+        baca.stem_transparent(
+            selector=lambda _: baca.select.leaves(_)[1:],
+        ),
+        baca.text_script_parent_alignment_x(0),
+        baca.flat_glissando(
+            None,
+            *tweaks,
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+        measures=measures,
+    )
+    tag = baca.tags.function_name(inspect.currentframe())
+    result = baca.tag(tag, command)
+    assert isinstance(result, baca.Suite)
+    return result
+
+
 def make_talea_eighth_notes(counts, rotation, extra, *, end_counts=(), measures=None):
     assert isinstance(extra, int), extra
     extra_counts = [extra]
@@ -3205,31 +3230,6 @@ def second_order_stages(segment):
         measure_number += target_stage.time_signature_count
         dictionary[stage_number] = target_stage
     return dictionary
-
-
-def tailpiece(*tweaks, measures=None):
-    command = baca.suite(
-        baca.dots_transparent(
-            selector=lambda _: baca.select.leaves(_)[1:],
-        ),
-        baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-        baca.markup(r"\baca-boxed-markup tailpiece"),
-        baca.staff_position(0),
-        baca.stem_transparent(
-            selector=lambda _: baca.select.leaves(_)[1:],
-        ),
-        baca.text_script_parent_alignment_x(0),
-        baca.flat_glissando(
-            None,
-            *tweaks,
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        measures=measures,
-    )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.Suite)
-    return result
 
 
 def time(maker: baca.CommandAccumulator, pairs: typing.Tuple):
