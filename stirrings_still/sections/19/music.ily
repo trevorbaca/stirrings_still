@@ -7786,7 +7786,7 @@ segment.19.Cello.Music.Voice = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     b,,,2.
     % AFTER:
     % MARKUP:
@@ -7826,7 +7826,7 @@ segment.19.Cello.Music.Voice = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.rhythm_annotation_spanner()
-    - \baca-text-spanner-left-text "baca.skeleton()"
+    - \baca-text-spanner-left-text "baca.make_skeleton()"
       %! RHYTHM_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
@@ -7898,7 +7898,7 @@ segment.19.Cello.Music.Voice = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     b,,,4
     % AFTER:
     % ARTICULATIONS:
