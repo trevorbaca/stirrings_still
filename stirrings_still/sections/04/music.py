@@ -728,7 +728,7 @@ commands(
 
 commands(
     ("vc", 57),
-    baca.skeleton("c2. ~ c4"),
+    baca.make_skeleton("c2. ~ c4"),
 )
 
 commands(

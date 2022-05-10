@@ -103,7 +103,7 @@ commands(
 
 commands(
     ("v2", 4),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
     ),
 )

@@ -188,14 +188,14 @@ commands(
 
 commands(
     ("v1", 15),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
     ),
 )
 
 commands(
     ("v1", 16),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
         r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
     ),
@@ -203,7 +203,7 @@ commands(
 
 commands(
     ("v1", 17),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
     ),
 )
@@ -374,7 +374,7 @@ commands(
 
 commands(
     ("v2", 13),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
     ),
 )
@@ -386,14 +386,14 @@ commands(
 
 commands(
     ("v2", 15),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
     ),
 )
 
 commands(
     ("v2", 16),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
         r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
     ),
@@ -401,7 +401,7 @@ commands(
 
 commands(
     ("v2", 17),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
     ),
 )
@@ -738,7 +738,7 @@ commands(
 
 commands(
     ("vc", 16),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
         r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
     ),
@@ -746,7 +746,7 @@ commands(
 
 commands(
     ("vc", 17),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
     ),
 )
