@@ -1380,7 +1380,7 @@ segment.09.Violin.I.Music.Voice = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \once \override MultiMeasureRest.color = #green
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2214,7 +2214,7 @@ segment.09.Violin.II.Music.Voice = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \once \override MultiMeasureRest.color = #green
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -3019,7 +3019,7 @@ segment.09.Viola.Music.Voice = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \once \override MultiMeasureRest.color = #green
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:

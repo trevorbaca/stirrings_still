@@ -12193,7 +12193,7 @@ segment.07.Cello.Music.Voice = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \override MultiMeasureRest.color = #green
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -12205,7 +12205,7 @@ segment.07.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 6]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:

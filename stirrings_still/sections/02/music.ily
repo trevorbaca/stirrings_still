@@ -5579,7 +5579,7 @@ segment.02.Violin.I.Music.Voice = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \override MultiMeasureRest.color = #green
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 5/8
     % AFTER:
     % MARKUP:
@@ -5591,7 +5591,7 @@ segment.02.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 10]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -5603,7 +5603,7 @@ segment.02.Violin.I.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -7484,7 +7484,7 @@ segment.02.Violin.I.Music.Voice = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -14679,7 +14679,7 @@ segment.02.Violin.II.Music.Voice = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \override MultiMeasureRest.color = #green
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 5/8
     % AFTER:
     % MARKUP:
@@ -14691,7 +14691,7 @@ segment.02.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 10]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -14703,7 +14703,7 @@ segment.02.Violin.II.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_II_Music_Voice measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -24316,7 +24316,7 @@ segment.02.Viola.Music.Voice = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \override MultiMeasureRest.color = #green
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 5/8
     % AFTER:
     % MARKUP:
@@ -24328,7 +24328,7 @@ segment.02.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 10]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -24340,7 +24340,7 @@ segment.02.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:

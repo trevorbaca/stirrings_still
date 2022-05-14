@@ -7920,7 +7920,7 @@ segment.10.Cello.Music.Voice = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \once \override MultiMeasureRest.color = #green
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -8208,7 +8208,7 @@ segment.10.Cello.Music.Voice = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \once \override MultiMeasureRest.color = #green
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -8755,7 +8755,7 @@ segment.10.Cello.Music.Voice = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \override MultiMeasureRest.color = #green
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 7/8
     % AFTER:
     % MARKUP:
@@ -8767,7 +8767,7 @@ segment.10.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 16]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -8779,7 +8779,7 @@ segment.10.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 17]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 5/8
     % AFTER:
     % MARKUP:
