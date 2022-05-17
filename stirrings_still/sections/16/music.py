@@ -5,7 +5,7 @@ from abjadext import rmakers
 from stirrings_still import library
 
 #########################################################################################
-######################################### 16 [P] ########################################
+########################################### 16 ##########################################
 #########################################################################################
 
 stage_markup = (
@@ -302,14 +302,17 @@ commands(
     baca.make_mmrests(),
 )
 
-# phantom
+# phantom & reapply
+
+music_voice_names = [_ for _ in voice_names if "Music_Voice" in _]
 
 commands(
-    "tutti",
+    music_voice_names,
     baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
 )
 
-# after
+# v1
 
 commands(
     ("v1", [(1, 5), (8, 9), (11, 15), (18, 19)]),

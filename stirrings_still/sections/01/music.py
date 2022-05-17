@@ -4,7 +4,7 @@ import baca
 from stirrings_still import library
 
 #########################################################################################
-######################################### 01 [A] ########################################
+########################################### 01 ##########################################
 #########################################################################################
 
 stage_markup = (
@@ -721,19 +721,17 @@ commands(
     baca.make_mmrests(),
 )
 
-# phantom
+# phantom & reapply
+
+music_voice_names = [_ for _ in voice_names if "Music_Voice" in _]
 
 commands(
-    "tutti",
+    music_voice_names,
     baca.append_phantom_measure(),
-)
-
-# after
-
-commands(
-    "tutti",
     baca.attach_first_segment_default_indicators(),
 )
+
+# vcx
 
 commands(
     ("vcx", [41, (44, 45)]),

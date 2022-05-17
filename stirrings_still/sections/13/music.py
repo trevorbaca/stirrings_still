@@ -5,7 +5,7 @@ from abjadext import rmakers
 from stirrings_still import library
 
 #########################################################################################
-######################################### 13 [M] ########################################
+########################################### 13 ##########################################
 #########################################################################################
 
 stage_markup = (
@@ -126,19 +126,17 @@ commands(
     library.make_clouded_pane_rhythm(),
 )
 
-# phantom
+# phantom & reapply
+
+music_voice_names = [_ for _ in voice_names if "Music_Voice" in _]
 
 commands(
-    "tutti",
+    music_voice_names,
     baca.append_phantom_measure(),
-)
-
-# after
-
-commands(
-    "tutti",
     baca.reapply_persistent_indicators(),
 )
+
+# v1
 
 commands(
     ("v1", [(1, 8), (13, 16), (21, 24), (29, 32)]),
