@@ -10207,42 +10207,6 @@ segment.08.Violin.II.Music.Voice = {
           %! baca.IndicatorCommand._call()
           %! baca.alternate_bow_strokes()
         - \upbow
-        % SPANNER_STARTS:
-          %! AUTODETECT
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak bound-details.right.padding 2.75
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak color #darkcyan
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak staff-padding 8
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \abjad-dashed-line-with-hook
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.make_skeleton()"
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStartTextSpanRhythmAnnotation
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -10287,18 +10251,6 @@ segment.08.Violin.II.Music.Voice = {
           %! baca.OverrideCommand._call(2)
           %! baca.tuplet_number_denominator()
         \revert TupletNumber.text
-        % LEAK:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        <>
-        % LEAKS:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStopTextSpanRhythmAnnotation
         % CLOSING:
         % COMMANDS:
 
@@ -12070,42 +12022,6 @@ segment.08.Violin.II.Music.Voice = {
               %! baca.IndicatorCommand._call()
               %! baca.alternate_bow_strokes()
             - \upbow
-            % SPANNER_STARTS:
-              %! AUTODETECT
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_START
-              %! baca.PiecewiseCommand._call(2)
-              %! baca.rhythm_annotation_spanner()
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_START
-              %! baca.PiecewiseCommand._call(2)
-              %! baca.rhythm_annotation_spanner()
-            - \tweak bound-details.right.padding 2.75
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_START
-              %! baca.PiecewiseCommand._call(2)
-              %! baca.rhythm_annotation_spanner()
-            - \tweak color #darkcyan
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_START
-              %! baca.PiecewiseCommand._call(2)
-              %! baca.rhythm_annotation_spanner()
-            - \tweak staff-padding 8
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_START
-              %! baca.PiecewiseCommand._call(2)
-              %! baca.rhythm_annotation_spanner()
-            - \abjad-dashed-line-with-hook
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_START
-              %! baca.PiecewiseCommand._call(2)
-              %! baca.rhythm_annotation_spanner()
-            - \baca-text-spanner-left-text "baca.make_skeleton()"
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_START
-              %! baca.PiecewiseCommand._call(2)
-              %! baca.rhythm_annotation_spanner()
-            \bacaStartTextSpanRhythmAnnotation
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
@@ -12147,18 +12063,6 @@ segment.08.Violin.II.Music.Voice = {
               %! baca.OverrideCommand._call(2)
               %! baca.tuplet_bracket_staff_padding()
             \revert TupletBracket.staff-padding
-            % LEAK:
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_STOP
-              %! baca.PiecewiseCommand._call(4)
-              %! baca.rhythm_annotation_spanner()
-            <>
-            % LEAKS:
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_STOP
-              %! baca.PiecewiseCommand._call(4)
-              %! baca.rhythm_annotation_spanner()
-            \bacaStopTextSpanRhythmAnnotation
             % CLOSING:
             % COMMANDS:
 
