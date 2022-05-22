@@ -896,13 +896,6 @@ segment.01.Global.Skips = {
       %! baca._make_global_skips(1)
     s1 * 1
     % AFTER:
-    % MARKUP:
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
-    - \tweak extra-offset #'(0 . 12)
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
-    - \baca-rehearsal-mark-markup "A" #10
     % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()

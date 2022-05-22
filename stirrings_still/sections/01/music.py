@@ -49,15 +49,6 @@ commands = baca.CommandAccumulator(
 
 commands(
     "Global_Skips",
-    baca.rehearsal_mark(
-        "A",
-        lambda _: baca.select.skip(_, 18 - 1),
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 12)"),
-    ),
-)
-
-commands(
-    "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-two",
         # -20 because first page compresses vertical spacing

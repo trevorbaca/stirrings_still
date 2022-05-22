@@ -37,15 +37,6 @@ commands = baca.CommandAccumulator(
     voice_names=voice_names,
 )
 
-commands(
-    "Global_Skips",
-    baca.rehearsal_mark(
-        "Q",
-        lambda _: abjad.select.leaf(_, 0),
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
-    ),
-)
-
 time = (
     ("andante", 1),
     ("presto", 2),
