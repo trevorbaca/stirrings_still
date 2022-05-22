@@ -57,15 +57,6 @@ commands = baca.CommandAccumulator(
 
 commands(
     "Global_Skips",
-    baca.rehearsal_mark(
-        "D",
-        lambda _: abjad.select.leaf(_, 0),
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
-    ),
-)
-
-commands(
-    "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-thirteen",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
@@ -199,7 +190,7 @@ commands(
 
 commands(
     ("v1", 46),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -359,7 +350,7 @@ commands(
 
 commands(
     ("v2", 46),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -519,7 +510,7 @@ commands(
 
 commands(
     ("va", 46),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -703,7 +694,7 @@ commands(
 
 commands(
     ("vc", (46, 48)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(

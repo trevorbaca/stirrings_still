@@ -50,11 +50,6 @@ commands(
         abjad.Tweak(r"- \tweak extra-offset #'(28 . -100)"),
         selector=lambda _: baca.select.skip(_, 20 - 1),
     ),
-    baca.rehearsal_mark(
-        "S",
-        lambda _: abjad.select.leaf(_, 0),
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
-    ),
     baca.bar_line("|.", lambda _: baca.select.skip(_, -1)),
 )
 

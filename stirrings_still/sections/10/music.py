@@ -33,15 +33,6 @@ commands = baca.CommandAccumulator(
 
 commands(
     "Global_Skips",
-    baca.rehearsal_mark(
-        "J",
-        lambda _: abjad.select.leaf(_, 0),
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
-    ),
-)
-
-commands(
-    "Global_Skips",
     baca.markup(
         r"\stirrings-still-repeat-three-markup",
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),

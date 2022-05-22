@@ -29,15 +29,6 @@ commands = baca.CommandAccumulator(
     voice_names=voice_names,
 )
 
-commands(
-    "Global_Skips",
-    baca.rehearsal_mark(
-        "P",
-        lambda _: abjad.select.leaf(_, 0),
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
-    ),
-)
-
 time = (
     ("adagio", 1),
     ("adagio", 15),

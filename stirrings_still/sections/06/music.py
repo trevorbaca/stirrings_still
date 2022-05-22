@@ -33,11 +33,6 @@ commands(
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
         selector=lambda _: baca.select.skip(_, 11 - 1),
     ),
-    baca.rehearsal_mark(
-        "F",
-        lambda _: abjad.select.leaf(_, 0),
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
-    ),
 )
 
 time = (
