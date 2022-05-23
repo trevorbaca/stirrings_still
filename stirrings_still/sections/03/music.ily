@@ -1,5 +1,5 @@
   %! baca.path.extern()
-segment.03.Global.Skips = {
+segment.03.Global_Skips = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4409,7 +4409,7 @@ segment.03.Global.Skips = {
 
 
   %! baca.path.extern()
-segment.03.Global.Rests = {
+segment.03.Global_Rests = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5018,7 +5018,7 @@ segment.03.Global.Rests = {
 
 
   %! baca.path.extern()
-segment.03.Violin.I.Music.Voice = {
+segment.03.Violin_I_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9920,7 +9920,7 @@ segment.03.Violin.I.Music.Staff = <<
     \context GlobalRests = "Global_Rests"
       %! baca.make_global_context()
       %! baca.path.extern()
-    { \segment.03.Global.Rests }
+    { \segment.03.Global_Rests }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9929,7 +9929,7 @@ segment.03.Violin.I.Music.Staff = <<
     \context Voice = "Violin_I_Music_Voice"
       %! stirrings_still.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Violin.I.Music.Voice }
+    { \segment.03.Violin_I_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -9940,7 +9940,7 @@ segment.03.Violin.I.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.03.Violin.II.Music.Voice = {
+segment.03.Violin_II_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -14356,7 +14356,7 @@ segment.03.Violin.II.MusicStaff = {
     \context Voice = "Violin_II_Music_Voice"
       %! stirrings_still.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Violin.II.Music.Voice }
+    { \segment.03.Violin_II_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -14367,7 +14367,7 @@ segment.03.Violin.II.MusicStaff = {
 
 
   %! baca.path.extern()
-segment.03.Viola.Music.Voice = {
+segment.03.Viola_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -19347,7 +19347,7 @@ segment.03.Viola.Music.Staff = {
     \context Voice = "Viola_Music_Voice"
       %! stirrings_still.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Viola.Music.Voice }
+    { \segment.03.Viola_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -19358,7 +19358,7 @@ segment.03.Viola.Music.Staff = {
 
 
   %! baca.path.extern()
-segment.03.Cello.Music.Voice = {
+segment.03.Cello_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -24029,7 +24029,7 @@ segment.03.Cello.Music.Staff = {
     \context Voice = "Cello_Music_Voice"
       %! stirrings_still.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Cello.Music.Voice }
+    { \segment.03.Cello_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
