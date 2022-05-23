@@ -74,7 +74,7 @@
 
                 % OPEN_BRACKETS:
                   %! stirrings_still.make_empty_score()
-                \context StringQuartetStaffGroup = "String_Quartet_Staff_Group"
+                \context StringQuartetStaffGroup = "String_Quartet.Staff_Group"
                   %! stirrings_still.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
@@ -86,10 +86,10 @@
                     \tag ViolinI
                     % OPEN_BRACKETS:
                       %! stirrings_still.make_empty_score()
-                    \context Staff = "Violin_I_Music_Staff"
+                    \context Staff = "Violin.1.Music_Staff"
                       %! stirrings_still.make_empty_score()
                       %! baca.path.extern()
-                    { \segment.09.Violin.I.Music.Staff }
+                    { \segment.09.Violin.1.Music.Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -99,10 +99,10 @@
                     \tag ViolinII
                     % OPEN_BRACKETS:
                       %! stirrings_still.make_empty_score()
-                    \context Staff = "Violin_II_MusicStaff"
+                    \context Staff = "Violin.2.MusicStaff"
                       %! stirrings_still.make_empty_score()
                       %! baca.path.extern()
-                    { \segment.09.Violin.II.MusicStaff }
+                    { \segment.09.Violin.2.MusicStaff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -112,7 +112,7 @@
                     \tag viola
                     % OPEN_BRACKETS:
                       %! stirrings_still.make_empty_score()
-                    \context Staff = "Viola_Music_Staff"
+                    \context Staff = "Viola.Music_Staff"
                       %! stirrings_still.make_empty_score()
                       %! baca.path.extern()
                     { \segment.09.Viola.Music.Staff }
@@ -125,7 +125,7 @@
                     \tag cello
                     % OPEN_BRACKETS:
                       %! stirrings_still.make_empty_score()
-                    \context Staff = "Cello_Music_Staff"
+                    \context Staff = "Cello.Music_Staff"
                       %! stirrings_still.make_empty_score()
                       %! baca.path.extern()
                     { \segment.09.Cello.Music.Staff }

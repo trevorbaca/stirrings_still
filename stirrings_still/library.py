@@ -3358,33 +3358,33 @@ def urtext_spanner(
 
 
 voice_abbreviations = {
-    "v1": "Violin_I_Music_Voice",
-    "v1r": "Violin_I_Rest_Voice",
-    "v1x": ["Violin_I_Music_Voice", "Violin_I_Rest_Voice"],
-    "v2": "Violin_II_Music_Voice",
-    "v2r": "Violin_II_Rest_Voice",
-    "v2x": ["Violin_II_Music_Voice", "Violin_II_Rest_Voice"],
-    "va": "Viola_Music_Voice",
-    "var": "Viola_Rest_Voice",
-    "vax": ["Viola_Music_Voice", "Viola_Rest_Voice"],
-    "vc": "Cello_Music_Voice",
-    "vcr": "Cello_Rest_Voice",
-    "vcx": ["Cello_Music_Voice", "Cello_Rest_Voice"],
+    "v1": "Violin.1.Music_Voice",
+    "v1r": "Violin.1.Rest_Voice",
+    "v1x": ["Violin.1.Music_Voice", "Violin.1.Rest_Voice"],
+    "v2": "Violin.2.Music_Voice",
+    "v2r": "Violin.2.Rest_Voice",
+    "v2x": ["Violin.2.Music_Voice", "Violin.2.Rest_Voice"],
+    "va": "Viola.Music_Voice",
+    "var": "Viola.Rest_Voice",
+    "vax": ["Viola.Music_Voice", "Viola.Rest_Voice"],
+    "vc": "Cello.Music_Voice",
+    "vcr": "Cello.Rest_Voice",
+    "vcx": ["Cello.Music_Voice", "Cello.Rest_Voice"],
     "trio": [
-        "Violin_I_Music_Voice",
-        "Violin_II_Music_Voice",
-        "Viola_Music_Voice",
+        "Violin.1.Music_Voice",
+        "Violin.2.Music_Voice",
+        "Viola.Music_Voice",
     ],
     "triox": [
-        "Violin_I_Rest_Voice",
-        "Violin_II_Rest_Voice",
-        "Viola_Rest_Voice",
+        "Violin.1.Rest_Voice",
+        "Violin.2.Rest_Voice",
+        "Viola.Rest_Voice",
     ],
     "tutti": [
-        "Violin_I_Music_Voice",
-        "Violin_II_Music_Voice",
-        "Viola_Music_Voice",
-        "Cello_Music_Voice",
+        "Violin.1.Music_Voice",
+        "Violin.2.Music_Voice",
+        "Viola.Music_Voice",
+        "Cello.Music_Voice",
     ],
 }
 
@@ -3394,8 +3394,8 @@ def make_empty_score():
     global_context = baca.score.make_global_context()
     # VIOLIN 1
     violin_one_music_staff = abjad.Staff(
-        [abjad.Voice(name="Violin_I_Music_Voice", tag=tag)],
-        name="Violin_I_Music_Staff",
+        [abjad.Voice(name="Violin.1.Music_Voice", tag=tag)],
+        name="Violin.1.Music_Staff",
         tag=tag,
     )
     abjad.annotate(
@@ -3407,8 +3407,8 @@ def make_empty_score():
     baca.score.attach_lilypond_tag("ViolinI", violin_one_music_staff)
     # VIOLIN 2
     violin_two_music_staff = abjad.Staff(
-        [abjad.Voice(name="Violin_II_Music_Voice", tag=tag)],
-        name="Violin_II_MusicStaff",
+        [abjad.Voice(name="Violin.2.Music_Voice", tag=tag)],
+        name="Violin.2.MusicStaff",
         tag=tag,
     )
     abjad.annotate(
@@ -3420,8 +3420,8 @@ def make_empty_score():
     baca.score.attach_lilypond_tag("ViolinII", violin_two_music_staff)
     # VIOLA
     viola_music_staff = abjad.Staff(
-        [abjad.Voice(name="Viola_Music_Voice", tag=tag)],
-        name="Viola_Music_Staff",
+        [abjad.Voice(name="Viola.Music_Voice", tag=tag)],
+        name="Viola.Music_Staff",
         tag=tag,
     )
     abjad.annotate(
@@ -3433,8 +3433,8 @@ def make_empty_score():
     baca.score.attach_lilypond_tag("viola", viola_music_staff)
     # CELLO
     cello_music_staff = abjad.Staff(
-        [abjad.Voice(name="Cello_Music_Voice", tag=tag)],
-        name="Cello_Music_Staff",
+        [abjad.Voice(name="Cello.Music_Voice", tag=tag)],
+        name="Cello.Music_Staff",
         tag=tag,
     )
     abjad.annotate(
@@ -3453,7 +3453,7 @@ def make_empty_score():
             cello_music_staff,
         ],
         lilypond_type="StringQuartetStaffGroup",
-        name="String_Quartet_Staff_Group",
+        name="String_Quartet.Staff_Group",
         tag=tag,
     )
     # MUSIC CONTEXT
