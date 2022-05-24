@@ -54,7 +54,7 @@
                 \context GlobalSkips = "Global_Skips"
                   %! baca.make_global_context()
                   %! baca.path.extern()
-                { \segment.08.Global_Skips }
+                { \section_number.08.Global_Skips }
                 % CLOSING:
                 % COMMANDS:
 
@@ -89,7 +89,7 @@
                     \context Staff = "Violin.1.Music_Staff"
                       %! stirrings_still.make_empty_score()
                       %! baca.path.extern()
-                    { \segment.08.Violin.1.Music.Staff }
+                    { \section_number.08.Violin.1.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -102,7 +102,7 @@
                     \context Staff = "Violin.2.MusicStaff"
                       %! stirrings_still.make_empty_score()
                       %! baca.path.extern()
-                    { \segment.08.Violin.2.MusicStaff }
+                    { \section_number.08.Violin.2.MusicStaff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -115,7 +115,7 @@
                     \context Staff = "Viola.Music_Staff"
                       %! stirrings_still.make_empty_score()
                       %! baca.path.extern()
-                    { \segment.08.Viola.Music.Staff }
+                    { \section_number.08.Viola.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -128,7 +128,7 @@
                     \context Staff = "Cello.Music_Staff"
                       %! stirrings_still.make_empty_score()
                       %! baca.path.extern()
-                    { \segment.08.Cello.Music.Staff }
+                    { \section_number.08.Cello.Music_Staff }
                     % CLOSING:
                     % COMMANDS:
 
