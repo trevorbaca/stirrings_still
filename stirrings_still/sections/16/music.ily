@@ -1508,7 +1508,7 @@ section_number.16.Violin.1.Music_Voice = {
       %! baca.OverrideCommand._call(1)
       %! baca.tuplet_bracket_down()
     \override TupletBracket.direction = #down
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \stirrings-still-vn-i-markup
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -3923,7 +3923,7 @@ section_number.16.Violin.2.Music_Voice = {
       %! baca.OverrideCommand._call(1)
       %! baca.dynamic_text_self_alignment_x()
     \override DynamicText.self-alignment-X = -0.75
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \stirrings-still-vn-ii-markup
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -6693,7 +6693,7 @@ section_number.16.Viola.Music_Voice = {
       %! baca.OverrideCommand._call(1)
       %! baca.tuplet_bracket_down()
     \override TupletBracket.direction = #down
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \stirrings-still-va-markup
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -8546,7 +8546,7 @@ section_number.16.Cello.Music_Voice = {
       %! baca.OverrideCommand._call(1)
       %! baca.tuplet_bracket_down()
     \override TupletBracket.direction = #down
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \stirrings-still-vc-markup
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
