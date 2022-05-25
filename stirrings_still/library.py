@@ -626,7 +626,7 @@ stage_to_time_signatures = dict(
 )
 
 
-def first_order_stages(segment):
+def first_order_stages(section):
     """
     Makes first-order time signatures.
 
@@ -1299,7 +1299,7 @@ def first_order_stages(segment):
 
 
     """
-    series, rotation, stages = stage_to_time_signatures[segment]
+    series, rotation, stages = stage_to_time_signatures[section]
     series = time_signature_series[series]
     series = abjad.sequence.rotate(series, rotation)
     series = abjad.CyclicTuple(series)
@@ -1332,7 +1332,7 @@ def first_order_stages(segment):
                 assert isinstance(item_, int), repr(item_)
                 assert 0 < item_, repr(item_)
                 # E begins with [E.0]
-                if segment == "E":
+                if section == "E":
                     stage_number = i
                 else:
                     stage_number = i + 1
@@ -2617,7 +2617,7 @@ def operations():
     ]
 
 
-def second_order_stages(segment):
+def second_order_stages(section):
     """
     Makes second-order time signatures.
 
@@ -3207,14 +3207,14 @@ def second_order_stages(segment):
 
 
     """
-    target_stages = first_order_stages(segment)
+    target_stages = first_order_stages(section)
     assert isinstance(target_stages, dict)
     operations_ = operations()
     for operation in operations_:
-        if operation.target_stage.letter != segment:
+        if operation.target_stage.letter != section:
             continue
-        source_segment = operation.source_stage.letter
-        source_stages = first_order_stages(source_segment)
+        source_section = operation.source_stage.letter
+        source_stages = first_order_stages(source_section)
         source_stage = source_stages[operation.source_stage.number]
         target_stage = target_stages[operation.target_stage.number]
         new_specifier = operation(source_stage, target_stage)
@@ -3264,9 +3264,9 @@ def time(maker: baca.CommandAccumulator, pairs: typing.Tuple):
             )
 
 
-def time_signatures(segment):
+def time_signatures(section):
     time_signatures = []
-    dictionary = second_order_stages(segment)
+    dictionary = second_order_stages(section)
     for stage_number, stage_specifier in dictionary.items():
         time_signatures.extend(stage_specifier.all_time_signatures())
     return time_signatures

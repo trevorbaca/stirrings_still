@@ -1148,7 +1148,7 @@ commands(
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
-        # TODO: allow spanner to run to end of segment
+        # TODO: allow spanner to run to end of section
         # selector=lambda _: baca.select.rleaves(_),
         selector=lambda _: baca.select.leaves(_),
     ),
