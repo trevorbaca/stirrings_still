@@ -1,5 +1,5 @@
   %! baca.path.extern()
-section_number.16.Global_Skips = {
+number.16.Global_Skips = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1283,7 +1283,7 @@ section_number.16.Global_Skips = {
 
 
   %! baca.path.extern()
-section_number.16.Global_Rests = {
+number.16.Global_Rests = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1486,7 +1486,7 @@ section_number.16.Global_Rests = {
 
 
   %! baca.path.extern()
-section_number.16.Violin.1.Music_Voice = {
+number.16.Violin.1.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3880,7 +3880,7 @@ section_number.16.Violin.1.Music_Voice = {
 
 
   %! baca.path.extern()
-section_number.16.Violin.1.Music_Staff = <<
+number.16.Violin.1.Music_Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3889,7 +3889,7 @@ section_number.16.Violin.1.Music_Staff = <<
     \context GlobalRests = "Global_Rests"
       %! baca.make_global_context()
       %! baca.path.extern()
-    { \section_number.16.Global_Rests }
+    { \number.16.Global_Rests }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3898,7 +3898,7 @@ section_number.16.Violin.1.Music_Staff = <<
     \context Voice = "Violin.1.Music_Voice"
       %! stirrings_still.make_empty_score()
       %! baca.path.extern()
-    { \section_number.16.Violin.1.Music_Voice }
+    { \number.16.Violin.1.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -3909,7 +3909,7 @@ section_number.16.Violin.1.Music_Staff = <<
 
 
   %! baca.path.extern()
-section_number.16.Violin.2.Music_Voice = {
+number.16.Violin.2.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6656,7 +6656,7 @@ section_number.16.Violin.2.Music_Voice = {
 
 
   %! baca.path.extern()
-section_number.16.Violin.2.MusicStaff = {
+number.16.Violin.2.MusicStaff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6665,7 +6665,7 @@ section_number.16.Violin.2.MusicStaff = {
     \context Voice = "Violin.2.Music_Voice"
       %! stirrings_still.make_empty_score()
       %! baca.path.extern()
-    { \section_number.16.Violin.2.Music_Voice }
+    { \number.16.Violin.2.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -6676,7 +6676,7 @@ section_number.16.Violin.2.MusicStaff = {
 
 
   %! baca.path.extern()
-section_number.16.Viola.Music_Voice = {
+number.16.Viola.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8504,7 +8504,7 @@ section_number.16.Viola.Music_Voice = {
 
 
   %! baca.path.extern()
-section_number.16.Viola.Music_Staff = {
+number.16.Viola.Music_Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8513,7 +8513,7 @@ section_number.16.Viola.Music_Staff = {
     \context Voice = "Viola.Music_Voice"
       %! stirrings_still.make_empty_score()
       %! baca.path.extern()
-    { \section_number.16.Viola.Music_Voice }
+    { \number.16.Viola.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -8524,7 +8524,7 @@ section_number.16.Viola.Music_Staff = {
 
 
   %! baca.path.extern()
-section_number.16.Cello.Music_Voice = {
+number.16.Cello.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10371,7 +10371,7 @@ section_number.16.Cello.Music_Voice = {
 
 
   %! baca.path.extern()
-section_number.16.Cello.Music_Staff = {
+number.16.Cello.Music_Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10380,7 +10380,7 @@ section_number.16.Cello.Music_Staff = {
     \context Voice = "Cello.Music_Voice"
       %! stirrings_still.make_empty_score()
       %! baca.path.extern()
-    { \section_number.16.Cello.Music_Voice }
+    { \number.16.Cello.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
