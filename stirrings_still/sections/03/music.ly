@@ -83,7 +83,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag ViolinI
+                    \tag #'ViolinI
                     % OPEN_BRACKETS:
                       %! stirrings_still.make_empty_score()
                     \context Staff = "Violin.1.Music_Staff"
@@ -96,7 +96,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag ViolinII
+                    \tag #'ViolinII
                     % OPEN_BRACKETS:
                       %! stirrings_still.make_empty_score()
                     \context Staff = "Violin.2.MusicStaff"
@@ -109,7 +109,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag viola
+                    \tag #'viola
                     % OPEN_BRACKETS:
                       %! stirrings_still.make_empty_score()
                     \context Staff = "Viola.Music_Staff"
@@ -122,7 +122,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag cello
+                    \tag #'cello
                     % OPEN_BRACKETS:
                       %! stirrings_still.make_empty_score()
                     \context Staff = "Cello.Music_Staff"
