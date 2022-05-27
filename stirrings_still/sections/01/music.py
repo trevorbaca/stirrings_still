@@ -719,7 +719,9 @@ music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
 commands(
     music_voice_names,
     baca.append_phantom_measure(),
-    baca.attach_first_section_default_indicators(),
+    baca.attach_first_section_default_indicators(
+        attach_instruments_by_hand=True,
+    ),
 )
 
 # vcx
@@ -745,6 +747,7 @@ commands(
 
 commands(
     "v1",
+    baca.instrument(commands.instruments["ViolinI"]),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Vn. I"),
@@ -1137,6 +1140,7 @@ commands(
 
 commands(
     "v2",
+    baca.instrument(commands.instruments["ViolinII"]),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Vn. II"),
@@ -1220,6 +1224,7 @@ commands(
 
 commands(
     "va",
+    baca.instrument(commands.instruments["Viola"]),
     baca.staff_lines(5),
     baca.suite(
         library.margin_markup("Va."),
@@ -1303,6 +1308,7 @@ commands(
 
 commands(
     ("vc", (1, 11)),
+    baca.instrument(commands.instruments["Cello"]),
     baca.staff_lines(5),
     library.margin_markup("Vc."),
     baca.start_markup(r"\stirrings-still-cello-markup"),

@@ -4259,9 +4259,9 @@ number.1.Violin.1.MusicVoice = {
       %! baca.hairpin()
     \p
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“ViolinI”)"
+    ^ \baca-explicit-indicator-markup "(“ViolinI”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vn. I”]"
@@ -11687,9 +11687,9 @@ number.1.Violin.2.MusicVoice = {
       %! baca.hairpin()
     \p
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“ViolinI”)"
+    ^ \baca-explicit-indicator-markup "(“ViolinI”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vn. II”]"
@@ -18704,9 +18704,9 @@ number.1.Viola.MusicVoice = {
       %! baca.hairpin()
     \p
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Viola”)"
+    ^ \baca-explicit-indicator-markup "(“Viola”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Va.”]"
@@ -26087,14 +26087,14 @@ number.1.Cello.MusicVoice = {
             d1 * 1/2
             % AFTER:
             % MARKUP:
-              %! DEFAULT_INSTRUMENT_ALERT
-              %! baca._attach_latent_indicator_alert()
-            ^ \baca-default-indicator-markup "(“Cello”)"
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"2"
+              %! EXPLICIT_INSTRUMENT_ALERT
+              %! baca._attach_latent_indicator_alert()
+            ^ \baca-explicit-indicator-markup "(“Cello”)"
               %! EXPLICIT_MARGIN_MARKUP_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-explicit-indicator-markup "[“Vc.”]"
