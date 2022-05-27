@@ -40,7 +40,7 @@ commands = baca.CommandAccumulator(
 )
 
 commands(
-    "Global_Skips",
+    "GlobalSkips",
     baca.markup(
         r"\stirrings-still-text-twenty-two",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
@@ -49,7 +49,7 @@ commands(
 )
 
 commands(
-    "Global_Skips",
+    "GlobalSkips",
     baca.open_volta(lambda _: baca.select.skip(_, 1 - 1)),
     baca.close_volta(lambda _: baca.select.skip(_, 9 - 1)),
 )

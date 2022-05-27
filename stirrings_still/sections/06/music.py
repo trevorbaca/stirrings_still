@@ -27,7 +27,7 @@ commands = baca.CommandAccumulator(
 )
 
 commands(
-    "Global_Skips",
+    "GlobalSkips",
     baca.markup(
         r"\stirrings-still-text-nineteen",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
