@@ -3398,7 +3398,6 @@ def make_empty_score():
         name="Violin.1.Music_Staff",
         tag=tag,
     )
-    abjad.annotate(violin_one_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Violin.1", violin_one_music_staff)
     # VIOLIN 2
     violin_two_music_staff = abjad.Staff(
@@ -3406,7 +3405,6 @@ def make_empty_score():
         name="Violin.2.MusicStaff",
         tag=tag,
     )
-    abjad.annotate(violin_two_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Violin.2", violin_two_music_staff)
     # VIOLA
     viola_music_staff = abjad.Staff(
@@ -3414,7 +3412,6 @@ def make_empty_score():
         name="Viola.Music_Staff",
         tag=tag,
     )
-    abjad.annotate(viola_music_staff, "default_clef", abjad.Clef("alto"))
     baca.score.attach_lilypond_tag("Viola", viola_music_staff)
     # CELLO
     cello_music_staff = abjad.Staff(
@@ -3422,7 +3419,6 @@ def make_empty_score():
         name="Cello.Music_Staff",
         tag=tag,
     )
-    abjad.annotate(cello_music_staff, "default_clef", abjad.Clef("bass"))
     baca.score.attach_lilypond_tag("Cello", cello_music_staff)
     # STRING QUARTET STAFF GROUP
     string_quartet_staff_group = abjad.StaffGroup(
