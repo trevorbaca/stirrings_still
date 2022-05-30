@@ -1086,6 +1086,14 @@ number.15.Violin.1.MusicVoice = {
               %! baca.circle_bow_spanner()
             \bacaStopTextSpanCircleBow
             % COMMANDS:
+              %! FERMATA_MEASURE
+              %! MEASURE_704
+              %! baca._style_fermata_measures(7)
+            \once \override Score.BarLine.transparent = ##t
+              %! FERMATA_MEASURE
+              %! MEASURE_704
+              %! baca._style_fermata_measures(7)
+            \once \override Score.SpanBar.transparent = ##t
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -1175,20 +1183,6 @@ number.15.Violin.1.MusicVoice = {
               %! baca._make_multimeasure_rest_container(2)
               %! baca._style_phantom_measures(5)
             \abjad-invisible-music-coloring
-            % OPENING:
-            % COMMANDS:
-              %! FERMATA_MEASURE
-              %! MEASURE_704
-              %! PHANTOM
-              %! baca._style_fermata_measures(7)
-              %! baca._style_phantom_measures(5)
-            \once \override Score.BarLine.transparent = ##t
-              %! FERMATA_MEASURE
-              %! MEASURE_704
-              %! PHANTOM
-              %! baca._style_fermata_measures(7)
-              %! baca._style_phantom_measures(5)
-            \once \override Score.SpanBar.transparent = ##t
               %! HIDDEN
               %! MULTIMEASURE_REST
               %! PHANTOM

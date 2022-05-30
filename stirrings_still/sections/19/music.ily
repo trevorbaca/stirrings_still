@@ -2865,6 +2865,15 @@ number.19.Violin.1.MusicVoice = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.circle_bow_spanner()
             \bacaStopTextSpanCircleBow
+            % COMMANDS:
+              %! FERMATA_MEASURE
+              %! MEASURE_848
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.BarLine.transparent = ##t
+              %! FERMATA_MEASURE
+              %! MEASURE_848
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.SpanBar.transparent = ##t
             % CLOSING:
             % COMMANDS:
 
@@ -2971,14 +2980,6 @@ number.19.Violin.1.MusicVoice = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! FERMATA_MEASURE
-          %! MEASURE_848
-          %! baca._style_fermata_measures(7)
-    %%% \once \override Score.BarLine.transparent = ##t
-          %! FERMATA_MEASURE
-          %! MEASURE_848
-          %! baca._style_fermata_measures(7)
-    %%% \once \override Score.SpanBar.transparent = ##t
         \override Staff.Stem.stemlet-length = 0.75
         bf'16 * 119/32
         % AFTER:
@@ -4027,6 +4028,14 @@ number.19.Violin.1.MusicVoice = {
               %! baca.circle_bow_spanner()
             \bacaStopTextSpanCircleBow
             % COMMANDS:
+              %! FERMATA_MEASURE
+              %! MEASURE_855
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.BarLine.transparent = ##t
+              %! FERMATA_MEASURE
+              %! MEASURE_855
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.SpanBar.transparent = ##t
               %! baca.OverrideCommand._call(2)
               %! baca.note_head_style_harmonic()
             \revert NoteHead.style
@@ -4093,16 +4102,6 @@ number.19.Violin.1.MusicVoice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-    % OPENING:
-    % COMMANDS:
-      %! FERMATA_MEASURE
-      %! MEASURE_855
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.BarLine.transparent = ##t
-      %! FERMATA_MEASURE
-      %! MEASURE_855
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.SpanBar.transparent = ##t
       %! baca._make_mmrests()
     R1 * 1
     % AFTER:
