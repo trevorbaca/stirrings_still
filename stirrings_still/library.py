@@ -10,73 +10,79 @@ import abjad
 import baca
 from abjadext import rmakers
 
-instruments = dict(
-    [
-        ("ViolinI", abjad.Violin(pitch_range="[F3, +inf]")),
-        ("ViolinII", abjad.Violin(pitch_range="[F3, +inf]")),
-        ("Viola", abjad.Viola(pitch_range="[Bb2, +inf]")),
-        ("Cello", abjad.Cello(pitch_range="[Bb0, +inf]")),
-    ]
-)
 
-margin_markups = dict(
-    [
-        ("Va.", abjad.MarginMarkup(markup=r"\stirrings-still-va-markup")),
-        ("Vc.", abjad.MarginMarkup(markup=r"\stirrings-still-vc-markup")),
-        ("Vn. I", abjad.MarginMarkup(markup=r"\stirrings-still-vn-i-markup")),
-        (
-            "Vn. II",
-            abjad.MarginMarkup(markup=r"\stirrings-still-vn-ii-markup"),
-        ),
-    ]
-)
+def instruments():
+    return dict(
+        [
+            ("ViolinI", abjad.Violin(pitch_range="[F3, +inf]")),
+            ("ViolinII", abjad.Violin(pitch_range="[F3, +inf]")),
+            ("Viola", abjad.Viola(pitch_range="[Bb2, +inf]")),
+            ("Cello", abjad.Cello(pitch_range="[Bb0, +inf]")),
+        ]
+    )
 
-metronome_marks = dict(
-    [
-        ("larghissimo", abjad.MetronomeMark((1, 4), 39)),
-        ("largo meno mosso", abjad.MetronomeMark((1, 4), 48)),
-        ("largo", abjad.MetronomeMark((1, 4), 52)),
-        ("largo piu mosso", abjad.MetronomeMark((1, 4), 56)),
-        ("adagio meno mosso", abjad.MetronomeMark((1, 4), 60)),
-        ("adagio", abjad.MetronomeMark((1, 4), 65)),
-        ("adagio piu mosso", abjad.MetronomeMark((1, 4), 78)),
-        ("andante", abjad.MetronomeMark((1, 4), 91)),
-        ("allegro", abjad.MetronomeMark((1, 4), 117)),
-        ("allegro piu mosso", abjad.MetronomeMark((1, 4), 137)),
-        ("presto", abjad.MetronomeMark((1, 4), 169)),
-        (
-            "presto ! largo",
-            abjad.MetronomeMark(
-                reference_duration=(1, 4),
-                units_per_minute=52,
-                custom_markup=abjad.Markup(r"\stirrings-still-presto-largo-markup"),
+
+def margin_markups():
+    return dict(
+        [
+            ("Va.", abjad.MarginMarkup(markup=r"\stirrings-still-va-markup")),
+            ("Vc.", abjad.MarginMarkup(markup=r"\stirrings-still-vc-markup")),
+            ("Vn. I", abjad.MarginMarkup(markup=r"\stirrings-still-vn-i-markup")),
+            (
+                "Vn. II",
+                abjad.MarginMarkup(markup=r"\stirrings-still-vn-ii-markup"),
             ),
-        ),
-    ]
-)
+        ]
+    )
 
-time_signature_series = dict()
 
-numerators = [[3, 4, 4], [3, 4, 5, 6]]
-numerators = baca.sequence.helianthate(numerators, -1, 1)
-numerators = abjad.sequence.flatten(numerators)
-assert len(numerators) == 84
-_time_signatures = [abjad.TimeSignature((_, 4)) for _ in numerators]
-time_signature_series["A"] = _time_signatures
+def metronome_marks():
+    return dict(
+        [
+            ("larghissimo", abjad.MetronomeMark((1, 4), 39)),
+            ("largo meno mosso", abjad.MetronomeMark((1, 4), 48)),
+            ("largo", abjad.MetronomeMark((1, 4), 52)),
+            ("largo piu mosso", abjad.MetronomeMark((1, 4), 56)),
+            ("adagio meno mosso", abjad.MetronomeMark((1, 4), 60)),
+            ("adagio", abjad.MetronomeMark((1, 4), 65)),
+            ("adagio piu mosso", abjad.MetronomeMark((1, 4), 78)),
+            ("andante", abjad.MetronomeMark((1, 4), 91)),
+            ("allegro", abjad.MetronomeMark((1, 4), 117)),
+            ("allegro piu mosso", abjad.MetronomeMark((1, 4), 137)),
+            ("presto", abjad.MetronomeMark((1, 4), 169)),
+            (
+                "presto ! largo",
+                abjad.MetronomeMark(
+                    reference_duration=(1, 4),
+                    units_per_minute=52,
+                    custom_markup=abjad.Markup(r"\stirrings-still-presto-largo-markup"),
+                ),
+            ),
+        ]
+    )
 
-numerators = [[6, 7, 7], [4, 5], [6, 8, 8]]
-numerators = baca.sequence.helianthate(numerators, -1, 1)
-numerators = abjad.sequence.flatten(numerators)
-assert len(numerators) == 48
-_time_signatures = [abjad.TimeSignature((_, 8)) for _ in numerators]
-time_signature_series["B"] = _time_signatures
 
-numerators = [[8, 12, 12], [14, 14, 16, 16], [10, 12]]
-numerators = baca.sequence.helianthate(numerators, -1, 1)
-numerators = abjad.sequence.flatten(numerators)
-assert len(numerators) == 108
-_time_signatures = [abjad.TimeSignature((_, 16)) for _ in numerators]
-time_signature_series["C"] = _time_signatures
+def time_signature_series():
+    time_signature_series = dict()
+    numerators = [[3, 4, 4], [3, 4, 5, 6]]
+    numerators = baca.sequence.helianthate(numerators, -1, 1)
+    numerators = abjad.sequence.flatten(numerators)
+    assert len(numerators) == 84
+    _time_signatures = [abjad.TimeSignature((_, 4)) for _ in numerators]
+    time_signature_series["A"] = _time_signatures
+    numerators = [[6, 7, 7], [4, 5], [6, 8, 8]]
+    numerators = baca.sequence.helianthate(numerators, -1, 1)
+    numerators = abjad.sequence.flatten(numerators)
+    assert len(numerators) == 48
+    _time_signatures = [abjad.TimeSignature((_, 8)) for _ in numerators]
+    time_signature_series["B"] = _time_signatures
+    numerators = [[8, 12, 12], [14, 14, 16, 16], [10, 12]]
+    numerators = baca.sequence.helianthate(numerators, -1, 1)
+    numerators = abjad.sequence.flatten(numerators)
+    assert len(numerators) == 108
+    _time_signatures = [abjad.TimeSignature((_, 16)) for _ in numerators]
+    time_signature_series["C"] = _time_signatures
+    return time_signature_series
 
 
 @dataclasses.dataclass(slots=True)
@@ -406,224 +412,201 @@ def clouded_pane_spanner(
     return result
 
 
-stage_to_series = dict(
-    {
-        "A": ("C", 0),
-        "B": ("B", 0),
-        "C": ("A", 0),
-        "D": ("C", -18),
-        "E": ("B", -8),
-        "F": ("A", -14),
-        "G": ("C", -36),
-        "H": ("B", -16),
-        "I": ("A", -28),
-        "J": ("C", -54),
-        "K": ("B", -24),
-        "L": ("A", -42),
-        "M": ("C", -72),
-        "N": ("B", -32),
-        "O": ("A", -56),
-        "P": ("C", -90),
-        "Q": ("B", -40),
-        "R": ("A", -70),
-        "S": ("A", -86),
-    }
-)
-
-stage_to_time_signatures = dict(
-    {
-        "A": (
-            "C",
-            0,
-            [
-                (1, "fermata"),
-                (1, "fermata"),
-                (2, "fermata"),
-                (2, "fermata"),
-                (6, "fermata"),
-                (1, "fermata"),
-                (1, "fermata"),
-                (2, "fermata"),
-                (2, "fermata"),
-                6,
-                6,
-                4,
-                (4, "fermata"),
-                (1, "fermata"),
-                (1, "fermata"),
-                (1, "fermata"),
-                (1, "fermata"),
-                (1, "long"),
-            ],
-        ),
-        "B": (
-            "B",
-            0,
-            [
-                4,
-                1,
-                2,
-                4,
-                (1, (5, 12)),
-                (1, (5, 12)),
-                (1, (5, 12)),
-                2,
-                2,
-                1,
-                2,
-                (2, "fermata"),
-                (2, "fermata"),
-                (2, "fermata"),
-                (2, "fermata"),
-                (2, "fermata"),
-                (2, "fermata"),
-                2,
-                6,
-                2,
-                1,
-                1,
-                (1, "fermata"),
-                (1, "fermata"),
-            ],
-        ),
-        "C": (
-            "A",
-            0,
-            [
-                (4, "fermata"),
-                (4, "fermata"),
-                4,
-                4,
-                4,
-                4,
-                (1, (5, 12)),
-                4,
-                4,  # 8-9
-                4,
-                4,  # 10-11
-                4,
-                4,  # 12-13
-                4,
-                2,
-                2,
-                2,
-                (2, "fermata"),  # 18
-                (6, "fermata"),  # 19
-            ],
-        ),
-        "D": (
-            "C",
-            -18,
-            [
-                6,
-                6,
-                6,
-                6,
-                6,  # D1-5
-                (6, "fermata"),  # D6
-                (6, "fermata"),  # D7
-                (1, "long"),
-                (4, "long"),
-                (1, "long"),
-                (6, "long"),
-                2,  # D12
-                4,  # D13
-                4,  # D14
-                4,  # D15
-                4,  # D16
-                2,  # D17
-                2,  # D18
-                2,
-                2,
-                2,
-                (2, "short"),  # D22
-            ],
-        ),
-        "E": (
-            "B",
-            -8,
-            [
-                (2, "short"),
-                6,
-                8,
-                4,
-                4,
-                4,
-                4,
-                (4, "fermata"),
-                8,
-                8,
-                (2, "short"),
-                (4, "fermata"),
-                (4, "fermata"),
-                4,
-                2,
-                2,
-                8,
-            ],
-        ),
-        "F": ("A", -14, [8, (2, "long")]),
-        "G": (
-            "C",
-            -36,
-            [
-                (1, "fermata"),
-                (1, "fermata"),
-                (1, "fermata"),
-                (1, "fermata"),
-                (2, "long"),
-                (2, "long"),
-            ],
-        ),
-        "H": (
-            "B",
-            -16,
-            [
-                4,
-                1,
-                2,
-                2,
-                2,
-                2,
-                2,
-                6,
-                (6, "short"),
-                (2, "short"),
-                (3, "short"),
-                (4, "short"),
-                4,
-                2,
-            ],
-        ),
-        "I": ("A", -28, [2, 1, 1, 1, 2, 2, 2]),
-        "J": ("C", -54, [4, 2, 2, 1, 2, 4]),
-        "K": ("B", -24, [3, 3, 3, 3, 3, 3, 8, 6, 8, (8, "short")]),
-        "L": ("A", -42, [16]),
-        "M": ("C", -72, [8, 4, 4, 4, 4, 4, 4]),
-        "N": ("B", -32, [6, 2, 2, 4, 6, (12, "very_long"), (2, "very_long")]),
-        "O": ("A", -56, [(6, "very_long")]),
-        "P": ("C", -90, [4, 6, 4, 6, 6]),
-        "Q": (
-            "B",
-            -40,
-            [8, 12, 6, 10, 5, 8, 4, 6, 3, 4, 2, (2, "fermata"), 20],
-        ),
-        "R": ("A", -70, [4, 4, 4, (4, "fermata")]),
-        "S": (
-            "A",
-            -86,
-            # [4, 1, 4, 2, 4, 3, 4, 4,
-            # (8, 'long'),
-            [
-                (1, "long"),
-                (2, "long"),
-                (3, "long"),
-                (6, "long"),
-                (3, "very_long"),
-            ],
-        ),
-    }
-)
+def stage_to_time_signatures():
+    return dict(
+        {
+            "A": (
+                "C",
+                0,
+                [
+                    (1, "fermata"),
+                    (1, "fermata"),
+                    (2, "fermata"),
+                    (2, "fermata"),
+                    (6, "fermata"),
+                    (1, "fermata"),
+                    (1, "fermata"),
+                    (2, "fermata"),
+                    (2, "fermata"),
+                    6,
+                    6,
+                    4,
+                    (4, "fermata"),
+                    (1, "fermata"),
+                    (1, "fermata"),
+                    (1, "fermata"),
+                    (1, "fermata"),
+                    (1, "long"),
+                ],
+            ),
+            "B": (
+                "B",
+                0,
+                [
+                    4,
+                    1,
+                    2,
+                    4,
+                    (1, (5, 12)),
+                    (1, (5, 12)),
+                    (1, (5, 12)),
+                    2,
+                    2,
+                    1,
+                    2,
+                    (2, "fermata"),
+                    (2, "fermata"),
+                    (2, "fermata"),
+                    (2, "fermata"),
+                    (2, "fermata"),
+                    (2, "fermata"),
+                    2,
+                    6,
+                    2,
+                    1,
+                    1,
+                    (1, "fermata"),
+                    (1, "fermata"),
+                ],
+            ),
+            "C": (
+                "A",
+                0,
+                [
+                    (4, "fermata"),
+                    (4, "fermata"),
+                    4,
+                    4,
+                    4,
+                    4,
+                    (1, (5, 12)),
+                    4,
+                    4,  # 8-9
+                    4,
+                    4,  # 10-11
+                    4,
+                    4,  # 12-13
+                    4,
+                    2,
+                    2,
+                    2,
+                    (2, "fermata"),  # 18
+                    (6, "fermata"),  # 19
+                ],
+            ),
+            "D": (
+                "C",
+                -18,
+                [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,  # D1-5
+                    (6, "fermata"),  # D6
+                    (6, "fermata"),  # D7
+                    (1, "long"),
+                    (4, "long"),
+                    (1, "long"),
+                    (6, "long"),
+                    2,  # D12
+                    4,  # D13
+                    4,  # D14
+                    4,  # D15
+                    4,  # D16
+                    2,  # D17
+                    2,  # D18
+                    2,
+                    2,
+                    2,
+                    (2, "short"),  # D22
+                ],
+            ),
+            "E": (
+                "B",
+                -8,
+                [
+                    (2, "short"),
+                    6,
+                    8,
+                    4,
+                    4,
+                    4,
+                    4,
+                    (4, "fermata"),
+                    8,
+                    8,
+                    (2, "short"),
+                    (4, "fermata"),
+                    (4, "fermata"),
+                    4,
+                    2,
+                    2,
+                    8,
+                ],
+            ),
+            "F": ("A", -14, [8, (2, "long")]),
+            "G": (
+                "C",
+                -36,
+                [
+                    (1, "fermata"),
+                    (1, "fermata"),
+                    (1, "fermata"),
+                    (1, "fermata"),
+                    (2, "long"),
+                    (2, "long"),
+                ],
+            ),
+            "H": (
+                "B",
+                -16,
+                [
+                    4,
+                    1,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    6,
+                    (6, "short"),
+                    (2, "short"),
+                    (3, "short"),
+                    (4, "short"),
+                    4,
+                    2,
+                ],
+            ),
+            "I": ("A", -28, [2, 1, 1, 1, 2, 2, 2]),
+            "J": ("C", -54, [4, 2, 2, 1, 2, 4]),
+            "K": ("B", -24, [3, 3, 3, 3, 3, 3, 8, 6, 8, (8, "short")]),
+            "L": ("A", -42, [16]),
+            "M": ("C", -72, [8, 4, 4, 4, 4, 4, 4]),
+            "N": ("B", -32, [6, 2, 2, 4, 6, (12, "very_long"), (2, "very_long")]),
+            "O": ("A", -56, [(6, "very_long")]),
+            "P": ("C", -90, [4, 6, 4, 6, 6]),
+            "Q": (
+                "B",
+                -40,
+                [8, 12, 6, 10, 5, 8, 4, 6, 3, 4, 2, (2, "fermata"), 20],
+            ),
+            "R": ("A", -70, [4, 4, 4, (4, "fermata")]),
+            "S": (
+                "A",
+                -86,
+                # [4, 1, 4, 2, 4, 3, 4, 4,
+                # (8, 'long'),
+                [
+                    (1, "long"),
+                    (2, "long"),
+                    (3, "long"),
+                    (6, "long"),
+                    (3, "very_long"),
+                ],
+            ),
+        }
+    )
 
 
 def first_order_stages(section):
@@ -1299,8 +1282,8 @@ def first_order_stages(section):
 
 
     """
-    series, rotation, stages = stage_to_time_signatures[section]
-    series = time_signature_series[series]
+    series, rotation, stages = stage_to_time_signatures()[section]
+    series = time_signature_series()[series]
     series = abjad.sequence.rotate(series, rotation)
     series = abjad.CyclicTuple(series)
     fermatas = ("very_short", "short", "fermata", "long", "very_long")
@@ -2079,7 +2062,8 @@ def margin_markup(
     context="Staff",
     selector=lambda _: abjad.select.leaf(_, 0),
 ):
-    margin_markup = margin_markups[key]
+    _margin_markups = margin_markups()
+    margin_markup = _margin_markups[key]
     command = baca.margin_markup(
         margin_markup,
         alert=alert,
@@ -3357,36 +3341,37 @@ def urtext_spanner(
     return result
 
 
-voice_abbreviations = {
-    "v1": "Violin.1.MusicVoice",
-    "v1r": "Violin.1.RestVoice",
-    "v1x": ["Violin.1.MusicVoice", "Violin.1.RestVoice"],
-    "v2": "Violin.2.MusicVoice",
-    "v2r": "Violin.2.RestVoice",
-    "v2x": ["Violin.2.MusicVoice", "Violin.2.RestVoice"],
-    "va": "Viola.MusicVoice",
-    "var": "Viola.RestVoice",
-    "vax": ["Viola.MusicVoice", "Viola.RestVoice"],
-    "vc": "Cello.MusicVoice",
-    "vcr": "Cello.RestVoice",
-    "vcx": ["Cello.MusicVoice", "Cello.RestVoice"],
-    "trio": [
-        "Violin.1.MusicVoice",
-        "Violin.2.MusicVoice",
-        "Viola.MusicVoice",
-    ],
-    "triox": [
-        "Violin.1.RestVoice",
-        "Violin.2.RestVoice",
-        "Viola.RestVoice",
-    ],
-    "tutti": [
-        "Violin.1.MusicVoice",
-        "Violin.2.MusicVoice",
-        "Viola.MusicVoice",
-        "Cello.MusicVoice",
-    ],
-}
+def voice_abbreviations():
+    return {
+        "v1": "Violin.1.MusicVoice",
+        "v1r": "Violin.1.RestVoice",
+        "v1x": ["Violin.1.MusicVoice", "Violin.1.RestVoice"],
+        "v2": "Violin.2.MusicVoice",
+        "v2r": "Violin.2.RestVoice",
+        "v2x": ["Violin.2.MusicVoice", "Violin.2.RestVoice"],
+        "va": "Viola.MusicVoice",
+        "var": "Viola.RestVoice",
+        "vax": ["Viola.MusicVoice", "Viola.RestVoice"],
+        "vc": "Cello.MusicVoice",
+        "vcr": "Cello.RestVoice",
+        "vcx": ["Cello.MusicVoice", "Cello.RestVoice"],
+        "trio": [
+            "Violin.1.MusicVoice",
+            "Violin.2.MusicVoice",
+            "Viola.MusicVoice",
+        ],
+        "triox": [
+            "Violin.1.RestVoice",
+            "Violin.2.RestVoice",
+            "Viola.RestVoice",
+        ],
+        "tutti": [
+            "Violin.1.MusicVoice",
+            "Violin.2.MusicVoice",
+            "Viola.MusicVoice",
+            "Cello.MusicVoice",
+        ],
+    }
 
 
 def make_empty_score():
