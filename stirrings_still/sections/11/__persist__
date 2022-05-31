@@ -17,7 +17,6 @@
         "Viola.RestVoice",
         "Cello.Music_Staff",
         "Cello.MusicVoice",
-        "Cello.RestVoice",
     ],
     "persistent_indicators": {
         "Cello.MusicVoice": [
