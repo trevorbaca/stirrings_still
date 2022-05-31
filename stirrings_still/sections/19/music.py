@@ -119,13 +119,12 @@ baca.alternate_makers(
     total=20,
 )
 
-# phantom & reapply
+# reapply
 
 music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
 
 commands(
     music_voice_names,
-    baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )
 
@@ -265,12 +264,14 @@ commands(
 
 commands(
     ("vc", -1),
-    baca.chunk(
-        baca.mark(r"\stirrings-still-colophon-markup"),
-        baca.rehearsal_mark_down(),
-        baca.rehearsal_mark_padding(6),
-        baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
-        selector=lambda _: baca.select.rleaf(_, -1),
+    baca.literal(
+        [
+            r"\once \override Score.RehearsalMark.direction = #down",
+            r"\once \override Score.RehearsalMark.padding = 6",
+            r"\once \override Score.RehearsalMark.self-alignment-X = #right",
+            r"\mark \stirrings-still-colophon-markup",
+        ],
+        site="after",
     ),
 )
 

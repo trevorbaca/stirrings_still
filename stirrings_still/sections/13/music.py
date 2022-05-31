@@ -117,13 +117,19 @@ commands(
     library.make_clouded_pane_rhythm(),
 )
 
-# phantom & reapply
+# anchor notes
+
+commands(
+    ["v1", "v2", "va", "vc"],
+    baca.append_anchor_note(),
+)
+
+# reapply
 
 music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
 
 commands(
     music_voice_names,
-    baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )
 
@@ -516,8 +522,7 @@ commands(
     library.clouded_pane_spanner(
         "clouded pane (semitone down) -|",
         5.5,
-        # TODO: extend to phantom measure
-        selector=lambda _: baca.select.leaves(_),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
