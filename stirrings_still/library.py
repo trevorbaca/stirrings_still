@@ -14,10 +14,10 @@ from abjadext import rmakers
 def instruments():
     return dict(
         [
-            ("ViolinI", abjad.Violin(pitch_range="[F3, +inf]")),
-            ("ViolinII", abjad.Violin(pitch_range="[F3, +inf]")),
-            ("Viola", abjad.Viola(pitch_range="[Bb2, +inf]")),
-            ("Cello", abjad.Cello(pitch_range="[Bb0, +inf]")),
+            ("ViolinI", abjad.Violin(pitch_range=abjad.PitchRange("[F3, +inf]"))),
+            ("ViolinII", abjad.Violin(pitch_range=abjad.PitchRange("[F3, +inf]"))),
+            ("Viola", abjad.Viola(pitch_range=abjad.PitchRange("[Bb2, +inf]"))),
+            ("Cello", abjad.Cello(pitch_range=abjad.PitchRange("[Bb0, +inf]"))),
         ]
     )
 
