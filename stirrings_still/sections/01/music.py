@@ -39,7 +39,7 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     instruments=library.instruments(),
-    margin_markups=library.margin_markups(),
+    short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
     time_signatures=library.time_signatures("A"),
     voice_abbreviations=library.voice_abbreviations(),
@@ -738,8 +738,8 @@ commands(
     baca.clef("treble"),
     baca.staff_lines(5),
     baca.suite(
-        library.margin_markup("Vn. I"),
-        baca.start_markup(r"\stirrings-still-violin-i-markup"),
+        library.short_instrument_name("Vn. I"),
+        baca.instrument_name(r"\stirrings-still-violin-i-markup"),
     ),
     baca.tuplet_bracket_down(),
 )
@@ -1132,8 +1132,8 @@ commands(
     baca.clef("treble"),
     baca.staff_lines(5),
     baca.suite(
-        library.margin_markup("Vn. II"),
-        baca.start_markup(r"\stirrings-still-violin-ii-markup"),
+        library.short_instrument_name("Vn. II"),
+        baca.instrument_name(r"\stirrings-still-violin-ii-markup"),
     ),
     baca.tuplet_bracket_down(),
 )
@@ -1217,8 +1217,8 @@ commands(
     baca.clef("alto"),
     baca.staff_lines(5),
     baca.suite(
-        library.margin_markup("Va."),
-        baca.start_markup(r"\stirrings-still-viola-markup"),
+        library.short_instrument_name("Va."),
+        baca.instrument_name(r"\stirrings-still-viola-markup"),
     ),
     baca.tuplet_bracket_down(),
 )
@@ -1301,8 +1301,8 @@ commands(
     baca.instrument(commands.instruments["Cello"]),
     baca.clef("bass"),
     baca.staff_lines(5),
-    library.margin_markup("Vc."),
-    baca.start_markup(r"\stirrings-still-cello-markup"),
+    library.short_instrument_name("Vc."),
+    baca.instrument_name(r"\stirrings-still-cello-markup"),
 )
 
 commands(

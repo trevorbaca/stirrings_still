@@ -4197,13 +4197,13 @@ number.1.Violin.1.MusicVoice = {
     \override TupletBracket.direction = #down
       %! -PARTS
       %! baca.IndicatorCommand._call()
-      %! baca.start_markup()
+      %! baca.instrument_name()
     \set Staff.instrumentName = \stirrings-still-violin-i-markup
       %! -PARTS
-      %! EXPLICIT_MARGIN_MARKUP
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.margin_markup()
+      %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
@@ -4230,7 +4230,7 @@ number.1.Violin.1.MusicVoice = {
       %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_MARGIN_MARKUP_COLOR
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
       %! EXPLICIT_STAFF_LINES_COLOR
@@ -4266,7 +4266,7 @@ number.1.Violin.1.MusicVoice = {
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "(“ViolinI”)"
-      %! EXPLICIT_MARGIN_MARKUP_ALERT
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vn. I”]"
     % START_BEAM:
@@ -4384,14 +4384,14 @@ number.1.Violin.1.MusicVoice = {
       %! EXPLICIT_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
+      %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
-      %! REDRAWN_EXPLICIT_MARGIN_MARKUP
+      %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.margin_markup()
+      %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup
     % ABSOLUTE_BEFORE:
@@ -11502,13 +11502,13 @@ number.1.Violin.2.MusicVoice = {
     \override TupletBracket.direction = #down
       %! -PARTS
       %! baca.IndicatorCommand._call()
-      %! baca.start_markup()
+      %! baca.instrument_name()
     \set Staff.instrumentName = \stirrings-still-violin-ii-markup
       %! -PARTS
-      %! EXPLICIT_MARGIN_MARKUP
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.margin_markup()
+      %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
@@ -11535,7 +11535,7 @@ number.1.Violin.2.MusicVoice = {
       %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_MARGIN_MARKUP_COLOR
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
       %! EXPLICIT_STAFF_LINES_COLOR
@@ -11571,7 +11571,7 @@ number.1.Violin.2.MusicVoice = {
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "(“ViolinI”)"
-      %! EXPLICIT_MARGIN_MARKUP_ALERT
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vn. II”]"
     % START_BEAM:
@@ -11689,14 +11689,14 @@ number.1.Violin.2.MusicVoice = {
       %! EXPLICIT_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
+      %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
-      %! REDRAWN_EXPLICIT_MARGIN_MARKUP
+      %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.margin_markup()
+      %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup
     % ABSOLUTE_BEFORE:
@@ -18412,13 +18412,13 @@ number.1.Viola.MusicVoice = {
     \override TupletBracket.direction = #down
       %! -PARTS
       %! baca.IndicatorCommand._call()
-      %! baca.start_markup()
+      %! baca.instrument_name()
     \set Staff.instrumentName = \stirrings-still-viola-markup
       %! -PARTS
-      %! EXPLICIT_MARGIN_MARKUP
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.margin_markup()
+      %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \stirrings-still-va-markup
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
@@ -18445,7 +18445,7 @@ number.1.Viola.MusicVoice = {
       %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_MARGIN_MARKUP_COLOR
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
       %! EXPLICIT_STAFF_LINES_COLOR
@@ -18481,7 +18481,7 @@ number.1.Viola.MusicVoice = {
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "(“Viola”)"
-      %! EXPLICIT_MARGIN_MARKUP_ALERT
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Va.”]"
     % START_BEAM:
@@ -18599,14 +18599,14 @@ number.1.Viola.MusicVoice = {
       %! EXPLICIT_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
+      %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
-      %! REDRAWN_EXPLICIT_MARGIN_MARKUP
+      %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.margin_markup()
+      %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \stirrings-still-va-markup
     % ABSOLUTE_BEFORE:
@@ -25697,13 +25697,13 @@ number.1.Cello.MusicVoice = {
             \override TupletBracket.direction = #down
               %! -PARTS
               %! baca.IndicatorCommand._call()
-              %! baca.start_markup()
+              %! baca.instrument_name()
             \set Staff.instrumentName = \stirrings-still-cello-markup
               %! -PARTS
-              %! EXPLICIT_MARGIN_MARKUP
+              %! EXPLICIT_SHORT_INSTRUMENT_NAME
               %! baca.IndicatorCommand._call()
               %! baca._set_status_tag()
-              %! baca.margin_markup()
+              %! baca.short_instrument_name()
             \set Staff.shortInstrumentName = \stirrings-still-vc-markup
               %! EXPLICIT_STAFF_LINES
               %! baca.IndicatorCommand._call()
@@ -25733,7 +25733,7 @@ number.1.Cello.MusicVoice = {
               %! EXPLICIT_CLEF_COLOR
               %! baca._attach_color_literal(2)
             \once \override Staff.Clef.color = #(x11-color 'blue)
-              %! EXPLICIT_MARGIN_MARKUP_COLOR
+              %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
               %! baca._attach_color_literal(2)
             \once \override Staff.InstrumentName.color = #(x11-color 'blue)
               %! EXPLICIT_STAFF_LINES_COLOR
@@ -25762,7 +25762,7 @@ number.1.Cello.MusicVoice = {
               %! EXPLICIT_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-explicit-indicator-markup "(“Cello”)"
-              %! EXPLICIT_MARGIN_MARKUP_ALERT
+              %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-explicit-indicator-markup "[“Vc.”]"
             % ABSOLUTE_AFTER:
@@ -25770,14 +25770,14 @@ number.1.Cello.MusicVoice = {
               %! EXPLICIT_CLEF_REDRAW_COLOR
               %! baca._attach_color_literal(2)
             \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
+              %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
               %! baca._attach_color_literal(2)
             \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
               %! -PARTS
-              %! REDRAWN_EXPLICIT_MARGIN_MARKUP
+              %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
               %! baca.IndicatorCommand._call()
               %! baca._set_status_tag()
-              %! baca.margin_markup()
+              %! baca.short_instrument_name()
               %! baca.treat_persistent_wrapper(3)
             \set Staff.shortInstrumentName = \stirrings-still-vc-markup
             % CLOSING:
