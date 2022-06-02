@@ -22,15 +22,15 @@ def instruments():
     )
 
 
-def margin_markups():
+def short_instrument_names():
     return dict(
         [
-            ("Va.", abjad.MarginMarkup(markup=r"\stirrings-still-va-markup")),
-            ("Vc.", abjad.MarginMarkup(markup=r"\stirrings-still-vc-markup")),
-            ("Vn. I", abjad.MarginMarkup(markup=r"\stirrings-still-vn-i-markup")),
+            ("Va.", abjad.ShortInstrumentName(r"\stirrings-still-va-markup")),
+            ("Vc.", abjad.ShortInstrumentName(r"\stirrings-still-vc-markup")),
+            ("Vn. I", abjad.ShortInstrumentName(r"\stirrings-still-vn-i-markup")),
             (
                 "Vn. II",
-                abjad.MarginMarkup(markup=r"\stirrings-still-vn-ii-markup"),
+                abjad.ShortInstrumentName(r"\stirrings-still-vn-ii-markup"),
             ),
         ]
     )
@@ -2055,17 +2055,17 @@ def make_wave_rhythm(start, stop, *, measures=None):
     return result
 
 
-def margin_markup(
+def short_instrument_name(
     key,
     *,
     alert=None,
     context="Staff",
     selector=lambda _: abjad.select.leaf(_, 0),
 ):
-    _margin_markups = margin_markups()
-    margin_markup = _margin_markups[key]
-    command = baca.margin_markup(
-        margin_markup,
+    _short_instrument_names = short_instrument_names()
+    short_instrument_name = _short_instrument_names[key]
+    command = baca.short_instrument_name(
+        short_instrument_name,
         alert=alert,
         context=context,
         selector=selector,
