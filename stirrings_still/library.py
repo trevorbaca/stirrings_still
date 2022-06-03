@@ -3230,7 +3230,7 @@ def time(maker: baca.CommandAccumulator, pairs: typing.Tuple):
     for value, lmn in pairs:
         if value in baca.GlobalFermataCommand.description_to_command:
             maker(
-                "GlobalRests",
+                "Rests",
                 baca.global_fermata(
                     value,
                     # selector=lambda _: baca.select.rest(_, lmn - 1),
@@ -3239,7 +3239,7 @@ def time(maker: baca.CommandAccumulator, pairs: typing.Tuple):
             )
         else:
             maker(
-                "GlobalSkips",
+                "Skips",
                 baca.metronome_mark(
                     value,
                     # selector=lambda _: baca.select.skip(_, lmn - 1),
@@ -3435,5 +3435,5 @@ def make_empty_score():
     score = abjad.Score([global_context, music_context], name="Score", tag=tag)
     baca.score.assert_lilypond_identifiers(score)
     baca.score.assert_unique_context_names(score)
-    baca.score.assert_matching_custom_context_names(score)
+    # baca.score.assert_matching_custom_context_names(score)
     return score
