@@ -3343,33 +3343,40 @@ def urtext_spanner(
 
 def voice_abbreviations():
     return {
-        "v1": "Violin.1.MusicVoice",
-        "v1r": "Violin.1.RestVoice",
-        "v1x": ["Violin.1.MusicVoice", "Violin.1.RestVoice"],
-        "v2": "Violin.2.MusicVoice",
-        "v2r": "Violin.2.RestVoice",
-        "v2x": ["Violin.2.MusicVoice", "Violin.2.RestVoice"],
-        "va": "Viola.MusicVoice",
-        "var": "Viola.RestVoice",
-        "vax": ["Viola.MusicVoice", "Viola.RestVoice"],
-        "vc": "Cello.MusicVoice",
-        "vcr": "Cello.RestVoice",
-        "vcx": ["Cello.MusicVoice", "Cello.RestVoice"],
+        "v1": "Violin.1.Music",
+        "v1r": "Violin.1.Rests",
+        # TODO: remove *x abbreviations
+        "v1x": ["Violin.1.Music", "Violin.1.Rests"],
+        "v2": "Violin.2.Music",
+        "v2r": "Violin.2.Rests",
+        # TODO: remove *x abbreviations
+        "v2x": ["Violin.2.Music", "Violin.2.Rests"],
+        "va": "Viola.Music",
+        "var": "Viola.Rests",
+        # TODO: remove *x abbreviations
+        "vax": ["Viola.Music", "Viola.Rests"],
+        "vc": "Cello.Music",
+        "vcr": "Cello.Rests",
+        # TODO: remove *x abbreviations
+        "vcx": ["Cello.Music", "Cello.Rests"],
+        # TODO: remove trio abbreviation
         "trio": [
-            "Violin.1.MusicVoice",
-            "Violin.2.MusicVoice",
-            "Viola.MusicVoice",
+            "Violin.1.Music",
+            "Violin.2.Music",
+            "Viola.Music",
         ],
+        # TODO: remove triox abbreviation
         "triox": [
-            "Violin.1.RestVoice",
-            "Violin.2.RestVoice",
-            "Viola.RestVoice",
+            "Violin.1.Rests",
+            "Violin.2.Rests",
+            "Viola.Rests",
         ],
+        # TODO: remove tutti abbreviation
         "tutti": [
-            "Violin.1.MusicVoice",
-            "Violin.2.MusicVoice",
-            "Viola.MusicVoice",
-            "Cello.MusicVoice",
+            "Violin.1.Music",
+            "Violin.2.Music",
+            "Viola.Music",
+            "Cello.Music",
         ],
     }
 
@@ -3379,28 +3386,28 @@ def make_empty_score():
     global_context = baca.score.make_global_context()
     # VIOLIN 1
     violin_one_music_staff = abjad.Staff(
-        [abjad.Voice(name="Violin.1.MusicVoice", tag=tag)],
+        [abjad.Voice(name="Violin.1.Music", tag=tag)],
         name="Violin.1.Music_Staff",
         tag=tag,
     )
     baca.score.attach_lilypond_tag("Violin.1", violin_one_music_staff)
     # VIOLIN 2
     violin_two_music_staff = abjad.Staff(
-        [abjad.Voice(name="Violin.2.MusicVoice", tag=tag)],
+        [abjad.Voice(name="Violin.2.Music", tag=tag)],
         name="Violin.2.MusicStaff",
         tag=tag,
     )
     baca.score.attach_lilypond_tag("Violin.2", violin_two_music_staff)
     # VIOLA
     viola_music_staff = abjad.Staff(
-        [abjad.Voice(name="Viola.MusicVoice", tag=tag)],
+        [abjad.Voice(name="Viola.Music", tag=tag)],
         name="Viola.Music_Staff",
         tag=tag,
     )
     baca.score.attach_lilypond_tag("Viola", viola_music_staff)
     # CELLO
     cello_music_staff = abjad.Staff(
-        [abjad.Voice(name="Cello.MusicVoice", tag=tag)],
+        [abjad.Voice(name="Cello.Music", tag=tag)],
         name="Cello.Music_Staff",
         tag=tag,
     )
