@@ -45,7 +45,7 @@ commands = baca.CommandAccumulator(
 )
 
 commands(
-    "GlobalSkips",
+    "Skips",
     baca.open_volta(lambda _: baca.select.skip(_, 30 - 1)),
     baca.close_volta(lambda _: baca.select.skip(_, 37 - 1)),
 )

@@ -47,7 +47,7 @@ commands = baca.CommandAccumulator(
 )
 
 commands(
-    "GlobalSkips",
+    "Skips",
     baca.markup(
         r"\stirrings-still-text-two",
         # -20 because first page compresses vertical spacing
@@ -83,7 +83,7 @@ commands(
 )
 
 commands(
-    "GlobalSkips",
+    "Skips",
     baca.open_volta(lambda _: baca.select.skip(_, 44 - 1)),
     baca.close_volta(lambda _: baca.select.skip(_, 49 - 1)),
 )
