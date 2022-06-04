@@ -1000,11 +1000,6 @@ number.19.Skips = {
       %! baca._comment_measure_numbers()
       %! baca._style_anchor_skip(1)
     % [anchor skip]
-    % OPENING:
-    % COMMANDS:
-      %! ANCHOR_SKIP
-      %! baca._style_anchor_skip(2)
-    \baca-time-signature-transparent
       %! ANCHOR_SKIP
       %! baca._make_global_skips(3)
     s1 * 1/4
@@ -1149,6 +1144,15 @@ number.19.Rests = {
       %! baca.GlobalFermataCommand._call(1)
       %! baca.global_fermata()
     ^ \baca-long-fermata-markup
+    % COMMANDS:
+      %! FERMATA_MEASURE
+      %! MEASURE_848
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.BarLine.transparent = ##t
+      %! FERMATA_MEASURE
+      %! MEASURE_848
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.SpanBar.transparent = ##t
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1211,6 +1215,15 @@ number.19.Rests = {
       %! baca.GlobalFermataCommand._call(1)
       %! baca.global_fermata()
     ^ \baca-long-fermata-markup
+    % COMMANDS:
+      %! FERMATA_MEASURE
+      %! MEASURE_855
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.BarLine.transparent = ##t
+      %! FERMATA_MEASURE
+      %! MEASURE_855
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.SpanBar.transparent = ##t
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2852,15 +2865,6 @@ number.19.Violin.1.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.circle_bow_spanner()
             \bacaStopTextSpanCircleBow
-            % COMMANDS:
-              %! FERMATA_MEASURE
-              %! MEASURE_848
-              %! baca._style_fermata_measures(7)
-        %%% \once \override Score.BarLine.transparent = ##t
-              %! FERMATA_MEASURE
-              %! MEASURE_848
-              %! baca._style_fermata_measures(7)
-        %%% \once \override Score.SpanBar.transparent = ##t
             % CLOSING:
             % COMMANDS:
 
@@ -4015,14 +4019,6 @@ number.19.Violin.1.Music = {
               %! baca.circle_bow_spanner()
             \bacaStopTextSpanCircleBow
             % COMMANDS:
-              %! FERMATA_MEASURE
-              %! MEASURE_855
-              %! baca._style_fermata_measures(7)
-        %%% \once \override Score.BarLine.transparent = ##t
-              %! FERMATA_MEASURE
-              %! MEASURE_855
-              %! baca._style_fermata_measures(7)
-        %%% \once \override Score.SpanBar.transparent = ##t
               %! baca.OverrideCommand._call(2)
               %! baca.note_head_style_harmonic()
             \revert NoteHead.style
