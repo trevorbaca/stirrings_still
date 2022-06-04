@@ -1151,10 +1151,10 @@ number.18.Violin.1.Music = {
         % MARKUP:
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
-        ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
+        ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
           %! baca._attach_latent_indicator_alert()
-        ^ \baca-reapplied-indicator-markup "[“Vn. I”]"
+        ^ \baca-reapplied-short-instrument-name-markup "[“Vn. I”]"
         % SPANNER_STARTS:
           %! AUTODETECT
           %! HALF_CLT_SPANNER
@@ -3109,10 +3109,10 @@ number.18.Violin.2.Music = {
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“ViolinI”)"
+    ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vn. II”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Vn. II”]"
     % SPANNER_STARTS:
       %! AUTODETECT
       %! HALF_CLT_SPANNER
@@ -5004,10 +5004,10 @@ number.18.Viola.Music = {
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Va.”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Va.”]"
     % SPANNER_STARTS:
       %! abjad.glissando(7)
       %! baca.glissando()
@@ -5300,10 +5300,10 @@ number.18.Cello.Music = {
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vc.”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Vc.”]"
     % SPANNER_STARTS:
       %! abjad.glissando(7)
       %! baca.glissando()
