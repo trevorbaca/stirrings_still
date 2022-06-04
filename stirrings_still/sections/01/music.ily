@@ -4266,9 +4266,6 @@ number.1.Violin.1.Music = {
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“ViolinI”)"
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-short-instrument-name-markup "[“Vn. I”]"
     % START_BEAM:
     [
     % SPANNER_STARTS:
@@ -11571,9 +11568,6 @@ number.1.Violin.2.Music = {
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“ViolinI”)"
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-short-instrument-name-markup "[“Vn. II”]"
     % START_BEAM:
     [
     % SPANNER_STARTS:
@@ -18481,9 +18475,6 @@ number.1.Viola.Music = {
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“Viola”)"
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-short-instrument-name-markup "[“Va.”]"
     % START_BEAM:
     [
     % SPANNER_STARTS:
@@ -25762,9 +25753,6 @@ number.1.Cello.Music = {
               %! EXPLICIT_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-explicit-instrument-markup "(“Cello”)"
-              %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-              %! baca._attach_latent_indicator_alert()
-            ^ \baca-explicit-short-instrument-name-markup "[“Vc.”]"
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! EXPLICIT_CLEF_REDRAW_COLOR
