@@ -4265,10 +4265,10 @@ number.1.Violin.1.Music = {
     % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“ViolinI”)"
+    ^ \baca-explicit-instrument-markup "(“ViolinI”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Vn. I”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“Vn. I”]"
     % START_BEAM:
     [
     % SPANNER_STARTS:
@@ -11570,10 +11570,10 @@ number.1.Violin.2.Music = {
     % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“ViolinI”)"
+    ^ \baca-explicit-instrument-markup "(“ViolinI”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Vn. II”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“Vn. II”]"
     % START_BEAM:
     [
     % SPANNER_STARTS:
@@ -18480,10 +18480,10 @@ number.1.Viola.Music = {
     % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Viola”)"
+    ^ \baca-explicit-instrument-markup "(“Viola”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Va.”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“Va.”]"
     % START_BEAM:
     [
     % SPANNER_STARTS:
@@ -25761,10 +25761,10 @@ number.1.Cello.Music = {
             %@% ^ \baca-duration-multiplier-markup #"8" #"16"
               %! EXPLICIT_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
-            ^ \baca-explicit-indicator-markup "(“Cello”)"
+            ^ \baca-explicit-instrument-markup "(“Cello”)"
               %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
               %! baca._attach_latent_indicator_alert()
-            ^ \baca-explicit-indicator-markup "[“Vc.”]"
+            ^ \baca-explicit-short-instrument-name-markup "[“Vc.”]"
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! EXPLICIT_CLEF_REDRAW_COLOR
