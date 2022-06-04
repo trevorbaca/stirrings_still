@@ -4357,11 +4357,6 @@ number.3.Skips = {
       %! baca._comment_measure_numbers()
       %! baca._style_anchor_skip(1)
     % [anchor skip]
-    % OPENING:
-    % COMMANDS:
-      %! ANCHOR_SKIP
-      %! baca._style_anchor_skip(2)
-    \baca-time-signature-transparent
       %! ANCHOR_SKIP
       %! baca._make_global_skips(3)
     s1 * 1/4
@@ -4510,6 +4505,15 @@ number.3.Rests = {
       %! baca.GlobalFermataCommand._call(1)
       %! baca.global_fermata()
     ^ \baca-fermata-markup
+    % COMMANDS:
+      %! FERMATA_MEASURE
+      %! MEASURE_140
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.BarLine.transparent = ##t
+      %! FERMATA_MEASURE
+      %! MEASURE_140
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.SpanBar.transparent = ##t
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4936,6 +4940,15 @@ number.3.Rests = {
       %! baca.GlobalFermataCommand._call(1)
       %! baca.global_fermata()
     ^ \baca-fermata-markup
+    % COMMANDS:
+      %! FERMATA_MEASURE
+      %! MEASURE_199
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.BarLine.transparent = ##t
+      %! FERMATA_MEASURE
+      %! MEASURE_199
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.SpanBar.transparent = ##t
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4998,6 +5011,15 @@ number.3.Rests = {
       %! baca.GlobalFermataCommand._call(1)
       %! baca.global_fermata()
     ^ \baca-fermata-markup
+    % COMMANDS:
+      %! FERMATA_MEASURE
+      %! MEASURE_206
+      %! baca._style_fermata_measures(7)
+    \once \override Score.BarLine.transparent = ##t
+      %! FERMATA_MEASURE
+      %! MEASURE_206
+      %! baca._style_fermata_measures(7)
+    \once \override Score.SpanBar.transparent = ##t
     % CLOSING:
     % COMMANDS:
 
@@ -6016,14 +6038,6 @@ number.3.Violin.1.Music = {
               %! baca.damp_spanner()
             \bacaStopTextSpanDamp
             % COMMANDS:
-              %! FERMATA_MEASURE
-              %! MEASURE_140
-              %! baca._style_fermata_measures(7)
-        %%% \once \override Score.BarLine.transparent = ##t
-              %! FERMATA_MEASURE
-              %! MEASURE_140
-              %! baca._style_fermata_measures(7)
-        %%% \once \override Score.SpanBar.transparent = ##t
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -9206,14 +9220,6 @@ number.3.Violin.1.Music = {
               %! baca.circle_bow_spanner()
             \bacaStopTextSpanCircleBow
             % COMMANDS:
-              %! FERMATA_MEASURE
-              %! MEASURE_199
-              %! baca._style_fermata_measures(7)
-        %%% \once \override Score.BarLine.transparent = ##t
-              %! FERMATA_MEASURE
-              %! MEASURE_199
-              %! baca._style_fermata_measures(7)
-        %%% \once \override Score.SpanBar.transparent = ##t
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -9701,14 +9707,6 @@ number.3.Violin.1.Music = {
               %! baca.text_spanner()
             \stopTextSpan
             % COMMANDS:
-              %! FERMATA_MEASURE
-              %! MEASURE_206
-              %! baca._style_fermata_measures(7)
-            \once \override Score.BarLine.transparent = ##t
-              %! FERMATA_MEASURE
-              %! MEASURE_206
-              %! baca._style_fermata_measures(7)
-            \once \override Score.SpanBar.transparent = ##t
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
