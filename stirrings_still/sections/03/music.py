@@ -129,7 +129,7 @@ time = (
     ("fermata", 77),
 )
 
-library.time(commands, time)
+library.time(score, commands, time)
 
 # V1
 

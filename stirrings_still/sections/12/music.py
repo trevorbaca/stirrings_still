@@ -34,7 +34,7 @@ baca.interpret.set_up_score(
 
 time = (("largo meno mosso", 1),)
 
-library.time(commands, time)
+library.time(score, commands, time)
 
 
 def lleak_tuplet_pleaves(indices):

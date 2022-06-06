@@ -45,7 +45,7 @@ time = (
     ("presto", 26),
 )
 
-library.time(commands, time)
+library.time(score, commands, time)
 
 commands(
     ("v1", (1, 4)),

@@ -72,7 +72,7 @@ time = (
     ("largo", 88),
 )
 
-library.time(commands, time)
+library.time(score, commands, time)
 
 # V1
 

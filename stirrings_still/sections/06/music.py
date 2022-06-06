@@ -50,7 +50,7 @@ time = (
     ("long", 14),
 )
 
-library.time(commands, time)
+library.time(score, commands, time)
 
 # V1
 
