@@ -3213,7 +3213,7 @@ def second_order_stages(section):
     return dictionary
 
 
-def time(maker, pairs):
+def time(score, commands, pairs):
     def make_rest_selector(lmn):
         def selector(argument):
             return baca.select.rest(argument, lmn - 1)
@@ -3226,9 +3226,11 @@ def time(maker, pairs):
 
         return selector
 
+    skips = score["Skips"]
+    manifests = commands.manifests()
     for value, lmn in pairs:
         if value in baca.GlobalFermataCommand.description_to_command:
-            maker(
+            commands(
                 "Rests",
                 baca.global_fermata(
                     value,
@@ -3236,12 +3238,11 @@ def time(maker, pairs):
                 ),
             )
         else:
-            maker(
-                "Skips",
-                baca.metronome_mark(
-                    value,
-                    selector=make_skip_selector(lmn),
-                ),
+            skip = skips[lmn - 1]
+            baca.commands._metronome_mark(
+                skip,
+                commands.metronome_marks.get(value, value),
+                manifests,
             )
 
 
