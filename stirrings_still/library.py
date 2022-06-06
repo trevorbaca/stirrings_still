@@ -1567,7 +1567,6 @@ def make_desynchronization_rhythm(
             lambda _: abjad.select.get(baca.select.lts(_), rests),
         )
         commands.append(specifier)
-    diminution: typing.List[rmakers.Command]
     if extra_counts[0] < 0:
         diminution = [rmakers.force_augmentation()]
     elif extra_counts[0] == 0:
@@ -3214,7 +3213,7 @@ def second_order_stages(section):
     return dictionary
 
 
-def time(maker: baca.CommandAccumulator, pairs: typing.Tuple):
+def time(maker, pairs):
     def make_rest_selector(lmn):
         def selector(argument):
             return baca.select.rest(argument, lmn - 1)
@@ -3233,7 +3232,6 @@ def time(maker: baca.CommandAccumulator, pairs: typing.Tuple):
                 "Rests",
                 baca.global_fermata(
                     value,
-                    # selector=lambda _: baca.select.rest(_, lmn - 1),
                     selector=make_rest_selector(lmn),
                 ),
             )
@@ -3242,7 +3240,6 @@ def time(maker: baca.CommandAccumulator, pairs: typing.Tuple):
                 "Skips",
                 baca.metronome_mark(
                     value,
-                    # selector=lambda _: baca.select.skip(_, lmn - 1),
                     selector=make_skip_selector(lmn),
                 ),
             )
