@@ -62,7 +62,7 @@ commands(
     ),
 )
 
-baca.commands._bar_line(score["Skips"][20 - 1], "|.")
+baca.bar_line(score["Skips"][20 - 1], "|.")
 
 time = (
     ("long", 2),
