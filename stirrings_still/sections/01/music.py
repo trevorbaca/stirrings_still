@@ -48,6 +48,7 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
+    commands,
     commands.manifests(),
     commands.time_signatures,
     append_anchor_skip=True,
@@ -94,9 +95,12 @@ commands(
 
 commands(
     "Skips",
-    baca.open_volta(lambda _: baca.select.skip(_, 44 - 1)),
     baca.close_volta(lambda _: baca.select.skip(_, 49 - 1)),
 )
+
+skips = score["Skips"]
+
+baca.commands._open_volta(skips[44 - 1], commands.first_measure_number)
 
 time = (
     ("andante", 1),
