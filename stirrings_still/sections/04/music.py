@@ -56,6 +56,7 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
+    commands,
     commands.manifests(),
     commands.time_signatures,
     append_anchor_skip=True,
@@ -85,18 +86,21 @@ commands(
 
 commands(
     "Skips",
-    baca.open_volta(lambda _: baca.select.skip(_, 1 - 1)),
     baca.double_volta(lambda _: baca.select.skip(_, 7 - 1)),
     baca.double_volta(lambda _: baca.select.skip(_, 13 - 1)),
     baca.double_volta(lambda _: baca.select.skip(_, 19 - 1)),
     baca.double_volta(lambda _: baca.select.skip(_, 25 - 1)),
     baca.double_volta(lambda _: baca.select.skip(_, 31 - 1)),
     baca.close_volta(lambda _: baca.select.skip(_, 37 - 1)),
-    baca.open_volta(lambda _: baca.select.skip(_, 57 - 1)),
     baca.close_volta(lambda _: baca.select.skip(_, 61 - 1)),
-    baca.open_volta(lambda _: baca.select.skip(_, 94 - 1)),
     baca.close_volta(lambda _: baca.select.skip(_, 98 - 1)),
 )
+
+skips = score["Skips"]
+
+baca.commands._open_volta(skips[1 - 1], commands.first_measure_number)
+baca.commands._open_volta(skips[57 - 1], commands.first_measure_number)
+baca.commands._open_volta(skips[94 - 1], commands.first_measure_number)
 
 time = (
     ("fermata", 37),
