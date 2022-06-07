@@ -86,8 +86,8 @@ commands(
 
 skips = score["Skips"]
 
-baca.commands._open_volta(skips[35 - 1], commands.first_measure_number)
-baca.commands._open_volta(skips[105 - 1], commands.first_measure_number)
+baca.open_volta(skips[35 - 1], commands.first_measure_number)
+baca.open_volta(skips[105 - 1], commands.first_measure_number)
 
 time = (
     ("presto", 1),

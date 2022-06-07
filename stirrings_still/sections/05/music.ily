@@ -1789,18 +1789,17 @@ number.5.Skips = {
     % [Skips measure 35]
     % BEFORE:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
       %! baca.bar_line()
     \bar ".|:"
       %! MEASURE_340
       %! NOT_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent()
+      %! baca.bar_line_x_extent(1)
+      %! baca.open_volta()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 2)
       %! MEASURE_340
       %! ONLY_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent()
+      %! baca.bar_line_x_extent(1)
+      %! baca.open_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 3)
     % OPENING:
     % COMMANDS:
@@ -2258,12 +2257,12 @@ number.5.Skips = {
     % BEFORE:
     % COMMANDS:
       %! baca.IndicatorCommand._call()
-      %! baca.bar_line()
+      %! baca.bar_line_command()
     \bar ":|."
       %! MEASURE_349
       %! ONLY_MOL
       %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent()
+      %! baca.bar_line_x_extent_command()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
     % OPENING:
     % COMMANDS:
@@ -5232,18 +5231,17 @@ number.5.Skips = {
     % [Skips measure 105]
     % BEFORE:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
       %! baca.bar_line()
     \bar ".|:"
       %! MEASURE_410
       %! NOT_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent()
+      %! baca.bar_line_x_extent(1)
+      %! baca.open_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 2)
       %! MEASURE_410
       %! ONLY_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent()
+      %! baca.bar_line_x_extent(1)
+      %! baca.open_volta()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 3)
       %! baca._make_global_skips(1)
     s1 * 7/8
@@ -5570,12 +5568,12 @@ number.5.Skips = {
     % BEFORE:
     % COMMANDS:
       %! baca.IndicatorCommand._call()
-      %! baca.bar_line()
+      %! baca.bar_line_command()
     \bar ":|."
       %! MEASURE_416
       %! ONLY_MOL
       %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent()
+      %! baca.bar_line_x_extent_command()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
     % OPENING:
     % COMMANDS:

@@ -123,18 +123,17 @@ number.18.Skips = {
     % [Skips measure 3]
     % BEFORE:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
       %! baca.bar_line()
     \bar ".|:"
       %! MEASURE_825
       %! NOT_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent()
+      %! baca.bar_line_x_extent(1)
+      %! baca.open_volta()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 2)
       %! MEASURE_825
       %! ONLY_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent()
+      %! baca.bar_line_x_extent(1)
+      %! baca.open_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 3)
     % OPENING:
     % COMMANDS:
@@ -231,12 +230,12 @@ number.18.Skips = {
     % BEFORE:
     % COMMANDS:
       %! baca.IndicatorCommand._call()
-      %! baca.bar_line()
+      %! baca.bar_line_command()
     \bar ":|."
       %! MEASURE_827
       %! ONLY_MOL
       %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent()
+      %! baca.bar_line_x_extent_command()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
     % OPENING:
     % COMMANDS:
