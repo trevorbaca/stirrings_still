@@ -11725,7 +11725,7 @@ number.7.Cello.Music = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \override MultiMeasureRest.color = #green
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 8/16
     % AFTER:
     % MARKUP:
@@ -11737,7 +11737,7 @@ number.7.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 6]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 12/16
     % AFTER:
     % MARKUP:

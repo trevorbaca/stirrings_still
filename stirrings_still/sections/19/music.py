@@ -83,7 +83,7 @@ baca.alternate_makers(
     "v1",
     [1, (3, 4), (6, 8), (10, 15)],
     library.make_wave_rhythm((1, 4), (3, 32)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
     total=20,
 )
 
@@ -94,7 +94,7 @@ baca.alternate_makers(
     "v2",
     [1, (3, 4), (6, 8), (10, 15)],
     library.make_wave_rhythm((5, 32), (1, 4)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
     total=20,
 )
 
@@ -107,7 +107,7 @@ commands(
 
 commands(
     ("va", 20),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # VC
@@ -119,7 +119,7 @@ commands(
 
 commands(
     ("vc", 2),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 baca.alternate_makers(
@@ -127,7 +127,7 @@ baca.alternate_makers(
     "vc",
     [(3, 4), (6, 8), (10, 15)],
     baca.make_repeat_tied_notes(),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
     absolute_start=3,
     total=20,
 )

@@ -139,7 +139,7 @@ commands(
 
 commands(
     ("vc", (1, 2)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -149,7 +149,7 @@ commands(
 
 commands(
     ("vc", (5, 6)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -164,7 +164,7 @@ commands(
 
 commands(
     ("vc", (14, 17)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # anchor notes
