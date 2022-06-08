@@ -5117,13 +5117,13 @@ number.17.Rests = {
     % [Rests measure 72]
     % OPENING:
     % COMMANDS:
-      %! baca._global_fermata(2)
+      %! baca.global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca._global_fermata(1)
+      %! baca.global_fermata(1)
     ^ \baca-very-long-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:

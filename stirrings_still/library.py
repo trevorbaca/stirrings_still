@@ -3227,16 +3227,13 @@ def time(score, commands, pairs):
         return selector
 
     skips = score["Skips"]
+    rests = score["Rests"]
     manifests = commands.manifests()
+    fermatas = ("short", "fermata", "long", "very_long")
     for value, lmn in pairs:
-        if value in baca.GlobalFermataCommand.description_to_command:
-            commands(
-                "Rests",
-                baca.global_fermata(
-                    value,
-                    selector=make_rest_selector(lmn),
-                ),
-            )
+        if value in fermatas:
+            rest = rests[lmn - 1]
+            baca.commands.global_fermata(rest, value)
         else:
             skip = skips[lmn - 1]
             baca.commands._metronome_mark(
