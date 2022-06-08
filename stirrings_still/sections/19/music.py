@@ -38,28 +38,30 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
-commands(
-    "Skips",
-    baca.markup(
-        r"\stirrings-still-text-twenty-six",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=lambda _: baca.select.skip(_, 9 - 1),
-    ),
-    baca.markup(
-        r"\stirrings-still-text-twenty-seven",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -50)"),
-        selector=lambda _: baca.select.skip(_, 16 - 1),
-    ),
-    baca.markup(
-        r"\stirrings-still-text-twenty-eight",
-        abjad.Tweak(r"- \tweak extra-offset #'(9 . -75)"),
-        selector=lambda _: baca.select.skip(_, 20 - 1),
-    ),
-    baca.markup(
-        r"\stirrings-still-text-twenty-nine",
-        abjad.Tweak(r"- \tweak extra-offset #'(28 . -100)"),
-        selector=lambda _: baca.select.skip(_, 20 - 1),
-    ),
+skips = score["Skips"]
+
+baca.markup_function(
+    skips[9 - 1],
+    r"\stirrings-still-text-twenty-six",
+    abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+)
+
+baca.markup_function(
+    skips[16 - 1],
+    r"\stirrings-still-text-twenty-seven",
+    abjad.Tweak(r"- \tweak extra-offset #'(4 . -50)"),
+)
+
+baca.markup_function(
+    skips[20 - 1],
+    r"\stirrings-still-text-twenty-eight",
+    abjad.Tweak(r"- \tweak extra-offset #'(9 . -75)"),
+)
+
+baca.markup_function(
+    skips[20 - 1],
+    r"\stirrings-still-text-twenty-nine",
+    abjad.Tweak(r"- \tweak extra-offset #'(28 . -100)"),
 )
 
 baca.bar_line(score["Skips"][20 - 1], "|.")

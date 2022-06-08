@@ -419,11 +419,9 @@ number.19.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-text-twenty-six
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -757,11 +755,9 @@ number.19.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(4 . -50)
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-text-twenty-seven
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -948,17 +944,13 @@ number.19.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(28 . -100)
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-text-twenty-nine
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(9 . -75)
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-text-twenty-eight
     % SPANNER_STOPS:
       %! CLOCK_TIME

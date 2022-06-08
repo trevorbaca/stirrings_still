@@ -41,18 +41,13 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
-commands(
-    "Skips",
-    baca.markup(
-        r"\stirrings-still-repeat-three-markup",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
-        measures=11,
-        selector=lambda _: baca.select.skip(_, 0),
-    ),
-)
-
-
 skips = score["Skips"]
+
+baca.markup_function(
+    skips[11 - 1],
+    r"\stirrings-still-repeat-three-markup",
+    abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
+)
 
 baca.open_volta(skips[11 - 1], commands.first_measure_number)
 baca.close_volta(skips[14 - 1], commands.first_measure_number)
