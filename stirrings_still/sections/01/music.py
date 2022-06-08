@@ -93,14 +93,10 @@ commands(
     ),
 )
 
-commands(
-    "Skips",
-    baca.close_volta(lambda _: baca.select.skip(_, 49 - 1)),
-)
-
 skips = score["Skips"]
 
 baca.open_volta(skips[44 - 1], commands.first_measure_number)
+baca.close_volta(skips[49 - 1], commands.first_measure_number)
 
 time = (
     ("andante", 1),

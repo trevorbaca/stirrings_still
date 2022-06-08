@@ -1397,18 +1397,17 @@ number.14.Skips = {
     % [Skips measure 29]
     % BEFORE:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
-      %! baca.bar_line_command()
+      %! baca.bar_line()
     \bar ":.|.:"
       %! MEASURE_686
       %! NOT_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.double_volta()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 3)
       %! MEASURE_686
       %! ONLY_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.double_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 4)
     % OPENING:
     % COMMANDS:
@@ -1922,13 +1921,12 @@ number.14.Skips = {
     % [Skips measure 38]
     % BEFORE:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
-      %! baca.bar_line_command()
+      %! baca.bar_line()
     \bar ":|."
       %! MEASURE_695
       %! ONLY_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.close_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
       %! baca._make_global_skips(1)
     s1 * 8/8
@@ -2322,15 +2320,13 @@ number.14.Rests = {
     % [Rests measure 36]
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-very-long-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2356,15 +2352,13 @@ number.14.Rests = {
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-very-long-fermata-markup
     % COMMANDS:
       %! FERMATA_MEASURE

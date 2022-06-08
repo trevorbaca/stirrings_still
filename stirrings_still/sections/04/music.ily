@@ -303,18 +303,17 @@ number.4.Skips = {
     % [Skips measure 7]
     % BEFORE:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
-      %! baca.bar_line_command()
+      %! baca.bar_line()
     \bar ":.|.:"
       %! MEASURE_213
       %! NOT_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.double_volta()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 3)
       %! MEASURE_213
       %! ONLY_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.double_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 4)
       %! baca._make_global_skips(1)
     s1 * 16/16
@@ -576,18 +575,17 @@ number.4.Skips = {
     % [Skips measure 13]
     % BEFORE:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
-      %! baca.bar_line_command()
+      %! baca.bar_line()
     \bar ":.|.:"
       %! MEASURE_219
       %! NOT_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.double_volta()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 3)
       %! MEASURE_219
       %! ONLY_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.double_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 4)
     % OPENING:
     % COMMANDS:
@@ -867,18 +865,17 @@ number.4.Skips = {
     % [Skips measure 19]
     % BEFORE:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
-      %! baca.bar_line_command()
+      %! baca.bar_line()
     \bar ":.|.:"
       %! MEASURE_225
       %! NOT_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.double_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 3)
       %! MEASURE_225
       %! ONLY_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.double_volta()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 4)
     % OPENING:
     % COMMANDS:
@@ -1149,18 +1146,17 @@ number.4.Skips = {
     % [Skips measure 25]
     % BEFORE:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
-      %! baca.bar_line_command()
+      %! baca.bar_line()
     \bar ":.|.:"
       %! MEASURE_231
       %! NOT_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.double_volta()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 3)
       %! MEASURE_231
       %! ONLY_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.double_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 4)
       %! baca._make_global_skips(1)
     s1 * 12/16
@@ -1431,18 +1427,17 @@ number.4.Skips = {
     % [Skips measure 31]
     % BEFORE:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
-      %! baca.bar_line_command()
+      %! baca.bar_line()
     \bar ":.|.:"
       %! MEASURE_237
       %! NOT_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.double_volta()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 3)
       %! MEASURE_237
       %! ONLY_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.double_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 4)
       %! baca._make_global_skips(1)
     s1 * 12/16
@@ -1713,13 +1708,12 @@ number.4.Skips = {
     % [Skips measure 37]
     % BEFORE:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
-      %! baca.bar_line_command()
+      %! baca.bar_line()
     \bar ":|."
       %! MEASURE_243
       %! ONLY_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.close_volta()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 1.5)
     % OPENING:
     % COMMANDS:
@@ -3079,13 +3073,12 @@ number.4.Skips = {
     % [Skips measure 61]
     % BEFORE:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
-      %! baca.bar_line_command()
+      %! baca.bar_line()
     \bar ":|."
       %! MEASURE_267
       %! ONLY_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.close_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
     % OPENING:
     % COMMANDS:
@@ -4990,13 +4983,12 @@ number.4.Skips = {
     % [Skips measure 98]
     % BEFORE:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
-      %! baca.bar_line_command()
+      %! baca.bar_line()
     \bar ":|."
       %! MEASURE_304
       %! ONLY_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.close_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
       %! baca._make_global_skips(1)
     s1 * 6/4
@@ -5393,15 +5385,13 @@ number.4.Rests = {
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-fermata-markup
     % COMMANDS:
       %! FERMATA_MEASURE
@@ -5426,15 +5416,13 @@ number.4.Rests = {
     % [Rests measure 39]
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5488,15 +5476,13 @@ number.4.Rests = {
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-fermata-markup
     % COMMANDS:
       %! FERMATA_MEASURE
@@ -5521,15 +5507,13 @@ number.4.Rests = {
     % [Rests measure 48]
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-long-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5573,15 +5557,13 @@ number.4.Rests = {
     % [Rests measure 54]
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-long-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5597,15 +5579,13 @@ number.4.Rests = {
     % [Rests measure 56]
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-long-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5666,15 +5646,13 @@ number.4.Rests = {
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-long-fermata-markup
     % COMMANDS:
       %! FERMATA_MEASURE
@@ -5930,15 +5908,13 @@ number.4.Rests = {
     % [Rests measure 99]
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-short-fermata-markup
     % CLOSING:
     % COMMANDS:

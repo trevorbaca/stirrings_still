@@ -55,14 +55,10 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
-commands(
-    "Skips",
-    baca.close_volta(lambda _: baca.select.skip(_, 37 - 1)),
-)
-
 skips = score["Skips"]
 
 baca.open_volta(skips[30 - 1], commands.first_measure_number)
+baca.close_volta(skips[37 - 1], commands.first_measure_number)
 
 time = (
     ("largo", 1),

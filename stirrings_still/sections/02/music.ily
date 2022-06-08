@@ -1922,13 +1922,12 @@ number.2.Skips = {
     % [Skips measure 32]
     % BEFORE:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
-      %! baca.bar_line_command()
+      %! baca.bar_line()
     \bar ":|."
       %! MEASURE_95
       %! ONLY_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.close_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
     % OPENING:
     % COMMANDS:
@@ -4373,15 +4372,13 @@ number.2.Rests = {
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-fermata-markup
     % COMMANDS:
       %! FERMATA_MEASURE
@@ -4413,15 +4410,13 @@ number.2.Rests = {
     % [Rests measure 31]
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4458,15 +4453,13 @@ number.2.Rests = {
     % [Rests measure 36]
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4489,15 +4482,13 @@ number.2.Rests = {
     % [Rests measure 39]
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4527,15 +4518,13 @@ number.2.Rests = {
     % [Rests measure 43]
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4565,15 +4554,13 @@ number.2.Rests = {
     % [Rests measure 47]
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4589,15 +4576,13 @@ number.2.Rests = {
     % [Rests measure 49]
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4697,15 +4682,13 @@ number.2.Rests = {
     % [Rests measure 63]
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4731,15 +4714,13 @@ number.2.Rests = {
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
-      %! baca.GlobalFermataCommand._call(2)
-      %! baca.global_fermata()
+      %! baca._global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.GlobalFermataCommand._call(1)
-      %! baca.global_fermata()
+      %! baca._global_fermata(1)
     ^ \baca-fermata-markup
     % COMMANDS:
       %! FERMATA_MEASURE
