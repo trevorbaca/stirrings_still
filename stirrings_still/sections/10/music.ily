@@ -607,11 +607,9 @@ number.10.Skips = {
     s1 * 12/16
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(0 . 10)
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-repeat-three-markup
     % SPANNER_STOPS:
       %! CLOCK_TIME

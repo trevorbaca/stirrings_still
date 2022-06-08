@@ -434,11 +434,9 @@ number.7.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-text-twenty
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -1019,11 +1017,9 @@ number.7.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-text-twenty-one
     % SPANNER_STOPS:
       %! CLOCK_TIME

@@ -35,13 +35,12 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
-commands(
-    "Skips",
-    baca.markup(
-        r"\stirrings-still-text-twenty-four",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=lambda _: baca.select.skip(_, 8 - 1),
-    ),
+skips = score["Skips"]
+
+baca.markup_function(
+    skips[8 - 1],
+    r"\stirrings-still-text-twenty-four",
+    abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
 )
 
 time = (

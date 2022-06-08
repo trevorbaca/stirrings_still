@@ -65,26 +65,25 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
-commands(
-    "Skips",
-    baca.markup(
-        r"\stirrings-still-text-thirteen",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=lambda _: baca.select.skip(_, 37 - 1),
-    ),
-    baca.markup(
-        r"\stirrings-still-text-fourteen",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=lambda _: baca.select.skip(_, 46 - 1),
-    ),
-    baca.markup(
-        r"\stirrings-still-text-fifteen",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=lambda _: baca.select.skip(_, 64 - 1),
-    ),
+skips = score["Skips"]
+
+baca.markup_function(
+    skips[37 - 1],
+    r"\stirrings-still-text-thirteen",
+    abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
 )
 
-skips = score["Skips"]
+baca.markup_function(
+    skips[46 - 1],
+    r"\stirrings-still-text-fourteen",
+    abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+)
+
+baca.markup_function(
+    skips[64 - 1],
+    r"\stirrings-still-text-fifteen",
+    abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+)
 
 baca.open_volta(skips[1 - 1], commands.first_measure_number)
 baca.double_volta(skips[7 - 1], commands.first_measure_number)

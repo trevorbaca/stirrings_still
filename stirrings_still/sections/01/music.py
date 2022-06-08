@@ -57,43 +57,45 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
-commands(
-    "Skips",
-    baca.markup(
-        r"\stirrings-still-text-two",
-        # -20 because first page compresses vertical spacing
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=lambda _: baca.select.skip(_, 10 - 1),
-    ),
-    baca.markup(
-        r"\stirrings-still-text-three",
-        # -20 because first page compresses vertical spacing
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=lambda _: baca.select.skip(_, 19 - 1),
-    ),
-    baca.markup(
-        r"\stirrings-still-text-four",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=lambda _: baca.select.skip(_, 24 - 1),
-    ),
-    baca.markup(
-        r"\stirrings-still-text-five",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=lambda _: baca.select.skip(_, 28 - 1),
-    ),
-    baca.markup(
-        r"\stirrings-still-text-six",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=lambda _: baca.select.skip(_, 61 - 1),
-    ),
-    baca.markup(
-        r"\stirrings-still-text-seven",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-        selector=lambda _: baca.select.skip(_, 63 - 1),
-    ),
+skips = score["Skips"]
+
+baca.markup_function(
+    skips[10 - 1],
+    r"\stirrings-still-text-two",
+    # -20 because first page compresses vertical spacing
+    abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
 )
 
-skips = score["Skips"]
+baca.markup_function(
+    skips[19 - 1],
+    r"\stirrings-still-text-three",
+    # -20 because first page compresses vertical spacing
+    abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+)
+
+baca.markup_function(
+    skips[24 - 1],
+    r"\stirrings-still-text-four",
+    abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+)
+
+baca.markup_function(
+    skips[28 - 1],
+    r"\stirrings-still-text-five",
+    abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+)
+
+baca.markup_function(
+    skips[61 - 1],
+    r"\stirrings-still-text-six",
+    abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+)
+
+baca.markup_function(
+    skips[63 - 1],
+    r"\stirrings-still-text-seven",
+    abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+)
 
 baca.open_volta(skips[44 - 1], commands.first_measure_number)
 baca.close_volta(skips[49 - 1], commands.first_measure_number)
