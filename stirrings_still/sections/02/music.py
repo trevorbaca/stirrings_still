@@ -168,7 +168,7 @@ commands(
 
 commands(
     ("v1", (8, 11)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -217,7 +217,7 @@ commands(
 
 commands(
     ("v1", 25),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -227,7 +227,7 @@ commands(
 
 commands(
     ("v1", (27, 28)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -237,7 +237,7 @@ commands(
 
 commands(
     ("v1", 31),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -252,7 +252,7 @@ commands(
 
 commands(
     ("v1", 36),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -262,7 +262,7 @@ commands(
 
 commands(
     ("v1", 39),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -277,7 +277,7 @@ commands(
 
 commands(
     ("v1", 43),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -287,7 +287,7 @@ commands(
 
 commands(
     ("v1", 45),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -297,7 +297,7 @@ commands(
 
 commands(
     ("v1", 47),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -307,7 +307,7 @@ commands(
 
 commands(
     ("v1", 49),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -327,7 +327,7 @@ commands(
 
 commands(
     ("v1", 63),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -346,7 +346,7 @@ commands(
 
 commands(
     ("v1", 66),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # V2
@@ -362,7 +362,7 @@ commands(
 
 commands(
     ("v2", (8, 11)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -421,7 +421,7 @@ commands(
 
 commands(
     ("v2", 28),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -431,7 +431,7 @@ commands(
 
 commands(
     ("v2", 31),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -446,7 +446,7 @@ commands(
 
 commands(
     ("v2", 36),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -456,7 +456,7 @@ commands(
 
 commands(
     ("v2", 39),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -471,7 +471,7 @@ commands(
 
 commands(
     ("v2", 43),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -481,7 +481,7 @@ commands(
 
 commands(
     ("v2", 45),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -491,7 +491,7 @@ commands(
 
 commands(
     ("v2", 47),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -501,7 +501,7 @@ commands(
 
 commands(
     ("v2", 49),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -516,7 +516,7 @@ commands(
 
 commands(
     ("v2", 63),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -535,7 +535,7 @@ commands(
 
 commands(
     ("v2", 66),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # VA
@@ -556,7 +556,7 @@ commands(
 
 commands(
     ("va", (8, 11)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -566,7 +566,7 @@ commands(
 
 commands(
     ("va", 22),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -586,7 +586,7 @@ commands(
 
 commands(
     ("va", 28),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -596,7 +596,7 @@ commands(
 
 commands(
     ("va", 31),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -611,7 +611,7 @@ commands(
 
 commands(
     ("va", 36),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -621,7 +621,7 @@ commands(
 
 commands(
     ("va", 39),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -636,7 +636,7 @@ commands(
 
 commands(
     ("va", 43),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -646,7 +646,7 @@ commands(
 
 commands(
     ("va", 45),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -656,7 +656,7 @@ commands(
 
 commands(
     ("va", 47),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -666,7 +666,7 @@ commands(
 
 commands(
     ("va", 49),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -686,7 +686,7 @@ commands(
 
 commands(
     ("va", 63),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -705,7 +705,7 @@ commands(
 
 commands(
     ("va", 66),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # VC
@@ -763,7 +763,7 @@ commands(
 
 commands(
     ("vc", 26),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -773,7 +773,7 @@ commands(
 
 commands(
     ("vc", 28),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -783,7 +783,7 @@ commands(
 
 commands(
     ("vc", 31),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -798,7 +798,7 @@ commands(
 
 commands(
     ("vc", 36),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -808,7 +808,7 @@ commands(
 
 commands(
     ("vc", 39),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -823,7 +823,7 @@ commands(
 
 commands(
     ("vc", 43),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -843,7 +843,7 @@ commands(
 
 commands(
     ("vc", 47),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -853,7 +853,7 @@ commands(
 
 commands(
     ("vc", 49),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -873,7 +873,7 @@ commands(
 
 commands(
     ("vc", 63),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -888,7 +888,7 @@ commands(
 
 commands(
     ("vc", 66),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # reapply

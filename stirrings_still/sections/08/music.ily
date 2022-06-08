@@ -4800,7 +4800,7 @@ number.8.Violin.1.Music = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \override MultiMeasureRest.color = #green
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/8
     % AFTER:
     % MARKUP:
@@ -4812,7 +4812,7 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 19]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 5/8
     % AFTER:
     % MARKUP:
@@ -4824,7 +4824,7 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 20]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 8/8
     % AFTER:
     % MARKUP:
@@ -4836,7 +4836,7 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 21]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 6/8
     % AFTER:
     % MARKUP:
@@ -4848,7 +4848,7 @@ number.8.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 22]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 8/8
     % AFTER:
     % MARKUP:
@@ -9083,7 +9083,7 @@ number.8.Violin.2.Music = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \override MultiMeasureRest.color = #green
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/8
     % AFTER:
     % MARKUP:
@@ -9095,7 +9095,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 19]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 5/8
     % AFTER:
     % MARKUP:
@@ -9107,7 +9107,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 20]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 8/8
     % AFTER:
     % MARKUP:
@@ -9119,7 +9119,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 21]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 6/8
     % AFTER:
     % MARKUP:
@@ -9131,7 +9131,7 @@ number.8.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 22]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 8/8
     % AFTER:
     % MARKUP:
@@ -13557,7 +13557,7 @@ number.8.Viola.Music = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \override MultiMeasureRest.color = #green
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/8
     % AFTER:
     % MARKUP:
@@ -13569,7 +13569,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 19]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 5/8
     % AFTER:
     % MARKUP:
@@ -13581,7 +13581,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 20]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 8/8
     % AFTER:
     % MARKUP:
@@ -13593,7 +13593,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 21]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 6/8
     % AFTER:
     % MARKUP:
@@ -13605,7 +13605,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 22]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 8/8
     % AFTER:
     % MARKUP:

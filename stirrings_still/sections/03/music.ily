@@ -7497,7 +7497,7 @@ number.3.Violin.1.Music = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \once \override MultiMeasureRest.color = #green
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 12/16
     % AFTER:
     % MARKUP:
@@ -11939,7 +11939,7 @@ number.3.Violin.2.Music = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \once \override MultiMeasureRest.color = #green
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 12/16
     % AFTER:
     % MARKUP:
@@ -16650,7 +16650,7 @@ number.3.Viola.Music = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \once \override MultiMeasureRest.color = #green
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 12/16
     % AFTER:
     % MARKUP:
@@ -22648,7 +22648,7 @@ number.3.Cello.Music = {
       %! baca.mmrest_color()
       %! baca.tacet()
     \once \override MultiMeasureRest.color = #green
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 12/16
     % AFTER:
     % MARKUP:

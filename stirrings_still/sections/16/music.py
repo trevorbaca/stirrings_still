@@ -145,7 +145,7 @@ commands(
 
 commands(
     ("v1", 26),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # V2
@@ -198,7 +198,7 @@ commands(
 
 commands(
     ("v2", 26),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # VA
@@ -247,7 +247,7 @@ commands(
 
 commands(
     ("va", 26),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # VC
@@ -300,7 +300,7 @@ commands(
 
 commands(
     ("vc", 26),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # reapply
