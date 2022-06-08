@@ -84,23 +84,19 @@ commands(
     ),
 )
 
-commands(
-    "Skips",
-    baca.double_volta(lambda _: baca.select.skip(_, 7 - 1)),
-    baca.double_volta(lambda _: baca.select.skip(_, 13 - 1)),
-    baca.double_volta(lambda _: baca.select.skip(_, 19 - 1)),
-    baca.double_volta(lambda _: baca.select.skip(_, 25 - 1)),
-    baca.double_volta(lambda _: baca.select.skip(_, 31 - 1)),
-    baca.close_volta(lambda _: baca.select.skip(_, 37 - 1)),
-    baca.close_volta(lambda _: baca.select.skip(_, 61 - 1)),
-    baca.close_volta(lambda _: baca.select.skip(_, 98 - 1)),
-)
-
 skips = score["Skips"]
 
 baca.open_volta(skips[1 - 1], commands.first_measure_number)
+baca.double_volta(skips[7 - 1], commands.first_measure_number)
+baca.double_volta(skips[13 - 1], commands.first_measure_number)
+baca.double_volta(skips[19 - 1], commands.first_measure_number)
+baca.double_volta(skips[25 - 1], commands.first_measure_number)
+baca.double_volta(skips[31 - 1], commands.first_measure_number)
+baca.close_volta(skips[37 - 1], commands.first_measure_number)
 baca.open_volta(skips[57 - 1], commands.first_measure_number)
+baca.close_volta(skips[61 - 1], commands.first_measure_number)
 baca.open_volta(skips[94 - 1], commands.first_measure_number)
+baca.close_volta(skips[98 - 1], commands.first_measure_number)
 
 time = (
     ("fermata", 37),
