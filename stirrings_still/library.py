@@ -1369,36 +1369,33 @@ def left_broken_tasto_tweak():
     )
 
 
-def make_accelerando(start, stop, *, measures=None):
+def make_accelerando(start, stop, *, function=None, measures=None):
     command = baca.rhythm(
         rmakers.accelerando([start, stop, (1, 16)]),
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         preprocessor=lambda _: baca.sequence.fuse(_),
         measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
-def make_cello_cell_rhythm():
+def make_cello_cell_rhythm(*, function=None):
     command = baca.rhythm(
         rmakers.talea([3, 1, 2, 2], 16),
         rmakers.beam(),
         rmakers.extract_trivial(),
         preprocessor=lambda _: baca.sequence.quarters(baca.sequence.fuse(_)),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
 def make_circle_rhythm(
     duration,
     *commands,
+    function=None,
     measures=None,
     remainder=abjad.RIGHT,
 ):
@@ -1424,17 +1421,16 @@ def make_circle_rhythm(
         rmakers.reduce_multiplier(),
         preprocessor=preprocessor,
         measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
 def make_clocktick_rhythm(
     *commands,
     displace=False,
     encroach=False,
+    function=None,
     measures=None,
 ):
     def preprocessor_(divisions):
@@ -1459,25 +1455,20 @@ def make_clocktick_rhythm(
         rmakers.extract_trivial(),
         preprocessor=preprocessor,
         measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
-def make_clouded_pane_rhythm():
+def make_clouded_pane_rhythm(*, function=None):
     command = baca.make_repeat_tied_notes(
         rmakers.reduce_multiplier(),
         do_not_rewrite_meter=True,
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
-def make_continuous_tremolo_material():
+def make_continuous_tremolo_material(*, function=None):
     command = baca.suite(
         baca.rhythm(
             rmakers.note(),
@@ -1488,16 +1479,18 @@ def make_continuous_tremolo_material():
                 lambda _: baca.select.ptails(_)[:-1],
             ),
             rmakers.force_repeat_tie(threshold=(1, 2)),
+            tag=baca.tags.function_name(inspect.currentframe()),
         ),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.Suite)
-    return result
+    baca.tag(
+        baca.tags.function_name(inspect.currentframe()),
+        command,
+    )
+    return command
 
 
-def make_declamation_rhythm(*, measures=None, protract=False):
+def make_declamation_rhythm(*, function=None, measures=None, protract=False):
     tuplet_rhythm_maker = rmakers.stack(
         rmakers.tuplet([(3, 1)]),
         rmakers.beam(),
@@ -1531,6 +1524,7 @@ def make_declamation_rhythm(*, measures=None, protract=False):
             ),
             preprocessor=preprocessor,
             measures=measures,
+            tag=baca.tags.function_name(inspect.currentframe(), n=1),
         )
     else:
         command = baca.rhythm(
@@ -1539,17 +1533,16 @@ def make_declamation_rhythm(*, measures=None, protract=False):
                 baca.sequence.fuse(_), [(1, 4)]
             ),
             measures=measures,
+            tag=baca.tags.function_name(inspect.currentframe(), n=2),
         )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
 def make_desynchronization_rhythm(
     denominator,
     extra_counts,
     *,
+    function=None,
     measures=None,
     rests=None,
 ):
@@ -1584,26 +1577,80 @@ def make_desynchronization_rhythm(
         rmakers.beam(),
         rmakers.extract_trivial(),
         measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
-def make_eighth_notes():
+def make_eighth_notes(*, function=None):
     command = baca.rhythm(
         rmakers.talea([1], 8),
         rmakers.extract_trivial(),
         preprocessor=lambda _: baca.sequence.fuse(_),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
+    return command
+
+
+def make_empty_score():
     tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    global_context = baca.score.make_global_context()
+    # VIOLIN 1
+    violin_one_music_staff = abjad.Staff(
+        [abjad.Voice(name="Violin.1.Music", tag=tag)],
+        name="Violin.1.Music_Staff",
+        tag=tag,
+    )
+    baca.score.attach_lilypond_tag("Violin.1", violin_one_music_staff)
+    # VIOLIN 2
+    violin_two_music_staff = abjad.Staff(
+        [abjad.Voice(name="Violin.2.Music", tag=tag)],
+        name="Violin.2.MusicStaff",
+        tag=tag,
+    )
+    baca.score.attach_lilypond_tag("Violin.2", violin_two_music_staff)
+    # VIOLA
+    viola_music_staff = abjad.Staff(
+        [abjad.Voice(name="Viola.Music", tag=tag)],
+        name="Viola.Music_Staff",
+        tag=tag,
+    )
+    baca.score.attach_lilypond_tag("Viola", viola_music_staff)
+    # CELLO
+    cello_music_staff = abjad.Staff(
+        [abjad.Voice(name="Cello.Music", tag=tag)],
+        name="Cello.Music_Staff",
+        tag=tag,
+    )
+    baca.score.attach_lilypond_tag("Cello", cello_music_staff)
+    # STRING QUARTET STAFF GROUP
+    string_quartet_staff_group = abjad.StaffGroup(
+        [
+            violin_one_music_staff,
+            violin_two_music_staff,
+            viola_music_staff,
+            cello_music_staff,
+        ],
+        lilypond_type="StringQuartetStaffGroup",
+        name="String_Quartet.Staff_Group",
+        tag=tag,
+    )
+    # MUSIC CONTEXT
+    music_context = abjad.Context(
+        [string_quartet_staff_group],
+        lilypond_type="MusicContext",
+        name="MusicContext",
+        tag=tag,
+    )
+    # SCORE
+    score = abjad.Score([global_context, music_context], name="Score", tag=tag)
+    baca.score.assert_lilypond_identifiers(score)
+    baca.score.assert_unique_context_names(score)
+    # baca.score.assert_matching_custom_context_names(score)
+    return score
 
 
-def make_flight_rhythm(counts, rotation, *, measures=None, start=0):
+def make_flight_rhythm(counts, rotation, *, function=None, measures=None, start=0):
     if start is not None and start < 0:
         raise Exception("set start to nonnegative integer (not {start}).")
 
@@ -1710,14 +1757,12 @@ def make_flight_rhythm(counts, rotation, *, measures=None, start=0):
         rmakers.force_diminution(),
         rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
-def make_grid_rhythm(*, rotation, measures=None):
+def make_grid_rhythm(*, rotation, function=None, measures=None):
     counts = [1, -3, 1, -3, 1, -2]
     counts = abjad.sequence.rotate(counts, n=rotation)
     command = baca.rhythm(
@@ -1725,14 +1770,14 @@ def make_grid_rhythm(*, rotation, measures=None):
         rmakers.beam(),
         rmakers.extract_trivial(),
         measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
-def make_grid_to_trajectory_rhythm(counts, rotation, extra, *, measures=None):
+def make_grid_to_trajectory_rhythm(
+    counts, rotation, extra, *, function=None, measures=None
+):
     counts_ = {0: [2, 14, 2, 10, 2, 18]}[counts]
     counts_ = abjad.sequence.rotate(counts_, n=rotation)
     assert isinstance(extra, int), repr(extra)
@@ -1745,41 +1790,39 @@ def make_grid_to_trajectory_rhythm(counts, rotation, extra, *, measures=None):
         rmakers.extract_trivial(),
         rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
-def make_loure_tuplets_material(extra_count, *, measures=None):
+def make_loure_tuplets_material(extra_count, *, function=None, measures=None):
     command = baca.suite(
         make_desynchronization_rhythm(8, [extra_count]),
         baca.espressivo(selector=lambda _: baca.select.pheads(_)),
         measures=measures,
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.Suite)
-    return result
+    baca.tag(
+        baca.tags.function_name(inspect.currentframe()),
+        command,
+    )
+    return command
 
 
-def make_measure_initiation_rhythm():
+def make_measure_initiation_rhythm(*, function=None):
     command = baca.rhythm(
         rmakers.incised(prefix_talea=[2], prefix_counts=[1], talea_denominator=8),
         rmakers.beam(),
         rmakers.extract_trivial(),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
 def make_picket_rhythm(
     fuse,
     extra_count,
     *commands,
+    function=None,
     measures=None,
 ):
     assert isinstance(fuse, int)
@@ -1806,22 +1849,17 @@ def make_picket_rhythm(
         rmakers.extract_trivial(),
         preprocessor=preprocessor,
         measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
-def make_rasp_rhythm():
+def make_rasp_rhythm(*, function=None):
     command = baca.make_repeat_tied_notes(do_not_rewrite_meter=True)
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
-def make_running_quarter_divisions(count, *, measures=None):
+def make_running_quarter_divisions(count, *, function=None, measures=None):
     assert isinstance(count, int), repr(count)
     assert 0 < count, repr(count)
     ratio = tuple(count * [1])
@@ -1837,28 +1875,24 @@ def make_running_quarter_divisions(count, *, measures=None):
         rmakers.extract_trivial(),
         preprocessor=preprocessor,
         measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
-def make_solid_line_rhythm(*, measures=None):
+def make_solid_line_rhythm(*, function=None, measures=None):
     command = baca.rhythm(
         rmakers.note(spelling=rmakers.Spelling(forbidden_note_duration=(1, 2))),
         rmakers.beam(
             lambda _: baca.select.plts(_),
         ),
         measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
-def make_stroke_rhythm(rotation, *commands, measures=None):
+def make_stroke_rhythm(rotation, *commands, function=None, measures=None):
     command = baca.rhythm(
         rmakers.incised(
             suffix_talea=[1],
@@ -1879,15 +1913,13 @@ def make_stroke_rhythm(rotation, *commands, measures=None):
         rmakers.split_measures(),
         measures=measures,
         preprocessor=lambda _: abjad.sequence.rotate(_, n=rotation),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
 def make_synchronized_circle_rhythm(
-    gaps=True, measures=None, rests=None, rotation=0, sustain=None
+    *, function=None, gaps=True, measures=None, rests=None, rotation=0, sustain=None
 ):
     counts = [3, -2, 3, -2, 3, -2, 3, -1]
     rotation *= 2
@@ -1906,12 +1938,13 @@ def make_synchronized_circle_rhythm(
     else:
         raise TypeError(rests)
     command = baca.rhythm(
-        rmakers.talea(counts, 8), *commands, rmakers.beam(), measures=measures
+        rmakers.talea(counts, 8),
+        *commands,
+        rmakers.beam(),
+        measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
 def style_tailpiece_material(*tweaks):
@@ -1931,13 +1964,16 @@ def style_tailpiece_material(*tweaks):
             selector=lambda _: baca.select.rleaves(_),
         ),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.Suite)
-    return result
+    baca.tag(
+        baca.tags.function_name(inspect.currentframe()),
+        command,
+    )
+    return command
 
 
-def make_talea_eighth_notes(counts, rotation, extra, *, end_counts=(), measures=None):
+def make_talea_eighth_notes(
+    counts, rotation, extra, *, end_counts=(), function=None, measures=None
+):
     assert isinstance(extra, int), extra
     extra_counts = [extra]
     assert isinstance(rotation, int), rotation
@@ -1956,14 +1992,12 @@ def make_talea_eighth_notes(counts, rotation, extra, *, end_counts=(), measures=
         rmakers.extract_trivial(),
         rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
-def make_taper_rhythm(tuplet_ratio=(1, 4, 1), *, measures=None):
+def make_taper_rhythm(tuplet_ratio=(1, 4, 1), *, function=None, measures=None):
     command = baca.rhythm(
         rmakers.tuplet([tuplet_ratio]),
         rmakers.beam(),
@@ -1972,14 +2006,14 @@ def make_taper_rhythm(tuplet_ratio=(1, 4, 1), *, measures=None):
         ),
         rmakers.extract_trivial(),
         measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
-def make_to_flight_rhythm(divisions, *, measures=None, start=(1, 4), stop=(1, 8)):
+def make_to_flight_rhythm(
+    divisions, *, function=None, measures=None, start=(1, 4), stop=(1, 8)
+):
     def preprocessor(divisions_):
         result = baca.sequence.fuse(divisions_)
         result = baca.sequence.split_divisions(result, divisions, cyclic=True)
@@ -1992,11 +2026,9 @@ def make_to_flight_rhythm(divisions, *, measures=None, start=(1, 4), stop=(1, 8)
         rmakers.extract_trivial(),
         preprocessor=preprocessor,
         measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
 def make_trajectory_rhythm(
@@ -2005,6 +2037,7 @@ def make_trajectory_rhythm(
     extra_counts_rotation,
     *commands,
     end_counts=(),
+    function=None,
     measures=None,
 ):
     counts__ = {
@@ -2026,32 +2059,28 @@ def make_trajectory_rhythm(
         rmakers.beam(),
         rmakers.extract_trivial(),
         measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
-def make_urtext_field_rhythm(*, measures=None):
-    command = baca.make_repeat_tied_notes(do_not_rewrite_meter=True, measures=measures)
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+def make_urtext_field_rhythm(*, function=None, measures=None):
+    command = baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
+        measures=measures,
+    )
+    return command
 
 
-def make_wave_rhythm(start, stop, *, measures=None):
+def make_wave_rhythm(start, stop, *, function=None, measures=None):
     command = baca.rhythm(
         rmakers.accelerando([start, stop, (1, 16)], [stop, start, (1, 16)]),
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         measures=measures,
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.RhythmCommand)
-    return result
+    return command
 
 
 def short_instrument_name(
@@ -3374,61 +3403,3 @@ def voice_abbreviations():
             "Cello.Music",
         ],
     }
-
-
-def make_empty_score():
-    tag = baca.tags.function_name(inspect.currentframe())
-    global_context = baca.score.make_global_context()
-    # VIOLIN 1
-    violin_one_music_staff = abjad.Staff(
-        [abjad.Voice(name="Violin.1.Music", tag=tag)],
-        name="Violin.1.Music_Staff",
-        tag=tag,
-    )
-    baca.score.attach_lilypond_tag("Violin.1", violin_one_music_staff)
-    # VIOLIN 2
-    violin_two_music_staff = abjad.Staff(
-        [abjad.Voice(name="Violin.2.Music", tag=tag)],
-        name="Violin.2.MusicStaff",
-        tag=tag,
-    )
-    baca.score.attach_lilypond_tag("Violin.2", violin_two_music_staff)
-    # VIOLA
-    viola_music_staff = abjad.Staff(
-        [abjad.Voice(name="Viola.Music", tag=tag)],
-        name="Viola.Music_Staff",
-        tag=tag,
-    )
-    baca.score.attach_lilypond_tag("Viola", viola_music_staff)
-    # CELLO
-    cello_music_staff = abjad.Staff(
-        [abjad.Voice(name="Cello.Music", tag=tag)],
-        name="Cello.Music_Staff",
-        tag=tag,
-    )
-    baca.score.attach_lilypond_tag("Cello", cello_music_staff)
-    # STRING QUARTET STAFF GROUP
-    string_quartet_staff_group = abjad.StaffGroup(
-        [
-            violin_one_music_staff,
-            violin_two_music_staff,
-            viola_music_staff,
-            cello_music_staff,
-        ],
-        lilypond_type="StringQuartetStaffGroup",
-        name="String_Quartet.Staff_Group",
-        tag=tag,
-    )
-    # MUSIC CONTEXT
-    music_context = abjad.Context(
-        [string_quartet_staff_group],
-        lilypond_type="MusicContext",
-        name="MusicContext",
-        tag=tag,
-    )
-    # SCORE
-    score = abjad.Score([global_context, music_context], name="Score", tag=tag)
-    baca.score.assert_lilypond_identifiers(score)
-    baca.score.assert_unique_context_names(score)
-    # baca.score.assert_matching_custom_context_names(score)
-    return score

@@ -5017,8 +5017,11 @@ number.3.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/4
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5083,6 +5086,7 @@ number.3.Violin.1.Music = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % AFTER:
         % ARTICULATIONS:
@@ -5235,108 +5239,136 @@ number.3.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 2]
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 3]
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/4
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 4]
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5355,11 +5387,13 @@ number.3.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5408,6 +5442,7 @@ number.3.Violin.1.Music = {
       %! baca.damp_spanner()
     \bacaStopTextSpanDamp
     % START_BEAM:
+      %! stirrings_still.make_desynchronization_rhythm()
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -5555,6 +5590,7 @@ number.3.Violin.1.Music = {
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % STOP_BEAM:
+      %! stirrings_still.make_desynchronization_rhythm()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5658,14 +5694,18 @@ number.3.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 7]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % AFTER:
         % ARTICULATIONS:
@@ -5800,136 +5840,171 @@ number.3.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 8]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/7
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 9]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/7
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 10]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5948,11 +6023,13 @@ number.3.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6069,8 +6146,11 @@ number.3.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/4
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6088,6 +6168,7 @@ number.3.Violin.1.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % AFTER:
         % ARTICULATIONS:
@@ -6163,66 +6244,83 @@ number.3.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 13]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 14]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % AFTER:
         % SPANNER_STOPS:
@@ -6258,74 +6356,93 @@ number.3.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 15]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/4
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 16]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % AFTER:
         % SPANNER_STOPS:
@@ -6353,66 +6470,83 @@ number.3.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 17]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 18]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % AFTER:
         % SPANNER_STOPS:
@@ -6448,70 +6582,88 @@ number.3.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 19]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/4
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 20]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % AFTER:
         % SPANNER_STOPS:
@@ -6539,70 +6691,88 @@ number.3.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 21]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/7
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 22]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % AFTER:
         % SPANNER_STOPS:
@@ -6642,74 +6812,93 @@ number.3.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/4
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 23]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 24]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % AFTER:
         % SPANNER_STOPS:
@@ -6773,128 +6962,161 @@ number.3.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 25]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 26]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/7
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 27]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6913,6 +7135,7 @@ number.3.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf''!4
         % AFTER:
         % COMMANDS:
@@ -6923,6 +7146,7 @@ number.3.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7133,6 +7357,7 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 30]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7241,10 +7466,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!8
     % AFTER:
     % ARTICULATIONS:
@@ -7269,14 +7496,17 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 31]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7297,16 +7527,19 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 32]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7327,10 +7560,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7353,10 +7588,12 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 33]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7377,10 +7614,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7509,6 +7748,7 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 36]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7568,10 +7808,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!8
     % AFTER:
     % ARTICULATIONS:
@@ -7599,14 +7841,17 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 37]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7630,12 +7875,14 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 38]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7645,6 +7892,7 @@ number.3.Violin.1.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7665,10 +7913,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!8
     % AFTER:
     % ARTICULATIONS:
@@ -7696,14 +7946,17 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 39]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7727,16 +7980,19 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 40]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7760,6 +8016,7 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7771,6 +8028,7 @@ number.3.Violin.1.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7791,10 +8049,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7818,16 +8078,19 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 42]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7851,10 +8114,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4
     % AFTER:
     % ARTICULATIONS:
@@ -7882,10 +8147,12 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 43]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7895,6 +8162,7 @@ number.3.Violin.1.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -7915,10 +8183,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!8
     % AFTER:
     % ARTICULATIONS:
@@ -7946,14 +8216,17 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 44]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4
     % AFTER:
     % ARTICULATIONS:
@@ -7981,14 +8254,17 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 45]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8012,6 +8288,7 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8023,6 +8300,7 @@ number.3.Violin.1.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8043,10 +8321,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4
     % AFTER:
     % ARTICULATIONS:
@@ -8074,14 +8354,17 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 47]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8105,12 +8388,14 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 48]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8134,6 +8419,7 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8143,6 +8429,7 @@ number.3.Violin.1.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!8
     % AFTER:
     % ARTICULATIONS:
@@ -8167,6 +8454,7 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 49]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''4
     % AFTER:
     % COMMANDS:
@@ -8176,10 +8464,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8203,12 +8493,14 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 50]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8232,10 +8524,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8261,6 +8555,7 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 51]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8270,6 +8565,7 @@ number.3.Violin.1.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8290,10 +8586,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4
     % AFTER:
     % ARTICULATIONS:
@@ -8321,14 +8619,17 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 52]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8354,10 +8655,12 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 53]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8381,6 +8684,7 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8390,6 +8694,7 @@ number.3.Violin.1.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!8
     % AFTER:
     % ARTICULATIONS:
@@ -8414,6 +8719,7 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 54]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''4
     % AFTER:
     % COMMANDS:
@@ -8423,10 +8729,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8452,10 +8760,12 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 55]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8479,10 +8789,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!8
     % AFTER:
     % ARTICULATIONS:
@@ -8538,6 +8850,7 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 56]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8547,10 +8860,12 @@ number.3.Violin.1.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8562,6 +8877,7 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 57]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4
     % AFTER:
     % ARTICULATIONS:
@@ -8571,6 +8887,7 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8585,10 +8902,12 @@ number.3.Violin.1.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8600,6 +8919,7 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 58]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!8
     % AFTER:
     % ARTICULATIONS:
@@ -8609,6 +8929,7 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8623,10 +8944,12 @@ number.3.Violin.1.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -8636,6 +8959,7 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4
     % AFTER:
     % ARTICULATIONS:
@@ -8645,6 +8969,7 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!8
     % AFTER:
     % ARTICULATIONS:
@@ -8658,6 +8983,7 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 59]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8667,10 +8993,12 @@ number.3.Violin.1.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf''!4
     % AFTER:
     % ARTICULATIONS:
@@ -8852,6 +9180,7 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 62]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b''4.
     % AFTER:
     % ARTICULATIONS:
@@ -8949,10 +9278,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b''4.
     % AFTER:
     % ARTICULATIONS:
@@ -8964,10 +9295,12 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 63]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b''4.
     % AFTER:
     % ARTICULATIONS:
@@ -8977,16 +9310,19 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 64]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b''4.
     % AFTER:
     % ARTICULATIONS:
@@ -8996,10 +9332,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b''4.
     % AFTER:
     % ARTICULATIONS:
@@ -9011,10 +9349,12 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 65]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b''4.
     % AFTER:
     % ARTICULATIONS:
@@ -9024,10 +9364,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b''8
     % AFTER:
     % SPANNER_STARTS:
@@ -9037,6 +9379,7 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 66]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b''4
     % AFTER:
     % ARTICULATIONS:
@@ -9046,10 +9389,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b''4.
     % AFTER:
     % ARTICULATIONS:
@@ -9059,12 +9404,14 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 67]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b''4.
     % AFTER:
     % ARTICULATIONS:
@@ -9074,10 +9421,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b''8
     % AFTER:
     % SPANNER_STARTS:
@@ -9087,6 +9436,7 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 68]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b''4
     % AFTER:
     % ARTICULATIONS:
@@ -9096,10 +9446,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b''4
     % AFTER:
     % SPANNER_STARTS:
@@ -9109,6 +9461,7 @@ number.3.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 69]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b''8
     % AFTER:
     % ARTICULATIONS:
@@ -9118,10 +9471,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b''4.
     % AFTER:
     % ARTICULATIONS:
@@ -9131,10 +9486,12 @@ number.3.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % AFTER:
     % COMMANDS:
@@ -9251,8 +9608,11 @@ number.3.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9276,6 +9636,7 @@ number.3.Violin.1.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % AFTER:
         % ARTICULATIONS:
@@ -9362,124 +9723,156 @@ number.3.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         b'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         b'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         b'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         b'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         b'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/7
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 72]
+          %! stirrings_still.make_desynchronization_rhythm()
         b'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         b'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         b'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/7
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 73]
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/4
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 74]
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % AFTER:
         % SPANNER_STOPS:
@@ -9511,82 +9904,103 @@ number.3.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 75]
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 76]
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9605,6 +10019,7 @@ number.3.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % AFTER:
         % COMMANDS:
@@ -9618,6 +10033,7 @@ number.3.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9835,6 +10251,7 @@ number.3.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % AFTER:
     % ARTICULATIONS:
@@ -9987,56 +10404,68 @@ number.3.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 2]
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 3]
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 4]
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10055,13 +10484,17 @@ number.3.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 7/8
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -10110,6 +10543,7 @@ number.3.Violin.2.Music = {
           %! baca.damp_spanner()
         \bacaStopTextSpanDamp
         % START_BEAM:
+          %! stirrings_still.make_desynchronization_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -10267,11 +10701,13 @@ number.3.Violin.2.Music = {
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
+          %! stirrings_still.make_desynchronization_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10376,6 +10812,7 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 7]
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % AFTER:
     % ARTICULATIONS:
@@ -10510,84 +10947,103 @@ number.3.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 8]
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 9]
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 10]
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10606,6 +11062,7 @@ number.3.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10727,6 +11184,7 @@ number.3.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -10802,34 +11260,41 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 13]
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 14]
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % AFTER:
     % SPANNER_STOPS:
@@ -10865,42 +11330,51 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 15]
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 16]
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % AFTER:
     % SPANNER_STOPS:
@@ -10928,34 +11402,41 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 17]
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 18]
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % AFTER:
     % SPANNER_STOPS:
@@ -10991,38 +11472,46 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 19]
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 20]
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % AFTER:
     % SPANNER_STOPS:
@@ -11050,38 +11539,46 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 21]
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 22]
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % AFTER:
     % SPANNER_STOPS:
@@ -11121,42 +11618,51 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 23]
+      %! stirrings_still.make_desynchronization_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 24]
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % AFTER:
     % SPANNER_STOPS:
@@ -11220,76 +11726,93 @@ number.3.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 25]
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 26]
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 27]
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11308,6 +11831,7 @@ number.3.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
+      %! stirrings_still.make_desynchronization_rhythm()
     bf'!4
     % AFTER:
     % COMMANDS:
@@ -11318,13 +11842,16 @@ number.3.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_clocktick_rhythm()
     \times 2/3
+      %! stirrings_still.make_clocktick_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 28]
+          %! stirrings_still.make_clocktick_rhythm()
         f''8
         % AFTER:
         % ARTICULATIONS:
@@ -11456,21 +11983,26 @@ number.3.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_clocktick_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_clocktick_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_clocktick_rhythm()
     \times 2/3
+      %! stirrings_still.make_clocktick_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_clocktick_rhythm()
         f''8
         % AFTER:
         % ARTICULATIONS:
@@ -11480,21 +12012,26 @@ number.3.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_clocktick_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_clocktick_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_clocktick_rhythm()
     \times 2/3
+      %! stirrings_still.make_clocktick_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_clocktick_rhythm()
         f''8
         % AFTER:
         % ARTICULATIONS:
@@ -11504,11 +12041,13 @@ number.3.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_clocktick_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_clocktick_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11577,6 +12116,7 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 30]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -11683,10 +12223,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!8
     % AFTER:
     % ARTICULATIONS:
@@ -11711,14 +12253,17 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 31]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -11739,16 +12284,19 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 32]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -11769,10 +12317,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -11795,10 +12345,12 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 33]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -11819,10 +12371,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11951,6 +12505,7 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 36]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12010,10 +12565,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!8
     % AFTER:
     % ARTICULATIONS:
@@ -12041,14 +12598,17 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 37]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12072,12 +12632,14 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 38]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12101,10 +12663,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!8
     % AFTER:
     % ARTICULATIONS:
@@ -12132,14 +12696,17 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 39]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12163,16 +12730,19 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 40]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12196,10 +12766,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!8
     % AFTER:
     % ARTICULATIONS:
@@ -12227,14 +12799,17 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 41]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12258,16 +12833,19 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 42]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12291,10 +12869,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -12322,14 +12902,17 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 43]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12353,10 +12936,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!8
     % AFTER:
     % ARTICULATIONS:
@@ -12384,14 +12969,17 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 44]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -12419,14 +13007,17 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 45]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12450,10 +13041,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!8
     % AFTER:
     % ARTICULATIONS:
@@ -12481,14 +13074,17 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 46]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -12516,14 +13112,17 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 47]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12547,12 +13146,14 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 48]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12576,10 +13177,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -12607,14 +13210,17 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 49]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12638,12 +13244,14 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 50]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12667,10 +13275,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12696,10 +13306,12 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 51]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12723,10 +13335,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -12754,14 +13368,17 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 52]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12787,10 +13404,12 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 53]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12814,10 +13433,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -12845,14 +13466,17 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 54]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12878,10 +13502,12 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 55]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12905,10 +13531,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!8
     % AFTER:
     % ARTICULATIONS:
@@ -12964,10 +13592,12 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 56]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -12977,6 +13607,7 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -12988,6 +13619,7 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 57]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -12997,6 +13629,7 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -13006,6 +13639,7 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!8
     % AFTER:
     % ARTICULATIONS:
@@ -13015,6 +13649,7 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -13024,6 +13659,7 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!8
     % AFTER:
     % ARTICULATIONS:
@@ -13037,10 +13673,12 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 58]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -13050,6 +13688,7 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -13059,6 +13698,7 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -13068,6 +13708,7 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -13077,6 +13718,7 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!8
     % AFTER:
     % ARTICULATIONS:
@@ -13090,10 +13732,12 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 59]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!8
     % AFTER:
     % ARTICULATIONS:
@@ -13103,6 +13747,7 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -13284,6 +13929,7 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 62]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13381,10 +14027,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13396,10 +14044,12 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 63]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13409,16 +14059,19 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 64]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13428,10 +14081,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13443,10 +14098,12 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 65]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13456,10 +14113,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b'8
     % AFTER:
     % SPANNER_STARTS:
@@ -13469,6 +14128,7 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 66]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -13478,10 +14138,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13491,12 +14153,14 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 67]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13506,10 +14170,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b'8
     % AFTER:
     % SPANNER_STARTS:
@@ -13519,6 +14185,7 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 68]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -13528,10 +14195,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b'4
     % AFTER:
     % SPANNER_STARTS:
@@ -13541,6 +14210,7 @@ number.3.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 69]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b'8
     % AFTER:
     % ARTICULATIONS:
@@ -13550,10 +14220,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -13563,10 +14235,12 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % AFTER:
     % COMMANDS:
@@ -13688,6 +14362,7 @@ number.3.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
+      %! stirrings_still.make_desynchronization_rhythm()
     af'!4
     % AFTER:
     % ARTICULATIONS:
@@ -13774,76 +14449,93 @@ number.3.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 72]
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 73]
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 74]
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % AFTER:
     % SPANNER_STOPS:
@@ -13875,46 +14567,56 @@ number.3.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 75]
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 76]
+      %! stirrings_still.make_desynchronization_rhythm()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_desynchronization_rhythm()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -13933,6 +14635,7 @@ number.3.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
+      %! stirrings_still.make_desynchronization_rhythm()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -14084,8 +14787,11 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -14145,6 +14851,7 @@ number.3.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % AFTER:
         % ARTICULATIONS:
@@ -14297,124 +15004,156 @@ number.3.Viola.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 2]
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 3]
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 4]
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -14433,18 +15172,23 @@ number.3.Viola.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 7/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -14493,6 +15237,7 @@ number.3.Viola.Music = {
           %! baca.damp_spanner()
         \bacaStopTextSpanDamp
         % START_BEAM:
+          %! stirrings_still.make_desynchronization_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -14630,11 +15375,13 @@ number.3.Viola.Music = {
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
+          %! stirrings_still.make_desynchronization_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -14738,14 +15485,18 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 7]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % AFTER:
         % ARTICULATIONS:
@@ -14880,152 +15631,191 @@ number.3.Viola.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/7
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 8]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/8
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 9]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/8
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 10]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -15044,11 +15834,13 @@ number.3.Viola.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15161,8 +15953,11 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -15177,6 +15972,7 @@ number.3.Viola.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % AFTER:
         % ARTICULATIONS:
@@ -15252,74 +16048,93 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 13]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/7
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 14]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % AFTER:
         % SPANNER_STOPS:
@@ -15355,82 +16170,103 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 15]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 16]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % AFTER:
         % SPANNER_STOPS:
@@ -15458,74 +16294,93 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 17]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 18]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % AFTER:
         % SPANNER_STOPS:
@@ -15561,78 +16416,98 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 19]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 20]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % AFTER:
         % SPANNER_STOPS:
@@ -15660,78 +16535,98 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/7
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 21]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/8
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 22]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % AFTER:
         % SPANNER_STOPS:
@@ -15771,82 +16666,103 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 23]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 24]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % AFTER:
         % SPANNER_STOPS:
@@ -15910,144 +16826,181 @@ number.3.Viola.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 25]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/7
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 26]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/8
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 27]
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -16066,6 +17019,7 @@ number.3.Viola.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
+          %! stirrings_still.make_desynchronization_rhythm()
         bqf!4
         % AFTER:
         % COMMANDS:
@@ -16076,6 +17030,7 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -16286,6 +17241,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 30]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -16394,10 +17350,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!8
     % AFTER:
     % ARTICULATIONS:
@@ -16422,14 +17380,17 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 31]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -16450,16 +17411,19 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 32]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -16480,10 +17444,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -16506,10 +17472,12 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 33]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -16530,10 +17498,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -16662,6 +17632,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 36]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -16721,10 +17692,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!8
     % AFTER:
     % ARTICULATIONS:
@@ -16752,14 +17725,17 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 37]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -16783,12 +17759,14 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 38]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -16812,6 +17790,7 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -16821,6 +17800,7 @@ number.3.Viola.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!8
     % AFTER:
     % ARTICULATIONS:
@@ -16845,6 +17825,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 39]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf4
     % AFTER:
     % COMMANDS:
@@ -16854,10 +17835,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -16881,12 +17864,14 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 40]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -16910,10 +17895,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!8
     % AFTER:
     % ARTICULATIONS:
@@ -16941,14 +17928,17 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 41]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -16972,12 +17962,14 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 42]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -16987,6 +17979,7 @@ number.3.Viola.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17007,10 +18000,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17036,10 +18031,12 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 43]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17063,10 +18060,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!8
     % AFTER:
     % ARTICULATIONS:
@@ -17094,14 +18093,17 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 44]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4
     % AFTER:
     % ARTICULATIONS:
@@ -17129,10 +18131,12 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 45]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -17142,6 +18146,7 @@ number.3.Viola.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17162,10 +18167,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!8
     % AFTER:
     % ARTICULATIONS:
@@ -17193,14 +18200,17 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 46]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4
     % AFTER:
     % ARTICULATIONS:
@@ -17228,14 +18238,17 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 47]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17259,10 +18272,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!8
     % AFTER:
     % ARTICULATIONS:
@@ -17290,10 +18305,12 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 48]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -17303,6 +18320,7 @@ number.3.Viola.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4
     % AFTER:
     % ARTICULATIONS:
@@ -17327,6 +18345,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 49]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf8
     % AFTER:
     % COMMANDS:
@@ -17336,10 +18355,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17363,12 +18384,14 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 50]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17392,10 +18415,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17419,16 +18444,19 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 51]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17452,6 +18480,7 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -17461,6 +18490,7 @@ number.3.Viola.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4
     % AFTER:
     % ARTICULATIONS:
@@ -17485,6 +18515,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 52]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf8
     % AFTER:
     % COMMANDS:
@@ -17494,10 +18525,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17523,10 +18556,12 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 53]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17550,10 +18585,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4
     % AFTER:
     % ARTICULATIONS:
@@ -17581,14 +18618,17 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 54]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17614,6 +18654,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 55]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -17623,6 +18664,7 @@ number.3.Viola.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17643,10 +18685,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4
     % AFTER:
     % ARTICULATIONS:
@@ -17702,10 +18746,12 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 56]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4
     % AFTER:
     % ARTICULATIONS:
@@ -17715,6 +18761,7 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17726,6 +18773,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 57]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!8
     % AFTER:
     % ARTICULATIONS:
@@ -17740,10 +18788,12 @@ number.3.Viola.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4
     % AFTER:
     % ARTICULATIONS:
@@ -17753,6 +18803,7 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17762,6 +18813,7 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!8
     % AFTER:
     % ARTICULATIONS:
@@ -17775,10 +18827,12 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 58]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17793,10 +18847,12 @@ number.3.Viola.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % ARTICULATIONS:
@@ -17806,6 +18862,7 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!8
     % AFTER:
     % ARTICULATIONS:
@@ -17815,6 +18872,7 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4
     % AFTER:
     % ARTICULATIONS:
@@ -17828,10 +18886,12 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 59]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4
     % AFTER:
     % ARTICULATIONS:
@@ -17846,6 +18906,7 @@ number.3.Viola.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bqf!4.
     % AFTER:
     % COMMANDS:
@@ -18023,6 +19084,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 62]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b4.
     % AFTER:
     % ARTICULATIONS:
@@ -18120,10 +19182,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b4.
     % AFTER:
     % ARTICULATIONS:
@@ -18135,10 +19199,12 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 63]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b4.
     % AFTER:
     % ARTICULATIONS:
@@ -18148,16 +19214,19 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 64]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b4.
     % AFTER:
     % ARTICULATIONS:
@@ -18167,10 +19236,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b4.
     % AFTER:
     % ARTICULATIONS:
@@ -18182,10 +19253,12 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 65]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b4.
     % AFTER:
     % ARTICULATIONS:
@@ -18195,10 +19268,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b8
     % AFTER:
     % SPANNER_STARTS:
@@ -18208,6 +19283,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 66]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -18217,10 +19293,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b4.
     % AFTER:
     % ARTICULATIONS:
@@ -18230,12 +19308,14 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 67]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b4.
     % AFTER:
     % ARTICULATIONS:
@@ -18245,10 +19325,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b8
     % AFTER:
     % SPANNER_STARTS:
@@ -18258,6 +19340,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 68]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -18267,10 +19350,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b4
     % AFTER:
     % SPANNER_STARTS:
@@ -18280,6 +19365,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 69]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b8
     % AFTER:
     % ARTICULATIONS:
@@ -18289,10 +19375,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b4.
     % AFTER:
     % ARTICULATIONS:
@@ -18302,10 +19390,12 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % AFTER:
     % COMMANDS:
@@ -18418,8 +19508,11 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/7
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -18437,6 +19530,7 @@ number.3.Viola.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
+          %! stirrings_still.make_desynchronization_rhythm()
         a4
         % AFTER:
         % ARTICULATIONS:
@@ -18523,136 +19617,171 @@ number.3.Viola.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         a4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         a4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/8
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 72]
+          %! stirrings_still.make_desynchronization_rhythm()
         g4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         f4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         f4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         f4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         f4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         f4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/8
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 73]
+          %! stirrings_still.make_desynchronization_rhythm()
         f4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         f4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         e4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         e4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         e4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         e4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         e4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         e4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 74]
+          %! stirrings_still.make_desynchronization_rhythm()
         e4
         % AFTER:
         % SPANNER_STOPS:
@@ -18684,94 +19813,118 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         d4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         d4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         d4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         d4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/6
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 75]
+          %! stirrings_still.make_desynchronization_rhythm()
         d4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         d4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         d4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         c4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         c4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         c4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/7
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 76]
+          %! stirrings_still.make_desynchronization_rhythm()
         c4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         c4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         c4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         b,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         b,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         b,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -18790,6 +19943,7 @@ number.3.Viola.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
+          %! stirrings_still.make_desynchronization_rhythm()
         b,4
         % AFTER:
         % COMMANDS:
@@ -18800,6 +19954,7 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -18951,8 +20106,11 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/2
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -19031,6 +20189,7 @@ number.3.Cello.Music = {
           %! baca.clef()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % AFTER:
         % ARTICULATIONS:
@@ -19183,76 +20342,96 @@ number.3.Cello.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/3
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 2]
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/3
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 3]
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/2
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 4]
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -19271,11 +20450,13 @@ number.3.Cello.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
+          %! stirrings_still.make_desynchronization_rhythm()
         g'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -19315,6 +20496,7 @@ number.3.Cello.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
+      %! stirrings_still.make_taper_rhythm()
     b,,4..
     % AFTER:
     % ARTICULATIONS:
@@ -19415,6 +20597,7 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_taper_rhythm()
     b,,4..
     % AFTER:
     % ARTICULATIONS:
@@ -19459,6 +20642,7 @@ number.3.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
+      %! stirrings_still.make_taper_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -19572,8 +20756,11 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/3
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -19613,6 +20800,7 @@ number.3.Cello.Music = {
           %! baca.clef()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % AFTER:
         % ARTICULATIONS:
@@ -19752,104 +20940,131 @@ number.3.Cello.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/4
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 8]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 9]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 10]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -19868,11 +21083,13 @@ number.3.Cello.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
+          %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -19989,8 +21206,11 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/2
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -20039,6 +21259,7 @@ number.3.Cello.Music = {
           %! baca.clef()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % AFTER:
         % ARTICULATIONS:
@@ -20119,50 +21340,63 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/3
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 13]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/4
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 14]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % AFTER:
         % SPANNER_STOPS:
@@ -20198,58 +21432,73 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/3
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 15]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/2
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 16]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % AFTER:
         % SPANNER_STOPS:
@@ -20277,50 +21526,63 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/3
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 17]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/3
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 18]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % AFTER:
         % SPANNER_STOPS:
@@ -20356,54 +21618,68 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/3
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 19]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/2
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 20]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % AFTER:
         % SPANNER_STOPS:
@@ -20431,54 +21707,68 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/4
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 21]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 22]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % AFTER:
         % SPANNER_STOPS:
@@ -20518,58 +21808,73 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/2
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 23]
+          %! stirrings_still.make_desynchronization_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/3
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 24]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % AFTER:
         % SPANNER_STOPS:
@@ -20633,96 +21938,121 @@ number.3.Cello.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/3
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 25]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/4
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 26]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 27]
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -20741,6 +22071,7 @@ number.3.Cello.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,!4
         % AFTER:
         % COMMANDS:
@@ -20751,6 +22082,7 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -20922,6 +22254,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 30]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21025,10 +22358,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!8
     % AFTER:
     % ARTICULATIONS:
@@ -21053,14 +22388,17 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 31]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21081,16 +22419,19 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 32]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21111,10 +22452,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21137,10 +22480,12 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 33]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21161,10 +22506,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21332,6 +22679,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 36]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21403,10 +22751,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4
     % AFTER:
     % ARTICULATIONS:
@@ -21434,10 +22784,12 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 37]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21447,6 +22799,7 @@ number.3.Cello.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21467,12 +22820,14 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 38]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21496,10 +22851,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!8
     % AFTER:
     % ARTICULATIONS:
@@ -21527,10 +22884,12 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 39]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21540,6 +22899,7 @@ number.3.Cello.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21560,12 +22920,14 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 40]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21589,10 +22951,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!8
     % AFTER:
     % ARTICULATIONS:
@@ -21620,10 +22984,12 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 41]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21633,6 +22999,7 @@ number.3.Cello.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21653,12 +23020,14 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 42]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21682,10 +23051,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21711,6 +23082,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 43]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21720,6 +23092,7 @@ number.3.Cello.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21740,10 +23113,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!8
     % AFTER:
     % ARTICULATIONS:
@@ -21771,14 +23146,17 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 44]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21804,6 +23182,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 45]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21813,6 +23192,7 @@ number.3.Cello.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21833,10 +23213,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!8
     % AFTER:
     % ARTICULATIONS:
@@ -21864,14 +23246,17 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 46]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4
     % AFTER:
     % ARTICULATIONS:
@@ -21899,10 +23284,12 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 47]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21912,6 +23299,7 @@ number.3.Cello.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -21932,10 +23320,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!8
     % AFTER:
     % ARTICULATIONS:
@@ -21963,14 +23353,17 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 48]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4
     % AFTER:
     % ARTICULATIONS:
@@ -21998,10 +23391,12 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 49]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -22011,6 +23406,7 @@ number.3.Cello.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -22031,10 +23427,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!8
     % AFTER:
     % ARTICULATIONS:
@@ -22062,14 +23460,17 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 50]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -22093,12 +23494,14 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 51]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -22108,6 +23511,7 @@ number.3.Cello.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -22128,10 +23532,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4
     % AFTER:
     % ARTICULATIONS:
@@ -22159,14 +23565,17 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 52]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -22190,12 +23599,14 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 53]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -22205,6 +23616,7 @@ number.3.Cello.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -22225,10 +23637,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4
     % AFTER:
     % ARTICULATIONS:
@@ -22256,14 +23670,17 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 54]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -22289,6 +23706,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 55]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -22298,6 +23716,7 @@ number.3.Cello.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -22318,10 +23737,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4
     % AFTER:
     % ARTICULATIONS:
@@ -22377,10 +23798,12 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 56]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!8
     % AFTER:
     % ARTICULATIONS:
@@ -22395,10 +23818,12 @@ number.3.Cello.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!8
     % AFTER:
     % ARTICULATIONS:
@@ -22412,10 +23837,12 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 57]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -22430,10 +23857,12 @@ number.3.Cello.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -22443,6 +23872,7 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!8
     % AFTER:
     % ARTICULATIONS:
@@ -22456,6 +23886,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 58]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -22465,10 +23896,12 @@ number.3.Cello.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!8
     % AFTER:
     % ARTICULATIONS:
@@ -22478,6 +23911,7 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % ARTICULATIONS:
@@ -22492,10 +23926,12 @@ number.3.Cello.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4
     % AFTER:
     % ARTICULATIONS:
@@ -22509,10 +23945,12 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 59]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4
     % AFTER:
     % ARTICULATIONS:
@@ -22527,6 +23965,7 @@ number.3.Cello.Music = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \once \override NoteHead.style = #'harmonic
+      %! stirrings_still.make_synchronized_circle_rhythm()
     bf,!4.
     % AFTER:
     % COMMANDS:
@@ -22660,6 +24099,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 62]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b,,4.
     % AFTER:
     % ARTICULATIONS:
@@ -22745,10 +24185,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b,,4.
     % AFTER:
     % ARTICULATIONS:
@@ -22760,10 +24202,12 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 63]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b,,4.
     % AFTER:
     % ARTICULATIONS:
@@ -22773,16 +24217,19 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 64]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b,,4.
     % AFTER:
     % ARTICULATIONS:
@@ -22792,10 +24239,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b,,4.
     % AFTER:
     % ARTICULATIONS:
@@ -22807,10 +24256,12 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 65]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b,,4.
     % AFTER:
     % ARTICULATIONS:
@@ -22820,10 +24271,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b,,8
     % AFTER:
     % SPANNER_STARTS:
@@ -22833,6 +24286,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 66]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -22842,10 +24296,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b,,4.
     % AFTER:
     % ARTICULATIONS:
@@ -22855,12 +24311,14 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 67]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b,,4.
     % AFTER:
     % ARTICULATIONS:
@@ -22870,10 +24328,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b,,8
     % AFTER:
     % SPANNER_STARTS:
@@ -22883,6 +24343,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 68]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b,,4
     % AFTER:
     % ARTICULATIONS:
@@ -22892,10 +24353,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b,,4
     % AFTER:
     % SPANNER_STARTS:
@@ -22905,6 +24368,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 69]
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b,,8
     % AFTER:
     % ARTICULATIONS:
@@ -22914,10 +24378,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     b,,4.
     % AFTER:
     % ARTICULATIONS:
@@ -22927,10 +24393,12 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
+      %! stirrings_still.make_synchronized_circle_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23042,8 +24510,11 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/4
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -23064,6 +24535,7 @@ number.3.Cello.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! baca._style_fermata_measures(3)
         \startStaff
+          %! stirrings_still.make_desynchronization_rhythm()
         g,4
         % AFTER:
         % ARTICULATIONS:
@@ -23150,100 +24622,126 @@ number.3.Cello.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
+          %! stirrings_still.make_desynchronization_rhythm()
         g,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         g,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         f,4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 72]
+          %! stirrings_still.make_desynchronization_rhythm()
         f,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         f,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         f,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         e,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         e,4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 6/5
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 73]
+          %! stirrings_still.make_desynchronization_rhythm()
         e,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         e,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         e,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         d,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         d,4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 3/2
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 74]
+          %! stirrings_still.make_desynchronization_rhythm()
         d,4
         % AFTER:
         % SPANNER_STOPS:
@@ -23275,58 +24773,73 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         d,4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 4/3
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 75]
+          %! stirrings_still.make_desynchronization_rhythm()
         c,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         c,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         c,4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
+      %! stirrings_still.make_desynchronization_rhythm()
     \times 5/4
+      %! stirrings_still.make_desynchronization_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 76]
+          %! stirrings_still.make_desynchronization_rhythm()
         c,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         b,,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
+          %! stirrings_still.make_desynchronization_rhythm()
         b,,4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -23345,6 +24858,7 @@ number.3.Cello.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
+          %! stirrings_still.make_desynchronization_rhythm()
         bf,,!4
         % AFTER:
         % COMMANDS:
@@ -23355,6 +24869,7 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_desynchronization_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
