@@ -54,6 +54,8 @@ library.time(score, commands, time)
 
 # V1
 
+voice = score["Violin.1.Music"]
+
 commands(
     ("v1", (1, 8)),
     library.make_clouded_pane_rhythm(),
@@ -63,6 +65,7 @@ commands(
     ("v1", (9, 11)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v1", (12, 13)),
@@ -73,8 +76,11 @@ commands(
     ("v1", 14),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # V2
+
+voice = score["Violin.2.Music"]
 
 commands(
     ("v2", (1, 8)),
@@ -85,6 +91,7 @@ commands(
     ("v2", (9, 11)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v2", (12, 13)),
@@ -95,8 +102,11 @@ commands(
     ("v2", 14),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VA
+
+voice = score["Viola.Music"]
 
 commands(
     ("va", (1, 10)),
@@ -107,6 +117,7 @@ commands(
     ("va", 11),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("va", (12, 13)),
@@ -117,8 +128,11 @@ commands(
     ("va", 14),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     ("vc", (1, 8)),
@@ -129,6 +143,7 @@ commands(
     ("vc", (9, 11)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("vc", (12, 13)),
@@ -139,6 +154,7 @@ commands(
     ("vc", 14),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # reapply
 

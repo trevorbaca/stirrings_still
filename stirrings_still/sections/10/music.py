@@ -64,6 +64,8 @@ library.time(score, commands, time)
 
 # V1
 
+voice = score["Violin.1.Music"]
+
 commands(
     ("v1", (1, 2)),
     library.make_urtext_field_rhythm(),
@@ -85,6 +87,8 @@ commands(
 )
 
 # V2
+
+voice = score["Violin.2.Music"]
 
 commands(
     ("v2", (1, 2)),
@@ -115,6 +119,8 @@ commands(
 
 # VA
 
+voice = score["Viola.Music"]
+
 commands(
     ("va", (1, 2)),
     library.make_urtext_field_rhythm(),
@@ -137,10 +143,13 @@ commands(
 
 # VC
 
+voice = score["Cello.Music"]
+
 commands(
     ("vc", (1, 2)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("vc", (3, 4)),
@@ -151,6 +160,7 @@ commands(
     ("vc", (5, 6)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("vc", (7, 11)),
@@ -166,6 +176,7 @@ commands(
     ("vc", (14, 17)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # anchor notes
 

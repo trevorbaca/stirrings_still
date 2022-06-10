@@ -1378,6 +1378,9 @@ def make_accelerando(start, stop, *, function=None, measures=None):
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1389,6 +1392,9 @@ def make_cello_cell_rhythm(*, function=None):
         preprocessor=lambda _: baca.sequence.quarters(baca.sequence.fuse(_)),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1423,6 +1429,9 @@ def make_circle_rhythm(
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1457,6 +1466,9 @@ def make_clocktick_rhythm(
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1465,6 +1477,9 @@ def make_clouded_pane_rhythm(*, function=None):
         rmakers.reduce_multiplier(),
         do_not_rewrite_meter=True,
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1535,6 +1550,9 @@ def make_declamation_rhythm(*, function=None, measures=None, protract=False):
             measures=measures,
             tag=baca.tags.function_name(inspect.currentframe(), n=2),
         )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1579,6 +1597,9 @@ def make_desynchronization_rhythm(
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1589,6 +1610,9 @@ def make_eighth_notes(*, function=None):
         preprocessor=lambda _: baca.sequence.fuse(_),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1759,6 +1783,9 @@ def make_flight_rhythm(counts, rotation, *, function=None, measures=None, start=
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1772,6 +1799,9 @@ def make_grid_rhythm(*, rotation, function=None, measures=None):
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1792,20 +1822,32 @@ def make_grid_to_trajectory_rhythm(
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
 def make_loure_tuplets_material(extra_count, *, function=None, measures=None):
-    command = baca.suite(
-        make_desynchronization_rhythm(8, [extra_count]),
-        baca.espressivo(selector=lambda _: baca.select.pheads(_)),
-        measures=measures,
-    )
-    baca.tag(
-        baca.tags.function_name(inspect.currentframe()),
-        command,
-    )
-    return command
+    if function:
+        music = make_desynchronization_rhythm(8, [extra_count], function=function)
+        for phead in baca.select.pheads(music):
+            baca.espressivo_function(
+                phead,
+                tags=[baca.tags.function_name(inspect.currentframe())],
+            )
+        return music
+    else:
+        command = baca.suite(
+            make_desynchronization_rhythm(8, [extra_count]),
+            baca.espressivo(selector=lambda _: baca.select.pheads(_)),
+            measures=measures,
+        )
+        baca.tag(
+            baca.tags.function_name(inspect.currentframe()),
+            command,
+        )
+        return command
 
 
 def make_measure_initiation_rhythm(*, function=None):
@@ -1815,6 +1857,9 @@ def make_measure_initiation_rhythm(*, function=None):
         rmakers.extract_trivial(),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1851,11 +1896,17 @@ def make_picket_rhythm(
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
 def make_rasp_rhythm(*, function=None):
     command = baca.make_repeat_tied_notes(do_not_rewrite_meter=True)
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1877,6 +1928,9 @@ def make_running_quarter_divisions(count, *, function=None, measures=None):
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1889,6 +1943,9 @@ def make_solid_line_rhythm(*, function=None, measures=None):
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1915,6 +1972,9 @@ def make_stroke_rhythm(rotation, *commands, function=None, measures=None):
         preprocessor=lambda _: abjad.sequence.rotate(_, n=rotation),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1944,30 +2004,9 @@ def make_synchronized_circle_rhythm(
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    return command
-
-
-def style_tailpiece_material(*tweaks):
-    command = baca.suite(
-        baca.dots_transparent(
-            selector=lambda _: baca.select.leaves(_)[1:],
-        ),
-        baca.markup(r"\baca-boxed-markup tailpiece"),
-        baca.staff_position(0),
-        baca.stem_transparent(
-            selector=lambda _: baca.select.leaves(_)[1:],
-        ),
-        baca.text_script_parent_alignment_x(0),
-        baca.flat_glissando(
-            None,
-            *tweaks,
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    baca.tag(
-        baca.tags.function_name(inspect.currentframe()),
-        command,
-    )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -1994,6 +2033,9 @@ def make_talea_eighth_notes(
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -2008,6 +2050,9 @@ def make_taper_rhythm(tuplet_ratio=(1, 4, 1), *, function=None, measures=None):
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -2028,6 +2073,9 @@ def make_to_flight_rhythm(
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -2061,6 +2109,9 @@ def make_trajectory_rhythm(
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -2069,6 +2120,9 @@ def make_urtext_field_rhythm(*, function=None, measures=None):
         do_not_rewrite_meter=True,
         measures=measures,
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -2080,6 +2134,9 @@ def make_wave_rhythm(start, stop, *, function=None, measures=None):
         measures=measures,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function:
+        music = command.rhythm_maker(function)
+        return music
     return command
 
 
@@ -3240,6 +3297,30 @@ def second_order_stages(section):
         measure_number += target_stage.time_signature_count
         dictionary[stage_number] = target_stage
     return dictionary
+
+
+def style_tailpiece_material(*tweaks):
+    command = baca.suite(
+        baca.dots_transparent(
+            selector=lambda _: baca.select.leaves(_)[1:],
+        ),
+        baca.markup(r"\baca-boxed-markup tailpiece"),
+        baca.staff_position(0),
+        baca.stem_transparent(
+            selector=lambda _: baca.select.leaves(_)[1:],
+        ),
+        baca.text_script_parent_alignment_x(0),
+        baca.flat_glissando(
+            None,
+            *tweaks,
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    baca.tag(
+        baca.tags.function_name(inspect.currentframe()),
+        command,
+    )
+    return command
 
 
 def time(score, commands, pairs):

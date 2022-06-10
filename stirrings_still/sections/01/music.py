@@ -143,587 +143,403 @@ library.time(score, commands, time)
 
 # V1
 
-baca.alternate_makers(
-    commands,
-    "v1",
-    [1, 3, (5, 6), (8, 9)],
-    library.make_declamation_rhythm(),
-    baca.make_mmrests(head=True),
-)
+voice = score["Violin.1.Music"]
 
-# music =
+music = library.make_declamation_rhythm(function=commands.get(1))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(2), head=voice.name)
+voice.extend(music)
+music = library.make_declamation_rhythm(function=commands.get(3))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(4), head=voice.name)
+voice.extend(music)
+music = library.make_declamation_rhythm(function=commands.get(5, 6))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(7), head=voice.name)
+voice.extend(music)
+music = library.make_declamation_rhythm(function=commands.get(8, 9))
+voice.extend(music)
 
-commands(
-    ("v1", 10),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(10), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v1", (11, 16)),
-    library.make_declamation_rhythm(
-        protract=True,
-    ),
+music = library.make_declamation_rhythm(
+    protract=True,
+    function=commands.get(11, 16),
 )
+voice.extend(music)
 
-commands(
-    ("v1", 17),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(17), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v1", 18),
-    library.make_declamation_rhythm(),
-)
+music = library.make_declamation_rhythm(function=commands.get(18))
+voice.extend(music)
 
-commands(
-    ("v1", 19),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(19), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v1", 20),
-    library.make_declamation_rhythm(),
-)
+music = library.make_declamation_rhythm(function=commands.get(20))
+voice.extend(music)
 
-commands(
-    ("v1", 21),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(21), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v1", 22),
-    library.make_declamation_rhythm(),
-)
+music = library.make_declamation_rhythm(function=commands.get(22))
+voice.extend(music)
 
-commands(
-    ("v1", 23),
-    library.make_desynchronization_rhythm(4, [1]),
-)
+music = library.make_desynchronization_rhythm(4, [1], function=commands.get(23))
+voice.extend(music)
 
-commands(
-    ("v1", 24),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(24), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v1", 25),
-    library.make_declamation_rhythm(),
-)
+music = library.make_declamation_rhythm(function=commands.get(25))
+voice.extend(music)
 
-commands(
-    ("v1", 26),
-    library.make_desynchronization_rhythm(4, [1]),
-)
+music = library.make_desynchronization_rhythm(4, [1], function=commands.get(26))
+voice.extend(music)
 
-commands(
-    ("v1", 27),
-    library.make_loure_tuplets_material(0),
-)
+music = library.make_loure_tuplets_material(0, function=commands.get(27))
+voice.extend(music)
 
-commands(
-    ("v1", 28),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(28), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v1", 29),
-    library.make_declamation_rhythm(),
-)
+music = library.make_declamation_rhythm(function=commands.get(29))
+voice.extend(music)
 
-commands(
-    ("v1", (30, 45)),
-    library.make_desynchronization_rhythm(4, [1]),
-)
+music = library.make_desynchronization_rhythm(4, [1], function=commands.get(30, 45))
+voice.extend(music)
 
-commands(
-    ("v1", (46, 50)),
-    library.make_desynchronization_rhythm(4, [1]),
-)
+music = library.make_desynchronization_rhythm(4, [1], function=commands.get(46, 50))
+voice.extend(music)
 
-commands(
-    ("v1", 51),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(51), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v1", 52),
-    library.make_desynchronization_rhythm(4, [1]),
-)
+music = library.make_desynchronization_rhythm(4, [1], function=commands.get(52))
+voice.extend(music)
 
-commands(
-    ("v1", 53),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(53), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v1", 54),
-    library.make_desynchronization_rhythm(4, [1]),
-)
+music = library.make_desynchronization_rhythm(4, [1], function=commands.get(54))
+voice.extend(music)
 
-commands(
-    ("v1", (55, 56)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(55, 56))
+voice.extend(music)
 
-commands(
-    ("v1", 57),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(57), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v1", 58),
-    library.make_desynchronization_rhythm(4, [1]),
-)
+music = library.make_desynchronization_rhythm(4, [1], function=commands.get(58))
+voice.extend(music)
 
-commands(
-    ("v1", 59),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(59), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v1", 60),
-    library.make_declamation_rhythm(),
-)
+music = library.make_declamation_rhythm(function=commands.get(60))
+voice.extend(music)
 
-commands(
-    ("v1", 61),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(61), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v1", 62),
-    library.make_circle_rhythm((1, 4)),
-)
+music = library.make_circle_rhythm((1, 4), function=commands.get(62))
+voice.extend(music)
 
-commands(
-    ("v1", 63),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(63), head=voice.name)
+voice.extend(music)
 
 # V2
 
-baca.alternate_makers(
-    commands,
-    "v2",
-    [1, 3, (5, 6), (8, 9)],
-    library.make_declamation_rhythm(),
-    baca.make_mmrests(head=True),
-)
+voice = score["Violin.2.Music"]
 
-commands(
-    ("v2", 10),
-    baca.make_mmrests(head=True),
-)
+music = library.make_declamation_rhythm(function=commands.get(1))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(2), head=voice.name)
+voice.extend(music)
+music = library.make_declamation_rhythm(function=commands.get(3))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(4), head=voice.name)
+voice.extend(music)
+music = library.make_declamation_rhythm(function=commands.get(5, 6))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(7), head=voice.name)
+voice.extend(music)
+music = library.make_declamation_rhythm(function=commands.get(8, 9))
+voice.extend(music)
 
-commands(
-    ("v2", (11, 16)),
-    library.make_declamation_rhythm(
-        protract=True,
-    ),
-)
+music = baca.make_mmrests_function(commands.get(10), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v2", 17),
-    baca.make_mmrests(head=True),
+music = library.make_declamation_rhythm(
+    protract=True,
+    function=commands.get(11, 16),
 )
+voice.extend(music)
 
-commands(
-    ("v2", 18),
-    library.make_declamation_rhythm(),
-)
+music = baca.make_mmrests_function(commands.get(17), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v2", 19),
-    baca.make_mmrests(head=True),
-)
+music = library.make_declamation_rhythm(function=commands.get(18))
+voice.extend(music)
 
-commands(
-    ("v2", 20),
-    library.make_declamation_rhythm(),
-)
+music = baca.make_mmrests_function(commands.get(19), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v2", 21),
-    baca.make_mmrests(head=True),
-)
+music = library.make_declamation_rhythm(function=commands.get(20))
+voice.extend(music)
 
-commands(
-    ("v2", 22),
-    library.make_declamation_rhythm(),
-)
+music = baca.make_mmrests_function(commands.get(21), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v2", 23),
-    library.make_desynchronization_rhythm(4, [0]),
-)
+music = library.make_declamation_rhythm(function=commands.get(22))
+voice.extend(music)
 
-commands(
-    ("v2", 24),
-    baca.make_mmrests(head=True),
-)
+music = library.make_desynchronization_rhythm(4, [0], function=commands.get(23))
+voice.extend(music)
 
-commands(
-    ("v2", 25),
-    library.make_declamation_rhythm(),
-)
+music = baca.make_mmrests_function(commands.get(24), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v2", 26),
-    library.make_desynchronization_rhythm(4, [0]),
-)
+music = library.make_declamation_rhythm(function=commands.get(25))
+voice.extend(music)
 
-commands(
-    ("v2", 27),
-    library.make_loure_tuplets_material(1),
-)
+music = library.make_desynchronization_rhythm(4, [0], function=commands.get(26))
+voice.extend(music)
 
-commands(
-    ("v2", 28),
-    baca.make_mmrests(head=True),
-)
+music = library.make_loure_tuplets_material(1, function=commands.get(27))
+voice.extend(music)
 
-commands(
-    ("v2", 29),
-    library.make_declamation_rhythm(),
-)
+music = baca.make_mmrests_function(commands.get(28), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v2", (30, 45)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
+music = library.make_declamation_rhythm(function=commands.get(29))
+voice.extend(music)
 
-commands(
-    ("v2", (46, 50)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
+music = library.make_desynchronization_rhythm(4, [0], function=commands.get(30, 45))
+voice.extend(music)
 
-commands(
-    ("v2", 51),
-    baca.make_mmrests(head=True),
-)
+music = library.make_desynchronization_rhythm(4, [0], function=commands.get(46, 50))
+voice.extend(music)
 
-commands(
-    ("v2", 52),
-    library.make_desynchronization_rhythm(4, [0]),
-)
+music = baca.make_mmrests_function(commands.get(51), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v2", 53),
-    baca.make_mmrests(head=True),
-)
+music = library.make_desynchronization_rhythm(4, [0], function=commands.get(52))
+voice.extend(music)
 
-commands(
-    ("v2", 54),
-    library.make_desynchronization_rhythm(4, [0]),
-)
+music = baca.make_mmrests_function(commands.get(53), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v2", (55, 56)),
-    baca.make_repeat_tied_notes(),
-)
+music = library.make_desynchronization_rhythm(4, [0], function=commands.get(54))
+voice.extend(music)
 
-commands(
-    ("v2", 57),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(55, 56))
+voice.extend(music)
 
-commands(
-    ("v2", 58),
-    library.make_desynchronization_rhythm(4, [0]),
-)
+music = baca.make_mmrests_function(commands.get(57), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v2", 59),
-    baca.make_mmrests(head=True),
-)
+music = library.make_desynchronization_rhythm(4, [0], function=commands.get(58))
+voice.extend(music)
 
-commands(
-    ("v2", 60),
-    library.make_declamation_rhythm(),
-)
+music = baca.make_mmrests_function(commands.get(59), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v2", 61),
-    baca.make_mmrests(head=True),
-)
+music = library.make_declamation_rhythm(function=commands.get(60))
+voice.extend(music)
 
-commands(
-    ("v2", 62),
-    library.make_circle_rhythm((1, 4)),
-)
+music = baca.make_mmrests_function(commands.get(61), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("v2", 63),
-    baca.make_mmrests(head=True),
-)
+music = library.make_circle_rhythm((1, 4), function=commands.get(62))
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(63), head=voice.name)
+voice.extend(music)
 
 # VA
 
-baca.alternate_makers(
-    commands,
-    "va",
-    [1, 3, (5, 6), (8, 9)],
-    library.make_declamation_rhythm(),
-    baca.make_mmrests(head=True),
-)
+voice = score["Viola.Music"]
 
-commands(
-    ("va", 10),
-    baca.make_mmrests(head=True),
-)
+music = library.make_declamation_rhythm(function=commands.get(1))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(2), head=voice.name)
+voice.extend(music)
+music = library.make_declamation_rhythm(function=commands.get(3))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(4), head=voice.name)
+voice.extend(music)
+music = library.make_declamation_rhythm(function=commands.get(5, 6))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(7), head=voice.name)
+voice.extend(music)
+music = library.make_declamation_rhythm(function=commands.get(8, 9))
+voice.extend(music)
 
-commands(
-    ("va", (11, 16)),
-    library.make_declamation_rhythm(
-        protract=True,
-    ),
-)
+music = baca.make_mmrests_function(commands.get(10), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("va", 17),
-    baca.make_mmrests(head=True),
+music = library.make_declamation_rhythm(
+    protract=True,
+    function=commands.get(11, 16),
 )
+voice.extend(music)
 
-commands(
-    ("va", 18),
-    library.make_declamation_rhythm(),
-)
+music = baca.make_mmrests_function(commands.get(17), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("va", 19),
-    baca.make_mmrests(head=True),
-)
+music = library.make_declamation_rhythm(function=commands.get(18))
+voice.extend(music)
 
-commands(
-    ("va", 20),
-    library.make_declamation_rhythm(),
-)
+music = baca.make_mmrests_function(commands.get(19), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("va", 21),
-    baca.make_mmrests(head=True),
-)
+music = library.make_declamation_rhythm(function=commands.get(20))
+voice.extend(music)
 
-commands(
-    ("va", 22),
-    library.make_declamation_rhythm(),
-)
+music = baca.make_mmrests_function(commands.get(21), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("va", 23),
-    library.make_desynchronization_rhythm(4, [2]),
-)
+music = library.make_declamation_rhythm(function=commands.get(22))
+voice.extend(music)
 
-commands(
-    ("va", 24),
-    baca.make_mmrests(head=True),
-)
+music = library.make_desynchronization_rhythm(4, [2], function=commands.get(23))
+voice.extend(music)
 
-commands(
-    ("va", 25),
-    library.make_declamation_rhythm(),
-)
+music = baca.make_mmrests_function(commands.get(24), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("va", 26),
-    library.make_desynchronization_rhythm(4, [2]),
-)
+music = library.make_declamation_rhythm(function=commands.get(25))
+voice.extend(music)
 
-commands(
-    ("va", 27),
-    library.make_loure_tuplets_material(-1),
-)
+music = library.make_desynchronization_rhythm(4, [2], function=commands.get(26))
+voice.extend(music)
 
-commands(
-    ("va", 28),
-    baca.make_mmrests(head=True),
-)
+music = library.make_loure_tuplets_material(-1, function=commands.get(27))
+voice.extend(music)
 
-commands(
-    ("va", 29),
-    library.make_declamation_rhythm(),
-)
+music = baca.make_mmrests_function(commands.get(28), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("va", (30, 45)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
+music = library.make_declamation_rhythm(function=commands.get(29))
+voice.extend(music)
 
-commands(
-    ("va", (46, 50)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
+music = library.make_desynchronization_rhythm(4, [2], function=commands.get(30, 45))
+voice.extend(music)
 
-commands(
-    ("va", 51),
-    baca.make_mmrests(head=True),
-)
+music = library.make_desynchronization_rhythm(4, [2], function=commands.get(46, 50))
+voice.extend(music)
 
-commands(
-    ("va", 52),
-    library.make_desynchronization_rhythm(4, [2]),
-)
+music = baca.make_mmrests_function(commands.get(51), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("va", 53),
-    baca.make_mmrests(head=True),
-)
+music = library.make_desynchronization_rhythm(4, [2], function=commands.get(52))
+voice.extend(music)
 
-commands(
-    ("va", 54),
-    library.make_desynchronization_rhythm(4, [2]),
-)
+music = baca.make_mmrests_function(commands.get(53), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("va", (55, 56)),
-    baca.make_repeat_tied_notes(),
-)
+music = library.make_desynchronization_rhythm(4, [2], function=commands.get(54))
+voice.extend(music)
 
-commands(
-    ("va", 57),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(55, 56))
+voice.extend(music)
 
-commands(
-    ("va", 58),
-    library.make_desynchronization_rhythm(4, [2]),
-)
+music = baca.make_mmrests_function(commands.get(57), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("va", 59),
-    baca.make_mmrests(head=True),
-)
+music = library.make_desynchronization_rhythm(4, [2], function=commands.get(58))
+voice.extend(music)
 
-commands(
-    ("va", 60),
-    library.make_declamation_rhythm(),
-)
+music = baca.make_mmrests_function(commands.get(59), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("va", 61),
-    baca.make_mmrests(head=True),
-)
+music = library.make_declamation_rhythm(function=commands.get(60))
+voice.extend(music)
 
-commands(
-    ("va", 62),
-    library.make_circle_rhythm((1, 4)),
-)
+music = baca.make_mmrests_function(commands.get(61), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("va", 63),
-    baca.make_mmrests(head=True),
-)
+music = library.make_circle_rhythm((1, 4), function=commands.get(62))
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(63), head=voice.name)
+voice.extend(music)
 
 # VC
 
-commands(
-    ("vc", (1, 11)),
-    baca.make_mmrests(head=True),
-)
+voice = score["Cello.Music"]
 
-commands(
-    ("vc", (12, 26)),
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-    ),
-)
+music = baca.make_mmrests_function(commands.get(1, 11), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("vc", 27),
-    library.make_taper_rhythm((1, 1)),
+music = baca.make_repeat_tied_notes_function(
+    commands.get(12, 26),
+    do_not_rewrite_meter=True,
 )
+voice.extend(music)
 
-commands(
-    ("vc", 28),
-    baca.make_mmrests(head=True),
-)
+music = library.make_taper_rhythm((1, 1), function=commands.get(27))
+voice.extend(music)
 
-commands(
-    ("vc", (29, 40)),
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-    ),
-)
+music = baca.make_mmrests_function(commands.get(28), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("vc", 41),
-    baca.make_mmrests(head=True),
+music = baca.make_repeat_tied_notes_function(
+    commands.get(29, 40),
+    do_not_rewrite_meter=True,
 )
+voice.extend(music)
 
-commands(
-    ("vc", (42, 43)),
-    library.make_cello_cell_rhythm(),
-)
+music = baca.make_mmrests_function(commands.get(41), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("vc", (44, 45)),
-    baca.make_mmrests(head=True),
-)
+music = library.make_cello_cell_rhythm(function=commands.get(42, 43))
+voice.extend(music)
 
-commands(
-    ("vc", (46, 47)),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
+music = baca.make_mmrests_function(commands.get(44, 45), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("vc", 48),
-    library.make_cello_cell_rhythm(),
-)
+music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(46, 47))
+voice.extend(music)
 
-commands(
-    ("vc", (49, 50)),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
+music = library.make_cello_cell_rhythm(function=commands.get(48))
+voice.extend(music)
 
-commands(
-    ("vc", 51),
-    baca.make_mmrests(head=True),
-)
+music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(49, 50))
+voice.extend(music)
 
-commands(
-    ("vc", 52),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
+music = baca.make_mmrests_function(commands.get(51), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("vc", 53),
-    baca.make_mmrests(head=True),
-)
+music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(52))
+voice.extend(music)
 
-commands(
-    ("vc", 54),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
+music = baca.make_mmrests_function(commands.get(53), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("vc", (55, 56)),
-    baca.make_repeat_tied_notes(),
-)
+music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(54))
+voice.extend(music)
 
-commands(
-    ("vc", 57),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(55, 56))
+voice.extend(music)
 
-commands(
-    ("vc", 58),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
+music = baca.make_mmrests_function(commands.get(57), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("vc", (59, 61)),
-    baca.make_mmrests(head=True),
-)
+music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(58))
+voice.extend(music)
 
-commands(
-    ("vc", 62),
-    library.make_circle_rhythm((1, 4)),
-)
+music = baca.make_mmrests_function(commands.get(59, 61), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("vc", 63),
-    baca.make_mmrests(head=True),
-)
+music = library.make_circle_rhythm((1, 4), function=commands.get(62))
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(63), head=voice.name)
+voice.extend(music)
 
 # vcx
 

@@ -61,6 +61,8 @@ def nonlast_tuplet_pleaves(indices):
 
 # V1
 
+voice = score["Violin.1.Music"]
+
 commands(
     "v1",
     library.make_trajectory_rhythm(
@@ -77,6 +79,8 @@ commands(
 )
 
 # V2
+
+voice = score["Violin.2.Music"]
 
 commands(
     "v2",
@@ -95,6 +99,8 @@ commands(
 
 # VA
 
+voice = score["Viola.Music"]
+
 commands(
     "va",
     library.make_trajectory_rhythm(
@@ -111,6 +117,8 @@ commands(
 )
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     "vc",

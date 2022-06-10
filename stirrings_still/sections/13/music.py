@@ -51,71 +51,178 @@ library.time(score, commands, time)
 
 # V1
 
-baca.alternate_makers(
-    commands,
-    "v1",
-    [(1, 7), (13, 16), (21, 24), (29, 32)],
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-    ),
-    library.make_picket_rhythm(
-        4,
-        2,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
-    ),
-    total=32,
+voice = score["Violin.1.Music"]
+
+music = baca.make_repeat_tied_notes_function(
+    commands.get(1, 7), do_not_rewrite_meter=True
 )
+voice.extend(music)
+music = library.make_picket_rhythm(
+    4,
+    2,
+    rmakers.force_note(
+        lambda _: baca.select.tuplet(_, 0),
+    ),
+    rmakers.tie(
+        lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
+    ),
+    function=commands.get(8, 12),
+)
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(
+    commands.get(13, 16), do_not_rewrite_meter=True
+)
+voice.extend(music)
+music = library.make_picket_rhythm(
+    4,
+    2,
+    rmakers.force_note(
+        lambda _: baca.select.tuplet(_, 0),
+    ),
+    rmakers.tie(
+        lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
+    ),
+    function=commands.get(17, 20),
+)
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(
+    commands.get(21, 24), do_not_rewrite_meter=True
+)
+voice.extend(music)
+music = library.make_picket_rhythm(
+    4,
+    2,
+    rmakers.force_note(
+        lambda _: baca.select.tuplet(_, 0),
+    ),
+    rmakers.tie(
+        lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
+    ),
+    function=commands.get(25, 28),
+)
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(
+    commands.get(29, 32), do_not_rewrite_meter=True
+)
+voice.extend(music)
 
 # V2
 
-baca.alternate_makers(
-    commands,
-    "v2",
-    [(1, 7), (13, 16), (21, 24), (29, 32)],
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-    ),
-    library.make_picket_rhythm(
-        4,
-        1,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
-    ),
-    total=32,
+voice = score["Violin.2.Music"]
+
+music = baca.make_repeat_tied_notes_function(
+    commands.get(1, 7), do_not_rewrite_meter=True
 )
+voice.extend(music)
+music = library.make_picket_rhythm(
+    4,
+    1,
+    rmakers.force_note(
+        lambda _: baca.select.tuplet(_, 0),
+    ),
+    rmakers.tie(
+        lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
+    ),
+    function=commands.get(8, 12),
+)
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(
+    commands.get(13, 16), do_not_rewrite_meter=True
+)
+voice.extend(music)
+music = library.make_picket_rhythm(
+    4,
+    1,
+    rmakers.force_note(
+        lambda _: baca.select.tuplet(_, 0),
+    ),
+    rmakers.tie(
+        lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
+    ),
+    function=commands.get(17, 20),
+)
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(
+    commands.get(21, 24), do_not_rewrite_meter=True
+)
+voice.extend(music)
+music = library.make_picket_rhythm(
+    4,
+    1,
+    rmakers.force_note(
+        lambda _: baca.select.tuplet(_, 0),
+    ),
+    rmakers.tie(
+        lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
+    ),
+    function=commands.get(25, 28),
+)
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(
+    commands.get(29, 32), do_not_rewrite_meter=True
+)
+voice.extend(music)
 
 # VA
 
-baca.alternate_makers(
-    commands,
-    "va",
-    [(1, 7), (13, 16), (21, 24), (29, 32)],
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-    ),
-    library.make_picket_rhythm(
-        4,
-        0,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
-    ),
-    total=32,
+voice = score["Viola.Music"]
+
+music = baca.make_repeat_tied_notes_function(
+    commands.get(1, 7), do_not_rewrite_meter=True
 )
+voice.extend(music)
+music = library.make_picket_rhythm(
+    4,
+    0,
+    rmakers.force_note(
+        lambda _: baca.select.tuplet(_, 0),
+    ),
+    rmakers.tie(
+        lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
+    ),
+    function=commands.get(8, 12),
+)
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(
+    commands.get(13, 16), do_not_rewrite_meter=True
+)
+voice.extend(music)
+music = library.make_picket_rhythm(
+    4,
+    0,
+    rmakers.force_note(
+        lambda _: baca.select.tuplet(_, 0),
+    ),
+    rmakers.tie(
+        lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
+    ),
+    function=commands.get(17, 20),
+)
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(
+    commands.get(21, 24), do_not_rewrite_meter=True
+)
+voice.extend(music)
+music = library.make_picket_rhythm(
+    4,
+    0,
+    rmakers.force_note(
+        lambda _: baca.select.tuplet(_, 0),
+    ),
+    rmakers.tie(
+        lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
+    ),
+    function=commands.get(25, 28),
+)
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(
+    commands.get(29, 32), do_not_rewrite_meter=True
+)
+voice.extend(music)
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     ("vc", (1, 28)),
