@@ -77,6 +77,8 @@ library.time(score, commands, time)
 
 # V1
 
+voice = score["Violin.1.Music"]
+
 commands(
     ("v1", 1),
     baca.make_repeat_tied_notes(),
@@ -146,6 +148,7 @@ commands(
     ("v1", 72),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v1", (73, 92)),
@@ -153,6 +156,8 @@ commands(
 )
 
 # V2
+
+voice = score["Violin.2.Music"]
 
 commands(
     ("v2", 1),
@@ -223,6 +228,7 @@ commands(
     ("v2", 72),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v2", (73, 92)),
@@ -230,6 +236,8 @@ commands(
 )
 
 # VA
+
+voice = score["Viola.Music"]
 
 commands(
     ("va", 1),
@@ -300,6 +308,7 @@ commands(
     ("va", 72),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("va", (73, 92)),
@@ -307,6 +316,8 @@ commands(
 )
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     ("vc", 1),
@@ -377,6 +388,7 @@ commands(
     ("vc", 72),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("vc", (73, 87)),

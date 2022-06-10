@@ -51,6 +51,8 @@ library.time(score, commands, time)
 
 # V1
 
+voice = score["Violin.1.Music"]
+
 commands(
     ("v1", (1, 7)),
     library.make_circle_rhythm((1, 8)),
@@ -60,6 +62,7 @@ commands(
     ("v1", (8, 9)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v1", (10, 11)),
@@ -67,6 +70,8 @@ commands(
 )
 
 # V2
+
+voice = score["Violin.2.Music"]
 
 commands(
     ("v2", (1, 7)),
@@ -77,6 +82,7 @@ commands(
     ("v2", (8, 9)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v2", (10, 11)),
@@ -84,6 +90,8 @@ commands(
 )
 
 # VA
+
+voice = score["Viola.Music"]
 
 commands(
     ("va", (1, 7)),
@@ -98,6 +106,7 @@ commands(
     ("va", (8, 9)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("va", (10, 11)),
@@ -105,6 +114,8 @@ commands(
 )
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     ("vc", (1, 6)),

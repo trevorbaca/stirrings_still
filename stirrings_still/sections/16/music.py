@@ -101,6 +101,8 @@ vc_spanner_staff_padding = 5.5
 
 # V1
 
+voice = score["Violin.1.Music"]
+
 commands(
     ("v1", (5, 10)),
     baca.rhythm(
@@ -147,8 +149,11 @@ commands(
     ("v1", 26),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # V2
+
+voice = score["Violin.2.Music"]
 
 commands(
     ("v2", (5, 10)),
@@ -200,8 +205,11 @@ commands(
     ("v2", 26),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VA
+
+voice = score["Viola.Music"]
 
 commands(
     ("va", (5, 10)),
@@ -249,8 +257,11 @@ commands(
     ("va", 26),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     ("vc", (5, 10)),
@@ -302,6 +313,7 @@ commands(
     ("vc", 26),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # reapply
 

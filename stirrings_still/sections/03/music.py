@@ -132,6 +132,8 @@ library.time(score, commands, time)
 
 # V1
 
+voice = score["Violin.1.Music"]
+
 commands(
     ("v1", (1, 4)),
     library.make_desynchronization_rhythm(4, [1]),
@@ -146,6 +148,7 @@ commands(
     ("v1", 6),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v1", (7, 10)),
@@ -156,6 +159,7 @@ commands(
     ("v1", 11),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v1", (12, 15)),
@@ -191,6 +195,7 @@ commands(
     ("v1", (34, 35)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v1", (36, 55)),
@@ -219,6 +224,7 @@ commands(
     ("v1", 70),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v1", (71, 76)),
@@ -229,8 +235,11 @@ commands(
     ("v1", 77),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # V2
+
+voice = score["Violin.2.Music"]
 
 commands(
     ("v2", (1, 4)),
@@ -246,6 +255,7 @@ commands(
     ("v2", 6),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v2", (7, 10)),
@@ -256,6 +266,7 @@ commands(
     ("v2", 11),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v2", (12, 15)),
@@ -298,6 +309,7 @@ commands(
     ("v2", (34, 35)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v2", (36, 55)),
@@ -326,6 +338,7 @@ commands(
     ("v2", 70),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v2", (71, 76)),
@@ -336,8 +349,11 @@ commands(
     ("v2", 77),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VA
+
+voice = score["Viola.Music"]
 
 commands(
     ("va", (1, 4)),
@@ -353,6 +369,7 @@ commands(
     ("va", 6),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("va", (7, 10)),
@@ -363,6 +380,7 @@ commands(
     ("va", 11),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("va", (12, 15)),
@@ -398,6 +416,7 @@ commands(
     ("va", (34, 35)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("va", (36, 55)),
@@ -426,6 +445,7 @@ commands(
     ("va", 70),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("va", (71, 76)),
@@ -436,8 +456,11 @@ commands(
     ("va", 77),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     ("vc", (1, 4)),
@@ -453,6 +476,7 @@ commands(
     ("vc", 6),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("vc", (7, 10)),
@@ -463,6 +487,7 @@ commands(
     ("vc", 11),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("vc", (12, 15)),
@@ -513,6 +538,7 @@ commands(
     ("vc", (60, 61)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("vc", (62, 69)),
@@ -526,6 +552,7 @@ commands(
     ("vc", 70),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("vc", (71, 76)),
@@ -536,6 +563,7 @@ commands(
     ("vc", 77),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # reapply
 

@@ -125,6 +125,8 @@ library.time(score, commands, time)
 
 # V1
 
+voice = score["Violin.1.Music"]
+
 commands(
     ("v1", (1, 2)),
     library.make_continuous_tremolo_material(),
@@ -134,6 +136,7 @@ commands(
     ("v1", 3),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v1", (4, 5)),
@@ -170,6 +173,7 @@ commands(
     ("v1", 41),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v1", (42, 49)),
@@ -185,6 +189,7 @@ commands(
     ("v1", 62),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v1", (63, 78)),
@@ -200,6 +205,7 @@ commands(
     ("v1", 81),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v1", (82, 85)),
@@ -210,6 +216,7 @@ commands(
     ("v1", 86),
     baca.make_mmrests(),
 )
+music = baca.make_mmrests_function(commands.get())
 
 commands(
     ("v1", (87, 88)),
@@ -235,6 +242,7 @@ commands(
     ("v1", 111),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v1", (112, 119)),
@@ -245,8 +253,11 @@ commands(
     ("v1", (120, 127)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # V2
+
+voice = score["Violin.2.Music"]
 
 commands(
     ("v2", (1, 2)),
@@ -257,6 +268,7 @@ commands(
     ("v2", 3),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v2", (4, 5)),
@@ -298,6 +310,7 @@ commands(
     ("v2", 41),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v2", (42, 53)),
@@ -313,6 +326,7 @@ commands(
     ("v2", 62),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v2", (63, 77)),
@@ -328,6 +342,7 @@ commands(
     ("v2", 81),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v2", (82, 85)),
@@ -338,6 +353,7 @@ commands(
     ("v2", 86),
     baca.make_mmrests(),
 )
+music = baca.make_mmrests_function(commands.get())
 
 commands(
     ("v2", (87, 88)),
@@ -363,6 +379,7 @@ commands(
     ("v2", 111),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("v2", (112, 119)),
@@ -373,8 +390,11 @@ commands(
     ("v2", (120, 127)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VA
+
+voice = score["Viola.Music"]
 
 commands(
     ("va", (1, 2)),
@@ -385,6 +405,7 @@ commands(
     ("va", 3),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("va", (4, 5)),
@@ -421,6 +442,7 @@ commands(
     ("va", 41),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("va", (42, 49)),
@@ -436,6 +458,7 @@ commands(
     ("va", 62),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("va", (63, 76)),
@@ -451,6 +474,7 @@ commands(
     ("va", 81),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("va", (82, 85)),
@@ -461,6 +485,7 @@ commands(
     ("va", 86),
     baca.make_mmrests(),
 )
+music = baca.make_mmrests_function(commands.get())
 
 commands(
     ("va", (87, 88)),
@@ -486,6 +511,7 @@ commands(
     ("va", 111),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("va", (112, 119)),
@@ -496,8 +522,11 @@ commands(
     ("va", (120, 127)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     ("vc", (1, 2)),
@@ -508,6 +537,7 @@ commands(
     ("vc", 3),
     baca.make_mmrests(),
 )
+music = baca.make_mmrests_function(commands.get())
 
 commands(
     ("vc", (4, 5)),
@@ -523,6 +553,7 @@ commands(
     ("vc", (28, 41)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("vc", (42, 49)),
@@ -538,6 +569,7 @@ commands(
     ("vc", 62),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("vc", (63, 80)),
@@ -548,6 +580,7 @@ commands(
     ("vc", 81),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("vc", (82, 88)),
@@ -573,6 +606,7 @@ commands(
     ("vc", (116, 117)),
     baca.make_mmrests(head=True),
 )
+music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("vc", (118, 127)),
