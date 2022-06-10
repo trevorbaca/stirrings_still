@@ -151,6 +151,8 @@ baca.alternate_makers(
     baca.make_mmrests(head=True),
 )
 
+# music =
+
 commands(
     ("v1", 10),
     baca.make_mmrests(head=True),

@@ -2052,12 +2052,15 @@ number.13.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
+      %! stirrings_still.make_picket_rhythm()
     d'''1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2248,12 +2251,15 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2287,12 +2293,15 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2336,6 +2345,7 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2504,12 +2514,15 @@ number.13.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
+      %! stirrings_still.make_picket_rhythm()
     d'''4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2698,12 +2711,15 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2735,12 +2751,15 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2786,6 +2805,7 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2959,12 +2979,15 @@ number.13.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
+      %! stirrings_still.make_picket_rhythm()
     d'''2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3157,12 +3180,15 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3206,6 +3232,7 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3813,12 +3840,15 @@ number.13.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
+      %! stirrings_still.make_picket_rhythm()
     fqs''!1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4005,12 +4035,15 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4038,12 +4071,15 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4083,6 +4119,7 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4251,12 +4288,15 @@ number.13.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
+      %! stirrings_still.make_picket_rhythm()
     fqs''!4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4441,12 +4481,15 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4474,12 +4517,15 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4521,6 +4567,7 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4694,12 +4741,15 @@ number.13.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
+      %! stirrings_still.make_picket_rhythm()
     fqs''!2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4886,12 +4936,15 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4931,6 +4984,7 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5526,6 +5580,7 @@ number.13.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
+      %! stirrings_still.make_picket_rhythm()
     aqf'!1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5923,6 +5978,7 @@ number.13.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
+      %! stirrings_still.make_picket_rhythm()
     aqf'!4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6321,6 +6377,7 @@ number.13.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
+      %! stirrings_still.make_picket_rhythm()
     aqf'!2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
