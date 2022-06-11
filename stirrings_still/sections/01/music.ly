@@ -88,10 +88,10 @@
                     \tag #'Violin.1
                     % OPEN_BRACKETS:
                       %! stirrings_still.make_empty_score()
-                    \context Staff = "Violin.1.Music_Staff"
+                    \context Staff = "Violin.1.Staff"
                       %! stirrings_still.make_empty_score()
                       %! baca.path.extern()
-                    { \number.1.Violin.1.Music_Staff }
+                    { \number.1.Violin.1.Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -114,10 +114,10 @@
                     \tag #'Viola
                     % OPEN_BRACKETS:
                       %! stirrings_still.make_empty_score()
-                    \context Staff = "Viola.Music_Staff"
+                    \context Staff = "Viola.Staff"
                       %! stirrings_still.make_empty_score()
                       %! baca.path.extern()
-                    { \number.1.Viola.Music_Staff }
+                    { \number.1.Viola.Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -127,10 +127,10 @@
                     \tag #'Cello
                     % OPEN_BRACKETS:
                       %! stirrings_still.make_empty_score()
-                    \context Staff = "Cello.Music_Staff"
+                    \context Staff = "Cello.Staff"
                       %! stirrings_still.make_empty_score()
                       %! baca.path.extern()
-                    { \number.1.Cello.Music_Staff }
+                    { \number.1.Cello.Staff }
                     % CLOSING:
                     % COMMANDS:
 

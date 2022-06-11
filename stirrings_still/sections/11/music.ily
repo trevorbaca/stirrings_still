@@ -9113,7 +9113,7 @@ number.11.Violin.1.Music = {
 
 
   %! baca.path.extern()
-number.11.Violin.1.Music_Staff = <<
+number.11.Violin.1.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -20966,7 +20966,7 @@ number.11.Viola.Music = {
 
 
   %! baca.path.extern()
-number.11.Viola.Music_Staff = {
+number.11.Viola.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -26690,7 +26690,7 @@ number.11.Cello.Music = {
 
 
   %! baca.path.extern()
-number.11.Cello.Music_Staff = {
+number.11.Cello.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 

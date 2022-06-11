@@ -1622,7 +1622,7 @@ def make_empty_score():
     # VIOLIN 1
     violin_one_music_staff = abjad.Staff(
         [abjad.Voice(name="Violin.1.Music", tag=tag)],
-        name="Violin.1.Music_Staff",
+        name="Violin.1.Staff",
         tag=tag,
     )
     baca.score.attach_lilypond_tag("Violin.1", violin_one_music_staff)
@@ -1636,14 +1636,14 @@ def make_empty_score():
     # VIOLA
     viola_music_staff = abjad.Staff(
         [abjad.Voice(name="Viola.Music", tag=tag)],
-        name="Viola.Music_Staff",
+        name="Viola.Staff",
         tag=tag,
     )
     baca.score.attach_lilypond_tag("Viola", viola_music_staff)
     # CELLO
     cello_music_staff = abjad.Staff(
         [abjad.Voice(name="Cello.Music", tag=tag)],
-        name="Cello.Music_Staff",
+        name="Cello.Staff",
         tag=tag,
     )
     baca.score.attach_lilypond_tag("Cello", cello_music_staff)
