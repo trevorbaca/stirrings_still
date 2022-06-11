@@ -349,7 +349,7 @@ commands(
 # trio
 
 commands(
-    "trio",
+    ["v1", "v2", "va"],
     baca.dls_staff_padding(5),
     baca.hairpin(
         "o< f >o",
@@ -376,12 +376,12 @@ commands(
 )
 
 commands(
-    ("trio", (1, 8)),
+    (["v1", "v2", "va"], (1, 8)),
     library.clouded_pane_spanner("clouded pane -|", 8),
 )
 
 commands(
-    ("trio", (9, 12)),
+    (["v1", "v2", "va"], (9, 12)),
     # TODO: allow score-specific simultaneous material spanners
     # library.circle_spanner(
     #     "intercalated ds cirles -|", 10.5,
@@ -390,7 +390,7 @@ commands(
 )
 
 commands(
-    ("trio", (13, 16)),
+    (["v1", "v2", "va"], (13, 16)),
     library.clouded_pane_spanner(
         "clouded pane -|",
         8,
@@ -399,7 +399,7 @@ commands(
 )
 
 commands(
-    ("trio", (17, 20)),
+    (["v1", "v2", "va"], (17, 20)),
     # TODO: allow score-specific simultaneous material spanners
     # library.circle_spanner(
     #     "intercalated ds cirles -|", 10.5,
@@ -412,12 +412,12 @@ commands(
 )
 
 commands(
-    ("trio", (21, 25)),
+    (["v1", "v2", "va"], (21, 25)),
     library.clouded_pane_spanner("clouded pane -|", 8),
 )
 
 commands(
-    ("trio", (26, 28)),
+    (["v1", "v2", "va"], (26, 28)),
     # TODO: allow score-specific simultaneous material spanners
     # library.circle_spanner(
     #     "intercalated ds cirles -|", 10.5,
@@ -426,7 +426,7 @@ commands(
 )
 
 commands(
-    ("trio", (29, 32)),
+    (["v1", "v2", "va"], (29, 32)),
     library.clouded_pane_spanner("clouded pane -|", 8),
 )
 

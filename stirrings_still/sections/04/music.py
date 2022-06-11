@@ -879,24 +879,24 @@ commands(
 )
 
 commands(
-    (["v1x", "v2x"], 93),
+    (["v1", "v1r", "v2", "v2r"], 93),
     baca.tacet(),
 )
 
 # trio
 
 commands(
-    "trio",
+    ["v1", "v2", "va"],
     baca.tuplet_bracket_down(),
 )
 
 commands(
-    ("trio", 38),
+    (["v1", "v2", "va"], 38),
     baca.tacet(),
 )
 
 commands(
-    ("trio", [47, 55]),
+    (["v1", "v2", "va"], [47, 55]),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=lambda _: abjad.select.leaf(_, 2),
@@ -958,7 +958,7 @@ commands(
 )
 
 commands(
-    ("trio", 65),
+    (["v1", "v2", "va"], 65),
     baca.hairpin(
         "p -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -971,7 +971,7 @@ commands(
 )
 
 commands(
-    ("trio", 66),
+    (["v1", "v2", "va"], 66),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
@@ -984,7 +984,7 @@ commands(
 )
 
 commands(
-    ("trio", 66),
+    (["v1", "v2", "va"], 66),
     baca.new(
         baca.beam(),
         baca.flat_glissando("Aqs4"),
@@ -1013,7 +1013,7 @@ commands(
 )
 
 commands(
-    ("trio", 67),
+    (["v1", "v2", "va"], 67),
     baca.dynamic(
         "p-sempre",
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
@@ -1021,12 +1021,12 @@ commands(
 )
 
 commands(
-    ("trio", (67, 89)),
+    (["v1", "v2", "va"], (67, 89)),
     library.urtext_spanner("urtext (resumes) -|", 8),
 )
 
 commands(
-    ("trio", (68, 83)),
+    (["v1", "v2", "va"], (68, 83)),
     baca.suite(
         baca.new(
             baca.espressivo(),
@@ -1038,7 +1038,7 @@ commands(
 )
 
 commands(
-    ("trio", (94, 96)),
+    (["v1", "v2", "va"], (94, 96)),
     baca.hairpin(
         "mp >o",
         abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -1056,7 +1056,7 @@ commands(
 )
 
 commands(
-    ("trio", (97, 98)),
+    (["v1", "v2", "va"], (97, 98)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="tight-poss-grind-at-talon",
@@ -1072,7 +1072,7 @@ commands(
 )
 
 commands(
-    ("trio", (97, 98)),
+    (["v1", "v2", "va"], (97, 98)),
     baca.new(
         baca.flat_glissando("Bb4"),
         match=0,
@@ -1093,17 +1093,17 @@ commands(
 # tutti, stage 1
 
 commands(
-    ("tutti", (1, 6)),
+    (["v1", "v2", "va", "vc"], (1, 6)),
     baca.dynamic("p"),
 )
 
 commands(
-    "tutti",
+    ["v1", "v2", "va", "vc"],
     baca.dls_staff_padding(6),
 )
 
 commands(
-    ("tutti", (1, 36)),
+    (["v1", "v2", "va", "vc"], (1, 36)),
     baca.damp_spanner(
         # manual padding because spanner ends of volta
         abjad.Tweak(r"- \tweak bound-details.right.padding 5.25"),
@@ -1113,7 +1113,7 @@ commands(
 )
 
 commands(
-    ("tutti", (7, 12)),
+    (["v1", "v2", "va", "vc"], (7, 12)),
     baca.hairpin(
         "mp p",
         bookend=False,
@@ -1122,7 +1122,7 @@ commands(
 )
 
 commands(
-    ("tutti", (13, 18)),
+    (["v1", "v2", "va", "vc"], (13, 18)),
     baca.hairpin(
         "mf mp",
         bookend=False,
@@ -1131,7 +1131,7 @@ commands(
 )
 
 commands(
-    ("tutti", (19, 24)),
+    (["v1", "v2", "va", "vc"], (19, 24)),
     baca.hairpin(
         '"f" mf',
         bookend=False,
@@ -1140,7 +1140,7 @@ commands(
 )
 
 commands(
-    ("tutti", (25, 30)),
+    (["v1", "v2", "va", "vc"], (25, 30)),
     baca.hairpin(
         '"ff" "f"',
         bookend=False,
@@ -1149,17 +1149,17 @@ commands(
 )
 
 commands(
-    ("tutti", (31, 36)),
+    (["v1", "v2", "va", "vc"], (31, 36)),
     baca.dynamic('"ff"'),
 )
 
 commands(
-    ("tutti", (31, 36)),
+    (["v1", "v2", "va", "vc"], (31, 36)),
     baca.pitch("Eb5"),
 )
 
 commands(
-    ("tutti", (40, 45)),
+    (["v1", "v2", "va", "vc"], (40, 45)),
     baca.dynamic("pp"),
     baca.new(
         baca.pitch("B5"),
@@ -1189,7 +1189,7 @@ commands(
 )
 
 commands(
-    ("tutti", (58, 63)),
+    (["v1", "v2", "va", "vc"], (58, 63)),
     baca.damp_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
@@ -1382,7 +1382,7 @@ commands(
 )
 
 commands(
-    ("vcx", 51),
+    (["vc", "vcr"], 51),
     baca.tacet(),
 )
 
@@ -1420,7 +1420,7 @@ commands(
 )
 
 commands(
-    ("vcx", 93),
+    (["vc", "vcr"], 93),
     baca.tacet(),
 )
 
@@ -1477,7 +1477,7 @@ commands(
 # tutti, stage 2
 
 commands(
-    ("tutti", [(1, 6), (13, 18), (25, 30)]),
+    (["v1", "v2", "va", "vc"], [(1, 6), (13, 18), (25, 30)]),
     baca.suite(
         baca.new(
             baca.stem_tremolo(
@@ -1490,7 +1490,7 @@ commands(
 )
 
 commands(
-    ("tutti", [(7, 12), (19, 24), (31, 36)]),
+    (["v1", "v2", "va", "vc"], [(7, 12), (19, 24), (31, 36)]),
     baca.suite(
         baca.new(
             baca.stop_on_string(

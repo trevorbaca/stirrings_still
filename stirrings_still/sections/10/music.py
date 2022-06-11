@@ -224,7 +224,7 @@ commands(
 # trio
 
 commands(
-    ("trio", (1, 2)),
+    (["v1", "v2", "va"], (1, 2)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
         selector=lambda _: abjad.select.leaf(_, 0),
@@ -238,7 +238,7 @@ commands(
 )
 
 commands(
-    ("trio", (5, 11)),
+    (["v1", "v2", "va"], (5, 11)),
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.dynamic_text_self_alignment_x(
         -0.75,
@@ -251,12 +251,12 @@ commands(
 )
 
 commands(
-    ("trio", (5, 11)),
+    (["v1", "v2", "va"], (5, 11)),
     library.urtext_spanner("urtext (ds field) -|", 8),
 )
 
 commands(
-    ("trio", (12, 17)),
+    (["v1", "v2", "va"], (12, 17)),
     baca.hairpin(
         '"fff" > pp -- !',
         abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -336,12 +336,12 @@ commands(
 # tutti
 
 commands(
-    "tutti",
+    ["v1", "v2", "va", "vc"],
     baca.dls_staff_padding(6),
 )
 
 commands(
-    ("tutti", 11),
+    (["v1", "v2", "va", "vc"], 11),
     baca.markup(
         r"\stirrings-still-third-time-no-breath-markup",
         abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -349,7 +349,7 @@ commands(
 )
 
 commands(
-    ("tutti", 13),
+    (["v1", "v2", "va", "vc"], 13),
     baca.new(
         library.breathe(),
         match=[0, 1, 2],
@@ -439,7 +439,7 @@ commands(
 )
 
 commands(
-    ("vcx", 1),
+    (["vc", "vcr"], 1),
     baca.tacet(),
 )
 
@@ -449,7 +449,7 @@ commands(
 )
 
 commands(
-    ("vcx", 5),
+    (["vc", "vcr"], 5),
     baca.tacet(),
 )
 
@@ -489,7 +489,7 @@ commands(
 )
 
 commands(
-    ("vcx", 14),
+    (["vc", "vcr"], 14),
     baca.tacet(),
 )
 

@@ -768,29 +768,29 @@ commands(
 # v1, v2, va
 
 commands(
-    ("trio", (1, 69)),
+    (["v1", "v2", "va"], (1, 69)),
     baca.tuplet_bracket_down(),
 )
 
 commands(
-    ("trio", 5),
+    (["v1", "v2", "va"], 5),
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
 )
 
 commands(
-    ("triox", 34),
+    (["v1r", "v2r", "var"], 34),
     baca.tacet(),
 )
 
 commands(
-    ("trio", 35),
+    (["v1", "v2", "va"], 35),
     baca.tacet(),
 )
 
 commands(
-    ("trio", (60, 61)),
+    (["v1", "v2", "va"], (60, 61)),
     baca.breathe(),
     baca.hairpin(
         "appena-udibile -- !",
@@ -825,12 +825,12 @@ commands(
 # tutti
 
 commands(
-    "tutti",
+    ["v1", "v2", "va", "vc"],
     baca.dls_staff_padding(6),
 )
 
 commands(
-    ("tutti", (1, 4)),
+    (["v1", "v2", "va", "vc"], (1, 4)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="tight-poss-grind-at-talon",
@@ -847,7 +847,7 @@ commands(
 )
 
 commands(
-    ("tutti", (7, 10)),
+    (["v1", "v2", "va", "vc"], (7, 10)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="tight-poss-grind-at-talon",
@@ -886,7 +886,7 @@ commands(
 )
 
 commands(
-    ("tutti", (12, 15)),
+    (["v1", "v2", "va", "vc"], (12, 15)),
     baca.dynamic(
         "p-ancora",
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
@@ -902,7 +902,7 @@ commands(
 )
 
 commands(
-    ("tutti", (12, 27)),
+    (["v1", "v2", "va", "vc"], (12, 27)),
     baca.breathe(),
     baca.damp_spanner(
         abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -910,7 +910,7 @@ commands(
 )
 
 commands(
-    ("tutti", (16, 19)),
+    (["v1", "v2", "va", "vc"], (16, 19)),
     baca.dynamic("p", redundant=True),
     baca.text_spanner(
         r"\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|",
@@ -923,7 +923,7 @@ commands(
 )
 
 commands(
-    ("tutti", (20, 23)),
+    (["v1", "v2", "va", "vc"], (20, 23)),
     baca.dynamic("p", redundant=True),
     baca.text_spanner(
         r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
@@ -937,7 +937,7 @@ commands(
 )
 
 commands(
-    ("tutti", (24, 27)),
+    (["v1", "v2", "va", "vc"], (24, 27)),
     baca.dynamic("p", redundant=True),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -947,7 +947,7 @@ commands(
 )
 
 commands(
-    ("tutti", (30, 33)),
+    (["v1", "v2", "va", "vc"], (30, 33)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
@@ -973,7 +973,7 @@ def grouped_pheads(start=0, stop=None):
 
 
 commands(
-    ("tutti", (36, 55)),
+    (["v1", "v2", "va", "vc"], (36, 55)),
     baca.hairpin(
         "pp pp p p mp mp",
         bookend=False,
@@ -1008,7 +1008,7 @@ commands(
 )
 
 commands(
-    ("tutti", (36, 59)),
+    (["v1", "v2", "va", "vc"], (36, 59)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
@@ -1016,7 +1016,7 @@ commands(
 )
 
 commands(
-    ("tutti", (56, 59)),
+    (["v1", "v2", "va", "vc"], (56, 59)),
     baca.breathe(),
     baca.hairpin(
         '"ff" -- !',
@@ -1026,7 +1026,7 @@ commands(
 )
 
 commands(
-    ("tutti", (62, 69)),
+    (["v1", "v2", "va", "vc"], (62, 69)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
@@ -1055,14 +1055,14 @@ commands(
 )
 
 commands(
-    ("tutti", [62, 64, 66, 68]),
+    (["v1", "v2", "va", "vc"], [62, 64, 66, 68]),
     baca.laissez_vibrer(
         selector=lambda _: baca.select.ptails(_),
     ),
 )
 
 commands(
-    ("tutti", [63, 65, 67, 69]),
+    (["v1", "v2", "va", "vc"], [63, 65, 67, 69]),
     baca.stop_on_string(
         selector=lambda _: baca.select.ptails(_),
     ),
@@ -1101,7 +1101,7 @@ commands(
 )
 
 commands(
-    ("tutti", (71, 76)),
+    (["v1", "v2", "va", "vc"], (71, 76)),
     baca.hairpin(
         "f >o niente",
         abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
@@ -1209,7 +1209,7 @@ commands(
 )
 
 commands(
-    ("vcx", 60),
+    (["vc", "vcr"], 60),
     baca.tacet(),
 )
 

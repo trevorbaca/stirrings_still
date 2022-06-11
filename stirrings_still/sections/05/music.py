@@ -854,7 +854,7 @@ commands(
 # trio
 
 commands(
-    ("trio", (1, 2)),
+    (["v1", "v2", "va"], (1, 2)),
     baca.damp_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
@@ -869,7 +869,7 @@ commands(
 )
 
 commands(
-    ("trio", (4, 5)),
+    (["v1", "v2", "va"], (4, 5)),
     baca.hairpin(
         "niente o<|",
         bookend=False,
@@ -914,7 +914,7 @@ commands(
 )
 
 commands(
-    ("trio", (6, 40)),
+    (["v1", "v2", "va"], (6, 40)),
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
         match=[0, 1],
@@ -926,7 +926,7 @@ commands(
 )
 
 # commands(
-#     ("trio", (24, 31)),
+#     (["v1", "v2", "va"], (24, 31)),
 #     baca.pitch_annotation_spanner(
 #         "slight independent pitch ascents -|",
 #         abjad.Tweak(r"- \tweak color #magenta"),
@@ -935,7 +935,7 @@ commands(
 # )
 
 commands(
-    ("trio", (24, 33)),
+    (["v1", "v2", "va"], (24, 33)),
     baca.new(
         baca.accent(),
         baca.dynamic("sfp"),
@@ -955,7 +955,7 @@ commands(
 )
 
 commands(
-    ("trio", 34),
+    (["v1", "v2", "va"], 34),
     baca.chunk(
         baca.stop_on_string(
             selector=lambda _: baca.select.pleaf(_, -1),
@@ -1011,7 +1011,7 @@ commands(
 )
 
 commands(
-    ("trio", (82, 85)),
+    (["v1", "v2", "va"], (82, 85)),
     baca.hairpin(
         "ff > p < ff -- f > p < f --",
         bookend=False,
@@ -1030,7 +1030,7 @@ commands(
 )
 
 commands(
-    ("trio", (87, 88)),
+    (["v1", "v2", "va"], (87, 88)),
     baca.hairpin('"f" > p'),
     baca.scp_spanner(
         "P -> T ->",
@@ -1044,7 +1044,7 @@ commands(
 )
 
 commands(
-    ("trio", (109, 110)),
+    (["v1", "v2", "va"], (109, 110)),
     baca.damp_spanner(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         (abjad.Tweak(r"- \tweak bound-details.right.padding 7.75"), -1),
@@ -1090,7 +1090,7 @@ commands(
 )
 
 commands(
-    ("trio", (112, 119)),
+    (["v1", "v2", "va"], (112, 119)),
     baca.damp_spanner(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
@@ -1111,7 +1111,7 @@ commands(
 )
 
 commands(
-    ("trio", (116, 119)),
+    (["v1", "v2", "va"], (116, 119)),
     baca.text_spanner(
         "trem. ord. -> larghiss. =|",
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
@@ -1123,31 +1123,31 @@ commands(
 )
 
 commands(
-    (["v1x", "v2x", "vax"], (120, 127)),
+    (["v1", "v1r", "v2", "v2r", "va", "var"], (120, 127)),
     baca.tacet(),
 )
 
 # tutti
 
 commands(
-    "tutti",
+    ["v1", "v2", "va", "vc"],
     baca.dls_staff_padding(6),
 )
 
 commands(
-    ("tutti", (42, 61)),
+    (["v1", "v2", "va", "vc"], (42, 61)),
     baca.tuplet_bracket_down(),
     baca.tuplet_bracket_staff_padding(1),
 )
 
 commands(
-    ("tutti", (89, 108)),
+    (["v1", "v2", "va", "vc"], (89, 108)),
     baca.tuplet_bracket_down(),
     baca.tuplet_bracket_staff_padding(1),
 )
 
 commands(
-    ("tutti", (112, 119)),
+    (["v1", "v2", "va", "vc"], (112, 119)),
     baca.tuplet_bracket_down(),
     baca.tuplet_bracket_staff_padding(1),
 )
@@ -1746,7 +1746,7 @@ commands(
 )
 
 commands(
-    ("vcx", (28, 40)),
+    (["vc", "vcr"], (28, 40)),
     baca.tacet(),
 )
 
@@ -1788,7 +1788,7 @@ commands(
 )
 
 commands(
-    ("vcx", 116),
+    (["vc", "vcr"], 116),
     baca.tacet(),
 )
 

@@ -176,7 +176,7 @@ commands(
 # tutti
 
 commands(
-    "tutti",
+    ["v1", "v2", "va", "vc"],
     baca.dls_staff_padding(5),
     baca.tuplet_bracket_down(),
 )

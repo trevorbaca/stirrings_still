@@ -252,7 +252,7 @@ commands(
 # trio
 
 commands(
-    "trio",
+    ["v1", "v2", "va"],
     baca.hairpin(
         '"f" > p p < "ff" > p p < "fff" > p p < "fff" >o !',
         pieces=lambda _: baca.select.mgroups(_, [2, 1, 1, 2, 1, 1, 2, 1, 1, 4 + 1]),

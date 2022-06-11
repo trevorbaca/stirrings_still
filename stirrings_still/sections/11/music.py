@@ -575,7 +575,7 @@ commands(
 )
 
 commands(
-    ("v1x", 22),
+    (["v1", "v1r"], 22),
     baca.tacet(),
 )
 
@@ -703,14 +703,14 @@ commands(
 # tutti
 
 commands(
-    "tutti",
+    ["v1", "v2", "va", "vc"],
     baca.dls_staff_padding(6),
     baca.tuplet_bracket_down(),
     baca.tuplet_bracket_staff_padding(1.5),
 )
 
 commands(
-    ("tutti", (1, 2)),
+    (["v1", "v2", "va", "vc"], (1, 2)),
     baca.hairpin(
         "pp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -719,7 +719,7 @@ commands(
 )
 
 commands(
-    ("tutti", (3, 4)),
+    (["v1", "v2", "va", "vc"], (3, 4)),
     baca.hairpin(
         '"f" -- !',
         abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -728,7 +728,7 @@ commands(
 )
 
 commands(
-    ("tutti", (24, 31)),
+    (["v1", "v2", "va", "vc"], (24, 31)),
     baca.text_spanner(
         "each time more ponticello =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -740,7 +740,7 @@ commands(
 )
 
 commands(
-    ("tutti", (32, 37)),
+    (["v1", "v2", "va", "vc"], (32, 37)),
     baca.text_spanner(
         "each time less ponticello =|",
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
@@ -754,7 +754,7 @@ commands(
 # v1, v2, va
 
 commands(
-    ("trio", (46, 53)),
+    (["v1", "v2", "va"], (46, 53)),
     baca.stem_transparent(
         selector=lambda _: baca.select.leaves(_)[:-1],
     ),
@@ -897,7 +897,7 @@ commands(
 )
 
 commands(
-    ("v2x", 22),
+    (["v2", "v2r"], 22),
     baca.tacet(),
 )
 
@@ -1137,7 +1137,7 @@ commands(
 )
 
 commands(
-    ("vax", 22),
+    (["va", "var"], 22),
     baca.tacet(),
 )
 

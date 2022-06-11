@@ -69,7 +69,7 @@ commands(
 )
 
 commands(
-    ("tutti", (1, 4)),
+    (["v1", "v2", "va", "vc"], (1, 4)),
     baca.reapply_persistent_indicators(),
     baca.dynamic("ppppp"),
 )
@@ -407,12 +407,12 @@ commands(
 # tutti
 
 commands(
-    "tutti",
+    ["v1", "v2", "va", "vc"],
     baca.dls_staff_padding(6),
 )
 
 commands(
-    ("tutti", (1, 20)),
+    (["v1", "v2", "va", "vc"], (1, 20)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
         selector=lambda _: baca.select.leaves(_),
@@ -421,7 +421,7 @@ commands(
 )
 
 commands(
-    ("tutti", (21, 25)),
+    (["v1", "v2", "va", "vc"], (21, 25)),
     baca.breathe(),
 )
 
