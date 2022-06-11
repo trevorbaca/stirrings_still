@@ -3450,37 +3450,10 @@ def voice_abbreviations():
     return {
         "v1": "Violin.1.Music",
         "v1r": "Violin.1.Rests",
-        # TODO: remove *x abbreviations
-        "v1x": ["Violin.1.Music", "Violin.1.Rests"],
         "v2": "Violin.2.Music",
         "v2r": "Violin.2.Rests",
-        # TODO: remove *x abbreviations
-        "v2x": ["Violin.2.Music", "Violin.2.Rests"],
         "va": "Viola.Music",
         "var": "Viola.Rests",
-        # TODO: remove *x abbreviations
-        "vax": ["Viola.Music", "Viola.Rests"],
         "vc": "Cello.Music",
         "vcr": "Cello.Rests",
-        # TODO: remove *x abbreviations
-        "vcx": ["Cello.Music", "Cello.Rests"],
-        # TODO: remove trio abbreviation
-        "trio": [
-            "Violin.1.Music",
-            "Violin.2.Music",
-            "Viola.Music",
-        ],
-        # TODO: remove triox abbreviation
-        "triox": [
-            "Violin.1.Rests",
-            "Violin.2.Rests",
-            "Viola.Rests",
-        ],
-        # TODO: remove tutti abbreviation
-        "tutti": [
-            "Violin.1.Music",
-            "Violin.2.Music",
-            "Viola.Music",
-            "Cello.Music",
-        ],
     }

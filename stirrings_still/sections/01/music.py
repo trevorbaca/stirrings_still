@@ -541,15 +541,13 @@ voice.extend(music)
 music = baca.make_mmrests_function(commands.get(63), head=voice.name)
 voice.extend(music)
 
-# vcx
-
 commands(
-    ("vcx", [41, (44, 45)]),
+    (["vc", "vcr"], [41, (44, 45)]),
     baca.tacet(),
 )
 
 commands(
-    ("trio", [1, 3, (5, 6), (8, 9)]),
+    (["v1", "v2", "va"], [1, 3, (5, 6), (8, 9)]),
     baca.new(
         baca.script_padding(1),
         baca.stop_on_string(),
@@ -648,7 +646,7 @@ commands(
 # v1, v2, va
 
 commands(
-    ("trio", 1),
+    (["v1", "v2", "va"], 1),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=lambda _: abjad.select.leaf(_, 2),
@@ -665,12 +663,12 @@ commands(
 )
 
 commands(
-    ("trio", (1, 16)),
+    (["v1", "v2", "va"], (1, 16)),
     library.urtext_spanner("urtext (cds) A, B -|", 8),
 )
 
 commands(
-    ("trio", 3),
+    (["v1", "v2", "va"], 3),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=lambda _: abjad.select.leaf(_, 2),
@@ -682,14 +680,14 @@ commands(
 )
 
 commands(
-    ("trio", [3, (5, 6), (8, 9)]),
+    (["v1", "v2", "va"], [3, (5, 6), (8, 9)]),
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
 )
 
 commands(
-    ("trio", (5, 6)),
+    (["v1", "v2", "va"], (5, 6)),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=lambda _: abjad.select.leaf(_, 2),
@@ -701,7 +699,7 @@ commands(
 )
 
 commands(
-    ("trio", (8, 9)),
+    (["v1", "v2", "va"], (8, 9)),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=lambda _: abjad.select.leaf(_, 2),
@@ -713,7 +711,7 @@ commands(
 )
 
 commands(
-    ("trio", (11, 16)),
+    (["v1", "v2", "va"], (11, 16)),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=lambda _: abjad.select.leaf(_, 2),
@@ -736,12 +734,12 @@ commands(
 )
 
 commands(
-    ("trio", 12),
+    (["v1", "v2", "va"], 12),
     baca.dynamic_text_self_alignment_x(-0.75),
 )
 
 commands(
-    ("trio", 18),
+    (["v1", "v2", "va"], 18),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=lambda _: abjad.select.leaf(_, 2),
@@ -753,7 +751,7 @@ commands(
 )
 
 commands(
-    ("trio", [18, 20, 22, 25, 29]),
+    (["v1", "v2", "va"], [18, 20, 22, 25, 29]),
     baca.tasto_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
@@ -766,12 +764,12 @@ commands(
 )
 
 commands(
-    ("trio", [(18, 22), 25, 29]),
+    (["v1", "v2", "va"], [(18, 22), 25, 29]),
     library.urtext_spanner("C, D -|", 8),
 )
 
 commands(
-    ("trio", 20),
+    (["v1", "v2", "va"], 20),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=lambda _: abjad.select.leaf(_, 2),
@@ -783,7 +781,7 @@ commands(
 )
 
 commands(
-    ("trio", 22),
+    (["v1", "v2", "va"], 22),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=lambda _: abjad.select.leaf(_, 2),
@@ -795,7 +793,7 @@ commands(
 )
 
 commands(
-    ("trio", 23),
+    (["v1", "v2", "va"], 23),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="mod-width",
@@ -808,7 +806,7 @@ commands(
 )
 
 commands(
-    ("trio", 25),
+    (["v1", "v2", "va"], 25),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=lambda _: abjad.select.leaf(_, 2),
@@ -820,7 +818,7 @@ commands(
 )
 
 commands(
-    ("trio", 26),
+    (["v1", "v2", "va"], 26),
     baca.circle_bow_spanner(
         # manual padding because spanner ends at espressivo
         abjad.Tweak(r"- \tweak bound-details.right.padding 3.25"),
@@ -835,12 +833,12 @@ commands(
 )
 
 commands(
-    ("trio", 27),
+    (["v1", "v2", "va"], 27),
     baca.dynamic("mp"),
 )
 
 commands(
-    ("trio", 29),
+    (["v1", "v2", "va"], 29),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=lambda _: abjad.select.leaf(_, 2),
@@ -852,12 +850,12 @@ commands(
 )
 
 commands(
-    ("trio", 30),
+    (["v1", "v2", "va"], 30),
     baca.dynamic("ppp"),
 )
 
 commands(
-    ("trio", (30, 45)),
+    (["v1", "v2", "va"], (30, 45)),
     baca.circle_bow_spanner(
         # manual padding because spanner ends at end-of-system
         abjad.Tweak(r"- \tweak bound-details.right.padding 3.25"),
@@ -867,7 +865,7 @@ commands(
 )
 
 commands(
-    ("trio", (41, 45)),
+    (["v1", "v2", "va"], (41, 45)),
     baca.breathe(),
     baca.dynamic_text_self_alignment_x(-1),
     baca.hairpin(
@@ -878,7 +876,7 @@ commands(
 )
 
 commands(
-    ("trio", 60),
+    (["v1", "v2", "va"], 60),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=lambda _: abjad.select.leaf(_, 2),
@@ -902,12 +900,12 @@ commands(
 # tutti
 
 commands(
-    "tutti",
+    ["v1", "v2", "va", "vc"],
     baca.dls_staff_padding(6),
 )
 
 commands(
-    ("tutti", (55, 56)),
+    (["v1", "v2", "va", "vc"], (55, 56)),
     baca.hairpin(
         "o< mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -939,7 +937,7 @@ commands(
 )
 
 commands(
-    ("tutti", 62),
+    (["v1", "v2", "va", "vc"], 62),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="very-tight",
@@ -1141,7 +1139,7 @@ commands(
 )
 
 commands(
-    ("vcx", (1, 11)),
+    (["vc", "vcr"], (1, 11)),
     baca.tacet(),
 )
 

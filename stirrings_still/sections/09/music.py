@@ -174,7 +174,7 @@ commands(
 # trio
 
 commands(
-    ("trio", (1, 7)),
+    (["v1", "v2", "va"], (1, 7)),
     baca.new(
         baca.hairpin(
             "(mp) >o niente",
@@ -185,17 +185,17 @@ commands(
 )
 
 commands(
-    ("triox", 8),
+    (["v1r", "v2r", "var"], 8),
     baca.tacet(),
 )
 
 commands(
-    ("trio", 9),
+    (["v1", "v2", "va"], 9),
     baca.tacet(),
 )
 
 commands(
-    ("trio", (10, 11)),
+    (["v1", "v2", "va"], (10, 11)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
         selector=lambda _: abjad.select.leaf(_, 0),
@@ -216,7 +216,7 @@ commands(
 # tutti
 
 commands(
-    "tutti",
+    ["v1", "v2", "va", "vc"],
     baca.dls_staff_padding(5),
 )
 

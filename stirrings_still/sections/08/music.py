@@ -813,7 +813,7 @@ commands(
 )
 
 commands(
-    (["va", "vax"], 56),
+    (["va", "var"], 56),
     baca.tacet(),
 )
 
@@ -981,20 +981,20 @@ commands(
 )
 
 commands(
-    (["vc", "vcx"], 56),
+    (["vc", "vcr"], 56),
     baca.tacet(),
 )
 
 # trio
 
 commands(
-    ("trio", (1, 16)),
+    (["v1", "v2", "va"], (1, 16)),
     baca.tuplet_bracket_down(),
     baca.tuplet_bracket_staff_padding(1.5),
 )
 
 commands(
-    ("trio", (15, 16)),
+    (["v1", "v2", "va"], (15, 16)),
     baca.hairpin(
         "(p) >o niente",
         selector=lambda _: baca.select.rleaves(_),
@@ -1002,17 +1002,17 @@ commands(
 )
 
 commands(
-    ("triox", 17),
+    (["v1r", "v2r", "var"], 17),
     baca.tacet(),
 )
 
 commands(
-    ("trio", (17 + 1, 22)),
+    (["v1", "v2", "va"], (17 + 1, 22)),
     baca.tacet(),
 )
 
 commands(
-    ("trio", (23, 28)),
+    (["v1", "v2", "va"], (23, 28)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="wide",
@@ -1051,7 +1051,7 @@ commands(
 )
 
 commands(
-    ("trio", (30, 31)),
+    (["v1", "v2", "va"], (30, 31)),
     baca.hairpin(
         "mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -1068,7 +1068,7 @@ commands(
 )
 
 commands(
-    ("trio", (38, 40)),
+    (["v1", "v2", "va"], (38, 40)),
     baca.hairpin(
         "mf -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -1085,7 +1085,7 @@ commands(
 )
 
 commands(
-    ("trio", (42, 45)),
+    (["v1", "v2", "va"], (42, 45)),
     baca.hairpin(
         "f -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -1102,7 +1102,7 @@ commands(
 )
 
 commands(
-    ("trio", (47, 51)),
+    (["v1", "v2", "va"], (47, 51)),
     baca.hairpin(
         "ff -- ! > mf",
         pieces=lambda _: baca.select.mgroups(_, [3, 2]),
@@ -1143,7 +1143,7 @@ commands(
 )
 
 commands(
-    ("trio", 52),
+    (["v1", "v2", "va"], 52),
     baca.dynamic("mp"),
     baca.new(
         baca.pitch("<F4 A4>"),
@@ -1167,7 +1167,7 @@ commands(
 )
 
 commands(
-    ("trio", 55),
+    (["v1", "v2", "va"], 55),
     baca.dynamic("mp"),
     baca.new(
         baca.pitch("<F4 A4>"),
@@ -1338,12 +1338,12 @@ commands(
 # tutti
 
 commands(
-    "tutti",
+    ["v1", "v2", "va", "vc"],
     baca.dls_staff_padding(6),
 )
 
 commands(
-    ("tutti", (1, 5)),
+    (["v1", "v2", "va", "vc"], (1, 5)),
     baca.markup(
         r"\baca-string-iii-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
@@ -1385,7 +1385,7 @@ commands(
 )
 
 commands(
-    ("tutti", (36, 37)),
+    (["v1", "v2", "va", "vc"], (36, 37)),
     baca.hairpin(
         "niente o< mp -- !",
         abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -1433,7 +1433,7 @@ commands(
 )
 
 commands(
-    ("tutti", (52, 55)),
+    (["v1", "v2", "va", "vc"], (52, 55)),
     baca.tuplet_bracket_down(),
 )
 

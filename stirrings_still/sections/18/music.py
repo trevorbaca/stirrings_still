@@ -149,7 +149,7 @@ commands(
 )
 
 commands(
-    ("v1x", 9),
+    (["v1", "v1r"], 9),
     baca.tacet(),
 )
 
@@ -191,7 +191,7 @@ commands(
 )
 
 commands(
-    ("v2x", 9),
+    (["v2", "v2r"], 9),
     baca.tacet(),
 )
 
@@ -237,7 +237,7 @@ commands(
 )
 
 commands(
-    ("vcx", 13),
+    (["vc", "vcr"], 13),
     baca.tacet(),
 )
 

@@ -514,12 +514,12 @@ commands(
 # trio
 
 commands(
-    "trio",
+    ["v1", "v2", "va"],
     baca.tuplet_bracket_down(),
 )
 
 commands(
-    ("trio", (5, 6)),
+    (["v1", "v2", "va"], (5, 6)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
         selector=lambda _: abjad.select.leaf(_, 0),
@@ -561,12 +561,12 @@ commands(
 # tutti
 
 commands(
-    "tutti",
+    ["v1", "v2", "va", "vc"],
     baca.dls_staff_padding(6),
 )
 
 commands(
-    ("tutti", (16, 17)),
+    (["v1", "v2", "va", "vc"], (16, 17)),
     baca.espressivo(
         selector=lambda _: baca.select.pleaves(_),
     ),
@@ -617,7 +617,7 @@ commands(
 )
 
 commands(
-    ("tutti", (19, 24)),
+    (["v1", "v2", "va", "vc"], (19, 24)),
     baca.damp_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),

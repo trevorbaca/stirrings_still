@@ -248,7 +248,7 @@ commands(
 # v1, v2, vc
 
 commands(
-    (["v1x", "v2x", "vcx"], 9),
+    (["v1", "v1r", "v2", "v2r", "vc", "vcr"], 9),
     baca.tacet(),
 )
 
@@ -260,13 +260,13 @@ commands(
 # tutti
 
 commands(
-    "tutti",
+    ["v1", "v2", "va", "vc"],
     baca.dls_staff_padding(6),
     baca.tuplet_bracket_down(),
 )
 
 commands(
-    ("tutti", (12, 13)),
+    (["v1", "v2", "va", "vc"], (12, 13)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         qualifier="tight-poss-grind-at-talon",

@@ -457,12 +457,12 @@ commands(
 # trio
 
 commands(
-    ("trio", (1, 8)),
+    (["v1", "v2", "va"], (1, 8)),
     library.clouded_pane_spanner("clouded pane -|", 8),
 )
 
 commands(
-    ("trio", (6, 8)),
+    (["v1", "v2", "va"], (6, 8)),
     baca.hairpin(
         "(fff) >o niente",
         abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -471,27 +471,27 @@ commands(
 )
 
 commands(
-    ("triox", 9),
+    (["v1r", "v2r", "var"], 9),
     baca.tacet(),
 )
 
 commands(
-    ("trio", (10, 12)),
+    (["v1", "v2", "va"], (10, 12)),
     baca.tacet(),
 )
 
 commands(
-    ("trio", (13, 28)),
+    (["v1", "v2", "va"], (13, 28)),
     library.urtext_spanner("urtext (field) -|", 8),
 )
 
 commands(
-    ("trio", (30, 35)),
+    (["v1", "v2", "va"], (30, 35)),
     library.urtext_spanner("urtext (field) -|", 8),
 )
 
 commands(
-    ("trio", (37, 38)),
+    (["v1", "v2", "va"], (37, 38)),
     library.urtext_spanner(
         "urtext / clouded pane (composite) -|",
         8,
@@ -501,7 +501,7 @@ commands(
 # tutti
 
 commands(
-    "tutti",
+    ["v1", "v2", "va", "vc"],
     baca.dls_staff_padding(6),
 )
 
