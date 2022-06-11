@@ -5,16 +5,16 @@
         "Skips",
         "MusicContext",
         "String_Quartet.Staff_Group",
-        "Violin.1.Music_Staff",
+        "Violin.1.Staff",
         "Rests",
         "Violin.1.Music",
         "Violin.1.Rests",
         "Violin.2.MusicStaff",
         "Violin.2.Music",
         "Violin.2.Rests",
-        "Viola.Music_Staff",
+        "Viola.Staff",
         "Viola.Music",
-        "Cello.Music_Staff",
+        "Cello.Staff",
         "Cello.Music",
         "Cello.Rests",
     ],
@@ -29,7 +29,7 @@
                 value="niente",
             )
         ],
-        "Cello.Music_Staff": [
+        "Cello.Staff": [
             baca.Memento(
                 context="Cello.Music",
                 edition=None,
@@ -99,7 +99,7 @@
                 value="\\baca-pp-sempre",
             )
         ],
-        "Viola.Music_Staff": [
+        "Viola.Staff": [
             baca.Memento(
                 context="Viola.Music",
                 edition=None,
@@ -151,7 +151,7 @@
                 value="niente",
             )
         ],
-        "Violin.1.Music_Staff": [
+        "Violin.1.Staff": [
             baca.Memento(
                 context="Violin.1.Music",
                 edition=None,
