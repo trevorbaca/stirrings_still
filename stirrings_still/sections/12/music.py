@@ -63,66 +63,61 @@ def nonlast_tuplet_pleaves(indices):
 
 voice = score["Violin.1.Music"]
 
-commands(
-    "v1",
-    music = library.make_trajectory_rhythm(
-        "C",
-        0,
-        -3,
-        rmakers.untie(
-            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-        rmakers.tie(
-            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-    )
+music = library.make_trajectory_rhythm(
+    "C",
+    0,
+    -3,
+    rmakers.untie(
+        lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
+    ),
+    rmakers.tie(
+        nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
+    ),
+    function=commands.get(),
+)
 voice.extend(music)
 
 # V2
 
 voice = score["Violin.2.Music"]
 
-commands(
-    "v2",
-    music = library.make_trajectory_rhythm(
-        "C",
-        -1,
-        -2,
-        rmakers.untie(
-            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-        rmakers.tie(
-            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-    )
+music = library.make_trajectory_rhythm(
+    "C",
+    -1,
+    -2,
+    rmakers.untie(
+        lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
+    ),
+    rmakers.tie(
+        nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
+    ),
+    function=commands.get(),
+)
 voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
-commands(
-    "va",
-    music = library.make_trajectory_rhythm(
-        "C",
-        -2,
-        -1,
-        rmakers.untie(
-            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-        rmakers.tie(
-            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-    )
+music = library.make_trajectory_rhythm(
+    "C",
+    -2,
+    -1,
+    rmakers.untie(
+        lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
+    ),
+    rmakers.tie(
+        nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
+    ),
+    function=commands.get(),
+)
 voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
-commands(
-    "vc",
-    music = library.make_clouded_pane_rhythm(function=commands.get())
+music = library.make_clouded_pane_rhythm(function=commands.get())
 voice.extend(music)
 
 # anchor notes

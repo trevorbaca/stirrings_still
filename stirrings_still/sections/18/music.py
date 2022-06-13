@@ -89,7 +89,7 @@ voice = score["Viola.Music"]
 
 commands(
     "va",
-    baca.make_repeat_tied_notes()
+    baca.make_repeat_tied_notes_function(commands.get())
 voice.extend(music)
 
 # VC
@@ -98,7 +98,7 @@ voice = score["Cello.Music"]
 
 commands(
     ("vc", (1, 12))
-    baca.make_repeat_tied_notes()
+    baca.make_repeat_tied_notes_function(commands.get())
 voice.extend(music)
 
 commands(

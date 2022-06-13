@@ -1834,7 +1834,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -1968,7 +1967,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -1978,7 +1976,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -1988,7 +1985,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -1998,7 +1994,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2008,7 +2003,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2018,7 +2012,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2131,7 +2124,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2241,7 +2233,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2251,7 +2242,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2261,7 +2251,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2271,7 +2260,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2281,7 +2269,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2291,7 +2278,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2560,7 +2546,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2682,7 +2667,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2692,7 +2676,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2702,7 +2685,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2712,7 +2694,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2722,7 +2703,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2732,7 +2712,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2742,7 +2721,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2876,7 +2854,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2986,7 +2963,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -2996,7 +2972,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3006,7 +2981,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3016,7 +2990,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3026,7 +2999,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3036,7 +3008,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3046,7 +3017,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3159,7 +3129,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3269,7 +3238,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3279,7 +3247,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3289,7 +3256,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3299,7 +3265,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3520,7 +3485,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3647,7 +3611,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3657,7 +3620,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3667,7 +3629,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3677,7 +3638,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -3687,7 +3647,6 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
       %! baca.espressivo()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
@@ -4912,7 +4871,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5046,7 +5004,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5056,7 +5013,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5066,7 +5022,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5076,7 +5031,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5086,7 +5040,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5096,7 +5049,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5106,7 +5058,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5235,7 +5186,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5345,7 +5295,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5355,7 +5304,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5365,7 +5313,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5375,7 +5322,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5385,7 +5331,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5395,7 +5340,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5405,7 +5349,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5690,7 +5633,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5812,7 +5754,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5822,7 +5763,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5832,7 +5772,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5842,7 +5781,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5852,7 +5790,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5862,7 +5799,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5872,7 +5808,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -5882,7 +5817,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6025,7 +5959,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6135,7 +6068,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6145,7 +6077,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6155,7 +6086,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6165,7 +6095,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6175,7 +6104,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6185,7 +6113,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6195,7 +6122,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6205,7 +6131,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6334,7 +6259,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6444,7 +6368,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6454,7 +6377,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6464,7 +6386,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6474,7 +6395,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6484,7 +6404,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6790,7 +6709,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6915,7 +6833,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6925,7 +6842,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6935,7 +6851,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6945,7 +6860,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6955,7 +6869,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -6965,7 +6878,6 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -8266,7 +8178,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -8400,7 +8311,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -8410,7 +8320,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -8420,7 +8329,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -8430,7 +8338,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -8440,7 +8347,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -8569,7 +8475,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -8679,7 +8584,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -8689,7 +8593,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -8699,7 +8602,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -8709,7 +8611,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -8719,7 +8620,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9011,7 +8911,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9133,7 +9032,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9143,7 +9041,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9153,7 +9050,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9163,7 +9059,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9173,7 +9068,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9183,7 +9077,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9326,7 +9219,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9436,7 +9328,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9446,7 +9337,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9456,7 +9346,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9466,7 +9355,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9476,7 +9364,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9486,7 +9373,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9615,7 +9501,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9725,7 +9610,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9735,7 +9619,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9745,7 +9628,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -9982,7 +9864,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -10109,7 +9990,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -10119,7 +9999,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -10129,7 +10008,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
@@ -10139,7 +10017,6 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
           %! baca.espressivo()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo

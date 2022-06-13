@@ -85,6 +85,7 @@ voice = score["Violin.1.Music"]
 
 music = library.make_trajectory_rhythm(
     "B", 0, 0, end_counts=[1], function=commands.get(1, 2)
+)
 voice.extend(music)
 voice.extend(music)
 
@@ -96,14 +97,14 @@ music = library.make_trajectory_rhythm(
     0,
     0,
     function=commands.get(5),
-voice.extend(music)
+)
 voice.extend(music)
 
 music = library.make_accelerando(
     (8, 32),
     (1, 2),
     function=commands.get(6, 8),
-voice.extend(music)
+)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("B", -3, -3, function=commands.get(9))
@@ -119,70 +120,55 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(17))
 voice.extend(music)
 
-commands(
-    ("v1", (18, 20)),
-    music = library.make_flight_rhythm(
-        "A",
-        0,
-        start=0,
-    ),
+music = library.make_flight_rhythm(
+    "A",
+    0,
+    start=0,
+    function=commands.get(18, 20),
+)
 voice.extend(music)
 
-commands(
-    ("v1", 21),
-    music = library.make_picket_rhythm(4, 2),
+music = library.make_picket_rhythm(4, 2, function=commands.get(21))
 voice.extend(music)
 
-commands(
-    ("v1", 22),
-    baca.make_mmrests(head=True),
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("v1", 23),
-    music = library.make_picket_rhythm(4, 2),
+music = baca.make_mmrests_function(commands.get(22), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("v1", (24, 31)),
-    music = library.make_flight_rhythm(
-        "A",
-        0,
-        start=0,
-    ),
+music = library.make_picket_rhythm(4, 2, function=commands.get(23))
 voice.extend(music)
 
-commands(
-    ("v1", (32, 37)),
-    music = library.make_flight_rhythm(
-        "A",
-        0,
-        start=0,
-    ),
+music = library.make_flight_rhythm(
+    "A",
+    0,
+    start=0,
+    function=commands.get(24, 31),
+)
 voice.extend(music)
 
-commands(
-    ("v1", (38, 45)),
-    music = library.make_flight_rhythm(
-        "A",
-        0,
-        start=0,
-    ),
+music = library.make_flight_rhythm(
+    "A",
+    0,
+    start=0,
+    function=commands.get(32, 37),
+)
 voice.extend(music)
 
-commands(
-    ("v1", (46, 53)),
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-    ),
+music = library.make_flight_rhythm(
+    "A",
+    0,
+    start=0,
+    function=commands.get(38, 45),
+)
 voice.extend(music)
 
-commands(
-    ("v1", 54),
-    baca.make_mmrests(head=True),
+music = baca.make_repeat_tied_notes_function(
+    commands.get(46, 53),
+    do_not_rewrite_meter=True,
+)
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
+
+music = baca.make_mmrests_function(commands.get(54), head=voice.name)
+voice.extend(music)
 
 # V2
 
@@ -190,7 +176,7 @@ voice = score["Violin.2.Music"]
 
 music = library.make_trajectory_rhythm(
     "B", -1, -1, end_counts=[1], function=commands.get(1, 2)
-voice.extend(music)
+)
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(4, [1], function=commands.get(3, 4))
@@ -215,70 +201,55 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(17))
 voice.extend(music)
 
-commands(
-    ("v2", (18, 20)),
-    music = library.make_flight_rhythm(
-        "A",
-        0,
-        start=2,
-    ),
+music = library.make_flight_rhythm(
+    "A",
+    0,
+    start=2,
+    function=commands.get(18, 20),
+)
 voice.extend(music)
 
-commands(
-    ("v2", 21),
-    music = library.make_picket_rhythm(4, 1),
+music = library.make_picket_rhythm(4, 1, function=commands.get(21))
 voice.extend(music)
 
-commands(
-    ("v2", 22),
-    baca.make_mmrests(head=True),
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("v2", 23),
-    music = library.make_picket_rhythm(4, 1),
+music = baca.make_mmrests_function(commands.get(22), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("v2", (24, 31)),
-    music = library.make_flight_rhythm(
-        "A",
-        0,
-        start=2,
-    ),
+music = library.make_picket_rhythm(4, 1, function=commands.get(23))
 voice.extend(music)
 
-commands(
-    ("v2", (32, 37)),
-    music = library.make_flight_rhythm(
-        "A",
-        0,
-        start=2,
-    ),
+music = library.make_flight_rhythm(
+    "A",
+    0,
+    start=2,
+    function=commands.get(24, 31),
+)
 voice.extend(music)
 
-commands(
-    ("v2", (38, 45)),
-    music = library.make_flight_rhythm(
-        "A",
-        0,
-        start=2,
-    ),
+music = library.make_flight_rhythm(
+    "A",
+    0,
+    start=2,
+    function=commands.get(32, 37),
+)
 voice.extend(music)
 
-commands(
-    ("v2", (46, 53)),
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-    ),
+music = library.make_flight_rhythm(
+    "A",
+    0,
+    start=2,
+    function=commands.get(38, 45),
+)
 voice.extend(music)
 
-commands(
-    ("v2", 54),
-    baca.make_mmrests(head=True),
+music = baca.make_repeat_tied_notes_function(
+    commands.get(46, 53),
+    do_not_rewrite_meter=True,
+)
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
+
+music = baca.make_mmrests_function(commands.get(54), head=voice.name)
+voice.extend(music)
 
 # VA
 
@@ -286,7 +257,7 @@ voice = score["Viola.Music"]
 
 music = library.make_trajectory_rhythm(
     "B", -2, -2, end_counts=[1], function=commands.get(1, 2)
-voice.extend(music)
+)
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(4, [0], function=commands.get(3, 4))
@@ -294,7 +265,7 @@ voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(
     commands.get(5, 11), do_not_rewrite_meter=True
-voice.extend(music)
+)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("B", -3, -3, function=commands.get(12, 13))
@@ -304,75 +275,58 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("B", -3, -3, function=commands.get(16, 17))
 voice.extend(music)
 
-commands(
-    ("va", (18, 20)),
-    music = library.make_flight_rhythm(
-        "A",
-        -1,
-        start=4,
-    ),
+music = library.make_flight_rhythm(
+    "A",
+    -1,
+    start=4,
+    function=commands.get(18, 20),
+)
 voice.extend(music)
 
-commands(
-    ("va", 21),
-    music = library.make_picket_rhythm(4, 0),
+music = library.make_picket_rhythm(4, 0, function=commands.get(21))
 voice.extend(music)
 
-commands(
-    ("va", 22),
-    baca.make_mmrests(head=True),
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("va", 23),
-    music = library.make_picket_rhythm(4, 0),
+music = baca.make_mmrests_function(commands.get(22), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("va", (24, 31)),
-    music = library.make_flight_rhythm(
-        "A",
-        -1,
-        start=4,
-    ),
+music = library.make_picket_rhythm(4, 0, function=commands.get(23))
 voice.extend(music)
 
-commands(
-    ("va", (32, 37)),
-    music = library.make_flight_rhythm(
-        "A",
-        -1,
-        start=4,
-    ),
+music = library.make_flight_rhythm(
+    "A",
+    -1,
+    start=4,
+    function=commands.get(24, 31),
+)
 voice.extend(music)
 
-commands(
-    ("va", (38, 42)),
-    music = library.make_flight_rhythm(
-        "A",
-        -1,
-        start=4,
-    ),
+music = library.make_flight_rhythm(
+    "A",
+    -1,
+    start=4,
+    function=commands.get(32, 37),
+)
 voice.extend(music)
 
-commands(
-    ("va", (43, 45)),
-    music = library.make_to_flight_rhythm([(8, 8), (3, 16)]),
+music = library.make_flight_rhythm(
+    "A",
+    -1,
+    start=4,
+    function=commands.get(38, 42),
+)
 voice.extend(music)
 
-commands(
-    ("va", (46, 53)),
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-    ),
+music = library.make_to_flight_rhythm([(8, 8), (3, 16)], function=commands.get(43, 45))
 voice.extend(music)
 
-commands(
-    ("va", 54),
-    baca.make_mmrests(head=True),
+music = baca.make_repeat_tied_notes_function(
+    commands.get(46, 53),
+    do_not_rewrite_meter=True,
+)
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
+
+music = baca.make_mmrests_function(commands.get(54), head=voice.name)
+voice.extend(music)
 
 # VC
 
@@ -380,7 +334,7 @@ voice = score["Cello.Music"]
 
 music = library.make_trajectory_rhythm(
     "B", -3, -3, end_counts=[1], function=commands.get(1, 2)
-voice.extend(music)
+)
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(3, 4))
@@ -401,41 +355,34 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(15, 17))
 voice.extend(music)
 
-commands(
-    ("vc", (18, 20)),
-    music = library.make_flight_rhythm(
-        "A",
-        -2,
-        start=6,
-    ),
+music = library.make_flight_rhythm(
+    "A",
+    -2,
+    start=6,
+    function=commands.get(18, 20),
+)
 voice.extend(music)
 
-commands(
-    ("vc", (21, 23)),
-    music = library.make_cello_cell_rhythm(function=commands.get()),
+music = library.make_cello_cell_rhythm(function=commands.get(21, 23))
 voice.extend(music)
 
-commands(
-    ("vc", (24, 31)),
-    music = library.make_flight_rhythm(
-        "A",
-        -2,
-        start=6,
-    ),
+music = library.make_flight_rhythm(
+    "A",
+    -2,
+    start=6,
+    function=commands.get(24, 31),
+)
 voice.extend(music)
 
-commands(
-    ("vc", (32, 37)),
-    music = library.make_flight_rhythm(
-        "A",
-        -2,
-        start=6,
-    ),
+music = library.make_flight_rhythm(
+    "A",
+    -2,
+    start=6,
+    function=commands.get(32, 37),
+)
 voice.extend(music)
 
-commands(
-    ("vc", (38, 54)),
-    music = library.make_clouded_pane_rhythm(function=commands.get()),
+music = library.make_clouded_pane_rhythm(function=commands.get(38, 54))
 voice.extend(music)
 
 # reapply

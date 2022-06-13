@@ -1484,24 +1484,28 @@ def make_clouded_pane_rhythm(*, function=None):
 
 
 def make_continuous_tremolo_material(*, function=None):
-    command = baca.suite(
-        baca.rhythm(
-            rmakers.note(),
-            rmakers.beam(
-                lambda _: baca.select.plts(_),
-            ),
-            rmakers.tie(
-                lambda _: baca.select.ptails(_)[:-1],
-            ),
-            rmakers.force_repeat_tie(threshold=(1, 2)),
-            tag=baca.tags.function_name(inspect.currentframe()),
+    tag = baca.tags.function_name(inspect.currentframe())
+    command = baca.rhythm(
+        rmakers.note(),
+        rmakers.beam(
+            lambda _: baca.select.plts(_),
         ),
+        rmakers.tie(
+            lambda _: baca.select.ptails(_)[:-1],
+        ),
+        rmakers.force_repeat_tie(threshold=(1, 2)),
+        tag=tag,
+    )
+    if function:
+        music = command.rhythm_maker(function)
+        for pleaf in baca.select.pleaves(music):
+            baca.stem_tremolo_function(pleaf, tags=[tag])
+        return music
+    command = baca.suite(
+        command,
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     )
-    baca.tag(
-        baca.tags.function_name(inspect.currentframe()),
-        command,
-    )
+    baca.tag(tag, command)
     return command
 
 

@@ -127,490 +127,299 @@ library.time(score, commands, time)
 
 voice = score["Violin.1.Music"]
 
-commands(
-    ("v1", (1, 2))
-    music = library.make_continuous_tremolo_material()
+music = library.make_continuous_tremolo_material(function=commands.get(1, 2))
 voice.extend(music)
 
-commands(
-    ("v1", 3)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("v1", (4, 5))
-    music = library.make_picket_rhythm(
-        4,
-        2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-    )
+music = baca.make_mmrests_function(commands.get(3), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("v1", (6, 23))
-    music = library.make_grid_to_trajectory_rhythm(0, 0, 2)
+music = library.make_picket_rhythm(
+    4,
+    2,
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, 0),
+    ),
+    function=commands.get(4, 5),
+)
 voice.extend(music)
 
-commands(
-    ("v1", (24, 33))
-    music = library.make_measure_initiation_rhythm(function=commands.get())
+music = library.make_grid_to_trajectory_rhythm(0, 0, 2, function=commands.get(6, 23))
 voice.extend(music)
 
-commands(
-    ("v1", 34)
-    music = library.make_declamation_rhythm(function=commands.get())
+music = library.make_measure_initiation_rhythm(function=commands.get(24, 33))
 voice.extend(music)
 
-commands(
-    ("v1", (35, 40))
-    music = library.make_trajectory_rhythm("C", 0, -3)
+music = library.make_declamation_rhythm(function=commands.get(34))
 voice.extend(music)
 
-commands(
-    ("v1", 41)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("v1", (42, 49))
-    music = library.make_desynchronization_rhythm(4, [2])
+music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(35, 40))
 voice.extend(music)
 
-commands(
-    ("v1", (50, 61))
-    music = library.make_trajectory_rhythm("C", 0, -3)
+music = baca.make_mmrests_function(commands.get(41), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("v1", 62)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("v1", (63, 78))
-    music = library.make_running_quarter_divisions(4)
+music = library.make_desynchronization_rhythm(4, [2], function=commands.get(42, 49))
 voice.extend(music)
 
-commands(
-    ("v1", (79, 80))
-    baca.make_repeat_tied_notes()
+music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(50, 61))
 voice.extend(music)
 
-commands(
-    ("v1", 81)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("v1", (82, 85))
-    music = library.make_talea_eighth_notes([3, 6, 8], 0, 1, end_counts=[1])
+music = baca.make_mmrests_function(commands.get(62), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("v1", 86)
-    baca.make_mmrests()
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get())
-
-commands(
-    ("v1", (87, 88))
-    music = library.make_talea_eighth_notes([3, 6, 8], 0, 1)
+music = library.make_running_quarter_divisions(4, function=commands.get(63, 78))
 voice.extend(music)
 
-commands(
-    ("v1", (89, 96))
-    music = library.make_desynchronization_rhythm(4, [2])
+music = baca.make_repeat_tied_notes_function(commands.get(79, 80))
 voice.extend(music)
 
-commands(
-    ("v1", (97, 108))
-    music = library.make_trajectory_rhythm("C", 0, -3)
+music = baca.make_mmrests_function(commands.get(81), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("v1", (109, 110))
-    music = library.make_talea_eighth_notes([3, 6, 8], 0, 1)
+music = library.make_talea_eighth_notes(
+    [3, 6, 8], 0, 1, end_counts=[1], function=commands.get(82, 85))
 voice.extend(music)
 
-commands(
-    ("v1", 111)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("v1", (112, 119))
-    music = library.make_talea_eighth_notes([3, 6, 8], 0, 1)
+music = baca.make_mmrests_function(commands.get(86))
 voice.extend(music)
 
-commands(
-    ("v1", (120, 127))
-    baca.make_mmrests(head=True)
+music = library.make_talea_eighth_notes([3, 6, 8], 0, 1, function=commands.get(87, 88))
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
+
+music = library.make_desynchronization_rhythm(4, [2], function=commands.get(89, 96))
+voice.extend(music)
+
+music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(97, 108))
+voice.extend(music)
+
+music = library.make_talea_eighth_notes([3, 6, 8], 0, 1, function=commands.get(109, 110))
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(111), head=voice.name)
+voice.extend(music)
+
+music = library.make_talea_eighth_notes([3, 6, 8], 0, 1, function=commands.get(112, 119))
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(120, 127), head=voice.name)
+voice.extend(music)
 
 # V2
 
 voice = score["Violin.2.Music"]
 
-commands(
-    ("v2", (1, 2))
-    music = library.make_continuous_tremolo_material()
+music = library.make_continuous_tremolo_material(function=commands.get(1, 2))
 voice.extend(music)
 
-commands(
-    ("v2", 3)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("v2", (4, 5))
-    music = library.make_picket_rhythm(
-        4,
-        1,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-    )
+music = baca.make_mmrests_function(commands.get(3), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("v2", (6, 17))
-    music = library.make_grid_to_trajectory_rhythm(0, -2, 1)
+music = library.make_picket_rhythm(
+    4,
+    1,
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, 0),
+    ),
+    function=commands.get(4, 5),
+)
 voice.extend(music)
 
-commands(
-    ("v2", (18, 23))
-    music = library.make_grid_to_trajectory_rhythm(0, -2, 0)
+music = library.make_grid_to_trajectory_rhythm(0, -2, 1, function=commands.get(6, 17))
 voice.extend(music)
 
-commands(
-    ("v2", (24, 33))
-    music = library.make_measure_initiation_rhythm(function=commands.get())
+music = library.make_grid_to_trajectory_rhythm(0, -2, 0, function=commands.get(18, 23))
 voice.extend(music)
 
-commands(
-    ("v2", 34)
-    music = library.make_declamation_rhythm(function=commands.get())
+music = library.make_measure_initiation_rhythm(function=commands.get(24, 33))
 voice.extend(music)
 
-commands(
-    ("v2", (35, 40))
-    music = library.make_trajectory_rhythm("C", -1, -2)
+music = library.make_declamation_rhythm(function=commands.get(34))
 voice.extend(music)
 
-commands(
-    ("v2", 41)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("v2", (42, 53))
-    music = library.make_desynchronization_rhythm(4, [1])
+music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(35, 40))
 voice.extend(music)
 
-commands(
-    ("v2", (54, 61))
-    music = library.make_trajectory_rhythm("C", -1, -2)
+music = baca.make_mmrests_function(commands.get(41), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("v2", 62)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("v2", (63, 77))
-    music = library.make_running_quarter_divisions(3)
+music = library.make_desynchronization_rhythm(4, [1], function=commands.get(42, 53))
 voice.extend(music)
 
-commands(
-    ("v2", (78, 80))
-    baca.make_repeat_tied_notes()
+music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(54, 61))
 voice.extend(music)
 
-commands(
-    ("v2", 81)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("v2", (82, 85))
-    music = library.make_talea_eighth_notes([3, 6, 8], -1, 0, end_counts=[1])
+music = baca.make_mmrests_function(commands.get(62), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("v2", 86)
-    baca.make_mmrests()
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get())
-
-commands(
-    ("v2", (87, 88))
-    music = library.make_talea_eighth_notes([3, 6, 8], -1, 0)
+music = library.make_running_quarter_divisions(3, function=commands.get(63, 77))
 voice.extend(music)
 
-commands(
-    ("v2", (89, 100))
-    music = library.make_desynchronization_rhythm(4, [1])
+music = baca.make_repeat_tied_notes_function(commands.get(78, 80))
 voice.extend(music)
 
-commands(
-    ("v2", (101, 108))
-    music = library.make_trajectory_rhythm("C", -1, -2)
+music = baca.make_mmrests_function(commands.get(81), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("v2", (109, 110))
-    music = library.make_talea_eighth_notes([3, 6, 8], -1, 0)
+music = library.make_talea_eighth_notes(
+    [3, 6, 8], -1, 0, end_counts=[1], function=commands.get(82, 85))
 voice.extend(music)
 
-commands(
-    ("v2", 111)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("v2", (112, 119))
-    music = library.make_talea_eighth_notes([3, 6, 8], -1, 0)
+music = baca.make_mmrests_function(commands.get(86))
 voice.extend(music)
 
-commands(
-    ("v2", (120, 127))
-    baca.make_mmrests(head=True)
+music = library.make_talea_eighth_notes(
+    [3, 6, 8], -1, 0, function=commands.get(87, 88))
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
+
+music = library.make_desynchronization_rhythm(4, [1], function=commands.get(89, 100))
+voice.extend(music)
+
+music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(101, 108))
+voice.extend(music)
+
+music = library.make_talea_eighth_notes([3, 6, 8], -1, 0, function=commands.get(109, 110))
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(111), head=voice.name)
+voice.extend(music)
+
+music = library.make_talea_eighth_notes([3, 6, 8], -1, 0, function=commands.get(112, 119))
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(120, 127), head=voice.name)
+voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
-commands(
-    ("va", (1, 2))
-    music = library.make_continuous_tremolo_material()
+music = library.make_continuous_tremolo_material(function=commands.get(1, 2))
 voice.extend(music)
 
-commands(
-    ("va", 3)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("va", (4, 5))
-    music = library.make_picket_rhythm(
-        4,
-        0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-    )
+music = baca.make_mmrests_function(commands.get(3), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("va", (6, 23))
-    music = library.make_grid_to_trajectory_rhythm(0, -4, 0)
+music = library.make_picket_rhythm(
+    4,
+    0,
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, 0),
+    ),
+    function=commands.get(4, 5),
+)
 voice.extend(music)
 
-commands(
-    ("va", (24, 33))
-    music = library.make_measure_initiation_rhythm(function=commands.get())
+music = library.make_grid_to_trajectory_rhythm(0, -4, 0, function=commands.get(6, 23))
 voice.extend(music)
 
-commands(
-    ("va", 34)
-    music = library.make_declamation_rhythm(function=commands.get())
+music = library.make_measure_initiation_rhythm(function=commands.get(24, 33))
 voice.extend(music)
 
-commands(
-    ("va", (35, 40))
-    music = library.make_measure_initiation_rhythm(function=commands.get())
+music = library.make_declamation_rhythm(function=commands.get(34))
 voice.extend(music)
 
-commands(
-    ("va", 41)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("va", (42, 49))
-    music = library.make_desynchronization_rhythm(4, [0])
+music = library.make_measure_initiation_rhythm(function=commands.get(35, 40))
 voice.extend(music)
 
-commands(
-    ("va", (50, 61))
-    music = library.make_trajectory_rhythm("C", -2, -1)
+music = baca.make_mmrests_function(commands.get(41), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("va", 62)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("va", (63, 76))
-    music = library.make_running_quarter_divisions(2)
+music = library.make_desynchronization_rhythm(4, [0], function=commands.get(42, 49))
 voice.extend(music)
 
-commands(
-    ("va", (77, 80))
-    baca.make_repeat_tied_notes()
+music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(50, 61))
 voice.extend(music)
 
-commands(
-    ("va", 81)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("va", (82, 85))
-    music = library.make_talea_eighth_notes([3, 6, 8], -2, -1, end_counts=[1])
+music = baca.make_mmrests_function(commands.get(62), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("va", 86)
-    baca.make_mmrests()
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get())
-
-commands(
-    ("va", (87, 88))
-    music = library.make_talea_eighth_notes([3, 6, 8], -2, -1)
+music = library.make_running_quarter_divisions(2, function=commands.get(63, 76))
 voice.extend(music)
 
-commands(
-    ("va", (89, 96))
-    music = library.make_desynchronization_rhythm(4, [0])
+music = baca.make_repeat_tied_notes_function(commands.get(77, 80))
 voice.extend(music)
 
-commands(
-    ("va", (97, 108))
-    music = library.make_trajectory_rhythm("C", -2, -1)
+music = baca.make_mmrests_function(commands.get(81), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("va", (109, 110))
-    music = library.make_talea_eighth_notes([3, 6, 8], -2, -1)
+music = library.make_talea_eighth_notes([3, 6, 8], -2, -1, end_counts=[1],
+    function=commands.get(82, 85))
 voice.extend(music)
 
-commands(
-    ("va", 111)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("va", (112, 119))
-    music = library.make_talea_eighth_notes([3, 6, 8], -2, -1)
+music = baca.make_mmrests_function(commands.get(86))
 voice.extend(music)
 
-commands(
-    ("va", (120, 127))
-    baca.make_mmrests(head=True)
+music = library.make_talea_eighth_notes([3, 6, 8], -2, -1, function=commands.get(87, 88))
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
+
+music = library.make_desynchronization_rhythm(4, [0], function=commands.get(89, 96))
+voice.extend(music)
+
+music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(97, 108))
+voice.extend(music)
+
+music = library.make_talea_eighth_notes([3, 6, 8], -2, -1, function=commands.get(109, 110))
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(111), head=voice.name)
+voice.extend(music)
+
+music = library.make_talea_eighth_notes([3, 6, 8], -2, -1, function=commands.get(112, 119))
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(120, 127), head=voice.name)
+voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
-commands(
-    ("vc", (1, 2))
-    music = library.make_clouded_pane_rhythm(function=commands.get())
+music = library.make_clouded_pane_rhythm(function=commands.get(1, 2))
 voice.extend(music)
 
-commands(
-    ("vc", 3)
-    baca.make_mmrests()
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get())
-
-commands(
-    ("vc", (4, 5))
-    music = library.make_clouded_pane_rhythm(function=commands.get())
+music = baca.make_mmrests_function(commands.get(3))
 voice.extend(music)
 
-commands(
-    ("vc", (6, 27))
-    music = library.make_clouded_pane_rhythm(function=commands.get())
+music = library.make_clouded_pane_rhythm(function=commands.get(4, 5))
 voice.extend(music)
 
-commands(
-    ("vc", (28, 41))
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("vc", (42, 49))
-    music = library.make_desynchronization_rhythm(4, [-1])
+music = library.make_clouded_pane_rhythm(function=commands.get(6, 27))
 voice.extend(music)
 
-commands(
-    ("vc", (50, 61))
-    music = library.make_trajectory_rhythm("C", -3, 0)
+music = baca.make_mmrests_function(commands.get(28, 41), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("vc", 62)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("vc", (63, 80))
-    music = library.make_clouded_pane_rhythm(function=commands.get())
+music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(42, 49))
 voice.extend(music)
 
-commands(
-    ("vc", 81)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("vc", (82, 88))
-    music = library.make_clouded_pane_rhythm(function=commands.get())
+music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(50, 61))
 voice.extend(music)
 
-commands(
-    ("vc", (89, 96))
-    music = library.make_desynchronization_rhythm(4, [-1])
+music = baca.make_mmrests_function(commands.get(62), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("vc", (97, 108))
-    music = library.make_trajectory_rhythm("C", -3, 0)
+music = library.make_clouded_pane_rhythm(function=commands.get(63, 80))
 voice.extend(music)
 
-commands(
-    ("vc", (109, 115))
-    music = library.make_clouded_pane_rhythm(function=commands.get())
+music = baca.make_mmrests_function(commands.get(81), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("vc", (116, 117))
-    baca.make_mmrests(head=True)
+music = library.make_clouded_pane_rhythm(function=commands.get(82, 88))
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
-commands(
-    ("vc", (118, 127))
-    music = library.make_clouded_pane_rhythm(function=commands.get())
+music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(89, 96))
+voice.extend(music)
+
+music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(97, 108))
+voice.extend(music)
+
+music = library.make_clouded_pane_rhythm(function=commands.get(109, 115))
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(116, 117), head=voice.name)
+voice.extend(music)
+
+music = library.make_clouded_pane_rhythm(function=commands.get(118, 127))
 voice.extend(music)
 
 # reapply
