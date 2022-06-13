@@ -48,51 +48,15 @@ time = (
 
 library.time(score, commands, time)
 
-# V1
-
-voice = score["Violin.1.Music"]
-
-#commands(
-#    ("v1", (1, 4))
-music = baca.make_repeat_tied_notes_function(commands.get(1, 4), do_not_rewrite_meter=True)
-voice.extend(music)
-
-voice = score["Violin.2.Music"]
-
-#commands(
-#    ("v2", (1, 4))
-music = baca.make_repeat_tied_notes_function(commands.get(1, 4), do_not_rewrite_meter=True)
-voice.extend(music)
-
-voice = score["Viola.Music"]
-
-#commands(
-#    ("va", (1, 4))
-music = baca.make_repeat_tied_notes_function(commands.get(1, 4), do_not_rewrite_meter=True)
-voice.extend(music)
-
-voice = score["Cello.Music"]
-
-#commands(
-#    ("vc", (1, 4))
-music = baca.make_repeat_tied_notes_function(commands.get(1, 4), do_not_rewrite_meter=True)
-voice.extend(music)
-
-commands(
-    (["v1", "v2", "va", "vc"], (1, 4)),
-    baca.reapply_persistent_indicators(),
-    baca.dynamic("ppppp"),
-)
-
 # def operand(argument):
 #     permutation = baca.Sequence([1, 3, 5, 4, 2, 0])
 #     argument = baca.Sequence(argument).permute(permutation)
 #     return argument
-# 
+#
 # mask = baca.Sequence([0, 1, 1, 0, 0, 1])
 # for item in baca.sequence.accumulate([mask], [operand]):
 #     print(item)
-# 
+#
 # Sequence([Sequence([0, 1, 1, 0, 0, 1])])
 # Sequence([Sequence([1, 0, 1, 0, 1, 0])])
 # Sequence([Sequence([0, 0, 0, 1, 1, 1])])
@@ -111,217 +75,195 @@ vc_spanner_staff_padding = 5.5
 
 voice = score["Violin.1.Music"]
 
-commands(
-    ("v1", (5, 10)),
-    baca.rhythm(
-        rmakers.bind(
-            rmakers.assign(
-                library.make_wave_rhythm((4, 16), (1, 16)).rhythm_maker,
-                abjad.index([1, 2, 5]),
-                remember_state_across_gaps=True,
-            ),
-            rmakers.assign(
-                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
-            ),
-        ),
+# commands(
+#    ("v1", (1, 4))
+music = baca.make_repeat_tied_notes_function(
+    commands.get(1, 4), do_not_rewrite_meter=True
+)
+voice.extend(music)
+
+rhythm_maker = rmakers.bind(
+    rmakers.assign(
+        library.make_wave_rhythm((4, 16), (1, 16)).rhythm_maker,
+        abjad.index([1, 2, 5]),
+        remember_state_across_gaps=True,
+    ),
+    rmakers.assign(
+        baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
     ),
 )
+music = rhythm_maker(commands.get(5, 10))
+voice.extend(music)
 
-commands(
-    ("v1", (11, 14)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+music = baca.make_repeat_tied_notes_function(
+    commands.get(11, 14), do_not_rewrite_meter=True
 )
+voice.extend(music)
 
-commands(
-    ("v1", (15, 20)),
-    baca.rhythm(
-        rmakers.bind(
-            rmakers.assign(
-                library.make_wave_rhythm((4, 16), (1, 16)).rhythm_maker,
-                abjad.index([1, 2, 5]),
-                remember_state_across_gaps=True,
-            ),
-            rmakers.assign(
-                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
-            ),
-        ),
+rhythm_maker = rmakers.bind(
+    rmakers.assign(
+        library.make_wave_rhythm((4, 16), (1, 16)).rhythm_maker,
+        abjad.index([1, 2, 5]),
+        remember_state_across_gaps=True,
+    ),
+    rmakers.assign(
+        baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
     ),
 )
+music = rhythm_maker(commands.get(15, 20))
+voice.extend(music)
 
-commands(
-    ("v1", (21, 25)),
-    library.make_eighth_notes(),
-)
+music = library.make_eighth_notes(function=commands.get(21, 25))
+voice.extend(music)
 
-commands(
-    ("v1", 26),
-    baca.make_mmrests(head=True),
-)
-# music = baca.make_mmrests_function(commands.get(), head=voice.name)
+music = baca.make_mmrests_function(commands.get(26), head=voice.name)
+voice.extend(music)
 
 # V2
 
 voice = score["Violin.2.Music"]
 
-commands(
-    ("v2", (5, 10)),
-    baca.rhythm(
-        rmakers.bind(
-            rmakers.assign(
-                library.make_wave_rhythm((6, 16), (1, 16)).rhythm_maker,
-                abjad.index([0, 2, 4]),
-                remember_state_across_gaps=True,
-            ),
-            rmakers.assign(
-                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
-            ),
-        ),
+music = baca.make_repeat_tied_notes_function(
+    commands.get(1, 4), do_not_rewrite_meter=True
+)
+voice.extend(music)
+
+rhythm_maker = rmakers.bind(
+    rmakers.assign(
+        library.make_wave_rhythm((6, 16), (1, 16)).rhythm_maker,
+        abjad.index([0, 2, 4]),
+        remember_state_across_gaps=True,
+    ),
+    rmakers.assign(
+        baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
     ),
 )
+music = rhythm_maker(commands.get(5, 10))
+voice.extend(music)
 
-commands(
-    ("v2", (11, 14)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+music = baca.make_repeat_tied_notes_function(
+    commands.get(11, 14), do_not_rewrite_meter=True
 )
+voice.extend(music)
 
-commands(
-    ("v2", (15, 20)),
-    baca.rhythm(
-        rmakers.bind(
-            rmakers.assign(
-                library.make_wave_rhythm((6, 16), (1, 16)).rhythm_maker,
-                abjad.index([0, 2, 4]),
-                remember_state_across_gaps=True,
-            ),
-            rmakers.assign(
-                library.make_eighth_notes().rhythm_maker,
-                abjad.index([5]),
-            ),
-            rmakers.assign(
-                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
-            ),
-        ),
+rhythm_maker = rmakers.bind(
+    rmakers.assign(
+        library.make_wave_rhythm((6, 16), (1, 16)).rhythm_maker,
+        abjad.index([0, 2, 4]),
+        remember_state_across_gaps=True,
+    ),
+    rmakers.assign(
+        library.make_eighth_notes().rhythm_maker,
+        abjad.index([5]),
+    ),
+    rmakers.assign(
+        baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
     ),
 )
+music = rhythm_maker(commands.get(15, 20))
+voice.extend(music)
 
-commands(
-    ("v2", (21, 25)),
-    library.make_eighth_notes(),
-)
+music = library.make_eighth_notes(function=commands.get(21, 25))
+voice.extend(music)
 
-commands(
-    ("v2", 26),
-    baca.make_mmrests(head=True),
-)
-# music = baca.make_mmrests_function(commands.get(), head=voice.name)
+music = baca.make_mmrests_function(commands.get(26), head=voice.name)
+voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
-commands(
-    ("va", (5, 10)),
-    baca.rhythm(
-        rmakers.bind(
-            rmakers.assign(
-                library.make_wave_rhythm((5, 16), (1, 16)).rhythm_maker,
-                abjad.index([3, 4, 5]),
-                remember_state_across_gaps=True,
-            ),
-            rmakers.assign(
-                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
-            ),
-        ),
+music = baca.make_repeat_tied_notes_function(
+    commands.get(1, 4), do_not_rewrite_meter=True
+)
+voice.extend(music)
+
+rhythm_maker = rmakers.bind(
+    rmakers.assign(
+        library.make_wave_rhythm((5, 16), (1, 16)).rhythm_maker,
+        abjad.index([3, 4, 5]),
+        remember_state_across_gaps=True,
+    ),
+    rmakers.assign(
+        baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
     ),
 )
+music = rhythm_maker(commands.get(5, 10))
+voice.extend(music)
 
-commands(
-    ("va", (11, 14)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+music = baca.make_repeat_tied_notes_function(
+    commands.get(11, 14), do_not_rewrite_meter=True
 )
+voice.extend(music)
 
-commands(
-    ("va", (15, 20)),
-    baca.rhythm(
-        rmakers.bind(
-            rmakers.assign(
-                library.make_wave_rhythm((5, 16), (1, 16)).rhythm_maker,
-                abjad.index([3, 4, 5]),
-                remember_state_across_gaps=True,
-            ),
-            rmakers.assign(
-                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
-            ),
-        ),
+rhythm_maker = rmakers.bind(
+    rmakers.assign(
+        library.make_wave_rhythm((5, 16), (1, 16)).rhythm_maker,
+        abjad.index([3, 4, 5]),
+        remember_state_across_gaps=True,
+    ),
+    rmakers.assign(
+        baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
     ),
 )
+music = rhythm_maker(commands.get(15, 20))
+voice.extend(music)
 
-commands(
-    ("va", (21, 25)),
-    library.make_eighth_notes(),
-)
+music = library.make_eighth_notes(function=commands.get(21, 25))
+voice.extend(music)
 
-commands(
-    ("va", 26),
-    baca.make_mmrests(head=True),
-)
-# music = baca.make_mmrests_function(commands.get(), head=voice.name)
+music = baca.make_mmrests_function(commands.get(26), head=voice.name)
+voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
-commands(
-    ("vc", (5, 10)),
-    baca.rhythm(
-        rmakers.bind(
-            rmakers.assign(
-                library.make_wave_rhythm((7, 16), (1, 16)).rhythm_maker,
-                abjad.index([1, 2, 3]),
-                remember_state_across_gaps=True,
-            ),
-            rmakers.assign(
-                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
-            ),
-        ),
+music = baca.make_repeat_tied_notes_function(
+    commands.get(1, 4), do_not_rewrite_meter=True
+)
+voice.extend(music)
+
+rhythm_maker = rmakers.bind(
+    rmakers.assign(
+        library.make_wave_rhythm((7, 16), (1, 16)).rhythm_maker,
+        abjad.index([1, 2, 3]),
+        remember_state_across_gaps=True,
+    ),
+    rmakers.assign(
+        baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
     ),
 )
+music = rhythm_maker(commands.get(5, 10))
+voice.extend(music)
 
-commands(
-    ("vc", (11, 14)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+music = baca.make_repeat_tied_notes_function(
+    commands.get(11, 14), do_not_rewrite_meter=True
 )
+voice.extend(music)
 
-commands(
-    ("vc", (15, 20)),
-    baca.rhythm(
-        rmakers.bind(
-            rmakers.assign(
-                library.make_wave_rhythm((7, 16), (1, 16)).rhythm_maker,
-                abjad.index([1, 2, 3]),
-                remember_state_across_gaps=True,
-            ),
-            rmakers.assign(
-                library.make_eighth_notes().rhythm_maker,
-                abjad.index([4, 5]),
-            ),
-            rmakers.assign(
-                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
-            ),
-        ),
+rhythm_maker = rmakers.bind(
+    rmakers.assign(
+        library.make_wave_rhythm((7, 16), (1, 16)).rhythm_maker,
+        abjad.index([1, 2, 3]),
+        remember_state_across_gaps=True,
+    ),
+    rmakers.assign(
+        library.make_eighth_notes().rhythm_maker,
+        abjad.index([4, 5]),
+    ),
+    rmakers.assign(
+        baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
     ),
 )
+music = rhythm_maker(commands.get(15, 20))
+voice.extend(music)
 
-commands(
-    ("vc", (21, 25)),
-    library.make_eighth_notes(),
-)
+music = library.make_eighth_notes(function=commands.get(21, 25))
+voice.extend(music)
 
-commands(
-    ("vc", 26),
-    baca.make_mmrests(head=True),
-)
-# music = baca.make_mmrests_function(commands.get(), head=voice.name)
+music = baca.make_mmrests_function(commands.get(26), head=voice.name)
+voice.extend(music)
 
 # reapply
 
@@ -330,6 +272,11 @@ music_voice_names = [_ for _ in voice_names if "Music" in _]
 commands(
     music_voice_names,
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    (["v1", "v2", "va", "vc"], (1, 4)),
+    baca.dynamic("ppppp"),
 )
 
 # v1
