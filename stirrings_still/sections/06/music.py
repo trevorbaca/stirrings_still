@@ -88,7 +88,9 @@ voice.extend(music)
 
 voice = score["Viola.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 10), do_not_rewrite_meter=True)
+music = baca.make_repeat_tied_notes_function(
+    commands.get(1, 10), do_not_rewrite_meter=True
+)
 voice.extend(music)
 
 music = baca.make_mmrests_function(commands.get(11), head=voice.name)

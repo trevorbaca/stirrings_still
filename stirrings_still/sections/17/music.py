@@ -79,325 +79,199 @@ library.time(score, commands, time)
 
 voice = score["Violin.1.Music"]
 
-commands(
-    ("v1", 1)
-    baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes_function(commands.get(1))
 voice.extend(music)
 
-commands(
-    ("v1", (2, 9))
-    music = library.make_desynchronization_rhythm(4, [2])
+music = library.make_desynchronization_rhythm(4, [2], function=commands.get(2, 9))
 voice.extend(music)
 
-commands(
-    ("v1", (10, 24))
-    music = library.make_trajectory_rhythm("C", 0, -3)
+music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(10, 24))
 voice.extend(music)
 
-commands(
-    ("v1", (25, 27))
-    music = library.make_desynchronization_rhythm(4, [2])
+music = library.make_desynchronization_rhythm(4, [2], function=commands.get(25, 27))
 voice.extend(music)
 
-commands(
-    ("v1", (28, 40))
-    music = library.make_trajectory_rhythm("C", 0, -3)
+music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(28, 40))
 voice.extend(music)
 
-commands(
-    ("v1", (41, 42))
-    music = library.make_desynchronization_rhythm(4, [2])
+music = library.make_desynchronization_rhythm(4, [2], function=commands.get(41, 42))
 voice.extend(music)
 
-commands(
-    ("v1", (43, 52))
-    music = library.make_trajectory_rhythm("C", 0, -3)
+music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(43, 52))
 voice.extend(music)
 
-commands(
-    ("v1", (53, 54))
-    music = library.make_desynchronization_rhythm(4, [2])
+music = library.make_desynchronization_rhythm(4, [2], function=commands.get(53, 54))
 voice.extend(music)
 
-commands(
-    ("v1", (55, 62))
-    music = library.make_trajectory_rhythm("C", 0, -3)
+music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(55, 62))
 voice.extend(music)
 
-commands(
-    ("v1", 63)
-    music = library.make_desynchronization_rhythm(4, [2])
+music = library.make_desynchronization_rhythm(4, [2], function=commands.get(63))
 voice.extend(music)
 
-commands(
-    ("v1", (64, 68))
-    music = library.make_trajectory_rhythm("C", 0, -3)
+music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(64, 68))
 voice.extend(music)
 
-commands(
-    ("v1", 69)
-    music = library.make_desynchronization_rhythm(4, [2])
+music = library.make_desynchronization_rhythm(4, [2], function=commands.get(69))
 voice.extend(music)
 
-commands(
-    ("v1", (70, 71))
-    music = library.make_trajectory_rhythm("C", 0, -3)
+music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(70, 71))
 voice.extend(music)
 
-commands(
-    ("v1", 72)
-    baca.make_mmrests(head=True)
+music = baca.make_mmrests_function(commands.get(72), head=voice.name)
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
-commands(
-    ("v1", (73, 92))
-    music = library.make_trajectory_rhythm("C", 0, -3)
+music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(73, 92))
 voice.extend(music)
 
 # V2
 
 voice = score["Violin.2.Music"]
 
-commands(
-    ("v2", 1)
-    baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes_function(commands.get(1))
 voice.extend(music)
 
-commands(
-    ("v2", (2, 13))
-    music = library.make_desynchronization_rhythm(4, [1])
+music = library.make_desynchronization_rhythm(4, [1], function=commands.get(2, 13))
 voice.extend(music)
 
-commands(
-    ("v2", (14, 21))
-    music = library.make_trajectory_rhythm("C", -1, -2)
+music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(14, 21))
 voice.extend(music)
 
-commands(
-    ("v2", (22, 30))
-    music = library.make_desynchronization_rhythm(4, [1])
+music = library.make_desynchronization_rhythm(4, [1], function=commands.get(22, 30))
 voice.extend(music)
 
-commands(
-    ("v2", (31, 37))
-    music = library.make_trajectory_rhythm("C", -1, -2)
+music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(31, 37))
 voice.extend(music)
 
-commands(
-    ("v2", (38, 45))
-    music = library.make_desynchronization_rhythm(4, [1])
+music = library.make_desynchronization_rhythm(4, [1], function=commands.get(38, 45))
 voice.extend(music)
 
-commands(
-    ("v2", (46, 50))
-    music = library.make_trajectory_rhythm("C", -1, -2)
+music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(46, 50))
 voice.extend(music)
 
-commands(
-    ("v2", (51, 56))
-    music = library.make_desynchronization_rhythm(4, [1])
+music = library.make_desynchronization_rhythm(4, [1], function=commands.get(51, 56))
 voice.extend(music)
 
-commands(
-    ("v2", (57, 60))
-    music = library.make_trajectory_rhythm("C", -1, -2)
+music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(57, 60))
 voice.extend(music)
 
-commands(
-    ("v2", (61, 64))
-    music = library.make_desynchronization_rhythm(4, [1])
+music = library.make_desynchronization_rhythm(4, [1], function=commands.get(61, 64))
 voice.extend(music)
 
-commands(
-    ("v2", (65, 67))
-    music = library.make_trajectory_rhythm("C", -1, -2)
+music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(65, 67))
 voice.extend(music)
 
-commands(
-    ("v2", (68, 70))
-    music = library.make_desynchronization_rhythm(4, [1])
+music = library.make_desynchronization_rhythm(4, [1], function=commands.get(68, 70))
 voice.extend(music)
 
-commands(
-    ("v2", 71)
-    music = library.make_trajectory_rhythm("C", -1, -2)
+music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(71))
 voice.extend(music)
 
-commands(
-    ("v2", 72)
-    baca.make_mmrests(head=True)
+music = baca.make_mmrests_function(commands.get(72), head=voice.name)
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
-commands(
-    ("v2", (73, 92))
-    music = library.make_trajectory_rhythm("C", -1, -2)
+music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(73, 92))
 voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
-commands(
-    ("va", 1)
-    baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes_function(commands.get(1))
 voice.extend(music)
 
-commands(
-    ("va", (2, 9))
-    music = library.make_desynchronization_rhythm(4, [0])
+music = library.make_desynchronization_rhythm(4, [0], function=commands.get(2, 9))
 voice.extend(music)
 
-commands(
-    ("va", (10, 21))
-    music = library.make_trajectory_rhythm("C", -2, -1)
+music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(10, 21))
 voice.extend(music)
 
-commands(
-    ("va", (22, 27))
-    music = library.make_desynchronization_rhythm(4, [0])
+music = library.make_desynchronization_rhythm(4, [0], function=commands.get(22, 27))
 voice.extend(music)
 
-commands(
-    ("va", (28, 37))
-    music = library.make_trajectory_rhythm("C", -2, -1)
+music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(28, 37))
 voice.extend(music)
 
-commands(
-    ("va", (38, 42))
-    music = library.make_desynchronization_rhythm(4, [0])
+music = library.make_desynchronization_rhythm(4, [0], function=commands.get(38, 42))
 voice.extend(music)
 
-commands(
-    ("va", (43, 50))
-    music = library.make_trajectory_rhythm("C", -2, -1)
+music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(43, 50))
 voice.extend(music)
 
-commands(
-    ("va", (51, 54))
-    music = library.make_desynchronization_rhythm(4, [0])
+music = library.make_desynchronization_rhythm(4, [0], function=commands.get(51, 54))
 voice.extend(music)
 
-commands(
-    ("va", (55, 60))
-    music = library.make_trajectory_rhythm("C", -2, -1)
+music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(55, 60))
 voice.extend(music)
 
-commands(
-    ("va", (61, 63))
-    music = library.make_desynchronization_rhythm(4, [0])
+music = library.make_desynchronization_rhythm(4, [0], function=commands.get(61, 63))
 voice.extend(music)
 
-commands(
-    ("va", (64, 67))
-    music = library.make_trajectory_rhythm("C", -2, -1)
+music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(64, 67))
 voice.extend(music)
 
-commands(
-    ("va", (68, 69))
-    music = library.make_desynchronization_rhythm(4, [0])
+music = library.make_desynchronization_rhythm(4, [0], function=commands.get(68, 69))
 voice.extend(music)
 
-commands(
-    ("va", (70, 71))
-    music = library.make_trajectory_rhythm("C", -2, -1)
+music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(70, 71))
 voice.extend(music)
 
-commands(
-    ("va", 72)
-    baca.make_mmrests(head=True)
+music = baca.make_mmrests_function(commands.get(72), head=voice.name)
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
-commands(
-    ("va", (73, 92))
-    baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes_function(commands.get(73, 92))
 voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
-commands(
-    ("vc", 1)
-    baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes_function(commands.get(1))
 voice.extend(music)
 
-commands(
-    ("vc", (2, 9))
-    music = library.make_desynchronization_rhythm(4, [-1])
+music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(2, 9))
 voice.extend(music)
 
-commands(
-    ("vc", (10, 21))
-    music = library.make_trajectory_rhythm("C", -3, 0)
+music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(10, 21))
 voice.extend(music)
 
-commands(
-    ("vc", (22, 27))
-    music = library.make_desynchronization_rhythm(4, [-1])
+music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(22, 27))
 voice.extend(music)
 
-commands(
-    ("vc", (28, 37))
-    music = library.make_trajectory_rhythm("C", -3, 0)
+music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(28, 37))
 voice.extend(music)
 
-commands(
-    ("vc", (38, 42))
-    music = library.make_desynchronization_rhythm(4, [-1])
+music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(38, 42))
 voice.extend(music)
 
-commands(
-    ("vc", (43, 50))
-    music = library.make_trajectory_rhythm("C", -3, 0)
+music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(43, 50))
 voice.extend(music)
 
-commands(
-    ("vc", (51, 54))
-    music = library.make_desynchronization_rhythm(4, [-1])
+music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(51, 54))
 voice.extend(music)
 
-commands(
-    ("vc", (55, 60))
-    music = library.make_trajectory_rhythm("C", -3, 0)
+music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(55, 60))
 voice.extend(music)
 
-commands(
-    ("vc", (61, 63))
-    music = library.make_desynchronization_rhythm(4, [-1])
+music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(61, 63))
 voice.extend(music)
 
-commands(
-    ("vc", (64, 67))
-    music = library.make_trajectory_rhythm("C", -3, 0)
+music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(64, 67))
 voice.extend(music)
 
-commands(
-    ("vc", (68, 69))
-    music = library.make_desynchronization_rhythm(4, [-1])
+music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(68, 69))
 voice.extend(music)
 
-commands(
-    ("vc", (70, 71))
-    music = library.make_trajectory_rhythm("C", -3, 0)
+music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(70, 71))
 voice.extend(music)
 
-commands(
-    ("vc", 72)
-    baca.make_mmrests(head=True)
-voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
-
-commands(
-    ("vc", (73, 87))
-    music = library.make_eighth_notes(commands.get())
+music = baca.make_mmrests_function(commands.get(72), head=voice.name)
 voice.extend(music)
 
-commands(
-    ("vc", (88, 92))
-    baca.make_repeat_tied_notes_function(commands.get()),
+music = library.make_eighth_notes(function=commands.get(73, 87))
+voice.extend(music)
+
+music = baca.make_repeat_tied_notes_function(commands.get(88, 92))
 voice.extend(music)
 
 # anchor notes

@@ -177,7 +177,8 @@ music = baca.make_mmrests_function(commands.get(81), head=voice.name)
 voice.extend(music)
 
 music = library.make_talea_eighth_notes(
-    [3, 6, 8], 0, 1, end_counts=[1], function=commands.get(82, 85))
+    [3, 6, 8], 0, 1, end_counts=[1], function=commands.get(82, 85)
+)
 voice.extend(music)
 
 music = baca.make_mmrests_function(commands.get(86))
@@ -192,13 +193,17 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(97, 108))
 voice.extend(music)
 
-music = library.make_talea_eighth_notes([3, 6, 8], 0, 1, function=commands.get(109, 110))
+music = library.make_talea_eighth_notes(
+    [3, 6, 8], 0, 1, function=commands.get(109, 110)
+)
 voice.extend(music)
 
 music = baca.make_mmrests_function(commands.get(111), head=voice.name)
 voice.extend(music)
 
-music = library.make_talea_eighth_notes([3, 6, 8], 0, 1, function=commands.get(112, 119))
+music = library.make_talea_eighth_notes(
+    [3, 6, 8], 0, 1, function=commands.get(112, 119)
+)
 voice.extend(music)
 
 music = baca.make_mmrests_function(commands.get(120, 127), head=voice.name)
@@ -261,14 +266,14 @@ music = baca.make_mmrests_function(commands.get(81), head=voice.name)
 voice.extend(music)
 
 music = library.make_talea_eighth_notes(
-    [3, 6, 8], -1, 0, end_counts=[1], function=commands.get(82, 85))
+    [3, 6, 8], -1, 0, end_counts=[1], function=commands.get(82, 85)
+)
 voice.extend(music)
 
 music = baca.make_mmrests_function(commands.get(86))
 voice.extend(music)
 
-music = library.make_talea_eighth_notes(
-    [3, 6, 8], -1, 0, function=commands.get(87, 88))
+music = library.make_talea_eighth_notes([3, 6, 8], -1, 0, function=commands.get(87, 88))
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(4, [1], function=commands.get(89, 100))
@@ -277,13 +282,17 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(101, 108))
 voice.extend(music)
 
-music = library.make_talea_eighth_notes([3, 6, 8], -1, 0, function=commands.get(109, 110))
+music = library.make_talea_eighth_notes(
+    [3, 6, 8], -1, 0, function=commands.get(109, 110)
+)
 voice.extend(music)
 
 music = baca.make_mmrests_function(commands.get(111), head=voice.name)
 voice.extend(music)
 
-music = library.make_talea_eighth_notes([3, 6, 8], -1, 0, function=commands.get(112, 119))
+music = library.make_talea_eighth_notes(
+    [3, 6, 8], -1, 0, function=commands.get(112, 119)
+)
 voice.extend(music)
 
 music = baca.make_mmrests_function(commands.get(120, 127), head=voice.name)
@@ -342,14 +351,17 @@ voice.extend(music)
 music = baca.make_mmrests_function(commands.get(81), head=voice.name)
 voice.extend(music)
 
-music = library.make_talea_eighth_notes([3, 6, 8], -2, -1, end_counts=[1],
-    function=commands.get(82, 85))
+music = library.make_talea_eighth_notes(
+    [3, 6, 8], -2, -1, end_counts=[1], function=commands.get(82, 85)
+)
 voice.extend(music)
 
 music = baca.make_mmrests_function(commands.get(86))
 voice.extend(music)
 
-music = library.make_talea_eighth_notes([3, 6, 8], -2, -1, function=commands.get(87, 88))
+music = library.make_talea_eighth_notes(
+    [3, 6, 8], -2, -1, function=commands.get(87, 88)
+)
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(4, [0], function=commands.get(89, 96))
@@ -358,13 +370,17 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(97, 108))
 voice.extend(music)
 
-music = library.make_talea_eighth_notes([3, 6, 8], -2, -1, function=commands.get(109, 110))
+music = library.make_talea_eighth_notes(
+    [3, 6, 8], -2, -1, function=commands.get(109, 110)
+)
 voice.extend(music)
 
 music = baca.make_mmrests_function(commands.get(111), head=voice.name)
 voice.extend(music)
 
-music = library.make_talea_eighth_notes([3, 6, 8], -2, -1, function=commands.get(112, 119))
+music = library.make_talea_eighth_notes(
+    [3, 6, 8], -2, -1, function=commands.get(112, 119)
+)
 voice.extend(music)
 
 music = baca.make_mmrests_function(commands.get(120, 127), head=voice.name)

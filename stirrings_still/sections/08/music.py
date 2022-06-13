@@ -105,7 +105,9 @@ voice.extend(music)
 music = library.make_accelerando((1, 2), (8, 32), function=commands.get(7, 8))
 voice.extend(music)
 
-music = library.make_desynchronization_rhythm(4, [0, 2, 1], function=commands.get(9, 16))
+music = library.make_desynchronization_rhythm(
+    4, [0, 2, 1], function=commands.get(9, 16)
+)
 voice.extend(music)
 
 music = baca.make_mmrests_function(commands.get(17, 22), head=voice.name)
@@ -182,7 +184,9 @@ voice.extend(music)
 music = library.make_accelerando((1, 2), (7, 32), function=commands.get(11, 12))
 voice.extend(music)
 
-music = library.make_desynchronization_rhythm(4, [1, 0, 2], function=commands.get(13, 16))
+music = library.make_desynchronization_rhythm(
+    4, [1, 0, 2], function=commands.get(13, 16)
+)
 voice.extend(music)
 
 music = baca.make_mmrests_function(commands.get(17, 22), head=voice.name)
@@ -271,7 +275,9 @@ voice.extend(music)
 music = library.make_accelerando((1, 2), (6, 32), function=commands.get(7, 8))
 voice.extend(music)
 
-music = library.make_desynchronization_rhythm(4, [1, 0, 2], function=commands.get(9, 16))
+music = library.make_desynchronization_rhythm(
+    4, [1, 0, 2], function=commands.get(9, 16)
+)
 voice.extend(music)
 
 music = baca.make_mmrests_function(commands.get(17, 22), head=voice.name)
