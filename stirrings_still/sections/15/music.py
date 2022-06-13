@@ -55,81 +55,53 @@ library.time(score, commands, time)
 
 voice = score["Violin.1.Music"]
 
-commands(
-    ("v1", (1, 6))
-    music = library.make_circle_rhythm((1, 4))
+music = library.make_circle_rhythm((1, 4), function=commands.get(1, 6))
 voice.extend(music)
 
-commands(
-    ("v1", 7)
-    music = library.make_picket_rhythm(4, 2)
+music = library.make_picket_rhythm(4, 2, function=commands.get(7))
 voice.extend(music)
 
-commands(
-    ("v1", 8)
-    baca.make_mmrests(head=True)
+music = baca.make_mmrests_function(commands.get(8), head=voice.name)
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # V2
 
 voice = score["Violin.2.Music"]
 
-commands(
-    ("v2", (1, 6))
-    music = library.make_circle_rhythm((1, 4))
+music = library.make_circle_rhythm((1, 4), function=commands.get(1, 6))
 voice.extend(music)
 
-commands(
-    ("v2", 7)
-    music = library.make_picket_rhythm(4, 1)
+music = library.make_picket_rhythm(4, 1, function=commands.get(7))
 voice.extend(music)
 
-commands(
-    ("v2", 8)
-    baca.make_mmrests(head=True)
+music = baca.make_mmrests_function(commands.get(8), head=voice.name)
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VA
 
 voice = score["Viola.Music"]
 
-commands(
-    ("va", (1, 6))
-    music = library.make_circle_rhythm((1, 4))
+music = library.make_circle_rhythm((1, 4), function=commands.get(1, 6))
 voice.extend(music)
 
-commands(
-    ("va", 7)
-    music = library.make_picket_rhythm(4, 0)
+music = library.make_picket_rhythm(4, 0, function=commands.get(7))
 voice.extend(music)
 
-commands(
-    ("va", 8)
-    baca.make_mmrests(head=True)
+music = baca.make_mmrests_function(commands.get(8), head=voice.name)
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VC
 
 voice = score["Cello.Music"]
 
-commands(
-    ("vc", (1, 6))
-    music = library.make_circle_rhythm((1, 4))
+music = library.make_circle_rhythm((1, 4), function=commands.get(1, 6))
 voice.extend(music)
 
-commands(
-    ("vc", 7)
-    music = library.make_trajectory_rhythm("A", -1, 0)
+music = library.make_trajectory_rhythm("A", -1, 0, function=commands.get(7))
 voice.extend(music)
 
-commands(
-    ("vc", 8)
-    baca.make_mmrests(head=True)
+music = baca.make_mmrests_function(commands.get(8), head=voice.name)
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # reapply
 

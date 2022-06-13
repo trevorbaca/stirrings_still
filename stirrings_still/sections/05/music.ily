@@ -7548,7 +7548,6 @@ number.5.Violin.1.Music = {
     etqf'!2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -7712,7 +7711,6 @@ number.5.Violin.1.Music = {
     etqf'!8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -7739,7 +7737,6 @@ number.5.Violin.1.Music = {
     etqf'!2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -23124,7 +23121,6 @@ number.5.Violin.2.Music = {
     bqf!2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -23288,7 +23284,6 @@ number.5.Violin.2.Music = {
     bqf!8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -23315,7 +23310,6 @@ number.5.Violin.2.Music = {
     bqf!2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -36330,7 +36324,6 @@ number.5.Viola.Music = {
     a2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -36494,7 +36487,6 @@ number.5.Viola.Music = {
     a8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -36521,7 +36513,6 @@ number.5.Viola.Music = {
     a2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32

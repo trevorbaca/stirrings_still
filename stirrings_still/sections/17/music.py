@@ -81,7 +81,7 @@ voice = score["Violin.1.Music"]
 
 commands(
     ("v1", 1)
-    baca.make_repeat_tied_notes()
+    baca.make_repeat_tied_notes_function(commands.get())
 voice.extend(music)
 
 commands(
@@ -161,7 +161,7 @@ voice = score["Violin.2.Music"]
 
 commands(
     ("v2", 1)
-    baca.make_repeat_tied_notes()
+    baca.make_repeat_tied_notes_function(commands.get())
 voice.extend(music)
 
 commands(
@@ -241,7 +241,7 @@ voice = score["Viola.Music"]
 
 commands(
     ("va", 1)
-    baca.make_repeat_tied_notes()
+    baca.make_repeat_tied_notes_function(commands.get())
 voice.extend(music)
 
 commands(
@@ -312,7 +312,7 @@ music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("va", (73, 92))
-    baca.make_repeat_tied_notes()
+    baca.make_repeat_tied_notes_function(commands.get())
 voice.extend(music)
 
 # VC
@@ -321,7 +321,7 @@ voice = score["Cello.Music"]
 
 commands(
     ("vc", 1)
-    baca.make_repeat_tied_notes()
+    baca.make_repeat_tied_notes_function(commands.get())
 voice.extend(music)
 
 commands(
@@ -392,12 +392,12 @@ music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
     ("vc", (73, 87))
-    music = library.make_eighth_notes()
+    music = library.make_eighth_notes(commands.get())
 voice.extend(music)
 
 commands(
     ("vc", (88, 92))
-    baca.make_repeat_tied_notes(),
+    baca.make_repeat_tied_notes_function(commands.get()),
 voice.extend(music)
 
 # anchor notes

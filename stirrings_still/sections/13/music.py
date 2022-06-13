@@ -224,15 +224,11 @@ voice.extend(music)
 
 voice = score["Cello.Music"]
 
-commands(
-    ("vc", (1, 28)),
-    music = library.make_clouded_pane_rhythm(function=commands.get()),
-)
+music = library.make_clouded_pane_rhythm(function=commands.get(1, 28))
+voice.extend(music)
 
-commands(
-    ("vc", (29, 32)),
-    music = library.make_clouded_pane_rhythm(function=commands.get()),
-)
+music = library.make_clouded_pane_rhythm(function=commands.get(29, 32))
+voice.extend(music)
 
 # anchor notes
 

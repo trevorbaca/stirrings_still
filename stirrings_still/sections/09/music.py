@@ -53,78 +53,54 @@ library.time(score, commands, time)
 
 voice = score["Violin.1.Music"]
 
-commands(
-    ("v1", (1, 7))
-    music = library.make_circle_rhythm((1, 8))
+music = library.make_circle_rhythm((1, 8), function=commands.get(1, 7))
 voice.extend(music)
 
-commands(
-    ("v1", (8, 9))
-    baca.make_mmrests(head=True)
+music = baca.make_mmrests_function(commands.get(8, 9), head=voice.name)
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
-commands(
-    ("v1", (10, 11))
-    music = library.make_urtext_field_rhythm(function=commands.get())
+music = library.make_urtext_field_rhythm(function=commands.get(10, 11))
 voice.extend(music)
 
 # V2
 
 voice = score["Violin.2.Music"]
 
-commands(
-    ("v2", (1, 7))
-    music = library.make_circle_rhythm((1, 4))
+music = library.make_circle_rhythm((1, 4), function=commands.get(1, 7))
 voice.extend(music)
 
-commands(
-    ("v2", (8, 9))
-    baca.make_mmrests(head=True)
+music = baca.make_mmrests_function(commands.get(8, 9), head=voice.name)
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
-commands(
-    ("v2", (10, 11))
-    music = library.make_urtext_field_rhythm(function=commands.get())
+music = library.make_urtext_field_rhythm(function=commands.get(10, 11))
 voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
-commands(
-    ("va", (1, 7))
-    music = library.make_circle_rhythm(
-        (1, 2),
-        rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
-        remainder=abjad.LEFT,
-    )
+music = library.make_circle_rhythm(
+    (1, 2),
+    rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
+    remainder=abjad.LEFT,
+    function=commands.get(1, 7),
+)
 voice.extend(music)
 
-commands(
-    ("va", (8, 9))
-    baca.make_mmrests(head=True)
+music = baca.make_mmrests_function(commands.get(8, 9), head=voice.name)
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
-commands(
-    ("va", (10, 11))
-    music = library.make_urtext_field_rhythm(function=commands.get())
+music = library.make_urtext_field_rhythm(function=commands.get(10, 11))
 voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
-commands(
-    ("vc", (1, 6))
-    music = library.make_eighth_notes()
+music = library.make_eighth_notes(function=commands.get(1, 6))
 voice.extend(music)
 
-commands(
-    ("vc", (7, 11))
-    music = library.make_cello_cell_rhythm(function=commands.get())
+music = library.make_cello_cell_rhythm(function=commands.get(7, 11))
 voice.extend(music)
 
 # anchor notes

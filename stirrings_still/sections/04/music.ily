@@ -10935,7 +10935,6 @@ number.4.Violin.1.Music = {
     <fs'! dqf''!>1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -10950,7 +10949,6 @@ number.4.Violin.1.Music = {
     <fs'! dqf''!>1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -10965,7 +10963,6 @@ number.4.Violin.1.Music = {
     <fs'! dqf''!>2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -11042,7 +11039,6 @@ number.4.Violin.1.Music = {
     <fs'! dqf''!>2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -11084,7 +11080,6 @@ number.4.Violin.1.Music = {
     <fs'! dqf''!>2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -11097,7 +11092,6 @@ number.4.Violin.1.Music = {
     <fs'! dqf''!>8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -11153,7 +11147,6 @@ number.4.Violin.1.Music = {
     <fs'! dqf''!>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -11246,7 +11239,6 @@ number.4.Violin.1.Music = {
     <etqf'! c''>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -11343,7 +11335,6 @@ number.4.Violin.1.Music = {
     <etqf'! c''>2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -11372,7 +11363,6 @@ number.4.Violin.1.Music = {
     <etqf'! c''>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -11497,7 +11487,6 @@ number.4.Violin.1.Music = {
     <etqf'! c''>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -11637,7 +11626,6 @@ number.4.Violin.1.Music = {
     <etqf'! c''>2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -11647,7 +11635,6 @@ number.4.Violin.1.Music = {
     <etqf'! c''>8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -11673,7 +11660,6 @@ number.4.Violin.1.Music = {
     <etqf'! c''>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -17323,7 +17309,6 @@ number.4.Violin.2.Music = {
     <cqs'! af'!>1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -17338,7 +17323,6 @@ number.4.Violin.2.Music = {
     <cqs'! af'!>1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -17353,7 +17337,6 @@ number.4.Violin.2.Music = {
     <cqs'! af'!>2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -17430,7 +17413,6 @@ number.4.Violin.2.Music = {
     <cqs'! af'!>2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -17445,7 +17427,6 @@ number.4.Violin.2.Music = {
     <cqs'! af'!>2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -17485,7 +17466,6 @@ number.4.Violin.2.Music = {
     <cqs'! af'!>8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -17541,7 +17521,6 @@ number.4.Violin.2.Music = {
     <cqs'! af'!>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -17634,7 +17613,6 @@ number.4.Violin.2.Music = {
     <bqf! g'>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -17731,7 +17709,6 @@ number.4.Violin.2.Music = {
     <bqf! g'>2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -17760,7 +17737,6 @@ number.4.Violin.2.Music = {
     <bqf! g'>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -17885,7 +17861,6 @@ number.4.Violin.2.Music = {
     <bqf! g'>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -18025,7 +18000,6 @@ number.4.Violin.2.Music = {
     <bqf! g'>2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -18035,7 +18009,6 @@ number.4.Violin.2.Music = {
     <bqf! g'>8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -18061,7 +18034,6 @@ number.4.Violin.2.Music = {
     <bqf! g'>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -23814,7 +23786,6 @@ number.4.Viola.Music = {
     <b, aqs!>1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -23829,7 +23800,6 @@ number.4.Viola.Music = {
     <b, aqs!>1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -23844,7 +23814,6 @@ number.4.Viola.Music = {
     <b, aqs!>2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -23859,7 +23828,6 @@ number.4.Viola.Music = {
     <b, aqs!>2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -23874,7 +23842,6 @@ number.4.Viola.Music = {
     <b, aqs!>2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -23887,7 +23854,6 @@ number.4.Viola.Music = {
     <b, aqs!>8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -23916,7 +23882,6 @@ number.4.Viola.Music = {
     <b, aqs!>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -24076,7 +24041,6 @@ number.4.Viola.Music = {
     a2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -24224,7 +24188,6 @@ number.4.Viola.Music = {
     a2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -24235,7 +24198,6 @@ number.4.Viola.Music = {
     a8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
@@ -24262,7 +24224,6 @@ number.4.Viola.Music = {
     a2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
       %! baca.stem_tremolo()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
