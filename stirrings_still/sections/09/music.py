@@ -54,78 +54,78 @@ library.time(score, commands, time)
 voice = score["Violin.1.Music"]
 
 commands(
-    ("v1", (1, 7)),
-    library.make_circle_rhythm((1, 8)),
-)
+    ("v1", (1, 7))
+    music = library.make_circle_rhythm((1, 8))
+voice.extend(music)
 
 commands(
-    ("v1", (8, 9)),
-    baca.make_mmrests(head=True),
-)
+    ("v1", (8, 9))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v1", (10, 11)),
-    library.make_urtext_field_rhythm(),
-)
+    ("v1", (10, 11))
+    music = library.make_urtext_field_rhythm(function=commands.get())
+voice.extend(music)
 
 # V2
 
 voice = score["Violin.2.Music"]
 
 commands(
-    ("v2", (1, 7)),
-    library.make_circle_rhythm((1, 4)),
-)
+    ("v2", (1, 7))
+    music = library.make_circle_rhythm((1, 4))
+voice.extend(music)
 
 commands(
-    ("v2", (8, 9)),
-    baca.make_mmrests(head=True),
-)
+    ("v2", (8, 9))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v2", (10, 11)),
-    library.make_urtext_field_rhythm(),
-)
+    ("v2", (10, 11))
+    music = library.make_urtext_field_rhythm(function=commands.get())
+voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
 commands(
-    ("va", (1, 7)),
-    library.make_circle_rhythm(
+    ("va", (1, 7))
+    music = library.make_circle_rhythm(
         (1, 2),
         rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
         remainder=abjad.LEFT,
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("va", (8, 9)),
-    baca.make_mmrests(head=True),
-)
+    ("va", (8, 9))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("va", (10, 11)),
-    library.make_urtext_field_rhythm(),
-)
+    ("va", (10, 11))
+    music = library.make_urtext_field_rhythm(function=commands.get())
+voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
 commands(
-    ("vc", (1, 6)),
-    library.make_eighth_notes(),
-)
+    ("vc", (1, 6))
+    music = library.make_eighth_notes()
+voice.extend(music)
 
 commands(
-    ("vc", (7, 11)),
-    library.make_cello_cell_rhythm(),
-)
+    ("vc", (7, 11))
+    music = library.make_cello_cell_rhythm(function=commands.get())
+voice.extend(music)
 
 # anchor notes
 

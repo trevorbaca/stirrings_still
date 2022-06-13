@@ -129,168 +129,168 @@ library.time(score, commands, time)
 voice = score["Violin.1.Music"]
 
 commands(
-    ("v1", (1, 6)),
-    library.make_stroke_rhythm(
+    ("v1", (1, 6))
+    music = library.make_stroke_rhythm(
         0,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0], 2)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v1", (7, 12)),
-    library.make_stroke_rhythm(
+    ("v1", (7, 12))
+    music = library.make_stroke_rhythm(
         0,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0], 2)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v1", (13, 18)),
-    library.make_stroke_rhythm(
+    ("v1", (13, 18))
+    music = library.make_stroke_rhythm(
         0,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0], 2)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v1", (19, 24)),
-    library.make_stroke_rhythm(
+    ("v1", (19, 24))
+    music = library.make_stroke_rhythm(
         0,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0], 2)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v1", (25, 30)),
-    library.make_stroke_rhythm(
+    ("v1", (25, 30))
+    music = library.make_stroke_rhythm(
         0,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0], 2)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v1", (31, 36)),
-    library.make_stroke_rhythm(
+    ("v1", (31, 36))
+    music = library.make_stroke_rhythm(
         0,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0], 2)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v1", (37, 39)),
+    ("v1", (37, 39))
     baca.make_mmrests(head=True),
-)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v1", (40, 45)),
-    library.make_stroke_rhythm(0),
-)
+    ("v1", (40, 45))
+    music = library.make_stroke_rhythm(0)
+voice.extend(music)
 
 commands(
-    ("v1", 46),
-    baca.make_mmrests(),
-)
+    ("v1", 46)
+    baca.make_mmrests()
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get())
 
 commands(
-    ("v1", 47),
-    library.make_declamation_rhythm(),
-)
+    ("v1", 47)
+    music = library.make_declamation_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v1", (48, 54)),
-    baca.make_mmrests(head=True),
-)
+    ("v1", (48, 54))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v1", 55),
-    library.make_declamation_rhythm(),
-)
+    ("v1", 55)
+    music = library.make_declamation_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v1", 56),
-    baca.make_mmrests(head=True),
-)
+    ("v1", 56)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v1", 57),
-    library.make_accelerando((1, 4), (1, 16)),
-)
+    ("v1", 57)
+    music = library.make_accelerando((1, 4), (1, 16))
+voice.extend(music)
 
 commands(
-    ("v1", (58, 63)),
-    library.make_stroke_rhythm(0),
-)
+    ("v1", (58, 63))
+    music = library.make_stroke_rhythm(0)
+voice.extend(music)
 
 commands(
-    ("v1", 64),
-    baca.make_mmrests(head=True),
-)
+    ("v1", 64)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v1", 65),
-    library.make_urtext_field_rhythm(),
-)
+    ("v1", 65)
+    music = library.make_urtext_field_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v1", 66),
-    library.make_circle_rhythm((1, 8)),
-)
+    ("v1", 66)
+    music = library.make_circle_rhythm((1, 8))
+voice.extend(music)
 
 commands(
-    ("v1", 67),
-    library.make_urtext_field_rhythm(),
-)
+    ("v1", 67)
+    music = library.make_urtext_field_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v1", (68, 83)),
-    library.make_flight_rhythm("A", 0),
-)
+    ("v1", (68, 83))
+    music = library.make_flight_rhythm("A", 0)
+voice.extend(music)
 
 commands(
-    ("v1", (84, 92)),
-    library.make_continuous_tremolo_material(),
+    ("v1", (84, 92))
+    music = library.make_continuous_tremolo_material(),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v1", 93),
-    baca.make_mmrests(head=True),
-)
+    ("v1", 93)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v1", (94, 96)),
-    library.make_continuous_tremolo_material(),
-)
+    ("v1", (94, 96))
+    music = library.make_continuous_tremolo_material()
+voice.extend(music)
 
 commands(
-    ("v1", (97, 98)),
-    library.make_desynchronization_rhythm(4, [1]),
-)
+    ("v1", (97, 98))
+    music = library.make_desynchronization_rhythm(4, [1])
+voice.extend(music)
 
 commands(
-    ("v1", 99),
-    baca.make_mmrests(head=True),
-)
+    ("v1", 99)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # V2
@@ -298,168 +298,168 @@ music = baca.make_mmrests_function(commands.get(), head=voice.name)
 voice = score["Violin.2.Music"]
 
 commands(
-    ("v2", (1, 6)),
-    library.make_stroke_rhythm(
+    ("v2", (1, 6))
+    music = library.make_stroke_rhythm(
         -1,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1], 2)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v2", (7, 12)),
-    library.make_stroke_rhythm(
+    ("v2", (7, 12))
+    music = library.make_stroke_rhythm(
         -1,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1], 2)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v2", (13, 18)),
-    library.make_stroke_rhythm(
+    ("v2", (13, 18))
+    music = library.make_stroke_rhythm(
         -1,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1], 2)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v2", (19, 24)),
-    library.make_stroke_rhythm(
+    ("v2", (19, 24))
+    music = library.make_stroke_rhythm(
         0,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([2], 3)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v2", (25, 30)),
-    library.make_stroke_rhythm(
+    ("v2", (25, 30))
+    music = library.make_stroke_rhythm(
         0,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([2], 3)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v2", (31, 36)),
-    library.make_stroke_rhythm(
+    ("v2", (31, 36))
+    music = library.make_stroke_rhythm(
         0,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([2], 3)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v2", (37, 39)),
-    baca.make_mmrests(head=True),
-)
+    ("v2", (37, 39))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v2", (40, 45)),
-    library.make_stroke_rhythm(0),
-)
+    ("v2", (40, 45))
+    music = library.make_stroke_rhythm(0)
+voice.extend(music)
 
 commands(
-    ("v2", 46),
-    baca.make_mmrests(),
-)
+    ("v2", 46)
+    baca.make_mmrests()
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get())
 
 commands(
-    ("v2", 47),
-    library.make_declamation_rhythm(),
-)
+    ("v2", 47)
+    music = library.make_declamation_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v2", (48, 54)),
-    baca.make_mmrests(head=True),
-)
+    ("v2", (48, 54))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v2", 55),
-    library.make_declamation_rhythm(),
-)
+    ("v2", 55)
+    music = library.make_declamation_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v2", 56),
-    baca.make_mmrests(head=True),
-)
+    ("v2", 56)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v2", 57),
-    library.make_accelerando((1, 4), (2, 16)),
-)
+    ("v2", 57)
+    music = library.make_accelerando((1, 4), (2, 16))
+voice.extend(music)
 
 commands(
-    ("v2", (58, 63)),
-    library.make_stroke_rhythm(0),
-)
+    ("v2", (58, 63))
+    music = library.make_stroke_rhythm(0)
+voice.extend(music)
 
 commands(
-    ("v2", 64),
-    baca.make_mmrests(head=True),
-)
+    ("v2", 64)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v2", 65),
-    library.make_urtext_field_rhythm(),
-)
+    ("v2", 65)
+    music = library.make_urtext_field_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v2", 66),
-    library.make_circle_rhythm((1, 4)),
-)
+    ("v2", 66)
+    music = library.make_circle_rhythm((1, 4))
+voice.extend(music)
 
 commands(
-    ("v2", 67),
-    library.make_urtext_field_rhythm(),
-)
+    ("v2", 67)
+    music = library.make_urtext_field_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v2", (68, 83)),
-    library.make_flight_rhythm("C", -1),
-)
+    ("v2", (68, 83))
+    music = library.make_flight_rhythm("C", -1)
+voice.extend(music)
 
 commands(
-    ("v2", (84, 92)),
-    library.make_continuous_tremolo_material(),
+    ("v2", (84, 92))
+    music = library.make_continuous_tremolo_material()
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v2", 93),
-    baca.make_mmrests(head=True),
-)
+    ("v2", 93)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v2", (94, 96)),
-    library.make_continuous_tremolo_material(),
-)
+    ("v2", (94, 96))
+    music = library.make_continuous_tremolo_material()
+voice.extend(music)
 
 commands(
-    ("v2", (97, 98)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
+    ("v2", (97, 98))
+    music = library.make_desynchronization_rhythm(4, [0])
+voice.extend(music)
 
 commands(
-    ("v2", 99),
-    baca.make_mmrests(head=True),
-)
+    ("v2", 99)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VA
@@ -467,182 +467,182 @@ music = baca.make_mmrests_function(commands.get(), head=voice.name)
 voice = score["Viola.Music"]
 
 commands(
-    ("va", (1, 6)),
-    library.make_stroke_rhythm(
+    ("va", (1, 6))
+    music = library.make_stroke_rhythm(
         -2,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0, 1], 3)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("va", (7, 12)),
-    library.make_stroke_rhythm(
+    ("va", (7, 12))
+    music = library.make_stroke_rhythm(
         -2,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0], 3)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("va", (13, 18)),
-    library.make_stroke_rhythm(
+    ("va", (13, 18))
+    music = library.make_stroke_rhythm(
         -2,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0], 3)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("va", (19, 24)),
-    library.make_stroke_rhythm(
+    ("va", (19, 24))
+    music = library.make_stroke_rhythm(
         -2,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0], 3)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("va", (25, 30)),
-    library.make_stroke_rhythm(
+    ("va", (25, 30))
+    music = library.make_stroke_rhythm(
         -2,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0], 2)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("va", (31, 36)),
-    library.make_stroke_rhythm(
+    ("va", (31, 36))
+    music = library.make_stroke_rhythm(
         0,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1], 2)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("va", (37, 39)),
-    baca.make_mmrests(head=True),
-)
+    ("va", (37, 39))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("va", (40, 45)),
-    library.make_stroke_rhythm(0),
-)
+    ("va", (40, 45))
+    music = library.make_stroke_rhythm(0)
+voice.extend(music)
 
 commands(
-    ("va", 46),
-    baca.make_mmrests(),
-)
+    ("va", 46)
+    baca.make_mmrests()
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get())
 
 commands(
-    ("va", 47),
-    library.make_declamation_rhythm(),
-)
+    ("va", 47)
+    music = library.make_declamation_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("va", 48),
-    baca.make_mmrests(head=True),
-)
+    ("va", 48)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("va", (49, 53)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-)
+    ("va", (49, 53))
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True)
+voice.extend(music)
 
 commands(
-    ("va", 54),
-    baca.make_mmrests(head=True),
-)
+    ("va", 54)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("va", 55),
-    library.make_declamation_rhythm(),
-)
+    ("va", 55)
+    music = library.make_declamation_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("va", 56),
-    baca.make_mmrests(head=True),
-)
+    ("va", 56)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("va", 57),
-    baca.make_repeat_tied_notes(),
-)
+    ("va", 57)
+    baca.make_repeat_tied_notes()
+voice.extend(music)
 
 commands(
-    ("va", (58, 63)),
-    library.make_stroke_rhythm(0),
-)
+    ("va", (58, 63))
+    music = library.make_stroke_rhythm(0)
+voice.extend(music)
 
 commands(
-    ("va", 64),
-    baca.make_mmrests(head=True),
-)
+    ("va", 64)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("va", 65),
-    library.make_urtext_field_rhythm(),
-)
+    ("va", 65)
+    music = library.make_urtext_field_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("va", 66),
-    library.make_circle_rhythm(
+    ("va", 66)
+    music = library.make_circle_rhythm(
         (1, 2),
         rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
         remainder=abjad.LEFT,
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("va", 67),
-    library.make_urtext_field_rhythm(),
-)
+    ("va", 67)
+    music = library.make_urtext_field_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("va", (68, 83)),
-    library.make_flight_rhythm("B", -2),
-)
+    ("va", (68, 83))
+    music = library.make_flight_rhythm("B", -2)
+voice.extend(music)
 
 commands(
-    ("va", (84, 89)),
-    library.make_continuous_tremolo_material(),
+    ("va", (84, 89))
+    music = library.make_continuous_tremolo_material(),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("va", (90, 93)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-)
+    ("va", (90, 93))
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True)
+voice.extend(music)
 
 commands(
-    ("va", (94, 96)),
-    library.make_continuous_tremolo_material(),
-)
+    ("va", (94, 96))
+    music = library.make_continuous_tremolo_material()
+voice.extend(music)
 
 commands(
-    ("va", (97, 98)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
+    ("va", (97, 98))
+    music = library.make_desynchronization_rhythm(4, [2])
+voice.extend(music)
 
 commands(
-    ("va", 99),
-    baca.make_mmrests(head=True),
-)
+    ("va", 99)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VC
@@ -650,146 +650,146 @@ music = baca.make_mmrests_function(commands.get(), head=voice.name)
 voice = score["Cello.Music"]
 
 commands(
-    ("vc", (1, 6)),
-    library.make_stroke_rhythm(
+    ("vc", (1, 6))
+    music = library.make_stroke_rhythm(
         3,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1, 2], 3)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("vc", (7, 12)),
-    library.make_stroke_rhythm(
+    ("vc", (7, 12))
+    music = library.make_stroke_rhythm(
         -3,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1, 2], 3)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("vc", (13, 18)),
-    library.make_stroke_rhythm(
+    ("vc", (13, 18))
+    music = library.make_stroke_rhythm(
         -3,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1], 3)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("vc", (19, 24)),
-    library.make_stroke_rhythm(
+    ("vc", (19, 24))
+    music = library.make_stroke_rhythm(
         -3,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1], 3)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("vc", (25, 30)),
-    library.make_stroke_rhythm(
+    ("vc", (25, 30))
+    music = library.make_stroke_rhythm(
         -2,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([2], 3)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("vc", (31, 36)),
-    library.make_stroke_rhythm(
+    ("vc", (31, 36))
+    music = library.make_stroke_rhythm(
         0,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0], 3)),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("vc", 37),
-    baca.make_mmrests(head=True),
-)
+    ("vc", 37)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("vc", 38),
-    library.make_cello_cell_rhythm(),
-)
+    ("vc", 38)
+    music = library.make_cello_cell_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("vc", 39),
-    baca.make_mmrests(head=True),
-)
+    ("vc", 39)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("vc", (40, 45)),
-    library.make_stroke_rhythm(0),
-)
+    ("vc", (40, 45))
+    music = library.make_stroke_rhythm(0)
+voice.extend(music)
 
 commands(
-    ("vc", (46, 48)),
-    baca.make_mmrests(),
-)
+    ("vc", (46, 48))
+    baca.make_mmrests()
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get())
 
 commands(
-    ("vc", (49, 50)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-)
+    ("vc", (49, 50))
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True)
+voice.extend(music)
 
 commands(
-    ("vc", 51),
-    baca.make_mmrests(head=True),
-)
+    ("vc", 51)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("vc", (52, 53)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-)
+    ("vc", (52, 53))
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True)
+voice.extend(music)
 
 commands(
-    ("vc", (54, 56)),
-    baca.make_mmrests(head=True),
-)
+    ("vc", (54, 56))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("vc", 57),
-    baca.make_skeleton("c2. ~ c4"),
-)
+    ("vc", 57)
+    baca.make_skeleton_function("c2. ~ c4")
+voice.extend(music)
 
 commands(
-    ("vc", (58, 63)),
-    library.make_stroke_rhythm(0),
-)
+    ("vc", (58, 63))
+    music = library.make_stroke_rhythm(0)
+voice.extend(music)
 
 commands(
-    ("vc", 64),
-    baca.make_mmrests(head=True),
-)
+    ("vc", 64)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("vc", (65, 92)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("vc", (65, 92))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("vc", 93),
-    baca.make_mmrests(head=True),
-)
+    ("vc", 93)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("vc", (94, 99)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("vc", (94, 99))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 # reapply
 

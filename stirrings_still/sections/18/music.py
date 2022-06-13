@@ -58,14 +58,14 @@ library.time(score, commands, time)
 voice = score["Violin.1.Music"]
 
 commands(
-    ("v1", (1, 8)),
-    library.make_trajectory_rhythm("C", 0, -3),
-)
+    ("v1", (1, 8))
+    music = library.make_trajectory_rhythm("C", 0, -3)
+voice.extend(music)
 
 commands(
-    ("v1", (9, 17)),
-    baca.make_mmrests(head=True),
-)
+    ("v1", (9, 17))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # V2
@@ -73,14 +73,14 @@ music = baca.make_mmrests_function(commands.get(), head=voice.name)
 voice = score["Violin.2.Music"]
 
 commands(
-    ("v2", (1, 8)),
-    library.make_trajectory_rhythm("C", -1, -2),
-)
+    ("v2", (1, 8))
+    music = library.make_trajectory_rhythm("C", -1, -2)
+voice.extend(music)
 
 commands(
-    ("v2", (9, 17)),
-    baca.make_mmrests(head=True),
-)
+    ("v2", (9, 17))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VA
@@ -89,22 +89,22 @@ voice = score["Viola.Music"]
 
 commands(
     "va",
-    baca.make_repeat_tied_notes(),
-)
+    baca.make_repeat_tied_notes()
+voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
 commands(
-    ("vc", (1, 12)),
-    baca.make_repeat_tied_notes(),
-)
+    ("vc", (1, 12))
+    baca.make_repeat_tied_notes()
+voice.extend(music)
 
 commands(
-    ("vc", (13, 17)),
-    baca.make_mmrests(head=True),
-)
+    ("vc", (13, 17))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # reapply

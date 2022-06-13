@@ -57,25 +57,25 @@ library.time(score, commands, time)
 voice = score["Violin.1.Music"]
 
 commands(
-    ("v1", (1, 8)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("v1", (1, 8))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v1", (9, 11)),
-    baca.make_mmrests(head=True),
-)
+    ("v1", (9, 11))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v1", (12, 13)),
-    library.make_desynchronization_rhythm(4, [1]),
-)
+    ("v1", (12, 13))
+    music = library.make_desynchronization_rhythm(4, [1])
+voice.extend(music)
 
 commands(
-    ("v1", 14),
-    baca.make_mmrests(head=True),
-)
+    ("v1", 14)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # V2
@@ -83,25 +83,25 @@ music = baca.make_mmrests_function(commands.get(), head=voice.name)
 voice = score["Violin.2.Music"]
 
 commands(
-    ("v2", (1, 8)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("v2", (1, 8))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v2", (9, 11)),
-    baca.make_mmrests(head=True),
-)
+    ("v2", (9, 11))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v2", (12, 13)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
+    ("v2", (12, 13))
+    music = library.make_desynchronization_rhythm(4, [0])
+voice.extend(music)
 
 commands(
-    ("v2", 14),
-    baca.make_mmrests(head=True),
-)
+    ("v2", 14)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VA
@@ -109,25 +109,25 @@ music = baca.make_mmrests_function(commands.get(), head=voice.name)
 voice = score["Viola.Music"]
 
 commands(
-    ("va", (1, 10)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-)
+    ("va", (1, 10))
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True)
+voice.extend(music)
 
 commands(
-    ("va", 11),
-    baca.make_mmrests(head=True),
-)
+    ("va", 11)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("va", (12, 13)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
+    ("va", (12, 13))
+    music = library.make_desynchronization_rhythm(4, [2])
+voice.extend(music)
 
 commands(
-    ("va", 14),
-    baca.make_mmrests(head=True),
-)
+    ("va", 14)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VC
@@ -135,25 +135,25 @@ music = baca.make_mmrests_function(commands.get(), head=voice.name)
 voice = score["Cello.Music"]
 
 commands(
-    ("vc", (1, 8)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("vc", (1, 8))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("vc", (9, 11)),
-    baca.make_mmrests(head=True),
-)
+    ("vc", (9, 11))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("vc", (12, 13)),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
+    ("vc", (12, 13))
+    music = library.make_desynchronization_rhythm(4, [-1])
+voice.extend(music)
 
 commands(
-    ("vc", 14),
-    baca.make_mmrests(head=True),
-)
+    ("vc", 14)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # reapply
@@ -163,7 +163,7 @@ music_voice_names = [_ for _ in voice_names if "Music" in _]
 commands(
     music_voice_names,
     baca.reapply_persistent_indicators(),
-)
+voice.extend(music)
 
 # v1
 
@@ -186,7 +186,7 @@ commands(
         "clouded pane (doublestop partials) -|",
         8,
     ),
-)
+voice.extend(music)
 
 commands(
     ("v2", (1, 8)),
@@ -207,7 +207,7 @@ commands(
         "clouded pane (doublestop partials) -|",
         8,
     ),
-)
+voice.extend(music)
 
 commands(
     ("va", (1, 10)),
@@ -216,19 +216,19 @@ commands(
         '"mf"',
         abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
     ),
-)
+voice.extend(music)
 
 commands(
     ("va", (1, 10)),
     library.style_tailpiece_material(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
     ),
-)
+voice.extend(music)
 
 commands(
     ("va", 12),
     baca.staff_lines(5),
-)
+voice.extend(music)
 
 commands(
     ("vc", (1, 8)),
@@ -243,7 +243,7 @@ commands(
         selector=lambda _: baca.select.rleaves(_),
     ),
     library.clouded_pane_spanner("clouded pane (continues) -|", 5.5),
-)
+voice.extend(music)
 
 # v1, v2, vc
 

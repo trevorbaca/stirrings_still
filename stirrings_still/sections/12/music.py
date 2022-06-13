@@ -65,7 +65,7 @@ voice = score["Violin.1.Music"]
 
 commands(
     "v1",
-    library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm(
         "C",
         0,
         -3,
@@ -75,8 +75,8 @@ commands(
         rmakers.tie(
             nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 # V2
 
@@ -84,7 +84,7 @@ voice = score["Violin.2.Music"]
 
 commands(
     "v2",
-    library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm(
         "C",
         -1,
         -2,
@@ -94,8 +94,8 @@ commands(
         rmakers.tie(
             nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 # VA
 
@@ -103,7 +103,7 @@ voice = score["Viola.Music"]
 
 commands(
     "va",
-    library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm(
         "C",
         -2,
         -1,
@@ -113,8 +113,8 @@ commands(
         rmakers.tie(
             nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
         ),
-    ),
-)
+    )
+voice.extend(music)
 
 # VC
 
@@ -122,8 +122,8 @@ voice = score["Cello.Music"]
 
 commands(
     "vc",
-    library.make_clouded_pane_rhythm(),
-)
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 # anchor notes
 
