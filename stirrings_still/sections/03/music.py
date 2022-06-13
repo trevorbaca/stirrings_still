@@ -135,106 +135,106 @@ library.time(score, commands, time)
 voice = score["Violin.1.Music"]
 
 commands(
-    ("v1", (1, 4)),
-    library.make_desynchronization_rhythm(4, [1]),
-)
+    ("v1", (1, 4))
+    music = library.make_desynchronization_rhythm(4, [1])
+voice.extend(music)
 
 commands(
-    ("v1", 5),
-    library.make_loure_tuplets_material(0),
-)
+    ("v1", 5)
+    music = library.make_loure_tuplets_material(0)
+voice.extend(music)
 
 commands(
-    ("v1", 6),
-    baca.make_mmrests(head=True),
-)
+    ("v1", 6)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v1", (7, 10)),
-    library.make_desynchronization_rhythm(4, [1]),
-)
+    ("v1", (7, 10))
+    music = library.make_desynchronization_rhythm(4, [1])
+voice.extend(music)
 
 commands(
-    ("v1", 11),
-    baca.make_mmrests(head=True),
-)
+    ("v1", 11)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v1", (12, 15)),
-    library.make_desynchronization_rhythm(4, [1], rests=True),
-)
+    ("v1", (12, 15))
+    music = library.make_desynchronization_rhythm(4, [1], rests=True)
+voice.extend(music)
 
 commands(
-    ("v1", (16, 19)),
-    library.make_desynchronization_rhythm(4, [1], rests=True),
-)
+    ("v1", (16, 19))
+    music = library.make_desynchronization_rhythm(4, [1], rests=True)
+voice.extend(music)
 
 commands(
-    ("v1", (20, 23)),
-    library.make_desynchronization_rhythm(4, [1], rests=([2], 3)),
-)
+    ("v1", (20, 23))
+    music = library.make_desynchronization_rhythm(4, [1], rests=([2], 3))
+voice.extend(music)
 
 commands(
-    ("v1", (24, 27)),
-    library.make_desynchronization_rhythm(4, [1]),
-)
+    ("v1", (24, 27))
+    music = library.make_desynchronization_rhythm(4, [1])
+voice.extend(music)
 
 commands(
-    ("v1", (28, 29)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("v1", (28, 29))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v1", (30, 33)),
-    library.make_synchronized_circle_rhythm(rests=[-1]),
-)
+    ("v1", (30, 33))
+    music = library.make_synchronized_circle_rhythm(rests=[-1])
+voice.extend(music)
 
 commands(
-    ("v1", (34, 35)),
-    baca.make_mmrests(head=True),
-)
+    ("v1", (34, 35))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v1", (36, 55)),
-    library.make_synchronized_circle_rhythm(rotation=0),
-)
+    ("v1", (36, 55))
+    music = library.make_synchronized_circle_rhythm(rotation=0)
+voice.extend(music)
 
 commands(
-    ("v1", (56, 59)),
-    library.make_synchronized_circle_rhythm(gaps=False, rotation=0),
-)
+    ("v1", (56, 59))
+    music = library.make_synchronized_circle_rhythm(gaps=False, rotation=0)
+voice.extend(music)
 
 commands(
-    ("v1", (60, 61)),
-    library.make_urtext_field_rhythm(),
-)
+    ("v1", (60, 61))
+    music = library.make_urtext_field_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v1", (62, 69)),
-    library.make_synchronized_circle_rhythm(
+    ("v1", (62, 69))
+    music = library.make_synchronized_circle_rhythm(
         rests=[-1],
         rotation=0,
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v1", 70),
-    baca.make_mmrests(head=True),
-)
+    ("v1", 70)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v1", (71, 76)),
-    library.make_desynchronization_rhythm(4, [1]),
-)
+    ("v1", (71, 76))
+    music = library.make_desynchronization_rhythm(4, [1])
+voice.extend(music)
 
 commands(
-    ("v1", 77),
-    baca.make_mmrests(head=True),
-)
+    ("v1", 77)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # V2
@@ -242,113 +242,113 @@ music = baca.make_mmrests_function(commands.get(), head=voice.name)
 voice = score["Violin.2.Music"]
 
 commands(
-    ("v2", (1, 4)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
+    ("v2", (1, 4))
+    music = library.make_desynchronization_rhythm(4, [0])
+voice.extend(music)
 
 commands(
-    ("v2", 5),
-    library.make_loure_tuplets_material(1),
-)
+    ("v2", 5)
+    music = library.make_loure_tuplets_material(1)
+voice.extend(music)
 
 commands(
-    ("v2", 6),
-    baca.make_mmrests(head=True),
-)
+    ("v2", 6)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v2", (7, 10)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
+    ("v2", (7, 10))
+    music = library.make_desynchronization_rhythm(4, [0])
+voice.extend(music)
 
 commands(
-    ("v2", 11),
-    baca.make_mmrests(head=True),
-)
+    ("v2", 11)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v2", (12, 15)),
-    library.make_desynchronization_rhythm(4, [0], rests=True),
-)
+    ("v2", (12, 15))
+    music = library.make_desynchronization_rhythm(4, [0], rests=True)
+voice.extend(music)
 
 commands(
-    ("v2", (16, 19)),
-    library.make_desynchronization_rhythm(4, [0], rests=True),
-)
+    ("v2", (16, 19))
+    music = library.make_desynchronization_rhythm(4, [0], rests=True)
+voice.extend(music)
 
 commands(
-    ("v2", (20, 23)),
-    library.make_desynchronization_rhythm(4, [0], rests=([2], 3)),
-)
+    ("v2", (20, 23))
+    music = library.make_desynchronization_rhythm(4, [0], rests=([2], 3))
+voice.extend(music)
 
 commands(
-    ("v2", (24, 27)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
+    ("v2", (24, 27))
+    music = library.make_desynchronization_rhythm(4, [0])
+voice.extend(music)
 
 commands(
-    ("v2", 28),
-    library.make_clocktick_rhythm(),
-)
+    ("v2", 28)
+    music = library.make_clocktick_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v2", 29),
-    baca.make_skeleton(
+    ("v2", 29)
+    baca.make_skeleton_function(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v2", (30, 33)),
-    library.make_synchronized_circle_rhythm(rests=[-1]),
-)
+    ("v2", (30, 33))
+    music = library.make_synchronized_circle_rhythm(rests=[-1])
+voice.extend(music)
 
 commands(
-    ("v2", (34, 35)),
-    baca.make_mmrests(head=True),
-)
+    ("v2", (34, 35))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v2", (36, 55)),
-    library.make_synchronized_circle_rhythm(rotation=-1),
-)
+    ("v2", (36, 55))
+    music = library.make_synchronized_circle_rhythm(rotation=-1)
+voice.extend(music)
 
 commands(
-    ("v2", (56, 59)),
-    library.make_synchronized_circle_rhythm(gaps=False, rotation=-1),
-)
+    ("v2", (56, 59))
+    music = library.make_synchronized_circle_rhythm(gaps=False, rotation=-1)
+voice.extend(music)
 
 commands(
-    ("v2", (60, 61)),
-    library.make_urtext_field_rhythm(),
-)
+    ("v2", (60, 61))
+    music = library.make_urtext_field_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v2", (62, 69)),
-    library.make_synchronized_circle_rhythm(
+    ("v2", (62, 69))
+    music = library.make_synchronized_circle_rhythm(
         rests=[-1],
         rotation=0,
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v2", 70),
-    baca.make_mmrests(head=True),
-)
+    ("v2", 70)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v2", (71, 76)),
-    library.make_desynchronization_rhythm(4, [0]),
-)
+    ("v2", (71, 76))
+    music = library.make_desynchronization_rhythm(4, [0])
+voice.extend(music)
 
 commands(
-    ("v2", 77),
-    baca.make_mmrests(head=True),
-)
+    ("v2", 77)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VA
@@ -356,106 +356,106 @@ music = baca.make_mmrests_function(commands.get(), head=voice.name)
 voice = score["Viola.Music"]
 
 commands(
-    ("va", (1, 4)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
+    ("va", (1, 4))
+    music = library.make_desynchronization_rhythm(4, [2])
+voice.extend(music)
 
 commands(
-    ("va", 5),
-    library.make_loure_tuplets_material(-1),
-)
+    ("va", 5)
+    music = library.make_loure_tuplets_material(-1)
+voice.extend(music)
 
 commands(
-    ("va", 6),
-    baca.make_mmrests(head=True),
-)
+    ("va", 6)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("va", (7, 10)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
+    ("va", (7, 10))
+    music = library.make_desynchronization_rhythm(4, [2])
+voice.extend(music)
 
 commands(
-    ("va", 11),
-    baca.make_mmrests(head=True),
-)
+    ("va", 11)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("va", (12, 15)),
-    library.make_desynchronization_rhythm(4, [2], rests=True),
-)
+    ("va", (12, 15))
+    music = library.make_desynchronization_rhythm(4, [2], rests=True)
+voice.extend(music)
 
 commands(
-    ("va", (16, 19)),
-    library.make_desynchronization_rhythm(4, [2], rests=True),
-)
+    ("va", (16, 19))
+    music = library.make_desynchronization_rhythm(4, [2], rests=True)
+voice.extend(music)
 
 commands(
-    ("va", (20, 23)),
-    library.make_desynchronization_rhythm(4, [2], rests=([2], 3)),
-)
+    ("va", (20, 23))
+    music = library.make_desynchronization_rhythm(4, [2], rests=([2], 3))
+voice.extend(music)
 
 commands(
-    ("va", (24, 27)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
+    ("va", (24, 27))
+    music = library.make_desynchronization_rhythm(4, [2])
+voice.extend(music)
 
 commands(
-    ("va", (28, 29)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("va", (28, 29))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("va", (30, 33)),
-    library.make_synchronized_circle_rhythm(rests=[-1]),
-)
+    ("va", (30, 33))
+    music = library.make_synchronized_circle_rhythm(rests=[-1])
+voice.extend(music)
 
 commands(
-    ("va", (34, 35)),
-    baca.make_mmrests(head=True),
-)
+    ("va", (34, 35))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("va", (36, 55)),
-    library.make_synchronized_circle_rhythm(rotation=-2),
-)
+    ("va", (36, 55))
+    music = library.make_synchronized_circle_rhythm(rotation=-2)
+voice.extend(music)
 
 commands(
-    ("va", (56, 59)),
-    library.make_synchronized_circle_rhythm(gaps=False, rotation=-2),
-)
+    ("va", (56, 59))
+    music = library.make_synchronized_circle_rhythm(gaps=False, rotation=-2)
+voice.extend(music)
 
 commands(
-    ("va", (60, 61)),
-    library.make_urtext_field_rhythm(),
-)
+    ("va", (60, 61))
+    music = library.make_urtext_field_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("va", (62, 69)),
-    library.make_synchronized_circle_rhythm(
+    ("va", (62, 69))
+    music = library.make_synchronized_circle_rhythm(
         rests=[-1],
         rotation=0,
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("va", 70),
-    baca.make_mmrests(head=True),
-)
+    ("va", 70)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("va", (71, 76)),
-    library.make_desynchronization_rhythm(4, [2]),
-)
+    ("va", (71, 76))
+    music = library.make_desynchronization_rhythm(4, [2])
+voice.extend(music)
 
 commands(
-    ("va", 77),
-    baca.make_mmrests(head=True),
-)
+    ("va", 77)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VC
@@ -463,106 +463,106 @@ music = baca.make_mmrests_function(commands.get(), head=voice.name)
 voice = score["Cello.Music"]
 
 commands(
-    ("vc", (1, 4)),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
+    ("vc", (1, 4))
+    music = library.make_desynchronization_rhythm(4, [-1])
+voice.extend(music)
 
 commands(
-    ("vc", 5),
-    library.make_taper_rhythm((1, 1)),
-)
+    ("vc", 5)
+    music = library.make_taper_rhythm((1, 1))
+voice.extend(music)
 
 commands(
-    ("vc", 6),
-    baca.make_mmrests(head=True),
-)
+    ("vc", 6)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("vc", (7, 10)),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
+    ("vc", (7, 10))
+    music = library.make_desynchronization_rhythm(4, [-1])
+voice.extend(music)
 
 commands(
-    ("vc", 11),
-    baca.make_mmrests(head=True),
-)
+    ("vc", 11)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("vc", (12, 15)),
-    library.make_desynchronization_rhythm(4, [-1], rests=True),
-)
+    ("vc", (12, 15))
+    music = library.make_desynchronization_rhythm(4, [-1], rests=True)
+voice.extend(music)
 
 commands(
-    ("vc", (16, 19)),
-    library.make_desynchronization_rhythm(4, [-1], rests=True),
-)
+    ("vc", (16, 19))
+    music = library.make_desynchronization_rhythm(4, [-1], rests=True)
+voice.extend(music)
 
 commands(
-    ("vc", (20, 23)),
-    library.make_desynchronization_rhythm(4, [-1], rests=([2], 3)),
-)
+    ("vc", (20, 23))
+    music = library.make_desynchronization_rhythm(4, [-1], rests=([2], 3))
+voice.extend(music)
 
 commands(
-    ("vc", (24, 27)),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
+    ("vc", (24, 27))
+    music = library.make_desynchronization_rhythm(4, [-1])
+voice.extend(music)
 
 commands(
-    ("vc", (28, 29)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("vc", (28, 29))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("vc", (30, 33)),
-    library.make_synchronized_circle_rhythm(rests=[-1]),
-)
+    ("vc", (30, 33))
+    music = library.make_synchronized_circle_rhythm(rests=[-1])
+voice.extend(music)
 
 commands(
-    ("vc", (34, 35)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("vc", (34, 35))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("vc", (36, 55)),
-    library.make_synchronized_circle_rhythm(rotation=-3),
-)
+    ("vc", (36, 55))
+    music = library.make_synchronized_circle_rhythm(rotation=-3)
+voice.extend(music)
 
 commands(
-    ("vc", (56, 59)),
-    library.make_synchronized_circle_rhythm(gaps=False, rotation=-3),
-)
+    ("vc", (56, 59))
+    music = library.make_synchronized_circle_rhythm(gaps=False, rotation=-3)
+voice.extend(music)
 
 commands(
-    ("vc", (60, 61)),
-    baca.make_mmrests(head=True),
-)
+    ("vc", (60, 61))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("vc", (62, 69)),
-    library.make_synchronized_circle_rhythm(
+    ("vc", (62, 69))
+    music = library.make_synchronized_circle_rhythm(
         rests=[-1],
         rotation=0,
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("vc", 70),
-    baca.make_mmrests(head=True),
-)
+    ("vc", 70)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("vc", (71, 76)),
-    library.make_desynchronization_rhythm(4, [-1]),
-)
+    ("vc", (71, 76))
+    music = library.make_desynchronization_rhythm(4, [-1])
+voice.extend(music)
 
 commands(
-    ("vc", 77),
-    baca.make_mmrests(head=True),
-)
+    ("vc", 77)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # reapply

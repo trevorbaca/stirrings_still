@@ -74,59 +74,59 @@ library.time(score, commands, time)
 voice = score["Violin.1.Music"]
 
 commands(
-    ("v1", (1, 8)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("v1", (1, 8))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v1", (9, 12)),
-    baca.make_mmrests(head=True),
-)
+    ("v1", (9, 12))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v1", (13, 22)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("v1", (13, 22))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v1", (23, 28)),
-    library.make_flight_rhythm(
+    ("v1", (23, 28))
+    music = library.make_flight_rhythm(
         "C",
         0,
         start=0,
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v1", 29),
-    baca.make_repeat_tied_notes(),
-)
+    ("v1", 29)
+    baca.make_repeat_tied_notes()
+voice.extend(music)
 
 commands(
-    ("v1", (30, 35)),
-    library.make_flight_rhythm(
+    ("v1", (30, 35))
+    music = library.make_flight_rhythm(
         "C",
         0,
         start=1,
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v1", 36),
-    baca.make_mmrests(head=True),
-)
+    ("v1", 36)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v1", (37, 38)),
-    library.make_eighth_notes(),
-)
+    ("v1", (37, 38))
+    music = library.make_eighth_notes()
+voice.extend(music)
 
 commands(
-    ("v1", 39),
-    baca.make_mmrests(head=True),
-)
+    ("v1", 39)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # V2
@@ -134,59 +134,59 @@ music = baca.make_mmrests_function(commands.get(), head=voice.name)
 voice = score["Violin.2.Music"]
 
 commands(
-    ("v2", (1, 8)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("v2", (1, 8))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v2", (9, 12)),
-    baca.make_mmrests(head=True),
-)
+    ("v2", (9, 12))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v2", (13, 22)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("v2", (13, 22))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("v2", (23, 28)),
-    library.make_flight_rhythm(
+    ("v2", (23, 28))
+    music = library.make_flight_rhythm(
         "C",
         -1,
         start=1,
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v2", 29),
-    baca.make_repeat_tied_notes(),
-)
+    ("v2", 29)
+    baca.make_repeat_tied_notes()
+voice.extend(music)
 
 commands(
-    ("v2", (30, 35)),
-    library.make_flight_rhythm(
+    ("v2", (30, 35))
+    music = library.make_flight_rhythm(
         "C",
         -1,
         start=2,
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("v2", 36),
-    baca.make_mmrests(head=True),
-)
+    ("v2", 36)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("v2", (37, 38)),
-    library.make_eighth_notes(),
-)
+    ("v2", (37, 38))
+    music = library.make_eighth_notes()
+voice.extend(music)
 
 commands(
-    ("v2", 39),
-    baca.make_mmrests(head=True),
-)
+    ("v2", 39)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VA
@@ -194,59 +194,59 @@ music = baca.make_mmrests_function(commands.get(), head=voice.name)
 voice = score["Viola.Music"]
 
 commands(
-    ("va", (1, 8)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("va", (1, 8))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("va", (9, 12)),
-    baca.make_mmrests(head=True),
-)
+    ("va", (9, 12))
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("va", (13, 22)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("va", (13, 22))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("va", (23, 28)),
-    library.make_flight_rhythm(
+    ("va", (23, 28))
+    music = library.make_flight_rhythm(
         "C",
         -2,
         start=2,
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("va", 29),
-    baca.make_repeat_tied_notes(),
-)
+    ("va", 29)
+    baca.make_repeat_tied_notes()
+voice.extend(music)
 
 commands(
-    ("va", (30, 35)),
-    library.make_flight_rhythm(
+    ("va", (30, 35))
+    music = library.make_flight_rhythm(
         "C",
         -2,
         start=3,
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("va", 36),
-    baca.make_mmrests(head=True),
-)
+    ("va", 36)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("va", (37, 38)),
-    library.make_eighth_notes(),
-)
+    ("va", (37, 38))
+    music = library.make_eighth_notes()
+voice.extend(music)
 
 commands(
-    ("va", 39),
-    baca.make_mmrests(head=True),
-)
+    ("va", 39)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # VC
@@ -254,58 +254,58 @@ music = baca.make_mmrests_function(commands.get(), head=voice.name)
 voice = score["Cello.Music"]
 
 commands(
-    ("vc", (1, 10)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("vc", (1, 10))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("vc", (11, 12)),
-    library.make_cello_cell_rhythm(),
-)
+    ("vc", (11, 12))
+    music = library.make_cello_cell_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("vc", (13, 22)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("vc", (13, 22))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("vc", (23, 28)),
-    library.make_flight_rhythm(
+    ("vc", (23, 28))
+    music = library.make_flight_rhythm(
         "C",
         -3,
         start=3,
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("vc", 29),
-    baca.make_repeat_tied_notes(),
-)
+    ("vc", 29)
+    baca.make_repeat_tied_notes()
+voice.extend(music)
 
 commands(
-    ("vc", (30, 35)),
-    library.make_flight_rhythm(
+    ("vc", (30, 35))
+    music = library.make_flight_rhythm(
         "C",
         -3,
         start=4,
-    ),
-)
+    )
+voice.extend(music)
 
 commands(
-    ("vc", 36),
-    baca.make_mmrests(head=True),
-)
+    ("vc", 36)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 commands(
-    ("vc", (37, 38)),
-    library.make_clouded_pane_rhythm(),
-)
+    ("vc", (37, 38))
+    music = library.make_clouded_pane_rhythm(function=commands.get())
+voice.extend(music)
 
 commands(
-    ("vc", 39),
-    baca.make_mmrests(head=True),
-)
+    ("vc", 39)
+    baca.make_mmrests(head=True)
+voice.extend(music)
 music = baca.make_mmrests_function(commands.get(), head=voice.name)
 
 # reapply

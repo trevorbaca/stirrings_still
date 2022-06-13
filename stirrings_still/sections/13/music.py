@@ -226,12 +226,12 @@ voice = score["Cello.Music"]
 
 commands(
     ("vc", (1, 28)),
-    library.make_clouded_pane_rhythm(),
+    music = library.make_clouded_pane_rhythm(function=commands.get()),
 )
 
 commands(
     ("vc", (29, 32)),
-    library.make_clouded_pane_rhythm(),
+    music = library.make_clouded_pane_rhythm(function=commands.get()),
 )
 
 # anchor notes
