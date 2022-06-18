@@ -1473,14 +1473,9 @@ def make_clocktick_rhythm(
 
 
 def make_clouded_pane_rhythm(*, function=None):
-    command = baca.make_repeat_tied_notes(
-        rmakers.reduce_multiplier(),
-        do_not_rewrite_meter=True,
-    )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = baca.make_repeat_tied_notes_function(function, do_not_rewrite_meter=True)
+    rmakers.reduce_multiplier()(music)
+    return music
 
 
 def make_continuous_tremolo_material(*, function=None):
@@ -1907,11 +1902,8 @@ def make_picket_rhythm(
 
 
 def make_rasp_rhythm(*, function=None):
-    command = baca.make_repeat_tied_notes(do_not_rewrite_meter=True)
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = baca.make_repeat_tied_notes_function(function, do_not_rewrite_meter=True)
+    return music
 
 
 def make_running_quarter_divisions(count, *, function=None, measures=None):
@@ -2119,15 +2111,9 @@ def make_trajectory_rhythm(
     return command
 
 
-def make_urtext_field_rhythm(*, function=None, measures=None):
-    command = baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-        measures=measures,
-    )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+def make_urtext_field_rhythm(*, function=None):
+    music = baca.make_repeat_tied_notes_function(function, do_not_rewrite_meter=True)
+    return music
 
 
 def make_wave_rhythm(start, stop, *, function=None, measures=None):
