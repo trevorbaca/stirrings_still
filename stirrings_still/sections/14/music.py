@@ -90,7 +90,7 @@ music = library.make_flight_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(29))
+music = baca.make_repeat_tied_notes(commands.get(29))
 voice.extend(music)
 
 music = library.make_flight_rhythm(
@@ -131,7 +131,7 @@ music = library.make_flight_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(29))
+music = baca.make_repeat_tied_notes(commands.get(29))
 voice.extend(music)
 
 music = library.make_flight_rhythm(
@@ -172,7 +172,7 @@ music = library.make_flight_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(29))
+music = baca.make_repeat_tied_notes(commands.get(29))
 voice.extend(music)
 
 music = library.make_flight_rhythm(
@@ -213,7 +213,7 @@ music = library.make_flight_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(29))
+music = baca.make_repeat_tied_notes(commands.get(29))
 voice.extend(music)
 
 music = library.make_flight_rhythm(

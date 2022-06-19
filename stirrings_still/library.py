@@ -1473,7 +1473,7 @@ def make_clocktick_rhythm(
 
 
 def make_clouded_pane_rhythm(*, function=None):
-    music = baca.make_repeat_tied_notes_function(function, do_not_rewrite_meter=True)
+    music = baca.make_repeat_tied_notes(function, do_not_rewrite_meter=True)
     rmakers.reduce_multiplier()(music)
     return music
 
@@ -1902,7 +1902,7 @@ def make_picket_rhythm(
 
 
 def make_rasp_rhythm(*, function=None):
-    music = baca.make_repeat_tied_notes_function(function, do_not_rewrite_meter=True)
+    music = baca.make_repeat_tied_notes(function, do_not_rewrite_meter=True)
     return music
 
 
@@ -2112,7 +2112,7 @@ def make_trajectory_rhythm(
 
 
 def make_urtext_field_rhythm(*, function=None):
-    music = baca.make_repeat_tied_notes_function(function, do_not_rewrite_meter=True)
+    music = baca.make_repeat_tied_notes(function, do_not_rewrite_meter=True)
     return music
 
 

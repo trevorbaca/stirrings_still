@@ -109,15 +109,15 @@ voice.extend(music)
 
 music = library.make_trajectory_rhythm("B", -3, -3, function=commands.get(9))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(10))
+music = baca.make_repeat_tied_notes(commands.get(10))
 voice.extend(music)
 music = library.make_trajectory_rhythm("B", -3, -3, function=commands.get(11, 14))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(15))
+music = baca.make_repeat_tied_notes(commands.get(15))
 voice.extend(music)
 music = library.make_trajectory_rhythm("B", -3, -3, function=commands.get(16))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(17))
+music = baca.make_repeat_tied_notes(commands.get(17))
 voice.extend(music)
 
 music = library.make_flight_rhythm(
@@ -161,7 +161,7 @@ music = library.make_flight_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(
+music = baca.make_repeat_tied_notes(
     commands.get(46, 53),
     do_not_rewrite_meter=True,
 )
@@ -190,15 +190,15 @@ voice.extend(music)
 
 music = library.make_trajectory_rhythm("B", -3, -3, function=commands.get(9))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(10, 12))
+music = baca.make_repeat_tied_notes(commands.get(10, 12))
 voice.extend(music)
 music = library.make_trajectory_rhythm("B", -3, -3, function=commands.get(13))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(14))
+music = baca.make_repeat_tied_notes(commands.get(14))
 voice.extend(music)
 music = library.make_trajectory_rhythm("B", -3, -3, function=commands.get(15, 16))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(17))
+music = baca.make_repeat_tied_notes(commands.get(17))
 voice.extend(music)
 
 music = library.make_flight_rhythm(
@@ -242,7 +242,7 @@ music = library.make_flight_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(
+music = baca.make_repeat_tied_notes(
     commands.get(46, 53),
     do_not_rewrite_meter=True,
 )
@@ -263,14 +263,14 @@ voice.extend(music)
 music = library.make_desynchronization_rhythm(4, [0], function=commands.get(3, 4))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(
+music = baca.make_repeat_tied_notes(
     commands.get(5, 11), do_not_rewrite_meter=True
 )
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("B", -3, -3, function=commands.get(12, 13))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(14, 15))
+music = baca.make_repeat_tied_notes(commands.get(14, 15))
 voice.extend(music)
 music = library.make_trajectory_rhythm("B", -3, -3, function=commands.get(16, 17))
 voice.extend(music)
@@ -319,7 +319,7 @@ voice.extend(music)
 music = library.make_to_flight_rhythm([(8, 8), (3, 16)], function=commands.get(43, 45))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(
+music = baca.make_repeat_tied_notes(
     commands.get(46, 53),
     do_not_rewrite_meter=True,
 )
@@ -348,11 +348,11 @@ voice.extend(music)
 
 music = library.make_trajectory_rhythm("B", -3, -3, function=commands.get(9, 10))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(11, 12))
+music = baca.make_repeat_tied_notes(commands.get(11, 12))
 voice.extend(music)
 music = library.make_trajectory_rhythm("B", -3, -3, function=commands.get(13, 14))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(15, 17))
+music = baca.make_repeat_tied_notes(commands.get(15, 17))
 voice.extend(music)
 
 music = library.make_flight_rhythm(

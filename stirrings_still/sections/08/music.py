@@ -96,7 +96,7 @@ library.time(score, commands, time)
 
 voice = score["Violin.1.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 5))
+music = baca.make_repeat_tied_notes(commands.get(1, 5))
 voice.extend(music)
 
 music = library.make_circle_rhythm((1, 8), function=commands.get(6))
@@ -138,7 +138,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(35), head=voice.name)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(36, 37))
+music = baca.make_repeat_tied_notes(commands.get(36, 37))
 voice.extend(music)
 
 music = library.make_accelerando((1, 2), (4, 32), function=commands.get(38, 40))
@@ -172,13 +172,13 @@ voice.extend(music)
 
 voice = score["Violin.2.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 5))
+music = baca.make_repeat_tied_notes(commands.get(1, 5))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(6))
+music = baca.make_repeat_tied_notes(commands.get(6))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(7, 10))
+music = baca.make_repeat_tied_notes(commands.get(7, 10))
 voice.extend(music)
 
 music = library.make_accelerando((1, 2), (7, 32), function=commands.get(11, 12))
@@ -214,7 +214,7 @@ voice.extend(music)
 music = library.make_clocktick_rhythm(function=commands.get(33))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
 )
 voice.extend(music)
@@ -222,7 +222,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(35), head=voice.name)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(36, 37))
+music = baca.make_repeat_tied_notes(commands.get(36, 37))
 voice.extend(music)
 
 music = library.make_accelerando((1, 2), (8, 32), function=commands.get(38, 40))
@@ -246,7 +246,7 @@ voice.extend(music)
 music = library.make_clocktick_rhythm(function=commands.get(53))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
 )
 voice.extend(music)
@@ -261,7 +261,7 @@ voice.extend(music)
 
 voice = score["Viola.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 5))
+music = baca.make_repeat_tied_notes(commands.get(1, 5))
 voice.extend(music)
 
 music = library.make_circle_rhythm(
@@ -308,7 +308,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(35), head=voice.name)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(36, 37))
+music = baca.make_repeat_tied_notes(commands.get(36, 37))
 voice.extend(music)
 
 music = library.make_accelerando((1, 2), (12, 32), function=commands.get(38, 40))
@@ -342,13 +342,13 @@ voice.extend(music)
 
 voice = score["Cello.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 5))
+music = baca.make_repeat_tied_notes(commands.get(1, 5))
 voice.extend(music)
 
 music = library.make_eighth_notes(function=commands.get(6))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(7, 31))
+music = baca.make_repeat_tied_notes(commands.get(7, 31))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(32), head=voice.name)
@@ -360,10 +360,10 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(35), head=voice.name)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(36, 37))
+music = baca.make_repeat_tied_notes(commands.get(36, 37))
 voice.extend(music)
 
-music = baca.make_notes_function(commands.get(38, 46))
+music = baca.make_notes(commands.get(38, 46))
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("A", -1, 0, function=commands.get(47, 51))

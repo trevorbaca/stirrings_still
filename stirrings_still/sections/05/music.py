@@ -170,7 +170,7 @@ voice.extend(music)
 music = library.make_running_quarter_divisions(4, function=commands.get(63, 78))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(79, 80))
+music = baca.make_repeat_tied_notes(commands.get(79, 80))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(81), head=voice.name)
@@ -259,7 +259,7 @@ voice.extend(music)
 music = library.make_running_quarter_divisions(3, function=commands.get(63, 77))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(78, 80))
+music = baca.make_repeat_tied_notes(commands.get(78, 80))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(81), head=voice.name)
@@ -345,7 +345,7 @@ voice.extend(music)
 music = library.make_running_quarter_divisions(2, function=commands.get(63, 76))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(77, 80))
+music = baca.make_repeat_tied_notes(commands.get(77, 80))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(81), head=voice.name)
