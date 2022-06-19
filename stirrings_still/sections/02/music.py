@@ -179,18 +179,18 @@ voice.extend(music)
 music = library.make_clocktick_rhythm(function=commands.get(14))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
     r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
 )
 voice.extend(music)
@@ -304,7 +304,7 @@ voice.extend(music)
 music = library.make_clocktick_rhythm(function=commands.get(12))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
 )
 voice.extend(music)
@@ -312,18 +312,18 @@ voice.extend(music)
 music = library.make_clocktick_rhythm(function=commands.get(14))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
     r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
 )
 voice.extend(music)
@@ -545,13 +545,13 @@ music = library.make_circle_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
     r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
 )
 voice.extend(music)

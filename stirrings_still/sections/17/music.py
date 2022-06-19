@@ -79,7 +79,7 @@ library.time(score, commands, time)
 
 voice = score["Violin.1.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1))
+music = baca.make_repeat_tied_notes(commands.get(1))
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(4, [2], function=commands.get(2, 9))
@@ -128,7 +128,7 @@ voice.extend(music)
 
 voice = score["Violin.2.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1))
+music = baca.make_repeat_tied_notes(commands.get(1))
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(4, [1], function=commands.get(2, 13))
@@ -177,7 +177,7 @@ voice.extend(music)
 
 voice = score["Viola.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1))
+music = baca.make_repeat_tied_notes(commands.get(1))
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(4, [0], function=commands.get(2, 9))
@@ -219,14 +219,14 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(72), head=voice.name)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(73, 92))
+music = baca.make_repeat_tied_notes(commands.get(73, 92))
 voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1))
+music = baca.make_repeat_tied_notes(commands.get(1))
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(2, 9))
@@ -271,7 +271,7 @@ voice.extend(music)
 music = library.make_eighth_notes(function=commands.get(73, 87))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(88, 92))
+music = baca.make_repeat_tied_notes(commands.get(88, 92))
 voice.extend(music)
 
 # anchor notes

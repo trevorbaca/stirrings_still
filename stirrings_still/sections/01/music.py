@@ -226,7 +226,7 @@ voice.extend(music)
 music = library.make_desynchronization_rhythm(4, [1], function=commands.get(54))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(55, 56))
+music = baca.make_repeat_tied_notes(commands.get(55, 56))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(57), head=voice.name)
@@ -335,7 +335,7 @@ voice.extend(music)
 music = library.make_desynchronization_rhythm(4, [0], function=commands.get(54))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(55, 56))
+music = baca.make_repeat_tied_notes(commands.get(55, 56))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(57), head=voice.name)
@@ -444,7 +444,7 @@ voice.extend(music)
 music = library.make_desynchronization_rhythm(4, [2], function=commands.get(54))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(55, 56))
+music = baca.make_repeat_tied_notes(commands.get(55, 56))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(57), head=voice.name)
@@ -475,7 +475,7 @@ voice = score["Cello.Music"]
 music = baca.make_mmrests(commands.get(1, 11), head=voice.name)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(
+music = baca.make_repeat_tied_notes(
     commands.get(12, 26),
     do_not_rewrite_meter=True,
 )
@@ -487,7 +487,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(28), head=voice.name)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(
+music = baca.make_repeat_tied_notes(
     commands.get(29, 40),
     do_not_rewrite_meter=True,
 )
@@ -523,7 +523,7 @@ voice.extend(music)
 music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(54))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(55, 56))
+music = baca.make_repeat_tied_notes(commands.get(55, 56))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(57), head=voice.name)

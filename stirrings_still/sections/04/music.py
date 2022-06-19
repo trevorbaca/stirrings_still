@@ -431,7 +431,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(48), head=voice.name)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(
+music = baca.make_repeat_tied_notes(
     commands.get(49, 53), do_not_rewrite_meter=True
 )
 voice.extend(music)
@@ -445,7 +445,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(56), head=voice.name)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(57))
+music = baca.make_repeat_tied_notes(commands.get(57))
 voice.extend(music)
 
 music = library.make_stroke_rhythm(0, function=commands.get(58, 63))
@@ -476,7 +476,7 @@ pleaf = baca.select.pleaf(music, 0)
 baca.repeat_tie_function(pleaf)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(
+music = baca.make_repeat_tied_notes(
     commands.get(90, 93), do_not_rewrite_meter=True
 )
 voice.extend(music)
@@ -563,7 +563,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(46, 48))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(
+music = baca.make_repeat_tied_notes(
     commands.get(49, 50), do_not_rewrite_meter=True
 )
 voice.extend(music)
@@ -571,7 +571,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(51), head=voice.name)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(
+music = baca.make_repeat_tied_notes(
     commands.get(52, 53), do_not_rewrite_meter=True
 )
 voice.extend(music)
@@ -579,7 +579,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(54, 56), head=voice.name)
 voice.extend(music)
 
-music = baca.make_skeleton_function("c2. ~ c4")
+music = baca.make_skeleton("c2. ~ c4")
 voice.extend(music)
 
 music = library.make_stroke_rhythm(0, function=commands.get(58, 63))
