@@ -99,14 +99,23 @@ voice = score["Violin.1.Music"]
 music = baca.make_repeat_tied_notes(commands.get(1, 5))
 voice.extend(music)
 
-music = library.make_circle_rhythm((1, 8), function=commands.get(6))
+music = library.make_circle_rhythm(
+    commands.get(6),
+    (1, 8),
+)
 voice.extend(music)
 
-music = library.make_accelerando((1, 2), (8, 32), function=commands.get(7, 8))
+music = library.make_accelerando(
+    commands.get(7, 8),
+    (1, 2),
+    (8, 32),
+)
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(
-    4, [0, 2, 1], function=commands.get(9, 16)
+    commands.get(9, 16),
+    4,
+    [0, 2, 1],
 )
 voice.extend(music)
 
@@ -114,25 +123,29 @@ music = baca.make_mmrests(commands.get(17, 22), head=voice.name)
 voice.extend(music)
 
 music = library.make_picket_rhythm(
+    commands.get(23, 28),
     4,
     2,
     rmakers.force_rest(
         lambda _: baca.select.tuplet(_, 0),
     ),
-    function=commands.get(23, 28),
 )
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(29), head=voice.name)
 voice.extend(music)
 
-music = library.make_accelerando((1, 2), (4, 32), function=commands.get(30, 31))
+music = library.make_accelerando(
+    commands.get(30, 31),
+    (1, 2),
+    (4, 32),
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(32), head=voice.name)
 voice.extend(music)
 
-music = library.make_clouded_pane_rhythm(function=commands.get(33, 34))
+music = library.make_clouded_pane_rhythm(commands.get(33, 34))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(35), head=voice.name)
@@ -141,31 +154,52 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes(commands.get(36, 37))
 voice.extend(music)
 
-music = library.make_accelerando((1, 2), (4, 32), function=commands.get(38, 40))
+music = library.make_accelerando(
+    commands.get(38, 40),
+    (1, 2),
+    (4, 32),
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(41), head=voice.name)
 voice.extend(music)
 
-music = library.make_accelerando((1, 2), (4, 32), function=commands.get(42, 45))
+music = library.make_accelerando(
+    commands.get(42, 45),
+    (1, 2),
+    (4, 32),
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(46), head=voice.name)
 voice.extend(music)
 
-music = library.make_picket_rhythm(4, 2, function=commands.get(47, 51))
+music = library.make_picket_rhythm(
+    commands.get(47, 51),
+    4,
+    2,
+)
 voice.extend(music)
 
-music = library.make_loure_tuplets_material(0, function=commands.get(52))
+music = library.make_loure_tuplets_material(
+    commands.get(52),
+    0,
+)
 voice.extend(music)
 
-music = library.make_clouded_pane_rhythm(function=commands.get(53, 54))
+music = library.make_clouded_pane_rhythm(commands.get(53, 54))
 voice.extend(music)
 
-music = library.make_loure_tuplets_material(0, function=commands.get(55))
+music = library.make_loure_tuplets_material(
+    commands.get(55),
+    0,
+)
 voice.extend(music)
 
-music = library.make_circle_rhythm((1, 8), function=commands.get(56))
+music = library.make_circle_rhythm(
+    commands.get(56),
+    (1, 8),
+)
 voice.extend(music)
 
 # V2
@@ -181,11 +215,17 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes(commands.get(7, 10))
 voice.extend(music)
 
-music = library.make_accelerando((1, 2), (7, 32), function=commands.get(11, 12))
+music = library.make_accelerando(
+    commands.get(11, 12),
+    (1, 2),
+    (7, 32),
+)
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(
-    4, [1, 0, 2], function=commands.get(13, 16)
+    commands.get(13, 16),
+    4,
+    [1, 0, 2],
 )
 voice.extend(music)
 
@@ -193,25 +233,29 @@ music = baca.make_mmrests(commands.get(17, 22), head=voice.name)
 voice.extend(music)
 
 music = library.make_picket_rhythm(
+    commands.get(23, 28),
     4,
     1,
     rmakers.force_rest(
         lambda _: baca.select.tuplet(_, 0),
     ),
-    function=commands.get(23, 28),
 )
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(29), head=voice.name)
 voice.extend(music)
 
-music = library.make_accelerando((1, 2), (8, 32), function=commands.get(30, 31))
+music = library.make_accelerando(
+    commands.get(30, 31),
+    (1, 2),
+    (8, 32),
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(32), head=voice.name)
 voice.extend(music)
 
-music = library.make_clocktick_rhythm(function=commands.get(33))
+music = library.make_clocktick_rhythm(commands.get(33))
 voice.extend(music)
 
 music = baca.make_skeleton(
@@ -225,25 +269,40 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes(commands.get(36, 37))
 voice.extend(music)
 
-music = library.make_accelerando((1, 2), (8, 32), function=commands.get(38, 40))
+music = library.make_accelerando(
+    commands.get(38, 40),
+    (1, 2),
+    (8, 32),
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(41), head=voice.name)
 voice.extend(music)
 
-music = library.make_accelerando((1, 2), (8, 32), function=commands.get(42, 45))
+music = library.make_accelerando(
+    commands.get(42, 45),
+    (1, 2),
+    (8, 32),
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(46), head=voice.name)
 voice.extend(music)
 
-music = library.make_picket_rhythm(4, 1, function=commands.get(47, 51))
+music = library.make_picket_rhythm(
+    commands.get(47, 51),
+    4,
+    1,
+)
 voice.extend(music)
 
-music = library.make_loure_tuplets_material(1, function=commands.get(52))
+music = library.make_loure_tuplets_material(
+    commands.get(52),
+    1,
+)
 voice.extend(music)
 
-music = library.make_clocktick_rhythm(function=commands.get(53))
+music = library.make_clocktick_rhythm(commands.get(53))
 voice.extend(music)
 
 music = baca.make_skeleton(
@@ -251,10 +310,16 @@ music = baca.make_skeleton(
 )
 voice.extend(music)
 
-music = library.make_loure_tuplets_material(1, function=commands.get(55))
+music = library.make_loure_tuplets_material(
+    commands.get(55),
+    1,
+)
 voice.extend(music)
 
-music = library.make_circle_rhythm((1, 4), function=commands.get(56))
+music = library.make_circle_rhythm(
+    commands.get(56),
+    (1, 4),
+)
 voice.extend(music)
 
 # VA
@@ -265,18 +330,24 @@ music = baca.make_repeat_tied_notes(commands.get(1, 5))
 voice.extend(music)
 
 music = library.make_circle_rhythm(
+    commands.get(6),
     (1, 2),
     rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
     remainder=abjad.LEFT,
-    function=commands.get(6),
 )
 voice.extend(music)
 
-music = library.make_accelerando((1, 2), (6, 32), function=commands.get(7, 8))
+music = library.make_accelerando(
+    commands.get(7, 8),
+    (1, 2),
+    (6, 32),
+)
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(
-    4, [1, 0, 2], function=commands.get(9, 16)
+    commands.get(9, 16),
+    4,
+    [1, 0, 2],
 )
 voice.extend(music)
 
@@ -284,25 +355,29 @@ music = baca.make_mmrests(commands.get(17, 22), head=voice.name)
 voice.extend(music)
 
 music = library.make_picket_rhythm(
+    commands.get(23, 28),
     4,
     0,
     rmakers.force_rest(
         lambda _: baca.select.tuplet(_, 0),
     ),
-    function=commands.get(23, 28),
 )
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(29), head=voice.name)
 voice.extend(music)
 
-music = library.make_accelerando((1, 2), (12, 32), function=commands.get(30, 31))
+music = library.make_accelerando(
+    commands.get(30, 31),
+    (1, 2),
+    (12, 32),
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(32), head=voice.name)
 voice.extend(music)
 
-music = library.make_clouded_pane_rhythm(function=commands.get(33, 34))
+music = library.make_clouded_pane_rhythm(commands.get(33, 34))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(35), head=voice.name)
@@ -311,28 +386,46 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes(commands.get(36, 37))
 voice.extend(music)
 
-music = library.make_accelerando((1, 2), (12, 32), function=commands.get(38, 40))
+music = library.make_accelerando(
+    commands.get(38, 40),
+    (1, 2),
+    (12, 32),
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(41), head=voice.name)
 voice.extend(music)
 
-music = library.make_accelerando((1, 2), (12, 32), function=commands.get(42, 45))
+music = library.make_accelerando(
+    commands.get(42, 45),
+    (1, 2),
+    (12, 32),
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(46), head=voice.name)
 voice.extend(music)
 
-music = library.make_picket_rhythm(4, 0, function=commands.get(47, 51))
+music = library.make_picket_rhythm(
+    commands.get(47, 51),
+    4,
+    0,
+)
 voice.extend(music)
 
-music = library.make_loure_tuplets_material(-1, function=commands.get(52))
+music = library.make_loure_tuplets_material(
+    commands.get(52),
+    -1,
+)
 voice.extend(music)
 
-music = library.make_clouded_pane_rhythm(function=commands.get(53, 54))
+music = library.make_clouded_pane_rhythm(commands.get(53, 54))
 voice.extend(music)
 
-music = library.make_loure_tuplets_material(-1, function=commands.get(55))
+music = library.make_loure_tuplets_material(
+    commands.get(55),
+    -1,
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(56), head=voice.name)
@@ -345,7 +438,7 @@ voice = score["Cello.Music"]
 music = baca.make_repeat_tied_notes(commands.get(1, 5))
 voice.extend(music)
 
-music = library.make_eighth_notes(function=commands.get(6))
+music = library.make_eighth_notes(commands.get(6))
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes(commands.get(7, 31))
@@ -354,7 +447,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(32), head=voice.name)
 voice.extend(music)
 
-music = library.make_clouded_pane_rhythm(function=commands.get(33, 34))
+music = library.make_clouded_pane_rhythm(commands.get(33, 34))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(35), head=voice.name)
@@ -366,16 +459,27 @@ voice.extend(music)
 music = baca.make_notes(commands.get(38, 46))
 voice.extend(music)
 
-music = library.make_trajectory_rhythm("A", -1, 0, function=commands.get(47, 51))
+music = library.make_trajectory_rhythm(
+    commands.get(47, 51),
+    "A",
+    -1,
+    0,
+)
 voice.extend(music)
 
-music = library.make_taper_rhythm((1, 1), function=commands.get(52))
+music = library.make_taper_rhythm(
+    commands.get(52),
+    (1, 1),
+)
 voice.extend(music)
 
-music = library.make_clouded_pane_rhythm(function=commands.get(53, 54))
+music = library.make_clouded_pane_rhythm(commands.get(53, 54))
 voice.extend(music)
 
-music = library.make_taper_rhythm((1, 1), function=commands.get(55))
+music = library.make_taper_rhythm(
+    commands.get(55),
+    (1, 1),
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(56), head=voice.name)

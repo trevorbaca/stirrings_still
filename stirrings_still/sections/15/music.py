@@ -55,10 +55,17 @@ library.time(score, commands, time)
 
 voice = score["Violin.1.Music"]
 
-music = library.make_circle_rhythm((1, 4), function=commands.get(1, 6))
+music = library.make_circle_rhythm(
+    commands.get(1, 6),
+    (1, 4),
+)
 voice.extend(music)
 
-music = library.make_picket_rhythm(4, 2, function=commands.get(7))
+music = library.make_picket_rhythm(
+    commands.get(7),
+    4,
+    2,
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(8), head=voice.name)
@@ -68,10 +75,17 @@ voice.extend(music)
 
 voice = score["Violin.2.Music"]
 
-music = library.make_circle_rhythm((1, 4), function=commands.get(1, 6))
+music = library.make_circle_rhythm(
+    commands.get(1, 6),
+    (1, 4),
+)
 voice.extend(music)
 
-music = library.make_picket_rhythm(4, 1, function=commands.get(7))
+music = library.make_picket_rhythm(
+    commands.get(7),
+    4,
+    1,
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(8), head=voice.name)
@@ -81,10 +95,17 @@ voice.extend(music)
 
 voice = score["Viola.Music"]
 
-music = library.make_circle_rhythm((1, 4), function=commands.get(1, 6))
+music = library.make_circle_rhythm(
+    commands.get(1, 6),
+    (1, 4),
+)
 voice.extend(music)
 
-music = library.make_picket_rhythm(4, 0, function=commands.get(7))
+music = library.make_picket_rhythm(
+    commands.get(7),
+    4,
+    0,
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(8), head=voice.name)
@@ -94,10 +115,18 @@ voice.extend(music)
 
 voice = score["Cello.Music"]
 
-music = library.make_circle_rhythm((1, 4), function=commands.get(1, 6))
+music = library.make_circle_rhythm(
+    commands.get(1, 6),
+    (1, 4),
+)
 voice.extend(music)
 
-music = library.make_trajectory_rhythm("A", -1, 0, function=commands.get(7))
+music = library.make_trajectory_rhythm(
+    commands.get(7),
+    "A",
+    -1,
+    0,
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(8), head=voice.name)

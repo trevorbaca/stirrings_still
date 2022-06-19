@@ -64,6 +64,7 @@ def nonlast_tuplet_pleaves(indices):
 voice = score["Violin.1.Music"]
 
 music = library.make_trajectory_rhythm(
+    commands.get(),
     "C",
     0,
     -3,
@@ -73,7 +74,6 @@ music = library.make_trajectory_rhythm(
     rmakers.tie(
         nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
     ),
-    function=commands.get(),
 )
 voice.extend(music)
 
@@ -82,6 +82,7 @@ voice.extend(music)
 voice = score["Violin.2.Music"]
 
 music = library.make_trajectory_rhythm(
+    commands.get(),
     "C",
     -1,
     -2,
@@ -91,7 +92,6 @@ music = library.make_trajectory_rhythm(
     rmakers.tie(
         nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
     ),
-    function=commands.get(),
 )
 voice.extend(music)
 
@@ -100,6 +100,7 @@ voice.extend(music)
 voice = score["Viola.Music"]
 
 music = library.make_trajectory_rhythm(
+    commands.get(),
     "C",
     -2,
     -1,
@@ -109,7 +110,6 @@ music = library.make_trajectory_rhythm(
     rmakers.tie(
         nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
     ),
-    function=commands.get(),
 )
 voice.extend(music)
 
@@ -117,7 +117,7 @@ voice.extend(music)
 
 voice = score["Cello.Music"]
 
-music = library.make_clouded_pane_rhythm(function=commands.get())
+music = library.make_clouded_pane_rhythm(commands.get())
 voice.extend(music)
 
 # anchor notes

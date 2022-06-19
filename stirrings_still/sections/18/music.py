@@ -57,7 +57,12 @@ library.time(score, commands, time)
 
 voice = score["Violin.1.Music"]
 
-music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(1, 8))
+music = library.make_trajectory_rhythm(
+    commands.get(1, 8),
+    "C",
+    0,
+    -3,
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(9, 17), head=voice.name)
@@ -67,7 +72,12 @@ voice.extend(music)
 
 voice = score["Violin.2.Music"]
 
-music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(1, 8))
+music = library.make_trajectory_rhythm(
+    commands.get(1, 8),
+    "C",
+    -1,
+    -2,
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(9, 17), head=voice.name)
