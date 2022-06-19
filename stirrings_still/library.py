@@ -2028,17 +2028,18 @@ def make_urtext_field_rhythm(*, function=None):
     return music
 
 
-def make_wave_rhythm(start, stop, *, function=None):
-    command = baca.rhythm(
+def make_wave_rhythm(start, stop, *, function=None, previous_state=None):
+    rhythm_maker = rmakers.stack(
         rmakers.accelerando([start, stop, (1, 16)], [stop, start, (1, 16)]),
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    if function:
-        music = command.rhythm_maker(function)
+    music = rhythm_maker(function, previous_state=previous_state)
+    if previous_state is not None:
+        return music, rhythm_maker.state
+    else:
         return music
-    return command
 
 
 def short_instrument_name(
