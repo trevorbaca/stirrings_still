@@ -131,7 +131,7 @@ voice.extend(music)
 music = library.make_picket_rhythm(4, 2, function=commands.get(21))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(22), head=voice.name)
+music = baca.make_mmrests(commands.get(22), head=voice.name)
 voice.extend(music)
 
 music = library.make_picket_rhythm(4, 2, function=commands.get(23))
@@ -167,7 +167,7 @@ music = baca.make_repeat_tied_notes_function(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(54), head=voice.name)
+music = baca.make_mmrests(commands.get(54), head=voice.name)
 voice.extend(music)
 
 # V2
@@ -212,7 +212,7 @@ voice.extend(music)
 music = library.make_picket_rhythm(4, 1, function=commands.get(21))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(22), head=voice.name)
+music = baca.make_mmrests(commands.get(22), head=voice.name)
 voice.extend(music)
 
 music = library.make_picket_rhythm(4, 1, function=commands.get(23))
@@ -248,7 +248,7 @@ music = baca.make_repeat_tied_notes_function(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(54), head=voice.name)
+music = baca.make_mmrests(commands.get(54), head=voice.name)
 voice.extend(music)
 
 # VA
@@ -286,7 +286,7 @@ voice.extend(music)
 music = library.make_picket_rhythm(4, 0, function=commands.get(21))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(22), head=voice.name)
+music = baca.make_mmrests(commands.get(22), head=voice.name)
 voice.extend(music)
 
 music = library.make_picket_rhythm(4, 0, function=commands.get(23))
@@ -325,7 +325,7 @@ music = baca.make_repeat_tied_notes_function(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(54), head=voice.name)
+music = baca.make_mmrests(commands.get(54), head=voice.name)
 voice.extend(music)
 
 # VC

@@ -119,13 +119,13 @@ voice.extend(music)
 
 voice = score["Cello.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 2), head=voice.name)
+music = baca.make_mmrests(commands.get(1, 2), head=voice.name)
 voice.extend(music)
 
 music = library.make_clouded_pane_rhythm(function=commands.get(3, 4))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(5, 6), head=voice.name)
+music = baca.make_mmrests(commands.get(5, 6), head=voice.name)
 voice.extend(music)
 
 music = library.make_urtext_field_rhythm(function=commands.get(7, 11))
@@ -134,7 +134,7 @@ voice.extend(music)
 music = library.make_accelerando((1, 4), (3, 32), function=commands.get(12, 13))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(14, 17), head=voice.name)
+music = baca.make_mmrests(commands.get(14, 17), head=voice.name)
 voice.extend(music)
 
 # anchor notes

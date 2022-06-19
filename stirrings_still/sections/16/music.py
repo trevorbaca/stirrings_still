@@ -114,7 +114,7 @@ voice.extend(music)
 music = library.make_eighth_notes(function=commands.get(21, 25))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(26), head=voice.name)
+music = baca.make_mmrests(commands.get(26), head=voice.name)
 voice.extend(music)
 
 # V2
@@ -164,7 +164,7 @@ voice.extend(music)
 music = library.make_eighth_notes(function=commands.get(21, 25))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(26), head=voice.name)
+music = baca.make_mmrests(commands.get(26), head=voice.name)
 voice.extend(music)
 
 # VA
@@ -210,7 +210,7 @@ voice.extend(music)
 music = library.make_eighth_notes(function=commands.get(21, 25))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(26), head=voice.name)
+music = baca.make_mmrests(commands.get(26), head=voice.name)
 voice.extend(music)
 
 # VC
@@ -260,7 +260,7 @@ voice.extend(music)
 music = library.make_eighth_notes(function=commands.get(21, 25))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(26), head=voice.name)
+music = baca.make_mmrests(commands.get(26), head=voice.name)
 voice.extend(music)
 
 # reapply

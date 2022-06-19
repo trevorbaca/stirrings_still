@@ -61,7 +61,7 @@ voice.extend(music)
 music = library.make_picket_rhythm(4, 2, function=commands.get(7))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(8), head=voice.name)
+music = baca.make_mmrests(commands.get(8), head=voice.name)
 voice.extend(music)
 
 # V2
@@ -74,7 +74,7 @@ voice.extend(music)
 music = library.make_picket_rhythm(4, 1, function=commands.get(7))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(8), head=voice.name)
+music = baca.make_mmrests(commands.get(8), head=voice.name)
 voice.extend(music)
 
 # VA
@@ -87,7 +87,7 @@ voice.extend(music)
 music = library.make_picket_rhythm(4, 0, function=commands.get(7))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(8), head=voice.name)
+music = baca.make_mmrests(commands.get(8), head=voice.name)
 voice.extend(music)
 
 # VC
@@ -100,7 +100,7 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("A", -1, 0, function=commands.get(7))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(8), head=voice.name)
+music = baca.make_mmrests(commands.get(8), head=voice.name)
 voice.extend(music)
 
 # reapply

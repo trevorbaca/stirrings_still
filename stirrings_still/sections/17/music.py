@@ -118,7 +118,7 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(70, 71))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(72), head=voice.name)
+music = baca.make_mmrests(commands.get(72), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(73, 92))
@@ -167,7 +167,7 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(71))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(72), head=voice.name)
+music = baca.make_mmrests(commands.get(72), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(73, 92))
@@ -216,7 +216,7 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(70, 71))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(72), head=voice.name)
+music = baca.make_mmrests(commands.get(72), head=voice.name)
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(73, 92))
@@ -265,7 +265,7 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(70, 71))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(72), head=voice.name)
+music = baca.make_mmrests(commands.get(72), head=voice.name)
 voice.extend(music)
 
 music = library.make_eighth_notes(function=commands.get(73, 87))

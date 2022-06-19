@@ -130,7 +130,7 @@ voice = score["Violin.1.Music"]
 music = library.make_continuous_tremolo_material(function=commands.get(1, 2))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(3), head=voice.name)
+music = baca.make_mmrests(commands.get(3), head=voice.name)
 voice.extend(music)
 
 music = library.make_picket_rhythm(
@@ -155,7 +155,7 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(35, 40))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(41), head=voice.name)
+music = baca.make_mmrests(commands.get(41), head=voice.name)
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(4, [2], function=commands.get(42, 49))
@@ -164,7 +164,7 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(50, 61))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(62), head=voice.name)
+music = baca.make_mmrests(commands.get(62), head=voice.name)
 voice.extend(music)
 
 music = library.make_running_quarter_divisions(4, function=commands.get(63, 78))
@@ -173,7 +173,7 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(79, 80))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(81), head=voice.name)
+music = baca.make_mmrests(commands.get(81), head=voice.name)
 voice.extend(music)
 
 music = library.make_talea_eighth_notes(
@@ -181,7 +181,7 @@ music = library.make_talea_eighth_notes(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(86))
+music = baca.make_mmrests(commands.get(86))
 voice.extend(music)
 
 music = library.make_talea_eighth_notes([3, 6, 8], 0, 1, function=commands.get(87, 88))
@@ -198,7 +198,7 @@ music = library.make_talea_eighth_notes(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(111), head=voice.name)
+music = baca.make_mmrests(commands.get(111), head=voice.name)
 voice.extend(music)
 
 music = library.make_talea_eighth_notes(
@@ -206,7 +206,7 @@ music = library.make_talea_eighth_notes(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(120, 127), head=voice.name)
+music = baca.make_mmrests(commands.get(120, 127), head=voice.name)
 voice.extend(music)
 
 # V2
@@ -216,7 +216,7 @@ voice = score["Violin.2.Music"]
 music = library.make_continuous_tremolo_material(function=commands.get(1, 2))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(3), head=voice.name)
+music = baca.make_mmrests(commands.get(3), head=voice.name)
 voice.extend(music)
 
 music = library.make_picket_rhythm(
@@ -244,7 +244,7 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(35, 40))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(41), head=voice.name)
+music = baca.make_mmrests(commands.get(41), head=voice.name)
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(4, [1], function=commands.get(42, 53))
@@ -253,7 +253,7 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(54, 61))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(62), head=voice.name)
+music = baca.make_mmrests(commands.get(62), head=voice.name)
 voice.extend(music)
 
 music = library.make_running_quarter_divisions(3, function=commands.get(63, 77))
@@ -262,7 +262,7 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(78, 80))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(81), head=voice.name)
+music = baca.make_mmrests(commands.get(81), head=voice.name)
 voice.extend(music)
 
 music = library.make_talea_eighth_notes(
@@ -270,7 +270,7 @@ music = library.make_talea_eighth_notes(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(86))
+music = baca.make_mmrests(commands.get(86))
 voice.extend(music)
 
 music = library.make_talea_eighth_notes([3, 6, 8], -1, 0, function=commands.get(87, 88))
@@ -287,7 +287,7 @@ music = library.make_talea_eighth_notes(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(111), head=voice.name)
+music = baca.make_mmrests(commands.get(111), head=voice.name)
 voice.extend(music)
 
 music = library.make_talea_eighth_notes(
@@ -295,7 +295,7 @@ music = library.make_talea_eighth_notes(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(120, 127), head=voice.name)
+music = baca.make_mmrests(commands.get(120, 127), head=voice.name)
 voice.extend(music)
 
 # VA
@@ -305,7 +305,7 @@ voice = score["Viola.Music"]
 music = library.make_continuous_tremolo_material(function=commands.get(1, 2))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(3), head=voice.name)
+music = baca.make_mmrests(commands.get(3), head=voice.name)
 voice.extend(music)
 
 music = library.make_picket_rhythm(
@@ -330,7 +330,7 @@ voice.extend(music)
 music = library.make_measure_initiation_rhythm(function=commands.get(35, 40))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(41), head=voice.name)
+music = baca.make_mmrests(commands.get(41), head=voice.name)
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(4, [0], function=commands.get(42, 49))
@@ -339,7 +339,7 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(50, 61))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(62), head=voice.name)
+music = baca.make_mmrests(commands.get(62), head=voice.name)
 voice.extend(music)
 
 music = library.make_running_quarter_divisions(2, function=commands.get(63, 76))
@@ -348,7 +348,7 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(77, 80))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(81), head=voice.name)
+music = baca.make_mmrests(commands.get(81), head=voice.name)
 voice.extend(music)
 
 music = library.make_talea_eighth_notes(
@@ -356,7 +356,7 @@ music = library.make_talea_eighth_notes(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(86))
+music = baca.make_mmrests(commands.get(86))
 voice.extend(music)
 
 music = library.make_talea_eighth_notes(
@@ -375,7 +375,7 @@ music = library.make_talea_eighth_notes(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(111), head=voice.name)
+music = baca.make_mmrests(commands.get(111), head=voice.name)
 voice.extend(music)
 
 music = library.make_talea_eighth_notes(
@@ -383,7 +383,7 @@ music = library.make_talea_eighth_notes(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(120, 127), head=voice.name)
+music = baca.make_mmrests(commands.get(120, 127), head=voice.name)
 voice.extend(music)
 
 # VC
@@ -393,7 +393,7 @@ voice = score["Cello.Music"]
 music = library.make_clouded_pane_rhythm(function=commands.get(1, 2))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(3))
+music = baca.make_mmrests(commands.get(3))
 voice.extend(music)
 
 music = library.make_clouded_pane_rhythm(function=commands.get(4, 5))
@@ -402,7 +402,7 @@ voice.extend(music)
 music = library.make_clouded_pane_rhythm(function=commands.get(6, 27))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(28, 41), head=voice.name)
+music = baca.make_mmrests(commands.get(28, 41), head=voice.name)
 voice.extend(music)
 
 music = library.make_desynchronization_rhythm(4, [-1], function=commands.get(42, 49))
@@ -411,13 +411,13 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(50, 61))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(62), head=voice.name)
+music = baca.make_mmrests(commands.get(62), head=voice.name)
 voice.extend(music)
 
 music = library.make_clouded_pane_rhythm(function=commands.get(63, 80))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(81), head=voice.name)
+music = baca.make_mmrests(commands.get(81), head=voice.name)
 voice.extend(music)
 
 music = library.make_clouded_pane_rhythm(function=commands.get(82, 88))
@@ -432,7 +432,7 @@ voice.extend(music)
 music = library.make_clouded_pane_rhythm(function=commands.get(109, 115))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(116, 117), head=voice.name)
+music = baca.make_mmrests(commands.get(116, 117), head=voice.name)
 voice.extend(music)
 
 music = library.make_clouded_pane_rhythm(function=commands.get(118, 127))
