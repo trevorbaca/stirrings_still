@@ -166,7 +166,7 @@ music = library.make_clocktick_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(8, 11), head=voice.name)
+music = baca.make_mmrests(commands.get(8, 11), head=voice.name)
 voice.extend(music)
 
 music = library.make_circle_rhythm(
@@ -203,19 +203,19 @@ music = library.make_clocktick_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(25), head=voice.name)
+music = baca.make_mmrests(commands.get(25), head=voice.name)
 voice.extend(music)
 
 music = library.make_declamation_rhythm(function=commands.get(26))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(27, 28), head=voice.name)
+music = baca.make_mmrests(commands.get(27, 28), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(29, 30))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(31), head=voice.name)
+music = baca.make_mmrests(commands.get(31), head=voice.name)
 voice.extend(music)
 
 music = library.make_rasp_rhythm(function=commands.get(32, 33))
@@ -224,13 +224,13 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(34, 35))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(36), head=voice.name)
+music = baca.make_mmrests(commands.get(36), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(37, 38))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(39), head=voice.name)
+music = baca.make_mmrests(commands.get(39), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(40, 41))
@@ -239,25 +239,25 @@ voice.extend(music)
 music = library.make_circle_rhythm((1, 4), function=commands.get(42))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(43), head=voice.name)
+music = baca.make_mmrests(commands.get(43), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(44))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(45), head=voice.name)
+music = baca.make_mmrests(commands.get(45), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(46))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(47), head=voice.name)
+music = baca.make_mmrests(commands.get(47), head=voice.name)
 voice.extend(music)
 
 music = library.make_urtext_field_rhythm(function=commands.get(48))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(49), head=voice.name)
+music = baca.make_mmrests(commands.get(49), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", 0, -3, function=commands.get(50, 57))
@@ -269,7 +269,7 @@ voice.extend(music)
 music = library.make_circle_rhythm((1, 4), function=commands.get(61, 62))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(63), head=voice.name)
+music = baca.make_mmrests(commands.get(63), head=voice.name)
 voice.extend(music)
 
 music = library.make_flight_rhythm(
@@ -283,7 +283,7 @@ voice.extend(music)
 music = library.make_grid_rhythm(rotation=0, function=commands.get(65))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(66), head=voice.name)
+music = baca.make_mmrests(commands.get(66), head=voice.name)
 voice.extend(music)
 
 # V2
@@ -298,7 +298,7 @@ music = library.make_clocktick_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(8, 11), head=voice.name)
+music = baca.make_mmrests(commands.get(8, 11), head=voice.name)
 voice.extend(music)
 
 music = library.make_clocktick_rhythm(function=commands.get(12))
@@ -337,13 +337,13 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", -1, 0, function=commands.get(27))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(28), head=voice.name)
+music = baca.make_mmrests(commands.get(28), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(29, 30))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(31), head=voice.name)
+music = baca.make_mmrests(commands.get(31), head=voice.name)
 voice.extend(music)
 
 music = library.make_rasp_rhythm(function=commands.get(32, 33))
@@ -352,13 +352,13 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(34, 35))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(36), head=voice.name)
+music = baca.make_mmrests(commands.get(36), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(37, 38))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(39), head=voice.name)
+music = baca.make_mmrests(commands.get(39), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(40, 41))
@@ -367,25 +367,25 @@ voice.extend(music)
 music = library.make_circle_rhythm((1, 4), function=commands.get(42))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(43), head=voice.name)
+music = baca.make_mmrests(commands.get(43), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(44))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(45), head=voice.name)
+music = baca.make_mmrests(commands.get(45), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(46))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(47), head=voice.name)
+music = baca.make_mmrests(commands.get(47), head=voice.name)
 voice.extend(music)
 
 music = library.make_urtext_field_rhythm(function=commands.get(48))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(49), head=voice.name)
+music = baca.make_mmrests(commands.get(49), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(50, 57))
@@ -394,7 +394,7 @@ voice.extend(music)
 music = library.make_circle_rhythm((1, 4), function=commands.get(58, 62))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(63), head=voice.name)
+music = baca.make_mmrests(commands.get(63), head=voice.name)
 voice.extend(music)
 
 music = library.make_flight_rhythm(
@@ -408,7 +408,7 @@ voice.extend(music)
 music = library.make_grid_rhythm(rotation=-1, function=commands.get(65))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(66), head=voice.name)
+music = baca.make_mmrests(commands.get(66), head=voice.name)
 voice.extend(music)
 
 # VA
@@ -426,13 +426,13 @@ voice.extend(music)
 music = library.make_circle_rhythm((1, 4), function=commands.get(6, 7))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(8, 11), head=voice.name)
+music = baca.make_mmrests(commands.get(8, 11), head=voice.name)
 voice.extend(music)
 
 music = library.make_circle_rhythm((1, 4), function=commands.get(12, 21))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(22), head=voice.name)
+music = baca.make_mmrests(commands.get(22), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", 0, 0, function=commands.get(23, 25))
@@ -444,13 +444,13 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", 0, 0, function=commands.get(27))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(28), head=voice.name)
+music = baca.make_mmrests(commands.get(28), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(29, 30))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(31), head=voice.name)
+music = baca.make_mmrests(commands.get(31), head=voice.name)
 voice.extend(music)
 
 music = library.make_rasp_rhythm(function=commands.get(32, 33))
@@ -459,13 +459,13 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(34, 35))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(36), head=voice.name)
+music = baca.make_mmrests(commands.get(36), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(37, 38))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(39), head=voice.name)
+music = baca.make_mmrests(commands.get(39), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(40, 41))
@@ -474,25 +474,25 @@ voice.extend(music)
 music = library.make_circle_rhythm((1, 4), function=commands.get(42))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(43), head=voice.name)
+music = baca.make_mmrests(commands.get(43), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(44))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(45), head=voice.name)
+music = baca.make_mmrests(commands.get(45), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(46))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(47), head=voice.name)
+music = baca.make_mmrests(commands.get(47), head=voice.name)
 voice.extend(music)
 
 music = library.make_urtext_field_rhythm(function=commands.get(48))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(49), head=voice.name)
+music = baca.make_mmrests(commands.get(49), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(50, 57))
@@ -504,7 +504,7 @@ voice.extend(music)
 music = library.make_circle_rhythm((1, 4), function=commands.get(60, 62))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(63), head=voice.name)
+music = baca.make_mmrests(commands.get(63), head=voice.name)
 voice.extend(music)
 
 music = library.make_flight_rhythm(
@@ -518,7 +518,7 @@ voice.extend(music)
 music = library.make_grid_rhythm(rotation=-2, function=commands.get(65))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(66), head=voice.name)
+music = baca.make_mmrests(commands.get(66), head=voice.name)
 voice.extend(music)
 
 # VC
@@ -565,19 +565,19 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("B", 0, 0, function=commands.get(20, 25))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(26), head=voice.name)
+music = baca.make_mmrests(commands.get(26), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("B", 0, 0, function=commands.get(27))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(28), head=voice.name)
+music = baca.make_mmrests(commands.get(28), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(29, 30))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(31), head=voice.name)
+music = baca.make_mmrests(commands.get(31), head=voice.name)
 voice.extend(music)
 
 music = library.make_rasp_rhythm(function=commands.get(32, 33))
@@ -586,13 +586,13 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(34, 35))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(36), head=voice.name)
+music = baca.make_mmrests(commands.get(36), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(37, 38))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(39), head=voice.name)
+music = baca.make_mmrests(commands.get(39), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(40, 41))
@@ -601,7 +601,7 @@ voice.extend(music)
 music = library.make_circle_rhythm((1, 4), function=commands.get(42))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(43), head=voice.name)
+music = baca.make_mmrests(commands.get(43), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(44))
@@ -613,13 +613,13 @@ voice.extend(music)
 music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(46))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(47), head=voice.name)
+music = baca.make_mmrests(commands.get(47), head=voice.name)
 voice.extend(music)
 
 music = library.make_clouded_pane_rhythm(function=commands.get(48))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(49), head=voice.name)
+music = baca.make_mmrests(commands.get(49), head=voice.name)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(50, 57))
@@ -631,7 +631,7 @@ voice.extend(music)
 music = library.make_circle_rhythm((1, 4), function=commands.get(62))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(63), head=voice.name)
+music = baca.make_mmrests(commands.get(63), head=voice.name)
 voice.extend(music)
 
 music = library.make_clouded_pane_rhythm(function=commands.get(64))
@@ -640,7 +640,7 @@ voice.extend(music)
 music = library.make_grid_rhythm(rotation=-3, function=commands.get(65))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(66), head=voice.name)
+music = baca.make_mmrests(commands.get(66), head=voice.name)
 voice.extend(music)
 
 # reapply

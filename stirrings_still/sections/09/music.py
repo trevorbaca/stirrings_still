@@ -56,7 +56,7 @@ voice = score["Violin.1.Music"]
 music = library.make_circle_rhythm((1, 8), function=commands.get(1, 7))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(8, 9), head=voice.name)
+music = baca.make_mmrests(commands.get(8, 9), head=voice.name)
 voice.extend(music)
 
 music = library.make_urtext_field_rhythm(function=commands.get(10, 11))
@@ -69,7 +69,7 @@ voice = score["Violin.2.Music"]
 music = library.make_circle_rhythm((1, 4), function=commands.get(1, 7))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(8, 9), head=voice.name)
+music = baca.make_mmrests(commands.get(8, 9), head=voice.name)
 voice.extend(music)
 
 music = library.make_urtext_field_rhythm(function=commands.get(10, 11))
@@ -87,7 +87,7 @@ music = library.make_circle_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(8, 9), head=voice.name)
+music = baca.make_mmrests(commands.get(8, 9), head=voice.name)
 voice.extend(music)
 
 music = library.make_urtext_field_rhythm(function=commands.get(10, 11))
