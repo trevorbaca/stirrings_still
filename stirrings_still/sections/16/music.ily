@@ -1773,6 +1773,7 @@ number.16.Violin.1.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! abjad.glissando(6)
           %! baca.glissando()
@@ -1821,6 +1822,7 @@ number.16.Violin.1.Music = {
           %! baca.tasto_spanner()
         \bacaStopTextSpanSCP
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -1934,6 +1936,7 @@ number.16.Violin.1.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a'16 * 61/64
@@ -1943,6 +1946,7 @@ number.16.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"61" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -2009,6 +2013,7 @@ number.16.Violin.1.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! stirrings_still.make_wave_rhythm()
         a'16 * 29/32
@@ -2033,6 +2038,7 @@ number.16.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"29" #"32"
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2104,6 +2110,7 @@ number.16.Violin.1.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a'16 * 213/64
@@ -2113,6 +2120,7 @@ number.16.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"213" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -2288,6 +2296,7 @@ number.16.Violin.1.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! abjad.glissando(6)
           %! baca.glissando()
@@ -2336,6 +2345,7 @@ number.16.Violin.1.Music = {
           %! baca.tasto_spanner()
         \bacaStopTextSpanSCP
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -2479,6 +2489,7 @@ number.16.Violin.1.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a'16 * 61/64
@@ -2488,6 +2499,7 @@ number.16.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"61" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -2689,6 +2701,7 @@ number.16.Violin.1.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! abjad.glissando(6)
           %! baca.glissando()
@@ -2737,6 +2750,7 @@ number.16.Violin.1.Music = {
           %! baca.tasto_spanner()
         \bacaStopTextSpanSCP
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -2870,6 +2884,7 @@ number.16.Violin.1.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a'16 * 31/32
@@ -2879,6 +2894,7 @@ number.16.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"31" #"32"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -2945,6 +2961,7 @@ number.16.Violin.1.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! stirrings_still.make_wave_rhythm()
         a'16 * 59/64
@@ -2969,6 +2986,7 @@ number.16.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"59" #"64"
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3060,6 +3078,7 @@ number.16.Violin.1.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a'16 * 225/64
@@ -3069,6 +3088,7 @@ number.16.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"225" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -3244,6 +3264,7 @@ number.16.Violin.1.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! abjad.glissando(6)
           %! baca.glissando()
@@ -3292,6 +3313,7 @@ number.16.Violin.1.Music = {
           %! baca.tasto_spanner()
         \bacaStopTextSpanSCP
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -3435,6 +3457,7 @@ number.16.Violin.1.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a'16 * 61/64
@@ -3444,6 +3467,7 @@ number.16.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"61" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % COMMANDS:
           %! baca.OverrideCommand._call(2)
@@ -4150,6 +4174,7 @@ number.16.Violin.2.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! abjad.glissando(6)
           %! baca.glissando()
@@ -4198,6 +4223,7 @@ number.16.Violin.2.Music = {
           %! baca.tasto_spanner()
         \bacaStopTextSpanSCP
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -4321,6 +4347,7 @@ number.16.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a16 * 59/64
@@ -4330,6 +4357,7 @@ number.16.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"59" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -4496,6 +4524,7 @@ number.16.Violin.2.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override Stem.transparent = ##t
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! abjad.glissando(6)
           %! baca.glissando()
@@ -4544,6 +4573,7 @@ number.16.Violin.2.Music = {
           %! baca.tasto_spanner()
         \bacaStopTextSpanSCP
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -4657,6 +4687,7 @@ number.16.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a16 * 285/64
@@ -4681,6 +4712,7 @@ number.16.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"285" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -4862,6 +4894,7 @@ number.16.Violin.2.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override Stem.transparent = ##t
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! abjad.glissando(6)
           %! baca.glissando()
@@ -4910,6 +4943,7 @@ number.16.Violin.2.Music = {
           %! baca.tasto_spanner()
         \bacaStopTextSpanSCP
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -5033,6 +5067,7 @@ number.16.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a16 * 69/64
@@ -5042,6 +5077,7 @@ number.16.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"69" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -5243,6 +5279,7 @@ number.16.Violin.2.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! abjad.glissando(6)
           %! baca.glissando()
@@ -5291,6 +5328,7 @@ number.16.Violin.2.Music = {
           %! baca.tasto_spanner()
         \bacaStopTextSpanSCP
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -5424,6 +5462,7 @@ number.16.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a16 * 65/64
@@ -5433,6 +5472,7 @@ number.16.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"65" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -5599,6 +5639,7 @@ number.16.Violin.2.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override Stem.transparent = ##t
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! abjad.glissando(6)
           %! baca.glissando()
@@ -5647,6 +5688,7 @@ number.16.Violin.2.Music = {
           %! baca.tasto_spanner()
         \bacaStopTextSpanSCP
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -5780,6 +5822,7 @@ number.16.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a16 * 151/32
@@ -5804,6 +5847,7 @@ number.16.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"151" #"32"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -5985,6 +6029,7 @@ number.16.Violin.2.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override Stem.transparent = ##t
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! abjad.glissando(6)
           %! baca.glissando()
@@ -6033,6 +6078,7 @@ number.16.Violin.2.Music = {
           %! baca.tasto_spanner()
         \bacaStopTextSpanSCP
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -6146,6 +6192,7 @@ number.16.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a16 * 15/16
@@ -6155,6 +6202,7 @@ number.16.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"15" #"16"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -6910,6 +6958,7 @@ number.16.Viola.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! abjad.glissando(6)
           %! baca.glissando()
@@ -6958,6 +7007,7 @@ number.16.Viola.Music = {
           %! baca.tasto_spanner()
         \bacaStopTextSpanSCP
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -7041,6 +7091,7 @@ number.16.Viola.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a16 * 67/64
@@ -7050,6 +7101,7 @@ number.16.Viola.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"67" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -7116,6 +7168,7 @@ number.16.Viola.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! stirrings_still.make_wave_rhythm()
         a16 * 47/64
@@ -7140,6 +7193,7 @@ number.16.Viola.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"47" #"64"
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -7211,6 +7265,7 @@ number.16.Viola.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a16 * 233/64
@@ -7220,6 +7275,7 @@ number.16.Viola.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"233" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -7286,6 +7342,7 @@ number.16.Viola.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! stirrings_still.make_wave_rhythm()
         a16 * 307/64
@@ -7295,6 +7352,7 @@ number.16.Viola.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"307" #"64"
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7331,6 +7389,7 @@ number.16.Viola.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a16 * 63/64
@@ -7340,6 +7399,7 @@ number.16.Viola.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"63" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -7555,6 +7615,7 @@ number.16.Viola.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! abjad.glissando(6)
           %! baca.glissando()
@@ -7603,6 +7664,7 @@ number.16.Viola.Music = {
           %! baca.tasto_spanner()
         \bacaStopTextSpanSCP
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -7716,6 +7778,7 @@ number.16.Viola.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a16 * 63/64
@@ -7725,6 +7788,7 @@ number.16.Viola.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"63" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -7791,6 +7855,7 @@ number.16.Viola.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! stirrings_still.make_wave_rhythm()
         a16 * 45/64
@@ -7815,6 +7880,7 @@ number.16.Viola.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"45" #"64"
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -7866,6 +7932,7 @@ number.16.Viola.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a16 * 53/16
@@ -7875,6 +7942,7 @@ number.16.Viola.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"53" #"16"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -7941,6 +8009,7 @@ number.16.Viola.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! stirrings_still.make_wave_rhythm()
         a16 * 307/64
@@ -7950,6 +8019,7 @@ number.16.Viola.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"307" #"64"
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7986,6 +8056,7 @@ number.16.Viola.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a16 * 63/64
@@ -7995,6 +8066,7 @@ number.16.Viola.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"63" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % COMMANDS:
           %! baca.OverrideCommand._call(2)
@@ -8710,6 +8782,7 @@ number.16.Cello.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! abjad.glissando(6)
           %! baca.glissando()
@@ -8758,6 +8831,7 @@ number.16.Cello.Music = {
           %! baca.tasto_spanner()
         \bacaStopTextSpanSCP
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -8851,6 +8925,7 @@ number.16.Cello.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a,16 * 31/32
@@ -8860,6 +8935,7 @@ number.16.Cello.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"31" #"32"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -8926,6 +9002,7 @@ number.16.Cello.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! stirrings_still.make_wave_rhythm()
         a,16 * 3/4
@@ -8950,6 +9027,7 @@ number.16.Cello.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -9011,6 +9089,7 @@ number.16.Cello.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a,16 * 309/64
@@ -9020,6 +9099,7 @@ number.16.Cello.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"309" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -9086,6 +9166,7 @@ number.16.Cello.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! stirrings_still.make_wave_rhythm()
         a,16 * 109/16
@@ -9095,12 +9176,14 @@ number.16.Cello.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"109" #"16"
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a,16 * 19/16
@@ -9110,6 +9193,7 @@ number.16.Cello.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"19" #"16"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -9325,6 +9409,7 @@ number.16.Cello.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! abjad.glissando(6)
           %! baca.glissando()
@@ -9373,6 +9458,7 @@ number.16.Cello.Music = {
           %! baca.tasto_spanner()
         \bacaStopTextSpanSCP
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -9476,6 +9562,7 @@ number.16.Cello.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a,16 * 17/16
@@ -9485,6 +9572,7 @@ number.16.Cello.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"17" #"16"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -9551,6 +9639,7 @@ number.16.Cello.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! stirrings_still.make_wave_rhythm()
         a,16 * 63/64
@@ -9575,6 +9664,7 @@ number.16.Cello.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"63" #"64"
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -9646,6 +9736,7 @@ number.16.Cello.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a,16 * 349/64
@@ -9655,6 +9746,7 @@ number.16.Cello.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"349" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
@@ -9721,6 +9813,7 @@ number.16.Cello.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! stirrings_still.make_wave_rhythm()
         a,16 * 53/8
@@ -9730,6 +9823,7 @@ number.16.Cello.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"53" #"8"
         % START_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9766,6 +9860,7 @@ number.16.Cello.Music = {
 
         % OPENING:
         % COMMANDS:
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
           %! stirrings_still.make_wave_rhythm()
         a,16 * 61/64
@@ -9775,6 +9870,7 @@ number.16.Cello.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"61" #"64"
         % STOP_BEAM:
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
