@@ -80,19 +80,35 @@ library.time(score, commands, time)
 
 voice = score["Violin.1.Music"]
 
-music = library.make_wave_rhythm((1, 4), (3, 32), function=commands.get(1))
+music = library.make_wave_rhythm(
+    commands.get(1),
+    (1, 4),
+    (3, 32),
+)
 voice.extend(music)
 music = baca.make_mmrests(commands.get(2), head=voice.name)
 voice.extend(music)
-music = library.make_wave_rhythm((1, 4), (3, 32), function=commands.get(3, 4))
+music = library.make_wave_rhythm(
+    commands.get(3, 4),
+    (1, 4),
+    (3, 32),
+)
 voice.extend(music)
 music = baca.make_mmrests(commands.get(5), head=voice.name)
 voice.extend(music)
-music = library.make_wave_rhythm((1, 4), (3, 32), function=commands.get(6, 8))
+music = library.make_wave_rhythm(
+    commands.get(6, 8),
+    (1, 4),
+    (3, 32),
+)
 voice.extend(music)
 music = baca.make_mmrests(commands.get(9), head=voice.name)
 voice.extend(music)
-music = library.make_wave_rhythm((1, 4), (3, 32), function=commands.get(10, 15))
+music = library.make_wave_rhythm(
+    commands.get(10, 15),
+    (1, 4),
+    (3, 32),
+)
 voice.extend(music)
 music = baca.make_mmrests(commands.get(16, 20), head=voice.name)
 voice.extend(music)
@@ -101,19 +117,35 @@ voice.extend(music)
 
 voice = score["Violin.2.Music"]
 
-music = library.make_wave_rhythm((5, 32), (1, 4), function=commands.get(1))
+music = library.make_wave_rhythm(
+    commands.get(1),
+    (5, 32),
+    (1, 4),
+)
 voice.extend(music)
 music = baca.make_mmrests(commands.get(2), head=voice.name)
 voice.extend(music)
-music = library.make_wave_rhythm((5, 32), (1, 4), function=commands.get(3, 4))
+music = library.make_wave_rhythm(
+    commands.get(3, 4),
+    (5, 32),
+    (1, 4),
+)
 voice.extend(music)
 music = baca.make_mmrests(commands.get(5), head=voice.name)
 voice.extend(music)
-music = library.make_wave_rhythm((5, 32), (1, 4), function=commands.get(6, 8))
+music = library.make_wave_rhythm(
+    commands.get(6, 8),
+    (5, 32),
+    (1, 4),
+)
 voice.extend(music)
 music = baca.make_mmrests(commands.get(9), head=voice.name)
 voice.extend(music)
-music = library.make_wave_rhythm((5, 32), (1, 4), function=commands.get(10, 15))
+music = library.make_wave_rhythm(
+    commands.get(10, 15),
+    (5, 32),
+    (1, 4),
+)
 voice.extend(music)
 music = baca.make_mmrests(commands.get(16, 20), head=voice.name)
 voice.extend(music)

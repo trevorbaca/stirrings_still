@@ -66,26 +66,31 @@ library.time(score, commands, time)
 
 voice = score["Violin.1.Music"]
 
-music = library.make_urtext_field_rhythm(function=commands.get(1, 2))
+music = library.make_urtext_field_rhythm(commands.get(1, 2))
 voice.extend(music)
 
-music = library.make_clouded_pane_rhythm(function=commands.get(3, 4))
+music = library.make_clouded_pane_rhythm(commands.get(3, 4))
 voice.extend(music)
 
-music = library.make_urtext_field_rhythm(function=commands.get(5, 11))
+music = library.make_urtext_field_rhythm(commands.get(5, 11))
 voice.extend(music)
 
-music = library.make_trajectory_rhythm("C", -1, -2, function=commands.get(12, 17))
+music = library.make_trajectory_rhythm(
+    commands.get(12, 17),
+    "C",
+    -1,
+    -2,
+)
 voice.extend(music)
 
 # V2
 
 voice = score["Violin.2.Music"]
 
-music = library.make_urtext_field_rhythm(function=commands.get(1, 2))
+music = library.make_urtext_field_rhythm(commands.get(1, 2))
 voice.extend(music)
 
-music = library.make_clocktick_rhythm(function=commands.get(3))
+music = library.make_clocktick_rhythm(commands.get(3))
 voice.extend(music)
 
 music = baca.make_skeleton(
@@ -93,26 +98,36 @@ music = baca.make_skeleton(
 )
 voice.extend(music)
 
-music = library.make_urtext_field_rhythm(function=commands.get(5, 11))
+music = library.make_urtext_field_rhythm(commands.get(5, 11))
 voice.extend(music)
 
-music = library.make_trajectory_rhythm("C", -2, -1, function=commands.get(12, 17))
+music = library.make_trajectory_rhythm(
+    commands.get(12, 17),
+    "C",
+    -2,
+    -1,
+)
 voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
-music = library.make_urtext_field_rhythm(function=commands.get(1, 2))
+music = library.make_urtext_field_rhythm(commands.get(1, 2))
 voice.extend(music)
 
-music = library.make_clouded_pane_rhythm(function=commands.get(3, 4))
+music = library.make_clouded_pane_rhythm(commands.get(3, 4))
 voice.extend(music)
 
-music = library.make_urtext_field_rhythm(function=commands.get(5, 11))
+music = library.make_urtext_field_rhythm(commands.get(5, 11))
 voice.extend(music)
 
-music = library.make_trajectory_rhythm("C", -3, 0, function=commands.get(12, 17))
+music = library.make_trajectory_rhythm(
+    commands.get(12, 17),
+    "C",
+    -3,
+    0,
+)
 voice.extend(music)
 
 # VC
@@ -122,16 +137,20 @@ voice = score["Cello.Music"]
 music = baca.make_mmrests(commands.get(1, 2), head=voice.name)
 voice.extend(music)
 
-music = library.make_clouded_pane_rhythm(function=commands.get(3, 4))
+music = library.make_clouded_pane_rhythm(commands.get(3, 4))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(5, 6), head=voice.name)
 voice.extend(music)
 
-music = library.make_urtext_field_rhythm(function=commands.get(7, 11))
+music = library.make_urtext_field_rhythm(commands.get(7, 11))
 voice.extend(music)
 
-music = library.make_accelerando((1, 4), (3, 32), function=commands.get(12, 13))
+music = library.make_accelerando(
+    commands.get(12, 13),
+    (1, 4),
+    (3, 32),
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(14, 17), head=voice.name)

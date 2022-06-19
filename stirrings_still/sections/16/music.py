@@ -79,29 +79,41 @@ def make_repeat_tied_notes(time_signatures):
 
 
 def make_v1_waves(time_signatures):
-    return library.make_wave_rhythm((4, 16), (1, 16), function=time_signatures)
+    return library.make_wave_rhythm(
+        time_signatures,
+        (4, 16),
+        (1, 16),
+    )
 
 
 def make_v2_waves(time_signatures, *, previous_state=None):
     previous_state = previous_state or {}
     return library.make_wave_rhythm(
+        time_signatures,
         (6, 16),
         (1, 16),
-        function=time_signatures,
         previous_state=previous_state,
     )
 
 
 def make_va_waves(time_signatures):
-    return library.make_wave_rhythm((5, 16), (1, 16), function=time_signatures)
+    return library.make_wave_rhythm(
+        time_signatures,
+        (5, 16),
+        (1, 16),
+    )
 
 
 def make_vc_waves(time_signatures):
-    return library.make_wave_rhythm((7, 16), (1, 16), function=time_signatures)
+    return library.make_wave_rhythm(
+        time_signatures,
+        (7, 16),
+        (1, 16),
+    )
 
 
 def make_eighth_notes(time_signatures):
-    return library.make_eighth_notes(function=time_signatures)
+    return library.make_eighth_notes(time_signatures)
 
 
 # V1
@@ -138,7 +150,7 @@ rhythm_maker = rmakers.bind(
 music = rhythm_maker(commands.get(15, 20))
 voice.extend(music)
 
-music = library.make_eighth_notes(function=commands.get(21, 25))
+music = library.make_eighth_notes(commands.get(21, 25))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(26), head=voice.name)
@@ -182,7 +194,7 @@ rhythm_maker = rmakers.bind(
 music = rhythm_maker(commands.get(15, 20))
 voice.extend(music)
 
-music = library.make_eighth_notes(function=commands.get(21, 25))
+music = library.make_eighth_notes(commands.get(21, 25))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(26), head=voice.name)
@@ -222,7 +234,7 @@ rhythm_maker = rmakers.bind(
 music = rhythm_maker(commands.get(15, 20))
 voice.extend(music)
 
-music = library.make_eighth_notes(function=commands.get(21, 25))
+music = library.make_eighth_notes(commands.get(21, 25))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(26), head=voice.name)
@@ -266,7 +278,7 @@ rhythm_maker = rmakers.bind(
 music = rhythm_maker(commands.get(15, 20))
 voice.extend(music)
 
-music = library.make_eighth_notes(function=commands.get(21, 25))
+music = library.make_eighth_notes(commands.get(21, 25))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(26), head=voice.name)
