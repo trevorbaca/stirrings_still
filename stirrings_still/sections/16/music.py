@@ -78,6 +78,26 @@ def make_repeat_tied_notes(time_signatures):
     return baca.make_repeat_tied_notes(time_signatures, do_not_rewrite_meter=True)
 
 
+def make_v1_waves(time_signatures):
+    return library.make_wave_rhythm((4, 16), (1, 16), function=time_signatures)
+
+
+def make_v2_waves(time_signatures):
+    return library.make_wave_rhythm((6, 16), (1, 16), function=time_signatures)
+
+
+def make_va_waves(time_signatures):
+    return library.make_wave_rhythm((5, 16), (1, 16), function=time_signatures)
+
+
+def make_vc_waves(time_signatures):
+    return library.make_wave_rhythm((7, 16), (1, 16), function=time_signatures)
+
+
+def make_eighth_notes(time_signatures):
+    return library.make_eighth_notes(function=time_signatures)
+
+
 # V1
 
 voice = score["Violin.1.Music"]
@@ -88,6 +108,7 @@ voice.extend(music)
 rhythm_maker = rmakers.bind(
     rmakers.assign(
         library.make_wave_rhythm((4, 16), (1, 16)).rhythm_maker,
+        # make_v1_waves,
         abjad.index([1, 2, 5]),
         remember_state_across_gaps=True,
     ),
@@ -104,6 +125,7 @@ voice.extend(music)
 rhythm_maker = rmakers.bind(
     rmakers.assign(
         library.make_wave_rhythm((4, 16), (1, 16)).rhythm_maker,
+        # make_v1_waves,
         abjad.index([1, 2, 5]),
         remember_state_across_gaps=True,
     ),
@@ -130,6 +152,7 @@ voice.extend(music)
 rhythm_maker = rmakers.bind(
     rmakers.assign(
         library.make_wave_rhythm((6, 16), (1, 16)).rhythm_maker,
+        # make_v2_waves,
         abjad.index([0, 2, 4]),
         remember_state_across_gaps=True,
     ),
@@ -146,11 +169,12 @@ voice.extend(music)
 rhythm_maker = rmakers.bind(
     rmakers.assign(
         library.make_wave_rhythm((6, 16), (1, 16)).rhythm_maker,
+        # make_v2_waves,
         abjad.index([0, 2, 4]),
         remember_state_across_gaps=True,
     ),
     rmakers.assign(
-        library.make_eighth_notes().rhythm_maker,
+        make_eighth_notes,
         abjad.index([5]),
     ),
     rmakers.assign(
@@ -176,6 +200,7 @@ voice.extend(music)
 rhythm_maker = rmakers.bind(
     rmakers.assign(
         library.make_wave_rhythm((5, 16), (1, 16)).rhythm_maker,
+        # make_va_waves,
         abjad.index([3, 4, 5]),
         remember_state_across_gaps=True,
     ),
@@ -192,6 +217,7 @@ voice.extend(music)
 rhythm_maker = rmakers.bind(
     rmakers.assign(
         library.make_wave_rhythm((5, 16), (1, 16)).rhythm_maker,
+        # make_va_waves,
         abjad.index([3, 4, 5]),
         remember_state_across_gaps=True,
     ),
@@ -218,6 +244,7 @@ voice.extend(music)
 rhythm_maker = rmakers.bind(
     rmakers.assign(
         library.make_wave_rhythm((7, 16), (1, 16)).rhythm_maker,
+        # make_vc_waves,
         abjad.index([1, 2, 3]),
         remember_state_across_gaps=True,
     ),
@@ -234,11 +261,12 @@ voice.extend(music)
 rhythm_maker = rmakers.bind(
     rmakers.assign(
         library.make_wave_rhythm((7, 16), (1, 16)).rhythm_maker,
+        # make_vc_waves,
         abjad.index([1, 2, 3]),
         remember_state_across_gaps=True,
     ),
     rmakers.assign(
-        library.make_eighth_notes().rhythm_maker,
+        make_eighth_notes,
         abjad.index([4, 5]),
     ),
     rmakers.assign(
