@@ -431,9 +431,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(48), head=voice.name)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes(
-    commands.get(49, 53), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(49, 53), do_not_rewrite_meter=True)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(54), head=voice.name)
@@ -476,9 +474,7 @@ pleaf = baca.select.pleaf(music, 0)
 baca.repeat_tie_function(pleaf)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes(
-    commands.get(90, 93), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(90, 93), do_not_rewrite_meter=True)
 voice.extend(music)
 
 music = library.make_continuous_tremolo_material(function=commands.get(94, 96))
@@ -563,17 +559,13 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(46, 48))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes(
-    commands.get(49, 50), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(49, 50), do_not_rewrite_meter=True)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(51), head=voice.name)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes(
-    commands.get(52, 53), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(52, 53), do_not_rewrite_meter=True)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(54, 56), head=voice.name)
