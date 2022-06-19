@@ -263,9 +263,7 @@ voice.extend(music)
 music = library.make_desynchronization_rhythm(4, [0], function=commands.get(3, 4))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes(
-    commands.get(5, 11), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(5, 11), do_not_rewrite_meter=True)
 voice.extend(music)
 
 music = library.make_trajectory_rhythm("B", -3, -3, function=commands.get(12, 13))

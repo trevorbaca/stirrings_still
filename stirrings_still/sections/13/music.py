@@ -53,9 +53,7 @@ library.time(score, commands, time)
 
 voice = score["Violin.1.Music"]
 
-music = baca.make_repeat_tied_notes(
-    commands.get(1, 7), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(1, 7), do_not_rewrite_meter=True)
 voice.extend(music)
 music = library.make_picket_rhythm(
     4,
@@ -69,9 +67,7 @@ music = library.make_picket_rhythm(
     function=commands.get(8, 12),
 )
 voice.extend(music)
-music = baca.make_repeat_tied_notes(
-    commands.get(13, 16), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(13, 16), do_not_rewrite_meter=True)
 voice.extend(music)
 music = library.make_picket_rhythm(
     4,
@@ -85,9 +81,7 @@ music = library.make_picket_rhythm(
     function=commands.get(17, 20),
 )
 voice.extend(music)
-music = baca.make_repeat_tied_notes(
-    commands.get(21, 24), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(21, 24), do_not_rewrite_meter=True)
 voice.extend(music)
 music = library.make_picket_rhythm(
     4,
@@ -101,18 +95,14 @@ music = library.make_picket_rhythm(
     function=commands.get(25, 28),
 )
 voice.extend(music)
-music = baca.make_repeat_tied_notes(
-    commands.get(29, 32), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(29, 32), do_not_rewrite_meter=True)
 voice.extend(music)
 
 # V2
 
 voice = score["Violin.2.Music"]
 
-music = baca.make_repeat_tied_notes(
-    commands.get(1, 7), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(1, 7), do_not_rewrite_meter=True)
 voice.extend(music)
 music = library.make_picket_rhythm(
     4,
@@ -126,9 +116,7 @@ music = library.make_picket_rhythm(
     function=commands.get(8, 12),
 )
 voice.extend(music)
-music = baca.make_repeat_tied_notes(
-    commands.get(13, 16), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(13, 16), do_not_rewrite_meter=True)
 voice.extend(music)
 music = library.make_picket_rhythm(
     4,
@@ -142,9 +130,7 @@ music = library.make_picket_rhythm(
     function=commands.get(17, 20),
 )
 voice.extend(music)
-music = baca.make_repeat_tied_notes(
-    commands.get(21, 24), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(21, 24), do_not_rewrite_meter=True)
 voice.extend(music)
 music = library.make_picket_rhythm(
     4,
@@ -158,18 +144,14 @@ music = library.make_picket_rhythm(
     function=commands.get(25, 28),
 )
 voice.extend(music)
-music = baca.make_repeat_tied_notes(
-    commands.get(29, 32), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(29, 32), do_not_rewrite_meter=True)
 voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
-music = baca.make_repeat_tied_notes(
-    commands.get(1, 7), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(1, 7), do_not_rewrite_meter=True)
 voice.extend(music)
 music = library.make_picket_rhythm(
     4,
@@ -183,9 +165,7 @@ music = library.make_picket_rhythm(
     function=commands.get(8, 12),
 )
 voice.extend(music)
-music = baca.make_repeat_tied_notes(
-    commands.get(13, 16), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(13, 16), do_not_rewrite_meter=True)
 voice.extend(music)
 music = library.make_picket_rhythm(
     4,
@@ -199,9 +179,7 @@ music = library.make_picket_rhythm(
     function=commands.get(17, 20),
 )
 voice.extend(music)
-music = baca.make_repeat_tied_notes(
-    commands.get(21, 24), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(21, 24), do_not_rewrite_meter=True)
 voice.extend(music)
 music = library.make_picket_rhythm(
     4,
@@ -215,9 +193,7 @@ music = library.make_picket_rhythm(
     function=commands.get(25, 28),
 )
 voice.extend(music)
-music = baca.make_repeat_tied_notes(
-    commands.get(29, 32), do_not_rewrite_meter=True
-)
+music = baca.make_repeat_tied_notes(commands.get(29, 32), do_not_rewrite_meter=True)
 voice.extend(music)
 
 # VC
