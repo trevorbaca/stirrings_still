@@ -2122,9 +2122,9 @@ number.5.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \stirrings-still-text-sixteen
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -4312,9 +4312,9 @@ number.5.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \stirrings-still-text-seventeen
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -5582,9 +5582,9 @@ number.5.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \stirrings-still-text-eighteen
     % SPANNER_STOPS:
       %! CLOCK_TIME
