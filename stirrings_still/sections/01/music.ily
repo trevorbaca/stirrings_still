@@ -476,9 +476,9 @@ number.1.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \stirrings-still-text-two
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -973,9 +973,9 @@ number.1.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \stirrings-still-text-three
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -1226,9 +1226,9 @@ number.1.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \stirrings-still-text-four
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -1456,9 +1456,9 @@ number.1.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \stirrings-still-text-five
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -3309,9 +3309,9 @@ number.1.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \stirrings-still-text-six
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -3438,9 +3438,9 @@ number.1.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \stirrings-still-text-seven
     % SPANNER_STOPS:
       %! CLOCK_TIME

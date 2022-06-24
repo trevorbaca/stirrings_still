@@ -1978,9 +1978,9 @@ number.14.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \stirrings-still-text-twenty-three
     % SPANNER_STOPS:
       %! CLOCK_TIME
