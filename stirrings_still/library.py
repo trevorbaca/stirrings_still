@@ -1625,7 +1625,7 @@ def make_empty_score():
             cello_music_staff,
         ],
         lilypond_type="StringQuartetStaffGroup",
-        name="String_Quartet.Staff_Group",
+        name="StringQuartet.StaffGroup",
         tag=tag,
     )
     # MUSIC CONTEXT
