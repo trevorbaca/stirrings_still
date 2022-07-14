@@ -76,7 +76,7 @@
 
                 % OPEN_BRACKETS:
                   %! stirrings_still.make_empty_score()
-                \context StringQuartetStaffGroup = "StringQuartet.StaffGroup"
+                \context StringQuartetStaffGroup = "StringQuartetStaffGroup"
                   %! stirrings_still.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
