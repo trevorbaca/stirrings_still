@@ -345,13 +345,15 @@ del defaults["force_nonnatural_accidentals"]
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
-        commands,
+        commands.manifests(),
+        commands.time_signatures,
         **defaults,
         activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        commands=commands,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[9, 16, 20],
         final_section=True,
