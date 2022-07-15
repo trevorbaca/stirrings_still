@@ -1374,7 +1374,8 @@ commands(
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
-        commands,
+        commands.manifests(),
+        commands.time_signatures,
         **baca.score_interpretation_defaults(),
         activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,
@@ -1382,6 +1383,7 @@ if __name__ == "__main__":
         ),
         always_make_global_rests=True,
         color_octaves=False,
+        commands=commands,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
     )
