@@ -21,7 +21,7 @@ stage_markup = (
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
-commands = baca.CommandAccumulator(
+accumulator = baca.CommandAccumulator(
     instruments=library.instruments(),
     short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
@@ -32,9 +32,9 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
-    commands,
-    commands.manifests(),
-    commands.time_signatures,
+    accumulator,
+    accumulator.manifests(),
+    accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
@@ -47,22 +47,22 @@ time = (
     ("larghissimo", 6),
 )
 
-library.time(score, commands, time)
+library.time(score, accumulator, time)
 
 # V1
 
 voice = score["Violin.1.Music"]
 
 music = library.make_circle_rhythm(
-    commands.get(1, 7),
+    accumulator.get(1, 7),
     (1, 8),
 )
 voice.extend(music)
 
-music = baca.make_mmrests(commands.get(8, 9), head=voice.name)
+music = baca.make_mmrests(accumulator.get(8, 9), head=voice.name)
 voice.extend(music)
 
-music = library.make_urtext_field_rhythm(commands.get(10, 11))
+music = library.make_urtext_field_rhythm(accumulator.get(10, 11))
 voice.extend(music)
 
 # V2
@@ -70,15 +70,15 @@ voice.extend(music)
 voice = score["Violin.2.Music"]
 
 music = library.make_circle_rhythm(
-    commands.get(1, 7),
+    accumulator.get(1, 7),
     (1, 4),
 )
 voice.extend(music)
 
-music = baca.make_mmrests(commands.get(8, 9), head=voice.name)
+music = baca.make_mmrests(accumulator.get(8, 9), head=voice.name)
 voice.extend(music)
 
-music = library.make_urtext_field_rhythm(commands.get(10, 11))
+music = library.make_urtext_field_rhythm(accumulator.get(10, 11))
 voice.extend(music)
 
 # VA
@@ -86,32 +86,32 @@ voice.extend(music)
 voice = score["Viola.Music"]
 
 music = library.make_circle_rhythm(
-    commands.get(1, 7),
+    accumulator.get(1, 7),
     (1, 2),
     rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
     remainder=abjad.LEFT,
 )
 voice.extend(music)
 
-music = baca.make_mmrests(commands.get(8, 9), head=voice.name)
+music = baca.make_mmrests(accumulator.get(8, 9), head=voice.name)
 voice.extend(music)
 
-music = library.make_urtext_field_rhythm(commands.get(10, 11))
+music = library.make_urtext_field_rhythm(accumulator.get(10, 11))
 voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
-music = library.make_eighth_notes(commands.get(1, 6))
+music = library.make_eighth_notes(accumulator.get(1, 6))
 voice.extend(music)
 
-music = library.make_cello_cell_rhythm(commands.get(7, 11))
+music = library.make_cello_cell_rhythm(accumulator.get(7, 11))
 voice.extend(music)
 
 # anchor notes
 
-commands(
+accumulator(
     ["v1", "v2", "va", "vc"],
     baca.append_anchor_note(),
 )
@@ -120,14 +120,14 @@ commands(
 
 music_voice_names = [_ for _ in voice_names if "Music" in _]
 
-commands(
+accumulator(
     music_voice_names,
     baca.reapply_persistent_indicators(),
 )
 
 # v1
 
-commands(
+accumulator(
     ("v1", (1, 7)),
     baca.beam(),
     baca.circle_bow_spanner(
@@ -140,7 +140,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v1", (10, 11)),
     baca.flat_glissando(
         "<F4 A4>",
@@ -155,7 +155,7 @@ commands(
 
 # trio
 
-commands(
+accumulator(
     (["v1", "v2", "va"], (1, 7)),
     baca.new(
         baca.hairpin(
@@ -166,17 +166,17 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     (["v1r", "v2r", "var"], 8),
     baca.tacet(),
 )
 
-commands(
+accumulator(
     (["v1", "v2", "va"], 9),
     baca.tacet(),
 )
 
-commands(
+accumulator(
     (["v1", "v2", "va"], (10, 11)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
@@ -197,14 +197,14 @@ commands(
 
 # tutti
 
-commands(
+accumulator(
     ["v1", "v2", "va", "vc"],
     baca.dls_staff_padding(5),
 )
 
 # v2
 
-commands(
+accumulator(
     ("v2", (1, 7)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -216,7 +216,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v2", (10, 11)),
     baca.flat_glissando(
         "<E4 G#4>",
@@ -231,7 +231,7 @@ commands(
 
 # va
 
-commands(
+accumulator(
     ("va", (1, 7)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -250,7 +250,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("va", (10, 11)),
     baca.flat_glissando(
         "<Eqs4 Gtqs4>",
@@ -265,7 +265,7 @@ commands(
 
 # vc
 
-commands(
+accumulator(
     "vc",
     baca.hairpin(
         'p < "f" -- "f" >o niente',
@@ -291,7 +291,7 @@ commands(
 )
 
 
-commands(
+accumulator(
     ("vc", (1, 6)),
     baca.beam(),
     baca.suite(
@@ -306,7 +306,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("vc", (7, -1)),
     baca.clef("treble"),
     baca.flat_glissando("A5"),
@@ -321,21 +321,21 @@ commands(
 )
 
 if __name__ == "__main__":
-    metadata, persist, score, timing = baca.build.interpret_section(
+    metadata, persist, score, timing = baca.build.section(
         score,
-        commands.manifests(),
-        commands.time_signatures,
-        **baca.score_interpretation_defaults(),
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        **baca.interpret.section_defaults(),
         activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
-        commands=commands,
+        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
     )
-    lilypond_file = baca.make_lilypond_file(
+    lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
         includes=["../stylesheet.ily"],
