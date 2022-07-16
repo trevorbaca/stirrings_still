@@ -13,7 +13,7 @@ stage_markup = (("[L.1]", 1),)
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
-commands = baca.CommandAccumulator(
+accumulator = baca.CommandAccumulator(
     instruments=library.instruments(),
     short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
@@ -24,9 +24,9 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
-    commands,
-    commands.manifests(),
-    commands.time_signatures,
+    accumulator,
+    accumulator.manifests(),
+    accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
@@ -35,7 +35,7 @@ baca.interpret.set_up_score(
 
 time = (("largo meno mosso", 1),)
 
-library.time(score, commands, time)
+library.time(score, accumulator, time)
 
 
 def lleak_tuplet_pleaves(indices):
@@ -64,7 +64,7 @@ def nonlast_tuplet_pleaves(indices):
 voice = score["Violin.1.Music"]
 
 music = library.make_trajectory_rhythm(
-    commands.get(),
+    accumulator.get(),
     "C",
     0,
     -3,
@@ -82,7 +82,7 @@ voice.extend(music)
 voice = score["Violin.2.Music"]
 
 music = library.make_trajectory_rhythm(
-    commands.get(),
+    accumulator.get(),
     "C",
     -1,
     -2,
@@ -100,7 +100,7 @@ voice.extend(music)
 voice = score["Viola.Music"]
 
 music = library.make_trajectory_rhythm(
-    commands.get(),
+    accumulator.get(),
     "C",
     -2,
     -1,
@@ -117,12 +117,12 @@ voice.extend(music)
 
 voice = score["Cello.Music"]
 
-music = library.make_clouded_pane_rhythm(commands.get())
+music = library.make_clouded_pane_rhythm(accumulator.get())
 voice.extend(music)
 
 # anchor notes
 
-commands(
+accumulator(
     ["v1", "v2", "va"],
     baca.append_anchor_note(),
 )
@@ -131,14 +131,14 @@ commands(
 
 music_voice_names = [_ for _ in voice_names if "Music" in _]
 
-commands(
+accumulator(
     music_voice_names,
     baca.reapply_persistent_indicators(),
 )
 
 # v1
 
-commands(
+accumulator(
     "v1",
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
@@ -172,7 +172,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v1", (1, 2)),
     library.multistage_leaf_glissando(
         [("G6", None)],
@@ -181,14 +181,14 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v1", [(1, 2), (4, 6), (8, 10), (12, 14)]),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {7 + 6.5}"),
     ),
 )
 
-commands(
+accumulator(
     ("v1", [3, 7, 11, 15]),
     baca.flat_glissando(
         "Bqf5",
@@ -196,7 +196,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v1", (4, 6)),
     library.multistage_leaf_glissando(
         [("Bqf5", None)],
@@ -212,7 +212,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v1", (8, 10)),
     library.multistage_leaf_glissando(
         [("Bqf5", None)],
@@ -228,7 +228,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v1", (12, 14)),
     library.multistage_leaf_glissando(
         [("Bqf5", None)],
@@ -246,7 +246,7 @@ commands(
 
 # trio
 
-commands(
+accumulator(
     ["v1", "v2", "va"],
     baca.hairpin(
         '"f" > p p < "ff" > p p < "fff" > p p < "fff" >o !',
@@ -257,7 +257,7 @@ commands(
 
 # v2
 
-commands(
+accumulator(
     "v2",
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
@@ -291,7 +291,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v2", (1, 2)),
     library.multistage_leaf_glissando(
         [("A5", None)],
@@ -300,14 +300,14 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v2", [(1, 2), (4, 6), (8, 10), (12, 14)]),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
     ),
 )
 
-commands(
+accumulator(
     ("v2", [3, 7, 11, 15]),
     baca.flat_glissando(
         "Eb5",
@@ -315,7 +315,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v2", (4, 6)),
     library.multistage_leaf_glissando(
         [("Eb5", None)],
@@ -331,7 +331,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v2", (8, 10)),
     library.multistage_leaf_glissando(
         [("Eb5", None)],
@@ -347,7 +347,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v2", (12, 14)),
     library.multistage_leaf_glissando(
         [("Eb5", None)],
@@ -365,7 +365,7 @@ commands(
 
 # va
 
-commands(
+accumulator(
     "va",
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
@@ -400,7 +400,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("va", (1, 2)),
     library.multistage_leaf_glissando(
         [("D3", None)],
@@ -409,14 +409,14 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("va", [(1, 2), (4, 6), (8, 10), (12, 14)]),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {3 + 6.5}"),
     ),
 )
 
-commands(
+accumulator(
     ("va", [3, 7, 11, 15]),
     baca.flat_glissando(
         "F3",
@@ -424,7 +424,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("va", (4, 6)),
     library.multistage_leaf_glissando(
         [("F3", None)],
@@ -440,7 +440,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("va", (8, 10)),
     library.multistage_leaf_glissando(
         [("F3", None)],
@@ -456,7 +456,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("va", (12, 14)),
     library.multistage_leaf_glissando(
         [("F3", None)],
@@ -474,7 +474,7 @@ commands(
 
 # vc
 
-commands(
+accumulator(
     "vc",
     baca.dls_staff_padding(5),
     baca.flat_glissando(
@@ -496,21 +496,21 @@ commands(
 )
 
 if __name__ == "__main__":
-    metadata, persist, score, timing = baca.build.interpret_section(
+    metadata, persist, score, timing = baca.build.section(
         score,
-        commands.manifests(),
-        commands.time_signatures,
-        **baca.score_interpretation_defaults(),
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        **baca.interpret.section_defaults(),
         activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
-        commands=commands,
+        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
     )
-    lilypond_file = baca.make_lilypond_file(
+    lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
         includes=["../stylesheet.ily"],

@@ -15,7 +15,7 @@ stage_markup = (
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
-commands = baca.CommandAccumulator(
+accumulator = baca.CommandAccumulator(
     instruments=library.instruments(),
     short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
@@ -26,9 +26,9 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
-    commands,
-    commands.manifests(),
-    commands.time_signatures,
+    accumulator,
+    accumulator.manifests(),
+    accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
@@ -49,26 +49,26 @@ time = (
     ("very_long", 8),
 )
 
-library.time(score, commands, time)
+library.time(score, accumulator, time)
 
 # V1
 
 voice = score["Violin.1.Music"]
 
 music = library.make_circle_rhythm(
-    commands.get(1, 6),
+    accumulator.get(1, 6),
     (1, 4),
 )
 voice.extend(music)
 
 music = library.make_picket_rhythm(
-    commands.get(7),
+    accumulator.get(7),
     4,
     2,
 )
 voice.extend(music)
 
-music = baca.make_mmrests(commands.get(8), head=voice.name)
+music = baca.make_mmrests(accumulator.get(8), head=voice.name)
 voice.extend(music)
 
 # V2
@@ -76,19 +76,19 @@ voice.extend(music)
 voice = score["Violin.2.Music"]
 
 music = library.make_circle_rhythm(
-    commands.get(1, 6),
+    accumulator.get(1, 6),
     (1, 4),
 )
 voice.extend(music)
 
 music = library.make_picket_rhythm(
-    commands.get(7),
+    accumulator.get(7),
     4,
     1,
 )
 voice.extend(music)
 
-music = baca.make_mmrests(commands.get(8), head=voice.name)
+music = baca.make_mmrests(accumulator.get(8), head=voice.name)
 voice.extend(music)
 
 # VA
@@ -96,19 +96,19 @@ voice.extend(music)
 voice = score["Viola.Music"]
 
 music = library.make_circle_rhythm(
-    commands.get(1, 6),
+    accumulator.get(1, 6),
     (1, 4),
 )
 voice.extend(music)
 
 music = library.make_picket_rhythm(
-    commands.get(7),
+    accumulator.get(7),
     4,
     0,
 )
 voice.extend(music)
 
-music = baca.make_mmrests(commands.get(8), head=voice.name)
+music = baca.make_mmrests(accumulator.get(8), head=voice.name)
 voice.extend(music)
 
 # VC
@@ -116,34 +116,34 @@ voice.extend(music)
 voice = score["Cello.Music"]
 
 music = library.make_circle_rhythm(
-    commands.get(1, 6),
+    accumulator.get(1, 6),
     (1, 4),
 )
 voice.extend(music)
 
 music = library.make_trajectory_rhythm(
-    commands.get(7),
+    accumulator.get(7),
     "A",
     -1,
     0,
 )
 voice.extend(music)
 
-music = baca.make_mmrests(commands.get(8), head=voice.name)
+music = baca.make_mmrests(accumulator.get(8), head=voice.name)
 voice.extend(music)
 
 # reapply
 
 music_voice_names = [_ for _ in voice_names if "Music" in _]
 
-commands(
+accumulator(
     music_voice_names,
     baca.reapply_persistent_indicators(),
 )
 
 # v1
 
-commands(
+accumulator(
     ("v1", (1, 6)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -157,7 +157,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v1", 7),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -176,13 +176,13 @@ commands(
 
 # tutti
 
-commands(
+accumulator(
     ["v1", "v2", "va", "vc"],
     baca.dls_staff_padding(5),
     baca.tuplet_bracket_down(),
 )
 
-commands(
+accumulator(
     ("v2", (1, 6)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -196,7 +196,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v2", 7),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -213,7 +213,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("va", (1, 6)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -227,7 +227,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("va", 7),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -244,7 +244,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("vc", (1, 6)),
     baca.circle_bow_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -258,7 +258,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("vc", 7),
     baca.flat_glissando("Db2"),
     baca.hairpin(
@@ -278,22 +278,22 @@ commands(
 )
 
 if __name__ == "__main__":
-    metadata, persist, score, timing = baca.build.interpret_section(
+    metadata, persist, score, timing = baca.build.section(
         score,
-        commands.manifests(),
-        commands.time_signatures,
-        **baca.score_interpretation_defaults(),
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        **baca.interpret.section_defaults(),
         activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
-        commands=commands,
+        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[8],
         global_rests_in_topmost_staff=True,
     )
-    lilypond_file = baca.make_lilypond_file(
+    lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
         includes=["../stylesheet.ily"],

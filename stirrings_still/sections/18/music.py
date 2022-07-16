@@ -17,7 +17,7 @@ stage_markup = (
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
-commands = baca.CommandAccumulator(
+accumulator = baca.CommandAccumulator(
     instruments=library.instruments(),
     short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
@@ -29,9 +29,9 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
-    commands,
-    commands.manifests(),
-    commands.time_signatures,
+    accumulator,
+    accumulator.manifests(),
+    accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
@@ -46,26 +46,26 @@ baca.markup_function(
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
 )
 
-baca.open_volta(skips[3 - 1], commands.first_measure_number)
-baca.close_volta(skips[5 - 1], commands.first_measure_number)
+baca.open_volta(skips[3 - 1], accumulator.first_measure_number)
+baca.close_volta(skips[5 - 1], accumulator.first_measure_number)
 
 time = (("fermata", 17),)
 
-library.time(score, commands, time)
+library.time(score, accumulator, time)
 
 # V1
 
 voice = score["Violin.1.Music"]
 
 music = library.make_trajectory_rhythm(
-    commands.get(1, 8),
+    accumulator.get(1, 8),
     "C",
     0,
     -3,
 )
 voice.extend(music)
 
-music = baca.make_mmrests(commands.get(9, 17), head=voice.name)
+music = baca.make_mmrests(accumulator.get(9, 17), head=voice.name)
 voice.extend(music)
 
 # V2
@@ -73,50 +73,50 @@ voice.extend(music)
 voice = score["Violin.2.Music"]
 
 music = library.make_trajectory_rhythm(
-    commands.get(1, 8),
+    accumulator.get(1, 8),
     "C",
     -1,
     -2,
 )
 voice.extend(music)
 
-music = baca.make_mmrests(commands.get(9, 17), head=voice.name)
+music = baca.make_mmrests(accumulator.get(9, 17), head=voice.name)
 voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
-music = baca.make_repeat_tied_notes(commands.get())
+music = baca.make_repeat_tied_notes(accumulator.get())
 voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
-music = baca.make_repeat_tied_notes(commands.get(1, 12))
+music = baca.make_repeat_tied_notes(accumulator.get(1, 12))
 voice.extend(music)
 
-music = baca.make_mmrests(commands.get(13, 17), head=voice.name)
+music = baca.make_mmrests(accumulator.get(13, 17), head=voice.name)
 voice.extend(music)
 
 # reapply
 
 music_voice_names = [_ for _ in voice_names if "Music" in _]
 
-commands(
+accumulator(
     music_voice_names,
     baca.reapply_persistent_indicators(),
 )
 
 # v1
 
-commands(
+accumulator(
     "v1",
     baca.dls_staff_padding(7),
 )
 
-commands(
+accumulator(
     ("v1", (1, 8)),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {8 + 6}"),
@@ -133,7 +133,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v1", (5, 8)),
     baca.hairpin(
         "ppp >o niente",
@@ -141,24 +141,24 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     (["v1", "v1r"], 9),
     baca.tacet(),
 )
 
-commands(
+accumulator(
     ("v1", (10, -1)),
     baca.tacet(),
 )
 
 # v2
 
-commands(
+accumulator(
     "v2",
     baca.dls_staff_padding(7),
 )
 
-commands(
+accumulator(
     ("v2", (1, 8)),
     baca.half_clt_spanner(
         abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
@@ -175,7 +175,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("v2", (5, 8)),
     baca.hairpin(
         "ppp >o niente",
@@ -183,19 +183,19 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     (["v2", "v2r"], 9),
     baca.tacet(),
 )
 
-commands(
+accumulator(
     ("v2", (10, -1)),
     baca.tacet(),
 )
 
 # va
 
-commands(
+accumulator(
     "va",
     baca.flat_glissando(
         "Bb2",
@@ -207,12 +207,12 @@ commands(
 
 # vc
 
-commands(
+accumulator(
     "vc",
     baca.dls_staff_padding(8),
 )
 
-commands(
+accumulator(
     ("vc", (1, 12)),
     baca.ottava_bassa(),
     baca.flat_glissando(
@@ -221,7 +221,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("vc", (9, 12)),
     baca.hairpin(
         "pp >o niente",
@@ -229,33 +229,33 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     (["vc", "vcr"], 13),
     baca.tacet(),
 )
 
-commands(
+accumulator(
     ("vc", (14, -1)),
     baca.tacet(),
 )
 
 if __name__ == "__main__":
-    metadata, persist, score, timing = baca.build.interpret_section(
+    metadata, persist, score, timing = baca.build.section(
         score,
-        commands.manifests(),
-        commands.time_signatures,
-        **baca.score_interpretation_defaults(),
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        **baca.interpret.section_defaults(),
         activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
-        commands=commands,
+        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[17],
         global_rests_in_topmost_staff=True,
     )
-    lilypond_file = baca.make_lilypond_file(
+    lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
         includes=["../stylesheet.ily"],
