@@ -52,232 +52,233 @@ time = (
 
 library.time(score, accumulator, time)
 
-# V1
 
-voice = score["Violin.1.Music"]
+def V1(voice):
+    voice = score["Violin.1.Music"]
+    music = library.make_clouded_pane_rhythm(accumulator.get(1, 8))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(9, 11), head=voice.name)
+    voice.extend(music)
+    music = library.make_desynchronization_rhythm(
+        accumulator.get(12, 13),
+        4,
+        [1],
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(14), head=voice.name)
+    voice.extend(music)
 
-music = library.make_clouded_pane_rhythm(accumulator.get(1, 8))
-voice.extend(music)
 
-music = baca.make_mmrests(accumulator.get(9, 11), head=voice.name)
-voice.extend(music)
+def V2(voice):
+    voice = score["Violin.2.Music"]
+    music = library.make_clouded_pane_rhythm(accumulator.get(1, 8))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(9, 11), head=voice.name)
+    voice.extend(music)
+    music = library.make_desynchronization_rhythm(
+        accumulator.get(12, 13),
+        4,
+        [0],
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(14), head=voice.name)
+    voice.extend(music)
 
-music = library.make_desynchronization_rhythm(
-    accumulator.get(12, 13),
-    4,
-    [1],
-)
-voice.extend(music)
 
-music = baca.make_mmrests(accumulator.get(14), head=voice.name)
-voice.extend(music)
+def VA(voice):
+    voice = score["Viola.Music"]
+    music = baca.make_repeat_tied_notes(
+        accumulator.get(1, 10), do_not_rewrite_meter=True
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(11), head=voice.name)
+    voice.extend(music)
+    music = library.make_desynchronization_rhythm(
+        accumulator.get(12, 13),
+        4,
+        [2],
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(14), head=voice.name)
+    voice.extend(music)
 
-# V2
 
-voice = score["Violin.2.Music"]
+def VC(voice):
+    voice = score["Cello.Music"]
+    music = library.make_clouded_pane_rhythm(accumulator.get(1, 8))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(9, 11), head=voice.name)
+    voice.extend(music)
+    music = library.make_desynchronization_rhythm(
+        accumulator.get(12, 13),
+        4,
+        [-1],
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(14), head=voice.name)
+    voice.extend(music)
 
-music = library.make_clouded_pane_rhythm(accumulator.get(1, 8))
-voice.extend(music)
 
-music = baca.make_mmrests(accumulator.get(9, 11), head=voice.name)
-voice.extend(music)
-
-music = library.make_desynchronization_rhythm(
-    accumulator.get(12, 13),
-    4,
-    [0],
-)
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(14), head=voice.name)
-voice.extend(music)
-
-# VA
-
-voice = score["Viola.Music"]
-
-music = baca.make_repeat_tied_notes(accumulator.get(1, 10), do_not_rewrite_meter=True)
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(11), head=voice.name)
-voice.extend(music)
-
-music = library.make_desynchronization_rhythm(
-    accumulator.get(12, 13),
-    4,
-    [2],
-)
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(14), head=voice.name)
-voice.extend(music)
-
-# VC
-
-voice = score["Cello.Music"]
-
-music = library.make_clouded_pane_rhythm(accumulator.get(1, 8))
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(9, 11), head=voice.name)
-voice.extend(music)
-
-music = library.make_desynchronization_rhythm(
-    accumulator.get(12, 13),
-    4,
-    [-1],
-)
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(14), head=voice.name)
-voice.extend(music)
-
-# reapply
-
-music_voice_names = [_ for _ in voice_names if "Music" in _]
-
-accumulator(
-    music_voice_names,
-    baca.reapply_persistent_indicators(),
-)
-
-# v1
-
-accumulator(
-    ("v1", (1, 8)),
-    baca.flat_glissando(
-        "<F5 Bqs5>",
-        hide_middle_stems=True,
-    ),
-    baca.hairpin(
-        "pp < f > pp < f > pp < f >o niente",
-        pieces=lambda _: baca.select.mgroups(_, [1, 2, 1, 2, 1, 2]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    baca.markup(
-        r"\baca-thirteen-plus-nine-e-flat",
-        abjad.Tweak(r"- \tweak padding 1.5"),
-    ),
-    library.clouded_pane_spanner(
-        "clouded pane (doublestop partials) -|",
-        8,
-    ),
-)
-
-accumulator(
-    ("v2", (1, 8)),
-    baca.flat_glissando(
-        "<G4 Dqs5>",
-        hide_middle_stems=True,
-    ),
-    baca.hairpin(
-        "pp < f > pp < f > pp < f >o niente",
-        pieces=lambda _: baca.select.mgroups(_, [2, 1, 2, 1, 1, 2]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    baca.markup(
-        r"\baca-seven-plus-five-e-flat",
-        abjad.Tweak(r"- \tweak padding 1.5"),
-    ),
-    library.clouded_pane_spanner(
-        "clouded pane (doublestop partials) -|",
-        8,
-    ),
-)
-
-accumulator(
-    ("va", (1, 10)),
-    baca.staff_lines(1),
-    baca.dynamic(
-        '"mf"',
-        abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
-    ),
-)
-
-accumulator(
-    ("va", (1, 10)),
-    library.style_tailpiece_material(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-    ),
-)
-
-accumulator(
-    ("va", 12),
-    baca.staff_lines(5),
-)
-
-accumulator(
-    ("vc", (1, 8)),
-    baca.flat_glissando(
-        "Eb2",
-        hide_middle_stems=True,
-        left_broken=True,
-    ),
-    baca.hairpin(
-        "(p) < ff -- (ff) >o niente",
-        pieces=lambda _: baca.select.mgroups(_, [2, 4, 2 + 1]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    library.clouded_pane_spanner("clouded pane (continues) -|", 5.5),
-)
-
-# v1, v2, vc
-
-accumulator(
-    (["v1", "v1r", "v2", "v2r", "vc", "vcr"], 9),
-    baca.tacet(),
-)
-
-accumulator(
-    (["v1", "v2", "vc"], 10),
-    baca.tacet(),
-)
-
-# tutti
-
-accumulator(
-    ["v1", "v2", "va", "vc"],
-    baca.dls_staff_padding(6),
-    baca.tuplet_bracket_down(),
-)
-
-accumulator(
-    (["v1", "v2", "va", "vc"], (12, 13)),
-    baca.circle_bow_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        qualifier="tight-poss-grind-at-talon",
-    ),
-    baca.damp_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-    ),
-    baca.hairpin(
-        "p -- !",
-        abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    baca.new(
-        baca.flat_glissando("Bb4"),
-        match=0,
-    ),
-    baca.new(
+def v1(m):
+    accumulator(
+        ("v1", (1, 8)),
         baca.flat_glissando(
-            "G4",
-            stop_pitch="A4",
+            "<F5 Bqs5>",
+            hide_middle_stems=True,
         ),
-        match=1,
-    ),
-    baca.new(
-        baca.flat_glissando("Bb4"),
-        match=2,
-    ),
-    baca.new(
-        baca.clef("treble"),
-        baca.flat_glissando("Bb4"),
-        match=3,
-    ),
-)
+        baca.hairpin(
+            "pp < f > pp < f > pp < f >o niente",
+            pieces=lambda _: baca.select.mgroups(_, [1, 2, 1, 2, 1, 2]),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+        baca.markup(
+            r"\baca-thirteen-plus-nine-e-flat",
+            abjad.Tweak(r"- \tweak padding 1.5"),
+        ),
+        library.clouded_pane_spanner(
+            "clouded pane (doublestop partials) -|",
+            8,
+        ),
+    )
+
+
+def v2(m):
+    accumulator(
+        ("v2", (1, 8)),
+        baca.flat_glissando(
+            "<G4 Dqs5>",
+            hide_middle_stems=True,
+        ),
+        baca.hairpin(
+            "pp < f > pp < f > pp < f >o niente",
+            pieces=lambda _: baca.select.mgroups(_, [2, 1, 2, 1, 1, 2]),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+        baca.markup(
+            r"\baca-seven-plus-five-e-flat",
+            abjad.Tweak(r"- \tweak padding 1.5"),
+        ),
+        library.clouded_pane_spanner(
+            "clouded pane (doublestop partials) -|",
+            8,
+        ),
+    )
+
+
+def va(m):
+    accumulator(
+        ("va", (1, 10)),
+        baca.staff_lines(1),
+        baca.dynamic(
+            '"mf"',
+            abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+        ),
+    )
+    accumulator(
+        ("va", (1, 10)),
+        library.style_tailpiece_material(
+            abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+        ),
+    )
+    accumulator(
+        ("va", 12),
+        baca.staff_lines(5),
+    )
+
+
+def vc(m):
+    accumulator(
+        ("vc", (1, 8)),
+        baca.flat_glissando(
+            "Eb2",
+            hide_middle_stems=True,
+            left_broken=True,
+        ),
+        baca.hairpin(
+            "(p) < ff -- (ff) >o niente",
+            pieces=lambda _: baca.select.mgroups(_, [2, 4, 2 + 1]),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+        library.clouded_pane_spanner("clouded pane (continues) -|", 5.5),
+    )
+
+
+def vns_vc(cache):
+    accumulator(
+        (["v1", "v1r", "v2", "v2r", "vc", "vcr"], 9),
+        baca.tacet(),
+    )
+    accumulator(
+        (["v1", "v2", "vc"], 10),
+        baca.tacet(),
+    )
+
+
+def tutti(cache):
+    accumulator(
+        ["v1", "v2", "va", "vc"],
+        baca.dls_staff_padding(6),
+        baca.tuplet_bracket_down(),
+    )
+    accumulator(
+        (["v1", "v2", "va", "vc"], (12, 13)),
+        baca.circle_bow_spanner(
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            qualifier="tight-poss-grind-at-talon",
+        ),
+        baca.damp_spanner(
+            abjad.Tweak(r"- \tweak staff-padding 8"),
+        ),
+        baca.hairpin(
+            "p -- !",
+            abjad.Tweak(r"- \tweak to-barline ##t"),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+        baca.new(
+            baca.flat_glissando("Bb4"),
+            match=0,
+        ),
+        baca.new(
+            baca.flat_glissando(
+                "G4",
+                stop_pitch="A4",
+            ),
+            match=1,
+        ),
+        baca.new(
+            baca.flat_glissando("Bb4"),
+            match=2,
+        ),
+        baca.new(
+            baca.clef("treble"),
+            baca.flat_glissando("Bb4"),
+            match=3,
+        ),
+    )
+
+
+def main():
+    V1(accumulator.voice("v1"))
+    V2(accumulator.voice("v2"))
+    VA(accumulator.voice("va"))
+    VC(accumulator.voice("vc"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    v1(cache["v1"])
+    v2(cache["v2"])
+    va(cache["va"])
+    vc(cache["vc"])
+    vns_vc(cache)
+    tutti(cache)
+
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

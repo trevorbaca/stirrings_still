@@ -51,233 +51,235 @@ time = (
 
 library.time(score, accumulator, time)
 
-# V1
 
-voice = score["Violin.1.Music"]
+def V1(voice):
+    voice = score["Violin.1.Music"]
+    music = library.make_circle_rhythm(
+        accumulator.get(1, 6),
+        (1, 4),
+    )
+    voice.extend(music)
+    music = library.make_picket_rhythm(
+        accumulator.get(7),
+        4,
+        2,
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(8), head=voice.name)
+    voice.extend(music)
 
-music = library.make_circle_rhythm(
-    accumulator.get(1, 6),
-    (1, 4),
-)
-voice.extend(music)
 
-music = library.make_picket_rhythm(
-    accumulator.get(7),
-    4,
-    2,
-)
-voice.extend(music)
+def V2(voice):
+    voice = score["Violin.2.Music"]
+    music = library.make_circle_rhythm(
+        accumulator.get(1, 6),
+        (1, 4),
+    )
+    voice.extend(music)
+    music = library.make_picket_rhythm(
+        accumulator.get(7),
+        4,
+        1,
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(8), head=voice.name)
+    voice.extend(music)
 
-music = baca.make_mmrests(accumulator.get(8), head=voice.name)
-voice.extend(music)
 
-# V2
+def VA(voice):
+    voice = score["Viola.Music"]
+    music = library.make_circle_rhythm(
+        accumulator.get(1, 6),
+        (1, 4),
+    )
+    voice.extend(music)
+    music = library.make_picket_rhythm(
+        accumulator.get(7),
+        4,
+        0,
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(8), head=voice.name)
+    voice.extend(music)
 
-voice = score["Violin.2.Music"]
 
-music = library.make_circle_rhythm(
-    accumulator.get(1, 6),
-    (1, 4),
-)
-voice.extend(music)
+def VC(voice):
+    voice = score["Cello.Music"]
+    music = library.make_circle_rhythm(
+        accumulator.get(1, 6),
+        (1, 4),
+    )
+    voice.extend(music)
+    music = library.make_trajectory_rhythm(
+        accumulator.get(7),
+        "A",
+        -1,
+        0,
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(8), head=voice.name)
+    voice.extend(music)
 
-music = library.make_picket_rhythm(
-    accumulator.get(7),
-    4,
-    1,
-)
-voice.extend(music)
 
-music = baca.make_mmrests(accumulator.get(8), head=voice.name)
-voice.extend(music)
+def v1(m):
+    accumulator(
+        ("v1", (1, 6)),
+        baca.circle_bow_spanner(
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            qualifier="granulation",
+        ),
+        baca.flat_glissando("Eb4"),
+        baca.hairpin(
+            '"mf" -- !',
+            abjad.Tweak(r"- \tweak to-barline ##t"),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("v1", 7),
+        baca.circle_bow_spanner(
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            qualifier="wide",
+        ),
+        baca.flat_glissando("Aqs4"),
+        baca.hairpin(
+            "mf >o niente",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+        baca.markup(
+            r"\baca-thirteen-d-flat",
+            abjad.Tweak(r"- \tweak padding 1.5"),
+        ),
+    )
 
-# VA
 
-voice = score["Viola.Music"]
+def tutti(cache):
+    accumulator(
+        ["v1", "v2", "va", "vc"],
+        baca.dls_staff_padding(5),
+        baca.tuplet_bracket_down(),
+    )
 
-music = library.make_circle_rhythm(
-    accumulator.get(1, 6),
-    (1, 4),
-)
-voice.extend(music)
 
-music = library.make_picket_rhythm(
-    accumulator.get(7),
-    4,
-    0,
-)
-voice.extend(music)
+def v2(m):
+    accumulator(
+        ("v2", (1, 6)),
+        baca.circle_bow_spanner(
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            qualifier="granulation",
+        ),
+        baca.flat_glissando("D4"),
+        baca.hairpin(
+            '"mf" -- !',
+            abjad.Tweak(r"- \tweak to-barline ##t"),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("v2", 7),
+        baca.circle_bow_spanner(
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            qualifier="wide",
+        ),
+        baca.flat_glissando("Eb4"),
+        baca.hairpin(
+            "mf >o niente",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+        baca.markup(
+            r"\baca-nine-d-flat",
+            abjad.Tweak(r"- \tweak padding 1.5"),
+        ),
+    )
 
-music = baca.make_mmrests(accumulator.get(8), head=voice.name)
-voice.extend(music)
 
-# VC
+def va(m):
+    accumulator(
+        ("va", (1, 6)),
+        baca.circle_bow_spanner(
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            qualifier="granulation",
+        ),
+        baca.flat_glissando("G3"),
+        baca.hairpin(
+            '"mf" -- !',
+            abjad.Tweak(r"- \tweak to-barline ##t"),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("va", 7),
+        baca.circle_bow_spanner(
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            qualifier="wide",
+        ),
+        baca.flat_glissando("Bqf3"),
+        baca.hairpin(
+            "mf >o niente",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+        baca.markup(
+            r"\baca-seven-d-flat",
+            abjad.Tweak(r"- \tweak padding 1.5"),
+        ),
+    )
 
-voice = score["Cello.Music"]
 
-music = library.make_circle_rhythm(
-    accumulator.get(1, 6),
-    (1, 4),
-)
-voice.extend(music)
+def vc(m):
+    accumulator(
+        ("vc", (1, 6)),
+        baca.circle_bow_spanner(
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            qualifier="granulation",
+        ),
+        baca.flat_glissando("Ab3"),
+        baca.hairpin(
+            '"mf" -- !',
+            abjad.Tweak(r"- \tweak to-barline ##t"),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("vc", 7),
+        baca.flat_glissando("Db2"),
+        baca.hairpin(
+            "p -- !",
+            abjad.Tweak(r"- \tweak to-barline ##t"),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+        baca.half_clt_spanner(
+            abjad.Tweak(rf"- \tweak staff-padding {3 + 6.5}"),
+        ),
+        baca.tuplet_bracket_down(),
+        library.bcps(
+            -4,
+            clt=True,
+            staff_padding=3,
+        ),
+    )
 
-music = library.make_trajectory_rhythm(
-    accumulator.get(7),
-    "A",
-    -1,
-    0,
-)
-voice.extend(music)
 
-music = baca.make_mmrests(accumulator.get(8), head=voice.name)
-voice.extend(music)
+def main():
+    V1(accumulator.voice("v1"))
+    V2(accumulator.voice("v2"))
+    VA(accumulator.voice("va"))
+    VC(accumulator.voice("vc"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    v1(cache["v1"])
+    tutti(cache)
+    v2(cache["v2"])
+    va(cache["va"])
+    vc(cache["vc"])
 
-# reapply
-
-music_voice_names = [_ for _ in voice_names if "Music" in _]
-
-accumulator(
-    music_voice_names,
-    baca.reapply_persistent_indicators(),
-)
-
-# v1
-
-accumulator(
-    ("v1", (1, 6)),
-    baca.circle_bow_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        qualifier="granulation",
-    ),
-    baca.flat_glissando("Eb4"),
-    baca.hairpin(
-        '"mf" -- !',
-        abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-accumulator(
-    ("v1", 7),
-    baca.circle_bow_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        qualifier="wide",
-    ),
-    baca.flat_glissando("Aqs4"),
-    baca.hairpin(
-        "mf >o niente",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    baca.markup(
-        r"\baca-thirteen-d-flat",
-        abjad.Tweak(r"- \tweak padding 1.5"),
-    ),
-)
-
-# tutti
-
-accumulator(
-    ["v1", "v2", "va", "vc"],
-    baca.dls_staff_padding(5),
-    baca.tuplet_bracket_down(),
-)
-
-accumulator(
-    ("v2", (1, 6)),
-    baca.circle_bow_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        qualifier="granulation",
-    ),
-    baca.flat_glissando("D4"),
-    baca.hairpin(
-        '"mf" -- !',
-        abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-accumulator(
-    ("v2", 7),
-    baca.circle_bow_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        qualifier="wide",
-    ),
-    baca.flat_glissando("Eb4"),
-    baca.hairpin(
-        "mf >o niente",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    baca.markup(
-        r"\baca-nine-d-flat",
-        abjad.Tweak(r"- \tweak padding 1.5"),
-    ),
-)
-
-accumulator(
-    ("va", (1, 6)),
-    baca.circle_bow_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        qualifier="granulation",
-    ),
-    baca.flat_glissando("G3"),
-    baca.hairpin(
-        '"mf" -- !',
-        abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-accumulator(
-    ("va", 7),
-    baca.circle_bow_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        qualifier="wide",
-    ),
-    baca.flat_glissando("Bqf3"),
-    baca.hairpin(
-        "mf >o niente",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    baca.markup(
-        r"\baca-seven-d-flat",
-        abjad.Tweak(r"- \tweak padding 1.5"),
-    ),
-)
-
-accumulator(
-    ("vc", (1, 6)),
-    baca.circle_bow_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        qualifier="granulation",
-    ),
-    baca.flat_glissando("Ab3"),
-    baca.hairpin(
-        '"mf" -- !',
-        abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-accumulator(
-    ("vc", 7),
-    baca.flat_glissando("Db2"),
-    baca.hairpin(
-        "p -- !",
-        abjad.Tweak(r"- \tweak to-barline ##t"),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    baca.half_clt_spanner(
-        abjad.Tweak(rf"- \tweak staff-padding {3 + 6.5}"),
-    ),
-    baca.tuplet_bracket_down(),
-    library.bcps(
-        -4,
-        clt=True,
-        staff_padding=3,
-    ),
-)
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

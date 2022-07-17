@@ -53,193 +53,185 @@ time = (("fermata", 17),)
 
 library.time(score, accumulator, time)
 
-# V1
 
-voice = score["Violin.1.Music"]
+def V1(voice):
+    voice = score["Violin.1.Music"]
+    music = library.make_trajectory_rhythm(
+        accumulator.get(1, 8),
+        "C",
+        0,
+        -3,
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(9, 17), head=voice.name)
+    voice.extend(music)
 
-music = library.make_trajectory_rhythm(
-    accumulator.get(1, 8),
-    "C",
-    0,
-    -3,
-)
-voice.extend(music)
 
-music = baca.make_mmrests(accumulator.get(9, 17), head=voice.name)
-voice.extend(music)
+def V2(voice):
+    voice = score["Violin.2.Music"]
+    music = library.make_trajectory_rhythm(
+        accumulator.get(1, 8),
+        "C",
+        -1,
+        -2,
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(9, 17), head=voice.name)
+    voice.extend(music)
 
-# V2
 
-voice = score["Violin.2.Music"]
+def VA(voice):
+    voice = score["Viola.Music"]
+    music = baca.make_repeat_tied_notes(accumulator.get())
+    voice.extend(music)
 
-music = library.make_trajectory_rhythm(
-    accumulator.get(1, 8),
-    "C",
-    -1,
-    -2,
-)
-voice.extend(music)
 
-music = baca.make_mmrests(accumulator.get(9, 17), head=voice.name)
-voice.extend(music)
+def VC(voice):
+    voice = score["Cello.Music"]
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 12))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(13, 17), head=voice.name)
+    voice.extend(music)
 
-# VA
 
-voice = score["Viola.Music"]
+def v1(m):
+    accumulator(
+        "v1",
+        baca.dls_staff_padding(7),
+    )
+    accumulator(
+        ("v1", (1, 8)),
+        baca.half_clt_spanner(
+            abjad.Tweak(rf"- \tweak staff-padding {8 + 6}"),
+        ),
+        baca.tuplet_bracket_down(),
+        library.bcps(
+            -8,
+            clt=True,
+            staff_padding=8,
+        ),
+        baca.flat_glissando(
+            "A6",
+            left_broken=True,
+        ),
+    )
+    accumulator(
+        ("v1", (5, 8)),
+        baca.hairpin(
+            "ppp >o niente",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        (["v1", "v1r"], 9),
+        baca.tacet(),
+    )
+    accumulator(
+        ("v1", (10, -1)),
+        baca.tacet(),
+    )
 
-music = baca.make_repeat_tied_notes(accumulator.get())
-voice.extend(music)
 
-# VC
+def v2(m):
+    accumulator(
+        "v2",
+        baca.dls_staff_padding(7),
+    )
+    accumulator(
+        ("v2", (1, 8)),
+        baca.half_clt_spanner(
+            abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
+        ),
+        baca.tuplet_bracket_down(),
+        library.bcps(
+            -9,
+            clt=True,
+            staff_padding=4.5,
+        ),
+        baca.flat_glissando(
+            "Ab5",
+            left_broken=True,
+        ),
+    )
+    accumulator(
+        ("v2", (5, 8)),
+        baca.hairpin(
+            "ppp >o niente",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        (["v2", "v2r"], 9),
+        baca.tacet(),
+    )
+    accumulator(
+        ("v2", (10, 17)),
+        baca.tacet(),
+    )
 
-voice = score["Cello.Music"]
 
-music = baca.make_repeat_tied_notes(accumulator.get(1, 12))
-voice.extend(music)
+def va(m):
+    accumulator(
+        "va",
+        baca.flat_glissando(
+            "Bb2",
+            hide_middle_stems=True,
+            left_broken=True,
+            right_broken=True,
+        ),
+    )
 
-music = baca.make_mmrests(accumulator.get(13, 17), head=voice.name)
-voice.extend(music)
 
-# reapply
+def vc(m):
+    accumulator(
+        "vc",
+        baca.dls_staff_padding(8),
+    )
+    accumulator(
+        ("vc", (1, 12)),
+        baca.ottava_bassa(),
+        baca.flat_glissando(
+            "B0",
+            hide_middle_stems=True,
+        ),
+    )
+    accumulator(
+        ("vc", (9, 12)),
+        baca.hairpin(
+            "pp >o niente",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        (["vc", "vcr"], 13),
+        baca.tacet(),
+    )
+    accumulator(
+        ("vc", (14, 17)),
+        baca.tacet(),
+    )
 
-music_voice_names = [_ for _ in voice_names if "Music" in _]
 
-accumulator(
-    music_voice_names,
-    baca.reapply_persistent_indicators(),
-)
+def main():
+    V1(accumulator.voice("v1"))
+    V2(accumulator.voice("v2"))
+    VA(accumulator.voice("va"))
+    VC(accumulator.voice("vc"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    v1(cache["v1"])
+    v2(cache["v2"])
+    va(cache["va"])
+    vc(cache["vc"])
 
-# v1
-
-accumulator(
-    "v1",
-    baca.dls_staff_padding(7),
-)
-
-accumulator(
-    ("v1", (1, 8)),
-    baca.half_clt_spanner(
-        abjad.Tweak(rf"- \tweak staff-padding {8 + 6}"),
-    ),
-    baca.tuplet_bracket_down(),
-    library.bcps(
-        -8,
-        clt=True,
-        staff_padding=8,
-    ),
-    baca.flat_glissando(
-        "A6",
-        left_broken=True,
-    ),
-)
-
-accumulator(
-    ("v1", (5, 8)),
-    baca.hairpin(
-        "ppp >o niente",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-accumulator(
-    (["v1", "v1r"], 9),
-    baca.tacet(),
-)
-
-accumulator(
-    ("v1", (10, -1)),
-    baca.tacet(),
-)
-
-# v2
-
-accumulator(
-    "v2",
-    baca.dls_staff_padding(7),
-)
-
-accumulator(
-    ("v2", (1, 8)),
-    baca.half_clt_spanner(
-        abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
-    ),
-    baca.tuplet_bracket_down(),
-    library.bcps(
-        -9,
-        clt=True,
-        staff_padding=4.5,
-    ),
-    baca.flat_glissando(
-        "Ab5",
-        left_broken=True,
-    ),
-)
-
-accumulator(
-    ("v2", (5, 8)),
-    baca.hairpin(
-        "ppp >o niente",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-accumulator(
-    (["v2", "v2r"], 9),
-    baca.tacet(),
-)
-
-accumulator(
-    ("v2", (10, -1)),
-    baca.tacet(),
-)
-
-# va
-
-accumulator(
-    "va",
-    baca.flat_glissando(
-        "Bb2",
-        hide_middle_stems=True,
-        left_broken=True,
-        right_broken=True,
-    ),
-)
-
-# vc
-
-accumulator(
-    "vc",
-    baca.dls_staff_padding(8),
-)
-
-accumulator(
-    ("vc", (1, 12)),
-    baca.ottava_bassa(),
-    baca.flat_glissando(
-        "B0",
-        hide_middle_stems=True,
-    ),
-)
-
-accumulator(
-    ("vc", (9, 12)),
-    baca.hairpin(
-        "pp >o niente",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-accumulator(
-    (["vc", "vcr"], 13),
-    baca.tacet(),
-)
-
-accumulator(
-    ("vc", (14, -1)),
-    baca.tacet(),
-)
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

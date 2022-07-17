@@ -116,506 +116,486 @@ def make_eighth_notes(time_signatures):
     return library.make_eighth_notes(time_signatures)
 
 
-# V1
-
-voice = score["Violin.1.Music"]
-
-music = baca.make_repeat_tied_notes(accumulator.get(1, 4), do_not_rewrite_meter=True)
-voice.extend(music)
-
-rhythm_maker = rmakers.bind(
-    rmakers.assign(
-        make_v1_waves,
-        abjad.index([1, 2, 5]),
-    ),
-    rmakers.assign(
-        make_repeat_tied_notes,
-    ),
-)
-music = rhythm_maker(accumulator.get(5, 10))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(accumulator.get(11, 14), do_not_rewrite_meter=True)
-voice.extend(music)
-
-rhythm_maker = rmakers.bind(
-    rmakers.assign(
-        make_v1_waves,
-        abjad.index([1, 2, 5]),
-    ),
-    rmakers.assign(
-        make_repeat_tied_notes,
-    ),
-)
-music = rhythm_maker(accumulator.get(15, 20))
-voice.extend(music)
-
-music = library.make_eighth_notes(accumulator.get(21, 25))
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(26), head=voice.name)
-voice.extend(music)
-
-# V2
-
-voice = score["Violin.2.Music"]
-
-music = baca.make_repeat_tied_notes(accumulator.get(1, 4), do_not_rewrite_meter=True)
-voice.extend(music)
-
-rhythm_maker = rmakers.bind(
-    rmakers.assign(
-        make_v2_waves,
-        abjad.index([0, 2, 4]),
-    ),
-    rmakers.assign(
-        make_repeat_tied_notes,
-    ),
-)
-music = rhythm_maker(accumulator.get(5, 10))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(accumulator.get(11, 14), do_not_rewrite_meter=True)
-voice.extend(music)
-
-rhythm_maker = rmakers.bind(
-    rmakers.assign(
-        make_v2_waves,
-        abjad.index([0, 2, 4]),
-    ),
-    rmakers.assign(
-        make_eighth_notes,
-        abjad.index([5]),
-    ),
-    rmakers.assign(
-        make_repeat_tied_notes,
-    ),
-)
-music = rhythm_maker(accumulator.get(15, 20))
-voice.extend(music)
-
-music = library.make_eighth_notes(accumulator.get(21, 25))
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(26), head=voice.name)
-voice.extend(music)
-
-# VA
-
-voice = score["Viola.Music"]
-
-music = baca.make_repeat_tied_notes(accumulator.get(1, 4), do_not_rewrite_meter=True)
-voice.extend(music)
-
-rhythm_maker = rmakers.bind(
-    rmakers.assign(
-        make_va_waves,
-        abjad.index([3, 4, 5]),
-    ),
-    rmakers.assign(
-        make_repeat_tied_notes,
-    ),
-)
-music = rhythm_maker(accumulator.get(5, 10))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(accumulator.get(11, 14), do_not_rewrite_meter=True)
-voice.extend(music)
-
-rhythm_maker = rmakers.bind(
-    rmakers.assign(
-        make_va_waves,
-        abjad.index([3, 4, 5]),
-    ),
-    rmakers.assign(
-        make_repeat_tied_notes,
-    ),
-)
-music = rhythm_maker(accumulator.get(15, 20))
-voice.extend(music)
-
-music = library.make_eighth_notes(accumulator.get(21, 25))
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(26), head=voice.name)
-voice.extend(music)
-
-# VC
-
-voice = score["Cello.Music"]
-
-music = baca.make_repeat_tied_notes(accumulator.get(1, 4), do_not_rewrite_meter=True)
-voice.extend(music)
-
-rhythm_maker = rmakers.bind(
-    rmakers.assign(
-        make_vc_waves,
-        abjad.index([1, 2, 3]),
-    ),
-    rmakers.assign(
-        make_repeat_tied_notes,
-    ),
-)
-music = rhythm_maker(accumulator.get(5, 10))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(accumulator.get(11, 14), do_not_rewrite_meter=True)
-voice.extend(music)
-
-rhythm_maker = rmakers.bind(
-    rmakers.assign(
-        make_vc_waves,
-        abjad.index([1, 2, 3]),
-    ),
-    rmakers.assign(
-        make_eighth_notes,
-        abjad.index([4, 5]),
-    ),
-    rmakers.assign(
-        make_repeat_tied_notes,
-    ),
-)
-music = rhythm_maker(accumulator.get(15, 20))
-voice.extend(music)
-
-music = library.make_eighth_notes(accumulator.get(21, 25))
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(26), head=voice.name)
-voice.extend(music)
-
-# reapply
-
-music_voice_names = [_ for _ in voice_names if "Music" in _]
-
-accumulator(
-    music_voice_names,
-    baca.reapply_persistent_indicators(),
-)
-
-accumulator(
-    (["v1", "v2", "va", "vc"], (1, 4)),
-    baca.dynamic("ppppp"),
-)
-
-# v1
-
-accumulator(
-    ("v1", [(1, 5), (8, 9), (11, 15), (18, 19)]),
-    baca.flat_glissando(
-        "A4",
-        hide_middle_stems=True,
-        rleak=True,
-    ),
-    baca.tasto_spanner(
-        abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
-    ),
-)
-
-accumulator(
-    ("v1", (6, 7)),
-    baca.hairpin(
-        "ppppp < p > ppp",
-        pieces=lambda _: baca.select.cmgroups(
-            _,
+def V1(voice):
+    voice = score["Violin.1.Music"]
+    music = baca.make_repeat_tied_notes(
+        accumulator.get(1, 4), do_not_rewrite_meter=True
+    )
+    voice.extend(music)
+    rhythm_maker = rmakers.bind(
+        rmakers.assign(
+            make_v1_waves,
+            abjad.index([1, 2, 5]),
         ),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-accumulator(
-    ("v1", 10),
-    baca.hairpin(
-        "ppp < p > ppppp",
-        pieces=lambda _: baca.select.lparts(_, [2, 4, 1]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-accumulator(
-    ("v1", [(6, 7), 10, (16, 17), 20]),
-    baca.flat_glissando(
-        "A4",
-        allow_repitch=True,
-        rleak=True,
-    ),
-)
-
-accumulator(
-    ("v1", [(6, 7), 10, (16, 17), (20, 25)]),
-    baca.circle_bow_spanner(
-        abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
-        qualifier="wide-poss",
-    ),
-)
-
-accumulator(
-    ("v1", (16, 17)),
-    baca.hairpin(
-        "ppppp < p > ppp",
-        pieces=lambda _: baca.select.cmgroups(
-            _,
+        rmakers.assign(
+            make_repeat_tied_notes,
         ),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
+    )
+    music = rhythm_maker(accumulator.get(5, 10))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(
+        accumulator.get(11, 14), do_not_rewrite_meter=True
+    )
+    voice.extend(music)
+    rhythm_maker = rmakers.bind(
+        rmakers.assign(
+            make_v1_waves,
+            abjad.index([1, 2, 5]),
+        ),
+        rmakers.assign(
+            make_repeat_tied_notes,
+        ),
+    )
+    music = rhythm_maker(accumulator.get(15, 20))
+    voice.extend(music)
+    music = library.make_eighth_notes(accumulator.get(21, 25))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(26), head=voice.name)
+    voice.extend(music)
 
-accumulator(
-    ("v1", 20),
-    baca.hairpin(
-        "ppp < p > ppppp",
-        pieces=lambda _: baca.select.lparts(_, [2, 4, 1]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
 
-accumulator(
-    ("v1", (21, 25)),
-    baca.beam(),
-    baca.flat_glissando(
-        "A4",
-        stop_pitch="Bb5",
-    ),
-)
+def V2(voice):
+    voice = score["Violin.2.Music"]
+    music = baca.make_repeat_tied_notes(
+        accumulator.get(1, 4), do_not_rewrite_meter=True
+    )
+    voice.extend(music)
+    rhythm_maker = rmakers.bind(
+        rmakers.assign(
+            make_v2_waves,
+            abjad.index([0, 2, 4]),
+        ),
+        rmakers.assign(
+            make_repeat_tied_notes,
+        ),
+    )
+    music = rhythm_maker(accumulator.get(5, 10))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(
+        accumulator.get(11, 14), do_not_rewrite_meter=True
+    )
+    voice.extend(music)
+    rhythm_maker = rmakers.bind(
+        rmakers.assign(
+            make_v2_waves,
+            abjad.index([0, 2, 4]),
+        ),
+        rmakers.assign(
+            make_eighth_notes,
+            abjad.index([5]),
+        ),
+        rmakers.assign(
+            make_repeat_tied_notes,
+        ),
+    )
+    music = rhythm_maker(accumulator.get(15, 20))
+    voice.extend(music)
+    music = library.make_eighth_notes(accumulator.get(21, 25))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(26), head=voice.name)
+    voice.extend(music)
 
-# tutti
 
-accumulator(
-    ["v1", "v2", "va", "vc"],
-    baca.dls_staff_padding(6),
-)
+def VA(voice):
+    voice = score["Viola.Music"]
+    music = baca.make_repeat_tied_notes(
+        accumulator.get(1, 4), do_not_rewrite_meter=True
+    )
+    voice.extend(music)
+    rhythm_maker = rmakers.bind(
+        rmakers.assign(
+            make_va_waves,
+            abjad.index([3, 4, 5]),
+        ),
+        rmakers.assign(
+            make_repeat_tied_notes,
+        ),
+    )
+    music = rhythm_maker(accumulator.get(5, 10))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(
+        accumulator.get(11, 14), do_not_rewrite_meter=True
+    )
+    voice.extend(music)
+    rhythm_maker = rmakers.bind(
+        rmakers.assign(
+            make_va_waves,
+            abjad.index([3, 4, 5]),
+        ),
+        rmakers.assign(
+            make_repeat_tied_notes,
+        ),
+    )
+    music = rhythm_maker(accumulator.get(15, 20))
+    voice.extend(music)
+    music = library.make_eighth_notes(accumulator.get(21, 25))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(26), head=voice.name)
+    voice.extend(music)
 
-accumulator(
-    (["v1", "v2", "va", "vc"], (1, 20)),
-    baca.dynamic_text_self_alignment_x(
-        -0.75,
-        selector=lambda _: baca.select.leaves(_),
-    ),
-    library.clouded_pane_spanner("clouded pane -|", 10.5),
-)
 
-accumulator(
-    (["v1", "v2", "va", "vc"], (21, 25)),
-    baca.breathe(),
-)
+def VC(voice):
+    voice = score["Cello.Music"]
+    music = baca.make_repeat_tied_notes(
+        accumulator.get(1, 4), do_not_rewrite_meter=True
+    )
+    voice.extend(music)
+    rhythm_maker = rmakers.bind(
+        rmakers.assign(
+            make_vc_waves,
+            abjad.index([1, 2, 3]),
+        ),
+        rmakers.assign(
+            make_repeat_tied_notes,
+        ),
+    )
+    music = rhythm_maker(accumulator.get(5, 10))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(
+        accumulator.get(11, 14), do_not_rewrite_meter=True
+    )
+    voice.extend(music)
+    rhythm_maker = rmakers.bind(
+        rmakers.assign(
+            make_vc_waves,
+            abjad.index([1, 2, 3]),
+        ),
+        rmakers.assign(
+            make_eighth_notes,
+            abjad.index([4, 5]),
+        ),
+        rmakers.assign(
+            make_repeat_tied_notes,
+        ),
+    )
+    music = rhythm_maker(accumulator.get(15, 20))
+    voice.extend(music)
+    music = library.make_eighth_notes(accumulator.get(21, 25))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(26), head=voice.name)
+    voice.extend(music)
 
-# v1, va, vc
 
-accumulator(
-    ["v1", "va", "vc"],
-    baca.tuplet_bracket_down(),
-)
+def v1(m):
+    accumulator(
+        ("v1", [(1, 5), (8, 9), (11, 15), (18, 19)]),
+        baca.flat_glissando(
+            "A4",
+            hide_middle_stems=True,
+            rleak=True,
+        ),
+        baca.tasto_spanner(
+            abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
+        ),
+    )
+    accumulator(
+        ("v1", (6, 7)),
+        baca.hairpin(
+            "ppppp < p > ppp",
+            pieces=lambda _: baca.select.cmgroups(
+                _,
+            ),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("v1", 10),
+        baca.hairpin(
+            "ppp < p > ppppp",
+            pieces=lambda _: baca.select.lparts(_, [2, 4, 1]),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("v1", [(6, 7), 10, (16, 17), 20]),
+        baca.flat_glissando(
+            "A4",
+            allow_repitch=True,
+            rleak=True,
+        ),
+    )
+    accumulator(
+        ("v1", [(6, 7), 10, (16, 17), (20, 25)]),
+        baca.circle_bow_spanner(
+            abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
+            qualifier="wide-poss",
+        ),
+    )
+    accumulator(
+        ("v1", (16, 17)),
+        baca.hairpin(
+            "ppppp < p > ppp",
+            pieces=lambda _: baca.select.cmgroups(
+                _,
+            ),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("v1", 20),
+        baca.hairpin(
+            "ppp < p > ppppp",
+            pieces=lambda _: baca.select.lparts(_, [2, 4, 1]),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("v1", (21, 25)),
+        baca.beam(),
+        baca.flat_glissando(
+            "A4",
+            stop_pitch="Bb5",
+        ),
+    )
 
-accumulator(
-    ("v2", [(1, 4), 6, 8, (10, 14), 16, 18]),
-    baca.flat_glissando(
-        "A3",
-        hide_middle_stems=True,
-        rleak=True,
-    ),
-    baca.tasto_spanner(
-        abjad.Tweak(rf"- \tweak staff-padding {v2_spanner_staff_padding}"),
-    ),
-)
 
-accumulator(
-    ("v2", [5, 7, 9, 15, 17, 19]),
-    baca.flat_glissando(
-        "A3",
-        allow_repitch=True,
-        rleak=True,
-    ),
-)
+def tutti(cache):
+    accumulator(
+        (["v1", "v2", "va", "vc"], (1, 4)),
+        baca.dynamic("ppppp"),
+    )
+    accumulator(
+        ["v1", "v2", "va", "vc"],
+        baca.dls_staff_padding(6),
+    )
+    accumulator(
+        (["v1", "v2", "va", "vc"], (1, 20)),
+        baca.dynamic_text_self_alignment_x(
+            -0.75,
+            selector=lambda _: baca.select.leaves(_),
+        ),
+        library.clouded_pane_spanner("clouded pane -|", 10.5),
+    )
+    accumulator(
+        (["v1", "v2", "va", "vc"], (21, 25)),
+        baca.breathe(),
+    )
 
-accumulator(
-    ("v2", [5, 7, 9, 15, 17, (19, 25)]),
-    baca.circle_bow_spanner(
-        abjad.Tweak(rf"- \tweak staff-padding {v2_spanner_staff_padding}"),
-        qualifier="wide-poss",
-    ),
-)
 
-accumulator(
-    ("v2", 5),
-    baca.hairpin(
-        "ppppp < p > ppp",
-        pieces=lambda _: baca.select.lparts(_, [1, 3, 1]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
+def v1_va_vc(cache):
+    accumulator(
+        ["v1", "va", "vc"],
+        baca.tuplet_bracket_down(),
+    )
 
-accumulator(
-    ("v2", 7),
-    baca.hairpin(
-        "ppp < p > ppp",
-        pieces=lambda _: baca.select.lparts(_, [5, 1, 1]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
 
-accumulator(
-    ("v2", 9),
-    baca.hairpin(
-        "ppp < p > ppppp",
-        pieces=lambda _: baca.select.lparts(_, [1, 3, 1]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
+def v2(m):
+    accumulator(
+        ("v2", [(1, 4), 6, 8, (10, 14), 16, 18]),
+        baca.flat_glissando(
+            "A3",
+            hide_middle_stems=True,
+            rleak=True,
+        ),
+        baca.tasto_spanner(
+            abjad.Tweak(rf"- \tweak staff-padding {v2_spanner_staff_padding}"),
+        ),
+    )
+    accumulator(
+        ("v2", [5, 7, 9, 15, 17, 19]),
+        baca.flat_glissando(
+            "A3",
+            allow_repitch=True,
+            rleak=True,
+        ),
+    )
+    accumulator(
+        ("v2", [5, 7, 9, 15, 17, (19, 25)]),
+        baca.circle_bow_spanner(
+            abjad.Tweak(rf"- \tweak staff-padding {v2_spanner_staff_padding}"),
+            qualifier="wide-poss",
+        ),
+    )
+    accumulator(
+        ("v2", 5),
+        baca.hairpin(
+            "ppppp < p > ppp",
+            pieces=lambda _: baca.select.lparts(_, [1, 3, 1]),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("v2", 7),
+        baca.hairpin(
+            "ppp < p > ppp",
+            pieces=lambda _: baca.select.lparts(_, [5, 1, 1]),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("v2", 9),
+        baca.hairpin(
+            "ppp < p > ppppp",
+            pieces=lambda _: baca.select.lparts(_, [1, 3, 1]),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("v2", 15),
+        baca.hairpin(
+            "ppppp < p > pp",
+            pieces=lambda _: baca.select.lparts(_, [1, 4, 1]),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("v2", 17),
+        baca.hairpin(
+            "ppp < p > pp",
+            pieces=lambda _: baca.select.lparts(_, [7, 1, 1]),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("v2", 19),
+        baca.hairpin(
+            "ppp < p > ppppp",
+            pieces=lambda _: baca.select.lparts(_, [1, 2, 1]),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("v2", (20, 25)),
+        baca.beam(),
+        baca.flat_glissando(
+            "A3",
+            stop_pitch="Gb4",
+        ),
+    )
 
-accumulator(
-    ("v2", 15),
-    baca.hairpin(
-        "ppppp < p > pp",
-        pieces=lambda _: baca.select.lparts(_, [1, 4, 1]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
 
-accumulator(
-    ("v2", 17),
-    baca.hairpin(
-        "ppp < p > pp",
-        pieces=lambda _: baca.select.lparts(_, [7, 1, 1]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
+def va(m):
+    accumulator(
+        ("va", [(1, 7), (11, 17)]),
+        baca.flat_glissando(
+            "A3",
+            hide_middle_stems=True,
+            rleak=True,
+        ),
+        baca.tasto_spanner(
+            abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
+        ),
+    )
+    accumulator(
+        ("va", (8, 10)),
+        baca.hairpin(
+            "ppppp < p > ppppp",
+            pieces=lambda _: baca.select.cmgroups(_, [1, 2]),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("va", [(8, 10), (18, 20)]),
+        baca.flat_glissando(
+            "A3",
+            allow_repitch=True,
+            rleak=True,
+        ),
+    )
+    accumulator(
+        ("va", [(8, 10), (18, 25)]),
+        baca.circle_bow_spanner(
+            abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
+            qualifier="wide-poss",
+        ),
+    )
+    accumulator(
+        ("va", (18, 20)),
+        baca.hairpin(
+            "ppppp < p > ppppp",
+            pieces=lambda _: baca.select.cmgroups(_, [1, 2]),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("va", (21, 25)),
+        baca.beam(),
+        baca.flat_glissando(
+            "A3",
+            stop_pitch="B3",
+        ),
+    )
 
-accumulator(
-    ("v2", 19),
-    baca.hairpin(
-        "ppp < p > ppppp",
-        pieces=lambda _: baca.select.lparts(_, [1, 2, 1]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
 
-accumulator(
-    ("v2", (20, 25)),
-    baca.beam(),
-    baca.flat_glissando(
-        "A3",
-        stop_pitch="Gb4",
-    ),
-)
+def vc(m):
+    accumulator(
+        ("vc", [(1, 5), (9, 15)]),
+        baca.flat_glissando(
+            "A2",
+            hide_middle_stems=True,
+            rleak=True,
+        ),
+        baca.tasto_spanner(
+            abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
+        ),
+    )
+    accumulator(
+        ("vc", (1, 18)),
+        baca.pitch("A2", allow_repitch=True),
+    )
+    accumulator(
+        ("vc", (6, 8)),
+        baca.hairpin(
+            "ppppp < p > ppppp",
+            pieces=lambda _: baca.select.cmgroups(_, [1, 2]),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("vc", [(6, 8), (16, 18)]),
+        baca.flat_glissando(
+            "A2",
+            allow_repitch=True,
+            rleak=True,
+        ),
+    )
+    accumulator(
+        ("vc", [(6, 8), (16, 25)]),
+        baca.circle_bow_spanner(
+            abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
+            qualifier="wide-poss",
+        ),
+    )
+    accumulator(
+        ("vc", (16, 18)),
+        baca.hairpin(
+            "ppppp < p > ppppp",
+            pieces=lambda _: baca.select.cmgroups(_, [1, 2]),
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    accumulator(
+        ("vc", (19, 25)),
+        baca.beam(),
+        baca.flat_glissando(
+            "A2",
+            stop_pitch="C3",
+        ),
+    )
 
-accumulator(
-    ("va", [(1, 7), (11, 17)]),
-    baca.flat_glissando(
-        "A3",
-        hide_middle_stems=True,
-        rleak=True,
-    ),
-    baca.tasto_spanner(
-        abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
-    ),
-)
 
-accumulator(
-    ("va", (8, 10)),
-    baca.hairpin(
-        "ppppp < p > ppppp",
-        pieces=lambda _: baca.select.cmgroups(_, [1, 2]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
+def main():
+    V1(accumulator.voice("v1"))
+    V2(accumulator.voice("v2"))
+    VA(accumulator.voice("va"))
+    VC(accumulator.voice("vc"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    v1(cache["v1"])
+    tutti(cache)
+    v1_va_vc(cache)
+    v2(cache["v2"])
+    va(cache["va"])
+    vc(cache["vc"])
 
-accumulator(
-    ("va", [(8, 10), (18, 20)]),
-    baca.flat_glissando(
-        "A3",
-        allow_repitch=True,
-        rleak=True,
-    ),
-)
-
-accumulator(
-    ("va", [(8, 10), (18, 25)]),
-    baca.circle_bow_spanner(
-        abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
-        qualifier="wide-poss",
-    ),
-)
-
-accumulator(
-    ("va", (18, 20)),
-    baca.hairpin(
-        "ppppp < p > ppppp",
-        pieces=lambda _: baca.select.cmgroups(_, [1, 2]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-accumulator(
-    ("va", (21, 25)),
-    baca.beam(),
-    baca.flat_glissando(
-        "A3",
-        stop_pitch="B3",
-    ),
-)
-
-accumulator(
-    ("vc", [(1, 5), (9, 15)]),
-    baca.flat_glissando(
-        "A2",
-        hide_middle_stems=True,
-        rleak=True,
-    ),
-    baca.tasto_spanner(
-        abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
-    ),
-)
-
-accumulator(
-    ("vc", (1, 18)),
-    baca.pitch("A2", allow_repitch=True),
-)
-
-accumulator(
-    ("vc", (6, 8)),
-    baca.hairpin(
-        "ppppp < p > ppppp",
-        pieces=lambda _: baca.select.cmgroups(_, [1, 2]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-accumulator(
-    ("vc", [(6, 8), (16, 18)]),
-    baca.flat_glissando(
-        "A2",
-        allow_repitch=True,
-        rleak=True,
-    ),
-)
-
-accumulator(
-    ("vc", [(6, 8), (16, 25)]),
-    baca.circle_bow_spanner(
-        abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
-        qualifier="wide-poss",
-    ),
-)
-
-accumulator(
-    ("vc", (16, 18)),
-    baca.hairpin(
-        "ppppp < p > ppppp",
-        pieces=lambda _: baca.select.cmgroups(_, [1, 2]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-accumulator(
-    ("vc", (19, 25)),
-    baca.beam(),
-    baca.flat_glissando(
-        "A2",
-        stop_pitch="C3",
-    ),
-)
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),
