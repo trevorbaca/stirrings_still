@@ -61,18 +61,21 @@ baca.markup_function(
     skips[11 - 1],
     r"\stirrings-still-text-ten",
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+    allow_rests=True,
 )
 
 baca.markup_function(
     skips[70 - 1],
     r"\stirrings-still-text-eleven",
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+    allow_rests=True,
 )
 
 baca.markup_function(
     skips[77 - 1],
     r"\stirrings-still-text-twelve",
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+    allow_rests=True,
 )
 
 baca.open_volta(skips[4 - 1], accumulator.first_measure_number)
