@@ -55,6 +55,7 @@ baca.markup_function(
     skips[54 - 1],
     r"\stirrings-still-text-twenty-two",
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+    allow_rests=True,
 )
 
 baca.open_volta(skips[1 - 1], accumulator.first_measure_number)

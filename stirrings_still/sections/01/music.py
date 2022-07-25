@@ -64,6 +64,7 @@ baca.markup_function(
     r"\stirrings-still-text-two",
     # -20 because first page compresses vertical spacing
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+    allow_rests=True,
 )
 
 baca.markup_function(
@@ -71,30 +72,35 @@ baca.markup_function(
     r"\stirrings-still-text-three",
     # -20 because first page compresses vertical spacing
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+    allow_rests=True,
 )
 
 baca.markup_function(
     skips[24 - 1],
     r"\stirrings-still-text-four",
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+    allow_rests=True,
 )
 
 baca.markup_function(
     skips[28 - 1],
     r"\stirrings-still-text-five",
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+    allow_rests=True,
 )
 
 baca.markup_function(
     skips[61 - 1],
     r"\stirrings-still-text-six",
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+    allow_rests=True,
 )
 
 baca.markup_function(
     skips[63 - 1],
     r"\stirrings-still-text-seven",
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+    allow_rests=True,
 )
 
 baca.open_volta(skips[44 - 1], accumulator.first_measure_number)

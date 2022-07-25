@@ -44,24 +44,28 @@ baca.markup_function(
     skips[9 - 1],
     r"\stirrings-still-text-twenty-six",
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+    allow_rests=True,
 )
 
 baca.markup_function(
     skips[16 - 1],
     r"\stirrings-still-text-twenty-seven",
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -50)"),
+    allow_rests=True,
 )
 
 baca.markup_function(
     skips[20 - 1],
     r"\stirrings-still-text-twenty-eight",
     abjad.Tweak(r"- \tweak extra-offset #'(9 . -75)"),
+    allow_rests=True,
 )
 
 baca.markup_function(
     skips[20 - 1],
     r"\stirrings-still-text-twenty-nine",
     abjad.Tweak(r"- \tweak extra-offset #'(28 . -100)"),
+    allow_rests=True,
 )
 
 baca.bar_line(score["Skips"][20 - 1], "|.")
