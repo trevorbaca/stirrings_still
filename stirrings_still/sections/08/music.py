@@ -734,7 +734,10 @@ def vc(m):
     )
     accumulator(
         ("vc", (23, 31)),
-        baca.dynamic_text_self_alignment_x(-1),
+        baca.dynamic_text_self_alignment_x(
+            -1,
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.hairpin(
             "(ff) > ppp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
