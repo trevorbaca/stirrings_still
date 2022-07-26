@@ -565,7 +565,7 @@ def VC(voice):
     voice.extend(music)
     accumulator(
         (["vc", "vcr"], [41, (44, 45)]),
-        baca.tacet(),
+        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
     )
     accumulator(
         (["v1", "v2", "va"], [1, 3, (5, 6), (8, 9)]),
@@ -1121,7 +1121,7 @@ def vc(m):
     )
     accumulator(
         (["vc", "vcr"], (1, 11)),
-        baca.tacet(),
+        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
     )
     accumulator(
         ("vc", (12, 26)),
@@ -1242,7 +1242,7 @@ def vc(m):
     )
     accumulator(
         ("vc", 60),
-        baca.tacet(),
+        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
     )
     accumulator(
         ("vc", 62),

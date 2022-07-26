@@ -322,7 +322,7 @@ def vc(m):
 def vns_vc(cache):
     accumulator(
         (["v1", "v2", "vc"], (17, 19)),
-        baca.tacet(),
+        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
     )
 
 

@@ -583,7 +583,7 @@ def v1(m):
     )
     accumulator(
         (["v1", "v1r"], 22),
-        baca.tacet(),
+        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
     )
     accumulator(
         ("v1", 23),
@@ -890,7 +890,7 @@ def v2(m):
     )
     accumulator(
         (["v2", "v2r"], 22),
-        baca.tacet(),
+        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
     )
     accumulator(
         ("v2", 23),
@@ -1122,7 +1122,7 @@ def va(m):
     )
     accumulator(
         (["va", "var"], 22),
-        baca.tacet(),
+        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
     )
     accumulator(
         ("va", 23),
