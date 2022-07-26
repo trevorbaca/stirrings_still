@@ -183,7 +183,10 @@ def vns_va(cache):
     )
     accumulator(
         (["v1", "v2", "va"], (5, 11)),
-        baca.dynamic_text_self_alignment_x(-0.75),
+        baca.dynamic_text_self_alignment_x(
+            -0.75,
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.dynamic_text_self_alignment_x(
             -0.75,
             selector=lambda _: abjad.select.leaf(_, -1),

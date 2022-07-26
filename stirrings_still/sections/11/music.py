@@ -566,7 +566,10 @@ def v1(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
         ),
-        baca.dynamic_text_self_alignment_x(-0.75),
+        baca.dynamic_text_self_alignment_x(
+            -0.75,
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.hairpin(
             '"ff" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -585,7 +588,10 @@ def v1(m):
     accumulator(
         ("v1", 23),
         baca.breathe(),
-        baca.dynamic_text_self_alignment_x(-0.75),
+        baca.dynamic_text_self_alignment_x(
+            -0.75,
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.hairpin('"ff" > mf'),
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -867,7 +873,10 @@ def v2(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
         ),
-        baca.dynamic_text_self_alignment_x(-0.75),
+        baca.dynamic_text_self_alignment_x(
+            -0.75,
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.hairpin(
             '"ff" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -886,7 +895,10 @@ def v2(m):
     accumulator(
         ("v2", 23),
         baca.breathe(),
-        baca.dynamic_text_self_alignment_x(-0.75),
+        baca.dynamic_text_self_alignment_x(
+            -0.75,
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.hairpin('"ff" > mf'),
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1093,7 +1105,10 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
         ),
-        baca.dynamic_text_self_alignment_x(-0.75),
+        baca.dynamic_text_self_alignment_x(
+            -0.75,
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.hairpin(
             '"ff" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -1112,7 +1127,10 @@ def va(m):
     accumulator(
         ("va", 23),
         baca.breathe(),
-        baca.dynamic_text_self_alignment_x(-0.75),
+        baca.dynamic_text_self_alignment_x(
+            -0.75,
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.hairpin('"ff" > mf'),
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
