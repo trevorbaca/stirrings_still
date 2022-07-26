@@ -1814,7 +1814,10 @@ def vc(m):
     )
     accumulator(
         ("vc", 15),
-        baca.rest_extra_offset((-0.5, 0)),
+        baca.rest_extra_offset(
+            (-0.5, 0),
+            selector=lambda _: baca.select.rest(_, 0),
+        ),
         baca.tuplet_bracket_shorten_pair(
             (-1.5, 0),
             selector=lambda _: baca.select.rest(_, -1),
