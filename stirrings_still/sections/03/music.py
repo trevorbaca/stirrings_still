@@ -550,7 +550,9 @@ def v1(m):
                 ],
             ),
             baca.new(
-                baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
+                baca.note_head_style_harmonic(
+                    selector=lambda _: baca.select.pleaves(_)
+                ),
                 map=lambda _: abjad.select.get(baca.select.plts(_), [3], 4),
             ),
         ),
@@ -668,7 +670,9 @@ def va(m):
                 ],
             ),
             baca.new(
-                baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
+                baca.note_head_style_harmonic(
+                    selector=lambda _: baca.select.pleaves(_)
+                ),
                 map=lambda _: abjad.select.get(baca.select.plts(_), [4], 5),
             ),
         ),
@@ -1079,7 +1083,9 @@ def vc(m):
                 ],
             ),
             baca.new(
-                baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
+                baca.note_head_style_harmonic(
+                    selector=lambda _: baca.select.pleaves(_)
+                ),
                 map=lambda _: abjad.select.get(baca.select.plts(_), [2], 3),
             ),
         ),
