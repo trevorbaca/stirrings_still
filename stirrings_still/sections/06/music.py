@@ -207,11 +207,11 @@ def vc(m):
 def vns_vc(cache):
     accumulator(
         (["v1", "v1r", "v2", "v2r", "vc", "vcr"], 9),
-        baca.tacet(),
+        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
     )
     accumulator(
         (["v1", "v2", "vc"], 10),
-        baca.tacet(),
+        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
     )
 
 

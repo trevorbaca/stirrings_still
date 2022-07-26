@@ -603,7 +603,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (5, 6)),
-        baca.tacet(),
+        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
     )
     accumulator(
         ("vc", 11),
