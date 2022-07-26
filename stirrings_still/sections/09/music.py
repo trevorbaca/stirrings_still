@@ -258,7 +258,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
         ),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("vc", (1, 6)),

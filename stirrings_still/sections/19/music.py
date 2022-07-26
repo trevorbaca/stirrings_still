@@ -185,7 +185,7 @@ def v1(m):
     accumulator(
         "v1",
         baca.dls_staff_padding(7),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("v1", [1, (3, 4), (6, 8), (10, 15)]),
@@ -218,7 +218,7 @@ def v2(m):
     accumulator(
         "v2",
         baca.dls_staff_padding(6),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.tuplet_bracket_down(),
     )
     accumulator(

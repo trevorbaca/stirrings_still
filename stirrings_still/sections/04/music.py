@@ -597,7 +597,7 @@ def v1(m):
             ),
             baca.hairpin("pp < mp"),
         ),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("v1", (86, 92)),
@@ -973,7 +973,7 @@ def v2(m):
             ),
             baca.hairpin("pp < mp"),
         ),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("v2", (86, 92)),
@@ -1080,7 +1080,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
         ),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         library.cello_cell_bcps(
             staff_padding=4.5,
         ),

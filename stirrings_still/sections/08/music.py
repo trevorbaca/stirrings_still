@@ -661,7 +661,7 @@ def vc(m):
         ("vc", 6),
         baca.chunk(
             baca.beam(),
-            baca.note_head_style_harmonic(),
+            baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
             baca.pitches("C#4 F4 G2 B3 D3"),
             baca.glissando(),
         ),
@@ -698,7 +698,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (7, 31)),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.suite(
             baca.untie(lambda _: abjad.select.leaf(_, 1)),
             baca.pitch(
