@@ -639,7 +639,7 @@ def vc(m):
         ("vc", (1, 10)),
         baca.chunk(
             baca.dots_transparent(),
-            baca.stem_transparent(),
+            baca.stem_transparent(selector=lambda _: baca.select.pleaves(_)),
         ),
         library.clouded_pane_spanner("clouded pane -|", 8),
     )
