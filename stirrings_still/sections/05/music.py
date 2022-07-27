@@ -583,7 +583,9 @@ def v1(m):
     )
     accumulator(
         ("v1", (42, 49)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -600,7 +602,9 @@ def v1(m):
     )
     accumulator(
         ("v1", (50, 61)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.hairpin(
             'o< fff -- "fff" >o !',
             pieces=lambda _: baca.select.mgroups(_, [4, 4, 4 + 1]),
@@ -674,7 +678,9 @@ def v1(m):
     )
     accumulator(
         ("v1", (89, 96)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -1089,7 +1095,9 @@ def v2(m):
     )
     accumulator(
         ("v2", (42, 53)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -1106,7 +1114,9 @@ def v2(m):
     )
     accumulator(
         ("v2", (54, 61)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.hairpin(
             'fff -- "fff" >o !',
             pieces=lambda _: baca.select.mgroups(_, [4, 4 + 1]),
@@ -1170,7 +1180,9 @@ def v2(m):
     )
     accumulator(
         ("v2", (89, 100)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -1192,7 +1204,9 @@ def v2(m):
     )
     accumulator(
         ("v2", (101, 108)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.hairpin(
             'fff -- "fff" >o !',
             pieces=lambda _: baca.select.mgroups(_, [4, 4 + 1]),
@@ -1359,7 +1373,9 @@ def va(m):
 def va_vc(cache):
     accumulator(
         (["va", "vc"], (42, 49)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -1383,7 +1399,9 @@ def va_vc(cache):
     )
     accumulator(
         (["va", "vc"], (50, 61)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.hairpin(
             'ff < fff -- "fff" > "f"',
             pieces=lambda _: baca.select.mgroups(_, [4, 4, 4]),
@@ -1458,7 +1476,9 @@ def va_vc(cache):
     accumulator(
         (["va", "vc"], (89, 96)),
         baca.new(
-            baca.breathe(),
+            baca.breathe(
+                selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+            ),
             baca.flat_glissando("B3"),
             match=0,
         ),
@@ -1473,7 +1493,9 @@ def va_vc(cache):
     )
     accumulator(
         (["va", "vc"], (97, 108)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.hairpin(
             'o< fff -- "fff" >o !',
             pieces=lambda _: baca.select.mgroups(_, [4, 4, 4 + 1]),

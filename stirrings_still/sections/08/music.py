@@ -1072,7 +1072,9 @@ def v1_va(cache):
 def v1_va_vc(cache):
     accumulator(
         (["v1", "va", "vc"], 6),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
     )
     accumulator(
         (["v1", "va", "vc"], (33, 34)),
@@ -1151,7 +1153,9 @@ def tutti(cache):
             direction=abjad.DOWN,
         ),
         baca.new(
-            baca.breathe(),
+            baca.breathe(
+                selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+            ),
             match=[0, 2],
         ),
         baca.new(

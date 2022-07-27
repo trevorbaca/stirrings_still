@@ -704,7 +704,9 @@ def vns_va(cache):
     )
     accumulator(
         (["v1", "v2", "va"], (60, 61)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.hairpin(
             "appena-udibile -- !",
             abjad.Tweak(r"- \tweak self-alignment-X #left"),
@@ -808,7 +810,9 @@ def tutti(cache):
     )
     accumulator(
         (["v1", "v2", "va", "vc"], (12, 27)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
@@ -914,7 +918,9 @@ def tutti(cache):
     )
     accumulator(
         (["v1", "v2", "va", "vc"], (56, 59)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.hairpin(
             '"ff" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -1059,7 +1065,9 @@ def vc(m):
     )
     accumulator(
         ("vc", (34, 35)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando("E2", allow_repitch=True),
         baca.hairpin(
             "p -- !",

@@ -555,7 +555,9 @@ def v1(m):
         baca.accent(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
         ),
@@ -587,7 +589,9 @@ def v1(m):
     )
     accumulator(
         ("v1", 23),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.dynamic_text_self_alignment_x(
             -0.75,
             selector=lambda _: baca.select.pleaf(_, 0),
@@ -604,7 +608,9 @@ def v1(m):
         baca.accent(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.dynamic("p"),
         baca.markup(
             r"\baca-eleven-e-flat",
@@ -862,7 +868,9 @@ def v2(m):
         baca.accent(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
         ),
@@ -894,7 +902,9 @@ def v2(m):
     )
     accumulator(
         ("v2", 23),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.dynamic_text_self_alignment_x(
             -0.75,
             selector=lambda _: baca.select.pleaf(_, 0),
@@ -911,7 +921,9 @@ def v2(m):
         baca.accent(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.dynamic("p"),
         baca.markup(
             r"\baca-nine-e-flat",
@@ -1089,7 +1101,9 @@ def va(m):
         baca.accent(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.markup(
             r"\baca-five-e",
             abjad.Tweak(r"- \tweak padding 1.5"),
@@ -1126,7 +1140,9 @@ def va(m):
     )
     accumulator(
         ("va", 23),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.dynamic_text_self_alignment_x(
             -0.75,
             selector=lambda _: baca.select.pleaf(_, 0),
@@ -1143,7 +1159,9 @@ def va(m):
         baca.accent(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.dynamic("p"),
         baca.markup(
             r"\baca-five-e-flat",
@@ -1335,14 +1353,18 @@ def vc(m):
         baca.accent(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
         ),
     )
     accumulator(
         ("vc", (21, 23)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.clef("treble"),
         baca.clef(
             "bass",
@@ -1373,7 +1395,9 @@ def vc(m):
         baca.accent(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.dynamic("p"),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),

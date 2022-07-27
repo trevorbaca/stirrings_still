@@ -227,7 +227,9 @@ def v1(m):
     )
     accumulator(
         ("v1", (13, 22)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando(
             "<A3 Fqs4>",
             hide_middle_stems=True,
@@ -402,7 +404,9 @@ def v2(m):
     )
     accumulator(
         ("v2", (13, 22)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando(
             "<F#3 Dqs4>",
             hide_middle_stems=True,
@@ -532,7 +536,9 @@ def va(m):
     )
     accumulator(
         ("va", (13, 22)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando(
             "<C3 Aqs3>",
             hide_middle_stems=True,

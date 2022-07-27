@@ -368,7 +368,9 @@ def tutti(cache):
     )
     accumulator(
         (["v1", "v2", "va", "vc"], (21, 25)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
     )
 
 

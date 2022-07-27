@@ -1780,7 +1780,9 @@ def vc(m):
     )
     accumulator(
         ("vc", (6, 11)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando(
             "E2",
             hide_middle_stems=True,
