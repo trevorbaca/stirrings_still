@@ -583,7 +583,10 @@ def VC(voice):
 def v1(m):
     accumulator(
         "v1",
-        baca.instrument(accumulator.instruments["ViolinI"]),
+        baca.instrument(
+            accumulator.instruments["ViolinI"],
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         baca.clef("treble"),
         baca.staff_lines(5),
         baca.suite(
@@ -955,7 +958,10 @@ def tutti(cache):
 def v2(m):
     accumulator(
         "v2",
-        baca.instrument(accumulator.instruments["ViolinII"]),
+        baca.instrument(
+            accumulator.instruments["ViolinII"],
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         baca.clef("treble"),
         baca.staff_lines(5),
         baca.suite(
@@ -1033,7 +1039,9 @@ def v2(m):
 def va(m):
     accumulator(
         "va",
-        baca.instrument(accumulator.instruments["Viola"]),
+        baca.instrument(
+            accumulator.instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.clef("alto"),
         baca.staff_lines(5),
         baca.suite(
@@ -1111,7 +1119,9 @@ def va(m):
 def vc(m):
     accumulator(
         ("vc", (1, 11)),
-        baca.instrument(accumulator.instruments["Cello"]),
+        baca.instrument(
+            accumulator.instruments["Cello"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.clef("bass"),
         baca.staff_lines(5),
         library.short_instrument_name("Vc."),
