@@ -314,6 +314,7 @@ def vc(m):
                 r"\once \override Score.RehearsalMark.self-alignment-X = #right",
                 r"\mark \stirrings-still-colophon-markup",
             ],
+            selector=lambda _: abjad.select.leaf(_, 0),
             site="after",
         ),
     )
