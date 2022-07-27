@@ -298,7 +298,9 @@ def tutti(cache):
             match=[0, 1, 2],
         ),
         baca.new(
-            baca.breathe(),
+            baca.breathe(
+                selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+            ),
             match=3,
         ),
     )
