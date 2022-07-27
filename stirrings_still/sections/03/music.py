@@ -548,6 +548,7 @@ def v1(m):
                     abjad.Articulation("baca-damp"),
                     None,
                 ],
+                selector=lambda _: baca.select.pheads(_),
             ),
             baca.new(
                 baca.note_head_style_harmonic(
@@ -585,7 +586,9 @@ def v2(m):
     )
     accumulator(
         ("v2", (28, 29)),
-        baca.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_),
+        ),
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
@@ -612,6 +615,7 @@ def v2(m):
                     abjad.Articulation("baca-damp"),
                     abjad.Articulation("baca-double-diamond"),
                 ],
+                selector=lambda _: baca.select.pheads(_),
             ),
         ),
     )
@@ -668,6 +672,7 @@ def va(m):
                     abjad.Articulation("baca-damp"),
                     None,
                 ],
+                selector=lambda _: baca.select.pheads(_),
             ),
             baca.new(
                 baca.note_head_style_harmonic(
@@ -1089,6 +1094,7 @@ def vc(m):
                     abjad.Articulation("baca-double-diamond"),
                     None,
                 ],
+                selector=lambda _: baca.select.pheads(_),
             ),
             baca.new(
                 baca.note_head_style_harmonic(

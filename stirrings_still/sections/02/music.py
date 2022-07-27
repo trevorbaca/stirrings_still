@@ -742,7 +742,9 @@ def VC(voice):
 def v1(m):
     accumulator(
         ("v1", (1, 7)),
-        baca.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_),
+        ),
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
@@ -796,7 +798,9 @@ def v1(m):
     )
     accumulator(
         ("v1", (14, 15)),
-        baca.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_),
+        ),
     )
     accumulator(
         ("v1", (14, 24)),
@@ -806,11 +810,15 @@ def v1(m):
     )
     accumulator(
         ("v1", (16, 17)),
-        baca.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_),
+        ),
     )
     accumulator(
         ("v1", (18, 24)),
-        baca.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_),
+        ),
     )
     accumulator(
         (["v1", "v1r"], [25, 27]),
@@ -1002,7 +1010,7 @@ def vns_va(cache):
         ),
         baca.suite(
             baca.new(
-                baca.espressivo(),
+                baca.espressivo(selector=lambda _: baca.select.phead(_, 0)),
                 baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
                 map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
             ),
@@ -1280,7 +1288,9 @@ def v2(m):
     )
     accumulator(
         ("v2", (1, 7)),
-        baca.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_),
+        ),
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
@@ -1304,7 +1314,9 @@ def v2(m):
     )
     accumulator(
         ("v2", (12, 13)),
-        baca.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_),
+        ),
     )
     accumulator(
         ("v2", (12, 17)),
@@ -1330,11 +1342,15 @@ def v2(m):
     )
     accumulator(
         ("v2", (14, 15)),
-        baca.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_),
+        ),
     )
     accumulator(
         ("v2", (16, 17)),
-        baca.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_),
+        ),
     )
     accumulator(
         ("v2", (18, 25)),
@@ -1508,7 +1524,9 @@ def va(m):
     )
     accumulator(
         ("va", (1, 5)),
-        baca.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_),
+        ),
         baca.clef("treble"),
         baca.half_clt_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1755,7 +1773,9 @@ def vc(m):
     )
     accumulator(
         ("vc", (1, 5)),
-        baca.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_),
+        ),
         baca.clef("treble"),
         baca.clef(
             "bass",
@@ -1831,7 +1851,9 @@ def vc(m):
     )
     accumulator(
         ("vc", (16, 17)),
-        baca.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_),
+        ),
     )
     accumulator(
         ("vc", (16, 19)),
@@ -1859,7 +1881,9 @@ def vc(m):
     )
     accumulator(
         ("vc", (18, 19)),
-        baca.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_),
+        ),
     )
     accumulator(
         ("vc", (20, 25)),
