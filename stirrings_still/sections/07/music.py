@@ -541,7 +541,9 @@ def v2(m):
     )
     accumulator(
         ("v2", (12, 13)),
-        baca.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_),
+        ),
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),

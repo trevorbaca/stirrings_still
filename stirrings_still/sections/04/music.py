@@ -777,7 +777,7 @@ def vns_va(cache):
         (["v1", "v2", "va"], (68, 83)),
         baca.suite(
             baca.new(
-                baca.espressivo(),
+                baca.espressivo(selector=lambda _: baca.select.phead(_, 0)),
                 baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
                 map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
             ),

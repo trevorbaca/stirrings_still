@@ -533,7 +533,7 @@ def v1(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
         baca.new(
-            baca.accent(),
+            baca.accent(selector=lambda _: baca.select.phead(_, 0)),
             baca.dynamic("sfp"),
             baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
             map=lambda _: abjad.select.get(baca.select.plts(_), [0], 2),
@@ -814,7 +814,7 @@ def vns_va(cache):
     accumulator(
         (["v1", "v2", "va"], (24, 33)),
         baca.new(
-            baca.accent(),
+            baca.accent(selector=lambda _: baca.select.phead(_, 0)),
             baca.dynamic("sfp"),
             baca.stem_tremolo(),
             map=lambda _: abjad.select.get(baca.select.plts(_), [0], 2),
@@ -1042,7 +1042,7 @@ def v2(m):
             ),
         ),
         baca.new(
-            baca.accent(),
+            baca.accent(selector=lambda _: baca.select.phead(_, 0)),
             baca.dynamic("sfp"),
             baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
             map=lambda _: abjad.select.get(baca.select.plts(_), [0], 2),
@@ -1248,7 +1248,7 @@ def va(m):
             ),
         ),
         baca.new(
-            baca.accent(),
+            baca.accent(selector=lambda _: baca.select.phead(_, 0)),
             baca.dynamic("sfp"),
             baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
             map=lambda _: abjad.select.get(baca.select.plts(_), [0], 2),
@@ -1282,7 +1282,7 @@ def va(m):
         ("va", (35, 40)),
         baca.suite(
             baca.new(
-                baca.accent(),
+                baca.accent(selector=lambda _: baca.select.phead(_, 0)),
                 baca.dynamic("sfp"),
                 baca.stem_tremolo(),
                 map=lambda _: abjad.select.get(baca.select.plts(_), [0], 2),
