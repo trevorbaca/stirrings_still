@@ -464,7 +464,7 @@ def v1(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("v1", [(2, 9), (25, 27), (41, 42), (53, 54), 63, 69]),
@@ -517,7 +517,7 @@ def v1(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("v1", (28, 30)),
@@ -566,7 +566,7 @@ def v1(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("v1", (43, 45)),
@@ -616,7 +616,7 @@ def v1(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
             selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("v1", (55, 56)),
@@ -665,7 +665,7 @@ def v1(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("v1", 64),
@@ -714,7 +714,7 @@ def v1(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("v1", (70, 71)),
@@ -748,6 +748,7 @@ def v1(m):
         baca.dynamic(
             "ppp",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.half_clt_spanner(
             abjad.Tweak(r"- \tweak staff-padding 14"),
@@ -807,7 +808,7 @@ def v2(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("v2", [(2, 13), (22, 30), (38, 45), (51, 56), (61, 64), (68, 70)]),
@@ -849,7 +850,7 @@ def v2(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("v2", (31, 37)),
@@ -887,7 +888,7 @@ def v2(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("v2", (46, 50)),
@@ -925,7 +926,7 @@ def v2(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("v2", (57, 60)),
@@ -966,6 +967,7 @@ def v2(m):
         baca.dynamic(
             "p",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
     )
     accumulator(
@@ -1005,7 +1007,7 @@ def v2(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("v2", 71),
@@ -1032,6 +1034,7 @@ def v2(m):
         baca.dynamic(
             "ppp",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
@@ -1071,7 +1074,7 @@ def va(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("va", [(2, 9), (22, 27), (38, 42), (51, 54), (61, 63), (68, 69)]),
@@ -1124,7 +1127,7 @@ def va(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("va", (28, 30)),
@@ -1173,7 +1176,7 @@ def va(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("va", (43, 45)),
@@ -1221,7 +1224,7 @@ def va(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("va", (55, 56)),
@@ -1273,6 +1276,7 @@ def va(m):
         baca.dynamic(
             "p",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
     )
     accumulator(
@@ -1322,7 +1326,7 @@ def va(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("va", (70, 71)),
@@ -1356,6 +1360,7 @@ def va(m):
         baca.dynamic(
             "pp-sempre",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.flat_glissando(
             "Bb2",
@@ -1383,7 +1388,7 @@ def vc(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("vc", [(2, 9), (22, 27), (38, 42), (51, 54), (61, 63), (68, 69)]),
@@ -1437,7 +1442,7 @@ def vc(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("vc", (28, 30)),
@@ -1491,7 +1496,7 @@ def vc(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("vc", (43, 45)),
@@ -1541,7 +1546,7 @@ def vc(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("vc", (55, 56)),
@@ -1594,6 +1599,7 @@ def vc(m):
         baca.dynamic(
             "p",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
     )
     accumulator(
@@ -1644,7 +1650,7 @@ def vc(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("vc", (70, 71)),
@@ -1682,6 +1688,7 @@ def vc(m):
         baca.dynamic(
             "pp-sempre",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.flat_glissando(
             "Bb1",

@@ -175,6 +175,7 @@ def va(m):
         baca.dynamic(
             '"mf"',
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
     )
     accumulator(

@@ -842,7 +842,7 @@ def vns_va(cache):
     )
     accumulator(
         (["v1", "v2", "va"], 27),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         (["v1", "v2", "va"], 29),
@@ -857,7 +857,7 @@ def vns_va(cache):
     )
     accumulator(
         (["v1", "v2", "va"], 30),
-        baca.dynamic("ppp"),
+        baca.dynamic("ppp", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         (["v1", "v2", "va"], (30, 45)),
@@ -1152,7 +1152,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (12, 26)),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.flat_glissando(
             "D2",
             hide_middle_stems=True,
@@ -1179,7 +1179,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (29, 40)),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.flat_glissando(
             "Db2",
             hide_middle_stems=True,

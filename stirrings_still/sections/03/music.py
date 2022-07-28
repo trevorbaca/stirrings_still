@@ -501,7 +501,7 @@ def VC(voice):
 def v1(m):
     accumulator(
         ("v1", 5),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
@@ -570,7 +570,7 @@ def v1(m):
 def v2(m):
     accumulator(
         ("v2", 5),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
@@ -627,7 +627,7 @@ def v2(m):
 def va(m):
     accumulator(
         ("va", 5),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\stirrings-still-nine-plus-seven-of-b-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
@@ -808,6 +808,7 @@ def tutti(cache):
         baca.dynamic(
             "p-ancora",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.text_spanner(
             r"\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|",
@@ -829,7 +830,7 @@ def tutti(cache):
     )
     accumulator(
         (["v1", "v2", "va", "vc"], (16, 19)),
-        baca.dynamic("p", redundant=True),
+        baca.dynamic("p", redundant=True, selector=lambda _: baca.select.phead(_, 0)),
         baca.text_spanner(
             r"\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -841,7 +842,7 @@ def tutti(cache):
     )
     accumulator(
         (["v1", "v2", "va", "vc"], (20, 23)),
-        baca.dynamic("p", redundant=True),
+        baca.dynamic("p", redundant=True, selector=lambda _: baca.select.phead(_, 0)),
         baca.text_spanner(
             r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -854,7 +855,7 @@ def tutti(cache):
     )
     accumulator(
         (["v1", "v2", "va", "vc"], (24, 27)),
-        baca.dynamic("p", redundant=True),
+        baca.dynamic("p", redundant=True, selector=lambda _: baca.select.phead(_, 0)),
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
