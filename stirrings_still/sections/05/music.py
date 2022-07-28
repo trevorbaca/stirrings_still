@@ -1322,7 +1322,7 @@ def va(m):
     )
     accumulator(
         ("va", (63, 76)),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.hairpin(
             '"ff" > p',
             measures=(63, 70),
@@ -1370,7 +1370,7 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
         baca.new(
-            baca.clef("alto"),
+            baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
             measures=89,
         ),
     )

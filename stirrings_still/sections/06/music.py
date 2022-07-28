@@ -254,7 +254,7 @@ def tutti(cache):
             match=2,
         ),
         baca.new(
-            baca.clef("treble"),
+            baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
             baca.flat_glissando("Bb4"),
             match=3,
         ),

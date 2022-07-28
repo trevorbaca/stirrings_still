@@ -935,7 +935,7 @@ def tutti_1(cache):
         ),
         baca.hairpin("mf >o niente"),
         baca.new(
-            baca.clef("treble"),
+            baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
             match=3,
         ),
         baca.pitch("C#6"),
@@ -994,7 +994,7 @@ def v2(m):
 def va(m):
     accumulator(
         "va",
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("va", (1, 18)),
@@ -1006,7 +1006,7 @@ def va(m):
     )
     accumulator(
         ("va", 47),
-        baca.clef("alto"),
+        baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("va", (49, 53)),
@@ -1032,11 +1032,11 @@ def va(m):
     )
     accumulator(
         ("va", 58),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("va", 65),
-        baca.clef("alto"),
+        baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("va", (67, 89)),
@@ -1061,7 +1061,7 @@ def va(m):
 def vc(m):
     accumulator(
         "vc",
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("vc", (1, 24)),
@@ -1106,7 +1106,7 @@ def vc(m):
             selector=lambda _: baca.select.rleaves(_),
         ),
         baca.new(
-            baca.clef("bass"),
+            baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
             match=0,
         ),
         library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
@@ -1127,7 +1127,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (65, 92)),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.flat_glissando(
             "E2",
             hide_middle_stems=True,
