@@ -589,6 +589,7 @@ def v1(m):
             r"\baca-string-iv-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.new(
             baca.dynamic_text_self_alignment_x(
@@ -742,6 +743,7 @@ def vns_va(cache):
             baca.markup(
                 r"\baca-thirteen-d-flat",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=0,
         ),
@@ -750,6 +752,7 @@ def vns_va(cache):
             baca.markup(
                 r"\baca-nine-d-flat",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=1,
         ),
@@ -757,6 +760,7 @@ def vns_va(cache):
             baca.markup(
                 r"\baca-seven-d-flat",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.pitch("Bqf3"),
             match=2,
@@ -1079,6 +1083,7 @@ def vc(m):
             r"\baca-string-iii-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         library.cello_cell_bcps(
@@ -1169,6 +1174,7 @@ def v1_stage_2(m):
         baca.markup(
             r"\stirrings-still-seven-plus-nine-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -1178,6 +1184,7 @@ def v1_stage_2(m):
                 baca.markup(
                     r"\stirrings-still-three-plus-seven-of-f-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
+                    selector=lambda _: baca.select.pleaf(_, 0),
                 ),
                 baca.untie(
                     lambda _: baca.select.pleaf(_, 0),
@@ -1223,6 +1230,7 @@ def v2_stage_2(m):
         baca.markup(
             r"\stirrings-still-five-plus-thirteen-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -1232,6 +1240,7 @@ def v2_stage_2(m):
                 baca.markup(
                     r"\stirrings-still-nine-plus-eleven-of-f-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
+                    selector=lambda _: baca.select.pleaf(_, 0),
                 ),
                 baca.untie(
                     lambda _: baca.select.pleaf(_, 0),
@@ -1250,6 +1259,7 @@ def va_stage_2(m):
         baca.markup(
             r"\stirrings-still-eleven-plus-three-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -1258,6 +1268,7 @@ def va_stage_2(m):
         baca.markup(
             r"\baca-five-f-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
 

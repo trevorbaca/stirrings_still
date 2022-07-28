@@ -524,6 +524,7 @@ def v1(m):
         baca.markup(
             r"\baca-seven-f-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.flat_glissando("Etqf4"),
     )
@@ -763,6 +764,7 @@ def vns_va(cache):
             baca.markup(
                 r"\baca-thirteen-b-flat",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.flat_glissando("Gqf4"),
             match=0,
@@ -775,6 +777,7 @@ def vns_va(cache):
             baca.markup(
                 r"\baca-seven-b-flat",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.flat_glissando("Atqf3"),
             match=1,
@@ -787,6 +790,7 @@ def vns_va(cache):
             baca.markup(
                 r"\baca-nine-b-flat",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.flat_glissando("C3"),
             match=2,
@@ -1026,6 +1030,7 @@ def v2(m):
         baca.markup(
             r"\baca-eleven-f-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.flat_glissando("Bqf3"),
     )
@@ -1232,6 +1237,7 @@ def va(m):
         baca.markup(
             r"\baca-five-f-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.flat_glissando("A3"),
     )

@@ -350,6 +350,7 @@ def v1(m):
             baca.markup(
                 r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=0,
         ),
@@ -400,6 +401,7 @@ def vns_va(cache):
             baca.markup(
                 r"\stirrings-still-twenty-four-et-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=2,
         ),
@@ -435,6 +437,7 @@ def tutti(cache):
             baca.markup(
                 r"\stirrings-still-twenty-four-et-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=2,
         ),
@@ -494,6 +497,7 @@ def vns_vc(cache):
             baca.markup(
                 r"\stirrings-still-seven-plus-nine-of-e-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.tasto_spanner(
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -506,6 +510,7 @@ def vns_vc(cache):
             baca.markup(
                 r"\stirrings-still-eleven-plus-three-of-e-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.tasto_spanner(
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -530,6 +535,7 @@ def v2(m):
             baca.markup(
                 r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=0,
         ),
@@ -567,6 +573,7 @@ def va(m):
             baca.markup(
                 r"\stirrings-still-nine-plus-seven-of-b-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=0,
         ),

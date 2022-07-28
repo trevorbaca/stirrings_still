@@ -208,6 +208,7 @@ def v1(m):
             baca.markup(
                 r"\baca-string-iv-markup",
                 direction=abjad.DOWN,
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=0,
         ),
@@ -242,6 +243,7 @@ def v2(m):
             baca.markup(
                 r"\baca-string-iv-markup",
                 direction=abjad.DOWN,
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=0,
         ),

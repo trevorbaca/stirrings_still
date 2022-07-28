@@ -135,6 +135,7 @@ def v1(m):
         baca.markup(
             r"\baca-thirteen-plus-nine-e-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         library.clouded_pane_spanner(
             "clouded pane (doublestop partials) -|",
@@ -158,6 +159,7 @@ def v2(m):
         baca.markup(
             r"\baca-seven-plus-five-e-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         library.clouded_pane_spanner(
             "clouded pane (doublestop partials) -|",

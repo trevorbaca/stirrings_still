@@ -435,6 +435,7 @@ def v1(m):
         baca.markup(
             r"\baca-thirteen-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.flat_glissando("Aqs4"),
     )
@@ -613,6 +614,7 @@ def va(m):
         baca.markup(
             r"\baca-seven-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("Bqf3"),
     )
@@ -691,6 +693,7 @@ def vc(m):
             r"\baca-string-iv-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.bow_speed_spanner(
             "flaut. -> ord.",
@@ -842,6 +845,7 @@ def vns_va(cache):
             baca.markup(
                 r"\baca-thirteen-b-flat",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.flat_glissando("Gqf4"),
             match=0,
@@ -850,6 +854,7 @@ def vns_va(cache):
             baca.markup(
                 r"\baca-seven-b-flat",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.flat_glissando("Atqf3"),
             match=1,
@@ -858,6 +863,7 @@ def vns_va(cache):
             baca.markup(
                 r"\baca-nine-b-flat",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.flat_glissando("C3"),
             match=2,
@@ -922,6 +928,7 @@ def vns_va(cache):
             baca.markup(
                 r"\baca-thirteen-d-flat",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.flat_glissando("Aqs4"),
             match=0,
@@ -930,6 +937,7 @@ def vns_va(cache):
             baca.markup(
                 r"\baca-nine-d-flat",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.flat_glissando("Eb4"),
             match=1,
@@ -938,6 +946,7 @@ def vns_va(cache):
             baca.markup(
                 r"\baca-seven-d-flat",
                 abjad.Tweak(r"- \tweak padding 1"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.flat_glissando("Bqf3"),
             match=2,
@@ -969,6 +978,7 @@ def vns_va(cache):
             baca.markup(
                 r"\stirrings-still-nine-plus-seven-of-b-markup",
                 abjad.Tweak(r"- \tweak padding 1"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.pitch("<Aqf3 C#4>"),
             library.clouded_pane_spanner("clouded pane (partial) -|", 8),
@@ -1016,6 +1026,7 @@ def vns(cache):
             baca.markup(
                 r"\baca-thirteen-d-flat",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.flat_glissando(
                 "Aqs4",
@@ -1027,6 +1038,7 @@ def vns(cache):
             baca.markup(
                 r"\baca-nine-d-flat",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.flat_glissando(
                 "Eb4",
@@ -1091,6 +1103,7 @@ def v1_va_vc(cache):
             baca.markup(
                 r"\stirrings-still-seven-plus-nine-of-e-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.tasto_spanner(
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1102,6 +1115,7 @@ def v1_va_vc(cache):
             baca.markup(
                 r"\stirrings-still-eleven-plus-three-of-e-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.tasto_spanner(
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1127,12 +1141,16 @@ def v1_va_vc(cache):
             baca.markup(
                 r"\stirrings-still-seven-plus-nine-of-e-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.flat_glissando("<F#4 Dqf5>"),
             match=0,
         ),
         baca.new(
-            baca.markup(r"\stirrings-still-eleven-plus-three-of-e-markup"),
+            baca.markup(
+                r"\stirrings-still-eleven-plus-three-of-e-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
             baca.flat_glissando("<B2 Aqs3>"),
             match=1,
         ),
@@ -1155,6 +1173,7 @@ def tutti(cache):
             r"\baca-string-iii-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.new(
             baca.breathe(
@@ -1204,6 +1223,7 @@ def tutti(cache):
             r"\baca-string-iii-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.new(
             baca.flat_glissando("Gb4"),

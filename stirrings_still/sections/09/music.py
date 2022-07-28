@@ -126,6 +126,7 @@ def v1(m):
         baca.markup(
             r"\stirrings-still-twelve-et-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
 
@@ -198,6 +199,7 @@ def v2(m):
         baca.markup(
             r"\stirrings-still-twelve-et-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
 
@@ -219,6 +221,7 @@ def va(m):
         baca.markup(
             r"\baca-seven-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -231,6 +234,7 @@ def va(m):
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
 
@@ -257,6 +261,7 @@ def vc(m):
             r"\baca-string-iii-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
     )
@@ -282,6 +287,7 @@ def vc(m):
             r"\stirrings-still-ninth-partial-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         library.cello_cell_bcps(
             staff_padding=6,

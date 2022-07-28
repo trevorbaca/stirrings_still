@@ -505,6 +505,7 @@ def v1(m):
         baca.markup(
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("<F4 A4>"),
         library.urtext_spanner("urtext (ds) -|", 8),
@@ -528,6 +529,7 @@ def v1(m):
         baca.markup(
             r"\stirrings-still-seven-plus-nine-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.tasto_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -572,6 +574,7 @@ def v2(m):
         baca.markup(
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("<E4 G#4>"),
         library.urtext_spanner("urtext (ds) -|", 8),
@@ -628,6 +631,7 @@ def va(m):
         baca.markup(
             r"\stirrings-still-nine-plus-seven-of-b-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("<Aqf3 C#4>"),
         library.clouded_pane_spanner("clouded (partial: stopped) -|", 8),
@@ -651,6 +655,7 @@ def va(m):
         baca.markup(
             r"\stirrings-still-eleven-plus-three-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.tasto_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),

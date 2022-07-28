@@ -209,6 +209,7 @@ def v1(m):
         baca.markup(
             r"\baca-nine-b-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -237,6 +238,7 @@ def v1(m):
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -246,6 +248,7 @@ def v1(m):
             baca.markup(
                 r"\stirrings-still-twenty-four-et-markup",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=-1,
         ),
@@ -281,6 +284,7 @@ def v1(m):
         baca.markup(
             r"\baca-eleven-e",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("Aqs5"),
         baca.stem_tremolo(
@@ -386,6 +390,7 @@ def v2(m):
         baca.markup(
             r"\baca-eleven-b-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -414,6 +419,7 @@ def v2(m):
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -423,6 +429,7 @@ def v2(m):
             baca.markup(
                 r"\stirrings-still-twenty-four-et-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=-1,
         ),
@@ -458,6 +465,7 @@ def v2(m):
         baca.markup(
             r"\baca-nine-e",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("F#5"),
         baca.stem_tremolo(
@@ -518,6 +526,7 @@ def va(m):
         baca.markup(
             r"\baca-thirteen-b-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -546,6 +555,7 @@ def va(m):
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -555,6 +565,7 @@ def va(m):
             baca.markup(
                 r"\stirrings-still-twenty-four-et-markup",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=-1,
         ),
@@ -590,6 +601,7 @@ def va(m):
         baca.markup(
             r"\baca-five-e",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("G#3"),
         baca.stem_tremolo(
@@ -717,6 +729,7 @@ def vc(m):
             baca.markup(
                 r"\stirrings-still-twenty-four-et-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=0,
         ),
@@ -733,6 +746,7 @@ def vc(m):
             r"\baca-string-iii-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("G2"),
         baca.stem_tremolo(

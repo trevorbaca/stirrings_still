@@ -448,6 +448,7 @@ def v1(m):
         baca.markup(
             r"\baca-eleven-e",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("Aqs5"),
     )
@@ -790,6 +791,7 @@ def v2(m):
         baca.markup(
             r"\baca-nine-e",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("F#5"),
     )
@@ -1053,6 +1055,7 @@ def va(m):
         baca.markup(
             r"\baca-five-e",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("G#3"),
     )
@@ -1687,7 +1690,10 @@ def vc(m):
     )
     accumulator(
         ("vc", (73, 92)),
-        baca.markup(r"\stirrings-still-tuning-peg-slowly-detune-markup"),
+        baca.markup(
+            r"\stirrings-still-tuning-peg-slowly-detune-markup",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.ottava_bassa(),
     )
     accumulator(

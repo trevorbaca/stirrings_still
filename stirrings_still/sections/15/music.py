@@ -150,6 +150,7 @@ def v1(m):
         baca.markup(
             r"\baca-thirteen-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
 
@@ -190,6 +191,7 @@ def v2(m):
         baca.markup(
             r"\baca-nine-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
 
@@ -222,6 +224,7 @@ def va(m):
         baca.markup(
             r"\baca-seven-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
 

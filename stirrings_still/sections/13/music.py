@@ -237,10 +237,12 @@ def v1(m):
             baca.markup(
                 r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.markup(
                 r"\baca-nine-c",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=0,
         ),
@@ -248,6 +250,7 @@ def v1(m):
             baca.markup(
                 r"\baca-nine-c",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=[1, 2, 3],
         ),
@@ -272,6 +275,7 @@ def v1(m):
         baca.markup(
             r"\stirrings-still-twelve-et-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -403,10 +407,12 @@ def v2(m):
             baca.markup(
                 r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.markup(
                 r"\baca-eleven-c",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=0,
         ),
@@ -414,6 +420,7 @@ def v2(m):
             baca.markup(
                 r"\baca-eleven-c",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=[1, 2, 3],
         ),
@@ -438,6 +445,7 @@ def v2(m):
         baca.markup(
             r"\stirrings-still-twelve-et-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -490,11 +498,13 @@ def va(m):
         ("va", [(1, 8), (13, 16), (21, 24), (29, 32)]),
         baca.new(
             baca.markup(
-                r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup"
+                r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.markup(
                 r"\baca-thirteen-c",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=0,
         ),
@@ -502,6 +512,7 @@ def va(m):
             baca.markup(
                 r"\baca-thirteen-c",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=[1, 2, 3],
         ),
@@ -526,6 +537,7 @@ def va(m):
         baca.markup(
             r"\stirrings-still-twelve-et-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(

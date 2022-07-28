@@ -547,6 +547,7 @@ def v1(m):
         baca.markup(
             r"\baca-eleven-e",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.flat_glissando("Aqs5"),
     )
@@ -580,6 +581,7 @@ def v1(m):
         baca.markup(
             r"\baca-thirteen-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.flat_glissando("Aqs4"),
     )
@@ -616,6 +618,7 @@ def v1(m):
             r"\baca-eleven-e-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -660,6 +663,7 @@ def v1(m):
             r"\baca-seven-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.flat_glissando("Bqf5"),
     )
@@ -860,6 +864,7 @@ def v2(m):
         baca.markup(
             r"\baca-nine-e",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.flat_glissando("F#5"),
     )
@@ -893,6 +898,7 @@ def v2(m):
         baca.markup(
             r"\baca-nine-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.flat_glissando("Eb4"),
     )
@@ -928,6 +934,7 @@ def v2(m):
         baca.markup(
             r"\baca-nine-e-flat",
             abjad.Tweak(r"- \tweak padding 0.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -971,6 +978,7 @@ def v2(m):
         baca.markup(
             r"\baca-nine-d-flat",
             abjad.Tweak(r"- \tweak padding 0.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.flat_glissando("Eb5"),
     )
@@ -1107,6 +1115,7 @@ def va(m):
         baca.markup(
             r"\baca-five-e",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -1131,6 +1140,7 @@ def va(m):
         baca.markup(
             r"\baca-seven-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.flat_glissando("Bqf3"),
     )
@@ -1166,6 +1176,7 @@ def va(m):
         baca.markup(
             r"\baca-five-e-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -1209,6 +1220,7 @@ def va(m):
         baca.markup(
             r"\baca-five-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.flat_glissando("F3"),
     )
@@ -1383,6 +1395,7 @@ def vc(m):
             r"\baca-string-iii-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         library.cello_cell_bcps(
