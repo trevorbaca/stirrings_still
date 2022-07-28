@@ -171,7 +171,7 @@ def v2(m):
 def va(m):
     accumulator(
         ("va", (1, 10)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
             '"mf"',
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
@@ -186,7 +186,7 @@ def va(m):
     )
     accumulator(
         ("va", 12),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 
