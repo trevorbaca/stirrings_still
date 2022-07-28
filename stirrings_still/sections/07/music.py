@@ -585,7 +585,7 @@ def va(m):
     )
     accumulator(
         ("va", 19),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 
@@ -600,7 +600,7 @@ def vc(m):
     )
     accumulator(
         "vc",
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("vc", [1, 3, 7, 9]),
@@ -632,7 +632,7 @@ def vc(m):
     )
     accumulator(
         ("vc", 19),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 

@@ -587,7 +587,7 @@ def v1(m):
             accumulator.instruments["ViolinI"],
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5),
         baca.suite(
             library.short_instrument_name("Vn. I"),
@@ -967,7 +967,7 @@ def v2(m):
             accumulator.instruments["ViolinII"],
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5),
         baca.suite(
             library.short_instrument_name("Vn. II"),
@@ -1051,7 +1051,7 @@ def va(m):
         baca.instrument(
             accumulator.instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.clef("alto"),
+        baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5),
         baca.suite(
             library.short_instrument_name("Va."),
@@ -1135,7 +1135,7 @@ def vc(m):
         baca.instrument(
             accumulator.instruments["Cello"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5),
         library.short_instrument_name("Vc."),
         baca.instrument_name(
@@ -1196,7 +1196,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (42, 43)),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.flat_glissando("A5"),
         baca.hairpin(
             'niente o< "f" -- !',
@@ -1220,7 +1220,7 @@ def vc(m):
     )
     accumulator(
         ("vc", 46),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("vc", [(46, 47), (49, 50), 52, 54, 58]),
@@ -1240,7 +1240,7 @@ def vc(m):
     )
     accumulator(
         ("vc", 48),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clef(
             "bass",
             selector=lambda _: baca.select.rleaf(_, -1),

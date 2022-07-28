@@ -1378,7 +1378,7 @@ def vc(m):
         baca.breathe(
             selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
         ),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clef(
             "bass",
             selector=lambda _: baca.select.rleaf(_, -1),

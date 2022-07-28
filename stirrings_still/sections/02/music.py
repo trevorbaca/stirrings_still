@@ -1244,7 +1244,7 @@ def tutti(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         ),
         baca.new(
-            baca.clef("treble"),
+            baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
             baca.clef(
                 "bass",
                 selector=lambda _: baca.select.rleaf(_, -1),
@@ -1271,7 +1271,7 @@ def tutti(cache):
             match=1,
         ),
         baca.new(
-            baca.clef("treble"),
+            baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
             baca.clef(
                 "alto",
                 selector=lambda _: baca.select.rleaf(_, -1),
@@ -1537,7 +1537,7 @@ def va(m):
         baca.alternate_bow_strokes(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.half_clt_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         ),
@@ -1597,7 +1597,7 @@ def va(m):
     )
     accumulator(
         ("va", (23, 25)),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         library.multistage_leaf_glissando(
             [("C5", 6), ("Eb5", 6), ("D5", None)],
             "Ftqs5",
@@ -1690,7 +1690,7 @@ def va(m):
     )
     accumulator(
         ("va", (40, 41)),
-        baca.clef("alto"),
+        baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.flat_glissando(
             "Ftqs4",
             stop_pitch="Ab3",
@@ -1787,7 +1787,7 @@ def vc(m):
         baca.alternate_bow_strokes(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clef(
             "bass",
             selector=lambda _: baca.select.rleaf(_, -1),
@@ -1966,12 +1966,12 @@ def vc(m):
     )
     accumulator(
         ("vc", (32, 33)),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.flat_glissando("Ab2"),
     )
     accumulator(
         ("vc", (34, 35)),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.flat_glissando(
             "Fqs5",
             stop_pitch="Bb3",
@@ -1983,7 +1983,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (37, 38)),
-        baca.clef("tenor"),
+        baca.clef("tenor", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.flat_glissando(
             "Fqs4",
             stop_pitch="Gb3",
@@ -1991,7 +1991,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (40, 41)),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.flat_glissando(
             "Fqs3",
             stop_pitch="F2",

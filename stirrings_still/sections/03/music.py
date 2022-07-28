@@ -1028,7 +1028,7 @@ def tutti(cache):
 def vc(m):
     accumulator(
         "vc",
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("vc", (1, 35)),
@@ -1036,7 +1036,7 @@ def vc(m):
     )
     accumulator(
         ("vc", 5),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.hairpin(
             "o< f >o niente",
             pieces=library.rleaves_partition_by_counts([1, 1, 1]),
@@ -1050,11 +1050,11 @@ def vc(m):
     )
     accumulator(
         ("vc", 7),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("vc", 12),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("vc", [(12, 23), (30, 59)]),

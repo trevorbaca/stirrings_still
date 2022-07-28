@@ -281,7 +281,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (7, 11)),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.flat_glissando("A5"),
         baca.markup(
             r"\stirrings-still-ninth-partial-markup",
