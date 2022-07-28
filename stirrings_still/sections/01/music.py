@@ -631,6 +631,7 @@ def v1(m):
         baca.markup(
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("<F4 A4>"),
         baca.tasto_spanner(
@@ -922,6 +923,7 @@ def tutti(cache):
             r"\baca-string-iii-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.text_spanner(
             "(2°) =|",
@@ -1009,6 +1011,7 @@ def v2(m):
         baca.markup(
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("<E4 G#4>"),
         baca.tasto_spanner(
@@ -1092,6 +1095,7 @@ def va(m):
         baca.markup(
             r"\stirrings-still-nine-plus-seven-of-b-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("<Aqf3 C#4>"),
         baca.tasto_spanner(
@@ -1207,6 +1211,7 @@ def vc(m):
             r"\baca-string-iii-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         library.cello_cell_bcps(
@@ -1253,6 +1258,7 @@ def vc(m):
             r"\baca-string-iii-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         library.cello_cell_bcps(

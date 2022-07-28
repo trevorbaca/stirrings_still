@@ -900,6 +900,7 @@ def v1(m):
             r"\stirrings-still-seven-plus-nine-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("<F#4 Dqf5>"),
     )
@@ -1022,6 +1023,7 @@ def vns_va(cache):
             baca.markup(
                 r"\stirrings-still-seven-plus-nine-of-e-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=0,
         ),
@@ -1030,6 +1032,7 @@ def vns_va(cache):
             baca.markup(
                 r"\stirrings-still-five-plus-thirteen-of-e-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             match=1,
         ),
@@ -1037,6 +1040,7 @@ def vns_va(cache):
             baca.markup(
                 r"\stirrings-still-eleven-plus-three-of-e-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.flat_glissando("<B2 Aqs3>"),
             match=2,
@@ -1083,6 +1087,7 @@ def tutti(cache):
             r"\baca-string-iii-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.text_spanner(
             "2° =|",
@@ -1465,6 +1470,7 @@ def v2(m):
         baca.markup(
             r"\stirrings-still-five-plus-thirteen-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("<Cqs4 Ab4>"),
     )
@@ -1706,6 +1712,7 @@ def va(m):
         baca.markup(
             r"\stirrings-still-eleven-plus-three-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("<B2 Aqs3>"),
     )

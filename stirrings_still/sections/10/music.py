@@ -253,7 +253,10 @@ def v1_va_vc(cache):
         ),
         baca.new(
             baca.flat_glissando("<F#4 Dqf5>"),
-            baca.markup(r"\stirrings-still-seven-plus-nine-of-e-markup"),
+            baca.markup(
+                r"\stirrings-still-seven-plus-nine-of-e-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
             baca.tasto_spanner(
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
             ),
@@ -264,6 +267,7 @@ def v1_va_vc(cache):
             baca.markup(
                 r"\stirrings-still-eleven-plus-three-of-e-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.tasto_spanner(
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -289,6 +293,7 @@ def tutti(cache):
         baca.markup(
             r"\stirrings-still-third-time-no-breath-markup",
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(

@@ -3205,7 +3205,9 @@ def style_tailpiece_material(*tweaks):
         baca.dots_transparent(
             selector=lambda _: baca.select.leaves(_)[1:],
         ),
-        baca.markup(r"\baca-boxed-markup tailpiece"),
+        baca.markup(
+            r"\baca-boxed-markup tailpiece", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.staff_position(0),
         baca.stem_transparent(
             selector=lambda _: baca.select.leaves(_)[1:],
