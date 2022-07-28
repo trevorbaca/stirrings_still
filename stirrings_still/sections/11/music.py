@@ -613,7 +613,7 @@ def v1(m):
         baca.breathe(
             selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-eleven-e-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
@@ -930,7 +930,7 @@ def v2(m):
         baca.breathe(
             selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-nine-e-flat",
             abjad.Tweak(r"- \tweak padding 0.5"),
@@ -1069,6 +1069,7 @@ def va(m):
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-3 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         library.style_tailpiece_material(
             abjad.Tweak(r"- \tweak bound-details.right.Y 0"),
@@ -1172,7 +1173,7 @@ def va(m):
         baca.breathe(
             selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-five-e-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
@@ -1411,7 +1412,7 @@ def vc(m):
         baca.breathe(
             selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
         ),

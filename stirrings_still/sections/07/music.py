@@ -345,7 +345,7 @@ def VC(voice):
 def v1(m):
     accumulator(
         ("v1", [1, 3, 7, 9, 11, 14]),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.new(
             baca.markup(
                 r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
@@ -530,7 +530,7 @@ def vns_vc(cache):
 def v2(m):
     accumulator(
         ("v2", [1, 3, 7, 9, 11, 14]),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.new(
             baca.markup(
                 r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
@@ -568,7 +568,7 @@ def v2(m):
 def va(m):
     accumulator(
         ("va", [1, 3, 7, 9, 11, 14]),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.new(
             baca.markup(
                 r"\stirrings-still-nine-plus-seven-of-b-markup",

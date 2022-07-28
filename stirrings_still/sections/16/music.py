@@ -352,7 +352,7 @@ def v1(m):
 def tutti(cache):
     accumulator(
         (["v1", "v2", "va", "vc"], (1, 4)),
-        baca.dynamic("ppppp"),
+        baca.dynamic("ppppp", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ["v1", "v2", "va", "vc"],

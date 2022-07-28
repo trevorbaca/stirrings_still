@@ -771,6 +771,7 @@ def vns_va(cache):
         baca.dynamic(
             "p-sempre",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
     )
     accumulator(
@@ -843,7 +844,7 @@ def vns_va(cache):
 def tutti_1(cache):
     accumulator(
         (["v1", "v2", "va", "vc"], (1, 6)),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ["v1", "v2", "va", "vc"],
@@ -892,7 +893,7 @@ def tutti_1(cache):
     )
     accumulator(
         (["v1", "v2", "va", "vc"], (31, 36)),
-        baca.dynamic('"ff"'),
+        baca.dynamic('"ff"', selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         (["v1", "v2", "va", "vc"], (31, 36)),
@@ -900,7 +901,7 @@ def tutti_1(cache):
     )
     accumulator(
         (["v1", "v2", "va", "vc"], (40, 45)),
-        baca.dynamic("pp"),
+        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
         baca.new(
             baca.pitch("B5"),
             match=0,
@@ -1013,6 +1014,7 @@ def va(m):
             '"mf"',
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         library.style_tailpiece_material(
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
@@ -1047,6 +1049,7 @@ def va(m):
         baca.dynamic(
             '"mf"',
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         library.style_tailpiece_material(
             abjad.Tweak(r"- \tweak bound-details.right.Y 0"),

@@ -963,7 +963,7 @@ def vns_va(cache):
     )
     accumulator(
         (["v1", "v2", "va"], 52),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.new(
             baca.pitch("<F4 A4>"),
             library.urtext_spanner("urtext (ds) -|", 8),
@@ -987,7 +987,7 @@ def vns_va(cache):
     )
     accumulator(
         (["v1", "v2", "va"], 55),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.new(
             baca.pitch("<F4 A4>"),
             library.urtext_spanner("urtext (ds) -|", 8),

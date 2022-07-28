@@ -1005,7 +1005,7 @@ def vns_va(cache):
     )
     accumulator(
         (["v1", "v2", "va"], 64),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.tasto_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         ),
@@ -1249,7 +1249,7 @@ def tutti(cache):
                 "bass",
                 selector=lambda _: baca.select.rleaf(_, -1),
             ),
-            baca.dynamic("mp-sub"),
+            baca.dynamic("mp-sub", selector=lambda _: baca.select.phead(_, 0)),
             match=3,
         ),
         baca.pitch("Eb5"),
@@ -1259,12 +1259,15 @@ def tutti(cache):
         baca.new(
             baca.dynamic(
                 "mp-sub",
-                abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+                abjad.Tweak(
+                    r"- \tweak self-alignment-X -0.75",
+                ),
+                selector=lambda _: baca.select.phead(_, 0),
             ),
             match=0,
         ),
         baca.new(
-            baca.dynamic("mp-sub"),
+            baca.dynamic("mp-sub", selector=lambda _: baca.select.phead(_, 0)),
             match=1,
         ),
         baca.new(
@@ -1276,6 +1279,7 @@ def tutti(cache):
             baca.dynamic(
                 "mp-sub",
                 abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+                selector=lambda _: baca.select.phead(_, 0),
             ),
             match=2,
         ),
