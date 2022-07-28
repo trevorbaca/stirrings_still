@@ -588,7 +588,7 @@ def v1(m):
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.suite(
             library.short_instrument_name("Vn. I"),
             baca.instrument_name(
@@ -968,7 +968,7 @@ def v2(m):
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.suite(
             library.short_instrument_name("Vn. II"),
             baca.instrument_name(
@@ -1052,7 +1052,7 @@ def va(m):
             accumulator.instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.suite(
             library.short_instrument_name("Va."),
             baca.instrument_name(
@@ -1136,7 +1136,7 @@ def vc(m):
             accumulator.instruments["Cello"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         library.short_instrument_name("Vc."),
         baca.instrument_name(
             r"\stirrings-still-cello-markup", selector=lambda _: abjad.select.leaf(_, 0)
