@@ -1395,7 +1395,7 @@ number.19.Violin.1.Music = {
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         _ \baca-string-iv-markup
         % START_BEAM:
@@ -4478,7 +4478,7 @@ number.19.Violin.2.Music = {
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         _ \baca-string-iv-markup
         % START_BEAM:
@@ -8713,16 +8713,16 @@ number.19.Cello.Music = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
     \once \override Score.RehearsalMark.direction = #down
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
     \once \override Score.RehearsalMark.padding = 6
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
     \once \override Score.RehearsalMark.self-alignment-X = #right
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
     \mark \stirrings-still-colophon-markup
       %! baca.OverrideCommand._call(2)

@@ -64,7 +64,7 @@ baca.markup_function(
     abjad.Tweak(r"- \tweak extra-offset #'(28 . -100)"),
 )
 
-baca.bar_line(score["Skips"][20 - 1], "|.")
+baca.bar_line_function(score["Skips"][20 - 1], "|.")
 
 time = (
     ("long", 2),
