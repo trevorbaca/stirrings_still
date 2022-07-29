@@ -3246,10 +3246,10 @@ def time(score, commands, pairs):
     for value, lmn in pairs:
         if value in fermatas:
             rest = rests[lmn - 1]
-            baca.global_fermata(rest, value)
+            baca.global_fermata_function(rest, value)
         else:
             skip = skips[lmn - 1]
-            baca.metronome_mark(
+            baca.metronome_mark_function(
                 skip,
                 commands.metronome_marks.get(value, value),
                 manifests,

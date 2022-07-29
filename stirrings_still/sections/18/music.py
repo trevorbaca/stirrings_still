@@ -46,8 +46,8 @@ baca.markup_function(
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
 )
 
-baca.open_volta(skips[3 - 1], accumulator.first_measure_number)
-baca.close_volta(skips[5 - 1], accumulator.first_measure_number)
+baca.open_volta_function(skips[3 - 1], accumulator.first_measure_number)
+baca.close_volta_function(skips[5 - 1], accumulator.first_measure_number)
 
 time = (("fermata", 17),)
 

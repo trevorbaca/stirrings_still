@@ -57,8 +57,8 @@ baca.markup_function(
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
 )
 
-baca.open_volta(skips[19 - 1], accumulator.first_measure_number)
-baca.close_volta(skips[22 - 1], accumulator.first_measure_number)
+baca.open_volta_function(skips[19 - 1], accumulator.first_measure_number)
+baca.close_volta_function(skips[22 - 1], accumulator.first_measure_number)
 
 time = (
     ("largo piu mosso", 1),

@@ -49,8 +49,8 @@ baca.markup_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
 )
 
-baca.open_volta(skips[11 - 1], accumulator.first_measure_number)
-baca.close_volta(skips[14 - 1], accumulator.first_measure_number)
+baca.open_volta_function(skips[11 - 1], accumulator.first_measure_number)
+baca.close_volta_function(skips[14 - 1], accumulator.first_measure_number)
 
 time = (
     ("allegro", 3),

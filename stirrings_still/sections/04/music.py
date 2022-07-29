@@ -85,17 +85,17 @@ baca.markup_function(
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
 )
 
-baca.open_volta(skips[1 - 1], accumulator.first_measure_number)
-baca.double_volta(skips[7 - 1], accumulator.first_measure_number)
-baca.double_volta(skips[13 - 1], accumulator.first_measure_number)
-baca.double_volta(skips[19 - 1], accumulator.first_measure_number)
-baca.double_volta(skips[25 - 1], accumulator.first_measure_number)
-baca.double_volta(skips[31 - 1], accumulator.first_measure_number)
-baca.close_volta(skips[37 - 1], accumulator.first_measure_number)
-baca.open_volta(skips[57 - 1], accumulator.first_measure_number)
-baca.close_volta(skips[61 - 1], accumulator.first_measure_number)
-baca.open_volta(skips[94 - 1], accumulator.first_measure_number)
-baca.close_volta(skips[98 - 1], accumulator.first_measure_number)
+baca.open_volta_function(skips[1 - 1], accumulator.first_measure_number)
+baca.double_volta_function(skips[7 - 1], accumulator.first_measure_number)
+baca.double_volta_function(skips[13 - 1], accumulator.first_measure_number)
+baca.double_volta_function(skips[19 - 1], accumulator.first_measure_number)
+baca.double_volta_function(skips[25 - 1], accumulator.first_measure_number)
+baca.double_volta_function(skips[31 - 1], accumulator.first_measure_number)
+baca.close_volta_function(skips[37 - 1], accumulator.first_measure_number)
+baca.open_volta_function(skips[57 - 1], accumulator.first_measure_number)
+baca.close_volta_function(skips[61 - 1], accumulator.first_measure_number)
+baca.open_volta_function(skips[94 - 1], accumulator.first_measure_number)
+baca.close_volta_function(skips[98 - 1], accumulator.first_measure_number)
 
 time = (
     ("fermata", 37),
