@@ -665,12 +665,10 @@ def vc(m):
     )
     accumulator(
         ("vc", 6),
-        baca.chunk(
-            baca.beam(),
-            baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
-            baca.pitches("C#4 F4 G2 B3 D3"),
-            baca.glissando(),
-        ),
+        baca.beam(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
+        baca.pitches("C#4 F4 G2 B3 D3"),
+        baca.glissando(),
         baca.hairpin(
             "p <",
             bookend=False,
@@ -706,14 +704,12 @@ def vc(m):
     accumulator(
         ("vc", (7, 31)),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
-        baca.suite(
-            baca.untie(lambda _: abjad.select.leaf(_, 1)),
-            baca.pitch(
-                "Ab2",
-                selector=lambda _: baca.select.pleaf(_, 0),
-            ),
-            baca.finger_pressure_transition(),
+        baca.untie(lambda _: abjad.select.leaf(_, 1)),
+        baca.pitch(
+            "Ab2",
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
+        baca.finger_pressure_transition(),
         library.clouded_pane_spanner("clouded pane -|", 8),
     )
     accumulator(

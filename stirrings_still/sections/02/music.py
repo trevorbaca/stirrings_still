@@ -1007,14 +1007,12 @@ def vns_va(cache):
         baca.tasto_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         ),
-        baca.suite(
-            baca.new(
-                baca.espressivo(selector=lambda _: baca.select.phead(_, 0)),
-                baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-                map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
-            ),
-            baca.untie(lambda _: baca.select.leaves(_)),
+        baca.new(
+            baca.espressivo(selector=lambda _: baca.select.phead(_, 0)),
+            baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+            map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
         ),
+        baca.untie(lambda _: baca.select.leaves(_)),
         # stage 2 (after tie adjustments):
         baca.new(
             baca.flat_glissando("<F#4 Dqf5>"),
@@ -1905,18 +1903,16 @@ def vc(m):
         baca.tasto_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5 + 2.5}"),
         ),
-        baca.suite(
-            library.bcps(
-                0,
-                clt=True,
-                staff_padding=4,
-            ),
-            baca.tie(lambda _: baca.select.lleaf(_, 0)),
-            library.multistage_leaf_glissando(
-                [("Bb4", 6), ("D5", 6), ("C5", 6), ("Eb5", 6), ("D5", None)],
-                "Fqs5",
-                use_pleaves_lleak=True,
-            ),
+        library.bcps(
+            0,
+            clt=True,
+            staff_padding=4,
+        ),
+        baca.tie(lambda _: baca.select.lleaf(_, 0)),
+        library.multistage_leaf_glissando(
+            [("Bb4", 6), ("D5", 6), ("C5", 6), ("Eb5", 6), ("D5", None)],
+            "Fqs5",
+            use_pleaves_lleak=True,
         ),
     )
     accumulator(

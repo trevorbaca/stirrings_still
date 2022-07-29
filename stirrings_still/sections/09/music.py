@@ -268,11 +268,9 @@ def vc(m):
     accumulator(
         ("vc", (1, 6)),
         baca.beam(),
-        baca.suite(
-            baca.pitches("G2 B3 D3 C#4 F4"),
-            baca.glissando(
-                selector=lambda _: baca.select.rleaves(_),
-            ),
+        baca.pitches("G2 B3 D3 C#4 F4"),
+        baca.glissando(
+            selector=lambda _: baca.select.rleaves(_),
         ),
         library.transition_bcps(
             final_spanner=True,
