@@ -777,14 +777,12 @@ def vns_va(cache):
     )
     accumulator(
         (["v1", "v2", "va"], (68, 83)),
-        baca.suite(
-            baca.new(
-                baca.espressivo(selector=lambda _: baca.select.phead(_, 0)),
-                baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-                map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
-            ),
-            baca.untie(lambda _: baca.select.leaves(_)),
+        baca.new(
+            baca.espressivo(selector=lambda _: baca.select.phead(_, 0)),
+            baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+            map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
         ),
+        baca.untie(lambda _: baca.select.leaves(_)),
     )
     accumulator(
         (["v1", "v2", "va"], (94, 96)),
@@ -915,15 +913,13 @@ def tutti_1(cache):
             baca.pitch("G5"),
             match=3,
         ),
-        baca.suite(
-            baca.new(
-                baca.stem_tremolo(
-                    selector=lambda _: abjad.select.leaf(_, -1),
-                ),
-                map=lambda _: baca.select.lts(_, nontrivial=True),
+        baca.new(
+            baca.stem_tremolo(
+                selector=lambda _: abjad.select.leaf(_, -1),
             ),
-            library.ntlt_flat_glissandi(),
+            map=lambda _: baca.select.lts(_, nontrivial=True),
         ),
+        library.ntlt_flat_glissandi(),
     )
     accumulator(
         (["v1", "v2", "va", "vc"], (58, 63)),
@@ -936,15 +932,13 @@ def tutti_1(cache):
             match=3,
         ),
         baca.pitch("C#6"),
-        baca.suite(
-            baca.new(
-                baca.stop_on_string(
-                    selector=lambda _: abjad.select.leaf(_, -1),
-                ),
-                map=lambda _: baca.select.lts(_, nontrivial=True),
+        baca.new(
+            baca.stop_on_string(
+                selector=lambda _: abjad.select.leaf(_, -1),
             ),
-            library.ntlt_flat_glissandi(),
+            map=lambda _: baca.select.lts(_, nontrivial=True),
         ),
+        library.ntlt_flat_glissandi(),
     )
 
 
@@ -1179,47 +1173,41 @@ def v1_stage_2(m):
     )
     accumulator(
         ("v1", [(90, 92), (94, 96)]),
-        baca.suite(
-            baca.new(
-                baca.markup(
-                    r"\stirrings-still-three-plus-seven-of-f-markup",
-                    abjad.Tweak(r"- \tweak padding 1.5"),
-                    selector=lambda _: baca.select.pleaf(_, 0),
-                ),
-                baca.untie(
-                    lambda _: baca.select.pleaf(_, 0),
-                ),
-                match=0,
+        baca.new(
+            baca.markup(
+                r"\stirrings-still-three-plus-seven-of-f-markup",
+                abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
-            baca.flat_glissando("<Etqf4 C5>", allow_repitch=True),
+            baca.untie(
+                lambda _: baca.select.pleaf(_, 0),
+            ),
+            match=0,
         ),
+        baca.flat_glissando("<Etqf4 C5>", allow_repitch=True),
     )
 
 
 def tutti_stage_2(cache):
     accumulator(
         (["v1", "v2", "va", "vc"], [(1, 6), (13, 18), (25, 30)]),
-        baca.suite(
-            baca.new(
-                baca.stem_tremolo(
-                    selector=lambda _: abjad.select.leaf(_, -1),
-                ),
-                map=lambda _: baca.select.lts(_, nontrivial=True),
+        baca.new(
+            baca.stem_tremolo(
+                selector=lambda _: abjad.select.leaf(_, -1),
             ),
-            library.ntlt_flat_glissandi(),
+            map=lambda _: baca.select.lts(_, nontrivial=True),
         ),
+        library.ntlt_flat_glissandi(),
     )
     accumulator(
         (["v1", "v2", "va", "vc"], [(7, 12), (19, 24), (31, 36)]),
-        baca.suite(
-            baca.new(
-                baca.stop_on_string(
-                    selector=lambda _: abjad.select.leaf(_, -1),
-                ),
-                map=lambda _: baca.select.lts(_, nontrivial=True),
+        baca.new(
+            baca.stop_on_string(
+                selector=lambda _: abjad.select.leaf(_, -1),
             ),
-            library.ntlt_flat_glissandi(),
+            map=lambda _: baca.select.lts(_, nontrivial=True),
         ),
+        library.ntlt_flat_glissandi(),
     )
 
 
@@ -1235,20 +1223,18 @@ def v2_stage_2(m):
     )
     accumulator(
         ("v2", [(90, 92), (94, 96)]),
-        baca.suite(
-            baca.new(
-                baca.markup(
-                    r"\stirrings-still-nine-plus-eleven-of-f-markup",
-                    abjad.Tweak(r"- \tweak padding 1.5"),
-                    selector=lambda _: baca.select.pleaf(_, 0),
-                ),
-                baca.untie(
-                    lambda _: baca.select.pleaf(_, 0),
-                ),
-                match=0,
+        baca.new(
+            baca.markup(
+                r"\stirrings-still-nine-plus-eleven-of-f-markup",
+                abjad.Tweak(r"- \tweak padding 1.5"),
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
-            baca.flat_glissando("<Bqf3 G4>", allow_repitch=True),
+            baca.untie(
+                lambda _: baca.select.pleaf(_, 0),
+            ),
+            match=0,
         ),
+        baca.flat_glissando("<Bqf3 G4>", allow_repitch=True),
     )
 
 

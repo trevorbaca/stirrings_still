@@ -535,26 +535,22 @@ def v1(m):
     )
     accumulator(
         ("v1", (36, 59)),
-        baca.suite(
-            baca.new(
-                baca.tie(lambda _: baca.select.lleaf(_, 0)),
-                measures=56,
-            ),
-            baca.articulations(
-                [
-                    abjad.Articulation("baca-damp"),
-                    abjad.Articulation("baca-double-diamond"),
-                    abjad.Articulation("baca-damp"),
-                    None,
-                ],
-                selector=lambda _: baca.select.pheads(_),
-            ),
-            baca.new(
-                baca.note_head_style_harmonic(
-                    selector=lambda _: baca.select.pleaves(_)
-                ),
-                map=lambda _: abjad.select.get(baca.select.plts(_), [3], 4),
-            ),
+        baca.new(
+            baca.tie(lambda _: baca.select.lleaf(_, 0)),
+            measures=56,
+        ),
+        baca.articulations(
+            [
+                abjad.Articulation("baca-damp"),
+                abjad.Articulation("baca-double-diamond"),
+                abjad.Articulation("baca-damp"),
+                None,
+            ],
+            selector=lambda _: baca.select.pheads(_),
+        ),
+        baca.new(
+            baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
+            map=lambda _: abjad.select.get(baca.select.plts(_), [3], 4),
         ),
     )
     accumulator(
@@ -604,19 +600,17 @@ def v2(m):
     )
     accumulator(
         ("v2", (36, 59)),
-        baca.suite(
-            baca.new(
-                baca.tie(lambda _: baca.select.lleaf(_, 0)),
-                measures=56,
-            ),
-            baca.articulations(
-                [
-                    abjad.Articulation("baca-damp"),
-                    abjad.Articulation("baca-damp"),
-                    abjad.Articulation("baca-double-diamond"),
-                ],
-                selector=lambda _: baca.select.pheads(_),
-            ),
+        baca.new(
+            baca.tie(lambda _: baca.select.lleaf(_, 0)),
+            measures=56,
+        ),
+        baca.articulations(
+            [
+                abjad.Articulation("baca-damp"),
+                abjad.Articulation("baca-damp"),
+                abjad.Articulation("baca-double-diamond"),
+            ],
+            selector=lambda _: baca.select.pheads(_),
         ),
     )
 
@@ -661,27 +655,23 @@ def va(m):
     )
     accumulator(
         ("va", (36, 59)),
-        baca.suite(
-            baca.new(
-                baca.tie(lambda _: baca.select.lleaf(_, 0)),
-                measures=56,
-            ),
-            baca.articulations(
-                [
-                    abjad.Articulation("baca-damp"),
-                    abjad.Articulation("baca-double-diamond"),
-                    abjad.Articulation("baca-double-diamond"),
-                    abjad.Articulation("baca-damp"),
-                    None,
-                ],
-                selector=lambda _: baca.select.pheads(_),
-            ),
-            baca.new(
-                baca.note_head_style_harmonic(
-                    selector=lambda _: baca.select.pleaves(_)
-                ),
-                map=lambda _: abjad.select.get(baca.select.plts(_), [4], 5),
-            ),
+        baca.new(
+            baca.tie(lambda _: baca.select.lleaf(_, 0)),
+            measures=56,
+        ),
+        baca.articulations(
+            [
+                abjad.Articulation("baca-damp"),
+                abjad.Articulation("baca-double-diamond"),
+                abjad.Articulation("baca-double-diamond"),
+                abjad.Articulation("baca-damp"),
+                None,
+            ],
+            selector=lambda _: baca.select.pheads(_),
+        ),
+        baca.new(
+            baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
+            map=lambda _: abjad.select.get(baca.select.plts(_), [4], 5),
         ),
     )
     accumulator(
@@ -1086,25 +1076,21 @@ def vc(m):
     )
     accumulator(
         ("vc", (36, 59)),
-        baca.suite(
-            baca.new(
-                baca.tie(lambda _: baca.select.lleaf(_, 0)),
-                measures=56,
-            ),
-            baca.articulations(
-                [
-                    abjad.Articulation("baca-damp"),
-                    abjad.Articulation("baca-double-diamond"),
-                    None,
-                ],
-                selector=lambda _: baca.select.pheads(_),
-            ),
-            baca.new(
-                baca.note_head_style_harmonic(
-                    selector=lambda _: baca.select.pleaves(_)
-                ),
-                map=lambda _: abjad.select.get(baca.select.plts(_), [2], 3),
-            ),
+        baca.new(
+            baca.tie(lambda _: baca.select.lleaf(_, 0)),
+            measures=56,
+        ),
+        baca.articulations(
+            [
+                abjad.Articulation("baca-damp"),
+                abjad.Articulation("baca-double-diamond"),
+                None,
+            ],
+            selector=lambda _: baca.select.pheads(_),
+        ),
+        baca.new(
+            baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
+            map=lambda _: abjad.select.get(baca.select.plts(_), [2], 3),
         ),
     )
     accumulator(

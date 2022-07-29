@@ -448,14 +448,12 @@ def tutti(cache):
             measures=18,
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
-        baca.suite(
-            baca.untie(lambda _: baca.select.leaves(_)),
-            baca.scp_spanner(
-                "T -> P ->",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                autodetect_right_padding=False,
-                pieces=lambda _: baca.select.plts(_)[:-1],
-            ),
+        baca.untie(lambda _: baca.select.leaves(_)),
+        baca.scp_spanner(
+            "T -> P ->",
+            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            autodetect_right_padding=False,
+            pieces=lambda _: baca.select.plts(_)[:-1],
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -470,15 +468,13 @@ def tutti(cache):
         ),
         baca.hairpin("mf >o niente"),
         baca.pitch("C#6"),
-        baca.suite(
-            baca.new(
-                baca.stop_on_string(
-                    selector=lambda _: abjad.select.leaf(_, -1),
-                ),
-                map=lambda _: baca.select.lts(_, nontrivial=True),
+        baca.new(
+            baca.stop_on_string(
+                selector=lambda _: abjad.select.leaf(_, -1),
             ),
-            library.ntlt_flat_glissandi(),
+            map=lambda _: baca.select.lts(_, nontrivial=True),
         ),
+        library.ntlt_flat_glissandi(),
     )
 
 
