@@ -41,7 +41,6 @@ baca.markup_function(
     skips[8 - 1],
     r"\stirrings-still-text-twenty-four",
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-    allow_rests=True,
 )
 
 time = (
