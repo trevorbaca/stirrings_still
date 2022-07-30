@@ -35,19 +35,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -211,19 +211,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "117"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -341,19 +341,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1014,19 +1014,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1178,19 +1178,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "117"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1440,19 +1440,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "117"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1662,19 +1662,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1792,19 +1792,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "91"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1837,17 +1837,17 @@ number.5.Skips = {
     % [Skips measure 35]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ".|:"
       %! MEASURE_340
       %! NOT_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 2)
       %! MEASURE_340
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 3)
     % OPENING:
     % COMMANDS:
@@ -1890,19 +1890,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -2176,9 +2176,9 @@ number.5.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-text-sixteen
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -2308,12 +2308,12 @@ number.5.Skips = {
     % [Skips measure 44]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ":|."
       %! MEASURE_349
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.close_volta()
+      %! baca.close_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
     % OPENING:
     % COMMANDS:
@@ -2623,19 +2623,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -3146,19 +3146,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -3270,19 +3270,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -3667,19 +3667,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -4064,19 +4064,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -4396,9 +4396,9 @@ number.5.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-text-seventeen
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -4576,19 +4576,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -4964,19 +4964,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -5322,17 +5322,17 @@ number.5.Skips = {
     % [Skips measure 105]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ".|:"
       %! MEASURE_410
       %! NOT_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 2)
       %! MEASURE_410
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 3)
       %! baca._make_global_skips(1)
     s1 * 7/8
@@ -5501,19 +5501,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -5579,19 +5579,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -5670,12 +5670,12 @@ number.5.Skips = {
     % [Skips measure 111]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ":|."
       %! MEASURE_416
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.close_volta()
+      %! baca.close_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
     % OPENING:
     % COMMANDS:
@@ -5690,9 +5690,9 @@ number.5.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-text-eighteen
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -5769,19 +5769,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -5942,19 +5942,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -6011,19 +6011,19 @@ number.5.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -6650,13 +6650,13 @@ number.5.Rests = {
     % [Rests measure 3]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-short-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6927,13 +6927,13 @@ number.5.Rests = {
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-fermata-markup
     % COMMANDS:
       %! FERMATA_MEASURE
@@ -7091,13 +7091,13 @@ number.5.Rests = {
     % [Rests measure 62]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7232,13 +7232,13 @@ number.5.Rests = {
     % [Rests measure 81]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-short-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7278,13 +7278,13 @@ number.5.Rests = {
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-fermata-markup
     % COMMANDS:
       %! FERMATA_MEASURE
@@ -7473,13 +7473,13 @@ number.5.Rests = {
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-fermata-markup
     % COMMANDS:
       %! FERMATA_MEASURE
@@ -7674,7 +7674,7 @@ number.5.Violin.1.Music = {
     etqf'!2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ARTICULATIONS:
@@ -7837,7 +7837,7 @@ number.5.Violin.1.Music = {
     etqf'!8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
@@ -7863,7 +7863,7 @@ number.5.Violin.1.Music = {
     etqf'!2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
@@ -23247,7 +23247,7 @@ number.5.Violin.2.Music = {
     bqf!2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ARTICULATIONS:
@@ -23410,7 +23410,7 @@ number.5.Violin.2.Music = {
     bqf!8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
@@ -23436,7 +23436,7 @@ number.5.Violin.2.Music = {
     bqf!2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
@@ -36450,7 +36450,7 @@ number.5.Viola.Music = {
     a2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ARTICULATIONS:
@@ -36613,7 +36613,7 @@ number.5.Viola.Music = {
     a8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
@@ -36639,7 +36639,7 @@ number.5.Viola.Music = {
     a2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:

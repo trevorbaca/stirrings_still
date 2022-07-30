@@ -35,19 +35,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -199,19 +199,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -323,19 +323,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -407,19 +407,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -537,19 +537,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -710,19 +710,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "117"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -840,19 +840,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1010,19 +1010,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1324,19 +1324,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "117"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1636,17 +1636,17 @@ number.8.Skips = {
     % [Skips measure 30]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ".|:"
       %! MEASURE_501
       %! NOT_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 2)
       %! MEASURE_501
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 3)
     % OPENING:
     % COMMANDS:
@@ -1978,19 +1978,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -2023,12 +2023,12 @@ number.8.Skips = {
     % [Skips measure 37]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ":|."
       %! MEASURE_508
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.close_volta()
+      %! baca.close_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
       %! baca._make_global_skips(1)
     s1 * 8/8
@@ -2108,19 +2108,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "117"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -2560,19 +2560,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "117"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -2724,19 +2724,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -2857,19 +2857,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "56"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -2941,19 +2941,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "117"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -3075,19 +3075,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "56"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -3159,19 +3159,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -3465,13 +3465,13 @@ number.8.Rests = {
     % [Rests measure 29]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-short-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3494,13 +3494,13 @@ number.8.Rests = {
     % [Rests measure 32]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-short-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3523,13 +3523,13 @@ number.8.Rests = {
     % [Rests measure 35]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-short-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3573,13 +3573,13 @@ number.8.Rests = {
     % [Rests measure 41]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-short-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3616,13 +3616,13 @@ number.8.Rests = {
     % [Rests measure 46]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-short-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7585,7 +7585,7 @@ number.8.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
@@ -7699,7 +7699,7 @@ number.8.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -7708,7 +7708,7 @@ number.8.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -7717,7 +7717,7 @@ number.8.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -7726,7 +7726,7 @@ number.8.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % STOP_BEAM:
@@ -7906,7 +7906,7 @@ number.8.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
@@ -7992,7 +7992,7 @@ number.8.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -8001,7 +8001,7 @@ number.8.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -8010,7 +8010,7 @@ number.8.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -8019,7 +8019,7 @@ number.8.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -8028,7 +8028,7 @@ number.8.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % STOP_BEAM:
@@ -12001,7 +12001,7 @@ number.8.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
@@ -12115,7 +12115,7 @@ number.8.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -12124,7 +12124,7 @@ number.8.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -12133,7 +12133,7 @@ number.8.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -12142,7 +12142,7 @@ number.8.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -12151,7 +12151,7 @@ number.8.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
@@ -12478,7 +12478,7 @@ number.8.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! REDUNDANT_DYNAMIC_COLOR
@@ -12602,7 +12602,7 @@ number.8.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -12611,7 +12611,7 @@ number.8.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -12620,7 +12620,7 @@ number.8.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -12629,7 +12629,7 @@ number.8.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -12638,7 +12638,7 @@ number.8.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -12647,7 +12647,7 @@ number.8.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
@@ -16407,7 +16407,7 @@ number.8.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
@@ -16528,7 +16528,7 @@ number.8.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -16537,7 +16537,7 @@ number.8.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -16546,7 +16546,7 @@ number.8.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
@@ -16739,7 +16739,7 @@ number.8.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
@@ -16825,7 +16825,7 @@ number.8.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -16834,7 +16834,7 @@ number.8.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -16843,7 +16843,7 @@ number.8.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -16852,7 +16852,7 @@ number.8.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:

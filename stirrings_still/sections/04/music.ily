@@ -7,17 +7,17 @@ number.4.Skips = {
     % [Skips measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ".|:"
       %! MEASURE_207
       %! NOT_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 2)
       %! MEASURE_207
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 3)
     % OPENING:
     % COMMANDS:
@@ -303,17 +303,17 @@ number.4.Skips = {
     % [Skips measure 7]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ":.|.:"
       %! MEASURE_213
       %! NOT_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.double_volta()
+      %! baca.double_volta_function()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 3)
       %! MEASURE_213
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.double_volta()
+      %! baca.double_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 4)
       %! baca._make_global_skips(1)
     s1 * 16/16
@@ -575,17 +575,17 @@ number.4.Skips = {
     % [Skips measure 13]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ":.|.:"
       %! MEASURE_219
       %! NOT_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.double_volta()
+      %! baca.double_volta_function()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 3)
       %! MEASURE_219
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.double_volta()
+      %! baca.double_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 4)
     % OPENING:
     % COMMANDS:
@@ -865,17 +865,17 @@ number.4.Skips = {
     % [Skips measure 19]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ":.|.:"
       %! MEASURE_225
       %! NOT_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.double_volta()
+      %! baca.double_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 3)
       %! MEASURE_225
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.double_volta()
+      %! baca.double_volta_function()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 4)
     % OPENING:
     % COMMANDS:
@@ -1146,17 +1146,17 @@ number.4.Skips = {
     % [Skips measure 25]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ":.|.:"
       %! MEASURE_231
       %! NOT_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.double_volta()
+      %! baca.double_volta_function()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 3)
       %! MEASURE_231
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.double_volta()
+      %! baca.double_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 4)
       %! baca._make_global_skips(1)
     s1 * 12/16
@@ -1427,17 +1427,17 @@ number.4.Skips = {
     % [Skips measure 31]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ":.|.:"
       %! MEASURE_237
       %! NOT_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.double_volta()
+      %! baca.double_volta_function()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 3)
       %! MEASURE_237
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.double_volta()
+      %! baca.double_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 4)
       %! baca._make_global_skips(1)
     s1 * 12/16
@@ -1708,12 +1708,12 @@ number.4.Skips = {
     % [Skips measure 37]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ":|."
       %! MEASURE_243
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.close_volta()
+      %! baca.close_volta_function()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 1.5)
     % OPENING:
     % COMMANDS:
@@ -1728,9 +1728,9 @@ number.4.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-text-thirteen
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -1807,19 +1807,19 @@ number.4.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "39"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1937,19 +1937,19 @@ number.4.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -2205,9 +2205,9 @@ number.4.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-text-fourteen
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -2284,19 +2284,19 @@ number.4.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "91"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -2414,19 +2414,19 @@ number.4.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -2746,19 +2746,19 @@ number.4.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "91"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -2837,17 +2837,17 @@ number.4.Skips = {
     % [Skips measure 57]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ".|:"
       %! MEASURE_263
       %! NOT_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 2)
       %! MEASURE_263
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 3)
     % OPENING:
     % COMMANDS:
@@ -2890,19 +2890,19 @@ number.4.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -2974,19 +2974,19 @@ number.4.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -3111,12 +3111,12 @@ number.4.Skips = {
     % [Skips measure 61]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ":|."
       %! MEASURE_267
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.close_volta()
+      %! baca.close_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
     % OPENING:
     % COMMANDS:
@@ -3248,19 +3248,19 @@ number.4.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -3298,9 +3298,9 @@ number.4.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-text-fifteen
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -3708,19 +3708,19 @@ number.4.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -4289,19 +4289,19 @@ number.4.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "117"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -4410,19 +4410,19 @@ number.4.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -4795,17 +4795,17 @@ number.4.Skips = {
     % [Skips measure 94]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ".|:"
       %! MEASURE_300
       %! NOT_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 2)
       %! MEASURE_300
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 3)
     % OPENING:
     % COMMANDS:
@@ -5004,19 +5004,19 @@ number.4.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -5049,12 +5049,12 @@ number.4.Skips = {
     % [Skips measure 98]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ":|."
       %! MEASURE_304
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.close_volta()
+      %! baca.close_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
       %! baca._make_global_skips(1)
     s1 * 6/4
@@ -5451,13 +5451,13 @@ number.4.Rests = {
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-fermata-markup
     % COMMANDS:
       %! FERMATA_MEASURE
@@ -5482,13 +5482,13 @@ number.4.Rests = {
     % [Rests measure 39]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5542,13 +5542,13 @@ number.4.Rests = {
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-fermata-markup
     % COMMANDS:
       %! FERMATA_MEASURE
@@ -5573,13 +5573,13 @@ number.4.Rests = {
     % [Rests measure 48]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-long-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5623,13 +5623,13 @@ number.4.Rests = {
     % [Rests measure 54]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-long-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5645,13 +5645,13 @@ number.4.Rests = {
     % [Rests measure 56]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-long-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5712,13 +5712,13 @@ number.4.Rests = {
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-long-fermata-markup
     % COMMANDS:
       %! FERMATA_MEASURE
@@ -5974,13 +5974,13 @@ number.4.Rests = {
     % [Rests measure 99]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-short-fermata-markup
     % CLOSING:
     % COMMANDS:
@@ -11007,7 +11007,7 @@ number.4.Violin.1.Music = {
     <fs'! dqf''!>1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -11021,7 +11021,7 @@ number.4.Violin.1.Music = {
     <fs'! dqf''!>1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -11035,7 +11035,7 @@ number.4.Violin.1.Music = {
     <fs'! dqf''!>2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -11111,7 +11111,7 @@ number.4.Violin.1.Music = {
     <fs'! dqf''!>2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -11152,7 +11152,7 @@ number.4.Violin.1.Music = {
     <fs'! dqf''!>2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -11164,7 +11164,7 @@ number.4.Violin.1.Music = {
     <fs'! dqf''!>8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -11219,7 +11219,7 @@ number.4.Violin.1.Music = {
     <fs'! dqf''!>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -11311,7 +11311,7 @@ number.4.Violin.1.Music = {
     <etqf'! c''>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -11407,7 +11407,7 @@ number.4.Violin.1.Music = {
     <etqf'! c''>2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -11435,7 +11435,7 @@ number.4.Violin.1.Music = {
     <etqf'! c''>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -11559,7 +11559,7 @@ number.4.Violin.1.Music = {
     <etqf'! c''>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ARTICULATIONS:
@@ -11698,7 +11698,7 @@ number.4.Violin.1.Music = {
     <etqf'! c''>2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
@@ -11707,7 +11707,7 @@ number.4.Violin.1.Music = {
     <etqf'! c''>8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
@@ -11732,7 +11732,7 @@ number.4.Violin.1.Music = {
     <etqf'! c''>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % SPANNER_STOPS:
@@ -17381,7 +17381,7 @@ number.4.Violin.2.Music = {
     <cqs'! af'!>1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -17395,7 +17395,7 @@ number.4.Violin.2.Music = {
     <cqs'! af'!>1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -17409,7 +17409,7 @@ number.4.Violin.2.Music = {
     <cqs'! af'!>2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -17485,7 +17485,7 @@ number.4.Violin.2.Music = {
     <cqs'! af'!>2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -17499,7 +17499,7 @@ number.4.Violin.2.Music = {
     <cqs'! af'!>2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -17538,7 +17538,7 @@ number.4.Violin.2.Music = {
     <cqs'! af'!>8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -17593,7 +17593,7 @@ number.4.Violin.2.Music = {
     <cqs'! af'!>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -17685,7 +17685,7 @@ number.4.Violin.2.Music = {
     <bqf! g'>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -17781,7 +17781,7 @@ number.4.Violin.2.Music = {
     <bqf! g'>2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -17809,7 +17809,7 @@ number.4.Violin.2.Music = {
     <bqf! g'>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -17933,7 +17933,7 @@ number.4.Violin.2.Music = {
     <bqf! g'>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ARTICULATIONS:
@@ -18072,7 +18072,7 @@ number.4.Violin.2.Music = {
     <bqf! g'>2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
@@ -18081,7 +18081,7 @@ number.4.Violin.2.Music = {
     <bqf! g'>8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
@@ -18106,7 +18106,7 @@ number.4.Violin.2.Music = {
     <bqf! g'>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % SPANNER_STOPS:
@@ -23842,7 +23842,7 @@ number.4.Viola.Music = {
     <b, aqs!>1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -23856,7 +23856,7 @@ number.4.Viola.Music = {
     <b, aqs!>1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -23870,7 +23870,7 @@ number.4.Viola.Music = {
     <b, aqs!>2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -23884,7 +23884,7 @@ number.4.Viola.Music = {
     <b, aqs!>2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -23898,7 +23898,7 @@ number.4.Viola.Music = {
     <b, aqs!>2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -23910,7 +23910,7 @@ number.4.Viola.Music = {
     <b, aqs!>8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -23938,7 +23938,7 @@ number.4.Viola.Music = {
     <b, aqs!>2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
       %! baca._attach_persistent_indicator()
@@ -24097,7 +24097,7 @@ number.4.Viola.Music = {
     a2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ARTICULATIONS:
@@ -24244,7 +24244,7 @@ number.4.Viola.Music = {
     a2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
@@ -24254,7 +24254,7 @@ number.4.Viola.Music = {
     a8
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % ABSOLUTE_BEFORE:
@@ -24280,7 +24280,7 @@ number.4.Viola.Music = {
     a2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
       %! stirrings_still.make_continuous_tremolo_material()
     :32
     % SPANNER_STOPS:
