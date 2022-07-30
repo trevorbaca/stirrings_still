@@ -2196,9 +2196,12 @@ def multistage_leaf_glissando(
 
 def ntlt_flat_glissandi():
     return baca.suite(
-        baca.glissando(allow_repeats=True, allow_ties=True, 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
             selector=lambda _: baca.select.tleaves(_),
-        zero_padding=True),
+            zero_padding=True,
+        ),
         baca.new(
             baca.accidental_stencil_false(),
             baca.note_head_transparent(),
