@@ -544,7 +544,7 @@ def v1(m):
             baca.xfb_spanner(
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
             ),
-            baca.flat_glissando("Etqf4"),
+            baca.flat_glissando("Etqf4", selector=lambda _: baca.select.pleaves(_)),
             map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
         ),
         baca.pitch("Etqf4", allow_repitch=True),
@@ -757,7 +757,7 @@ def vns_va(cache):
                 abjad.Tweak(r"- \tweak padding 1.5"),
                 selector=lambda _: baca.select.pleaf(_, 0),
             ),
-            baca.flat_glissando("Gqf4"),
+            baca.flat_glissando("Gqf4", selector=lambda _: baca.select.pleaves(_)),
             match=0,
         ),
         baca.new(
@@ -770,7 +770,7 @@ def vns_va(cache):
                 abjad.Tweak(r"- \tweak padding 1.5"),
                 selector=lambda _: baca.select.pleaf(_, 0),
             ),
-            baca.flat_glissando("Atqf3"),
+            baca.flat_glissando("Atqf3", selector=lambda _: baca.select.pleaves(_)),
             match=1,
         ),
         baca.new(
@@ -783,7 +783,7 @@ def vns_va(cache):
                 abjad.Tweak(r"- \tweak padding 1.5"),
                 selector=lambda _: baca.select.pleaf(_, 0),
             ),
-            baca.flat_glissando("C3"),
+            baca.flat_glissando("C3", selector=lambda _: baca.select.pleaves(_)),
             match=2,
         ),
     )

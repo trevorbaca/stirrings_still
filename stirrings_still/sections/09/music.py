@@ -211,7 +211,7 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide-poss",
         ),
-        baca.flat_glissando("Bqf3"),
+        baca.flat_glissando("Bqf3", selector=lambda _: baca.select.pleaves(_)),
         baca.hairpin(
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),

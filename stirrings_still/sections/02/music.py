@@ -781,7 +781,7 @@ def v1(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
         ),
-        baca.flat_glissando("C5"),
+        baca.flat_glissando("C5", selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("v1", (12, 24)),
@@ -1831,7 +1831,7 @@ def vc(m):
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.flat_glissando("G3"),
+        baca.flat_glissando("G3", selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("vc", (12, 19)),

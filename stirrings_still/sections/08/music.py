@@ -668,7 +668,7 @@ def vc(m):
         baca.beam(),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.pitches("C#4 F4 G2 B3 D3"),
-        baca.glissando(),
+        baca.glissando(selector=lambda _: baca.select.tleaves(_)),
         baca.hairpin(
             "p <",
             bookend=False,
@@ -843,7 +843,7 @@ def vns_va(cache):
                 abjad.Tweak(r"- \tweak padding 1.5"),
                 selector=lambda _: baca.select.pleaf(_, 0),
             ),
-            baca.flat_glissando("Gqf4"),
+            baca.flat_glissando("Gqf4", selector=lambda _: baca.select.pleaves(_)),
             match=0,
         ),
         baca.new(
@@ -852,7 +852,7 @@ def vns_va(cache):
                 abjad.Tweak(r"- \tweak padding 1.5"),
                 selector=lambda _: baca.select.pleaf(_, 0),
             ),
-            baca.flat_glissando("Atqf3"),
+            baca.flat_glissando("Atqf3", selector=lambda _: baca.select.pleaves(_)),
             match=1,
         ),
         baca.new(
@@ -861,7 +861,7 @@ def vns_va(cache):
                 abjad.Tweak(r"- \tweak padding 1.5"),
                 selector=lambda _: baca.select.pleaf(_, 0),
             ),
-            baca.flat_glissando("C3"),
+            baca.flat_glissando("C3", selector=lambda _: baca.select.pleaves(_)),
             match=2,
         ),
         baca.tuplet_bracket_down(),
