@@ -1012,7 +1012,7 @@ def vns_va(cache):
             baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
             map=lambda _: abjad.select.get(baca.select.plts(_), [1], 2),
         ),
-        baca.untie(lambda _: baca.select.leaves(_)),
+        baca.untie(selector=lambda _: baca.select.leaves(_)),
         # stage 2 (after tie adjustments):
         baca.new(
             baca.flat_glissando("<F#4 Dqf5>"),
@@ -1908,7 +1908,7 @@ def vc(m):
             clt=True,
             staff_padding=4,
         ),
-        baca.tie(lambda _: baca.select.lleaf(_, 0)),
+        baca.tie(selector=lambda _: baca.select.lleaf(_, 0)),
         library.multistage_leaf_glissando(
             [("Bb4", 6), ("D5", 6), ("C5", 6), ("Eb5", 6), ("D5", None)],
             "Fqs5",

@@ -536,7 +536,7 @@ def v1(m):
     accumulator(
         ("v1", (36, 59)),
         baca.new(
-            baca.tie(lambda _: baca.select.lleaf(_, 0)),
+            baca.tie(selector=lambda _: baca.select.lleaf(_, 0)),
             measures=56,
         ),
         baca.articulations(
@@ -601,7 +601,7 @@ def v2(m):
     accumulator(
         ("v2", (36, 59)),
         baca.new(
-            baca.tie(lambda _: baca.select.lleaf(_, 0)),
+            baca.tie(selector=lambda _: baca.select.lleaf(_, 0)),
             measures=56,
         ),
         baca.articulations(
@@ -656,7 +656,7 @@ def va(m):
     accumulator(
         ("va", (36, 59)),
         baca.new(
-            baca.tie(lambda _: baca.select.lleaf(_, 0)),
+            baca.tie(selector=lambda _: baca.select.lleaf(_, 0)),
             measures=56,
         ),
         baca.articulations(
@@ -1077,7 +1077,7 @@ def vc(m):
     accumulator(
         ("vc", (36, 59)),
         baca.new(
-            baca.tie(lambda _: baca.select.lleaf(_, 0)),
+            baca.tie(selector=lambda _: baca.select.lleaf(_, 0)),
             measures=56,
         ),
         baca.articulations(
