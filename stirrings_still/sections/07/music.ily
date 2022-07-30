@@ -35,19 +35,19 @@ number.7.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "56"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -266,19 +266,19 @@ number.7.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "39"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -396,19 +396,19 @@ number.7.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "56"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -452,9 +452,9 @@ number.7.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-text-twenty
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -687,19 +687,19 @@ number.7.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "117"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -821,19 +821,19 @@ number.7.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "56"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -951,19 +951,19 @@ number.7.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "39"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1053,9 +1053,9 @@ number.7.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-text-twenty-one
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -1093,17 +1093,17 @@ number.7.Skips = {
     % [Skips measure 19]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ".|:"
       %! MEASURE_465
       %! NOT_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 2)
       %! MEASURE_465
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 3)
     % OPENING:
     % COMMANDS:
@@ -1146,19 +1146,19 @@ number.7.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1283,12 +1283,12 @@ number.7.Skips = {
     % [Skips measure 22]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ":|."
       %! MEASURE_468
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.close_volta()
+      %! baca.close_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
     % OPENING:
     % COMMANDS:
@@ -1420,19 +1420,19 @@ number.7.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "91"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark()
+      %! baca.metronome_mark_function()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1567,13 +1567,13 @@ number.7.Rests = {
     % [Rests measure 2]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1589,13 +1589,13 @@ number.7.Rests = {
     % [Rests measure 4]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1628,13 +1628,13 @@ number.7.Rests = {
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-fermata-markup
     % COMMANDS:
       %! FERMATA_MEASURE
@@ -1659,13 +1659,13 @@ number.7.Rests = {
     % [Rests measure 10]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1702,13 +1702,13 @@ number.7.Rests = {
     % [Rests measure 15]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-long-fermata-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1734,13 +1734,13 @@ number.7.Rests = {
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-long-fermata-markup
     % COMMANDS:
       %! FERMATA_MEASURE
@@ -1800,13 +1800,13 @@ number.7.Rests = {
     % [Rests measure 25]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-long-fermata-markup
     % CLOSING:
     % COMMANDS:
@@ -1882,7 +1882,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2015,7 +2015,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2024,7 +2024,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2033,7 +2033,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2042,7 +2042,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2051,7 +2051,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2060,7 +2060,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % STOP_BEAM:
@@ -2172,7 +2172,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
       %! REDUNDANT_DYNAMIC_COLOR
@@ -2281,7 +2281,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2290,7 +2290,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2299,7 +2299,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2308,7 +2308,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2317,7 +2317,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2326,7 +2326,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % STOP_BEAM:
@@ -2594,7 +2594,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2715,7 +2715,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2724,7 +2724,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2733,7 +2733,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2742,7 +2742,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2751,7 +2751,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2760,7 +2760,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -2769,7 +2769,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % STOP_BEAM:
@@ -2902,7 +2902,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
       %! REDUNDANT_DYNAMIC_COLOR
@@ -3011,7 +3011,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -3020,7 +3020,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -3029,7 +3029,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -3038,7 +3038,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -3047,7 +3047,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -3056,7 +3056,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -3065,7 +3065,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % STOP_BEAM:
@@ -3177,7 +3177,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
       %! REDUNDANT_DYNAMIC_COLOR
@@ -3286,7 +3286,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -3295,7 +3295,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -3304,7 +3304,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -3313,7 +3313,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % STOP_BEAM:
@@ -3533,7 +3533,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3659,7 +3659,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -3668,7 +3668,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -3677,7 +3677,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -3686,7 +3686,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % ABSOLUTE_BEFORE:
@@ -3695,7 +3695,7 @@ number.7.Violin.1.Music = {
     <f' a'>8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.espressivo()
+      %! baca.espressivo_function()
       %! stirrings_still.make_loure_tuplets_material()
     - \espressivo
     % STOP_BEAM:
@@ -4919,7 +4919,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
@@ -5052,7 +5052,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5061,7 +5061,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5070,7 +5070,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5079,7 +5079,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5088,7 +5088,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5097,7 +5097,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5106,7 +5106,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
@@ -5234,7 +5234,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! REDUNDANT_DYNAMIC_COLOR
@@ -5343,7 +5343,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5352,7 +5352,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5361,7 +5361,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5370,7 +5370,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5379,7 +5379,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5388,7 +5388,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5397,7 +5397,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
@@ -5681,7 +5681,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
@@ -5802,7 +5802,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5811,7 +5811,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5820,7 +5820,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5829,7 +5829,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5838,7 +5838,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5847,7 +5847,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5856,7 +5856,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -5865,7 +5865,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
@@ -6007,7 +6007,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! REDUNDANT_DYNAMIC_COLOR
@@ -6116,7 +6116,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6125,7 +6125,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6134,7 +6134,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6143,7 +6143,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6152,7 +6152,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6161,7 +6161,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6170,7 +6170,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6179,7 +6179,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
@@ -6307,7 +6307,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! REDUNDANT_DYNAMIC_COLOR
@@ -6416,7 +6416,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6425,7 +6425,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6434,7 +6434,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6443,7 +6443,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6452,7 +6452,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
@@ -6757,7 +6757,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! REDUNDANT_DYNAMIC_COLOR
@@ -6881,7 +6881,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6890,7 +6890,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6899,7 +6899,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6908,7 +6908,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6917,7 +6917,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -6926,7 +6926,7 @@ number.7.Violin.2.Music = {
         <e' gs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
@@ -8226,7 +8226,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
@@ -8359,7 +8359,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -8368,7 +8368,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -8377,7 +8377,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -8386,7 +8386,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -8395,7 +8395,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
@@ -8523,7 +8523,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! REDUNDANT_DYNAMIC_COLOR
@@ -8632,7 +8632,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -8641,7 +8641,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -8650,7 +8650,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -8659,7 +8659,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -8668,7 +8668,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
@@ -8959,7 +8959,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
@@ -9080,7 +9080,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -9089,7 +9089,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -9098,7 +9098,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -9107,7 +9107,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -9116,7 +9116,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -9125,7 +9125,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
@@ -9267,7 +9267,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! REDUNDANT_DYNAMIC_COLOR
@@ -9376,7 +9376,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -9385,7 +9385,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -9394,7 +9394,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -9403,7 +9403,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -9412,7 +9412,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -9421,7 +9421,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
@@ -9549,7 +9549,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! REDUNDANT_DYNAMIC_COLOR
@@ -9658,7 +9658,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -9667,7 +9667,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -9676,7 +9676,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:
@@ -9912,7 +9912,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
@@ -10038,7 +10038,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -10047,7 +10047,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -10056,7 +10056,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -10065,7 +10065,7 @@ number.7.Viola.Music = {
         <aqf! cs'!>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.espressivo()
+          %! baca.espressivo_function()
           %! stirrings_still.make_loure_tuplets_material()
         - \espressivo
         % STOP_BEAM:

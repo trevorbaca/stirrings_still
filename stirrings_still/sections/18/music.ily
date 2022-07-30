@@ -123,17 +123,17 @@ number.18.Skips = {
     % [Skips measure 3]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ".|:"
       %! MEASURE_825
       %! NOT_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
 %%% \once \override Score.BarLine.X-extent = #'(0 . 2)
       %! MEASURE_825
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.open_volta()
+      %! baca.open_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 3)
     % OPENING:
     % COMMANDS:
@@ -229,12 +229,12 @@ number.18.Skips = {
     % [Skips measure 5]
     % BEFORE:
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar ":|."
       %! MEASURE_827
       %! ONLY_MOL
       %! baca.bar_line_x_extent(1)
-      %! baca.close_volta()
+      %! baca.close_volta_function()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
     % OPENING:
     % COMMANDS:
@@ -801,9 +801,9 @@ number.18.Skips = {
     s1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.markup()
+      %! baca.markup_function()
     - \tweak extra-offset #'(4 . -30)
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \stirrings-still-text-twenty-five
     % SPANNER_STOPS:
       %! CLOCK_TIME
@@ -1011,13 +1011,13 @@ number.18.Rests = {
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-fermata-markup
     % COMMANDS:
       %! FERMATA_MEASURE
