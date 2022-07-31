@@ -1346,6 +1346,7 @@ def flight_spanner(string, staff_padding, measures=None):
         abjad.Tweak(r"- \tweak color #darkmagenta"),
         abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
         measures=measures,
+        selector=lambda _: baca.select.rleaves(_),
     )
     tag = abjad.Tag("MATERIAL:FLIGHT")
     result = baca.tag(tag, command)

@@ -165,6 +165,7 @@ def v1(m):
         ("v1", [(1, 2), (4, 6), (8, 10), (12, 14)]),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {7 + 6.5}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -278,6 +279,7 @@ def v2(m):
         ("v2", [(1, 2), (4, 6), (8, 10), (12, 14)]),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -381,6 +383,7 @@ def va(m):
         ("va", [(1, 2), (4, 6), (8, 10), (12, 14)]),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {3 + 6.5}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(

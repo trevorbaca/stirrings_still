@@ -188,6 +188,7 @@ def v1(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
             qualifier="wide",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.dynamic_text_self_alignment_x(
             0.75,
@@ -223,6 +224,7 @@ def v2(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
             qualifier="wide",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.dynamic_text_self_alignment_x(
             0.75,

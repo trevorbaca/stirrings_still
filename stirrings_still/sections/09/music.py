@@ -110,6 +110,7 @@ def v1(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.flat_glissando(
             "Aqs4",
@@ -183,6 +184,7 @@ def v2(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.flat_glissando(
             "Eb4",
@@ -210,6 +212,7 @@ def va(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide-poss",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.flat_glissando("Bqf3", selector=lambda _: baca.select.pleaves(_)),
         baca.hairpin(

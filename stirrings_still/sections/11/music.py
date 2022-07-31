@@ -466,6 +466,7 @@ def v1(m):
         ("v1", (1, 2)),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         library.bcps(
             0,
@@ -485,6 +486,7 @@ def v1(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide-poss",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.text_spanner(
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
@@ -507,6 +509,7 @@ def v1(m):
         ("v1", [(5, 9), (11, 14), 16]),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -567,6 +570,7 @@ def v1(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.dynamic_text_self_alignment_x(
             -0.75,
@@ -601,6 +605,7 @@ def v1(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.flat_glissando("Aqs4"),
     )
@@ -627,6 +632,7 @@ def v1(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.flat_glissando("Aqf5"),
     )
@@ -654,6 +660,7 @@ def v1(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -695,6 +702,7 @@ def v1(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -785,6 +793,7 @@ def v2(m):
         ("v2", (1, 2)),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         library.bcps(
             -1,
@@ -804,6 +813,7 @@ def v2(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide-poss",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.text_spanner(
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
@@ -826,6 +836,7 @@ def v2(m):
         ("v2", [(5, 9), 13, (15, 16)]),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -884,6 +895,7 @@ def v2(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.dynamic_text_self_alignment_x(
             -0.75,
@@ -918,6 +930,7 @@ def v2(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.flat_glissando("Eb4"),
     )
@@ -943,6 +956,7 @@ def v2(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.flat_glissando("F5"),
     )
@@ -970,6 +984,7 @@ def v2(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -1009,6 +1024,7 @@ def v2(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -1033,6 +1049,7 @@ def va(m):
         ("va", (1, 2)),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         library.bcps(
             -2,
@@ -1052,6 +1069,7 @@ def va(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide-poss",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.text_spanner(
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
@@ -1079,6 +1097,7 @@ def va(m):
         ("va", [(12, 13), (16, 17)]),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         library.bcps(
             -3,
@@ -1127,6 +1146,7 @@ def va(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.dynamic_text_self_alignment_x(
             -0.75,
@@ -1161,6 +1181,7 @@ def va(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.flat_glissando("Bqf3"),
     )
@@ -1186,6 +1207,7 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.flat_glissando("G3"),
     )
@@ -1213,6 +1235,7 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -1243,6 +1266,7 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -1254,6 +1278,7 @@ def va(m):
         ),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         library.bcps(
             -2,
@@ -1283,6 +1308,7 @@ def vc(m):
         ("vc", (1, 2)),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         library.bcps(
             -3,
@@ -1302,6 +1328,7 @@ def vc(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.text_spanner(
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
@@ -1324,6 +1351,7 @@ def vc(m):
         ("vc", [(5, 10), (13, 14)]),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -1390,6 +1418,7 @@ def vc(m):
         ),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6.5}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.markup(
             r"\baca-string-iii-markup",
@@ -1420,6 +1449,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.flat_glissando("Eb2"),
     )
@@ -1433,6 +1463,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -1473,6 +1504,7 @@ def vc(m):
             "T -> T poss. =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             pieces=lambda _: baca.select.cmgroups(_, [8, 8]),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
 
