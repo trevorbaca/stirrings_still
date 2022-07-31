@@ -103,6 +103,7 @@ def v1(m):
         ("v1", (1, 8)),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {8 + 6}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.tuplet_bracket_down(),
         library.bcps(
@@ -141,6 +142,7 @@ def v2(m):
         ("v2", (1, 8)),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.tuplet_bracket_down(),
         library.bcps(

@@ -355,6 +355,7 @@ def v1(m):
         baca.pitch("<F4 A4>"),
         baca.tasto_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         library.urtext_spanner("urtext (double stop) -|", 8),
     )
@@ -454,6 +455,7 @@ def tutti(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -465,6 +467,7 @@ def tutti(cache):
         (["v1", "v2", "va", "vc"], (19, 24)),
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.hairpin("mf >o niente"),
         baca.pitch("C#6"),
@@ -495,6 +498,7 @@ def vns_vc(cache):
             ),
             baca.tasto_spanner(
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                selector=lambda _: baca.select.rleaves(_),
             ),
             library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
             match=0,
@@ -508,6 +512,7 @@ def vns_vc(cache):
             ),
             baca.tasto_spanner(
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                selector=lambda _: baca.select.rleaves(_),
             ),
             library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
             match=1,
@@ -536,6 +541,7 @@ def v2(m):
         baca.pitch("<E4 G#4>"),
         baca.tasto_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         library.urtext_spanner("urtext (double stop) -|", 8),
     )
@@ -546,6 +552,7 @@ def v2(m):
         ),
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.hairpin(
             "mp -- !",
@@ -554,6 +561,7 @@ def v2(m):
         ),
         baca.half_clt_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.pitch("F5"),
     )
@@ -574,6 +582,7 @@ def va(m):
         baca.pitch("<Aqf3 C#4>"),
         baca.tasto_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         library.clouded_pane_spanner("clouded pane (partial) -|", 8),
     )

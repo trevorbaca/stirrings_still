@@ -286,6 +286,7 @@ def v1(m):
         ),
         baca.tasto_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -319,6 +320,7 @@ def v1(m):
         baca.circle_bow_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
             qualifier="wide-poss",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -391,6 +393,7 @@ def v2(m):
         ),
         baca.tasto_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {v2_spanner_staff_padding}"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -406,6 +409,7 @@ def v2(m):
         baca.circle_bow_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {v2_spanner_staff_padding}"),
             qualifier="wide-poss",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -476,6 +480,7 @@ def va(m):
         ),
         baca.tasto_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -499,6 +504,7 @@ def va(m):
         baca.circle_bow_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
             qualifier="wide-poss",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -529,6 +535,7 @@ def vc(m):
         ),
         baca.tasto_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -556,6 +563,7 @@ def vc(m):
         baca.circle_bow_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
             qualifier="wide-poss",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(

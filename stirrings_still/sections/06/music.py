@@ -228,9 +228,11 @@ def tutti(cache):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight-poss-grind-at-talon",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.rleak(baca.select.tleaves(_)),
         ),
         baca.hairpin(
             "p -- !",

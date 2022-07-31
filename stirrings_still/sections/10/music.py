@@ -258,6 +258,7 @@ def v1_va_vc(cache):
             ),
             baca.tasto_spanner(
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                selector=lambda _: baca.select.rleaves(_),
             ),
             match=0,
         ),
@@ -270,6 +271,7 @@ def v1_va_vc(cache):
             ),
             baca.tasto_spanner(
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                selector=lambda _: baca.select.rleaves(_),
             ),
             match=1,
         ),
@@ -340,6 +342,7 @@ def v2(m):
         ),
         baca.damp_spanner(
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.hairpin(
             "mp -- !",
@@ -348,6 +351,7 @@ def v2(m):
         ),
         baca.half_clt_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.pitch("F5"),
         baca.tuplet_bracket_staff_padding(1),
@@ -419,6 +423,7 @@ def vc(m):
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.flat_glissando(
             "Cb2",

@@ -268,6 +268,7 @@ def v1(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -306,6 +307,7 @@ def v1(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -449,6 +451,7 @@ def v2(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -487,6 +490,7 @@ def v2(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -585,6 +589,7 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -623,6 +628,7 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -673,6 +679,7 @@ def vc(m):
         ("vc", (11, 12)),
         baca.half_clt_spanner(
             abjad.Tweak(rf"- \tweak staff-padding {3 + 6}"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         library.cello_cell_bcps(
             staff_padding=3,
@@ -714,6 +721,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -766,6 +774,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             pieces=lambda _: baca.select.plts(_)[:-1],
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -783,6 +792,7 @@ def vc(m):
         ),
         baca.tasto_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.text_spanner(
             "slow bow -> stopped",
