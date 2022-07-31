@@ -4708,11 +4708,17 @@ number.7.Violin.1.Music = {
       %! baca.accidental_stencil_false()
     \revert Accidental.stencil
       %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
+      %! baca.OverrideCommand._call(2)
       %! baca.note_head_x_extent_zero()
     \revert NoteHead.X-extent
       %! baca.OverrideCommand._call(2)
       %! baca.note_head_transparent()
     \revert NoteHead.transparent
+      %! baca.OverrideCommand._call(2)
+      %! baca.tuplet_bracket_down()
+    \revert TupletBracket.direction
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4762,13 +4768,6 @@ number.7.Violin.1.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.damp_spanner()
             \bacaStopTextSpanDamp
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
             % CLOSING:
             % COMMANDS:
 
@@ -8024,11 +8023,17 @@ number.7.Violin.2.Music = {
       %! baca.accidental_stencil_false()
     \revert Accidental.stencil
       %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
+      %! baca.OverrideCommand._call(2)
       %! baca.note_head_x_extent_zero()
     \revert NoteHead.X-extent
       %! baca.OverrideCommand._call(2)
       %! baca.note_head_transparent()
     \revert NoteHead.transparent
+      %! baca.OverrideCommand._call(2)
+      %! baca.tuplet_bracket_down()
+    \revert TupletBracket.direction
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8078,13 +8083,6 @@ number.7.Violin.2.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.damp_spanner()
             \bacaStopTextSpanDamp
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
             % CLOSING:
             % COMMANDS:
 
@@ -11156,11 +11154,17 @@ number.7.Viola.Music = {
       %! baca.accidental_stencil_false()
     \revert Accidental.stencil
       %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
+      %! baca.OverrideCommand._call(2)
       %! baca.note_head_x_extent_zero()
     \revert NoteHead.X-extent
       %! baca.OverrideCommand._call(2)
       %! baca.note_head_transparent()
     \revert NoteHead.transparent
+      %! baca.OverrideCommand._call(2)
+      %! baca.tuplet_bracket_down()
+    \revert TupletBracket.direction
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -11210,13 +11214,6 @@ number.7.Viola.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.damp_spanner()
             \bacaStopTextSpanDamp
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
             % CLOSING:
             % COMMANDS:
 
@@ -13864,6 +13861,9 @@ number.7.Cello.Music = {
       %! baca.accidental_stencil_false()
     \revert Accidental.stencil
       %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
+      %! baca.OverrideCommand._call(2)
       %! baca.note_head_x_extent_zero()
     \revert NoteHead.X-extent
       %! baca.OverrideCommand._call(2)
@@ -13918,10 +13918,6 @@ number.7.Cello.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.damp_spanner()
             \bacaStopTextSpanDamp
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
             % CLOSING:
             % COMMANDS:
 

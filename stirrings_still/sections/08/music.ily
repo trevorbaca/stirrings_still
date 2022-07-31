@@ -16860,6 +16860,9 @@ number.8.Viola.Music = {
         ]
         % COMMANDS:
           %! baca.OverrideCommand._call(2)
+          %! baca.dls_staff_padding()
+        \revert DynamicLineSpanner.staff-padding
+          %! baca.OverrideCommand._call(2)
           %! baca.tuplet_bracket_down()
         \revert TupletBracket.direction
         % CLOSING:
@@ -16924,10 +16927,6 @@ number.8.Viola.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.tasto_spanner()
             \bacaStopTextSpanSCP
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
             % CLOSING:
             % COMMANDS:
 
@@ -20842,6 +20841,9 @@ number.8.Cello.Music = {
     \repeatTie
     % COMMANDS:
       %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
+      %! baca.OverrideCommand._call(2)
       %! baca.tuplet_bracket_down()
     \revert TupletBracket.direction
     % ABSOLUTE_BEFORE:
@@ -20900,10 +20902,6 @@ number.8.Cello.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.material_annotation_spanner()
             \bacaStopTextSpanMaterialAnnotation
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
             % CLOSING:
             % COMMANDS:
 
