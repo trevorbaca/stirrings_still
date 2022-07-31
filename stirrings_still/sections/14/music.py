@@ -313,7 +313,7 @@ def v1(m):
     )
     accumulator(
         ("v1", (37, 38)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.flat_glissando(
             "G4",
             stop_pitch="F4",
@@ -494,7 +494,7 @@ def v2(m):
     )
     accumulator(
         ("v2", (37, 38)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.flat_glissando(
             "F4",
             stop_pitch="E4",
@@ -630,7 +630,7 @@ def va(m):
     )
     accumulator(
         ("va", (37, 38)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.flat_glissando(
             "Ab3",
             stop_pitch="Gb3",

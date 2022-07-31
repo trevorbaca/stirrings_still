@@ -189,7 +189,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (1, 12)),
-        baca.ottava_bassa(),
+        baca.ottava_bassa(selector=lambda _: baca.select.tleaves(_)),
         baca.flat_glissando(
             "B0",
             hide_middle_stems=True,

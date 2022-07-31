@@ -735,7 +735,7 @@ def vns_va(cache):
     accumulator(
         (["v1", "v2", "va"], 66),
         baca.new(
-            baca.beam(),
+            baca.beam(selector=lambda _: baca.select.tleaves(_)),
             baca.flat_glissando("Aqs4"),
             baca.markup(
                 r"\baca-thirteen-d-flat",
