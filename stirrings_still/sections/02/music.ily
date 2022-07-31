@@ -13932,6 +13932,14 @@ number.2.Violin.1.Music = {
 
       %! stirrings_still.make_grid_rhythm()
     ef''!8
+    % AFTER:
+    % COMMANDS:
+      %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
+      %! baca.OverrideCommand._call(2)
+      %! baca.tuplet_bracket_down()
+    \revert TupletBracket.direction
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -13991,12 +13999,6 @@ number.2.Violin.1.Music = {
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
             % CLOSING:
             % COMMANDS:
 
@@ -23644,6 +23646,14 @@ number.2.Violin.2.Music = {
 
       %! stirrings_still.make_grid_rhythm()
     r8
+    % AFTER:
+    % COMMANDS:
+      %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
+      %! baca.OverrideCommand._call(2)
+      %! baca.tuplet_bracket_down()
+    \revert TupletBracket.direction
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -23699,13 +23709,6 @@ number.2.Violin.2.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.damp_spanner()
             \bacaStopTextSpanDamp
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
             % CLOSING:
             % COMMANDS:
 
@@ -32858,6 +32861,14 @@ number.2.Viola.Music = {
 
       %! stirrings_still.make_grid_rhythm()
     ef''!8
+    % AFTER:
+    % COMMANDS:
+      %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
+      %! baca.OverrideCommand._call(2)
+      %! baca.tuplet_bracket_down()
+    \revert TupletBracket.direction
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -32940,13 +32951,6 @@ number.2.Viola.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.damp_spanner()
             \bacaStopTextSpanDamp
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -43418,6 +43422,14 @@ number.2.Cello.Music = {
 
       %! stirrings_still.make_grid_rhythm()
     r8
+    % AFTER:
+    % COMMANDS:
+      %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
+      %! baca.OverrideCommand._call(2)
+      %! baca.tuplet_bracket_down()
+    \revert TupletBracket.direction
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -43504,12 +43516,6 @@ number.2.Cello.Music = {
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(0 . 2)
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! EXPLICIT_CLEF_REDRAW_COLOR

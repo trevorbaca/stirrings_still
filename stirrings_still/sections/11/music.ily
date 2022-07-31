@@ -9065,6 +9065,16 @@ number.11.Violin.1.Music = {
       %! baca.PiecewiseCommand._call(4)
       %! baca.scp_spanner()
     \bacaStopTextSpanSCP
+    % COMMANDS:
+      %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
+      %! baca.OverrideCommand._call(2)
+      %! baca.tuplet_bracket_down()
+    \revert TupletBracket.direction
+      %! baca.OverrideCommand._call(2)
+      %! baca.tuplet_bracket_staff_padding()
+    \revert TupletBracket.staff-padding
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9118,15 +9128,6 @@ number.11.Violin.1.Music = {
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_staff_padding()
-            \revert TupletBracket.staff-padding
             % CLOSING:
             % COMMANDS:
 
@@ -15025,6 +15026,16 @@ number.11.Violin.2.Music = {
       %! baca.PiecewiseCommand._call(4)
       %! baca.scp_spanner()
     \bacaStopTextSpanSCP
+    % COMMANDS:
+      %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
+      %! baca.OverrideCommand._call(2)
+      %! baca.tuplet_bracket_down()
+    \revert TupletBracket.direction
+      %! baca.OverrideCommand._call(2)
+      %! baca.tuplet_bracket_staff_padding()
+    \revert TupletBracket.staff-padding
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -15074,16 +15085,6 @@ number.11.Violin.2.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_staff_padding()
-            \revert TupletBracket.staff-padding
             % CLOSING:
             % COMMANDS:
 
@@ -20921,6 +20922,16 @@ number.11.Viola.Music = {
       %! baca.PiecewiseCommand._call(4)
       %! baca.scp_spanner()
     \bacaStopTextSpanSCP
+    % COMMANDS:
+      %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
+      %! baca.OverrideCommand._call(2)
+      %! baca.tuplet_bracket_down()
+    \revert TupletBracket.direction
+      %! baca.OverrideCommand._call(2)
+      %! baca.tuplet_bracket_staff_padding()
+    \revert TupletBracket.staff-padding
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -20970,16 +20981,6 @@ number.11.Viola.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_staff_padding()
-            \revert TupletBracket.staff-padding
             % CLOSING:
             % COMMANDS:
 

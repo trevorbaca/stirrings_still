@@ -10197,6 +10197,9 @@ number.3.Violin.1.Music = {
         % AFTER:
         % COMMANDS:
           %! baca.OverrideCommand._call(2)
+          %! baca.dls_staff_padding()
+        \revert DynamicLineSpanner.staff-padding
+          %! baca.OverrideCommand._call(2)
           %! baca.tuplet_bracket_down()
         \revert TupletBracket.direction
           %! baca.OverrideCommand._call(2)
@@ -10281,9 +10284,6 @@ number.3.Violin.1.Music = {
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
             % CLOSING:
             % COMMANDS:
 
@@ -14802,6 +14802,11 @@ number.3.Violin.2.Music = {
     \undo \hide NoteHead
       %! stirrings_still.make_desynchronization_rhythm()
     f'4
+    % AFTER:
+    % COMMANDS:
+      %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -14871,10 +14876,6 @@ number.3.Violin.2.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.text_spanner()
             \stopTextSpan
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
             % CLOSING:
             % COMMANDS:
 
@@ -20107,6 +20108,9 @@ number.3.Viola.Music = {
         % AFTER:
         % COMMANDS:
           %! baca.OverrideCommand._call(2)
+          %! baca.dls_staff_padding()
+        \revert DynamicLineSpanner.staff-padding
+          %! baca.OverrideCommand._call(2)
           %! baca.tuplet_bracket_staff_padding()
         \revert TupletBracket.staff-padding
         % CLOSING:
@@ -20184,10 +20188,6 @@ number.3.Viola.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.text_spanner()
             \stopTextSpan
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
             % CLOSING:
             % COMMANDS:
 
@@ -25006,6 +25006,9 @@ number.3.Cello.Music = {
         % AFTER:
         % COMMANDS:
           %! baca.OverrideCommand._call(2)
+          %! baca.dls_staff_padding()
+        \revert DynamicLineSpanner.staff-padding
+          %! baca.OverrideCommand._call(2)
           %! baca.tuplet_bracket_staff_padding()
         \revert TupletBracket.staff-padding
         % CLOSING:
@@ -25087,9 +25090,6 @@ number.3.Cello.Music = {
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(0 . 2)
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
             % CLOSING:
             % COMMANDS:
 

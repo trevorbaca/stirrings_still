@@ -1040,6 +1040,14 @@ number.15.Violin.1.Music = {
         \undo \hide NoteHead
           %! stirrings_still.make_picket_rhythm()
         aqs'!4
+        % AFTER:
+        % COMMANDS:
+          %! baca.OverrideCommand._call(2)
+          %! baca.dls_staff_padding()
+        \revert DynamicLineSpanner.staff-padding
+          %! baca.OverrideCommand._call(2)
+          %! baca.tuplet_bracket_down()
+        \revert TupletBracket.direction
         % CLOSING:
         % COMMANDS:
 
@@ -1120,12 +1128,6 @@ number.15.Violin.1.Music = {
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
             % CLOSING:
             % COMMANDS:
 
@@ -1676,6 +1678,14 @@ number.15.Violin.2.Music = {
         \undo \hide NoteHead
           %! stirrings_still.make_picket_rhythm()
         ef'!4
+        % AFTER:
+        % COMMANDS:
+          %! baca.OverrideCommand._call(2)
+          %! baca.dls_staff_padding()
+        \revert DynamicLineSpanner.staff-padding
+          %! baca.OverrideCommand._call(2)
+          %! baca.tuplet_bracket_down()
+        \revert TupletBracket.direction
         % CLOSING:
         % COMMANDS:
 
@@ -1752,13 +1762,6 @@ number.15.Violin.2.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.circle_bow_spanner()
             \bacaStopTextSpanCircleBow
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
             % CLOSING:
             % COMMANDS:
 
@@ -2287,6 +2290,14 @@ number.15.Viola.Music = {
     \undo \hide NoteHead
       %! stirrings_still.make_picket_rhythm()
     bqf!4
+    % AFTER:
+    % COMMANDS:
+      %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
+      %! baca.OverrideCommand._call(2)
+      %! baca.tuplet_bracket_down()
+    \revert TupletBracket.direction
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2357,13 +2368,6 @@ number.15.Viola.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.circle_bow_spanner()
             \bacaStopTextSpanCircleBow
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
             % CLOSING:
             % COMMANDS:
 
@@ -3152,6 +3156,12 @@ number.15.Cello.Music = {
         \bacaStopTextSpanBCP
         % COMMANDS:
           %! baca.OverrideCommand._call(2)
+          %! baca.dls_staff_padding()
+        \revert DynamicLineSpanner.staff-padding
+          %! baca.OverrideCommand._call(2)
+          %! baca.tuplet_bracket_down()
+        \revert TupletBracket.direction
+          %! baca.OverrideCommand._call(2)
           %! baca.tuplet_bracket_down()
         \revert TupletBracket.direction
         % CLOSING:
@@ -3224,12 +3234,6 @@ number.15.Cello.Music = {
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(0 . 2)
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
             % CLOSING:
             % COMMANDS:
 

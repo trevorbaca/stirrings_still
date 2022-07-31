@@ -12029,6 +12029,14 @@ number.4.Violin.1.Music = {
         \undo \hide NoteHead
           %! stirrings_still.make_desynchronization_rhythm()
         bf'!4
+        % AFTER:
+        % COMMANDS:
+          %! baca.OverrideCommand._call(2)
+          %! baca.dls_staff_padding()
+        \revert DynamicLineSpanner.staff-padding
+          %! baca.OverrideCommand._call(2)
+          %! baca.tuplet_bracket_down()
+        \revert TupletBracket.direction
         % CLOSING:
         % COMMANDS:
 
@@ -12094,13 +12102,6 @@ number.4.Violin.1.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.damp_spanner()
             \bacaStopTextSpanDamp
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
             % CLOSING:
             % COMMANDS:
 
@@ -18367,6 +18368,14 @@ number.4.Violin.2.Music = {
     \undo \hide NoteHead
       %! stirrings_still.make_desynchronization_rhythm()
     a'4
+    % AFTER:
+    % COMMANDS:
+      %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
+      %! baca.OverrideCommand._call(2)
+      %! baca.tuplet_bracket_down()
+    \revert TupletBracket.direction
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -18426,13 +18435,6 @@ number.4.Violin.2.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.damp_spanner()
             \bacaStopTextSpanDamp
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
             % CLOSING:
             % COMMANDS:
 
@@ -24587,6 +24589,14 @@ number.4.Viola.Music = {
         \undo \hide NoteHead
           %! stirrings_still.make_desynchronization_rhythm()
         af'!4
+        % AFTER:
+        % COMMANDS:
+          %! baca.OverrideCommand._call(2)
+          %! baca.dls_staff_padding()
+        \revert DynamicLineSpanner.staff-padding
+          %! baca.OverrideCommand._call(2)
+          %! baca.tuplet_bracket_down()
+        \revert TupletBracket.direction
         % CLOSING:
         % COMMANDS:
 
@@ -24652,13 +24662,6 @@ number.4.Viola.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.damp_spanner()
             \bacaStopTextSpanDamp
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_down()
-            \revert TupletBracket.direction
             % CLOSING:
             % COMMANDS:
 
