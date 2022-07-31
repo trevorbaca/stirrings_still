@@ -106,7 +106,7 @@ def VC(voice):
 def v1(m):
     accumulator(
         ("v1", (1, 7)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -267,7 +267,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (1, 6)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.pitches("G2 B3 D3 C#4 F4"),
         baca.glissando(
             selector=lambda _: baca.select.rleaves(_),

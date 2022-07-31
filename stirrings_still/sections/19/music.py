@@ -266,7 +266,7 @@ def vc(m):
         ("vc", 1),
         baca.flat_glissando("B0"),
         baca.hairpin("o< mf"),
-        baca.ottava_bassa(),
+        baca.ottava_bassa(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("vc", [(3, 4), (6, 8), (10, 15)]),
@@ -274,7 +274,7 @@ def vc(m):
             "B0",
             hide_middle_stems=True,
         ),
-        baca.ottava_bassa(),
+        baca.ottava_bassa(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("vc", (3, 4)),

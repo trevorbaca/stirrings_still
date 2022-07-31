@@ -1681,7 +1681,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (73, 87)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("vc", (73, 88)),
@@ -1701,7 +1701,7 @@ def vc(m):
             r"\stirrings-still-tuning-peg-slowly-detune-markup",
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
-        baca.ottava_bassa(),
+        baca.ottava_bassa(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("vc", (88, 92)),

@@ -427,7 +427,7 @@ def v1(m):
     )
     accumulator(
         ("v1", 6),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.circle_bow_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -665,7 +665,7 @@ def vc(m):
     )
     accumulator(
         ("vc", 6),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.pitches("C#4 F4 G2 B3 D3"),
         baca.glissando(selector=lambda _: baca.select.tleaves(_)),
@@ -1018,7 +1018,7 @@ def vns(cache):
             selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.new(
-            baca.beam(),
+            baca.beam(selector=lambda _: baca.select.tleaves(_)),
             baca.markup(
                 r"\baca-thirteen-d-flat",
                 abjad.Tweak(r"- \tweak padding 1.5"),
