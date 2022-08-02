@@ -879,7 +879,7 @@ def tutti(cache):
 
     def grouped_pheads(start=0, stop=None):
         def selector(argument):
-            result = baca.pheads(argument)
+            result = baca.select.pheads(argument)
             result = result[start:stop]
             return [[_] for _ in result]
 
@@ -935,7 +935,9 @@ def tutti(cache):
         baca.hairpin(
             '"ff" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.rleak(baca.lleak(abjad.select.leaves(_))),
+            selector=lambda _: baca.select.rleak(
+                baca.select.lleak(abjad.select.leaves(_))
+            ),
         ),
     )
     accumulator(
@@ -1020,7 +1022,7 @@ def tutti(cache):
             # spanner terminates at double bar:
             (abjad.Tweak(r"- \tweak bound-details.right.padding 7.75"), -1),
             bookend=False,
-            pieces=lambda _: baca.mgroups(_, [3, 3 + 1]),
+            pieces=lambda _: baca.select.mgroups(_, [3, 3 + 1]),
             selector=lambda _: baca.select.rleaves(_),
         ),
     )

@@ -508,7 +508,7 @@ def VC(voice):
 
 
 def measure_starts_plus_rest(argument):
-    selection_1 = baca.cmgroups(argument)
+    selection_1 = baca.select.cmgroups(argument)
     selection_1 = [abjad.select.leaf(_, 0) for _ in selection_1]
     selection_2 = abjad.select.leaves(argument)[-1:]
     selection = selection_1 + selection_2
@@ -1045,7 +1045,7 @@ def v2(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
             map=lambda _: abjad.select.get(
                 abjad.select.partition_by_counts(
-                    baca.plts(_), [4, 1, 3, 1, 2, 1, 99], cyclic=True
+                    baca.select.plts(_), [4, 1, 3, 1, 2, 1, 99], cyclic=True
                 ),
                 [0],
                 2,
@@ -1259,7 +1259,7 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             map=lambda _: abjad.select.get(
                 abjad.select.partition_by_counts(
-                    baca.plts(_), [4, 1, 3, 1, 2, 1, 99], cyclic=True
+                    baca.select.plts(_), [4, 1, 3, 1, 2, 1, 99], cyclic=True
                 ),
                 [0],
                 2,
@@ -1315,7 +1315,7 @@ def va(m):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 selector=lambda _: baca.select.rleaves(_),
             ),
-            map=lambda _: abjad.select.get(baca.plts(_)[:-1], [1], 2),
+            map=lambda _: abjad.select.get(baca.select.plts(_)[:-1], [1], 2),
         ),
         baca.new(
             baca.hairpin(

@@ -282,7 +282,7 @@ class StageToken:
 def rleaves_partition_by_counts(counts):
     def selector(argument):
         result = abjad.select.leaves(argument)
-        result = baca.rleak(result)
+        result = baca.select.rleak(result)
         result = abjad.select.partition_by_counts(result, counts)
         return result
 
@@ -292,7 +292,7 @@ def rleaves_partition_by_counts(counts):
 def rleaves_partition_by_ratio(ratio):
     def selector(argument):
         result = abjad.select.leaves(argument)
-        result = baca.rleak(result)
+        result = baca.select.rleak(result)
         result = abjad.select.partition_by_ratio(result, ratio)
         return result
 
@@ -2087,8 +2087,8 @@ def multistage_leaf_glissando(
 
         def _make_start_stop_selector(start, stop):
             def _inner_selector(argument):
-                result = baca.pleaves(argument)
-                result = baca.lleak(result)
+                result = baca.select.pleaves(argument)
+                result = baca.select.lleak(result)
                 result = result[start:stop]
                 return result
 
