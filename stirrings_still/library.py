@@ -1482,8 +1482,7 @@ def make_continuous_tremolo_material(time_signatures):
     music = rhythm_maker(time_signatures)
     for pleaf in baca.select.pleaves(music):
         wrappers = baca.stem_tremolo_function(pleaf)
-        for wrapper in wrappers:
-            wrapper.tag = wrapper.tag.append(tag)
+        baca.tags.wrappers(wrappers, tag)
     return music
 
 
@@ -1792,8 +1791,7 @@ def make_loure_tuplets_material(time_signatures, extra_count):
     music = make_desynchronization_rhythm(time_signatures, 8, [extra_count])
     tag = baca.tags.function_name(inspect.currentframe())
     wrappers = baca.espressivo_function(baca.select.pheads(music))
-    for wrapper in wrappers:
-        wrapper.tag = wrapper.tag.append(tag)
+    baca.tags.wrappers(wrappers, tag)
     return music
 
 
