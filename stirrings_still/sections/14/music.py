@@ -260,7 +260,7 @@ def v1(m):
         baca.hairpin(
             "f < ff >",
             pieces=lambda _: abjad.select.partition_by_counts(
-                baca.plts(_)[:-1], [2], cyclic=True
+                baca.select.plts(_)[:-1], [2], cyclic=True
             ),
         ),
         baca.scp_spanner(
@@ -299,7 +299,7 @@ def v1(m):
         baca.hairpin(
             "ff < fff >",
             pieces=lambda _: abjad.select.partition_by_counts(
-                baca.plts(_)[:-1], [2], cyclic=True
+                baca.select.plts(_)[:-1], [2], cyclic=True
             ),
         ),
         baca.scp_spanner(
@@ -443,7 +443,7 @@ def v2(m):
         baca.hairpin(
             "f < ff >",
             pieces=lambda _: abjad.select.partition_by_counts(
-                baca.plts(_)[:-1], [2], cyclic=True
+                baca.select.plts(_)[:-1], [2], cyclic=True
             ),
         ),
         baca.scp_spanner(
@@ -482,7 +482,7 @@ def v2(m):
         baca.hairpin(
             "ff < fff >",
             pieces=lambda _: abjad.select.partition_by_counts(
-                baca.plts(_)[:-1], [2], cyclic=True
+                baca.select.plts(_)[:-1], [2], cyclic=True
             ),
         ),
         baca.scp_spanner(
@@ -581,7 +581,7 @@ def va(m):
         baca.hairpin(
             "f < ff >",
             pieces=lambda _: abjad.select.partition_by_counts(
-                baca.plts(_)[:-1], [2], cyclic=True
+                baca.select.plts(_)[:-1], [2], cyclic=True
             ),
         ),
         baca.scp_spanner(
@@ -620,7 +620,7 @@ def va(m):
         baca.hairpin(
             "ff < fff >",
             pieces=lambda _: abjad.select.partition_by_counts(
-                baca.plts(_)[:-1], [2], cyclic=True
+                baca.select.plts(_)[:-1], [2], cyclic=True
             ),
         ),
         baca.scp_spanner(
@@ -713,7 +713,7 @@ def vc(m):
         baca.hairpin(
             "f < ff >",
             pieces=lambda _: abjad.select.partition_by_counts(
-                baca.plts(_)[:-1], [2], cyclic=True
+                baca.select.plts(_)[:-1], [2], cyclic=True
             ),
         ),
         baca.scp_spanner(
@@ -766,7 +766,7 @@ def vc(m):
         baca.hairpin(
             "ff < fff >",
             pieces=lambda _: abjad.select.partition_by_counts(
-                baca.plts(_)[:-1], [2], cyclic=True
+                baca.select.plts(_)[:-1], [2], cyclic=True
             ),
         ),
         baca.scp_spanner(

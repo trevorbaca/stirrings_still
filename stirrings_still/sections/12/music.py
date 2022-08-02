@@ -42,8 +42,8 @@ def lleak_tuplet_pleaves(indices):
     def selector(argument):
         selection = abjad.select.tuplets(argument)
         selection = abjad.select.get(selection, indices)
-        selection = [baca.pleaves(_) for _ in selection]
-        selection = [baca.lleak(_) for _ in selection]
+        selection = [baca.select.pleaves(_) for _ in selection]
+        selection = [baca.select.lleak(_) for _ in selection]
         return selection
 
     return selector
@@ -53,7 +53,7 @@ def nonlast_tuplet_pleaves(indices):
     def selector(argument):
         selection = abjad.select.tuplets(argument)
         selection = abjad.select.get(selection, indices)
-        selection = [baca.pleaves(_)[:-1] for _ in selection]
+        selection = [baca.select.pleaves(_)[:-1] for _ in selection]
         return selection
 
     return selector

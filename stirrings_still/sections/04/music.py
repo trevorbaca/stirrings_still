@@ -1144,7 +1144,7 @@ def vc(m):
         ),
         baca.new(
             baca.hairpin("niente o< p"),
-            map=lambda _: [baca.cmgroups(_)[:3]],
+            map=lambda _: [baca.select.cmgroups(_)[:3]],
         ),
         library.clouded_pane_spanner("clouded pane (arrival) -|", 5.5),
     )

@@ -337,7 +337,7 @@ def vns_va(cache):
         baca.hairpin(
             "o< ff",
             measures=(13, 16),
-            selector=lambda _: baca.rleak(abjad.select.leaves(_), count=2),
+            selector=lambda _: baca.select.rleak(abjad.select.leaves(_), count=2),
         ),
         baca.hairpin(
             ">o",
@@ -368,7 +368,7 @@ def vns_va(cache):
         library.clouded_pane_spanner(
             "clouded pane -|",
             8,
-            selector=lambda _: baca.rleak(abjad.select.leaves(_), count=2),
+            selector=lambda _: baca.select.rleak(abjad.select.leaves(_), count=2),
         ),
     )
     accumulator(

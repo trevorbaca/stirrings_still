@@ -1908,7 +1908,7 @@ def vc(m):
         baca.new(
             baca.clef("treble"),
             baca.clef_extra_offset((-1, 0)),
-            selector=lambda _: baca.lleaf(_, 0),
+            selector=lambda _: baca.select.lleaf(_, 0),
         ),
         baca.pitch(
             "Dtqs5",
