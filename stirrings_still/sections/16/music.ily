@@ -3547,8 +3547,7 @@ number.16.Violin.1.Music = {
     \bacaStopTextSpanMaterialAnnotation
     % START_BEAM:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
-      %! baca.beam()
+      %! baca._do_spanner_indicator_command(2)
     [
     % SPANNER_STARTS:
       %! abjad.glissando(7)
@@ -3768,8 +3767,7 @@ number.16.Violin.1.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca.SpannerIndicatorCommand._call(4)
-      %! baca.beam()
+      %! baca._do_spanner_indicator_command(4)
     ]
     % COMMANDS:
       %! baca._attach_persistent_indicator()
@@ -6269,8 +6267,7 @@ number.16.Violin.2.Music = {
     \ppppp
     % START_BEAM:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
-      %! baca.beam()
+      %! baca._do_spanner_indicator_command(2)
     [
     % SPANNER_STARTS:
       %! abjad.glissando(7)
@@ -6536,8 +6533,7 @@ number.16.Violin.2.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca.SpannerIndicatorCommand._call(4)
-      %! baca.beam()
+      %! baca._do_spanner_indicator_command(4)
     ]
     % COMMANDS:
       %! baca._attach_persistent_indicator()
@@ -8144,8 +8140,7 @@ number.16.Viola.Music = {
     \bacaStopTextSpanMaterialAnnotation
     % START_BEAM:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
-      %! baca.beam()
+      %! baca._do_spanner_indicator_command(2)
     [
     % SPANNER_STARTS:
       %! abjad.glissando(7)
@@ -8365,8 +8360,7 @@ number.16.Viola.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca.SpannerIndicatorCommand._call(4)
-      %! baca.beam()
+      %! baca._do_spanner_indicator_command(4)
     ]
     % COMMANDS:
       %! baca._attach_persistent_indicator()
@@ -9935,8 +9929,7 @@ number.16.Cello.Music = {
     \ppppp
     % START_BEAM:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
-      %! baca.beam()
+      %! baca._do_spanner_indicator_command(2)
     [
     % SPANNER_STARTS:
       %! abjad.glissando(7)
@@ -10224,8 +10217,7 @@ number.16.Cello.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca.SpannerIndicatorCommand._call(4)
-      %! baca.beam()
+      %! baca._do_spanner_indicator_command(4)
     ]
     % COMMANDS:
       %! baca._attach_persistent_indicator()

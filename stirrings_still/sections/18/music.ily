@@ -5372,8 +5372,7 @@ number.18.Cello.Music = {
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
-      %! baca.ottava_bassa()
+      %! baca._do_spanner_indicator_command(2)
     \ottava -1
       %! baca.OverrideCommand._call(1)
       %! baca.dls_staff_padding()
@@ -5630,8 +5629,7 @@ number.18.Cello.Music = {
     % AFTER:
     % COMMANDS:
       %! SPANNER_STOP
-      %! baca.SpannerIndicatorCommand._call(4)
-      %! baca.ottava_bassa()
+      %! baca._do_spanner_indicator_command(4)
     \ottava 0
     % ABSOLUTE_BEFORE:
     % COMMANDS:
