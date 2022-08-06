@@ -3547,7 +3547,7 @@ number.16.Violin.1.Music = {
     \bacaStopTextSpanMaterialAnnotation
     % START_BEAM:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     [
     % SPANNER_STARTS:
       %! abjad.glissando(7)
@@ -3767,7 +3767,7 @@ number.16.Violin.1.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     ]
     % COMMANDS:
       %! baca._attach_persistent_indicator()
@@ -6267,7 +6267,7 @@ number.16.Violin.2.Music = {
     \ppppp
     % START_BEAM:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     [
     % SPANNER_STARTS:
       %! abjad.glissando(7)
@@ -6533,7 +6533,7 @@ number.16.Violin.2.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     ]
     % COMMANDS:
       %! baca._attach_persistent_indicator()
@@ -8140,7 +8140,7 @@ number.16.Viola.Music = {
     \bacaStopTextSpanMaterialAnnotation
     % START_BEAM:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     [
     % SPANNER_STARTS:
       %! abjad.glissando(7)
@@ -8360,7 +8360,7 @@ number.16.Viola.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     ]
     % COMMANDS:
       %! baca._attach_persistent_indicator()
@@ -9929,7 +9929,7 @@ number.16.Cello.Music = {
     \ppppp
     % START_BEAM:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     [
     % SPANNER_STARTS:
       %! abjad.glissando(7)
@@ -10217,7 +10217,7 @@ number.16.Cello.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     ]
     % COMMANDS:
       %! baca._attach_persistent_indicator()

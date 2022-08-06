@@ -867,7 +867,7 @@ number.9.Violin.1.Music = {
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
     % START_BEAM:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -1300,7 +1300,7 @@ number.9.Violin.1.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3383,7 +3383,7 @@ number.9.Cello.Music = {
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
     % START_BEAM:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -5474,7 +5474,7 @@ number.9.Cello.Music = {
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     ]
     % SPANNER_STARTS:
       %! baca.bcps()

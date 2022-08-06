@@ -7647,7 +7647,7 @@ number.19.Cello.Music = {
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     \ottava -1
       %! baca.OverrideCommand._call(1)
       %! baca.dls_staff_padding()
@@ -7796,7 +7796,7 @@ number.19.Cello.Music = {
     \mf
     % COMMANDS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     \ottava 0
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7891,7 +7891,7 @@ number.19.Cello.Music = {
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     \ottava -1
       %! baca.make_repeat_tied_notes()
     b,,,2.
@@ -8016,7 +8016,7 @@ number.19.Cello.Music = {
     \<
     % COMMANDS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     \ottava 0
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8116,7 +8116,7 @@ number.19.Cello.Music = {
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     \ottava -1
     b,,,2.
     % AFTER:
@@ -8254,7 +8254,7 @@ number.19.Cello.Music = {
     % AFTER:
     % COMMANDS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     \ottava 0
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8360,7 +8360,7 @@ number.19.Cello.Music = {
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     \ottava -1
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
       %! baca._style_fermata_measures(4)
@@ -8528,7 +8528,7 @@ number.19.Cello.Music = {
     % AFTER:
     % COMMANDS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     \ottava 0
     % ABSOLUTE_BEFORE:
     % COMMANDS:

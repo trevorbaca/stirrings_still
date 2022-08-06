@@ -52305,7 +52305,7 @@ number.17.Cello.Music = {
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     \ottava -1
       %! stirrings_still.make_eighth_notes()
     bf,,!8
@@ -52334,7 +52334,7 @@ number.17.Cello.Music = {
     ^ \stirrings-still-tuning-peg-slowly-detune-markup
     % START_BEAM:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     [
     % SPANNER_STARTS:
       %! abjad.glissando(7)
@@ -52845,7 +52845,7 @@ number.17.Cello.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -52971,7 +52971,7 @@ number.17.Cello.Music = {
     % AFTER:
     % COMMANDS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     \ottava 0
       %! baca.OverrideCommand._call(2)
       %! baca.dls_staff_padding()

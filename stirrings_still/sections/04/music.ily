@@ -10282,7 +10282,7 @@ number.4.Violin.1.Music = {
     \bacaStopTextSpanSCP
     % START_BEAM:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -10405,7 +10405,7 @@ number.4.Violin.1.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
