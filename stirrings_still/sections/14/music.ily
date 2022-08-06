@@ -5304,7 +5304,7 @@ number.14.Violin.1.Music = {
     \p
     % START_BEAM:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     [
     % SPANNER_STARTS:
       %! SPANNER_START
@@ -5548,7 +5548,7 @@ number.14.Violin.1.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     ]
     % COMMANDS:
       %! baca.OverrideCommand._call(2)
@@ -8463,7 +8463,7 @@ number.14.Violin.2.Music = {
     \p
     % START_BEAM:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     [
     % SPANNER_STARTS:
       %! SPANNER_START
@@ -8707,7 +8707,7 @@ number.14.Violin.2.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     ]
     % COMMANDS:
       %! baca.OverrideCommand._call(2)
@@ -11901,7 +11901,7 @@ number.14.Viola.Music = {
     \p
     % START_BEAM:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     [
     % SPANNER_STARTS:
       %! SPANNER_START
@@ -12145,7 +12145,7 @@ number.14.Viola.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     ]
     % COMMANDS:
       %! baca.OverrideCommand._call(2)

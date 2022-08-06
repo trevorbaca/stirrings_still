@@ -4095,7 +4095,7 @@ number.8.Violin.1.Music = {
     \stopTextSpanOne
     % START_BEAM:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -4192,7 +4192,7 @@ number.8.Violin.1.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     ]
     % COMMANDS:
       %! baca._attach_persistent_indicator()
@@ -8081,7 +8081,7 @@ number.8.Violin.1.Music = {
     \bacaStopTextSpanSCP
     % START_BEAM:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -8216,7 +8216,7 @@ number.8.Violin.1.Music = {
     \bacaStopTextSpanCircleBow
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     ]
     % COMMANDS:
       %! baca.OverrideCommand._call(2)
@@ -17429,7 +17429,7 @@ number.8.Cello.Music = {
     \stopTextSpanOne
     % START_BEAM:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -17693,7 +17693,7 @@ number.8.Cello.Music = {
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
     ]
     % COMMANDS:
       %! baca._attach_persistent_indicator()
