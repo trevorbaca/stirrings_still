@@ -3302,19 +3302,6 @@ def urtext_spanner(
     return result
 
 
-def voice_abbreviations():
-    return {
-        "v1": "Violin.1.Music",
-        "v1r": "Violin.1.Rests",
-        "v2": "Violin.2.Music",
-        "v2r": "Violin.2.Rests",
-        "va": "Viola.Music",
-        "var": "Viola.Rests",
-        "vc": "Cello.Music",
-        "vcr": "Cello.Rests",
-    }
-
-
 instruments = dict(
     [
         ("ViolinI", abjad.Violin(pitch_range=abjad.PitchRange("[F3, +inf]"))),
@@ -3367,4 +3354,16 @@ manifests = {
     "abjad.Instrument": instruments,
     "abjad.MetronomeMark": metronome_marks,
     "abjad.ShortInstrumentName": short_instrument_names,
+}
+
+
+voice_abbreviations = {
+    "v1": "Violin.1.Music",
+    "v1r": "Violin.1.Rests",
+    "v2": "Violin.2.Music",
+    "v2r": "Violin.2.Rests",
+    "va": "Viola.Music",
+    "var": "Viola.Rests",
+    "vc": "Cello.Music",
+    "vcr": "Cello.Rests",
 }
