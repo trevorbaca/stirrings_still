@@ -11,57 +11,6 @@ import baca
 from abjadext import rmakers
 
 
-def instruments():
-    return dict(
-        [
-            ("ViolinI", abjad.Violin(pitch_range=abjad.PitchRange("[F3, +inf]"))),
-            ("ViolinII", abjad.Violin(pitch_range=abjad.PitchRange("[F3, +inf]"))),
-            ("Viola", abjad.Viola(pitch_range=abjad.PitchRange("[Bb2, +inf]"))),
-            ("Cello", abjad.Cello(pitch_range=abjad.PitchRange("[Bb0, +inf]"))),
-        ]
-    )
-
-
-def short_instrument_names():
-    return dict(
-        [
-            ("Va.", abjad.ShortInstrumentName(r"\stirrings-still-va-markup")),
-            ("Vc.", abjad.ShortInstrumentName(r"\stirrings-still-vc-markup")),
-            ("Vn. I", abjad.ShortInstrumentName(r"\stirrings-still-vn-i-markup")),
-            (
-                "Vn. II",
-                abjad.ShortInstrumentName(r"\stirrings-still-vn-ii-markup"),
-            ),
-        ]
-    )
-
-
-def metronome_marks():
-    return dict(
-        [
-            ("larghissimo", abjad.MetronomeMark((1, 4), 39)),
-            ("largo meno mosso", abjad.MetronomeMark((1, 4), 48)),
-            ("largo", abjad.MetronomeMark((1, 4), 52)),
-            ("largo piu mosso", abjad.MetronomeMark((1, 4), 56)),
-            ("adagio meno mosso", abjad.MetronomeMark((1, 4), 60)),
-            ("adagio", abjad.MetronomeMark((1, 4), 65)),
-            ("adagio piu mosso", abjad.MetronomeMark((1, 4), 78)),
-            ("andante", abjad.MetronomeMark((1, 4), 91)),
-            ("allegro", abjad.MetronomeMark((1, 4), 117)),
-            ("allegro piu mosso", abjad.MetronomeMark((1, 4), 137)),
-            ("presto", abjad.MetronomeMark((1, 4), 169)),
-            (
-                "presto ! largo",
-                abjad.MetronomeMark(
-                    reference_duration=(1, 4),
-                    units_per_minute=52,
-                    custom_markup=abjad.Markup(r"\stirrings-still-presto-largo-markup"),
-                ),
-            ),
-        ]
-    )
-
-
 def time_signature_series():
     time_signature_series = dict()
     numerators = [[3, 4, 4], [3, 4, 5, 6]]
@@ -2048,8 +1997,7 @@ def short_instrument_name(
     context="Staff",
     selector=lambda _: abjad.select.leaf(_, 0),
 ):
-    _short_instrument_names = short_instrument_names()
-    short_instrument_name = _short_instrument_names[key]
+    short_instrument_name = short_instrument_names[key]
     command = baca.short_instrument_name(
         short_instrument_name,
         alert=alert,
@@ -3365,3 +3313,58 @@ def voice_abbreviations():
         "vc": "Cello.Music",
         "vcr": "Cello.Rests",
     }
+
+
+instruments = dict(
+    [
+        ("ViolinI", abjad.Violin(pitch_range=abjad.PitchRange("[F3, +inf]"))),
+        ("ViolinII", abjad.Violin(pitch_range=abjad.PitchRange("[F3, +inf]"))),
+        ("Viola", abjad.Viola(pitch_range=abjad.PitchRange("[Bb2, +inf]"))),
+        ("Cello", abjad.Cello(pitch_range=abjad.PitchRange("[Bb0, +inf]"))),
+    ]
+)
+
+
+metronome_marks = dict(
+    [
+        ("larghissimo", abjad.MetronomeMark((1, 4), 39)),
+        ("largo meno mosso", abjad.MetronomeMark((1, 4), 48)),
+        ("largo", abjad.MetronomeMark((1, 4), 52)),
+        ("largo piu mosso", abjad.MetronomeMark((1, 4), 56)),
+        ("adagio meno mosso", abjad.MetronomeMark((1, 4), 60)),
+        ("adagio", abjad.MetronomeMark((1, 4), 65)),
+        ("adagio piu mosso", abjad.MetronomeMark((1, 4), 78)),
+        ("andante", abjad.MetronomeMark((1, 4), 91)),
+        ("allegro", abjad.MetronomeMark((1, 4), 117)),
+        ("allegro piu mosso", abjad.MetronomeMark((1, 4), 137)),
+        ("presto", abjad.MetronomeMark((1, 4), 169)),
+        (
+            "presto ! largo",
+            abjad.MetronomeMark(
+                reference_duration=(1, 4),
+                units_per_minute=52,
+                custom_markup=abjad.Markup(r"\stirrings-still-presto-largo-markup"),
+            ),
+        ),
+    ]
+)
+
+
+short_instrument_names = dict(
+    [
+        ("Va.", abjad.ShortInstrumentName(r"\stirrings-still-va-markup")),
+        ("Vc.", abjad.ShortInstrumentName(r"\stirrings-still-vc-markup")),
+        ("Vn. I", abjad.ShortInstrumentName(r"\stirrings-still-vn-i-markup")),
+        (
+            "Vn. II",
+            abjad.ShortInstrumentName(r"\stirrings-still-vn-ii-markup"),
+        ),
+    ]
+)
+
+
+manifests = {
+    "abjad.Instrument": instruments,
+    "abjad.MetronomeMark": metronome_marks,
+    "abjad.ShortInstrumentName": short_instrument_names,
+}
