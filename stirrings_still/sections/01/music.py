@@ -38,9 +38,7 @@ score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 accumulator = baca.CommandAccumulator(
-    instruments=library.instruments,
-    short_instrument_names=library.short_instrument_names,
-    metronome_marks=library.metronome_marks,
+    manifests=library.manifests,
     time_signatures=library.time_signatures("A"),
     _voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
@@ -578,7 +576,7 @@ def v1(m):
     accumulator(
         "v1",
         baca.instrument(
-            accumulator.instruments["ViolinI"],
+            library.instruments["ViolinI"],
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
@@ -969,7 +967,7 @@ def v2(m):
     accumulator(
         "v2",
         baca.instrument(
-            accumulator.instruments["ViolinII"],
+            library.instruments["ViolinII"],
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
@@ -1055,7 +1053,7 @@ def va(m):
     accumulator(
         "va",
         baca.instrument(
-            accumulator.instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
+            library.instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
@@ -1140,7 +1138,7 @@ def vc(m):
     accumulator(
         ("vc", (1, 11)),
         baca.instrument(
-            accumulator.instruments["Cello"], selector=lambda _: abjad.select.leaf(_, 0)
+            library.instruments["Cello"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
