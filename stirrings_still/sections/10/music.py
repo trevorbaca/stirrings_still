@@ -27,7 +27,7 @@ accumulator = baca.CommandAccumulator(
     _voice_names=voice_names,
 )
 
-baca.interpret.set_up_score(
+first_measure_number = baca.interpret.set_up_score(
     score,
     accumulator,
     library.manifests,
@@ -46,8 +46,8 @@ baca.markup_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 10)"),
 )
 
-baca.open_volta_function(skips[11 - 1], accumulator.first_measure_number)
-baca.close_volta_function(skips[14 - 1], accumulator.first_measure_number)
+baca.open_volta_function(skips[11 - 1], first_measure_number)
+baca.close_volta_function(skips[14 - 1], first_measure_number)
 
 time = (
     ("allegro", 3),

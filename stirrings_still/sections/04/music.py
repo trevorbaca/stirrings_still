@@ -51,7 +51,7 @@ accumulator = baca.CommandAccumulator(
     _voice_names=voice_names,
 )
 
-baca.interpret.set_up_score(
+first_measure_number = baca.interpret.set_up_score(
     score,
     accumulator,
     library.manifests,
@@ -82,17 +82,17 @@ baca.markup_function(
     abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
 )
 
-baca.open_volta_function(skips[1 - 1], accumulator.first_measure_number)
-baca.double_volta_function(skips[7 - 1], accumulator.first_measure_number)
-baca.double_volta_function(skips[13 - 1], accumulator.first_measure_number)
-baca.double_volta_function(skips[19 - 1], accumulator.first_measure_number)
-baca.double_volta_function(skips[25 - 1], accumulator.first_measure_number)
-baca.double_volta_function(skips[31 - 1], accumulator.first_measure_number)
-baca.close_volta_function(skips[37 - 1], accumulator.first_measure_number)
-baca.open_volta_function(skips[57 - 1], accumulator.first_measure_number)
-baca.close_volta_function(skips[61 - 1], accumulator.first_measure_number)
-baca.open_volta_function(skips[94 - 1], accumulator.first_measure_number)
-baca.close_volta_function(skips[98 - 1], accumulator.first_measure_number)
+baca.open_volta_function(skips[1 - 1], first_measure_number)
+baca.double_volta_function(skips[7 - 1], first_measure_number)
+baca.double_volta_function(skips[13 - 1], first_measure_number)
+baca.double_volta_function(skips[19 - 1], first_measure_number)
+baca.double_volta_function(skips[25 - 1], first_measure_number)
+baca.double_volta_function(skips[31 - 1], first_measure_number)
+baca.close_volta_function(skips[37 - 1], first_measure_number)
+baca.open_volta_function(skips[57 - 1], first_measure_number)
+baca.close_volta_function(skips[61 - 1], first_measure_number)
+baca.open_volta_function(skips[94 - 1], first_measure_number)
+baca.close_volta_function(skips[98 - 1], first_measure_number)
 
 time = (
     ("fermata", 37),
