@@ -3179,7 +3179,7 @@ def style_tailpiece_material(*tweaks):
     return command
 
 
-def time(score, commands, pairs):
+def time(score, accumulator, pairs):
     def make_rest_selector(lmn):
         def selector(argument):
             return baca.select.rest(argument, lmn - 1)
@@ -3194,7 +3194,6 @@ def time(score, commands, pairs):
 
     skips = score["Skips"]
     rests = score["Rests"]
-    manifests = commands.manifests()
     fermatas = ("short", "fermata", "long", "very_long")
     for value, lmn in pairs:
         if value in fermatas:
@@ -3204,8 +3203,8 @@ def time(score, commands, pairs):
             skip = skips[lmn - 1]
             baca.metronome_mark_function(
                 skip,
-                commands.metronome_marks.get(value, value),
-                manifests,
+                accumulator.manifests["abjad.MetronomeMark"].get(value, value),
+                accumulator.manifests,
             )
 
 
