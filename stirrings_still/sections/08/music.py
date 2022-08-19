@@ -41,7 +41,7 @@ accumulator = baca.CommandAccumulator(
     _voice_names=voice_names,
 )
 
-baca.interpret.set_up_score(
+first_measure_number = baca.interpret.set_up_score(
     score,
     accumulator,
     library.manifests,
@@ -54,8 +54,8 @@ baca.interpret.set_up_score(
 
 skips = score["Skips"]
 
-baca.open_volta_function(skips[30 - 1], accumulator.first_measure_number)
-baca.close_volta_function(skips[37 - 1], accumulator.first_measure_number)
+baca.open_volta_function(skips[30 - 1], first_measure_number)
+baca.close_volta_function(skips[37 - 1], first_measure_number)
 
 time = (
     ("largo", 1),
