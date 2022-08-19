@@ -3179,7 +3179,7 @@ def style_tailpiece_material(*tweaks):
     return command
 
 
-def time(score, accumulator, pairs):
+def time(score, pairs):
     def make_rest_selector(lmn):
         def selector(argument):
             return baca.select.rest(argument, lmn - 1)
@@ -3203,8 +3203,8 @@ def time(score, accumulator, pairs):
             skip = skips[lmn - 1]
             baca.metronome_mark_function(
                 skip,
-                accumulator.manifests["abjad.MetronomeMark"].get(value, value),
-                accumulator.manifests,
+                manifests["abjad.MetronomeMark"].get(value, value),
+                manifests,
             )
 
 

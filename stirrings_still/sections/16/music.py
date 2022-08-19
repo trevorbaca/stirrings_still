@@ -20,10 +20,9 @@ score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 accumulator = baca.CommandAccumulator(
-    manifests=library.manifests,
     time_signatures=library.time_signatures("P"),
     _voice_abbreviations=library.voice_abbreviations,
-    voice_names=voice_names,
+    _voice_names=voice_names,
 )
 
 baca.interpret.set_up_score(
@@ -44,7 +43,7 @@ time = (
     ("presto", 26),
 )
 
-library.time(score, accumulator, time)
+library.time(score, time)
 
 # def operand(argument):
 #     permutation = baca.Sequence([1, 3, 5, 4, 2, 0])
