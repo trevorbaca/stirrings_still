@@ -8,6 +8,27 @@ from stirrings_still import library
 ########################################### 08 ##########################################
 #########################################################################################
 
+score = library.make_empty_score()
+voice_names = baca.accumulator.get_voice_names(score)
+
+accumulator = baca.CommandAccumulator(
+    time_signatures=library.time_signatures("H"),
+    _voice_abbreviations=library.voice_abbreviations,
+    _voice_names=voice_names,
+)
+
+first_measure_number = baca.interpret.set_up_score(
+    score,
+    library.manifests,
+    accumulator.time_signatures,
+    accumulator,
+    append_anchor_skip=True,
+    always_make_global_rests=True,
+    attach_nonfirst_empty_start_bar=True,
+)
+
+skips = score["Skips"]
+
 stage_markup = (
     ("[H.1]", 1),
     ("[H.2]", 5),
@@ -31,28 +52,7 @@ stage_markup = (
     ("[G.5.2]", 55, "#darkgreen"),
     ("[H.14.2]", 56),
 )
-
-score = library.make_empty_score()
-voice_names = baca.accumulator.get_voice_names(score)
-
-accumulator = baca.CommandAccumulator(
-    time_signatures=library.time_signatures("H"),
-    _voice_abbreviations=library.voice_abbreviations,
-    _voice_names=voice_names,
-)
-
-first_measure_number = baca.interpret.set_up_score(
-    score,
-    library.manifests,
-    accumulator.time_signatures,
-    accumulator,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-    attach_nonfirst_empty_start_bar=True,
-    stage_markup=stage_markup,
-)
-
-skips = score["Skips"]
+baca.label_stage_numbers(skips, stage_markup)
 
 baca.open_volta_function(skips[30 - 1], first_measure_number)
 baca.close_volta_function(skips[37 - 1], first_measure_number)

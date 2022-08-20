@@ -8,16 +8,6 @@ from stirrings_still import library
 ########################################### 13 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[M.1]", 1),
-    ("[M.2]", 9),
-    ("[M.3]", 13),
-    ("[M.4]", 17),
-    ("[M.5]", 21),
-    ("[M.6]", 25),
-    ("[M.7]", 29),
-)
-
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
@@ -35,8 +25,20 @@ baca.interpret.set_up_score(
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
-    stage_markup=stage_markup,
 )
+
+skips = score["Skips"]
+
+stage_markup = (
+    ("[M.1]", 1),
+    ("[M.2]", 9),
+    ("[M.3]", 13),
+    ("[M.4]", 17),
+    ("[M.5]", 21),
+    ("[M.6]", 25),
+    ("[M.7]", 29),
+)
+baca.label_stage_numbers(skips, stage_markup)
 
 time = (
     ("largo meno mosso", 29),

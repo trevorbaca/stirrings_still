@@ -7,23 +7,6 @@ from stirrings_still import library
 ########################################### 17 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[K.6.1]", 1, "#darkgreen"),
-    ("[Q.1]", 2),
-    ("[Q.2]", 10),
-    ("[Q.3]", 22),
-    ("[Q.4]", 28),
-    ("[Q.5]", 38),
-    ("[Q.6]", 43),
-    ("[Q.7]", 51),
-    ("[Q.8]", 55),
-    ("[Q.9]", 61),
-    ("[Q.10]", 64),
-    ("[Q.11]", 68),
-    ("[Q.12]", 70),
-    ("[Q.13]", 73),
-)
-
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
@@ -41,8 +24,27 @@ baca.interpret.set_up_score(
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
-    stage_markup=stage_markup,
 )
+
+skips = score["Skips"]
+
+stage_markup = (
+    ("[K.6.1]", 1, "#darkgreen"),
+    ("[Q.1]", 2),
+    ("[Q.2]", 10),
+    ("[Q.3]", 22),
+    ("[Q.4]", 28),
+    ("[Q.5]", 38),
+    ("[Q.6]", 43),
+    ("[Q.7]", 51),
+    ("[Q.8]", 55),
+    ("[Q.9]", 61),
+    ("[Q.10]", 64),
+    ("[Q.11]", 68),
+    ("[Q.12]", 70),
+    ("[Q.13]", 73),
+)
+baca.label_stage_numbers(skips, stage_markup)
 
 time = (
     ("andante", 1),

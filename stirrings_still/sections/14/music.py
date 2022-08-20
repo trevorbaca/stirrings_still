@@ -7,19 +7,6 @@ from stirrings_still import library
 ########################################### 14 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[N.1]", 1),
-    ("[N.2]", 7),
-    ("[N.3]", 9),
-    ("[I.6]", 11, "#darkgreen"),
-    ("[N.4]", 13),
-    ("[N.5]", 17),
-    ("[N.6.1-6]", 23),
-    ("[K.6.1]", 29, "#darkgreen"),
-    ("[N.6.7-12]", 30),
-    ("[N.7]", 37),
-)
-
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
@@ -37,10 +24,23 @@ first_measure_number = baca.interpret.set_up_score(
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
-    stage_markup=stage_markup,
 )
 
 skips = score["Skips"]
+
+stage_markup = (
+    ("[N.1]", 1),
+    ("[N.2]", 7),
+    ("[N.3]", 9),
+    ("[I.6]", 11, "#darkgreen"),
+    ("[N.4]", 13),
+    ("[N.5]", 17),
+    ("[N.6.1-6]", 23),
+    ("[K.6.1]", 29, "#darkgreen"),
+    ("[N.6.7-12]", 30),
+    ("[N.7]", 37),
+)
+baca.label_stage_numbers(skips, stage_markup)
 
 baca.markup_function(
     skips[39 - 1],
