@@ -74,7 +74,7 @@ time = (
 library.time(score, time)
 
 
-def V1(voice):
+def V1(voice, accumulator):
     voice = score["Violin.1.Music"]
     music = baca.make_repeat_tied_notes(accumulator.get(1))
     voice.extend(music)
@@ -168,7 +168,7 @@ def V1(voice):
     baca.append_anchor_note_function(voice)
 
 
-def V2(voice):
+def V2(voice, accumulator):
     voice = score["Violin.2.Music"]
     music = baca.make_repeat_tied_notes(accumulator.get(1))
     voice.extend(music)
@@ -262,7 +262,7 @@ def V2(voice):
     baca.append_anchor_note_function(voice)
 
 
-def VA(voice):
+def VA(voice, accumulator):
     voice = score["Viola.Music"]
     music = baca.make_repeat_tied_notes(accumulator.get(1))
     voice.extend(music)
@@ -350,7 +350,7 @@ def VA(voice):
     voice.extend(music)
 
 
-def VC(voice):
+def VC(voice, accumulator):
     voice = score["Cello.Music"]
     music = baca.make_repeat_tied_notes(accumulator.get(1))
     voice.extend(music)
@@ -1784,10 +1784,10 @@ def vc(m):
 
 
 def main():
-    V1(accumulator.voice("v1"))
-    V2(accumulator.voice("v2"))
-    VA(accumulator.voice("va"))
-    VC(accumulator.voice("vc"))
+    V1(accumulator.voice("v1"), accumulator)
+    V2(accumulator.voice("v2"), accumulator)
+    VA(accumulator.voice("va"), accumulator)
+    VC(accumulator.voice("vc"), accumulator)
     previous_persist = baca.previous_persist(__file__)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
