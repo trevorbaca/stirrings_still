@@ -8,120 +8,106 @@ from stirrings_still import library
 ########################################### 05 ##########################################
 #########################################################################################
 
-score = library.make_empty_score()
-voice_names = baca.accumulator.get_voice_names(score)
 
-accumulator = baca.CommandAccumulator(
-    time_signatures=library.time_signatures("E"),
-    _voice_abbreviations=library.voice_abbreviations,
-    _voice_names=voice_names,
-)
+def make_empty_score():
+    score = library.make_empty_score()
+    voice_names = baca.accumulator.get_voice_names(score)
+    accumulator = baca.CommandAccumulator(
+        time_signatures=library.time_signatures("E"),
+        _voice_abbreviations=library.voice_abbreviations,
+        _voice_names=voice_names,
+    )
+    return score, accumulator
 
-first_measure_number = baca.interpret.set_up_score(
-    score,
-    accumulator.time_signatures,
-    accumulator,
-    library.manifests,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-)
 
-skips = score["Skips"]
-
-stage_markup = (
-    ("[E.0]", 1),
-    ("[H.9.1-2]", 4, "#darkgreen"),
-    ("[E.1]", 6),
-    ("[E.2]", 12),
-    ("[E.3]", 20),
-    ("[E.4]", 24),
-    ("[E.5]", 28),
-    ("[E.6.1-2]", 32),
-    ("[A.1]", 34, "#darkgreen"),
-    ("[E.6.3-4]", 35),
-    ("[E.7]", 37),
-    ("[Q.1]", 42, "#darkgreen"),
-    ("[Q.2]", 50, "#darkgreen"),
-    ("[E.8]", 63),
-    ("[E.9]", 71),
-    ("[E.10]", 79),
-    ("[E.11]", 82),
-    ("[E.12.1-2]", 87),
-    ("[Q.1]", 89, "#darkgreen"),
-    ("[Q.2]", 97, "#darkgreen"),
-    ("[E.12.3-4]", 109),
-    ("[E.13]", 112),
-    ("[E.14]", 116),
-    ("[E.15]", 118),
-    ("[E.16]", 120),
-)
-baca.label_stage_numbers(skips, stage_markup)
-
-baca.markup_function(
-    skips[41 - 1],
-    r"\stirrings-still-text-sixteen",
-    abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-)
-
-baca.markup_function(
-    skips[86 - 1],
-    r"\stirrings-still-text-seventeen",
-    abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-)
-
-baca.markup_function(
-    skips[111 - 1],
-    r"\stirrings-still-text-eighteen",
-    abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
-)
-
-baca.open_volta_function(skips[35 - 1], first_measure_number)
-baca.close_volta_function(skips[44 - 1], first_measure_number)
-baca.open_volta_function(skips[105 - 1], first_measure_number)
-baca.close_volta_function(skips[111 - 1], first_measure_number)
-
-time = (
-    ("presto", 1),
-    ("short", 3),
-    ("allegro", 4),
-    ("presto", 6),
-    ("adagio", 20),
-    (baca.Accelerando(), 20),
-    ("allegro", 23),
-    ("allegro", 28),
-    (baca.Accelerando(), 28),
-    ("presto", 32),
-    ("andante", 34),
-    ("presto", 35),
-    ("fermata", 41),
-    ("adagio", 50),
-    (baca.Accelerando(), 50),
-    ("presto", 61),
-    ("fermata", 62),
-    ("largo", 63),
-    (baca.Accelerando(), 63),
-    ("presto", 71),
-    (baca.Ritardando(), 71),
-    ("largo", 79),
-    ("short", 81),
-    ("fermata", 86),
-    ("presto", 89),
-    ("adagio", 97),
-    (baca.Accelerando(), 97),
-    ("presto", 108),
-    ("largo", 109),
-    ("fermata", 111),
-    ("largo", 112),
-    (baca.Accelerando(), 112),
-    ("presto", 115),
-    ("largo", 116),
-)
-
-library.time(score, time)
+def GLOBALS(skips, rests, first_measure_number):
+    stage_markup = (
+        ("[E.0]", 1),
+        ("[H.9.1-2]", 4, "#darkgreen"),
+        ("[E.1]", 6),
+        ("[E.2]", 12),
+        ("[E.3]", 20),
+        ("[E.4]", 24),
+        ("[E.5]", 28),
+        ("[E.6.1-2]", 32),
+        ("[A.1]", 34, "#darkgreen"),
+        ("[E.6.3-4]", 35),
+        ("[E.7]", 37),
+        ("[Q.1]", 42, "#darkgreen"),
+        ("[Q.2]", 50, "#darkgreen"),
+        ("[E.8]", 63),
+        ("[E.9]", 71),
+        ("[E.10]", 79),
+        ("[E.11]", 82),
+        ("[E.12.1-2]", 87),
+        ("[Q.1]", 89, "#darkgreen"),
+        ("[Q.2]", 97, "#darkgreen"),
+        ("[E.12.3-4]", 109),
+        ("[E.13]", 112),
+        ("[E.14]", 116),
+        ("[E.15]", 118),
+        ("[E.16]", 120),
+    )
+    baca.label_stage_numbers(skips, stage_markup)
+    baca.markup_function(
+        skips[41 - 1],
+        r"\stirrings-still-text-sixteen",
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+    )
+    baca.markup_function(
+        skips[86 - 1],
+        r"\stirrings-still-text-seventeen",
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+    )
+    baca.markup_function(
+        skips[111 - 1],
+        r"\stirrings-still-text-eighteen",
+        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+    )
+    baca.open_volta_function(skips[35 - 1], first_measure_number)
+    baca.close_volta_function(skips[44 - 1], first_measure_number)
+    baca.open_volta_function(skips[105 - 1], first_measure_number)
+    baca.close_volta_function(skips[111 - 1], first_measure_number)
+    time = (
+        ("presto", 1),
+        ("short", 3),
+        ("allegro", 4),
+        ("presto", 6),
+        ("adagio", 20),
+        (baca.Accelerando(), 20),
+        ("allegro", 23),
+        ("allegro", 28),
+        (baca.Accelerando(), 28),
+        ("presto", 32),
+        ("andante", 34),
+        ("presto", 35),
+        ("fermata", 41),
+        ("adagio", 50),
+        (baca.Accelerando(), 50),
+        ("presto", 61),
+        ("fermata", 62),
+        ("largo", 63),
+        (baca.Accelerando(), 63),
+        ("presto", 71),
+        (baca.Ritardando(), 71),
+        ("largo", 79),
+        ("short", 81),
+        ("fermata", 86),
+        ("presto", 89),
+        ("adagio", 97),
+        (baca.Accelerando(), 97),
+        ("presto", 108),
+        ("largo", 109),
+        ("fermata", 111),
+        ("largo", 112),
+        (baca.Accelerando(), 112),
+        ("presto", 115),
+        ("largo", 116),
+    )
+    library.time(skips, rests, time)
 
 
 def V1(voice, accumulator):
-    voice = score["Violin.1.Music"]
     music = library.make_continuous_tremolo_material(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3), head=voice.name)
@@ -230,7 +216,6 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    voice = score["Violin.2.Music"]
     music = library.make_continuous_tremolo_material(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3), head=voice.name)
@@ -346,7 +331,6 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    voice = score["Viola.Music"]
     music = library.make_continuous_tremolo_material(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3), head=voice.name)
@@ -450,7 +434,6 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    voice = score["Cello.Music"]
     music = library.make_clouded_pane_rhythm(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3))
@@ -511,7 +494,7 @@ def measure_starts_plus_rest(argument):
     return selection
 
 
-def v1(m):
+def v1(m, accumulator):
     accumulator(
         ("v1", (1, 2)),
         baca.markup(
@@ -730,7 +713,7 @@ def v1(m):
     )
 
 
-def vns_va(cache):
+def vns_va(cache, accumulator):
     accumulator(
         (["v1", "v2", "va"], (1, 2)),
         baca.damp_spanner(
@@ -1003,7 +986,7 @@ def vns_va(cache):
     )
 
 
-def tutti(cache):
+def tutti(cache, accumulator):
     accumulator(
         ["v1", "v2", "va", "vc"],
         baca.dls_staff_padding(6),
@@ -1025,7 +1008,7 @@ def tutti(cache):
     )
 
 
-def v2(m):
+def v2(m, accumulator):
     accumulator(
         ("v2", (1, 2)),
         baca.markup(
@@ -1239,7 +1222,7 @@ def v2(m):
     )
 
 
-def va(m):
+def va(m, accumulator):
     accumulator(
         ("va", (1, 2)),
         baca.markup(
@@ -1388,7 +1371,7 @@ def va(m):
     )
 
 
-def va_vc(cache):
+def va_vc(cache, accumulator):
     accumulator(
         (["va", "vc"], (42, 49)),
         baca.breathe(
@@ -1574,7 +1557,7 @@ def va_vc(cache):
     )
 
 
-def vc(m):
+def vc(m, accumulator):
     accumulator(
         ("vc", [(1, 2), (6, 27)]),
         baca.new(
@@ -1696,7 +1679,19 @@ def vc(m):
     )
 
 
-def make_score():
+def make_score(previous_metadata, previous_persist):
+    score, accumulator = make_empty_score()
+    first_measure_number = baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+        previous_metadata=previous_metadata,
+        previous_persist=previous_persist,
+    )
+    GLOBALS(score["Skips"], score["Rests"], first_measure_number)
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
@@ -1713,17 +1708,20 @@ def make_score():
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    v1(cache["v1"])
-    vns_va(cache)
-    tutti(cache)
-    v2(cache["v2"])
-    va(cache["va"])
-    va_vc(cache)
-    vc(cache["vc"])
+    v1(cache["v1"], accumulator)
+    vns_va(cache, accumulator)
+    tutti(cache, accumulator)
+    v2(cache["v2"], accumulator)
+    va(cache["va"], accumulator)
+    va_vc(cache, accumulator)
+    vc(cache["vc"], accumulator)
+    return score, accumulator
 
 
 def main():
-    make_score()
+    previous_metadata = baca.previous_metadata(__file__)
+    previous_persist = baca.previous_persist(__file__)
+    score, accumulator = make_score(previous_metadata, previous_persist)
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
