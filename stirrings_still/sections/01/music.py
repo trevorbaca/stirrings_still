@@ -1270,7 +1270,7 @@ def vc(m, accumulator):
 
 def make_score():
     score, accumulator = make_empty_score()
-    first_measure_number = baca.interpret.set_up_score(
+    baca.interpret.set_up_score(
         score,
         accumulator.time_signatures,
         accumulator,
@@ -1279,7 +1279,7 @@ def make_score():
         always_make_global_rests=True,
         first_section=True,
     )
-    GLOBALS(score["Skips"], score["Rests"], first_measure_number)
+    GLOBALS(score["Skips"], score["Rests"], 1)
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
@@ -1305,10 +1305,10 @@ def main():
         library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
-        activate=(
+        activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
-        ),
+        ],
         always_make_global_rests=True,
         commands=accumulator.commands,
         error_on_not_yet_pitched=True,

@@ -1257,25 +1257,23 @@ def tutti(cache, accumulator):
     )
 
 
-def make_score(previous_metadata, previous_persist):
+def make_score(first_measure_number, previous_persistent_indicators):
     score, accumulator = make_empty_score()
-    first_measure_number = baca.interpret.set_up_score(
+    baca.interpret.set_up_score(
         score,
         accumulator.time_signatures,
         accumulator,
         library.manifests,
         append_anchor_skip=True,
         always_make_global_rests=True,
-        previous_metadata=previous_metadata,
-        previous_persist=previous_persist,
+        first_measure_number=first_measure_number,
+        previous_persistent_indicators=previous_persistent_indicators,
     )
     GLOBALS(score["Skips"], score["Rests"], first_measure_number)
     V1(accumulator.voice("v1"), accumulator)
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
     VC(accumulator.voice("vc"), accumulator)
-    previous_persist = baca.previous_persist(__file__)
-    previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),
         library.manifests,
@@ -1300,21 +1298,25 @@ def make_score(previous_metadata, previous_persist):
 
 def main():
     previous_metadata = baca.previous_metadata(__file__)
+    first_measure_number = previous_metadata["final_measure_number"] + 1
     previous_persist = baca.previous_persist(__file__)
-    score, accumulator = make_score(previous_metadata, previous_persist)
+    score, accumulator = make_score(
+        first_measure_number, previous_persist["persistent_indicators"]
+    )
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
-        activate=(
+        activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
-        ),
+        ],
         always_make_global_rests=True,
         color_octaves=False,
         commands=accumulator.commands,
         error_on_not_yet_pitched=True,
+        first_measure_number=first_measure_number,
         global_rests_in_topmost_staff=True,
     )
     lilypond_file = baca.lilypond.file(
