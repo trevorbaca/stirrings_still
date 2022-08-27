@@ -533,110 +533,89 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(63), head=voice.name)
     voice.extend(music)
-    accumulator(
-        (["vc", "vcr"], [41, (44, 45)]),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
-    accumulator(
-        (["v1", "v2", "va"], [1, 3, (5, 6), (8, 9)]),
-        baca.new(
-            baca.script_padding(1),
-            baca.stop_on_string(),
-            selector=lambda _: baca.select.pleaf(_, -1),
-        ),
-        library.breathe(
-            lambda _: baca.select.pleaf(_, 1),
-        ),
-    )
 
 
-def v1(m, accumulator):
-    accumulator(
-        "v1",
-        baca.instrument(
-            library.instruments["ViolinI"],
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
-        library.short_instrument_name("Vn. I"),
-        baca.instrument_name(
-            r"\stirrings-still-violin-i-markup",
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        baca.tuplet_bracket_down(),
-    )
-    accumulator(
-        ("v1", [1, 3, (5, 6), (8, 9), (11, 16), 60]),
-        baca.flat_glissando(
-            "<E4 C5>",
-            selector=lambda _: baca.select.pleaves(_)[:2],
-        ),
-        baca.flat_glissando(
-            "<E4 Cqs5>",
-            hide_middle_stems=True,
-            selector=lambda _: baca.select.pleaves(_)[2:],
-        ),
-    )
-    accumulator(
-        ("v1", [18, 20, 22, 25, 29]),
-        baca.flat_glissando(
-            "<C#4 A4>",
-            selector=lambda _: baca.select.pleaves(_)[:2],
-        ),
-        baca.flat_glissando(
-            "<C#4 Aqs4>",
-            hide_middle_stems=True,
-            selector=lambda _: baca.select.pleaves(_)[2:],
-        ),
-    )
-    accumulator(
-        ("v1", [23, 26, (30, 45)]),
-        baca.flat_glissando("B4"),
-    )
-    accumulator(
-        ("v1", 27),
-        baca.markup(
+def v1(cache, accumulator):
+    m = cache["v1"]
+    with baca.scope(m.leaves()) as o:
+        baca.instrument_function(o.leaf(0), "ViolinI", library.manifests)
+        baca.clef_function(o.leaf(0), "treble")
+        baca.staff_lines_function(o.leaf(0), 5)
+        baca.short_instrument_name_function(o.leaf(0), "Vn. I", library.manifests)
+        baca.instrument_name_function(o.leaf(0), r"\stirrings-still-violin-i-markup")
+        baca.tuplet_bracket_down_function(o.leaves())
+    for item in [1, 3, (5, 6), (8, 9), (11, 16), 60]:
+        with baca.scope(m.get(item)) as o:
+            baca.flat_glissando_function(
+                o.pleaves()[:2],
+                "<E4 C5>",
+            )
+            baca.flat_glissando_function(
+                o.pleaves()[2:],
+                "<E4 Cqs5>",
+                hide_middle_stems=True,
+            )
+            cache.rebuild()
+            m = cache["v1"]
+    for n in [18, 20, 22, 25, 29]:
+        with baca.scope(m[n]) as o:
+            baca.flat_glissando_function(
+                o.pleaves()[:2],
+                "<C#4 A4>",
+            )
+            baca.flat_glissando_function(
+                o.pleaves()[2:],
+                "<C#4 Aqs4>",
+                hide_middle_stems=True,
+            )
+            cache.rebuild()
+            m = cache["v1"]
+    for item in [23, 26, (30, 45)]:
+        with baca.scope(m.get(item)) as o:
+            baca.flat_glissando_function(o, "B4")
+    with baca.scope(m[27]) as o:
+        baca.pitch_function(o, "<F4 A4>")
+        cache.rebuild()
+        m = cache["v1"]
+    with baca.scope(m[27]) as o:
+        baca.markup_function(
+            o.pleaf(0),
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.pitch("<F4 A4>"),
-        baca.tasto_spanner(
+        )
+        baca.tasto_spanner_function(
+            o.rleaves(),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        library.urtext_spanner("urtext (double stop G.1) -|", 8),
-    )
-    accumulator(
-        ("v1", [(46, 50), 52, 54, 58]),
-        baca.circle_bow_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            qualifier="tight",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.damp_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.rleak(baca.select.tleaves(_)),
-        ),
-        baca.flat_glissando("C5"),
-        baca.hairpin(
-            "p -- !",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v1", (55, 56)),
-        baca.flat_glissando("Gb4"),
-    )
-    accumulator(
-        ("v1", 62),
-        baca.flat_glissando("C5"),
-    )
+        )
+        library.urtext_spanner_function(
+            o.rleaves(),
+            "urtext (double stop G.1) -|",
+            8,
+        )
+    for item in [(46, 50), 52, 54, 58]:
+        with baca.scope(m.get(item)) as o:
+            baca.circle_bow_spanner_function(
+                baca.select.rleak(o.ltleaves()),
+                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                qualifier="tight",
+            )
+            baca.damp_spanner_function(
+                baca.select.rleak(o.tleaves()),
+                abjad.Tweak(r"- \tweak staff-padding 8"),
+            )
+            baca.flat_glissando_function(o, "C5")
+            baca.hairpin_function(
+                o.rleaves(),
+                "p -- !",
+                abjad.Tweak(r"- \tweak to-barline ##t"),
+            )
+    with baca.scope(m.get(55, 56)) as o:
+        baca.flat_glissando_function(o, "Gb4")
+    with baca.scope(m[62]) as o:
+        baca.flat_glissando_function(o, "C5")
 
 
-def vns_va(cache, accumulator):
+def v1_v2_va(cache, accumulator):
     accumulator(
         (["v1", "v2", "va"], 1),
         baca.dynamic_text_self_alignment_x(
@@ -655,8 +634,23 @@ def vns_va(cache, accumulator):
         ),
     )
     accumulator(
+        (["v1", "v2", "va"], [1, 3, (5, 6), (8, 9)]),
+        baca.new(
+            baca.script_padding(1),
+            baca.stop_on_string(),
+            selector=lambda _: baca.select.pleaf(_, -1),
+        ),
+        library.breathe(
+            selector=lambda _: baca.select.pleaf(_, 1),
+        ),
+    )
+    accumulator(
         (["v1", "v2", "va"], (1, 16)),
-        library.urtext_spanner("urtext (cds) A, B -|", 8),
+        library.urtext_spanner(
+            "urtext (cds) A, B -|",
+            8,
+            selector=lambda _: baca.select.rleaves(_),
+        ),
     )
     accumulator(
         (["v1", "v2", "va"], 3),
@@ -754,7 +748,11 @@ def vns_va(cache, accumulator):
     )
     accumulator(
         (["v1", "v2", "va"], [(18, 22), 25, 29]),
-        library.urtext_spanner("C, D -|", 8),
+        library.urtext_spanner(
+            "C, D -|",
+            8,
+            selector=lambda _: baca.select.rleaves(_),
+        ),
     )
     accumulator(
         (["v1", "v2", "va"], 20),
@@ -881,7 +879,11 @@ def vns_va(cache, accumulator):
         library.breathe(
             selector=lambda _: baca.select.pleaf(_, 1),
         ),
-        library.urtext_spanner("A, B -|", 8),
+        library.urtext_spanner(
+            "A, B -|",
+            8,
+            selector=lambda _: baca.select.rleaves(_),
+        ),
     )
 
 
@@ -920,7 +922,11 @@ def tutti(cache, accumulator):
             pieces=lambda _: baca.select.mgroups(_, [1, 2]),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.urtext_spanner("urtext (rasp) -|", 10.5),
+        library.urtext_spanner(
+            "urtext (rasp) -|",
+            10.5,
+            selector=lambda _: baca.select.rleaves(_),
+        ),
     )
     accumulator(
         (["v1", "v2", "va", "vc"], 62),
@@ -941,7 +947,9 @@ def tutti(cache, accumulator):
     )
 
 
-def v2(m, accumulator):
+def v2(cache, accumulator):
+    m = cache["v2"]
+    print(m)
     accumulator(
         "v2",
         baca.instrument(
@@ -950,7 +958,9 @@ def v2(m, accumulator):
         ),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
-        library.short_instrument_name("Vn. II"),
+        library.short_instrument_name(
+            "Vn. II", selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.instrument_name(
             r"\stirrings-still-violin-ii-markup",
             selector=lambda _: abjad.select.leaf(_, 0),
@@ -997,7 +1007,11 @@ def v2(m, accumulator):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.urtext_spanner("urtext (double stop G.1) -|", 8),
+        library.urtext_spanner(
+            "urtext (double stop G.1) -|",
+            8,
+            selector=lambda _: baca.select.rleaves(_),
+        ),
     )
     accumulator(
         ("v2", [(46, 50), 52, 54, 58]),
@@ -1027,7 +1041,9 @@ def v2(m, accumulator):
     )
 
 
-def va(m, accumulator):
+def va(cache, accumulator):
+    m = cache["va"]
+    print(m)
     accumulator(
         "va",
         baca.instrument(
@@ -1035,7 +1051,9 @@ def va(m, accumulator):
         ),
         baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
-        library.short_instrument_name("Va."),
+        library.short_instrument_name(
+            "Va.", selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.instrument_name(
             r"\stirrings-still-viola-markup",
             selector=lambda _: abjad.select.leaf(_, 0),
@@ -1082,7 +1100,9 @@ def va(m, accumulator):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.clouded_pane_spanner("clouded (partial G.1) -|", 8),
+        library.clouded_pane_spanner(
+            "clouded (partial G.1) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         ("va", [(46, 50), 52, 54, 58]),
@@ -1112,7 +1132,9 @@ def va(m, accumulator):
     )
 
 
-def vc(m, accumulator):
+def vc(cache, accumulator):
+    m = cache["vc"]
+    print(m)
     accumulator(
         ("vc", (1, 11)),
         baca.instrument(
@@ -1120,7 +1142,9 @@ def vc(m, accumulator):
         ),
         baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
-        library.short_instrument_name("Vc."),
+        library.short_instrument_name(
+            "Vc.", selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.instrument_name(
             r"\stirrings-still-cello-markup", selector=lambda _: abjad.select.leaf(_, 0)
         ),
@@ -1146,7 +1170,11 @@ def vc(m, accumulator):
             left_broken_text=r"\baca-left-broken-t-markup",
             selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
-        library.urtext_spanner("urtext (field) -|", 8),
+        library.urtext_spanner(
+            "urtext (field) -|",
+            8,
+            selector=lambda _: baca.select.rleaves(_),
+        ),
     )
     accumulator(
         ("vc", 27),
@@ -1159,6 +1187,7 @@ def vc(m, accumulator):
         library.clouded_pane_spanner(
             "clouded pane (pane / urtext) -|",
             5.5,
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -1177,7 +1206,11 @@ def vc(m, accumulator):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.urtext_spanner("urtext (field) -|", 8),
+        library.urtext_spanner(
+            "urtext (field) -|",
+            8,
+            selector=lambda _: baca.select.rleaves(_),
+        ),
     )
     accumulator(
         ("vc", (42, 43)),
@@ -1203,6 +1236,10 @@ def vc(m, accumulator):
         library.cello_cell_bcps(
             staff_padding=4.5,
         ),
+    )
+    accumulator(
+        (["vc", "vcr"], [41, (44, 45)]),
+        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
     )
     accumulator(
         ("vc", 46),
@@ -1289,12 +1326,12 @@ def make_score():
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    v1(cache["v1"], accumulator)
-    vns_va(cache, accumulator)
+    v1(cache, accumulator)
+    v1_v2_va(cache, accumulator)
     tutti(cache, accumulator)
-    v2(cache["v2"], accumulator)
-    va(cache["va"], accumulator)
-    vc(cache["vc"], accumulator)
+    v2(cache, accumulator)
+    va(cache, accumulator)
+    vc(cache, accumulator)
     return score, accumulator
 
 

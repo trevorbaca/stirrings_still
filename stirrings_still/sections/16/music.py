@@ -352,7 +352,9 @@ def tutti(cache, accumulator):
             -0.75,
             selector=lambda _: baca.select.leaves(_),
         ),
-        library.clouded_pane_spanner("clouded pane -|", 10.5),
+        library.clouded_pane_spanner(
+            "clouded pane -|", 10.5, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v2", "va", "vc"], (21, 25)),

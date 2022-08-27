@@ -337,7 +337,9 @@ def v1(m, accumulator):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.urtext_spanner("urtext (double stop) -|", 8),
+        library.urtext_spanner(
+            "urtext (double stop) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
 
 
@@ -384,7 +386,9 @@ def vns_va(cache, accumulator):
             ),
             match=2,
         ),
-        library.urtext_spanner("urtext (ds field) -|", 8),
+        library.urtext_spanner(
+            "urtext (ds field) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
 
 
@@ -441,7 +445,9 @@ def tutti(cache, accumulator):
             selector=lambda _: baca.select.pleaves(_),
         ),
         baca.tuplet_bracket_down(),
-        library.urtext_spanner("urtext (ds) -|", 8),
+        library.urtext_spanner(
+            "urtext (ds) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v2", "va", "vc"], (19, 24)),
@@ -480,7 +486,9 @@ def vns_vc(cache, accumulator):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 selector=lambda _: baca.select.rleaves(_),
             ),
-            library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
+            library.clouded_pane_spanner(
+                "clouded pane (beacon) -|", 8, selector=lambda _: baca.select.rleaves(_)
+            ),
             match=0,
         ),
         baca.new(
@@ -494,13 +502,19 @@ def vns_vc(cache, accumulator):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 selector=lambda _: baca.select.rleaves(_),
             ),
-            library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
+            library.clouded_pane_spanner(
+                "clouded pane (beacon) -|", 8, selector=lambda _: baca.select.rleaves(_)
+            ),
             match=1,
         ),
         baca.new(
             baca.flat_glissando("E2"),
             baca.tuplet_bracket_down(),
-            library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
+            library.clouded_pane_spanner(
+                "clouded pane (beacon) -|",
+                5.5,
+                selector=lambda _: baca.select.rleaves(_),
+            ),
             match=2,
         ),
     )
@@ -523,7 +537,9 @@ def v2(m, accumulator):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.urtext_spanner("urtext (double stop) -|", 8),
+        library.urtext_spanner(
+            "urtext (double stop) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         ("v2", (12, 13)),
@@ -564,7 +580,9 @@ def va(m, accumulator):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.clouded_pane_spanner("clouded pane (partial) -|", 8),
+        library.clouded_pane_spanner(
+            "clouded pane (partial) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         ("va", 19),
@@ -579,6 +597,7 @@ def vc(m, accumulator):
         library.clouded_pane_spanner(
             "clouded pane (pane / urtext) -|",
             5.5,
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
