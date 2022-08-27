@@ -861,67 +861,47 @@ def v1(cache):
         )
 
 
-def vns_va(cache, accumulator):
-    accumulator(
-        (["v1r", "v2r", "var"], 8),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
-    accumulator(
-        (["v1", "v2", "va"], (9, 11)),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
-    accumulator(
-        (["v1", "v2", "va"], 26),
-        baca.dynamic_text_self_alignment_x(
-            -1,
-            selector=lambda _: abjad.select.leaf(_, 2),
-        ),
-        baca.hairpin(
-            "p <| mp p < mp",
-            pieces=lambda _: baca.select.clparts(_, [1]),
-        ),
-        baca.new(
-            library.breathe(
-                selector=lambda _: baca.select.pleaf(_, 1),
-            ),
-            library.urtext_spanner(
-                "A, B -|", 8, selector=lambda _: baca.select.rleaves(_)
-            ),
-            match=0,
-        ),
-        baca.new(
-            library.breathe(
-                selector=lambda _: baca.select.pleaf(_, 1),
-            ),
-            library.urtext_spanner(
-                "A, B -|", 10.5, selector=lambda _: baca.select.rleaves(_)
-            ),
-            match=[1, 2],
-        ),
-        baca.stop_on_string(
-            selector=lambda _: baca.select.pleaf(_, -1),
-        ),
-    )
-    accumulator(
-        (["v1r", "v2r", "var"], 45),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
-    accumulator(
-        (["v1", "v2", "va"], 48),
-        baca.hairpin(
-            "p -- !",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.tasto_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.stem_tremolo(),
-        library.urtext_spanner(
-            "urtext (cds) -|", 8, selector=lambda _: baca.select.rleaves(_)
-        ),
-    )
+def v1_v2_va(cache, accumulator):
+    for name in ["v1r", "v2r", "var"]:
+        m = cache[name]
+        with baca.scope(m[8]) as o:
+            baca.tacet_function(o.mmrests())
+    for name in ["v1", "v2", "va"]:
+        m = cache[name]
+        with baca.scope(m.get(9, 11)) as o:
+            baca.tacet_function(o.mmrests())
+        with baca.scope(m[26]) as o:
+            baca.dynamic_text_self_alignment_x_function(o.leaf(2), -1)
+            baca.hairpin_function(
+                o,
+                "p <| mp p < mp",
+                pieces=lambda _: baca.select.clparts(_, [1]),
+            )
+            if name == "v1":
+                library.breathe_function(o.pleaf(1))
+                library.urtext_spanner_function(o.rleaves(), "A, B -|", 8)
+            if name in ("v2", "va"):
+                library.breathe_function(o.pleaf(1))
+                library.urtext_spanner_function(o.rleaves(), "A, B -|", 10.5)
+            baca.stop_on_string_function(o.pleaf(-1))
+    for name in ["v1r", "v2r", "var"]:
+        m = cache[name]
+        with baca.scope(m[45]) as o:
+            baca.tacet_function(o.mmrests())
+    for name in ["v1", "v2", "va"]:
+        m = cache[name]
+        with baca.scope(m[48]) as o:
+            baca.hairpin_function(
+                o.rleaves(),
+                "p -- !",
+                abjad.Tweak(r"- \tweak to-barline ##t"),
+            )
+            baca.tasto_spanner_function(
+                o.rleaves(),
+                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            )
+            baca.stem_tremolo_function(o)
+            library.urtext_spanner_function(o.rleaves(), "urtext (cds) -|", 8)
     accumulator(
         (["v1", "v2", "va"], 64),
         baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
@@ -2092,7 +2072,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
         library.voice_abbreviations,
     )
     v1(cache)
-    vns_va(cache, accumulator)
+    v1_v2_va(cache, accumulator)
     tutti(cache, accumulator)
     v2(cache["v2"], accumulator)
     va(cache["va"], accumulator)

@@ -1152,7 +1152,6 @@ def make_score():
 def main():
     score, accumulator = make_score()
     defaults = baca.interpret.section_defaults()
-    defaults["check_persistent_indicators"] = False
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
@@ -1163,7 +1162,6 @@ def main():
             baca.tags.STAGE_NUMBER,
         ],
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[10, 19, 24, 28, 61, 63],
         global_rests_in_topmost_staff=True,
