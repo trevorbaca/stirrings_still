@@ -291,6 +291,45 @@ def bcps(
     return result_
 
 
+def bcps_function(
+    argument,
+    rotation,
+    *,
+    clt=False,
+    staff_padding=None,
+):
+    assert staff_padding is not None, repr(staff_padding)
+    bcps = [
+        [(0, 7), (4, 7), (5, 7), (6, 7), (7, 7), (6, 7)],
+        [(7, 7), (0, 7), (7, 7), (0, 7), (7, 7)],
+        [(0, 7), (4, 7), (5, 7), (6, 7), (7, 7), (6, 7), (7, 7)],
+        [(0, 4), (1, 4), (2, 4), (1, 4)],
+    ]
+    bcps = abjad.sequence.flatten(bcps, depth=1)
+    bcps = abjad.sequence.rotate(bcps, n=rotation)
+    if clt:
+        bcps = abjad.sequence.replace(bcps, (0, 7), (1, 7))
+        bcps = abjad.sequence.replace(bcps, (0, 4), (1, 4))
+    bcps_, previous_bcp = [], None
+    for bcp in bcps:
+        if bcp != previous_bcp:
+            bcps_.append(bcp)
+        previous_bcp = bcp
+
+    wrappers = baca.bcps_function(
+        argument,
+        bcps_,
+        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
+        bow_change_tweaks=(
+            abjad.Tweak(r"- \tweak self-alignment-X #left"),
+            abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
+        ),
+    )
+    tag = baca.tags.function_name(inspect.currentframe())
+    baca.tags.wrappers(wrappers, tag)
+    return wrappers
+
+
 def breathe(*, selector=lambda _: baca.select.pleaf(_, -1)):
     """
     Makes breathe command with (-0.25, 2) extra offset.
@@ -2186,6 +2225,106 @@ def multistage_leaf_glissando(
             commands_.append(item_)
         commands = commands_
     return baca.chunk(*commands)
+
+
+def multistage_leaf_glissando_function(
+    argument,
+    pairs,
+    final_pitch,
+    *,
+    rleak_final_stage=False,
+    use_pleaves_lleak=False,
+):
+    assert isinstance(pairs, list), repr(pairs)
+    assert all(isinstance(_, tuple) for _ in pairs), repr(pairs)
+
+    if use_pleaves_lleak is True:
+
+        def selector(argument):
+            result = baca.select.pleaves(argument)
+            result = baca.select.lleak(result)
+            return result
+
+        def _rleaked_selector(argument):
+            result = baca.select.pleaves(argument)
+            result = baca.select.lleak(argument)
+            result = baca.select.rleak(argument)
+            return result
+
+        def _make_start_stop_selector(argument, start, stop):
+            result = baca.select.pleaves(argument)
+            result = baca.select.lleak(result)
+            result = result[start:stop]
+            return result
+
+    else:
+
+        def selector(argument):
+            return baca.select.pleaves(argument)
+
+        def _rleaked_selector(argument):
+            result = baca.select.pleaves(argument)
+            result = baca.select.rleak(argument)
+            return result
+
+        def _make_start_stop_selector(argument, start, stop):
+            result = baca.select.pleaves(argument)
+            result = result[start:stop]
+            return result
+
+    if rleak_final_stage:
+        baca.untie_function(_rleaked_selector(argument))
+    else:
+        baca.untie_function(selector(argument))
+    start, stop = 0, None
+    for pair_1, pair_2 in abjad.sequence.nwise(pairs):
+        start_pitch, leaf_count = pair_1
+        stop_pitch = pair_2[0]
+        assert isinstance(start_pitch, str), repr(start_pitch)
+        assert isinstance(stop_pitch, str), repr(stop_pitch)
+        assert isinstance(leaf_count, int), repr(leaf_count)
+        stop = start + leaf_count
+        baca.glissando_function(
+            _make_start_stop_selector(argument, start, stop),
+            allow_repeats=True,
+            hide_middle_note_heads=True,
+        )
+        baca.interpolate_pitches_function(
+            _make_start_stop_selector(argument, start, stop),
+            start_pitch,
+            stop_pitch,
+        )
+        start = stop - 1
+    pair = pairs[-1]
+    start_pitch, leaf_count = pair
+    assert isinstance(start_pitch, str), repr(start_pitch)
+    assert isinstance(leaf_count, (int, type(None))), repr(leaf_count)
+    stop = None
+    if leaf_count is not None:
+        stop = start + leaf_count
+
+    if rleak_final_stage:
+
+        def _final_selector(argument):
+            result = baca.select.rleaves(argument)
+            result = result[start:stop]
+            return result
+
+    else:
+
+        def _final_selector(argument):
+            return baca.select.leaves(argument)[start:stop]
+
+    baca.glissando_function(
+        _final_selector(argument),
+        allow_repeats=True,
+        hide_middle_note_heads=True,
+    )
+    baca.interpolate_pitches_function(
+        _final_selector(argument),
+        start_pitch,
+        final_pitch,
+    )
 
 
 def ntlt_flat_glissandi():
