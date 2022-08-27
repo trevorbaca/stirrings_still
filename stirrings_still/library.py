@@ -305,6 +305,19 @@ def breathe(*, selector=lambda _: baca.select.pleaf(_, -1)):
     return result
 
 
+def breathe_function(argument):
+    """
+    Makes breathe command with (-0.25, 2) extra offset.
+    """
+    wrappers = baca.breathe_function(
+        argument,
+        abjad.Tweak(r"\tweak extra-offset #'(-0.25 . 2)"),
+    )
+    tag = baca.tags.function_name(inspect.currentframe())
+    baca.tags.wrappers(wrappers, tag)
+    return wrappers
+
+
 def cello_cell_bcps(*, staff_padding=None):
     assert staff_padding is not None, repr(staff_padding)
     bcps = [(4, 7), (7, 7), (1, 7), (5, 7)]
@@ -320,6 +333,23 @@ def cello_cell_bcps(*, staff_padding=None):
     result = baca.tag(tag, command)
     assert isinstance(result, baca.BCPCommand)
     return result
+
+
+def cello_cell_bcps_function(argument, *, staff_padding=None):
+    assert staff_padding is not None, repr(staff_padding)
+    bcps = [(4, 7), (7, 7), (1, 7), (5, 7)]
+    wrappers = baca.bcps_function(
+        argument,
+        bcps,
+        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
+        bow_change_tweaks=(
+            abjad.Tweak(r"- \tweak self-alignment-X #left"),
+            abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
+        ),
+    )
+    tag = baca.tags.function_name(inspect.currentframe())
+    baca.tags.wrappers(wrappers, tag)
+    return wrappers
 
 
 def circle_spanner(
@@ -360,6 +390,21 @@ def clouded_pane_spanner(
     result = baca.tag(tag, command)
     assert isinstance(result, baca.PiecewiseCommand)
     return result
+
+
+def clouded_pane_spanner_function(
+    argument,
+    string,
+    staff_padding,
+):
+    wrappers = baca.material_annotation_spanner_function(
+        argument,
+        string,
+        abjad.Tweak(r"- \tweak color #red"),
+        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
+    )
+    baca.tags.wrappers(wrappers, abjad.Tag("MATERIAL:CLOUDED_PANE"))
+    return wrappers
 
 
 def stage_to_time_signatures():
