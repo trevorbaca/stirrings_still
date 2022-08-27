@@ -1006,17 +1006,11 @@ number.12.Violin.1.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \baca-effort-f
-          %! baca.bcps()
-          %! baca.bcps(5)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(5)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(5)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(5)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(5)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(5)
         - \upbow
         % MARKUP:
           %! REAPPLIED_INSTRUMENT_ALERT
@@ -1072,21 +1066,13 @@ number.12.Violin.1.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \>
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
           %! abjad.glissando(7)
           %! baca.glissando()
@@ -1126,39 +1112,23 @@ number.12.Violin.1.Music = {
         f'''4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1167,39 +1137,23 @@ number.12.Violin.1.Music = {
         f'''4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -1235,39 +1189,23 @@ number.12.Violin.1.Music = {
         e'''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1276,29 +1214,19 @@ number.12.Violin.1.Music = {
         d'''8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #4 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1307,26 +1235,16 @@ number.12.Violin.1.Music = {
         d'''4
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #5 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1335,26 +1253,16 @@ number.12.Violin.1.Music = {
         c'''4.
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1363,43 +1271,25 @@ number.12.Violin.1.Music = {
         c'''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-right-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -1445,9 +1335,7 @@ number.12.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(1)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(1)
     \bacaStopTextSpanBCP
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP
@@ -1507,17 +1395,11 @@ number.12.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \p
-      %! baca.bcps()
-      %! baca.bcps(5)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(5)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(5)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(5)
     - \tweak staff-padding 9.5
-      %! baca.bcps()
-      %! baca.bcps(5)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(5)
     - \upbow
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -1569,21 +1451,13 @@ number.12.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \<
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
       %! abjad.glissando(7)
       %! baca.glissando()
@@ -1609,39 +1483,23 @@ number.12.Violin.1.Music = {
     c'''4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak staff-padding 9.5
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \downbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #1 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1650,29 +1508,19 @@ number.12.Violin.1.Music = {
     d'''8
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % START_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
     [
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #4 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1681,29 +1529,19 @@ number.12.Violin.1.Music = {
     e'''8
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #5 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1712,26 +1550,16 @@ number.12.Violin.1.Music = {
     e'''4
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #6 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1740,39 +1568,23 @@ number.12.Violin.1.Music = {
     f'''4
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 9.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1863,39 +1675,23 @@ number.12.Violin.1.Music = {
         g'''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1904,39 +1700,23 @@ number.12.Violin.1.Music = {
         f'''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1945,42 +1725,26 @@ number.12.Violin.1.Music = {
         f'''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1989,39 +1753,23 @@ number.12.Violin.1.Music = {
         e'''4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #2 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2030,26 +1778,16 @@ number.12.Violin.1.Music = {
         e'''4.
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2058,42 +1796,26 @@ number.12.Violin.1.Music = {
         e'''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % START_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         [
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2102,29 +1824,19 @@ number.12.Violin.1.Music = {
         d'''8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #4 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -2156,26 +1868,16 @@ number.12.Violin.1.Music = {
         d'''4.
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #5 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2184,29 +1886,19 @@ number.12.Violin.1.Music = {
         c'''8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % START_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         [
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2215,39 +1907,23 @@ number.12.Violin.1.Music = {
         c'''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2256,46 +1932,28 @@ number.12.Violin.1.Music = {
         b''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-right-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -2341,9 +1999,7 @@ number.12.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(1)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(1)
     \bacaStopTextSpanBCP
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP
@@ -2403,17 +2059,11 @@ number.12.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \p
-      %! baca.bcps()
-      %! baca.bcps(6)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(6)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(6)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(6)
     - \tweak staff-padding 9.5
-      %! baca.bcps()
-      %! baca.bcps(6)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(6)
     - \downbow
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -2465,21 +2115,13 @@ number.12.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \<
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #4 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
       %! abjad.glissando(7)
       %! baca.glissando()
@@ -2505,26 +2147,16 @@ number.12.Violin.1.Music = {
     c'''8
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #5 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2533,26 +2165,16 @@ number.12.Violin.1.Music = {
     e'''4
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #6 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2561,39 +2183,23 @@ number.12.Violin.1.Music = {
     f'''4
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 9.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2684,39 +2290,23 @@ number.12.Violin.1.Music = {
         g'''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2725,42 +2315,26 @@ number.12.Violin.1.Music = {
         f'''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2769,39 +2343,23 @@ number.12.Violin.1.Music = {
         f'''4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2810,39 +2368,23 @@ number.12.Violin.1.Music = {
         e'''4.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #2 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2851,26 +2393,16 @@ number.12.Violin.1.Music = {
         e'''8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -2897,42 +2429,26 @@ number.12.Violin.1.Music = {
         e'''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % START_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         [
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2941,29 +2457,19 @@ number.12.Violin.1.Music = {
         d'''8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #4 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2972,26 +2478,16 @@ number.12.Violin.1.Music = {
         d'''4
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #5 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3000,26 +2496,16 @@ number.12.Violin.1.Music = {
         d'''4.
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3028,39 +2514,23 @@ number.12.Violin.1.Music = {
         c'''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3069,39 +2539,23 @@ number.12.Violin.1.Music = {
         c'''4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3110,43 +2564,25 @@ number.12.Violin.1.Music = {
         b''4.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-right-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -3192,9 +2628,7 @@ number.12.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(1)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(1)
     \bacaStopTextSpanBCP
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP
@@ -3254,17 +2688,11 @@ number.12.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \p
-      %! baca.bcps()
-      %! baca.bcps(6)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(6)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(6)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(6)
     - \tweak staff-padding 9.5
-      %! baca.bcps()
-      %! baca.bcps(6)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(6)
     - \downbow
     % START_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
@@ -3319,21 +2747,13 @@ number.12.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \<
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #6 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
       %! abjad.glissando(7)
       %! baca.glissando()
@@ -3359,39 +2779,23 @@ number.12.Violin.1.Music = {
     c'''8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 9.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3400,42 +2804,26 @@ number.12.Violin.1.Music = {
     d'''8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak staff-padding 9.5
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \downbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #6 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3444,39 +2832,23 @@ number.12.Violin.1.Music = {
     e'''4
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 9.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3485,39 +2857,23 @@ number.12.Violin.1.Music = {
     f'''4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak staff-padding 9.5
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \downbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #1 #4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3566,22 +2922,14 @@ number.12.Violin.1.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \baca-effort-fff
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3610,21 +2958,13 @@ number.12.Violin.1.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \>
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #2 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
           %! abjad.glissando(7)
           %! baca.glissando()
@@ -3650,26 +2990,16 @@ number.12.Violin.1.Music = {
         f'''4
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3678,39 +3008,23 @@ number.12.Violin.1.Music = {
         f'''4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -3746,26 +3060,16 @@ number.12.Violin.1.Music = {
         e'''8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #4 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3774,29 +3078,19 @@ number.12.Violin.1.Music = {
         d'''8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #5 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3805,26 +3099,16 @@ number.12.Violin.1.Music = {
         d'''4
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3833,39 +3117,23 @@ number.12.Violin.1.Music = {
         c'''4.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3874,43 +3142,25 @@ number.12.Violin.1.Music = {
         c'''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 9.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-right-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -3941,9 +3191,7 @@ number.12.Violin.1.Music = {
     bqf''!1
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(1)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(1)
     \bacaStopTextSpanBCP
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP
@@ -4178,17 +3426,11 @@ number.12.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \baca-effort-f
-      %! baca.bcps()
-      %! baca.bcps(6)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(6)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(6)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(6)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(6)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(6)
     - \downbow
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -4244,21 +3486,13 @@ number.12.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #1 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
       %! abjad.glissando(7)
       %! baca.glissando()
@@ -4298,39 +3532,23 @@ number.12.Violin.2.Music = {
     a''4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4339,39 +3557,23 @@ number.12.Violin.2.Music = {
     g''8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \downbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #1 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4392,39 +3594,23 @@ number.12.Violin.2.Music = {
         g''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 6.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4433,39 +3619,23 @@ number.12.Violin.2.Music = {
         f''4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 6.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4474,26 +3644,16 @@ number.12.Violin.2.Music = {
         f''4.
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #4 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4502,30 +3662,18 @@ number.12.Violin.2.Music = {
         e''8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #5 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-right-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -4571,9 +3719,7 @@ number.12.Violin.2.Music = {
       %! baca.hairpin()
     \p
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(1)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(1)
     \bacaStopTextSpanBCP
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP
@@ -4643,17 +3789,11 @@ number.12.Violin.2.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \p
-          %! baca.bcps()
-          %! baca.bcps(6)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(6)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(6)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(6)
         - \tweak staff-padding 6.5
-          %! baca.bcps()
-          %! baca.bcps(6)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(6)
         - \downbow
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -4705,21 +3845,13 @@ number.12.Violin.2.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \<
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
           %! abjad.glissando(7)
           %! baca.glissando()
@@ -4745,39 +3877,23 @@ number.12.Violin.2.Music = {
         f''4.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 6.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4786,42 +3902,26 @@ number.12.Violin.2.Music = {
         f''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 6.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % START_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         [
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4830,29 +3930,19 @@ number.12.Violin.2.Music = {
         f''8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #4 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4861,26 +3951,16 @@ number.12.Violin.2.Music = {
         g''4
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #5 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4889,26 +3969,16 @@ number.12.Violin.2.Music = {
         a''4.
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -4953,22 +4023,14 @@ number.12.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \baca-effort-ff
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % START_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
@@ -4988,21 +4050,13 @@ number.12.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
       %! abjad.glissando(7)
       %! baca.glissando()
@@ -5028,39 +4082,23 @@ number.12.Violin.2.Music = {
     a''8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \downbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #6 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5069,42 +4107,26 @@ number.12.Violin.2.Music = {
     a''8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5113,39 +4135,23 @@ number.12.Violin.2.Music = {
     g''4
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \downbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #1 #4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5154,39 +4160,23 @@ number.12.Violin.2.Music = {
     g''4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #2 #4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5195,26 +4185,16 @@ number.12.Violin.2.Music = {
     g''8
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #1 #4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5223,39 +4203,23 @@ number.12.Violin.2.Music = {
     f''4
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \downbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #1 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5264,26 +4228,16 @@ number.12.Violin.2.Music = {
     f''8
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #4 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5309,29 +4263,19 @@ number.12.Violin.2.Music = {
         f''8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % START_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         [
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #5 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5340,26 +4284,16 @@ number.12.Violin.2.Music = {
         f''8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5368,46 +4302,28 @@ number.12.Violin.2.Music = {
         e''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 6.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-right-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -5453,9 +4369,7 @@ number.12.Violin.2.Music = {
       %! baca.hairpin()
     \p
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(1)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(1)
     \bacaStopTextSpanBCP
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP
@@ -5525,17 +4439,11 @@ number.12.Violin.2.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \p
-          %! baca.bcps()
-          %! baca.bcps(6)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(6)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(6)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(6)
         - \tweak staff-padding 6.5
-          %! baca.bcps()
-          %! baca.bcps(6)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(6)
         - \downbow
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -5587,21 +4495,13 @@ number.12.Violin.2.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \<
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
           %! abjad.glissando(7)
           %! baca.glissando()
@@ -5627,26 +4527,16 @@ number.12.Violin.2.Music = {
         f''8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #4 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5655,26 +4545,16 @@ number.12.Violin.2.Music = {
         f''4
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #5 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5683,26 +4563,16 @@ number.12.Violin.2.Music = {
         g''4.
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -5747,22 +4617,14 @@ number.12.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \baca-effort-fff
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % START_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
@@ -5782,21 +4644,13 @@ number.12.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
       %! abjad.glissando(7)
       %! baca.glissando()
@@ -5822,42 +4676,26 @@ number.12.Violin.2.Music = {
     a''8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \downbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #6 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5866,39 +4704,23 @@ number.12.Violin.2.Music = {
     a''4
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5907,39 +4729,23 @@ number.12.Violin.2.Music = {
     g''4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \downbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #1 #4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5948,42 +4754,26 @@ number.12.Violin.2.Music = {
     g''8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % START_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
     [
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #2 #4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5992,26 +4782,16 @@ number.12.Violin.2.Music = {
     g''8
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #1 #4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6020,42 +4800,26 @@ number.12.Violin.2.Music = {
     f''8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \downbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #1 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6076,26 +4840,16 @@ number.12.Violin.2.Music = {
         f''4
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #4 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6104,26 +4858,16 @@ number.12.Violin.2.Music = {
         f''4.
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #5 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6132,26 +4876,16 @@ number.12.Violin.2.Music = {
         f''8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6160,39 +4894,23 @@ number.12.Violin.2.Music = {
         f''4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 6.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6201,43 +4919,25 @@ number.12.Violin.2.Music = {
         e''4.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 6.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-right-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -6283,9 +4983,7 @@ number.12.Violin.2.Music = {
       %! baca.hairpin()
     \p
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(1)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(1)
     \bacaStopTextSpanBCP
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP
@@ -6355,17 +5053,11 @@ number.12.Violin.2.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \p
-          %! baca.bcps()
-          %! baca.bcps(6)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(6)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(6)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(6)
         - \tweak staff-padding 6.5
-          %! baca.bcps()
-          %! baca.bcps(6)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(6)
         - \downbow
         % START_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
@@ -6420,21 +5112,13 @@ number.12.Violin.2.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \<
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #5 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
           %! abjad.glissando(7)
           %! baca.glissando()
@@ -6460,26 +5144,16 @@ number.12.Violin.2.Music = {
         f''8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6488,42 +5162,26 @@ number.12.Violin.2.Music = {
         f''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 6.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6532,39 +5190,23 @@ number.12.Violin.2.Music = {
         f''4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 6.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6573,39 +5215,23 @@ number.12.Violin.2.Music = {
         g''4.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 6.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6614,39 +5240,23 @@ number.12.Violin.2.Music = {
         a''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 6.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -6691,22 +5301,14 @@ number.12.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \baca-effort-fff
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -6735,21 +5337,13 @@ number.12.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #2 #4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
       %! abjad.glissando(7)
       %! baca.glissando()
@@ -6775,26 +5369,16 @@ number.12.Violin.2.Music = {
     a''4.
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #1 #4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6803,39 +5387,23 @@ number.12.Violin.2.Music = {
     g''8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak staff-padding 6.5
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \downbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 4
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #1 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6856,26 +5424,16 @@ number.12.Violin.2.Music = {
         g''8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #4 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6884,26 +5442,16 @@ number.12.Violin.2.Music = {
         f''4
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #5 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6912,26 +5460,16 @@ number.12.Violin.2.Music = {
         f''4.
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6940,43 +5478,25 @@ number.12.Violin.2.Music = {
         e''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 6.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-right-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -7007,9 +5527,7 @@ number.12.Violin.2.Music = {
     ef''!1
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(1)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(1)
     \bacaStopTextSpanBCP
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP
@@ -7248,17 +5766,11 @@ number.12.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \baca-effort-f
-          %! baca.bcps()
-          %! baca.bcps(5)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(5)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(5)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(5)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(5)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(5)
         - \upbow
         % MARKUP:
           %! REAPPLIED_INSTRUMENT_ALERT
@@ -7314,21 +5826,13 @@ number.12.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \>
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
           %! abjad.glissando(7)
           %! baca.glissando()
@@ -7368,42 +5872,26 @@ number.12.Viola.Music = {
         d8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % START_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         [
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7412,42 +5900,26 @@ number.12.Viola.Music = {
         d8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7456,39 +5928,23 @@ number.12.Viola.Music = {
         e4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -7505,39 +5961,23 @@ number.12.Viola.Music = {
     e4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 5.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7546,42 +5986,26 @@ number.12.Viola.Music = {
     e8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak staff-padding 5.5
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \downbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % START_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
     [
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #1 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7590,26 +6014,16 @@ number.12.Viola.Music = {
     e8
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #4 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7618,29 +6032,19 @@ number.12.Viola.Music = {
     f8
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #5 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7649,30 +6053,18 @@ number.12.Viola.Music = {
     f4
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #6 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-right-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7712,9 +6104,7 @@ number.12.Viola.Music = {
       %! baca.hairpin()
     \p
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(1)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(1)
     \bacaStopTextSpanBCP
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP
@@ -7784,17 +6174,11 @@ number.12.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \p
-          %! baca.bcps()
-          %! baca.bcps(5)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(5)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(5)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(5)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(5)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(5)
         - \upbow
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -7846,21 +6230,13 @@ number.12.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \<
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
           %! abjad.glissando(7)
           %! baca.glissando()
@@ -7886,42 +6262,26 @@ number.12.Viola.Music = {
         f8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % START_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         [
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7930,42 +6290,26 @@ number.12.Viola.Music = {
         e8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7974,39 +6318,23 @@ number.12.Viola.Music = {
         e4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8015,26 +6343,16 @@ number.12.Viola.Music = {
         e4.
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #4 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8043,29 +6361,19 @@ number.12.Viola.Music = {
         e8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % START_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         [
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #5 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8074,29 +6382,19 @@ number.12.Viola.Music = {
         d8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -8151,22 +6449,14 @@ number.12.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \baca-effort-ff
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -8183,21 +6473,13 @@ number.12.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \>
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
           %! abjad.glissando(7)
           %! baca.glissando()
@@ -8223,39 +6505,23 @@ number.12.Viola.Music = {
         d4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8264,39 +6530,23 @@ number.12.Viola.Music = {
         d4.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8305,39 +6555,23 @@ number.12.Viola.Music = {
         e8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8346,39 +6580,23 @@ number.12.Viola.Music = {
         e4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #2 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8387,26 +6605,16 @@ number.12.Viola.Music = {
         e4.
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8415,39 +6623,23 @@ number.12.Viola.Music = {
         e8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -8464,26 +6656,16 @@ number.12.Viola.Music = {
     e8
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #4 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8492,26 +6674,16 @@ number.12.Viola.Music = {
     f4
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #5 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8520,30 +6692,18 @@ number.12.Viola.Music = {
     f4.
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #6 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-right-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8583,9 +6743,7 @@ number.12.Viola.Music = {
       %! baca.hairpin()
     \p
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(1)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(1)
     \bacaStopTextSpanBCP
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP
@@ -8655,17 +6813,11 @@ number.12.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \p
-          %! baca.bcps()
-          %! baca.bcps(5)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(5)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(5)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(5)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(5)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(5)
         - \upbow
         % START_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
@@ -8720,21 +6872,13 @@ number.12.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \<
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
           %! abjad.glissando(7)
           %! baca.glissando()
@@ -8760,42 +6904,26 @@ number.12.Viola.Music = {
         f8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8804,26 +6932,16 @@ number.12.Viola.Music = {
         e4
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #4 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8832,26 +6950,16 @@ number.12.Viola.Music = {
         e4.
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #5 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8860,29 +6968,19 @@ number.12.Viola.Music = {
         e8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % START_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         [
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8891,42 +6989,26 @@ number.12.Viola.Music = {
         d8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -8981,22 +7063,14 @@ number.12.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \baca-effort-fff
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -9013,21 +7087,13 @@ number.12.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \>
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
           %! abjad.glissando(7)
           %! baca.glissando()
@@ -9053,39 +7119,23 @@ number.12.Viola.Music = {
         d4.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9094,42 +7144,26 @@ number.12.Viola.Music = {
         d8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % START_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         [
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9138,39 +7172,23 @@ number.12.Viola.Music = {
         d8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #2 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9179,29 +7197,19 @@ number.12.Viola.Music = {
         e8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9210,39 +7218,23 @@ number.12.Viola.Music = {
         e4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9251,26 +7243,16 @@ number.12.Viola.Music = {
         e8
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #4 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -9292,26 +7274,16 @@ number.12.Viola.Music = {
     e8
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #5 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9320,26 +7292,16 @@ number.12.Viola.Music = {
     e4
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #6 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9348,39 +7310,23 @@ number.12.Viola.Music = {
     e4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 5.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9389,42 +7335,26 @@ number.12.Viola.Music = {
     f8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak staff-padding 5.5
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \downbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % START_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
     [
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #6 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9433,42 +7363,26 @@ number.12.Viola.Music = {
     f8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 5.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9477,43 +7391,25 @@ number.12.Viola.Music = {
     f4
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak staff-padding 5.5
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \downbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #1 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-right-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9553,9 +7449,7 @@ number.12.Viola.Music = {
       %! baca.hairpin()
     \p
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(1)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(1)
     \bacaStopTextSpanBCP
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP
@@ -9625,17 +7519,11 @@ number.12.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \p
-          %! baca.bcps()
-          %! baca.bcps(6)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(6)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(6)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(6)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(6)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(6)
         - \downbow
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -9687,21 +7575,13 @@ number.12.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \<
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #4 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
           %! abjad.glissando(7)
           %! baca.glissando()
@@ -9727,26 +7607,16 @@ number.12.Viola.Music = {
         f4
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #5 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9755,26 +7625,16 @@ number.12.Viola.Music = {
         e4.
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9783,39 +7643,23 @@ number.12.Viola.Music = {
         e8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9824,39 +7668,23 @@ number.12.Viola.Music = {
         d4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #6 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -9911,22 +7739,14 @@ number.12.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \baca-effort-fff
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -9955,21 +7775,13 @@ number.12.Viola.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \>
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #7 #7
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
           %! abjad.glissando(7)
           %! baca.glissando()
@@ -9995,42 +7807,26 @@ number.12.Viola.Music = {
         d8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(8)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(8)
         - \downbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % START_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         [
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -10039,42 +7835,26 @@ number.12.Viola.Music = {
         d8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak self-alignment-X #left
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \tweak staff-padding 5.5
-          %! baca.bcps()
-          %! baca.bcps(7)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(7)
         - \upbow
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % STOP_BEAM:
           %! stirrings_still.make_trajectory_rhythm()
         ]
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #2 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -10083,26 +7863,16 @@ number.12.Viola.Music = {
         e4
         % AFTER:
         % SPANNER_STOPS:
-          %! baca.bcps()
-          %! baca.bcps(3)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(3)
         \bacaStopTextSpanBCP
         % SPANNER_STARTS:
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \tweak staff-padding 3
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \abjad-solid-line-with-arrow
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         - \baca-bcp-spanner-left-text #1 #4
-          %! baca.bcps()
-          %! baca.bcps(2)
-          %! stirrings_still.bcps()
+          %! baca._do_bcp_command(2)
         \bacaStartTextSpanBCP
         % CLOSING:
         % COMMANDS:
@@ -10119,39 +7889,23 @@ number.12.Viola.Music = {
     e4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \tweak staff-padding 5.5
-      %! baca.bcps()
-      %! baca.bcps(8)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(8)
     - \downbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #1 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10160,29 +7914,19 @@ number.12.Viola.Music = {
     e8
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % START_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
     [
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #4 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10191,26 +7935,16 @@ number.12.Viola.Music = {
     e8
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #5 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10219,29 +7953,19 @@ number.12.Viola.Music = {
     f8
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_trajectory_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #6 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10250,43 +7974,25 @@ number.12.Viola.Music = {
     f4
     % AFTER:
     % ARTICULATIONS:
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak self-alignment-X #left
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \tweak staff-padding 5.5
-      %! baca.bcps()
-      %! baca.bcps(7)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(7)
     - \upbow
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(3)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(3)
     \bacaStopTextSpanBCP
     % SPANNER_STARTS:
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \tweak staff-padding 3
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \abjad-solid-line-with-arrow
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     - \baca-bcp-spanner-right-text #6 #7
-      %! baca.bcps()
-      %! baca.bcps(2)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(2)
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10311,9 +8017,7 @@ number.12.Viola.Music = {
     f1
     % AFTER:
     % SPANNER_STOPS:
-      %! baca.bcps()
-      %! baca.bcps(1)
-      %! stirrings_still.bcps()
+      %! baca._do_bcp_command(1)
     \bacaStopTextSpanBCP
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP
