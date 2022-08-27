@@ -250,6 +250,7 @@ def rleaves_partition_by_ratio(ratio):
 
 def bcps(
     rotation,
+    *,
     clt=False,
     measures=None,
     selector=lambda _: baca.select.leaves(_),
@@ -290,7 +291,7 @@ def bcps(
     return result_
 
 
-def breathe(selector=lambda _: baca.select.pleaf(_, -1)):
+def breathe(*, selector=lambda _: baca.select.pleaf(_, -1)):
     """
     Makes breathe command with (-0.25, 2) extra offset.
     """
@@ -1289,7 +1290,7 @@ def first_order_stages(section):
     return specifiers
 
 
-def flight_spanner(string, staff_padding, measures=None):
+def flight_spanner(string, staff_padding, *, measures=None):
     command = baca.material_annotation_spanner(
         string,
         abjad.Tweak(r"- \tweak color #darkmagenta"),
@@ -3202,26 +3203,6 @@ def time_signatures(section):
     return time_signatures
 
 
-def trajectory_spanner(
-    string,
-    staff_padding,
-    *,
-    measures=None,
-    selector=lambda _: baca.select.rleaves(_),
-):
-    command = baca.material_annotation_spanner(
-        string,
-        abjad.Tweak(r"- \tweak color #blue"),
-        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
-        measures=measures,
-        selector=selector,
-    )
-    tag = abjad.Tag("MATERIAL:TRAJECTORIES")
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.PiecewiseCommand)
-    return result
-
-
 def transition_bcps(*, final_spanner=False, staff_padding=None):
     assert staff_padding is not None, repr(staff_padding)
 
@@ -3287,52 +3268,55 @@ def urtext_spanner(
     return result
 
 
-instruments = dict(
-    [
-        ("ViolinI", abjad.Violin(pitch_range=abjad.PitchRange("[F3, +inf]"))),
-        ("ViolinII", abjad.Violin(pitch_range=abjad.PitchRange("[F3, +inf]"))),
-        ("Viola", abjad.Viola(pitch_range=abjad.PitchRange("[Bb2, +inf]"))),
-        ("Cello", abjad.Cello(pitch_range=abjad.PitchRange("[Bb0, +inf]"))),
-    ]
-)
+def urtext_spanner_function(
+    argument,
+    string,
+    staff_padding,
+):
+    wrappers = baca.material_annotation_spanner_function(
+        argument,
+        string,
+        abjad.Tweak(r"- \tweak color #darkred"),
+        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
+    )
+    baca.tags.wrappers(wrappers, abjad.Tag("MATERIAL:URTEXT"))
+    return wrappers
 
 
-metronome_marks = dict(
-    [
-        ("larghissimo", abjad.MetronomeMark((1, 4), 39)),
-        ("largo meno mosso", abjad.MetronomeMark((1, 4), 48)),
-        ("largo", abjad.MetronomeMark((1, 4), 52)),
-        ("largo piu mosso", abjad.MetronomeMark((1, 4), 56)),
-        ("adagio meno mosso", abjad.MetronomeMark((1, 4), 60)),
-        ("adagio", abjad.MetronomeMark((1, 4), 65)),
-        ("adagio piu mosso", abjad.MetronomeMark((1, 4), 78)),
-        ("andante", abjad.MetronomeMark((1, 4), 91)),
-        ("allegro", abjad.MetronomeMark((1, 4), 117)),
-        ("allegro piu mosso", abjad.MetronomeMark((1, 4), 137)),
-        ("presto", abjad.MetronomeMark((1, 4), 169)),
-        (
-            "presto ! largo",
-            abjad.MetronomeMark(
-                reference_duration=(1, 4),
-                units_per_minute=52,
-                custom_markup=abjad.Markup(r"\stirrings-still-presto-largo-markup"),
-            ),
-        ),
-    ]
-)
+instruments = {
+    "ViolinI": abjad.Violin(pitch_range=abjad.PitchRange("[F3, +inf]")),
+    "ViolinII": abjad.Violin(pitch_range=abjad.PitchRange("[F3, +inf]")),
+    "Viola": abjad.Viola(pitch_range=abjad.PitchRange("[Bb2, +inf]")),
+    "Cello": abjad.Cello(pitch_range=abjad.PitchRange("[Bb0, +inf]")),
+}
 
 
-short_instrument_names = dict(
-    [
-        ("Va.", abjad.ShortInstrumentName(r"\stirrings-still-va-markup")),
-        ("Vc.", abjad.ShortInstrumentName(r"\stirrings-still-vc-markup")),
-        ("Vn. I", abjad.ShortInstrumentName(r"\stirrings-still-vn-i-markup")),
-        (
-            "Vn. II",
-            abjad.ShortInstrumentName(r"\stirrings-still-vn-ii-markup"),
-        ),
-    ]
-)
+metronome_marks = {
+    "larghissimo": abjad.MetronomeMark((1, 4), 39),
+    "largo meno mosso": abjad.MetronomeMark((1, 4), 48),
+    "largo": abjad.MetronomeMark((1, 4), 52),
+    "largo piu mosso": abjad.MetronomeMark((1, 4), 56),
+    "adagio meno mosso": abjad.MetronomeMark((1, 4), 60),
+    "adagio": abjad.MetronomeMark((1, 4), 65),
+    "adagio piu mosso": abjad.MetronomeMark((1, 4), 78),
+    "andante": abjad.MetronomeMark((1, 4), 91),
+    "allegro": abjad.MetronomeMark((1, 4), 117),
+    "allegro piu mosso": abjad.MetronomeMark((1, 4), 137),
+    "presto": abjad.MetronomeMark((1, 4), 169),
+    "presto ! largo": abjad.MetronomeMark(
+        reference_duration=(1, 4),
+        units_per_minute=52,
+        custom_markup=abjad.Markup(r"\stirrings-still-presto-largo-markup"),
+    ),
+}
+
+
+short_instrument_names = {
+    "Va.": abjad.ShortInstrumentName(r"\stirrings-still-va-markup"),
+    "Vc.": abjad.ShortInstrumentName(r"\stirrings-still-vc-markup"),
+    "Vn. I": abjad.ShortInstrumentName(r"\stirrings-still-vn-i-markup"),
+    "Vn. II": abjad.ShortInstrumentName(r"\stirrings-still-vn-ii-markup"),
+}
 
 
 manifests = {

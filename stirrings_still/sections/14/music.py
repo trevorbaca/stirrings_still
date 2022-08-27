@@ -320,7 +320,9 @@ def v1(m, accumulator):
 def vns_va(cache, accumulator):
     accumulator(
         (["v1", "v2", "va"], (1, 8)),
-        library.clouded_pane_spanner("clouded pane -|", 8),
+        library.clouded_pane_spanner(
+            "clouded pane -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v2", "va"], (6, 8)),
@@ -340,17 +342,22 @@ def vns_va(cache, accumulator):
     )
     accumulator(
         (["v1", "v2", "va"], (13, 28)),
-        library.urtext_spanner("urtext (field) -|", 8),
+        library.urtext_spanner(
+            "urtext (field) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v2", "va"], (30, 35)),
-        library.urtext_spanner("urtext (field) -|", 8),
+        library.urtext_spanner(
+            "urtext (field) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v2", "va"], (37, 38)),
         library.urtext_spanner(
             "urtext / clouded pane (composite) -|",
             8,
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
 
@@ -643,7 +650,9 @@ def vc(m, accumulator):
         ("vc", (1, 10)),
         baca.dots_transparent(),
         baca.stem_transparent(selector=lambda _: baca.select.pleaves(_)),
-        library.clouded_pane_spanner("clouded pane -|", 8),
+        library.clouded_pane_spanner(
+            "clouded pane -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         ("vc", (1, 22)),
@@ -676,7 +685,9 @@ def vc(m, accumulator):
     )
     accumulator(
         ("vc", [(13, 22), (37, 38)]),
-        library.clouded_pane_spanner("clouded pane -|", 8),
+        library.clouded_pane_spanner(
+            "clouded pane -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         ("vc", (17, 22)),
@@ -719,7 +730,9 @@ def vc(m, accumulator):
             ),
             match=0,
         ),
-        library.urtext_spanner("urtext (field) -|", 8),
+        library.urtext_spanner(
+            "urtext (field) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         ("vc", 29),

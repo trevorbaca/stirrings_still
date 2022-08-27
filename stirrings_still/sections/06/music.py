@@ -121,6 +121,7 @@ def v1(m, accumulator):
         library.clouded_pane_spanner(
             "clouded pane (doublestop partials) -|",
             8,
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
 
@@ -145,6 +146,7 @@ def v2(m, accumulator):
         library.clouded_pane_spanner(
             "clouded pane (doublestop partials) -|",
             8,
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
 
@@ -184,7 +186,11 @@ def vc(m, accumulator):
             pieces=lambda _: baca.select.mgroups(_, [2, 4, 2 + 1]),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.clouded_pane_spanner("clouded pane (continues) -|", 5.5),
+        library.clouded_pane_spanner(
+            "clouded pane (continues) -|",
+            5.5,
+            selector=lambda _: baca.select.rleaves(_),
+        ),
     )
 
 

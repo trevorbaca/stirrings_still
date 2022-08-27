@@ -159,7 +159,9 @@ def vns_va(cache, accumulator):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.urtext_spanner("urtext (ds field) -|", 8),
+        library.urtext_spanner(
+            "urtext (ds field) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v2", "va"], (5, 11)),
@@ -178,7 +180,9 @@ def vns_va(cache, accumulator):
     )
     accumulator(
         (["v1", "v2", "va"], (5, 11)),
-        library.urtext_spanner("urtext (ds field) -|", 8),
+        library.urtext_spanner(
+            "urtext (ds field) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v2", "va"], (12, 17)),
@@ -261,7 +265,9 @@ def v1_va_vc(cache, accumulator):
             match=2,
         ),
         baca.tuplet_bracket_down(),
-        library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
+        library.clouded_pane_spanner(
+            "clouded pane (beacon) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
 
 
@@ -281,7 +287,7 @@ def tutti(cache, accumulator):
     accumulator(
         (["v1", "v2", "va", "vc"], 13),
         baca.new(
-            library.breathe(),
+            library.breathe(selector=lambda _: baca.select.pleaf(_, -1)),
             match=[0, 1, 2],
         ),
         baca.new(

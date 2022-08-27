@@ -474,7 +474,9 @@ def v2(m, accumulator):
             pieces=lambda _: baca.select.mgroups(_, [3, 5 + 1]),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.urtext_spanner("urtext (rasp) -|", 10.5),
+        library.urtext_spanner(
+            "urtext (rasp) -|", 10.5, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         ("v2", (1, 10)),
@@ -702,7 +704,9 @@ def vc(m, accumulator):
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.finger_pressure_transition(),
-        library.clouded_pane_spanner("clouded pane -|", 8),
+        library.clouded_pane_spanner(
+            "clouded pane -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         ("vc", (8, 31)),
@@ -789,7 +793,11 @@ def vc(m, accumulator):
             selector=lambda _: baca.select.rleaves(_),
         ),
         baca.pitch("B1"),
-        library.clouded_pane_spanner("clouded pane (pane / urtext) -|", 8),
+        library.clouded_pane_spanner(
+            "clouded pane (pane / urtext) -|",
+            8,
+            selector=lambda _: baca.select.rleaves(_),
+        ),
     )
     accumulator(
         (["vc", "vcr"], 56),
@@ -956,12 +964,16 @@ def vns_va(cache, accumulator):
         baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.new(
             baca.pitch("<F4 A4>"),
-            library.urtext_spanner("urtext (ds) -|", 8),
+            library.urtext_spanner(
+                "urtext (ds) -|", 8, selector=lambda _: baca.select.rleaves(_)
+            ),
             match=0,
         ),
         baca.new(
             baca.pitch("<E4 G#4>"),
-            library.urtext_spanner("urtext (ds) -|", 8),
+            library.urtext_spanner(
+                "urtext (ds) -|", 8, selector=lambda _: baca.select.rleaves(_)
+            ),
             match=1,
         ),
         baca.new(
@@ -971,7 +983,11 @@ def vns_va(cache, accumulator):
                 selector=lambda _: baca.select.pleaf(_, 0),
             ),
             baca.pitch("<Aqf3 C#4>"),
-            library.clouded_pane_spanner("clouded pane (partial) -|", 8),
+            library.clouded_pane_spanner(
+                "clouded pane (partial) -|",
+                8,
+                selector=lambda _: baca.select.rleaves(_),
+            ),
             match=2,
         ),
     )
@@ -980,17 +996,25 @@ def vns_va(cache, accumulator):
         baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.new(
             baca.pitch("<F4 A4>"),
-            library.urtext_spanner("urtext (ds) -|", 8),
+            library.urtext_spanner(
+                "urtext (ds) -|", 8, selector=lambda _: baca.select.rleaves(_)
+            ),
             match=0,
         ),
         baca.new(
             baca.pitch("<E4 G#4>"),
-            library.urtext_spanner("urtext (ds) -|", 8),
+            library.urtext_spanner(
+                "urtext (ds) -|", 8, selector=lambda _: baca.select.rleaves(_)
+            ),
             match=1,
         ),
         baca.new(
             baca.pitch("<Aqf3 C#4>"),
-            library.clouded_pane_spanner("clouded pane (partial) -|", 8),
+            library.clouded_pane_spanner(
+                "clouded pane (partial) -|",
+                8,
+                selector=lambda _: baca.select.rleaves(_),
+            ),
             match=2,
         ),
     )
@@ -1120,7 +1144,9 @@ def v1_va_vc(cache, accumulator):
             match=2,
         ),
         baca.tuplet_bracket_down(),
-        library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
+        library.clouded_pane_spanner(
+            "clouded pane (beacon) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "va", "vc"], (53, 54)),
@@ -1150,7 +1176,9 @@ def v1_va_vc(cache, accumulator):
             baca.flat_glissando("E2"),
             match=2,
         ),
-        library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
+        library.clouded_pane_spanner(
+            "clouded pane (beacon) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
 
 
@@ -1199,7 +1227,9 @@ def tutti(cache, accumulator):
             selector=lambda _: baca.select.rleaves(_),
         ),
         baca.new(
-            library.urtext_spanner("urtext (rasp) -|", 10.5),
+            library.urtext_spanner(
+                "urtext (rasp) -|", 10.5, selector=lambda _: baca.select.rleaves(_)
+            ),
             match=[0, 2, 3],
         ),
     )
@@ -1249,7 +1279,9 @@ def tutti(cache, accumulator):
             pieces=lambda _: baca.select.mgroups(_, [1, 2]),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.urtext_spanner("urtext (rasp) -|", 10.5),
+        library.urtext_spanner(
+            "urtext (rasp) -|", 10.5, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v2", "va", "vc"], (52, 55)),

@@ -709,7 +709,7 @@ def v1(m, accumulator):
             clt=True,
             staff_padding=2.5,
         ),
-        library.breathe(),
+        library.breathe(selector=lambda _: baca.select.pleaf(_, -1)),
     )
 
 
@@ -1578,7 +1578,9 @@ def vc(m, accumulator):
     )
     accumulator(
         ("vc", (1, 27)),
-        library.clouded_pane_spanner("clouded pane (continues) -|", 8),
+        library.clouded_pane_spanner(
+            "clouded pane (continues) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         ("vc", (4, 5)),
@@ -1623,7 +1625,9 @@ def vc(m, accumulator):
             measures=(63, 64),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.clouded_pane_spanner("clouded pane (down) -|", 5.5),
+        library.clouded_pane_spanner(
+            "clouded pane (down) -|", 5.5, selector=lambda _: baca.select.rleaves(_)
+        ),
         baca.flat_glissando(
             "D2",
             hide_middle_stems=True,
@@ -1631,7 +1635,11 @@ def vc(m, accumulator):
     )
     accumulator(
         ("vc", (82, 88)),
-        library.clouded_pane_spanner("clouded pane (continues) -|", 5.5),
+        library.clouded_pane_spanner(
+            "clouded pane (continues) -|",
+            5.5,
+            selector=lambda _: baca.select.rleaves(_),
+        ),
         baca.flat_glissando(
             "D2",
             hide_middle_stems=True,
@@ -1644,7 +1652,11 @@ def vc(m, accumulator):
             pieces=lambda _: baca.select.mgroups(_, [3, 4 + 1]),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.clouded_pane_spanner("clouded pane (continues) -|", 5.5),
+        library.clouded_pane_spanner(
+            "clouded pane (continues) -|",
+            5.5,
+            selector=lambda _: baca.select.rleaves(_),
+        ),
         baca.flat_glissando(
             "D2",
             hide_middle_stems=True,

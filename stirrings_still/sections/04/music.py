@@ -611,7 +611,9 @@ def vns(cache, accumulator):
     )
     accumulator(
         (["v1", "v2"], (90, 92)),
-        library.urtext_spanner("urtext (NEW cds) -|", 8),
+        library.urtext_spanner(
+            "urtext (NEW cds) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v1r", "v2", "v2r"], 93),
@@ -688,7 +690,7 @@ def vns_va(cache, accumulator):
         library.breathe(
             selector=lambda _: baca.select.pleaf(_, 1),
         ),
-        library.urtext_spanner("A, B -|", 8),
+        library.urtext_spanner("A, B -|", 8, selector=lambda _: baca.select.rleaves(_)),
     )
     accumulator(
         (["v1", "v2", "va"], 65),
@@ -701,7 +703,9 @@ def vns_va(cache, accumulator):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.urtext_spanner("urtext (cds) -|", 8),
+        library.urtext_spanner(
+            "urtext (cds) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v2", "va"], 66),
@@ -757,7 +761,9 @@ def vns_va(cache, accumulator):
     )
     accumulator(
         (["v1", "v2", "va"], (67, 89)),
-        library.urtext_spanner("urtext (resumes) -|", 8),
+        library.urtext_spanner(
+            "urtext (resumes) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v2", "va"], (68, 83)),
@@ -783,7 +789,9 @@ def vns_va(cache, accumulator):
             pieces=lambda _: baca.select.mgroups(_, [2, 1 + 1]),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.urtext_spanner("urtext (resumes) -|", 8),
+        library.urtext_spanner(
+            "urtext (resumes) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v2", "va"], (97, 98)),
@@ -1091,7 +1099,9 @@ def vc(m, accumulator):
             baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
             match=0,
         ),
-        library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
+        library.clouded_pane_spanner(
+            "clouded pane (beacon) -|", 5.5, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["vc", "vcr"], 51),
@@ -1125,7 +1135,9 @@ def vc(m, accumulator):
             baca.hairpin("niente o< p"),
             map=lambda _: [baca.select.cmgroups(_)[:3]],
         ),
-        library.clouded_pane_spanner("clouded pane (arrival) -|", 5.5),
+        library.clouded_pane_spanner(
+            "clouded pane (arrival) -|", 5.5, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["vc", "vcr"], 93),

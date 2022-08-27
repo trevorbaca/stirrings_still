@@ -338,15 +338,19 @@ def vns_va(cache, accumulator):
     )
     accumulator(
         (["v1", "v2", "va"], (1, 8)),
-        library.clouded_pane_spanner("clouded pane -|", 8),
+        library.clouded_pane_spanner(
+            "clouded pane -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v2", "va"], (9, 12)),
         # TODO: allow score-specific simultaneous material spanners
         # library.circle_spanner(
-        #     "intercalated ds cirles -|", 10.5,
+        #     "intercalated ds cirles -|", 10.5, selector=lambda _: baca.select.rleaves(_)
         # ),
-        library.urtext_spanner("urtext (ds) -|", 8),
+        library.urtext_spanner(
+            "urtext (ds) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v2", "va"], (13, 16)),
@@ -360,7 +364,7 @@ def vns_va(cache, accumulator):
         (["v1", "v2", "va"], (17, 20)),
         # TODO: allow score-specific simultaneous material spanners
         # library.circle_spanner(
-        #     "intercalated ds cirles -|", 10.5,
+        #     "intercalated ds cirles -|", 10.5, selector=lambda _: baca.select.rleaves(_),
         # ),
         library.urtext_spanner(
             "urtext (ds) -|",
@@ -370,19 +374,25 @@ def vns_va(cache, accumulator):
     )
     accumulator(
         (["v1", "v2", "va"], (21, 25)),
-        library.clouded_pane_spanner("clouded pane -|", 8),
+        library.clouded_pane_spanner(
+            "clouded pane -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v2", "va"], (26, 28)),
         # TODO: allow score-specific simultaneous material spanners
         # library.circle_spanner(
-        #     "intercalated ds cirles -|", 10.5,
+        #     "intercalated ds cirles -|", 10.5, selector=lambda _: baca.select.rleaves(_),
         # ),
-        library.urtext_spanner("urtext (ds) -|", 8),
+        library.urtext_spanner(
+            "urtext (ds) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         (["v1", "v2", "va"], (29, 32)),
-        library.clouded_pane_spanner("clouded pane -|", 8),
+        library.clouded_pane_spanner(
+            "clouded pane -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
 
 

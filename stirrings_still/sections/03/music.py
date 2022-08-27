@@ -484,7 +484,9 @@ def v1(m, accumulator):
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("<F4 A4>"),
-        library.urtext_spanner("urtext (ds) -|", 8),
+        library.urtext_spanner(
+            "urtext (ds) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         ("v1", [(12, 23), (30, 59)]),
@@ -511,7 +513,9 @@ def v1(m, accumulator):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
+        library.clouded_pane_spanner(
+            "clouded pane (beacon) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         ("v1", (36, 59)),
@@ -550,7 +554,9 @@ def v2(m, accumulator):
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("<E4 G#4>"),
-        library.urtext_spanner("urtext (ds) -|", 8),
+        library.urtext_spanner(
+            "urtext (ds) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         ("v2", [(12, 23), (30, 59)]),
@@ -607,7 +613,11 @@ def va(m, accumulator):
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("<Aqf3 C#4>"),
-        library.clouded_pane_spanner("clouded (partial: stopped) -|", 8),
+        library.clouded_pane_spanner(
+            "clouded (partial: stopped) -|",
+            8,
+            selector=lambda _: baca.select.rleaves(_),
+        ),
     )
     accumulator(
         ("va", [(12, 23), (30, 59)]),
@@ -634,7 +644,9 @@ def va(m, accumulator):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.clouded_pane_spanner("clouded pane (beacon) -|", 8),
+        library.clouded_pane_spanner(
+            "clouded pane (beacon) -|", 8, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         ("va", (36, 59)),
@@ -715,7 +727,9 @@ def vns_va(cache, accumulator):
             ),
             match=2,
         ),
-        library.urtext_spanner("urtext (ds field) -|", 5.5),
+        library.urtext_spanner(
+            "urtext (ds field) -|", 5.5, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
 
 
@@ -1028,6 +1042,7 @@ def vc(m, accumulator):
         library.clouded_pane_spanner(
             "clouded pane (pane / urtext) -|",
             5.5,
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -1054,7 +1069,9 @@ def vc(m, accumulator):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
+        library.clouded_pane_spanner(
+            "clouded pane (beacon) -|", 5.5, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         ("vc", (34, 35)),
@@ -1067,7 +1084,9 @@ def vc(m, accumulator):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        library.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
+        library.clouded_pane_spanner(
+            "clouded pane (beacon) -|", 5.5, selector=lambda _: baca.select.rleaves(_)
+        ),
     )
     accumulator(
         ("vc", (36, 59)),
