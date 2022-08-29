@@ -1388,6 +1388,17 @@ def flight_spanner(string, staff_padding, *, measures=None):
     return result
 
 
+def flight_spanner_function(o, string, staff_padding):
+    wrappers = baca.material_annotation_spanner_function(
+        o.rleaves(),
+        string,
+        abjad.Tweak(r"- \tweak color #darkmagenta"),
+        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
+    )
+    baca.tags.wrappers(wrappers, abjad.Tag("MATERIAL:FLIGHT"))
+    return wrappers
+
+
 def left_broken_circle_bow_tweak():
     string = r"\baca-left-broken-circle-bowing-markup"
     return (
@@ -2344,6 +2355,21 @@ def ntlt_flat_glissandi():
         baca.untie(lambda _: baca.select.leaves(_)),
         map=lambda _: baca.select.lts(_, nontrivial=True),
     )
+
+
+def ntlt_flat_glissandi_function(argument):
+    for ntlt in baca.select.lts(argument, nontrivial=True):
+        baca.glissando_function(
+            ntlt,
+            allow_repeats=True,
+            allow_ties=True,
+            zero_padding=True,
+        )
+        with baca.scope(ntlt[1:]) as u:
+            baca.accidental_stencil_false_function(u)
+            baca.note_head_transparent_function(u)
+            baca.note_head_x_extent_zero_function(u)
+        baca.untie_function(ntlt)
 
 
 def operations():
@@ -3362,6 +3388,27 @@ def style_tailpiece_material(*tweaks):
         command,
     )
     return command
+
+
+def style_tailpiece_material_function(o, *tweaks):
+    wrappers = []
+    wrappers_ = baca.dots_transparent_function(o.leaves()[1:])
+    wrappers.extend(wrappers_)
+    wrappers_ = baca.markup_function(o.pleaf(0), r"\baca-boxed-markup tailpiece")
+    wrappers.extend(wrappers_)
+    baca.staff_position_function(o, 0)
+    wrappers_ = baca.stem_transparent_function(o.leaves()[1:])
+    wrappers.extend(wrappers_)
+    wrappers_ = baca.text_script_parent_alignment_x_function(o, 0)
+    wrappers.extend(wrappers_)
+    baca.flat_glissando_function(
+        o.rleaves(),
+        None,
+        *tweaks,
+    )
+    tag = baca.tags.function_name(inspect.currentframe())
+    baca.tags.wrappers(wrappers, tag)
+    return wrappers
 
 
 def time(skips, rests, pairs):
