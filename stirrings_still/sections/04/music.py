@@ -959,102 +959,93 @@ def vc(cache):
         baca.hairpin_function(o.rleaves(), "o< p")
 
 
-def v1_stage_2(m, accumulator):
-    accumulator(
-        ("v1", [65, (67, 89)]),
-        baca.flat_glissando("<F#4 Dqf5>"),
-        baca.markup(
-            r"\stirrings-still-seven-plus-nine-of-e-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
-    accumulator(
-        ("v1", [(90, 92), (94, 96)]),
-        baca.new(
-            baca.markup(
-                r"\stirrings-still-three-plus-seven-of-f-markup",
+def v1_stage_2(cache):
+    m = cache["v1"]
+    for item in [65, (67, 89)]:
+        with baca.scope(m.get(item)) as o:
+            baca.flat_glissando_function(o, "<F#4 Dqf5>")
+            cache.rebuild()
+            m = cache["v1"]
+        with baca.scope(m.get(item)) as o:
+            baca.markup_function(
+                o.pleaf(0),
+                r"\stirrings-still-seven-plus-nine-of-e-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
-                selector=lambda _: baca.select.pleaf(_, 0),
-            ),
-            baca.untie(
-                lambda _: baca.select.pleaf(_, 0),
-            ),
-            match=0,
-        ),
-        baca.flat_glissando("<Etqf4 C5>", allow_repitch=True),
-    )
-
-
-def tutti_stage_2(cache, accumulator):
-    accumulator(
-        (["v1", "v2", "va", "vc"], [(1, 6), (13, 18), (25, 30)]),
-        baca.new(
-            baca.stem_tremolo(
-                selector=lambda _: abjad.select.leaf(_, -1),
-            ),
-            map=lambda _: baca.select.lts(_, nontrivial=True),
-        ),
-        library.ntlt_flat_glissandi(),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], [(7, 12), (19, 24), (31, 36)]),
-        baca.new(
-            baca.stop_on_string(
-                selector=lambda _: abjad.select.leaf(_, -1),
-            ),
-            map=lambda _: baca.select.lts(_, nontrivial=True),
-        ),
-        library.ntlt_flat_glissandi(),
-    )
-
-
-def v2_stage_2(m, accumulator):
-    accumulator(
-        ("v2", [65, (67, 89)]),
-        baca.flat_glissando("<Cqs4 Ab4>"),
-        baca.markup(
-            r"\stirrings-still-five-plus-thirteen-of-e-markup",
+            )
+    with baca.scope(m.get(90, 92)) as o:
+        baca.untie_function(o.pleaf(0))
+        baca.markup_function(
+            o.pleaf(0),
+            r"\stirrings-still-three-plus-seven-of-f-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
-    accumulator(
-        ("v2", [(90, 92), (94, 96)]),
-        baca.new(
-            baca.markup(
-                r"\stirrings-still-nine-plus-eleven-of-f-markup",
+        )
+    for item in [(90, 92), (94, 96)]:
+        with baca.scope(m.get(item)) as o:
+            baca.flat_glissando_function(o, "<Etqf4 C5>", allow_repitch=True)
+            cache.rebuild()
+            m = cache["v1"]
+
+
+def tutti_stage_2(cache):
+    for name in ["v1", "v2", "va", "vc"]:
+        m = cache[name]
+        for item in [(1, 6), (13, 18), (25, 30)]:
+            with baca.scope(m.get(item)) as o:
+                for ntlt in baca.select.lts(o, nontrivial=True):
+                    baca.stem_tremolo_function(ntlt[-1])
+                library.ntlt_flat_glissandi_function(o)
+        for item in [(7, 12), (19, 24), (31, 36)]:
+            with baca.scope(m.get(item)) as o:
+                for ntlt in baca.select.lts(o, nontrivial=True):
+                    baca.stop_on_string_function(ntlt[-1])
+                library.ntlt_flat_glissandi_function(o)
+
+
+def v2_stage_2(cache):
+    m = cache["v2"]
+    for item in [65, (67, 89)]:
+        with baca.scope(m.get(item)) as o:
+            baca.markup_function(
+                o.pleaf(0),
+                r"\stirrings-still-five-plus-thirteen-of-e-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
-                selector=lambda _: baca.select.pleaf(_, 0),
-            ),
-            baca.untie(
-                lambda _: baca.select.pleaf(_, 0),
-            ),
-            match=0,
-        ),
-        baca.flat_glissando("<Bqf3 G4>", allow_repitch=True),
-    )
-
-
-def va_stage_2(m, accumulator):
-    accumulator(
-        ("va", [65, (67, 89)]),
-        baca.flat_glissando("<B2 Aqs3>"),
-        baca.markup(
-            r"\stirrings-still-eleven-plus-three-of-e-markup",
+            )
+            baca.flat_glissando_function(o, "<Cqs4 Ab4>")
+            cache.rebuild()
+            m = cache["v2"]
+    with baca.scope(m.get(90, 92)) as o:
+        baca.untie_function(o.pleaf(0))
+        baca.markup_function(
+            o.pleaf(0),
+            r"\stirrings-still-nine-plus-eleven-of-f-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
-    accumulator(
-        ("va", (94, 96)),
-        baca.flat_glissando("A3"),
-        baca.markup(
+        )
+    for item in [(90, 92), (94, 96)]:
+        with baca.scope(m.get(item)) as o:
+            baca.flat_glissando_function(o, "<Bqf3 G4>", allow_repitch=True)
+            cache.rebuild()
+            m = cache["v2"]
+
+
+def va_stage_2(cache):
+    m = cache["va"]
+    for item in [65, (67, 89)]:
+        with baca.scope(m.get(item)) as o:
+            baca.markup_function(
+                o.pleaf(0),
+                r"\stirrings-still-eleven-plus-three-of-e-markup",
+                abjad.Tweak(r"- \tweak padding 1.5"),
+            )
+            baca.flat_glissando_function(o, "<B2 Aqs3>")
+            cache.rebuild()
+            m = cache["va"]
+    with baca.scope(m.get(94, 96)) as o:
+        baca.flat_glissando_function(o, "A3")
+        baca.markup_function(
+            o.pleaf(0),
             r"\baca-five-f-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
+        )
 
 
 def make_score(first_measure_number, previous_persistent_indicators):
@@ -1091,10 +1082,10 @@ def make_score(first_measure_number, previous_persistent_indicators):
     v2(cache)
     va(cache)
     vc(cache)
-    v1_stage_2(cache["v1"], accumulator)
-    tutti_stage_2(cache, accumulator)
-    v2_stage_2(cache["v2"], accumulator)
-    va_stage_2(cache["va"], accumulator)
+    v1_stage_2(cache)
+    tutti_stage_2(cache)
+    v2_stage_2(cache)
+    va_stage_2(cache)
     return score, accumulator
 
 
@@ -1115,7 +1106,6 @@ def main():
             baca.tags.STAGE_NUMBER,
         ],
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[37, 46, 64],
         first_measure_number=first_measure_number,
