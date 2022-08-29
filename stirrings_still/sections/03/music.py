@@ -474,187 +474,164 @@ def VC(voice, accumulator):
     voice.extend(music)
 
 
-def v1(m, accumulator):
-    accumulator(
-        ("v1", 5),
-        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
-        baca.markup(
+def v1(cache):
+    m = cache["v1"]
+    with baca.scope(m[5]) as o:
+        baca.pitch_function(o, "<F4 A4>")
+        cache.rebuild()
+        m = cache["v1"]
+    with baca.scope(m[5]) as o:
+        baca.dynamic_function(o.phead(0), "mp")
+        baca.markup_function(
+            o.pleaf(0),
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.pitch("<F4 A4>"),
-        library.urtext_spanner(
-            "urtext (ds) -|", 8, selector=lambda _: baca.select.rleaves(_)
-        ),
-    )
-    accumulator(
-        ("v1", [(12, 23), (30, 59)]),
-        baca.pitch("Bqf5"),
-    )
-    accumulator(
-        ("v1", (24, 27)),
-        baca.flat_glissando("Bqf5"),
-    )
-    accumulator(
-        ("v1", (28, 29)),
-        baca.flat_glissando("<F#4 Dqf5>"),
-        baca.hairpin(
+        )
+        library.urtext_spanner_function(o.rleaves(), "urtext (ds) -|", 8)
+    for item in [(12, 23), (30, 59)]:
+        with baca.scope(m.get(item)) as o:
+            baca.pitch_function(o, "Bqf5")
+    with baca.scope(m.get(24, 27)) as o:
+        baca.flat_glissando_function(o, "Bqf5")
+    with baca.scope(m.get(28, 29)) as o:
+        baca.flat_glissando_function(o, "<F#4 Dqf5>")
+        cache.rebuild()
+        m = cache["v1"]
+    with baca.scope(m.get(28, 29)) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "pp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.markup(
+        )
+        baca.markup_function(
+            o.pleaf(0),
             r"\stirrings-still-seven-plus-nine-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.tasto_spanner(
+        )
+        baca.tasto_spanner_function(
+            o.rleaves(),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        library.clouded_pane_spanner(
-            "clouded pane (beacon) -|", 8, selector=lambda _: baca.select.rleaves(_)
-        ),
-    )
-    accumulator(
-        ("v1", (36, 59)),
-        baca.new(
-            baca.tie(selector=lambda _: baca.select.lleaf(_, 0)),
-            measures=56,
-        ),
-        baca.articulations(
+        )
+        library.clouded_pane_spanner_function(
+            o.rleaves(), "clouded pane (beacon) -|", 8
+        )
+    with baca.scope(m[56]) as o:
+        baca.tie_function(o.lleaf(0))
+    with baca.scope(m.get(36, 59)) as o:
+        baca.articulations_function(
+            o.pheads(),
             [
                 abjad.Articulation("baca-damp"),
                 abjad.Articulation("baca-double-diamond"),
                 abjad.Articulation("baca-damp"),
                 None,
             ],
-            selector=lambda _: baca.select.pheads(_),
-        ),
-        baca.new(
-            baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
-            map=lambda _: abjad.select.get(baca.select.plts(_), [3], 4),
-        ),
-    )
-    accumulator(
-        ("v1", (71, 76)),
-        baca.tuplet_bracket_down(),
-        baca.tuplet_bracket_staff_padding(1.25),
-    )
+        )
+        for plt in abjad.select.get(baca.select.plts(o), [3], 4):
+            baca.note_head_style_harmonic_function(plt)
+    with baca.scope(m.get(71, 76)) as o:
+        baca.tuplet_bracket_down_function(o)
+        baca.tuplet_bracket_staff_padding_function(o, 1.25)
 
 
-def v2(m, accumulator):
-    accumulator(
-        ("v2", 5),
-        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
-        baca.markup(
+def v2(cache):
+    m = cache["v2"]
+    with baca.scope(m[5]) as o:
+        baca.dynamic_function(o.phead(0), "mp")
+        baca.pitch_function(o, "<E4 G#4>")
+        cache.rebuild()
+        m = cache["v2"]
+    with baca.scope(m[5]) as o:
+        baca.markup_function(
+            o.pleaf(0),
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.pitch("<E4 G#4>"),
-        library.urtext_spanner(
-            "urtext (ds) -|", 8, selector=lambda _: baca.select.rleaves(_)
-        ),
-    )
-    accumulator(
-        ("v2", [(12, 23), (30, 59)]),
-        baca.pitch("Bb4"),
-    )
-    accumulator(
-        ("v2", (24, 27)),
-        baca.flat_glissando("Bb4"),
-    )
-    accumulator(
-        ("v2", (28, 29)),
-        baca.alternate_bow_strokes(
-            selector=lambda _: baca.select.pheads(_),
-        ),
-        baca.damp_spanner(
+        )
+        library.urtext_spanner_function(o.rleaves(), "urtext (ds) -|", 8)
+    for item in [(12, 23), (30, 59)]:
+        with baca.scope(m.get(item)) as o:
+            baca.pitch_function(o, "Bb4")
+    with baca.scope(m.get(24, 27)) as o:
+        baca.flat_glissando_function(o, "Bb4")
+    with baca.scope(m.get(28, 29)) as o:
+        baca.alternate_bow_strokes_function(o.pheads())
+        baca.damp_spanner_function(
+            baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.hairpin(
+        )
+        baca.hairpin_function(
+            o.rleaves(),
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.half_clt_spanner(
+        )
+        baca.half_clt_spanner_function(
+            baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.pitch("F5"),
-    )
-    accumulator(
-        ("v2", (36, 59)),
-        baca.new(
-            baca.tie(selector=lambda _: baca.select.lleaf(_, 0)),
-            measures=56,
-        ),
-        baca.articulations(
+        )
+        baca.pitch_function(o, "F5")
+    with baca.scope(m[56]) as o:
+        baca.tie_function(o.lleaf(0))
+    with baca.scope(m.get(36, 59)) as o:
+        baca.articulations_function(
+            o.pheads(),
             [
                 abjad.Articulation("baca-damp"),
                 abjad.Articulation("baca-damp"),
                 abjad.Articulation("baca-double-diamond"),
             ],
-            selector=lambda _: baca.select.pheads(_),
-        ),
-    )
+        )
 
 
-def va(m, accumulator):
-    accumulator(
-        ("va", 5),
-        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
-        baca.markup(
+def va(cache):
+    m = cache["va"]
+    with baca.scope(m[5]) as o:
+        baca.pitch_function(o, "<Aqf3 C#4>")
+        cache.rebuild()
+        m = cache["va"]
+    with baca.scope(m[5]) as o:
+        baca.dynamic_function(o.phead(0), "mp")
+        baca.markup_function(
+            o.pleaf(0),
             r"\stirrings-still-nine-plus-seven-of-b-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.pitch("<Aqf3 C#4>"),
-        library.clouded_pane_spanner(
+        )
+        library.clouded_pane_spanner_function(
+            o.rleaves(),
             "clouded (partial: stopped) -|",
             8,
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("va", [(12, 23), (30, 59)]),
-        baca.pitch("Bqf3"),
-    )
-    accumulator(
-        ("va", (24, 27)),
-        baca.flat_glissando("Bqf3"),
-    )
-    accumulator(
-        ("va", (28, 29)),
-        baca.flat_glissando("<B2 Aqs3>"),
-        baca.hairpin(
+        )
+    for item in [(12, 23), (30, 59)]:
+        with baca.scope(m.get(item)) as o:
+            baca.pitch_function(o, "Bqf3")
+    with baca.scope(m.get(24, 27)) as o:
+        baca.flat_glissando_function(o, "Bqf3")
+    with baca.scope(m.get(28, 29)) as o:
+        baca.flat_glissando_function(o, "<B2 Aqs3>")
+        cache.rebuild()
+        m = cache["va"]
+    with baca.scope(m.get(28, 29)) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "pp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.markup(
+        )
+        baca.markup_function(
+            o.pleaf(0),
             r"\stirrings-still-eleven-plus-three-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.tasto_spanner(
+        )
+        baca.tasto_spanner_function(
+            o.rleaves(),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        library.clouded_pane_spanner(
-            "clouded pane (beacon) -|", 8, selector=lambda _: baca.select.rleaves(_)
-        ),
-    )
-    accumulator(
-        ("va", (36, 59)),
-        baca.new(
-            baca.tie(selector=lambda _: baca.select.lleaf(_, 0)),
-            measures=56,
-        ),
-        baca.articulations(
+        )
+        library.clouded_pane_spanner_function(
+            o.rleaves(), "clouded pane (beacon) -|", 8
+        )
+    with baca.scope(m[56]) as o:
+        baca.tie_function(o.lleaf(0))
+    with baca.scope(m.get(36, 59)) as o:
+        baca.articulations_function(
+            o.pheads(),
             [
                 abjad.Articulation("baca-damp"),
                 abjad.Articulation("baca-double-diamond"),
@@ -662,214 +639,51 @@ def va(m, accumulator):
                 abjad.Articulation("baca-damp"),
                 None,
             ],
-            selector=lambda _: baca.select.pheads(_),
-        ),
-        baca.new(
-            baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
-            map=lambda _: abjad.select.get(baca.select.plts(_), [4], 5),
-        ),
-    )
-    accumulator(
-        ("va", (71, 76)),
-        baca.tuplet_bracket_staff_padding(0.5),
-    )
+        )
+        for plt in abjad.select.get(baca.select.plts(o), [4], 5):
+            baca.note_head_style_harmonic_function(plt)
+    with baca.scope(m.get(71, 76)) as o:
+        baca.tuplet_bracket_staff_padding_function(o, 0.5)
 
 
-def vns_va(cache, accumulator):
-    accumulator(
-        (["v1", "v2", "va"], (1, 69)),
-        baca.tuplet_bracket_down(),
-    )
-    accumulator(
-        (["v1", "v2", "va"], 5),
-        baca.tasto_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        (["v1r", "v2r", "var"], 34),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
-    accumulator(
-        (["v1", "v2", "va"], 35),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
-    accumulator(
-        (["v1", "v2", "va"], (60, 61)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.hairpin(
-            "appena-udibile -- !",
-            abjad.Tweak(r"- \tweak self-alignment-X #left"),
-            abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.new(
-            baca.flat_glissando(
-                "<F4 A4>",
-                hide_middle_stems=True,
-            ),
-            match=0,
-        ),
-        baca.new(
-            baca.flat_glissando(
-                "<E4 G#4>",
-                hide_middle_stems=True,
-            ),
-            match=1,
-        ),
-        baca.new(
-            baca.flat_glissando(
-                "<Eqs4 Gtqs4>",
-                hide_middle_stems=True,
-            ),
-            match=2,
-        ),
-        library.urtext_spanner(
-            "urtext (ds field) -|", 5.5, selector=lambda _: baca.select.rleaves(_)
-        ),
-    )
+def v1_v2_va(cache):
+    for name in ["v1r", "v2r", "var"]:
+        m = cache[name]
+        with baca.scope(m[34]) as o:
+            baca.tacet_function(o.mmrests())
+    for name in ["v1", "v2", "va"]:
+        m = cache[name]
+        with baca.scope(m.get(1, 69)) as o:
+            baca.tuplet_bracket_down_function(o)
+        with baca.scope(m[5]) as o:
+            baca.tasto_spanner_function(
+                o.rleaves(),
+                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            )
+        with baca.scope(m[35]) as o:
+            baca.tacet_function(o.mmrests())
+        with baca.scope(m.get(60, 61)) as o:
+            if name == "v1":
+                string = "<F4 A4>"
+            elif name == "v2":
+                string = "<E4 G#4>"
+            elif name == "va":
+                string = "<Eqs4 Gtqs4>"
+            baca.flat_glissando_function(o, string, hide_middle_stems=True)
+            cache.rebuild()
+            m = cache[name]
+        with baca.scope(m.get(60, 61)) as o:
+            baca.breathe_function(o.pleaf(-1))
+            baca.hairpin_function(
+                o.rleaves(),
+                "appena-udibile -- !",
+                abjad.Tweak(r"- \tweak self-alignment-X #left"),
+                abjad.Tweak(r"- \tweak to-barline ##t"),
+            )
+            library.urtext_spanner_function(o.rleaves(), "urtext (ds field) -|", 5.5)
 
 
-def tutti(cache, accumulator):
-    accumulator(
-        ["v1", "v2", "va", "vc"],
-        baca.dls_staff_padding(6),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (1, 4)),
-        baca.circle_bow_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            qualifier="tight-poss-grind-at-talon",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.damp_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.flat_glissando("G4"),
-        baca.hairpin(
-            '"ff" -- !',
-            abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (7, 10)),
-        baca.circle_bow_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            qualifier="tight-poss-grind-at-talon",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.damp_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.hairpin(
-            "p -- !",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v1", (7, 10)),
-        baca.flat_glissando("Bb4"),
-    )
-    accumulator(
-        ("v2", (7, 10)),
-        baca.flat_glissando(
-            "G4",
-            stop_pitch="A4",
-        ),
-    )
-    accumulator(
-        ("va", (7, 10)),
-        baca.flat_glissando("Bb4"),
-    )
-    accumulator(
-        ("vc", (7, 10)),
-        baca.flat_glissando("Bb4"),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (12, 15)),
-        baca.dynamic(
-            "p-ancora",
-            abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
-            selector=lambda _: baca.select.phead(_, 0),
-        ),
-        baca.text_spanner(
-            r"\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=True,
-            bookend=False,
-            pieces=lambda _: baca.select.omgroups(_, [2]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (12, 27)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.damp_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (16, 19)),
-        baca.dynamic("p", redundant=True, selector=lambda _: baca.select.phead(_, 0)),
-        baca.text_spanner(
-            r"\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=True,
-            bookend=False,
-            pieces=lambda _: baca.select.omgroups(_, [2]),
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (20, 23)),
-        baca.dynamic("p", redundant=True, selector=lambda _: baca.select.phead(_, 0)),
-        baca.text_spanner(
-            r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            library.left_broken_circle_bow_tweak(),
-            autodetect_right_padding=True,
-            bookend=False,
-            pieces=lambda _: baca.select.omgroups(_, [2]),
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (24, 27)),
-        baca.dynamic("p", redundant=True, selector=lambda _: baca.select.phead(_, 0)),
-        baca.circle_bow_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            qualifier="wide",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (30, 33)),
-        baca.circle_bow_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            qualifier="wide",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.damp_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.hairpin(
-            "mf mf mp p pp pp",
-            bookend=False,
-            pieces=lambda _: baca.select.runs(_),
-        ),
-    )
-
+def tutti(cache):
     def grouped_pheads(start=0, stop=None):
         def selector(argument):
             result = baca.select.pheads(argument)
@@ -878,247 +692,280 @@ def tutti(cache, accumulator):
 
         return selector
 
-    accumulator(
-        (["v1", "v2", "va", "vc"], (36, 55)),
-        baca.hairpin(
-            "pp pp p p mp mp",
-            bookend=False,
-            measures=(36, 39),
-            pieces=grouped_pheads(),
-        ),
-        baca.hairpin(
-            "mf mp mp p p pp pp",
-            bookend=False,
-            measures=(40, 43),
-            pieces=grouped_pheads(),
-        ),
-        baca.hairpin(
-            "pp pp p mp mf",
-            bookend=False,
-            measures=(44, 47),
-            pieces=grouped_pheads(),
-        ),
-        baca.hairpin(
-            "f mf mp mp p p pp",
-            bookend=False,
-            measures=(48, 51),
-            pieces=grouped_pheads(),
-        ),
-        baca.hairpin(
-            # "pp p mp mf f ff",
-            "pp p mp mf f",
-            bookend=False,
-            measures=(52, 55),
-            pieces=grouped_pheads(None, -1),
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (36, 59)),
-        baca.circle_bow_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            qualifier="wide",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (56, 59)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.hairpin(
-            '"ff" -- !',
-            abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleak(
-                baca.select.lleak(abjad.select.leaves(_))
+    for name in ["v1", "v2", "va", "vc"]:
+        m = cache[name]
+        with baca.scope(m.leaves()) as o:
+            baca.dls_staff_padding_function(o.leaves(), 6)
+        with baca.scope(m.get(1, 4)) as o:
+            baca.circle_bow_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                qualifier="tight-poss-grind-at-talon",
+            )
+            baca.damp_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(r"- \tweak staff-padding 8"),
+            )
+            baca.flat_glissando_function(o, "G4")
+            baca.hairpin_function(
+                o.rleaves(),
+                '"ff" -- !',
+                abjad.Tweak(r"- \tweak to-barline ##t"),
+            )
+        with baca.scope(m.get(7, 10)) as o:
+            baca.circle_bow_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                qualifier="tight-poss-grind-at-talon",
+            )
+            baca.damp_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(r"- \tweak staff-padding 8"),
+            )
+            baca.hairpin_function(
+                o.rleaves(),
+                "p -- !",
+                abjad.Tweak(r"- \tweak to-barline ##t"),
+            )
+        with baca.scope(m.get(7, 10)) as o:
+            if name == "v1":
+                baca.flat_glissando_function(o, "Bb4")
+            elif name == "v2":
+                baca.flat_glissando_function(o, "G4", stop_pitch="A4")
+            elif name == "va":
+                baca.flat_glissando_function(o, "Bb4")
+            elif name == "vc":
+                baca.flat_glissando_function(o, "Bb4")
+        with baca.scope(m.get(12, 15)) as o:
+            baca.dynamic_function(
+                o.phead(0),
+                "p-ancora",
+                abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            )
+            baca.text_spanner_function(
+                o.rleaves(),
+                r"\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|",
+                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                autodetect_right_padding=True,
+                bookend=False,
+                pieces=lambda _: baca.select.omgroups(_, [2]),
+            )
+        with baca.scope(m.get(12, 27)) as o:
+            baca.breathe_function(o.pleaf(-1))
+            baca.damp_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(r"- \tweak staff-padding 8"),
+            )
+        with baca.scope(m.get(16, 19)) as o:
+            baca.dynamic_function(o.phead(0), "p", redundant=True)
+            baca.text_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                r"\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|",
+                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                autodetect_right_padding=True,
+                bookend=False,
+                pieces=lambda _: baca.select.omgroups(_, [2]),
             ),
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (62, 69)),
-        baca.circle_bow_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            qualifier="wide",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.hairpin(
-            "p -- !",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.new(
-            baca.pitch("B5"),
-            match=0,
-        ),
-        baca.new(
-            baca.pitch("B4"),
-            match=1,
-        ),
-        baca.new(
-            baca.pitch("B3"),
-            match=2,
-        ),
-        baca.new(
-            baca.pitch("B1"),
-            match=3,
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], [62, 64, 66, 68]),
-        baca.laissez_vibrer(
-            selector=lambda _: baca.select.ptails(_),
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], [63, 65, 67, 69]),
-        baca.stop_on_string(
-            selector=lambda _: baca.select.ptails(_),
-        ),
-    )
-    accumulator(
-        ("v1", (71, 76)),
-        baca.flat_glissando(
-            "Bb4",
-            stop_pitch="G4",
-        ),
-    )
-    accumulator(
-        ("v2", (71, 76)),
-        baca.flat_glissando(
-            "Ab4",
-            stop_pitch="F4",
-        ),
-    )
-    accumulator(
-        ("va", (71, 76)),
-        baca.flat_glissando(
-            "A3",
-            stop_pitch="B2",
-        ),
-    )
-    accumulator(
-        ("vc", (71, 76)),
-        baca.flat_glissando(
-            "G2",
-            stop_pitch="Bb1",
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (71, 76)),
-        baca.hairpin(
-            "f >o niente",
-            abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.text_spanner(
-            r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            # spanner terminates at double bar:
-            (abjad.Tweak(r"- \tweak bound-details.right.padding 7.75"), -1),
-            bookend=False,
-            pieces=lambda _: baca.select.mgroups(_, [3, 3 + 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
+        with baca.scope(m.get(20, 23)) as o:
+            baca.dynamic_function(o.phead(0), "p", redundant=True)
+            baca.text_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
+                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                library.left_broken_circle_bow_tweak(),
+                autodetect_right_padding=True,
+                bookend=False,
+                pieces=lambda _: baca.select.omgroups(_, [2]),
+            )
+        with baca.scope(m.get(24, 27)) as o:
+            baca.dynamic_function(o.phead(0), "p", redundant=True)
+            baca.circle_bow_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                qualifier="wide",
+            )
+        with baca.scope(m.get(30, 33)) as o:
+            baca.circle_bow_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                qualifier="wide",
+            )
+            baca.damp_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(r"- \tweak staff-padding 8"),
+            )
+            baca.hairpin_function(
+                o,
+                "mf mf mp p pp pp",
+                bookend=False,
+                pieces=lambda _: baca.select.runs(_),
+            )
+        with baca.scope(m.get(36, 39)) as o:
+            baca.hairpin_function(
+                o,
+                "pp pp p p mp mp",
+                bookend=False,
+                pieces=grouped_pheads(),
+            )
+        with baca.scope(m.get(40, 43)) as o:
+            baca.hairpin_function(
+                o,
+                "mf mp mp p p pp pp",
+                bookend=False,
+                pieces=grouped_pheads(),
+            )
+        with baca.scope(m.get(44, 47)) as o:
+            baca.hairpin_function(
+                o,
+                "pp pp p mp mf",
+                bookend=False,
+                pieces=grouped_pheads(),
+            )
+        with baca.scope(m.get(48, 51)) as o:
+            baca.hairpin_function(
+                o,
+                "f mf mp mp p p pp",
+                bookend=False,
+                pieces=grouped_pheads(),
+            )
+        with baca.scope(m.get(52, 55)) as o:
+            baca.hairpin_function(
+                o,
+                # "pp p mp mf f ff",
+                "pp p mp mf f",
+                bookend=False,
+                pieces=grouped_pheads(None, -1),
+            )
+        with baca.scope(m.get(36, 59)) as o:
+            baca.circle_bow_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                qualifier="wide",
+            )
+        with baca.scope(m.get(56, 59)) as o:
+            baca.breathe_function(o.pleaf(-1))
+            baca.hairpin_function(
+                baca.select.rleak(baca.select.lleak(o.leaves())),
+                '"ff" -- !',
+                abjad.Tweak(r"- \tweak to-barline ##t"),
+            )
+        with baca.scope(m.get(62, 69)) as o:
+            baca.circle_bow_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                qualifier="wide",
+            )
+            baca.hairpin_function(
+                o.rleaves(),
+                "p -- !",
+                abjad.Tweak(r"- \tweak to-barline ##t"),
+            )
+            pitch = {
+                "v1": "B5",
+                "v2": "B4",
+                "va": "B3",
+                "vc": "B1",
+            }[name]
+            baca.pitch_function(o, pitch)
+        for n in [62, 64, 66, 68]:
+            with baca.scope(m[n]) as o:
+                baca.laissez_vibrer_function(o.ptails())
+        for n in [63, 65, 67, 69]:
+            with baca.scope(m[n]) as o:
+                baca.stop_on_string_function(o.ptails())
+        with baca.scope(m.get(71, 76)) as o:
+            pitch, stop_pitch = {
+                "v1": ("Bb4", "G4"),
+                "v2": ("Ab4", "F4"),
+                "va": ("A3", "B2"),
+                "vc": ("G2", "Bb1"),
+            }[name]
+            baca.flat_glissando_function(o, pitch, stop_pitch=stop_pitch)
+        with baca.scope(m.get(71, 76)) as o:
+            baca.hairpin_function(
+                o.rleaves(),
+                "f >o niente",
+                abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
+            )
+            baca.text_spanner_function(
+                o.rleaves(),
+                r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
+                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                # spanner terminates at double bar:
+                (abjad.Tweak(r"- \tweak bound-details.right.padding 7.75"), -1),
+                bookend=False,
+                pieces=lambda _: baca.select.mgroups(_, [3, 3 + 1]),
+            )
 
 
-def vc(m, accumulator):
-    accumulator(
-        "vc",
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        ("vc", (1, 35)),
-        baca.tuplet_bracket_down(),
-    )
-    accumulator(
-        ("vc", 5),
-        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.hairpin(
+def vc(cache):
+    m = cache["vc"]
+    with baca.scope(m.leaves()) as o:
+        baca.clef_function(o.leaf(0), "treble")
+    with baca.scope(m.get(1, 35)) as o:
+        baca.tuplet_bracket_down_function(o)
+    with baca.scope(m[5]) as o:
+        baca.pitch_function(o, "B1")
+        baca.clef_function(o.leaf(0), "bass")
+        baca.hairpin_function(
+            o.rleaves(),
             "o< f >o niente",
             pieces=library.rleaves_partition_by_counts([1, 1, 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.pitch("B1"),
-        library.clouded_pane_spanner(
+        )
+        library.clouded_pane_spanner_function(
+            o.rleaves(),
             "clouded pane (pane / urtext) -|",
             5.5,
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("vc", 7),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        ("vc", 12),
-        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        ("vc", [(12, 23), (30, 59)]),
-        baca.pitch("Bb2"),
-    )
-    accumulator(
-        ("vc", (24, 27)),
-        baca.flat_glissando("Bb2"),
-    )
-    accumulator(
-        ("vc", (28, 29)),
-        baca.flat_glissando("E2"),
-        baca.hairpin(
+        )
+    with baca.scope(m[7]) as o:
+        baca.clef_function(o.leaf(0), "treble")
+    with baca.scope(m[12]) as o:
+        baca.clef_function(o.leaf(0), "bass")
+    for item in [(12, 23), (30, 59)]:
+        with baca.scope(m.get(item)) as o:
+            baca.pitch_function(o, "Bb2")
+    with baca.scope(m.get(24, 27)) as o:
+        baca.flat_glissando_function(o, "Bb2")
+    with baca.scope(m.get(28, 29)) as o:
+        baca.flat_glissando_function(o, "E2")
+        baca.hairpin_function(
+            o.rleaves(),
             "pp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        library.clouded_pane_spanner(
-            "clouded pane (beacon) -|", 5.5, selector=lambda _: baca.select.rleaves(_)
-        ),
-    )
-    accumulator(
-        ("vc", (34, 35)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.flat_glissando("E2", allow_repitch=True),
-        baca.hairpin(
+        )
+        library.clouded_pane_spanner_function(
+            o.rleaves(), "clouded pane (beacon) -|", 5.5
+        )
+    with baca.scope(m.get(34, 35)) as o:
+        baca.breathe_function(o.pleaf(-1))
+        baca.flat_glissando_function(o, "E2", allow_repitch=True)
+        baca.hairpin_function(
+            o.rleaves(),
             "p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        library.clouded_pane_spanner(
-            "clouded pane (beacon) -|", 5.5, selector=lambda _: baca.select.rleaves(_)
-        ),
-    )
-    accumulator(
-        ("vc", (36, 59)),
-        baca.new(
-            baca.tie(selector=lambda _: baca.select.lleaf(_, 0)),
-            measures=56,
-        ),
-        baca.articulations(
+        )
+        library.clouded_pane_spanner_function(
+            o.rleaves(), "clouded pane (beacon) -|", 5.5
+        )
+    with baca.scope(m[56]) as o:
+        baca.tie_function(o.lleaf(0))
+    with baca.scope(m.get(36, 59)) as o:
+        baca.articulations_function(
+            o.pheads(),
             [
                 abjad.Articulation("baca-damp"),
                 abjad.Articulation("baca-double-diamond"),
                 None,
             ],
-            selector=lambda _: baca.select.pheads(_),
-        ),
-        baca.new(
-            baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
-            map=lambda _: abjad.select.get(baca.select.plts(_), [2], 3),
-        ),
-    )
-    accumulator(
-        (["vc", "vcr"], 60),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
-    accumulator(
-        ("vc", 61),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
-    accumulator(
-        ("vc", (71, 76)),
-        baca.tuplet_bracket_staff_padding(0.5),
-    )
+        )
+        for plt in abjad.select.get(baca.select.plts(o), [2], 3):
+            baca.note_head_style_harmonic_function(plt)
+    with baca.scope(cache["vcr"][60]) as o:
+        baca.tacet_function(o.mmrests())
+    with baca.scope(m[61]) as o:
+        baca.tacet_function(o.mmrests())
+    with baca.scope(m.get(71, 76)) as o:
+        baca.tuplet_bracket_staff_padding_function(o, 0.5)
 
 
 def make_score(first_measure_number, previous_persistent_indicators):
@@ -1148,12 +995,12 @@ def make_score(first_measure_number, previous_persistent_indicators):
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    v1(cache["v1"], accumulator)
-    v2(cache["v2"], accumulator)
-    va(cache["va"], accumulator)
-    vns_va(cache, accumulator)
-    tutti(cache, accumulator)
-    vc(cache["vc"], accumulator)
+    v1(cache)
+    v2(cache)
+    va(cache)
+    v1_v2_va(cache)
+    tutti(cache)
+    vc(cache)
     return score, accumulator
 
 
@@ -1174,7 +1021,6 @@ def main():
             baca.tags.STAGE_NUMBER,
         ],
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[11, 70, 77],
         first_measure_number=first_measure_number,
