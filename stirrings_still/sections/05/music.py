@@ -1295,138 +1295,104 @@ def va_vc(cache):
             )
 
 
-def vc(m, accumulator):
-    accumulator(
-        ("vc", [(1, 2), (6, 27)]),
-        baca.new(
-            baca.flat_glissando(
-                "F2",
-                hide_middle_stems=True,
-                left_broken=True,
-            ),
-            match=0,
-        ),
-        baca.new(
-            baca.flat_glissando(
-                "F2",
-                hide_middle_stems=True,
-            ),
-            match=1,
-        ),
-    )
-    accumulator(
-        ("vc", (1, 27)),
-        library.clouded_pane_spanner(
-            "clouded pane (continues) -|", 8, selector=lambda _: baca.select.rleaves(_)
-        ),
-    )
-    accumulator(
-        ("vc", (4, 5)),
-        baca.dynamic_text_self_alignment_x(
-            -0.75,
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        baca.hairpin(
-            "ff > p",
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
-        baca.pitch("Gb2"),
-        baca.text_spanner(
+def vc(cache):
+    m = cache["vc"]
+    with baca.scope(m.get(1, 2)) as o:
+        baca.flat_glissando_function(
+            o,
+            "F2",
+            hide_middle_stems=True,
+            left_broken=True,
+        )
+    with baca.scope(m.get(6, 27)) as o:
+        baca.flat_glissando_function(
+            o,
+            "F2",
+            hide_middle_stems=True,
+        )
+    with baca.scope(m.get(1, 27)) as o:
+        library.clouded_pane_spanner_function(
+            o.rleaves(), "clouded pane (continues) -|", 8
+        )
+    with baca.scope(m.get(4, 5)) as o:
+        baca.dynamic_text_self_alignment_x_function(o.leaf(0), -0.75)
+        baca.hairpin_function(o.rleaves(), "ff > p")
+        baca.note_head_style_harmonic_function(o.pleaves())
+        baca.pitch_function(o, "Gb2")
+        baca.text_spanner_function(
+            o.rleaves(),
             "overpressure harmonic -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("vc", (20, 27)),
-        baca.hairpin(
+        )
+    with baca.scope(m.get(20, 27)) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "p < fff-poco-scratch -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             pieces=lambda _: baca.select.mgroups(_, [4, 4 + 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.new(
-            baca.dynamic_text_self_alignment_x(-0.75),
-            measures=24,
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-    )
-    accumulator(
-        (["vc", "vcr"], (28, 40)),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
-    accumulator(
-        ("vc", (63, 80)),
-        baca.hairpin(
+        )
+    with baca.scope(m[24]) as o:
+        baca.dynamic_text_self_alignment_x_function(o.leaf(0), -0.75)
+    with baca.scope(m.get(28, 40)) as o:
+        baca.tacet_function(o.mmrests())
+    with baca.scope(cache["vcr"].get(28, 40)) as o:
+        baca.tacet_function(o.mmrests())
+    with baca.scope(m.get(63, 64)) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "niente o< p",
-            measures=(63, 64),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        library.clouded_pane_spanner(
-            "clouded pane (down) -|", 5.5, selector=lambda _: baca.select.rleaves(_)
-        ),
-        baca.flat_glissando(
+        )
+    with baca.scope(m.get(63, 80)) as o:
+        library.clouded_pane_spanner_function(
+            o.rleaves(), "clouded pane (down) -|", 5.5
+        )
+        baca.flat_glissando_function(
+            o,
             "D2",
             hide_middle_stems=True,
-        ),
-    )
-    accumulator(
-        ("vc", (82, 88)),
-        library.clouded_pane_spanner(
+        )
+    with baca.scope(m.get(82, 88)) as o:
+        library.clouded_pane_spanner_function(
+            o.rleaves(),
             "clouded pane (continues) -|",
             5.5,
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.flat_glissando(
+        )
+        baca.flat_glissando_function(
+            o,
             "D2",
             hide_middle_stems=True,
-        ),
-    )
-    accumulator(
-        ("vc", (109, 115)),
-        baca.hairpin(
+        )
+    with baca.scope(m.get(109, 115)) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "p -- ! >o niente",
             pieces=lambda _: baca.select.mgroups(_, [3, 4 + 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        library.clouded_pane_spanner(
+        )
+        library.clouded_pane_spanner_function(
+            o.rleaves(),
             "clouded pane (continues) -|",
             5.5,
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.flat_glissando(
-            "D2",
-            hide_middle_stems=True,
-        ),
-    )
-    accumulator(
-        (["vc", "vcr"], 116),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
-    accumulator(
-        ("vc", 117),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
-    accumulator(
-        ("vc", (118, 127)),
-        baca.hairpin(
-            "o< p",
-            measures=(118, 119),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        library.clouded_pane_spanner(
+        )
+        baca.flat_glissando_function(o, "D2", hide_middle_stems=True)
+    with baca.scope(cache["vcr"][116]) as o:
+        baca.tacet_function(o.mmrests())
+    with baca.scope(m[117]) as o:
+        baca.tacet_function(o.mmrests())
+    with baca.scope(m.get(118, 119)) as o:
+        baca.hairpin_function(o.rleaves(), "o< p")
+    with baca.scope(m.get(118, 127)) as o:
+        library.clouded_pane_spanner_function(
+            # TODO: extend to phantom measure
+            o.rleaves(),
             "clouded pane (stepwise above) -|",
             5.5,
-            # TODO: extend to phantom measure
-            selector=lambda _: baca.select.leaves(_),
-        ),
-        baca.flat_glissando(
+        )
+        baca.flat_glissando_function(
+            o,
             "Eb2",
             hide_middle_stems=True,
             right_broken=True,
-        ),
-    )
+        )
 
 
 def make_score(first_measure_number, previous_persistent_indicators):
@@ -1462,7 +1428,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     v2(cache)
     va(cache)
     va_vc(cache)
-    vc(cache["vc"], accumulator)
+    vc(cache)
     return score, accumulator
 
 
@@ -1483,7 +1449,6 @@ def main():
             baca.tags.STAGE_NUMBER,
         ],
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[41, 86, 111],
         first_measure_number=first_measure_number,
