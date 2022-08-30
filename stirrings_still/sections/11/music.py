@@ -632,70 +632,49 @@ def v1(cache):
         )
 
 
-def tutti(cache, accumulator):
-    accumulator(
-        ["v1", "v2", "va", "vc"],
-        baca.dls_staff_padding(6),
-        baca.tuplet_bracket_down(),
-        baca.tuplet_bracket_staff_padding(1.5),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (1, 2)),
-        baca.hairpin(
-            "pp -- !",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (3, 4)),
-        baca.hairpin(
-            '"f" -- !',
-            abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (24, 31)),
-        baca.text_spanner(
-            "each time more ponticello =|",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
-            autodetect_right_padding=True,
-            bookend=False,
-            lilypond_id=2,
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (32, 37)),
-        baca.text_spanner(
-            "each time less ponticello =|",
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
-            autodetect_right_padding=True,
-            bookend=False,
-            lilypond_id=2,
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-
-
-def vns_va(cache, accumulator):
-    accumulator(
-        (["v1", "v2", "va"], (46, 53)),
-        baca.stem_transparent(
-            selector=lambda _: baca.select.leaves(_)[:-1],
-        ),
-    )
-
-
-def vns_vc(cache, accumulator):
-    accumulator(
-        (["v1", "v2", "vc"], (5, 17)),
-        baca.hairpin(
-            "pp < mp",
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
+def tutti(cache):
+    for name in ["v1", "v2", "va", "vc"]:
+        m = cache[name]
+        with baca.scope(m.leaves()) as o:
+            baca.dls_staff_padding_function(o.leaves(), 6)
+            baca.tuplet_bracket_down_function(o.leaves())
+            baca.tuplet_bracket_staff_padding_function(o.leaves(), 1.5)
+        with baca.scope(m.get(1, 2)) as o:
+            baca.hairpin_function(
+                o.rleaves(),
+                "pp -- !",
+                abjad.Tweak(r"- \tweak to-barline ##t"),
+            )
+        with baca.scope(m.get(3, 4)) as o:
+            baca.hairpin_function(
+                o.rleaves(),
+                '"f" -- !',
+                abjad.Tweak(r"- \tweak to-barline ##t"),
+            )
+        with baca.scope(m.get(5, 17)) as o:
+            if name in ("v1", "v2", "vc"):
+                baca.hairpin_function(o.rleaves(), "pp < mp")
+        with baca.scope(m.get(24, 31)) as o:
+            baca.text_spanner_function(
+                o.rleaves(),
+                "each time more ponticello =|",
+                abjad.Tweak(r"- \tweak staff-padding 8"),
+                autodetect_right_padding=True,
+                bookend=False,
+                lilypond_id=2,
+            )
+        with baca.scope(m.get(32, 37)) as o:
+            baca.text_spanner_function(
+                o.rleaves(),
+                "each time less ponticello =|",
+                abjad.Tweak(r"- \tweak staff-padding 10.5"),
+                autodetect_right_padding=True,
+                bookend=False,
+                lilypond_id=2,
+            )
+        with baca.scope(m.get(46, 53)) as o:
+            if name in ("v1", "v2", "va"):
+                baca.stem_transparent_function(o.leaves()[:-1])
 
 
 def v2(m, accumulator):
@@ -1447,9 +1426,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
         library.voice_abbreviations,
     )
     v1(cache)
-    tutti(cache, accumulator)
-    vns_va(cache, accumulator)
-    vns_vc(cache, accumulator)
+    tutti(cache)
     v2(cache["v2"], accumulator)
     va(cache["va"], accumulator)
     vc(cache["vc"], accumulator)
