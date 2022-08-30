@@ -307,7 +307,6 @@ def main():
             baca.tags.STAGE_NUMBER,
         ],
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         first_measure_number=first_measure_number,
         global_rests_in_topmost_staff=True,

@@ -1129,7 +1129,6 @@ def main():
         ],
         always_make_global_rests=True,
         color_octaves=False,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         first_measure_number=first_measure_number,
         global_rests_in_topmost_staff=True,
