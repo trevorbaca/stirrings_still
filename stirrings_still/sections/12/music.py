@@ -106,348 +106,320 @@ def VC(voice, accumulator):
     voice.extend(music)
 
 
-def v1(m, accumulator):
-    accumulator(
-        "v1",
-        baca.dls_staff_padding(7),
-        baca.tuplet_bracket_down(),
-        library.bcps(
+def v1(cache):
+    m = cache["v1"]
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o.leaves(), 7)
+        baca.tuplet_bracket_down_function(o.leaves())
+    with baca.scope(m.get(1, 2)) as o:
+        library.bcps_function(
+            o.rleaves(),
             -8,
             clt=True,
-            measures=(1, 2),
-            selector=lambda _: baca.select.rleaves(_),
             staff_padding=7,
-        ),
-        library.bcps(
+        )
+    with baca.scope(m.get(4, 6)) as o:
+        library.bcps_function(
+            o.rleaves(),
             -8 - 2,
             clt=True,
-            measures=(4, 6),
-            selector=lambda _: baca.select.rleaves(_),
             staff_padding=7,
-        ),
-        library.bcps(
+        )
+    with baca.scope(m.get(8, 10)) as o:
+        library.bcps_function(
+            o.rleaves(),
             -8 - 4,
             clt=True,
-            measures=(8, 10),
-            selector=lambda _: baca.select.rleaves(_),
             staff_padding=7,
-        ),
-        library.bcps(
+        )
+    with baca.scope(m.get(12, 14)) as o:
+        library.bcps_function(
+            o.rleaves(),
             -8 - 6,
             clt=True,
-            measures=(12, 14),
-            selector=lambda _: baca.select.rleaves(_),
             staff_padding=7,
-        ),
-    )
-    accumulator(
-        ("v1", (1, 2)),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m.get(1, 2)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("G6", None)],
             "Bqf5",
             rleak_final_stage=True,
         ),
-    )
-    accumulator(
-        ("v1", [(1, 2), (4, 6), (8, 10), (12, 14)]),
-        baca.half_clt_spanner(
-            abjad.Tweak(rf"- \tweak staff-padding {7 + 6.5}"),
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-    )
-    accumulator(
-        ("v1", [3, 7, 11, 15]),
-        baca.flat_glissando(
-            "Bqf5",
-            rleak=True,
-        ),
-    )
-    accumulator(
-        ("v1", (4, 6)),
-        library.multistage_leaf_glissando(
+    for item in [(1, 2), (4, 6), (8, 10), (12, 14)]:
+        with baca.scope(m.get(item)) as o:
+            baca.half_clt_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(rf"- \tweak staff-padding {7 + 6.5}"),
+            )
+    for n in [3, 7, 11, 15]:
+        with baca.scope(m[n]) as o:
+            baca.flat_glissando_function(baca.select.rleak(o), "Bqf5")
+    with baca.scope(m[4]) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("Bqf5", None)],
             "G6",
-            measures=4,
             rleak_final_stage=True,
-        ),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m.get(5, 6)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("G6", None)],
             "Bqf5",
-            measures=(5, 6),
             rleak_final_stage=True,
-        ),
-    )
-    accumulator(
-        ("v1", (8, 10)),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m[8]) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("Bqf5", None)],
             "G6",
-            measures=8,
             rleak_final_stage=True,
-        ),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m.get(9, 10)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("G6", None)],
             "Bqf5",
-            measures=(9, 10),
             rleak_final_stage=True,
-        ),
-    )
-    accumulator(
-        ("v1", (12, 14)),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m[12]) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("Bqf5", None)],
             "G6",
-            measures=12,
             rleak_final_stage=True,
         ),
-        library.multistage_leaf_glissando(
+    with baca.scope(m.get(13, 14)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("G6", None)],
             "Bqf5",
-            measures=(13, 14),
             rleak_final_stage=True,
         ),
-    )
 
 
-def vns_va(cache, accumulator):
-    accumulator(
-        ["v1", "v2", "va"],
-        baca.hairpin(
-            '"f" > p p < "ff" > p p < "fff" > p p < "fff" >o !',
-            pieces=lambda _: baca.select.mgroups(_, [2, 1, 1, 2, 1, 1, 2, 1, 1, 4 + 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
+def v1_v2_va(cache):
+    for name in ["v1", "v2", "va"]:
+        with baca.scope(cache[name].leaves()) as o:
+            baca.hairpin_function(
+                o.rleaves(),
+                '"f" > p p < "ff" > p p < "fff" > p p < "fff" >o !',
+                pieces=lambda _: baca.select.mgroups(
+                    _, [2, 1, 1, 2, 1, 1, 2, 1, 1, 4 + 1]
+                ),
+            )
 
 
-def v2(m, accumulator):
-    accumulator(
-        "v2",
-        baca.dls_staff_padding(7),
-        baca.tuplet_bracket_down(),
-        library.bcps(
+def v2(cache):
+    m = cache["v2"]
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o.leaves(), 7)
+        baca.tuplet_bracket_down_function(o.leaves())
+    with baca.scope(m.get(1, 2)) as o:
+        library.bcps_function(
+            o.rleaves(),
             -7,
             clt=True,
-            measures=(1, 2),
-            selector=lambda _: baca.select.rleaves(_),
             staff_padding=4,
-        ),
-        library.bcps(
+        )
+    with baca.scope(m.get(4, 6)) as o:
+        library.bcps_function(
+            o.rleaves(),
             -7 - 2,
             clt=True,
-            measures=(4, 6),
-            selector=lambda _: baca.select.rleaves(_),
             staff_padding=4,
-        ),
-        library.bcps(
+        )
+    with baca.scope(m.get(8, 10)) as o:
+        library.bcps_function(
+            o.rleaves(),
             -7 - 4,
             clt=True,
-            measures=(8, 10),
-            selector=lambda _: baca.select.rleaves(_),
             staff_padding=4,
-        ),
-        library.bcps(
+        )
+    with baca.scope(m.get(12, 14)) as o:
+        library.bcps_function(
+            o.rleaves(),
             -7 - 6,
             clt=True,
-            measures=(12, 14),
-            selector=lambda _: baca.select.rleaves(_),
             staff_padding=4,
-        ),
-    )
-    accumulator(
-        ("v2", (1, 2)),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m.get(1, 2)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("A5", None)],
             "Eb5",
             rleak_final_stage=True,
-        ),
-    )
-    accumulator(
-        ("v2", [(1, 2), (4, 6), (8, 10), (12, 14)]),
-        baca.half_clt_spanner(
-            abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-    )
-    accumulator(
-        ("v2", [3, 7, 11, 15]),
-        baca.flat_glissando(
-            "Eb5",
-            rleak=True,
-        ),
-    )
-    accumulator(
-        ("v2", (4, 6)),
-        library.multistage_leaf_glissando(
+        )
+    for item in [(1, 2), (4, 6), (8, 10), (12, 14)]:
+        with baca.scope(m.get(item)) as o:
+            baca.half_clt_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            )
+    for n in [3, 7, 11, 15]:
+        with baca.scope(m[n]) as o:
+            baca.flat_glissando_function(baca.select.rleak(o), "Eb5")
+    with baca.scope(m.get(4)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("Eb5", None)],
             "A5",
-            measures=4,
             rleak_final_stage=True,
-        ),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m.get(5, 6)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("A5", None)],
             "Eb5",
-            measures=(5, 6),
             rleak_final_stage=True,
-        ),
-    )
-    accumulator(
-        ("v2", (8, 10)),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m.get(8)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("Eb5", None)],
             "A5",
-            measures=8,
             rleak_final_stage=True,
-        ),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m.get(9, 10)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("A5", None)],
             "Eb5",
-            measures=(9, 10),
             rleak_final_stage=True,
-        ),
-    )
-    accumulator(
-        ("v2", (12, 14)),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m.get(12)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("Eb5", None)],
             "A5",
-            measures=12,
             rleak_final_stage=True,
-        ),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m.get(13, 14)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("A5", None)],
             "Eb5",
-            measures=(13, 14),
             rleak_final_stage=True,
-        ),
-    )
+        )
 
 
-def va(m, accumulator):
-    accumulator(
-        "va",
-        baca.dls_staff_padding(7),
-        baca.tuplet_bracket_down(),
-        baca.tuplet_bracket_staff_padding(1.5),
-        library.bcps(
+def va(cache):
+    m = cache["va"]
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o.leaves(), 7)
+        baca.tuplet_bracket_down_function(o.leaves())
+        baca.tuplet_bracket_staff_padding_function(o.leaves(), 1.5)
+    with baca.scope(m.get(1, 2)) as o:
+        library.bcps_function(
+            o.rleaves(),
             -6,
             clt=True,
-            measures=(1, 2),
-            selector=lambda _: baca.select.rleaves(_),
             staff_padding=3,
-        ),
-        library.bcps(
+        )
+    with baca.scope(m.get(4, 6)) as o:
+        library.bcps_function(
+            o.rleaves(),
             -6 - 2,
             clt=True,
-            measures=(4, 6),
-            selector=lambda _: baca.select.rleaves(_),
             staff_padding=3,
-        ),
-        library.bcps(
+        )
+    with baca.scope(m.get(8, 10)) as o:
+        library.bcps_function(
+            o.rleaves(),
             -6 - 4,
             clt=True,
-            measures=(8, 10),
-            selector=lambda _: baca.select.rleaves(_),
             staff_padding=3,
-        ),
-        library.bcps(
+        )
+    with baca.scope(m.get(12, 14)) as o:
+        library.bcps_function(
+            o.rleaves(),
             -6 - 6,
             clt=True,
-            measures=(12, 14),
-            selector=lambda _: baca.select.rleaves(_),
             staff_padding=3,
-        ),
-    )
-    accumulator(
-        ("va", (1, 2)),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m.get(1, 2)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("D3", None)],
             "F3",
             rleak_final_stage=True,
         ),
-    )
-    accumulator(
-        ("va", [(1, 2), (4, 6), (8, 10), (12, 14)]),
-        baca.half_clt_spanner(
-            abjad.Tweak(rf"- \tweak staff-padding {3 + 6.5}"),
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-    )
-    accumulator(
-        ("va", [3, 7, 11, 15]),
-        baca.flat_glissando(
-            "F3",
-            rleak=True,
-        ),
-    )
-    accumulator(
-        ("va", (4, 6)),
-        library.multistage_leaf_glissando(
+    for item in [(1, 2), (4, 6), (8, 10), (12, 14)]:
+        with baca.scope(m.get(item)) as o:
+            baca.half_clt_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(rf"- \tweak staff-padding {3 + 6.5}"),
+            )
+    for n in [3, 7, 11, 15]:
+        with baca.scope(m[n]) as o:
+            baca.flat_glissando_function(baca.select.rleak(o), "F3")
+    with baca.scope(m.get(4)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("F3", None)],
             "D3",
-            measures=4,
             rleak_final_stage=True,
-        ),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m.get(5, 6)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("D3", None)],
             "F3",
-            measures=(5, 6),
             rleak_final_stage=True,
-        ),
-    )
-    accumulator(
-        ("va", (8, 10)),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m.get(8)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("F3", None)],
             "D3",
-            measures=8,
             rleak_final_stage=True,
-        ),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m.get(9, 10)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("D3", None)],
             "F3",
-            measures=(9, 10),
             rleak_final_stage=True,
-        ),
-    )
-    accumulator(
-        ("va", (12, 14)),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m.get(12)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("F3", None)],
             "D3",
-            measures=12,
             rleak_final_stage=True,
-        ),
-        library.multistage_leaf_glissando(
+        )
+    with baca.scope(m.get(13, 14)) as o:
+        library.multistage_leaf_glissando_function(
+            o,
             [("D3", None)],
             "F3",
-            measures=(13, 14),
             rleak_final_stage=True,
-        ),
-    )
+        )
 
 
-def vc(m, accumulator):
-    accumulator(
-        "vc",
-        baca.dls_staff_padding(5),
-        baca.flat_glissando(
+def vc(cache):
+    m = cache["vc"]
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o.leaves(), 5)
+        baca.flat_glissando_function(
+            o.leaves(),
             "Db2",
             hide_middle_stems=True,
             left_broken=True,
-        ),
-        baca.hairpin(
-            "p < ff ff > p < ff ff > p < fff fff > p < fff",
-            measures=(1, 15),
-            pieces=lambda _: baca.select.cmgroups(_, [2, 1, 1]),
-        ),
-        library.clouded_pane_spanner(
+        )
+        library.clouded_pane_spanner_function(
+            # TODO: extend to phantom measure
+            o.leaves(),
             "clouded pane (continues) -|",
             5.5,
-            # TODO: extend to phantom measure
-            selector=lambda _: baca.select.leaves(_),
-        ),
-    )
+        )
+    with baca.scope(m.get(1, 15)) as o:
+        baca.hairpin_function(
+            o,
+            "p < ff ff > p < ff ff > p < fff fff > p < fff",
+            pieces=lambda _: baca.select.cmgroups(_, [2, 1, 1]),
+        )
 
 
 def make_score(first_measure_number, previous_persistent_indicators):
@@ -477,11 +449,11 @@ def make_score(first_measure_number, previous_persistent_indicators):
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    v1(cache["v1"], accumulator)
-    vns_va(cache, accumulator)
-    v2(cache["v2"], accumulator)
-    va(cache["va"], accumulator)
-    vc(cache["vc"], accumulator)
+    v1(cache)
+    v1_v2_va(cache)
+    v2(cache)
+    va(cache)
+    vc(cache)
     return score, accumulator
 
 
@@ -502,7 +474,6 @@ def main():
             baca.tags.STAGE_NUMBER,
         ],
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         first_measure_number=first_measure_number,
         global_rests_in_topmost_staff=True,
