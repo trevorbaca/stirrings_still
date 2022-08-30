@@ -3479,6 +3479,50 @@ def transition_bcps(*, final_spanner=False, staff_padding=None):
     return result
 
 
+def transition_bcps_function(argument, *, final_spanner=False, staff_padding=None):
+    assert staff_padding is not None, repr(staff_padding)
+    bcps = [
+        (1, 7),
+        (3, 7),
+        (1, 7),
+        (4, 7),
+        (1, 7),
+        (5, 7),
+        (1, 7),
+        (6, 7),
+        (1, 7),
+        (7, 7),
+    ]
+    pad = [(1, 7), (7, 7)]
+
+    def helper(padded_bcps, argument):
+        result = []
+        for leaves in baca.select.cmgroups(argument):
+            if len(bcps) < len(leaves):
+                suffix = abjad.sequence.repeat_to_length(pad, len(leaves) - len(bcps))
+                bcps_ = bcps + suffix
+            else:
+                bcps_ = bcps[: len(leaves)]
+            assert len(bcps_) == len(leaves)
+            result.extend(bcps_)
+        return result
+
+    wrappers = baca.bcps_function(
+        argument,
+        bcps,
+        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
+        bow_change_tweaks=(
+            abjad.Tweak(r"- \tweak self-alignment-X #left"),
+            abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
+        ),
+        final_spanner=final_spanner,
+        helper=helper,
+    )
+    tag = baca.tags.function_name(inspect.currentframe())
+    baca.tags.wrappers(wrappers, tag)
+    return wrappers
+
+
 def urtext_spanner(
     string,
     staff_padding,
