@@ -262,314 +262,214 @@ def VC(voice, accumulator):
     voice.extend(music)
 
 
-def v1(m, accumulator):
-    accumulator(
-        ("v1", [(1, 5), (8, 9), (11, 15), (18, 19)]),
-        baca.flat_glissando(
-            "A4",
-            hide_middle_stems=True,
-            rleak=True,
-        ),
-        baca.tasto_spanner(
-            abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v1", (6, 7)),
-        baca.hairpin(
+def v1(cache):
+    name = "v1"
+    m = cache[name]
+    for item in [(1, 5), (8, 9), (11, 15), (18, 19)]:
+        with baca.scope(m.get(item)) as o:
+            baca.flat_glissando_function(
+                baca.select.rleak(o), "A4", hide_middle_stems=True
+            )
+            baca.tasto_spanner_function(
+                o.rleaves(),
+                abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
+            )
+    with baca.scope(m.get(6, 7)) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "ppppp < p > ppp",
-            pieces=lambda _: baca.select.cmgroups(
-                _,
-            ),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v1", 10),
-        baca.hairpin(
+            pieces=lambda _: baca.select.cmgroups(_),
+        )
+    with baca.scope(m[10]) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "ppp < p > ppppp",
             pieces=lambda _: baca.select.lparts(_, [2, 4, 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v1", [(6, 7), 10, (16, 17), 20]),
-        baca.flat_glissando(
-            "A4",
-            allow_repitch=True,
-            rleak=True,
-        ),
-    )
-    accumulator(
-        ("v1", [(6, 7), 10, (16, 17), (20, 25)]),
-        baca.circle_bow_spanner(
-            abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
-            qualifier="wide-poss",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-    )
-    accumulator(
-        ("v1", (16, 17)),
-        baca.hairpin(
+        )
+    for item in [(6, 7), 10, (16, 17), 20]:
+        with baca.scope(m.get(item)) as o:
+            baca.flat_glissando_function(baca.select.rleak(o), "A4", allow_repitch=True)
+    for item in [(6, 7), 10, (16, 17), (20, 25)]:
+        with baca.scope(m.get(item)) as o:
+            baca.circle_bow_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
+                qualifier="wide-poss",
+            )
+    with baca.scope(m.get(16, 17)) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "ppppp < p > ppp",
-            pieces=lambda _: baca.select.cmgroups(
-                _,
-            ),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v1", 20),
-        baca.hairpin(
+            pieces=lambda _: baca.select.cmgroups(_),
+        )
+    with baca.scope(m[20]) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "ppp < p > ppppp",
             pieces=lambda _: baca.select.lparts(_, [2, 4, 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v1", (21, 25)),
-        baca.beam(selector=lambda _: baca.select.tleaves(_)),
-        baca.flat_glissando(
-            "A4",
-            stop_pitch="Bb5",
-        ),
-    )
+        )
+    with baca.scope(m.get(21, 25)) as o:
+        baca.beam_function(o.tleaves())
+        baca.flat_glissando_function(o, "A4", stop_pitch="Bb5")
 
 
-def tutti(cache, accumulator):
-    accumulator(
-        (["v1", "v2", "va", "vc"], (1, 4)),
-        baca.dynamic("ppppp", selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        ["v1", "v2", "va", "vc"],
-        baca.dls_staff_padding(6),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (1, 20)),
-        baca.dynamic_text_self_alignment_x(
-            -0.75,
-            selector=lambda _: baca.select.leaves(_),
-        ),
-        library.clouded_pane_spanner(
-            "clouded pane -|", 10.5, selector=lambda _: baca.select.rleaves(_)
-        ),
-    )
-    accumulator(
-        (["v1", "v2", "va", "vc"], (21, 25)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-    )
+def tutti(cache):
+    for name in ["v1", "v2", "va", "vc"]:
+        m = cache[name]
+        with baca.scope(m.leaves()) as o:
+            baca.dls_staff_padding_function(o.leaves(), 6)
+            if name in ("v1", "va", "vc"):
+                baca.tuplet_bracket_down_function(o.leaves())
+        with baca.scope(m.get(1, 4)) as o:
+            baca.dynamic_function(o.phead(0), "ppppp")
+        with baca.scope(m.get(1, 20)) as o:
+            baca.dynamic_text_self_alignment_x_function(o.leaves(), -0.75)
+            library.clouded_pane_spanner_function(o.rleaves(), "clouded pane -|", 10.5)
+        with baca.scope(m.get(21, 25)) as o:
+            baca.breathe_function(o.pleaf(-1))
 
 
-def v1_va_vc(cache, accumulator):
-    accumulator(
-        ["v1", "va", "vc"],
-        baca.tuplet_bracket_down(),
-    )
-
-
-def v2(m, accumulator):
-    accumulator(
-        ("v2", [(1, 4), 6, 8, (10, 14), 16, 18]),
-        baca.flat_glissando(
-            "A3",
-            hide_middle_stems=True,
-            rleak=True,
-        ),
-        baca.tasto_spanner(
-            abjad.Tweak(rf"- \tweak staff-padding {v2_spanner_staff_padding}"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v2", [5, 7, 9, 15, 17, 19]),
-        baca.flat_glissando(
-            "A3",
-            allow_repitch=True,
-            rleak=True,
-        ),
-    )
-    accumulator(
-        ("v2", [5, 7, 9, 15, 17, (19, 25)]),
-        baca.circle_bow_spanner(
-            abjad.Tweak(rf"- \tweak staff-padding {v2_spanner_staff_padding}"),
-            qualifier="wide-poss",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-    )
-    accumulator(
-        ("v2", 5),
-        baca.hairpin(
+def v2(cache):
+    name = "v2"
+    m = cache[name]
+    for item in [(1, 4), 6, 8, (10, 14), 16, 18]:
+        with baca.scope(m.get(item)) as o:
+            baca.flat_glissando_function(
+                baca.select.rleak(o), "A3", hide_middle_stems=True
+            )
+            baca.tasto_spanner_function(
+                o.rleaves(),
+                abjad.Tweak(rf"- \tweak staff-padding {v2_spanner_staff_padding}"),
+            )
+    for n in [5, 7, 9, 15, 17, 19]:
+        with baca.scope(m[n]) as o:
+            baca.flat_glissando_function(baca.select.rleak(o), "A3", allow_repitch=True)
+    for item in [5, 7, 9, 15, 17, (19, 25)]:
+        with baca.scope(m.get(item)) as o:
+            baca.circle_bow_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(rf"- \tweak staff-padding {v2_spanner_staff_padding}"),
+                qualifier="wide-poss",
+            )
+    with baca.scope(m[5]) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "ppppp < p > ppp",
             pieces=lambda _: baca.select.lparts(_, [1, 3, 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v2", 7),
-        baca.hairpin(
+        )
+    with baca.scope(m[7]) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "ppp < p > ppp",
             pieces=lambda _: baca.select.lparts(_, [5, 1, 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v2", 9),
-        baca.hairpin(
+        )
+    with baca.scope(m[9]) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "ppp < p > ppppp",
             pieces=lambda _: baca.select.lparts(_, [1, 3, 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v2", 15),
-        baca.hairpin(
+        )
+    with baca.scope(m[15]) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "ppppp < p > pp",
             pieces=lambda _: baca.select.lparts(_, [1, 4, 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v2", 17),
-        baca.hairpin(
+        )
+    with baca.scope(m[17]) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "ppp < p > pp",
             pieces=lambda _: baca.select.lparts(_, [7, 1, 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v2", 19),
-        baca.hairpin(
+        )
+    with baca.scope(m[19]) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "ppp < p > ppppp",
             pieces=lambda _: baca.select.lparts(_, [1, 2, 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v2", (20, 25)),
-        baca.beam(selector=lambda _: baca.select.tleaves(_)),
-        baca.flat_glissando(
-            "A3",
-            stop_pitch="Gb4",
-        ),
-    )
+        )
+    with baca.scope(m.get(20, 25)) as o:
+        baca.beam_function(o.tleaves())
+        baca.flat_glissando_function(o, "A3", stop_pitch="Gb4")
 
 
-def va(m, accumulator):
-    accumulator(
-        ("va", [(1, 7), (11, 17)]),
-        baca.flat_glissando(
-            "A3",
-            hide_middle_stems=True,
-            rleak=True,
-        ),
-        baca.tasto_spanner(
-            abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("va", (8, 10)),
-        baca.hairpin(
+def va(cache):
+    name = "va"
+    m = cache[name]
+    for item in [(1, 7), (11, 17)]:
+        with baca.scope(m.get(item)) as o:
+            baca.flat_glissando_function(
+                baca.select.rleak(o), "A3", hide_middle_stems=True
+            )
+            baca.tasto_spanner_function(
+                o.rleaves(),
+                abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
+            )
+    with baca.scope(m.get(8, 10)) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "ppppp < p > ppppp",
             pieces=lambda _: baca.select.cmgroups(_, [1, 2]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("va", [(8, 10), (18, 20)]),
-        baca.flat_glissando(
-            "A3",
-            allow_repitch=True,
-            rleak=True,
-        ),
-    )
-    accumulator(
-        ("va", [(8, 10), (18, 25)]),
-        baca.circle_bow_spanner(
-            abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
-            qualifier="wide-poss",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-    )
-    accumulator(
-        ("va", (18, 20)),
-        baca.hairpin(
+        )
+    for item in [(8, 10), (18, 20)]:
+        with baca.scope(m.get(item)) as o:
+            baca.flat_glissando_function(baca.select.rleak(o), "A3", allow_repitch=True)
+    for item in [(8, 10), (18, 25)]:
+        with baca.scope(m.get(item)) as o:
+            baca.circle_bow_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
+                qualifier="wide-poss",
+            )
+    with baca.scope(m.get(18, 20)) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "ppppp < p > ppppp",
             pieces=lambda _: baca.select.cmgroups(_, [1, 2]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("va", (21, 25)),
-        baca.beam(selector=lambda _: baca.select.tleaves(_)),
-        baca.flat_glissando(
-            "A3",
-            stop_pitch="B3",
-        ),
-    )
+        )
+    with baca.scope(m.get(21, 25)) as o:
+        baca.beam_function(o.tleaves())
+        baca.flat_glissando_function(o, "A3", stop_pitch="B3")
 
 
-def vc(m, accumulator):
-    accumulator(
-        ("vc", [(1, 5), (9, 15)]),
-        baca.flat_glissando(
-            "A2",
-            hide_middle_stems=True,
-            rleak=True,
-        ),
-        baca.tasto_spanner(
-            abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("vc", (1, 18)),
-        baca.pitch("A2", allow_repitch=True),
-    )
-    accumulator(
-        ("vc", (6, 8)),
-        baca.hairpin(
+def vc(cache):
+    name = "vc"
+    m = cache[name]
+    for item in [(1, 5), (9, 15)]:
+        with baca.scope(m.get(item)) as o:
+            baca.flat_glissando_function(
+                baca.select.rleak(o), "A2", hide_middle_stems=True
+            )
+            baca.tasto_spanner_function(
+                o.rleaves(),
+                abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
+            )
+    with baca.scope(m.get(1, 18)) as o:
+        baca.pitch_function(o, "A2", allow_repitch=True)
+    with baca.scope(m.get(6, 8)) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "ppppp < p > ppppp",
             pieces=lambda _: baca.select.cmgroups(_, [1, 2]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("vc", [(6, 8), (16, 18)]),
-        baca.flat_glissando(
-            "A2",
-            allow_repitch=True,
-            rleak=True,
-        ),
-    )
-    accumulator(
-        ("vc", [(6, 8), (16, 25)]),
-        baca.circle_bow_spanner(
-            abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
-            qualifier="wide-poss",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-    )
-    accumulator(
-        ("vc", (16, 18)),
-        baca.hairpin(
+        )
+    for item in [(6, 8), (16, 18)]:
+        with baca.scope(m.get(item)) as o:
+            baca.flat_glissando_function(baca.select.rleak(o), "A2", allow_repitch=True)
+    for item in [(6, 8), (16, 25)]:
+        with baca.scope(m.get(item)) as o:
+            baca.circle_bow_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
+                qualifier="wide-poss",
+            )
+    with baca.scope(m.get(16, 18)) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "ppppp < p > ppppp",
             pieces=lambda _: baca.select.cmgroups(_, [1, 2]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("vc", (19, 25)),
-        baca.beam(selector=lambda _: baca.select.tleaves(_)),
-        baca.flat_glissando(
-            "A2",
-            stop_pitch="C3",
-        ),
-    )
+        )
+    with baca.scope(m.get(19, 25)) as o:
+        baca.beam_function(o.tleaves())
+        baca.flat_glissando_function(o, "A2", stop_pitch="C3")
 
 
 def make_score(first_measure_number, previous_persistent_indicators):
@@ -599,12 +499,11 @@ def make_score(first_measure_number, previous_persistent_indicators):
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    v1(cache["v1"], accumulator)
-    tutti(cache, accumulator)
-    v1_va_vc(cache, accumulator)
-    v2(cache["v2"], accumulator)
-    va(cache["va"], accumulator)
-    vc(cache["vc"], accumulator)
+    v1(cache)
+    tutti(cache)
+    v2(cache)
+    va(cache)
+    vc(cache)
     return score, accumulator
 
 
@@ -625,7 +524,6 @@ def main():
             baca.tags.STAGE_NUMBER,
         ],
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         first_measure_number=first_measure_number,
         global_rests_in_topmost_staff=True,
