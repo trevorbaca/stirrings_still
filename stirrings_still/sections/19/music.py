@@ -155,154 +155,120 @@ def VC(voice, accumulator):
     voice.extend(music)
 
 
-def v1(m, accumulator):
-    accumulator(
-        "v1",
-        baca.dls_staff_padding(7),
-        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
-    )
-    accumulator(
-        ("v1", [1, (3, 4), (6, 8), (10, 15)]),
-        baca.circle_bow_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            qualifier="wide",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.dynamic_text_self_alignment_x(
-            0.75,
-            selector=lambda _: baca.select.pleaf(_, -1),
-        ),
-        baca.flat_glissando("Bb4"),
-        baca.hairpin(
-            "p > ppp <",
-            pieces=lambda _: baca.select.cmgroups(
-                _,
-            ),
-        ),
-        baca.new(
-            baca.markup(
-                r"\baca-string-iv-markup",
-                direction=abjad.DOWN,
-                selector=lambda _: baca.select.pleaf(_, 0),
-            ),
-            match=0,
-        ),
-    )
+def v1(cache):
+    m = cache["v1"]
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o.leaves(), 7)
+        baca.note_head_style_harmonic_function(baca.select.rleak(o.pleaves()))
+    with baca.scope(m[1]) as o:
+        baca.markup_function(
+            o.pleaf(0),
+            r"\baca-string-iv-markup",
+            direction=abjad.DOWN,
+        )
+    for item in [1, (3, 4), (6, 8), (10, 15)]:
+        with baca.scope(m.get(item)) as o:
+            baca.circle_bow_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(r"- \tweak staff-padding 3"),
+                qualifier="wide",
+            )
+            baca.dynamic_text_self_alignment_x_function(o.pleaf(-1), 0.75)
+            baca.flat_glissando_function(o, "Bb4")
+            baca.hairpin_function(
+                o,
+                "p > ppp <",
+                pieces=lambda _: baca.select.cmgroups(_),
+            )
 
 
-def v2(m, accumulator):
-    accumulator(
-        "v2",
-        baca.dls_staff_padding(6),
-        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
-        baca.tuplet_bracket_down(),
-    )
-    accumulator(
-        ("v2", [1, (3, 4), (6, 8), (10, 15)]),
-        baca.circle_bow_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            qualifier="wide",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.dynamic_text_self_alignment_x(
-            0.75,
-            selector=lambda _: baca.select.pleaf(_, -1),
-        ),
-        baca.flat_glissando("F4"),
-        baca.hairpin(
-            "ppp < p >",
-            pieces=lambda _: baca.select.cmgroups(
-                _,
-            ),
-        ),
-        baca.new(
-            baca.markup(
-                r"\baca-string-iv-markup",
-                direction=abjad.DOWN,
-                selector=lambda _: baca.select.pleaf(_, 0),
-            ),
-            match=0,
-        ),
-    )
+def v2(cache):
+    m = cache["v2"]
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o.leaves(), 6)
+        baca.note_head_style_harmonic_function(baca.select.rleak(o.pleaves()))
+        baca.tuplet_bracket_down_function(o.leaves())
+    with baca.scope(m[1]) as o:
+        baca.markup_function(
+            o.pleaf(0),
+            r"\baca-string-iv-markup",
+            direction=abjad.DOWN,
+        )
+    for item in [1, (3, 4), (6, 8), (10, 15)]:
+        with baca.scope(m.get(item)) as o:
+            baca.circle_bow_spanner_function(
+                baca.select.rleak(baca.select.ltleaves(o)),
+                abjad.Tweak(r"- \tweak staff-padding 3"),
+                qualifier="wide",
+            )
+            baca.dynamic_text_self_alignment_x_function(o.pleaf(-1), 0.75)
+            baca.flat_glissando_function(o, "F4")
+            baca.hairpin_function(
+                o, "ppp < p >", pieces=lambda _: baca.select.cmgroups(_)
+            )
 
 
-def va(m, accumulator):
-    accumulator(
-        ("va", (1, 19)),
-        baca.flat_glissando(
+def va(cache):
+    m = cache["va"]
+    with baca.scope(m.get(1, 19)) as o:
+        baca.flat_glissando_function(
+            o,
             "Bb2",
             hide_middle_stems=True,
             left_broken=True,
-        ),
-    )
+        )
 
 
-def vc(m, accumulator):
-    accumulator(
-        "vc",
-        baca.dls_staff_padding(6),
-    )
-    accumulator(
-        ("vc", 1),
-        baca.flat_glissando("B0"),
-        baca.hairpin("o< mf"),
-        baca.ottava_bassa(selector=lambda _: baca.select.tleaves(_)),
-    )
-    accumulator(
-        ("vc", [(3, 4), (6, 8), (10, 15)]),
-        baca.flat_glissando(
-            "B0",
-            hide_middle_stems=True,
-        ),
-        baca.ottava_bassa(selector=lambda _: baca.select.tleaves(_)),
-    )
-    accumulator(
-        ("vc", (3, 4)),
-        baca.hairpin(
+def vc(cache):
+    m = cache["vc"]
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o.leaves(), 6)
+    with baca.scope(m[1]) as o:
+        baca.flat_glissando_function(o, "B0")
+        baca.hairpin_function(o, "o< mf")
+        baca.ottava_bassa_function(o.tleaves())
+    for item in [(3, 4), (6, 8), (10, 15)]:
+        with baca.scope(m.get(item)) as o:
+            baca.flat_glissando_function(o, "B0", hide_middle_stems=True)
+            baca.ottava_bassa_function(o.tleaves())
+    with baca.scope(m.get(3, 4)) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "o< f -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("vc", (6, 8)),
-        baca.hairpin(
+        )
+    with baca.scope(m.get(6, 8)) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "o< ff -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             pieces=lambda _: baca.select.mgroups(_, [1, 2 + 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("vc", (10, 15)),
-        baca.hairpin(
+        )
+    with baca.scope(m.get(10, 15)) as o:
+        baca.hairpin_function(
+            o.rleaves(),
             "o< fff -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             pieces=lambda _: baca.select.mgroups(_, [2, 4 + 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("vc", 20),
-        baca.literal(
+        )
+    with baca.scope(m[20]) as o:
+        baca.literal_function(
+            o.leaf(0),
             [
                 r"\once \override Score.RehearsalMark.direction = #down",
                 r"\once \override Score.RehearsalMark.padding = 6",
                 r"\once \override Score.RehearsalMark.self-alignment-X = #right",
                 r"\mark \stirrings-still-colophon-markup",
             ],
-            selector=lambda _: abjad.select.leaf(_, 0),
             site="after",
-        ),
-    )
+        )
 
 
-def vns_vc(cache, accumulator):
-    accumulator(
-        (["v1", "v2", "vc"], (17, 19)),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
+def v1_v2_vc(cache):
+    for name in ["v1", "v2", "vc"]:
+        with baca.scope(cache[name].get(17, 19)) as o:
+            baca.tacet_function(o.mmrests())
 
 
 defaults = baca.interpret.section_defaults()
@@ -336,11 +302,11 @@ def make_score(first_measure_number, previous_persistent_indicators):
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    v1(cache["v1"], accumulator)
-    vns_vc(cache, accumulator)
-    v2(cache["v2"], accumulator)
-    va(cache["va"], accumulator)
-    vc(cache["vc"], accumulator)
+    v1(cache)
+    v1_v2_vc(cache)
+    v2(cache)
+    va(cache)
+    vc(cache)
     return score, accumulator
 
 
@@ -361,7 +327,6 @@ def main():
             baca.tags.STAGE_NUMBER,
         ],
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[9, 16, 20],
         final_section=True,
