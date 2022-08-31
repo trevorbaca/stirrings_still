@@ -103,153 +103,137 @@ def VC(voice, accumulator):
     voice.extend(music)
 
 
-def v1(m, accumulator):
-    accumulator(
-        ("v1", (1, 6)),
-        baca.circle_bow_spanner(
+def v1(cache):
+    name = "v1"
+    m = cache[name]
+    with baca.scope(m.get(1, 6)) as o:
+        baca.circle_bow_spanner_function(
+            baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="granulation",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.flat_glissando("Eb4"),
-        baca.hairpin(
+        )
+        baca.flat_glissando_function(o, "Eb4")
+        baca.hairpin_function(
+            o.rleaves(),
             '"mf" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v1", 7),
-        baca.circle_bow_spanner(
+        )
+    with baca.scope(m[7]) as o:
+        baca.circle_bow_spanner_function(
+            baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.flat_glissando("Aqs4"),
-        baca.hairpin(
+        )
+        baca.flat_glissando_function(o, "Aqs4")
+        baca.hairpin_function(
+            o.rleaves(),
             "mf >o niente",
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.markup(
+        )
+        baca.markup_function(
+            o.pleaf(0),
             r"\baca-thirteen-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
+        )
 
 
-def tutti(cache, accumulator):
-    accumulator(
-        ["v1", "v2", "va", "vc"],
-        baca.dls_staff_padding(5),
-        baca.tuplet_bracket_down(),
-    )
+def tutti(cache):
+    for name in ["v1", "v2", "va", "vc"]:
+        with baca.scope(cache[name].leaves()) as o:
+            baca.dls_staff_padding_function(o.leaves(), 5)
+            baca.tuplet_bracket_down_function(o.leaves())
 
 
-def v2(m, accumulator):
-    accumulator(
-        ("v2", (1, 6)),
-        baca.circle_bow_spanner(
+def v2(cache):
+    name = "v2"
+    m = cache[name]
+    with baca.scope(m.get(1, 6)) as o:
+        baca.circle_bow_spanner_function(
+            baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="granulation",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.flat_glissando("D4"),
-        baca.hairpin(
+        )
+        baca.flat_glissando_function(o, "D4")
+        baca.hairpin_function(
+            o.rleaves(),
             '"mf" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("v2", 7),
-        baca.circle_bow_spanner(
+        )
+    with baca.scope(m[7]) as o:
+        baca.circle_bow_spanner_function(
+            baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
-        baca.flat_glissando("Eb4"),
-        baca.hairpin(
-            "mf >o niente",
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.markup(
+        baca.flat_glissando_function(o, "Eb4")
+        baca.hairpin_function(o.rleaves(), "mf >o niente")
+        baca.markup_function(
+            o.pleaf(0),
             r"\baca-nine-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
+        )
 
 
-def va(m, accumulator):
-    accumulator(
-        ("va", (1, 6)),
-        baca.circle_bow_spanner(
+def va(cache):
+    name = "va"
+    m = cache[name]
+    with baca.scope(m.get(1, 6)) as o:
+        baca.circle_bow_spanner_function(
+            baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="granulation",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.flat_glissando("G3"),
-        baca.hairpin(
+        )
+        baca.flat_glissando_function(o, "G3")
+        baca.hairpin_function(
+            o.rleaves(),
             '"mf" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("va", 7),
-        baca.circle_bow_spanner(
+        )
+    with baca.scope(m[7]) as o:
+        baca.circle_bow_spanner_function(
+            baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.flat_glissando("Bqf3"),
-        baca.hairpin(
+        )
+        baca.flat_glissando_function(o, "Bqf3")
+        baca.hairpin_function(
+            o.rleaves(),
             "mf >o niente",
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.markup(
+        )
+        baca.markup_function(
+            o.pleaf(0),
             r"\baca-seven-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
+        )
 
 
-def vc(m, accumulator):
-    accumulator(
-        ("vc", (1, 6)),
-        baca.circle_bow_spanner(
+def vc(cache):
+    name = "vc"
+    m = cache[name]
+    with baca.scope(m.get(1, 6)) as o:
+        baca.circle_bow_spanner_function(
+            baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="granulation",
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.flat_glissando("Ab3"),
-        baca.hairpin(
+        )
+        baca.flat_glissando_function(o, "Ab3")
+        baca.hairpin_function(
+            o.rleaves(),
             '"mf" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("vc", 7),
-        baca.flat_glissando("Db2"),
-        baca.hairpin(
+        )
+    with baca.scope(m[7]) as o:
+        baca.flat_glissando_function(o, "Db2")
+        baca.hairpin_function(
+            o.rleaves(),
             "p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.half_clt_spanner(
+        )
+        baca.half_clt_spanner_function(
+            baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(rf"- \tweak staff-padding {3 + 6.5}"),
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.tuplet_bracket_down(),
-        library.bcps(
-            -4,
-            clt=True,
-            staff_padding=3,
-        ),
-    )
+        )
+        baca.tuplet_bracket_down_function(o)
+        library.bcps_function(o, -4, clt=True, staff_padding=3)
 
 
 def make_score(first_measure_number, previous_persistent_indicators):
@@ -279,11 +263,11 @@ def make_score(first_measure_number, previous_persistent_indicators):
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    v1(cache["v1"], accumulator)
-    tutti(cache, accumulator)
-    v2(cache["v2"], accumulator)
-    va(cache["va"], accumulator)
-    vc(cache["vc"], accumulator)
+    v1(cache)
+    tutti(cache)
+    v2(cache)
+    va(cache)
+    vc(cache)
     return score, accumulator
 
 
@@ -304,7 +288,6 @@ def main():
             baca.tags.STAGE_NUMBER,
         ],
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[8],
         first_measure_number=first_measure_number,
