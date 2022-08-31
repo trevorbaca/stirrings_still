@@ -51,12 +51,7 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_trajectory_rhythm(
-        accumulator.get(1, 8),
-        "C",
-        -1,
-        -2,
-    )
+    music = library.make_trajectory_rhythm(accumulator.get(1, 8), "C", -1, -2)
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 17), head=voice.name)
     voice.extend(music)
@@ -74,124 +69,71 @@ def VC(voice, accumulator):
     voice.extend(music)
 
 
-def v1(m, accumulator):
-    accumulator(
-        "v1",
-        baca.dls_staff_padding(7),
-    )
-    accumulator(
-        ("v1", (1, 8)),
-        baca.half_clt_spanner(
+def v1(cache):
+    m = cache["v1"]
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o, 7)
+    with baca.scope(m.get(1, 8)) as o:
+        baca.half_clt_spanner_function(
+            baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(rf"- \tweak staff-padding {8 + 6}"),
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.tuplet_bracket_down(),
-        library.bcps(
-            -8,
-            clt=True,
-            staff_padding=8,
-        ),
-        baca.flat_glissando(
-            "A6",
-            left_broken=True,
-        ),
-    )
-    accumulator(
-        ("v1", (5, 8)),
-        baca.hairpin(
-            "ppp >o niente",
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        (["v1", "v1r"], 9),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
-    accumulator(
-        ("v1", (10, -1)),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
+        )
+        baca.tuplet_bracket_down_function(o)
+        library.bcps_function(o, -8, clt=True, staff_padding=8)
+        baca.flat_glissando_function(o, "A6", left_broken=True)
+    with baca.scope(m.get(5, 8)) as o:
+        baca.hairpin_function(o.rleaves(), "ppp >o niente")
+    with baca.scope(cache["v1r"][9]) as o:
+        baca.tacet_function(o.mmrests())
+    with baca.scope(m.get(10, 17)) as o:
+        baca.tacet_function(o.mmrests())
 
 
-def v2(m, accumulator):
-    accumulator(
-        "v2",
-        baca.dls_staff_padding(7),
-    )
-    accumulator(
-        ("v2", (1, 8)),
-        baca.half_clt_spanner(
+def v2(cache):
+    m = cache["v2"]
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o.leaves(), 7)
+    with baca.scope(m.get(1, 8)) as o:
+        baca.half_clt_spanner_function(
+            baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
-            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
-        ),
-        baca.tuplet_bracket_down(),
-        library.bcps(
-            -9,
-            clt=True,
-            staff_padding=4.5,
-        ),
-        baca.flat_glissando(
-            "Ab5",
-            left_broken=True,
-        ),
-    )
-    accumulator(
-        ("v2", (5, 8)),
-        baca.hairpin(
-            "ppp >o niente",
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        (["v2", "v2r"], 9),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
-    accumulator(
-        ("v2", (10, 17)),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
+        )
+        baca.tuplet_bracket_down_function(o)
+        library.bcps_function(o, -9, clt=True, staff_padding=4.5)
+        baca.flat_glissando_function(o, "Ab5", left_broken=True)
+    with baca.scope(m.get(5, 8)) as o:
+        baca.hairpin_function(o.rleaves(), "ppp >o niente")
+    with baca.scope(cache["v2r"][9]) as o:
+        baca.tacet_function(o.mmrests())
+    with baca.scope(m.get(10, 17)) as o:
+        baca.tacet_function(o.mmrests())
 
 
-def va(m, accumulator):
-    accumulator(
-        "va",
-        baca.flat_glissando(
+def va(cache):
+    m = cache["va"]
+    with baca.scope(m.leaves()) as o:
+        baca.flat_glissando_function(
+            o,
             "Bb2",
             hide_middle_stems=True,
             left_broken=True,
             right_broken=True,
-        ),
-    )
+        )
 
 
-def vc(m, accumulator):
-    accumulator(
-        "vc",
-        baca.dls_staff_padding(8),
-    )
-    accumulator(
-        ("vc", (1, 12)),
-        baca.ottava_bassa(selector=lambda _: baca.select.tleaves(_)),
-        baca.flat_glissando(
-            "B0",
-            hide_middle_stems=True,
-        ),
-    )
-    accumulator(
-        ("vc", (9, 12)),
-        baca.hairpin(
-            "pp >o niente",
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        (["vc", "vcr"], 13),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
-    accumulator(
-        ("vc", (14, 17)),
-        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
-    )
+def vc(cache):
+    m = cache["vc"]
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o.leaves(), 8)
+    with baca.scope(m.get(1, 12)) as o:
+        baca.ottava_bassa_function(o.tleaves())
+        baca.flat_glissando_function(o, "B0", hide_middle_stems=True)
+    with baca.scope(m.get(9, 12)) as o:
+        baca.hairpin_function(o.rleaves(), "pp >o niente")
+    with baca.scope(cache["vcr"][13]) as o:
+        baca.tacet_function(o.mmrests())
+    with baca.scope(m.get(14, 17)) as o:
+        baca.tacet_function(o.mmrests())
 
 
 def make_score(first_measure_number, previous_persistent_indicators):
@@ -221,10 +163,10 @@ def make_score(first_measure_number, previous_persistent_indicators):
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    v1(cache["v1"], accumulator)
-    v2(cache["v2"], accumulator)
-    va(cache["va"], accumulator)
-    vc(cache["vc"], accumulator)
+    v1(cache)
+    v2(cache)
+    va(cache)
+    vc(cache)
     return score, accumulator
 
 
@@ -245,7 +187,6 @@ def main():
             baca.tags.STAGE_NUMBER,
         ],
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[17],
         first_measure_number=first_measure_number,
