@@ -870,11 +870,10 @@ def v1_v2(cache):
         m = cache[name]
         with baca.scope(m[56]) as o:
             baca.circle_bow_spanner_function(
+                # TODO: allow spanner to run to end of section
                 o.leaves(),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="wide",
-                # TODO: allow spanner to run to end of section
-                # selector=lambda _: baca.select.rleaves(_),
             )
             baca.hairpin_function(
                 baca.select.rleak(baca.select.ltleaves(o)),

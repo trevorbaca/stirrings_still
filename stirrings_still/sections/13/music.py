@@ -321,10 +321,6 @@ def v1_v2_va(cache):
         with baca.scope(m.get(1, 8)) as o:
             library.clouded_pane_spanner_function(o.rleaves(), "clouded pane -|", 8)
         with baca.scope(m.get(9, 12)) as o:
-            # TODO: allow score-specific simultaneous material spanners
-            # library.circle_spanner(
-            #     "intercalated ds cirles -|", 10.5, selector=lambda _: baca.select.rleaves(_)
-            # ),
             library.urtext_spanner_function(o.rleaves(), "urtext (ds) -|", 8)
         with baca.scope(m.get(13, 16)) as o:
             library.clouded_pane_spanner_function(
@@ -333,10 +329,6 @@ def v1_v2_va(cache):
                 8,
             )
         with baca.scope(m.get(17, 20)) as o:
-            # TODO: allow score-specific simultaneous material spanners
-            # library.circle_spanner(
-            #     "intercalated ds cirles -|", 10.5, selector=lambda _: baca.select.rleaves(_),
-            # ),
             library.urtext_spanner_function(
                 baca.select.rleak(o.leaves()[1:]),
                 "urtext (ds) -|",
@@ -345,10 +337,6 @@ def v1_v2_va(cache):
         with baca.scope(m.get(21, 25)) as o:
             library.clouded_pane_spanner_function(o.rleaves(), "clouded pane -|", 8)
         with baca.scope(m.get(26, 28)) as o:
-            # TODO: allow score-specific simultaneous material spanners
-            # library.circle_spanner(
-            #     "intercalated ds cirles -|", 10.5, selector=lambda _: baca.select.rleaves(_),
-            # ),
             library.urtext_spanner_function(o.rleaves(), "urtext (ds) -|", 8)
         with baca.scope(m.get(29, 32)) as o:
             library.clouded_pane_spanner_function(o.rleaves(), "clouded pane -|", 8)

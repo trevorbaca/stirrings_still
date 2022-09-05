@@ -221,7 +221,6 @@ def vc(cache):
             # TODO: extend hairpin to phantom measure
             # following two lines should remain
             # pieces=lambda _: baca.select.mgroups(_, [5, 4, 2 + 1]),
-            # selector=lambda _: baca.select.rleaves(_),
             # temporary:
             pieces=lambda _: baca.select.mgroups(_, [5, 4, 1 + 1]),
         )

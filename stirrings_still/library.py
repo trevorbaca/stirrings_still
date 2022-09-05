@@ -248,49 +248,6 @@ def rleaves_partition_by_ratio(ratio):
     return selector
 
 
-def bcps(
-    rotation,
-    *,
-    clt=False,
-    measures=None,
-    selector=lambda _: baca.select.leaves(_),
-    staff_padding=None,
-):
-    assert staff_padding is not None, repr(staff_padding)
-    bcps = [
-        [(0, 7), (4, 7), (5, 7), (6, 7), (7, 7), (6, 7)],
-        [(7, 7), (0, 7), (7, 7), (0, 7), (7, 7)],
-        [(0, 7), (4, 7), (5, 7), (6, 7), (7, 7), (6, 7), (7, 7)],
-        [(0, 4), (1, 4), (2, 4), (1, 4)],
-    ]
-    bcps = abjad.sequence.flatten(bcps, depth=1)
-    bcps = abjad.sequence.rotate(bcps, n=rotation)
-    if clt:
-        bcps = abjad.sequence.replace(bcps, (0, 7), (1, 7))
-        bcps = abjad.sequence.replace(bcps, (0, 4), (1, 4))
-    bcps_, previous_bcp = [], None
-    for bcp in bcps:
-        if bcp != previous_bcp:
-            bcps_.append(bcp)
-        previous_bcp = bcp
-
-    command = baca.bcps(
-        bcps_,
-        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
-        bow_change_tweaks=(
-            abjad.Tweak(r"- \tweak self-alignment-X #left"),
-            abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
-        ),
-        selector=selector,
-    )
-    result = baca.new(command, measures=measures)
-    assert isinstance(result, baca.BCPCommand)
-    tag = baca.tags.function_name(inspect.currentframe())
-    result_ = baca.tag(tag, result)
-    assert isinstance(result_, baca.BCPCommand)
-    return result_
-
-
 def bcps_function(
     argument,
     rotation,
@@ -330,20 +287,6 @@ def bcps_function(
     return wrappers
 
 
-def breathe(*, selector=lambda _: baca.select.pleaf(_, -1)):
-    """
-    Makes breathe command with (-0.25, 2) extra offset.
-    """
-    command = baca.breathe(
-        selector,
-        abjad.Tweak(r"\tweak extra-offset #'(-0.25 . 2)"),
-    )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.IndicatorCommand)
-    return result
-
-
 def breathe_function(argument):
     """
     Makes breathe command with (-0.25, 2) extra offset.
@@ -355,23 +298,6 @@ def breathe_function(argument):
     tag = baca.tags.function_name(inspect.currentframe())
     baca.tags.wrappers(wrappers, tag)
     return wrappers
-
-
-def cello_cell_bcps(*, staff_padding=None):
-    assert staff_padding is not None, repr(staff_padding)
-    bcps = [(4, 7), (7, 7), (1, 7), (5, 7)]
-    command = baca.bcps(
-        bcps,
-        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
-        bow_change_tweaks=(
-            abjad.Tweak(r"- \tweak self-alignment-X #left"),
-            abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
-        ),
-    )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.BCPCommand)
-    return result
 
 
 def cello_cell_bcps_function(argument, *, staff_padding=None):
@@ -389,46 +315,6 @@ def cello_cell_bcps_function(argument, *, staff_padding=None):
     tag = baca.tags.function_name(inspect.currentframe())
     baca.tags.wrappers(wrappers, tag)
     return wrappers
-
-
-def circle_spanner(
-    string,
-    staff_padding,
-    *,
-    measures=None,
-    selector=lambda _: baca.select.rleaves(_),
-):
-    command = baca.material_annotation_spanner(
-        string,
-        abjad.Tweak(r"- \tweak color #darkyellow"),
-        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
-        measures=measures,
-        selector=selector,
-    )
-    tag = abjad.Tag("MATERIAL:CIRCLE")
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.PiecewiseCommand)
-    return result
-
-
-def clouded_pane_spanner(
-    string,
-    staff_padding,
-    *,
-    measures=None,
-    selector=lambda _: baca.select.rleaves(_),
-):
-    command = baca.material_annotation_spanner(
-        string,
-        abjad.Tweak(r"- \tweak color #red"),
-        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
-        measures=measures,
-        selector=selector,
-    )
-    tag = abjad.Tag("MATERIAL:CLOUDED_PANE")
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.PiecewiseCommand)
-    return result
 
 
 def clouded_pane_spanner_function(
@@ -1374,20 +1260,6 @@ def first_order_stages(section):
     return specifiers
 
 
-def flight_spanner(string, staff_padding, *, measures=None):
-    command = baca.material_annotation_spanner(
-        string,
-        abjad.Tweak(r"- \tweak color #darkmagenta"),
-        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
-        measures=measures,
-        selector=lambda _: baca.select.rleaves(_),
-    )
-    tag = abjad.Tag("MATERIAL:FLIGHT")
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.PiecewiseCommand)
-    return result
-
-
 def flight_spanner_function(o, string, staff_padding):
     wrappers = baca.material_annotation_spanner_function(
         o.rleaves(),
@@ -2086,158 +1958,6 @@ def make_wave_rhythm(time_signatures, start, stop, *, previous_state=None):
         return music
 
 
-def short_instrument_name(
-    key,
-    *,
-    alert=None,
-    context="Staff",
-    selector=lambda _: abjad.select.leaf(_, 0),
-):
-    short_instrument_name = short_instrument_names[key]
-    command = baca.short_instrument_name(
-        short_instrument_name,
-        alert=alert,
-        context=context,
-        selector=selector,
-    )
-    return baca.not_parts(command)
-
-
-def multistage_leaf_glissando(
-    pairs,
-    final_pitch,
-    *,
-    measures=None,
-    rleak_final_stage=False,
-    use_pleaves_lleak=False,
-):
-    assert isinstance(pairs, list), repr(pairs)
-    assert all(isinstance(_, tuple) for _ in pairs), repr(pairs)
-
-    if use_pleaves_lleak is True:
-
-        def selector(argument):
-            result = baca.select.pleaves(argument)
-            result = baca.select.lleak(result)
-            return result
-
-        def _rleaked_selector(argument):
-            result = baca.select.pleaves(argument)
-            result = baca.select.lleak(argument)
-            result = baca.select.rleak(argument)
-            return result
-
-        def _make_start_stop_selector(start, stop):
-            def _inner_selector(argument):
-                result = baca.select.pleaves(argument)
-                result = baca.select.lleak(result)
-                result = result[start:stop]
-                return result
-
-            return _inner_selector
-
-    else:
-
-        def selector(argument):
-            return baca.select.pleaves(argument)
-
-        def _rleaked_selector(argument):
-            result = baca.select.pleaves(argument)
-            result = baca.select.rleak(argument)
-            return result
-
-        def _make_start_stop_selector(start, stop):
-            def selector(argument):
-                result = baca.select.pleaves(argument)
-                result = result[start:stop]
-                return result
-
-            return selector
-
-    commands = []
-    if rleak_final_stage:
-        command = baca.untie(_rleaked_selector)
-    else:
-        command = baca.untie(selector)
-    commands.append(command)
-
-    start, stop = 0, None
-    for pair_1, pair_2 in abjad.sequence.nwise(pairs):
-        start_pitch, leaf_count = pair_1
-        stop_pitch = pair_2[0]
-        assert isinstance(start_pitch, str), repr(start_pitch)
-        assert isinstance(stop_pitch, str), repr(stop_pitch)
-        assert isinstance(leaf_count, int), repr(leaf_count)
-        stop = start + leaf_count
-        chunk = baca.chunk(
-            baca.glissando(
-                allow_repeats=True,
-                hide_middle_note_heads=True,
-                selector=_make_start_stop_selector(start, stop),
-            ),
-            baca.interpolate_pitches(
-                start_pitch,
-                stop_pitch,
-                selector=_make_start_stop_selector(start, stop),
-            ),
-        )
-        commands.append(chunk)
-        start = stop - 1
-
-    pair = pairs[-1]
-    start_pitch, leaf_count = pair
-    assert isinstance(start_pitch, str), repr(start_pitch)
-    assert isinstance(leaf_count, (int, type(None))), repr(leaf_count)
-    stop = None
-    if leaf_count is not None:
-        stop = start + leaf_count
-
-    def make_final_selector(start, stop):
-        def selector(argument):
-            result = baca.select.rleaves(argument)
-            result = result[start:stop]
-            return result
-
-        return selector
-
-    if rleak_final_stage:
-        _final_selector = make_final_selector(start, stop)
-    else:
-
-        def _final_selector(argument):
-            return baca.select.leaves(argument)[start:stop]
-
-    chunk = baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            hide_middle_note_heads=True,
-            selector=_final_selector,
-        ),
-        baca.interpolate_pitches(
-            start_pitch,
-            final_pitch,
-            selector=_final_selector,
-        ),
-    )
-    commands.append(chunk)
-    if measures is not None:
-        commands_ = []
-        for item in commands:
-            if isinstance(item, baca.Command):
-                item_ = dataclasses.replace(item, measures=measures)
-            else:
-                assert isinstance(item, baca.Suite)
-                new_suite_commands = []
-                for suite_command in item:
-                    assert isinstance(suite_command, baca.Command)
-                    item_ = dataclasses.replace(suite_command, measures=measures)
-                    new_suite_commands.append(item_)
-                item_ = baca.suite(*new_suite_commands)
-            commands_.append(item_)
-        commands = commands_
-    return baca.chunk(*commands)
-
-
 def multistage_leaf_glissando_function(
     argument,
     pairs,
@@ -2335,25 +2055,6 @@ def multistage_leaf_glissando_function(
         _final_selector(argument),
         start_pitch,
         final_pitch,
-    )
-
-
-def ntlt_flat_glissandi():
-    return baca.suite(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            selector=lambda _: baca.select.tleaves(_),
-            zero_padding=True,
-        ),
-        baca.new(
-            baca.accidental_stencil_false(),
-            baca.note_head_transparent(),
-            baca.note_head_x_extent_zero(),
-            selector=lambda _: baca.select.leaves(_)[1:],
-        ),
-        baca.untie(lambda _: baca.select.leaves(_)),
-        map=lambda _: baca.select.lts(_, nontrivial=True),
     )
 
 
@@ -3364,32 +3065,6 @@ def second_order_stages(section):
     return dictionary
 
 
-def style_tailpiece_material(*tweaks):
-    command = baca.suite(
-        baca.dots_transparent(
-            selector=lambda _: baca.select.leaves(_)[1:],
-        ),
-        baca.markup(
-            r"\baca-boxed-markup tailpiece", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-        baca.staff_position(0),
-        baca.stem_transparent(
-            selector=lambda _: baca.select.leaves(_)[1:],
-        ),
-        baca.text_script_parent_alignment_x(0),
-        baca.flat_glissando(
-            None,
-            *tweaks,
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    baca.tag(
-        baca.tags.function_name(inspect.currentframe()),
-        command,
-    )
-    return command
-
-
 def style_tailpiece_material_function(o, *tweaks):
     wrappers = []
     wrappers_ = baca.dots_transparent_function(o.leaves()[1:])
@@ -3434,51 +3109,6 @@ def time_signatures(section):
     return time_signatures
 
 
-def transition_bcps(*, final_spanner=False, staff_padding=None):
-    assert staff_padding is not None, repr(staff_padding)
-
-    bcps = [
-        (1, 7),
-        (3, 7),
-        (1, 7),
-        (4, 7),
-        (1, 7),
-        (5, 7),
-        (1, 7),
-        (6, 7),
-        (1, 7),
-        (7, 7),
-    ]
-    pad = [(1, 7), (7, 7)]
-
-    def helper(padded_bcps, argument):
-        result = []
-        for leaves in baca.select.cmgroups(argument):
-            if len(bcps) < len(leaves):
-                suffix = abjad.sequence.repeat_to_length(pad, len(leaves) - len(bcps))
-                bcps_ = bcps + suffix
-            else:
-                bcps_ = bcps[: len(leaves)]
-            assert len(bcps_) == len(leaves)
-            result.extend(bcps_)
-        return result
-
-    command = baca.bcps(
-        bcps,
-        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
-        bow_change_tweaks=(
-            abjad.Tweak(r"- \tweak self-alignment-X #left"),
-            abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
-        ),
-        final_spanner=final_spanner,
-        helper=helper,
-    )
-    tag = baca.tags.function_name(inspect.currentframe())
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.BCPCommand)
-    return result
-
-
 def transition_bcps_function(argument, *, final_spanner=False, staff_padding=None):
     assert staff_padding is not None, repr(staff_padding)
     bcps = [
@@ -3521,26 +3151,6 @@ def transition_bcps_function(argument, *, final_spanner=False, staff_padding=Non
     tag = baca.tags.function_name(inspect.currentframe())
     baca.tags.wrappers(wrappers, tag)
     return wrappers
-
-
-def urtext_spanner(
-    string,
-    staff_padding,
-    *,
-    measures=None,
-    selector=lambda _: baca.select.rleaves(_),
-):
-    command = baca.material_annotation_spanner(
-        string,
-        abjad.Tweak(r"- \tweak color #darkred"),
-        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
-        measures=measures,
-        selector=selector,
-    )
-    tag = abjad.Tag("MATERIAL:URTEXT")
-    result = baca.tag(tag, command)
-    assert isinstance(result, baca.PiecewiseCommand)
-    return result
 
 
 def urtext_spanner_function(
