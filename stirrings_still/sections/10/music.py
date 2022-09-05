@@ -177,10 +177,9 @@ def v1_v2_va(cache):
                 pieces=lambda _: baca.select.mgroups(_, [2, 4 + 1]),
             )
             baca.half_clt_spanner_function(
+                # TODO: allow spanner to extend to phantom measure
                 o.leaves(),
                 abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
-                # TODO: allow spanner to extend to phantom measure
-                # selector=lambda _: baca.select.rleaves(_),
             )
             if name == "v1":
                 library.bcps_function(o, -6, clt=True, staff_padding=4)
