@@ -12910,16 +12910,13 @@ number.14.Cello.Music = {
     bf,,!8.
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(6)
-      %! baca.bcps_function()
+      %! baca.bcps_function(6)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(6)
-      %! baca.bcps_function()
+      %! baca.bcps_function(6)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(6)
-      %! baca.bcps_function()
+      %! baca.bcps_function(6)
       %! stirrings_still.cello_cell_bcps_function()
     - \downbow
     % SPANNER_STOPS:
@@ -12975,20 +12972,16 @@ number.14.Cello.Music = {
       %! baca.half_clt_spanner_function()
       %! baca.text_spanner_function()
     \bacaStartTextSpanHalfCLT
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #4 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -12998,41 +12991,33 @@ number.14.Cello.Music = {
     bf,,!16
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \upbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13042,41 +13027,33 @@ number.14.Cello.Music = {
     bf,,!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \downbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % START_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     [
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #1 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13086,41 +13063,33 @@ number.14.Cello.Music = {
     bf,,!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \upbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #5 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13130,41 +13099,33 @@ number.14.Cello.Music = {
     bf,,!8.
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \downbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % START_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     [
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #4 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13174,41 +13135,33 @@ number.14.Cello.Music = {
     bf,,!16
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \upbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13218,41 +13171,33 @@ number.14.Cello.Music = {
     bf,,!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \downbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % START_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     [
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #1 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13262,41 +13207,33 @@ number.14.Cello.Music = {
     bf,,!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \upbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #5 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13306,41 +13243,33 @@ number.14.Cello.Music = {
     bf,,!8.
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \downbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % START_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     [
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #4 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13350,41 +13279,33 @@ number.14.Cello.Music = {
     bf,,!16
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \upbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13394,41 +13315,33 @@ number.14.Cello.Music = {
     bf,,!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \downbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % START_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     [
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #1 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13438,41 +13351,33 @@ number.14.Cello.Music = {
     bf,,!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \upbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #5 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13484,41 +13389,33 @@ number.14.Cello.Music = {
     bf,,!8.
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \downbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % START_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     [
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #4 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13528,41 +13425,33 @@ number.14.Cello.Music = {
     bf,,!16
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \upbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #7 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13572,41 +13461,33 @@ number.14.Cello.Music = {
     bf,,!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \downbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % START_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     [
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #1 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13616,41 +13497,33 @@ number.14.Cello.Music = {
     bf,,!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(7)
-      %! baca.bcps_function()
+      %! baca.bcps_function(7)
       %! stirrings_still.cello_cell_bcps_function()
     - \upbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     ]
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #5 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13660,45 +13533,36 @@ number.14.Cello.Music = {
     bf,,!8.
     % AFTER:
     % ARTICULATIONS:
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak self-alignment-X #left
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 5.5
-      %! baca._do_bcp_command(8)
-      %! baca.bcps_function()
+      %! baca.bcps_function(8)
       %! stirrings_still.cello_cell_bcps_function()
     - \downbow
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(3)
-      %! baca.bcps_function()
+      %! baca.bcps_function(3)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % START_BEAM:
       %! stirrings_still.make_cello_cell_rhythm()
     [
     % SPANNER_STARTS:
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \tweak staff-padding 3
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \abjad-solid-line-with-arrow
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-left-text #4 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     - \baca-bcp-spanner-right-text #7 #7
-      %! baca._do_bcp_command(2)
-      %! baca.bcps_function()
+      %! baca.bcps_function(2)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStartTextSpanBCP
     % ABSOLUTE_BEFORE:
@@ -13708,8 +13572,7 @@ number.14.Cello.Music = {
     bf,,!16
     % AFTER:
     % SPANNER_STOPS:
-      %! baca._do_bcp_command(1)
-      %! baca.bcps_function()
+      %! baca.bcps_function(1)
       %! stirrings_still.cello_cell_bcps_function()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
