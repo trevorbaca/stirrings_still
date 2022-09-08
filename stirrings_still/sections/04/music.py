@@ -615,9 +615,7 @@ def v1_v2_va(cache):
                     "va": ("<D4 Gqs4>", "<C#4 Gqs4>"),
                 }[name]
                 baca.flat_glissando(o.pleaves()[:2], start)
-                baca.flat_glissando(
-                    o.pleaves()[2:], stop, hide_middle_stems=True
-                )
+                baca.flat_glissando(o.pleaves()[2:], stop, hide_middle_stems=True)
                 cache.rebuild()
                 m = cache[name]
             with baca.scope(m[item]) as o:
@@ -919,9 +917,7 @@ def vc(cache):
             )
             if item == (49, 50):
                 baca.clef(o.leaf(0), "bass")
-            library.clouded_pane_spanner(
-                o.rleaves(), "clouded pane (beacon) -|", 5.5
-            )
+            library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 5.5)
     with baca.scope(cache["vcr"][51]) as o:
         baca.tacet(o.mmrests())
     with baca.scope(m[55]) as o:
@@ -935,9 +931,7 @@ def vc(cache):
         baca.flat_glissando(o, "E2", hide_middle_stems=True)
         cmgroups = baca.select.cmgroups(o)[:3]
         baca.hairpin(cmgroups, "niente o< p")
-        library.clouded_pane_spanner(
-            o.rleaves(), "clouded pane (arrival) -|", 5.5
-        )
+        library.clouded_pane_spanner(o.rleaves(), "clouded pane (arrival) -|", 5.5)
     with baca.scope(m.get(86, 92)) as o:
         baca.hairpin(
             o.rleaves(),

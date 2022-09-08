@@ -512,9 +512,7 @@ def v1(cache):
             o.rleaves(),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
-        library.clouded_pane_spanner(
-            o.rleaves(), "clouded pane (beacon) -|", 8
-        )
+        library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
     with baca.scope(m[56]) as o:
         baca.tie(o.lleaf(0))
     with baca.scope(m.get(36, 59)) as o:
@@ -624,9 +622,7 @@ def va(cache):
             o.rleaves(),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
-        library.clouded_pane_spanner(
-            o.rleaves(), "clouded pane (beacon) -|", 8
-        )
+        library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
     with baca.scope(m[56]) as o:
         baca.tie(o.lleaf(0))
     with baca.scope(m.get(36, 59)) as o:
@@ -933,9 +929,7 @@ def vc(cache):
             "pp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        library.clouded_pane_spanner(
-            o.rleaves(), "clouded pane (beacon) -|", 5.5
-        )
+        library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 5.5)
     with baca.scope(m.get(34, 35)) as o:
         baca.breathe(o.pleaf(-1))
         baca.flat_glissando(o, "E2", allow_repitch=True)
@@ -944,9 +938,7 @@ def vc(cache):
             "p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        library.clouded_pane_spanner(
-            o.rleaves(), "clouded pane (beacon) -|", 5.5
-        )
+        library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 5.5)
     with baca.scope(m[56]) as o:
         baca.tie(o.lleaf(0))
     with baca.scope(m.get(36, 59)) as o:

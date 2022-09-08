@@ -961,9 +961,7 @@ def va(cache):
             o.rleaves(),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
-        library.clouded_pane_spanner(
-            o.rleaves(), "clouded (partial G.1) -|", 8
-        )
+        library.clouded_pane_spanner(o.rleaves(), "clouded (partial G.1) -|", 8)
     for item in [(46, 50), 52, 54, 58]:
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "Ab3")

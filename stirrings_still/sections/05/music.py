@@ -1311,9 +1311,7 @@ def vc(cache):
             hide_middle_stems=True,
         )
     with baca.scope(m.get(1, 27)) as o:
-        library.clouded_pane_spanner(
-            o.rleaves(), "clouded pane (continues) -|", 8
-        )
+        library.clouded_pane_spanner(o.rleaves(), "clouded pane (continues) -|", 8)
     with baca.scope(m.get(4, 5)) as o:
         baca.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
         baca.hairpin(o.rleaves(), "ff > p")
@@ -1343,9 +1341,7 @@ def vc(cache):
             "niente o< p",
         )
     with baca.scope(m.get(63, 80)) as o:
-        library.clouded_pane_spanner(
-            o.rleaves(), "clouded pane (down) -|", 5.5
-        )
+        library.clouded_pane_spanner(o.rleaves(), "clouded pane (down) -|", 5.5)
         baca.flat_glissando(
             o,
             "D2",
