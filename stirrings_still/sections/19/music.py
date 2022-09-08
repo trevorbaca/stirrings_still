@@ -203,9 +203,7 @@ def v2(cache):
             )
             baca.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
             baca.flat_glissando(o, "F4")
-            baca.hairpin(
-                o, "ppp < p >", pieces=lambda _: baca.select.cmgroups(_)
-            )
+            baca.hairpin(o, "ppp < p >", pieces=lambda _: baca.select.cmgroups(_))
 
 
 def va(cache):

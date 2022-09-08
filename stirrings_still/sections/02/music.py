@@ -1658,9 +1658,7 @@ def vc(cache):
             "p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        library.clouded_pane_spanner(
-            o.rleaves(), "clouded pane (beacon) -|", 5.5
-        )
+        library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 5.5)
     with baca.scope(m[46]) as o:
         baca.flat_glissando(o, "D2")
     with baca.scope(m[48]) as o:
@@ -1670,9 +1668,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.pitch(o, "E2")
-        library.clouded_pane_spanner(
-            o.rleaves(), "clouded pane (flight) -|", 5.5
-        )
+        library.clouded_pane_spanner(o.rleaves(), "clouded pane (flight) -|", 5.5)
     with baca.scope(m.get(50, 51)) as o:
         baca.flat_glissando(baca.select.rleak(o), "D2")
     with baca.scope(m.get(50, 60)) as o:
@@ -1715,9 +1711,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.pitch(o, "E2")
-        library.clouded_pane_spanner(
-            o.rleaves(), "clouded pane (flight) -|", 5.5
-        )
+        library.clouded_pane_spanner(o.rleaves(), "clouded pane (flight) -|", 5.5)
 
 
 def make_score(first_measure_number, previous_persistent_indicators):

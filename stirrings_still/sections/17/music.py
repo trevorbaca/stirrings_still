@@ -1079,9 +1079,7 @@ def va(cache):
             "pp-sempre",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         )
-        baca.flat_glissando(
-            o, "Bb2", hide_middle_stems=True, right_broken=True
-        )
+        baca.flat_glissando(o, "Bb2", hide_middle_stems=True, right_broken=True)
 
 
 def vc(cache):

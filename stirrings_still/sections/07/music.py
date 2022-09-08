@@ -450,9 +450,7 @@ def v1_va_vc(cache):
                     o.rleaves(),
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 )
-                library.clouded_pane_spanner(
-                    o.rleaves(), "clouded pane (beacon) -|", 8
-                )
+                library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
             elif name == "va":
                 baca.markup(
                     o.pleaf(0),
@@ -463,9 +461,7 @@ def v1_va_vc(cache):
                     o.rleaves(),
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 )
-                library.clouded_pane_spanner(
-                    o.rleaves(), "clouded pane (beacon) -|", 8
-                )
+                library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
             elif name == "vc":
                 baca.tuplet_bracket_down(o)
                 library.clouded_pane_spanner(
@@ -530,9 +526,7 @@ def va(cache):
                 o.rleaves(),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
             )
-            library.clouded_pane_spanner(
-                o.rleaves(), "clouded pane (partial) -|", 8
-            )
+            library.clouded_pane_spanner(o.rleaves(), "clouded pane (partial) -|", 8)
     with baca.scope(m[19]) as o:
         baca.clef(o.leaf(0), "treble")
 

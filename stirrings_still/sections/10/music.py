@@ -229,9 +229,7 @@ def v1_va_vc(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             baca.tuplet_bracket_down(o)
-            library.clouded_pane_spanner(
-                o.rleaves(), "clouded pane (beacon) -|", 8
-            )
+            library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
 
 
 def tutti(cache):
