@@ -65,7 +65,9 @@ vc_spanner_staff_padding = 5.5
 
 
 def make_repeat_tied_notes(time_signatures):
-    return baca.make_repeat_tied_notes_function(time_signatures, do_not_rewrite_meter=True)
+    return baca.make_repeat_tied_notes_function(
+        time_signatures, do_not_rewrite_meter=True
+    )
 
 
 def make_v1_waves(time_signatures):
