@@ -92,7 +92,7 @@ def V1(voice, accumulator):
         accumulator.get(29, 32), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    baca.append_anchor_note_function(voice)
+    baca.append_anchor_note(voice)
 
 
 def V2(voice, accumulator):
@@ -148,7 +148,7 @@ def V2(voice, accumulator):
         accumulator.get(29, 32), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    baca.append_anchor_note_function(voice)
+    baca.append_anchor_note(voice)
 
 
 def VA(voice, accumulator):
@@ -204,7 +204,7 @@ def VA(voice, accumulator):
         accumulator.get(29, 32), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    baca.append_anchor_note_function(voice)
+    baca.append_anchor_note(voice)
 
 
 def VC(voice, accumulator):
@@ -212,74 +212,74 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(accumulator.get(29, 32))
     voice.extend(music)
-    baca.append_anchor_note_function(voice)
+    baca.append_anchor_note(voice)
 
 
 def v1(cache):
     name = "v1"
     m = cache[name]
     with baca.scope(m.get(1, 8)) as o:
-        baca.markup_function(
+        baca.markup(
             o.pleaf(0),
             r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.markup_function(
+        baca.markup(
             o.pleaf(0),
             r"\baca-nine-c",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     for item in [(13, 16), (21, 24), (29, 32)]:
         with baca.scope(m.get(item)) as o:
-            baca.markup_function(
+            baca.markup(
                 o.pleaf(0),
                 r"\baca-nine-c",
                 abjad.Tweak(r"- \tweak padding 1.5"),
             )
     for item in [(1, 8), (21, 25)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando_function(o, "D6", hide_middle_stems=True)
+            baca.flat_glissando(o, "D6", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
-        baca.circle_bow_spanner_function(
+        baca.circle_bow_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
         )
     for item in [(9, 12), (26, 28)]:
         with baca.scope(m.get(item)) as o:
-            baca.markup_function(
+            baca.markup(
                 o.pleaf(0),
                 r"\stirrings-still-twelve-et-markup",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
             )
-            baca.flat_glissando_function(o, "<D#4 A4>")
+            baca.flat_glissando(o, "<D#4 A4>")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(13, 16)) as o:
-        baca.flat_glissando_function(o.rleaves(), "D6", hide_middle_stems=True)
+        baca.flat_glissando(o.rleaves(), "D6", hide_middle_stems=True)
     with baca.scope(m.get(17, 20)) as o:
-        baca.flat_glissando_function(o.leaves()[1:], "<D#4 A4>")
+        baca.flat_glissando(o.leaves()[1:], "<D#4 A4>")
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
-        baca.circle_bow_spanner_function(
+        baca.circle_bow_spanner(
             baca.select.rleak(baca.select.leaves(o)[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
         )
-        baca.markup_function(
+        baca.markup(
             o.leaf(1),
             r"\stirrings-still-twelve-et-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
     with baca.scope(m.get(25, 28)) as o:
-        baca.circle_bow_spanner_function(
+        baca.circle_bow_spanner(
             baca.select.rleak(baca.select.leaves(o)[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
         )
     with baca.scope(m.get(29, 32)) as o:
-        baca.flat_glissando_function(
+        baca.flat_glissando(
             o,
             "D6",
             stop_pitch="C6",
@@ -293,53 +293,53 @@ def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.dls_staff_padding_function(o.leaves(), 5)
+            baca.dls_staff_padding(o.leaves(), 5)
         with baca.scope(m.get(1, 12)) as o:
-            baca.hairpin_function(
+            baca.hairpin(
                 o,
                 "o< f >o",
                 bookend=False,
                 pieces=lambda _: baca.select.mgroups(_, [8, 4]),
             )
         with baca.scope(m.get(13, 16)) as o:
-            baca.hairpin_function(
+            baca.hairpin(
                 baca.select.rleak(o.leaves(), count=2),
                 "o< ff",
             )
         with baca.scope(m.get(17, 20)) as o:
-            baca.hairpin_function(
+            baca.hairpin(
                 o.leaves()[1:],
                 ">o",
                 bookend=False,
             )
         with baca.scope(m.get(21, 32)) as o:
-            baca.hairpin_function(
+            baca.hairpin(
                 o,
                 "o< fff >o ! o< fff",
                 pieces=lambda _: baca.select.mgroups(_, [5, 3, 4]),
             )
         with baca.scope(m.get(1, 8)) as o:
-            library.clouded_pane_spanner_function(o.rleaves(), "clouded pane -|", 8)
+            library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 8)
         with baca.scope(m.get(9, 12)) as o:
-            library.urtext_spanner_function(o.rleaves(), "urtext (ds) -|", 8)
+            library.urtext_spanner(o.rleaves(), "urtext (ds) -|", 8)
         with baca.scope(m.get(13, 16)) as o:
-            library.clouded_pane_spanner_function(
+            library.clouded_pane_spanner(
                 baca.select.rleak(o.leaves(), count=2),
                 "clouded pane -|",
                 8,
             )
         with baca.scope(m.get(17, 20)) as o:
-            library.urtext_spanner_function(
+            library.urtext_spanner(
                 baca.select.rleak(o.leaves()[1:]),
                 "urtext (ds) -|",
                 8,
             )
         with baca.scope(m.get(21, 25)) as o:
-            library.clouded_pane_spanner_function(o.rleaves(), "clouded pane -|", 8)
+            library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 8)
         with baca.scope(m.get(26, 28)) as o:
-            library.urtext_spanner_function(o.rleaves(), "urtext (ds) -|", 8)
+            library.urtext_spanner(o.rleaves(), "urtext (ds) -|", 8)
         with baca.scope(m.get(29, 32)) as o:
-            library.clouded_pane_spanner_function(o.rleaves(), "clouded pane -|", 8)
+            library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 8)
 
 
 def v2(cache):
@@ -348,69 +348,69 @@ def v2(cache):
     for item in [(1, 8), (13, 16), (21, 24), (29, 32)]:
         with baca.scope(m.get(item)) as o:
             if item == (1, 8):
-                baca.markup_function(
+                baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.markup_function(
+                baca.markup(
                     o.pleaf(0),
                     r"\baca-eleven-c",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
             else:
-                baca.markup_function(
+                baca.markup(
                     o.pleaf(0),
                     r"\baca-eleven-c",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
     for item in [(1, 8), (21, 25)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando_function(o, "Fqs5", hide_middle_stems=True)
+            baca.flat_glissando(o, "Fqs5", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
-        baca.circle_bow_spanner_function(
+        baca.circle_bow_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
         )
     for item in [(9, 12), (26, 28)]:
         with baca.scope(m.get(item)) as o:
-            baca.markup_function(
+            baca.markup(
                 o.pleaf(0),
                 r"\stirrings-still-twelve-et-markup",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
             )
-            baca.flat_glissando_function(o, "<Dqs4 Gtqs4>")
+            baca.flat_glissando(o, "<Dqs4 Gtqs4>")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(13, 16)) as o:
-        baca.flat_glissando_function(o.rleaves(), "Fqs5", hide_middle_stems=True)
+        baca.flat_glissando(o.rleaves(), "Fqs5", hide_middle_stems=True)
     with baca.scope(m.get(17, 20)) as o:
-        baca.flat_glissando_function(
+        baca.flat_glissando(
             o.leaves()[1:],
             "<Dqs4 Gtqs4>",
         )
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
-        baca.circle_bow_spanner_function(
+        baca.circle_bow_spanner(
             baca.select.rleak(baca.select.leaves(o)[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
         )
-        baca.markup_function(
+        baca.markup(
             o.leaf(1),
             r"\stirrings-still-twenty-four-et-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
     with baca.scope(m.get(25, 28)) as o:
-        baca.circle_bow_spanner_function(
+        baca.circle_bow_spanner(
             baca.select.rleak(baca.select.leaves(o)[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
         )
     with baca.scope(m.get(29, 32)) as o:
-        baca.flat_glissando_function(
+        baca.flat_glissando(
             o,
             "Fqs5",
             hide_middle_stems=True,
@@ -426,65 +426,65 @@ def va(cache):
     for item in [(1, 8), (13, 16), (21, 24), (29, 32)]:
         with baca.scope(m.get(item)) as o:
             if item == (1, 8):
-                baca.markup_function(
+                baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
                 )
-                baca.markup_function(
+                baca.markup(
                     o.pleaf(0),
                     r"\baca-thirteen-c",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
             else:
-                baca.markup_function(
+                baca.markup(
                     o.pleaf(0),
                     r"\baca-thirteen-c",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
     for item in [(1, 8), (21, 25)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando_function(o, "Aqf4", hide_middle_stems=True)
+            baca.flat_glissando(o, "Aqf4", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
-        baca.circle_bow_spanner_function(
+        baca.circle_bow_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
         )
     for item in [(9, 12), (26, 28)]:
         with baca.scope(m.get(item)) as o:
-            baca.markup_function(
+            baca.markup(
                 o.pleaf(0),
                 r"\stirrings-still-twelve-et-markup",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
             )
-            baca.flat_glissando_function(o, "<D4 G#4>")
+            baca.flat_glissando(o, "<D4 G#4>")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(13, 16)) as o:
-        baca.flat_glissando_function(o.rleaves(), "Aqf4", hide_middle_stems=True)
+        baca.flat_glissando(o.rleaves(), "Aqf4", hide_middle_stems=True)
     with baca.scope(m.get(17, 20)) as o:
-        baca.flat_glissando_function(o.leaves()[1:], "<D4 G#4>")
+        baca.flat_glissando(o.leaves()[1:], "<D4 G#4>")
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
-        baca.circle_bow_spanner_function(
+        baca.circle_bow_spanner(
             baca.select.rleak(baca.select.leaves(o)[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
         )
-        baca.markup_function(
+        baca.markup(
             o.leaf(1),
             r"\stirrings-still-twelve-et-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
     with baca.scope(m.get(25, 28)) as o:
-        baca.circle_bow_spanner_function(
+        baca.circle_bow_spanner(
             baca.select.rleak(o.leaves()[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
         )
     with baca.scope(m.get(29, 32)) as o:
-        baca.flat_glissando_function(
+        baca.flat_glissando(
             o,
             "Aqf4",
             hide_middle_stems=True,
@@ -498,29 +498,29 @@ def vc(cache):
     name = "vc"
     m = cache[name]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding_function(o.leaves(), 7)
-        library.clouded_pane_spanner_function(
+        baca.dls_staff_padding(o.leaves(), 7)
+        library.clouded_pane_spanner(
             o.rleaves(),
             "clouded pane (semitone down) -|",
             5.5,
         )
     with baca.scope(m.get(7, 32)) as o:
-        baca.hairpin_function(
+        baca.hairpin(
             o.rleaves(),
             "(fff) > f < fff -- (fff) > f < fff -- (fff) > f < fff",
             bookend=False,
             pieces=lambda _: baca.select.mgroups(_, [2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]),
         )
     with baca.scope(m.get(29)) as o:
-        baca.hairpin_to_barline_function(o.leaf(0))
+        baca.hairpin_to_barline(o.leaf(0))
     with baca.scope(m.get(1, 28)) as o:
-        baca.flat_glissando_function(
+        baca.flat_glissando(
             o.rleaves(),
             "C2",
             hide_middle_stems=True,
         )
     with baca.scope(m.get(29, 32)) as o:
-        baca.flat_glissando_function(
+        baca.flat_glissando(
             o,
             "C2",
             hide_middle_stems=True,
