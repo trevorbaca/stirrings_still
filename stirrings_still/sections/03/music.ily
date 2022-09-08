@@ -22294,7 +22294,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 28]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     e,2.
     % AFTER:
     % ARTICULATIONS:
@@ -22433,7 +22433,7 @@ number.3.Cello.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! baca.make_repeat_tied_notes()
+          %! baca.make_repeat_tied_notes_function()
         e,2
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -22452,7 +22452,7 @@ number.3.Cello.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! baca.make_repeat_tied_notes()
+          %! baca.make_repeat_tied_notes_function()
         e,8
         % CLOSING:
         % COMMANDS:
@@ -22739,7 +22739,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 34]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     e,2
     % AFTER:
     % ARTICULATIONS:
@@ -22869,7 +22869,7 @@ number.3.Cello.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     e,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -22890,7 +22890,7 @@ number.3.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     e,2.
     % AFTER:
     % COMMANDS:

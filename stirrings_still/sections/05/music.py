@@ -161,7 +161,7 @@ def V1(voice, accumulator):
         4,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(79, 80))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(79, 80))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(81), head=voice.name)
     voice.extend(music)
@@ -276,7 +276,7 @@ def V2(voice, accumulator):
         3,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(78, 80))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(78, 80))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(81), head=voice.name)
     voice.extend(music)
@@ -379,7 +379,7 @@ def VA(voice, accumulator):
         2,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(77, 80))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(77, 80))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(81), head=voice.name)
     voice.extend(music)

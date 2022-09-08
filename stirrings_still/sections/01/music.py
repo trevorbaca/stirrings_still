@@ -209,7 +209,7 @@ def V1(voice, accumulator):
         [1],
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(55, 56))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(55, 56))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(57), head=voice.name)
     voice.extend(music)
@@ -321,7 +321,7 @@ def V2(voice, accumulator):
         [0],
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(55, 56))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(55, 56))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(57), head=voice.name)
     voice.extend(music)
@@ -433,7 +433,7 @@ def VA(voice, accumulator):
         [2],
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(55, 56))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(55, 56))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(57), head=voice.name)
     voice.extend(music)
@@ -461,7 +461,7 @@ def VA(voice, accumulator):
 def VC(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 11), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(
+    music = baca.make_repeat_tied_notes_function(
         accumulator.get(12, 26),
         do_not_rewrite_meter=True,
     )
@@ -473,7 +473,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(28), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(
+    music = baca.make_repeat_tied_notes_function(
         accumulator.get(29, 40),
         do_not_rewrite_meter=True,
     )
@@ -514,7 +514,7 @@ def VC(voice, accumulator):
         [-1],
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(55, 56))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(55, 56))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(57), head=voice.name)
     voice.extend(music)
