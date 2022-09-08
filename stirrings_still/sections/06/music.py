@@ -70,7 +70,7 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = baca.make_repeat_tied_notes(
+    music = baca.make_repeat_tied_notes_function(
         accumulator.get(1, 10), do_not_rewrite_meter=True
     )
     voice.extend(music)

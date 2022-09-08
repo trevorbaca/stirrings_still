@@ -7919,7 +7919,7 @@ number.19.Cello.Music = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.ottava_bassa()
     \ottava -1
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b,,,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -7995,7 +7995,7 @@ number.19.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b,,,1
     % AFTER:
     % ARTICULATIONS:
@@ -8207,7 +8207,7 @@ number.19.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b,,,1.
     % AFTER:
     % ARTICULATIONS:
@@ -8277,7 +8277,7 @@ number.19.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b,,,1.
     % AFTER:
     % COMMANDS:
@@ -8401,7 +8401,7 @@ number.19.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b,,,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -8459,7 +8459,7 @@ number.19.Cello.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b,,,1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8519,14 +8519,14 @@ number.19.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 13]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b,,,1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 14]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b,,,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8553,7 +8553,7 @@ number.19.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b,,,1
     % AFTER:
     % COMMANDS:

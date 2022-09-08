@@ -7357,7 +7357,7 @@ number.10.Cello.Music = {
     % COMMANDS:
       %! baca.tuplet_bracket_down(1)
     \override TupletBracket.direction = #down
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     e,2.
     % AFTER:
     % ARTICULATIONS:
@@ -7483,7 +7483,7 @@ number.10.Cello.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! baca.make_repeat_tied_notes()
+          %! baca.make_repeat_tied_notes_function()
         e,2
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7502,7 +7502,7 @@ number.10.Cello.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! baca.make_repeat_tied_notes()
+          %! baca.make_repeat_tied_notes_function()
         e,8
         % AFTER:
         % COMMANDS:
@@ -7641,7 +7641,7 @@ number.10.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     bf,,!1
     % AFTER:
     % ARTICULATIONS:
@@ -7702,26 +7702,26 @@ number.10.Cello.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     bf,,!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     bf,,!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     bf,,!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     bf,,!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7752,7 +7752,7 @@ number.10.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     bf,,!2.
     % AFTER:
     % ARTICULATIONS:

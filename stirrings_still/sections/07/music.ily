@@ -12639,7 +12639,7 @@ number.7.Cello.Music = {
     % COMMANDS:
       %! baca.tuplet_bracket_down(1)
     \override TupletBracket.direction = #down
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     e,2.
     % AFTER:
     % ARTICULATIONS:
@@ -12778,7 +12778,7 @@ number.7.Cello.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! baca.make_repeat_tied_notes()
+          %! baca.make_repeat_tied_notes_function()
         e,2
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -12797,7 +12797,7 @@ number.7.Cello.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! baca.make_repeat_tied_notes()
+          %! baca.make_repeat_tied_notes_function()
         e,8
         % AFTER:
         % COMMANDS:

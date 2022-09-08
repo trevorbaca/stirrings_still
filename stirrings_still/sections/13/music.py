@@ -40,7 +40,7 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = baca.make_repeat_tied_notes(
+    music = baca.make_repeat_tied_notes_function(
         accumulator.get(1, 7), do_not_rewrite_meter=True
     )
     voice.extend(music)
@@ -56,7 +56,7 @@ def V1(voice, accumulator):
         ),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(
+    music = baca.make_repeat_tied_notes_function(
         accumulator.get(13, 16), do_not_rewrite_meter=True
     )
     voice.extend(music)
@@ -72,7 +72,7 @@ def V1(voice, accumulator):
         ),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(
+    music = baca.make_repeat_tied_notes_function(
         accumulator.get(21, 24), do_not_rewrite_meter=True
     )
     voice.extend(music)
@@ -88,7 +88,7 @@ def V1(voice, accumulator):
         ),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(
+    music = baca.make_repeat_tied_notes_function(
         accumulator.get(29, 32), do_not_rewrite_meter=True
     )
     voice.extend(music)
@@ -96,7 +96,7 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = baca.make_repeat_tied_notes(
+    music = baca.make_repeat_tied_notes_function(
         accumulator.get(1, 7), do_not_rewrite_meter=True
     )
     voice.extend(music)
@@ -112,7 +112,7 @@ def V2(voice, accumulator):
         ),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(
+    music = baca.make_repeat_tied_notes_function(
         accumulator.get(13, 16), do_not_rewrite_meter=True
     )
     voice.extend(music)
@@ -128,7 +128,7 @@ def V2(voice, accumulator):
         ),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(
+    music = baca.make_repeat_tied_notes_function(
         accumulator.get(21, 24), do_not_rewrite_meter=True
     )
     voice.extend(music)
@@ -144,7 +144,7 @@ def V2(voice, accumulator):
         ),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(
+    music = baca.make_repeat_tied_notes_function(
         accumulator.get(29, 32), do_not_rewrite_meter=True
     )
     voice.extend(music)
@@ -152,7 +152,7 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = baca.make_repeat_tied_notes(
+    music = baca.make_repeat_tied_notes_function(
         accumulator.get(1, 7), do_not_rewrite_meter=True
     )
     voice.extend(music)
@@ -168,7 +168,7 @@ def VA(voice, accumulator):
         ),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(
+    music = baca.make_repeat_tied_notes_function(
         accumulator.get(13, 16), do_not_rewrite_meter=True
     )
     voice.extend(music)
@@ -184,7 +184,7 @@ def VA(voice, accumulator):
         ),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(
+    music = baca.make_repeat_tied_notes_function(
         accumulator.get(21, 24), do_not_rewrite_meter=True
     )
     voice.extend(music)
@@ -200,7 +200,7 @@ def VA(voice, accumulator):
         ),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(
+    music = baca.make_repeat_tied_notes_function(
         accumulator.get(29, 32), do_not_rewrite_meter=True
     )
     voice.extend(music)
