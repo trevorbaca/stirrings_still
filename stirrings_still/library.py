@@ -248,7 +248,7 @@ def rleaves_partition_by_ratio(ratio):
     return selector
 
 
-def bcps_function(
+def bcps(
     argument,
     rotation,
     *,
@@ -273,7 +273,7 @@ def bcps_function(
             bcps_.append(bcp)
         previous_bcp = bcp
 
-    wrappers = baca.bcps_function(
+    wrappers = baca.bcps(
         argument,
         bcps_,
         abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
@@ -287,11 +287,11 @@ def bcps_function(
     return wrappers
 
 
-def breathe_function(argument):
+def breathe(argument):
     """
     Makes breathe command with (-0.25, 2) extra offset.
     """
-    wrappers = baca.breathe_function(
+    wrappers = baca.breathe(
         argument,
         abjad.Tweak(r"\tweak extra-offset #'(-0.25 . 2)"),
     )
@@ -300,10 +300,10 @@ def breathe_function(argument):
     return wrappers
 
 
-def cello_cell_bcps_function(argument, *, staff_padding=None):
+def cello_cell_bcps(argument, *, staff_padding=None):
     assert staff_padding is not None, repr(staff_padding)
     bcps = [(4, 7), (7, 7), (1, 7), (5, 7)]
-    wrappers = baca.bcps_function(
+    wrappers = baca.bcps(
         argument,
         bcps,
         abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
@@ -317,12 +317,12 @@ def cello_cell_bcps_function(argument, *, staff_padding=None):
     return wrappers
 
 
-def clouded_pane_spanner_function(
+def clouded_pane_spanner(
     argument,
     string,
     staff_padding,
 ):
-    wrappers = baca.material_annotation_spanner_function(
+    wrappers = baca.material_annotation_spanner(
         argument,
         string,
         abjad.Tweak(r"- \tweak color #red"),
@@ -1260,8 +1260,8 @@ def first_order_stages(section):
     return specifiers
 
 
-def flight_spanner_function(o, string, staff_padding):
-    wrappers = baca.material_annotation_spanner_function(
+def flight_spanner(o, string, staff_padding):
+    wrappers = baca.material_annotation_spanner(
         o.rleaves(),
         string,
         abjad.Tweak(r"- \tweak color #darkmagenta"),
@@ -1398,7 +1398,7 @@ def make_continuous_tremolo_material(time_signatures):
     )
     music = rhythm_maker(time_signatures)
     for pleaf in baca.select.pleaves(music):
-        wrappers = baca.stem_tremolo_function(pleaf)
+        wrappers = baca.stem_tremolo(pleaf)
         baca.tags.wrappers(wrappers, tag)
     return music
 
@@ -1707,7 +1707,7 @@ def make_grid_to_trajectory_rhythm(time_signatures, counts, rotation, extra):
 def make_loure_tuplets_material(time_signatures, extra_count):
     music = make_desynchronization_rhythm(time_signatures, 8, [extra_count])
     tag = baca.tags.function_name(inspect.currentframe())
-    wrappers = baca.espressivo_function(baca.select.pheads(music))
+    wrappers = baca.espressivo(baca.select.pheads(music))
     baca.tags.wrappers(wrappers, tag)
     return music
 
@@ -1958,7 +1958,7 @@ def make_wave_rhythm(time_signatures, start, stop, *, previous_state=None):
         return music
 
 
-def multistage_leaf_glissando_function(
+def multistage_leaf_glissando(
     argument,
     pairs,
     final_pitch,
@@ -2004,9 +2004,9 @@ def multistage_leaf_glissando_function(
             return result
 
     if rleak_final_stage:
-        baca.untie_function(_rleaked_selector(argument))
+        baca.untie(_rleaked_selector(argument))
     else:
-        baca.untie_function(selector(argument))
+        baca.untie(selector(argument))
     start, stop = 0, None
     for pair_1, pair_2 in abjad.sequence.nwise(pairs):
         start_pitch, leaf_count = pair_1
@@ -2015,12 +2015,12 @@ def multistage_leaf_glissando_function(
         assert isinstance(stop_pitch, str), repr(stop_pitch)
         assert isinstance(leaf_count, int), repr(leaf_count)
         stop = start + leaf_count
-        baca.glissando_function(
+        baca.glissando(
             _make_start_stop_selector(argument, start, stop),
             allow_repeats=True,
             hide_middle_note_heads=True,
         )
-        baca.interpolate_pitches_function(
+        baca.interpolate_pitches(
             _make_start_stop_selector(argument, start, stop),
             start_pitch,
             stop_pitch,
@@ -2046,31 +2046,31 @@ def multistage_leaf_glissando_function(
         def _final_selector(argument):
             return baca.select.leaves(argument)[start:stop]
 
-    baca.glissando_function(
+    baca.glissando(
         _final_selector(argument),
         allow_repeats=True,
         hide_middle_note_heads=True,
     )
-    baca.interpolate_pitches_function(
+    baca.interpolate_pitches(
         _final_selector(argument),
         start_pitch,
         final_pitch,
     )
 
 
-def ntlt_flat_glissandi_function(argument):
+def ntlt_flat_glissandi(argument):
     for ntlt in baca.select.lts(argument, nontrivial=True):
-        baca.glissando_function(
+        baca.glissando(
             ntlt,
             allow_repeats=True,
             allow_ties=True,
             zero_padding=True,
         )
         with baca.scope(ntlt[1:]) as u:
-            baca.accidental_stencil_false_function(u)
-            baca.note_head_transparent_function(u)
-            baca.note_head_x_extent_zero_function(u)
-        baca.untie_function(ntlt)
+            baca.accidental_stencil_false(u)
+            baca.note_head_transparent(u)
+            baca.note_head_x_extent_zero(u)
+        baca.untie(ntlt)
 
 
 def operations():
@@ -3065,18 +3065,18 @@ def second_order_stages(section):
     return dictionary
 
 
-def style_tailpiece_material_function(o, *tweaks):
+def style_tailpiece_material(o, *tweaks):
     wrappers = []
-    wrappers_ = baca.dots_transparent_function(o.leaves()[1:])
+    wrappers_ = baca.dots_transparent(o.leaves()[1:])
     wrappers.extend(wrappers_)
-    wrappers_ = baca.markup_function(o.pleaf(0), r"\baca-boxed-markup tailpiece")
+    wrappers_ = baca.markup(o.pleaf(0), r"\baca-boxed-markup tailpiece")
     wrappers.extend(wrappers_)
-    baca.staff_position_function(o, 0)
-    wrappers_ = baca.stem_transparent_function(o.leaves()[1:])
+    baca.staff_position(o, 0)
+    wrappers_ = baca.stem_transparent(o.leaves()[1:])
     wrappers.extend(wrappers_)
-    wrappers_ = baca.text_script_parent_alignment_x_function(o, 0)
+    wrappers_ = baca.text_script_parent_alignment_x(o, 0)
     wrappers.extend(wrappers_)
-    baca.flat_glissando_function(
+    baca.flat_glissando(
         o.rleaves(),
         None,
         *tweaks,
@@ -3091,10 +3091,10 @@ def time(skips, rests, pairs):
     for value, lmn in pairs:
         if value in fermatas:
             rest = rests[lmn - 1]
-            baca.global_fermata_function(rest, value)
+            baca.global_fermata(rest, value)
         else:
             skip = skips[lmn - 1]
-            baca.metronome_mark_function(
+            baca.metronome_mark(
                 skip,
                 metronome_marks.get(value, value),
                 manifests,
@@ -3109,7 +3109,7 @@ def time_signatures(section):
     return time_signatures
 
 
-def transition_bcps_function(argument, *, final_spanner=False, staff_padding=None):
+def transition_bcps(argument, *, final_spanner=False, staff_padding=None):
     assert staff_padding is not None, repr(staff_padding)
     bcps = [
         (1, 7),
@@ -3137,7 +3137,7 @@ def transition_bcps_function(argument, *, final_spanner=False, staff_padding=Non
             result.extend(bcps_)
         return result
 
-    wrappers = baca.bcps_function(
+    wrappers = baca.bcps(
         argument,
         bcps,
         abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
@@ -3153,12 +3153,12 @@ def transition_bcps_function(argument, *, final_spanner=False, staff_padding=Non
     return wrappers
 
 
-def urtext_spanner_function(
+def urtext_spanner(
     argument,
     string,
     staff_padding,
 ):
-    wrappers = baca.material_annotation_spanner_function(
+    wrappers = baca.material_annotation_spanner(
         argument,
         string,
         abjad.Tweak(r"- \tweak color #darkred"),

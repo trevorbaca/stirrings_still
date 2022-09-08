@@ -27,13 +27,13 @@ def GLOBALS(skips, rests, first_measure_number):
         ("[R.4]", 13),
     )
     baca.label_stage_numbers(skips, stage_markup)
-    baca.markup_function(
+    baca.markup(
         skips[17 - 1],
         r"\stirrings-still-text-twenty-five",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
     )
-    baca.open_volta_function(skips[3 - 1], first_measure_number)
-    baca.close_volta_function(skips[5 - 1], first_measure_number)
+    baca.open_volta(skips[3 - 1], first_measure_number)
+    baca.close_volta(skips[5 - 1], first_measure_number)
     time = (("fermata", 17),)
     library.time(skips, rests, time)
 
@@ -72,47 +72,47 @@ def VC(voice, accumulator):
 def v1(cache):
     m = cache["v1"]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding_function(o, 7)
+        baca.dls_staff_padding(o, 7)
     with baca.scope(m.get(1, 8)) as o:
-        baca.half_clt_spanner_function(
+        baca.half_clt_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(rf"- \tweak staff-padding {8 + 6}"),
         )
-        baca.tuplet_bracket_down_function(o)
-        library.bcps_function(o, -8, clt=True, staff_padding=8)
-        baca.flat_glissando_function(o, "A6", left_broken=True)
+        baca.tuplet_bracket_down(o)
+        library.bcps(o, -8, clt=True, staff_padding=8)
+        baca.flat_glissando(o, "A6", left_broken=True)
     with baca.scope(m.get(5, 8)) as o:
-        baca.hairpin_function(o.rleaves(), "ppp >o niente")
+        baca.hairpin(o.rleaves(), "ppp >o niente")
     with baca.scope(cache["v1r"][9]) as o:
-        baca.tacet_function(o.mmrests())
+        baca.tacet(o.mmrests())
     with baca.scope(m.get(10, 17)) as o:
-        baca.tacet_function(o.mmrests())
+        baca.tacet(o.mmrests())
 
 
 def v2(cache):
     m = cache["v2"]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding_function(o.leaves(), 7)
+        baca.dls_staff_padding(o.leaves(), 7)
     with baca.scope(m.get(1, 8)) as o:
-        baca.half_clt_spanner_function(
+        baca.half_clt_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
         )
-        baca.tuplet_bracket_down_function(o)
-        library.bcps_function(o, -9, clt=True, staff_padding=4.5)
-        baca.flat_glissando_function(o, "Ab5", left_broken=True)
+        baca.tuplet_bracket_down(o)
+        library.bcps(o, -9, clt=True, staff_padding=4.5)
+        baca.flat_glissando(o, "Ab5", left_broken=True)
     with baca.scope(m.get(5, 8)) as o:
-        baca.hairpin_function(o.rleaves(), "ppp >o niente")
+        baca.hairpin(o.rleaves(), "ppp >o niente")
     with baca.scope(cache["v2r"][9]) as o:
-        baca.tacet_function(o.mmrests())
+        baca.tacet(o.mmrests())
     with baca.scope(m.get(10, 17)) as o:
-        baca.tacet_function(o.mmrests())
+        baca.tacet(o.mmrests())
 
 
 def va(cache):
     m = cache["va"]
     with baca.scope(m.leaves()) as o:
-        baca.flat_glissando_function(
+        baca.flat_glissando(
             o,
             "Bb2",
             hide_middle_stems=True,
@@ -124,16 +124,16 @@ def va(cache):
 def vc(cache):
     m = cache["vc"]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding_function(o.leaves(), 8)
+        baca.dls_staff_padding(o.leaves(), 8)
     with baca.scope(m.get(1, 12)) as o:
-        baca.ottava_bassa_function(o.tleaves())
-        baca.flat_glissando_function(o, "B0", hide_middle_stems=True)
+        baca.ottava_bassa(o.tleaves())
+        baca.flat_glissando(o, "B0", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
-        baca.hairpin_function(o.rleaves(), "pp >o niente")
+        baca.hairpin(o.rleaves(), "pp >o niente")
     with baca.scope(cache["vcr"][13]) as o:
-        baca.tacet_function(o.mmrests())
+        baca.tacet(o.mmrests())
     with baca.scope(m.get(14, 17)) as o:
-        baca.tacet_function(o.mmrests())
+        baca.tacet(o.mmrests())
 
 
 def make_score(first_measure_number, previous_persistent_indicators):

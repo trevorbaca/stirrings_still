@@ -26,7 +26,7 @@ def GLOBALS(skips, rests, first_measure_number):
         ("[C.2.3-4]", 12, "#darkgreen"),
     )
     baca.label_stage_numbers(skips, stage_markup)
-    baca.markup_function(
+    baca.markup(
         skips[11 - 1],
         r"\stirrings-still-text-nineteen",
         abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
@@ -104,21 +104,21 @@ def VC(voice, accumulator):
 def v1(cache):
     m = cache["v1"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.flat_glissando_function(o, "<F5 Bqs5>", hide_middle_stems=True)
+        baca.flat_glissando(o, "<F5 Bqs5>", hide_middle_stems=True)
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.hairpin_function(
+        baca.hairpin(
             o.rleaves(),
             "pp < f > pp < f > pp < f >o niente",
             pieces=lambda _: baca.select.mgroups(_, [1, 2, 1, 2, 1, 2]),
         )
-        baca.markup_function(
+        baca.markup(
             o.pleaf(0),
             r"\baca-thirteen-plus-nine-e-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        library.clouded_pane_spanner_function(
+        library.clouded_pane_spanner(
             o.rleaves(),
             "clouded pane (doublestop partials) -|",
             8,
@@ -128,21 +128,21 @@ def v1(cache):
 def v2(cache):
     m = cache["v2"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.flat_glissando_function(o, "<G4 Dqs5>", hide_middle_stems=True)
+        baca.flat_glissando(o, "<G4 Dqs5>", hide_middle_stems=True)
         cache.rebuild()
         m = cache["v2"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.hairpin_function(
+        baca.hairpin(
             o.rleaves(),
             "pp < f > pp < f > pp < f >o niente",
             pieces=lambda _: baca.select.mgroups(_, [2, 1, 2, 1, 1, 2]),
         )
-        baca.markup_function(
+        baca.markup(
             o.pleaf(0),
             r"\baca-seven-plus-five-e-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        library.clouded_pane_spanner_function(
+        library.clouded_pane_spanner(
             o.rleaves(),
             "clouded pane (doublestop partials) -|",
             8,
@@ -152,36 +152,36 @@ def v2(cache):
 def va(cache):
     m = cache["va"]
     with baca.scope(m.get(1, 10)) as o:
-        baca.staff_lines_function(o.leaf(0), 1)
-        baca.dynamic_function(
+        baca.staff_lines(o.leaf(0), 1)
+        baca.dynamic(
             o.phead(0),
             '"mf"',
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         )
     with baca.scope(m.get(1, 10)) as o:
-        library.style_tailpiece_material_function(
+        library.style_tailpiece_material(
             o,
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         )
     with baca.scope(m[12]) as o:
-        baca.staff_lines_function(o.leaf(0), 5)
+        baca.staff_lines(o.leaf(0), 5)
 
 
 def vc(cache):
     m = cache["vc"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.flat_glissando_function(
+        baca.flat_glissando(
             o,
             "Eb2",
             hide_middle_stems=True,
             left_broken=True,
         )
-        baca.hairpin_function(
+        baca.hairpin(
             o.rleaves(),
             "(p) < ff -- (ff) >o niente",
             pieces=lambda _: baca.select.mgroups(_, [2, 4, 2 + 1]),
         )
-        library.clouded_pane_spanner_function(
+        library.clouded_pane_spanner(
             o.rleaves(),
             "clouded pane (continues) -|",
             5.5,
@@ -191,42 +191,42 @@ def vc(cache):
 def v1_v2_vc(cache):
     for name in ["v1r", "v2r", "vcr"]:
         with baca.scope(cache[name][9]) as o:
-            baca.tacet_function(o.mmrests())
+            baca.tacet(o.mmrests())
     for name in ["v1", "v2", "vc"]:
         with baca.scope(cache[name][10]) as o:
-            baca.tacet_function(o.mmrests())
+            baca.tacet(o.mmrests())
 
 
 def tutti(cache):
     for name in ["v1", "v2", "va", "vc"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.dls_staff_padding_function(o.leaves(), 6)
-            baca.tuplet_bracket_down_function(o.leaves())
+            baca.dls_staff_padding(o.leaves(), 6)
+            baca.tuplet_bracket_down(o.leaves())
         with baca.scope(m.get(12, 13)) as o:
-            baca.circle_bow_spanner_function(
+            baca.circle_bow_spanner(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight-poss-grind-at-talon",
             )
-            baca.damp_spanner_function(
+            baca.damp_spanner(
                 baca.select.rleak(baca.select.tleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 8"),
             )
-            baca.hairpin_function(
+            baca.hairpin(
                 o.rleaves(),
                 "p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             if name == "v1":
-                baca.flat_glissando_function(o, "Bb4")
+                baca.flat_glissando(o, "Bb4")
             elif name == "v2":
-                baca.flat_glissando_function(o, "G4", stop_pitch="A4")
+                baca.flat_glissando(o, "G4", stop_pitch="A4")
             elif name == "va":
-                baca.flat_glissando_function(o, "Bb4")
+                baca.flat_glissando(o, "Bb4")
             elif name == "vc":
-                baca.clef_function(o.leaf(0), "treble")
-                baca.flat_glissando_function(o, "Bb4")
+                baca.clef(o.leaf(0), "treble")
+                baca.flat_glissando(o, "Bb4")
 
 
 def make_score(first_measure_number, previous_persistent_indicators):
