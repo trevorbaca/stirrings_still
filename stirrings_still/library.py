@@ -1790,7 +1790,9 @@ def make_running_quarter_divisions(time_signatures, count):
 
 def make_solid_line_rhythm(time_signatures):
     rhythm_maker = rmakers.stack(
-        rmakers.note(spelling=rmakers.Spelling(forbidden_note_duration=(1, 2))),
+        rmakers.note(
+            spelling=rmakers.Spelling(forbidden_note_duration=abjad.Duration(1, 2))
+        ),
         rmakers.beam(
             lambda _: baca.select.plts(_),
         ),
@@ -1806,7 +1808,7 @@ def make_stroke_rhythm(time_signatures, rotation, *commands):
             suffix_talea=[1],
             suffix_counts=[1],
             talea_denominator=8,
-            spelling=rmakers.Spelling(forbidden_note_duration=(1, 2)),
+            spelling=rmakers.Spelling(forbidden_note_duration=abjad.Duration(1, 2)),
         ),
         *commands,
         rmakers.untie(
