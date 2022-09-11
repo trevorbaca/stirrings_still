@@ -130,7 +130,7 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = baca.make_notes(accumulator.get(1, 19))
+    music = baca.make_notes_function(accumulator.get(1, 19))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(20), head=voice.name)
     voice.extend(music)

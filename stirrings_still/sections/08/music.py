@@ -366,7 +366,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(36, 37))
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(38, 46))
+    music = baca.make_notes_function(accumulator.get(38, 46))
     voice.extend(music)
     music = library.make_trajectory_rhythm(
         accumulator.get(47, 51),

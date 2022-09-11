@@ -18959,7 +18959,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 38]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     gf,!2.
     % AFTER:
     % ARTICULATIONS:
@@ -19063,49 +19063,49 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 40]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     f,2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 41]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     f,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 42]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     e,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 43]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     e,2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 44]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     e,2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 45]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     e,2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 46]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     d,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
