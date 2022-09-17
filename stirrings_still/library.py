@@ -1405,98 +1405,46 @@ def make_continuous_tremolo_material_function(time_signatures):
     return music
 
 
-def make_declamation_rhythm(time_signatures, *, protract=False):
-    tuplet_rhythm_maker = rmakers.stack(
-        rmakers.tuplet([(3, 1)]),
-        rmakers.beam(),
-        rmakers.denominator((1, 8)),
-        rmakers.force_fraction(),
-        rmakers.rewrite_dots(),
-        rmakers.extract_trivial(),
-    )
-    note_rhythm_maker = rmakers.stack(
-        rmakers.note(),
-        rmakers.beam(
-            lambda _: baca.select.plts(_),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.ptails(_)[:-1],
-        ),
-        rmakers.force_repeat_tie(),
-    )
-    if protract is True:
-
-        def preprocessor(divisions):
-            divisions = [
-                baca.sequence.split_divisions([_], [(1, 4)]) for _ in divisions
-            ]
-            return divisions
-
-        rhythm_maker = rmakers.stack(
-            rmakers.bind(
-                rmakers.assign(tuplet_rhythm_maker, abjad.index([0])),
-                rmakers.assign(note_rhythm_maker),
-            ),
-            preprocessor=preprocessor,
-            tag=baca.tags.function_name(inspect.currentframe(), n=1),
-        )
-    else:
-        rhythm_maker = rmakers.stack(
-            tuplet_rhythm_maker,
-            preprocessor=lambda _: baca.sequence.split_divisions(
-                baca.sequence.fuse(_), [(1, 4)]
-            ),
-            tag=baca.tags.function_name(inspect.currentframe(), n=2),
-        )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
-# TODO
 def make_declamation_rhythm_function(time_signatures, *, protract=False):
     tag = baca.tags.function_name(inspect.currentframe())
     divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
 
-    def tuplet_rhythm_maker(time_signatures):
-        nested_music = rmakers.tuplet_function(time_signatures, [(3, 1)], tag=tag)
+    def tuplet_rhythm_maker(divisions):
+        nested_music = rmakers.tuplet_function(divisions, [(3, 1)], tag=tag)
         voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
-        rmakers.beam()
-        rmakers.denominator((1, 8))
-        rmakers.force_fraction()
-        rmakers.rewrite_dots()
-        rmakers.extract_trivial()
+        rmakers.beam_function(voice, tag=tag)
+        rmakers.denominator_function(voice, (1, 8))
+        rmakers.force_fraction_function(voice)
+        rmakers.rewrite_dots_function(voice, tag=tag)
+        rmakers.extract_trivial_function(voice)
         music = abjad.mutate.eject_contents(voice)
         return music
 
-    def note_rhythm_maker(time_signatures):
-        nested_music = rmakers.note_function(time_signatures, tag=tag)
+    def note_rhythm_maker(divisions):
+        nested_music = rmakers.note_function(divisions, tag=tag)
         voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
-        rmakers.beam(lambda _: baca.select.plts(_))
-        rmakers.tie(lambda _: baca.select.ptails(_)[:-1])
-        rmakers.force_repeat_tie()
+        rmakers.beam_function(baca.select.plts(voice), tag=tag)
+        rmakers.tie_function(baca.select.ptails(voice)[:-1], tag=tag)
+        rmakers.force_repeat_tie_function(voice, tag=tag)
         music = abjad.mutate.eject_contents(voice)
         return music
 
     if protract is True:
-        divisions = [baca.sequence.split_divisions([_], [(1, 4)]) for _ in divisions]
         tag = baca.tags.function_name(inspect.currentframe(), n=1)
-
-        rhythm_maker = rmakers.stack(
-            rmakers.bind(
-                rmakers.assign(tuplet_rhythm_maker, abjad.index([0])),
-                rmakers.assign(note_rhythm_maker),
-            ),
-            # preprocessor=preprocessor,
-        )
+        divisions = [baca.sequence.split_divisions([_], [(1, 4)]) for _ in divisions]
+        divisions = abjad.sequence.flatten(divisions, depth=-1)
+        music = []
+        music_ = tuplet_rhythm_maker(divisions[:1])
+        music.extend(music_)
+        music_ = note_rhythm_maker(divisions[1:])
+        music.extend(music_)
     else:
         tag = baca.tags.function_name(inspect.currentframe(), n=2)
-        rhythm_maker = rmakers.stack(
-            tuplet_rhythm_maker,
-            preprocessor=lambda _: baca.sequence.split_divisions(
-                baca.sequence.fuse(_), [(1, 4)]
-            ),
+        divisions = baca.sequence.split_divisions(
+            baca.sequence.fuse(divisions), [(1, 4)]
         )
-    music = rhythm_maker(time_signatures)
+        divisions = abjad.sequence.flatten(divisions, depth=-1)
+        music = tuplet_rhythm_maker(divisions)
     return music
 
 

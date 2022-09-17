@@ -4368,7 +4368,7 @@ number.1.Violin.1.Music = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“ViolinI”)"
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -4548,7 +4548,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -4582,7 +4582,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -4667,7 +4667,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \mp
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4784,7 +4784,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -4897,7 +4897,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -5127,7 +5127,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -5240,7 +5240,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -5253,11 +5253,11 @@ number.1.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \times 11/8
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5369,7 +5369,7 @@ number.1.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5486,7 +5486,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -5599,7 +5599,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -5612,11 +5612,11 @@ number.1.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \times 13/8
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5728,7 +5728,7 @@ number.1.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5866,7 +5866,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(1)
+      %! stirrings_still.make_declamation_rhythm_function(1)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -5979,7 +5979,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(1)
+      %! stirrings_still.make_declamation_rhythm_function(1)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -6340,7 +6340,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -6505,7 +6505,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -6518,11 +6518,11 @@ number.1.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \times 6/8
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6641,7 +6641,7 @@ number.1.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6779,7 +6779,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -6892,7 +6892,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -7129,7 +7129,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -7242,7 +7242,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -7255,11 +7255,11 @@ number.1.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \times 3/4
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7378,7 +7378,7 @@ number.1.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7688,7 +7688,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -7853,7 +7853,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -7887,7 +7887,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -7972,7 +7972,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -8480,7 +8480,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -8645,7 +8645,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -8658,11 +8658,11 @@ number.1.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \times 3/4
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8781,7 +8781,7 @@ number.1.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11173,7 +11173,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -11338,7 +11338,7 @@ number.1.Violin.1.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -11990,7 +11990,7 @@ number.1.Violin.2.Music = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“ViolinI”)"
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -12170,7 +12170,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -12204,7 +12204,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -12289,7 +12289,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \mp
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -12406,7 +12406,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -12519,7 +12519,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -12749,7 +12749,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -12862,7 +12862,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -12875,11 +12875,11 @@ number.1.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \times 11/8
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -12991,7 +12991,7 @@ number.1.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -13108,7 +13108,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -13221,7 +13221,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -13234,11 +13234,11 @@ number.1.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \times 13/8
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -13350,7 +13350,7 @@ number.1.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -13481,7 +13481,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(1)
+      %! stirrings_still.make_declamation_rhythm_function(1)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -13594,7 +13594,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(1)
+      %! stirrings_still.make_declamation_rhythm_function(1)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -13955,7 +13955,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -14120,7 +14120,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -14133,11 +14133,11 @@ number.1.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \times 6/8
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -14256,7 +14256,7 @@ number.1.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -14387,7 +14387,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -14500,7 +14500,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -14737,7 +14737,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -14850,7 +14850,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -14863,11 +14863,11 @@ number.1.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \times 3/4
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -14986,7 +14986,7 @@ number.1.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15268,7 +15268,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -15433,7 +15433,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -15467,7 +15467,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -15552,7 +15552,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -16057,7 +16057,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -16222,7 +16222,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -16235,11 +16235,11 @@ number.1.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \times 3/4
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -16358,7 +16358,7 @@ number.1.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -18372,7 +18372,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -18537,7 +18537,7 @@ number.1.Violin.2.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -19169,7 +19169,7 @@ number.1.Viola.Music = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“Viola”)"
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -19349,7 +19349,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -19383,7 +19383,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -19468,7 +19468,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \mp
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -19585,7 +19585,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -19698,7 +19698,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -19928,7 +19928,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -20041,7 +20041,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -20054,11 +20054,11 @@ number.1.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \times 11/8
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -20170,7 +20170,7 @@ number.1.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -20287,7 +20287,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -20400,7 +20400,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -20413,11 +20413,11 @@ number.1.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \times 13/8
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -20529,7 +20529,7 @@ number.1.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -20660,7 +20660,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(1)
+      %! stirrings_still.make_declamation_rhythm_function(1)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -20773,7 +20773,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(1)
+      %! stirrings_still.make_declamation_rhythm_function(1)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -21134,7 +21134,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -21299,7 +21299,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -21312,11 +21312,11 @@ number.1.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \times 6/8
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -21435,7 +21435,7 @@ number.1.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21566,7 +21566,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -21679,7 +21679,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -21916,7 +21916,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -22029,7 +22029,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -22042,11 +22042,11 @@ number.1.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \times 3/4
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -22165,7 +22165,7 @@ number.1.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -22473,7 +22473,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -22638,7 +22638,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -22672,7 +22672,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -22757,7 +22757,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -23270,7 +23270,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -23435,7 +23435,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -23448,11 +23448,11 @@ number.1.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     \times 3/4
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -23571,7 +23571,7 @@ number.1.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -26009,7 +26009,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -26174,7 +26174,7 @@ number.1.Viola.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()

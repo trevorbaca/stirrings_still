@@ -127,7 +127,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = library.make_measure_initiation_rhythm(accumulator.get(24, 33))
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(34))
+    music = library.make_declamation_rhythm_function(accumulator.get(34))
     voice.extend(music)
     music = library.make_trajectory_rhythm(
         accumulator.get(35, 40),
@@ -240,7 +240,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = library.make_measure_initiation_rhythm(accumulator.get(24, 33))
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(34))
+    music = library.make_declamation_rhythm_function(accumulator.get(34))
     voice.extend(music)
     music = library.make_trajectory_rhythm(
         accumulator.get(35, 40),
@@ -346,7 +346,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = library.make_measure_initiation_rhythm(accumulator.get(24, 33))
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(34))
+    music = library.make_declamation_rhythm_function(accumulator.get(34))
     voice.extend(music)
     music = library.make_measure_initiation_rhythm(accumulator.get(35, 40))
     voice.extend(music)
