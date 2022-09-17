@@ -67,14 +67,14 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(1),
         0,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2), head=voice.name)
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(3),
         0,
     )
@@ -83,28 +83,28 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = library.make_urtext_field_rhythm(accumulator.get(5, 6))
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(7),
         0,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(9),
         0,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10), head=voice.name)
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(11),
         0,
     )
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(accumulator.get(12, 13))
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(14),
         0,
     )
@@ -130,14 +130,14 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(1),
         1,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2), head=voice.name)
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(3),
         1,
     )
@@ -146,21 +146,21 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = library.make_urtext_field_rhythm(accumulator.get(5, 6))
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(7),
         1,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(9),
         1,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10), head=voice.name)
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(11),
         1,
     )
@@ -171,7 +171,7 @@ def V2(voice, accumulator):
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
     )
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(14),
         1,
     )
@@ -197,14 +197,14 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(1),
         -1,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2), head=voice.name)
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(3),
         -1,
     )
@@ -213,28 +213,28 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = library.make_urtext_field_rhythm(accumulator.get(5, 6))
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(7),
         -1,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(9),
         -1,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10), head=voice.name)
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(11),
         -1,
     )
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(accumulator.get(12, 13))
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(14),
         -1,
     )

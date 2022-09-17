@@ -75,7 +75,7 @@ def V1(voice, accumulator):
     )
     voice.extend(music)
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(3, 4),
         4,
         [2],
@@ -181,7 +181,7 @@ def V2(voice, accumulator):
         end_counts=[1],
     )
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(3, 4),
         4,
         [1],
@@ -287,7 +287,7 @@ def VA(voice, accumulator):
         end_counts=[1],
     )
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(3, 4),
         4,
         [0],
@@ -378,7 +378,7 @@ def VC(voice, accumulator):
         end_counts=[1],
     )
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(3, 4),
         4,
         [-1],

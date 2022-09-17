@@ -92,7 +92,7 @@ def V1(voice, accumulator):
         (8, 32),
     )
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(9, 16),
         4,
         [0, 2, 1],
@@ -145,14 +145,14 @@ def V1(voice, accumulator):
         2,
     )
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(52),
         0,
     )
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(accumulator.get(53, 54))
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(55),
         0,
     )
@@ -178,7 +178,7 @@ def V2(voice, accumulator):
         (7, 32),
     )
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(13, 16),
         4,
         [1, 0, 2],
@@ -235,7 +235,7 @@ def V2(voice, accumulator):
         1,
     )
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(52),
         1,
     )
@@ -246,7 +246,7 @@ def V2(voice, accumulator):
         r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
     )
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(55),
         1,
     )
@@ -275,7 +275,7 @@ def VA(voice, accumulator):
         (6, 32),
     )
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(9, 16),
         4,
         [1, 0, 2],
@@ -328,14 +328,14 @@ def VA(voice, accumulator):
         0,
     )
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(52),
         -1,
     )
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(accumulator.get(53, 54))
     voice.extend(music)
-    music = library.make_loure_tuplets_material(
+    music = library.make_loure_tuplets_material_function(
         accumulator.get(55),
         -1,
     )

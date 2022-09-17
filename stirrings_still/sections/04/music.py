@@ -197,7 +197,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = library.make_continuous_tremolo_material_function(accumulator.get(94, 96))
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(97, 98),
         4,
         [1],
@@ -297,7 +297,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = library.make_continuous_tremolo_material_function(accumulator.get(94, 96))
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(97, 98),
         4,
         [0],
@@ -403,7 +403,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = library.make_continuous_tremolo_material_function(accumulator.get(94, 96))
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(97, 98),
         4,
         [2],
