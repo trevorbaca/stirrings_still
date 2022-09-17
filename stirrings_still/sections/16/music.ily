@@ -3565,7 +3565,7 @@ number.16.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a'8
     % AFTER:
     % ARTICULATIONS:
@@ -3618,180 +3618,180 @@ number.16.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 22]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 23]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 24]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 25]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3810,7 +3810,7 @@ number.16.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     bf''!8
     % AFTER:
     % STOP_BEAM:
@@ -6366,7 +6366,7 @@ number.16.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % AFTER:
     % ARTICULATIONS:
@@ -6410,27 +6410,27 @@ number.16.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % AFTER:
     % COMMANDS:
@@ -6441,7 +6441,7 @@ number.16.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 21]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % AFTER:
     % SPANNER_STOPS:
@@ -6456,180 +6456,180 @@ number.16.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 22]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 23]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 24]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 25]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6648,7 +6648,7 @@ number.16.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     gf'!8
     % AFTER:
     % STOP_BEAM:
@@ -8254,7 +8254,7 @@ number.16.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % AFTER:
     % ARTICULATIONS:
@@ -8307,180 +8307,180 @@ number.16.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 22]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 23]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 24]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 25]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8499,7 +8499,7 @@ number.16.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % AFTER:
     % STOP_BEAM:
@@ -10075,7 +10075,7 @@ number.16.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,8
     % AFTER:
     % ARTICULATIONS:
@@ -10119,49 +10119,49 @@ number.16.Cello.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 20]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,8
     % AFTER:
     % COMMANDS:
@@ -10172,7 +10172,7 @@ number.16.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 21]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,8
     % AFTER:
     % SPANNER_STOPS:
@@ -10187,180 +10187,180 @@ number.16.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 22]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 23]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 24]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 25]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10379,7 +10379,7 @@ number.16.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c8
     % AFTER:
     % STOP_BEAM:

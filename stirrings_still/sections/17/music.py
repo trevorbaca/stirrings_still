@@ -421,7 +421,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(72), head=voice.name)
     voice.extend(music)
-    music = library.make_eighth_notes(accumulator.get(73, 87))
+    music = library.make_eighth_notes_function(accumulator.get(73, 87))
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(88, 92))
     voice.extend(music)

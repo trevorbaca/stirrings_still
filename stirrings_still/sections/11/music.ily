@@ -5769,7 +5769,7 @@ number.11.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     aqs''!2..
     % AFTER:
     % STEM_TREMOLOS:
@@ -5797,7 +5797,7 @@ number.11.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 19]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     aqs''!1
     % AFTER:
     % STEM_TREMOLOS:
@@ -5810,18 +5810,18 @@ number.11.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 8/10
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 20]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         aqs''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -5833,7 +5833,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         aqs''!1
         % AFTER:
         % STEM_TREMOLOS:
@@ -5859,7 +5859,7 @@ number.11.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         aqs''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -5875,7 +5875,7 @@ number.11.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6325,7 +6325,7 @@ number.11.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 24]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     aqf''!2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -6429,7 +6429,7 @@ number.11.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     aqf''!2..
     % AFTER:
     % STEM_TREMOLOS:
@@ -6439,18 +6439,18 @@ number.11.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 7/9
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 26]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         aqf''!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -6459,7 +6459,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         aqf''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -6503,7 +6503,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         aqf''!2.
         % AFTER:
         % STEM_TREMOLOS:
@@ -6548,14 +6548,14 @@ number.11.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 27]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     aqf''!2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -6566,7 +6566,7 @@ number.11.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 28]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     aqf''!2
     % AFTER:
     % STEM_TREMOLOS:
@@ -6575,7 +6575,7 @@ number.11.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     aqf''!8
     % AFTER:
     % STEM_TREMOLOS:
@@ -6620,18 +6620,18 @@ number.11.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 4/6
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 29]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         aqf''!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -6675,19 +6675,19 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         aqf''!8
         % AFTER:
         % STEM_TREMOLOS:
           %! baca.stem_tremolo()
         :32
         % START_BEAM:
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         aqf''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -6704,7 +6704,7 @@ number.11.Violin.1.Music = {
           %! baca.text_spanner()
         \bacaStopTextSpanSCP
         % STOP_BEAM:
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! SCP_SPANNER
@@ -6735,24 +6735,24 @@ number.11.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 6/7
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 30]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         aqf''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -6761,7 +6761,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         aqf''!2.
         % AFTER:
         % STEM_TREMOLOS:
@@ -6806,14 +6806,14 @@ number.11.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 31]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     aqf''!2
     % AFTER:
     % STEM_TREMOLOS:
@@ -6822,7 +6822,7 @@ number.11.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     aqf''!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -6898,7 +6898,7 @@ number.11.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     aqf''!8
     % AFTER:
     % STEM_TREMOLOS:
@@ -6922,7 +6922,7 @@ number.11.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 32]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     bqf''!2..
     % AFTER:
     % STEM_TREMOLOS:
@@ -7032,7 +7032,7 @@ number.11.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     bqf''!2
     % AFTER:
     % STEM_TREMOLOS:
@@ -7068,18 +7068,18 @@ number.11.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 5/7
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 34]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -7114,7 +7114,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -7158,7 +7158,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -7203,14 +7203,14 @@ number.11.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 35]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     bqf''!2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -7247,7 +7247,7 @@ number.11.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 36]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     bqf''!1
     % AFTER:
     % STEM_TREMOLOS:
@@ -7291,18 +7291,18 @@ number.11.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 8/10
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 37]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -7346,7 +7346,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -7390,7 +7390,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -7399,7 +7399,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -7461,7 +7461,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -7481,14 +7481,14 @@ number.11.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 38]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     bqf''!2
     % AFTER:
     % ARTICULATIONS:
@@ -7609,7 +7609,7 @@ number.11.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 39]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     bqf''!2
     % AFTER:
     % ARTICULATIONS:
@@ -7671,18 +7671,18 @@ number.11.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 8/10
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 40]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!2.
         % AFTER:
         % ARTICULATIONS:
@@ -7743,7 +7743,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!8
         % AFTER:
         % ARTICULATIONS:
@@ -7804,7 +7804,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!4.
         % AFTER:
         % ARTICULATIONS:
@@ -7866,14 +7866,14 @@ number.11.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 41]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     bqf''!2.
     % AFTER:
     % ARTICULATIONS:
@@ -7964,7 +7964,7 @@ number.11.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 42]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     bqf''!2..
     % AFTER:
     % ARTICULATIONS:
@@ -8025,7 +8025,7 @@ number.11.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     bqf''!8
     % AFTER:
     % ARTICULATIONS:
@@ -8087,18 +8087,18 @@ number.11.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 8/10
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 43]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!2
         % AFTER:
         % ARTICULATIONS:
@@ -8173,7 +8173,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!8
         % AFTER:
         % ARTICULATIONS:
@@ -8234,7 +8234,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!4
         % AFTER:
         % ARTICULATIONS:
@@ -8295,7 +8295,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!4.
         % AFTER:
         % ARTICULATIONS:
@@ -8357,24 +8357,24 @@ number.11.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 7/8
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 44]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!2..
         % AFTER:
         % ARTICULATIONS:
@@ -8435,7 +8435,7 @@ number.11.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         bqf''!8
         % AFTER:
         % ARTICULATIONS:
@@ -8497,14 +8497,14 @@ number.11.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 45]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     bqf''!8
     % AFTER:
     % ARTICULATIONS:
@@ -8593,7 +8593,7 @@ number.11.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     bqf''!2
     % AFTER:
     % ARTICULATIONS:
@@ -8684,7 +8684,7 @@ number.11.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     bqf''!8
     % AFTER:
     % ARTICULATIONS:
@@ -11259,7 +11259,7 @@ number.11.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     fs''!2..
     % AFTER:
     % STEM_TREMOLOS:
@@ -11287,7 +11287,7 @@ number.11.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 19]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     fs''!1
     % AFTER:
     % STEM_TREMOLOS:
@@ -11300,18 +11300,18 @@ number.11.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 8/10
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 20]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -11321,12 +11321,12 @@ number.11.Violin.2.Music = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -11336,12 +11336,12 @@ number.11.Violin.2.Music = {
           %! baca.accent()
         - \accent
         % STOP_BEAM:
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         fs''!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -11353,7 +11353,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -11365,7 +11365,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         fs''!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -11391,7 +11391,7 @@ number.11.Violin.2.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -11407,7 +11407,7 @@ number.11.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11847,7 +11847,7 @@ number.11.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 24]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     f''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -11951,7 +11951,7 @@ number.11.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     f''2..
     % AFTER:
     % STEM_TREMOLOS:
@@ -11961,18 +11961,18 @@ number.11.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 7/9
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 26]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f''4.
         % AFTER:
         % STEM_TREMOLOS:
@@ -11981,7 +11981,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f''8
         % AFTER:
         % STEM_TREMOLOS:
@@ -12025,7 +12025,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f''2
         % AFTER:
         % STEM_TREMOLOS:
@@ -12069,7 +12069,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f''8
         % AFTER:
         % STEM_TREMOLOS:
@@ -12079,24 +12079,24 @@ number.11.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 6/7
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 27]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f''4
         % AFTER:
         % STEM_TREMOLOS:
@@ -12140,7 +12140,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f''2
         % AFTER:
         % STEM_TREMOLOS:
@@ -12184,7 +12184,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f''8
         % AFTER:
         % STEM_TREMOLOS:
@@ -12194,14 +12194,14 @@ number.11.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 28]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     f''2
     % AFTER:
     % STEM_TREMOLOS:
@@ -12219,18 +12219,18 @@ number.11.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 4/6
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 29]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f''4
         % AFTER:
         % STEM_TREMOLOS:
@@ -12274,7 +12274,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f''2
         % AFTER:
         % STEM_TREMOLOS:
@@ -12319,24 +12319,24 @@ number.11.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 6/7
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 30]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f''4.
         % AFTER:
         % STEM_TREMOLOS:
@@ -12380,7 +12380,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f''2
         % AFTER:
         % STEM_TREMOLOS:
@@ -12425,14 +12425,14 @@ number.11.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 31]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     f''4
     % AFTER:
     % STEM_TREMOLOS:
@@ -12476,7 +12476,7 @@ number.11.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     f''2
     % AFTER:
     % STEM_TREMOLOS:
@@ -12552,7 +12552,7 @@ number.11.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     f''8
     % AFTER:
     % STEM_TREMOLOS:
@@ -12576,7 +12576,7 @@ number.11.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 32]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ef''!2..
     % AFTER:
     % STEM_TREMOLOS:
@@ -12686,7 +12686,7 @@ number.11.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ef''!2
     % AFTER:
     % STEM_TREMOLOS:
@@ -12722,18 +12722,18 @@ number.11.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 5/7
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 34]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -12742,19 +12742,19 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!8
         % AFTER:
         % STEM_TREMOLOS:
           %! baca.stem_tremolo()
         :32
         % START_BEAM:
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -12798,7 +12798,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -12815,7 +12815,7 @@ number.11.Violin.2.Music = {
           %! baca.text_spanner()
         \bacaStopTextSpanSCP
         % STOP_BEAM:
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! SCP_SPANNER
@@ -12846,24 +12846,24 @@ number.11.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 6/7
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 35]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -12898,7 +12898,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -12942,7 +12942,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -12987,14 +12987,14 @@ number.11.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 36]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ef''!1
     % AFTER:
     % STEM_TREMOLOS:
@@ -13030,18 +13030,18 @@ number.11.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 8/10
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 37]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -13084,7 +13084,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -13128,7 +13128,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -13190,7 +13190,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!4.
         % AFTER:
         % STEM_TREMOLOS:
@@ -13210,14 +13210,14 @@ number.11.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 38]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ef''!2
     % AFTER:
     % ARTICULATIONS:
@@ -13338,7 +13338,7 @@ number.11.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 39]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ef''!2
     % AFTER:
     % ARTICULATIONS:
@@ -13400,18 +13400,18 @@ number.11.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 8/10
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 40]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!2..
         % AFTER:
         % ARTICULATIONS:
@@ -13472,7 +13472,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!8
         % AFTER:
         % ARTICULATIONS:
@@ -13533,7 +13533,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!4
         % AFTER:
         % ARTICULATIONS:
@@ -13595,24 +13595,24 @@ number.11.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 6/7
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 41]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!4.
         % AFTER:
         % ARTICULATIONS:
@@ -13701,7 +13701,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!4
         % AFTER:
         % ARTICULATIONS:
@@ -13762,7 +13762,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!4
         % AFTER:
         % ARTICULATIONS:
@@ -13824,14 +13824,14 @@ number.11.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 42]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ef''!1
     % AFTER:
     % ARTICULATIONS:
@@ -13893,18 +13893,18 @@ number.11.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 8/10
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 43]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!4
         % AFTER:
         % ARTICULATIONS:
@@ -13979,7 +13979,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!2
         % AFTER:
         % ARTICULATIONS:
@@ -14040,7 +14040,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!4.
         % AFTER:
         % ARTICULATIONS:
@@ -14101,7 +14101,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!8
         % AFTER:
         % ARTICULATIONS:
@@ -14163,24 +14163,24 @@ number.11.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 7/8
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 44]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!4.
         % AFTER:
         % ARTICULATIONS:
@@ -14241,7 +14241,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!4
         % AFTER:
         % ARTICULATIONS:
@@ -14302,7 +14302,7 @@ number.11.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef''!4.
         % AFTER:
         % ARTICULATIONS:
@@ -14364,14 +14364,14 @@ number.11.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 45]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ef''!8
     % AFTER:
     % ARTICULATIONS:
@@ -14460,7 +14460,7 @@ number.11.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ef''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -14551,7 +14551,7 @@ number.11.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ef''!4
     % AFTER:
     % ARTICULATIONS:
@@ -16554,7 +16554,7 @@ number.11.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     gs!2
     % AFTER:
     % STEM_TREMOLOS:
@@ -16610,7 +16610,7 @@ number.11.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     gs!8
     % AFTER:
     % STEM_TREMOLOS:
@@ -16619,7 +16619,7 @@ number.11.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     gs!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -16633,7 +16633,7 @@ number.11.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 19]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     gs!1
     % AFTER:
     % STEM_TREMOLOS:
@@ -16646,18 +16646,18 @@ number.11.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 8/9
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 20]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         gs!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -16669,7 +16669,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         gs!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -16695,7 +16695,7 @@ number.11.Viola.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         gs!4.
         % AFTER:
         % STEM_TREMOLOS:
@@ -16711,7 +16711,7 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -17113,7 +17113,7 @@ number.11.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 24]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     g2
     % AFTER:
     % STEM_TREMOLOS:
@@ -17215,19 +17215,19 @@ number.11.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     g8
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % START_BEAM:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     g8
     % AFTER:
     % STEM_TREMOLOS:
@@ -17244,7 +17244,7 @@ number.11.Viola.Music = {
       %! baca.text_spanner()
     \bacaStopTextSpanSCP
     % STOP_BEAM:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! SCP_SPANNER
@@ -17275,18 +17275,18 @@ number.11.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 7/9
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 25]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g8
         % AFTER:
         % STEM_TREMOLOS:
@@ -17295,7 +17295,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g1
         % AFTER:
         % STEM_TREMOLOS:
@@ -17340,24 +17340,24 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 7/8
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 26]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g4
         % AFTER:
         % STEM_TREMOLOS:
@@ -17366,7 +17366,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g4
         % AFTER:
         % STEM_TREMOLOS:
@@ -17410,7 +17410,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g2
         % AFTER:
         % STEM_TREMOLOS:
@@ -17455,24 +17455,24 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 6/8
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 27]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g2
         % AFTER:
         % STEM_TREMOLOS:
@@ -17516,7 +17516,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g2
         % AFTER:
         % STEM_TREMOLOS:
@@ -17561,24 +17561,24 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 5/7
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 28]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g8
         % AFTER:
         % STEM_TREMOLOS:
@@ -17587,7 +17587,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g4
         % AFTER:
         % STEM_TREMOLOS:
@@ -17631,7 +17631,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g2
         % AFTER:
         % STEM_TREMOLOS:
@@ -17676,24 +17676,24 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 4/5
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 29]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g4.
         % AFTER:
         % STEM_TREMOLOS:
@@ -17737,7 +17737,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g4
         % AFTER:
         % STEM_TREMOLOS:
@@ -17782,14 +17782,14 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 30]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     g8
     % AFTER:
     % STEM_TREMOLOS:
@@ -17798,7 +17798,7 @@ number.11.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     g2
     % AFTER:
     % STEM_TREMOLOS:
@@ -17842,7 +17842,7 @@ number.11.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     g8
     % AFTER:
     % STEM_TREMOLOS:
@@ -17887,18 +17887,18 @@ number.11.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 7/9
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 31]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g8
         % AFTER:
         % STEM_TREMOLOS:
@@ -17907,7 +17907,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g4.
         % AFTER:
         % STEM_TREMOLOS:
@@ -17951,7 +17951,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g4.
         % AFTER:
         % STEM_TREMOLOS:
@@ -18027,7 +18027,7 @@ number.11.Viola.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         g4
         % AFTER:
         % STEM_TREMOLOS:
@@ -18050,14 +18050,14 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 32]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     f2
     % AFTER:
     % STEM_TREMOLOS:
@@ -18165,7 +18165,7 @@ number.11.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     f8
     % AFTER:
     % STEM_TREMOLOS:
@@ -18174,7 +18174,7 @@ number.11.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     f4
     % AFTER:
     % STEM_TREMOLOS:
@@ -18220,7 +18220,7 @@ number.11.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 33]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     f2
     % AFTER:
     % STEM_TREMOLOS:
@@ -18289,18 +18289,18 @@ number.11.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 5/6
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 34]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f2
         % AFTER:
         % STEM_TREMOLOS:
@@ -18335,7 +18335,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f4
         % AFTER:
         % STEM_TREMOLOS:
@@ -18380,14 +18380,14 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 35]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     f2
     % AFTER:
     % STEM_TREMOLOS:
@@ -18431,7 +18431,7 @@ number.11.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     f4
     % AFTER:
     % STEM_TREMOLOS:
@@ -18476,18 +18476,18 @@ number.11.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 8/10
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 36]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f8
         % AFTER:
         % STEM_TREMOLOS:
@@ -18522,7 +18522,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f2
         % AFTER:
         % STEM_TREMOLOS:
@@ -18566,7 +18566,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f4
         % AFTER:
         % STEM_TREMOLOS:
@@ -18610,7 +18610,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f4.
         % AFTER:
         % STEM_TREMOLOS:
@@ -18655,24 +18655,24 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 8/9
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 37]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f8
         % AFTER:
         % STEM_TREMOLOS:
@@ -18715,7 +18715,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f4.
         % AFTER:
         % STEM_TREMOLOS:
@@ -18759,7 +18759,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f4.
         % AFTER:
         % STEM_TREMOLOS:
@@ -18821,7 +18821,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f4
         % AFTER:
         % STEM_TREMOLOS:
@@ -18841,14 +18841,14 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 38]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     f2
     % AFTER:
     % ARTICULATIONS:
@@ -18968,18 +18968,18 @@ number.11.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 4/6
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 39]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f4
         % AFTER:
         % ARTICULATIONS:
@@ -19040,7 +19040,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f2
         % AFTER:
         % ARTICULATIONS:
@@ -19102,24 +19102,24 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 8/9
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 40]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f2.
         % AFTER:
         % ARTICULATIONS:
@@ -19180,7 +19180,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f4
         % AFTER:
         % ARTICULATIONS:
@@ -19241,7 +19241,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f8
         % AFTER:
         % ARTICULATIONS:
@@ -19303,24 +19303,24 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 6/8
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 41]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f2
         % AFTER:
         % ARTICULATIONS:
@@ -19381,7 +19381,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f2
         % AFTER:
         % ARTICULATIONS:
@@ -19443,24 +19443,24 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 8/10
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 42]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f2
         % AFTER:
         % ARTICULATIONS:
@@ -19533,7 +19533,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f4
         % AFTER:
         % ARTICULATIONS:
@@ -19596,7 +19596,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         f2
         % AFTER:
         % ARTICULATIONS:
@@ -19613,7 +19613,7 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -19657,9 +19657,9 @@ number.11.Viola.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_to_flight_rhythm()
+      %! stirrings_still.make_to_flight_rhythm_function()
     \times 1/1
-      %! stirrings_still.make_to_flight_rhythm()
+      %! stirrings_still.make_to_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -19671,9 +19671,9 @@ number.11.Viola.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         f16 * 235/64
         % AFTER:
         % ARTICULATIONS:
@@ -19705,7 +19705,7 @@ number.11.Viola.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"235" #"64"
         % START_BEAM:
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -19789,7 +19789,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         f16 * 109/32
         % AFTER:
         % MARKUP:
@@ -19816,7 +19816,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         f16 * 45/16
         % AFTER:
         % ARTICULATIONS:
@@ -19853,7 +19853,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         f16 * 73/32
         % AFTER:
         % ARTICULATIONS:
@@ -19890,7 +19890,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         f16 * 63/32
         % AFTER:
         % ARTICULATIONS:
@@ -19929,9 +19929,9 @@ number.11.Viola.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         f16 * 119/64
         % AFTER:
         % ARTICULATIONS:
@@ -19953,7 +19953,7 @@ number.11.Viola.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -19972,7 +19972,7 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_to_flight_rhythm()
+      %! stirrings_still.make_to_flight_rhythm_function()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -19982,7 +19982,7 @@ number.11.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 44]
-      %! stirrings_still.make_to_flight_rhythm()
+      %! stirrings_still.make_to_flight_rhythm_function()
     f8.
     % AFTER:
     % ARTICULATIONS:
@@ -20054,9 +20054,9 @@ number.11.Viola.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_to_flight_rhythm()
+      %! stirrings_still.make_to_flight_rhythm_function()
     \times 1/1
-      %! stirrings_still.make_to_flight_rhythm()
+      %! stirrings_still.make_to_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -20066,9 +20066,9 @@ number.11.Viola.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         f16 * 235/64
         % AFTER:
         % ARTICULATIONS:
@@ -20090,7 +20090,7 @@ number.11.Viola.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -20108,7 +20108,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         f16 * 109/32
         % AFTER:
         % ARTICULATIONS:
@@ -20145,7 +20145,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         f16 * 45/16
         % AFTER:
         % ARTICULATIONS:
@@ -20182,7 +20182,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         f16 * 73/32
         % AFTER:
         % MARKUP:
@@ -20209,7 +20209,7 @@ number.11.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         f16 * 63/32
         % AFTER:
         % MARKUP:
@@ -20238,9 +20238,9 @@ number.11.Viola.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         f16 * 119/64
         % AFTER:
         % MARKUP:
@@ -20252,7 +20252,7 @@ number.11.Viola.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_to_flight_rhythm()
+          %! stirrings_still.make_to_flight_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -20271,7 +20271,7 @@ number.11.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_to_flight_rhythm()
+      %! stirrings_still.make_to_flight_rhythm_function()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -20279,7 +20279,7 @@ number.11.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_to_flight_rhythm()
+      %! stirrings_still.make_to_flight_rhythm_function()
     f8.
     % AFTER:
     % ARTICULATIONS:
@@ -20315,7 +20315,7 @@ number.11.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_to_flight_rhythm()
+      %! stirrings_still.make_to_flight_rhythm_function()
     f4
     % AFTER:
     % SPANNER_STOPS:
@@ -22839,7 +22839,7 @@ number.11.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 18]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     e,2..
     % AFTER:
     % STEM_TREMOLOS:
@@ -22866,18 +22866,18 @@ number.11.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 8/9
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 19]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         e,8
         % AFTER:
         % STEM_TREMOLOS:
@@ -22889,7 +22889,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         e,4
         % AFTER:
         % STEM_TREMOLOS:
@@ -22901,7 +22901,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         e,2
         % AFTER:
         % STEM_TREMOLOS:
@@ -22913,7 +22913,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         e,4
         % AFTER:
         % STEM_TREMOLOS:
@@ -22926,14 +22926,14 @@ number.11.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 20]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     e,8
     % AFTER:
     % STEM_TREMOLOS:
@@ -22945,7 +22945,7 @@ number.11.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     e,2
     % AFTER:
     % STEM_TREMOLOS:
@@ -22957,7 +22957,7 @@ number.11.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     e,4
     % AFTER:
     % STEM_TREMOLOS:
@@ -22983,7 +22983,7 @@ number.11.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     e,8
     % AFTER:
     % STEM_TREMOLOS:
@@ -24033,7 +24033,7 @@ number.11.Cello.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ef,!2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -24122,11 +24122,11 @@ number.11.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 7/8
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -24147,7 +24147,7 @@ number.11.Cello.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef,!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -24156,7 +24156,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef,!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -24200,7 +24200,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef,!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -24245,14 +24245,14 @@ number.11.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 26]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ef,!4.
     % AFTER:
     % STEM_TREMOLOS:
@@ -24296,7 +24296,7 @@ number.11.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ef,!2
     % AFTER:
     % STEM_TREMOLOS:
@@ -24341,18 +24341,18 @@ number.11.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 6/8
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 27]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef,!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -24396,7 +24396,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef,!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -24440,7 +24440,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef,!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -24485,24 +24485,24 @@ number.11.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 5/6
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 28]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef,!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -24511,7 +24511,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef,!4.
         % AFTER:
         % STEM_TREMOLOS:
@@ -24555,7 +24555,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef,!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -24600,14 +24600,14 @@ number.11.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 29]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ef,!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -24616,7 +24616,7 @@ number.11.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ef,!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -24661,18 +24661,18 @@ number.11.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 6/8
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 30]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef,!4.
         % AFTER:
         % STEM_TREMOLOS:
@@ -24716,7 +24716,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef,!4.
         % AFTER:
         % STEM_TREMOLOS:
@@ -24760,7 +24760,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef,!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -24805,24 +24805,24 @@ number.11.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 7/8
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 31]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef,!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -24831,7 +24831,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef,!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -24907,7 +24907,7 @@ number.11.Cello.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         ef,!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -24930,14 +24930,14 @@ number.11.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 32]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     df,!2..
     % AFTER:
     % STEM_TREMOLOS:
@@ -25079,11 +25079,11 @@ number.11.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 4/5
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -25112,7 +25112,7 @@ number.11.Cello.Music = {
           %! abjad.glissando(0)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         df,!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -25147,7 +25147,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         df,!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -25191,7 +25191,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         df,!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -25236,14 +25236,14 @@ number.11.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 34]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     df,!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -25278,7 +25278,7 @@ number.11.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     df,!4.
     % AFTER:
     % STEM_TREMOLOS:
@@ -25323,18 +25323,18 @@ number.11.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 6/8
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 35]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         df,!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -25402,7 +25402,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         df,!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -25446,7 +25446,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         df,!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -25491,24 +25491,24 @@ number.11.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 8/9
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 36]
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         df,!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -25517,7 +25517,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         df,!4.
         % AFTER:
         % STEM_TREMOLOS:
@@ -25561,7 +25561,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         df,!4.
         % AFTER:
         % STEM_TREMOLOS:
@@ -25605,7 +25605,7 @@ number.11.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_flight_rhythm()
+          %! stirrings_still.make_flight_rhythm_function()
         df,!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -25650,14 +25650,14 @@ number.11.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 37]
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     df,!4.
     % AFTER:
     % STEM_TREMOLOS:
@@ -25700,7 +25700,7 @@ number.11.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     df,!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -25762,7 +25762,7 @@ number.11.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     df,!4.
     % AFTER:
     % STEM_TREMOLOS:

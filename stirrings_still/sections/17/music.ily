@@ -47181,7 +47181,7 @@ number.17.Cello.Music = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.ottava_bassa()
     \ottava -1
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     bf,,!8
     % AFTER:
     % ARTICULATIONS:
@@ -47231,490 +47231,490 @@ number.17.Cello.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 74]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 75]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     a,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 76]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 77]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 78]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 79]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 80]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 81]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 82]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     e,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 83]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 84]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 85]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 86]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     c,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 87]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,,,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b,,,8
     % AFTER:
     % STOP_BEAM:

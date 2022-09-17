@@ -13228,11 +13228,11 @@ number.2.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 7/8
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -13402,14 +13402,14 @@ number.2.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 65]
-      %! stirrings_still.make_grid_rhythm()
+      %! stirrings_still.make_grid_rhythm_function()
     ef''!8
     % AFTER:
     % ARTICULATIONS:
@@ -13489,12 +13489,12 @@ number.2.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_rhythm()
+      %! stirrings_still.make_grid_rhythm_function()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_rhythm()
+      %! stirrings_still.make_grid_rhythm_function()
     ef''!8
     % AFTER:
     % COMMANDS:
@@ -22503,7 +22503,7 @@ number.2.Violin.2.Music = {
     <cqs'! af'!>8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -22531,14 +22531,14 @@ number.2.Violin.2.Music = {
       %! baca.espressivo()
     - \espressivo
     % STOP_BEAM:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 65]
-      %! stirrings_still.make_grid_rhythm()
+      %! stirrings_still.make_grid_rhythm_function()
     r4.
     % AFTER:
     % SPANNER_STOPS:
@@ -22559,7 +22559,7 @@ number.2.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_rhythm()
+      %! stirrings_still.make_grid_rhythm_function()
     ef''!8
     % AFTER:
     % ARTICULATIONS:
@@ -22619,7 +22619,7 @@ number.2.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_rhythm()
+      %! stirrings_still.make_grid_rhythm_function()
     r8
     % AFTER:
     % COMMANDS:
@@ -31025,11 +31025,11 @@ number.2.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     \times 7/9
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -31210,7 +31210,7 @@ number.2.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_flight_rhythm()
+      %! stirrings_still.make_flight_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -31246,7 +31246,7 @@ number.2.Viola.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! stirrings_still.make_grid_rhythm()
+      %! stirrings_still.make_grid_rhythm_function()
     ef''!8
     % AFTER:
     % ARTICULATIONS:
@@ -31331,12 +31331,12 @@ number.2.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_rhythm()
+      %! stirrings_still.make_grid_rhythm_function()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_rhythm()
+      %! stirrings_still.make_grid_rhythm_function()
     ef''!8
     % AFTER:
     % COMMANDS:
@@ -41089,7 +41089,7 @@ number.2.Cello.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! stirrings_still.make_grid_rhythm()
+      %! stirrings_still.make_grid_rhythm_function()
     r4.
     % AFTER:
     % ARTICULATIONS:
@@ -41114,7 +41114,7 @@ number.2.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_rhythm()
+      %! stirrings_still.make_grid_rhythm_function()
     ef''!8
     % AFTER:
     % ARTICULATIONS:
@@ -41174,7 +41174,7 @@ number.2.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_rhythm()
+      %! stirrings_still.make_grid_rhythm_function()
     r8
     % AFTER:
     % COMMANDS:

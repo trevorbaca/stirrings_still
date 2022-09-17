@@ -3348,7 +3348,7 @@ number.9.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,8
     % AFTER:
     % ARTICULATIONS:
@@ -3475,7 +3475,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % AFTER:
     % ARTICULATIONS:
@@ -3511,7 +3511,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d8
     % AFTER:
     % ARTICULATIONS:
@@ -3547,7 +3547,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     cs'!8
     % AFTER:
     % ARTICULATIONS:
@@ -3583,7 +3583,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -3619,7 +3619,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,8
     % AFTER:
     % ARTICULATIONS:
@@ -3655,7 +3655,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % AFTER:
     % ARTICULATIONS:
@@ -3691,7 +3691,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d8
     % AFTER:
     % ARTICULATIONS:
@@ -3729,7 +3729,7 @@ number.9.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 2]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     cs'!8
     % AFTER:
     % ARTICULATIONS:
@@ -3765,7 +3765,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -3801,7 +3801,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,8
     % AFTER:
     % ARTICULATIONS:
@@ -3837,7 +3837,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % AFTER:
     % ARTICULATIONS:
@@ -3873,7 +3873,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d8
     % AFTER:
     % ARTICULATIONS:
@@ -3909,7 +3909,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     cs'!8
     % AFTER:
     % ARTICULATIONS:
@@ -3947,7 +3947,7 @@ number.9.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 3]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -3983,7 +3983,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,8
     % AFTER:
     % ARTICULATIONS:
@@ -4019,7 +4019,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % AFTER:
     % ARTICULATIONS:
@@ -4055,7 +4055,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d8
     % AFTER:
     % ARTICULATIONS:
@@ -4091,7 +4091,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     cs'!8
     % AFTER:
     % ARTICULATIONS:
@@ -4127,7 +4127,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -4163,7 +4163,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,8
     % AFTER:
     % ARTICULATIONS:
@@ -4199,7 +4199,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % AFTER:
     % ARTICULATIONS:
@@ -4237,7 +4237,7 @@ number.9.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 4]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d8
     % AFTER:
     % ARTICULATIONS:
@@ -4273,7 +4273,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     cs'!8
     % AFTER:
     % ARTICULATIONS:
@@ -4309,7 +4309,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -4345,7 +4345,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,8
     % AFTER:
     % ARTICULATIONS:
@@ -4381,7 +4381,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % AFTER:
     % ARTICULATIONS:
@@ -4417,7 +4417,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d8
     % AFTER:
     % ARTICULATIONS:
@@ -4455,7 +4455,7 @@ number.9.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 5]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     cs'!8
     % AFTER:
     % ARTICULATIONS:
@@ -4491,7 +4491,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -4527,7 +4527,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,8
     % AFTER:
     % ARTICULATIONS:
@@ -4563,7 +4563,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % AFTER:
     % ARTICULATIONS:
@@ -4599,7 +4599,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d8
     % AFTER:
     % ARTICULATIONS:
@@ -4635,7 +4635,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     cs'!8
     % AFTER:
     % ARTICULATIONS:
@@ -4671,7 +4671,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -4707,7 +4707,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,8
     % AFTER:
     % ARTICULATIONS:
@@ -4745,7 +4745,7 @@ number.9.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 6]
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % AFTER:
     % ARTICULATIONS:
@@ -4815,7 +4815,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d8
     % AFTER:
     % ARTICULATIONS:
@@ -4851,7 +4851,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     cs'!8
     % AFTER:
     % ARTICULATIONS:
@@ -4887,7 +4887,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -4923,7 +4923,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,8
     % AFTER:
     % ARTICULATIONS:
@@ -4959,7 +4959,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % AFTER:
     % ARTICULATIONS:
@@ -4995,7 +4995,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d8
     % AFTER:
     % ARTICULATIONS:
@@ -5031,7 +5031,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     cs'!8
     % AFTER:
     % ARTICULATIONS:
@@ -5067,7 +5067,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -5103,7 +5103,7 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,8
     % AFTER:
     % ARTICULATIONS:

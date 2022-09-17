@@ -27364,7 +27364,7 @@ number.1.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 27]
-      %! stirrings_still.make_taper_rhythm()
+      %! stirrings_still.make_taper_rhythm_function()
     b,,4..
     % AFTER:
     % ARTICULATIONS:
@@ -27477,7 +27477,7 @@ number.1.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_taper_rhythm()
+      %! stirrings_still.make_taper_rhythm_function()
     b,,4..
     % AFTER:
     % ARTICULATIONS:
@@ -27522,7 +27522,7 @@ number.1.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
-      %! stirrings_still.make_taper_rhythm()
+      %! stirrings_still.make_taper_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:

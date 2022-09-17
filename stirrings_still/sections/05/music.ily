@@ -8155,18 +8155,18 @@ number.5.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 8/10
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 6]
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -8278,7 +8278,7 @@ number.5.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!1
         % AFTER:
         % ARTICULATIONS:
@@ -8364,17 +8364,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 6/8
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8407,12 +8407,12 @@ number.5.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!2.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -8444,24 +8444,24 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 8/10
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 8]
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!1
         % AFTER:
         % ARTICULATIONS:
@@ -8572,30 +8572,30 @@ number.5.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 7/9
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 9]
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -8626,7 +8626,7 @@ number.5.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!2..
         % AFTER:
         % ARTICULATIONS:
@@ -8712,17 +8712,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 6/8
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8743,23 +8743,23 @@ number.5.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!1
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 7/9
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8780,12 +8780,12 @@ number.5.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -8816,7 +8816,7 @@ number.5.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!2
         % AFTER:
         % ARTICULATIONS:
@@ -8902,17 +8902,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 8/10
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8933,7 +8933,7 @@ number.5.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!1
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8952,30 +8952,30 @@ number.5.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 8/10
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 13]
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -9006,7 +9006,7 @@ number.5.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!1
         % AFTER:
         % ARTICULATIONS:
@@ -9092,17 +9092,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 6/8
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9135,12 +9135,12 @@ number.5.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -9171,7 +9171,7 @@ number.5.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!2
         % AFTER:
         % ARTICULATIONS:
@@ -9257,17 +9257,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 7/9
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9288,35 +9288,35 @@ number.5.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!1
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 7/9
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 16]
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!2
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9335,12 +9335,12 @@ number.5.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -9371,7 +9371,7 @@ number.5.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4
         % AFTER:
         % ARTICULATIONS:
@@ -9457,17 +9457,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 6/8
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9488,23 +9488,23 @@ number.5.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!1
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 4/6
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9525,12 +9525,12 @@ number.5.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!2
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -9562,24 +9562,24 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 5/7
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 19]
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!2..
         % AFTER:
         % ARTICULATIONS:
@@ -9665,17 +9665,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 6/8
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9708,12 +9708,12 @@ number.5.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -9744,7 +9744,7 @@ number.5.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4.
         % AFTER:
         % ARTICULATIONS:
@@ -9830,17 +9830,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 7/9
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9861,28 +9861,28 @@ number.5.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!1
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 7/9
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9903,12 +9903,12 @@ number.5.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!2.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -9939,7 +9939,7 @@ number.5.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -10025,17 +10025,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 5/7
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -10068,20 +10068,20 @@ number.5.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         etqf'!2..
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 24]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     etqf'!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -10136,7 +10136,7 @@ number.5.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     e'4
     % AFTER:
     % ARTICULATIONS:
@@ -10220,7 +10220,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 25]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     f'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -10265,7 +10265,7 @@ number.5.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     f'2
     % AFTER:
     % ARTICULATIONS:
@@ -10366,7 +10366,7 @@ number.5.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     f'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -10397,7 +10397,7 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     e'2.
     % AFTER:
     % ARTICULATIONS:
@@ -10495,7 +10495,7 @@ number.5.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     e'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -10544,7 +10544,7 @@ number.5.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     f'2.
     % AFTER:
     % ARTICULATIONS:
@@ -10628,7 +10628,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 28]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     f'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -10673,7 +10673,7 @@ number.5.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -10774,7 +10774,7 @@ number.5.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     g'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -10805,7 +10805,7 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     f'4.
     % AFTER:
     % ARTICULATIONS:
@@ -10903,7 +10903,7 @@ number.5.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     f'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -10952,7 +10952,7 @@ number.5.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     g'2.
     % AFTER:
     % ARTICULATIONS:
@@ -11036,7 +11036,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 31]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     g'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -11067,7 +11067,7 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     g'2
     % AFTER:
     % ARTICULATIONS:
@@ -11165,7 +11165,7 @@ number.5.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     af'!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -11214,7 +11214,7 @@ number.5.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     af'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -11298,7 +11298,7 @@ number.5.Violin.1.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 33]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     af'!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -11329,7 +11329,7 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     af'!2
     % AFTER:
     % ARTICULATIONS:
@@ -11425,7 +11425,7 @@ number.5.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     af'!8
     % AFTER:
     % STEM_TREMOLOS:
@@ -15176,7 +15176,7 @@ number.5.Violin.1.Music = {
     % COMMANDS:
       %! baca.tuplet_bracket_down(1)
     \override TupletBracket.direction = #down
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % AFTER:
     % ARTICULATIONS:
@@ -15204,7 +15204,7 @@ number.5.Violin.1.Music = {
       %! stirrings_still.bcps()
     - \downbow
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -15276,98 +15276,98 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 64]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % AFTER:
     % SPANNER_STOPS:
@@ -15390,88 +15390,88 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 65]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % AFTER:
     % SPANNER_STOPS:
@@ -15494,74 +15494,74 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 66]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % AFTER:
     % SPANNER_STOPS:
@@ -15569,7 +15569,7 @@ number.5.Violin.1.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -15587,56 +15587,56 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 67]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % AFTER:
     % ARTICULATIONS:
@@ -15654,7 +15654,7 @@ number.5.Violin.1.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -15672,84 +15672,84 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 68]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % AFTER:
     % ARTICULATIONS:
@@ -15767,7 +15767,7 @@ number.5.Violin.1.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -15785,98 +15785,98 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 69]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % ARTICULATIONS:
@@ -15909,102 +15909,102 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 70]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % AFTER:
     % ARTICULATIONS:
@@ -16022,7 +16022,7 @@ number.5.Violin.1.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -16040,56 +16040,56 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 71]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % AFTER:
     % ARTICULATIONS:
@@ -16121,7 +16121,7 @@ number.5.Violin.1.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -16139,70 +16139,70 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 72]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % AFTER:
     % ARTICULATIONS:
@@ -16235,88 +16235,88 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 73]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % AFTER:
     % ARTICULATIONS:
@@ -16349,116 +16349,116 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 74]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % AFTER:
     % ARTICULATIONS:
@@ -16491,116 +16491,116 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 75]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % AFTER:
     % SPANNER_STOPS:
@@ -16623,74 +16623,74 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 76]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % AFTER:
     % SPANNER_STOPS:
@@ -16698,7 +16698,7 @@ number.5.Violin.1.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -16716,56 +16716,56 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 77]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % AFTER:
     % SPANNER_STOPS:
@@ -16773,7 +16773,7 @@ number.5.Violin.1.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -16791,112 +16791,112 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 78]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % AFTER:
     % ARTICULATIONS:
@@ -16914,7 +16914,7 @@ number.5.Violin.1.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -16935,73 +16935,73 @@ number.5.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!16
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!16
     % AFTER:
     % SPANNER_STOPS:
@@ -17009,7 +17009,7 @@ number.5.Violin.1.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % COMMANDS:
       %! baca.tuplet_bracket_down(2)
@@ -17365,11 +17365,11 @@ number.5.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 6/7
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -17525,17 +17525,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 7/8
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -17687,17 +17687,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 8/9
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -17918,17 +17918,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 8/9
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -18111,7 +18111,7 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -18141,11 +18141,11 @@ number.5.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 6/7
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -18323,17 +18323,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 7/8
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -18443,7 +18443,7 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -20903,11 +20903,11 @@ number.5.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 7/8
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -21139,17 +21139,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 6/7
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -21244,7 +21244,7 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21357,11 +21357,11 @@ number.5.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 4/5
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -21549,17 +21549,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 5/6
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -21647,17 +21647,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 6/7
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -21745,17 +21745,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 7/8
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -21843,7 +21843,7 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21938,11 +21938,11 @@ number.5.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 5/4
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -22030,17 +22030,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 4/5
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -22128,17 +22128,17 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 6/7
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -22266,7 +22266,7 @@ number.5.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23054,18 +23054,18 @@ number.5.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 8/9
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 6]
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -23177,7 +23177,7 @@ number.5.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!2..
         % AFTER:
         % ARTICULATIONS:
@@ -23263,17 +23263,17 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 6/7
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -23306,12 +23306,12 @@ number.5.Violin.2.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!4.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -23342,7 +23342,7 @@ number.5.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!4
         % AFTER:
         % ARTICULATIONS:
@@ -23428,17 +23428,17 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 8/9
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -23459,28 +23459,28 @@ number.5.Violin.2.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!1
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 7/8
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -23501,12 +23501,12 @@ number.5.Violin.2.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!2..
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -23546,24 +23546,24 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 6/7
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 10]
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf8
         % AFTER:
         % STEM_TREMOLOS:
@@ -23572,7 +23572,7 @@ number.5.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!2.
         % AFTER:
         % ARTICULATIONS:
@@ -23698,17 +23698,17 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 7/8
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -23741,30 +23741,30 @@ number.5.Violin.2.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!1
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 8/9
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 12]
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -23795,7 +23795,7 @@ number.5.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!2..
         % AFTER:
         % ARTICULATIONS:
@@ -23881,17 +23881,17 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 8/9
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -23924,12 +23924,12 @@ number.5.Violin.2.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!4.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!4
         % AFTER:
         % STEM_TREMOLOS:
@@ -23966,7 +23966,7 @@ number.5.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!2
         % AFTER:
         % ARTICULATIONS:
@@ -24092,17 +24092,17 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 6/7
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -24123,23 +24123,23 @@ number.5.Violin.2.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!2..
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 7/8
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -24160,12 +24160,12 @@ number.5.Violin.2.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!2..
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!8
         % AFTER:
         % STEM_TREMOLOS:
@@ -24199,24 +24199,24 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 7/8
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 16]
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf8
         % AFTER:
         % STEM_TREMOLOS:
@@ -24225,7 +24225,7 @@ number.5.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!2..
         % AFTER:
         % ARTICULATIONS:
@@ -24318,17 +24318,17 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     \times 6/7
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -24361,20 +24361,20 @@ number.5.Violin.2.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_grid_to_trajectory_rhythm()
+          %! stirrings_still.make_grid_to_trajectory_rhythm_function()
         bqf!2..
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 18]
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     bqf!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -24405,7 +24405,7 @@ number.5.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     bqf!4
     % AFTER:
     % ARTICULATIONS:
@@ -24506,12 +24506,12 @@ number.5.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     bqf!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     bqf!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24532,12 +24532,12 @@ number.5.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     bqf!4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     bqf!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -24568,7 +24568,7 @@ number.5.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     bqf!8
     % AFTER:
     % ARTICULATIONS:
@@ -24669,14 +24669,14 @@ number.5.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     bqf!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 22]
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     bqf!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24697,12 +24697,12 @@ number.5.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     bqf!4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     bqf!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -24735,7 +24735,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 24]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     bqf!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -24777,7 +24777,7 @@ number.5.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -24875,7 +24875,7 @@ number.5.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     ef'!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -24924,7 +24924,7 @@ number.5.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     e'2
     % AFTER:
     % ARTICULATIONS:
@@ -25008,7 +25008,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 26]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     e'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -25039,7 +25039,7 @@ number.5.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     d'2.
     % AFTER:
     % ARTICULATIONS:
@@ -25123,7 +25123,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 27]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     d'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -25168,7 +25168,7 @@ number.5.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     df'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -25269,7 +25269,7 @@ number.5.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     d'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -25300,7 +25300,7 @@ number.5.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     e'4
     % AFTER:
     % ARTICULATIONS:
@@ -25384,7 +25384,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 29]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     e'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -25415,7 +25415,7 @@ number.5.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     e'4.
     % AFTER:
     % ARTICULATIONS:
@@ -25499,7 +25499,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 30]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     f'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -25530,7 +25530,7 @@ number.5.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     f'2.
     % AFTER:
     % ARTICULATIONS:
@@ -25614,7 +25614,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 31]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     f'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -25645,7 +25645,7 @@ number.5.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     g'2
     % AFTER:
     % ARTICULATIONS:
@@ -25743,7 +25743,7 @@ number.5.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     g'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -25792,7 +25792,7 @@ number.5.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     g'2.
     % AFTER:
     % ARTICULATIONS:
@@ -25876,7 +25876,7 @@ number.5.Violin.2.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 33]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     g'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -25907,7 +25907,7 @@ number.5.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     g'2
     % AFTER:
     % ARTICULATIONS:
@@ -26003,7 +26003,7 @@ number.5.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     g'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -29186,9 +29186,9 @@ number.5.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -29201,7 +29201,7 @@ number.5.Violin.2.Music = {
         \override TupletBracket.direction = #down
           %! baca.tuplet_bracket_staff_padding(1)
         \override TupletBracket.staff-padding = 1
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         d''8
         % AFTER:
         % ARTICULATIONS:
@@ -29229,7 +29229,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         - \downbow
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -29301,123 +29301,123 @@ number.5.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         dqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         e''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         fqs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         gs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         a''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         aqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         d''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         dqs''!8
         % AFTER:
         % SPANNER_STOPS:
@@ -29425,7 +29425,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -29444,108 +29444,108 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         e''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         fqs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         gs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         a''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         aqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         d''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         dqs''!8
         % AFTER:
         % SPANNER_STOPS:
@@ -29553,7 +29553,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -29572,96 +29572,96 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         e''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         fqs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         gs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         a''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         aqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 66]
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         d''8
         % AFTER:
         % SPANNER_STOPS:
@@ -29669,7 +29669,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -29687,74 +29687,74 @@ number.5.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         dqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         e''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         fqs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         gs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 67]
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         a''8
         % AFTER:
         % ARTICULATIONS:
@@ -29772,7 +29772,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -29790,111 +29790,111 @@ number.5.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         aqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         d''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         dqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         e''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         fqs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         gs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 68]
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         a''8
         % AFTER:
         % ARTICULATIONS:
@@ -29912,7 +29912,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -29930,123 +29930,123 @@ number.5.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         aqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         d''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         dqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         e''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         fqs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         gs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         a''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         aqs''!8
         % AFTER:
         % ARTICULATIONS:
@@ -30064,7 +30064,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -30083,133 +30083,133 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         d''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         dqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         e''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         fqs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         gs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         a''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         aqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 70]
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         d''8
         % AFTER:
         % ARTICULATIONS:
@@ -30227,7 +30227,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -30245,74 +30245,74 @@ number.5.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         dqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         e''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         fqs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         gs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 71]
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         a''8
         % AFTER:
         % ARTICULATIONS:
@@ -30344,7 +30344,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -30362,86 +30362,86 @@ number.5.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         aqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         d''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         dqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         e''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         fqs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         gs''!8
         % AFTER:
         % ARTICULATIONS:
@@ -30459,7 +30459,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -30478,108 +30478,108 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         a''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         aqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         d''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         dqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         e''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         fqs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         gs''!8
         % AFTER:
         % ARTICULATIONS:
@@ -30597,7 +30597,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -30616,145 +30616,145 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         a''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         aqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         d''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         dqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         e''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         fqs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         gs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         a''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         aqs''!8
         % AFTER:
         % ARTICULATIONS:
@@ -30772,7 +30772,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -30791,145 +30791,145 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         d''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         dqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         e''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         fqs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         gs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         a''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         aqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         d''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         dqs''!8
         % AFTER:
         % SPANNER_STOPS:
@@ -30937,7 +30937,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -30956,96 +30956,96 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         e''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         fqs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         gs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         a''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         aqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 76]
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         d''8
         % AFTER:
         % SPANNER_STOPS:
@@ -31053,7 +31053,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -31071,74 +31071,74 @@ number.5.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         dqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         e''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         fqs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         gs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 77]
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         a''8
         % AFTER:
         % SPANNER_STOPS:
@@ -31146,7 +31146,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -31167,123 +31167,123 @@ number.5.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         aqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         d''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         dqs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         e''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         fqs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         gs''!8
         % AFTER:
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     \times 2/3
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         a''8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         aqs''!8
         % AFTER:
         % SPANNER_STOPS:
@@ -31291,7 +31291,7 @@ number.5.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_running_quarter_divisions()
+          %! stirrings_still.make_running_quarter_divisions_function()
         ]
         % COMMANDS:
           %! baca.tuplet_bracket_down(2)
@@ -31302,7 +31302,7 @@ number.5.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -32064,7 +32064,7 @@ number.5.Violin.2.Music = {
       %! baca.text_spanner()
     \bacaStopTextSpanSCP
     % START_BEAM:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -32104,7 +32104,7 @@ number.5.Violin.2.Music = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -34607,7 +34607,7 @@ number.5.Violin.2.Music = {
       %! baca.stem_tremolo()
     :32
     % START_BEAM:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -34625,7 +34625,7 @@ number.5.Violin.2.Music = {
       %! baca.text_spanner()
     \bacaStopTextSpanSCP
     % STOP_BEAM:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     ]
     % SPANNER_STARTS:
       %! SCP_SPANNER
@@ -35753,7 +35753,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 6]
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a4
     % AFTER:
     % STEM_TREMOLOS:
@@ -35865,7 +35865,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a2.
     % AFTER:
     % ARTICULATIONS:
@@ -35966,7 +35966,7 @@ number.5.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -35987,12 +35987,12 @@ number.5.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a4
     % AFTER:
     % STEM_TREMOLOS:
@@ -36025,7 +36025,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 9]
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a2..
     % AFTER:
     % ARTICULATIONS:
@@ -36126,7 +36126,7 @@ number.5.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -36147,12 +36147,12 @@ number.5.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a4
     % AFTER:
     % STEM_TREMOLOS:
@@ -36189,7 +36189,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a2
     % AFTER:
     % ARTICULATIONS:
@@ -36342,12 +36342,12 @@ number.5.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a4
     % AFTER:
     % STEM_TREMOLOS:
@@ -36380,7 +36380,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 13]
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a1
     % AFTER:
     % ARTICULATIONS:
@@ -36481,7 +36481,7 @@ number.5.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -36502,12 +36502,12 @@ number.5.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a4
     % AFTER:
     % STEM_TREMOLOS:
@@ -36544,7 +36544,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a8
     % AFTER:
     % ARTICULATIONS:
@@ -36685,7 +36685,7 @@ number.5.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -36706,14 +36706,14 @@ number.5.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 18]
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a4
     % AFTER:
     % STEM_TREMOLOS:
@@ -36744,7 +36744,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a4
     % AFTER:
     % ARTICULATIONS:
@@ -36852,12 +36852,12 @@ number.5.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -36878,12 +36878,12 @@ number.5.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a4
     % AFTER:
     % STEM_TREMOLOS:
@@ -36914,7 +36914,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a8
     % AFTER:
     % ARTICULATIONS:
@@ -37015,14 +37015,14 @@ number.5.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 22]
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -37043,12 +37043,12 @@ number.5.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_grid_to_trajectory_rhythm()
+      %! stirrings_still.make_grid_to_trajectory_rhythm_function()
     a4
     % AFTER:
     % STEM_TREMOLOS:
@@ -37081,7 +37081,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 24]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     a4
     % AFTER:
     % STEM_TREMOLOS:
@@ -37123,7 +37123,7 @@ number.5.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     b4
     % AFTER:
     % ARTICULATIONS:
@@ -37207,7 +37207,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 25]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     c'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -37238,7 +37238,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     c'2
     % AFTER:
     % ARTICULATIONS:
@@ -37322,7 +37322,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 26]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     d'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -37353,7 +37353,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     e'2.
     % AFTER:
     % ARTICULATIONS:
@@ -37451,7 +37451,7 @@ number.5.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     f'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -37500,7 +37500,7 @@ number.5.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     f'2.
     % AFTER:
     % ARTICULATIONS:
@@ -37584,7 +37584,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 28]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     e'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -37615,7 +37615,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     e'4
     % AFTER:
     % ARTICULATIONS:
@@ -37699,7 +37699,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 29]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     d'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -37744,7 +37744,7 @@ number.5.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     d'4.
     % AFTER:
     % ARTICULATIONS:
@@ -37845,7 +37845,7 @@ number.5.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     e'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -37876,7 +37876,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     e'2.
     % AFTER:
     % ARTICULATIONS:
@@ -37960,7 +37960,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 31]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     f'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -37991,7 +37991,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     f'2
     % AFTER:
     % ARTICULATIONS:
@@ -38089,7 +38089,7 @@ number.5.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -38138,7 +38138,7 @@ number.5.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -38222,7 +38222,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 33]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -38253,7 +38253,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!2
     % AFTER:
     % ARTICULATIONS:
@@ -38349,7 +38349,7 @@ number.5.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -38576,7 +38576,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 35]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -38618,7 +38618,7 @@ number.5.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!2
     % AFTER:
     % ARTICULATIONS:
@@ -38702,7 +38702,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 36]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -38733,7 +38733,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!2
     % AFTER:
     % ARTICULATIONS:
@@ -38815,14 +38815,14 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 37]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -38853,7 +38853,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -38937,7 +38937,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 38]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -38968,7 +38968,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -39052,7 +39052,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 39]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -39083,7 +39083,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!2
     % AFTER:
     % ARTICULATIONS:
@@ -39167,7 +39167,7 @@ number.5.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 40]
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!4
     % AFTER:
     % STEM_TREMOLOS:
@@ -39198,7 +39198,7 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!2
     % AFTER:
     % ARTICULATIONS:
@@ -39294,7 +39294,7 @@ number.5.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_measure_initiation_rhythm()
+      %! stirrings_still.make_measure_initiation_rhythm_function()
     gf'!8
     % AFTER:
     % ARTICULATIONS:
@@ -41757,7 +41757,7 @@ number.5.Viola.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''8
     % AFTER:
     % ARTICULATIONS:
@@ -41785,7 +41785,7 @@ number.5.Viola.Music = {
       %! stirrings_still.bcps()
     - \downbow
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -41862,63 +41862,63 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 64]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % SPANNER_STOPS:
@@ -41926,7 +41926,7 @@ number.5.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -41944,54 +41944,54 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 65]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!8
     % AFTER:
     % SPANNER_STOPS:
@@ -41999,7 +41999,7 @@ number.5.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -42017,45 +42017,45 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 66]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''8
     % AFTER:
     % SPANNER_STOPS:
@@ -42063,7 +42063,7 @@ number.5.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -42081,36 +42081,36 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 67]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!8
     % AFTER:
     % ARTICULATIONS:
@@ -42128,7 +42128,7 @@ number.5.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -42146,54 +42146,54 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 68]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % ARTICULATIONS:
@@ -42211,7 +42211,7 @@ number.5.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -42229,63 +42229,63 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 69]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!8
     % AFTER:
     % ARTICULATIONS:
@@ -42303,7 +42303,7 @@ number.5.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -42321,63 +42321,63 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 70]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''8
     % AFTER:
     % ARTICULATIONS:
@@ -42395,7 +42395,7 @@ number.5.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -42413,36 +42413,36 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 71]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % ARTICULATIONS:
@@ -42474,7 +42474,7 @@ number.5.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -42492,45 +42492,45 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 72]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''8
     % AFTER:
     % ARTICULATIONS:
@@ -42548,7 +42548,7 @@ number.5.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -42566,54 +42566,54 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 73]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''8
     % AFTER:
     % ARTICULATIONS:
@@ -42631,7 +42631,7 @@ number.5.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -42649,72 +42649,72 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 74]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!8
     % AFTER:
     % ARTICULATIONS:
@@ -42732,7 +42732,7 @@ number.5.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -42750,72 +42750,72 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 75]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % SPANNER_STOPS:
@@ -42823,7 +42823,7 @@ number.5.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -42841,45 +42841,45 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     dqs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     e''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     fqs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     gs''!8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 76]
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     a''8
     % AFTER:
     % SPANNER_STOPS:
@@ -42887,7 +42887,7 @@ number.5.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -42908,25 +42908,25 @@ number.5.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     f''8
     % AFTER:
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     aqs''!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     d''8
     % AFTER:
     % SPANNER_STOPS:
@@ -42934,7 +42934,7 @@ number.5.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_running_quarter_divisions()
+      %! stirrings_still.make_running_quarter_divisions_function()
     ]
     % COMMANDS:
       %! baca.tuplet_bracket_down(2)
@@ -43379,11 +43379,11 @@ number.5.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 7/4
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -43482,17 +43482,17 @@ number.5.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 8/7
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -43644,17 +43644,17 @@ number.5.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 8/7
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -43714,7 +43714,7 @@ number.5.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -43873,11 +43873,11 @@ number.5.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 7/4
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -43951,7 +43951,7 @@ number.5.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -46313,11 +46313,11 @@ number.5.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 6/5
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -46376,7 +46376,7 @@ number.5.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -46642,11 +46642,11 @@ number.5.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 6/5
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -46742,17 +46742,17 @@ number.5.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 7/6
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -46773,7 +46773,7 @@ number.5.Viola.Music = {
           %! baca.stem_tremolo()
         :32
         % START_BEAM:
-          %! stirrings_still.make_talea_eighth_notes()
+          %! stirrings_still.make_talea_eighth_notes_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -46791,7 +46791,7 @@ number.5.Viola.Music = {
           %! baca.text_spanner()
         \bacaStopTextSpanSCP
         % STOP_BEAM:
-          %! stirrings_still.make_talea_eighth_notes()
+          %! stirrings_still.make_talea_eighth_notes_function()
         ]
         % SPANNER_STARTS:
           %! SCP_SPANNER
@@ -46822,7 +46822,7 @@ number.5.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -46886,11 +46886,11 @@ number.5.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 5/4
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -46946,7 +46946,7 @@ number.5.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -47012,11 +47012,11 @@ number.5.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     \times 6/5
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -47096,7 +47096,7 @@ number.5.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_talea_eighth_notes()
+      %! stirrings_still.make_talea_eighth_notes_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
