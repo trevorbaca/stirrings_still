@@ -2079,7 +2079,6 @@ def make_wave_rhythm(time_signatures, start, stop, *, previous_state=None):
         return music
 
 
-# TODO
 def make_wave_rhythm_function(time_signatures, start, stop, *, previous_state=None):
     tag = baca.tags.function_name(inspect.currentframe())
     state = {}

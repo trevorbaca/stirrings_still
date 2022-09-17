@@ -60,7 +60,7 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = library.make_wave_rhythm(
+    music = library.make_wave_rhythm_function(
         accumulator.get(1),
         (1, 4),
         (3, 32),
@@ -68,7 +68,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2), head=voice.name)
     voice.extend(music)
-    music = library.make_wave_rhythm(
+    music = library.make_wave_rhythm_function(
         accumulator.get(3, 4),
         (1, 4),
         (3, 32),
@@ -76,7 +76,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(5), head=voice.name)
     voice.extend(music)
-    music = library.make_wave_rhythm(
+    music = library.make_wave_rhythm_function(
         accumulator.get(6, 8),
         (1, 4),
         (3, 32),
@@ -84,7 +84,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9), head=voice.name)
     voice.extend(music)
-    music = library.make_wave_rhythm(
+    music = library.make_wave_rhythm_function(
         accumulator.get(10, 15),
         (1, 4),
         (3, 32),
@@ -95,7 +95,7 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_wave_rhythm(
+    music = library.make_wave_rhythm_function(
         accumulator.get(1),
         (5, 32),
         (1, 4),
@@ -103,7 +103,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2), head=voice.name)
     voice.extend(music)
-    music = library.make_wave_rhythm(
+    music = library.make_wave_rhythm_function(
         accumulator.get(3, 4),
         (5, 32),
         (1, 4),
@@ -111,7 +111,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(5), head=voice.name)
     voice.extend(music)
-    music = library.make_wave_rhythm(
+    music = library.make_wave_rhythm_function(
         accumulator.get(6, 8),
         (5, 32),
         (1, 4),
@@ -119,7 +119,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9), head=voice.name)
     voice.extend(music)
-    music = library.make_wave_rhythm(
+    music = library.make_wave_rhythm_function(
         accumulator.get(10, 15),
         (5, 32),
         (1, 4),

@@ -70,8 +70,8 @@ def make_repeat_tied_notes(time_signatures):
     )
 
 
-def make_v1_waves(time_signatures):
-    return library.make_wave_rhythm(
+def make_v1_waves_function(time_signatures):
+    return library.make_wave_rhythm_function(
         time_signatures,
         (4, 16),
         (1, 16),
@@ -88,15 +88,15 @@ def make_v2_waves(time_signatures, *, previous_state=None):
     )
 
 
-def make_va_waves(time_signatures):
-    return library.make_wave_rhythm(
+def make_va_waves_function(time_signatures):
+    return library.make_wave_rhythm_function(
         time_signatures,
         (5, 16),
         (1, 16),
     )
 
 
-def make_vc_waves(time_signatures):
+def make_vc_waves_function(time_signatures):
     return library.make_wave_rhythm(
         time_signatures,
         (7, 16),
@@ -113,32 +113,26 @@ def V1(voice, accumulator):
         accumulator.get(1, 4), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    rhythm_maker = rmakers.bind(
-        rmakers.assign(
-            make_v1_waves,
-            abjad.index([1, 2, 5]),
-        ),
-        rmakers.assign(
-            make_repeat_tied_notes,
-        ),
-    )
-    music = rhythm_maker(accumulator.get(5, 10))
-    voice.extend(music)
+    music_ = make_repeat_tied_notes(accumulator.get(5))
+    voice.extend(music_)
+    music_ = make_v1_waves_function(accumulator.get(6, 7))
+    voice.extend(music_)
+    music_ = make_repeat_tied_notes(accumulator.get(8, 9))
+    voice.extend(music_)
+    music_ = make_v1_waves_function(accumulator.get(10))
+    voice.extend(music_)
     music = baca.make_repeat_tied_notes_function(
         accumulator.get(11, 14), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    rhythm_maker = rmakers.bind(
-        rmakers.assign(
-            make_v1_waves,
-            abjad.index([1, 2, 5]),
-        ),
-        rmakers.assign(
-            make_repeat_tied_notes,
-        ),
-    )
-    music = rhythm_maker(accumulator.get(15, 20))
-    voice.extend(music)
+    music_ = make_repeat_tied_notes(accumulator.get(15))
+    voice.extend(music_)
+    music_ = make_v1_waves_function(accumulator.get(16, 17))
+    voice.extend(music_)
+    music_ = make_repeat_tied_notes(accumulator.get(18, 19))
+    voice.extend(music_)
+    music_ = make_v1_waves_function(accumulator.get(20))
+    voice.extend(music_)
     music = library.make_eighth_notes_function(accumulator.get(21, 25))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(26), head=voice.name)
@@ -191,32 +185,18 @@ def VA(voice, accumulator):
         accumulator.get(1, 4), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    rhythm_maker = rmakers.bind(
-        rmakers.assign(
-            make_va_waves,
-            abjad.index([3, 4, 5]),
-        ),
-        rmakers.assign(
-            make_repeat_tied_notes,
-        ),
-    )
-    music = rhythm_maker(accumulator.get(5, 10))
-    voice.extend(music)
+    music_ = make_repeat_tied_notes(accumulator.get(5, 7))
+    voice.extend(music_)
+    music_ = make_va_waves_function(accumulator.get(8, 10))
+    voice.extend(music_)
     music = baca.make_repeat_tied_notes_function(
         accumulator.get(11, 14), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    rhythm_maker = rmakers.bind(
-        rmakers.assign(
-            make_va_waves,
-            abjad.index([3, 4, 5]),
-        ),
-        rmakers.assign(
-            make_repeat_tied_notes,
-        ),
-    )
-    music = rhythm_maker(accumulator.get(15, 20))
-    voice.extend(music)
+    music_ = make_repeat_tied_notes(accumulator.get(15, 17))
+    voice.extend(music_)
+    music_ = make_va_waves_function(accumulator.get(18, 20))
+    voice.extend(music_)
     music = library.make_eighth_notes_function(accumulator.get(21, 25))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(26), head=voice.name)
@@ -228,36 +208,23 @@ def VC(voice, accumulator):
         accumulator.get(1, 4), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    rhythm_maker = rmakers.bind(
-        rmakers.assign(
-            make_vc_waves,
-            abjad.index([1, 2, 3]),
-        ),
-        rmakers.assign(
-            make_repeat_tied_notes,
-        ),
-    )
-    music = rhythm_maker(accumulator.get(5, 10))
-    voice.extend(music)
+    music_ = make_repeat_tied_notes(accumulator.get(5))
+    voice.extend(music_)
+    music_ = make_vc_waves_function(accumulator.get(6, 8))
+    voice.extend(music_)
+    music_ = make_repeat_tied_notes(accumulator.get(9, 10))
+    voice.extend(music_)
+
     music = baca.make_repeat_tied_notes_function(
         accumulator.get(11, 14), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    rhythm_maker = rmakers.bind(
-        rmakers.assign(
-            make_vc_waves,
-            abjad.index([1, 2, 3]),
-        ),
-        rmakers.assign(
-            make_eighth_notes,
-            abjad.index([4, 5]),
-        ),
-        rmakers.assign(
-            make_repeat_tied_notes,
-        ),
-    )
-    music = rhythm_maker(accumulator.get(15, 20))
-    voice.extend(music)
+    music_ = make_repeat_tied_notes(accumulator.get(15))
+    voice.extend(music_)
+    music_ = make_vc_waves_function(accumulator.get(16, 18))
+    voice.extend(music_)
+    music_ = make_eighth_notes(accumulator.get(19, 20))
+    voice.extend(music_)
     music = library.make_eighth_notes_function(accumulator.get(21, 25))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(26), head=voice.name)
