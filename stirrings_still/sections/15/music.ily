@@ -881,16 +881,16 @@ number.15.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm()
+      %! stirrings_still.make_picket_rhythm_function()
     \times 2/3
-      %! stirrings_still.make_picket_rhythm()
+      %! stirrings_still.make_picket_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 7]
-          %! stirrings_still.make_picket_rhythm()
+          %! stirrings_still.make_picket_rhythm_function()
         aqs'!4
         % AFTER:
         % ARTICULATIONS:
@@ -1011,22 +1011,22 @@ number.15.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_picket_rhythm()
+          %! stirrings_still.make_picket_rhythm_function()
         aqs'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_picket_rhythm()
+          %! stirrings_still.make_picket_rhythm_function()
         aqs'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_picket_rhythm()
+          %! stirrings_still.make_picket_rhythm_function()
         aqs'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_picket_rhythm()
+          %! stirrings_still.make_picket_rhythm_function()
         aqs'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1045,7 +1045,7 @@ number.15.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_picket_rhythm()
+          %! stirrings_still.make_picket_rhythm_function()
         aqs'!4
         % AFTER:
         % COMMANDS:
@@ -1057,7 +1057,7 @@ number.15.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm()
+      %! stirrings_still.make_picket_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1530,16 +1530,16 @@ number.15.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm()
+      %! stirrings_still.make_picket_rhythm_function()
     \times 4/5
-      %! stirrings_still.make_picket_rhythm()
+      %! stirrings_still.make_picket_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 7]
-          %! stirrings_still.make_picket_rhythm()
+          %! stirrings_still.make_picket_rhythm_function()
         ef'!4
         % AFTER:
         % ARTICULATIONS:
@@ -1660,17 +1660,17 @@ number.15.Violin.2.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_picket_rhythm()
+          %! stirrings_still.make_picket_rhythm_function()
         ef'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_picket_rhythm()
+          %! stirrings_still.make_picket_rhythm_function()
         ef'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_picket_rhythm()
+          %! stirrings_still.make_picket_rhythm_function()
         ef'!4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1689,7 +1689,7 @@ number.15.Violin.2.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_picket_rhythm()
+          %! stirrings_still.make_picket_rhythm_function()
         ef'!4
         % AFTER:
         % COMMANDS:
@@ -1701,7 +1701,7 @@ number.15.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm()
+      %! stirrings_still.make_picket_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2162,7 +2162,7 @@ number.15.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 7]
-      %! stirrings_still.make_picket_rhythm()
+      %! stirrings_still.make_picket_rhythm_function()
     bqf!4
     % AFTER:
     % ARTICULATIONS:
@@ -2283,12 +2283,12 @@ number.15.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_picket_rhythm()
+      %! stirrings_still.make_picket_rhythm_function()
     bqf!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_picket_rhythm()
+      %! stirrings_still.make_picket_rhythm_function()
     bqf!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2307,7 +2307,7 @@ number.15.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_picket_rhythm()
+      %! stirrings_still.make_picket_rhythm_function()
     bqf!4
     % AFTER:
     % COMMANDS:

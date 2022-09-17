@@ -1716,58 +1716,6 @@ def make_measure_initiation_rhythm_function(time_signatures):
     return music
 
 
-def make_picket_rhythm(
-    time_signatures,
-    fuse,
-    extra_count,
-    *,
-    force_rest_tuplets=None,
-    force_note_and_tie=False,
-):
-    assert isinstance(fuse, int)
-
-    def preprocessor(divisions):
-        divisions = baca.sequence.fuse(divisions)
-        divisions = baca.sequence.split_divisions(
-            divisions,
-            [(fuse, 4)],
-            cyclic=True,
-            remainder=abjad.LEFT,
-        )
-        return divisions
-
-    assert isinstance(extra_count, int), repr(extra_count)
-    counts = 4 + extra_count
-    tuplet_ratio = counts * (1,)
-    commands = []
-    if force_rest_tuplets is not None:
-        command = rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.tuplets(_), force_rest_tuplets)
-        )
-        commands.append(command)
-    if force_note_and_tie is True:
-        command = rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        )
-        commands.append(command)
-        command = rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        )
-        commands.append(command)
-    rhythm_maker = rmakers.stack(
-        rmakers.tuplet([tuplet_ratio]),
-        *commands,
-        rmakers.rewrite_rest_filled(),
-        rmakers.rewrite_sustained(),
-        rmakers.beam(),
-        rmakers.extract_trivial(),
-        preprocessor=preprocessor,
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
 def make_picket_rhythm_function(
     time_signatures,
     fuse,
@@ -1778,7 +1726,9 @@ def make_picket_rhythm_function(
 ):
     assert isinstance(fuse, int)
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    # TODO: nonreduced fractions?
+    # divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [abjad.Duration(_) for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.split_divisions(
         divisions,
