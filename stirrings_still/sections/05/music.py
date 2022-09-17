@@ -1,6 +1,5 @@
 import abjad
 import baca
-from abjadext import rmakers
 
 from stirrings_still import library
 
@@ -116,9 +115,7 @@ def V1(voice, accumulator):
         accumulator.get(4, 5),
         4,
         2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
+        force_rest_tuplets=[0],
     )
     voice.extend(music)
     music = library.make_grid_to_trajectory_rhythm(
@@ -224,9 +221,7 @@ def V2(voice, accumulator):
         accumulator.get(4, 5),
         4,
         1,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
+        force_rest_tuplets=[0],
     )
     voice.extend(music)
     music = library.make_grid_to_trajectory_rhythm(
@@ -339,9 +334,7 @@ def VA(voice, accumulator):
         accumulator.get(4, 5),
         4,
         0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
+        force_rest_tuplets=[0],
     )
     voice.extend(music)
     music = library.make_grid_to_trajectory_rhythm(

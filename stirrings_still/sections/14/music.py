@@ -151,7 +151,7 @@ def VA(voice, accumulator):
 def VC(voice, accumulator):
     music = library.make_clouded_pane_rhythm(accumulator.get(1, 10))
     voice.extend(music)
-    music = library.make_cello_cell_rhythm(accumulator.get(11, 12))
+    music = library.make_cello_cell_rhythm_function(accumulator.get(11, 12))
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(accumulator.get(13, 22))
     voice.extend(music)

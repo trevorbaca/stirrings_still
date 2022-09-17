@@ -1,6 +1,5 @@
 import abjad
 import baca
-from abjadext import rmakers
 
 from stirrings_still import library
 
@@ -105,9 +104,7 @@ def V1(voice, accumulator):
         accumulator.get(23, 28),
         4,
         2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
+        force_rest_tuplets=[0],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(29), head=voice.name)
@@ -193,9 +190,7 @@ def V2(voice, accumulator):
         accumulator.get(23, 28),
         4,
         1,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
+        force_rest_tuplets=[0],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(29), head=voice.name)
@@ -270,7 +265,7 @@ def VA(voice, accumulator):
     music = library.make_circle_rhythm(
         accumulator.get(6),
         (1, 2),
-        rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
+        force_rest_lts=[0],
         remainder=abjad.LEFT,
     )
     voice.extend(music)
@@ -292,9 +287,7 @@ def VA(voice, accumulator):
         accumulator.get(23, 28),
         4,
         0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
+        force_rest_tuplets=[0],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(29), head=voice.name)

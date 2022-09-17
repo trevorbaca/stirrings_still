@@ -422,7 +422,7 @@ def VC(voice, accumulator):
         start=6,
     )
     voice.extend(music)
-    music = library.make_cello_cell_rhythm(accumulator.get(21, 23))
+    music = library.make_cello_cell_rhythm_function(accumulator.get(21, 23))
     voice.extend(music)
     music = library.make_flight_rhythm(
         accumulator.get(24, 31),
