@@ -1892,7 +1892,7 @@ number.10.Violin.1.Music = {
     \override TupletBracket.direction = #down
       %! baca.tuplet_bracket_staff_padding(1)
     \override TupletBracket.staff-padding = 1.5
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     a'4
     % AFTER:
     % ARTICULATIONS:
@@ -2021,7 +2021,7 @@ number.10.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -2054,7 +2054,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     b'8
     % AFTER:
     % ARTICULATIONS:
@@ -2072,7 +2072,7 @@ number.10.Violin.1.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -2104,7 +2104,7 @@ number.10.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     c''8
     % AFTER:
     % ARTICULATIONS:
@@ -2122,7 +2122,7 @@ number.10.Violin.1.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -2144,11 +2144,11 @@ number.10.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 8/7
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2181,7 +2181,7 @@ number.10.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         b'4
         % AFTER:
         % ARTICULATIONS:
@@ -2231,7 +2231,7 @@ number.10.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         b'4.
         % AFTER:
         % ARTICULATIONS:
@@ -2264,7 +2264,7 @@ number.10.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         c''8
         % AFTER:
         % SPANNER_STOPS:
@@ -2272,7 +2272,7 @@ number.10.Violin.1.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -2290,7 +2290,7 @@ number.10.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         c''8
         % AFTER:
         % SPANNER_STOPS:
@@ -2298,7 +2298,7 @@ number.10.Violin.1.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -2324,24 +2324,24 @@ number.10.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 8/9
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 14]
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -2405,7 +2405,7 @@ number.10.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         c''4
         % AFTER:
         % ARTICULATIONS:
@@ -2438,7 +2438,7 @@ number.10.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         d''4.
         % AFTER:
         % ARTICULATIONS:
@@ -2485,7 +2485,7 @@ number.10.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df''!8
         % AFTER:
         % ARTICULATIONS:
@@ -2535,7 +2535,7 @@ number.10.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         d''4
         % AFTER:
         % ARTICULATIONS:
@@ -2569,17 +2569,17 @@ number.10.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 7/8
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2600,7 +2600,7 @@ number.10.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         c''4.
         % AFTER:
         % ARTICULATIONS:
@@ -2650,7 +2650,7 @@ number.10.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         c''8
         % AFTER:
         % SPANNER_STOPS:
@@ -2658,7 +2658,7 @@ number.10.Violin.1.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -2676,7 +2676,7 @@ number.10.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -2694,7 +2694,7 @@ number.10.Violin.1.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -2712,7 +2712,7 @@ number.10.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         d''4
         % AFTER:
         % SPANNER_STOPS:
@@ -2735,7 +2735,7 @@ number.10.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         d''8
         % AFTER:
         % SPANNER_STOPS:
@@ -2759,14 +2759,14 @@ number.10.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 16]
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     d''4
     % AFTER:
     % SPANNER_STOPS:
@@ -2789,7 +2789,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     d''8
     % AFTER:
     % ARTICULATIONS:
@@ -2807,7 +2807,7 @@ number.10.Violin.1.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -2825,7 +2825,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     d''8
     % AFTER:
     % ARTICULATIONS:
@@ -2858,7 +2858,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     d''8
     % AFTER:
     % ARTICULATIONS:
@@ -2891,7 +2891,7 @@ number.10.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     e''8
     % AFTER:
     % ARTICULATIONS:
@@ -2909,7 +2909,7 @@ number.10.Violin.1.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -2928,18 +2928,18 @@ number.10.Violin.1.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 5/4
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.1.Music measure 17]
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         e''8
         % AFTER:
         % ARTICULATIONS:
@@ -2989,7 +2989,7 @@ number.10.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         e''4.
         % AFTER:
         % SPANNER_STOPS:
@@ -3013,7 +3013,7 @@ number.10.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3885,11 +3885,11 @@ number.10.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 7/8
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3902,7 +3902,7 @@ number.10.Violin.2.Music = {
         \override TupletBracket.direction = #down
           %! baca.tuplet_bracket_staff_padding(1)
         \override TupletBracket.staff-padding = 1.5
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         gs'!4.
         % AFTER:
         % ARTICULATIONS:
@@ -4031,7 +4031,7 @@ number.10.Violin.2.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         g'8
         % AFTER:
         % ARTICULATIONS:
@@ -4049,7 +4049,7 @@ number.10.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -4067,7 +4067,7 @@ number.10.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         a'8
         % AFTER:
         % ARTICULATIONS:
@@ -4085,7 +4085,7 @@ number.10.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -4103,7 +4103,7 @@ number.10.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         a'4
         % AFTER:
         % ARTICULATIONS:
@@ -4136,7 +4136,7 @@ number.10.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         a'8
         % AFTER:
         % ARTICULATIONS:
@@ -4170,14 +4170,14 @@ number.10.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 13]
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     b'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4196,7 +4196,7 @@ number.10.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     b'8
     % AFTER:
     % ARTICULATIONS:
@@ -4214,7 +4214,7 @@ number.10.Violin.2.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -4249,7 +4249,7 @@ number.10.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     b'8
     % AFTER:
     % SPANNER_STOPS:
@@ -4272,7 +4272,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     b'8
     % AFTER:
     % SPANNER_STOPS:
@@ -4280,7 +4280,7 @@ number.10.Violin.2.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -4298,7 +4298,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     b'4
     % AFTER:
     % SPANNER_STOPS:
@@ -4321,7 +4321,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     a'8
     % AFTER:
     % ARTICULATIONS:
@@ -4362,18 +4362,18 @@ number.10.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 8/7
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 14]
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         a'4
         % AFTER:
         % ARTICULATIONS:
@@ -4435,7 +4435,7 @@ number.10.Violin.2.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         a'8
         % AFTER:
         % ARTICULATIONS:
@@ -4485,7 +4485,7 @@ number.10.Violin.2.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         a'4
         % AFTER:
         % ARTICULATIONS:
@@ -4518,7 +4518,7 @@ number.10.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         b'4
         % AFTER:
         % ARTICULATIONS:
@@ -4552,33 +4552,33 @@ number.10.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 7/8
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 15]
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         b'8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         b'8
         % AFTER:
         % ARTICULATIONS:
@@ -4611,7 +4611,7 @@ number.10.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         c''8
         % AFTER:
         % SPANNER_STOPS:
@@ -4619,7 +4619,7 @@ number.10.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -4651,7 +4651,7 @@ number.10.Violin.2.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         c''4
         % AFTER:
         % ARTICULATIONS:
@@ -4701,7 +4701,7 @@ number.10.Violin.2.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         c''4.
         % AFTER:
         % SPANNER_STOPS:
@@ -4725,24 +4725,24 @@ number.10.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 6/7
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.2.Music measure 16]
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         c''8
         % AFTER:
         % SPANNER_STOPS:
@@ -4750,7 +4750,7 @@ number.10.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -4768,7 +4768,7 @@ number.10.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         c''8
         % AFTER:
         % SPANNER_STOPS:
@@ -4791,7 +4791,7 @@ number.10.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         b'8
         % AFTER:
         % ARTICULATIONS:
@@ -4809,7 +4809,7 @@ number.10.Violin.2.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -4827,7 +4827,7 @@ number.10.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         b'4
         % AFTER:
         % ARTICULATIONS:
@@ -4860,7 +4860,7 @@ number.10.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         b'4
         % AFTER:
         % ARTICULATIONS:
@@ -4894,7 +4894,7 @@ number.10.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4915,11 +4915,11 @@ number.10.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     b'8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     [
     % SPANNER_STARTS:
       %! abjad.glissando(7)
@@ -4942,7 +4942,7 @@ number.10.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     b'8
     % AFTER:
     % ARTICULATIONS:
@@ -4960,7 +4960,7 @@ number.10.Violin.2.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -4978,7 +4978,7 @@ number.10.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     c''4
     % AFTER:
     % ARTICULATIONS:
@@ -5028,7 +5028,7 @@ number.10.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     cs''!8
     % AFTER:
     % SPANNER_STOPS:
@@ -5843,11 +5843,11 @@ number.10.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 7/8
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5860,7 +5860,7 @@ number.10.Viola.Music = {
         \override TupletBracket.direction = #down
           %! baca.tuplet_bracket_staff_padding(1)
         \override TupletBracket.staff-padding = 1.5
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         f'8
         % AFTER:
         % ARTICULATIONS:
@@ -5897,7 +5897,7 @@ number.10.Viola.Music = {
           %! baca.text_spanner()
         \bacaStopTextSpanMaterialAnnotation
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -5992,7 +5992,7 @@ number.10.Viola.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         f'8
         % AFTER:
         % ARTICULATIONS:
@@ -6010,7 +6010,7 @@ number.10.Viola.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -6028,7 +6028,7 @@ number.10.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         e'4
         % AFTER:
         % ARTICULATIONS:
@@ -6061,7 +6061,7 @@ number.10.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         e'4.
         % AFTER:
         % ARTICULATIONS:
@@ -6108,7 +6108,7 @@ number.10.Viola.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         e'8
         % AFTER:
         % ARTICULATIONS:
@@ -6145,17 +6145,17 @@ number.10.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 8/9
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6176,7 +6176,7 @@ number.10.Viola.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         e'8
         % AFTER:
         % ARTICULATIONS:
@@ -6194,7 +6194,7 @@ number.10.Viola.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -6212,7 +6212,7 @@ number.10.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         f'8
         % AFTER:
         % ARTICULATIONS:
@@ -6230,7 +6230,7 @@ number.10.Viola.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -6248,7 +6248,7 @@ number.10.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         g'4
         % AFTER:
         % SPANNER_STOPS:
@@ -6285,7 +6285,7 @@ number.10.Viola.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         gf'!4.
         % AFTER:
         % SPANNER_STOPS:
@@ -6325,7 +6325,7 @@ number.10.Viola.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         g'8
         % AFTER:
         % SPANNER_STOPS:
@@ -6333,7 +6333,7 @@ number.10.Viola.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -6351,7 +6351,7 @@ number.10.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         g'8
         % AFTER:
         % ARTICULATIONS:
@@ -6369,7 +6369,7 @@ number.10.Viola.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -6395,14 +6395,14 @@ number.10.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 14]
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -6450,7 +6450,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     f'4.
     % AFTER:
     % ARTICULATIONS:
@@ -6497,7 +6497,7 @@ number.10.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -6515,7 +6515,7 @@ number.10.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -6550,7 +6550,7 @@ number.10.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -6568,7 +6568,7 @@ number.10.Viola.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -6586,7 +6586,7 @@ number.10.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     f'4
     % AFTER:
     % ARTICULATIONS:
@@ -6620,18 +6620,18 @@ number.10.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 7/6
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 15]
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         e'4.
         % AFTER:
         % SPANNER_STOPS:
@@ -6654,7 +6654,7 @@ number.10.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         e'8
         % AFTER:
         % ARTICULATIONS:
@@ -6672,7 +6672,7 @@ number.10.Viola.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -6690,7 +6690,7 @@ number.10.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         e'8
         % AFTER:
         % SPANNER_STOPS:
@@ -6727,7 +6727,7 @@ number.10.Viola.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ef'!8
         % AFTER:
         % SPANNER_STOPS:
@@ -6735,7 +6735,7 @@ number.10.Viola.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -6757,17 +6757,17 @@ number.10.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 6/7
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6788,7 +6788,7 @@ number.10.Viola.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         e'4
         % AFTER:
         % SPANNER_STOPS:
@@ -6811,7 +6811,7 @@ number.10.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         e'4.
         % AFTER:
         % ARTICULATIONS:
@@ -6844,7 +6844,7 @@ number.10.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         e'8
         % AFTER:
         % ARTICULATIONS:
@@ -6862,7 +6862,7 @@ number.10.Viola.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -6880,7 +6880,7 @@ number.10.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         e'8
         % AFTER:
         % ARTICULATIONS:
@@ -6898,7 +6898,7 @@ number.10.Viola.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -6917,29 +6917,29 @@ number.10.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 5/6
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 17]
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         d'4.
         % AFTER:
         % ARTICULATIONS:
@@ -6972,7 +6972,7 @@ number.10.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         d'8
         % AFTER:
         % ARTICULATIONS:
@@ -6990,7 +6990,7 @@ number.10.Viola.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -7025,7 +7025,7 @@ number.10.Viola.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         d'8
         % AFTER:
         % SPANNER_STOPS:
@@ -7039,7 +7039,7 @@ number.10.Viola.Music = {
           %! baca.text_spanner()
         \bacaStopTextSpanHalfCLT
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % COMMANDS:
           %! baca.dls_staff_padding(2)
@@ -7052,7 +7052,7 @@ number.10.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:

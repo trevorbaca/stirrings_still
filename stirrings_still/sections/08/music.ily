@@ -19111,11 +19111,11 @@ number.8.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 5/6
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -19146,7 +19146,7 @@ number.8.Cello.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \revert Stem.transparent
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -19178,7 +19178,7 @@ number.8.Cello.Music = {
           %! baca.hairpin()
         \!
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -19273,7 +19273,7 @@ number.8.Cello.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -19291,7 +19291,7 @@ number.8.Cello.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -19309,7 +19309,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!4
         % AFTER:
         % ARTICULATIONS:
@@ -19342,7 +19342,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -19360,7 +19360,7 @@ number.8.Cello.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -19378,7 +19378,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -19396,7 +19396,7 @@ number.8.Cello.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -19415,24 +19415,24 @@ number.8.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 6/7
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 48]
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -19465,7 +19465,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!4
         % AFTER:
         % ARTICULATIONS:
@@ -19498,7 +19498,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -19516,7 +19516,7 @@ number.8.Cello.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -19534,7 +19534,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % SPANNER_STOPS:
@@ -19557,7 +19557,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % SPANNER_STOPS:
@@ -19580,7 +19580,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % SPANNER_STOPS:
@@ -19588,7 +19588,7 @@ number.8.Cello.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -19607,23 +19607,23 @@ number.8.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 49]
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     df,!8
     % AFTER:
     % START_BEAM:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     df,!8
     % AFTER:
     % ARTICULATIONS:
@@ -19656,7 +19656,7 @@ number.8.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     df,!8
     % AFTER:
     % ARTICULATIONS:
@@ -19689,7 +19689,7 @@ number.8.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     df,!8
     % AFTER:
     % ARTICULATIONS:
@@ -19707,7 +19707,7 @@ number.8.Cello.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -19725,7 +19725,7 @@ number.8.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     df,!4
     % AFTER:
     % ARTICULATIONS:
@@ -19758,7 +19758,7 @@ number.8.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     df,!8
     % AFTER:
     % ARTICULATIONS:
@@ -19776,7 +19776,7 @@ number.8.Cello.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -19794,7 +19794,7 @@ number.8.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     df,!8
     % AFTER:
     % SPANNER_STOPS:
@@ -19802,7 +19802,7 @@ number.8.Cello.Music = {
       %! stirrings_still.bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -19821,18 +19821,18 @@ number.8.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 8/7
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 50]
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -19905,7 +19905,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!4
         % AFTER:
         % SPANNER_STOPS:
@@ -19928,7 +19928,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % SPANNER_STOPS:
@@ -19936,7 +19936,7 @@ number.8.Cello.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -19954,7 +19954,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % SPANNER_STOPS:
@@ -19977,7 +19977,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -20010,7 +20010,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -20028,7 +20028,7 @@ number.8.Cello.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -20047,33 +20047,33 @@ number.8.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 5/6
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 51]
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -20106,7 +20106,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -20139,7 +20139,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -20157,7 +20157,7 @@ number.8.Cello.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -20192,7 +20192,7 @@ number.8.Cello.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!4
         % AFTER:
         % SPANNER_STOPS:
@@ -20206,7 +20206,7 @@ number.8.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
