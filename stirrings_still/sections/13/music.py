@@ -1,6 +1,5 @@
 import abjad
 import baca
-from abjadext import rmakers
 
 from stirrings_still import library
 
@@ -48,12 +47,7 @@ def V1(voice, accumulator):
         accumulator.get(8, 12),
         4,
         2,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
+        force_note_and_tie=True,
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(
@@ -64,12 +58,7 @@ def V1(voice, accumulator):
         accumulator.get(17, 20),
         4,
         2,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
+        force_note_and_tie=True,
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(
@@ -80,12 +69,7 @@ def V1(voice, accumulator):
         accumulator.get(25, 28),
         4,
         2,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
+        force_note_and_tie=True,
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(
@@ -104,12 +88,7 @@ def V2(voice, accumulator):
         accumulator.get(8, 12),
         4,
         1,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
+        force_note_and_tie=True,
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(
@@ -120,12 +99,7 @@ def V2(voice, accumulator):
         accumulator.get(17, 20),
         4,
         1,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
+        force_note_and_tie=True,
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(
@@ -136,12 +110,7 @@ def V2(voice, accumulator):
         accumulator.get(25, 28),
         4,
         1,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
+        force_note_and_tie=True,
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(
@@ -160,12 +129,7 @@ def VA(voice, accumulator):
         accumulator.get(8, 12),
         4,
         0,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
+        force_note_and_tie=True,
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(
@@ -176,12 +140,7 @@ def VA(voice, accumulator):
         accumulator.get(17, 20),
         4,
         0,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
+        force_note_and_tie=True,
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(
@@ -192,12 +151,7 @@ def VA(voice, accumulator):
         accumulator.get(25, 28),
         4,
         0,
-        rmakers.force_note(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
-        ),
+        force_note_and_tie=True,
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(

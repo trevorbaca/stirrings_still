@@ -28083,7 +28083,7 @@ number.1.Cello.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''8.
     % AFTER:
     % ARTICULATIONS:
@@ -28116,7 +28116,7 @@ number.1.Cello.Music = {
       %! baca.markup()
     _ \baca-string-iii-markup
     % START_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -28222,7 +28222,7 @@ number.1.Cello.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''16
     % AFTER:
     % ARTICULATIONS:
@@ -28240,7 +28240,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -28258,7 +28258,7 @@ number.1.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''8
     % AFTER:
     % ARTICULATIONS:
@@ -28276,7 +28276,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -28294,7 +28294,7 @@ number.1.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''8
     % AFTER:
     % ARTICULATIONS:
@@ -28312,7 +28312,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -28330,7 +28330,7 @@ number.1.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''8.
     % AFTER:
     % ARTICULATIONS:
@@ -28348,7 +28348,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -28366,7 +28366,7 @@ number.1.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''16
     % AFTER:
     % ARTICULATIONS:
@@ -28384,7 +28384,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -28402,7 +28402,7 @@ number.1.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''8
     % AFTER:
     % ARTICULATIONS:
@@ -28420,7 +28420,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -28438,7 +28438,7 @@ number.1.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''8
     % AFTER:
     % ARTICULATIONS:
@@ -28456,7 +28456,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -28476,7 +28476,7 @@ number.1.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 43]
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''8.
     % AFTER:
     % ARTICULATIONS:
@@ -28508,7 +28508,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     [
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -28552,7 +28552,7 @@ number.1.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''16
     % AFTER:
     % ARTICULATIONS:
@@ -28570,7 +28570,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -28588,7 +28588,7 @@ number.1.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''8
     % AFTER:
     % ARTICULATIONS:
@@ -28606,7 +28606,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -28624,7 +28624,7 @@ number.1.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''8
     % AFTER:
     % ARTICULATIONS:
@@ -28642,7 +28642,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -28660,7 +28660,7 @@ number.1.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''8.
     % AFTER:
     % ARTICULATIONS:
@@ -28678,7 +28678,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -28713,7 +28713,7 @@ number.1.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''16
     % AFTER:
     % SPANNER_STOPS:
@@ -28721,7 +28721,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     ]
     % COMMANDS:
       %! baca.note_head_style_harmonic(2)
@@ -29127,7 +29127,7 @@ number.1.Cello.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''8.
     % AFTER:
     % ARTICULATIONS:
@@ -29177,7 +29177,7 @@ number.1.Cello.Music = {
       %! baca.text_spanner()
     \bacaStopTextSpanDamp
     % START_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     [
     % SPANNER_STARTS:
       %! AUTODETECT
@@ -29283,7 +29283,7 @@ number.1.Cello.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''16
     % AFTER:
     % ARTICULATIONS:
@@ -29301,7 +29301,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -29319,7 +29319,7 @@ number.1.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''8
     % AFTER:
     % ARTICULATIONS:
@@ -29337,7 +29337,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -29355,7 +29355,7 @@ number.1.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''8
     % AFTER:
     % ARTICULATIONS:
@@ -29373,7 +29373,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     ]
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -29391,7 +29391,7 @@ number.1.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''8.
     % AFTER:
     % ARTICULATIONS:
@@ -29409,7 +29409,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % START_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     [
     % SPANNER_STARTS:
       %! baca.bcps(2)
@@ -29444,7 +29444,7 @@ number.1.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     a''16
     % AFTER:
     % SPANNER_STOPS:
@@ -29452,7 +29452,7 @@ number.1.Cello.Music = {
       %! stirrings_still.cello_cell_bcps()
     \bacaStopTextSpanBCP
     % STOP_BEAM:
-      %! stirrings_still.make_cello_cell_rhythm()
+      %! stirrings_still.make_cello_cell_rhythm_function()
     ]
     % COMMANDS:
       %! baca.note_head_style_harmonic(2)

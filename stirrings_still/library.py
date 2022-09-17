@@ -1313,12 +1313,11 @@ def make_cello_cell_rhythm(time_signatures):
     return music
 
 
-# TODO
 def make_cello_cell_rhythm_function(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
     divisions = baca.sequence.quarters(baca.sequence.fuse(divisions))
-    nested_music = rmakers.talea_function([3, 1, 2, 2], 16, tag=tag)
+    nested_music = rmakers.talea_function(divisions, [3, 1, 2, 2], 16, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     rmakers.beam_function(voice, tag=tag)
     rmakers.extract_trivial_function(voice)
@@ -1329,7 +1328,9 @@ def make_cello_cell_rhythm_function(time_signatures):
 def make_circle_rhythm(
     time_signatures,
     duration,
-    *commands,
+    *,
+    force_rest_lts=None,
+    force_rest_tuplets=None,
     remainder=abjad.RIGHT,
 ):
     def preprocessor(divisions):
@@ -1341,6 +1342,18 @@ def make_circle_rhythm(
             remainder=remainder,
         )
         return divisions
+
+    commands = []
+    if force_rest_tuplets is not None:
+        command = rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.tuplets(_), force_rest_tuplets)
+        )
+        commands.append(command)
+    if force_rest_lts is not None:
+        command = rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), force_rest_lts)
+        )
+        commands.append(command)
 
     rhythm_maker = rmakers.stack(
         rmakers.note(),
@@ -1389,9 +1402,10 @@ def make_circle_rhythm_function(
 
 def make_clocktick_rhythm(
     time_signatures,
-    *commands,
+    *,
     displace=False,
     encroach=False,
+    force_rest_tuplets=None,
 ):
     def preprocessor_(divisions):
         divisions = baca.sequence.fuse(divisions)
@@ -1407,6 +1421,12 @@ def make_clocktick_rhythm(
     else:
         preprocessor = preprocessor_
         counts = [1, -2]
+    commands = []
+    if force_rest_tuplets is not None:
+        command = rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.tuplets(_), force_rest_tuplets)
+        )
+        commands.append(command)
     rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 8, extra_counts=[1]),
         *commands,
@@ -2090,7 +2110,9 @@ def make_picket_rhythm(
     time_signatures,
     fuse,
     extra_count,
-    *commands,
+    *,
+    force_rest_tuplets=None,
+    force_note_and_tie=False,
 ):
     assert isinstance(fuse, int)
 
@@ -2107,6 +2129,21 @@ def make_picket_rhythm(
     assert isinstance(extra_count, int), repr(extra_count)
     counts = 4 + extra_count
     tuplet_ratio = counts * (1,)
+    commands = []
+    if force_rest_tuplets is not None:
+        command = rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.tuplets(_), force_rest_tuplets)
+        )
+        commands.append(command)
+    if force_note_and_tie is True:
+        command = rmakers.force_note(
+            lambda _: baca.select.tuplet(_, 0),
+        )
+        commands.append(command)
+        command = rmakers.tie(
+            lambda _: abjad.select.leaves(abjad.select.tuplets(_)[:1])[:-1],
+        )
+        commands.append(command)
     rhythm_maker = rmakers.stack(
         rmakers.tuplet([tuplet_ratio]),
         *commands,
@@ -2225,7 +2262,13 @@ def make_solid_line_rhythm_function(time_signatures):
     return music
 
 
-def make_stroke_rhythm(time_signatures, rotation, *commands):
+def make_stroke_rhythm(time_signatures, rotation, *, force_rest_tuplets=None):
+    commands = []
+    if force_rest_tuplets is not None:
+        command = rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.tuplets(_), force_rest_tuplets)
+        )
+        commands.append(command)
     rhythm_maker = rmakers.stack(
         rmakers.incised(
             suffix_talea=[1],
@@ -2461,8 +2504,9 @@ def make_trajectory_rhythm(
     counts,
     rotation,
     extra_counts_rotation,
-    *commands,
+    *,
     end_counts=(),
+    untie_then_tie=False,
 ):
     counts__ = {
         "A": [1, 1, 1, 2],
@@ -2475,6 +2519,36 @@ def make_trajectory_rhythm(
         assert all(isinstance(_, int) for _ in end_counts)
     extra_counts = [1, 1, 0, -1]
     extra_counts = abjad.sequence.rotate(extra_counts, n=extra_counts_rotation)
+
+    def lleak_tuplet_pleaves(indices):
+        def selector(argument):
+            selection = abjad.select.tuplets(argument)
+            selection = abjad.select.get(selection, indices)
+            selection = [baca.select.pleaves(_) for _ in selection]
+            selection = [baca.select.lleak(_) for _ in selection]
+            return selection
+
+        return selector
+
+    def nonlast_tuplet_pleaves(indices):
+        def selector(argument):
+            selection = abjad.select.tuplets(argument)
+            selection = abjad.select.get(selection, indices)
+            selection = [baca.select.pleaves(_)[:-1] for _ in selection]
+            return selection
+
+        return selector
+
+    commands = []
+    if untie_then_tie is True:
+        command = rmakers.untie(
+            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
+        )
+        commands.append(command)
+        command = rmakers.tie(
+            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
+        )
+        commands.append(command)
     rhythm_maker = rmakers.stack(
         rmakers.talea(counts_, 8, end_counts=end_counts, extra_counts=extra_counts),
         rmakers.force_fraction(),

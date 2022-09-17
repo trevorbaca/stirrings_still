@@ -480,7 +480,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(41), head=voice.name)
     voice.extend(music)
-    music = library.make_cello_cell_rhythm(accumulator.get(42, 43))
+    music = library.make_cello_cell_rhythm_function(accumulator.get(42, 43))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(44, 45), head=voice.name)
     voice.extend(music)
@@ -490,7 +490,7 @@ def VC(voice, accumulator):
         [-1],
     )
     voice.extend(music)
-    music = library.make_cello_cell_rhythm(accumulator.get(48))
+    music = library.make_cello_cell_rhythm_function(accumulator.get(48))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         accumulator.get(49, 50),

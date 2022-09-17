@@ -1,6 +1,5 @@
 import abjad
 import baca
-from abjadext import rmakers
 
 from stirrings_still import library
 
@@ -112,49 +111,37 @@ def V1(voice, accumulator):
     music = library.make_stroke_rhythm(
         accumulator.get(1, 6),
         0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 2)),
-        ),
+        force_rest_tuplets=([0], 2),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(7, 12),
         0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 2)),
-        ),
+        force_rest_tuplets=([0], 2),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(13, 18),
         0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 2)),
-        ),
+        force_rest_tuplets=([0], 2),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(19, 24),
         0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 2)),
-        ),
+        force_rest_tuplets=([0], 2),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(25, 30),
         0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 2)),
-        ),
+        force_rest_tuplets=([0], 2),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(31, 36),
         0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 2)),
-        ),
+        force_rest_tuplets=([0], 2),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(37, 39), head=voice.name)
@@ -224,49 +211,37 @@ def V2(voice, accumulator):
     music = library.make_stroke_rhythm(
         accumulator.get(1, 6),
         -1,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1], 2)),
-        ),
+        force_rest_tuplets=([1], 2),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(7, 12),
         -1,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1], 2)),
-        ),
+        force_rest_tuplets=([1], 2),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(13, 18),
         -1,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1], 2)),
-        ),
+        force_rest_tuplets=([1], 2),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(19, 24),
         0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([2], 3)),
-        ),
+        force_rest_tuplets=([2], 3),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(25, 30),
         0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([2], 3)),
-        ),
+        force_rest_tuplets=([2], 3),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(31, 36),
         0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([2], 3)),
-        ),
+        force_rest_tuplets=([2], 3),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(37, 39), head=voice.name)
@@ -336,49 +311,37 @@ def VA(voice, accumulator):
     music = library.make_stroke_rhythm(
         accumulator.get(1, 6),
         -2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0, 1], 3)),
-        ),
+        force_rest_tuplets=([0, 1], 3),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(7, 12),
         -2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 3)),
-        ),
+        force_rest_tuplets=([0], 3),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(13, 18),
         -2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 3)),
-        ),
+        force_rest_tuplets=([0], 3),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(19, 24),
         -2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 3)),
-        ),
+        force_rest_tuplets=([0], 3),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(25, 30),
         -2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 2)),
-        ),
+        force_rest_tuplets=([0], 2),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(31, 36),
         0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1], 2)),
-        ),
+        force_rest_tuplets=([1], 2),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(37, 39), head=voice.name)
@@ -418,7 +381,7 @@ def VA(voice, accumulator):
     music = library.make_circle_rhythm(
         accumulator.get(66),
         (1, 2),
-        rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
+        force_rest_lts=[0],
         remainder=abjad.LEFT,
     )
     voice.extend(music)
@@ -454,54 +417,42 @@ def VC(voice, accumulator):
     music = library.make_stroke_rhythm(
         accumulator.get(1, 6),
         3,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 2], 3)),
-        ),
+        force_rest_tuplets=([1, 2], 3),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(7, 12),
         -3,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 2], 3)),
-        ),
+        force_rest_tuplets=([1, 2], 3),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(13, 18),
         -3,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1], 3)),
-        ),
+        force_rest_tuplets=([1], 3),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(19, 24),
         -3,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1], 3)),
-        ),
+        force_rest_tuplets=([1], 3),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(25, 30),
         -2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([2], 3)),
-        ),
+        force_rest_tuplets=([2], 3),
     )
     voice.extend(music)
     music = library.make_stroke_rhythm(
         accumulator.get(31, 36),
         0,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0], 3)),
-        ),
+        force_rest_tuplets=([0], 3),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(37), head=voice.name)
     voice.extend(music)
-    music = library.make_cello_cell_rhythm(accumulator.get(38))
+    music = library.make_cello_cell_rhythm_function(accumulator.get(38))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(39), head=voice.name)
     voice.extend(music)

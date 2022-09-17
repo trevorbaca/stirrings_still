@@ -1,6 +1,5 @@
 import abjad
 import baca
-from abjadext import rmakers
 
 from stirrings_still import library
 
@@ -29,39 +28,13 @@ def GLOBALS(skips, rests, first_measure_number):
     library.time(skips, rests, time)
 
 
-def lleak_tuplet_pleaves(indices):
-    def selector(argument):
-        selection = abjad.select.tuplets(argument)
-        selection = abjad.select.get(selection, indices)
-        selection = [baca.select.pleaves(_) for _ in selection]
-        selection = [baca.select.lleak(_) for _ in selection]
-        return selection
-
-    return selector
-
-
-def nonlast_tuplet_pleaves(indices):
-    def selector(argument):
-        selection = abjad.select.tuplets(argument)
-        selection = abjad.select.get(selection, indices)
-        selection = [baca.select.pleaves(_)[:-1] for _ in selection]
-        return selection
-
-    return selector
-
-
 def V1(voice, accumulator):
     music = library.make_trajectory_rhythm(
         accumulator.get(),
         "C",
         0,
         -3,
-        rmakers.untie(
-            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-        rmakers.tie(
-            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
+        untie_then_tie=True,
     )
     voice.extend(music)
     baca.append_anchor_note(voice)
@@ -73,12 +46,7 @@ def V2(voice, accumulator):
         "C",
         -1,
         -2,
-        rmakers.untie(
-            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-        rmakers.tie(
-            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
+        untie_then_tie=True,
     )
     voice.extend(music)
     baca.append_anchor_note(voice)
@@ -90,12 +58,7 @@ def VA(voice, accumulator):
         "C",
         -2,
         -1,
-        rmakers.untie(
-            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
-        rmakers.tie(
-            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
-        ),
+        untie_then_tie=True,
     )
     voice.extend(music)
     baca.append_anchor_note(voice)
