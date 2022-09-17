@@ -7817,9 +7817,9 @@ number.10.Cello.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_accelerando()
+      %! stirrings_still.make_accelerando_function()
     \times 1/1
-      %! stirrings_still.make_accelerando()
+      %! stirrings_still.make_accelerando_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7831,9 +7831,9 @@ number.10.Cello.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         cf,!16 * 253/64
         % AFTER:
         % ARTICULATIONS:
@@ -7856,7 +7856,7 @@ number.10.Cello.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"253" #"64"
         % START_BEAM:
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -7933,7 +7933,7 @@ number.10.Cello.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         c,16 * 123/32
         % AFTER:
         % MARKUP:
@@ -7943,7 +7943,7 @@ number.10.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         c,16 * 227/64
         % AFTER:
         % MARKUP:
@@ -7953,7 +7953,7 @@ number.10.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         c,16 * 101/32
         % AFTER:
         % MARKUP:
@@ -7963,7 +7963,7 @@ number.10.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         c,16 * 11/4
         % AFTER:
         % MARKUP:
@@ -7973,7 +7973,7 @@ number.10.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         c,16 * 77/32
         % AFTER:
         % MARKUP:
@@ -7983,7 +7983,7 @@ number.10.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         b,,16 * 135/64
         % AFTER:
         % MARKUP:
@@ -7993,7 +7993,7 @@ number.10.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         b,,16 * 121/64
         % AFTER:
         % MARKUP:
@@ -8003,7 +8003,7 @@ number.10.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         b,,16 * 55/32
         % AFTER:
         % MARKUP:
@@ -8013,7 +8013,7 @@ number.10.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         b,,16 * 103/64
         % AFTER:
         % MARKUP:
@@ -8023,7 +8023,7 @@ number.10.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         b,,16 * 49/32
         % AFTER:
         % MARKUP:
@@ -8047,9 +8047,9 @@ number.10.Cello.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         bf,,!16 * 95/64
         % AFTER:
         % ARTICULATIONS:
@@ -8072,7 +8072,7 @@ number.10.Cello.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"95" #"64"
         % STOP_BEAM:
-          %! stirrings_still.make_accelerando()
+          %! stirrings_still.make_accelerando_function()
         ]
         % COMMANDS:
           %! baca.breathe()
@@ -8081,7 +8081,7 @@ number.10.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_accelerando()
+      %! stirrings_still.make_accelerando_function()
     }
     % AFTER:
     % GROB_REVERTS:
