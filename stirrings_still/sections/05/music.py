@@ -129,7 +129,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = library.make_declamation_rhythm_function(accumulator.get(34))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(35, 40),
         "C",
         0,
@@ -144,7 +144,7 @@ def V1(voice, accumulator):
         [2],
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(50, 61),
         "C",
         0,
@@ -185,7 +185,7 @@ def V1(voice, accumulator):
         [2],
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(97, 108),
         "C",
         0,
@@ -242,7 +242,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = library.make_declamation_rhythm_function(accumulator.get(34))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(35, 40),
         "C",
         -1,
@@ -257,7 +257,7 @@ def V2(voice, accumulator):
         [1],
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(54, 61),
         "C",
         -1,
@@ -298,7 +298,7 @@ def V2(voice, accumulator):
         [1],
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(101, 108),
         "C",
         -1,
@@ -358,7 +358,7 @@ def VA(voice, accumulator):
         [0],
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(50, 61),
         "C",
         -2,
@@ -399,7 +399,7 @@ def VA(voice, accumulator):
         [0],
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(97, 108),
         "C",
         -2,
@@ -443,7 +443,7 @@ def VC(voice, accumulator):
         [-1],
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(50, 61),
         "C",
         -3,
@@ -464,7 +464,7 @@ def VC(voice, accumulator):
         [-1],
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(97, 108),
         "C",
         -3,

@@ -66,7 +66,7 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(1, 2),
         "B",
         0,
@@ -81,7 +81,7 @@ def V1(voice, accumulator):
         [2],
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(5),
         "B",
         0,
@@ -94,7 +94,7 @@ def V1(voice, accumulator):
         (1, 2),
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(9),
         "B",
         -3,
@@ -103,7 +103,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(10))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(11, 14),
         "B",
         -3,
@@ -112,7 +112,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(15))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(16),
         "B",
         -3,
@@ -173,7 +173,7 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(1, 2),
         "B",
         -1,
@@ -187,7 +187,7 @@ def V2(voice, accumulator):
         [1],
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(5),
         "B",
         -1,
@@ -200,7 +200,7 @@ def V2(voice, accumulator):
         (1, 2),
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(9),
         "B",
         -3,
@@ -209,7 +209,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(10, 12))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(13),
         "B",
         -3,
@@ -218,7 +218,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(14))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(15, 16),
         "B",
         -3,
@@ -279,7 +279,7 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(1, 2),
         "B",
         -2,
@@ -297,7 +297,7 @@ def VA(voice, accumulator):
         accumulator.get(5, 11), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(12, 13),
         "B",
         -3,
@@ -306,7 +306,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(14, 15))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(16, 17),
         "B",
         -3,
@@ -370,7 +370,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(1, 2),
         "B",
         -3,
@@ -384,7 +384,7 @@ def VC(voice, accumulator):
         [-1],
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(5),
         "B",
         -3,
@@ -397,7 +397,7 @@ def VC(voice, accumulator):
         (1, 2),
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(9, 10),
         "B",
         -3,
@@ -406,7 +406,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(11, 12))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(13, 14),
         "B",
         -3,

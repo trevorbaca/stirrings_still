@@ -175,7 +175,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(27, 28), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(29, 30),
         "C",
         0,
@@ -186,7 +186,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = library.make_rasp_rhythm(accumulator.get(32, 33))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(34, 35),
         "C",
         0,
@@ -195,7 +195,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(36), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(37, 38),
         "C",
         0,
@@ -204,7 +204,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(39), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(40, 41),
         "C",
         0,
@@ -218,7 +218,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(43), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(44),
         "C",
         0,
@@ -227,7 +227,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(45), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(46),
         "C",
         0,
@@ -240,14 +240,14 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(49), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(50, 57),
         "C",
         0,
         -3,
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(58, 60),
         "C",
         0,
@@ -306,7 +306,7 @@ def V2(voice, accumulator):
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(18, 25),
         "C",
         0,
@@ -315,7 +315,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = library.make_declamation_rhythm_function(accumulator.get(26))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(27),
         "C",
         -1,
@@ -324,7 +324,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(28), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(29, 30),
         "C",
         -1,
@@ -335,7 +335,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = library.make_rasp_rhythm(accumulator.get(32, 33))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(34, 35),
         "C",
         -1,
@@ -344,7 +344,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(36), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(37, 38),
         "C",
         -1,
@@ -353,7 +353,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(39), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(40, 41),
         "C",
         -1,
@@ -367,7 +367,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(43), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(44),
         "C",
         -1,
@@ -376,7 +376,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(45), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(46),
         "C",
         -1,
@@ -389,7 +389,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(49), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(50, 57),
         "C",
         -1,
@@ -439,7 +439,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(22), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(23, 25),
         "C",
         0,
@@ -448,7 +448,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = library.make_declamation_rhythm_function(accumulator.get(26))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(27),
         "C",
         0,
@@ -457,7 +457,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(28), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(29, 30),
         "C",
         -2,
@@ -468,7 +468,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = library.make_rasp_rhythm(accumulator.get(32, 33))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(34, 35),
         "C",
         -2,
@@ -477,7 +477,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(36), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(37, 38),
         "C",
         -2,
@@ -486,7 +486,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(39), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(40, 41),
         "C",
         -2,
@@ -500,7 +500,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(43), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(44),
         "C",
         -2,
@@ -509,7 +509,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(45), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(46),
         "C",
         -2,
@@ -522,14 +522,14 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(49), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(50, 57),
         "C",
         -2,
         -1,
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(58, 59),
         "C",
         -2,
@@ -587,7 +587,7 @@ def VC(voice, accumulator):
         encroach=True,
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(20, 25),
         "B",
         0,
@@ -596,7 +596,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(26), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(27),
         "B",
         0,
@@ -605,7 +605,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(28), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(29, 30),
         "C",
         -3,
@@ -616,7 +616,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = library.make_rasp_rhythm(accumulator.get(32, 33))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(34, 35),
         "C",
         -3,
@@ -625,7 +625,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(36), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(37, 38),
         "C",
         -3,
@@ -634,7 +634,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(39), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(40, 41),
         "C",
         -3,
@@ -648,7 +648,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(43), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(44),
         "C",
         -3,
@@ -657,7 +657,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(accumulator.get(45))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(46),
         "C",
         -3,
@@ -670,14 +670,14 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(49), head=voice.name)
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(50, 57),
         "C",
         -3,
         0,
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(58, 61),
         "C",
         -3,

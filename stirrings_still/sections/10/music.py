@@ -55,7 +55,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = library.make_urtext_field_rhythm(accumulator.get(5, 11))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(12, 17),
         "C",
         -1,
@@ -76,7 +76,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = library.make_urtext_field_rhythm(accumulator.get(5, 11))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(12, 17),
         "C",
         -2,
@@ -93,7 +93,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = library.make_urtext_field_rhythm(accumulator.get(5, 11))
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(12, 17),
         "C",
         -3,

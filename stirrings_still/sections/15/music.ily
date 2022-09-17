@@ -2778,11 +2778,11 @@ number.15.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     \times 8/9
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2793,7 +2793,7 @@ number.15.Cello.Music = {
         % COMMANDS:
           %! baca.tuplet_bracket_down(1)
         \override TupletBracket.direction = #down
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -2832,7 +2832,7 @@ number.15.Cello.Music = {
           %! baca.text_spanner()
         \bacaStopTextSpanCircleBow
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -2933,7 +2933,7 @@ number.15.Cello.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -2951,7 +2951,7 @@ number.15.Cello.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -2969,7 +2969,7 @@ number.15.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!4
         % AFTER:
         % ARTICULATIONS:
@@ -3002,7 +3002,7 @@ number.15.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -3020,7 +3020,7 @@ number.15.Cello.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % START_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         [
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -3038,7 +3038,7 @@ number.15.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -3071,7 +3071,7 @@ number.15.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!8
         % AFTER:
         % ARTICULATIONS:
@@ -3089,7 +3089,7 @@ number.15.Cello.Music = {
           %! stirrings_still.bcps()
         \bacaStopTextSpanBCP
         % STOP_BEAM:
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         ]
         % SPANNER_STARTS:
           %! baca.bcps(2)
@@ -3124,7 +3124,7 @@ number.15.Cello.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_trajectory_rhythm()
+          %! stirrings_still.make_trajectory_rhythm_function()
         df,!4
         % AFTER:
         % SPANNER_STOPS:
@@ -3142,7 +3142,7 @@ number.15.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_trajectory_rhythm()
+      %! stirrings_still.make_trajectory_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:

@@ -92,7 +92,7 @@ def VC(voice, accumulator):
         (1, 4),
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm(
+    music = library.make_trajectory_rhythm_function(
         accumulator.get(7),
         "A",
         -1,
