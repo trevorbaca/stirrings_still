@@ -43,7 +43,7 @@ def V1(voice, accumulator):
         accumulator.get(1, 7), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(8, 12),
         4,
         2,
@@ -54,7 +54,7 @@ def V1(voice, accumulator):
         accumulator.get(13, 16), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(17, 20),
         4,
         2,
@@ -65,7 +65,7 @@ def V1(voice, accumulator):
         accumulator.get(21, 24), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(25, 28),
         4,
         2,
@@ -84,7 +84,7 @@ def V2(voice, accumulator):
         accumulator.get(1, 7), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(8, 12),
         4,
         1,
@@ -95,7 +95,7 @@ def V2(voice, accumulator):
         accumulator.get(13, 16), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(17, 20),
         4,
         1,
@@ -106,7 +106,7 @@ def V2(voice, accumulator):
         accumulator.get(21, 24), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(25, 28),
         4,
         1,
@@ -125,7 +125,7 @@ def VA(voice, accumulator):
         accumulator.get(1, 7), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(8, 12),
         4,
         0,
@@ -136,7 +136,7 @@ def VA(voice, accumulator):
         accumulator.get(13, 16), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(17, 20),
         4,
         0,
@@ -147,7 +147,7 @@ def VA(voice, accumulator):
         accumulator.get(21, 24), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(25, 28),
         4,
         0,

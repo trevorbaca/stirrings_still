@@ -44,7 +44,7 @@ def V1(voice, accumulator):
         (1, 4),
     )
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(7),
         4,
         2,
@@ -60,7 +60,7 @@ def V2(voice, accumulator):
         (1, 4),
     )
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(7),
         4,
         1,
@@ -76,7 +76,7 @@ def VA(voice, accumulator):
         (1, 4),
     )
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(7),
         4,
         0,

@@ -100,7 +100,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(17, 22), head=voice.name)
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(23, 28),
         4,
         2,
@@ -139,7 +139,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(46), head=voice.name)
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(47, 51),
         4,
         2,
@@ -186,7 +186,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(17, 22), head=voice.name)
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(23, 28),
         4,
         1,
@@ -229,7 +229,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(46), head=voice.name)
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(47, 51),
         4,
         1,
@@ -283,7 +283,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(17, 22), head=voice.name)
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(23, 28),
         4,
         0,
@@ -322,7 +322,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(46), head=voice.name)
     voice.extend(music)
-    music = library.make_picket_rhythm(
+    music = library.make_picket_rhythm_function(
         accumulator.get(47, 51),
         4,
         0,
