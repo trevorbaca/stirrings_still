@@ -162,9 +162,9 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_clouded_pane_rhythm(accumulator.get(1, 28))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(1, 28))
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(29, 32))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(29, 32))
     voice.extend(music)
     baca.append_anchor_note(voice)
 

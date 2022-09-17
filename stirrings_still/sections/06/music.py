@@ -40,7 +40,7 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = library.make_clouded_pane_rhythm(accumulator.get(1, 8))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(1, 8))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 11), head=voice.name)
     voice.extend(music)
@@ -55,7 +55,7 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_clouded_pane_rhythm(accumulator.get(1, 8))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(1, 8))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 11), head=voice.name)
     voice.extend(music)
@@ -87,7 +87,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_clouded_pane_rhythm(accumulator.get(1, 8))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(1, 8))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 11), head=voice.name)
     voice.extend(music)

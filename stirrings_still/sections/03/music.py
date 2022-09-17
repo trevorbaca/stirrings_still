@@ -163,7 +163,7 @@ def V1(voice, accumulator):
         [1],
     )
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(28, 29))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(28, 29))
     voice.extend(music)
     music = library.make_synchronized_circle_rhythm_function(
         accumulator.get(30, 33),
@@ -183,7 +183,7 @@ def V1(voice, accumulator):
         rotation=0,
     )
     voice.extend(music)
-    music = library.make_urtext_field_rhythm(accumulator.get(60, 61))
+    music = library.make_urtext_field_rhythm_function(accumulator.get(60, 61))
     voice.extend(music)
     music = library.make_synchronized_circle_rhythm_function(
         accumulator.get(62, 69),
@@ -276,7 +276,7 @@ def V2(voice, accumulator):
         rotation=-1,
     )
     voice.extend(music)
-    music = library.make_urtext_field_rhythm(accumulator.get(60, 61))
+    music = library.make_urtext_field_rhythm_function(accumulator.get(60, 61))
     voice.extend(music)
     music = library.make_synchronized_circle_rhythm_function(
         accumulator.get(62, 69),
@@ -345,7 +345,7 @@ def VA(voice, accumulator):
         [2],
     )
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(28, 29))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(28, 29))
     voice.extend(music)
     music = library.make_synchronized_circle_rhythm_function(
         accumulator.get(30, 33),
@@ -365,7 +365,7 @@ def VA(voice, accumulator):
         rotation=-2,
     )
     voice.extend(music)
-    music = library.make_urtext_field_rhythm(accumulator.get(60, 61))
+    music = library.make_urtext_field_rhythm_function(accumulator.get(60, 61))
     voice.extend(music)
     music = library.make_synchronized_circle_rhythm_function(
         accumulator.get(62, 69),
@@ -434,14 +434,14 @@ def VC(voice, accumulator):
         [-1],
     )
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(28, 29))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(28, 29))
     voice.extend(music)
     music = library.make_synchronized_circle_rhythm_function(
         accumulator.get(30, 33),
         rests=[-1],
     )
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(34, 35))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(34, 35))
     voice.extend(music)
     music = library.make_synchronized_circle_rhythm_function(
         accumulator.get(36, 55),

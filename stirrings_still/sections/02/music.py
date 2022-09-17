@@ -184,7 +184,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(31), head=voice.name)
     voice.extend(music)
-    music = library.make_rasp_rhythm(accumulator.get(32, 33))
+    music = library.make_rasp_rhythm_function(accumulator.get(32, 33))
     voice.extend(music)
     music = library.make_trajectory_rhythm_function(
         accumulator.get(34, 35),
@@ -236,7 +236,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(47), head=voice.name)
     voice.extend(music)
-    music = library.make_urtext_field_rhythm(accumulator.get(48))
+    music = library.make_urtext_field_rhythm_function(accumulator.get(48))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(49), head=voice.name)
     voice.extend(music)
@@ -333,7 +333,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(31), head=voice.name)
     voice.extend(music)
-    music = library.make_rasp_rhythm(accumulator.get(32, 33))
+    music = library.make_rasp_rhythm_function(accumulator.get(32, 33))
     voice.extend(music)
     music = library.make_trajectory_rhythm_function(
         accumulator.get(34, 35),
@@ -385,7 +385,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(47), head=voice.name)
     voice.extend(music)
-    music = library.make_urtext_field_rhythm(accumulator.get(48))
+    music = library.make_urtext_field_rhythm_function(accumulator.get(48))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(49), head=voice.name)
     voice.extend(music)
@@ -466,7 +466,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(31), head=voice.name)
     voice.extend(music)
-    music = library.make_rasp_rhythm(accumulator.get(32, 33))
+    music = library.make_rasp_rhythm_function(accumulator.get(32, 33))
     voice.extend(music)
     music = library.make_trajectory_rhythm_function(
         accumulator.get(34, 35),
@@ -518,7 +518,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(47), head=voice.name)
     voice.extend(music)
-    music = library.make_urtext_field_rhythm(accumulator.get(48))
+    music = library.make_urtext_field_rhythm_function(accumulator.get(48))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(49), head=voice.name)
     voice.extend(music)
@@ -565,7 +565,7 @@ def VC(voice, accumulator):
         force_rest_tuplets=[-1],
     )
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(6, 11))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(6, 11))
     voice.extend(music)
     music = library.make_circle_rhythm_function(
         accumulator.get(12, 15),
@@ -614,7 +614,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(31), head=voice.name)
     voice.extend(music)
-    music = library.make_rasp_rhythm(accumulator.get(32, 33))
+    music = library.make_rasp_rhythm_function(accumulator.get(32, 33))
     voice.extend(music)
     music = library.make_trajectory_rhythm_function(
         accumulator.get(34, 35),
@@ -655,7 +655,7 @@ def VC(voice, accumulator):
         0,
     )
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(45))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(45))
     voice.extend(music)
     music = library.make_trajectory_rhythm_function(
         accumulator.get(46),
@@ -666,7 +666,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(47), head=voice.name)
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(48))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(48))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(49), head=voice.name)
     voice.extend(music)
@@ -691,7 +691,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(63), head=voice.name)
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(64))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(64))
     voice.extend(music)
     music = library.make_grid_rhythm_function(
         accumulator.get(65),
