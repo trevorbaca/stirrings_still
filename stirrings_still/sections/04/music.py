@@ -174,7 +174,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(56), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(57),
         (1, 4),
         (1, 16),
@@ -286,7 +286,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(56), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(57),
         (1, 4),
         (2, 16),

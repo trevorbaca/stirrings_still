@@ -88,7 +88,7 @@ def V1(voice, accumulator):
         0,
     )
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(6, 8),
         (8, 32),
         (1, 2),
@@ -194,7 +194,7 @@ def V2(voice, accumulator):
         -1,
     )
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(6, 8),
         (10, 32),
         (1, 2),
@@ -391,7 +391,7 @@ def VC(voice, accumulator):
         -3,
     )
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(6, 8),
         (11, 32),
         (1, 2),

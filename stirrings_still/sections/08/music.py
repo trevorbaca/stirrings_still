@@ -87,7 +87,7 @@ def V1(voice, accumulator):
         (1, 8),
     )
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(7, 8),
         (1, 2),
         (8, 32),
@@ -112,7 +112,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(29), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(30, 31),
         (1, 2),
         (4, 32),
@@ -126,7 +126,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(36, 37))
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(38, 40),
         (1, 2),
         (4, 32),
@@ -134,7 +134,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(41), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(42, 45),
         (1, 2),
         (4, 32),
@@ -175,7 +175,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(7, 10))
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(11, 12),
         (1, 2),
         (7, 32),
@@ -200,7 +200,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(29), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(30, 31),
         (1, 2),
         (8, 32),
@@ -218,7 +218,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(36, 37))
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(38, 40),
         (1, 2),
         (8, 32),
@@ -226,7 +226,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(41), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(42, 45),
         (1, 2),
         (8, 32),
@@ -274,7 +274,7 @@ def VA(voice, accumulator):
         remainder=abjad.LEFT,
     )
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(7, 8),
         (1, 2),
         (6, 32),
@@ -299,7 +299,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(29), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(30, 31),
         (1, 2),
         (12, 32),
@@ -313,7 +313,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(36, 37))
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(38, 40),
         (1, 2),
         (12, 32),
@@ -321,7 +321,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(41), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(42, 45),
         (1, 2),
         (12, 32),

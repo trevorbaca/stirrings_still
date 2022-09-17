@@ -112,7 +112,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = library.make_urtext_field_rhythm(accumulator.get(7, 11))
     voice.extend(music)
-    music = library.make_accelerando(
+    music = library.make_accelerando_function(
         accumulator.get(12, 13),
         (1, 4),
         (3, 32),
