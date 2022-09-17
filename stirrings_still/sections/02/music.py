@@ -130,26 +130,26 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = library.make_clocktick_rhythm(
+    music = library.make_clocktick_rhythm_function(
         accumulator.get(1, 4),
         force_rest_tuplets=([0], 2),
         displace=True,
     )
     voice.extend(music)
-    music = library.make_clocktick_rhythm(
+    music = library.make_clocktick_rhythm_function(
         accumulator.get(5, 7),
         force_rest_tuplets=[-1],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8, 11), head=voice.name)
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(12, 13),
         (1, 4),
         force_rest_lts=[-1],
     )
     voice.extend(music)
-    music = library.make_clocktick_rhythm(accumulator.get(14))
+    music = library.make_clocktick_rhythm_function(accumulator.get(14))
     voice.extend(music)
     music = baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
@@ -164,7 +164,7 @@ def V1(voice, accumulator):
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
     )
     voice.extend(music)
-    music = library.make_clocktick_rhythm(
+    music = library.make_clocktick_rhythm_function(
         accumulator.get(18, 24),
         force_rest_tuplets=[-1],
     )
@@ -211,7 +211,7 @@ def V1(voice, accumulator):
         -3,
     )
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(42),
         (1, 4),
     )
@@ -254,7 +254,7 @@ def V1(voice, accumulator):
         -3,
     )
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(61, 62),
         (1, 4),
     )
@@ -278,20 +278,20 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_clocktick_rhythm(
+    music = library.make_clocktick_rhythm_function(
         accumulator.get(1, 7),
         force_rest_tuplets=[-1],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8, 11), head=voice.name)
     voice.extend(music)
-    music = library.make_clocktick_rhythm(accumulator.get(12))
+    music = library.make_clocktick_rhythm_function(accumulator.get(12))
     voice.extend(music)
     music = baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
     )
     voice.extend(music)
-    music = library.make_clocktick_rhythm(accumulator.get(14))
+    music = library.make_clocktick_rhythm_function(accumulator.get(14))
     voice.extend(music)
     music = baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
@@ -360,7 +360,7 @@ def V2(voice, accumulator):
         -2,
     )
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(42),
         (1, 4),
     )
@@ -396,7 +396,7 @@ def V2(voice, accumulator):
         -2,
     )
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(58, 62),
         (1, 4),
     )
@@ -420,19 +420,19 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_clocktick_rhythm(
+    music = library.make_clocktick_rhythm_function(
         accumulator.get(1, 5),
         force_rest_tuplets=[-1],
     )
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(6, 7),
         (1, 4),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8, 11), head=voice.name)
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(12, 21),
         (1, 4),
     )
@@ -493,7 +493,7 @@ def VA(voice, accumulator):
         -1,
     )
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(42),
         (1, 4),
     )
@@ -536,7 +536,7 @@ def VA(voice, accumulator):
         -1,
     )
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(60, 62),
         (1, 4),
     )
@@ -560,14 +560,14 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_clocktick_rhythm(
+    music = library.make_clocktick_rhythm_function(
         accumulator.get(1, 5),
         force_rest_tuplets=[-1],
     )
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(accumulator.get(6, 11))
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(12, 15),
         (1, 4),
         force_rest_tuplets=[-1],
@@ -582,7 +582,7 @@ def VC(voice, accumulator):
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
     )
     voice.extend(music)
-    music = library.make_clocktick_rhythm(
+    music = library.make_clocktick_rhythm_function(
         accumulator.get(18, 19),
         encroach=True,
     )
@@ -641,7 +641,7 @@ def VC(voice, accumulator):
         0,
     )
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(42),
         (1, 4),
     )
@@ -684,7 +684,7 @@ def VC(voice, accumulator):
         0,
     )
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(62),
         (1, 4),
     )

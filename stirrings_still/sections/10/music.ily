@@ -3352,9 +3352,9 @@ number.10.Violin.2.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_clocktick_rhythm()
+      %! stirrings_still.make_clocktick_rhythm_function()
     \times 2/3
-      %! stirrings_still.make_clocktick_rhythm()
+      %! stirrings_still.make_clocktick_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3365,7 +3365,7 @@ number.10.Violin.2.Music = {
         % COMMANDS:
           %! baca.tuplet_bracket_staff_padding(1)
         \override TupletBracket.staff-padding = 1
-          %! stirrings_still.make_clocktick_rhythm()
+          %! stirrings_still.make_clocktick_rhythm_function()
         f''8
         % AFTER:
         % ARTICULATIONS:
@@ -3508,26 +3508,26 @@ number.10.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_clocktick_rhythm()
+          %! stirrings_still.make_clocktick_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_clocktick_rhythm()
+      %! stirrings_still.make_clocktick_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_clocktick_rhythm()
+      %! stirrings_still.make_clocktick_rhythm_function()
     \times 2/3
-      %! stirrings_still.make_clocktick_rhythm()
+      %! stirrings_still.make_clocktick_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_clocktick_rhythm()
+          %! stirrings_still.make_clocktick_rhythm_function()
         f''8
         % AFTER:
         % ARTICULATIONS:
@@ -3536,26 +3536,26 @@ number.10.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_clocktick_rhythm()
+          %! stirrings_still.make_clocktick_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_clocktick_rhythm()
+      %! stirrings_still.make_clocktick_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_clocktick_rhythm()
+      %! stirrings_still.make_clocktick_rhythm_function()
     \times 2/3
-      %! stirrings_still.make_clocktick_rhythm()
+      %! stirrings_still.make_clocktick_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_clocktick_rhythm()
+          %! stirrings_still.make_clocktick_rhythm_function()
         f''8
         % AFTER:
         % ARTICULATIONS:
@@ -3564,13 +3564,13 @@ number.10.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_clocktick_rhythm()
+          %! stirrings_still.make_clocktick_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_clocktick_rhythm()
+      %! stirrings_still.make_clocktick_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:

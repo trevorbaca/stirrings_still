@@ -176,7 +176,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = library.make_urtext_field_rhythm(accumulator.get(65))
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(66),
         (1, 8),
     )
@@ -189,13 +189,13 @@ def V1(voice, accumulator):
         0,
     )
     voice.extend(music)
-    music = library.make_continuous_tremolo_material(accumulator.get(84, 92))
+    music = library.make_continuous_tremolo_material_function(accumulator.get(84, 92))
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(93), head=voice.name)
     voice.extend(music)
-    music = library.make_continuous_tremolo_material(accumulator.get(94, 96))
+    music = library.make_continuous_tremolo_material_function(accumulator.get(94, 96))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         accumulator.get(97, 98),
@@ -276,7 +276,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = library.make_urtext_field_rhythm(accumulator.get(65))
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(66),
         (1, 4),
     )
@@ -289,13 +289,13 @@ def V2(voice, accumulator):
         -1,
     )
     voice.extend(music)
-    music = library.make_continuous_tremolo_material(accumulator.get(84, 92))
+    music = library.make_continuous_tremolo_material_function(accumulator.get(84, 92))
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(93), head=voice.name)
     voice.extend(music)
-    music = library.make_continuous_tremolo_material(accumulator.get(94, 96))
+    music = library.make_continuous_tremolo_material_function(accumulator.get(94, 96))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         accumulator.get(97, 98),
@@ -378,7 +378,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = library.make_urtext_field_rhythm(accumulator.get(65))
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(66),
         (1, 2),
         force_rest_lts=[0],
@@ -393,7 +393,7 @@ def VA(voice, accumulator):
         -2,
     )
     voice.extend(music)
-    music = library.make_continuous_tremolo_material(accumulator.get(84, 89))
+    music = library.make_continuous_tremolo_material_function(accumulator.get(84, 89))
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)
@@ -401,7 +401,7 @@ def VA(voice, accumulator):
         accumulator.get(90, 93), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_continuous_tremolo_material(accumulator.get(94, 96))
+    music = library.make_continuous_tremolo_material_function(accumulator.get(94, 96))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         accumulator.get(97, 98),
