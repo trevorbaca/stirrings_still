@@ -1376,7 +1376,9 @@ def make_circle_rhythm(
 def make_circle_rhythm_function(
     time_signatures,
     duration,
-    *commands,
+    *,
+    force_rest_lts=None,
+    force_rest_tuplets=None,
     remainder=abjad.RIGHT,
 ):
     tag = baca.tags.function_name(inspect.currentframe())
@@ -1390,7 +1392,12 @@ def make_circle_rhythm_function(
     )
     nested_music = rmakers.note_function(divisions, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
-    # *commands
+    if force_rest_tuplets is not None:
+        rmakers.force_rest(
+            abjad.select.get(baca.select.tuplets(voice), force_rest_tuplets)
+        )
+    if force_rest_lts is not None:
+        rmakers.force_rest(abjad.select.get(baca.select.lts(voice), force_rest_lts))
     rmakers.beam_function(baca.select.plts(voice), tag=tag)
     rmakers.rewrite_sustained_function(voice, tag=tag)
     rmakers.rewrite_rest_filled_function(voice, tag=tag)
