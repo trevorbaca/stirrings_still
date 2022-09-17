@@ -171,7 +171,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(25), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(26))
+    music = library.make_declamation_rhythm_function(accumulator.get(26))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(27, 28), head=voice.name)
     voice.extend(music)
@@ -313,7 +313,7 @@ def V2(voice, accumulator):
         0,
     )
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(26))
+    music = library.make_declamation_rhythm_function(accumulator.get(26))
     voice.extend(music)
     music = library.make_trajectory_rhythm(
         accumulator.get(27),
@@ -446,7 +446,7 @@ def VA(voice, accumulator):
         0,
     )
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(26))
+    music = library.make_declamation_rhythm_function(accumulator.get(26))
     voice.extend(music)
     music = library.make_trajectory_rhythm(
         accumulator.get(27),

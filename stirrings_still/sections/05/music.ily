@@ -11476,7 +11476,7 @@ number.5.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -11549,7 +11549,7 @@ number.5.Violin.1.Music = {
       %! baca.hairpin()
     \mp
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -11583,7 +11583,7 @@ number.5.Violin.1.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -11664,7 +11664,7 @@ number.5.Violin.1.Music = {
       %! baca.hairpin()
     \mp
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -26035,7 +26035,7 @@ number.5.Violin.2.Music = {
       %! baca.xfb_spanner()
     \bacaStopTextSpanBowSpeed
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -26108,7 +26108,7 @@ number.5.Violin.2.Music = {
       %! baca.hairpin()
     \mp
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -26142,7 +26142,7 @@ number.5.Violin.2.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -26223,7 +26223,7 @@ number.5.Violin.2.Music = {
       %! baca.hairpin()
     \mp
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -38381,7 +38381,7 @@ number.5.Viola.Music = {
       %! baca.xfb_spanner()
     \bacaStopTextSpanBowSpeed
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -38454,7 +38454,7 @@ number.5.Viola.Music = {
       %! baca.hairpin()
     \mp
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % COMMANDS:
       %! baca.breathe()
@@ -38488,7 +38488,7 @@ number.5.Viola.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     [
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -38569,7 +38569,7 @@ number.5.Viola.Music = {
       %! baca.hairpin()
     \mp
     % STOP_BEAM:
-      %! stirrings_still.make_declamation_rhythm(2)
+      %! stirrings_still.make_declamation_rhythm_function(2)
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:

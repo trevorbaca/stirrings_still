@@ -123,38 +123,38 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = library.make_declamation_rhythm(accumulator.get(1))
+    music = library.make_declamation_rhythm_function(accumulator.get(1))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(3))
+    music = library.make_declamation_rhythm_function(accumulator.get(3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(5, 6))
+    music = library.make_declamation_rhythm_function(accumulator.get(5, 6))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(7), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(8, 9))
+    music = library.make_declamation_rhythm_function(accumulator.get(8, 9))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(
+    music = library.make_declamation_rhythm_function(
         accumulator.get(11, 16),
         protract=True,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(17), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(18))
+    music = library.make_declamation_rhythm_function(accumulator.get(18))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(19), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(20))
+    music = library.make_declamation_rhythm_function(accumulator.get(20))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(21), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(22))
+    music = library.make_declamation_rhythm_function(accumulator.get(22))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         accumulator.get(23),
@@ -164,7 +164,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(24), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(25))
+    music = library.make_declamation_rhythm_function(accumulator.get(25))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         accumulator.get(26),
@@ -179,7 +179,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(28), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(29))
+    music = library.make_declamation_rhythm_function(accumulator.get(29))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         accumulator.get(30, 45),
@@ -221,7 +221,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(59), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(60))
+    music = library.make_declamation_rhythm_function(accumulator.get(60))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(61), head=voice.name)
     voice.extend(music)
@@ -235,38 +235,38 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_declamation_rhythm(accumulator.get(1))
+    music = library.make_declamation_rhythm_function(accumulator.get(1))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(3))
+    music = library.make_declamation_rhythm_function(accumulator.get(3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(5, 6))
+    music = library.make_declamation_rhythm_function(accumulator.get(5, 6))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(7), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(8, 9))
+    music = library.make_declamation_rhythm_function(accumulator.get(8, 9))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(
+    music = library.make_declamation_rhythm_function(
         accumulator.get(11, 16),
         protract=True,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(17), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(18))
+    music = library.make_declamation_rhythm_function(accumulator.get(18))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(19), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(20))
+    music = library.make_declamation_rhythm_function(accumulator.get(20))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(21), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(22))
+    music = library.make_declamation_rhythm_function(accumulator.get(22))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         accumulator.get(23),
@@ -276,7 +276,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(24), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(25))
+    music = library.make_declamation_rhythm_function(accumulator.get(25))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         accumulator.get(26),
@@ -291,7 +291,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(28), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(29))
+    music = library.make_declamation_rhythm_function(accumulator.get(29))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         accumulator.get(30, 45),
@@ -333,7 +333,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(59), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(60))
+    music = library.make_declamation_rhythm_function(accumulator.get(60))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(61), head=voice.name)
     voice.extend(music)
@@ -347,38 +347,38 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_declamation_rhythm(accumulator.get(1))
+    music = library.make_declamation_rhythm_function(accumulator.get(1))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(3))
+    music = library.make_declamation_rhythm_function(accumulator.get(3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(5, 6))
+    music = library.make_declamation_rhythm_function(accumulator.get(5, 6))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(7), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(8, 9))
+    music = library.make_declamation_rhythm_function(accumulator.get(8, 9))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(
+    music = library.make_declamation_rhythm_function(
         accumulator.get(11, 16),
         protract=True,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(17), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(18))
+    music = library.make_declamation_rhythm_function(accumulator.get(18))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(19), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(20))
+    music = library.make_declamation_rhythm_function(accumulator.get(20))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(21), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(22))
+    music = library.make_declamation_rhythm_function(accumulator.get(22))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         accumulator.get(23),
@@ -388,7 +388,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(24), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(25))
+    music = library.make_declamation_rhythm_function(accumulator.get(25))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         accumulator.get(26),
@@ -403,7 +403,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(28), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(29))
+    music = library.make_declamation_rhythm_function(accumulator.get(29))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         accumulator.get(30, 45),
@@ -445,7 +445,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(59), head=voice.name)
     voice.extend(music)
-    music = library.make_declamation_rhythm(accumulator.get(60))
+    music = library.make_declamation_rhythm_function(accumulator.get(60))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(61), head=voice.name)
     voice.extend(music)
