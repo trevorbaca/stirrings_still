@@ -1448,50 +1448,6 @@ def make_declamation_rhythm_function(time_signatures, *, protract=False):
     return music
 
 
-def make_desynchronization_rhythm(
-    time_signatures,
-    denominator,
-    extra_counts,
-    *,
-    rests=None,
-):
-    assert isinstance(denominator, int), repr(denominator)
-    denominators = [denominator]
-    assert isinstance(extra_counts, list), repr(extra_counts)
-    commands = []
-    if rests is True:
-        specifier = rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
-        )
-        commands.append(specifier)
-    elif isinstance(rests, tuple):
-        specifier = rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), rests),
-        )
-        commands.append(specifier)
-    if extra_counts[0] < 0:
-        diminution = [rmakers.force_augmentation()]
-    elif extra_counts[0] == 0:
-        diminution = []
-    else:
-        diminution = [rmakers.force_diminution()]
-    rhythm_maker = rmakers.stack(
-        rmakers.even_division(denominators, extra_counts=extra_counts),
-        *commands,
-        rmakers.denominator((1, denominator)),
-        rmakers.force_fraction(),
-        rmakers.trivialize(),
-        rmakers.rewrite_dots(),
-        *diminution,
-        rmakers.beam(),
-        rmakers.extract_trivial(),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
-# TODO
 def make_desynchronization_rhythm_function(
     time_signatures,
     denominator,
@@ -1503,35 +1459,28 @@ def make_desynchronization_rhythm_function(
     assert isinstance(denominator, int), repr(denominator)
     denominators = [denominator]
     assert isinstance(extra_counts, list), repr(extra_counts)
-    commands = []
-    if rests is True:
-        specifier = rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), ([1], 2)),
-        )
-        commands.append(specifier)
-    elif isinstance(rests, tuple):
-        specifier = rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), rests),
-        )
-        commands.append(specifier)
-    if extra_counts[0] < 0:
-        diminution = [rmakers.force_augmentation()]
-    elif extra_counts[0] == 0:
-        diminution = []
-    else:
-        diminution = [rmakers.force_diminution()]
-    print(diminution)
-
     nested_music = rmakers.even_division_function(
         time_signatures, denominators, extra_counts=extra_counts, tag=tag
     )
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
-    # *commands
+    if rests is True:
+        rmakers.force_rest_function(
+            abjad.select.get(baca.select.lts(voice), ([1], 2)), tag=tag
+        )
+    elif isinstance(rests, tuple):
+        rmakers.force_rest_function(
+            abjad.select.get(baca.select.lts(voice), rests), tag=tag
+        )
     rmakers.denominator_function(voice, (1, denominator))
     rmakers.force_fraction_function(voice)
     rmakers.trivialize_function(voice)
     rmakers.rewrite_dots_function(voice, tag=tag)
-    # *diminution
+    if extra_counts[0] < 0:
+        rmakers.force_augmentation_function(voice)
+    elif extra_counts[0] == 0:
+        pass
+    else:
+        rmakers.force_diminution_function(voice)
     rmakers.beam_function(voice, tag=tag)
     rmakers.extract_trivial_function(voice)
     music = abjad.mutate.eject_contents(voice)
@@ -1901,15 +1850,6 @@ def make_grid_to_trajectory_rhythm_function(time_signatures, counts, rotation, e
     return music
 
 
-def make_loure_tuplets_material(time_signatures, extra_count):
-    music = make_desynchronization_rhythm(time_signatures, 8, [extra_count])
-    tag = baca.tags.function_name(inspect.currentframe())
-    wrappers = baca.espressivo(baca.select.pheads(music))
-    baca.tags.wrappers(wrappers, tag)
-    return music
-
-
-# TODO
 def make_loure_tuplets_material_function(time_signatures, extra_count):
     tag = baca.tags.function_name(inspect.currentframe())
     music = make_desynchronization_rhythm_function(time_signatures, 8, [extra_count])

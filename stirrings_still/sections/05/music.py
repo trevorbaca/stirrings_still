@@ -138,7 +138,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(41), head=voice.name)
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(42, 49),
         4,
         [2],
@@ -179,7 +179,7 @@ def V1(voice, accumulator):
         1,
     )
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(89, 96),
         4,
         [2],
@@ -251,7 +251,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(41), head=voice.name)
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(42, 53),
         4,
         [1],
@@ -292,7 +292,7 @@ def V2(voice, accumulator):
         0,
     )
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(89, 100),
         4,
         [1],
@@ -352,7 +352,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(41), head=voice.name)
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(42, 49),
         4,
         [0],
@@ -393,7 +393,7 @@ def VA(voice, accumulator):
         -1,
     )
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(89, 96),
         4,
         [0],
@@ -437,7 +437,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(28, 41), head=voice.name)
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(42, 49),
         4,
         [-1],
@@ -458,7 +458,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(accumulator.get(82, 88))
     voice.extend(music)
-    music = library.make_desynchronization_rhythm(
+    music = library.make_desynchronization_rhythm_function(
         accumulator.get(89, 96),
         4,
         [-1],
