@@ -46,7 +46,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8, 9), head=voice.name)
     voice.extend(music)
-    music = library.make_urtext_field_rhythm(accumulator.get(10, 11))
+    music = library.make_urtext_field_rhythm_function(accumulator.get(10, 11))
     voice.extend(music)
     baca.append_anchor_note(voice)
 
@@ -59,7 +59,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8, 9), head=voice.name)
     voice.extend(music)
-    music = library.make_urtext_field_rhythm(accumulator.get(10, 11))
+    music = library.make_urtext_field_rhythm_function(accumulator.get(10, 11))
     voice.extend(music)
     baca.append_anchor_note(voice)
 
@@ -74,7 +74,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8, 9), head=voice.name)
     voice.extend(music)
-    music = library.make_urtext_field_rhythm(accumulator.get(10, 11))
+    music = library.make_urtext_field_rhythm_function(accumulator.get(10, 11))
     voice.extend(music)
     baca.append_anchor_note(voice)
 

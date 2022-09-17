@@ -65,7 +65,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_clouded_pane_rhythm(accumulator.get())
+    music = library.make_clouded_pane_rhythm_function(accumulator.get())
     voice.extend(music)
 
 

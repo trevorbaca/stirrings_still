@@ -81,7 +81,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
     voice.extend(music)
-    music = library.make_urtext_field_rhythm(accumulator.get(5, 6))
+    music = library.make_urtext_field_rhythm_function(accumulator.get(5, 6))
     voice.extend(music)
     music = library.make_loure_tuplets_material_function(
         accumulator.get(7),
@@ -102,7 +102,7 @@ def V1(voice, accumulator):
         0,
     )
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(12, 13))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(12, 13))
     voice.extend(music)
     music = library.make_loure_tuplets_material_function(
         accumulator.get(14),
@@ -144,7 +144,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
     voice.extend(music)
-    music = library.make_urtext_field_rhythm(accumulator.get(5, 6))
+    music = library.make_urtext_field_rhythm_function(accumulator.get(5, 6))
     voice.extend(music)
     music = library.make_loure_tuplets_material_function(
         accumulator.get(7),
@@ -211,7 +211,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4), head=voice.name)
     voice.extend(music)
-    music = library.make_urtext_field_rhythm(accumulator.get(5, 6))
+    music = library.make_urtext_field_rhythm_function(accumulator.get(5, 6))
     voice.extend(music)
     music = library.make_loure_tuplets_material_function(
         accumulator.get(7),
@@ -232,7 +232,7 @@ def VA(voice, accumulator):
         -1,
     )
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(12, 13))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(12, 13))
     voice.extend(music)
     music = library.make_loure_tuplets_material_function(
         accumulator.get(14),
@@ -293,7 +293,7 @@ def VC(voice, accumulator):
         (1, 1),
     )
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(12, 13))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(12, 13))
     voice.extend(music)
     music = library.make_taper_rhythm_function(
         accumulator.get(14),

@@ -1383,7 +1383,7 @@ def make_clocktick_rhythm_function(
     return music
 
 
-def make_clouded_pane_rhythm(time_signatures):
+def make_clouded_pane_rhythm_function(time_signatures):
     music = baca.make_repeat_tied_notes_function(
         time_signatures, do_not_rewrite_meter=True
     )
@@ -1808,7 +1808,7 @@ def make_picket_rhythm_function(
     return music
 
 
-def make_rasp_rhythm(time_signatures):
+def make_rasp_rhythm_function(time_signatures):
     music = baca.make_repeat_tied_notes_function(
         time_signatures, do_not_rewrite_meter=True
     )
@@ -1940,69 +1940,6 @@ def make_to_flight_rhythm_function(
     return music
 
 
-# def make_trajectory_rhythm(
-#    time_signatures,
-#    counts,
-#    rotation,
-#    extra_counts_rotation,
-#    *,
-#    end_counts=(),
-#    untie_then_tie=False,
-# ):
-#    counts__ = {
-#        "A": [1, 1, 1, 2],
-#        "B": [1, 2, 2, 3],
-#        "C": [1, 2, 3, 1, 1, 2, 3, 1, 1, 1, 2, 3],
-#    }[counts]
-#    counts_ = counts__[:]
-#    counts_ = abjad.sequence.rotate(counts_, n=rotation)
-#    if end_counts is not None:
-#        assert all(isinstance(_, int) for _ in end_counts)
-#    extra_counts = [1, 1, 0, -1]
-#    extra_counts = abjad.sequence.rotate(extra_counts, n=extra_counts_rotation)
-#
-#    def lleak_tuplet_pleaves(indices):
-#        def selector(argument):
-#            selection = abjad.select.tuplets(argument)
-#            selection = abjad.select.get(selection, indices)
-#            selection = [baca.select.pleaves(_) for _ in selection]
-#            selection = [baca.select.lleak(_) for _ in selection]
-#            return selection
-#
-#        return selector
-#
-#    def nonlast_tuplet_pleaves(indices):
-#        def selector(argument):
-#            selection = abjad.select.tuplets(argument)
-#            selection = abjad.select.get(selection, indices)
-#            selection = [baca.select.pleaves(_)[:-1] for _ in selection]
-#            return selection
-#
-#        return selector
-#
-#    commands = []
-#    if untie_then_tie is True:
-#        command = rmakers.untie(
-#            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
-#        )
-#        commands.append(command)
-#        command = rmakers.tie(
-#            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
-#        )
-#        commands.append(command)
-#    rhythm_maker = rmakers.stack(
-#        rmakers.talea(counts_, 8, end_counts=end_counts, extra_counts=extra_counts),
-#        rmakers.force_fraction(),
-#        *commands,
-#        rmakers.rewrite_sustained(),
-#        rmakers.beam(),
-#        rmakers.extract_trivial(),
-#        tag=baca.tags.function_name(inspect.currentframe()),
-#    )
-#    music = rhythm_maker(time_signatures)
-#    return music
-
-
 def make_trajectory_rhythm_function(
     time_signatures,
     counts,
@@ -2058,7 +1995,7 @@ def make_trajectory_rhythm_function(
     return music
 
 
-def make_urtext_field_rhythm(time_signatures):
+def make_urtext_field_rhythm_function(time_signatures):
     music = baca.make_repeat_tied_notes_function(
         time_signatures, do_not_rewrite_meter=True
     )

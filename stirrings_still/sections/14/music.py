@@ -56,11 +56,11 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = library.make_clouded_pane_rhythm(accumulator.get(1, 8))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(1, 8))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 12), head=voice.name)
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(13, 22))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(13, 22))
     voice.extend(music)
     music = library.make_flight_rhythm_function(
         accumulator.get(23, 28),
@@ -87,11 +87,11 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_clouded_pane_rhythm(accumulator.get(1, 8))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(1, 8))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 12), head=voice.name)
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(13, 22))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(13, 22))
     voice.extend(music)
     music = library.make_flight_rhythm_function(
         accumulator.get(23, 28),
@@ -118,11 +118,11 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_clouded_pane_rhythm(accumulator.get(1, 8))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(1, 8))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 12), head=voice.name)
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(13, 22))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(13, 22))
     voice.extend(music)
     music = library.make_flight_rhythm_function(
         accumulator.get(23, 28),
@@ -149,11 +149,11 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_clouded_pane_rhythm(accumulator.get(1, 10))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(1, 10))
     voice.extend(music)
     music = library.make_cello_cell_rhythm_function(accumulator.get(11, 12))
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(13, 22))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(13, 22))
     voice.extend(music)
     music = library.make_flight_rhythm_function(
         accumulator.get(23, 28),
@@ -173,7 +173,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(36), head=voice.name)
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(37, 38))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(37, 38))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(39), head=voice.name)
     voice.extend(music)

@@ -438,7 +438,7 @@ def VC(voice, accumulator):
         start=6,
     )
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(38, 54))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(38, 54))
     voice.extend(music)
 
 

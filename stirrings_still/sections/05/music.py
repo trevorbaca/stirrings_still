@@ -427,13 +427,13 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_clouded_pane_rhythm(accumulator.get(1, 2))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3))
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(4, 5))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(4, 5))
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(6, 27))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(6, 27))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(28, 41), head=voice.name)
     voice.extend(music)
@@ -452,11 +452,11 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(62), head=voice.name)
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(63, 80))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(63, 80))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(81), head=voice.name)
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(82, 88))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(82, 88))
     voice.extend(music)
     music = library.make_desynchronization_rhythm_function(
         accumulator.get(89, 96),
@@ -471,11 +471,11 @@ def VC(voice, accumulator):
         0,
     )
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(109, 115))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(109, 115))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(116, 117), head=voice.name)
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm(accumulator.get(118, 127))
+    music = library.make_clouded_pane_rhythm_function(accumulator.get(118, 127))
     voice.extend(music)
 
 
