@@ -347,7 +347,7 @@ def VA(voice, accumulator):
 def VC(voice, accumulator):
     music = baca.make_repeat_tied_notes_function(accumulator.get(1, 5))
     voice.extend(music)
-    music = library.make_eighth_notes(accumulator.get(6))
+    music = library.make_eighth_notes_function(accumulator.get(6))
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(7, 31))
     voice.extend(music)
@@ -368,14 +368,14 @@ def VC(voice, accumulator):
         0,
     )
     voice.extend(music)
-    music = library.make_taper_rhythm(
+    music = library.make_taper_rhythm_function(
         accumulator.get(52),
         (1, 1),
     )
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(accumulator.get(53, 54))
     voice.extend(music)
-    music = library.make_taper_rhythm(
+    music = library.make_taper_rhythm_function(
         accumulator.get(55),
         (1, 1),
     )

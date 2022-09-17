@@ -261,14 +261,14 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(63), head=voice.name)
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(64),
         "A",
         0,
         start=16,
     )
     voice.extend(music)
-    music = library.make_grid_rhythm(
+    music = library.make_grid_rhythm_function(
         accumulator.get(65),
         rotation=0,
     )
@@ -403,14 +403,14 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(63), head=voice.name)
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(64),
         "C",
         -1,
         start=16,
     )
     voice.extend(music)
-    music = library.make_grid_rhythm(
+    music = library.make_grid_rhythm_function(
         accumulator.get(65),
         rotation=-1,
     )
@@ -543,14 +543,14 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(63), head=voice.name)
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(64),
         "B",
         -2,
         start=16,
     )
     voice.extend(music)
-    music = library.make_grid_rhythm(
+    music = library.make_grid_rhythm_function(
         accumulator.get(65),
         rotation=-2,
     )
@@ -693,7 +693,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(accumulator.get(64))
     voice.extend(music)
-    music = library.make_grid_rhythm(
+    music = library.make_grid_rhythm_function(
         accumulator.get(65),
         rotation=-3,
     )

@@ -1487,18 +1487,6 @@ def make_desynchronization_rhythm_function(
     return music
 
 
-def make_eighth_notes(time_signatures):
-    rhythm_maker = rmakers.stack(
-        rmakers.talea([1], 8),
-        rmakers.extract_trivial(),
-        preprocessor=lambda _: baca.sequence.fuse(_),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
-# TODO
 def make_eighth_notes_function(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
@@ -1560,119 +1548,6 @@ def make_empty_score():
     return score
 
 
-def make_flight_rhythm(time_signatures, counts, rotation, *, start=0):
-    if start is not None and start < 0:
-        raise Exception("set start to nonnegative integer (not {start}).")
-
-    """
-    1,-5    -6      -6
-    1,-5    2,-4    -6
-    2,-4    3,-4    2,-4
-    3,-3    4,-2    3,-3
-    4,-2    6       4,-2
-    6       6       6
-    """
-    counts_a = [
-        8 + 4 + 4,
-        1,
-        17,
-        1,
-        5,
-        2,
-        10,
-        2,
-        4,
-        3,
-        4,
-        2,
-        4,
-        3,
-        3,
-        4,
-        2,
-        3,
-        3,
-        4,
-        2,
-        10,
-        2,
-        99,
-    ]
-
-    counts_b = [
-        8 + 4,
-        1,
-        16,
-        1,
-        5,
-        2,
-        9,
-        2,
-        4,
-        3,
-        4,
-        2,
-        3,
-        3,
-        3,
-        4,
-        2,
-        3,
-        2,
-        4,
-        2,
-        10,
-        1,
-        99,
-    ]
-
-    counts_c = [
-        8,
-        1,
-        15,
-        1,
-        5,
-        2,
-        8,
-        2,
-        4,
-        3,
-        4,
-        2,
-        2,
-        3,
-        3,
-        4,
-        2,
-        3,
-        1,
-        4,
-        2,
-        99,
-    ]
-
-    counts_ = {"A": counts_a, "B": counts_b, "C": counts_c}[counts]
-    counts_ = counts_[:]
-    counts_ = counts_[start:]
-    extra_counts = abjad.sequence.rotate([1, 0, 2], n=rotation)
-    rhythm_maker = rmakers.stack(
-        rmakers.talea(counts_, 8, extra_counts=extra_counts),
-        rmakers.beam(),
-        rmakers.denominator((1, 8)),
-        rmakers.force_fraction(),
-        rmakers.trivialize(),
-        rmakers.rewrite_dots(),
-        rmakers.rewrite_sustained(),
-        rmakers.extract_trivial(),
-        rmakers.force_diminution(),
-        rmakers.force_repeat_tie(threshold=(1, 4)),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
-# TODO
 def make_flight_rhythm_function(time_signatures, counts, rotation, *, start=0):
     tag = baca.tags.function_name(inspect.currentframe())
     if start is not None and start < 0:
@@ -1786,20 +1661,6 @@ def make_flight_rhythm_function(time_signatures, counts, rotation, *, start=0):
     return music
 
 
-def make_grid_rhythm(time_signatures, *, rotation):
-    counts = [1, -3, 1, -3, 1, -2]
-    counts = abjad.sequence.rotate(counts, n=rotation)
-    rhythm_maker = rmakers.stack(
-        rmakers.talea(counts, 8),
-        rmakers.beam(),
-        rmakers.extract_trivial(),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
-# TODO
 def make_grid_rhythm_function(time_signatures, *, rotation):
     tag = baca.tags.function_name(inspect.currentframe())
     counts = [1, -3, 1, -3, 1, -2]
@@ -1812,25 +1673,6 @@ def make_grid_rhythm_function(time_signatures, *, rotation):
     return music
 
 
-def make_grid_to_trajectory_rhythm(time_signatures, counts, rotation, extra):
-    counts_ = {0: [2, 14, 2, 10, 2, 18]}[counts]
-    counts_ = abjad.sequence.rotate(counts_, n=rotation)
-    assert isinstance(extra, int), repr(extra)
-    extra_counts = [extra]
-    rhythm_maker = rmakers.stack(
-        rmakers.talea(counts_, 8, extra_counts=extra_counts),
-        rmakers.beam(),
-        rmakers.denominator((1, 8)),
-        rmakers.force_fraction(),
-        rmakers.extract_trivial(),
-        rmakers.force_repeat_tie(threshold=(1, 4)),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
-# TODO
 def make_grid_to_trajectory_rhythm_function(time_signatures, counts, rotation, extra):
     tag = baca.tags.function_name(inspect.currentframe())
     counts_ = {0: [2, 14, 2, 10, 2, 18]}[counts]
@@ -1858,18 +1700,6 @@ def make_loure_tuplets_material_function(time_signatures, extra_count):
     return music
 
 
-def make_measure_initiation_rhythm(time_signatures):
-    rhythm_maker = rmakers.stack(
-        rmakers.incised(prefix_talea=[2], prefix_counts=[1], talea_denominator=8),
-        rmakers.beam(),
-        rmakers.extract_trivial(),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
-# TODO
 def make_measure_initiation_rhythm_function(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     nested_music = rmakers.incised_function(
@@ -1938,12 +1768,13 @@ def make_picket_rhythm(
     return music
 
 
-# TODO
 def make_picket_rhythm_function(
     time_signatures,
     fuse,
     extra_count,
-    *commands,
+    *,
+    force_rest_tuplets=None,
+    force_note_and_tie=False,
 ):
     assert isinstance(fuse, int)
     tag = baca.tags.function_name(inspect.currentframe())
@@ -1960,7 +1791,15 @@ def make_picket_rhythm_function(
     tuplet_ratio = counts * (1,)
     nested_music = rmakers.tuplet_function(divisions, [tuplet_ratio], tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
-    # *commands
+    if force_rest_tuplets is not None:
+        rmakers.force_rest_function(
+            abjad.select.get(baca.select.tuplets(voice), force_rest_tuplets), tag=tag
+        )
+    if force_note_and_tie is True:
+        rmakers.force_note_function(baca.select.tuplet(voice, 0), tag=tag)
+        rmakers.tie_function(
+            abjad.select.leaves(abjad.select.tuplets(voice)[:1])[:-1], tag=tag
+        )
     rmakers.rewrite_rest_filled_function(voice, tag=tag)
     rmakers.rewrite_sustained_function(voice, tag=tag)
     rmakers.beam_function(voice, tag=tag)
@@ -1976,28 +1815,6 @@ def make_rasp_rhythm(time_signatures):
     return music
 
 
-def make_running_quarter_divisions(time_signatures, count):
-    assert isinstance(count, int), repr(count)
-    assert 0 < count, repr(count)
-    ratio = tuple(count * [1])
-
-    def preprocessor(divisions):
-        result = baca.sequence.fuse(divisions)
-        result = baca.sequence.split_divisions(result, [(1, 4)], cyclic=True)
-        return result
-
-    rhythm_maker = rmakers.stack(
-        rmakers.tuplet([ratio]),
-        rmakers.beam(),
-        rmakers.extract_trivial(),
-        preprocessor=preprocessor,
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
-# TODO
 def make_running_quarter_divisions_function(time_signatures, count):
     tag = baca.tags.function_name(inspect.currentframe())
     assert isinstance(count, int), repr(count)
@@ -2014,68 +1831,7 @@ def make_running_quarter_divisions_function(time_signatures, count):
     return music
 
 
-def make_solid_line_rhythm(time_signatures):
-    rhythm_maker = rmakers.stack(
-        rmakers.note(
-            spelling=rmakers.Spelling(forbidden_note_duration=abjad.Duration(1, 2))
-        ),
-        rmakers.beam(
-            lambda _: baca.select.plts(_),
-        ),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
-# TODO
-def make_solid_line_rhythm_function(time_signatures):
-    tag = baca.tags.function_name(inspect.currentframe())
-    nested_music = rmakers.note_function(
-        time_signatures,
-        spelling=rmakers.Spelling(forbidden_note_duration=abjad.Duration(1, 2)),
-        tag=tag,
-    )
-    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
-    rmakers.beam_function(baca.select.plts(voice), tag=tag)
-    music = abjad.mutate.eject_contents(voice)
-    return music
-
-
-def make_stroke_rhythm(time_signatures, rotation, *, force_rest_tuplets=None):
-    commands = []
-    if force_rest_tuplets is not None:
-        command = rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.tuplets(_), force_rest_tuplets)
-        )
-        commands.append(command)
-    rhythm_maker = rmakers.stack(
-        rmakers.incised(
-            suffix_talea=[1],
-            suffix_counts=[1],
-            talea_denominator=8,
-            spelling=rmakers.Spelling(forbidden_note_duration=abjad.Duration(1, 2)),
-        ),
-        *commands,
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_each_tuplet(_, None, -1),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_each_tuplet(_, None, -1),
-        ),
-        rmakers.beam(),
-        rmakers.rewrite_rest_filled(),
-        rmakers.extract_trivial(),
-        rmakers.split_measures(),
-        preprocessor=lambda _: abjad.sequence.rotate(_, n=rotation),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
-# TODO
-def make_stroke_rhythm_function(time_signatures, rotation, *commands):
+def make_stroke_rhythm_function(time_signatures, rotation, *, force_rest_tuplets=None):
     tag = baca.tags.function_name(inspect.currentframe())
     divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
     divisions = abjad.sequence.rotate(divisions, n=rotation)
@@ -2088,11 +1844,12 @@ def make_stroke_rhythm_function(time_signatures, rotation, *commands):
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
-    # *commands,
-    rmakers.untie(baca.select.leaves_in_each_tuplet(voice, None, -1))
-    rmakers.tie(
-        baca.select.leaves_in_each_tuplet(voice, None, -1),
-    )
+    if force_rest_tuplets is not None:
+        rmakers.force_rest_function(
+            abjad.select.get(baca.select.tuplets(voice), force_rest_tuplets), tag=tag
+        )
+    rmakers.untie_function(baca.select.leaves_in_each_tuplet(voice, None, -1))
+    rmakers.tie_function(baca.select.leaves_in_each_tuplet(voice, None, -1), tag=tag)
     rmakers.beam_function(voice, tag=tag)
     rmakers.rewrite_rest_filled_function(voice, tag=tag)
     rmakers.extract_trivial_function(voice)
@@ -2101,36 +1858,6 @@ def make_stroke_rhythm_function(time_signatures, rotation, *commands):
     return music
 
 
-def make_synchronized_circle_rhythm(
-    time_signatures, *, gaps=True, rests=None, rotation=0, sustain=None
-):
-    counts = [3, -2, 3, -2, 3, -2, 3, -1]
-    rotation *= 2
-    counts = abjad.sequence.rotate(counts, n=rotation)
-    if not gaps:
-        counts = [abs(_) for _ in counts]
-    commands = []
-    commands.append(rmakers.extract_trivial())
-    if rests is None:
-        pass
-    elif isinstance(rests, (list, tuple)):
-        specifier = rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), rests),
-        )
-        commands.append(specifier)
-    else:
-        raise TypeError(rests)
-    rhythm_maker = rmakers.stack(
-        rmakers.talea(counts, 8),
-        *commands,
-        rmakers.beam(),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
-# TODO
 def make_synchronized_circle_rhythm_function(
     time_signatures, *, gaps=True, rests=None, rotation=0, sustain=None
 ):
@@ -2140,50 +1867,18 @@ def make_synchronized_circle_rhythm_function(
     counts = abjad.sequence.rotate(counts, n=rotation)
     if not gaps:
         counts = [abs(_) for _ in counts]
-    commands = []
-    commands.append(rmakers.extract_trivial())
-    if rests is None:
-        pass
-    elif isinstance(rests, (list, tuple)):
-        specifier = rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), rests),
-        )
-        commands.append(specifier)
-    else:
-        raise TypeError(rests)
     nested_music = rmakers.talea_function(time_signatures, counts, 8, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
-    # *commands
+    rmakers.extract_trivial_function(voice)
+    if isinstance(rests, (list, tuple)):
+        rmakers.force_rest_function(
+            abjad.select.get(baca.select.lts(voice), rests), tag=tag
+        )
     rmakers.beam_function(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
 
-def make_talea_eighth_notes(time_signatures, counts, rotation, extra, *, end_counts=()):
-    assert isinstance(extra, int), extra
-    extra_counts = [extra]
-    assert isinstance(rotation, int), rotation
-    counts_ = counts[:]
-    counts_ = abjad.sequence.rotate(counts_, n=rotation)
-    if end_counts is not None:
-        assert all(isinstance(_, int) for _ in end_counts), repr(end_counts)
-    rhythm_maker = rmakers.stack(
-        rmakers.talea(counts_, 8, end_counts=end_counts, extra_counts=extra_counts),
-        rmakers.beam(),
-        rmakers.denominator((1, 8)),
-        rmakers.force_fraction(),
-        rmakers.trivialize(),
-        rmakers.rewrite_dots(),
-        rmakers.rewrite_sustained(),
-        rmakers.extract_trivial(),
-        rmakers.force_repeat_tie(threshold=(1, 4)),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
-# TODO
 def make_talea_eighth_notes_function(
     time_signatures, counts, rotation, extra, *, end_counts=()
 ):
@@ -2216,21 +1911,6 @@ def make_talea_eighth_notes_function(
     return music
 
 
-def make_taper_rhythm(time_signatures, tuplet_ratio=(1, 4, 1)):
-    rhythm_maker = rmakers.stack(
-        rmakers.tuplet([tuplet_ratio]),
-        rmakers.beam(),
-        rmakers.repeat_tie(
-            lambda _: abjad.select.notes(_)[1:],
-        ),
-        rmakers.extract_trivial(),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
-# TODO
 def make_taper_rhythm_function(time_signatures, tuplet_ratio=(1, 4, 1)):
     tag = baca.tags.function_name(inspect.currentframe())
     nested_music = rmakers.tuplet_function(time_signatures, [tuplet_ratio], tag=tag)
@@ -2242,25 +1922,6 @@ def make_taper_rhythm_function(time_signatures, tuplet_ratio=(1, 4, 1)):
     return music
 
 
-def make_to_flight_rhythm(time_signatures, divisions, *, start=(1, 4), stop=(1, 8)):
-    def preprocessor(divisions_):
-        result = baca.sequence.fuse(divisions_)
-        result = baca.sequence.split_divisions(result, divisions, cyclic=True)
-        return result
-
-    rhythm_maker = rmakers.stack(
-        rmakers.accelerando([start, stop, (1, 16)], [(1, 2), (1, 2), (1, 4)]),
-        rmakers.duration_bracket(),
-        rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
-        rmakers.extract_trivial(),
-        preprocessor=preprocessor,
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
-# TODO
 def make_to_flight_rhythm_function(
     time_signatures, divisions, *, start=(1, 4), stop=(1, 8)
 ):

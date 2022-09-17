@@ -111,7 +111,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(15), head=voice.name)
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(16, 17),
         "A",
         0,
@@ -120,7 +120,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(18), head=voice.name)
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(19, 24),
         0,
     )
@@ -178,7 +178,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(15), head=voice.name)
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(16, 17),
         "C",
         -1,
@@ -187,7 +187,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(18), head=voice.name)
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(19, 24),
         0,
     )
@@ -241,7 +241,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(15), head=voice.name)
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(16, 17),
         "B",
         -2,
@@ -250,7 +250,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(18), head=voice.name)
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(19, 24),
         0,
     )
@@ -260,49 +260,49 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_taper_rhythm(
+    music = library.make_taper_rhythm_function(
         accumulator.get(1),
         (1, 1),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2), head=voice.name)
     voice.extend(music)
-    music = library.make_taper_rhythm(
+    music = library.make_taper_rhythm_function(
         accumulator.get(3),
         (1, 1),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 6), head=voice.name)
     voice.extend(music)
-    music = library.make_taper_rhythm(
+    music = library.make_taper_rhythm_function(
         accumulator.get(7),
         (1, 1),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8), head=voice.name)
     voice.extend(music)
-    music = library.make_taper_rhythm(
+    music = library.make_taper_rhythm_function(
         accumulator.get(9),
         (1, 1),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10), head=voice.name)
     voice.extend(music)
-    music = library.make_taper_rhythm(
+    music = library.make_taper_rhythm_function(
         accumulator.get(11),
         (1, 1),
     )
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(accumulator.get(12, 13))
     voice.extend(music)
-    music = library.make_taper_rhythm(
+    music = library.make_taper_rhythm_function(
         accumulator.get(14),
         (1, 1),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(15), head=voice.name)
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(16, 17),
         "B",
         -4,
@@ -311,7 +311,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(18), head=voice.name)
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(19, 24),
         0,
     )

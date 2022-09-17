@@ -17433,7 +17433,7 @@ number.8.Cello.Music = {
     % COMMANDS:
       %! baca.note_head_style_harmonic(1)
     \override NoteHead.style = #'harmonic
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     cs'!8
     % AFTER:
     % ARTICULATIONS:
@@ -17559,7 +17559,7 @@ number.8.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -17595,7 +17595,7 @@ number.8.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     g,8
     % AFTER:
     % ARTICULATIONS:
@@ -17631,7 +17631,7 @@ number.8.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     b8
     % AFTER:
     % ARTICULATIONS:
@@ -17667,7 +17667,7 @@ number.8.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     d8
     % AFTER:
     % ARTICULATIONS:
@@ -17706,7 +17706,7 @@ number.8.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_eighth_notes()
+      %! stirrings_still.make_eighth_notes_function()
     cs'!8
     % AFTER:
     % SPANNER_STOPS:
@@ -20212,11 +20212,11 @@ number.8.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_taper_rhythm()
+      %! stirrings_still.make_taper_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! stirrings_still.make_taper_rhythm()
+      %! stirrings_still.make_taper_rhythm_function()
     \times 5/6
-      %! stirrings_still.make_taper_rhythm()
+      %! stirrings_still.make_taper_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -20227,7 +20227,7 @@ number.8.Cello.Music = {
         % COMMANDS:
           %! baca.tuplet_bracket_down(1)
         \override TupletBracket.direction = #down
-          %! stirrings_still.make_taper_rhythm()
+          %! stirrings_still.make_taper_rhythm_function()
         b,,4.
         % AFTER:
         % ARTICULATIONS:
@@ -20322,7 +20322,7 @@ number.8.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_taper_rhythm()
+          %! stirrings_still.make_taper_rhythm_function()
         b,,4.
         % AFTER:
         % ARTICULATIONS:
@@ -20361,13 +20361,13 @@ number.8.Cello.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \<
-          %! stirrings_still.make_taper_rhythm()
+          %! stirrings_still.make_taper_rhythm_function()
         \repeatTie
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_taper_rhythm()
+      %! stirrings_still.make_taper_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -20544,7 +20544,7 @@ number.8.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 55]
-      %! stirrings_still.make_taper_rhythm()
+      %! stirrings_still.make_taper_rhythm_function()
     b,,4.
     % AFTER:
     % ARTICULATIONS:
@@ -20655,7 +20655,7 @@ number.8.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_taper_rhythm()
+      %! stirrings_still.make_taper_rhythm_function()
     b,,4.
     % AFTER:
     % ARTICULATIONS:
@@ -20690,7 +20690,7 @@ number.8.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
-      %! stirrings_still.make_taper_rhythm()
+      %! stirrings_still.make_taper_rhythm_function()
     \repeatTie
     % COMMANDS:
       %! baca.dls_staff_padding(2)

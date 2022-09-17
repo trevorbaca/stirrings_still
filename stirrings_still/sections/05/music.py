@@ -118,14 +118,14 @@ def V1(voice, accumulator):
         force_rest_tuplets=[0],
     )
     voice.extend(music)
-    music = library.make_grid_to_trajectory_rhythm(
+    music = library.make_grid_to_trajectory_rhythm_function(
         accumulator.get(6, 23),
         0,
         0,
         2,
     )
     voice.extend(music)
-    music = library.make_measure_initiation_rhythm(accumulator.get(24, 33))
+    music = library.make_measure_initiation_rhythm_function(accumulator.get(24, 33))
     voice.extend(music)
     music = library.make_declamation_rhythm_function(accumulator.get(34))
     voice.extend(music)
@@ -153,7 +153,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(62), head=voice.name)
     voice.extend(music)
-    music = library.make_running_quarter_divisions(
+    music = library.make_running_quarter_divisions_function(
         accumulator.get(63, 78),
         4,
     )
@@ -162,7 +162,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(81), head=voice.name)
     voice.extend(music)
-    music = library.make_talea_eighth_notes(
+    music = library.make_talea_eighth_notes_function(
         accumulator.get(82, 85),
         [3, 6, 8],
         0,
@@ -172,7 +172,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(86))
     voice.extend(music)
-    music = library.make_talea_eighth_notes(
+    music = library.make_talea_eighth_notes_function(
         accumulator.get(87, 88),
         [3, 6, 8],
         0,
@@ -192,7 +192,7 @@ def V1(voice, accumulator):
         -3,
     )
     voice.extend(music)
-    music = library.make_talea_eighth_notes(
+    music = library.make_talea_eighth_notes_function(
         accumulator.get(109, 110),
         [3, 6, 8],
         0,
@@ -201,7 +201,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(111), head=voice.name)
     voice.extend(music)
-    music = library.make_talea_eighth_notes(
+    music = library.make_talea_eighth_notes_function(
         accumulator.get(112, 119),
         [3, 6, 8],
         0,
@@ -224,21 +224,21 @@ def V2(voice, accumulator):
         force_rest_tuplets=[0],
     )
     voice.extend(music)
-    music = library.make_grid_to_trajectory_rhythm(
+    music = library.make_grid_to_trajectory_rhythm_function(
         accumulator.get(6, 17),
         0,
         -2,
         1,
     )
     voice.extend(music)
-    music = library.make_grid_to_trajectory_rhythm(
+    music = library.make_grid_to_trajectory_rhythm_function(
         accumulator.get(18, 23),
         0,
         -2,
         0,
     )
     voice.extend(music)
-    music = library.make_measure_initiation_rhythm(accumulator.get(24, 33))
+    music = library.make_measure_initiation_rhythm_function(accumulator.get(24, 33))
     voice.extend(music)
     music = library.make_declamation_rhythm_function(accumulator.get(34))
     voice.extend(music)
@@ -266,7 +266,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(62), head=voice.name)
     voice.extend(music)
-    music = library.make_running_quarter_divisions(
+    music = library.make_running_quarter_divisions_function(
         accumulator.get(63, 77),
         3,
     )
@@ -275,7 +275,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(81), head=voice.name)
     voice.extend(music)
-    music = library.make_talea_eighth_notes(
+    music = library.make_talea_eighth_notes_function(
         accumulator.get(82, 85),
         [3, 6, 8],
         -1,
@@ -285,7 +285,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(86))
     voice.extend(music)
-    music = library.make_talea_eighth_notes(
+    music = library.make_talea_eighth_notes_function(
         accumulator.get(87, 88),
         [3, 6, 8],
         -1,
@@ -305,7 +305,7 @@ def V2(voice, accumulator):
         -2,
     )
     voice.extend(music)
-    music = library.make_talea_eighth_notes(
+    music = library.make_talea_eighth_notes_function(
         accumulator.get(109, 110),
         [3, 6, 8],
         -1,
@@ -314,7 +314,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(111), head=voice.name)
     voice.extend(music)
-    music = library.make_talea_eighth_notes(
+    music = library.make_talea_eighth_notes_function(
         accumulator.get(112, 119),
         [3, 6, 8],
         -1,
@@ -337,18 +337,18 @@ def VA(voice, accumulator):
         force_rest_tuplets=[0],
     )
     voice.extend(music)
-    music = library.make_grid_to_trajectory_rhythm(
+    music = library.make_grid_to_trajectory_rhythm_function(
         accumulator.get(6, 23),
         0,
         -4,
         0,
     )
     voice.extend(music)
-    music = library.make_measure_initiation_rhythm(accumulator.get(24, 33))
+    music = library.make_measure_initiation_rhythm_function(accumulator.get(24, 33))
     voice.extend(music)
     music = library.make_declamation_rhythm_function(accumulator.get(34))
     voice.extend(music)
-    music = library.make_measure_initiation_rhythm(accumulator.get(35, 40))
+    music = library.make_measure_initiation_rhythm_function(accumulator.get(35, 40))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(41), head=voice.name)
     voice.extend(music)
@@ -367,7 +367,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(62), head=voice.name)
     voice.extend(music)
-    music = library.make_running_quarter_divisions(
+    music = library.make_running_quarter_divisions_function(
         accumulator.get(63, 76),
         2,
     )
@@ -376,7 +376,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(81), head=voice.name)
     voice.extend(music)
-    music = library.make_talea_eighth_notes(
+    music = library.make_talea_eighth_notes_function(
         accumulator.get(82, 85),
         [3, 6, 8],
         -2,
@@ -386,7 +386,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(86))
     voice.extend(music)
-    music = library.make_talea_eighth_notes(
+    music = library.make_talea_eighth_notes_function(
         accumulator.get(87, 88),
         [3, 6, 8],
         -2,
@@ -406,7 +406,7 @@ def VA(voice, accumulator):
         -1,
     )
     voice.extend(music)
-    music = library.make_talea_eighth_notes(
+    music = library.make_talea_eighth_notes_function(
         accumulator.get(109, 110),
         [3, 6, 8],
         -2,
@@ -415,7 +415,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(111), head=voice.name)
     voice.extend(music)
-    music = library.make_talea_eighth_notes(
+    music = library.make_talea_eighth_notes_function(
         accumulator.get(112, 119),
         [3, 6, 8],
         -2,

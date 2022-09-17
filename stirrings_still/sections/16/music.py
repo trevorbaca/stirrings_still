@@ -105,7 +105,7 @@ def make_vc_waves(time_signatures):
 
 
 def make_eighth_notes(time_signatures):
-    return library.make_eighth_notes(time_signatures)
+    return library.make_eighth_notes_function(time_signatures)
 
 
 def V1(voice, accumulator):
@@ -139,7 +139,7 @@ def V1(voice, accumulator):
     )
     music = rhythm_maker(accumulator.get(15, 20))
     voice.extend(music)
-    music = library.make_eighth_notes(accumulator.get(21, 25))
+    music = library.make_eighth_notes_function(accumulator.get(21, 25))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(26), head=voice.name)
     voice.extend(music)
@@ -180,7 +180,7 @@ def V2(voice, accumulator):
     )
     music = rhythm_maker(accumulator.get(15, 20))
     voice.extend(music)
-    music = library.make_eighth_notes(accumulator.get(21, 25))
+    music = library.make_eighth_notes_function(accumulator.get(21, 25))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(26), head=voice.name)
     voice.extend(music)
@@ -217,7 +217,7 @@ def VA(voice, accumulator):
     )
     music = rhythm_maker(accumulator.get(15, 20))
     voice.extend(music)
-    music = library.make_eighth_notes(accumulator.get(21, 25))
+    music = library.make_eighth_notes_function(accumulator.get(21, 25))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(26), head=voice.name)
     voice.extend(music)
@@ -258,7 +258,7 @@ def VC(voice, accumulator):
     )
     music = rhythm_maker(accumulator.get(15, 20))
     voice.extend(music)
-    music = library.make_eighth_notes(accumulator.get(21, 25))
+    music = library.make_eighth_notes_function(accumulator.get(21, 25))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(26), head=voice.name)
     voice.extend(music)

@@ -108,37 +108,37 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(1, 6),
         0,
         force_rest_tuplets=([0], 2),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(7, 12),
         0,
         force_rest_tuplets=([0], 2),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(13, 18),
         0,
         force_rest_tuplets=([0], 2),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(19, 24),
         0,
         force_rest_tuplets=([0], 2),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(25, 30),
         0,
         force_rest_tuplets=([0], 2),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(31, 36),
         0,
         force_rest_tuplets=([0], 2),
@@ -146,7 +146,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(37, 39), head=voice.name)
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(40, 45),
         0,
     )
@@ -167,7 +167,7 @@ def V1(voice, accumulator):
         (1, 16),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(58, 63),
         0,
     )
@@ -183,7 +183,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = library.make_urtext_field_rhythm(accumulator.get(67))
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(68, 83),
         "A",
         0,
@@ -208,37 +208,37 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(1, 6),
         -1,
         force_rest_tuplets=([1], 2),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(7, 12),
         -1,
         force_rest_tuplets=([1], 2),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(13, 18),
         -1,
         force_rest_tuplets=([1], 2),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(19, 24),
         0,
         force_rest_tuplets=([2], 3),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(25, 30),
         0,
         force_rest_tuplets=([2], 3),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(31, 36),
         0,
         force_rest_tuplets=([2], 3),
@@ -246,7 +246,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(37, 39), head=voice.name)
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(40, 45),
         0,
     )
@@ -267,7 +267,7 @@ def V2(voice, accumulator):
         (2, 16),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(58, 63),
         0,
     )
@@ -283,7 +283,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = library.make_urtext_field_rhythm(accumulator.get(67))
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(68, 83),
         "C",
         -1,
@@ -308,37 +308,37 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(1, 6),
         -2,
         force_rest_tuplets=([0, 1], 3),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(7, 12),
         -2,
         force_rest_tuplets=([0], 3),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(13, 18),
         -2,
         force_rest_tuplets=([0], 3),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(19, 24),
         -2,
         force_rest_tuplets=([0], 3),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(25, 30),
         -2,
         force_rest_tuplets=([0], 2),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(31, 36),
         0,
         force_rest_tuplets=([1], 2),
@@ -346,7 +346,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(37, 39), head=voice.name)
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(40, 45),
         0,
     )
@@ -369,7 +369,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(57))
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(58, 63),
         0,
     )
@@ -387,7 +387,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = library.make_urtext_field_rhythm(accumulator.get(67))
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(68, 83),
         "B",
         -2,
@@ -414,37 +414,37 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(1, 6),
         3,
         force_rest_tuplets=([1, 2], 3),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(7, 12),
         -3,
         force_rest_tuplets=([1, 2], 3),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(13, 18),
         -3,
         force_rest_tuplets=([1], 3),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(19, 24),
         -3,
         force_rest_tuplets=([1], 3),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(25, 30),
         -2,
         force_rest_tuplets=([2], 3),
     )
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(31, 36),
         0,
         force_rest_tuplets=([0], 3),
@@ -456,7 +456,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(39), head=voice.name)
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(40, 45),
         0,
     )
@@ -477,7 +477,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_skeleton("c2. ~ c4")
     voice.extend(music)
-    music = library.make_stroke_rhythm(
+    music = library.make_stroke_rhythm_function(
         accumulator.get(58, 63),
         0,
     )

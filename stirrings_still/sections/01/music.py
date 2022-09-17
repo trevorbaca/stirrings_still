@@ -466,7 +466,7 @@ def VC(voice, accumulator):
         do_not_rewrite_meter=True,
     )
     voice.extend(music)
-    music = library.make_taper_rhythm(
+    music = library.make_taper_rhythm_function(
         accumulator.get(27),
         (1, 1),
     )

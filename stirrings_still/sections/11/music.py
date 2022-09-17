@@ -121,7 +121,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(17))
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(18, 20),
         "A",
         0,
@@ -142,21 +142,21 @@ def V1(voice, accumulator):
         2,
     )
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(24, 31),
         "A",
         0,
         start=0,
     )
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(32, 37),
         "A",
         0,
         start=0,
     )
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(38, 45),
         "A",
         0,
@@ -227,7 +227,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(17))
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(18, 20),
         "A",
         0,
@@ -248,21 +248,21 @@ def V2(voice, accumulator):
         1,
     )
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(24, 31),
         "A",
         0,
         start=2,
     )
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(32, 37),
         "A",
         0,
         start=2,
     )
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(38, 45),
         "A",
         0,
@@ -313,7 +313,7 @@ def VA(voice, accumulator):
         -3,
     )
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(18, 20),
         "A",
         -1,
@@ -334,28 +334,28 @@ def VA(voice, accumulator):
         0,
     )
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(24, 31),
         "A",
         -1,
         start=4,
     )
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(32, 37),
         "A",
         -1,
         start=4,
     )
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(38, 42),
         "A",
         -1,
         start=4,
     )
     voice.extend(music)
-    music = library.make_to_flight_rhythm(
+    music = library.make_to_flight_rhythm_function(
         accumulator.get(43, 45),
         [(8, 8), (3, 16)],
     )
@@ -415,7 +415,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(15, 17))
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(18, 20),
         "A",
         -2,
@@ -424,14 +424,14 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = library.make_cello_cell_rhythm_function(accumulator.get(21, 23))
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(24, 31),
         "A",
         -2,
         start=6,
     )
     voice.extend(music)
-    music = library.make_flight_rhythm(
+    music = library.make_flight_rhythm_function(
         accumulator.get(32, 37),
         "A",
         -2,

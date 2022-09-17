@@ -80,7 +80,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_eighth_notes(accumulator.get(1, 6))
+    music = library.make_eighth_notes_function(accumulator.get(1, 6))
     voice.extend(music)
     music = library.make_cello_cell_rhythm_function(accumulator.get(7, 11))
     voice.extend(music)
