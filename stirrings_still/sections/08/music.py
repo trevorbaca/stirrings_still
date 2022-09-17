@@ -81,7 +81,7 @@ def GLOBALS(skips, rests, first_measure_number):
 def V1(voice, accumulator):
     music = baca.make_repeat_tied_notes_function(accumulator.get(1, 5))
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(6),
         (1, 8),
     )
@@ -157,7 +157,7 @@ def V1(voice, accumulator):
         0,
     )
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(56),
         (1, 8),
     )
@@ -203,7 +203,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(32), head=voice.name)
     voice.extend(music)
-    music = library.make_clocktick_rhythm(accumulator.get(33))
+    music = library.make_clocktick_rhythm_function(accumulator.get(33))
     voice.extend(music)
     music = baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
@@ -240,7 +240,7 @@ def V2(voice, accumulator):
         1,
     )
     voice.extend(music)
-    music = library.make_clocktick_rhythm(accumulator.get(53))
+    music = library.make_clocktick_rhythm_function(accumulator.get(53))
     voice.extend(music)
     music = baca.make_skeleton(
         r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
@@ -251,7 +251,7 @@ def V2(voice, accumulator):
         1,
     )
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(56),
         (1, 4),
     )
@@ -262,7 +262,7 @@ def V2(voice, accumulator):
 def VA(voice, accumulator):
     music = baca.make_repeat_tied_notes_function(accumulator.get(1, 5))
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(6),
         (1, 2),
         force_rest_lts=[0],

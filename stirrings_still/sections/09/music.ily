@@ -857,7 +857,7 @@ number.9.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % AFTER:
     % MARKUP:
@@ -951,118 +951,118 @@ number.9.Violin.1.Music = {
       %! abjad.glissando(3)
       %! baca.glissando()
     \override NoteColumn.glissando-skip = ##t
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 2]
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 3]
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 4]
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % AFTER:
     % ARTICULATIONS:
@@ -1110,178 +1110,178 @@ number.9.Violin.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 5]
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 6]
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 7]
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1300,7 +1300,7 @@ number.9.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     aqs'!8
     % AFTER:
     % STOP_BEAM:
@@ -1812,7 +1812,7 @@ number.9.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % AFTER:
     % MARKUP:
@@ -1901,63 +1901,63 @@ number.9.Violin.2.Music = {
       %! abjad.glissando(3)
       %! baca.glissando()
     \override NoteColumn.glissando-skip = ##t
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 2]
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 3]
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 4]
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % AFTER:
     % ARTICULATIONS:
@@ -2005,88 +2005,88 @@ number.9.Violin.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 5]
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 6]
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 7]
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2105,7 +2105,7 @@ number.9.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     ef'!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2587,7 +2587,7 @@ number.9.Viola.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     r4
     % AFTER:
     % ARTICULATIONS:
@@ -2622,7 +2622,7 @@ number.9.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     bqf!2
     % AFTER:
     % ARTICULATIONS:
@@ -2732,31 +2732,31 @@ number.9.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     bqf!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     bqf!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 3]
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     bqf!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     bqf!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 4]
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     bqf!2
     % AFTER:
     % ARTICULATIONS:
@@ -2808,39 +2808,39 @@ number.9.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     bqf!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     bqf!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     bqf!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     bqf!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     bqf!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 7]
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     bqf!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     bqf!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2859,7 +2859,7 @@ number.9.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     bqf!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:

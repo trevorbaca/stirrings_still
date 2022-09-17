@@ -107,7 +107,7 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = library.make_continuous_tremolo_material(accumulator.get(1, 2))
+    music = library.make_continuous_tremolo_material_function(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3), head=voice.name)
     voice.extend(music)
@@ -213,7 +213,7 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_continuous_tremolo_material(accumulator.get(1, 2))
+    music = library.make_continuous_tremolo_material_function(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3), head=voice.name)
     voice.extend(music)
@@ -326,7 +326,7 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_continuous_tremolo_material(accumulator.get(1, 2))
+    music = library.make_continuous_tremolo_material_function(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3), head=voice.name)
     voice.extend(music)

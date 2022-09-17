@@ -7669,12 +7669,12 @@ number.5.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     etqf'!2
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     :32
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -7840,12 +7840,12 @@ number.5.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     etqf'!8
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7866,12 +7866,12 @@ number.5.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     etqf'!2
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -22573,12 +22573,12 @@ number.5.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     bqf!2
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     :32
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -22744,12 +22744,12 @@ number.5.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     bqf!8
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -22770,12 +22770,12 @@ number.5.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     bqf!2
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -35288,12 +35288,12 @@ number.5.Viola.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     a2
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     :32
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -35459,12 +35459,12 @@ number.5.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     a8
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -35485,12 +35485,12 @@ number.5.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     a2
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
-      %! stirrings_still.make_continuous_tremolo_material()
+      %! stirrings_still.make_continuous_tremolo_material_function()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:

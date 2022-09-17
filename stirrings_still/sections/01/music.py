@@ -225,7 +225,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(61), head=voice.name)
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(62),
         (1, 4),
     )
@@ -337,7 +337,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(61), head=voice.name)
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(62),
         (1, 4),
     )
@@ -449,7 +449,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(61), head=voice.name)
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(62),
         (1, 4),
     )
@@ -526,7 +526,7 @@ def VC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(59, 61), head=voice.name)
     voice.extend(music)
-    music = library.make_circle_rhythm(
+    music = library.make_circle_rhythm_function(
         accumulator.get(62),
         (1, 4),
     )

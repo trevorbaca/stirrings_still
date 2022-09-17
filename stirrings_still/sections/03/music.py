@@ -252,7 +252,7 @@ def V2(voice, accumulator):
         [0],
     )
     voice.extend(music)
-    music = library.make_clocktick_rhythm(accumulator.get(28))
+    music = library.make_clocktick_rhythm_function(accumulator.get(28))
     voice.extend(music)
     music = baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",

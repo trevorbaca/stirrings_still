@@ -68,7 +68,7 @@ def V1(voice, accumulator):
 def V2(voice, accumulator):
     music = library.make_urtext_field_rhythm(accumulator.get(1, 2))
     voice.extend(music)
-    music = library.make_clocktick_rhythm(accumulator.get(3))
+    music = library.make_clocktick_rhythm_function(accumulator.get(3))
     voice.extend(music)
     music = baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",

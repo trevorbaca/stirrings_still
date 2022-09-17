@@ -11575,7 +11575,7 @@ number.1.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     c''4
     % AFTER:
     % ARTICULATIONS:
@@ -11720,7 +11720,7 @@ number.1.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     c''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11739,7 +11739,7 @@ number.1.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     c''4
     % AFTER:
     % COMMANDS:
@@ -18767,7 +18767,7 @@ number.1.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -18912,7 +18912,7 @@ number.1.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -18931,7 +18931,7 @@ number.1.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     c'4
     % AFTER:
     % COMMANDS:
@@ -26404,7 +26404,7 @@ number.1.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     af!4
     % AFTER:
     % ARTICULATIONS:
@@ -26549,7 +26549,7 @@ number.1.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     af!4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -26568,7 +26568,7 @@ number.1.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     af!4
     % AFTER:
     % COMMANDS:
@@ -30998,7 +30998,7 @@ number.1.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     g4
     % AFTER:
     % ARTICULATIONS:
@@ -31143,7 +31143,7 @@ number.1.Cello.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     g4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -31162,7 +31162,7 @@ number.1.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! stirrings_still.make_circle_rhythm()
+      %! stirrings_still.make_circle_rhythm_function()
     g4
     % AFTER:
     % COMMANDS:
