@@ -1148,12 +1148,14 @@ def make_score():
 
 
 def main():
+    arguments = baca.build.arguments()
     score, accumulator = make_score()
     defaults = baca.interpret.section_defaults()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
         accumulator.time_signatures,
+        baca.path.dictionaries(__file__),
         **defaults,
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
@@ -1169,7 +1171,7 @@ def main():
         include_layout_ly=True,
         includes=["../stylesheet.ily", "stylesheet.ily", "header.ily"],
     )
-    baca.build.persist(lilypond_file, metadata, persist, timing)
+    baca.build.persist(lilypond_file, metadata, persist, timing, arguments)
 
 
 if __name__ == "__main__":
