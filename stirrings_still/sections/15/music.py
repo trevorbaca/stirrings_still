@@ -39,12 +39,12 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = library.make_circle_rhythm_function(
+    music = library.make_circle_rhythm(
         accumulator.get(1, 6),
         (1, 4),
     )
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(7),
         4,
         2,
@@ -55,12 +55,12 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_circle_rhythm_function(
+    music = library.make_circle_rhythm(
         accumulator.get(1, 6),
         (1, 4),
     )
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(7),
         4,
         1,
@@ -71,12 +71,12 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_circle_rhythm_function(
+    music = library.make_circle_rhythm(
         accumulator.get(1, 6),
         (1, 4),
     )
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(7),
         4,
         0,
@@ -87,12 +87,12 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_circle_rhythm_function(
+    music = library.make_circle_rhythm(
         accumulator.get(1, 6),
         (1, 4),
     )
     voice.extend(music)
-    music = library.make_trajectory_rhythm_function(
+    music = library.make_trajectory_rhythm(
         accumulator.get(7),
         "A",
         -1,

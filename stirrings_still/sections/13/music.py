@@ -39,40 +39,40 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(
+    music = baca.make_repeat_tied_notes(
         accumulator.get(1, 7), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(8, 12),
         4,
         2,
         force_note_and_tie=True,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(
+    music = baca.make_repeat_tied_notes(
         accumulator.get(13, 16), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(17, 20),
         4,
         2,
         force_note_and_tie=True,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(
+    music = baca.make_repeat_tied_notes(
         accumulator.get(21, 24), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(25, 28),
         4,
         2,
         force_note_and_tie=True,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(
+    music = baca.make_repeat_tied_notes(
         accumulator.get(29, 32), do_not_rewrite_meter=True
     )
     voice.extend(music)
@@ -80,40 +80,40 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(
+    music = baca.make_repeat_tied_notes(
         accumulator.get(1, 7), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(8, 12),
         4,
         1,
         force_note_and_tie=True,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(
+    music = baca.make_repeat_tied_notes(
         accumulator.get(13, 16), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(17, 20),
         4,
         1,
         force_note_and_tie=True,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(
+    music = baca.make_repeat_tied_notes(
         accumulator.get(21, 24), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(25, 28),
         4,
         1,
         force_note_and_tie=True,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(
+    music = baca.make_repeat_tied_notes(
         accumulator.get(29, 32), do_not_rewrite_meter=True
     )
     voice.extend(music)
@@ -121,40 +121,40 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(
+    music = baca.make_repeat_tied_notes(
         accumulator.get(1, 7), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(8, 12),
         4,
         0,
         force_note_and_tie=True,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(
+    music = baca.make_repeat_tied_notes(
         accumulator.get(13, 16), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(17, 20),
         4,
         0,
         force_note_and_tie=True,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(
+    music = baca.make_repeat_tied_notes(
         accumulator.get(21, 24), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(25, 28),
         4,
         0,
         force_note_and_tie=True,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(
+    music = baca.make_repeat_tied_notes(
         accumulator.get(29, 32), do_not_rewrite_meter=True
     )
     voice.extend(music)
@@ -162,9 +162,9 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_clouded_pane_rhythm_function(accumulator.get(1, 28))
+    music = library.make_clouded_pane_rhythm(accumulator.get(1, 28))
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm_function(accumulator.get(29, 32))
+    music = library.make_clouded_pane_rhythm(accumulator.get(29, 32))
     voice.extend(music)
     baca.append_anchor_note(voice)
 

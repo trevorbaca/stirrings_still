@@ -29,7 +29,7 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = library.make_trajectory_rhythm_function(
+    music = library.make_trajectory_rhythm(
         accumulator.get(),
         "C",
         0,
@@ -41,7 +41,7 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_trajectory_rhythm_function(
+    music = library.make_trajectory_rhythm(
         accumulator.get(),
         "C",
         -1,
@@ -53,7 +53,7 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_trajectory_rhythm_function(
+    music = library.make_trajectory_rhythm(
         accumulator.get(),
         "C",
         -2,
@@ -65,7 +65,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_clouded_pane_rhythm_function(accumulator.get())
+    music = library.make_clouded_pane_rhythm(accumulator.get())
     voice.extend(music)
 
 

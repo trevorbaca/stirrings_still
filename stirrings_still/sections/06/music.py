@@ -40,11 +40,11 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = library.make_clouded_pane_rhythm_function(accumulator.get(1, 8))
+    music = library.make_clouded_pane_rhythm(accumulator.get(1, 8))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 11), head=voice.name)
     voice.extend(music)
-    music = library.make_desynchronization_rhythm_function(
+    music = library.make_desynchronization_rhythm(
         accumulator.get(12, 13),
         4,
         [1],
@@ -55,11 +55,11 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_clouded_pane_rhythm_function(accumulator.get(1, 8))
+    music = library.make_clouded_pane_rhythm(accumulator.get(1, 8))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 11), head=voice.name)
     voice.extend(music)
-    music = library.make_desynchronization_rhythm_function(
+    music = library.make_desynchronization_rhythm(
         accumulator.get(12, 13),
         4,
         [0],
@@ -70,13 +70,13 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(
+    music = baca.make_repeat_tied_notes(
         accumulator.get(1, 10), do_not_rewrite_meter=True
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(11), head=voice.name)
     voice.extend(music)
-    music = library.make_desynchronization_rhythm_function(
+    music = library.make_desynchronization_rhythm(
         accumulator.get(12, 13),
         4,
         [2],
@@ -87,11 +87,11 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_clouded_pane_rhythm_function(accumulator.get(1, 8))
+    music = library.make_clouded_pane_rhythm(accumulator.get(1, 8))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 11), head=voice.name)
     voice.extend(music)
-    music = library.make_desynchronization_rhythm_function(
+    music = library.make_desynchronization_rhythm(
         accumulator.get(12, 13),
         4,
         [-1],

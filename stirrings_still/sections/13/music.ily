@@ -1865,7 +1865,7 @@ number.13.Violin.1.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''2
     % AFTER:
     % MARKUP:
@@ -1993,49 +1993,49 @@ number.13.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 3]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 4]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 5]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 6]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 7]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2062,15 +2062,15 @@ number.13.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     d'''1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2268,15 +2268,15 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2310,15 +2310,15 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2362,14 +2362,14 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 13]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''1
     % AFTER:
     % MARKUP:
@@ -2493,21 +2493,21 @@ number.13.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 15]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 16]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2534,15 +2534,15 @@ number.13.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     d'''4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2738,15 +2738,15 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2778,15 +2778,15 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2832,14 +2832,14 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 21]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''2..
     % AFTER:
     % MARKUP:
@@ -2963,26 +2963,26 @@ number.13.Violin.1.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 23]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 24]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3009,15 +3009,15 @@ number.13.Violin.1.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     d'''2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3217,15 +3217,15 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 2/3
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3269,14 +3269,14 @@ number.13.Violin.1.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 29]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''2
     % AFTER:
     % ARTICULATIONS:
@@ -3415,21 +3415,21 @@ number.13.Violin.1.Music = {
       %! abjad.glissando(0)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     d'''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 30]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c'''2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.1.Music measure 31]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c'''2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3468,7 +3468,7 @@ number.13.Violin.1.Music = {
       %! abjad.glissando(4)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c'''2
     % AFTER:
     % ARTICULATIONS:
@@ -3681,7 +3681,7 @@ number.13.Violin.2.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!2
     % AFTER:
     % MARKUP:
@@ -3809,49 +3809,49 @@ number.13.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 3]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 4]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 5]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 6]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 7]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3878,15 +3878,15 @@ number.13.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     fqs''!1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4080,15 +4080,15 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4116,15 +4116,15 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4164,14 +4164,14 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 13]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!1
     % AFTER:
     % MARKUP:
@@ -4295,21 +4295,21 @@ number.13.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 15]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 16]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4336,15 +4336,15 @@ number.13.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     fqs''!4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4536,15 +4536,15 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4572,15 +4572,15 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4622,14 +4622,14 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 21]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!2..
     % AFTER:
     % MARKUP:
@@ -4753,26 +4753,26 @@ number.13.Violin.2.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 23]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 24]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4799,15 +4799,15 @@ number.13.Violin.2.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     fqs''!2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5001,15 +5001,15 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     \times 4/5
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5049,14 +5049,14 @@ number.13.Violin.2.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 29]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     fqs''!2
     % AFTER:
     % ARTICULATIONS:
@@ -5195,21 +5195,21 @@ number.13.Violin.2.Music = {
       %! abjad.glissando(0)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     f''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 30]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     f''2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.2.Music measure 31]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     e''2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5248,7 +5248,7 @@ number.13.Violin.2.Music = {
       %! abjad.glissando(4)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     eqf''!2
     % AFTER:
     % ARTICULATIONS:
@@ -5452,7 +5452,7 @@ number.13.Viola.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!2
     % AFTER:
     % MARKUP:
@@ -5578,49 +5578,49 @@ number.13.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 3]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 4]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 5]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 6]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 7]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5647,7 +5647,7 @@ number.13.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     aqf'!1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5890,7 +5890,7 @@ number.13.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 13]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!1
     % AFTER:
     % MARKUP:
@@ -6014,21 +6014,21 @@ number.13.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 15]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 16]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6055,7 +6055,7 @@ number.13.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     aqf'!4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6294,7 +6294,7 @@ number.13.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 21]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!2..
     % AFTER:
     % MARKUP:
@@ -6418,26 +6418,26 @@ number.13.Viola.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 23]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 24]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6464,7 +6464,7 @@ number.13.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! stirrings_still.make_picket_rhythm_function()
+      %! stirrings_still.make_picket_rhythm()
     aqf'!2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6689,7 +6689,7 @@ number.13.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 29]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     aqf'!2
     % AFTER:
     % ARTICULATIONS:
@@ -6828,21 +6828,21 @@ number.13.Viola.Music = {
       %! abjad.glissando(0)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 30]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     g'2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 31]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     g'2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6881,7 +6881,7 @@ number.13.Viola.Music = {
       %! abjad.glissando(4)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     gqf'!2
     % AFTER:
     % ARTICULATIONS:
@@ -7090,7 +7090,7 @@ number.13.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2
     % AFTER:
     % ARTICULATIONS:
@@ -7201,49 +7201,49 @@ number.13.Cello.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 3]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 4]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 5]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 6]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 7]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2..
     % AFTER:
     % ARTICULATIONS:
@@ -7281,14 +7281,14 @@ number.13.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 8]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 9]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,1
     % AFTER:
     % ARTICULATIONS:
@@ -7326,28 +7326,28 @@ number.13.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 10]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 11]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 12]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 13]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,1
     % AFTER:
     % ARTICULATIONS:
@@ -7391,14 +7391,14 @@ number.13.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 14]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 15]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2..
     % AFTER:
     % ARTICULATIONS:
@@ -7436,14 +7436,14 @@ number.13.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 16]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 17]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2.
     % AFTER:
     % ARTICULATIONS:
@@ -7481,33 +7481,33 @@ number.13.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 18]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 19]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 20]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 21]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2..
     % AFTER:
     % ARTICULATIONS:
@@ -7551,14 +7551,14 @@ number.13.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 22]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 23]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2
     % AFTER:
     % ARTICULATIONS:
@@ -7594,28 +7594,28 @@ number.13.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 24]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 25]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 26]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2
     % AFTER:
     % ARTICULATIONS:
@@ -7653,14 +7653,14 @@ number.13.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 27]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 28]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7691,7 +7691,7 @@ number.13.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2
     % AFTER:
     % ARTICULATIONS:
@@ -7748,21 +7748,21 @@ number.13.Cello.Music = {
       %! abjad.glissando(0)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 30]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 31]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b,,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7801,7 +7801,7 @@ number.13.Cello.Music = {
       %! abjad.glissando(4)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     bf,,!2
     % AFTER:
     % COMMANDS:
