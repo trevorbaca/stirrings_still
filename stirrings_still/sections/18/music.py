@@ -39,7 +39,7 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = library.make_trajectory_rhythm_function(
+    music = library.make_trajectory_rhythm(
         accumulator.get(1, 8),
         "C",
         0,
@@ -51,19 +51,19 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = library.make_trajectory_rhythm_function(accumulator.get(1, 8), "C", -1, -2)
+    music = library.make_trajectory_rhythm(accumulator.get(1, 8), "C", -1, -2)
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 17), head=voice.name)
     voice.extend(music)
 
 
 def VA(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get())
+    music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
 
 def VC(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 12))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 12))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(13, 17), head=voice.name)
     voice.extend(music)

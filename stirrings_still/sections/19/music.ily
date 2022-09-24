@@ -1299,9 +1299,9 @@ number.19.Violin.1.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1361,14 +1361,14 @@ number.19.Violin.1.Music = {
           %! REAPPLIED_CLEF_COLOR_CANCELLATION
           %! baca._attach_color_literal(1)
         %@% \override Staff.Clef.color = ##f
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! REAPPLIED_CLEF
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 235/64
         % AFTER:
         % ARTICULATIONS:
@@ -1396,7 +1396,7 @@ number.19.Violin.1.Music = {
           %! baca.markup()
         _ \baca-string-iv-markup
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -1487,7 +1487,7 @@ number.19.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 213/64
         % AFTER:
         % MARKUP:
@@ -1497,7 +1497,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 167/64
         % AFTER:
         % MARKUP:
@@ -1507,7 +1507,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 127/64
         % AFTER:
         % MARKUP:
@@ -1517,7 +1517,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 103/64
         % AFTER:
         % MARKUP:
@@ -1527,7 +1527,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 23/16
         % AFTER:
         % MARKUP:
@@ -1555,9 +1555,9 @@ number.19.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 87/64
         % AFTER:
         % ARTICULATIONS:
@@ -1580,13 +1580,13 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"87" #"64"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -1725,9 +1725,9 @@ number.19.Violin.1.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1739,9 +1739,9 @@ number.19.Violin.1.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 119/32
         % AFTER:
         % ARTICULATIONS:
@@ -1764,7 +1764,7 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"119" #"32"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -1841,7 +1841,7 @@ number.19.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 201/64
         % AFTER:
         % MARKUP:
@@ -1851,7 +1851,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 137/64
         % AFTER:
         % MARKUP:
@@ -1861,7 +1861,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 51/32
         % AFTER:
         % MARKUP:
@@ -1873,9 +1873,9 @@ number.19.Violin.1.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 45/32
         % AFTER:
         % MARKUP:
@@ -1883,13 +1883,13 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"45" #"32"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -1936,9 +1936,9 @@ number.19.Violin.1.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1950,9 +1950,9 @@ number.19.Violin.1.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 77/64
         % AFTER:
         % ARTICULATIONS:
@@ -1975,7 +1975,7 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"77" #"64"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1995,7 +1995,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 5/4
         % AFTER:
         % MARKUP:
@@ -2005,7 +2005,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 11/8
         % AFTER:
         % MARKUP:
@@ -2015,7 +2015,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 103/64
         % AFTER:
         % MARKUP:
@@ -2025,7 +2025,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 63/32
         % AFTER:
         % MARKUP:
@@ -2035,7 +2035,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 39/16
         % AFTER:
         % MARKUP:
@@ -2045,7 +2045,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 189/64
         % AFTER:
         % MARKUP:
@@ -2073,9 +2073,9 @@ number.19.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 205/64
         % AFTER:
         % ARTICULATIONS:
@@ -2098,13 +2098,13 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"205" #"64"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -2245,9 +2245,9 @@ number.19.Violin.1.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2259,9 +2259,9 @@ number.19.Violin.1.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 125/32
         % AFTER:
         % ARTICULATIONS:
@@ -2284,7 +2284,7 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"125" #"32"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -2361,7 +2361,7 @@ number.19.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 235/64
         % AFTER:
         % MARKUP:
@@ -2371,7 +2371,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 199/64
         % AFTER:
         % MARKUP:
@@ -2381,7 +2381,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 5/2
         % AFTER:
         % MARKUP:
@@ -2391,7 +2391,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 131/64
         % AFTER:
         % MARKUP:
@@ -2401,7 +2401,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 111/64
         % AFTER:
         % MARKUP:
@@ -2411,7 +2411,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 25/16
         % AFTER:
         % MARKUP:
@@ -2423,9 +2423,9 @@ number.19.Violin.1.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 47/32
         % AFTER:
         % MARKUP:
@@ -2433,13 +2433,13 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"47" #"32"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -2486,9 +2486,9 @@ number.19.Violin.1.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2500,9 +2500,9 @@ number.19.Violin.1.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 43/32
         % AFTER:
         % ARTICULATIONS:
@@ -2525,7 +2525,7 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"43" #"32"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2545,7 +2545,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 87/64
         % AFTER:
         % MARKUP:
@@ -2555,7 +2555,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 91/64
         % AFTER:
         % MARKUP:
@@ -2565,7 +2565,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 49/32
         % AFTER:
         % MARKUP:
@@ -2575,7 +2575,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 109/64
         % AFTER:
         % MARKUP:
@@ -2585,7 +2585,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 123/64
         % AFTER:
         % MARKUP:
@@ -2595,7 +2595,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 71/32
         % AFTER:
         % MARKUP:
@@ -2605,7 +2605,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 83/32
         % AFTER:
         % MARKUP:
@@ -2615,7 +2615,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 191/64
         % AFTER:
         % MARKUP:
@@ -2625,7 +2625,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 215/64
         % AFTER:
         % MARKUP:
@@ -2637,9 +2637,9 @@ number.19.Violin.1.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 57/16
         % AFTER:
         % MARKUP:
@@ -2647,13 +2647,13 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"57" #"16"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -2700,9 +2700,9 @@ number.19.Violin.1.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2714,9 +2714,9 @@ number.19.Violin.1.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 245/64
         % AFTER:
         % ARTICULATIONS:
@@ -2739,7 +2739,7 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"245" #"64"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2759,7 +2759,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 235/64
         % AFTER:
         % MARKUP:
@@ -2769,7 +2769,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 13/4
         % AFTER:
         % MARKUP:
@@ -2779,7 +2779,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 11/4
         % AFTER:
         % MARKUP:
@@ -2789,7 +2789,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 37/16
         % AFTER:
         % MARKUP:
@@ -2799,7 +2799,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 63/32
         % AFTER:
         % MARKUP:
@@ -2809,7 +2809,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 111/64
         % AFTER:
         % MARKUP:
@@ -2819,7 +2819,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 25/16
         % AFTER:
         % MARKUP:
@@ -2829,7 +2829,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 95/64
         % AFTER:
         % MARKUP:
@@ -2857,9 +2857,9 @@ number.19.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 23/16
         % AFTER:
         % ARTICULATIONS:
@@ -2882,13 +2882,13 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"23" #"16"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -3033,9 +3033,9 @@ number.19.Violin.1.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3057,9 +3057,9 @@ number.19.Violin.1.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 119/32
         % AFTER:
         % ARTICULATIONS:
@@ -3082,7 +3082,7 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"119" #"32"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -3159,7 +3159,7 @@ number.19.Violin.1.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 201/64
         % AFTER:
         % MARKUP:
@@ -3169,7 +3169,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 137/64
         % AFTER:
         % MARKUP:
@@ -3179,7 +3179,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 51/32
         % AFTER:
         % MARKUP:
@@ -3191,9 +3191,9 @@ number.19.Violin.1.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 45/32
         % AFTER:
         % MARKUP:
@@ -3201,13 +3201,13 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"45" #"32"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -3254,9 +3254,9 @@ number.19.Violin.1.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3268,9 +3268,9 @@ number.19.Violin.1.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 77/64
         % AFTER:
         % ARTICULATIONS:
@@ -3293,7 +3293,7 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"77" #"64"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3313,7 +3313,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 5/4
         % AFTER:
         % MARKUP:
@@ -3323,7 +3323,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 11/8
         % AFTER:
         % MARKUP:
@@ -3333,7 +3333,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 103/64
         % AFTER:
         % MARKUP:
@@ -3343,7 +3343,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 63/32
         % AFTER:
         % MARKUP:
@@ -3353,7 +3353,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 39/16
         % AFTER:
         % MARKUP:
@@ -3363,7 +3363,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 189/64
         % AFTER:
         % MARKUP:
@@ -3375,9 +3375,9 @@ number.19.Violin.1.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 205/64
         % AFTER:
         % MARKUP:
@@ -3385,13 +3385,13 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"205" #"64"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -3440,9 +3440,9 @@ number.19.Violin.1.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3454,9 +3454,9 @@ number.19.Violin.1.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 125/32
         % AFTER:
         % ARTICULATIONS:
@@ -3479,7 +3479,7 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"125" #"32"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3499,7 +3499,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 235/64
         % AFTER:
         % MARKUP:
@@ -3509,7 +3509,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 199/64
         % AFTER:
         % MARKUP:
@@ -3519,7 +3519,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 5/2
         % AFTER:
         % MARKUP:
@@ -3529,7 +3529,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 131/64
         % AFTER:
         % MARKUP:
@@ -3539,7 +3539,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 111/64
         % AFTER:
         % MARKUP:
@@ -3549,7 +3549,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 25/16
         % AFTER:
         % MARKUP:
@@ -3561,9 +3561,9 @@ number.19.Violin.1.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 47/32
         % AFTER:
         % MARKUP:
@@ -3571,13 +3571,13 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"47" #"32"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -3624,9 +3624,9 @@ number.19.Violin.1.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3638,9 +3638,9 @@ number.19.Violin.1.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 77/64
         % AFTER:
         % ARTICULATIONS:
@@ -3663,7 +3663,7 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"77" #"64"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3683,7 +3683,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 5/4
         % AFTER:
         % MARKUP:
@@ -3693,7 +3693,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 11/8
         % AFTER:
         % MARKUP:
@@ -3703,7 +3703,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 103/64
         % AFTER:
         % MARKUP:
@@ -3713,7 +3713,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 63/32
         % AFTER:
         % MARKUP:
@@ -3723,7 +3723,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 39/16
         % AFTER:
         % MARKUP:
@@ -3733,7 +3733,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 189/64
         % AFTER:
         % MARKUP:
@@ -3745,9 +3745,9 @@ number.19.Violin.1.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 205/64
         % AFTER:
         % MARKUP:
@@ -3755,13 +3755,13 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"205" #"64"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -3808,9 +3808,9 @@ number.19.Violin.1.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3822,9 +3822,9 @@ number.19.Violin.1.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 119/32
         % AFTER:
         % ARTICULATIONS:
@@ -3847,7 +3847,7 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"119" #"32"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3867,7 +3867,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 201/64
         % AFTER:
         % MARKUP:
@@ -3877,7 +3877,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 137/64
         % AFTER:
         % MARKUP:
@@ -3887,7 +3887,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 51/32
         % AFTER:
         % MARKUP:
@@ -3899,9 +3899,9 @@ number.19.Violin.1.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 45/32
         % AFTER:
         % MARKUP:
@@ -3909,13 +3909,13 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"45" #"32"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -3962,9 +3962,9 @@ number.19.Violin.1.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3976,9 +3976,9 @@ number.19.Violin.1.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 77/64
         % AFTER:
         % ARTICULATIONS:
@@ -4001,7 +4001,7 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"77" #"64"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -4021,7 +4021,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 5/4
         % AFTER:
         % MARKUP:
@@ -4031,7 +4031,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 11/8
         % AFTER:
         % MARKUP:
@@ -4041,7 +4041,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 103/64
         % AFTER:
         % MARKUP:
@@ -4051,7 +4051,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 63/32
         % AFTER:
         % MARKUP:
@@ -4061,7 +4061,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 39/16
         % AFTER:
         % MARKUP:
@@ -4071,7 +4071,7 @@ number.19.Violin.1.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 189/64
         % AFTER:
         % MARKUP:
@@ -4099,9 +4099,9 @@ number.19.Violin.1.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         bf'16 * 205/64
         % AFTER:
         % ARTICULATIONS:
@@ -4124,13 +4124,13 @@ number.19.Violin.1.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"205" #"64"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -4397,9 +4397,9 @@ number.19.Violin.2.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4456,14 +4456,14 @@ number.19.Violin.2.Music = {
           %! REAPPLIED_CLEF_COLOR_CANCELLATION
           %! baca._attach_color_literal(1)
         %@% \override Staff.Clef.color = ##f
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
           %! REAPPLIED_CLEF
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 17/8
         % AFTER:
         % ARTICULATIONS:
@@ -4491,7 +4491,7 @@ number.19.Violin.2.Music = {
           %! baca.markup()
         _ \baca-string-iv-markup
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -4582,7 +4582,7 @@ number.19.Violin.2.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 141/64
         % AFTER:
         % MARKUP:
@@ -4592,7 +4592,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 155/64
         % AFTER:
         % MARKUP:
@@ -4602,7 +4602,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 11/4
         % AFTER:
         % MARKUP:
@@ -4612,7 +4612,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 25/8
         % AFTER:
         % MARKUP:
@@ -4640,9 +4640,9 @@ number.19.Violin.2.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 27/8
         % AFTER:
         % ARTICULATIONS:
@@ -4665,13 +4665,13 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"27" #"8"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -4810,9 +4810,9 @@ number.19.Violin.2.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4824,9 +4824,9 @@ number.19.Violin.2.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 121/64
         % AFTER:
         % ARTICULATIONS:
@@ -4849,7 +4849,7 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"121" #"64"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -4926,7 +4926,7 @@ number.19.Violin.2.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 2
         % AFTER:
         % MARKUP:
@@ -4936,7 +4936,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 149/64
         % AFTER:
         % MARKUP:
@@ -4946,7 +4946,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 177/64
         % AFTER:
         % MARKUP:
@@ -4958,9 +4958,9 @@ number.19.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 193/64
         % AFTER:
         % MARKUP:
@@ -4968,13 +4968,13 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"193" #"64"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -5021,9 +5021,9 @@ number.19.Violin.2.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5035,9 +5035,9 @@ number.19.Violin.2.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 249/64
         % AFTER:
         % ARTICULATIONS:
@@ -5060,7 +5060,7 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"249" #"64"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -5080,7 +5080,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 235/64
         % AFTER:
         % MARKUP:
@@ -5090,7 +5090,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 51/16
         % AFTER:
         % MARKUP:
@@ -5100,7 +5100,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 11/4
         % AFTER:
         % MARKUP:
@@ -5128,9 +5128,9 @@ number.19.Violin.2.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 5/2
         % AFTER:
         % ARTICULATIONS:
@@ -5153,13 +5153,13 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"5" #"2"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -5300,9 +5300,9 @@ number.19.Violin.2.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5314,9 +5314,9 @@ number.19.Violin.2.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 147/64
         % AFTER:
         % ARTICULATIONS:
@@ -5339,7 +5339,7 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"147" #"64"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -5416,7 +5416,7 @@ number.19.Violin.2.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 75/32
         % AFTER:
         % MARKUP:
@@ -5426,7 +5426,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 5/2
         % AFTER:
         % MARKUP:
@@ -5436,7 +5436,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 11/4
         % AFTER:
         % MARKUP:
@@ -5446,7 +5446,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 49/16
         % AFTER:
         % MARKUP:
@@ -5456,7 +5456,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 109/32
         % AFTER:
         % MARKUP:
@@ -5468,9 +5468,9 @@ number.19.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 233/64
         % AFTER:
         % MARKUP:
@@ -5478,13 +5478,13 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"233" #"64"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -5531,9 +5531,9 @@ number.19.Violin.2.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5545,9 +5545,9 @@ number.19.Violin.2.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 15/4
         % AFTER:
         % ARTICULATIONS:
@@ -5570,7 +5570,7 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"15" #"4"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -5590,7 +5590,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 117/32
         % AFTER:
         % MARKUP:
@@ -5600,7 +5600,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 109/32
         % AFTER:
         % MARKUP:
@@ -5610,7 +5610,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 99/32
         % AFTER:
         % MARKUP:
@@ -5620,7 +5620,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 179/64
         % AFTER:
         % MARKUP:
@@ -5630,7 +5630,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 41/16
         % AFTER:
         % MARKUP:
@@ -5640,7 +5640,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 77/32
         % AFTER:
         % MARKUP:
@@ -5652,9 +5652,9 @@ number.19.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 149/64
         % AFTER:
         % MARKUP:
@@ -5662,13 +5662,13 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"149" #"64"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -5715,9 +5715,9 @@ number.19.Violin.2.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5729,9 +5729,9 @@ number.19.Violin.2.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 155/64
         % AFTER:
         % ARTICULATIONS:
@@ -5754,7 +5754,7 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"155" #"64"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -5774,7 +5774,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 79/32
         % AFTER:
         % MARKUP:
@@ -5784,7 +5784,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 165/64
         % AFTER:
         % MARKUP:
@@ -5794,7 +5794,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 177/64
         % AFTER:
         % MARKUP:
@@ -5804,7 +5804,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 193/64
         % AFTER:
         % MARKUP:
@@ -5814,7 +5814,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 53/16
         % AFTER:
         % MARKUP:
@@ -5824,7 +5824,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 231/64
         % AFTER:
         % MARKUP:
@@ -5852,9 +5852,9 @@ number.19.Violin.2.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 245/64
         % AFTER:
         % ARTICULATIONS:
@@ -5877,13 +5877,13 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"245" #"64"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -6028,9 +6028,9 @@ number.19.Violin.2.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6049,9 +6049,9 @@ number.19.Violin.2.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 121/64
         % AFTER:
         % ARTICULATIONS:
@@ -6074,7 +6074,7 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"121" #"64"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -6151,7 +6151,7 @@ number.19.Violin.2.Music = {
           %! abjad.glissando(1)
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 2
         % AFTER:
         % MARKUP:
@@ -6161,7 +6161,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 149/64
         % AFTER:
         % MARKUP:
@@ -6171,7 +6171,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 177/64
         % AFTER:
         % MARKUP:
@@ -6183,9 +6183,9 @@ number.19.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 193/64
         % AFTER:
         % MARKUP:
@@ -6193,13 +6193,13 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"193" #"64"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -6246,9 +6246,9 @@ number.19.Violin.2.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6260,9 +6260,9 @@ number.19.Violin.2.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 249/64
         % AFTER:
         % ARTICULATIONS:
@@ -6285,7 +6285,7 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"249" #"64"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -6305,7 +6305,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 235/64
         % AFTER:
         % MARKUP:
@@ -6315,7 +6315,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 51/16
         % AFTER:
         % MARKUP:
@@ -6325,7 +6325,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 11/4
         % AFTER:
         % MARKUP:
@@ -6337,9 +6337,9 @@ number.19.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 5/2
         % AFTER:
         % MARKUP:
@@ -6347,13 +6347,13 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"5" #"2"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -6402,9 +6402,9 @@ number.19.Violin.2.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6416,9 +6416,9 @@ number.19.Violin.2.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 147/64
         % AFTER:
         % ARTICULATIONS:
@@ -6441,7 +6441,7 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"147" #"64"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -6461,7 +6461,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 75/32
         % AFTER:
         % MARKUP:
@@ -6471,7 +6471,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 5/2
         % AFTER:
         % MARKUP:
@@ -6481,7 +6481,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 11/4
         % AFTER:
         % MARKUP:
@@ -6491,7 +6491,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 49/16
         % AFTER:
         % MARKUP:
@@ -6501,7 +6501,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 109/32
         % AFTER:
         % MARKUP:
@@ -6513,9 +6513,9 @@ number.19.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 233/64
         % AFTER:
         % MARKUP:
@@ -6523,13 +6523,13 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"233" #"64"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -6576,9 +6576,9 @@ number.19.Violin.2.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6590,9 +6590,9 @@ number.19.Violin.2.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 249/64
         % AFTER:
         % ARTICULATIONS:
@@ -6615,7 +6615,7 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"249" #"64"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -6635,7 +6635,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 235/64
         % AFTER:
         % MARKUP:
@@ -6645,7 +6645,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 51/16
         % AFTER:
         % MARKUP:
@@ -6655,7 +6655,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 11/4
         % AFTER:
         % MARKUP:
@@ -6667,9 +6667,9 @@ number.19.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 5/2
         % AFTER:
         % MARKUP:
@@ -6677,13 +6677,13 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"5" #"2"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -6730,9 +6730,9 @@ number.19.Violin.2.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6744,9 +6744,9 @@ number.19.Violin.2.Music = {
         \once \override Beam.grow-direction = #left
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 121/64
         % AFTER:
         % ARTICULATIONS:
@@ -6769,7 +6769,7 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"121" #"64"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -6789,7 +6789,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 2
         % AFTER:
         % MARKUP:
@@ -6799,7 +6799,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 149/64
         % AFTER:
         % MARKUP:
@@ -6809,7 +6809,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 177/64
         % AFTER:
         % MARKUP:
@@ -6821,9 +6821,9 @@ number.19.Violin.2.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 193/64
         % AFTER:
         % MARKUP:
@@ -6831,13 +6831,13 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"193" #"64"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -6884,9 +6884,9 @@ number.19.Violin.2.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     \times 1/1
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6898,9 +6898,9 @@ number.19.Violin.2.Music = {
         \once \override Beam.grow-direction = #right
         % OPENING:
         % COMMANDS:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 249/64
         % AFTER:
         % ARTICULATIONS:
@@ -6923,7 +6923,7 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"249" #"64"
         % START_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -6943,7 +6943,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 235/64
         % AFTER:
         % MARKUP:
@@ -6953,7 +6953,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 51/16
         % AFTER:
         % MARKUP:
@@ -6963,7 +6963,7 @@ number.19.Violin.2.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 11/4
         % AFTER:
         % MARKUP:
@@ -6991,9 +6991,9 @@ number.19.Violin.2.Music = {
           %! abjad.glissando(6)
           %! baca.glissando()
         \undo \hide NoteHead
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         f'16 * 5/2
         % AFTER:
         % ARTICULATIONS:
@@ -7016,13 +7016,13 @@ number.19.Violin.2.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"5" #"2"
         % STOP_BEAM:
-          %! stirrings_still.make_wave_rhythm_function()
+          %! stirrings_still.make_wave_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! stirrings_still.make_wave_rhythm_function()
+      %! stirrings_still.make_wave_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -7314,7 +7314,7 @@ number.19.Viola.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,1
     % AFTER:
     % ARTICULATIONS:
@@ -7362,28 +7362,28 @@ number.19.Viola.Music = {
       %! abjad.glissando(3)
       %! baca.glissando()
     \override NoteColumn.glissando-skip = ##t
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 3]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 4]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 5]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7400,14 +7400,14 @@ number.19.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 7]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,1.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 8]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,1.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7422,7 +7422,7 @@ number.19.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7437,14 +7437,14 @@ number.19.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 11]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7461,21 +7461,21 @@ number.19.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 13]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 14]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 15]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7490,7 +7490,7 @@ number.19.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 0
       %! baca._style_fermata_measures(1)
     \startStaff
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7505,14 +7505,14 @@ number.19.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 18]
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7539,7 +7539,7 @@ number.19.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_notes_function()
+      %! baca.make_notes()
     bf,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7919,7 +7919,7 @@ number.19.Cello.Music = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.ottava_bassa()
     \ottava -1
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b,,,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -7995,7 +7995,7 @@ number.19.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b,,,1
     % AFTER:
     % ARTICULATIONS:
@@ -8207,7 +8207,7 @@ number.19.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 7]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b,,,1.
     % AFTER:
     % ARTICULATIONS:
@@ -8277,7 +8277,7 @@ number.19.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b,,,1.
     % AFTER:
     % COMMANDS:
@@ -8401,7 +8401,7 @@ number.19.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b,,,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -8459,7 +8459,7 @@ number.19.Cello.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b,,,1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8519,14 +8519,14 @@ number.19.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 13]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b,,,1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 14]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b,,,2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8553,7 +8553,7 @@ number.19.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b,,,1
     % AFTER:
     % COMMANDS:

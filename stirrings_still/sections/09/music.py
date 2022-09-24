@@ -39,33 +39,33 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = library.make_circle_rhythm_function(
+    music = library.make_circle_rhythm(
         accumulator.get(1, 7),
         (1, 8),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8, 9), head=voice.name)
     voice.extend(music)
-    music = library.make_urtext_field_rhythm_function(accumulator.get(10, 11))
+    music = library.make_urtext_field_rhythm(accumulator.get(10, 11))
     voice.extend(music)
     baca.append_anchor_note(voice)
 
 
 def V2(voice, accumulator):
-    music = library.make_circle_rhythm_function(
+    music = library.make_circle_rhythm(
         accumulator.get(1, 7),
         (1, 4),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8, 9), head=voice.name)
     voice.extend(music)
-    music = library.make_urtext_field_rhythm_function(accumulator.get(10, 11))
+    music = library.make_urtext_field_rhythm(accumulator.get(10, 11))
     voice.extend(music)
     baca.append_anchor_note(voice)
 
 
 def VA(voice, accumulator):
-    music = library.make_circle_rhythm_function(
+    music = library.make_circle_rhythm(
         accumulator.get(1, 7),
         (1, 2),
         force_rest_lts=[0],
@@ -74,15 +74,15 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8, 9), head=voice.name)
     voice.extend(music)
-    music = library.make_urtext_field_rhythm_function(accumulator.get(10, 11))
+    music = library.make_urtext_field_rhythm(accumulator.get(10, 11))
     voice.extend(music)
     baca.append_anchor_note(voice)
 
 
 def VC(voice, accumulator):
-    music = library.make_eighth_notes_function(accumulator.get(1, 6))
+    music = library.make_eighth_notes(accumulator.get(1, 6))
     voice.extend(music)
-    music = library.make_cello_cell_rhythm_function(accumulator.get(7, 11))
+    music = library.make_cello_cell_rhythm(accumulator.get(7, 11))
     voice.extend(music)
     baca.append_anchor_note(voice)
 

@@ -79,20 +79,20 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def V1(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 5))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 5))
     voice.extend(music)
-    music = library.make_circle_rhythm_function(
+    music = library.make_circle_rhythm(
         accumulator.get(6),
         (1, 8),
     )
     voice.extend(music)
-    music = library.make_accelerando_function(
+    music = library.make_accelerando(
         accumulator.get(7, 8),
         (1, 2),
         (8, 32),
     )
     voice.extend(music)
-    music = library.make_desynchronization_rhythm_function(
+    music = library.make_desynchronization_rhythm(
         accumulator.get(9, 16),
         4,
         [0, 2, 1],
@@ -100,7 +100,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(17, 22), head=voice.name)
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(23, 28),
         4,
         2,
@@ -109,7 +109,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(29), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando_function(
+    music = library.make_accelerando(
         accumulator.get(30, 31),
         (1, 2),
         (4, 32),
@@ -117,13 +117,13 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(32), head=voice.name)
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm_function(accumulator.get(33, 34))
+    music = library.make_clouded_pane_rhythm(accumulator.get(33, 34))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(35), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(36, 37))
+    music = baca.make_repeat_tied_notes(accumulator.get(36, 37))
     voice.extend(music)
-    music = library.make_accelerando_function(
+    music = library.make_accelerando(
         accumulator.get(38, 40),
         (1, 2),
         (4, 32),
@@ -131,7 +131,7 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(41), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando_function(
+    music = library.make_accelerando(
         accumulator.get(42, 45),
         (1, 2),
         (4, 32),
@@ -139,25 +139,25 @@ def V1(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(46), head=voice.name)
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(47, 51),
         4,
         2,
     )
     voice.extend(music)
-    music = library.make_loure_tuplets_material_function(
+    music = library.make_loure_tuplets_material(
         accumulator.get(52),
         0,
     )
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm_function(accumulator.get(53, 54))
+    music = library.make_clouded_pane_rhythm(accumulator.get(53, 54))
     voice.extend(music)
-    music = library.make_loure_tuplets_material_function(
+    music = library.make_loure_tuplets_material(
         accumulator.get(55),
         0,
     )
     voice.extend(music)
-    music = library.make_circle_rhythm_function(
+    music = library.make_circle_rhythm(
         accumulator.get(56),
         (1, 8),
     )
@@ -166,19 +166,19 @@ def V1(voice, accumulator):
 
 
 def V2(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 5))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 5))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(6))
+    music = baca.make_repeat_tied_notes(accumulator.get(6))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(7, 10))
+    music = baca.make_repeat_tied_notes(accumulator.get(7, 10))
     voice.extend(music)
-    music = library.make_accelerando_function(
+    music = library.make_accelerando(
         accumulator.get(11, 12),
         (1, 2),
         (7, 32),
     )
     voice.extend(music)
-    music = library.make_desynchronization_rhythm_function(
+    music = library.make_desynchronization_rhythm(
         accumulator.get(13, 16),
         4,
         [1, 0, 2],
@@ -186,7 +186,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(17, 22), head=voice.name)
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(23, 28),
         4,
         1,
@@ -195,7 +195,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(29), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando_function(
+    music = library.make_accelerando(
         accumulator.get(30, 31),
         (1, 2),
         (8, 32),
@@ -203,7 +203,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(32), head=voice.name)
     voice.extend(music)
-    music = library.make_clocktick_rhythm_function(accumulator.get(33))
+    music = library.make_clocktick_rhythm(accumulator.get(33))
     voice.extend(music)
     music = baca.make_skeleton(
         r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
@@ -211,9 +211,9 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(35), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(36, 37))
+    music = baca.make_repeat_tied_notes(accumulator.get(36, 37))
     voice.extend(music)
-    music = library.make_accelerando_function(
+    music = library.make_accelerando(
         accumulator.get(38, 40),
         (1, 2),
         (8, 32),
@@ -221,7 +221,7 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(41), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando_function(
+    music = library.make_accelerando(
         accumulator.get(42, 45),
         (1, 2),
         (8, 32),
@@ -229,29 +229,29 @@ def V2(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(46), head=voice.name)
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(47, 51),
         4,
         1,
     )
     voice.extend(music)
-    music = library.make_loure_tuplets_material_function(
+    music = library.make_loure_tuplets_material(
         accumulator.get(52),
         1,
     )
     voice.extend(music)
-    music = library.make_clocktick_rhythm_function(accumulator.get(53))
+    music = library.make_clocktick_rhythm(accumulator.get(53))
     voice.extend(music)
     music = baca.make_skeleton(
         r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
     )
     voice.extend(music)
-    music = library.make_loure_tuplets_material_function(
+    music = library.make_loure_tuplets_material(
         accumulator.get(55),
         1,
     )
     voice.extend(music)
-    music = library.make_circle_rhythm_function(
+    music = library.make_circle_rhythm(
         accumulator.get(56),
         (1, 4),
     )
@@ -260,22 +260,22 @@ def V2(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 5))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 5))
     voice.extend(music)
-    music = library.make_circle_rhythm_function(
+    music = library.make_circle_rhythm(
         accumulator.get(6),
         (1, 2),
         force_rest_lts=[0],
         remainder=abjad.LEFT,
     )
     voice.extend(music)
-    music = library.make_accelerando_function(
+    music = library.make_accelerando(
         accumulator.get(7, 8),
         (1, 2),
         (6, 32),
     )
     voice.extend(music)
-    music = library.make_desynchronization_rhythm_function(
+    music = library.make_desynchronization_rhythm(
         accumulator.get(9, 16),
         4,
         [1, 0, 2],
@@ -283,7 +283,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(17, 22), head=voice.name)
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(23, 28),
         4,
         0,
@@ -292,7 +292,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(29), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando_function(
+    music = library.make_accelerando(
         accumulator.get(30, 31),
         (1, 2),
         (12, 32),
@@ -300,13 +300,13 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(32), head=voice.name)
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm_function(accumulator.get(33, 34))
+    music = library.make_clouded_pane_rhythm(accumulator.get(33, 34))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(35), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(36, 37))
+    music = baca.make_repeat_tied_notes(accumulator.get(36, 37))
     voice.extend(music)
-    music = library.make_accelerando_function(
+    music = library.make_accelerando(
         accumulator.get(38, 40),
         (1, 2),
         (12, 32),
@@ -314,7 +314,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(41), head=voice.name)
     voice.extend(music)
-    music = library.make_accelerando_function(
+    music = library.make_accelerando(
         accumulator.get(42, 45),
         (1, 2),
         (12, 32),
@@ -322,20 +322,20 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(46), head=voice.name)
     voice.extend(music)
-    music = library.make_picket_rhythm_function(
+    music = library.make_picket_rhythm(
         accumulator.get(47, 51),
         4,
         0,
     )
     voice.extend(music)
-    music = library.make_loure_tuplets_material_function(
+    music = library.make_loure_tuplets_material(
         accumulator.get(52),
         -1,
     )
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm_function(accumulator.get(53, 54))
+    music = library.make_clouded_pane_rhythm(accumulator.get(53, 54))
     voice.extend(music)
-    music = library.make_loure_tuplets_material_function(
+    music = library.make_loure_tuplets_material(
         accumulator.get(55),
         -1,
     )
@@ -345,37 +345,37 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 5))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 5))
     voice.extend(music)
-    music = library.make_eighth_notes_function(accumulator.get(6))
+    music = library.make_eighth_notes(accumulator.get(6))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(7, 31))
+    music = baca.make_repeat_tied_notes(accumulator.get(7, 31))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(32), head=voice.name)
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm_function(accumulator.get(33, 34))
+    music = library.make_clouded_pane_rhythm(accumulator.get(33, 34))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(35), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(36, 37))
+    music = baca.make_repeat_tied_notes(accumulator.get(36, 37))
     voice.extend(music)
-    music = baca.make_notes_function(accumulator.get(38, 46))
+    music = baca.make_notes(accumulator.get(38, 46))
     voice.extend(music)
-    music = library.make_trajectory_rhythm_function(
+    music = library.make_trajectory_rhythm(
         accumulator.get(47, 51),
         "A",
         -1,
         0,
     )
     voice.extend(music)
-    music = library.make_taper_rhythm_function(
+    music = library.make_taper_rhythm(
         accumulator.get(52),
         (1, 1),
     )
     voice.extend(music)
-    music = library.make_clouded_pane_rhythm_function(accumulator.get(53, 54))
+    music = library.make_clouded_pane_rhythm(accumulator.get(53, 54))
     voice.extend(music)
-    music = library.make_taper_rhythm_function(
+    music = library.make_taper_rhythm(
         accumulator.get(55),
         (1, 1),
     )
