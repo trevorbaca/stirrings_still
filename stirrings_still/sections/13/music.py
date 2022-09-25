@@ -525,7 +525,7 @@ def main():
         environment.first_measure_number,
         environment.previous_persist["persistent_indicators"],
     )
-    metadata, persist, timing = baca.build.section(
+    metadata, persist, timing = baca.build.postprocess_score(
         score,
         library.manifests,
         accumulator.time_signatures,
@@ -544,7 +544,7 @@ def main():
         include_layout_ly=True,
         includes=["../stylesheet.ily"],
     )
-    baca.build.persist(
+    baca.build.persist_lilypond_file(
         lilypond_file,
         environment.metadata,
         environment.persist,
