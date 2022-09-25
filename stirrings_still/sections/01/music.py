@@ -1119,7 +1119,7 @@ def vc(cache):
 
 def make_score():
     score, accumulator = make_empty_score()
-    baca.interpret.set_up_score(
+    baca.section.set_up_score(
         score,
         accumulator.time_signatures,
         accumulator,
@@ -1133,7 +1133,7 @@ def make_score():
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
     VC(accumulator.voice("vc"), accumulator)
-    cache = baca.interpret.cache_leaves(
+    cache = baca.section.cache_leaves(
         score,
         len(accumulator.time_signatures),
         library.voice_abbreviations,
@@ -1150,7 +1150,7 @@ def make_score():
 def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
     score, accumulator = make_score()
-    defaults = baca.interpret.section_defaults()
+    defaults = baca.section.section_defaults()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
