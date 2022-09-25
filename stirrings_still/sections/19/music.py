@@ -269,13 +269,13 @@ def v1_v2_vc(cache):
             baca.tacet(o.mmrests())
 
 
-defaults = baca.interpret.section_defaults()
+defaults = baca.section.section_defaults()
 del defaults["force_nonnatural_accidentals"]
 
 
 def make_score(first_measure_number, previous_persistent_indicators):
     score, accumulator = make_empty_score()
-    baca.interpret.set_up_score(
+    baca.section.set_up_score(
         score,
         accumulator.time_signatures,
         accumulator,
@@ -295,7 +295,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
         library.manifests,
         previous_persistent_indicators,
     )
-    cache = baca.interpret.cache_leaves(
+    cache = baca.section.cache_leaves(
         score,
         len(accumulator.time_signatures),
         library.voice_abbreviations,
