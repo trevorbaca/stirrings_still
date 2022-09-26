@@ -9212,3 +9212,9 @@ LilyPond runtime: 8 seconds
 2022-09-26 08:00:17
 Segment interpretation time: 15 seconds
 LilyPond runtime: 6 seconds
+
+2022-09-26 10:30:11
+Python runtime: 25 seconds
+  make_score(): 10 seconds
+  postprocess_score(): 15 seconds
+LilyPond runtime: 7 seconds

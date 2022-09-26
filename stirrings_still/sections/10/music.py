@@ -30,7 +30,7 @@ def GLOBALS(skips, rests, first_measure_number):
         ("[J.5]", 12),
         ("[J.6]", 14),
     )
-    baca.label_stage_numbers(skips, stage_markup)
+    baca.section.label_stage_numbers(skips, stage_markup)
     baca.markup(
         skips[11 - 1],
         r"\stirrings-still-repeat-three-markup",
@@ -62,7 +62,7 @@ def V1(voice, accumulator):
         -2,
     )
     voice.extend(music)
-    baca.append_anchor_note(voice)
+    baca.section.append_anchor_note(voice)
 
 
 def V2(voice, accumulator):
@@ -83,7 +83,7 @@ def V2(voice, accumulator):
         -1,
     )
     voice.extend(music)
-    baca.append_anchor_note(voice)
+    baca.section.append_anchor_note(voice)
 
 
 def VA(voice, accumulator):
@@ -100,7 +100,7 @@ def VA(voice, accumulator):
         0,
     )
     voice.extend(music)
-    baca.append_anchor_note(voice)
+    baca.section.append_anchor_note(voice)
 
 
 def VC(voice, accumulator):
@@ -357,10 +357,10 @@ def make_score(first_measure_number, previous_persistent_indicators):
         score,
         accumulator.time_signatures,
         accumulator,
-        library.manifests,
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
+        manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
     GLOBALS(score["Skips"], score["Rests"], first_measure_number)
@@ -368,7 +368,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
     VC(accumulator.voice("vc"), accumulator)
-    baca.reapply(
+    baca.section.reapply(
         accumulator.voices(),
         library.manifests,
         previous_persistent_indicators,
@@ -396,19 +396,20 @@ def main():
         environment.previous_persist["persistent_indicators"],
         timing,
     )
-    metadata, persist, timing = baca.build.postprocess_score(
+    metadata, persist = baca.section.postprocess_score(
         score,
-        library.manifests,
         accumulator.time_signatures,
-        environment,
         **baca.section.section_defaults(),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
         ],
         always_make_global_rests=True,
+        environment=environment,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        manifests=library.manifests,
+        timing=timing,
     )
     lilypond_file = baca.lilypond.file(
         score,

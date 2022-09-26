@@ -46,7 +46,7 @@ def GLOBALS(skips, rests, first_measure_number):
         ("[A.17]", 60),
         ("[A.18]", 62),
     )
-    baca.label_stage_numbers(skips, stage_markup)
+    baca.section.label_stage_numbers(skips, stage_markup)
     baca.markup(
         skips[10 - 1],
         r"\stirrings-still-text-two",
@@ -1124,10 +1124,10 @@ def make_score():
         score,
         accumulator.time_signatures,
         accumulator,
-        library.manifests,
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_section=True,
+        manifests=library.manifests,
     )
     GLOBALS(score["Skips"], score["Rests"], 1)
     V1(accumulator.voice("v1"), accumulator)
@@ -1153,20 +1153,21 @@ def main():
     timing = baca.build.Timing()
     score, accumulator = make_score(timing)
     defaults = baca.section.section_defaults()
-    metadata, persist, timing = baca.build.postprocess_score(
+    metadata, persist = baca.section.postprocess_score(
         score,
-        library.manifests,
         accumulator.time_signatures,
-        environment,
         **defaults,
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
         ],
         always_make_global_rests=True,
+        environment=environment,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[10, 19, 24, 28, 61, 63],
         global_rests_in_topmost_staff=True,
+        manifests=library.manifests,
+        timing=timing,
     )
     lilypond_file = baca.lilypond.file(
         score,

@@ -32,7 +32,7 @@ def GLOBALS(skips, rests, first_measure_number):
         ("[N.6.7-12]", 30),
         ("[N.7]", 37),
     )
-    baca.label_stage_numbers(skips, stage_markup)
+    baca.section.label_stage_numbers(skips, stage_markup)
     baca.markup(
         skips[39 - 1],
         r"\stirrings-still-text-twenty-three",
@@ -639,10 +639,10 @@ def make_score(first_measure_number, previous_persistent_indicators):
         score,
         accumulator.time_signatures,
         accumulator,
-        library.manifests,
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
+        manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
     GLOBALS(score["Skips"], score["Rests"], first_measure_number)
@@ -650,7 +650,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     V2(accumulator.voice("v2"), accumulator)
     VA(accumulator.voice("va"), accumulator)
     VC(accumulator.voice("vc"), accumulator)
-    baca.reapply(
+    baca.section.reapply(
         accumulator.voices(),
         library.manifests,
         previous_persistent_indicators,
@@ -677,11 +677,9 @@ def main():
         environment.previous_persist["persistent_indicators"],
         timing,
     )
-    metadata, persist, timing = baca.build.postprocess_score(
+    metadata, persist = baca.section.postprocess_score(
         score,
-        library.manifests,
         accumulator.time_signatures,
-        environment,
         **baca.section.section_defaults(),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
@@ -689,9 +687,12 @@ def main():
         ],
         always_make_global_rests=True,
         do_not_check_wellformedness=True,
+        environment=environment,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[39],
         global_rests_in_topmost_staff=True,
+        manifests=library.manifests,
+        timing=timing,
     )
     lilypond_file = baca.lilypond.file(
         score,
