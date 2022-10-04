@@ -12,9 +12,9 @@
 %  ]
 
 
-  %! baca.make_configuration_empty_score()
+  %! baca.make_empty_score()
 \context Score = "Score"
-  %! baca.make_configuration_empty_score()
+  %! baca.make_empty_score()
 <<
 
       %! baca.make_global_context()
@@ -1352,5 +1352,5 @@
       %! baca.make_global_context()
     >>
 
-  %! baca.make_configuration_empty_score()
+  %! baca.make_empty_score()
 >>
