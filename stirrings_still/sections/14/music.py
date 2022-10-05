@@ -675,10 +675,6 @@ def main():
     metadata = baca.section.postprocess_score(
         score,
         **baca.section.section_defaults(),
-        activate=[
-            baca.tags.LOCAL_MEASURE_NUMBER,
-            baca.tags.STAGE_NUMBER,
-        ],
         always_make_global_rests=True,
         do_not_check_wellformedness=True,
         environment=environment,
@@ -686,6 +682,12 @@ def main():
         fermata_measure_empty_overrides=[39],
         global_rests_in_topmost_staff=True,
         manifests=library.manifests,
+        tags=baca.tags.Tags(
+            activate=[
+                baca.tags.LOCAL_MEASURE_NUMBER,
+                baca.tags.STAGE_NUMBER,
+            ],
+        ),
     )
     lilypond_file = baca.lilypond.file(
         score,
