@@ -266,10 +266,6 @@ def v1_v2_vc(cache):
             baca.tacet(o.mmrests())
 
 
-defaults = baca.section.section_defaults()
-del defaults["force_nonnatural_accidentals"]
-
-
 @baca.build.timed("make_score")
 def make_score(first_measure_number, previous_persistent_indicators):
     score, voices, measures = make_empty_score()
@@ -314,8 +310,9 @@ def main():
     )
     metadata = baca.section.postprocess_score(
         score,
-        **defaults,
+        **baca.section.section_defaults(),
         always_make_global_rests=True,
+        do_not_force_nonnatural_accidentals=True,
         environment=environment,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[9, 16, 20],
