@@ -310,7 +310,6 @@ def main():
     )
     metadata = baca.section.postprocess_score(
         score,
-        **baca.section.section_defaults(),
         always_make_global_rests=True,
         do_not_force_nonnatural_accidentals=True,
         environment=environment,
