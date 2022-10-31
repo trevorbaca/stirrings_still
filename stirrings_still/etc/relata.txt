@@ -78,8 +78,8 @@ REPETITION TRAIN RELATA (12)
     * [H.1 (inception) 3-4/4] suffixed to [A.15 (iteratum)]
     * [A.18 (isolatum) 1/1] suffixed to [B.16 (iteratum)]
 
-isolatum RELATA (6)
--------------------------
+ISOLATUM RELATA (6)
+-------------------
 
 * prefixed to isolatum
 
