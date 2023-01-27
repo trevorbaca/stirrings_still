@@ -1288,7 +1288,7 @@ def left_broken_tasto_tweak():
 
 
 def make_accelerando(time_signatures, start, stop):
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     tag = baca.tags.function_name(inspect.currentframe())
     nested_music = rmakers.accelerando(divisions, [start, stop, (1, 16)], tag=tag)
@@ -1301,7 +1301,7 @@ def make_accelerando(time_signatures, start, stop):
 
 def make_cello_cell_rhythm(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.quarters(baca.sequence.fuse(divisions))
     nested_music = rmakers.talea(divisions, [3, 1, 2, 2], 16, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
@@ -1320,7 +1320,7 @@ def make_circle_rhythm(
     remainder=abjad.RIGHT,
 ):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.split_divisions(
         divisions,
@@ -1356,7 +1356,7 @@ def make_clocktick_rhythm(
     force_rest_tuplets=None,
 ):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.split_divisions(divisions, [(1, 4)], cyclic=True)
     if displace:
@@ -1401,7 +1401,7 @@ def make_continuous_tremolo_material(time_signatures):
 
 def make_declamation_rhythm(time_signatures, *, protract=False):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
 
     def tuplet_rhythm_maker(divisions):
         nested_music = rmakers.tuplet(divisions, [(3, 1)], tag=tag)
@@ -1479,7 +1479,7 @@ def make_desynchronization_rhythm(
 
 def make_eighth_notes(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     nested_music = rmakers.talea(divisions, [1], 8, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
@@ -1716,9 +1716,7 @@ def make_picket_rhythm(
 ):
     assert isinstance(fuse, int)
     tag = baca.tags.function_name(inspect.currentframe())
-    # TODO: nonreduced fractions?
-    # divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
-    divisions = [abjad.Duration(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.split_divisions(
         divisions,
@@ -1756,7 +1754,7 @@ def make_running_quarter_divisions(time_signatures, count):
     assert isinstance(count, int), repr(count)
     assert 0 < count, repr(count)
     ratio = tuple(count * [1])
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.split_divisions(divisions, [(1, 4)], cyclic=True)
     nested_music = rmakers.tuplet(divisions, [ratio], tag=tag)
@@ -1769,7 +1767,7 @@ def make_running_quarter_divisions(time_signatures, count):
 
 def make_stroke_rhythm(time_signatures, rotation, *, force_rest_tuplets=None):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = abjad.sequence.rotate(divisions, n=rotation)
     nested_music = rmakers.incised(
         divisions,
@@ -1856,7 +1854,7 @@ def make_taper_rhythm(time_signatures, tuplet_ratio=(1, 4, 1)):
 
 def make_to_flight_rhythm(time_signatures, divisions, *, start=(1, 4), stop=(1, 8)):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions_ = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions_ = [_.duration for _ in time_signatures]
     divisions_ = baca.sequence.fuse(divisions_)
     divisions_ = baca.sequence.split_divisions(divisions_, divisions, cyclic=True)
     nested_music = rmakers.accelerando(
