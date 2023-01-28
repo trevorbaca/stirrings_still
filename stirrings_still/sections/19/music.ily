@@ -4927,7 +4927,7 @@ number.19.Violin.2.Music = {
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
           %! stirrings_still.make_wave_rhythm()
-        f'16 * 2
+        f'16 * 2/1
         % AFTER:
         % MARKUP:
           %! DURATION_MULTIPLIER
@@ -6152,7 +6152,7 @@ number.19.Violin.2.Music = {
           %! baca.glissando()
         \override NoteHead.no-ledgers = ##t
           %! stirrings_still.make_wave_rhythm()
-        f'16 * 2
+        f'16 * 2/1
         % AFTER:
         % MARKUP:
           %! DURATION_MULTIPLIER
@@ -6790,7 +6790,7 @@ number.19.Violin.2.Music = {
         % COMMANDS:
 
           %! stirrings_still.make_wave_rhythm()
-        f'16 * 2
+        f'16 * 2/1
         % AFTER:
         % MARKUP:
           %! DURATION_MULTIPLIER

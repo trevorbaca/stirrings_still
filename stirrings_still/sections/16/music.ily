@@ -2926,7 +2926,7 @@ number.16.Violin.1.Music = {
         % COMMANDS:
 
           %! stirrings_still.make_wave_rhythm()
-        a'16 * 1
+        a'16 * 1/1
         % AFTER:
         % MARKUP:
           %! DURATION_MULTIPLIER
@@ -8076,7 +8076,7 @@ number.16.Viola.Music = {
         % COMMANDS:
 
           %! stirrings_still.make_wave_rhythm()
-        a16 * 2
+        a16 * 2/1
         % AFTER:
         % MARKUP:
           %! DURATION_MULTIPLIER

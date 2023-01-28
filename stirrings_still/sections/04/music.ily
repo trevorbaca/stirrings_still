@@ -9243,7 +9243,7 @@ number.4.Violin.1.Music = {
         % COMMANDS:
 
           %! stirrings_still.make_accelerando()
-        bf'!16 * 1
+        bf'!16 * 1/1
         % AFTER:
         % MARKUP:
           %! DURATION_MULTIPLIER

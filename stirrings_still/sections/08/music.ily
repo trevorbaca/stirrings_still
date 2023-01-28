@@ -11475,7 +11475,7 @@ number.8.Violin.2.Music = {
         % COMMANDS:
 
           %! stirrings_still.make_accelerando()
-        b'16 * 5
+        b'16 * 5/1
         % AFTER:
         % MARKUP:
           %! DURATION_MULTIPLIER
