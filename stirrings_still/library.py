@@ -1322,7 +1322,7 @@ def make_circle_rhythm(
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
     durations = baca.sequence.fuse(durations)
-    durations = baca.sequence.split_divisions(
+    durations = baca.sequence.split(
         durations,
         [duration],
         cyclic=True,
@@ -1358,7 +1358,7 @@ def make_clocktick_rhythm(
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
     durations = baca.sequence.fuse(durations)
-    durations = baca.sequence.split_divisions(durations, [(1, 4)], cyclic=True)
+    durations = baca.sequence.split(durations, [(1, 4)], cyclic=True)
     if displace:
         durations = [_.duration for _ in time_signatures]
         counts = [1, -1]
@@ -1426,7 +1426,7 @@ def make_declamation_rhythm(time_signatures, *, protract=False):
 
     if protract is True:
         tag = baca.tags.function_name(inspect.currentframe(), n=1)
-        durations = [baca.sequence.split_divisions([_], [(1, 4)]) for _ in durations]
+        durations = [baca.sequence.split([_], [(1, 4)]) for _ in durations]
         durations = abjad.sequence.flatten(durations, depth=-1)
         music = []
         music_ = tuplet_rhythm_maker(durations[:1])
@@ -1435,7 +1435,7 @@ def make_declamation_rhythm(time_signatures, *, protract=False):
         music.extend(music_)
     else:
         tag = baca.tags.function_name(inspect.currentframe(), n=2)
-        durations = baca.sequence.split_divisions(
+        durations = baca.sequence.split(
             baca.sequence.fuse(durations), [(1, 4)]
         )
         durations = abjad.sequence.flatten(durations, depth=-1)
@@ -1724,7 +1724,7 @@ def make_picket_rhythm(
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
     durations = baca.sequence.fuse(durations)
-    durations = baca.sequence.split_divisions(
+    durations = baca.sequence.split(
         durations,
         [(fuse, 4)],
         cyclic=True,
@@ -1762,7 +1762,7 @@ def make_running_quarter_divisions(time_signatures, count):
     ratio = tuple(count * [1])
     durations = [_.duration for _ in time_signatures]
     durations = baca.sequence.fuse(durations)
-    durations = baca.sequence.split_divisions(durations, [(1, 4)], cyclic=True)
+    durations = baca.sequence.split(durations, [(1, 4)], cyclic=True)
     nested_music = rmakers.tuplet(durations, [ratio], tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     rmakers.beam(voice, tag=tag)
@@ -1865,7 +1865,7 @@ def make_to_flight_rhythm(time_signatures, weights, *, start=(1, 4), stop=(1, 8)
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
     durations = baca.sequence.fuse(durations)
-    durations = baca.sequence.split_divisions(durations, weights, cyclic=True)
+    durations = baca.sequence.split(durations, weights, cyclic=True)
     nested_music = rmakers.accelerando(
         durations, [start, stop, (1, 16)], [(1, 2), (1, 2), (1, 4)], tag=tag
     )
