@@ -1290,7 +1290,7 @@ def left_broken_tasto_tweak():
 
 def make_accelerando(time_signatures, start, stop):
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     tag = baca.tags.function_name(inspect.currentframe())
     nested_music = rmakers.accelerando(durations, [start, stop, (1, 16)], tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
@@ -1303,7 +1303,7 @@ def make_accelerando(time_signatures, start, stop):
 def make_cello_cell_rhythm(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.quarters(baca.sequence.fuse(durations))
+    durations = baca.sequence.quarters([sum(durations)])
     nested_music = rmakers.talea(durations, [3, 1, 2, 2], 16, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     rmakers.beam(voice, tag=tag)
@@ -1322,7 +1322,7 @@ def make_circle_rhythm(
 ):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.split(
         durations,
         [duration],
@@ -1358,7 +1358,7 @@ def make_clocktick_rhythm(
 ):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.split(durations, [(1, 4)], cyclic=True)
     if displace:
         durations = [_.duration for _ in time_signatures]
@@ -1436,7 +1436,7 @@ def make_declamation_rhythm(time_signatures, *, protract=False):
         music.extend(music_)
     else:
         tag = baca.tags.function_name(inspect.currentframe(), n=2)
-        durations = baca.sequence.split(baca.sequence.fuse(durations), [(1, 4)])
+        durations = baca.sequence.split([sum(durations)], [(1, 4)])
         durations = abjad.sequence.flatten(durations, depth=-1)
         music = tuplet_rhythm_maker(durations)
     return music
@@ -1481,7 +1481,7 @@ def make_desynchronization_rhythm(
 def make_eighth_notes(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     nested_music = rmakers.talea(durations, [1], 8, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     rmakers.extract_trivial(voice)
@@ -1722,7 +1722,7 @@ def make_picket_rhythm(
     assert isinstance(fuse, int)
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.split(
         durations,
         [(fuse, 4)],
@@ -1760,7 +1760,7 @@ def make_running_quarter_divisions(time_signatures, count):
     assert 0 < count, repr(count)
     ratio = tuple(count * [1])
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.split(durations, [(1, 4)], cyclic=True)
     nested_music = rmakers.tuplet(durations, [ratio], tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
@@ -1863,7 +1863,7 @@ def make_taper_rhythm(time_signatures, tuplet_ratio=(1, 4, 1)):
 def make_to_flight_rhythm(time_signatures, weights, *, start=(1, 4), stop=(1, 8)):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.split(durations, weights, cyclic=True)
     nested_music = rmakers.accelerando(
         durations, [start, stop, (1, 16)], [(1, 2), (1, 2), (1, 4)], tag=tag
