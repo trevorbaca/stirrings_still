@@ -228,24 +228,18 @@ class StageToken:
             assert isinstance(self.number, int)
 
 
-def rleaves_partition_by_counts(counts):
-    def selector(argument):
-        result = abjad.select.leaves(argument)
-        result = baca.select.rleak(result)
-        result = abjad.select.partition_by_counts(result, counts)
-        return result
-
-    return selector
+def rleaves_partition_by_counts(argument, counts):
+    leaves = abjad.select.leaves(argument)
+    leaves = baca.select.rleak(leaves)
+    lists = abjad.select.partition_by_counts(leaves, counts)
+    return lists
 
 
-def rleaves_partition_by_ratio(ratio):
-    def selector(argument):
-        result = abjad.select.leaves(argument)
-        result = baca.select.rleak(result)
-        result = abjad.select.partition_by_ratio(result, ratio)
-        return result
-
-    return selector
+def rleaves_partition_by_ratio(argument, ratio):
+    leaves = abjad.select.leaves(argument)
+    leaves = baca.select.rleak(leaves)
+    lists = abjad.select.partition_by_ratio(leaves, ratio)
+    return lists
 
 
 def bcps(
@@ -1269,6 +1263,13 @@ def flight_spanner(o, string, staff_padding):
     )
     baca.tags.wrappers(wrappers, abjad.Tag("MATERIAL:FLIGHT"))
     return wrappers
+
+
+def grouped_pheads(argument, start=0, stop=None):
+    pheads = baca.select.pheads(argument)
+    pheads = pheads[start:stop]
+    lists = [[_] for _ in pheads]
+    return lists
 
 
 def left_broken_circle_bow_tweak():
