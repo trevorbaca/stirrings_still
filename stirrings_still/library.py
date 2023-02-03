@@ -1969,45 +1969,17 @@ def multistage_leaf_glissando(
 ):
     assert isinstance(pairs, list), repr(pairs)
     assert all(isinstance(_, tuple) for _ in pairs), repr(pairs)
-
-    if use_pleaves_lleak is True:
-
-        def selector(argument):
-            result = baca.select.pleaves(argument)
-            result = baca.select.lleak(result)
-            return result
-
-        def _rleaked_selector(argument):
-            result = baca.select.pleaves(argument)
-            result = baca.select.lleak(argument)
-            result = baca.select.rleak(argument)
-            return result
-
-        def _make_start_stop_selector(argument, start, stop):
-            result = baca.select.pleaves(argument)
-            result = baca.select.lleak(result)
-            result = result[start:stop]
-            return result
-
-    else:
-
-        def selector(argument):
-            return baca.select.pleaves(argument)
-
-        def _rleaked_selector(argument):
-            result = baca.select.pleaves(argument)
-            result = baca.select.rleak(argument)
-            return result
-
-        def _make_start_stop_selector(argument, start, stop):
-            result = baca.select.pleaves(argument)
-            result = result[start:stop]
-            return result
-
     if rleak_final_stage:
-        baca.untie(_rleaked_selector(argument))
+        leaves = baca.select.pleaves(argument)
+        if use_pleaves_lleak is True:
+            leaves = baca.select.lleak(leaves)
+        leaves = baca.select.rleak(leaves)
+        baca.untie(leaves)
     else:
-        baca.untie(selector(argument))
+        leaves = baca.select.pleaves(argument)
+        if use_pleaves_lleak is True:
+            leaves = baca.select.lleak(leaves)
+        baca.untie(leaves)
     start, stop = 0, None
     for pair_1, pair_2 in abjad.sequence.nwise(pairs):
         start_pitch, leaf_count = pair_1
@@ -2016,13 +1988,17 @@ def multistage_leaf_glissando(
         assert isinstance(stop_pitch, str), repr(stop_pitch)
         assert isinstance(leaf_count, int), repr(leaf_count)
         stop = start + leaf_count
+        leaves = baca.select.pleaves(argument)
+        if use_pleaves_lleak is True:
+            leaves = baca.select.lleak(leaves)
+        leaves = leaves[start:stop]
         baca.glissando(
-            _make_start_stop_selector(argument, start, stop),
+            leaves,
             allow_repeats=True,
             hide_middle_note_heads=True,
         )
         baca.interpolate_pitches(
-            _make_start_stop_selector(argument, start, stop),
+            leaves,
             start_pitch,
             stop_pitch,
         )
