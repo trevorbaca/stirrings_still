@@ -1435,9 +1435,7 @@ def make_declamation_rhythm(time_signatures, *, protract=False):
         music.extend(music_)
     else:
         tag = baca.tags.function_name(inspect.currentframe(), n=2)
-        durations = baca.sequence.split(
-            baca.sequence.fuse(durations), [(1, 4)]
-        )
+        durations = baca.sequence.split(baca.sequence.fuse(durations), [(1, 4)])
         durations = abjad.sequence.flatten(durations, depth=-1)
         music = tuplet_rhythm_maker(durations)
     return music
