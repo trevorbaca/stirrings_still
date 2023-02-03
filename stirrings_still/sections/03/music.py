@@ -8,6 +8,13 @@ from stirrings_still import library
 #########################################################################################
 
 
+def grouped_pheads(argument, start=0, stop=None):
+    pheads = baca.select.pheads(argument)
+    pheads = pheads[start:stop]
+    lists = [[_] for _ in pheads]
+    return lists
+
+
 def make_empty_score():
     score = library.make_empty_score()
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
@@ -677,14 +684,6 @@ def v1_v2_va(cache):
 
 
 def tutti(cache):
-    def grouped_pheads(start=0, stop=None):
-        def selector(argument):
-            result = baca.select.pheads(argument)
-            result = result[start:stop]
-            return [[_] for _ in result]
-
-        return selector
-
     for name in ["v1", "v2", "va", "vc"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
@@ -798,28 +797,32 @@ def tutti(cache):
                 o,
                 "pp pp p p mp mp",
                 bookend=False,
-                pieces=grouped_pheads(),
+                # pieces=grouped_pheads(),
+                the_pieces=grouped_pheads(o),
             )
         with baca.scope(m.get(40, 43)) as o:
             baca.hairpin(
                 o,
                 "mf mp mp p p pp pp",
                 bookend=False,
-                pieces=grouped_pheads(),
+                # pieces=grouped_pheads(),
+                the_pieces=grouped_pheads(o),
             )
         with baca.scope(m.get(44, 47)) as o:
             baca.hairpin(
                 o,
                 "pp pp p mp mf",
                 bookend=False,
-                pieces=grouped_pheads(),
+                # pieces=grouped_pheads(),
+                the_pieces=grouped_pheads(o),
             )
         with baca.scope(m.get(48, 51)) as o:
             baca.hairpin(
                 o,
                 "f mf mp mp p p pp",
                 bookend=False,
-                pieces=grouped_pheads(),
+                # pieces=grouped_pheads(),
+                the_pieces=grouped_pheads(o),
             )
         with baca.scope(m.get(52, 55)) as o:
             baca.hairpin(
@@ -827,7 +830,8 @@ def tutti(cache):
                 # "pp p mp mf f ff",
                 "pp p mp mf f",
                 bookend=False,
-                pieces=grouped_pheads(None, -1),
+                # pieces=grouped_pheads(None, -1),
+                the_pieces=grouped_pheads(o, None, -1),
             )
         with baca.scope(m.get(36, 59)) as o:
             baca.circle_bow_spanner(
