@@ -463,7 +463,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=True,
             bookend=False,
-            pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
+            the_pieces=library.rleaves_partition_by_ratio(o, (1, 1, 1)),
         )
         baca.flat_glissando(o, "Bqf5")
     with baca.scope(m.get(5, 8)) as o:
@@ -698,7 +698,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=True,
             bookend=False,
-            pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
+            the_pieces=library.rleaves_partition_by_ratio(o, (1, 1, 1)),
         )
         baca.flat_glissando(o, "Bb4")
     with baca.scope(m.get(5, 8)) as o:
@@ -880,7 +880,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=True,
             bookend=False,
-            pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
+            the_pieces=library.rleaves_partition_by_ratio(o, (1, 1, 1)),
         )
         baca.flat_glissando(o, "Bqf3")
     with baca.scope(m.get(5, 11)) as o:
@@ -1069,7 +1069,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=True,
             bookend=False,
-            pieces=library.rleaves_partition_by_ratio((1, 1, 1)),
+            the_pieces=library.rleaves_partition_by_ratio(o, (1, 1, 1)),
         )
         baca.flat_glissando(o, "Bb2")
     with baca.scope(m.get(5, 8)) as o:
