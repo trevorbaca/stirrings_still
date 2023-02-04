@@ -1303,7 +1303,8 @@ def make_accelerando(time_signatures, start, stop):
 def make_cello_cell_rhythm(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.quarters([sum(durations)])
+    durations = [sum(durations)]
+    durations = baca.sequence.quarters(durations)
     nested_music = rmakers.talea(durations, [3, 1, 2, 2], 16, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     rmakers.beam(voice, tag=tag)
