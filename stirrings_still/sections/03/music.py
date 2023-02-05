@@ -733,7 +733,7 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 autodetect_right_padding=True,
                 bookend=False,
-                pieces=lambda _: baca.select.omgroups(_, [2]),
+                the_pieces=baca.select.omgroups(o.rleaves(), [2]),
             )
         with baca.scope(m.get(12, 27)) as o:
             baca.breathe(o.pleaf(-1))
@@ -743,24 +743,26 @@ def tutti(cache):
             )
         with baca.scope(m.get(16, 19)) as o:
             baca.dynamic(o.phead(0), "p", redundant=True)
+            leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.text_spanner(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                leaves,
                 r"\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 autodetect_right_padding=True,
                 bookend=False,
-                pieces=lambda _: baca.select.omgroups(_, [2]),
+                the_pieces=baca.select.omgroups(leaves, [2]),
             ),
         with baca.scope(m.get(20, 23)) as o:
             baca.dynamic(o.phead(0), "p", redundant=True)
+            leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.text_spanner(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                leaves,
                 r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 library.left_broken_circle_bow_tweak(),
                 autodetect_right_padding=True,
                 bookend=False,
-                pieces=lambda _: baca.select.omgroups(_, [2]),
+                the_pieces=baca.select.omgroups(leaves, [2]),
             )
         with baca.scope(m.get(24, 27)) as o:
             baca.dynamic(o.phead(0), "p", redundant=True)
@@ -783,7 +785,7 @@ def tutti(cache):
                 o,
                 "mf mf mp p pp pp",
                 bookend=False,
-                pieces=lambda _: baca.select.runs(_),
+                the_pieces=baca.select.runs(o),
             )
         with baca.scope(m.get(36, 39)) as o:
             baca.hairpin(
@@ -879,7 +881,7 @@ def tutti(cache):
                 # spanner terminates at double bar:
                 (abjad.Tweak(r"- \tweak bound-details.right.padding 7.75"), -1),
                 bookend=False,
-                pieces=lambda _: baca.select.mgroups(_, [3, 3 + 1]),
+                the_pieces=baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
             )
 
 

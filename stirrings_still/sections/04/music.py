@@ -510,7 +510,7 @@ def v1(cache):
             o.rleaves(),
             "T -> P -> T -> P =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=lambda _: baca.select.lparts(_, [1, 2, 1, 4 + 1]),
+            the_pieces=baca.select.lparts(o.rleaves(), [1, 2, 1, 4 + 1]),
         )
 
 
@@ -529,7 +529,7 @@ def v1_v2(cache):
                 o.rleaves(),
                 "(p) < mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
-                pieces=lambda _: baca.select.mgroups(_, [3, 4 + 1]),
+                the_pieces=baca.select.mgroups(o.rleaves(), [3, 4 + 1]),
             )
         with baca.scope(m.get(90, 92)) as o:
             library.urtext_spanner(o.rleaves(), "urtext (NEW cds) -|", 8)
@@ -563,7 +563,7 @@ def v1_v2_va(cache):
                 baca.hairpin(
                     o,
                     "p <| mp p < mp",
-                    pieces=lambda _: baca.select.clparts(_, [1]),
+                    the_pieces=baca.select.clparts(o, [1]),
                 )
                 baca.stop_on_string(o.pleaf(-1))
                 baca.tasto_spanner(
@@ -641,7 +641,7 @@ def v1_v2_va(cache):
                 "P -> T =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
-                pieces=lambda _: baca.select.mgroups(_, [2, 1 + 1]),
+                the_pieces=baca.select.mgroups(o.rleaves(), [2, 1 + 1]),
             )
             library.urtext_spanner(o.rleaves(), "urtext (resumes) -|", 8)
         with baca.scope(m.get(97, 98)) as o:
@@ -687,28 +687,28 @@ def tutti_1(cache):
                 o,
                 "mp p",
                 bookend=False,
-                pieces=lambda _: baca.select.lts(_, nontrivial=True),
+                the_pieces=baca.select.lts(o, nontrivial=True),
             )
         with baca.scope(m.get(13, 18)) as o:
             baca.hairpin(
                 o,
                 "mf mp",
                 bookend=False,
-                pieces=lambda _: baca.select.lts(_, nontrivial=True),
+                the_pieces=baca.select.lts(o, nontrivial=True),
             )
         with baca.scope(m.get(19, 24)) as o:
             baca.hairpin(
                 o,
                 '"f" mf',
                 bookend=False,
-                pieces=lambda _: baca.select.lts(_, nontrivial=True),
+                the_pieces=baca.select.lts(o, nontrivial=True),
             )
         with baca.scope(m.get(25, 30)) as o:
             baca.hairpin(
                 o,
                 '"ff" "f"',
                 bookend=False,
-                pieces=lambda _: baca.select.lts(_, nontrivial=True),
+                the_pieces=baca.select.lts(o, nontrivial=True),
             )
         with baca.scope(m.get(31, 36)) as o:
             baca.dynamic(o.phead(0), '"ff"')
@@ -763,7 +763,7 @@ def v2(cache):
             o.rleaves(),
             "T -> P -> T -> P =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=lambda _: baca.select.lparts(_, [2, 1, 1, 4 + 1]),
+            the_pieces=baca.select.lparts(o.rleaves(), [2, 1, 1, 4 + 1]),
         )
 
 
@@ -877,7 +877,7 @@ def vc(cache):
             o.rleaves(),
             "(p) < fff -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            pieces=lambda _: baca.select.mgroups(_, [3, 4 + 1]),
+            the_pieces=baca.select.mgroups(o.rleaves(), [3, 4 + 1]),
         )
     with baca.scope(cache["vcr"][93]) as o:
         baca.tacet(o.mmrests())
