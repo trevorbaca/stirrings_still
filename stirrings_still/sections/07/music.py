@@ -395,12 +395,13 @@ def tutti(cache):
             baca.hairpin(o.rleaves(), "pp < mf")
             baca.hairpin_shorten_pair(o, (0, 5))
             baca.untie(o.leaves())
+            leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.scp_spanner(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                leaves,
                 "T -> P ->",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 autodetect_right_padding=False,
-                pieces=lambda _: baca.select.plts(_)[:-1],
+                the_pieces=baca.select.plts(leaves)[:-1],
             )
             baca.stem_tremolo(o.pleaves())
             baca.tuplet_bracket_down(o)
@@ -543,7 +544,7 @@ def vc(cache):
             baca.hairpin(
                 o.rleaves(),
                 "o< f >o !",
-                pieces=lambda _: baca.select.lparts(_, [1, 2]),
+                the_pieces=baca.select.lparts(o.rleaves(), [1, 2]),
             )
     with baca.scope(m.get(5, 6)) as o:
         baca.tacet(o.mmrests())
@@ -551,13 +552,13 @@ def vc(cache):
         baca.hairpin(
             o.rleaves(),
             "o< f -- !",
-            pieces=lambda _: baca.select.lparts(_, [1, 2]),
+            the_pieces=baca.select.lparts(o.rleaves(), [1, 2]),
         )
     with baca.scope(m[14]) as o:
         baca.hairpin(
             o.rleaves(),
             "f -- ! >o niente",
-            pieces=lambda _: baca.select.lparts(_, [1, 2]),
+            the_pieces=baca.select.lparts(o.rleaves(), [1, 2]),
         )
     with baca.scope(m[19]) as o:
         baca.clef(o.leaf(0), "treble")

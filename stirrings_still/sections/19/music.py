@@ -175,7 +175,7 @@ def v1(cache):
             baca.hairpin(
                 o,
                 "p > ppp <",
-                pieces=lambda _: baca.select.cmgroups(_),
+                the_pieces=baca.select.cmgroups(o),
             )
 
 
@@ -200,7 +200,7 @@ def v2(cache):
             )
             baca.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
             baca.flat_glissando(o, "F4")
-            baca.hairpin(o, "ppp < p >", pieces=lambda _: baca.select.cmgroups(_))
+            baca.hairpin(o, "ppp < p >", the_pieces=baca.select.cmgroups(o))
 
 
 def va(cache):
@@ -231,21 +231,21 @@ def vc(cache):
             o.rleaves(),
             "o< f -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            pieces=lambda _: baca.select.mgroups(_, [1, 1 + 1]),
+            the_pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
         )
     with baca.scope(m.get(6, 8)) as o:
         baca.hairpin(
             o.rleaves(),
             "o< ff -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            pieces=lambda _: baca.select.mgroups(_, [1, 2 + 1]),
+            the_pieces=baca.select.mgroups(o.rleaves(), [1, 2 + 1]),
         )
     with baca.scope(m.get(10, 15)) as o:
         baca.hairpin(
             o.rleaves(),
             "o< fff -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            pieces=lambda _: baca.select.mgroups(_, [2, 4 + 1]),
+            the_pieces=baca.select.mgroups(o.rleaves(), [2, 4 + 1]),
         )
     with baca.scope(m[20]) as o:
         baca.literal(
