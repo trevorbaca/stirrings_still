@@ -221,16 +221,17 @@ def v1(cache):
         baca.hairpin(
             o,
             "f < ff >",
-            pieces=lambda _: abjad.select.partition_by_counts(
-                baca.select.plts(_)[:-1], [2], cyclic=True
+            the_pieces=abjad.select.partition_by_counts(
+                baca.select.plts(o)[:-1], [2], cyclic=True
             ),
         )
+        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
-            pieces=lambda _: baca.select.plts(_)[:-1],
+            the_pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[29]) as o:
@@ -251,16 +252,17 @@ def v1(cache):
         baca.hairpin(
             o,
             "ff < fff >",
-            pieces=lambda _: abjad.select.partition_by_counts(
-                baca.select.plts(_)[:-1], [2], cyclic=True
+            the_pieces=abjad.select.partition_by_counts(
+                baca.select.plts(o)[:-1], [2], cyclic=True
             ),
         )
+        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
-            pieces=lambda _: baca.select.plts(_)[:-1],
+            the_pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
@@ -269,7 +271,7 @@ def v1(cache):
         baca.hairpin(
             o.rleaves(),
             "p -- ! >o niente",
-            pieces=lambda _: baca.select.cmgroups(_),
+            the_pieces=baca.select.cmgroups(o.rleaves()),
         )
         baca.text_spanner(
             o.rleaves(),
@@ -362,16 +364,17 @@ def v2(cache):
         baca.hairpin(
             o,
             "f < ff >",
-            pieces=lambda _: abjad.select.partition_by_counts(
-                baca.select.plts(_)[:-1], [2], cyclic=True
+            the_pieces=abjad.select.partition_by_counts(
+                baca.select.plts(o)[:-1], [2], cyclic=True
             ),
         )
+        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
-            pieces=lambda _: baca.select.plts(_)[:-1],
+            the_pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[29]) as o:
@@ -392,16 +395,17 @@ def v2(cache):
         baca.hairpin(
             o,
             "ff < fff >",
-            pieces=lambda _: abjad.select.partition_by_counts(
-                baca.select.plts(_)[:-1], [2], cyclic=True
+            the_pieces=abjad.select.partition_by_counts(
+                baca.select.plts(o)[:-1], [2], cyclic=True
             ),
         )
+        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
-            pieces=lambda _: baca.select.plts(_)[:-1],
+            the_pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
@@ -410,7 +414,7 @@ def v2(cache):
         baca.hairpin(
             o.rleaves(),
             "p -- ! >o niente",
-            pieces=lambda _: baca.select.cmgroups(_),
+            the_pieces=baca.select.cmgroups(o.rleaves()),
         )
         baca.text_spanner(
             o.rleaves(),
@@ -466,16 +470,17 @@ def va(cache):
         baca.hairpin(
             o,
             "f < ff >",
-            pieces=lambda _: abjad.select.partition_by_counts(
-                baca.select.plts(_)[:-1], [2], cyclic=True
+            the_pieces=abjad.select.partition_by_counts(
+                baca.select.plts(o)[:-1], [2], cyclic=True
             ),
         )
+        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
-            pieces=lambda _: baca.select.plts(_)[:-1],
+            the_pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[29]) as o:
@@ -496,16 +501,17 @@ def va(cache):
         baca.hairpin(
             o,
             "ff < fff >",
-            pieces=lambda _: abjad.select.partition_by_counts(
-                baca.select.plts(_)[:-1], [2], cyclic=True
+            the_pieces=abjad.select.partition_by_counts(
+                baca.select.plts(o)[:-1], [2], cyclic=True
             ),
         )
+        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
-            pieces=lambda _: baca.select.plts(_)[:-1],
+            the_pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
@@ -514,7 +520,7 @@ def va(cache):
         baca.hairpin(
             o.rleaves(),
             "p -- ! >o niente",
-            pieces=lambda _: baca.select.cmgroups(_),
+            the_pieces=baca.select.cmgroups(o.rleaves()),
         )
         baca.text_spanner(
             o.rleaves(),
@@ -555,16 +561,17 @@ def vc(cache):
         baca.hairpin(
             o,
             "f < ff >",
-            pieces=lambda _: abjad.select.partition_by_counts(
-                baca.select.plts(_)[:-1], [2], cyclic=True
+            the_pieces=abjad.select.partition_by_counts(
+                baca.select.plts(o)[:-1], [2], cyclic=True
             ),
         )
+        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
-            pieces=lambda _: baca.select.plts(_)[:-1],
+            the_pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(23, 28)) as o:
@@ -598,16 +605,17 @@ def vc(cache):
         baca.hairpin(
             o,
             "ff < fff >",
-            pieces=lambda _: abjad.select.partition_by_counts(
-                baca.select.plts(_)[:-1], [2], cyclic=True
+            the_pieces=abjad.select.partition_by_counts(
+                baca.select.plts(o)[:-1], [2], cyclic=True
             ),
         )
+        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
-            pieces=lambda _: baca.select.plts(_)[:-1],
+            the_pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
@@ -615,7 +623,7 @@ def vc(cache):
         baca.hairpin(
             o.rleaves(),
             "p -- ! >o niente",
-            pieces=lambda _: baca.select.cmgroups(_),
+            the_pieces=baca.select.cmgroups(o.rleaves()),
         )
         baca.tasto_spanner(
             o.rleaves(),
