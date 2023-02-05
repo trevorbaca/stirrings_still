@@ -165,7 +165,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o.rleaves(),
                 '"f" > p p < "ff" > p p < "fff" > p p < "fff" >o !',
-                the_pieces=baca.select.mgroups(
+                pieces=baca.select.mgroups(
                     o.rleaves(), [2, 1, 1, 2, 1, 1, 2, 1, 1, 4 + 1]
                 ),
             )
@@ -378,7 +378,7 @@ def vc(cache):
         baca.hairpin(
             o,
             "p < ff ff > p < ff ff > p < fff fff > p < fff",
-            the_pieces=baca.select.cmgroups(o, [2, 1, 1]),
+            pieces=baca.select.cmgroups(o, [2, 1, 1]),
         )
 
 

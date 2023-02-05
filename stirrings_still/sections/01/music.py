@@ -620,7 +620,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "p <| f p < mp",
-                the_pieces=baca.select.clparts(o, [1]),
+                pieces=baca.select.clparts(o, [1]),
             )
             baca.scp_spanner(
                 baca.select.rleak(baca.select.ltleaves(o)),
@@ -645,7 +645,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "p <| f p < mf",
-                the_pieces=baca.select.clparts(o, [1]),
+                pieces=baca.select.clparts(o, [1]),
             )
         for item in [3, (5, 6), (8, 9)]:
             with baca.scope(m.get(item)) as o:
@@ -658,14 +658,14 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "p <| f p < mf-poco-scratch",
-                the_pieces=baca.select.clparts(o, [1]),
+                pieces=baca.select.clparts(o, [1]),
             )
         with baca.scope(m.get(8, 9)) as o:
             baca.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
                 o,
                 "p <| f p < f-poco-scratch",
-                the_pieces=baca.select.clparts(o, [1]),
+                pieces=baca.select.clparts(o, [1]),
             )
         with baca.scope(m.get(11, 16)) as o:
             baca.dynamic_text_self_alignment_x(o.leaf(2), -1)
@@ -674,7 +674,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 leaves,
                 "p < f-scratch -- ! >o niente",
-                the_pieces=baca.select.omgroups(leaves, [1, 2]),
+                pieces=baca.select.omgroups(leaves, [1, 2]),
             )
             baca.tasto_spanner(
                 o.rleaves(),
@@ -688,7 +688,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "pp <| p pp <| p",
-                the_pieces=baca.select.clparts(o, [1]),
+                pieces=baca.select.clparts(o, [1]),
             )
         for n in [18, 20, 22, 25, 29]:
             with baca.scope(m.get(n)) as o:
@@ -706,14 +706,14 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "pp <| p pp <| mp",
-                the_pieces=baca.select.clparts(o, [1]),
+                pieces=baca.select.clparts(o, [1]),
             )
         with baca.scope(m[22]) as o:
             baca.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
                 o,
                 "pp <| p pp <| mf",
-                the_pieces=baca.select.clparts(o, [1]),
+                pieces=baca.select.clparts(o, [1]),
             )
         with baca.scope(m[23]) as o:
             baca.circle_bow_spanner(
@@ -731,7 +731,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "pp <| p pp <| f",
-                the_pieces=baca.select.clparts(o, [1]),
+                pieces=baca.select.clparts(o, [1]),
             )
         with baca.scope(m[26]) as o:
             baca.circle_bow_spanner(
@@ -753,7 +753,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "pp <| p pp <| ff",
-                the_pieces=baca.select.clparts(o, [1]),
+                pieces=baca.select.clparts(o, [1]),
             )
         with baca.scope(m[30]) as o:
             baca.dynamic(o.phead(0), "ppp")
@@ -778,7 +778,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "p <| f p < mp",
-                the_pieces=baca.select.clparts(o, [1]),
+                pieces=baca.select.clparts(o, [1]),
             )
             baca.stop_on_string(o.pleaf(-1))
             baca.tasto_spanner(
@@ -799,7 +799,7 @@ def tutti(cache):
                 o.rleaves(),
                 "o< mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
-                the_pieces=baca.select.mgroups(o.rleaves(), [1, 2]),
+                pieces=baca.select.mgroups(o.rleaves(), [1, 2]),
             )
             baca.markup(
                 o.pleaf(0),
@@ -821,7 +821,7 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 autodetect_right_padding=True,
                 bookend=False,
-                the_pieces=baca.select.mgroups(o.rleaves(), [1, 2]),
+                pieces=baca.select.mgroups(o.rleaves(), [1, 2]),
             )
             library.urtext_spanner(
                 o.rleaves(),
@@ -1017,7 +1017,7 @@ def vc(cache):
         baca.hairpin(
             o.rleaves(),
             "niente o< f >o !",
-            the_pieces=baca.select.lparts(o.rleaves(), [1, 1 + 1]),
+            pieces=baca.select.lparts(o.rleaves(), [1, 1 + 1]),
         )
         baca.pitch(o, "B1")
         library.clouded_pane_spanner(
@@ -1046,7 +1046,7 @@ def vc(cache):
             o.rleaves(),
             'niente o< "f" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            the_pieces=baca.select.mgroups(o.rleaves(), [1, 2]),
+            pieces=baca.select.mgroups(o.rleaves(), [1, 2]),
         )
         baca.half_clt_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),

@@ -401,7 +401,7 @@ def tutti(cache):
                 "T -> P ->",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 autodetect_right_padding=False,
-                the_pieces=baca.select.plts(leaves)[:-1],
+                pieces=baca.select.plts(leaves)[:-1],
             )
             baca.stem_tremolo(o.pleaves())
             baca.tuplet_bracket_down(o)
@@ -544,7 +544,7 @@ def vc(cache):
             baca.hairpin(
                 o.rleaves(),
                 "o< f >o !",
-                the_pieces=baca.select.lparts(o.rleaves(), [1, 2]),
+                pieces=baca.select.lparts(o.rleaves(), [1, 2]),
             )
     with baca.scope(m.get(5, 6)) as o:
         baca.tacet(o.mmrests())
@@ -552,13 +552,13 @@ def vc(cache):
         baca.hairpin(
             o.rleaves(),
             "o< f -- !",
-            the_pieces=baca.select.lparts(o.rleaves(), [1, 2]),
+            pieces=baca.select.lparts(o.rleaves(), [1, 2]),
         )
     with baca.scope(m[14]) as o:
         baca.hairpin(
             o.rleaves(),
             "f -- ! >o niente",
-            the_pieces=baca.select.lparts(o.rleaves(), [1, 2]),
+            pieces=baca.select.lparts(o.rleaves(), [1, 2]),
         )
     with baca.scope(m[19]) as o:
         baca.clef(o.leaf(0), "treble")
