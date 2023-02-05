@@ -162,7 +162,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "appena-udibile -- ! < fff-poco-scratch",
-                the_pieces=baca.select.mgroups(o, [2, 5]),
+                pieces=baca.select.mgroups(o, [2, 5]),
             )
         with baca.scope(m.get(5, 11)) as o:
             library.urtext_spanner(o.rleaves(), "urtext (ds field) -|", 8)
@@ -171,7 +171,7 @@ def v1_v2_va(cache):
                 o.rleaves(),
                 '"fff" > pp -- !',
                 abjad.Tweak(r"- \tweak to-barline ##t"),
-                the_pieces=baca.select.mgroups(o.rleaves(), [2, 4 + 1]),
+                pieces=baca.select.mgroups(o.rleaves(), [2, 4 + 1]),
             )
             baca.half_clt_spanner(
                 # TODO: allow spanner to extend to phantom measure

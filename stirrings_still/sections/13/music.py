@@ -226,7 +226,7 @@ def v1_v2_va(cache):
                 o,
                 "o< f >o",
                 bookend=False,
-                the_pieces=baca.select.mgroups(o, [8, 4]),
+                pieces=baca.select.mgroups(o, [8, 4]),
             )
         with baca.scope(m.get(13, 16)) as o:
             baca.hairpin(
@@ -243,7 +243,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "o< fff >o ! o< fff",
-                the_pieces=baca.select.mgroups(o, [5, 3, 4]),
+                pieces=baca.select.mgroups(o, [5, 3, 4]),
             )
         with baca.scope(m.get(1, 8)) as o:
             library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 8)
@@ -436,9 +436,7 @@ def vc(cache):
             o.rleaves(),
             "(fff) > f < fff -- (fff) > f < fff -- (fff) > f < fff",
             bookend=False,
-            the_pieces=baca.select.mgroups(
-                o.rleaves(), [2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]
-            ),
+            pieces=baca.select.mgroups(o.rleaves(), [2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]),
         )
     with baca.scope(m.get(29)) as o:
         baca.hairpin_to_barline(o.leaf(0))

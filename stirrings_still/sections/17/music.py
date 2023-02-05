@@ -460,7 +460,7 @@ def v1(cache):
         baca.hairpin(
             o.rleaves(),
             'o< fff -- "fff" >o !',
-            the_pieces=baca.select.mgroups(o.rleaves(), [4, 4, 7 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [4, 4, 7 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=3.5)
@@ -495,7 +495,7 @@ def v1(cache):
         baca.hairpin(
             o.rleaves(),
             'o< ff -- "ff" >o !',
-            the_pieces=baca.select.mgroups(o.rleaves(), [3, 4, 6 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [3, 4, 6 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=3.5)
@@ -530,7 +530,7 @@ def v1(cache):
         baca.hairpin(
             o.rleaves(),
             'o< f -- "f" >o !',
-            the_pieces=baca.select.mgroups(o.rleaves(), [3, 2, 5 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [3, 2, 5 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=3.5)
@@ -565,7 +565,7 @@ def v1(cache):
         baca.hairpin(
             o.rleaves(),
             'o< mf -- "mf" >o !',
-            the_pieces=baca.select.mgroups(o.rleaves(), [2, 2, 4 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [2, 2, 4 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=4.5)
@@ -600,7 +600,7 @@ def v1(cache):
         baca.hairpin(
             o.rleaves(),
             "o< mp -- mp >o !",
-            the_pieces=baca.select.mgroups(o.rleaves(), [1, 1, 3 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [1, 1, 3 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=4.5)
@@ -628,7 +628,7 @@ def v1(cache):
         baca.hairpin(
             o.rleaves(),
             "o< p >o !",
-            the_pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=4.5)
@@ -698,7 +698,7 @@ def v2(cache):
         baca.hairpin(
             o.rleaves(),
             'fff -- "fff" >o !',
-            the_pieces=baca.select.mgroups(o.rleaves(), [4, 4 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [4, 4 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
@@ -725,7 +725,7 @@ def v2(cache):
         baca.hairpin(
             o.rleaves(),
             'ff -- "ff" >o !',
-            the_pieces=baca.select.mgroups(o.rleaves(), [4, 3 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [4, 3 + 1]),
         ),
         baca.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
@@ -752,7 +752,7 @@ def v2(cache):
         baca.hairpin(
             o.rleaves(),
             'f -- "f" >o !',
-            the_pieces=baca.select.mgroups(o.rleaves(), [2, 3 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [2, 3 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
@@ -779,7 +779,7 @@ def v2(cache):
         baca.hairpin(
             o.rleaves(),
             'mf -- "mf" >o !',
-            the_pieces=baca.select.mgroups(o.rleaves(), [2, 2 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [2, 2 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
@@ -810,7 +810,7 @@ def v2(cache):
         baca.hairpin(
             o.rleaves(),
             "mp -- mp >o !",
-            the_pieces=baca.select.mgroups(o.rleaves(), [1, 2 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [1, 2 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
@@ -893,7 +893,7 @@ def va(cache):
         baca.hairpin(
             o.rleaves(),
             'o< fff -- "fff" >o !',
-            the_pieces=baca.select.mgroups(o.rleaves(), [4, 4, 4 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [4, 4, 4 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
@@ -928,7 +928,7 @@ def va(cache):
         baca.hairpin(
             o.rleaves(),
             'o< ff -- "ff" >o !',
-            the_pieces=baca.select.mgroups(o.rleaves(), [3, 4, 3 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [3, 4, 3 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
@@ -963,7 +963,7 @@ def va(cache):
         baca.hairpin(
             o,
             'o< f -- "f" >o !',
-            the_pieces=baca.select.mgroups(o, [3, 2, 3 + 1]),
+            pieces=baca.select.mgroups(o, [3, 2, 3 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
@@ -998,7 +998,7 @@ def va(cache):
         baca.hairpin(
             o.rleaves(),
             'o< mf -- "mf" >o !',
-            the_pieces=baca.select.mgroups(o.rleaves(), [2, 2, 2 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [2, 2, 2 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
@@ -1032,7 +1032,7 @@ def va(cache):
         baca.hairpin(
             o.rleaves(),
             "o< mp -- mp >o !",
-            the_pieces=baca.select.mgroups(o.rleaves(), [1, 1, 2 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [1, 1, 2 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
@@ -1060,7 +1060,7 @@ def va(cache):
         baca.hairpin(
             o.rleaves(),
             "o< p >o !",
-            the_pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
@@ -1113,7 +1113,7 @@ def vc(cache):
         baca.hairpin(
             o.rleaves(),
             'o< fff -- "fff" >o !',
-            the_pieces=baca.select.mgroups(o.rleaves(), [4, 4, 4 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [4, 4, 4 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
@@ -1151,7 +1151,7 @@ def vc(cache):
         baca.hairpin(
             o.rleaves(),
             'o< ff -- "ff" >o !',
-            the_pieces=baca.select.mgroups(o.rleaves(), [3, 4, 3 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [3, 4, 3 + 1]),
         )
         baca.dynamic_text_x_offset(o.leaf(-1), -3)
         baca.tuplet_bracket_down(o)
@@ -1190,7 +1190,7 @@ def vc(cache):
         baca.hairpin(
             o.rleaves(),
             'o< f -- "f" >o !',
-            the_pieces=baca.select.mgroups(o.rleaves(), [3, 2, 3 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [3, 2, 3 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
@@ -1228,7 +1228,7 @@ def vc(cache):
         baca.hairpin(
             o.rleaves(),
             'o< mf -- "mf" >o !',
-            the_pieces=baca.select.mgroups(o.rleaves(), [2, 2, 2 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [2, 2, 2 + 1]),
         ),
         baca.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
@@ -1270,7 +1270,7 @@ def vc(cache):
         baca.hairpin(
             o.rleaves(),
             "o< mp -- mp >o !",
-            the_pieces=baca.select.mgroups(o.rleaves(), [1, 1, 2 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [1, 1, 2 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
@@ -1301,7 +1301,7 @@ def vc(cache):
         baca.hairpin(
             o.rleaves(),
             "o< p >o !",
-            the_pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
         )
         baca.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)

@@ -216,9 +216,9 @@ def vc(cache):
             'p < "f" -- "f" >o niente',
             # TODO: extend hairpin to phantom measure
             # following two lines should remain
-            # the_pieces=baca.select.mgroups(_, [5, 4, 2 + 1]),
+            # pieces=baca.select.mgroups(_, [5, 4, 2 + 1]),
             # temporary:
-            the_pieces=baca.select.mgroups(o.leaves(), [5, 4, 1 + 1]),
+            pieces=baca.select.mgroups(o.leaves(), [5, 4, 1 + 1]),
         )
         baca.half_clt_spanner(
             o.leaves(),

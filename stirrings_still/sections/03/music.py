@@ -733,7 +733,7 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 autodetect_right_padding=True,
                 bookend=False,
-                the_pieces=baca.select.omgroups(o.rleaves(), [2]),
+                pieces=baca.select.omgroups(o.rleaves(), [2]),
             )
         with baca.scope(m.get(12, 27)) as o:
             baca.breathe(o.pleaf(-1))
@@ -750,7 +750,7 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 autodetect_right_padding=True,
                 bookend=False,
-                the_pieces=baca.select.omgroups(leaves, [2]),
+                pieces=baca.select.omgroups(leaves, [2]),
             ),
         with baca.scope(m.get(20, 23)) as o:
             baca.dynamic(o.phead(0), "p", redundant=True)
@@ -762,7 +762,7 @@ def tutti(cache):
                 library.left_broken_circle_bow_tweak(),
                 autodetect_right_padding=True,
                 bookend=False,
-                the_pieces=baca.select.omgroups(leaves, [2]),
+                pieces=baca.select.omgroups(leaves, [2]),
             )
         with baca.scope(m.get(24, 27)) as o:
             baca.dynamic(o.phead(0), "p", redundant=True)
@@ -785,35 +785,35 @@ def tutti(cache):
                 o,
                 "mf mf mp p pp pp",
                 bookend=False,
-                the_pieces=baca.select.runs(o),
+                pieces=baca.select.runs(o),
             )
         with baca.scope(m.get(36, 39)) as o:
             baca.hairpin(
                 o,
                 "pp pp p p mp mp",
                 bookend=False,
-                the_pieces=library.grouped_pheads(o),
+                pieces=library.grouped_pheads(o),
             )
         with baca.scope(m.get(40, 43)) as o:
             baca.hairpin(
                 o,
                 "mf mp mp p p pp pp",
                 bookend=False,
-                the_pieces=library.grouped_pheads(o),
+                pieces=library.grouped_pheads(o),
             )
         with baca.scope(m.get(44, 47)) as o:
             baca.hairpin(
                 o,
                 "pp pp p mp mf",
                 bookend=False,
-                the_pieces=library.grouped_pheads(o),
+                pieces=library.grouped_pheads(o),
             )
         with baca.scope(m.get(48, 51)) as o:
             baca.hairpin(
                 o,
                 "f mf mp mp p p pp",
                 bookend=False,
-                the_pieces=library.grouped_pheads(o),
+                pieces=library.grouped_pheads(o),
             )
         with baca.scope(m.get(52, 55)) as o:
             baca.hairpin(
@@ -821,7 +821,7 @@ def tutti(cache):
                 # "pp p mp mf f ff",
                 "pp p mp mf f",
                 bookend=False,
-                the_pieces=library.grouped_pheads(o, None, -1),
+                pieces=library.grouped_pheads(o, None, -1),
             )
         with baca.scope(m.get(36, 59)) as o:
             baca.circle_bow_spanner(
@@ -881,7 +881,7 @@ def tutti(cache):
                 # spanner terminates at double bar:
                 (abjad.Tweak(r"- \tweak bound-details.right.padding 7.75"), -1),
                 bookend=False,
-                the_pieces=baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
+                pieces=baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
             )
 
 
@@ -897,7 +897,7 @@ def vc(cache):
         baca.hairpin(
             o.rleaves(),
             "o< f >o niente",
-            the_pieces=library.rleaves_partition_by_counts(o.rleaves(), [1, 1, 1]),
+            pieces=library.rleaves_partition_by_counts(o.rleaves(), [1, 1, 1]),
         )
         library.clouded_pane_spanner(
             o.rleaves(),
