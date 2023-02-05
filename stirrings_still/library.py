@@ -1315,7 +1315,7 @@ def make_cello_cell_rhythm(time_signatures):
 
 def make_circle_rhythm(
     time_signatures,
-    duration,
+    weight,
     *,
     force_rest_lts=None,
     force_rest_tuplets=None,
@@ -1324,13 +1324,12 @@ def make_circle_rhythm(
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
     durations = [sum(durations)]
-    durations = baca.sequence.split(
-        durations,
-        [duration],
-        cyclic=True,
-        remainder=remainder,
-    )
-    durations = abjad.sequence.flatten(durations)
+    weights = [abjad.Duration(weight)]
+    without_overhang = abjad.sequence.split(durations, weights, cyclic=True)
+    durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
+    if durations != without_overhang and remainder == abjad.LEFT:
+        final_list = durations.pop()
+        durations.insert(0, final_list)
     nested_music = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     if force_rest_tuplets is not None:
@@ -1724,12 +1723,12 @@ def make_picket_rhythm(
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
     durations = [sum(durations)]
-    durations = baca.sequence.split(
-        durations,
-        [(fuse, 4)],
-        cyclic=True,
-        remainder=abjad.LEFT,
-    )
+    weights = [abjad.Duration(fuse, 4)]
+    without_overhang = abjad.sequence.split(durations, weights, cyclic=True)
+    durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
+    if durations != without_overhang:
+        final_list = durations.pop()
+        durations.insert(0, final_list)
     assert isinstance(extra_count, int), repr(extra_count)
     counts = 4 + extra_count
     tuplet_ratio = counts * (1,)
