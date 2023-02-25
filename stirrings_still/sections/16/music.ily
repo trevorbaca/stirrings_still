@@ -911,42 +911,7 @@ number.16.Violin.1.Music = {
 
     a'8
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2.
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
     \times 1/1
     {
 
@@ -1031,42 +996,7 @@ number.16.Violin.1.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2.
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
     \times 1/1
     {
 
@@ -1168,42 +1098,7 @@ number.16.Violin.1.Music = {
     \override Stem.transparent = ##t
     a'2.
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2.
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
     \times 1/1
     {
 
@@ -1360,42 +1255,7 @@ number.16.Violin.1.Music = {
     % [Violin.1.Music measure 15]
     a'2..
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'1
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 }
     \times 1/1
     {
 
@@ -1488,42 +1348,7 @@ number.16.Violin.1.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'1
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 }
     \times 1/1
     {
 
@@ -1633,42 +1458,7 @@ number.16.Violin.1.Music = {
     \override Stem.transparent = ##t
     a'2
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2.
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
     \times 1/1
     {
 
@@ -2211,42 +2001,7 @@ number.16.Violin.2.Music = {
     \bacaStartTextSpanSCP
     \glissando
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2.
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
     \times 1/1
     {
 
@@ -2389,42 +2144,7 @@ number.16.Violin.2.Music = {
     \bacaStartTextSpanSCP
     \glissando
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2.
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
     \times 1/1
     {
 
@@ -2579,42 +2299,7 @@ number.16.Violin.2.Music = {
     % [Violin.2.Music measure 14]
     a2
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2..
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2.. }
     \times 1/1
     {
 
@@ -2747,42 +2432,7 @@ number.16.Violin.2.Music = {
     \bacaStartTextSpanSCP
     \glissando
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'1
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 }
     \times 1/1
     {
 
@@ -2933,42 +2583,7 @@ number.16.Violin.2.Music = {
     \bacaStartTextSpanSCP
     \glissando
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2 }
     \times 1/1
     {
 
@@ -3360,42 +2975,7 @@ number.16.Viola.Music = {
     % [Viola.Music measure 7]
     a2.
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2 }
     \times 1/1
     {
 
@@ -3468,42 +3048,7 @@ number.16.Viola.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2.
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
     \times 1/1
     {
 
@@ -3558,42 +3103,7 @@ number.16.Viola.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2.
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
     \times 1/1
     {
 
@@ -3690,42 +3200,7 @@ number.16.Viola.Music = {
     % [Viola.Music measure 17]
     a1
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2..
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2.. }
     \times 1/1
     {
 
@@ -3810,42 +3285,7 @@ number.16.Viola.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2 }
     \times 1/1
     {
 
@@ -3892,42 +3332,7 @@ number.16.Viola.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2.
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
     \times 1/1
     {
 
@@ -4243,42 +3648,7 @@ number.16.Cello.Music = {
 
     a,8
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2.
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
     \times 1/1
     {
 
@@ -4355,42 +3725,7 @@ number.16.Cello.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2.
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
     \times 1/1
     {
 
@@ -4441,42 +3776,7 @@ number.16.Cello.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2 }
     \times 1/1
     {
 
@@ -4561,42 +3861,7 @@ number.16.Cello.Music = {
     % [Cello.Music measure 15]
     a,2..
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'1
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 }
     \times 1/1
     {
 
@@ -4677,42 +3942,7 @@ number.16.Cello.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'1
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 }
     \times 1/1
     {
 
@@ -4767,42 +3997,7 @@ number.16.Cello.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-        {
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.spacing-increment = 0.5
-                proportionalNotationDuration = ##f
-            }
-            <<
-                \context RhythmicStaff = "Rhythmic_Staff"
-                \with
-                {
-                    \remove Time_signature_engraver
-                    \remove Staff_symbol_engraver
-                    \override Stem.direction = #up
-                    \override Stem.length = 5
-                    \override TupletBracket.bracket-visibility = ##t
-                    \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = 4
-                    \override TupletBracket.padding = 1.25
-                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = 0
-                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                    tupletFullLength = ##t
-                }
-                {
-                    c'2..
-                }
-            >>
-            \layout
-            {
-                indent = 0
-                ragged-right = ##t
-            }
-        }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2.. }
     \times 1/1
     {
 
