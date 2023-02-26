@@ -12,8 +12,8 @@ def make_empty_score():
     score = library.make_empty_score()
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = library.time_signatures("Q")
-    signatures = baca.section.signatures(time_signatures)
-    return score, voices, signatures
+    time_signatures = baca.section.time_signatures(time_signatures)
+    return score, voices, time_signatures
 
 
 def GLOBALS(skips, rests, first_measure_number):
@@ -62,91 +62,91 @@ def GLOBALS(skips, rests, first_measure_number):
     library.time(skips, rests, time)
 
 
-def V1(voice, signatures):
-    music = baca.make_repeat_tied_notes(signatures(1))
+def V1(voice, time_signatures):
+    music = baca.make_repeat_tied_notes(time_signatures(1))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(2, 9),
+        time_signatures(2, 9),
         4,
         [2],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(10, 24),
+        time_signatures(10, 24),
         "C",
         0,
         -3,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(25, 27),
+        time_signatures(25, 27),
         4,
         [2],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(28, 40),
+        time_signatures(28, 40),
         "C",
         0,
         -3,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(41, 42),
+        time_signatures(41, 42),
         4,
         [2],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(43, 52),
+        time_signatures(43, 52),
         "C",
         0,
         -3,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(53, 54),
+        time_signatures(53, 54),
         4,
         [2],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(55, 62),
+        time_signatures(55, 62),
         "C",
         0,
         -3,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(63),
+        time_signatures(63),
         4,
         [2],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(64, 68),
+        time_signatures(64, 68),
         "C",
         0,
         -3,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(69),
+        time_signatures(69),
         4,
         [2],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(70, 71),
+        time_signatures(70, 71),
         "C",
         0,
         -3,
     )
     voice.extend(music)
-    music = baca.make_mmrests(signatures(72), head=voice.name)
+    music = baca.make_mmrests(time_signatures(72), head=voice.name)
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(73, 92),
+        time_signatures(73, 92),
         "C",
         0,
         -3,
@@ -155,91 +155,91 @@ def V1(voice, signatures):
     baca.section.append_anchor_note(voice)
 
 
-def V2(voice, signatures):
-    music = baca.make_repeat_tied_notes(signatures(1))
+def V2(voice, time_signatures):
+    music = baca.make_repeat_tied_notes(time_signatures(1))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(2, 13),
+        time_signatures(2, 13),
         4,
         [1],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(14, 21),
+        time_signatures(14, 21),
         "C",
         -1,
         -2,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(22, 30),
+        time_signatures(22, 30),
         4,
         [1],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(31, 37),
+        time_signatures(31, 37),
         "C",
         -1,
         -2,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(38, 45),
+        time_signatures(38, 45),
         4,
         [1],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(46, 50),
+        time_signatures(46, 50),
         "C",
         -1,
         -2,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(51, 56),
+        time_signatures(51, 56),
         4,
         [1],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(57, 60),
+        time_signatures(57, 60),
         "C",
         -1,
         -2,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(61, 64),
+        time_signatures(61, 64),
         4,
         [1],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(65, 67),
+        time_signatures(65, 67),
         "C",
         -1,
         -2,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(68, 70),
+        time_signatures(68, 70),
         4,
         [1],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(71),
+        time_signatures(71),
         "C",
         -1,
         -2,
     )
     voice.extend(music)
-    music = baca.make_mmrests(signatures(72), head=voice.name)
+    music = baca.make_mmrests(time_signatures(72), head=voice.name)
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(73, 92),
+        time_signatures(73, 92),
         "C",
         -1,
         -2,
@@ -248,179 +248,179 @@ def V2(voice, signatures):
     baca.section.append_anchor_note(voice)
 
 
-def VA(voice, signatures):
-    music = baca.make_repeat_tied_notes(signatures(1))
+def VA(voice, time_signatures):
+    music = baca.make_repeat_tied_notes(time_signatures(1))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(2, 9),
+        time_signatures(2, 9),
         4,
         [0],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(10, 21),
+        time_signatures(10, 21),
         "C",
         -2,
         -1,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(22, 27),
+        time_signatures(22, 27),
         4,
         [0],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(28, 37),
+        time_signatures(28, 37),
         "C",
         -2,
         -1,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(38, 42),
+        time_signatures(38, 42),
         4,
         [0],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(43, 50),
+        time_signatures(43, 50),
         "C",
         -2,
         -1,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(51, 54),
+        time_signatures(51, 54),
         4,
         [0],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(55, 60),
+        time_signatures(55, 60),
         "C",
         -2,
         -1,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(61, 63),
+        time_signatures(61, 63),
         4,
         [0],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(64, 67),
+        time_signatures(64, 67),
         "C",
         -2,
         -1,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(68, 69),
+        time_signatures(68, 69),
         4,
         [0],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(70, 71),
+        time_signatures(70, 71),
         "C",
         -2,
         -1,
     )
     voice.extend(music)
-    music = baca.make_mmrests(signatures(72), head=voice.name)
+    music = baca.make_mmrests(time_signatures(72), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(signatures(73, 92))
+    music = baca.make_repeat_tied_notes(time_signatures(73, 92))
     voice.extend(music)
 
 
-def VC(voice, signatures):
-    music = baca.make_repeat_tied_notes(signatures(1))
+def VC(voice, time_signatures):
+    music = baca.make_repeat_tied_notes(time_signatures(1))
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(2, 9),
+        time_signatures(2, 9),
         4,
         [-1],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(10, 21),
+        time_signatures(10, 21),
         "C",
         -3,
         0,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(22, 27),
+        time_signatures(22, 27),
         4,
         [-1],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(28, 37),
+        time_signatures(28, 37),
         "C",
         -3,
         0,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(38, 42),
+        time_signatures(38, 42),
         4,
         [-1],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(43, 50),
+        time_signatures(43, 50),
         "C",
         -3,
         0,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(51, 54),
+        time_signatures(51, 54),
         4,
         [-1],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(55, 60),
+        time_signatures(55, 60),
         "C",
         -3,
         0,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(61, 63),
+        time_signatures(61, 63),
         4,
         [-1],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(64, 67),
+        time_signatures(64, 67),
         "C",
         -3,
         0,
     )
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
-        signatures(68, 69),
+        time_signatures(68, 69),
         4,
         [-1],
     )
     voice.extend(music)
     music = library.make_trajectory_rhythm(
-        signatures(70, 71),
+        time_signatures(70, 71),
         "C",
         -3,
         0,
     )
     voice.extend(music)
-    music = baca.make_mmrests(signatures(72), head=voice.name)
+    music = baca.make_mmrests(time_signatures(72), head=voice.name)
     voice.extend(music)
-    music = library.make_eighth_notes(signatures(73, 87))
+    music = library.make_eighth_notes(time_signatures(73, 87))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(signatures(88, 92))
+    music = baca.make_repeat_tied_notes(time_signatures(88, 92))
     voice.extend(music)
 
 
@@ -1332,10 +1332,10 @@ def vc(cache):
 
 @baca.build.timed("make_score")
 def make_score(first_measure_number, previous_persistent_indicators):
-    score, voices, signatures = make_empty_score()
+    score, voices, time_signatures = make_empty_score()
     baca.section.set_up_score(
         score,
-        signatures(),
+        time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -1343,10 +1343,10 @@ def make_score(first_measure_number, previous_persistent_indicators):
         previous_persistent_indicators=previous_persistent_indicators,
     )
     GLOBALS(score["Skips"], score["Rests"], first_measure_number)
-    V1(voices("v1"), signatures)
-    V2(voices("v2"), signatures)
-    VA(voices("va"), signatures)
-    VC(voices("vc"), signatures)
+    V1(voices("v1"), time_signatures)
+    V2(voices("v2"), time_signatures)
+    VA(voices("va"), time_signatures)
+    VC(voices("vc"), time_signatures)
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -1354,7 +1354,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     )
     cache = baca.section.cache_leaves(
         score,
-        len(signatures()),
+        len(time_signatures()),
         library.voice_abbreviations,
     )
     v1(cache)
