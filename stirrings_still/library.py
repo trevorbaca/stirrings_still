@@ -1330,8 +1330,9 @@ def make_circle_rhythm(
     if durations != without_overhang and remainder == abjad.LEFT:
         final_list = durations.pop()
         durations.insert(0, final_list)
-    tuplets = rmakers.note(durations, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
+    lists = rmakers.note(durations, tag=tag)
+    components = abjad.sequence.flatten(lists)
+    voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     if force_rest_tuplets is not None:
         rmakers.force_rest(
             abjad.select.get(baca.select.tuplets(voice), force_rest_tuplets), tag=tag
@@ -1390,7 +1391,8 @@ def make_continuous_tremolo_material(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
     lists = rmakers.note(durations, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(lists, time_signatures)
+    components = abjad.sequence.flatten(lists)
+    voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     rmakers.beam(baca.select.plts(voice))
     rmakers.tie(baca.select.ptails(voice)[:-1], tag=tag)
     rmakers.force_repeat_tie(voice, threshold=(1, 2), tag=tag)
@@ -1418,7 +1420,8 @@ def make_declamation_rhythm(time_signatures, *, protract=False):
 
     def note_rhythm_maker(durations):
         lists = rmakers.note(durations, tag=tag)
-        voice = rmakers.wrap_in_time_signature_staff(lists, time_signatures)
+        components = abjad.sequence.flatten(lists)
+        voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
         rmakers.beam(baca.select.plts(voice), tag=tag)
         rmakers.tie(baca.select.ptails(voice)[:-1], tag=tag)
         rmakers.force_repeat_tie(voice, tag=tag)
