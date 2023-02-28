@@ -1775,10 +1775,10 @@ def make_stroke_rhythm(time_signatures, rotation, *, force_rest_tuplets=None):
     durations = abjad.sequence.rotate(durations, n=rotation)
     tuplets = rmakers.incised(
         durations,
+        spelling=rmakers.Spelling(forbidden_note_duration=abjad.Duration(1, 2)),
         suffix_talea=[1],
         suffix_counts=[1],
         talea_denominator=8,
-        spelling=rmakers.Spelling(forbidden_note_duration=abjad.Duration(1, 2)),
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
