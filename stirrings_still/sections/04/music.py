@@ -472,7 +472,7 @@ def VC(voice, time_signatures):
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(54, 56), head=voice.name)
     voice.extend(music)
-    music = baca.make_skeleton("c2. ~ c4")
+    music = baca.parse("c2. ~ c4")
     voice.extend(music)
     music = library.make_stroke_rhythm(
         time_signatures(58, 63),
