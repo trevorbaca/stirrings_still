@@ -134,7 +134,7 @@ def VA(voice, time_signatures):
 
 
 def VC(voice, time_signatures):
-    music = baca.make_skeleton("c2. ~ c4")
+    music = baca.parse("c2. ~ c4")
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(2), head=voice.name)
     voice.extend(music)
