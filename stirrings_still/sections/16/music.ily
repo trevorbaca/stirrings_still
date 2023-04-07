@@ -795,11 +795,21 @@ number.16.Rests = {
 number.16.Violin.1.Music = {
 
     % [Violin.1.Music measure 1]
+      %! REAPPLIED_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'green4)
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     \override DynamicLineSpanner.staff-padding = 6
     \override DynamicText.self-alignment-X = -0.75
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
     \override TupletBracket.direction = #down
+      %! REAPPLIED_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \stirrings-still-vn-i-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -812,16 +822,6 @@ number.16.Violin.1.Music = {
     \startStaff
       %! REAPPLIED_CLEF
     \clef "treble"
-      %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
     a'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -916,7 +916,6 @@ number.16.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 6]
-        \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
@@ -924,6 +923,7 @@ number.16.Violin.1.Music = {
         \undo \hide NoteHead
         \revert Dots.transparent
         \revert Stem.transparent
+        \once \override Beam.grow-direction = #right
         a'16 * 241/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -1001,8 +1001,8 @@ number.16.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 7]
-        \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #left
         a'16 * 29/32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -1103,7 +1103,6 @@ number.16.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 10]
-        \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
@@ -1111,6 +1110,7 @@ number.16.Violin.1.Music = {
         \undo \hide NoteHead
         \revert Dots.transparent
         \revert Stem.transparent
+        \once \override Beam.grow-direction = #right
         a'16 * 241/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -1260,7 +1260,6 @@ number.16.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 16]
-        \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
@@ -1268,6 +1267,7 @@ number.16.Violin.1.Music = {
         \undo \hide NoteHead
         \revert Dots.transparent
         \revert Stem.transparent
+        \once \override Beam.grow-direction = #right
         a'16 * 245/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -1353,8 +1353,8 @@ number.16.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 17]
-        \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #left
         a'16 * 59/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -1463,7 +1463,6 @@ number.16.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 20]
-        \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
@@ -1471,6 +1470,7 @@ number.16.Violin.1.Music = {
         \undo \hide NoteHead
         \revert Dots.transparent
         \revert Stem.transparent
+        \once \override Beam.grow-direction = #right
         a'16 * 241/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -1727,8 +1727,18 @@ number.16.Violin.1.Staff = <<
 number.16.Violin.2.Music = {
 
     % [Violin.2.Music measure 1]
+      %! REAPPLIED_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'green4)
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     \override DynamicLineSpanner.staff-padding = 6
     \override DynamicText.self-alignment-X = -0.75
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \stirrings-still-vn-ii-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -1741,16 +1751,6 @@ number.16.Violin.2.Music = {
     \startStaff
       %! REAPPLIED_CLEF
     \clef "treble"
-      %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
     a1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1840,7 +1840,6 @@ number.16.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 5]
-        \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
@@ -1848,6 +1847,7 @@ number.16.Violin.2.Music = {
         \undo \hide NoteHead
         \revert Dots.transparent
         \revert Stem.transparent
+        \once \override Beam.grow-direction = #right
         a16 * 351/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -1969,7 +1969,6 @@ number.16.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 7]
-        \once \override Beam.grow-direction = #left
         \hide NoteHead
         \override Accidental.stencil = ##f
         \override NoteColumn.glissando-skip = ##t
@@ -1983,6 +1982,7 @@ number.16.Violin.2.Music = {
         \undo \hide NoteHead
         \revert Dots.transparent
         \revert Stem.transparent
+        \once \override Beam.grow-direction = #left
         a16 * 57/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -2112,7 +2112,6 @@ number.16.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 9]
-        \once \override Beam.grow-direction = #right
         \hide NoteHead
         \override Accidental.stencil = ##f
         \override NoteColumn.glissando-skip = ##t
@@ -2126,6 +2125,7 @@ number.16.Violin.2.Music = {
         \undo \hide NoteHead
         \revert Dots.transparent
         \revert Stem.transparent
+        \once \override Beam.grow-direction = #right
         a16 * 381/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -2267,7 +2267,6 @@ number.16.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 15]
-        \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
@@ -2275,6 +2274,7 @@ number.16.Violin.2.Music = {
         \undo \hide NoteHead
         \revert Dots.transparent
         \revert Stem.transparent
+        \once \override Beam.grow-direction = #right
         a16 * 377/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -2400,7 +2400,6 @@ number.16.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 17]
-        \once \override Beam.grow-direction = #left
         \hide NoteHead
         \override Accidental.stencil = ##f
         \override NoteColumn.glissando-skip = ##t
@@ -2414,6 +2413,7 @@ number.16.Violin.2.Music = {
         \undo \hide NoteHead
         \revert Dots.transparent
         \revert Stem.transparent
+        \once \override Beam.grow-direction = #left
         a16 * 13/16
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -2551,7 +2551,6 @@ number.16.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 19]
-        \once \override Beam.grow-direction = #right
         \hide NoteHead
         \override Accidental.stencil = ##f
         \override NoteColumn.glissando-skip = ##t
@@ -2565,6 +2564,7 @@ number.16.Violin.2.Music = {
         \undo \hide NoteHead
         \revert Dots.transparent
         \revert Stem.transparent
+        \once \override Beam.grow-direction = #right
         a16 * 351/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -2818,9 +2818,19 @@ number.16.Violin.2.MusicStaff = {
 number.16.Viola.Music = {
 
     % [Viola.Music measure 1]
+      %! REAPPLIED_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'green4)
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     \override DynamicLineSpanner.staff-padding = 6
     \override DynamicText.self-alignment-X = -0.75
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
     \override TupletBracket.direction = #down
+      %! REAPPLIED_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \stirrings-still-va-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -2833,16 +2843,6 @@ number.16.Viola.Music = {
     \startStaff
       %! REAPPLIED_CLEF
     \clef "alto"
-      %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
     a1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2943,7 +2943,6 @@ number.16.Viola.Music = {
     {
 
         % [Viola.Music measure 8]
-        \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
@@ -2951,6 +2950,7 @@ number.16.Viola.Music = {
         \undo \hide NoteHead
         \revert Dots.transparent
         \revert Stem.transparent
+        \once \override Beam.grow-direction = #right
         a16 * 77/16
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -3016,8 +3016,8 @@ number.16.Viola.Music = {
     {
 
         % [Viola.Music measure 9]
-        \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #left
         a16 * 47/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -3071,8 +3071,8 @@ number.16.Viola.Music = {
     {
 
         % [Viola.Music measure 10]
-        \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
         a16 * 307/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"307" #"64"
@@ -3168,7 +3168,6 @@ number.16.Viola.Music = {
     {
 
         % [Viola.Music measure 18]
-        \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
@@ -3176,6 +3175,7 @@ number.16.Viola.Music = {
         \undo \hide NoteHead
         \revert Dots.transparent
         \revert Stem.transparent
+        \once \override Beam.grow-direction = #right
         a16 * 307/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -3253,8 +3253,8 @@ number.16.Viola.Music = {
     {
 
         % [Viola.Music measure 19]
-        \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #left
         a16 * 45/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -3300,8 +3300,8 @@ number.16.Viola.Music = {
     {
 
         % [Viola.Music measure 20]
-        \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
         a16 * 307/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"307" #"64"
@@ -3495,11 +3495,21 @@ number.16.Viola.Staff = {
 number.16.Cello.Music = {
 
     % [Cello.Music measure 1]
+      %! REAPPLIED_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'green4)
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     \override DynamicLineSpanner.staff-padding = 6
     \override DynamicText.self-alignment-X = -0.75
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
     \override TupletBracket.direction = #down
+      %! REAPPLIED_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \stirrings-still-vc-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -3512,16 +3522,6 @@ number.16.Cello.Music = {
     \startStaff
       %! REAPPLIED_CLEF
     \clef "bass"
-      %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
     a,1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -3616,7 +3616,6 @@ number.16.Cello.Music = {
     {
 
         % [Cello.Music measure 6]
-        \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
@@ -3624,6 +3623,7 @@ number.16.Cello.Music = {
         \undo \hide NoteHead
         \revert Dots.transparent
         \revert Stem.transparent
+        \once \override Beam.grow-direction = #right
         a,16 * 107/16
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -3693,8 +3693,8 @@ number.16.Cello.Music = {
     {
 
         % [Cello.Music measure 7]
-        \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #left
         a,16 * 3/4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -3744,8 +3744,8 @@ number.16.Cello.Music = {
     {
 
         % [Cello.Music measure 8]
-        \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
         a,16 * 109/16
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"109" #"16"
@@ -3829,7 +3829,6 @@ number.16.Cello.Music = {
     {
 
         % [Cello.Music measure 16]
-        \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
@@ -3837,6 +3836,7 @@ number.16.Cello.Music = {
         \undo \hide NoteHead
         \revert Dots.transparent
         \revert Stem.transparent
+        \once \override Beam.grow-direction = #right
         a,16 * 447/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -3910,8 +3910,8 @@ number.16.Cello.Music = {
     {
 
         % [Cello.Music measure 17]
-        \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #left
         a,16 * 63/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -3965,8 +3965,8 @@ number.16.Cello.Music = {
     {
 
         % [Cello.Music measure 18]
-        \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
         a,16 * 53/8
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"53" #"8"
