@@ -5110,16 +5110,13 @@ number.4.Violin.1.Music = {
     % [Violin.1.Music measure 84]
     <fs'! dqf''!>1
     :32
-    :32
 
     % [Violin.1.Music measure 85]
     <fs'! dqf''!>1
     :32
-    :32
 
     % [Violin.1.Music measure 86]
     <fs'! dqf''!>2..
-    :32
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -5157,7 +5154,6 @@ number.4.Violin.1.Music = {
     % [Violin.1.Music measure 87]
     <fs'! dqf''!>2..
     :32
-    :32
       %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
@@ -5177,10 +5173,8 @@ number.4.Violin.1.Music = {
     % [Violin.1.Music measure 88]
     <fs'! dqf''!>2
     :32
-    :32
 
     <fs'! dqf''!>8
-    :32
     :32
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -5204,7 +5198,6 @@ number.4.Violin.1.Music = {
     \revert NoteHead.no-ledgers
     \undo \hide NoteHead
     <fs'! dqf''!>2.
-    :32
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -5249,7 +5242,6 @@ number.4.Violin.1.Music = {
 
     % [Violin.1.Music measure 90]
     <etqf'! c''>2.
-    :32
     :32
     - \tweak padding 1.5
     ^ \stirrings-still-three-plus-seven-of-f-markup
@@ -5299,7 +5291,6 @@ number.4.Violin.1.Music = {
     \override NoteHead.no-ledgers = ##t
     <etqf'! c''>2
     :32
-    :32
 
     % [Violin.1.Music measure 92]
     \revert Accidental.stencil
@@ -5307,7 +5298,6 @@ number.4.Violin.1.Music = {
     \revert NoteHead.no-ledgers
     \undo \hide NoteHead
     <etqf'! c''>2.
-    :32
     :32
 
     <<
@@ -7651,16 +7641,13 @@ number.4.Violin.2.Music = {
     % [Violin.2.Music measure 84]
     <cqs'! af'!>1
     :32
-    :32
 
     % [Violin.2.Music measure 85]
     <cqs'! af'!>1
     :32
-    :32
 
     % [Violin.2.Music measure 86]
     <cqs'! af'!>2..
-    :32
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -7698,11 +7685,9 @@ number.4.Violin.2.Music = {
     % [Violin.2.Music measure 87]
     <cqs'! af'!>2..
     :32
-    :32
 
     % [Violin.2.Music measure 88]
     <cqs'! af'!>2
-    :32
     :32
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -7721,7 +7706,6 @@ number.4.Violin.2.Music = {
     \bacaStartTextSpanSCP
 
     <cqs'! af'!>8
-    :32
     :32
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -7745,7 +7729,6 @@ number.4.Violin.2.Music = {
     \revert NoteHead.no-ledgers
     \undo \hide NoteHead
     <cqs'! af'!>2.
-    :32
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -7790,7 +7773,6 @@ number.4.Violin.2.Music = {
 
     % [Violin.2.Music measure 90]
     <bqf! g'>2.
-    :32
     :32
     - \tweak padding 1.5
     ^ \stirrings-still-nine-plus-eleven-of-f-markup
@@ -7840,7 +7822,6 @@ number.4.Violin.2.Music = {
     \override NoteHead.no-ledgers = ##t
     <bqf! g'>2
     :32
-    :32
 
     % [Violin.2.Music measure 92]
     \revert Accidental.stencil
@@ -7848,7 +7829,6 @@ number.4.Violin.2.Music = {
     \revert NoteHead.no-ledgers
     \undo \hide NoteHead
     <bqf! g'>2.
-    :32
     :32
 
     <<
@@ -10269,30 +10249,24 @@ number.4.Viola.Music = {
     % [Viola.Music measure 84]
     <b, aqs!>1
     :32
-    :32
 
     % [Viola.Music measure 85]
     <b, aqs!>1
-    :32
     :32
 
     % [Viola.Music measure 86]
     <b, aqs!>2..
     :32
-    :32
 
     % [Viola.Music measure 87]
     <b, aqs!>2..
-    :32
     :32
 
     % [Viola.Music measure 88]
     <b, aqs!>2
     :32
-    :32
 
     <b, aqs!>8
-    :32
     :32
 
     % [Viola.Music measure 89]
@@ -10301,7 +10275,6 @@ number.4.Viola.Music = {
     \revert NoteHead.no-ledgers
     \undo \hide NoteHead
     <b, aqs!>2.
-    :32
     :32
 
     % [Viola.Music measure 90]

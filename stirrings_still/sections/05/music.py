@@ -657,6 +657,7 @@ def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(1, 2)) as o:
+            baca.stem_tremolo(o)
             baca.damp_spanner(
                 baca.select.rleak(baca.select.tleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
