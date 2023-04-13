@@ -638,6 +638,7 @@ def v1_v2_va(cache):
                 baca.stem_tremolo(plt)
             baca.untie(o)
         with baca.scope(m.get(94, 96)) as o:
+            baca.stem_tremolo(o)
             baca.hairpin(
                 o.rleaves(),
                 "mp >o",

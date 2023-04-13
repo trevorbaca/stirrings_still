@@ -1394,9 +1394,6 @@ def make_continuous_tremolo_material(time_signatures):
     rmakers.beam(baca.select.plts(voice))
     rmakers.tie(baca.select.ptails(voice)[:-1], tag=tag)
     rmakers.force_repeat_tie(voice, threshold=(1, 2), tag=tag)
-    for pleaf in baca.select.pleaves(voice):
-        wrappers = baca.stem_tremolo(pleaf)
-        baca.tags.wrappers(wrappers, tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
