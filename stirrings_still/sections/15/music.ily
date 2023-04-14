@@ -441,10 +441,10 @@ number.15.Violin.1.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \mf
-          %! SPANNER_STOP
-        \!
         - \tweak padding 1.5
         ^ \baca-thirteen-d-flat
+          %! SPANNER_STOP
+        \!
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanCircleBow
@@ -722,10 +722,10 @@ number.15.Violin.2.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \mf
-          %! SPANNER_STOP
-        \!
         - \tweak padding 1.5
         ^ \baca-nine-d-flat
+          %! SPANNER_STOP
+        \!
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanCircleBow
@@ -993,10 +993,10 @@ number.15.Viola.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \mf
-      %! SPANNER_STOP
-    \!
     - \tweak padding 1.5
     ^ \baca-seven-d-flat
+      %! SPANNER_STOP
+    \!
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
@@ -1405,12 +1405,12 @@ number.15.Cello.Music = {
               %! HIDDEN
               %! NOTE
             d1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! HALF_CLT_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanHalfCLT

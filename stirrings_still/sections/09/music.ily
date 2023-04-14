@@ -837,13 +837,13 @@ number.9.Violin.1.Music = {
       %! NOTE
     b'1 * 1/4
       %! ANCHOR_NOTE
-      %! SPANNER_STOP
-    \!
-      %! ANCHOR_NOTE
       %! DURATION_MULTIPLIER
       %! HIDDEN
       %! NOTE
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+      %! ANCHOR_NOTE
+      %! SPANNER_STOP
+    \!
 
 }
 
@@ -1215,13 +1215,13 @@ number.9.Violin.2.Music = {
       %! NOTE
     b'1 * 1/4
       %! ANCHOR_NOTE
-      %! SPANNER_STOP
-    \!
-      %! ANCHOR_NOTE
       %! DURATION_MULTIPLIER
       %! HIDDEN
       %! NOTE
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+      %! ANCHOR_NOTE
+      %! SPANNER_STOP
+    \!
 
 }
 
@@ -1573,13 +1573,13 @@ number.9.Viola.Music = {
       %! NOTE
     c'1 * 1/4
       %! ANCHOR_NOTE
-      %! SPANNER_STOP
-    \!
-      %! ANCHOR_NOTE
       %! DURATION_MULTIPLIER
       %! HIDDEN
       %! NOTE
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+      %! ANCHOR_NOTE
+      %! SPANNER_STOP
+    \!
 
 }
 

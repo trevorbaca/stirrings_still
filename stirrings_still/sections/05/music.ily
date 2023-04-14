@@ -4135,12 +4135,12 @@ number.5.Violin.1.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! DAMP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanDamp
@@ -6895,12 +6895,12 @@ number.5.Violin.1.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! HALF_CLT_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanHalfCLT
@@ -7707,12 +7707,12 @@ number.5.Violin.1.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! FLIGHT
               %! MATERIAL
               %! MATERIAL_ANNOTATION_SPANNER
@@ -9228,12 +9228,12 @@ number.5.Violin.1.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! DAMP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanDamp
@@ -9905,12 +9905,12 @@ number.5.Violin.2.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! DAMP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanDamp
@@ -12376,12 +12376,12 @@ number.5.Violin.2.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! HALF_CLT_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanHalfCLT
@@ -13283,12 +13283,12 @@ number.5.Violin.2.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! FLIGHT
               %! MATERIAL
               %! MATERIAL_ANNOTATION_SPANNER
@@ -14349,12 +14349,12 @@ number.5.Violin.2.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! DAMP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanDamp
@@ -14877,12 +14877,12 @@ number.5.Viola.Music = {
               %! HIDDEN
               %! NOTE
             c'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! DAMP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanDamp
@@ -17923,12 +17923,12 @@ number.5.Viola.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! FLIGHT
               %! MATERIAL
               %! MATERIAL_ANNOTATION_SPANNER
@@ -19108,12 +19108,12 @@ number.5.Viola.Music = {
               %! HIDDEN
               %! NOTE
             c'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! DAMP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanDamp
@@ -19808,12 +19808,12 @@ number.5.Cello.Music = {
               %! HIDDEN
               %! NOTE
             d1 * 4/8
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"4" #"8"
+              %! SPANNER_STOP
+            \!
               %! CLOUDED_PANE
               %! MATERIAL
               %! MATERIAL_ANNOTATION_SPANNER

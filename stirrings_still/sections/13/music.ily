@@ -1657,10 +1657,10 @@ number.13.Violin.1.Music = {
 
     % [Violin.1.Music measure 29]
     d'''2
-      %! SPANNER_STOP
-    \!
     - \tweak padding 1.5
     ^ \baca-nine-c
+      %! SPANNER_STOP
+    \!
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
@@ -2511,10 +2511,10 @@ number.13.Violin.2.Music = {
 
     % [Violin.2.Music measure 29]
     fqs''!2
-      %! SPANNER_STOP
-    \!
     - \tweak padding 1.5
     ^ \baca-eleven-c
+      %! SPANNER_STOP
+    \!
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
@@ -3309,10 +3309,10 @@ number.13.Viola.Music = {
 
     % [Viola.Music measure 29]
     aqf'!2
-      %! SPANNER_STOP
-    \!
     - \tweak padding 1.5
     ^ \baca-thirteen-c
+      %! SPANNER_STOP
+    \!
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow

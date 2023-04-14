@@ -870,12 +870,12 @@ number.6.Violin.1.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
@@ -1299,12 +1299,12 @@ number.6.Violin.2.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
@@ -1619,12 +1619,12 @@ number.6.Viola.Music = {
               %! HIDDEN
               %! NOTE
             c'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
@@ -2047,12 +2047,12 @@ number.6.Cello.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
