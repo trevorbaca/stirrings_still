@@ -2062,10 +2062,10 @@ number.14.Violin.1.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \ff
-          %! SPANNER_STOP
-        \!
         - \tweak staff-padding 8
         ^ \stirrings-still-twenty-four-et-markup
+          %! SPANNER_STOP
+        \!
           %! AUTODETECT
           %! SPANNER_START
           %! MATERIAL
@@ -3615,10 +3615,10 @@ number.14.Violin.2.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \ff
-      %! SPANNER_STOP
-    \!
     - \tweak padding 1.5
     ^ \stirrings-still-twenty-four-et-markup
+      %! SPANNER_STOP
+    \!
       %! AUTODETECT
       %! SPANNER_START
       %! MATERIAL
@@ -5115,10 +5115,10 @@ number.14.Viola.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \ff
-          %! SPANNER_STOP
-        \!
         - \tweak staff-padding 8
         ^ \stirrings-still-twenty-four-et-markup
+          %! SPANNER_STOP
+        \!
           %! AUTODETECT
           %! SPANNER_START
           %! MATERIAL

@@ -2877,10 +2877,10 @@ number.3.Violin.1.Music = {
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
     \mp
-      %! SPANNER_STOP
-    \!
     - \tweak padding 1.5
     ^ \stirrings-still-twelve-et-conflicts-with-viola-markup
+      %! SPANNER_STOP
+    \!
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
@@ -3175,12 +3175,12 @@ number.3.Violin.1.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
@@ -4507,9 +4507,9 @@ number.3.Violin.1.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \p
+    \laissezVibrer
       %! SPANNER_STOP
     \!
-    \laissezVibrer
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
@@ -4647,12 +4647,12 @@ number.3.Violin.1.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
@@ -5067,10 +5067,10 @@ number.3.Violin.2.Music = {
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
         \mp
-          %! SPANNER_STOP
-        \!
         - \tweak padding 1.5
         ^ \stirrings-still-twelve-et-conflicts-with-viola-markup
+          %! SPANNER_STOP
+        \!
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanCircleBow
@@ -5338,12 +5338,12 @@ number.3.Violin.2.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
@@ -6557,9 +6557,9 @@ number.3.Violin.2.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \p
+    \laissezVibrer
       %! SPANNER_STOP
     \!
-    \laissezVibrer
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
@@ -6697,12 +6697,12 @@ number.3.Violin.2.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
@@ -7096,10 +7096,10 @@ number.3.Viola.Music = {
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
         \mp
-          %! SPANNER_STOP
-        \!
         - \tweak padding 1.5
         ^ \stirrings-still-nine-plus-seven-of-b-markup
+          %! SPANNER_STOP
+        \!
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanCircleBow
@@ -7401,12 +7401,12 @@ number.3.Viola.Music = {
               %! HIDDEN
               %! NOTE
             c'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
@@ -8769,9 +8769,9 @@ number.3.Viola.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \p
+    \laissezVibrer
       %! SPANNER_STOP
     \!
-    \laissezVibrer
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
@@ -8909,12 +8909,12 @@ number.3.Viola.Music = {
               %! HIDDEN
               %! NOTE
             c'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
@@ -9655,12 +9655,12 @@ number.3.Cello.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
@@ -10879,12 +10879,12 @@ number.3.Cello.Music = {
               %! HIDDEN
               %! NOTE
             d1 * 8/16
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"8" #"16"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
@@ -11057,12 +11057,12 @@ number.3.Cello.Music = {
               %! HIDDEN
               %! NOTE
             d1 * 1/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow

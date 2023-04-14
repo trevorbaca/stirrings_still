@@ -754,9 +754,9 @@ number.10.Violin.1.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \pp
+    ^ \stirrings-still-seven-plus-nine-of-e-markup
       %! SPANNER_STOP
     \!
-    ^ \stirrings-still-seven-plus-nine-of-e-markup
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
@@ -1369,13 +1369,13 @@ number.10.Violin.1.Music = {
       %! NOTE
     b'1 * 1/4
       %! ANCHOR_NOTE
-      %! SPANNER_STOP
-    \!
-      %! ANCHOR_NOTE
       %! DURATION_MULTIPLIER
       %! HIDDEN
       %! NOTE
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+      %! ANCHOR_NOTE
+      %! SPANNER_STOP
+    \!
 
 }
 
@@ -2159,13 +2159,13 @@ number.10.Violin.2.Music = {
       %! NOTE
     b'1 * 1/4
       %! ANCHOR_NOTE
-      %! SPANNER_STOP
-    \!
-      %! ANCHOR_NOTE
       %! DURATION_MULTIPLIER
       %! HIDDEN
       %! NOTE
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+      %! ANCHOR_NOTE
+      %! SPANNER_STOP
+    \!
 
 }
 
@@ -2306,10 +2306,10 @@ number.10.Viola.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \pp
-      %! SPANNER_STOP
-    \!
     - \tweak padding 1.5
     ^ \stirrings-still-eleven-plus-three-of-e-markup
+      %! SPANNER_STOP
+    \!
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
@@ -2948,13 +2948,13 @@ number.10.Viola.Music = {
       %! NOTE
     c'1 * 1/4
       %! ANCHOR_NOTE
-      %! SPANNER_STOP
-    \!
-      %! ANCHOR_NOTE
       %! DURATION_MULTIPLIER
       %! HIDDEN
       %! NOTE
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+      %! ANCHOR_NOTE
+      %! SPANNER_STOP
+    \!
 
 }
 
@@ -3158,12 +3158,12 @@ number.10.Cello.Music = {
               %! HIDDEN
               %! NOTE
             d1 * 12/16
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"12" #"16"
+              %! SPANNER_STOP
+            \!
               %! CLOUDED_PANE
               %! MATERIAL
               %! MATERIAL_ANNOTATION_SPANNER

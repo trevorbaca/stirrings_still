@@ -2739,12 +2739,12 @@ number.11.Violin.1.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 3/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
@@ -4960,12 +4960,12 @@ number.11.Violin.2.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 3/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
@@ -6697,9 +6697,9 @@ number.11.Viola.Music = {
     - \tweak extra-offset #'(-3 . 0)
       %! EXPLICIT_DYNAMIC
     \baca-effort-mf
+    ^ \baca-boxed-markup tailpiece
       %! SPANNER_STOP
     \!
-    ^ \baca-boxed-markup tailpiece
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
@@ -7146,12 +7146,12 @@ number.11.Viola.Music = {
               %! HIDDEN
               %! NOTE
             c'1 * 3/4
-              %! SPANNER_STOP
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+              %! SPANNER_STOP
+            \!
               %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
