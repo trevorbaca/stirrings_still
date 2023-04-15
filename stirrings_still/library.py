@@ -179,7 +179,7 @@ class StageSpecifier:
         if isinstance(self.after, str):
             result.append(abjad.TimeSignature((1, 4)))
         elif isinstance(self.after, abjad.TimeSignature):
-            result.append(abjad.TimeSignature(self.after))
+            result.append(abjad.TimeSignature(self.after.pair))
         else:
             assert self.after is None, repr(self.after)
         if self.suffix is not None:
