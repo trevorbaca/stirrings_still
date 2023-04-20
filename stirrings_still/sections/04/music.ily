@@ -4456,7 +4456,6 @@ number.4.Violin.1.Music = {
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
         \undo \hide NoteHead
-        \revert Staff.Stem.stemlet-length
         bf'!16 * 31/32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -4469,6 +4468,7 @@ number.4.Violin.1.Music = {
         %@% ^ \baca-duration-multiplier-markup #"31" #"32"
         ]
         \revert NoteHead.style
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -7000,7 +7000,6 @@ number.4.Violin.2.Music = {
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
         \undo \hide NoteHead
-        \revert Staff.Stem.stemlet-length
         f'16 * 119/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -7013,6 +7012,7 @@ number.4.Violin.2.Music = {
         %@% ^ \baca-duration-multiplier-markup #"119" #"64"
         ]
         \revert NoteHead.style
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text

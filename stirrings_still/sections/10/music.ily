@@ -3346,7 +3346,6 @@ number.10.Cello.Music = {
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
         \undo \hide NoteHead
-        \revert Staff.Stem.stemlet-length
         bf,,!16 * 95/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -3359,6 +3358,7 @@ number.10.Cello.Music = {
         %@% ^ \baca-duration-multiplier-markup #"95" #"64"
         ]
         \breathe
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
