@@ -2221,11 +2221,11 @@ number.8.Violin.1.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"257" #"64"
 
-        \revert Staff.Stem.stemlet-length
         g'16 * 55/16
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"55" #"16"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -2778,11 +2778,11 @@ number.8.Violin.1.Music = {
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
         \undo \hide NoteHead
-        \revert Staff.Stem.stemlet-length
         b'16 * 61/32
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"61" #"32"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -3197,11 +3197,11 @@ number.8.Violin.1.Music = {
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
         \undo \hide NoteHead
-        \revert Staff.Stem.stemlet-length
         b'16 * 129/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"129" #"64"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -3353,11 +3353,11 @@ number.8.Violin.1.Music = {
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
         \undo \hide NoteHead
-        \revert Staff.Stem.stemlet-length
         b'16 * 63/32
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"63" #"32"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -4199,11 +4199,11 @@ number.8.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"133" #"32"
 
-        \revert Staff.Stem.stemlet-length
         g'16 * 229/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"229" #"64"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -4672,11 +4672,11 @@ number.8.Violin.2.Music = {
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
         \undo \hide NoteHead
-        \revert Staff.Stem.stemlet-length
         b'16 * 123/32
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"123" #"32"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -5099,11 +5099,11 @@ number.8.Violin.2.Music = {
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
         \undo \hide NoteHead
-        \revert Staff.Stem.stemlet-length
         b'16 * 265/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"265" #"64"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -5243,11 +5243,11 @@ number.8.Violin.2.Music = {
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
         \undo \hide NoteHead
-        \revert Staff.Stem.stemlet-length
         b'16 * 239/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"239" #"64"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -6134,11 +6134,11 @@ number.8.Viola.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"237" #"64"
 
-        \revert Staff.Stem.stemlet-length
         a16 * 93/32
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"93" #"32"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -6621,11 +6621,11 @@ number.8.Viola.Music = {
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
         \undo \hide NoteHead
-        \revert Staff.Stem.stemlet-length
         b'16 * 387/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"387" #"64"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -7032,11 +7032,11 @@ number.8.Viola.Music = {
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
         \undo \hide NoteHead
-        \revert Staff.Stem.stemlet-length
         b'16 * 331/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"331" #"64"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -7168,11 +7168,11 @@ number.8.Viola.Music = {
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
         \undo \hide NoteHead
-        \revert Staff.Stem.stemlet-length
         b'16 * 377/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"377" #"64"
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text

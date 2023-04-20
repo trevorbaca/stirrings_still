@@ -2263,12 +2263,12 @@ number.11.Violin.1.Music = {
         - \baca-bcp-spanner-right-text #1 #7
         \bacaStartTextSpanBCP
 
-        \revert Staff.Stem.stemlet-length
         d''16 * 113/16
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"113" #"16"
         \bacaStopTextSpanBCP
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -4505,12 +4505,12 @@ number.11.Violin.2.Music = {
         - \baca-bcp-spanner-right-text #1 #7
         \bacaStartTextSpanBCP
 
-        \revert Staff.Stem.stemlet-length
         d''16 * 481/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"481" #"64"
         \bacaStopTextSpanBCP
         ]
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -8425,7 +8425,6 @@ number.11.Viola.Music = {
         - \baca-bcp-spanner-left-text #7 #7
         \bacaStartTextSpanBCP
 
-        \revert Staff.Stem.stemlet-length
         f16 * 119/64
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
@@ -8438,6 +8437,7 @@ number.11.Viola.Music = {
         - \abjad-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         \bacaStartTextSpanBCP
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -8514,7 +8514,6 @@ number.11.Viola.Music = {
         - \baca-bcp-spanner-left-text #5 #7
         \bacaStartTextSpanBCP
 
-        \revert Staff.Stem.stemlet-length
         f16 * 119/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"119" #"64"
@@ -8524,6 +8523,7 @@ number.11.Viola.Music = {
         - \abjad-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         \bacaStartTextSpanBCP
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
@@ -9163,13 +9163,13 @@ number.11.Cello.Music = {
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
         \undo \hide NoteHead
-        \revert Staff.Stem.stemlet-length
         df!16 * 231/32
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"231" #"32"
         \bacaStopTextSpanBCP
         ]
         \glissando
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
