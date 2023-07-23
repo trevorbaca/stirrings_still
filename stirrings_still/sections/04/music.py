@@ -689,7 +689,6 @@ def tutti_1(cache):
                 # manual padding because spanner ends of volta
                 abjad.Tweak(r"- \tweak bound-details.right.padding 5.25"),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                autodetect_right_padding=False,
             )
         with baca.scope(m.get(7, 12)) as o:
             baca.hairpin(

@@ -192,7 +192,6 @@ def v1(cache):
             o.rleaves(),
             "T -> O",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             bookend=-1,
         )
     with baca.scope(m.get(13, 22)) as o:
@@ -230,7 +229,6 @@ def v1(cache):
             leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
@@ -261,7 +259,6 @@ def v1(cache):
             leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
@@ -334,7 +331,6 @@ def v2(cache):
             o.rleaves(),
             "T -> O",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             bookend=-1,
         )
     with baca.scope(m.get(13, 22)) as o:
@@ -373,7 +369,6 @@ def v2(cache):
             leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
@@ -404,7 +399,6 @@ def v2(cache):
             leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
@@ -440,7 +434,6 @@ def va(cache):
             o.rleaves(),
             "T -> O",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             bookend=-1,
         )
     with baca.scope(m.get(13, 22)) as o:
@@ -479,7 +472,6 @@ def va(cache):
             leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
@@ -510,7 +502,6 @@ def va(cache):
             leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
@@ -570,7 +561,6 @@ def vc(cache):
             leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
@@ -614,7 +604,6 @@ def vc(cache):
             leaves,
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())

@@ -604,7 +604,6 @@ def vc(cache):
             o.leaves(),
             "flaut. -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             bookend=-1,
         )
     with baca.scope(m.get(7, 31)) as o:
