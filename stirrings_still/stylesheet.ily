@@ -77,10 +77,12 @@
 
 %%% CONTEXT
 
-\layout {
+\layout
+{
 
     % GLOBAL SKIPS
-    \context {
+    \context
+    {
         \name GlobalSkips
         \type Engraver_group
         \consists Script_engraver
@@ -90,10 +92,11 @@
         \override TextScript.font-size = 6
 
         \override TextSpanner.font-size = 6
-        }
+    }
 
     % GLOBAL RESTS
-    \context {
+    \context
+    {
         \name GlobalRests
         \type Engraver_group
         \consists Multi_measure_rest_engraver
@@ -104,20 +107,22 @@
         \override MultiMeasureRestText.font-size = 3
         \override MultiMeasureRestText.outside-staff-priority = 0
         \override MultiMeasureRestText.padding = 0
-        }
+    }
 
     % PAGE LAYOUT
-    \context {
+    \context
+    {
         \name PageLayout
         \type Engraver_group
         \consists Text_engraver
         \consists \alternateTextSpannerEngraver
 
         \override TextSpanner.font-size = 6
-        }
+    }
 
     % GLOBAL CONTEXT
-    \context {
+    \context
+    {
         \name GlobalContext
         \type Engraver_group
         \consists Axis_group_engraver
@@ -152,13 +157,15 @@
     }
 
     % VOICE
-    \context {
+    \context
+    {
         \Voice
         \remove Forbid_line_break_engraver
     }
 
     % STAFF
-    \context {
+    \context
+    {
         \Staff
         \accepts GlobalRests
         \remove Time_signature_engraver
@@ -166,7 +173,8 @@
     }
 
     % STRING QUARTET STAFF GROUP
-    \context {
+    \context
+    {
         \StaffGroup
         \name StringQuartetStaffGroup
         \type Engraver_group
@@ -174,7 +182,8 @@
     }
 
     % MUSIC CONTEXT
-    \context {
+    \context
+    {
         \ChoirStaff
         \name MusicContext
         \type Engraver_group
@@ -184,7 +193,8 @@
     }
 
     % SCORE
-    \context {
+    \context
+    {
         \Score
         \accepts GlobalContext
         \accepts MusicContext
