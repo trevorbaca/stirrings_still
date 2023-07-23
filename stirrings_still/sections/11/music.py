@@ -559,7 +559,6 @@ def v1(cache):
             leaves,
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
         baca.flat_glissando(o, "Aqf5")
@@ -582,7 +581,6 @@ def v1(cache):
             leaves,
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
     with baca.scope(m.get(32, 53)) as o:
@@ -610,7 +608,6 @@ def v1(cache):
             leaves,
             "T1 -> T3 -> T2 -> T3 ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
     with baca.scope(m.get(41, 42)) as o:
@@ -791,7 +788,6 @@ def v2(cache):
             leaves,
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
         baca.flat_glissando(o, "F5")
@@ -814,7 +810,6 @@ def v2(cache):
             leaves,
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
     with baca.scope(m.get(32, 53)) as o:
@@ -840,7 +835,6 @@ def v2(cache):
             leaves,
             "T1 -> T3 -> T2 -> T3 ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
     with baca.scope(m.get(41, 42)) as o:
@@ -975,7 +969,6 @@ def va(cache):
             leaves,
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
         baca.flat_glissando(o, "G3")
@@ -998,7 +991,6 @@ def va(cache):
             leaves,
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
     with baca.scope(m.get(32, 53)) as o:
@@ -1025,7 +1017,6 @@ def va(cache):
             leaves,
             "T1 -> T3 -> T2 -> T3 ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
     with baca.scope(m.get(43, 45)) as o:
@@ -1150,7 +1141,6 @@ def vc(cache):
             leaves,
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
         baca.flat_glissando(o, "Eb2")
@@ -1161,7 +1151,6 @@ def vc(cache):
             leaves,
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=False,
             pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())

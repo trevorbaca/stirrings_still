@@ -790,7 +790,6 @@ def v1_v2_va(cache):
                 leaves,
                 "P -> T ->",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                autodetect_right_padding=False,
                 pieces=baca.select.plts(leaves)[:-1],
             )
             baca.stem_tremolo(o.pleaves())
@@ -801,7 +800,6 @@ def v1_v2_va(cache):
                 leaves,
                 "P -> T ->",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                autodetect_right_padding=False,
                 pieces=baca.select.plts(leaves)[:-1],
             )
             baca.stem_tremolo(o.pleaves())
@@ -824,7 +822,6 @@ def v1_v2_va(cache):
                     leaves,
                     "P -> T ->",
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                    autodetect_right_padding=False,
                     pieces=baca.select.plts(leaves)[:-1],
                 )
             elif name == "v2":
@@ -832,7 +829,6 @@ def v1_v2_va(cache):
                     o.pleaves(),
                     "P -> T",
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                    autodetect_right_padding=False,
                     bookend=True,
                 )
             elif name == "va":
@@ -841,7 +837,6 @@ def v1_v2_va(cache):
                     leaves,
                     "P -> T ->",
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                    autodetect_right_padding=False,
                     pieces=baca.select.plts(leaves)[:-1],
                 )
             baca.stem_tremolo(o.pleaves())
@@ -860,7 +855,6 @@ def v1_v2_va(cache):
                 leaves,
                 "P -> T ->",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                autodetect_right_padding=False,
                 pieces=baca.select.plts(leaves)[:-1],
             )
             baca.stem_tremolo(o.pleaves())
