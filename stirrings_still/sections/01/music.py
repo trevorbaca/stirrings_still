@@ -808,7 +808,6 @@ def tutti(cache):
                 o.rleaves(),
                 "(2°) =|",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
-                autodetect_right_padding=True,
                 bookend=False,
                 lilypond_id=1,
             )
@@ -816,7 +815,6 @@ def tutti(cache):
                 o.rleaves(),
                 "rasp -> flaut. =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                autodetect_right_padding=True,
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [1, 2]),
             )

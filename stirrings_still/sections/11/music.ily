@@ -2058,10 +2058,6 @@ number.11.Violin.1.Music = {
         bqf''!4
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -2818,18 +2814,6 @@ number.11.Violin.1.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "each time more ponticello"
-      %! SPANNER_START
-    \startTextSpanTwo
       %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -2842,6 +2826,14 @@ number.11.Violin.1.Music = {
       %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "each time more ponticello"
+      %! SPANNER_START
+    \startTextSpanTwo
     \glissando
 
     % [Violin.1.Music measure 25]
@@ -3068,10 +3060,6 @@ number.11.Violin.1.Music = {
     - \baca-text-spanner-left-text "trem. ord."
       %! SPANNER_START
     \startTextSpanOne
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
     - \tweak staff-padding 10.5
       %! SPANNER_START
@@ -4275,10 +4263,6 @@ number.11.Violin.2.Music = {
         bf'!4
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -4992,18 +4976,6 @@ number.11.Violin.2.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "each time more ponticello"
-      %! SPANNER_START
-    \startTextSpanTwo
       %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -5016,6 +4988,14 @@ number.11.Violin.2.Music = {
       %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "each time more ponticello"
+      %! SPANNER_START
+    \startTextSpanTwo
     \glissando
 
     % [Violin.2.Music measure 25]
@@ -5300,10 +5280,6 @@ number.11.Violin.2.Music = {
     - \baca-text-spanner-left-text "trem. ord."
       %! SPANNER_START
     \startTextSpanOne
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
     - \tweak staff-padding 10.5
       %! SPANNER_START
@@ -6566,10 +6542,6 @@ number.11.Viola.Music = {
     bqf!4
       %! SPANNER_STOP
     \stopTextSpan
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
     - \tweak staff-padding 5.5
       %! SPANNER_START
@@ -7131,18 +7103,6 @@ number.11.Viola.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "each time more ponticello"
-      %! SPANNER_START
-    \startTextSpanTwo
       %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -7155,6 +7115,14 @@ number.11.Viola.Music = {
       %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "each time more ponticello"
+      %! SPANNER_START
+    \startTextSpanTwo
     \glissando
 
     \hide NoteHead
@@ -7529,10 +7497,6 @@ number.11.Viola.Music = {
     - \baca-text-spanner-left-text "trem. ord."
       %! SPANNER_START
     \startTextSpanOne
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
     - \tweak staff-padding 10.5
       %! SPANNER_START
@@ -8845,10 +8809,6 @@ number.11.Cello.Music = {
         bf,!4
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -9723,18 +9683,6 @@ number.11.Cello.Music = {
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "each time more ponticello"
-      %! SPANNER_START
-    \startTextSpanTwo
       %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -9747,6 +9695,14 @@ number.11.Cello.Music = {
       %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "each time more ponticello"
+      %! SPANNER_START
+    \startTextSpanTwo
     \glissando
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -10107,18 +10063,6 @@ number.11.Cello.Music = {
     - \baca-text-spanner-left-text "trem. ord."
       %! SPANNER_START
     \startTextSpanOne
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 10.5
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "each time less ponticello"
-      %! SPANNER_START
-    \startTextSpanTwo
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -10144,6 +10088,14 @@ number.11.Cello.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
+      %! SPANNER_START
+    - \tweak staff-padding 10.5
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "each time less ponticello"
+      %! SPANNER_START
+    \startTextSpanTwo
       %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5

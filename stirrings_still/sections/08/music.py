@@ -434,7 +434,6 @@ def v2(cache):
             o.rleaves(),
             "2° =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            autodetect_right_padding=True,
             bookend=False,
             lilypond_id=1,
         )
@@ -442,7 +441,6 @@ def v2(cache):
             o.rleaves(),
             "rasp -> flaut. =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=True,
             bookend=False,
             pieces=baca.select.mgroups(o.rleaves(), [3, 5 + 1]),
         )
@@ -464,7 +462,6 @@ def v2(cache):
             r" \baca-circle-mod-markup ->"
             r" \baca-circle-wide-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=True,
             bookend=False,
             pieces=baca.select.mgroups(o.rleaves(), [1, 1, 2, 2, 2 + 1]),
         )
@@ -743,7 +740,6 @@ def v1_v2_va(cache):
                 leaves,
                 r"\baca-circle-very-wide-markup -> \baca-circle-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                autodetect_right_padding=True,
                 bookend=False,
                 pieces=baca.select.mgroups(leaves, [1, 2]),
             )
@@ -757,7 +753,6 @@ def v1_v2_va(cache):
                 o.rleaves(),
                 r"\baca-circle-wide-markup -> \baca-circle-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                autodetect_right_padding=True,
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [1, 2 + 1]),
             )
@@ -771,7 +766,6 @@ def v1_v2_va(cache):
                 o.rleaves(),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                autodetect_right_padding=True,
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [2, 2 + 1]),
             )
@@ -806,7 +800,6 @@ def v1_v2_va(cache):
                 o.rleaves(),
                 r"\baca-circle-very-tight-markup -> \baca-circle-wide-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                autodetect_right_padding=True,
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [3, 2 + 1]),
             )
@@ -903,7 +896,6 @@ def v1_va(cache):
                 r" \baca-circle-mod-markup ->"
                 r" \baca-circle-wide-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                autodetect_right_padding=True,
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [2, 2, 2, 5]),
             )
@@ -1004,7 +996,6 @@ def tutti(cache):
                     o.rleaves(),
                     "2° =|",
                     abjad.Tweak(r"- \tweak staff-padding 8"),
-                    autodetect_right_padding=True,
                     bookend=False,
                     lilypond_id=1,
                 )
@@ -1012,7 +1003,6 @@ def tutti(cache):
                     o.rleaves(),
                     "rasp -> flaut. =|",
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                    autodetect_right_padding=True,
                     bookend=False,
                     pieces=baca.select.mgroups(o.rleaves(), [3, 3]),
                 )
@@ -1041,7 +1031,6 @@ def tutti(cache):
                 o.rleaves(),
                 "2° =|",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
-                autodetect_right_padding=True,
                 bookend=False,
                 lilypond_id=1,
             )
@@ -1049,7 +1038,6 @@ def tutti(cache):
                 o.rleaves(),
                 "rasp -> poco rasp =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                autodetect_right_padding=True,
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [1, 2]),
             )

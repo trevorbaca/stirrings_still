@@ -463,7 +463,6 @@ def v1(cache):
             o,
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=True,
             bookend=False,
             pieces=library.rleaves_partition_by_ratio(o, (1, 1, 1)),
         )
@@ -597,7 +596,6 @@ def v1(cache):
             o,
             r"\baca-null-markup || \baca-null-markup || \baca-damp-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            autodetect_right_padding=True,
             bookend=False,
             final_piece_spanner=False,
             lilypond_id=1,
@@ -656,7 +654,6 @@ def tutti(cache):
                 o.rleaves(),
                 "each time more ponticello =|",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
-                autodetect_right_padding=True,
                 bookend=False,
                 lilypond_id=2,
             )
@@ -665,7 +662,6 @@ def tutti(cache):
                 o.rleaves(),
                 "each time less ponticello =|",
                 abjad.Tweak(r"- \tweak staff-padding 10.5"),
-                autodetect_right_padding=True,
                 bookend=False,
                 lilypond_id=2,
             )
@@ -698,7 +694,6 @@ def v2(cache):
             o,
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=True,
             bookend=False,
             pieces=library.rleaves_partition_by_ratio(o, (1, 1, 1)),
         )
@@ -880,7 +875,6 @@ def va(cache):
             o,
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=True,
             bookend=False,
             pieces=library.rleaves_partition_by_ratio(o, (1, 1, 1)),
         )
@@ -1006,7 +1000,6 @@ def va(cache):
             o,
             r"\baca-null-markup || \baca-damp-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            autodetect_right_padding=True,
             bookend=False,
             final_piece_spanner=False,
             lilypond_id=1,
@@ -1069,7 +1062,6 @@ def vc(cache):
             o,
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=True,
             bookend=False,
             pieces=library.rleaves_partition_by_ratio(o, (1, 1, 1)),
         )
