@@ -3251,10 +3251,6 @@ number.3.Violin.1.Music = {
         r4
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -3343,10 +3339,6 @@ number.3.Violin.1.Music = {
         r4
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -3437,10 +3429,6 @@ number.3.Violin.1.Music = {
         \stopTextSpan
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -5309,10 +5297,6 @@ number.3.Violin.2.Music = {
     r4
       %! SPANNER_STOP
     \stopTextSpan
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
     - \tweak staff-padding 5.5
       %! SPANNER_START
@@ -5369,10 +5353,6 @@ number.3.Violin.2.Music = {
     r4
       %! SPANNER_STOP
     \stopTextSpan
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
     - \tweak staff-padding 5.5
       %! SPANNER_START
@@ -5431,10 +5411,6 @@ number.3.Violin.2.Music = {
     \stopTextSpan
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
     - \tweak staff-padding 5.5
       %! SPANNER_START
@@ -7317,10 +7293,6 @@ number.3.Viola.Music = {
         r4
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -7417,10 +7389,6 @@ number.3.Viola.Music = {
         r4
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -7519,10 +7487,6 @@ number.3.Viola.Music = {
         \stopTextSpan
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -9503,10 +9467,6 @@ number.3.Cello.Music = {
         r4
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -9579,10 +9539,6 @@ number.3.Cello.Music = {
         r4
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -9657,10 +9613,6 @@ number.3.Cello.Music = {
         \stopTextSpan
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START

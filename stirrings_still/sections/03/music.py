@@ -731,7 +731,6 @@ def tutti(cache):
                 o.rleaves(),
                 r"\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                autodetect_right_padding=True,
                 bookend=False,
                 pieces=baca.select.omgroups(o.rleaves(), [2]),
             )
@@ -748,7 +747,6 @@ def tutti(cache):
                 leaves,
                 r"\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                autodetect_right_padding=True,
                 bookend=False,
                 pieces=baca.select.omgroups(leaves, [2]),
             ),
@@ -760,7 +758,6 @@ def tutti(cache):
                 r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 library.left_broken_circle_bow_tweak(),
-                autodetect_right_padding=True,
                 bookend=False,
                 pieces=baca.select.omgroups(leaves, [2]),
             )

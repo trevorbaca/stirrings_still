@@ -863,7 +863,6 @@ def v1_v2_va(cache):
                 o.rleaves(),
                 "trem. ord. -> larghiss. =|",
                 abjad.Tweak(r"- \tweak staff-padding 10.5"),
-                autodetect_right_padding=True,
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [3, 1 + 1]),
             )

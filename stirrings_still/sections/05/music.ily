@@ -9460,10 +9460,6 @@ number.5.Violin.1.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 10.5
           %! SPANNER_START
@@ -14260,10 +14256,6 @@ number.5.Violin.2.Music = {
     :32
       %! SPANNER_STOP
     \stopTextSpan
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
     - \tweak staff-padding 10.5
       %! SPANNER_START
@@ -18821,10 +18813,6 @@ number.5.Viola.Music = {
         :32
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 10.5
           %! SPANNER_START

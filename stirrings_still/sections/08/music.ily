@@ -1978,18 +1978,6 @@ number.8.Violin.1.Music = {
     _ \baca-string-iii-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "2°"
-      %! SPANNER_START
-    \startTextSpanOne
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2033,6 +2021,14 @@ number.8.Violin.1.Music = {
     - \baca-text-spanner-left-text "rasp"
       %! SPANNER_START
     \startTextSpan
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "2°"
+      %! SPANNER_START
+    \startTextSpanOne
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -2065,18 +2061,6 @@ number.8.Violin.1.Music = {
     \mp
       %! SPANNER_STOP
     \stopTextSpan
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "flaut."
-      %! SPANNER_START
-    \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2087,6 +2071,14 @@ number.8.Violin.1.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "flaut."
+      %! SPANNER_START
+    \startTextSpan
 
     % [Violin.1.Music measure 5]
     \revert Accidental.stencil
@@ -2304,10 +2296,6 @@ number.8.Violin.1.Music = {
         b'4
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -2732,10 +2720,6 @@ number.8.Violin.1.Music = {
         %@% ^ \baca-duration-multiplier-markup #"143" #"32"
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -2962,18 +2946,6 @@ number.8.Violin.1.Music = {
     \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "2°"
-      %! SPANNER_START
-    \startTextSpanOne
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -3020,6 +2992,14 @@ number.8.Violin.1.Music = {
     - \baca-text-spanner-left-text "rasp"
       %! SPANNER_START
     \startTextSpan
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "2°"
+      %! SPANNER_START
+    \startTextSpanOne
     \glissando
 
     % [Violin.1.Music measure 37]
@@ -3041,18 +3021,6 @@ number.8.Violin.1.Music = {
     \mp
       %! SPANNER_STOP
     \stopTextSpan
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "poco rasp"
-      %! SPANNER_START
-    \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -3066,6 +3034,14 @@ number.8.Violin.1.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "poco rasp"
+      %! SPANNER_START
+    \startTextSpan
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1... }
     \times 1/1
@@ -3132,10 +3108,6 @@ number.8.Violin.1.Music = {
         %@% ^ \baca-duration-multiplier-markup #"315" #"64"
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -3276,10 +3248,6 @@ number.8.Violin.1.Music = {
         %@% ^ \baca-duration-multiplier-markup #"67" #"16"
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -3452,10 +3420,13 @@ number.8.Violin.1.Music = {
         \!
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
+        \>
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -3464,13 +3435,6 @@ number.8.Violin.1.Music = {
         - \baca-text-spanner-left-markup \baca-circle-wide-markup
           %! SPANNER_START
         \startTextSpan
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \>
 
         aqs'!4
 
@@ -3884,18 +3848,6 @@ number.8.Violin.2.Music = {
     _ \baca-string-iii-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "2°"
-      %! SPANNER_START
-    \startTextSpanOne
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -3939,6 +3891,14 @@ number.8.Violin.2.Music = {
     - \baca-text-spanner-left-text "rasp"
       %! SPANNER_START
     \startTextSpan
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "2°"
+      %! SPANNER_START
+    \startTextSpanOne
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -3971,18 +3931,6 @@ number.8.Violin.2.Music = {
     \mp
       %! SPANNER_STOP
     \stopTextSpan
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "flaut."
-      %! SPANNER_START
-    \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -3993,6 +3941,14 @@ number.8.Violin.2.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "flaut."
+      %! SPANNER_START
+    \startTextSpan
 
     % [Violin.2.Music measure 5]
     f'2..
@@ -4183,18 +4139,6 @@ number.8.Violin.2.Music = {
         \!
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! SPANNER_START
-        \startTextSpan
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -4208,6 +4152,14 @@ number.8.Violin.2.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! SPANNER_START
+        \startTextSpan
         \glissando
 
         \hide NoteHead
@@ -4572,10 +4524,6 @@ number.8.Violin.2.Music = {
         %@% ^ \baca-duration-multiplier-markup #"173" #"32"
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -4812,18 +4760,6 @@ number.8.Violin.2.Music = {
     \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "2°"
-      %! SPANNER_START
-    \startTextSpanOne
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -4870,6 +4806,14 @@ number.8.Violin.2.Music = {
     - \baca-text-spanner-left-text "rasp"
       %! SPANNER_START
     \startTextSpan
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "2°"
+      %! SPANNER_START
+    \startTextSpanOne
     \glissando
 
     % [Violin.2.Music measure 37]
@@ -4891,18 +4835,6 @@ number.8.Violin.2.Music = {
     \mp
       %! SPANNER_STOP
     \stopTextSpan
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "poco rasp"
-      %! SPANNER_START
-    \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -4916,6 +4848,14 @@ number.8.Violin.2.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "poco rasp"
+      %! SPANNER_START
+    \startTextSpan
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1... }
     \times 1/1
@@ -4982,10 +4922,6 @@ number.8.Violin.2.Music = {
         %@% ^ \baca-duration-multiplier-markup #"377" #"64"
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -5118,10 +5054,6 @@ number.8.Violin.2.Music = {
         %@% ^ \baca-duration-multiplier-markup #"5" #"1"
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -5276,10 +5208,13 @@ number.8.Violin.2.Music = {
         \!
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
+        \>
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -5288,13 +5223,6 @@ number.8.Violin.2.Music = {
         - \baca-text-spanner-left-markup \baca-circle-wide-markup
           %! SPANNER_START
         \startTextSpan
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \>
 
         ef'!4
 
@@ -5777,18 +5705,6 @@ number.8.Viola.Music = {
     _ \baca-string-iii-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "2°"
-      %! SPANNER_START
-    \startTextSpanOne
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -5832,6 +5748,14 @@ number.8.Viola.Music = {
     - \baca-text-spanner-left-text "rasp"
       %! SPANNER_START
     \startTextSpan
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "2°"
+      %! SPANNER_START
+    \startTextSpanOne
     \glissando
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -5864,18 +5788,6 @@ number.8.Viola.Music = {
     \mp
       %! SPANNER_STOP
     \stopTextSpan
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "flaut."
-      %! SPANNER_START
-    \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -5886,6 +5798,14 @@ number.8.Viola.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "flaut."
+      %! SPANNER_START
+    \startTextSpan
 
     % [Viola.Music measure 5]
     \revert Accidental.stencil
@@ -6076,10 +5996,6 @@ number.8.Viola.Music = {
         b2
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -6452,10 +6368,6 @@ number.8.Viola.Music = {
         %@% ^ \baca-duration-multiplier-markup #"427" #"64"
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -6670,18 +6582,6 @@ number.8.Viola.Music = {
     \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "2°"
-      %! SPANNER_START
-    \startTextSpanOne
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6728,6 +6628,14 @@ number.8.Viola.Music = {
     - \baca-text-spanner-left-text "rasp"
       %! SPANNER_START
     \startTextSpan
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "2°"
+      %! SPANNER_START
+    \startTextSpanOne
     \glissando
 
     % [Viola.Music measure 37]
@@ -6749,18 +6657,6 @@ number.8.Viola.Music = {
     \mp
       %! SPANNER_STOP
     \stopTextSpan
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "poco rasp"
-      %! SPANNER_START
-    \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6774,6 +6670,14 @@ number.8.Viola.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "poco rasp"
+      %! SPANNER_START
+    \startTextSpan
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1... }
     \times 1/1
@@ -6840,10 +6744,6 @@ number.8.Viola.Music = {
         %@% ^ \baca-duration-multiplier-markup #"381" #"64"
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -6976,10 +6876,6 @@ number.8.Viola.Music = {
         %@% ^ \baca-duration-multiplier-markup #"411" #"64"
           %! SPANNER_STOP
         \stopTextSpan
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
           %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
@@ -7109,10 +7005,13 @@ number.8.Viola.Music = {
     \!
       %! SPANNER_STOP
     \stopTextSpan
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    \>
       %! SPANNER_START
     - \tweak staff-padding 5.5
       %! SPANNER_START
@@ -7121,13 +7020,6 @@ number.8.Viola.Music = {
     - \baca-text-spanner-left-markup \baca-circle-wide-markup
       %! SPANNER_START
     \startTextSpan
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \>
 
     bqf!4
 
@@ -7467,18 +7359,6 @@ number.8.Cello.Music = {
     _ \baca-string-iii-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "2°"
-      %! SPANNER_START
-    \startTextSpanOne
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -7522,6 +7402,14 @@ number.8.Cello.Music = {
     - \baca-text-spanner-left-text "rasp"
       %! SPANNER_START
     \startTextSpan
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "2°"
+      %! SPANNER_START
+    \startTextSpanOne
     \glissando
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -7554,18 +7442,6 @@ number.8.Cello.Music = {
     \mp
       %! SPANNER_STOP
     \stopTextSpan
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "flaut."
-      %! SPANNER_START
-    \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -7576,6 +7452,14 @@ number.8.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "flaut."
+      %! SPANNER_START
+    \startTextSpan
 
     % [Cello.Music measure 5]
     \revert Accidental.stencil
@@ -8138,18 +8022,6 @@ number.8.Cello.Music = {
     \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "2°"
-      %! SPANNER_START
-    \startTextSpanOne
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -8196,6 +8068,14 @@ number.8.Cello.Music = {
     - \baca-text-spanner-left-text "rasp"
       %! SPANNER_START
     \startTextSpan
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "2°"
+      %! SPANNER_START
+    \startTextSpanOne
     \glissando
 
     % [Cello.Music measure 37]
@@ -8217,18 +8097,6 @@ number.8.Cello.Music = {
     \mp
       %! SPANNER_STOP
     \stopTextSpan
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "poco rasp"
-      %! SPANNER_START
-    \startTextSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -8242,6 +8110,14 @@ number.8.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "poco rasp"
+      %! SPANNER_START
+    \startTextSpan
 
     % [Cello.Music measure 38]
     gf,!2.
