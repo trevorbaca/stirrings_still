@@ -121,6 +121,7 @@
         \name GlobalContext
         \type Engraver_group
         \consists Axis_group_engraver
+        \consists Bar_engraver
         % causes programming error: cyclic dependency: calculation-in-progress
         % encountered for VerticalAxisGroup.adjacent-pure-heights:
         % \consists Bar_number_engraver
@@ -137,6 +138,8 @@
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
         %\override BarNumber.stencil = ##f
+
+        \override TextSpanner.to-barline = ##t
 
         % prevents StaffSymbol from starting too early after cut-away measures:
         \override TimeSignature.X-extent = ##f
@@ -226,6 +229,8 @@
         %            probably should never be done at stylesheet level.
         % NOTE:      may be best to override NO text script properties.
         \override TextScript.X-extent = ##f
+
+        \override TextSpanner.to-barline = ##t
 
         \override TupletBracket.breakable = ##t
         \override TupletBracket.full-length-to-extent = ##f
