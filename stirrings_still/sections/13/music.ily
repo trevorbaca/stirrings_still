@@ -1000,13 +1000,16 @@ number.13.Violin.1.Music = {
     ^ \stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -1032,16 +1035,6 @@ number.13.Violin.1.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1105,13 +1098,19 @@ number.13.Violin.1.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanMaterialAnnotation
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! MATERIAL
-          %! MATERIAL_ANNOTATION_SPANNER
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! URTEXT
-        - \tweak bound-details.right.padding 2.75
+        - \tweak to-barline ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
@@ -1137,19 +1136,6 @@ number.13.Violin.1.Music = {
           %! SPANNER_START
           %! URTEXT
         \bacaStartTextSpanMaterialAnnotation
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \>
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -1235,13 +1221,16 @@ number.13.Violin.1.Music = {
       %! SPANNER_STOP
       %! URTEXT
     \bacaStopTextSpanMaterialAnnotation
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -1267,16 +1256,6 @@ number.13.Violin.1.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
     % [Violin.1.Music measure 14]
@@ -1321,13 +1300,19 @@ number.13.Violin.1.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanMaterialAnnotation
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! MATERIAL
-          %! MATERIAL_ANNOTATION_SPANNER
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! URTEXT
-        - \tweak bound-details.right.padding 2.75
+        - \tweak to-barline ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
@@ -1353,19 +1338,6 @@ number.13.Violin.1.Music = {
           %! SPANNER_START
           %! URTEXT
         \bacaStartTextSpanMaterialAnnotation
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \>
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -1451,13 +1423,16 @@ number.13.Violin.1.Music = {
       %! SPANNER_STOP
       %! URTEXT
     \bacaStopTextSpanMaterialAnnotation
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -1483,16 +1458,6 @@ number.13.Violin.1.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
     % [Violin.1.Music measure 22]
@@ -1540,13 +1505,19 @@ number.13.Violin.1.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanMaterialAnnotation
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! MATERIAL
-          %! MATERIAL_ANNOTATION_SPANNER
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! URTEXT
-        - \tweak bound-details.right.padding 2.75
+        - \tweak to-barline ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
@@ -1572,19 +1543,6 @@ number.13.Violin.1.Music = {
           %! SPANNER_START
           %! URTEXT
         \bacaStartTextSpanMaterialAnnotation
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \>
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -1654,13 +1612,16 @@ number.13.Violin.1.Music = {
       %! SPANNER_STOP
       %! URTEXT
     \bacaStopTextSpanMaterialAnnotation
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 3.25
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -1686,16 +1647,6 @@ number.13.Violin.1.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
       %! RIGHT_BROKEN
@@ -1857,13 +1808,16 @@ number.13.Violin.2.Music = {
     ^ \stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -1889,16 +1843,6 @@ number.13.Violin.2.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1962,13 +1906,19 @@ number.13.Violin.2.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanMaterialAnnotation
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! MATERIAL
-          %! MATERIAL_ANNOTATION_SPANNER
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! URTEXT
-        - \tweak bound-details.right.padding 2.75
+        - \tweak to-barline ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
@@ -1994,19 +1944,6 @@ number.13.Violin.2.Music = {
           %! SPANNER_START
           %! URTEXT
         \bacaStartTextSpanMaterialAnnotation
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \>
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -2085,13 +2022,16 @@ number.13.Violin.2.Music = {
       %! SPANNER_STOP
       %! URTEXT
     \bacaStopTextSpanMaterialAnnotation
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2117,16 +2057,6 @@ number.13.Violin.2.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
     % [Violin.2.Music measure 14]
@@ -2171,13 +2101,19 @@ number.13.Violin.2.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanMaterialAnnotation
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! MATERIAL
-          %! MATERIAL_ANNOTATION_SPANNER
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! URTEXT
-        - \tweak bound-details.right.padding 2.75
+        - \tweak to-barline ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
@@ -2203,19 +2139,6 @@ number.13.Violin.2.Music = {
           %! SPANNER_START
           %! URTEXT
         \bacaStartTextSpanMaterialAnnotation
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \>
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -2295,13 +2218,16 @@ number.13.Violin.2.Music = {
       %! SPANNER_STOP
       %! URTEXT
     \bacaStopTextSpanMaterialAnnotation
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2327,16 +2253,6 @@ number.13.Violin.2.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
     % [Violin.2.Music measure 22]
@@ -2384,13 +2300,19 @@ number.13.Violin.2.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanMaterialAnnotation
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! MATERIAL
-          %! MATERIAL_ANNOTATION_SPANNER
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! URTEXT
-        - \tweak bound-details.right.padding 2.75
+        - \tweak to-barline ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
@@ -2416,19 +2338,6 @@ number.13.Violin.2.Music = {
           %! SPANNER_START
           %! URTEXT
         \bacaStartTextSpanMaterialAnnotation
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \>
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -2493,13 +2402,16 @@ number.13.Violin.2.Music = {
       %! SPANNER_STOP
       %! URTEXT
     \bacaStopTextSpanMaterialAnnotation
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 3.25
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2525,16 +2437,6 @@ number.13.Violin.2.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
       %! RIGHT_BROKEN
@@ -2692,13 +2594,16 @@ number.13.Viola.Music = {
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
     ^ \stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2724,16 +2629,6 @@ number.13.Viola.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -2794,13 +2689,19 @@ number.13.Viola.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! URTEXT
-    - \tweak bound-details.right.padding 2.75
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \>
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -2826,19 +2727,6 @@ number.13.Viola.Music = {
       %! SPANNER_START
       %! URTEXT
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \>
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -2901,13 +2789,16 @@ number.13.Viola.Music = {
       %! SPANNER_STOP
       %! URTEXT
     \bacaStopTextSpanMaterialAnnotation
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2933,16 +2824,6 @@ number.13.Viola.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
     % [Viola.Music measure 14]
@@ -2984,13 +2865,19 @@ number.13.Viola.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! URTEXT
-    - \tweak bound-details.right.padding 2.75
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \>
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -3016,19 +2903,6 @@ number.13.Viola.Music = {
       %! SPANNER_START
       %! URTEXT
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \>
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -3090,13 +2964,16 @@ number.13.Viola.Music = {
       %! SPANNER_STOP
       %! URTEXT
     \bacaStopTextSpanMaterialAnnotation
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -3122,16 +2999,6 @@ number.13.Viola.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
     % [Viola.Music measure 22]
@@ -3176,13 +3043,19 @@ number.13.Viola.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! URTEXT
-    - \tweak bound-details.right.padding 2.75
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \>
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -3208,19 +3081,6 @@ number.13.Viola.Music = {
       %! SPANNER_START
       %! URTEXT
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \>
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -3276,13 +3136,16 @@ number.13.Viola.Music = {
       %! SPANNER_STOP
       %! URTEXT
     \bacaStopTextSpanMaterialAnnotation
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 3.25
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -3308,16 +3171,6 @@ number.13.Viola.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
       %! RIGHT_BROKEN
@@ -3480,13 +3333,6 @@ number.13.Cello.Music = {
     \fff
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-      %! AUTODETECT
-      %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 3.25
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER

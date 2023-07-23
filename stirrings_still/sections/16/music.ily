@@ -830,13 +830,6 @@ number.16.Violin.1.Music = {
     \ppppp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-      %! AUTODETECT
-      %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -862,11 +855,6 @@ number.16.Violin.1.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -1062,11 +1050,6 @@ number.16.Violin.1.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -1203,11 +1186,6 @@ number.16.Violin.1.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -1412,11 +1390,6 @@ number.16.Violin.1.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -1739,13 +1712,6 @@ number.16.Violin.2.Music = {
     \ppppp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-      %! AUTODETECT
-      %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -1771,11 +1737,6 @@ number.16.Violin.2.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -1917,11 +1878,6 @@ number.16.Violin.2.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -2055,11 +2011,6 @@ number.16.Violin.2.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -2185,11 +2136,6 @@ number.16.Violin.2.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -2333,11 +2279,6 @@ number.16.Violin.2.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -2479,11 +2420,6 @@ number.16.Violin.2.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -2801,13 +2737,6 @@ number.16.Viola.Music = {
     \ppppp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-      %! AUTODETECT
-      %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2833,11 +2762,6 @@ number.16.Viola.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -3060,11 +2984,6 @@ number.16.Viola.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -3470,13 +3389,6 @@ number.16.Cello.Music = {
     \ppppp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-      %! AUTODETECT
-      %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -3502,11 +3414,6 @@ number.16.Cello.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -3711,11 +3618,6 @@ number.16.Cello.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5

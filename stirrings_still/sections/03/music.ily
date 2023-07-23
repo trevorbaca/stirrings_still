@@ -2742,26 +2742,6 @@ number.3.Violin.1.Music = {
         \baca-effort-ff
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-          %! AUTODETECT
-          %! SPANNER_START
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 8
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-damp-markup
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanDamp
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -2790,6 +2770,21 @@ number.3.Violin.1.Music = {
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-damp-markup
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanDamp
         \glissando
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -2883,13 +2878,6 @@ number.3.Violin.1.Music = {
       %! SPANNER_STOP
     \bacaStopTextSpanDamp
     [
-      %! AUTODETECT
-      %! SPANNER_START
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-      %! URTEXT
-    - \tweak bound-details.right.padding 3.25
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -2915,11 +2903,6 @@ number.3.Violin.1.Music = {
       %! SPANNER_START
       %! URTEXT
     \bacaStartTextSpanMaterialAnnotation
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 3.25
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -3016,26 +2999,6 @@ number.3.Violin.1.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \p
-          %! AUTODETECT
-          %! SPANNER_START
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 8
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-damp-markup
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanDamp
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -3064,6 +3027,21 @@ number.3.Violin.1.Music = {
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-damp-markup
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanDamp
         \glissando
 
         \hide NoteHead
@@ -3216,11 +3194,14 @@ number.3.Violin.1.Music = {
         - \tweak self-alignment-X -0.75
           %! EXPLICIT_DYNAMIC
         \baca-p-ancora
-          %! AUTODETECT
           %! SPANNER_START
-          %! DAMP_SPANNER
+        - \tweak staff-padding 5.5
           %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
+        - \abjad-solid-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-tight-poss-markup
+          %! SPANNER_START
+        \startTextSpan
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 8
@@ -3236,14 +3217,6 @@ number.3.Violin.1.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! SPANNER_START
-        - \abjad-solid-line-with-arrow
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-tight-poss-markup
-          %! SPANNER_START
-        \startTextSpan
 
         r4
 
@@ -3624,13 +3597,19 @@ number.3.Violin.1.Music = {
       %! DAMP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanDamp
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak stencil #constante-hairpin
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -3656,11 +3635,6 @@ number.3.Violin.1.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -3676,19 +3650,6 @@ number.3.Violin.1.Music = {
       %! SPANNER_START
       %! TASTO_SPANNER
     \bacaStartTextSpanSCP
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak stencil #constante-hairpin
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
     \tweak edge-height #'(0.7 . 0)
@@ -3729,26 +3690,6 @@ number.3.Violin.1.Music = {
       %! SPANNER_STOP
       %! TASTO_SPANNER
     \bacaStopTextSpanSCP
-      %! AUTODETECT
-      %! SPANNER_START
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-markup \baca-damp-markup
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanDamp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -3764,6 +3705,21 @@ number.3.Violin.1.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-damp-markup
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanDamp
 
     r4
 
@@ -4407,13 +4363,22 @@ number.3.Violin.1.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! URTEXT
-    - \tweak bound-details.right.padding 2.75
+    - \tweak self-alignment-X #left
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak stencil #constante-hairpin
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -4439,22 +4404,6 @@ number.3.Violin.1.Music = {
       %! SPANNER_START
       %! URTEXT
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak self-alignment-X #left
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak stencil #constante-hairpin
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
     % [Violin.1.Music measure 61]
@@ -4926,26 +4875,6 @@ number.3.Violin.2.Music = {
     \baca-effort-ff
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-      %! AUTODETECT
-      %! SPANNER_START
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-markup \baca-damp-markup
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanDamp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -4974,6 +4903,21 @@ number.3.Violin.2.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-damp-markup
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanDamp
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -5043,13 +4987,6 @@ number.3.Violin.2.Music = {
           %! SPANNER_STOP
         \bacaStopTextSpanDamp
         [
-          %! AUTODETECT
-          %! SPANNER_START
-          %! MATERIAL
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! URTEXT
-        - \tweak bound-details.right.padding 3.25
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
@@ -5075,11 +5012,6 @@ number.3.Violin.2.Music = {
           %! SPANNER_START
           %! URTEXT
         \bacaStartTextSpanMaterialAnnotation
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-          %! TASTO_SPANNER
-        - \tweak bound-details.right.padding 3.25
           %! SPANNER_START
           %! TASTO_SPANNER
         - \tweak staff-padding 5.5
@@ -5177,26 +5109,6 @@ number.3.Violin.2.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \p
-      %! AUTODETECT
-      %! SPANNER_START
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 3.25
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-markup \baca-damp-markup
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanDamp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -5225,6 +5137,21 @@ number.3.Violin.2.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-damp-markup
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanDamp
     \glissando
 
     \hide NoteHead
@@ -5341,11 +5268,14 @@ number.3.Violin.2.Music = {
     - \tweak self-alignment-X -0.75
       %! EXPLICIT_DYNAMIC
     \baca-p-ancora
-      %! AUTODETECT
       %! SPANNER_START
-      %! DAMP_SPANNER
+    - \tweak staff-padding 5.5
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \abjad-solid-line-with-arrow
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-circle-tight-poss-markup
+      %! SPANNER_START
+    \startTextSpan
       %! DAMP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 8
@@ -5361,14 +5291,6 @@ number.3.Violin.2.Music = {
       %! DAMP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanDamp
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! SPANNER_START
-    - \abjad-solid-line-with-arrow
-      %! SPANNER_START
-    - \baca-text-spanner-left-markup \baca-circle-tight-poss-markup
-      %! SPANNER_START
-    \startTextSpan
 
     r4
 
@@ -5627,11 +5549,19 @@ number.3.Violin.2.Music = {
           %! DAMP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanDamp
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! HALF_CLT_SPANNER
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
+        - \tweak to-barline ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak stencil #constante-hairpin
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -5647,11 +5577,6 @@ number.3.Violin.2.Music = {
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
-          %! AUTODETECT
-          %! SPANNER_START
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 8
@@ -5667,19 +5592,6 @@ number.3.Violin.2.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak stencil #constante-hairpin
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \<
 
         r4
 
@@ -5744,26 +5656,6 @@ number.3.Violin.2.Music = {
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
-      %! AUTODETECT
-      %! SPANNER_START
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-markup \baca-damp-markup
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanDamp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -5779,6 +5671,21 @@ number.3.Violin.2.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-damp-markup
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanDamp
 
     r4
 
@@ -6427,13 +6334,22 @@ number.3.Violin.2.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! URTEXT
-    - \tweak bound-details.right.padding 2.75
+    - \tweak self-alignment-X #left
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak stencil #constante-hairpin
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -6459,22 +6375,6 @@ number.3.Violin.2.Music = {
       %! SPANNER_START
       %! URTEXT
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak self-alignment-X #left
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak stencil #constante-hairpin
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
     % [Violin.2.Music measure 61]
@@ -6889,26 +6789,6 @@ number.3.Viola.Music = {
         \baca-effort-ff
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“Viola”)"
-          %! AUTODETECT
-          %! SPANNER_START
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 8
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-damp-markup
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanDamp
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -6937,6 +6817,21 @@ number.3.Viola.Music = {
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-damp-markup
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanDamp
         \glissando
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -7042,13 +6937,6 @@ number.3.Viola.Music = {
           %! SPANNER_STOP
         \bacaStopTextSpanDamp
         [
-          %! AUTODETECT
-          %! SPANNER_START
-          %! CLOUDED_PANE
-          %! MATERIAL
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
           %! CLOUDED_PANE
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
@@ -7074,11 +6962,6 @@ number.3.Viola.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-          %! TASTO_SPANNER
-        - \tweak bound-details.right.padding 3.25
           %! SPANNER_START
           %! TASTO_SPANNER
         - \tweak staff-padding 5.5
@@ -7174,26 +7057,6 @@ number.3.Viola.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \p
-          %! AUTODETECT
-          %! SPANNER_START
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 8
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-damp-markup
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanDamp
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -7222,6 +7085,21 @@ number.3.Viola.Music = {
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-damp-markup
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanDamp
         \glissando
 
         \hide NoteHead
@@ -7378,11 +7256,14 @@ number.3.Viola.Music = {
         - \tweak self-alignment-X -0.75
           %! EXPLICIT_DYNAMIC
         \baca-p-ancora
-          %! AUTODETECT
           %! SPANNER_START
-          %! DAMP_SPANNER
+        - \tweak staff-padding 5.5
           %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
+        - \abjad-solid-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-tight-poss-markup
+          %! SPANNER_START
+        \startTextSpan
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 8
@@ -7398,14 +7279,6 @@ number.3.Viola.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! SPANNER_START
-        - \abjad-solid-line-with-arrow
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-tight-poss-markup
-          %! SPANNER_START
-        \startTextSpan
 
         r4
 
@@ -7818,13 +7691,19 @@ number.3.Viola.Music = {
       %! DAMP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanDamp
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak stencil #constante-hairpin
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -7850,11 +7729,6 @@ number.3.Viola.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! TASTO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! TASTO_SPANNER
     - \tweak staff-padding 5.5
@@ -7870,19 +7744,6 @@ number.3.Viola.Music = {
       %! SPANNER_START
       %! TASTO_SPANNER
     \bacaStartTextSpanSCP
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak stencil #constante-hairpin
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
     \tweak edge-height #'(0.7 . 0)
@@ -7923,26 +7784,6 @@ number.3.Viola.Music = {
       %! SPANNER_STOP
       %! TASTO_SPANNER
     \bacaStopTextSpanSCP
-      %! AUTODETECT
-      %! SPANNER_START
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-markup \baca-damp-markup
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanDamp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -7958,6 +7799,21 @@ number.3.Viola.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-damp-markup
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanDamp
 
     r4
 
@@ -8609,13 +8465,22 @@ number.3.Viola.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! URTEXT
-    - \tweak bound-details.right.padding 2.75
+    - \tweak self-alignment-X #left
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak stencil #constante-hairpin
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -8641,22 +8506,6 @@ number.3.Viola.Music = {
       %! SPANNER_START
       %! URTEXT
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak self-alignment-X #left
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak stencil #constante-hairpin
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
     % [Viola.Music measure 61]
@@ -9141,26 +8990,6 @@ number.3.Cello.Music = {
         \baca-effort-ff
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“Cello”)"
-          %! AUTODETECT
-          %! SPANNER_START
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 8
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-damp-markup
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanDamp
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -9189,6 +9018,21 @@ number.3.Cello.Music = {
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-damp-markup
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanDamp
         \glissando
           %! EXPLICIT_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -9271,13 +9115,16 @@ number.3.Cello.Music = {
       %! DAMP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanDamp
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 3.25
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -9303,16 +9150,6 @@ number.3.Cello.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     - \tweak stencil ##f
     ~
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -9420,26 +9257,6 @@ number.3.Cello.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \p
-          %! AUTODETECT
-          %! SPANNER_START
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 8
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-damp-markup
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-          %! DAMP_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanDamp
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -9468,6 +9285,21 @@ number.3.Cello.Music = {
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-damp-markup
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
+          %! DAMP_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanDamp
         \glissando
           %! EXPLICIT_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -9620,11 +9452,14 @@ number.3.Cello.Music = {
         - \tweak self-alignment-X -0.75
           %! EXPLICIT_DYNAMIC
         \baca-p-ancora
-          %! AUTODETECT
           %! SPANNER_START
-          %! DAMP_SPANNER
+        - \tweak staff-padding 5.5
           %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
+        - \abjad-solid-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-tight-poss-markup
+          %! SPANNER_START
+        \startTextSpan
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 8
@@ -9640,14 +9475,6 @@ number.3.Cello.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! SPANNER_START
-        - \abjad-solid-line-with-arrow
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-tight-poss-markup
-          %! SPANNER_START
-        \startTextSpan
           %! EXPLICIT_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -9964,13 +9791,19 @@ number.3.Cello.Music = {
       %! DAMP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanDamp
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak stencil #constante-hairpin
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -9996,19 +9829,6 @@ number.3.Cello.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak stencil #constante-hairpin
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
     \tweak edge-height #'(0.7 . 0)
@@ -10046,26 +9866,6 @@ number.3.Cello.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
-      %! AUTODETECT
-      %! SPANNER_START
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-markup \baca-damp-markup
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-      %! DAMP_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanDamp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -10081,6 +9881,21 @@ number.3.Cello.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-damp-markup
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
+      %! DAMP_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanDamp
 
     r4
 
@@ -10164,13 +9979,19 @@ number.3.Cello.Music = {
       %! DAMP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanDamp
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CLOUDED_PANE
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak stencil #constante-hairpin
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -10196,19 +10017,6 @@ number.3.Cello.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak stencil #constante-hairpin
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
     \hide NoteHead

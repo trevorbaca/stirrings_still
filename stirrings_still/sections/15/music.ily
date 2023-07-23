@@ -1241,26 +1241,6 @@ number.15.Cello.Music = {
           %! SPANNER_STOP
         \bacaStopTextSpanCircleBow
         [
-          %! AUTODETECT
-          %! SPANNER_START
-          %! HALF_CLT_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
-          %! HALF_CLT_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 9.5
-          %! HALF_CLT_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanHalfCLT
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1278,6 +1258,21 @@ number.15.Cello.Music = {
         - \abjad-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         \bacaStartTextSpanBCP
+          %! HALF_CLT_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 9.5
+          %! HALF_CLT_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! HALF_CLT_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "½ clt"
+          %! HALF_CLT_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
+          %! HALF_CLT_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanHalfCLT
         \glissando
 
         \hide NoteHead
