@@ -603,11 +603,6 @@ number.18.Violin.1.Music = {
         - \upbow
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-          %! AUTODETECT
-          %! SPANNER_START
-          %! HALF_CLT_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 14
@@ -1220,11 +1215,6 @@ number.18.Violin.2.Music = {
     - \downbow
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-      %! AUTODETECT
-      %! SPANNER_START
-      %! HALF_CLT_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 10.5
