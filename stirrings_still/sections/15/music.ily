@@ -330,11 +330,19 @@ number.15.Violin.1.Music = {
     \baca-effort-mf
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CIRCLE_BOW_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak stencil #constante-hairpin
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -350,19 +358,6 @@ number.15.Violin.1.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak stencil #constante-hairpin
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -448,11 +443,19 @@ number.15.Violin.1.Music = {
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanCircleBow
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
+        - \tweak to-barline ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -468,19 +471,6 @@ number.15.Violin.1.Music = {
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \>
         \glissando
 
         \hide NoteHead
@@ -611,11 +601,19 @@ number.15.Violin.2.Music = {
     \baca-effort-mf
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CIRCLE_BOW_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak stencil #constante-hairpin
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -631,19 +629,6 @@ number.15.Violin.2.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak stencil #constante-hairpin
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -729,11 +714,19 @@ number.15.Violin.2.Music = {
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanCircleBow
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
+        - \tweak to-barline ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -749,19 +742,6 @@ number.15.Violin.2.Music = {
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \>
         \glissando
 
         \hide NoteHead
@@ -885,11 +865,19 @@ number.15.Viola.Music = {
     \baca-effort-mf
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CIRCLE_BOW_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak stencil #constante-hairpin
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -905,19 +893,6 @@ number.15.Viola.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak stencil #constante-hairpin
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1000,11 +975,19 @@ number.15.Viola.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CIRCLE_BOW_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 3.25
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \>
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -1020,19 +1003,6 @@ number.15.Viola.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \>
     \glissando
 
     \hide NoteHead
@@ -1154,11 +1124,19 @@ number.15.Cello.Music = {
     \baca-effort-mf
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! CIRCLE_BOW_SPANNER
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak stencil #constante-hairpin
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
@@ -1174,19 +1152,6 @@ number.15.Cello.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak stencil #constante-hairpin
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)

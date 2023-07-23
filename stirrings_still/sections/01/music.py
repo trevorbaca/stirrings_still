@@ -736,8 +736,6 @@ def v1_v2_va(cache):
         with baca.scope(m[26]) as o:
             baca.circle_bow_spanner(
                 baca.select.rleak(baca.select.ltleaves(o)),
-                # manual padding because spanner ends at espressivo
-                abjad.Tweak(r"- \tweak bound-details.right.padding 3.25"),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="wide",
             )
@@ -760,8 +758,7 @@ def v1_v2_va(cache):
         with baca.scope(m.get(30, 45)) as o:
             baca.circle_bow_spanner(
                 baca.select.rleak(baca.select.ltleaves(o)),
-                # manual padding because spanner ends at end-of-system
-                abjad.Tweak(r"- \tweak bound-details.right.padding 3.25"),
+                abjad.Tweak(r"- \tweak bound-details.right.padding 1.25"),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="very-wide",
             ),

@@ -2904,26 +2904,6 @@ number.17.Violin.1.Music = {
         \!
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -2942,6 +2922,21 @@ number.17.Violin.1.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
@@ -3852,26 +3847,6 @@ number.17.Violin.1.Music = {
         \bacaStopTextSpanHalfCLT
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -3890,6 +3865,21 @@ number.17.Violin.1.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
@@ -4622,26 +4612,6 @@ number.17.Violin.1.Music = {
         \bacaStopTextSpanHalfCLT
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -4660,6 +4630,21 @@ number.17.Violin.1.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
@@ -5291,26 +5276,6 @@ number.17.Violin.1.Music = {
         \bacaStopTextSpanHalfCLT
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -5329,6 +5294,21 @@ number.17.Violin.1.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
@@ -5822,26 +5802,6 @@ number.17.Violin.1.Music = {
         \bacaStopTextSpanHalfCLT
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -5860,6 +5820,21 @@ number.17.Violin.1.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
@@ -6208,26 +6183,6 @@ number.17.Violin.1.Music = {
         \bacaStopTextSpanHalfCLT
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -6246,6 +6201,21 @@ number.17.Violin.1.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
@@ -7468,26 +7438,6 @@ number.17.Violin.2.Music = {
         \!
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -7506,6 +7456,21 @@ number.17.Violin.2.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
@@ -8106,26 +8071,6 @@ number.17.Violin.2.Music = {
         \bacaStopTextSpanHalfCLT
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -8144,6 +8089,21 @@ number.17.Violin.2.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
@@ -8633,26 +8593,6 @@ number.17.Violin.2.Music = {
         \bacaStopTextSpanHalfCLT
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -8671,6 +8611,21 @@ number.17.Violin.2.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
@@ -9115,26 +9070,6 @@ number.17.Violin.2.Music = {
         \bacaStopTextSpanHalfCLT
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -9153,6 +9088,21 @@ number.17.Violin.2.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
@@ -9494,26 +9444,6 @@ number.17.Violin.2.Music = {
         \bacaStopTextSpanHalfCLT
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -9532,6 +9462,21 @@ number.17.Violin.2.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
@@ -9792,26 +9737,6 @@ number.17.Violin.2.Music = {
         \bacaStopTextSpanHalfCLT
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -9830,6 +9755,21 @@ number.17.Violin.2.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
@@ -11005,26 +10945,6 @@ number.17.Viola.Music = {
     \!
       %! AUTODETECT
       %! SPANNER_START
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-markup \baca-circle-wide-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
       %! DAMP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 2.75
@@ -11043,6 +10963,21 @@ number.17.Viola.Music = {
       %! DAMP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanDamp
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-circle-wide-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanCircleBow
     \glissando
 
     \hide NoteHead
@@ -11762,26 +11697,6 @@ number.17.Viola.Music = {
     \bacaStopTextSpanHalfCLT
       %! AUTODETECT
       %! SPANNER_START
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-markup \baca-circle-wide-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
       %! DAMP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 2.75
@@ -11800,6 +11715,21 @@ number.17.Viola.Music = {
       %! DAMP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanDamp
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-circle-wide-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanCircleBow
     \glissando
 
     \hide NoteHead
@@ -12408,26 +12338,6 @@ number.17.Viola.Music = {
     \bacaStopTextSpanHalfCLT
       %! AUTODETECT
       %! SPANNER_START
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-markup \baca-circle-wide-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
       %! DAMP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 2.75
@@ -12446,6 +12356,21 @@ number.17.Viola.Music = {
       %! DAMP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanDamp
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-circle-wide-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanCircleBow
     \glissando
 
     \hide NoteHead
@@ -12971,26 +12896,6 @@ number.17.Viola.Music = {
     \bacaStopTextSpanHalfCLT
       %! AUTODETECT
       %! SPANNER_START
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-markup \baca-circle-wide-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
       %! DAMP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 2.75
@@ -13009,6 +12914,21 @@ number.17.Viola.Music = {
       %! DAMP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanDamp
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-circle-wide-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanCircleBow
     \glissando
 
     \hide NoteHead
@@ -13421,26 +13341,6 @@ number.17.Viola.Music = {
     \bacaStopTextSpanHalfCLT
       %! AUTODETECT
       %! SPANNER_START
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-markup \baca-circle-wide-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
       %! DAMP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 2.75
@@ -13459,6 +13359,21 @@ number.17.Viola.Music = {
       %! DAMP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanDamp
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-circle-wide-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanCircleBow
     \glissando
 
     \hide NoteHead
@@ -13771,26 +13686,6 @@ number.17.Viola.Music = {
     \bacaStopTextSpanHalfCLT
       %! AUTODETECT
       %! SPANNER_START
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-markup \baca-circle-wide-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
       %! DAMP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 2.75
@@ -13809,6 +13704,21 @@ number.17.Viola.Music = {
       %! DAMP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanDamp
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-circle-wide-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanCircleBow
     \glissando
 
     \hide NoteHead
@@ -14246,26 +14156,6 @@ number.17.Cello.Music = {
         \!
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -14284,6 +14174,21 @@ number.17.Cello.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
@@ -15012,26 +14917,6 @@ number.17.Cello.Music = {
         \bacaStopTextSpanHalfCLT
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -15050,6 +14935,21 @@ number.17.Cello.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
@@ -15681,26 +15581,6 @@ number.17.Cello.Music = {
     \bacaStopTextSpanHalfCLT
       %! AUTODETECT
       %! SPANNER_START
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-markup \baca-circle-wide-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
       %! DAMP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 2.75
@@ -15719,6 +15599,21 @@ number.17.Cello.Music = {
       %! DAMP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanDamp
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-circle-wide-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanCircleBow
     \glissando
 
     \hide NoteHead
@@ -16280,26 +16175,6 @@ number.17.Cello.Music = {
         \bacaStopTextSpanHalfCLT
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -16318,6 +16193,21 @@ number.17.Cello.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
@@ -16775,26 +16665,6 @@ number.17.Cello.Music = {
     \bacaStopTextSpanHalfCLT
       %! AUTODETECT
       %! SPANNER_START
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-markup \baca-circle-wide-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanCircleBow
-      %! AUTODETECT
-      %! SPANNER_START
       %! DAMP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 2.75
@@ -16813,6 +16683,21 @@ number.17.Cello.Music = {
       %! DAMP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanDamp
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-circle-wide-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+      %! CIRCLE_BOW_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanCircleBow
     \glissando
 
     \hide NoteHead
@@ -17151,26 +17036,6 @@ number.17.Cello.Music = {
         \bacaStopTextSpanHalfCLT
           %! AUTODETECT
           %! SPANNER_START
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCircleBow
-          %! AUTODETECT
-          %! SPANNER_START
           %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -17189,6 +17054,21 @@ number.17.Cello.Music = {
           %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
+          %! CIRCLE_BOW_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCircleBow
         \glissando
 
         \hide NoteHead
