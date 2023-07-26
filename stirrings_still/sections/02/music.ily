@@ -10,13 +10,13 @@ number.2.Skips = {
     \time 6/8
     s1 * 6/8
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "65" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"
       %! EXPLICIT_METRONOME_MARK
@@ -125,13 +125,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -169,13 +169,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "78" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-dashed-line-with-arrow
+    %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "78"
       %! EXPLICIT_METRONOME_MARK
@@ -288,13 +288,13 @@ number.2.Skips = {
       %! MEASURE_NUMBER
     %@% \bacaStopTextSpanMN
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "169" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
@@ -353,13 +353,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "65" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"
       %! EXPLICIT_METRONOME_MARK
@@ -424,13 +424,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "60" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "60"
       %! EXPLICIT_METRONOME_MARK
@@ -495,13 +495,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "78" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "78"
       %! EXPLICIT_METRONOME_MARK
@@ -566,13 +566,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -635,13 +635,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-dashed-line-with-arrow
+    %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -673,13 +673,13 @@ number.2.Skips = {
       %! MEASURE_NUMBER
     %@% \bacaStopTextSpanMN
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "117" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "117"
       %! EXPLICIT_METRONOME_MARK
@@ -744,13 +744,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "117" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-dashed-line-with-arrow
+    %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "117"
       %! EXPLICIT_METRONOME_MARK
@@ -782,13 +782,13 @@ number.2.Skips = {
       %! MEASURE_NUMBER
     %@% \bacaStopTextSpanMN
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -853,13 +853,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "91" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "91"
       %! EXPLICIT_METRONOME_MARK
@@ -897,13 +897,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -975,13 +975,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-dashed-line-with-arrow
+    %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -1017,13 +1017,13 @@ number.2.Skips = {
       %! MEASURE_NUMBER
     %@% \bacaStopTextSpanMN
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "65" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"
       %! EXPLICIT_METRONOME_MARK
@@ -1086,13 +1086,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-dashed-line-with-arrow
+    %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -1124,13 +1124,13 @@ number.2.Skips = {
       %! MEASURE_NUMBER
     %@% \bacaStopTextSpanMN
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "56" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "56"
       %! EXPLICIT_METRONOME_MARK
@@ -1164,13 +1164,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-dashed-line-with-arrow
+    %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -1202,13 +1202,13 @@ number.2.Skips = {
       %! MEASURE_NUMBER
     %@% \bacaStopTextSpanMN
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "78" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "78"
       %! EXPLICIT_METRONOME_MARK
@@ -1267,13 +1267,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-dashed-line-with-arrow
+    %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -1309,13 +1309,13 @@ number.2.Skips = {
       %! MEASURE_NUMBER
     %@% \bacaStopTextSpanMN
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "117" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "117"
       %! EXPLICIT_METRONOME_MARK
@@ -1374,13 +1374,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-dashed-line-with-arrow
+    %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -1416,13 +1416,13 @@ number.2.Skips = {
       %! MEASURE_NUMBER
     %@% \bacaStopTextSpanMN
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "137" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "137"
       %! EXPLICIT_METRONOME_MARK
@@ -1456,13 +1456,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -1525,13 +1525,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-dashed-line-with-arrow
+    %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -1569,13 +1569,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-markup \stirrings-still-presto-largo-markup #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-markup \stirrings-still-presto-largo-markup
       %! EXPLICIT_METRONOME_MARK
@@ -1613,13 +1613,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "169" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
@@ -1682,13 +1682,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "117" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "117"
       %! EXPLICIT_METRONOME_MARK
@@ -1751,13 +1751,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-dashed-line-with-arrow
+    %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -1793,13 +1793,13 @@ number.2.Skips = {
       %! MEASURE_NUMBER
     %@% \bacaStopTextSpanMN
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "169" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
@@ -1833,13 +1833,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-dashed-line-with-arrow
+    %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -1998,13 +1998,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "169" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-dashed-line-with-arrow
+    %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"
       %! EXPLICIT_METRONOME_MARK
@@ -2094,13 +2094,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -2194,13 +2194,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "91" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "91"
       %! EXPLICIT_METRONOME_MARK
@@ -2238,13 +2238,13 @@ number.2.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! EXPLICIT_METRONOME_MARK
@@ -2635,7 +2635,7 @@ number.2.Violin.1.Music = {
         - \downbow
           %! DAMP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! DAMP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-markup
@@ -2650,7 +2650,7 @@ number.2.Violin.1.Music = {
         \bacaStartTextSpanDamp
           %! HALF_CLT_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
@@ -2937,7 +2937,7 @@ number.2.Violin.1.Music = {
     \p
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-tight-markup
@@ -2952,7 +2952,7 @@ number.2.Violin.1.Music = {
     \bacaStartTextSpanCircleBow
       %! DAMP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-damp-markup
@@ -3011,7 +3011,7 @@ number.2.Violin.1.Music = {
         \bacaStopTextSpanCircleBow
           %! HALF_CLT_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
@@ -3477,7 +3477,7 @@ number.2.Violin.1.Music = {
     [
       %! SPANNER_START
       %! TASTO_SPANNER
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
       %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
@@ -3494,7 +3494,7 @@ number.2.Violin.1.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! URTEXT
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -3670,13 +3670,13 @@ number.2.Violin.1.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 8.5
         - \downbow
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -3704,14 +3704,14 @@ number.2.Violin.1.Music = {
         \override NoteHead.no-ledgers = ##t
         g''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
 
         a''8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -3737,7 +3737,7 @@ number.2.Violin.1.Music = {
         \bacaStopTextSpanSCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "ord."
@@ -3747,7 +3747,7 @@ number.2.Violin.1.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -3771,7 +3771,7 @@ number.2.Violin.1.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -3782,7 +3782,7 @@ number.2.Violin.1.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -3792,7 +3792,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \baca-bcp-spanner-right-text #1 #7
         - \tweak staff-padding 6
@@ -3857,7 +3857,7 @@ number.2.Violin.1.Music = {
     - \tweak padding 1.5
     _ \baca-string-iii-markup
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
     - \baca-text-spanner-left-text "2°"
       %! SPANNER_START
@@ -3865,7 +3865,7 @@ number.2.Violin.1.Music = {
       %! SPANNER_START
     \startTextSpanOne
       %! SPANNER_START
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "rasp"
       %! SPANNER_START
@@ -3876,7 +3876,7 @@ number.2.Violin.1.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! URTEXT
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -3929,7 +3929,7 @@ number.2.Violin.1.Music = {
       %! SPANNER_STOP
     \stopTextSpan
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
     - \baca-text-spanner-left-text "flaut."
       %! SPANNER_START
@@ -3974,13 +3974,13 @@ number.2.Violin.1.Music = {
         \stopTextSpan
           %! SPANNER_STOP
         \stopTextSpanOne
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -4008,14 +4008,14 @@ number.2.Violin.1.Music = {
         \override NoteHead.no-ledgers = ##t
         g''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
 
         a''4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -4042,7 +4042,7 @@ number.2.Violin.1.Music = {
         [
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "poco P"
@@ -4052,7 +4052,7 @@ number.2.Violin.1.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -4076,7 +4076,7 @@ number.2.Violin.1.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -4086,7 +4086,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -4096,7 +4096,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \baca-bcp-spanner-right-text #1 #7
         - \tweak staff-padding 6
@@ -4172,13 +4172,13 @@ number.2.Violin.1.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 8.5
         - \downbow
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -4206,14 +4206,14 @@ number.2.Violin.1.Music = {
         \override NoteHead.no-ledgers = ##t
         a''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
 
         a''8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -4238,7 +4238,7 @@ number.2.Violin.1.Music = {
         \bacaStopTextSpanSCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
@@ -4265,7 +4265,7 @@ number.2.Violin.1.Music = {
         b''8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -4275,7 +4275,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \baca-bcp-spanner-right-text #6 #7
         - \tweak staff-padding 6
@@ -4352,13 +4352,13 @@ number.2.Violin.1.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 8.5
         - \downbow
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -4383,14 +4383,14 @@ number.2.Violin.1.Music = {
         \override NoteHead.no-ledgers = ##t
         a''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
 
         a''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -4416,7 +4416,7 @@ number.2.Violin.1.Music = {
         [
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P molto"
@@ -4439,7 +4439,7 @@ number.2.Violin.1.Music = {
 
         b''8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -4450,7 +4450,7 @@ number.2.Violin.1.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -4460,7 +4460,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -4470,7 +4470,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \baca-bcp-spanner-right-text #1 #7
         - \tweak staff-padding 6
@@ -4501,7 +4501,7 @@ number.2.Violin.1.Music = {
     \bacaStopTextSpanSCP
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-very-tight-markup
@@ -4516,7 +4516,7 @@ number.2.Violin.1.Music = {
     \bacaStartTextSpanCircleBow
       %! DAMP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-damp-markup
@@ -4620,13 +4620,13 @@ number.2.Violin.1.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 8.5
         - \downbow
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -4654,7 +4654,7 @@ number.2.Violin.1.Music = {
         \override NoteHead.no-ledgers = ##t
         a''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -4673,7 +4673,7 @@ number.2.Violin.1.Music = {
         \bacaStopTextSpanSCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P molto"
@@ -4683,7 +4683,7 @@ number.2.Violin.1.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \baca-bcp-spanner-right-text #6 #7
         - \tweak staff-padding 6
@@ -4776,7 +4776,7 @@ number.2.Violin.1.Music = {
         - \downbow
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P poss."
@@ -4786,7 +4786,7 @@ number.2.Violin.1.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \baca-bcp-spanner-right-text #4 #7
         - \tweak staff-padding 6
@@ -4878,7 +4878,7 @@ number.2.Violin.1.Music = {
     _ \stirrings-still-seven-plus-nine-of-e-markup
       %! SPANNER_START
       %! TASTO_SPANNER
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
       %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
@@ -4895,7 +4895,7 @@ number.2.Violin.1.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! URTEXT
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -4998,7 +4998,7 @@ number.2.Violin.1.Music = {
         - \downbow
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P poss."
@@ -5011,7 +5011,7 @@ number.2.Violin.1.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5033,14 +5033,14 @@ number.2.Violin.1.Music = {
         \override NoteHead.no-ledgers = ##t
         d'''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
 
         d'''8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5057,7 +5057,7 @@ number.2.Violin.1.Music = {
         d'''8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5068,7 +5068,7 @@ number.2.Violin.1.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5078,7 +5078,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5088,7 +5088,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5120,13 +5120,13 @@ number.2.Violin.1.Music = {
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P molto"
@@ -5154,7 +5154,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5165,7 +5165,7 @@ number.2.Violin.1.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5175,7 +5175,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5185,7 +5185,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5199,7 +5199,7 @@ number.2.Violin.1.Music = {
     a''8
     \bacaStopTextSpanBCP
     ]
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #4 #7
     - \tweak staff-padding 6
     \bacaStartTextSpanBCP
@@ -5210,7 +5210,7 @@ number.2.Violin.1.Music = {
     \undo \hide NoteHead
     af''!4
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #5 #7
     - \tweak staff-padding 6
     \bacaStartTextSpanBCP
@@ -5222,7 +5222,7 @@ number.2.Violin.1.Music = {
     \override NoteHead.no-ledgers = ##t
     a''4.
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 6
     \bacaStartTextSpanBCP
@@ -5232,7 +5232,7 @@ number.2.Violin.1.Music = {
     - \tweak staff-padding 8.5
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 6
     \bacaStartTextSpanBCP
@@ -5247,7 +5247,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5257,7 +5257,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5267,7 +5267,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5285,7 +5285,7 @@ number.2.Violin.1.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #2 #4
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5296,7 +5296,7 @@ number.2.Violin.1.Music = {
         \undo \hide NoteHead
         b''8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5312,21 +5312,21 @@ number.2.Violin.1.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
 
         a''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
 
         g''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5356,7 +5356,7 @@ number.2.Violin.1.Music = {
         [
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -5388,7 +5388,7 @@ number.2.Violin.1.Music = {
         f''8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5398,7 +5398,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5408,7 +5408,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5418,7 +5418,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5431,7 +5431,7 @@ number.2.Violin.1.Music = {
     - \tweak staff-padding 8.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 6
     \bacaStartTextSpanBCP
@@ -5441,7 +5441,7 @@ number.2.Violin.1.Music = {
     - \tweak staff-padding 8.5
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 6
     \bacaStartTextSpanBCP
@@ -5451,7 +5451,7 @@ number.2.Violin.1.Music = {
     - \tweak staff-padding 8.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 6
     \bacaStartTextSpanBCP
@@ -5462,7 +5462,7 @@ number.2.Violin.1.Music = {
     - \upbow
     \bacaStopTextSpanBCP
     [
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \baca-bcp-spanner-right-text #1 #7
     - \tweak staff-padding 6
@@ -5481,28 +5481,28 @@ number.2.Violin.1.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 8.5
         - \downbow
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
 
         f''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
 
         f''4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
 
         f''8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5519,7 +5519,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5529,7 +5529,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5539,7 +5539,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5549,7 +5549,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5567,7 +5567,7 @@ number.2.Violin.1.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5578,7 +5578,7 @@ number.2.Violin.1.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5588,7 +5588,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 6
         \bacaStartTextSpanBCP
@@ -5598,7 +5598,7 @@ number.2.Violin.1.Music = {
         - \tweak staff-padding 8.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \baca-bcp-spanner-right-text #4 #7
         - \tweak staff-padding 6
@@ -5616,7 +5616,7 @@ number.2.Violin.1.Music = {
     \bacaStopTextSpanSCP
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-wide-markup
@@ -5724,7 +5724,7 @@ number.2.Violin.1.Music = {
         ^ \stirrings-still-seven-plus-nine-of-e-markup
           %! SPANNER_START
           %! TASTO_SPANNER
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SPANNER_START
           %! TASTO_SPANNER
         - \baca-text-spanner-left-text "T"
@@ -5741,7 +5741,7 @@ number.2.Violin.1.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! URTEXT
-        - \abjad-solid-line-with-hook
+        - \baca-solid-line-with-hook
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
@@ -5799,7 +5799,7 @@ number.2.Violin.1.Music = {
     \bacaStopTextSpanSCP
       %! DAMP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-damp-markup
@@ -5926,7 +5926,7 @@ number.2.Violin.2.Music = {
         ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
           %! DAMP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! DAMP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-markup
@@ -5941,7 +5941,7 @@ number.2.Violin.2.Music = {
         \bacaStartTextSpanDamp
           %! HALF_CLT_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
@@ -6309,7 +6309,7 @@ number.2.Violin.2.Music = {
         \p
           %! DAMP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! DAMP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-markup
@@ -6324,7 +6324,7 @@ number.2.Violin.2.Music = {
         \bacaStartTextSpanDamp
           %! HALF_CLT_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
@@ -6547,7 +6547,7 @@ number.2.Violin.2.Music = {
         \bacaStopTextSpanDamp
           %! SPANNER_START
           %! TASTO_SPANNER
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SPANNER_START
           %! TASTO_SPANNER
         - \baca-text-spanner-left-text "T"
@@ -6560,7 +6560,7 @@ number.2.Violin.2.Music = {
           %! SPANNER_START
           %! TASTO_SPANNER
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6582,21 +6582,21 @@ number.2.Violin.2.Music = {
         \override NoteHead.no-ledgers = ##t
         b'4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         c''4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         c''8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6613,7 +6613,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6627,7 +6627,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6642,7 +6642,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6653,7 +6653,7 @@ number.2.Violin.2.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6664,7 +6664,7 @@ number.2.Violin.2.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6677,7 +6677,7 @@ number.2.Violin.2.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -6691,7 +6691,7 @@ number.2.Violin.2.Music = {
     - \tweak staff-padding 6.5
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -6706,7 +6706,7 @@ number.2.Violin.2.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -6714,7 +6714,7 @@ number.2.Violin.2.Music = {
     d''8
     \bacaStopTextSpanBCP
     [
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #4 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -6722,7 +6722,7 @@ number.2.Violin.2.Music = {
     d''8
     \bacaStopTextSpanBCP
     ]
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #5 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -6760,7 +6760,7 @@ number.2.Violin.2.Music = {
         \undo \hide NoteHead
         ef''!4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6776,7 +6776,7 @@ number.2.Violin.2.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6786,7 +6786,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6797,7 +6797,7 @@ number.2.Violin.2.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6820,7 +6820,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6836,14 +6836,14 @@ number.2.Violin.2.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #2 #4
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         e''8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6854,7 +6854,7 @@ number.2.Violin.2.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6868,7 +6868,7 @@ number.2.Violin.2.Music = {
         % [Violin.2.Music measure 23]
         f''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6879,7 +6879,7 @@ number.2.Violin.2.Music = {
         \undo \hide NoteHead
         f''4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6891,7 +6891,7 @@ number.2.Violin.2.Music = {
         \override NoteHead.no-ledgers = ##t
         f''8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6901,7 +6901,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6914,7 +6914,7 @@ number.2.Violin.2.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -6925,7 +6925,7 @@ number.2.Violin.2.Music = {
     - \upbow
     \bacaStopTextSpanBCP
     [
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -6940,7 +6940,7 @@ number.2.Violin.2.Music = {
     - \downbow
     \bacaStopTextSpanBCP
     ]
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -6955,7 +6955,7 @@ number.2.Violin.2.Music = {
     - \tweak staff-padding 6.5
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -6970,7 +6970,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -6981,7 +6981,7 @@ number.2.Violin.2.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \baca-bcp-spanner-right-text #1 #7
         - \tweak staff-padding 4
@@ -7015,7 +7015,7 @@ number.2.Violin.2.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! URTEXT
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -7135,7 +7135,7 @@ number.2.Violin.2.Music = {
         \bacaStopTextSpanMaterialAnnotation
           %! HALF_CLT_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
@@ -7148,7 +7148,7 @@ number.2.Violin.2.Music = {
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \baca-bcp-spanner-right-text #6 #7
         - \tweak staff-padding 4
@@ -7247,13 +7247,13 @@ number.2.Violin.2.Music = {
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.5
     - \upbow
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
@@ -7284,7 +7284,7 @@ number.2.Violin.2.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -7312,7 +7312,7 @@ number.2.Violin.2.Music = {
         [
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "ord."
@@ -7322,7 +7322,7 @@ number.2.Violin.2.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -7346,7 +7346,7 @@ number.2.Violin.2.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -7356,7 +7356,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \baca-bcp-spanner-right-text #1 #7
         - \tweak staff-padding 4
@@ -7421,7 +7421,7 @@ number.2.Violin.2.Music = {
     - \tweak padding 1.5
     _ \baca-string-iii-markup
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
     - \baca-text-spanner-left-text "2°"
       %! SPANNER_START
@@ -7429,7 +7429,7 @@ number.2.Violin.2.Music = {
       %! SPANNER_START
     \startTextSpanOne
       %! SPANNER_START
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "rasp"
       %! SPANNER_START
@@ -7440,7 +7440,7 @@ number.2.Violin.2.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! URTEXT
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -7493,7 +7493,7 @@ number.2.Violin.2.Music = {
       %! SPANNER_STOP
     \stopTextSpan
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
     - \baca-text-spanner-left-text "flaut."
       %! SPANNER_START
@@ -7534,13 +7534,13 @@ number.2.Violin.2.Music = {
     \stopTextSpan
       %! SPANNER_STOP
     \stopTextSpanOne
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
@@ -7571,7 +7571,7 @@ number.2.Violin.2.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -7582,7 +7582,7 @@ number.2.Violin.2.Music = {
     - \upbow
     \bacaStopTextSpanBCP
     [
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -7593,7 +7593,7 @@ number.2.Violin.2.Music = {
     - \downbow
     \bacaStopTextSpanBCP
     ]
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -7620,7 +7620,7 @@ number.2.Violin.2.Music = {
         \bacaStopTextSpanSCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "poco P"
@@ -7630,7 +7630,7 @@ number.2.Violin.2.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -7653,7 +7653,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \baca-bcp-spanner-right-text #7 #7
         - \tweak staff-padding 4
@@ -7725,13 +7725,13 @@ number.2.Violin.2.Music = {
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.5
     - \upbow
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
@@ -7762,7 +7762,7 @@ number.2.Violin.2.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -7790,7 +7790,7 @@ number.2.Violin.2.Music = {
         [
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
@@ -7800,7 +7800,7 @@ number.2.Violin.2.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -7823,7 +7823,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \baca-bcp-spanner-right-text #7 #7
         - \tweak staff-padding 4
@@ -7896,13 +7896,13 @@ number.2.Violin.2.Music = {
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.5
     - \upbow
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
@@ -7930,7 +7930,7 @@ number.2.Violin.2.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -7940,7 +7940,7 @@ number.2.Violin.2.Music = {
     - \tweak staff-padding 6.5
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -7967,7 +7967,7 @@ number.2.Violin.2.Music = {
         \bacaStopTextSpanSCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P molto"
@@ -7977,7 +7977,7 @@ number.2.Violin.2.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -7997,7 +7997,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8007,7 +8007,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \baca-bcp-spanner-right-text #7 #7
         - \tweak staff-padding 4
@@ -8038,7 +8038,7 @@ number.2.Violin.2.Music = {
     \bacaStopTextSpanSCP
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-very-tight-markup
@@ -8053,7 +8053,7 @@ number.2.Violin.2.Music = {
     \bacaStartTextSpanCircleBow
       %! DAMP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-damp-markup
@@ -8153,13 +8153,13 @@ number.2.Violin.2.Music = {
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.5
     - \upbow
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
@@ -8190,7 +8190,7 @@ number.2.Violin.2.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -8213,7 +8213,7 @@ number.2.Violin.2.Music = {
     [
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "P molto"
@@ -8223,7 +8223,7 @@ number.2.Violin.2.Music = {
       %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -8246,7 +8246,7 @@ number.2.Violin.2.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \baca-bcp-spanner-right-text #7 #7
     - \tweak staff-padding 4
@@ -8321,7 +8321,7 @@ number.2.Violin.2.Music = {
     - \upbow
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "P poss."
@@ -8331,7 +8331,7 @@ number.2.Violin.2.Music = {
       %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \baca-bcp-spanner-right-text #6 #7
     - \tweak staff-padding 4
@@ -8421,7 +8421,7 @@ number.2.Violin.2.Music = {
     ^ \stirrings-still-five-plus-thirteen-of-e-markup
       %! SPANNER_START
       %! TASTO_SPANNER
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
       %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
@@ -8438,7 +8438,7 @@ number.2.Violin.2.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! URTEXT
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -8536,13 +8536,13 @@ number.2.Violin.2.Music = {
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.5
     - \upbow
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "P poss."
@@ -8573,7 +8573,7 @@ number.2.Violin.2.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -8589,7 +8589,7 @@ number.2.Violin.2.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8600,7 +8600,7 @@ number.2.Violin.2.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8610,7 +8610,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8620,7 +8620,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8652,13 +8652,13 @@ number.2.Violin.2.Music = {
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P molto"
@@ -8686,7 +8686,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8694,21 +8694,21 @@ number.2.Violin.2.Music = {
         e'8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         e'4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         e'4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8729,7 +8729,7 @@ number.2.Violin.2.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8743,7 +8743,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8758,7 +8758,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8769,7 +8769,7 @@ number.2.Violin.2.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8780,7 +8780,7 @@ number.2.Violin.2.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #2 #4
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8790,7 +8790,7 @@ number.2.Violin.2.Music = {
     % [Violin.2.Music measure 54]
     e'4
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #4
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -8800,7 +8800,7 @@ number.2.Violin.2.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -8808,7 +8808,7 @@ number.2.Violin.2.Music = {
     e'8
     \bacaStopTextSpanBCP
     [
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #4 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -8820,7 +8820,7 @@ number.2.Violin.2.Music = {
     ef'!8
     \bacaStopTextSpanBCP
     ]
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #5 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -8837,7 +8837,7 @@ number.2.Violin.2.Music = {
         \override NoteHead.no-ledgers = ##t
         e'8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8847,7 +8847,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8857,7 +8857,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8887,7 +8887,7 @@ number.2.Violin.2.Music = {
         [
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -8922,7 +8922,7 @@ number.2.Violin.2.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8932,7 +8932,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8942,7 +8942,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8952,7 +8952,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8969,7 +8969,7 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8979,14 +8979,14 @@ number.2.Violin.2.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         fs'!4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -8994,14 +8994,14 @@ number.2.Violin.2.Music = {
         fs'!8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         fs'!8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \baca-bcp-spanner-right-text #7 #7
         - \tweak staff-padding 4
@@ -9021,7 +9021,7 @@ number.2.Violin.2.Music = {
     \bacaStopTextSpanSCP
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-wide-markup
@@ -9148,7 +9148,7 @@ number.2.Violin.2.Music = {
     ^ \stirrings-still-five-plus-thirteen-of-e-markup
       %! SPANNER_START
       %! TASTO_SPANNER
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
       %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
@@ -9165,7 +9165,7 @@ number.2.Violin.2.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! URTEXT
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -9227,7 +9227,7 @@ number.2.Violin.2.Music = {
     \baca-mp-sub
       %! DAMP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-damp-markup
@@ -9352,7 +9352,7 @@ number.2.Viola.Music = {
         ^ \baca-reapplied-instrument-markup "(“Viola”)"
           %! DAMP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! DAMP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-markup
@@ -9367,7 +9367,7 @@ number.2.Viola.Music = {
         \bacaStartTextSpanDamp
           %! HALF_CLT_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
@@ -9589,7 +9589,7 @@ number.2.Viola.Music = {
     \bacaStopTextSpanHalfCLT
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-tight-markup
@@ -9723,7 +9723,7 @@ number.2.Viola.Music = {
     \baca-p-ancora
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-tight-markup
@@ -9738,7 +9738,7 @@ number.2.Viola.Music = {
     \bacaStartTextSpanCircleBow
       %! DAMP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-damp-markup
@@ -9933,7 +9933,7 @@ number.2.Viola.Music = {
         - \downbow
           %! SPANNER_START
           %! TASTO_SPANNER
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SPANNER_START
           %! TASTO_SPANNER
         - \baca-text-spanner-left-text "T"
@@ -9948,7 +9948,7 @@ number.2.Viola.Music = {
         \bacaStartTextSpanSCP
           %! HALF_CLT_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
@@ -9961,7 +9961,7 @@ number.2.Viola.Music = {
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -9988,14 +9988,14 @@ number.2.Viola.Music = {
         \override NoteHead.no-ledgers = ##t
         c''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         d''4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -10003,7 +10003,7 @@ number.2.Viola.Music = {
         d''8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -10014,7 +10014,7 @@ number.2.Viola.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -10035,7 +10035,7 @@ number.2.Viola.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -10050,7 +10050,7 @@ number.2.Viola.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -10061,7 +10061,7 @@ number.2.Viola.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -10071,7 +10071,7 @@ number.2.Viola.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -10082,7 +10082,7 @@ number.2.Viola.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -10106,7 +10106,7 @@ number.2.Viola.Music = {
     - \tweak staff-padding 6.5
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -10134,7 +10134,7 @@ number.2.Viola.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \baca-bcp-spanner-right-text #4 #7
     - \tweak staff-padding 4
@@ -10166,7 +10166,7 @@ number.2.Viola.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! URTEXT
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -10284,7 +10284,7 @@ number.2.Viola.Music = {
         \bacaStopTextSpanMaterialAnnotation
           %! HALF_CLT_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
@@ -10297,7 +10297,7 @@ number.2.Viola.Music = {
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -10322,7 +10322,7 @@ number.2.Viola.Music = {
         \override NoteHead.no-ledgers = ##t
         ftqs''!4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \baca-bcp-spanner-right-text #5 #7
         - \tweak staff-padding 4
@@ -10408,13 +10408,13 @@ number.2.Viola.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
         - \downbow
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -10443,14 +10443,14 @@ number.2.Viola.Music = {
         f''8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         e''8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -10458,7 +10458,7 @@ number.2.Viola.Music = {
         e''8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -10483,7 +10483,7 @@ number.2.Viola.Music = {
     \bacaStopTextSpanSCP
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "ord."
@@ -10493,7 +10493,7 @@ number.2.Viola.Music = {
       %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -10516,7 +10516,7 @@ number.2.Viola.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -10527,7 +10527,7 @@ number.2.Viola.Music = {
     - \upbow
     \bacaStopTextSpanBCP
     [
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \baca-bcp-spanner-right-text #1 #7
     - \tweak staff-padding 4
@@ -10591,7 +10591,7 @@ number.2.Viola.Music = {
     - \tweak padding 1.5
     _ \baca-string-iii-markup
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
     - \baca-text-spanner-left-text "2°"
       %! SPANNER_START
@@ -10599,7 +10599,7 @@ number.2.Viola.Music = {
       %! SPANNER_START
     \startTextSpanOne
       %! SPANNER_START
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "rasp"
       %! SPANNER_START
@@ -10610,7 +10610,7 @@ number.2.Viola.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! URTEXT
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -10663,7 +10663,7 @@ number.2.Viola.Music = {
       %! SPANNER_STOP
     \stopTextSpan
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
     - \baca-text-spanner-left-text "flaut."
       %! SPANNER_START
@@ -10709,13 +10709,13 @@ number.2.Viola.Music = {
         \stopTextSpan
           %! SPANNER_STOP
         \stopTextSpanOne
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -10744,7 +10744,7 @@ number.2.Viola.Music = {
         e''8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -10752,14 +10752,14 @@ number.2.Viola.Music = {
         e''8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         d''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -10769,7 +10769,7 @@ number.2.Viola.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -10790,7 +10790,7 @@ number.2.Viola.Music = {
     \bacaStopTextSpanSCP
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "poco P"
@@ -10820,7 +10820,7 @@ number.2.Viola.Music = {
     - \downbow
     \bacaStopTextSpanBCP
     [
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -10830,7 +10830,7 @@ number.2.Viola.Music = {
     - \tweak staff-padding 6.5
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -10841,7 +10841,7 @@ number.2.Viola.Music = {
     - \downbow
     \bacaStopTextSpanBCP
     ]
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \baca-bcp-spanner-right-text #7 #7
     - \tweak staff-padding 4
@@ -10915,13 +10915,13 @@ number.2.Viola.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
         - \downbow
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -10950,14 +10950,14 @@ number.2.Viola.Music = {
         d''8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         c''8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -10965,7 +10965,7 @@ number.2.Viola.Music = {
         a'8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \baca-bcp-spanner-right-text #7 #7
         - \tweak staff-padding 4
@@ -10987,7 +10987,7 @@ number.2.Viola.Music = {
     \bacaStopTextSpanSCP
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "P"
@@ -11093,13 +11093,13 @@ number.2.Viola.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
         - \downbow
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -11127,7 +11127,7 @@ number.2.Viola.Music = {
         e'8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -11135,14 +11135,14 @@ number.2.Viola.Music = {
         e'8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         d'4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -11167,7 +11167,7 @@ number.2.Viola.Music = {
     \bacaStopTextSpanSCP
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "P molto"
@@ -11177,7 +11177,7 @@ number.2.Viola.Music = {
       %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -11198,7 +11198,7 @@ number.2.Viola.Music = {
     - \downbow
     \bacaStopTextSpanBCP
     [
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -11208,7 +11208,7 @@ number.2.Viola.Music = {
     - \tweak staff-padding 6.5
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -11219,7 +11219,7 @@ number.2.Viola.Music = {
     - \downbow
     \bacaStopTextSpanBCP
     ]
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \baca-bcp-spanner-right-text #7 #7
     - \tweak staff-padding 4
@@ -11248,7 +11248,7 @@ number.2.Viola.Music = {
     \bacaStopTextSpanSCP
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-very-tight-markup
@@ -11263,7 +11263,7 @@ number.2.Viola.Music = {
     \bacaStartTextSpanCircleBow
       %! DAMP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-damp-markup
@@ -11367,13 +11367,13 @@ number.2.Viola.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
         - \downbow
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -11402,7 +11402,7 @@ number.2.Viola.Music = {
         d'8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -11422,7 +11422,7 @@ number.2.Viola.Music = {
         ]
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P molto"
@@ -11432,7 +11432,7 @@ number.2.Viola.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -11452,7 +11452,7 @@ number.2.Viola.Music = {
 
         f4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \baca-bcp-spanner-right-text #7 #7
         - \tweak staff-padding 4
@@ -11532,7 +11532,7 @@ number.2.Viola.Music = {
         - \downbow
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P poss."
@@ -11542,7 +11542,7 @@ number.2.Viola.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -11568,7 +11568,7 @@ number.2.Viola.Music = {
         d8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \baca-bcp-spanner-right-text #5 #7
         - \tweak staff-padding 4
@@ -11644,7 +11644,7 @@ number.2.Viola.Music = {
     ^ \stirrings-still-eleven-plus-three-of-e-markup
       %! SPANNER_START
       %! TASTO_SPANNER
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
       %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
@@ -11661,7 +11661,7 @@ number.2.Viola.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! URTEXT
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -11763,13 +11763,13 @@ number.2.Viola.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
         - \downbow
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P poss."
@@ -11798,14 +11798,14 @@ number.2.Viola.Music = {
         d8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         d8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -11813,7 +11813,7 @@ number.2.Viola.Music = {
         d8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -11828,7 +11828,7 @@ number.2.Viola.Music = {
     - \tweak staff-padding 6.5
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -11839,7 +11839,7 @@ number.2.Viola.Music = {
     - \downbow
     \bacaStopTextSpanBCP
     [
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -11849,7 +11849,7 @@ number.2.Viola.Music = {
     - \tweak staff-padding 6.5
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -11859,7 +11859,7 @@ number.2.Viola.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -11870,7 +11870,7 @@ number.2.Viola.Music = {
     - \upbow
     \bacaStopTextSpanBCP
     ]
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -11897,7 +11897,7 @@ number.2.Viola.Music = {
         \bacaStopTextSpanSCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P molto"
@@ -11925,7 +11925,7 @@ number.2.Viola.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -11935,7 +11935,7 @@ number.2.Viola.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -11952,14 +11952,14 @@ number.2.Viola.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         e4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -11967,7 +11967,7 @@ number.2.Viola.Music = {
         e8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -11975,7 +11975,7 @@ number.2.Viola.Music = {
         f8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -11989,7 +11989,7 @@ number.2.Viola.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12011,7 +12011,7 @@ number.2.Viola.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12022,7 +12022,7 @@ number.2.Viola.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12032,7 +12032,7 @@ number.2.Viola.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12043,14 +12043,14 @@ number.2.Viola.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #2 #4
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         e4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12063,7 +12063,7 @@ number.2.Viola.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -12074,7 +12074,7 @@ number.2.Viola.Music = {
     \undo \hide NoteHead
     ef!8
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #4 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -12086,7 +12086,7 @@ number.2.Viola.Music = {
     \override NoteHead.no-ledgers = ##t
     f4
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #5 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -12114,7 +12114,7 @@ number.2.Viola.Music = {
         \bacaStopTextSpanSCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -12127,7 +12127,7 @@ number.2.Viola.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12153,7 +12153,7 @@ number.2.Viola.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12163,7 +12163,7 @@ number.2.Viola.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12174,7 +12174,7 @@ number.2.Viola.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12193,7 +12193,7 @@ number.2.Viola.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12204,7 +12204,7 @@ number.2.Viola.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12214,7 +12214,7 @@ number.2.Viola.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12225,7 +12225,7 @@ number.2.Viola.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \baca-bcp-spanner-right-text #1 #7
         - \tweak staff-padding 4
@@ -12245,7 +12245,7 @@ number.2.Viola.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
         - \downbow
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12253,7 +12253,7 @@ number.2.Viola.Music = {
         f8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12264,7 +12264,7 @@ number.2.Viola.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12274,7 +12274,7 @@ number.2.Viola.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12284,7 +12284,7 @@ number.2.Viola.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -12298,7 +12298,7 @@ number.2.Viola.Music = {
     - \downbow
     \bacaStopTextSpanBCP
     [
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -12308,7 +12308,7 @@ number.2.Viola.Music = {
     - \tweak staff-padding 6.5
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -12318,7 +12318,7 @@ number.2.Viola.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -12329,7 +12329,7 @@ number.2.Viola.Music = {
     - \upbow
     \bacaStopTextSpanBCP
     ]
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \baca-bcp-spanner-right-text #1 #7
     - \tweak staff-padding 4
@@ -12346,7 +12346,7 @@ number.2.Viola.Music = {
     \bacaStopTextSpanSCP
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-wide-markup
@@ -12461,7 +12461,7 @@ number.2.Viola.Music = {
         ^ \stirrings-still-eleven-plus-three-of-e-markup
           %! SPANNER_START
           %! TASTO_SPANNER
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SPANNER_START
           %! TASTO_SPANNER
         - \baca-text-spanner-left-text "T"
@@ -12478,7 +12478,7 @@ number.2.Viola.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! URTEXT
-        - \abjad-solid-line-with-hook
+        - \baca-solid-line-with-hook
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
@@ -12554,7 +12554,7 @@ number.2.Viola.Music = {
     \bacaStopTextSpanSCP
       %! DAMP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-damp-markup
@@ -12701,7 +12701,7 @@ number.2.Cello.Music = {
         ^ \baca-reapplied-instrument-markup "(“Cello”)"
           %! DAMP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! DAMP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-markup
@@ -12716,7 +12716,7 @@ number.2.Cello.Music = {
         \bacaStartTextSpanDamp
           %! HALF_CLT_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
@@ -12940,7 +12940,7 @@ number.2.Cello.Music = {
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -13046,7 +13046,7 @@ number.2.Cello.Music = {
     \bacaStopTextSpanMaterialAnnotation
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-tight-markup
@@ -13061,7 +13061,7 @@ number.2.Cello.Music = {
     \bacaStartTextSpanCircleBow
       %! DAMP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-damp-markup
@@ -13152,7 +13152,7 @@ number.2.Cello.Music = {
         \bacaStopTextSpanDamp
           %! DAMP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! DAMP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-markup
@@ -13167,7 +13167,7 @@ number.2.Cello.Music = {
         \bacaStartTextSpanDamp
           %! HALF_CLT_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
@@ -13332,7 +13332,7 @@ number.2.Cello.Music = {
         \bacaStopTextSpanDamp
           %! SPANNER_START
           %! TASTO_SPANNER
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SPANNER_START
           %! TASTO_SPANNER
         - \baca-text-spanner-left-text "T"
@@ -13345,7 +13345,7 @@ number.2.Cello.Music = {
           %! SPANNER_START
           %! TASTO_SPANNER
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13362,21 +13362,21 @@ number.2.Cello.Music = {
 
         c''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         c''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         d''4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13390,7 +13390,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13412,7 +13412,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13422,7 +13422,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13432,7 +13432,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13443,7 +13443,7 @@ number.2.Cello.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13458,7 +13458,7 @@ number.2.Cello.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13478,7 +13478,7 @@ number.2.Cello.Music = {
     - \tweak staff-padding 6.5
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -13488,7 +13488,7 @@ number.2.Cello.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -13507,7 +13507,7 @@ number.2.Cello.Music = {
           %! SPANNER_STOP
         \mf
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13531,7 +13531,7 @@ number.2.Cello.Music = {
         \undo \hide NoteHead
         ef''!4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13543,7 +13543,7 @@ number.2.Cello.Music = {
         \override NoteHead.no-ledgers = ##t
         e''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13553,7 +13553,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13572,7 +13572,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13586,7 +13586,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13596,7 +13596,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13611,7 +13611,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #2 #4
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13627,7 +13627,7 @@ number.2.Cello.Music = {
 
         e''8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13637,7 +13637,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \baca-bcp-spanner-right-text #4 #7
         - \tweak staff-padding 4
@@ -13720,7 +13720,7 @@ number.2.Cello.Music = {
         - \downbow
           %! SPANNER_START
           %! TASTO_SPANNER
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SPANNER_START
           %! TASTO_SPANNER
         - \baca-text-spanner-left-text "T"
@@ -13735,7 +13735,7 @@ number.2.Cello.Music = {
         \bacaStartTextSpanSCP
           %! HALF_CLT_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
@@ -13748,7 +13748,7 @@ number.2.Cello.Music = {
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13773,7 +13773,7 @@ number.2.Cello.Music = {
         \override NoteHead.no-ledgers = ##t
         fqs''!4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \baca-bcp-spanner-right-text #7 #7
         - \tweak staff-padding 4
@@ -13863,13 +13863,13 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -13898,7 +13898,7 @@ number.2.Cello.Music = {
         f''8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13908,7 +13908,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13918,7 +13918,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13948,7 +13948,7 @@ number.2.Cello.Music = {
         [
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "ord."
@@ -13958,7 +13958,7 @@ number.2.Cello.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13981,7 +13981,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -13991,7 +13991,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14002,7 +14002,7 @@ number.2.Cello.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14012,7 +14012,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \baca-bcp-spanner-right-text #1 #7
         - \tweak staff-padding 4
@@ -14092,7 +14092,7 @@ number.2.Cello.Music = {
     - \tweak padding 1.5
     _ \baca-string-iii-markup
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
     - \baca-text-spanner-left-text "2°"
       %! SPANNER_START
@@ -14100,7 +14100,7 @@ number.2.Cello.Music = {
       %! SPANNER_START
     \startTextSpanOne
       %! SPANNER_START
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "rasp"
       %! SPANNER_START
@@ -14111,7 +14111,7 @@ number.2.Cello.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! URTEXT
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -14166,7 +14166,7 @@ number.2.Cello.Music = {
       %! SPANNER_STOP
     \stopTextSpan
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
     - \baca-text-spanner-left-text "flaut."
       %! SPANNER_START
@@ -14227,13 +14227,13 @@ number.2.Cello.Music = {
           %! SPANNER_STOP
         \stopTextSpanOne
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -14264,7 +14264,7 @@ number.2.Cello.Music = {
         e''8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14274,7 +14274,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14284,7 +14284,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14294,7 +14294,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14324,7 +14324,7 @@ number.2.Cello.Music = {
         [
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "poco P"
@@ -14334,7 +14334,7 @@ number.2.Cello.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14358,7 +14358,7 @@ number.2.Cello.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14368,7 +14368,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14378,7 +14378,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \baca-bcp-spanner-right-text #1 #7
         - \tweak staff-padding 4
@@ -14469,13 +14469,13 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -14506,7 +14506,7 @@ number.2.Cello.Music = {
         e'8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14516,7 +14516,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14526,7 +14526,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14552,7 +14552,7 @@ number.2.Cello.Music = {
         [
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
@@ -14581,7 +14581,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14591,7 +14591,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14601,7 +14601,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \baca-bcp-spanner-right-text #1 #7
         - \tweak staff-padding 4
@@ -14693,13 +14693,13 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -14727,7 +14727,7 @@ number.2.Cello.Music = {
         e8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14737,7 +14737,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14747,7 +14747,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14777,7 +14777,7 @@ number.2.Cello.Music = {
         [
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P molto"
@@ -14787,7 +14787,7 @@ number.2.Cello.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14807,7 +14807,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14818,7 +14818,7 @@ number.2.Cello.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14828,7 +14828,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -14838,7 +14838,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \baca-bcp-spanner-right-text #1 #7
         - \tweak staff-padding 4
@@ -14869,7 +14869,7 @@ number.2.Cello.Music = {
     \bacaStopTextSpanSCP
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-very-tight-markup
@@ -14884,7 +14884,7 @@ number.2.Cello.Music = {
     \bacaStartTextSpanCircleBow
       %! DAMP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-damp-markup
@@ -14989,13 +14989,13 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
@@ -15024,7 +15024,7 @@ number.2.Cello.Music = {
         d8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15046,7 +15046,7 @@ number.2.Cello.Music = {
         \bacaStopTextSpanSCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P molto"
@@ -15056,7 +15056,7 @@ number.2.Cello.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15079,7 +15079,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15090,7 +15090,7 @@ number.2.Cello.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \baca-bcp-spanner-right-text #1 #7
         - \tweak staff-padding 4
@@ -15124,7 +15124,7 @@ number.2.Cello.Music = {
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -15196,7 +15196,7 @@ number.2.Cello.Music = {
         [
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P poss."
@@ -15206,7 +15206,7 @@ number.2.Cello.Music = {
           %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15232,7 +15232,7 @@ number.2.Cello.Music = {
         d,8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15242,7 +15242,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \baca-bcp-spanner-right-text #6 #7
         - \tweak staff-padding 4
@@ -15316,7 +15316,7 @@ number.2.Cello.Music = {
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -15416,13 +15416,13 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
           %! SCP_SPANNER
           %! SPANNER_START
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P poss."
@@ -15451,7 +15451,7 @@ number.2.Cello.Music = {
         d,8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15461,7 +15461,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15471,7 +15471,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15491,7 +15491,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15501,7 +15501,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15512,7 +15512,7 @@ number.2.Cello.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15522,7 +15522,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15532,7 +15532,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15559,13 +15559,13 @@ number.2.Cello.Music = {
       %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "P molto"
@@ -15590,14 +15590,14 @@ number.2.Cello.Music = {
     \override NoteHead.no-ledgers = ##t
     d,4
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #4 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
 
     e,4.
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #5 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -15610,7 +15610,7 @@ number.2.Cello.Music = {
         e,8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15621,7 +15621,7 @@ number.2.Cello.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15631,7 +15631,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15641,7 +15641,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15663,7 +15663,7 @@ number.2.Cello.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15678,7 +15678,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #2 #4
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15686,7 +15686,7 @@ number.2.Cello.Music = {
         f,8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15696,14 +15696,14 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         e,4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15717,14 +15717,14 @@ number.2.Cello.Music = {
         % [Cello.Music measure 55]
         e,8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         e,4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15738,7 +15738,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15753,7 +15753,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15782,7 +15782,7 @@ number.2.Cello.Music = {
     \bacaStopTextSpanSCP
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
@@ -15795,7 +15795,7 @@ number.2.Cello.Music = {
       %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -15820,7 +15820,7 @@ number.2.Cello.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -15830,7 +15830,7 @@ number.2.Cello.Music = {
     - \tweak staff-padding 6.5
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -15840,7 +15840,7 @@ number.2.Cello.Music = {
     - \tweak staff-padding 6.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -15856,7 +15856,7 @@ number.2.Cello.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15867,14 +15867,14 @@ number.2.Cello.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         f,4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \baca-bcp-spanner-right-text #5 #7
         - \tweak staff-padding 4
@@ -15895,7 +15895,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15906,7 +15906,7 @@ number.2.Cello.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15916,7 +15916,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15926,7 +15926,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15937,7 +15937,7 @@ number.2.Cello.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15948,7 +15948,7 @@ number.2.Cello.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15965,7 +15965,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15975,21 +15975,21 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         f,4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
 
         f,8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -15999,7 +15999,7 @@ number.2.Cello.Music = {
     % [Cello.Music measure 60]
     f,4
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -16009,7 +16009,7 @@ number.2.Cello.Music = {
     - \tweak staff-padding 6.5
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -16020,7 +16020,7 @@ number.2.Cello.Music = {
     - \downbow
     \bacaStopTextSpanBCP
     [
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -16031,7 +16031,7 @@ number.2.Cello.Music = {
     - \upbow
     \bacaStopTextSpanBCP
     ]
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4
     \bacaStartTextSpanBCP
@@ -16046,7 +16046,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
@@ -16069,7 +16069,7 @@ number.2.Cello.Music = {
         - \tweak staff-padding 6.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #2 #4
         - \baca-bcp-spanner-right-text #1 #4
         - \tweak staff-padding 4
@@ -16088,7 +16088,7 @@ number.2.Cello.Music = {
     \bacaStopTextSpanSCP
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-wide-markup
@@ -16173,7 +16173,7 @@ number.2.Cello.Music = {
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -16242,7 +16242,7 @@ number.2.Cello.Music = {
     \baca-mp-sub
       %! DAMP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-damp-markup

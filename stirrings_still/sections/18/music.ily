@@ -10,13 +10,13 @@ number.18.Skips = {
     \time 4/4
     s1 * 4/4
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'green4
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! REAPPLIED_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"
       %! REAPPLIED_METRONOME_MARK
@@ -605,7 +605,7 @@ number.18.Violin.1.Music = {
         ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
           %! HALF_CLT_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
@@ -618,7 +618,7 @@ number.18.Violin.1.Music = {
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -639,7 +639,7 @@ number.18.Violin.1.Music = {
         - \tweak staff-padding 10.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -649,7 +649,7 @@ number.18.Violin.1.Music = {
         - \tweak staff-padding 10.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -659,7 +659,7 @@ number.18.Violin.1.Music = {
         - \tweak staff-padding 10.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -673,21 +673,21 @@ number.18.Violin.1.Music = {
         % [Violin.1.Music measure 2]
         a'''8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
 
         a'''4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
 
         a'''4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -697,7 +697,7 @@ number.18.Violin.1.Music = {
         - \tweak staff-padding 10.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -715,7 +715,7 @@ number.18.Violin.1.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -726,7 +726,7 @@ number.18.Violin.1.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -736,7 +736,7 @@ number.18.Violin.1.Music = {
         - \tweak staff-padding 10.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -746,7 +746,7 @@ number.18.Violin.1.Music = {
         - \tweak staff-padding 10.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #2 #4
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -754,7 +754,7 @@ number.18.Violin.1.Music = {
         a'''8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -765,7 +765,7 @@ number.18.Violin.1.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -777,7 +777,7 @@ number.18.Violin.1.Music = {
 
     a'''4.
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #4 #7
     - \tweak staff-padding 8
     \bacaStartTextSpanBCP
@@ -785,7 +785,7 @@ number.18.Violin.1.Music = {
     a'''8
     \bacaStopTextSpanBCP
     [
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #5 #7
     - \tweak staff-padding 8
     \bacaStartTextSpanBCP
@@ -793,7 +793,7 @@ number.18.Violin.1.Music = {
     a'''8
     \bacaStopTextSpanBCP
     ]
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 8
     \bacaStartTextSpanBCP
@@ -803,7 +803,7 @@ number.18.Violin.1.Music = {
     - \tweak staff-padding 10.5
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 8
     \bacaStartTextSpanBCP
@@ -813,7 +813,7 @@ number.18.Violin.1.Music = {
     - \tweak staff-padding 10.5
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \tweak staff-padding 8
     \bacaStartTextSpanBCP
@@ -851,7 +851,7 @@ number.18.Violin.1.Music = {
         - \tweak staff-padding 10.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -861,7 +861,7 @@ number.18.Violin.1.Music = {
         - \tweak staff-padding 10.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -872,7 +872,7 @@ number.18.Violin.1.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -882,7 +882,7 @@ number.18.Violin.1.Music = {
         - \tweak staff-padding 10.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -892,7 +892,7 @@ number.18.Violin.1.Music = {
         - \tweak staff-padding 10.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -903,7 +903,7 @@ number.18.Violin.1.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -911,7 +911,7 @@ number.18.Violin.1.Music = {
         a'''8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -927,7 +927,7 @@ number.18.Violin.1.Music = {
 
         a'''4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -935,7 +935,7 @@ number.18.Violin.1.Music = {
         a'''8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -945,7 +945,7 @@ number.18.Violin.1.Music = {
         - \tweak staff-padding 10.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -956,7 +956,7 @@ number.18.Violin.1.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -975,7 +975,7 @@ number.18.Violin.1.Music = {
         - \tweak staff-padding 10.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -986,7 +986,7 @@ number.18.Violin.1.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -996,7 +996,7 @@ number.18.Violin.1.Music = {
         - \tweak staff-padding 10.5
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #2 #4
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -1004,7 +1004,7 @@ number.18.Violin.1.Music = {
         a'''8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -1014,7 +1014,7 @@ number.18.Violin.1.Music = {
         - \tweak staff-padding 10.5
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 8
         \bacaStartTextSpanBCP
@@ -1024,21 +1024,21 @@ number.18.Violin.1.Music = {
     % [Violin.1.Music measure 8]
     a'''4.
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #4 #7
     - \tweak staff-padding 8
     \bacaStartTextSpanBCP
 
     a'''8
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #5 #7
     - \tweak staff-padding 8
     \bacaStartTextSpanBCP
 
     a'''4
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #6 #7
     - \baca-bcp-spanner-right-text #7 #7
     - \tweak staff-padding 8
@@ -1217,7 +1217,7 @@ number.18.Violin.2.Music = {
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
       %! HALF_CLT_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "½ clt"
@@ -1230,7 +1230,7 @@ number.18.Violin.2.Music = {
       %! HALF_CLT_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanHalfCLT
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4.5
     \bacaStartTextSpanBCP
@@ -1251,7 +1251,7 @@ number.18.Violin.2.Music = {
     - \tweak staff-padding 7.0
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4.5
     \bacaStartTextSpanBCP
@@ -1262,14 +1262,14 @@ number.18.Violin.2.Music = {
     - \downbow
     \bacaStopTextSpanBCP
     [
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4.5
     \bacaStartTextSpanBCP
 
     af''!8
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #4 #7
     - \tweak staff-padding 4.5
     \bacaStartTextSpanBCP
@@ -1277,7 +1277,7 @@ number.18.Violin.2.Music = {
     af''!8
     \bacaStopTextSpanBCP
     ]
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #5 #7
     - \tweak staff-padding 4.5
     \bacaStartTextSpanBCP
@@ -1291,7 +1291,7 @@ number.18.Violin.2.Music = {
 
         af''!4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1301,7 +1301,7 @@ number.18.Violin.2.Music = {
         - \tweak staff-padding 7.0
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1319,7 +1319,7 @@ number.18.Violin.2.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1330,7 +1330,7 @@ number.18.Violin.2.Music = {
         - \upbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1340,7 +1340,7 @@ number.18.Violin.2.Music = {
         - \tweak staff-padding 7.0
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1350,7 +1350,7 @@ number.18.Violin.2.Music = {
         - \tweak staff-padding 7.0
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #2 #4
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1358,7 +1358,7 @@ number.18.Violin.2.Music = {
         af''!8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1369,7 +1369,7 @@ number.18.Violin.2.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1385,7 +1385,7 @@ number.18.Violin.2.Music = {
 
         af''!4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1393,7 +1393,7 @@ number.18.Violin.2.Music = {
         af''!8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1401,7 +1401,7 @@ number.18.Violin.2.Music = {
         af''!8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1411,7 +1411,7 @@ number.18.Violin.2.Music = {
         - \tweak staff-padding 7.0
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1421,7 +1421,7 @@ number.18.Violin.2.Music = {
         - \tweak staff-padding 7.0
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1442,7 +1442,7 @@ number.18.Violin.2.Music = {
     - \upbow
     \bacaStopTextSpanBCP
     [
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4.5
     \bacaStartTextSpanBCP
@@ -1465,7 +1465,7 @@ number.18.Violin.2.Music = {
     - \tweak staff-padding 7.0
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4.5
     \bacaStartTextSpanBCP
@@ -1476,7 +1476,7 @@ number.18.Violin.2.Music = {
     - \upbow
     \bacaStopTextSpanBCP
     ]
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4.5
     \bacaStartTextSpanBCP
@@ -1486,7 +1486,7 @@ number.18.Violin.2.Music = {
     - \tweak staff-padding 7.0
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4.5
     \bacaStartTextSpanBCP
@@ -1496,7 +1496,7 @@ number.18.Violin.2.Music = {
     - \tweak staff-padding 7.0
     - \upbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #7 #7
     - \tweak staff-padding 4.5
     \bacaStartTextSpanBCP
@@ -1506,21 +1506,21 @@ number.18.Violin.2.Music = {
     - \tweak staff-padding 7.0
     - \downbow
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #1 #7
     - \tweak staff-padding 4.5
     \bacaStartTextSpanBCP
 
     af''!4
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #4 #7
     - \tweak staff-padding 4.5
     \bacaStartTextSpanBCP
 
     af''!8
     \bacaStopTextSpanBCP
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
     - \baca-bcp-spanner-left-text #5 #7
     - \tweak staff-padding 4.5
     \bacaStartTextSpanBCP
@@ -1535,7 +1535,7 @@ number.18.Violin.2.Music = {
         af''!8
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1545,7 +1545,7 @@ number.18.Violin.2.Music = {
         - \tweak staff-padding 7.0
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1556,7 +1556,7 @@ number.18.Violin.2.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1575,7 +1575,7 @@ number.18.Violin.2.Music = {
         - \tweak staff-padding 7.0
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1586,7 +1586,7 @@ number.18.Violin.2.Music = {
         - \downbow
         \bacaStopTextSpanBCP
         [
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1596,7 +1596,7 @@ number.18.Violin.2.Music = {
         - \tweak staff-padding 7.0
         - \upbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #2 #4
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1604,7 +1604,7 @@ number.18.Violin.2.Music = {
         af''!8
         \bacaStopTextSpanBCP
         ]
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #4
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1614,7 +1614,7 @@ number.18.Violin.2.Music = {
         - \tweak staff-padding 7.0
         - \downbow
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #1 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
@@ -1628,21 +1628,21 @@ number.18.Violin.2.Music = {
         % [Violin.2.Music measure 8]
         af''!4.
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #4 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
 
         af''!8
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #5 #7
         - \tweak staff-padding 4.5
         \bacaStartTextSpanBCP
 
         af''!4
         \bacaStopTextSpanBCP
-        - \abjad-solid-line-with-arrow
+        - \baca-solid-line-with-arrow
         - \baca-bcp-spanner-left-text #6 #7
         - \baca-bcp-spanner-right-text #7 #7
         - \tweak staff-padding 4.5
