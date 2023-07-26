@@ -3071,7 +3071,7 @@ def time(skips, rests, pairs):
             baca.metronome_mark(
                 skip,
                 metronome_marks.get(value, value),
-                manifests,
+                manifests=manifests,
             )
 
 
