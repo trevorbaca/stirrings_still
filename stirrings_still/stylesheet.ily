@@ -211,12 +211,10 @@
     \override BarLine.hair-thickness = 0.5
     \override BarLine.X-extent = #'(0 . 0)
 
-    \override Beam.breakable = ##t
     \override Beam.damping = 99
 
     %\override BreathingSign.color = #red
 
-    \override Glissando.breakable = ##t
     \override Glissando.thickness = 3
 
     \override Hairpin.to-barline = ##f
@@ -245,7 +243,6 @@
 
     \override TextSpanner.to-barline = ##t
 
-    \override TupletBracket.breakable = ##t
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 2
 
