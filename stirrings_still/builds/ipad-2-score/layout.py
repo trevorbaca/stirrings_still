@@ -1,43 +1,41 @@
 import baca
 
-below_time_signatures = 20
-below_staff = 30
-distances = (below_time_signatures, below_staff)
-first_system_y_offset = 10
-second_system_y_offset = 130
-
-textholding_fermata_measures = [
-    10,
-    19,
-    24,
-    28,
-    61,
-    63,  # A
-    91,
-    129,  # B
-    140,
-    199,
-    206,  # C
-    243,
-    252,
-    270,  # D
-    346,
-    391,
-    416,  # E
-    443,  # F
-    454,
-    464,  # G
-    609,  # K
-    696,  # N
-    704,  # O
-    839,  # R
-    848,  # S
-    855,
-    859,  # S
-]
-
 
 def main():
+    below_time_signatures = 20
+    below_staff = 30
+    distances = (below_time_signatures, below_staff)
+    first_system_y_offset = 10
+    second_system_y_offset = 130
+    textholding_fermata_measures = [
+        10,
+        19,
+        24,
+        28,
+        61,
+        63,  # A
+        91,
+        129,  # B
+        140,
+        199,
+        206,  # C
+        243,
+        252,
+        270,  # D
+        346,
+        391,
+        416,  # E
+        443,  # F
+        454,
+        464,  # G
+        609,  # K
+        696,  # N
+        704,  # O
+        839,  # R
+        848,  # S
+        855,
+        859,  # S
+    ]
     spacing = baca.make_layout(
         baca.page(
             1,
