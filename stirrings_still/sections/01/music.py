@@ -1117,7 +1117,6 @@ def make_score():
         score,
         time_signatures(),
         append_anchor_skip=True,
-        always_make_global_rests=True,
         manifests=library.manifests,
     )
     GLOBALS(score["Skips"], score["Rests"], 1)
@@ -1144,7 +1143,6 @@ def persist_score(score, environment):
         score,
         environment,
         library.manifests,
-        always_make_global_rests=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[10, 19, 24, 28, 61, 63],
         first_section=True,
