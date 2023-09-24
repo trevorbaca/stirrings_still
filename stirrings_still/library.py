@@ -1783,8 +1783,10 @@ def make_stroke_rhythm(time_signatures, rotation, *, force_rest_tuplets=None):
         rmakers.force_rest(
             abjad.select.get(baca.select.tuplets(voice), force_rest_tuplets), tag=tag
         )
-    rmakers.untie(baca.select.leaves_in_each_tuplet(voice, None, -1))
-    rmakers.tie(baca.select.leaves_in_each_tuplet(voice, None, -1), tag=tag)
+    tuplets = abjad.select.tuplets(voice)
+    lists = [abjad.select.leaves(_)[:-1] for _ in tuplets]
+    rmakers.untie(lists)
+    rmakers.tie(lists, tag=tag)
     rmakers.beam(voice, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
     rmakers.extract_trivial(voice)
