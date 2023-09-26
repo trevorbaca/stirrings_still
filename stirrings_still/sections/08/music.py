@@ -202,10 +202,7 @@ def V2(voice, time_signatures):
     voice.extend(music)
     music = library.make_clocktick_rhythm(time_signatures(33))
     voice.extend(music)
-    music = baca.parse(
-        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-    )
-    voice.extend(music)
+    voice.extend(r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }")
     music = baca.make_mmrests(time_signatures(35), head=voice.name)
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(36, 37))
@@ -239,10 +236,7 @@ def V2(voice, time_signatures):
     voice.extend(music)
     music = library.make_clocktick_rhythm(time_signatures(53))
     voice.extend(music)
-    music = baca.parse(
-        r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
-    )
-    voice.extend(music)
+    voice.extend(r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }")
     music = library.make_loure_tuplets_material(
         time_signatures(55),
         1,
