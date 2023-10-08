@@ -1334,7 +1334,7 @@ def make_circle_rhythm(
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     if force_rest_tuplets is not None:
         rmakers.force_rest(
-            abjad.select.get(baca.select.tuplets(voice), force_rest_tuplets), tag=tag
+            abjad.select.get(abjad.select.tuplets(voice), force_rest_tuplets), tag=tag
         )
     if force_rest_lts is not None:
         rmakers.force_rest(
@@ -1371,7 +1371,7 @@ def make_clocktick_rhythm(
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if force_rest_tuplets is not None:
         rmakers.force_rest(
-            abjad.select.get(baca.select.tuplets(voice), force_rest_tuplets), tag=tag
+            abjad.select.get(abjad.select.tuplets(voice), force_rest_tuplets), tag=tag
         )
     rmakers.beam(voice, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
@@ -1732,7 +1732,7 @@ def make_picket_rhythm(
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if force_rest_tuplets is not None:
         rmakers.force_rest(
-            abjad.select.get(baca.select.tuplets(voice), force_rest_tuplets), tag=tag
+            abjad.select.get(abjad.select.tuplets(voice), force_rest_tuplets), tag=tag
         )
     if force_note_and_tie is True:
         rmakers.force_note(baca.select.tuplet(voice, 0), tag=tag)
@@ -1781,7 +1781,7 @@ def make_stroke_rhythm(time_signatures, rotation, *, force_rest_tuplets=None):
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if force_rest_tuplets is not None:
         rmakers.force_rest(
-            abjad.select.get(baca.select.tuplets(voice), force_rest_tuplets), tag=tag
+            abjad.select.get(abjad.select.tuplets(voice), force_rest_tuplets), tag=tag
         )
     tuplets = abjad.select.tuplets(voice)
     lists = [abjad.select.leaves(_)[:-1] for _ in tuplets]
