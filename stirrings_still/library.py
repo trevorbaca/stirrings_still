@@ -2023,7 +2023,7 @@ def multistage_leaf_glissando(
     else:
 
         def _final_selector(argument):
-            return baca.select.leaves(argument)[start:stop]
+            return abjad.select.leaves(argument)[start:stop]
 
     baca.glissando(
         _final_selector(argument),
