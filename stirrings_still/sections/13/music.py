@@ -214,7 +214,7 @@ def v1(cache):
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
         baca.circle_bow_spanner(
-            baca.select.rleak(baca.select.leaves(o)[1:]),
+            baca.select.rleak(abjad.select.leaves(o)[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
         )
@@ -225,7 +225,7 @@ def v1(cache):
         )
     with baca.scope(m.get(25, 28)) as o:
         baca.circle_bow_spanner(
-            baca.select.rleak(baca.select.leaves(o)[1:]),
+            baca.select.rleak(abjad.select.leaves(o)[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
         )
@@ -345,7 +345,7 @@ def v2(cache):
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
         baca.circle_bow_spanner(
-            baca.select.rleak(baca.select.leaves(o)[1:]),
+            baca.select.rleak(abjad.select.leaves(o)[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
         )
@@ -356,7 +356,7 @@ def v2(cache):
         )
     with baca.scope(m.get(25, 28)) as o:
         baca.circle_bow_spanner(
-            baca.select.rleak(baca.select.leaves(o)[1:]),
+            baca.select.rleak(abjad.select.leaves(o)[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
         )
@@ -419,7 +419,7 @@ def va(cache):
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
         baca.circle_bow_spanner(
-            baca.select.rleak(baca.select.leaves(o)[1:]),
+            baca.select.rleak(abjad.select.leaves(o)[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
         )
