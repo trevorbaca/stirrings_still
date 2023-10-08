@@ -1735,8 +1735,11 @@ def make_picket_rhythm(
             abjad.select.get(abjad.select.tuplets(voice), force_rest_tuplets), tag=tag
         )
     if force_note_and_tie is True:
-        rmakers.force_note(baca.select.tuplet(voice, 0), tag=tag)
-        rmakers.tie(abjad.select.leaves(abjad.select.tuplets(voice)[:1])[:-1], tag=tag)
+        tuplet = abjad.select.tuplet(voice, 0)
+        rmakers.force_note(tuplet, tag=tag)
+        tuplets = abjad.select.tuplets(voice)[:1]
+        leaves = abjad.select.leaves(tuplets)[:-1]
+        rmakers.tie(leaves, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
     rmakers.rewrite_sustained(voice, tag=tag)
     rmakers.beam(voice, tag=tag)
