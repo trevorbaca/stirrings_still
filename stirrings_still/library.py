@@ -2047,8 +2047,8 @@ def ntlt_flat_glissandi(argument):
         )
         with baca.scope(ntlt[1:]) as u:
             baca.override.accidental_stencil_false(u)
-            baca.note_head_transparent(u)
-            baca.note_head_x_extent_zero(u)
+            baca.override.note_head_transparent(u)
+            baca.override.note_head_x_extent_zero(u)
         baca.untie(ntlt)
 
 
@@ -3051,9 +3051,9 @@ def style_tailpiece_material(o, *tweaks):
     wrappers_ = baca.markup(o.pleaf(0), r"\baca-boxed-markup tailpiece")
     wrappers.extend(wrappers_)
     baca.staff_position(o, 0)
-    wrappers_ = baca.stem_transparent(o.leaves()[1:])
+    wrappers_ = baca.override.stem_transparent(o.leaves()[1:])
     wrappers.extend(wrappers_)
-    wrappers_ = baca.text_script_parent_alignment_x(o, 0)
+    wrappers_ = baca.override.text_script_parent_alignment_x(o, 0)
     wrappers.extend(wrappers_)
     baca.flat_glissando(
         o.rleaves(),

@@ -119,11 +119,11 @@ def v1_v2_va(cache):
     for name in ["v1r", "v2r", "var"]:
         m = cache[name]
         with baca.scope(m[8]) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m[9]) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
         with baca.scope(m.get(10, 11)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
             baca.hairpin(
@@ -231,7 +231,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
         )
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(1, 6)) as o:
         baca.beam(o.tleaves())
         baca.pitches(o, "G2 B3 D3 C#4 F4")

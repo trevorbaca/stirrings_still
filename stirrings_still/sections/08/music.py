@@ -486,8 +486,8 @@ def v2(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
         baca.pitch(o, "F5")
-        baca.tuplet_bracket_staff_padding(o, 1)
-        baca.tuplet_number_denominator(o)
+        baca.override.tuplet_bracket_staff_padding(o, 1)
+        baca.override.tuplet_number_denominator(o)
     for n in [52, 55]:
         with baca.scope(m[n]) as o:
             baca.tasto_spanner(
@@ -510,7 +510,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
         baca.pitch(o, "F5")
-        baca.tuplet_bracket_staff_padding(o, 1)
+        baca.override.tuplet_bracket_staff_padding(o, 1)
 
 
 def va(cache):
@@ -554,7 +554,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
     with baca.scope(cache["var"][56]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
 
 
 def vc(cache):
@@ -570,7 +570,7 @@ def vc(cache):
         baca.flat_glissando(o, "Ab2", hide_middle_stems=True)
     with baca.scope(m[6]) as o:
         baca.beam(o.tleaves())
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.pitches(o, "C#4 F4 G2 B3 D3")
         baca.glissando(o.tleaves())
         baca.hairpin(
@@ -598,7 +598,7 @@ def vc(cache):
             bookend=-1,
         )
     with baca.scope(m.get(7, 31)) as o:
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.untie(o.leaf(1))
         baca.pitch(o.pleaf(0), "Ab2")
         baca.finger_pressure_transition(o)
@@ -645,7 +645,7 @@ def vc(cache):
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
         )
-        baca.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_down(o)
         library.bcps(o, -4, clt=True, staff_padding=3)
         baca.flat_glissando(o, "Db2")
     for n in [52, 55]:
@@ -669,23 +669,23 @@ def vc(cache):
                     pieces=baca.select.lparts(o.rleaves(), [1, 2]),
                 )
     with baca.scope(cache["vcr"][56]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
 
 
 def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(1, 16)) as o:
-            baca.tuplet_bracket_down(o)
-            baca.tuplet_bracket_staff_padding(o, 1.5)
+            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_staff_padding(o, 1.5)
         with baca.scope(m.get(15, 16)) as o:
             baca.hairpin(o.rleaves(), "(p) >o niente")
         with baca.scope(m.get(17 + 1, 22)) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
     for name in ["v1r", "v2r", "var"]:
         m = cache[name]
         with baca.scope(m[17]) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(23, 28)) as o:
@@ -722,7 +722,7 @@ def v1_v2_va(cache):
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
                 baca.flat_glissando(o.pleaves(), "C3")
-            baca.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_down(o)
         with baca.scope(m.get(30, 31)) as o:
             baca.hairpin(
                 o.rleaves(),
@@ -797,7 +797,7 @@ def v1_v2_va(cache):
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [3, 2 + 1]),
             )
-            baca.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_down(o)
         with baca.scope(m[52]) as o:
             if name == "v1":
                 baca.pitch(o, "<F4 A4>")
@@ -935,7 +935,7 @@ def v1_va_vc(cache):
                 "pp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
-            baca.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_down(o)
             library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
         with baca.scope(m.get(53, 54)) as o:
             if name == "v1":
@@ -1037,7 +1037,7 @@ def tutti(cache):
             )
             library.urtext_spanner(o.rleaves(), "urtext (rasp) -|", 10.5)
         with baca.scope(m.get(52, 55)) as o:
-            baca.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_down(o)
 
 
 @baca.build.timed("make_score")

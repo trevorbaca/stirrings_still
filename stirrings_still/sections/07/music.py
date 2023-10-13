@@ -340,7 +340,7 @@ def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.tuplet_bracket_down(o.leaves())
+            baca.override.tuplet_bracket_down(o.leaves())
         with baca.scope(m.get(5, 6)) as o:
             if name == "v1":
                 baca.flat_glissando(o, "<F4 A4>", hide_middle_stems=True)
@@ -390,7 +390,7 @@ def tutti(cache):
         with baca.scope(m.get(16, 17)) as o:
             baca.espressivo(o.pleaves())
             baca.hairpin(o.rleaves(), "pp < mf")
-            baca.hairpin_shorten_pair(o, (0, 5))
+            baca.override.hairpin_shorten_pair(o, (0, 5))
             baca.untie(o.leaves())
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.scp_spanner(
@@ -400,7 +400,7 @@ def tutti(cache):
                 pieces=baca.select.plts(leaves)[:-1],
             )
             baca.stem_tremolo(o.pleaves())
-            baca.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_down(o)
             library.urtext_spanner(o.rleaves(), "urtext (ds) -|", 8)
         with baca.scope(m[18]) as o:
             baca.override.dynamic_text_extra_offset(abjad.select.leaf(o, 0), (-5, 0))
@@ -457,7 +457,7 @@ def v1_va_vc(cache):
                 )
                 library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
             elif name == "vc":
-                baca.tuplet_bracket_down(o)
+                baca.override.tuplet_bracket_down(o)
                 library.clouded_pane_spanner(
                     o.rleaves(), "clouded pane (beacon) -|", 5.5
                 )
@@ -543,7 +543,7 @@ def vc(cache):
                 pieces=baca.select.lparts(o.rleaves(), [1, 2]),
             )
     with baca.scope(m.get(5, 6)) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m[11]) as o:
         baca.hairpin(
             o.rleaves(),

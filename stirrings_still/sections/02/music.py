@@ -684,12 +684,12 @@ def v1(cache):
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
-        baca.tuplet_number_denominator(o)
+        baca.override.tuplet_number_denominator(o)
     for item in [(1, 7), (14, 24)]:
         with baca.scope(m.get(item)) as o:
             baca.pitch(o, "F#5")
     with baca.scope(m.get(1, 24)) as o:
-        baca.tuplet_bracket_staff_padding(o, 1)
+        baca.override.tuplet_bracket_staff_padding(o, 1)
     for item in [2, 4]:
         with baca.scope(m.get(item)) as o:
             baca.hairpin(
@@ -737,7 +737,7 @@ def v1(cache):
         for item in [25, 27]:
             with baca.scope(m.get(item)) as o:
                 if o.mmrests():
-                    baca.tacet(o.mmrests())
+                    baca.override.tacet(o.mmrests())
     m = cache["v1"]
     with baca.scope(m[26]) as o:
         baca.flat_glissando(o.pleaves()[:2], "<E4 C5>")
@@ -821,11 +821,11 @@ def v1_v2_va(cache):
     for name in ["v1r", "v2r", "var"]:
         m = cache[name]
         with baca.scope(m[8]) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(9, 11)) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
         with baca.scope(m[26]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
@@ -843,7 +843,7 @@ def v1_v2_va(cache):
     for name in ["v1r", "v2r", "var"]:
         m = cache[name]
         with baca.scope(m[45]) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m[48]) as o:
@@ -901,7 +901,7 @@ def tutti(cache):
         m = cache[name]
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 6)
-            baca.tuplet_bracket_down(o.leaves())
+            baca.override.tuplet_bracket_down(o.leaves())
         with baca.scope(m.get(29, 30)) as o:
             baca.hairpin(
                 o.rleaves(),
@@ -1128,10 +1128,10 @@ def v2(cache, time_signatures):
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
-        baca.tuplet_number_denominator(o)
+        baca.override.tuplet_number_denominator(o)
     with baca.scope(m.get(1, 17)) as o:
         baca.pitch(o, "F5")
-        baca.tuplet_bracket_staff_padding(o, 1)
+        baca.override.tuplet_bracket_staff_padding(o, 1)
     with baca.scope(m.get(5, 7)) as o:
         leaves = baca.select.tleaves(o, rleak=True)
         baca.hairpin(
@@ -1146,7 +1146,7 @@ def v2(cache, time_signatures):
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.tuplet_number_denominator(o)
+        baca.override.tuplet_number_denominator(o)
     for item in [(12, 25), 27]:
         with baca.scope(m.get(item)) as o:
             baca.half_clt_spanner(
@@ -1165,7 +1165,7 @@ def v2(cache, time_signatures):
     with baca.scope(m.get(16, 17)) as o:
         baca.alternate_bow_strokes(o.pheads())
     with baca.scope(m.get(18, 25)) as o:
-        baca.tuplet_bracket_staff_padding(o, 1.5)
+        baca.override.tuplet_bracket_staff_padding(o, 1.5)
         library.bcps(
             o,
             0,
@@ -1270,7 +1270,7 @@ def v2(cache, time_signatures):
                 library.left_broken_tasto_tweak(),
                 pieces=baca.select.mgroups(u, [2, 4, 2 + 1]),
             )
-        baca.tuplet_bracket_staff_padding(o, 1.5)
+        baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(52, 55)) as o:
         library.multistage_leaf_glissando(
             o,
@@ -1307,7 +1307,7 @@ def va(cache):
             baca.clef(u, "alto")
             baca.override.clef_extra_offset(u, (-1, 0))
         baca.pitch(o, "Eqs5")
-        baca.tuplet_bracket_staff_padding(o, 1)
+        baca.override.tuplet_bracket_staff_padding(o, 1)
     with baca.scope(m.get(1, 7)) as o:
         baca.damp_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
@@ -1345,7 +1345,7 @@ def va(cache):
         )
     m = cache["var"]
     with baca.scope(m[22]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     m = cache["va"]
     with baca.scope(m.get(23, 25)) as o:
         baca.clef(o.leaf(0), "treble")
@@ -1373,7 +1373,7 @@ def va(cache):
             o.rleaves(),
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5 + 2.5}"),
         )
-        baca.tuplet_bracket_staff_padding(o, 1.5)
+        baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m[26]) as o:
         baca.flat_glissando(
             o.pleaves()[:2],
@@ -1412,7 +1412,7 @@ def va(cache):
     with baca.scope(m.get(34, 35)) as o:
         baca.flat_glissando(o, "Ftqs5", stop_pitch="Ab4")
     with baca.scope(m.get(34, 46)) as o:
-        baca.tuplet_bracket_staff_padding(o, 1.5)
+        baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(37, 38)) as o:
         baca.flat_glissando(o, "Ftqs5", stop_pitch="Eb4")
     with baca.scope(m.get(40, 41)) as o:
@@ -1451,7 +1451,7 @@ def va(cache):
                 library.left_broken_tasto_tweak(),
                 pieces=baca.select.mgroups(u, [2, 4, 4 + 1]),
             )
-        baca.tuplet_bracket_staff_padding(o, 1.5)
+        baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(52, 55)) as o:
         library.multistage_leaf_glissando(
             o,
@@ -1492,7 +1492,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
         baca.pitch(o, "Dtqs5")
-        baca.tuplet_number_denominator(o)
+        baca.override.tuplet_number_denominator(o)
     with baca.scope(m[5]) as o:
         baca.hairpin(
             o.rleaves(),
@@ -1527,10 +1527,10 @@ def vc(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
     with baca.scope(m[15]) as o:
-        baca.rest_extra_offset(o.rest(0), (-0.5, 0))
-        baca.tuplet_bracket_shorten_pair(o.rest(-1), (-1.5, 0))
+        baca.override.rest_extra_offset(o.rest(0), (-0.5, 0))
+        baca.override.tuplet_bracket_shorten_pair(o.rest(-1), (-1.5, 0))
     with baca.scope(m.get(15, 19)) as o:
-        baca.tuplet_bracket_staff_padding(o, 1)
+        baca.override.tuplet_bracket_staff_padding(o, 1)
     with baca.scope(m.get(16, 17)) as o:
         baca.alternate_bow_strokes(o.pheads())
     with baca.scope(m.get(16, 19)) as o:
@@ -1570,10 +1570,10 @@ def vc(cache):
             use_pleaves_lleak=True,
         )
     with baca.scope(m.get(20, 30)) as o:
-        baca.tuplet_bracket_staff_padding(o, 2)
+        baca.override.tuplet_bracket_staff_padding(o, 2)
     m = cache["vcr"]
     with baca.scope(m[26]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     m = cache["vc"]
     with baca.scope(m[27]) as o:
         baca.flat_glissando(o, "Fqs5")
@@ -1603,7 +1603,7 @@ def vc(cache):
         baca.clef(o.leaf(0), "treble")
         baca.flat_glissando(o, "Fqs5", stop_pitch="Bb3")
     with baca.scope(m.get(34, 46)) as o:
-        baca.tuplet_bracket_staff_padding(o, 1.5)
+        baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(37, 38)) as o:
         baca.clef(o.leaf(0), "tenor")
         baca.flat_glissando(o, "Fqs4", stop_pitch="Gb3")
@@ -1650,7 +1650,7 @@ def vc(cache):
             library.left_broken_tasto_tweak(),
             pieces=baca.select.mgroups(leaves, [2, 4, 6 + 1]),
         )
-        baca.tuplet_bracket_staff_padding(o, 1.5)
+        baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(52, 55)) as o:
         library.multistage_leaf_glissando(
             o,

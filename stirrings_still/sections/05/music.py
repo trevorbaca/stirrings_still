@@ -528,7 +528,7 @@ def v1(cache):
         )
         library.bcps(o, -8, clt=True, staff_padding=4.5)
         baca.untie(o)
-        baca.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_down(o)
         baca.flat_glissando(o, "Ab4")
     with baca.scope(m.get(42, 49)) as o:
         baca.breathe(o.pleaf(-1))
@@ -554,7 +554,7 @@ def v1(cache):
             'o< fff -- "fff" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [4, 4, 4 + 1]),
         )
-        baca.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, staff_padding=2.5, clt=True)
     with baca.scope(m.get(50, 53)) as o:
         library.multistage_leaf_glissando(
@@ -581,7 +581,7 @@ def v1(cache):
             abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6.5}"),
         )
         baca.pitches(o, "D5 F5 Dqs5 E5 Fqs5 G#5 A5 F5 Aqs5")
-        baca.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_down(o)
         library.bcps(
             measure_starts_plus_rest(o),
             0,
@@ -643,7 +643,7 @@ def v1(cache):
             'o< fff -- "fff" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [4, 4, 4 + 1]),
         )
-        baca.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=2.5)
         library.breathe(o.pleaf(-1))
     with baca.scope(m.get(105, 108)) as o:
@@ -867,13 +867,13 @@ def v1_v2_va(cache):
                 pieces=baca.select.mgroups(o.rleaves(), [3, 1 + 1]),
             )
         with baca.scope(m.get(120, 127)) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
     with baca.scope(cache["v1r"].get(120, 127)) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(cache["v2r"].get(120, 127)) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(cache["var"].get(120, 127)) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
 
 
 def tutti(cache):
@@ -882,14 +882,14 @@ def tutti(cache):
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(42, 61)) as o:
-            baca.tuplet_bracket_down(o)
-            baca.tuplet_bracket_staff_padding(o, 1)
+            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_staff_padding(o, 1)
         with baca.scope(m.get(89, 108)) as o:
-            baca.tuplet_bracket_down(o)
-            baca.tuplet_bracket_staff_padding(o, 1)
+            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_staff_padding(o, 1)
         with baca.scope(m.get(112, 119)) as o:
-            baca.tuplet_bracket_down(o)
-            baca.tuplet_bracket_staff_padding(o, 1)
+            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_staff_padding(o, 1)
 
 
 def v2(cache):
@@ -942,7 +942,7 @@ def v2(cache):
         )
         library.bcps(o, -7, clt=True, staff_padding=4.5)
         baca.untie(o.leaves())
-        baca.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_down(o)
         library.multistage_leaf_glissando(
             o,
             [("G4", 7), ("G4", 12), ("A4", None)],
@@ -972,7 +972,7 @@ def v2(cache):
             'fff -- "fff" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [4, 4 + 1]),
         )
-        baca.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=2.5)
         baca.flat_glissando(o, "Dqf5")
     with baca.scope(m.get(58, 61)) as o:
@@ -988,8 +988,8 @@ def v2(cache):
             abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6.5}"),
         )
         baca.pitches(o, "D5 F5 Dqs5 E5 Fqs5 G#5 A5 F5 Aqs5")
-        baca.tuplet_bracket_down(o)
-        baca.tuplet_bracket_staff_padding(o, 1)
+        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_staff_padding(o, 1)
         library.bcps(
             measure_starts_plus_rest(o),
             0,
@@ -1043,7 +1043,7 @@ def v2(cache):
             'fff -- "fff" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [4, 4 + 1]),
         )
-        baca.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=2.5)
         baca.flat_glissando(o, "Dqf5")
     with baca.scope(m.get(105, 108)) as o:
@@ -1122,7 +1122,7 @@ def va(cache):
             abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6.5}"),
         )
         baca.pitches(o, "D5 F5 Dqs5 E5 Fqs5 G#5 A5 F5 Aqs5")
-        baca.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_down(o)
         library.bcps(
             measure_starts_plus_rest(o),
             0,
@@ -1191,7 +1191,7 @@ def va_vc(cache):
                 pieces=baca.select.mgroups(o, [4, 4, 4]),
             )
             if name == "va":
-                baca.tuplet_bracket_down(o)
+                baca.override.tuplet_bracket_down(o)
                 library.bcps(o, -6, clt=True, staff_padding=2.5)
                 with baca.scope(m.get(50, 53)) as u:
                     library.multistage_leaf_glissando(
@@ -1203,7 +1203,7 @@ def va_vc(cache):
                 with baca.scope(m.get(54, 61)) as u:
                     baca.flat_glissando(u, "E3")
             elif name == "vc":
-                baca.tuplet_bracket_down(o)
+                baca.override.tuplet_bracket_down(o)
                 library.bcps(o, -5, clt=True, staff_padding=2.5)
                 with baca.scope(m.get(50, 53)) as u:
                     library.multistage_leaf_glissando(
@@ -1254,7 +1254,7 @@ def va_vc(cache):
                 pieces=baca.select.mgroups(o.rleaves(), [4, 4, 4 + 1]),
             )
             if name == "va":
-                baca.tuplet_bracket_down(o)
+                baca.override.tuplet_bracket_down(o)
                 library.bcps(o, -6, clt=True, staff_padding=2.5)
                 with baca.scope(m.get(97, 100)) as u:
                     library.multistage_leaf_glissando(
@@ -1266,7 +1266,7 @@ def va_vc(cache):
                 with baca.scope(m.get(101, 108)) as u:
                     baca.flat_glissando(u, "E3")
             elif name == "vc":
-                baca.tuplet_bracket_down(o)
+                baca.override.tuplet_bracket_down(o)
                 library.bcps(o, -5, clt=True, staff_padding=2.5)
                 with baca.scope(m.get(97, 100)) as u:
                     library.multistage_leaf_glissando(
@@ -1304,7 +1304,7 @@ def vc(cache):
     with baca.scope(m.get(4, 5)) as o:
         baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
         baca.hairpin(o.rleaves(), "ff > p")
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.pitch(o, "Gb2")
         baca.text_spanner(
             o.rleaves(),
@@ -1321,9 +1321,9 @@ def vc(cache):
     with baca.scope(m[24]) as o:
         baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
     with baca.scope(m.get(28, 40)) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(cache["vcr"].get(28, 40)) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m.get(63, 64)) as o:
         baca.hairpin(
             o.rleaves(),
@@ -1360,9 +1360,9 @@ def vc(cache):
         )
         baca.flat_glissando(o, "D2", hide_middle_stems=True)
     with baca.scope(cache["vcr"][116]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m[117]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m.get(118, 119)) as o:
         baca.hairpin(o.rleaves(), "o< p")
     with baca.scope(m.get(118, 127)) as o:

@@ -75,15 +75,15 @@ def v1(cache):
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(rf"- \tweak staff-padding {8 + 6}"),
         )
-        baca.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=8)
         baca.flat_glissando(o, "A6", left_broken=True)
     with baca.scope(m.get(5, 8)) as o:
         baca.hairpin(o.rleaves(), "ppp >o niente")
     with baca.scope(cache["v1r"][9]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m.get(10, 17)) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
 
 
 def v2(cache):
@@ -95,15 +95,15 @@ def v2(cache):
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
         )
-        baca.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_down(o)
         library.bcps(o, -9, clt=True, staff_padding=4.5)
         baca.flat_glissando(o, "Ab5", left_broken=True)
     with baca.scope(m.get(5, 8)) as o:
         baca.hairpin(o.rleaves(), "ppp >o niente")
     with baca.scope(cache["v2r"][9]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m.get(10, 17)) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
 
 
 def va(cache):
@@ -128,9 +128,9 @@ def vc(cache):
     with baca.scope(m.get(9, 12)) as o:
         baca.hairpin(o.rleaves(), "pp >o niente")
     with baca.scope(cache["vcr"][13]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m.get(14, 17)) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
 
 
 @baca.build.timed("make_score")

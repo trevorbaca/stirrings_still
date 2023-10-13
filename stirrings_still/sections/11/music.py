@@ -529,9 +529,9 @@ def v1(cache):
         baca.flat_glissando(o, "Aqs4")
     #    time_signatures(
     #        (["v1", "v1r"], 22),
-    #        baca.tacet(selector=lambda _: baca.select.mmrests(_)),
+    #        baca.override.tacet(selector=lambda _: baca.select.mmrests(_)),
     with baca.scope(cache["v1r"][22]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m[23]) as o:
         baca.breathe(o.pleaf(-1))
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
@@ -632,8 +632,8 @@ def tutti(cache):
         m = cache[name]
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 6)
-            baca.tuplet_bracket_down(o.leaves())
-            baca.tuplet_bracket_staff_padding(o.leaves(), 1.5)
+            baca.override.tuplet_bracket_down(o.leaves())
+            baca.override.tuplet_bracket_staff_padding(o.leaves(), 1.5)
         with baca.scope(m.get(1, 2)) as o:
             baca.hairpin(
                 o.rleaves(),
@@ -667,7 +667,7 @@ def tutti(cache):
             )
         with baca.scope(m.get(46, 53)) as o:
             if name in ("v1", "v2", "va"):
-                baca.stem_transparent(o.leaves()[:-1])
+                baca.override.stem_transparent(o.leaves()[:-1])
 
 
 def v2(cache):
@@ -757,7 +757,7 @@ def v2(cache):
         )
         baca.flat_glissando(o, "Eb4")
     with baca.scope(cache["v2r"][22]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m[23]) as o:
         baca.breathe(o.pleaf(-1))
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
@@ -937,7 +937,7 @@ def va(cache):
         )
         baca.flat_glissando(o, "Bqf3")
     with baca.scope(cache["var"][22]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m[23]) as o:
         baca.breathe(o.pleaf(-1))
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
@@ -1120,7 +1120,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
         )
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         library.cello_cell_bcps(o, staff_padding=4.5)
         baca.flat_glissando(o, "A5")
     with baca.scope(m.get(24, 31)) as o:
@@ -1172,7 +1172,7 @@ def vc(cache):
     with baca.scope(m.get(38, 54)) as o:
         with baca.scope(o.leaves()[:-1]) as u:
             baca.override.dots_transparent(u)
-            baca.stem_transparent(u)
+            baca.override.stem_transparent(u)
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
             leaves,
