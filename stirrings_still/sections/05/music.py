@@ -616,7 +616,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
+        baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.hairpin(
             o.rleaves(),
             "p-ancora -- !",
@@ -771,7 +771,7 @@ def v1_v2_va(cache):
         with baca.scope(m[34]) as o:
             baca.stop_on_string(o.pleaf(-1))
             library.breathe(o.pleaf(1))
-            baca.dynamic_text_self_alignment_x(o.leaf(2), -1)
+            baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
                 o,
                 "p <| mp p < mp",
@@ -880,7 +880,7 @@ def tutti(cache):
     for name in ["v1", "v2", "va", "vc"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.dls_staff_padding(o.leaves(), 6)
+            baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(42, 61)) as o:
             baca.tuplet_bracket_down(o)
             baca.tuplet_bracket_staff_padding(o, 1)
@@ -1029,7 +1029,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
+        baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.hairpin(
             o.rleaves(),
             "p-ancora -- !",
@@ -1230,7 +1230,7 @@ def va_vc(cache):
                     baca.select.rleak(baca.select.ltleaves(o)),
                     abjad.Tweak(r"- \tweak staff-padding 8"),
                 )
-            baca.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
+            baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
             baca.hairpin(
                 o.rleaves(),
                 "p-ancora -- !",
@@ -1302,7 +1302,7 @@ def vc(cache):
     with baca.scope(m.get(1, 27)) as o:
         library.clouded_pane_spanner(o.rleaves(), "clouded pane (continues) -|", 8)
     with baca.scope(m.get(4, 5)) as o:
-        baca.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
+        baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
         baca.hairpin(o.rleaves(), "ff > p")
         baca.note_head_style_harmonic(o.pleaves())
         baca.pitch(o, "Gb2")
@@ -1319,7 +1319,7 @@ def vc(cache):
             pieces=baca.select.mgroups(o.rleaves(), [4, 4 + 1]),
         )
     with baca.scope(m[24]) as o:
-        baca.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
+        baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
     with baca.scope(m.get(28, 40)) as o:
         baca.tacet(o.mmrests())
     with baca.scope(cache["vcr"].get(28, 40)) as o:

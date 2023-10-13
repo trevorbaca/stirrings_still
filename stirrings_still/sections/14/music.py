@@ -312,7 +312,7 @@ def v1_v2_va(cache):
 def tutti(cache):
     for name in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[name].leaves()) as o:
-            baca.dls_staff_padding(o.leaves(), 6)
+            baca.override.dls_staff_padding(o.leaves(), 6)
 
 
 def v2(cache):
@@ -525,7 +525,7 @@ def vc(cache):
     name = "vc"
     m = cache[name]
     with baca.scope(m.get(1, 10)) as o:
-        baca.dots_transparent(o)
+        baca.override.dots_transparent(o)
         baca.stem_transparent(o.pleaves())
         library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 8)
     with baca.scope(m.get(1, 22)) as o:
@@ -540,7 +540,7 @@ def vc(cache):
         library.cello_cell_bcps(o, staff_padding=3)
     with baca.scope(m.get(13, 22)) as o:
         with baca.scope(o.leaves()[:-1]) as u:
-            baca.dots_transparent(u)
+            baca.override.dots_transparent(u)
             baca.stem_transparent(u)
     for item in [(13, 22), (37, 38)]:
         with baca.scope(m.get(item)) as o:

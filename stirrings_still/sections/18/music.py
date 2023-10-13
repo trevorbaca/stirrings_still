@@ -69,7 +69,7 @@ def VC(voice, time_signatures):
 def v1(cache):
     m = cache["v1"]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 7)
+        baca.override.dls_staff_padding(o, 7)
     with baca.scope(m.get(1, 8)) as o:
         baca.half_clt_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
@@ -89,7 +89,7 @@ def v1(cache):
 def v2(cache):
     m = cache["v2"]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 7)
+        baca.override.dls_staff_padding(o.leaves(), 7)
     with baca.scope(m.get(1, 8)) as o:
         baca.half_clt_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
@@ -121,7 +121,7 @@ def va(cache):
 def vc(cache):
     m = cache["vc"]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 8)
+        baca.override.dls_staff_padding(o.leaves(), 8)
     with baca.scope(m.get(1, 12)) as o:
         baca.ottava_bassa(o.tleaves())
         baca.flat_glissando(o, "B0", hide_middle_stems=True)

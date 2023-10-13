@@ -279,13 +279,13 @@ def tutti(cache):
     for name in ["v1", "v2", "va", "vc"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.dls_staff_padding(o.leaves(), 6)
+            baca.override.dls_staff_padding(o.leaves(), 6)
             if name in ("v1", "va", "vc"):
                 baca.tuplet_bracket_down(o.leaves())
         with baca.scope(m.get(1, 4)) as o:
             baca.dynamic(o.phead(0), "ppppp")
         with baca.scope(m.get(1, 20)) as o:
-            baca.dynamic_text_self_alignment_x(o.leaves(), -0.75)
+            baca.override.dynamic_text_self_alignment_x(o.leaves(), -0.75)
             library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 10.5)
         with baca.scope(m.get(21, 25)) as o:
             baca.breathe(o.pleaf(-1))

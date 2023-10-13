@@ -69,7 +69,7 @@ def VC(voice, time_signatures):
 def v1(cache):
     m = cache["v1"]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 7)
+        baca.override.dls_staff_padding(o.leaves(), 7)
         baca.tuplet_bracket_down(o.leaves())
     with baca.scope(m.get(1, 2)) as o:
         library.bcps(
@@ -174,7 +174,7 @@ def v1_v2_va(cache):
 def v2(cache):
     m = cache["v2"]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 7)
+        baca.override.dls_staff_padding(o.leaves(), 7)
         baca.tuplet_bracket_down(o.leaves())
     with baca.scope(m.get(1, 2)) as o:
         library.bcps(
@@ -267,7 +267,7 @@ def v2(cache):
 def va(cache):
     m = cache["va"]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 7)
+        baca.override.dls_staff_padding(o.leaves(), 7)
         baca.tuplet_bracket_down(o.leaves())
         baca.tuplet_bracket_staff_padding(o.leaves(), 1.5)
     with baca.scope(m.get(1, 2)) as o:
@@ -361,7 +361,7 @@ def va(cache):
 def vc(cache):
     m = cache["vc"]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 5)
+        baca.override.dls_staff_padding(o.leaves(), 5)
         baca.flat_glissando(
             o.leaves(),
             "Db2",

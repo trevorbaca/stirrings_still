@@ -154,7 +154,7 @@ def VC(voice, time_signatures):
 def v1(cache):
     m = cache["v1"]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 7)
+        baca.override.dls_staff_padding(o.leaves(), 7)
         baca.note_head_style_harmonic(baca.select.rleak(o.pleaves()))
     with baca.scope(m[1]) as o:
         baca.markup(
@@ -169,7 +169,7 @@ def v1(cache):
                 abjad.Tweak(r"- \tweak staff-padding 3"),
                 qualifier="wide",
             )
-            baca.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
+            baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
             baca.flat_glissando(o, "Bb4")
             baca.hairpin(
                 o,
@@ -181,7 +181,7 @@ def v1(cache):
 def v2(cache):
     m = cache["v2"]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 6)
+        baca.override.dls_staff_padding(o.leaves(), 6)
         baca.note_head_style_harmonic(baca.select.rleak(o.pleaves()))
         baca.tuplet_bracket_down(o.leaves())
     with baca.scope(m[1]) as o:
@@ -197,7 +197,7 @@ def v2(cache):
                 abjad.Tweak(r"- \tweak staff-padding 3"),
                 qualifier="wide",
             )
-            baca.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
+            baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
             baca.flat_glissando(o, "F4")
             baca.hairpin(o, "ppp < p >", pieces=baca.select.cmgroups(o))
 
@@ -216,7 +216,7 @@ def va(cache):
 def vc(cache):
     m = cache["vc"]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 6)
+        baca.override.dls_staff_padding(o.leaves(), 6)
     with baca.scope(m[1]) as o:
         baca.flat_glissando(o, "B0")
         baca.hairpin(o, "o< mf")

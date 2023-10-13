@@ -2046,7 +2046,7 @@ def ntlt_flat_glissandi(argument):
             zero_padding=True,
         )
         with baca.scope(ntlt[1:]) as u:
-            baca.accidental_stencil_false(u)
+            baca.override.accidental_stencil_false(u)
             baca.note_head_transparent(u)
             baca.note_head_x_extent_zero(u)
         baca.untie(ntlt)
@@ -3046,7 +3046,7 @@ def second_order_stages(section):
 
 def style_tailpiece_material(o, *tweaks):
     wrappers = []
-    wrappers_ = baca.dots_transparent(o.leaves()[1:])
+    wrappers_ = baca.override.dots_transparent(o.leaves()[1:])
     wrappers.extend(wrappers_)
     wrappers_ = baca.markup(o.pleaf(0), r"\baca-boxed-markup tailpiece")
     wrappers.extend(wrappers_)
