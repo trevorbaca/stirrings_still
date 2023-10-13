@@ -520,10 +520,10 @@ def v1(cache):
             ],
         )
         for plt in abjad.select.get(baca.select.plts(o), [3], 4):
-            baca.note_head_style_harmonic(plt)
+            baca.override.note_head_style_harmonic(plt)
     with baca.scope(m.get(71, 76)) as o:
-        baca.tuplet_bracket_down(o)
-        baca.tuplet_bracket_staff_padding(o, 1.25)
+        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_staff_padding(o, 1.25)
 
 
 def v2(cache):
@@ -631,27 +631,27 @@ def va(cache):
             ],
         )
         for plt in abjad.select.get(baca.select.plts(o), [4], 5):
-            baca.note_head_style_harmonic(plt)
+            baca.override.note_head_style_harmonic(plt)
     with baca.scope(m.get(71, 76)) as o:
-        baca.tuplet_bracket_staff_padding(o, 0.5)
+        baca.override.tuplet_bracket_staff_padding(o, 0.5)
 
 
 def v1_v2_va(cache):
     for name in ["v1r", "v2r", "var"]:
         m = cache[name]
         with baca.scope(m[34]) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(1, 69)) as o:
-            baca.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_down(o)
         with baca.scope(m[5]) as o:
             baca.tasto_spanner(
                 o.rleaves(),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
             )
         with baca.scope(m[35]) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
         with baca.scope(m.get(60, 61)) as o:
             if name == "v1":
                 string = "<F4 A4>"
@@ -884,7 +884,7 @@ def vc(cache):
     with baca.scope(m.leaves()) as o:
         baca.clef(o.leaf(0), "treble")
     with baca.scope(m.get(1, 35)) as o:
-        baca.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_down(o)
     with baca.scope(m[5]) as o:
         baca.pitch(o, "B1")
         baca.clef(o.leaf(0), "bass")
@@ -936,13 +936,13 @@ def vc(cache):
             ],
         )
         for plt in abjad.select.get(baca.select.plts(o), [2], 3):
-            baca.note_head_style_harmonic(plt)
+            baca.override.note_head_style_harmonic(plt)
     with baca.scope(cache["vcr"][60]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m[61]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m.get(71, 76)) as o:
-        baca.tuplet_bracket_staff_padding(o, 0.5)
+        baca.override.tuplet_bracket_staff_padding(o, 0.5)
 
 
 @baca.build.timed("make_score")

@@ -511,7 +511,7 @@ def v1(cache):
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 1)
         baca.hairpin(o, "pp < mp")
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(86, 92)) as o:
         baca.scp_spanner(
             o.rleaves(),
@@ -525,7 +525,7 @@ def v1_v2(cache):
     for name in ["v1", "v2"]:
         m = cache[name]
         with baca.scope(m.get(49, 53)) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
         with baca.scope(m.get(67, 85)) as o:
             baca.tasto_spanner(
                 o.rleaves(),
@@ -541,18 +541,18 @@ def v1_v2(cache):
         with baca.scope(m.get(90, 92)) as o:
             library.urtext_spanner(o.rleaves(), "urtext (NEW cds) -|", 8)
     with baca.scope(cache["v1r"][93]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(cache["v2r"][93]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
 
 
 def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.tuplet_bracket_down(o.leaves())
+            baca.override.tuplet_bracket_down(o.leaves())
         with baca.scope(m[38]) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
         for item in [47, 55]:
             with baca.scope(m[item]) as o:
                 baca.repeat_tie(o.pleaf(-1))
@@ -764,7 +764,7 @@ def v2(cache):
         baca.flat_glissando(o, "F4")
         baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 1)
         baca.hairpin(o, "pp < mp")
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(86, 92)) as o:
         baca.scp_spanner(
             o.rleaves(),
@@ -850,10 +850,10 @@ def vc(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
         )
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         library.cello_cell_bcps(o, staff_padding=4.5)
     with baca.scope(m[47]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     for item in [(49, 50), (52, 53)]:
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "E2")
@@ -866,9 +866,9 @@ def vc(cache):
                 baca.clef(o.leaf(0), "bass")
             library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 5.5)
     with baca.scope(cache["vcr"][51]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m[55]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m[57]) as o:
         baca.flat_glissando(o, "B1")
         baca.hairpin(o, "o<| mf")
@@ -887,7 +887,7 @@ def vc(cache):
             pieces=baca.select.mgroups(o.rleaves(), [3, 4 + 1]),
         )
     with baca.scope(cache["vcr"][93]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m.get(94, 99)) as o:
         baca.flat_glissando(o, "F2", hide_middle_stems=True, right_broken=True)
         library.clouded_pane_spanner(

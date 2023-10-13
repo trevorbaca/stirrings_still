@@ -155,7 +155,7 @@ def v1(cache):
     m = cache["v1"]
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 7)
-        baca.note_head_style_harmonic(baca.select.rleak(o.pleaves()))
+        baca.override.note_head_style_harmonic(baca.select.rleak(o.pleaves()))
     with baca.scope(m[1]) as o:
         baca.markup(
             o.pleaf(0),
@@ -182,8 +182,8 @@ def v2(cache):
     m = cache["v2"]
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
-        baca.note_head_style_harmonic(baca.select.rleak(o.pleaves()))
-        baca.tuplet_bracket_down(o.leaves())
+        baca.override.note_head_style_harmonic(baca.select.rleak(o.pleaves()))
+        baca.override.tuplet_bracket_down(o.leaves())
     with baca.scope(m[1]) as o:
         baca.markup(
             o.pleaf(0),
@@ -262,7 +262,7 @@ def vc(cache):
 def v1_v2_vc(cache):
     for name in ["v1", "v2", "vc"]:
         with baca.scope(cache[name].get(17, 19)) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
 
 
 @baca.build.timed("make_score")

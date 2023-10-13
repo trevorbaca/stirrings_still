@@ -292,11 +292,11 @@ def v1_v2_va(cache):
     for name in ["v1r", "v2r", "var"]:
         m = cache[name]
         with baca.scope(m[9]) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(10, 12)) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
         with baca.scope(m.get(13, 28)) as o:
             library.urtext_spanner(o.rleaves(), "urtext (field) -|", 8)
         with baca.scope(m.get(30, 35)) as o:
@@ -526,7 +526,7 @@ def vc(cache):
     m = cache[name]
     with baca.scope(m.get(1, 10)) as o:
         baca.override.dots_transparent(o)
-        baca.stem_transparent(o.pleaves())
+        baca.override.stem_transparent(o.pleaves())
         library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 8)
     with baca.scope(m.get(1, 22)) as o:
         baca.flat_glissando(o, "Bb1")
@@ -541,7 +541,7 @@ def vc(cache):
     with baca.scope(m.get(13, 22)) as o:
         with baca.scope(o.leaves()[:-1]) as u:
             baca.override.dots_transparent(u)
-            baca.stem_transparent(u)
+            baca.override.stem_transparent(u)
     for item in [(13, 22), (37, 38)]:
         with baca.scope(m.get(item)) as o:
             library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 8)

@@ -540,7 +540,7 @@ def v1(cache):
         baca.staff_lines(o.leaf(0), 5)
         baca.short_instrument_name(o.leaf(0), "Vn. I", library.manifests)
         baca.instrument_name(o.leaf(0), r"\stirrings-still-violin-i-markup")
-        baca.tuplet_bracket_down(o.leaves())
+        baca.override.tuplet_bracket_down(o.leaves())
     for item in [1, 3, (5, 6), (8, 9), (11, 16), 60]:
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(
@@ -631,7 +631,7 @@ def v1_v2_va(cache):
         for item in [1, 3, (5, 6), (8, 9)]:
             with baca.scope(m.get(item)) as o:
                 with baca.scope(o.pleaf(-1)) as u:
-                    baca.script_padding(u, 1)
+                    baca.override.script_padding(u, 1)
                     baca.stop_on_string(u)
                 library.breathe(o.pleaf(1))
         with baca.scope(m.get(1, 16)) as o:
@@ -848,7 +848,7 @@ def v2(cache):
         baca.staff_lines(o.leaf(0), 5)
         baca.short_instrument_name(o.leaf(0), "Vn. II", library.manifests)
         baca.instrument_name(o.leaf(0), r"\stirrings-still-violin-ii-markup")
-        baca.tuplet_bracket_down(o.leaves())
+        baca.override.tuplet_bracket_down(o.leaves())
     for item in [1, 3, (5, 6), (8, 9), (11, 16), 60]:
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o.pleaves()[:2], "<Eb4 B4>")
@@ -918,7 +918,7 @@ def va(cache):
         baca.staff_lines(o.leaf(0), 5)
         baca.short_instrument_name(o.leaf(0), "Va.", library.manifests)
         baca.instrument_name(o.leaf(0), r"\stirrings-still-viola-markup")
-        baca.tuplet_bracket_down(o.leaves())
+        baca.override.tuplet_bracket_down(o.leaves())
     for item in [1, 3, (5, 6), (8, 9), (11, 16), 60]:
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o.pleaves()[:2], "<D4 Gqs4>")
@@ -988,11 +988,11 @@ def vc(cache):
             baca.short_instrument_name(u, "Vc.", library.manifests)
             baca.instrument_name(u, r"\stirrings-still-cello-markup")
     with baca.scope(m.leaves()) as o:
-        baca.tuplet_bracket_down(o.leaves())
+        baca.override.tuplet_bracket_down(o.leaves())
     for name in ["vc", "vcr"]:
         m = cache[name]
         with baca.scope(m.get(1, 11)) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
     m = cache["vc"]
     with baca.scope(m.get(12, 26)) as o:
         baca.dynamic(o.phead(0), "p")
@@ -1053,14 +1053,14 @@ def vc(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
         )
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         library.cello_cell_bcps(o, staff_padding=4.5)
     for name in ["vc", "vcr"]:
         m = cache[name]
         for item in [41, (44, 45)]:
             with baca.scope(m.get(item)) as o:
                 if o.mmrests():
-                    baca.tacet(o.mmrests())
+                    baca.override.tacet(o.mmrests())
     m = cache["vc"]
     with baca.scope(m[46]) as o:
         baca.clef(o.leaf(0), "bass")
@@ -1100,12 +1100,12 @@ def vc(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
         )
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         library.cello_cell_bcps(o, staff_padding=4.5)
     with baca.scope(m.get(55, 56)) as o:
         baca.flat_glissando(o, "Ab2")
     with baca.scope(m[60]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m[62]) as o:
         baca.flat_glissando(o, "G3")
 

@@ -70,7 +70,7 @@ def v1(cache):
     m = cache["v1"]
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 7)
-        baca.tuplet_bracket_down(o.leaves())
+        baca.override.tuplet_bracket_down(o.leaves())
     with baca.scope(m.get(1, 2)) as o:
         library.bcps(
             o.rleaves(),
@@ -175,7 +175,7 @@ def v2(cache):
     m = cache["v2"]
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 7)
-        baca.tuplet_bracket_down(o.leaves())
+        baca.override.tuplet_bracket_down(o.leaves())
     with baca.scope(m.get(1, 2)) as o:
         library.bcps(
             o.rleaves(),
@@ -268,8 +268,8 @@ def va(cache):
     m = cache["va"]
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 7)
-        baca.tuplet_bracket_down(o.leaves())
-        baca.tuplet_bracket_staff_padding(o.leaves(), 1.5)
+        baca.override.tuplet_bracket_down(o.leaves())
+        baca.override.tuplet_bracket_staff_padding(o.leaves(), 1.5)
     with baca.scope(m.get(1, 2)) as o:
         library.bcps(
             o.rleaves(),

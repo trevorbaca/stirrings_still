@@ -188,10 +188,10 @@ def vc(cache):
 def v1_v2_vc(cache):
     for name in ["v1r", "v2r", "vcr"]:
         with baca.scope(cache[name][9]) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
     for name in ["v1", "v2", "vc"]:
         with baca.scope(cache[name][10]) as o:
-            baca.tacet(o.mmrests())
+            baca.override.tacet(o.mmrests())
 
 
 def tutti(cache):
@@ -199,7 +199,7 @@ def tutti(cache):
         m = cache[name]
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 6)
-            baca.tuplet_bracket_down(o.leaves())
+            baca.override.tuplet_bracket_down(o.leaves())
         with baca.scope(m.get(12, 13)) as o:
             baca.circle_bow_spanner(
                 baca.select.rleak(baca.select.ltleaves(o)),

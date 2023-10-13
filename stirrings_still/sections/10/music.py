@@ -181,8 +181,8 @@ def v1_v2_va(cache):
                 library.bcps(o, -6, clt=True, staff_padding=4)
             elif name == "va":
                 library.bcps(o, -5, clt=True, staff_padding=4)
-            baca.tuplet_bracket_down(o)
-            baca.tuplet_bracket_staff_padding(o, 1.5)
+            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_staff_padding(o, 1.5)
 
 
 def v1_va_vc(cache):
@@ -222,7 +222,7 @@ def v1_va_vc(cache):
                 "pp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
-            baca.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_down(o)
             library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
 
 
@@ -284,7 +284,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
         baca.pitch(o, "F5")
-        baca.tuplet_bracket_staff_padding(o, 1)
+        baca.override.tuplet_bracket_staff_padding(o, 1)
 
 
 def va(cache):
@@ -319,13 +319,13 @@ def vc(cache):
     with baca.scope(m.leaves()) as o:
         baca.clef(abjad.select.leaf(o, 0), "bass")
     with baca.scope(cache["vcr"][1]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m[2]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(cache["vcr"][5]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m[6]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m.get(7, 11)) as o:
         baca.override.dynamic_text_self_alignment_x(o.leaf(-1), -0.75)
         baca.flat_glissando(o, "Bb1", hide_middle_stems=True)
@@ -339,9 +339,9 @@ def vc(cache):
         baca.flat_glissando(o, "Cb2", stop_pitch="Bb1")
         baca.hairpin(o, "fff > pp")
     with baca.scope(cache["vcr"][14]) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
     with baca.scope(m.get(15, 17)) as o:
-        baca.tacet(o.mmrests())
+        baca.override.tacet(o.mmrests())
 
 
 @baca.build.timed("make_score")

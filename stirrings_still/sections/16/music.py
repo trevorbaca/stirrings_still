@@ -281,7 +281,7 @@ def tutti(cache):
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 6)
             if name in ("v1", "va", "vc"):
-                baca.tuplet_bracket_down(o.leaves())
+                baca.override.tuplet_bracket_down(o.leaves())
         with baca.scope(m.get(1, 4)) as o:
             baca.dynamic(o.phead(0), "ppppp")
         with baca.scope(m.get(1, 20)) as o:
