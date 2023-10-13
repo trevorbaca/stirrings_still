@@ -125,7 +125,7 @@ def v1_v2_va(cache):
         with baca.scope(m[9]) as o:
             baca.tacet(o.mmrests())
         with baca.scope(m.get(10, 11)) as o:
-            baca.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
+            baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
             baca.hairpin(
                 o.rleaves(),
                 "appena-udibile -- !",
@@ -142,7 +142,7 @@ def v1_v2_va(cache):
 def tutti(cache):
     for name in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[name].leaves()) as o:
-            baca.dls_staff_padding(o.leaves(), 5)
+            baca.override.dls_staff_padding(o.leaves(), 5)
 
 
 def v2(cache):

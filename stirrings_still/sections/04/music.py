@@ -509,7 +509,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
         )
-        baca.dynamic_text_self_alignment_x(o.pleaf(-1), 1)
+        baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 1)
         baca.hairpin(o, "pp < mp")
         baca.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(86, 92)) as o:
@@ -566,7 +566,7 @@ def v1_v2_va(cache):
                 cache.rebuild()
                 m = cache[name]
             with baca.scope(m[item]) as o:
-                baca.dynamic_text_self_alignment_x(o.leaf(2), -1)
+                baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
                 baca.hairpin(
                     o,
                     "p <| mp p < mp",
@@ -681,7 +681,7 @@ def tutti_1(cache):
         with baca.scope(m.get(1, 6)) as o:
             baca.dynamic(o.phead(0), "p")
         with baca.scope(m.leaves()) as o:
-            baca.dls_staff_padding(o.leaves(), 6)
+            baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(1, 36)) as o:
             baca.damp_spanner(
                 baca.select.rleak(baca.select.ltleaves(o)),
@@ -762,7 +762,7 @@ def v2(cache):
             qualifier="wide-poss",
         )
         baca.flat_glissando(o, "F4")
-        baca.dynamic_text_self_alignment_x(o.pleaf(-1), 1)
+        baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 1)
         baca.hairpin(o, "pp < mp")
         baca.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(86, 92)) as o:

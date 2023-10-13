@@ -136,7 +136,7 @@ def v1(cache):
 def tutti(cache):
     for name in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[name].leaves()) as o:
-            baca.dls_staff_padding(o.leaves(), 5)
+            baca.override.dls_staff_padding(o.leaves(), 5)
             baca.tuplet_bracket_down(o.leaves())
 
 

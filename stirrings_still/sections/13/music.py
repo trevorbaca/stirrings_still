@@ -244,7 +244,7 @@ def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.dls_staff_padding(o.leaves(), 5)
+            baca.override.dls_staff_padding(o.leaves(), 5)
         with baca.scope(m.get(1, 12)) as o:
             baca.hairpin(
                 o,
@@ -449,7 +449,7 @@ def vc(cache):
     name = "vc"
     m = cache[name]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 7)
+        baca.override.dls_staff_padding(o.leaves(), 7)
         library.clouded_pane_spanner(
             o.rleaves(),
             "clouded pane (semitone down) -|",

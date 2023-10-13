@@ -615,7 +615,7 @@ def vc(cache):
             pieces=baca.select.mgroups(o.rleaves(), [8, 6, 5 + 1]),
         )
     with baca.scope(m.get(23, 31)) as o:
-        baca.dynamic_text_self_alignment_x(o.pleaf(0), -1)
+        baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -1)
         baca.hairpin(
             o.rleaves(),
             "(ff) > ppp -- !",
@@ -970,7 +970,7 @@ def tutti(cache):
     for name in ["v1", "v2", "va", "vc"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.dls_staff_padding(o.leaves(), 6)
+            baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(1, 5)) as o:
             baca.markup(
                 o.pleaf(0),

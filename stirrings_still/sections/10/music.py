@@ -146,7 +146,7 @@ def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(1, 2)) as o:
-            baca.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
+            baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
             baca.hairpin(
                 o.rleaves(),
                 "appena-udibile -- !",
@@ -154,8 +154,8 @@ def v1_v2_va(cache):
             )
             library.urtext_spanner(o.rleaves(), "urtext (ds field) -|", 8)
         with baca.scope(m.get(5, 11)) as o:
-            baca.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
-            baca.dynamic_text_self_alignment_x(o.leaf(-1), -0.75)
+            baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
+            baca.override.dynamic_text_self_alignment_x(o.leaf(-1), -0.75)
             baca.hairpin(
                 o,
                 "appena-udibile -- ! < fff-poco-scratch",
@@ -230,7 +230,7 @@ def tutti(cache):
     for name in ["v1", "v2", "va", "vc"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.dls_staff_padding(o.leaves(), 6)
+            baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m[11]) as o:
             baca.markup(
                 o.pleaf(0),
@@ -327,7 +327,7 @@ def vc(cache):
     with baca.scope(m[6]) as o:
         baca.tacet(o.mmrests())
     with baca.scope(m.get(7, 11)) as o:
-        baca.dynamic_text_self_alignment_x(o.leaf(-1), -0.75)
+        baca.override.dynamic_text_self_alignment_x(o.leaf(-1), -0.75)
         baca.flat_glissando(o, "Bb1", hide_middle_stems=True)
         baca.hairpin(o, "pp < fff-poco-scratch")
     with baca.scope(m.get(12, 13)) as o:

@@ -827,7 +827,7 @@ def v1_v2_va(cache):
         with baca.scope(m.get(9, 11)) as o:
             baca.tacet(o.mmrests())
         with baca.scope(m[26]) as o:
-            baca.dynamic_text_self_alignment_x(o.leaf(2), -1)
+            baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
                 o,
                 "p <| mp p < mp",
@@ -900,7 +900,7 @@ def tutti(cache):
     for name in ["v1", "v2", "va", "vc"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.dls_staff_padding(o.leaves(), 6)
+            baca.override.dls_staff_padding(o.leaves(), 6)
             baca.tuplet_bracket_down(o.leaves())
         with baca.scope(m.get(29, 30)) as o:
             baca.hairpin(
@@ -1305,7 +1305,7 @@ def va(cache):
         )
         with baca.scope(o.rleaf(-1)) as u:
             baca.clef(u, "alto")
-            baca.clef_extra_offset(u, (-1, 0))
+            baca.override.clef_extra_offset(u, (-1, 0))
         baca.pitch(o, "Eqs5")
         baca.tuplet_bracket_staff_padding(o, 1)
     with baca.scope(m.get(1, 7)) as o:
@@ -1336,7 +1336,7 @@ def va(cache):
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
+        baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.flat_glissando(o, "Ab3")
         baca.hairpin(
             o.rleaves(),
@@ -1536,7 +1536,7 @@ def vc(cache):
     with baca.scope(m.get(16, 19)) as o:
         with baca.scope(o.lleaf(0)) as u:
             baca.clef(u, "treble")
-            baca.clef_extra_offset(u, (-1, 0))
+            baca.override.clef_extra_offset(u, (-1, 0))
         baca.pitch(o.pleaves()[:-1], "Dtqs5")
     with baca.scope(m.get(16, 19)) as o:
         baca.damp_spanner(

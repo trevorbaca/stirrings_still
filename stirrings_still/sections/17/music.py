@@ -657,7 +657,7 @@ def tutti(cache):
     for name in ["v1", "v2", "va", "vc"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.dls_staff_padding(o.leaves(), 6)
+            baca.override.dls_staff_padding(o.leaves(), 6)
             baca.tuplet_bracket_down(o.leaves())
             baca.tuplet_bracket_staff_padding(o.leaves(), 1)
         with baca.scope(m[1]) as o:
@@ -1153,7 +1153,7 @@ def vc(cache):
             'o< ff -- "ff" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [3, 4, 3 + 1]),
         )
-        baca.dynamic_text_x_offset(o.leaf(-1), -3)
+        baca.override.dynamic_text_x_offset(o.leaf(-1), -3)
         baca.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
     with baca.scope(m.get(31, 37)) as o:

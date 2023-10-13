@@ -356,7 +356,7 @@ def v1_v2_va(cache):
             cache.rebuild()
             m = cache[name]
         with baca.scope(m.get(5, 6)) as o:
-            baca.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
+            baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
             baca.hairpin(
                 o.rleaves(),
                 "appena-udibile -- !",
@@ -370,7 +370,7 @@ def tutti(cache):
     for name in ["v1", "v2", "va", "vc"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.dls_staff_padding(o.leaves(), 6)
+            baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(16, 17)) as o:
             if name == "v1":
                 baca.flat_glissando(o, "<F#4 A#4>")
@@ -403,7 +403,7 @@ def tutti(cache):
             baca.tuplet_bracket_down(o)
             library.urtext_spanner(o.rleaves(), "urtext (ds) -|", 8)
         with baca.scope(m[18]) as o:
-            baca.dynamic_text_extra_offset(abjad.select.leaf(o, 0), (-5, 0))
+            baca.override.dynamic_text_extra_offset(abjad.select.leaf(o, 0), (-5, 0))
         with baca.scope(m.get(19, 24)) as o:
             baca.damp_spanner(
                 baca.select.rleak(baca.select.ltleaves(o)),

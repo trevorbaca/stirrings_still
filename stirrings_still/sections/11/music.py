@@ -515,7 +515,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
         )
-        baca.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
+        baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.hairpin(
             o.rleaves(),
             '"ff" -- !',
@@ -534,7 +534,7 @@ def v1(cache):
         baca.tacet(o.mmrests())
     with baca.scope(m[23]) as o:
         baca.breathe(o.pleaf(-1))
-        baca.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
+        baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.hairpin(o, '"ff" > mf')
         baca.circle_bow_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
@@ -631,7 +631,7 @@ def tutti(cache):
     for name in ["v1", "v2", "va", "vc"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.dls_staff_padding(o.leaves(), 6)
+            baca.override.dls_staff_padding(o.leaves(), 6)
             baca.tuplet_bracket_down(o.leaves())
             baca.tuplet_bracket_staff_padding(o.leaves(), 1.5)
         with baca.scope(m.get(1, 2)) as o:
@@ -744,7 +744,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
         )
-        baca.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
+        baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.hairpin(
             o.rleaves(),
             '"ff" -- !',
@@ -760,7 +760,7 @@ def v2(cache):
         baca.tacet(o.mmrests())
     with baca.scope(m[23]) as o:
         baca.breathe(o.pleaf(-1))
-        baca.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
+        baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.hairpin(o, '"ff" > mf')
         baca.circle_bow_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
@@ -924,7 +924,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
         )
-        baca.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
+        baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.hairpin(
             o.rleaves(),
             '"ff" -- !',
@@ -940,7 +940,7 @@ def va(cache):
         baca.tacet(o.mmrests())
     with baca.scope(m[23]) as o:
         baca.breathe(o.pleaf(-1))
-        baca.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
+        baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.hairpin(o, '"ff" > mf')
         baca.circle_bow_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
@@ -1171,7 +1171,7 @@ def vc(cache):
         )
     with baca.scope(m.get(38, 54)) as o:
         with baca.scope(o.leaves()[:-1]) as u:
-            baca.dots_transparent(u)
+            baca.override.dots_transparent(u)
             baca.stem_transparent(u)
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(

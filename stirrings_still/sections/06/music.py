@@ -198,7 +198,7 @@ def tutti(cache):
     for name in ["v1", "v2", "va", "vc"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.dls_staff_padding(o.leaves(), 6)
+            baca.override.dls_staff_padding(o.leaves(), 6)
             baca.tuplet_bracket_down(o.leaves())
         with baca.scope(m.get(12, 13)) as o:
             baca.circle_bow_spanner(
