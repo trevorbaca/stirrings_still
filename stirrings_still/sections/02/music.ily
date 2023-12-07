@@ -2563,6 +2563,8 @@ number.2.Rests = {
 number.2.Violin.1.Music = {
 
     % [Violin.1.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2589,8 +2591,6 @@ number.2.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "treble"
     r2.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
@@ -5892,6 +5892,8 @@ number.2.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 1]
+          %! REAPPLIED_CLEF
+        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -5916,8 +5918,6 @@ number.2.Violin.2.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! EXPLICIT_STAFF_LINES
         \startStaff
-          %! REAPPLIED_CLEF
-        \clef "treble"
         f''8
         - \downbow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -9313,6 +9313,8 @@ number.2.Viola.Music = {
     {
 
         % [Viola.Music measure 1]
+          %! EXPLICIT_CLEF
+        \clef "treble"
           %! MEASURE_64
           %! SHIFTED_CLEF
     %%% \once \override Staff.Clef.X-extent = ##f
@@ -9342,8 +9344,6 @@ number.2.Viola.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! EXPLICIT_STAFF_LINES
         \startStaff
-          %! EXPLICIT_CLEF
-        \clef "treble"
         eqs''!8
         - \downbow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -9566,6 +9566,8 @@ number.2.Viola.Music = {
     \revert TupletBracket.staff-padding
 
     % [Viola.Music measure 6]
+      %! EXPLICIT_CLEF
+    \clef "alto"
       %! MEASURE_69
       %! SHIFTED_CLEF
     \once \override Staff.Clef.X-extent = ##f
@@ -9579,8 +9581,6 @@ number.2.Viola.Music = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! EXPLICIT_CLEF
-    \clef "alto"
     af!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -9917,6 +9917,8 @@ number.2.Viola.Music = {
     {
 
         % [Viola.Music measure 23]
+          %! EXPLICIT_CLEF
+        \clef "treble"
           %! MEASURE_86
           %! SHIFTED_CLEF
         \once \override Staff.Clef.X-extent = ##f
@@ -9930,8 +9932,6 @@ number.2.Viola.Music = {
         \override TupletBracket.staff-padding = 1.5
           %! EXPLICIT_CLEF
         \set Staff.forceClef = ##t
-          %! EXPLICIT_CLEF
-        \clef "treble"
         c''8
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
@@ -11073,6 +11073,8 @@ number.2.Viola.Music = {
     {
 
         % [Viola.Music measure 40]
+          %! EXPLICIT_CLEF
+        \clef "alto"
           %! MEASURE_103
           %! SHIFTED_CLEF
         \once \override Staff.Clef.X-extent = ##f
@@ -11085,8 +11087,6 @@ number.2.Viola.Music = {
         %@% \override Staff.Clef.color = ##f
           %! EXPLICIT_CLEF
         \set Staff.forceClef = ##t
-          %! EXPLICIT_CLEF
-        \clef "alto"
         ftqs'!4.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -12527,6 +12527,8 @@ number.2.Viola.Music = {
     }
 
     % [Viola.Music measure 65]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_128
       %! SHIFTED_CLEF
     \once \override Staff.Clef.X-extent = ##f
@@ -12539,8 +12541,6 @@ number.2.Viola.Music = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! EXPLICIT_CLEF
-    \clef "treble"
     ef''!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -12593,6 +12593,8 @@ number.2.Viola.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! EXPLICIT_CLEF
+            \clef "alto"
               %! MEASURE_129
               %! SHIFTED_CLEF
             \once \override Staff.Clef.X-extent = ##f
@@ -12610,8 +12612,6 @@ number.2.Viola.Music = {
             \startStaff
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
-              %! EXPLICIT_CLEF
-            \clef "alto"
               %! HIDDEN
               %! NOTE
             c'1 * 1/4
@@ -12660,6 +12660,8 @@ number.2.Cello.Music = {
     {
 
         % [Cello.Music measure 1]
+          %! EXPLICIT_CLEF
+        \clef "treble"
           %! MEASURE_64
           %! SHIFTED_CLEF
     %%% \once \override Staff.Clef.X-extent = ##f
@@ -12691,8 +12693,6 @@ number.2.Cello.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! EXPLICIT_STAFF_LINES
         \startStaff
-          %! EXPLICIT_CLEF
-        \clef "treble"
         dtqs''!8
         - \downbow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -12918,6 +12918,8 @@ number.2.Cello.Music = {
     \revert TupletNumber.text
 
     % [Cello.Music measure 6]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_69
       %! SHIFTED_CLEF
     \once \override Staff.Clef.X-extent = ##f
@@ -12930,8 +12932,6 @@ number.2.Cello.Music = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! EXPLICIT_CLEF
-    \clef "bass"
     e,2.
       %! SPANNER_STOP
     \!
@@ -13126,6 +13126,8 @@ number.2.Cello.Music = {
     \times 2/3
     {
 
+          %! EXPLICIT_CLEF
+        \clef "treble"
         \once \override Rest.extra-offset = #'(-0.5 . 0)
           %! EXPLICIT_CLEF_COLOR
         \once \override Staff.Clef.color = #blue
@@ -13135,8 +13137,6 @@ number.2.Cello.Music = {
         %@% \override Staff.Clef.color = ##f
           %! EXPLICIT_CLEF
         \set Staff.forceClef = ##t
-          %! EXPLICIT_CLEF
-        \clef "treble"
         r8
           %! EXPLICIT_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -14079,6 +14079,8 @@ number.2.Cello.Music = {
     >>
 
     % [Cello.Music measure 32]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_95
       %! SHIFTED_CLEF
     \once \override Staff.Clef.X-extent = ##f
@@ -14091,8 +14093,6 @@ number.2.Cello.Music = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! EXPLICIT_CLEF
-    \clef "bass"
     af,!1
     - \tweak padding 1.5
     _ \baca-string-iii-markup
@@ -14194,6 +14194,8 @@ number.2.Cello.Music = {
     {
 
         % [Cello.Music measure 34]
+          %! EXPLICIT_CLEF
+        \clef "treble"
           %! MEASURE_97
           %! SHIFTED_CLEF
         \once \override Staff.Clef.X-extent = ##f
@@ -14207,8 +14209,6 @@ number.2.Cello.Music = {
         \override TupletBracket.staff-padding = 1.5
           %! EXPLICIT_CLEF
         \set Staff.forceClef = ##t
-          %! EXPLICIT_CLEF
-        \clef "treble"
         fqs''!8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -14448,6 +14448,8 @@ number.2.Cello.Music = {
     {
 
         % [Cello.Music measure 37]
+          %! EXPLICIT_CLEF
+        \clef "tenor"
           %! MEASURE_100
           %! SHIFTED_CLEF
         \once \override Staff.Clef.X-extent = ##f
@@ -14460,8 +14462,6 @@ number.2.Cello.Music = {
         %@% \override Staff.Clef.color = ##f
           %! EXPLICIT_CLEF
         \set Staff.forceClef = ##t
-          %! EXPLICIT_CLEF
-        \clef "tenor"
         fqs'!8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -14672,6 +14672,8 @@ number.2.Cello.Music = {
     {
 
         % [Cello.Music measure 40]
+          %! EXPLICIT_CLEF
+        \clef "bass"
           %! MEASURE_103
           %! SHIFTED_CLEF
         \once \override Staff.Clef.X-extent = ##f
@@ -14684,8 +14686,6 @@ number.2.Cello.Music = {
         %@% \override Staff.Clef.color = ##f
           %! EXPLICIT_CLEF
         \set Staff.forceClef = ##t
-          %! EXPLICIT_CLEF
-        \clef "bass"
         fqs!8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -16214,6 +16214,8 @@ number.2.Cello.Music = {
     \<
 
     % [Cello.Music measure 65]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_128
       %! SHIFTED_CLEF
     \once \override Staff.Clef.X-extent = ##f
@@ -16226,8 +16228,6 @@ number.2.Cello.Music = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! EXPLICIT_CLEF
-    \clef "treble"
     r4.
       %! SPANNER_STOP
     \!
@@ -16277,6 +16277,8 @@ number.2.Cello.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! EXPLICIT_CLEF
+            \clef "bass"
               %! MEASURE_129
               %! SHIFTED_CLEF
             \once \override Staff.Clef.X-extent = ##f
@@ -16294,8 +16296,6 @@ number.2.Cello.Music = {
             \startStaff
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
-              %! EXPLICIT_CLEF
-            \clef "bass"
               %! HIDDEN
               %! NOTE
             d1 * 1/4
