@@ -1943,6 +1943,8 @@ number.8.Rests = {
 number.8.Violin.1.Music = {
 
     % [Violin.1.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1969,8 +1971,6 @@ number.8.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "treble"
     gf'!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -3816,6 +3816,8 @@ number.8.Violin.1.Staff = <<
 number.8.Violin.2.Music = {
 
     % [Violin.2.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -3839,8 +3841,6 @@ number.8.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "treble"
     f'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -5667,6 +5667,8 @@ number.8.Violin.2.MusicStaff = {
 number.8.Viola.Music = {
 
     % [Viola.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "alto"
       %! MEASURE_472
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -5696,8 +5698,6 @@ number.8.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "alto"
     af!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -7320,6 +7320,8 @@ number.8.Viola.Staff = {
 number.8.Cello.Music = {
 
     % [Cello.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_472
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -7350,8 +7352,6 @@ number.8.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "bass"
     af,!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC

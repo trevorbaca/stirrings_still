@@ -2218,6 +2218,8 @@ number.1.Rests = {
 number.1.Violin.1.Music = {
 
     % [Violin.1.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -2250,8 +2252,6 @@ number.1.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "treble"
     <e' c''>8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -5383,6 +5383,8 @@ number.1.Violin.1.Staff = <<
 number.1.Violin.2.Music = {
 
     % [Violin.2.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -5412,8 +5414,6 @@ number.1.Violin.2.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "treble"
     <ef'! b'>8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -8369,6 +8369,8 @@ number.1.Violin.2.MusicStaff = {
 number.1.Viola.Music = {
 
     % [Viola.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "alto"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -8398,8 +8400,6 @@ number.1.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "alto"
     <d' gqs'!>8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -11544,6 +11544,8 @@ number.1.Cello.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! EXPLICIT_CLEF
+            \clef "bass"
               %! MEASURE_1
               %! SHIFTED_CLEF
         %%% \once \override Staff.Clef.X-extent = ##f
@@ -11576,8 +11578,6 @@ number.1.Cello.Music = {
             \startStaff
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
-              %! EXPLICIT_CLEF
-            \clef "bass"
               %! HIDDEN
               %! NOTE
             d1 * 8/16
@@ -12117,6 +12117,8 @@ number.1.Cello.Music = {
     >>
 
     % [Cello.Music measure 42]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_42
       %! SHIFTED_CLEF
     \once \override Staff.Clef.X-extent = ##f
@@ -12130,8 +12132,6 @@ number.1.Cello.Music = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! EXPLICIT_CLEF
-    \clef "treble"
     a''8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -12408,6 +12408,8 @@ number.1.Cello.Music = {
     {
 
         % [Cello.Music measure 46]
+          %! EXPLICIT_CLEF
+        \clef "bass"
           %! MEASURE_46
           %! SHIFTED_CLEF
         \once \override Staff.Clef.X-extent = ##f
@@ -12420,8 +12422,6 @@ number.1.Cello.Music = {
         %@% \override Staff.Clef.color = ##f
           %! EXPLICIT_CLEF
         \set Staff.forceClef = ##t
-          %! EXPLICIT_CLEF
-        \clef "bass"
         g4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -12501,6 +12501,8 @@ number.1.Cello.Music = {
     }
 
     % [Cello.Music measure 48]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_48
       %! SHIFTED_CLEF
     \once \override Staff.Clef.X-extent = ##f
@@ -12514,8 +12516,6 @@ number.1.Cello.Music = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! EXPLICIT_CLEF
-    \clef "treble"
     a''8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -12637,6 +12637,8 @@ number.1.Cello.Music = {
     {
 
         % [Cello.Music measure 49]
+          %! EXPLICIT_CLEF
+        \clef "bass"
           %! MEASURE_49
           %! SHIFTED_CLEF
         \once \override Staff.Clef.X-extent = ##f
@@ -12649,8 +12651,6 @@ number.1.Cello.Music = {
         %@% \override Staff.Clef.color = ##f
           %! EXPLICIT_CLEF
         \set Staff.forceClef = ##t
-          %! EXPLICIT_CLEF
-        \clef "bass"
         g4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC

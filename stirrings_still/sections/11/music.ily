@@ -1788,6 +1788,8 @@ number.11.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 1]
+          %! REAPPLIED_CLEF
+        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1814,8 +1816,6 @@ number.11.Violin.1.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! REAPPLIED_STAFF_LINES
         \startStaff
-          %! REAPPLIED_CLEF
-        \clef "treble"
         e''8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -4006,6 +4006,8 @@ number.11.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 1]
+          %! REAPPLIED_CLEF
+        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -4029,8 +4031,6 @@ number.11.Violin.2.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! REAPPLIED_STAFF_LINES
         \startStaff
-          %! REAPPLIED_CLEF
-        \clef "treble"
         cs''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -6309,6 +6309,8 @@ number.11.Violin.2.MusicStaff = {
 number.11.Viola.Music = {
 
     % [Viola.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "alto"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -6332,8 +6334,6 @@ number.11.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "alto"
     d'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -8547,6 +8547,8 @@ number.11.Cello.Music = {
     {
 
         % [Cello.Music measure 1]
+          %! REAPPLIED_CLEF
+        \clef "bass"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -8573,8 +8575,6 @@ number.11.Cello.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! REAPPLIED_STAFF_LINES
         \startStaff
-          %! REAPPLIED_CLEF
-        \clef "bass"
         d'4.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -9324,6 +9324,8 @@ number.11.Cello.Music = {
     \breathe
 
     % [Cello.Music measure 21]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_576
       %! SHIFTED_CLEF
     \once \override Staff.Clef.X-extent = ##f
@@ -9337,8 +9339,6 @@ number.11.Cello.Music = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! EXPLICIT_CLEF
-    \clef "treble"
     a''8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -9663,6 +9663,8 @@ number.11.Cello.Music = {
     \revert NoteHead.style
 
     % [Cello.Music measure 24]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_579
       %! SHIFTED_CLEF
     \once \override Staff.Clef.X-extent = ##f
@@ -9675,8 +9677,6 @@ number.11.Cello.Music = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! EXPLICIT_CLEF
-    \clef "bass"
     ef,!2.
     :32
     - \accent
