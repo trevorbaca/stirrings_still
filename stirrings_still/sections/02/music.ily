@@ -5,14 +5,14 @@ number.2.Skips = {
     %@% \baca-thick-red-bar-line
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 6/8
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
       %! RED_START_BAR
     %@% \tweak color #red
       %! RED_START_BAR
     %@% \mark \markup \with-dimensions-from \null "02"
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 6/8
     s1 * 6/8
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
@@ -389,10 +389,10 @@ number.2.Skips = {
     % [Skips measure 13]
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 5/12
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
     s1 * 5/12
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -460,10 +460,10 @@ number.2.Skips = {
     % [Skips measure 15]
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 5/12
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
     s1 * 5/12
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -531,10 +531,10 @@ number.2.Skips = {
     % [Skips measure 17]
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 5/12
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
     s1 * 5/12
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT

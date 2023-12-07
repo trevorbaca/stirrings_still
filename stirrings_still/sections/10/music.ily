@@ -5,14 +5,14 @@ number.10.Skips = {
     %@% \baca-thick-red-bar-line
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 8/16
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
       %! RED_START_BAR
     %@% \tweak color #red
       %! RED_START_BAR
     %@% \mark \markup \with-dimensions-from \null "10"
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 8/16
     s1 * 8/16
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
@@ -115,10 +115,10 @@ number.10.Skips = {
     % [Skips measure 4]
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 5/12
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
     s1 * 5/12
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
