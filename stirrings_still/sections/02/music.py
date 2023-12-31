@@ -785,7 +785,7 @@ def v1(cache):
     with baca.scope(m.get(50, 51)) as o:
         baca.flat_glissando(baca.select.rleak(o), "D6")
     with baca.scope(m.get(52, 55)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("D6", 8), ("Ab5", 8), ("B5", None)],
             "F5",
@@ -1172,7 +1172,7 @@ def v2(cache, time_signatures):
             clt=True,
             staff_padding=4,
         ),
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [
                 ("Bb4", 6),
@@ -1272,7 +1272,7 @@ def v2(cache, time_signatures):
             )
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(52, 55)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("D4", 8), ("Fb4", 8), ("Eb4", None)],
             "F#4",
@@ -1349,7 +1349,7 @@ def va(cache):
     m = cache["va"]
     with baca.scope(m.get(23, 25)) as o:
         baca.clef(o.leaf(0), "treble")
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("C5", 6), ("Eb5", 6), ("D5", None)],
             "Ftqs5",
@@ -1453,7 +1453,7 @@ def va(cache):
             )
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(52, 55)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("D3", 8), ("Fb3", 8), ("Eb3", None)],
             "F3",
@@ -1563,7 +1563,7 @@ def vc(cache):
         )
         library.bcps(o, 0, clt=True, staff_padding=4)
         baca.tie(o.lleaf(0))
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("Bb4", 6), ("D5", 6), ("C5", 6), ("Eb5", 6), ("D5", None)],
             "Fqs5",
@@ -1652,7 +1652,7 @@ def vc(cache):
         )
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(52, 55)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("D2", 8), ("Fb2", 8), ("Eb2", None)],
             "F2",

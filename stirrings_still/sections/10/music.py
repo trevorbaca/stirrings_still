@@ -135,7 +135,7 @@ def v1(cache):
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(12, 17)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("A4", 4), ("C5", 2), ("B4", 8), ("Db5", 3), ("C5", None)],
             "E5",
@@ -263,7 +263,7 @@ def v2(cache):
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(12, 17)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("G#4", 7), ("B4", 7), ("A4", 7), ("C5", 8), ("B4", None)],
             "C#5",
@@ -306,7 +306,7 @@ def va(cache):
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(12, 17)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("F4", 5), ("E4", 5), ("Gb4", 6), ("F4", 7), ("Eb4", None)],
             "D4",
