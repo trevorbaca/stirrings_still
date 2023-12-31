@@ -449,7 +449,7 @@ def v1(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "Bb5")
     with baca.scope(m.get(10, 13)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("Ab4", 3), ("C5", 2), ("B4", 6), ("Db5", 3), ("C5", None)],
             "Eb5",
@@ -484,7 +484,7 @@ def v1(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(28, 30)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("Ab4", 4), ("C5", 3), ("B4", 3), ("Db5", 3), ("C5", None)],
             "E5",
@@ -519,7 +519,7 @@ def v1(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(43, 45)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("Ab4", 3), ("Db5", 3), ("B4", 4), ("Eb5", 3), ("Cb5", None)],
             "F5",
@@ -554,7 +554,7 @@ def v1(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(55, 56)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("Ab4", 2), ("Eb5", 2), ("Db5", 3), ("E5", 2), ("D5", None)],
             "Gb5",
@@ -589,7 +589,7 @@ def v1(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m[64]) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("Ab4", 3), ("E5", 2), ("D5", None)],
             "G5",
@@ -882,7 +882,7 @@ def va(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "B3")
     with baca.scope(m.get(10, 13)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("Ab3", 6), ("F3", 6), ("Gb3", None)],
             "E3",
@@ -917,7 +917,7 @@ def va(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(28, 30)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("Ab3", 5), ("F3", 7), ("Gb3", None)],
             "Eb3",
@@ -952,7 +952,7 @@ def va(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(43, 45)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("Ab3", 4), ("D3", 7), ("Eb3", None)],
             "C3",
@@ -987,7 +987,7 @@ def va(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(55, 56)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("Ab3", 3), ("Db3", 5), ("F3", None)],
             "B2",
@@ -1102,7 +1102,7 @@ def vc(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "C3")
     with baca.scope(m.get(10, 13)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("Ab3", 3), ("F3", 2), ("G3", 6), ("Eb3", 3), ("Gb3", None)],
             "D3",
@@ -1140,7 +1140,7 @@ def vc(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(28, 30)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("Ab3", 4), ("F3", 3), ("G3", 4), ("Eb3", 5), ("Gb3", None)],
             "Db3",
@@ -1179,7 +1179,7 @@ def vc(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(43, 45)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("Ab3", 4), ("E3", 2), ("Gb3", 3), ("D3", 4), ("Eb3", None)],
             "B2",
@@ -1217,7 +1217,7 @@ def vc(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(55, 56)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("Ab3", 3), ("F3", 2), ("Gb3", 3), ("D3", 3), ("E3", None)],
             "Bb2",
@@ -1259,7 +1259,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         )
     with baca.scope(m[64]) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("Ab3", 3), ("D3", 3), ("Eb3", None)],
             "A2",

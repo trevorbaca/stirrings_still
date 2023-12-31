@@ -448,7 +448,7 @@ def v1(cache):
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
         )
         library.bcps(o, 0, clt=True, staff_padding=4)
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("E5", 3), ("D5", None)],
             "F5",
@@ -476,7 +476,7 @@ def v1(cache):
                 abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
             )
     with baca.scope(m.get(5, 16)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [
                 ("F5", 5),
@@ -679,7 +679,7 @@ def v2(cache):
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
         )
         library.bcps(o, -1, clt=True, staff_padding=4)
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("C#5", 4), ("E5", 2), ("D5", None)],
             "Eb5",
@@ -707,7 +707,7 @@ def v2(cache):
                 abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
             )
     with baca.scope(m.get(5, 16)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [
                 ("Eb5", 4),
@@ -860,7 +860,7 @@ def va(cache):
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
         )
         library.bcps(o, -2, clt=True, staff_padding=4)
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("D4", 6), ("A3", None)],
             "B3",
@@ -900,7 +900,7 @@ def va(cache):
             library.bcps(o, -3, clt=True, staff_padding=4)
     with baca.scope(m.get(12, 17)) as o:
         baca.hairpin(o.rleaves(), "p < mp")
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("B3", 2), ("A3", 4), ("C4", 4), ("Ab3", 7), ("B3", None)],
             "G#3",
@@ -1047,7 +1047,7 @@ def vc(cache):
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
         )
         library.bcps(o, -3, clt=True, staff_padding=4)
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [("D4", 4), ("Ab3", 2), ("B3", None)],
             "F3",
@@ -1075,7 +1075,7 @@ def vc(cache):
                 abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
             )
     with baca.scope(m.get(5, 14)) as o:
-        library.multistage_leaf_glissando(
+        baca.multistage_leaf_glissando(
             o,
             [
                 ("F3", 4),
