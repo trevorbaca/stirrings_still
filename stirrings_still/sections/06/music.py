@@ -106,7 +106,7 @@ def v1(cache):
         m = cache["v1"]
     with baca.scope(m.get(1, 8)) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "pp < f > pp < f > pp < f >o niente",
             pieces=baca.select.mgroups(o.rleaves(), [1, 2, 1, 2, 1, 2]),
         )
@@ -130,7 +130,7 @@ def v2(cache):
         m = cache["v2"]
     with baca.scope(m.get(1, 8)) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "pp < f > pp < f > pp < f >o niente",
             pieces=baca.select.mgroups(o.rleaves(), [2, 1, 2, 1, 1, 2]),
         )
@@ -174,7 +174,7 @@ def vc(cache):
             left_broken=True,
         )
         baca.hairpin(
-            o.rleaves(),
+            (),
             "(p) < ff -- (ff) >o niente",
             pieces=baca.select.mgroups(o.rleaves(), [2, 4, 2 + 1]),
         )

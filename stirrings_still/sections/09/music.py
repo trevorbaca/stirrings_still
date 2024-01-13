@@ -212,7 +212,7 @@ def vc(cache):
     m = cache["vc"]
     with baca.scope(m.leaves()) as o:
         baca.hairpin(
-            o.leaves(),
+            (),
             'p < "f" -- "f" >o niente',
             # TODO: extend hairpin to phantom measure
             # following two lines should remain
