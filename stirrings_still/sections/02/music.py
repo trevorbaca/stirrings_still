@@ -700,7 +700,7 @@ def v1(cache):
     with baca.scope(m.get(5, 7)) as o:
         leaves = baca.select.tleaves(o, rleak=True)
         baca.hairpin(
-            leaves,
+            (),
             "mf -- ! >o niente",
             pieces=baca.select.mgroups(leaves, [1, 2]),
         )
@@ -717,7 +717,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.hairpin(
-            o.rleaves(),
+            (),
             "p -- (p) >o niente",
             pieces=baca.select.mgroups(o.rleaves(), [8, 5 + 1]),
         )
@@ -794,7 +794,7 @@ def v1(cache):
     with baca.scope(m.get(50, 60)) as o:
         with baca.scope(o.rleaves()) as u:
             baca.hairpin(
-                u,
+                (),
                 "fff -- ff > ppp --",
                 bookend=False,
                 pieces=baca.select.mgroups(u, [2, 4, 5 + 1]),
@@ -829,7 +829,7 @@ def v1_v2_va(cache):
         with baca.scope(m[26]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
-                o,
+                (),
                 "p <| mp p < mp",
                 pieces=baca.select.clparts(o, [1]),
             )
@@ -904,7 +904,7 @@ def tutti(cache):
             baca.override.tuplet_bracket_down(o.leaves())
         with baca.scope(m.get(29, 30)) as o:
             baca.hairpin(
-                o.rleaves(),
+                (),
                 "ppp < mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
@@ -927,7 +927,7 @@ def tutti(cache):
                 )
         with baca.scope(m.get(32, 33)) as o:
             baca.hairpin(
-                o.rleaves(),
+                (),
                 "o< mp -- !",
                 pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
             )
@@ -954,7 +954,7 @@ def tutti(cache):
             library.urtext_spanner(o.rleaves(), "urtext (rasp) -|", 10.5)
         with baca.scope(m.get(34, 35)) as o:
             baca.hairpin(
-                o.rleaves(),
+                (),
                 "pp < mf -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
@@ -975,7 +975,7 @@ def tutti(cache):
                 )
         with baca.scope(m.get(37, 38)) as o:
             baca.hairpin(
-                o.rleaves(),
+                (),
                 "p < f -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
@@ -998,7 +998,7 @@ def tutti(cache):
                 )
         with baca.scope(m.get(40, 41)) as o:
             baca.hairpin(
-                o.rleaves(),
+                (),
                 "mp < ff -- !",
                 pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
             )
@@ -1035,7 +1035,7 @@ def tutti(cache):
             )
         with baca.scope(m[44]) as o:
             baca.hairpin(
-                o.rleaves(),
+                (),
                 "mf < ff -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 pieces=abjad.select.partition_by_counts(
@@ -1135,7 +1135,7 @@ def v2(cache, time_signatures):
     with baca.scope(m.get(5, 7)) as o:
         leaves = baca.select.tleaves(o, rleak=True)
         baca.hairpin(
-            leaves,
+            (),
             "mf -- ! >o niente",
             pieces=baca.select.mgroups(leaves, [1, 2]),
         )
@@ -1155,7 +1155,7 @@ def v2(cache, time_signatures):
             )
     with baca.scope(m.get(12, 27)) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "p -- (p) < mf -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             pieces=baca.select.mgroups(o.rleaves(), [6, 3, 5 + 1]),
@@ -1258,7 +1258,7 @@ def v2(cache, time_signatures):
     with baca.scope(m.get(50, 57)) as o:
         with baca.scope(o.rleaves()) as u:
             baca.hairpin(
-                u,
+                (),
                 "fff -- ff > ppp --",
                 bookend=False,
                 pieces=baca.select.mgroups(u, [2, 4, 2 + 1]),
@@ -1315,7 +1315,7 @@ def va(cache):
         )
     with baca.scope(m.get(5, 7)) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "mf -- niente o< p -- !",
             pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
         )
@@ -1339,7 +1339,7 @@ def va(cache):
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.flat_glissando(o, "Ab3")
         baca.hairpin(
-            o.rleaves(),
+            (),
             "p-ancora -- (p) >o niente",
             pieces=baca.select.mgroups(o.rleaves(), [8, 2 + 1]),
         )
@@ -1363,7 +1363,7 @@ def va(cache):
             library.bcps(o, 0, clt=True, staff_padding=4)
     with baca.scope(m.get(23, 25)) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "o< mf -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             pieces=baca.select.mgroups(o.rleaves(), [2, 1 + 1]),
@@ -1439,7 +1439,7 @@ def va(cache):
     with baca.scope(m.get(50, 59)) as o:
         with baca.scope(baca.select.rleak(baca.select.ltleaves(o))) as u:
             baca.hairpin(
-                u,
+                (),
                 "fff -- ff > ppp --",
                 bookend=False,
                 pieces=baca.select.mgroups(u, [2, 4, 4 + 1]),
@@ -1503,7 +1503,7 @@ def vc(cache):
         baca.breathe(o.pleaf(-1))
         baca.flat_glissando(o, "E2", hide_middle_stems=True)
         baca.hairpin(
-            o.rleaves(),
+            (),
             "o< f -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             pieces=baca.select.mgroups(o.rleaves(), [4, 2 + 1]),
@@ -1552,7 +1552,7 @@ def vc(cache):
         baca.alternate_bow_strokes(o.pheads())
     with baca.scope(m.get(20, 25)) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "(p) < mf -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             pieces=baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
@@ -1636,7 +1636,7 @@ def vc(cache):
         baca.flat_glissando(baca.select.rleak(o), "D2")
     with baca.scope(m.get(50, 60)) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "fff -- ff > ppp --",
             bookend=False,
             pieces=baca.select.mgroups(o.rleaves(), [2, 4, 5 + 1]),

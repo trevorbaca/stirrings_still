@@ -218,7 +218,7 @@ def v1(cache):
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            o,
+            (),
             "f < ff >",
             pieces=abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
@@ -248,7 +248,7 @@ def v1(cache):
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            o,
+            (),
             "ff < fff >",
             pieces=abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
@@ -266,7 +266,7 @@ def v1(cache):
         baca.beam(o.tleaves())
         baca.flat_glissando(o, "G4", stop_pitch="F4")
         baca.hairpin(
-            o.rleaves(),
+            (),
             "p -- ! >o niente",
             pieces=baca.select.cmgroups(o.rleaves()),
         )
@@ -358,7 +358,7 @@ def v2(cache):
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            o,
+            (),
             "f < ff >",
             pieces=abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
@@ -388,7 +388,7 @@ def v2(cache):
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            o,
+            (),
             "ff < fff >",
             pieces=abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
@@ -406,7 +406,7 @@ def v2(cache):
         baca.beam(o.tleaves())
         baca.flat_glissando(o, "F4", stop_pitch="E4")
         baca.hairpin(
-            o.rleaves(),
+            (),
             "p -- ! >o niente",
             pieces=baca.select.cmgroups(o.rleaves()),
         )
@@ -461,7 +461,7 @@ def va(cache):
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            o,
+            (),
             "f < ff >",
             pieces=abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
@@ -491,7 +491,7 @@ def va(cache):
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            o,
+            (),
             "ff < fff >",
             pieces=abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
@@ -509,7 +509,7 @@ def va(cache):
         baca.beam(o.tleaves())
         baca.flat_glissando(o, "Ab3", stop_pitch="Gb3")
         baca.hairpin(
-            o.rleaves(),
+            (),
             "p -- ! >o niente",
             pieces=baca.select.cmgroups(o.rleaves()),
         )
@@ -550,7 +550,7 @@ def vc(cache):
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            o,
+            (),
             "f < ff >",
             pieces=abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
@@ -593,7 +593,7 @@ def vc(cache):
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            o,
+            (),
             "ff < fff >",
             pieces=abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
@@ -610,7 +610,7 @@ def vc(cache):
     with baca.scope(m.get(37, 38)) as o:
         baca.flat_glissando(o, "B1")
         baca.hairpin(
-            o.rleaves(),
+            (),
             "p -- ! >o niente",
             pieces=baca.select.cmgroups(o.rleaves()),
         )

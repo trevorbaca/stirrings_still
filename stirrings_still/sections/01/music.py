@@ -618,7 +618,7 @@ def v1_v2_va(cache):
         with baca.scope(m[1]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
-                o,
+                (),
                 "p <| f p < mp",
                 pieces=baca.select.clparts(o, [1]),
             )
@@ -643,7 +643,7 @@ def v1_v2_va(cache):
         with baca.scope(m[3]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
-                o,
+                (),
                 "p <| f p < mf",
                 pieces=baca.select.clparts(o, [1]),
             )
@@ -656,14 +656,14 @@ def v1_v2_va(cache):
         with baca.scope(m.get(5, 6)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
-                o,
+                (),
                 "p <| f p < mf-poco-scratch",
                 pieces=baca.select.clparts(o, [1]),
             )
         with baca.scope(m.get(8, 9)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
-                o,
+                (),
                 "p <| f p < f-poco-scratch",
                 pieces=baca.select.clparts(o, [1]),
             )
@@ -672,7 +672,7 @@ def v1_v2_va(cache):
             baca.hairpin(o.leaves()[:2], "p <| f")
             leaves = baca.select.rleak(o.leaves()[2:])
             baca.hairpin(
-                leaves,
+                (),
                 "p < f-scratch -- ! >o niente",
                 pieces=baca.select.omgroups(leaves, [1, 2]),
             )
@@ -686,7 +686,7 @@ def v1_v2_va(cache):
         with baca.scope(m[18]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
-                o,
+                (),
                 "pp <| p pp <| p",
                 pieces=baca.select.clparts(o, [1]),
             )
@@ -704,14 +704,14 @@ def v1_v2_va(cache):
         with baca.scope(m[20]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
-                o,
+                (),
                 "pp <| p pp <| mp",
                 pieces=baca.select.clparts(o, [1]),
             )
         with baca.scope(m[22]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
-                o,
+                (),
                 "pp <| p pp <| mf",
                 pieces=baca.select.clparts(o, [1]),
             )
@@ -729,7 +729,7 @@ def v1_v2_va(cache):
         with baca.scope(m[25]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
-                o,
+                (),
                 "pp <| p pp <| f",
                 pieces=baca.select.clparts(o, [1]),
             )
@@ -749,7 +749,7 @@ def v1_v2_va(cache):
         with baca.scope(m[29]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
-                o,
+                (),
                 "pp <| p pp <| ff",
                 pieces=baca.select.clparts(o, [1]),
             )
@@ -773,7 +773,7 @@ def v1_v2_va(cache):
         with baca.scope(m[60]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
-                o,
+                (),
                 "p <| f p < mp",
                 pieces=baca.select.clparts(o, [1]),
             )
@@ -793,7 +793,7 @@ def tutti(cache):
             baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(55, 56)) as o:
             baca.hairpin(
-                o.rleaves(),
+                (),
                 "o< mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 pieces=baca.select.mgroups(o.rleaves(), [1, 2]),
@@ -1010,7 +1010,7 @@ def vc(cache):
         library.urtext_spanner(o.rleaves(), "urtext (field) -|", 8)
     with baca.scope(m[27]) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "niente o< f >o !",
             pieces=baca.select.lparts(o.rleaves(), [1, 1 + 1]),
         )
@@ -1038,7 +1038,7 @@ def vc(cache):
         baca.clef(o.leaf(0), "treble")
         baca.flat_glissando(o, "A5")
         baca.hairpin(
-            o.rleaves(),
+            (),
             'niente o< "f" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
             pieces=baca.select.mgroups(o.rleaves(), [1, 2]),

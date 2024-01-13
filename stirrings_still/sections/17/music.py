@@ -458,7 +458,7 @@ def v1(cache):
     with baca.scope(m.get(10, 24)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             'o< fff -- "fff" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [4, 4, 7 + 1]),
         )
@@ -493,7 +493,7 @@ def v1(cache):
     with baca.scope(m.get(28, 40)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             'o< ff -- "ff" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [3, 4, 6 + 1]),
         )
@@ -528,7 +528,7 @@ def v1(cache):
     with baca.scope(m.get(43, 52)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             'o< f -- "f" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [3, 2, 5 + 1]),
         )
@@ -563,7 +563,7 @@ def v1(cache):
     with baca.scope(m.get(55, 62)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             'o< mf -- "mf" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [2, 2, 4 + 1]),
         )
@@ -598,7 +598,7 @@ def v1(cache):
     with baca.scope(m.get(64, 68)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             "o< mp -- mp >o !",
             pieces=baca.select.mgroups(o.rleaves(), [1, 1, 3 + 1]),
         )
@@ -626,7 +626,7 @@ def v1(cache):
     with baca.scope(m.get(70, 71)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             "o< p >o !",
             pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
         )
@@ -696,7 +696,7 @@ def v2(cache):
     with baca.scope(m.get(14, 21)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             'fff -- "fff" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [4, 4 + 1]),
         )
@@ -723,7 +723,7 @@ def v2(cache):
     with baca.scope(m.get(31, 37)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             'ff -- "ff" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [4, 3 + 1]),
         ),
@@ -750,7 +750,7 @@ def v2(cache):
     with baca.scope(m.get(46, 50)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             'f -- "f" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [2, 3 + 1]),
         )
@@ -777,7 +777,7 @@ def v2(cache):
     with baca.scope(m.get(57, 60)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             'mf -- "mf" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [2, 2 + 1]),
         )
@@ -808,7 +808,7 @@ def v2(cache):
     with baca.scope(m.get(65, 67)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             "mp -- mp >o !",
             pieces=baca.select.mgroups(o.rleaves(), [1, 2 + 1]),
         )
@@ -891,7 +891,7 @@ def va(cache):
     with baca.scope(m.get(10, 21)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             'o< fff -- "fff" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [4, 4, 4 + 1]),
         )
@@ -926,7 +926,7 @@ def va(cache):
     with baca.scope(m.get(28, 37)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             'o< ff -- "ff" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [3, 4, 3 + 1]),
         )
@@ -961,7 +961,7 @@ def va(cache):
     with baca.scope(m.get(43, 50)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o,
+            (),
             'o< f -- "f" >o !',
             pieces=baca.select.mgroups(o, [3, 2, 3 + 1]),
         )
@@ -996,7 +996,7 @@ def va(cache):
     with baca.scope(m.get(55, 60)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             'o< mf -- "mf" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [2, 2, 2 + 1]),
         )
@@ -1030,7 +1030,7 @@ def va(cache):
     with baca.scope(m.get(64, 67)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             "o< mp -- mp >o !",
             pieces=baca.select.mgroups(o.rleaves(), [1, 1, 2 + 1]),
         )
@@ -1058,7 +1058,7 @@ def va(cache):
     with baca.scope(m.get(70, 71)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             "o< p >o !",
             pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
         )
@@ -1111,7 +1111,7 @@ def vc(cache):
     with baca.scope(m.get(10, 21)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             'o< fff -- "fff" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [4, 4, 4 + 1]),
         )
@@ -1149,7 +1149,7 @@ def vc(cache):
     with baca.scope(m.get(28, 37)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             'o< ff -- "ff" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [3, 4, 3 + 1]),
         )
@@ -1188,7 +1188,7 @@ def vc(cache):
     with baca.scope(m.get(43, 50)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             'o< f -- "f" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [3, 2, 3 + 1]),
         )
@@ -1226,7 +1226,7 @@ def vc(cache):
     with baca.scope(m.get(55, 60)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             'o< mf -- "mf" >o !',
             pieces=baca.select.mgroups(o.rleaves(), [2, 2, 2 + 1]),
         ),
@@ -1268,7 +1268,7 @@ def vc(cache):
     with baca.scope(m.get(64, 67)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             "o< mp -- mp >o !",
             pieces=baca.select.mgroups(o.rleaves(), [1, 1, 2 + 1]),
         )
@@ -1299,7 +1299,7 @@ def vc(cache):
     with baca.scope(m.get(70, 71)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
-            o.rleaves(),
+            (),
             "o< p >o !",
             pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
         )

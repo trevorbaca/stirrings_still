@@ -776,42 +776,42 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak staff-padding 8"),
             )
             baca.hairpin(
-                o,
+                (),
                 "mf mf mp p pp pp",
                 bookend=False,
                 pieces=baca.select.runs(o),
             )
         with baca.scope(m.get(36, 39)) as o:
             baca.hairpin(
-                o,
+                (),
                 "pp pp p p mp mp",
                 bookend=False,
                 pieces=library.grouped_pheads(o),
             )
         with baca.scope(m.get(40, 43)) as o:
             baca.hairpin(
-                o,
+                (),
                 "mf mp mp p p pp pp",
                 bookend=False,
                 pieces=library.grouped_pheads(o),
             )
         with baca.scope(m.get(44, 47)) as o:
             baca.hairpin(
-                o,
+                (),
                 "pp pp p mp mf",
                 bookend=False,
                 pieces=library.grouped_pheads(o),
             )
         with baca.scope(m.get(48, 51)) as o:
             baca.hairpin(
-                o,
+                (),
                 "f mf mp mp p p pp",
                 bookend=False,
                 pieces=library.grouped_pheads(o),
             )
         with baca.scope(m.get(52, 55)) as o:
             baca.hairpin(
-                o,
+                (),
                 # "pp p mp mf f ff",
                 "pp p mp mf f",
                 bookend=False,
@@ -889,7 +889,7 @@ def vc(cache):
         baca.pitch(o, "B1")
         baca.clef(o.leaf(0), "bass")
         baca.hairpin(
-            o.rleaves(),
+            (),
             "o< f >o niente",
             pieces=library.rleaves_partition_by_counts(o.rleaves(), [1, 1, 1]),
         )

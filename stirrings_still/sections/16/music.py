@@ -238,13 +238,13 @@ def v1(cache):
             )
     with baca.scope(m.get(6, 7)) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "ppppp < p > ppp",
             pieces=baca.select.cmgroups(o.rleaves()),
         )
     with baca.scope(m[10]) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "ppp < p > ppppp",
             pieces=baca.select.lparts(o.rleaves(), [2, 4, 1]),
         )
@@ -260,13 +260,13 @@ def v1(cache):
             )
     with baca.scope(m.get(16, 17)) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "ppppp < p > ppp",
             pieces=baca.select.cmgroups(o.rleaves()),
         )
     with baca.scope(m[20]) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "ppp < p > ppppp",
             pieces=baca.select.lparts(o.rleaves(), [2, 4, 1]),
         )
@@ -313,37 +313,37 @@ def v2(cache):
             )
     with baca.scope(m[5]) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "ppppp < p > ppp",
             pieces=baca.select.lparts(o.rleaves(), [1, 3, 1]),
         )
     with baca.scope(m[7]) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "ppp < p > ppp",
             pieces=baca.select.lparts(o.rleaves(), [5, 1, 1]),
         )
     with baca.scope(m[9]) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "ppp < p > ppppp",
             pieces=baca.select.lparts(o.rleaves(), [1, 3, 1]),
         )
     with baca.scope(m[15]) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "ppppp < p > pp",
             pieces=baca.select.lparts(o.rleaves(), [1, 4, 1]),
         )
     with baca.scope(m[17]) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "ppp < p > pp",
             pieces=baca.select.lparts(o.rleaves(), [7, 1, 1]),
         )
     with baca.scope(m[19]) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "ppp < p > ppppp",
             pieces=baca.select.lparts(o.rleaves(), [1, 2, 1]),
         )
@@ -364,7 +364,7 @@ def va(cache):
             )
     with baca.scope(m.get(8, 10)) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "ppppp < p > ppppp",
             pieces=baca.select.cmgroups(o.rleaves(), [1, 2]),
         )
@@ -380,7 +380,7 @@ def va(cache):
             )
     with baca.scope(m.get(18, 20)) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "ppppp < p > ppppp",
             pieces=baca.select.cmgroups(o.rleaves(), [1, 2]),
         )
@@ -403,7 +403,7 @@ def vc(cache):
         baca.pitch(o, "A2", allow_repitch=True)
     with baca.scope(m.get(6, 8)) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "ppppp < p > ppppp",
             pieces=baca.select.cmgroups(o.rleaves(), [1, 2]),
         )
@@ -419,7 +419,7 @@ def vc(cache):
             )
     with baca.scope(m.get(16, 18)) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "ppppp < p > ppppp",
             pieces=baca.select.cmgroups(o.rleaves(), [1, 2]),
         )
