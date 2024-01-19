@@ -463,7 +463,7 @@ def vc(cache):
             pieces=baca.select.mgroups(o.rleaves(), [2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]),
         )
     with baca.scope(m.get(29)) as o:
-        baca.override.hairpin_to_barline(o.leaf(0))
+        baca.override.hairpin_to_bar_line(o.leaf(0), True)
     with baca.scope(m.get(1, 28)) as o:
         baca.flat_glissando(
             o.rleaves(),
