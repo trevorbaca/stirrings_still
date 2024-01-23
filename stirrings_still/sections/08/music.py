@@ -432,7 +432,7 @@ def v2(cache):
             lilypond_id=1,
         )
         baca.text_spanner(
-            o.rleaves(),
+            (),
             "rasp -> flaut. =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=False,
@@ -450,7 +450,7 @@ def v2(cache):
         )
     with baca.scope(m.get(9, 16)) as o:
         baca.text_spanner(
-            o.rleaves(),
+            (),
             "flaut. (2°) -> ord. ->"
             r" \baca-circle-tight-markup ->"
             r" \baca-circle-mod-markup ->"
@@ -609,7 +609,7 @@ def vc(cache):
         baca.hairpin(o.rleaves(), "(mp) < ff")
     with baca.scope(m.get(9, 27)) as o:
         baca.text_spanner(
-            o.rleaves(),
+            (),
             "no overpressure -> molto overpressure =|" " (molto) -> no overpressure.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             pieces=baca.select.mgroups(o.rleaves(), [8, 6, 5 + 1]),
@@ -731,7 +731,7 @@ def v1_v2_va(cache):
             )
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.text_spanner(
-                leaves,
+                (),
                 r"\baca-circle-very-wide-markup -> \baca-circle-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
@@ -744,7 +744,7 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             baca.text_spanner(
-                o.rleaves(),
+                (),
                 r"\baca-circle-wide-markup -> \baca-circle-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
@@ -757,7 +757,7 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             baca.text_spanner(
-                o.rleaves(),
+                (),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
@@ -791,7 +791,7 @@ def v1_v2_va(cache):
                 )
                 baca.flat_glissando(o, "Bqf3")
             baca.text_spanner(
-                o.rleaves(),
+                (),
                 r"\baca-circle-very-tight-markup -> \baca-circle-wide-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
@@ -884,7 +884,7 @@ def v1_va(cache):
         m = cache[name]
         with baca.scope(m.get(7, 16)) as o:
             baca.text_spanner(
-                o.rleaves(),
+                (),
                 r"\baca-circle-very-tight-markup ->"
                 r" \baca-circle-tight-markup ->"
                 r" \baca-circle-mod-markup ->"
@@ -994,7 +994,7 @@ def tutti(cache):
                     lilypond_id=1,
                 )
                 baca.text_spanner(
-                    o.rleaves(),
+                    (),
                     "rasp -> flaut. =|",
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
                     bookend=False,
@@ -1029,7 +1029,7 @@ def tutti(cache):
                 lilypond_id=1,
             )
             baca.text_spanner(
-                o.rleaves(),
+                (),
                 "rasp -> poco rasp =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,

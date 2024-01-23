@@ -226,7 +226,7 @@ def v1(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            leaves,
+            (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             pieces=baca.select.plts(leaves)[:-1],
@@ -256,7 +256,7 @@ def v1(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            leaves,
+            (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             pieces=baca.select.plts(leaves)[:-1],
@@ -366,7 +366,7 @@ def v2(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            leaves,
+            (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             pieces=baca.select.plts(leaves)[:-1],
@@ -396,7 +396,7 @@ def v2(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            leaves,
+            (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             pieces=baca.select.plts(leaves)[:-1],
@@ -469,7 +469,7 @@ def va(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            leaves,
+            (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             pieces=baca.select.plts(leaves)[:-1],
@@ -499,7 +499,7 @@ def va(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            leaves,
+            (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             pieces=baca.select.plts(leaves)[:-1],
@@ -558,7 +558,7 @@ def vc(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            leaves,
+            (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             pieces=baca.select.plts(leaves)[:-1],
@@ -601,7 +601,7 @@ def vc(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            leaves,
+            (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             pieces=baca.select.plts(leaves)[:-1],

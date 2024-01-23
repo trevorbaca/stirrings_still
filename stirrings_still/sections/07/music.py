@@ -394,7 +394,7 @@ def tutti(cache):
             baca.untie(o.leaves())
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.scp_spanner(
-                leaves,
+                (),
                 "T -> P ->",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 pieces=baca.select.plts(leaves)[:-1],
