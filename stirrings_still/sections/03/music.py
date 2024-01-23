@@ -725,7 +725,7 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
             )
             baca.text_spanner(
-                o.rleaves(),
+                (),
                 r"\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
@@ -741,7 +741,7 @@ def tutti(cache):
             baca.dynamic(o.phead(0), "p", redundant=True)
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.text_spanner(
-                leaves,
+                (),
                 r"\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
@@ -751,7 +751,7 @@ def tutti(cache):
             baca.dynamic(o.phead(0), "p", redundant=True)
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.text_spanner(
-                leaves,
+                (),
                 r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 library.left_broken_circle_bow_tweak(),
@@ -869,7 +869,7 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
             )
             baca.text_spanner(
-                o.rleaves(),
+                (),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 # spanner terminates at double bar:

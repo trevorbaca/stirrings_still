@@ -812,7 +812,7 @@ def tutti(cache):
                 lilypond_id=1,
             )
             baca.text_spanner(
-                o.rleaves(),
+                (),
                 "rasp -> flaut. =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,

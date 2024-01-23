@@ -596,7 +596,7 @@ def v1(cache):
             pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
         )
         baca.scp_spanner(
-            o.rleaves(),
+            (),
             "T -> poco P =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=False,
@@ -787,7 +787,7 @@ def v1_v2_va(cache):
             )
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.scp_spanner(
-                leaves,
+                (),
                 "P -> T ->",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 pieces=baca.select.plts(leaves)[:-1],
@@ -797,7 +797,7 @@ def v1_v2_va(cache):
             baca.hairpin(o, '"f" > p')
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.scp_spanner(
-                leaves,
+                (),
                 "P -> T ->",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 pieces=baca.select.plts(leaves)[:-1],
@@ -819,7 +819,7 @@ def v1_v2_va(cache):
             if name == "v1":
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
                 baca.scp_spanner(
-                    leaves,
+                    (),
                     "P -> T ->",
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
                     pieces=baca.select.plts(leaves)[:-1],
@@ -834,7 +834,7 @@ def v1_v2_va(cache):
             elif name == "va":
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
                 baca.scp_spanner(
-                    leaves,
+                    (),
                     "P -> T ->",
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
                     pieces=baca.select.plts(leaves)[:-1],
@@ -860,7 +860,7 @@ def v1_v2_va(cache):
             baca.stem_tremolo(o.pleaves())
         with baca.scope(m.get(116, 119)) as o:
             baca.text_spanner(
-                o.rleaves(),
+                (),
                 "trem. ord. -> larghiss. =|",
                 abjad.Tweak(r"- \tweak staff-padding 10.5"),
                 bookend=False,
@@ -1004,7 +1004,7 @@ def v2(cache):
             pieces=baca.select.mgroups(o.rleaves(), [2, 1 + 1]),
         )
         baca.scp_spanner(
-            o.rleaves(),
+            (),
             "T -> poco P =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=False,
@@ -1137,7 +1137,7 @@ def va(cache):
             pieces=baca.select.mgroups(o.rleaves(), [3, 1 + 1]),
         )
         baca.scp_spanner(
-            o.rleaves(),
+            (),
             "T -> poco P =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=False,
