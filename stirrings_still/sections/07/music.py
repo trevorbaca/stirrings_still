@@ -331,7 +331,7 @@ def v1(cache):
             baca.dynamic(o.phead(0), "mp")
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
             library.urtext_spanner(o.rleaves(), "urtext (double stop) -|", 8)
 
@@ -442,7 +442,7 @@ def v1_va_vc(cache):
                 )
                 baca.tasto_spanner(
                     o.rleaves(),
-                    abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                    staff_padding=5.5,
                 )
                 library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
             elif name == "va":
@@ -453,7 +453,7 @@ def v1_va_vc(cache):
                 )
                 baca.tasto_spanner(
                     o.rleaves(),
-                    abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                    staff_padding=5.5,
                 )
                 library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
             elif name == "vc":
@@ -480,7 +480,7 @@ def v2(cache):
             baca.dynamic(o.phead(0), "mp")
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
             library.urtext_spanner(o.rleaves(), "urtext (double stop) -|", 8)
     with baca.scope(m.get(12, 13)) as o:
@@ -518,7 +518,7 @@ def va(cache):
             baca.dynamic(o.phead(0), "mp")
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
             library.clouded_pane_spanner(o.rleaves(), "clouded pane (partial) -|", 8)
     with baca.scope(m[19]) as o:

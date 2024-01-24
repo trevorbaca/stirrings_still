@@ -234,7 +234,7 @@ def v1(cache):
             baca.flat_glissando(baca.select.rleak(o), "A4", hide_middle_stems=True)
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
+                staff_padding=v1_spanner_staff_padding,
             )
     with baca.scope(m.get(6, 7)) as o:
         baca.hairpin(
@@ -299,7 +299,7 @@ def v2(cache):
             baca.flat_glissando(baca.select.rleak(o), "A3", hide_middle_stems=True)
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(rf"- \tweak staff-padding {v2_spanner_staff_padding}"),
+                staff_padding=v2_spanner_staff_padding,
             )
     for n in [5, 7, 9, 15, 17, 19]:
         with baca.scope(m[n]) as o:
@@ -360,7 +360,7 @@ def va(cache):
             baca.flat_glissando(baca.select.rleak(o), "A3", hide_middle_stems=True)
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
+                staff_padding=va_spanner_staff_padding,
             )
     with baca.scope(m.get(8, 10)) as o:
         baca.hairpin(
@@ -397,7 +397,7 @@ def vc(cache):
             baca.flat_glissando(baca.select.rleak(o), "A2", hide_middle_stems=True)
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
+                staff_padding=vc_spanner_staff_padding,
             )
     with baca.scope(m.get(1, 18)) as o:
         baca.pitch(o, "A2", allow_repitch=True)

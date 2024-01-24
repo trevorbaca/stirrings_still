@@ -205,7 +205,7 @@ def v1_va_vc(cache):
                 )
                 baca.tasto_spanner(
                     o.rleaves(),
-                    abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                    staff_padding=5.5,
                 )
             elif name == "va":
                 baca.markup(
@@ -215,7 +215,7 @@ def v1_va_vc(cache):
                 )
                 baca.tasto_spanner(
                     o.rleaves(),
-                    abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                    staff_padding=5.5,
                 )
             baca.hairpin(
                 o.rleaves(),

@@ -529,7 +529,7 @@ def v1_v2(cache):
         with baca.scope(m.get(67, 85)) as o:
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
         with baca.scope(m.get(86, 92)) as o:
             baca.hairpin(
@@ -575,7 +575,7 @@ def v1_v2_va(cache):
                 baca.stop_on_string(o.pleaf(-1))
                 baca.tasto_spanner(
                     o.rleaves(),
-                    abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                    staff_padding=5.5,
                 )
                 library.breathe(o.pleaf(1))
                 library.urtext_spanner(o.rleaves(), "A, B -|", 8)
@@ -587,7 +587,7 @@ def v1_v2_va(cache):
             )
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
             library.urtext_spanner(o.rleaves(), "urtext (cds) -|", 8)
         with baca.scope(m[66]) as o:
@@ -810,7 +810,7 @@ def va(cache):
     with baca.scope(m.get(67, 89)) as o:
         baca.tasto_spanner(
             o.rleaves(),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
     with baca.scope(m.get(90, 93)) as o:
         baca.dynamic(

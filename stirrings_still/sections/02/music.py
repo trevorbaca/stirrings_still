@@ -751,7 +751,7 @@ def v1(cache):
     with baca.scope(m[26]) as o:
         baca.tasto_spanner(
             o.rleaves(),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
     with baca.scope(m.get(29, 30)) as o:
         baca.flat_glissando(o, "G#5", stop_pitch="Bb5")
@@ -854,7 +854,7 @@ def v1_v2_va(cache):
             )
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
             baca.stem_tremolo(o)
             library.urtext_spanner(o.rleaves(), "urtext (cds) -|", 8)
@@ -865,7 +865,7 @@ def v1_v2_va(cache):
             baca.dynamic(o.phead(0), "p")
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
             for plt in abjad.select.get(baca.select.plts(o), [1], 2):
                 baca.espressivo(baca.select.phead(plt, 0))
@@ -1188,7 +1188,7 @@ def v2(cache, time_signatures):
     with baca.scope(m.get(18, 27)) as o:
         baca.tasto_spanner(
             o.rleaves(),
-            abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5 + 2.5}"),
+            staff_padding=4 + 6.5 + 2.5,
         )
     with baca.scope(m[26]) as o:
         baca.flat_glissando(
@@ -1371,7 +1371,7 @@ def va(cache):
     with baca.scope(m.get(23, 27)) as o:
         baca.tasto_spanner(
             o.rleaves(),
-            abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5 + 2.5}"),
+            staff_padding=4 + 6.5 + 2.5,
         )
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m[26]) as o:
@@ -1559,7 +1559,7 @@ def vc(cache):
         )
         baca.tasto_spanner(
             o.rleaves(),
-            abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5 + 2.5}"),
+            staff_padding=4 + 6.5 + 2.5,
         )
         library.bcps(o, 0, clt=True, staff_padding=4)
         baca.tie(o.lleaf(0))
@@ -1588,7 +1588,7 @@ def vc(cache):
         )
         baca.tasto_spanner(
             o.rleaves(),
-            abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5 + 2.5}"),
+            staff_padding=4 + 6.5 + 2.5,
         )
         library.bcps(o, -2, clt=True, staff_padding=4)
     with baca.scope(m.get(29, 30)) as o:

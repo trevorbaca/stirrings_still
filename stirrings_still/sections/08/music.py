@@ -412,7 +412,7 @@ def v1(cache):
     with baca.scope(m.get(52, 55)) as o:
         baca.tasto_spanner(
             o.rleaves(),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
 
 
@@ -492,7 +492,7 @@ def v2(cache):
         with baca.scope(m[n]) as o:
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
     with baca.scope(m.get(53, 54)) as o:
         baca.alternate_bow_strokes(o.pheads())
@@ -551,7 +551,7 @@ def va(cache):
     with baca.scope(m.get(52, 55)) as o:
         baca.tasto_spanner(
             o.rleaves(),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
     with baca.scope(cache["var"][56]) as o:
         baca.override.tacet(o.mmrests())
@@ -918,7 +918,7 @@ def v1_va_vc(cache):
                 )
                 baca.tasto_spanner(
                     o.rleaves(),
-                    abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                    staff_padding=5.5,
                 )
             elif name == "va":
                 baca.markup(
@@ -928,7 +928,7 @@ def v1_va_vc(cache):
                 )
                 baca.tasto_spanner(
                     o.rleaves(),
-                    abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                    staff_padding=5.5,
                 )
             baca.hairpin(
                 o.rleaves(),
