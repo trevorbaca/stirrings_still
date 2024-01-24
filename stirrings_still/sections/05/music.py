@@ -669,7 +669,7 @@ def v1_v2_va(cache):
             )
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                staff_padding=8,
             )
         with baca.scope(m.get(4, 5)) as o:
             baca.hairpin(
@@ -717,12 +717,12 @@ def v1_v2_va(cache):
             if name in ("v1", "v2"):
                 baca.tasto_spanner(
                     o.rleaves(),
-                    abjad.Tweak(r"- \tweak staff-padding 10.5"),
+                    staff_padding=10.5,
                 )
             elif name == "va":
                 baca.tasto_spanner(
                     o.rleaves(),
-                    abjad.Tweak(r"- \tweak staff-padding 8"),
+                    staff_padding=8,
                 )
         with baca.scope(m.get(24, 33)) as o:
             for plt in abjad.select.get(baca.select.plts(o), [0], 2):

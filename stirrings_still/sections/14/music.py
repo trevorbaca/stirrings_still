@@ -616,7 +616,7 @@ def vc(cache):
         )
         baca.tasto_spanner(
             o.rleaves(),
-            abjad.Tweak(r"- \tweak staff-padding 3"),
+            staff_padding=3,
         )
         baca.text_spanner(
             o.rleaves(),

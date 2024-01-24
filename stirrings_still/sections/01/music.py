@@ -582,7 +582,7 @@ def v1(cache):
         )
         baca.tasto_spanner(
             o.rleaves(),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
         library.urtext_spanner(
             o.rleaves(),
@@ -651,7 +651,7 @@ def v1_v2_va(cache):
             with baca.scope(m.get(item)) as o:
                 baca.tasto_spanner(
                     o.rleaves(),
-                    abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                    staff_padding=5.5,
                 )
         with baca.scope(m.get(5, 6)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
@@ -678,7 +678,7 @@ def v1_v2_va(cache):
             )
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
             library.breathe(o.leaf(1))
         with baca.scope(m[12]) as o:
@@ -694,7 +694,7 @@ def v1_v2_va(cache):
             with baca.scope(m.get(n)) as o:
                 baca.tasto_spanner(
                     o.rleaves(),
-                    abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                    staff_padding=5.5,
                 )
                 library.breathe(o.pleaf(1))
                 library.breathe(o.pleaf(-1))
@@ -780,7 +780,7 @@ def v1_v2_va(cache):
             baca.stop_on_string(o.pleaf(-1))
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
             library.breathe(o.pleaf(1))
             library.urtext_spanner(o.rleaves(), "A, B -|", 8)
@@ -884,7 +884,7 @@ def v2(cache):
         )
         baca.tasto_spanner(
             o.rleaves(),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
         library.urtext_spanner(o.rleaves(), "urtext (double stop G.1) -|", 8)
     for item in [(46, 50), 52, 54, 58]:
@@ -952,7 +952,7 @@ def va(cache):
         )
         baca.tasto_spanner(
             o.rleaves(),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
         library.clouded_pane_spanner(o.rleaves(), "clouded (partial G.1) -|", 8)
     for item in [(46, 50), 52, 54, 58]:
@@ -1029,7 +1029,7 @@ def vc(cache):
         )
         baca.tasto_spanner(
             o.rleaves(),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
         library.urtext_spanner(o.rleaves(), "urtext (field) -|", 8)
     with baca.scope(m.get(35, 40)) as o:

@@ -504,7 +504,7 @@ def v1(cache):
         )
         baca.tasto_spanner(
             o.rleaves(),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
         library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
     with baca.scope(m[56]) as o:
@@ -614,7 +614,7 @@ def va(cache):
         )
         baca.tasto_spanner(
             o.rleaves(),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
         library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
     with baca.scope(m[56]) as o:
@@ -648,7 +648,7 @@ def v1_v2_va(cache):
         with baca.scope(m[5]) as o:
             baca.tasto_spanner(
                 o.rleaves(),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
         with baca.scope(m[35]) as o:
             baca.override.tacet(o.mmrests())
