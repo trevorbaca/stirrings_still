@@ -782,7 +782,7 @@ def v1_v2_va(cache):
                 (),
                 "ff > p < ff -- f > p < f --",
                 bookend=False,
-                final_hairpin=False,
+                do_not_start_spanner_on_final_piece=True,
                 pieces=baca.select.plts(o),
             )
             leaves = baca.select.rleak(baca.select.ltleaves(o))

@@ -571,7 +571,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
-            final_piece_spanner=False,
+            do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             pieces=baca.select.cmgroups(o.rleaves(), [1, 1, 1, 1, 2, 1]),
         )
@@ -597,7 +597,7 @@ def v1(cache):
             r"\baca-null-markup || \baca-null-markup || \baca-damp-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
-            final_piece_spanner=False,
+            do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             pieces=baca.select.plts(o),
         )
@@ -796,7 +796,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
-            final_piece_spanner=False,
+            do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             pieces=baca.select.cmgroups(o.rleaves(), [1, 2, 1, 1, 1, 1]),
         )
@@ -821,7 +821,7 @@ def v2(cache):
             r"\baca-null-markup || \baca-damp-markup =| \baca-null-markup ||",
             abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
-            final_piece_spanner=False,
+            do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             pieces=baca.select.plts(o),
         )
@@ -976,7 +976,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
-            final_piece_spanner=False,
+            do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             pieces=baca.select.cmgroups(o.rleaves(), [1, 1, 2, 1, 1, 1]),
         )
@@ -1001,7 +1001,7 @@ def va(cache):
             r"\baca-null-markup || \baca-damp-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
-            final_piece_spanner=False,
+            do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             pieces=baca.select.plts(o)[:-1],
         )
@@ -1153,7 +1153,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
-            final_piece_spanner=False,
+            do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             pieces=baca.select.cmgroups(o.rleaves(), [1, 1, 1, 2, 1, 1]),
         )
