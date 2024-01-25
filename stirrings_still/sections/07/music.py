@@ -329,7 +329,7 @@ def v1(cache):
             m = cache["v1"]
         with baca.scope(m[n]) as o:
             baca.dynamic(o.phead(0), "mp")
-            baca.tasto_spanner(
+            baca.spanners.tasto(
                 o.rleaves(),
                 staff_padding=5.5,
             )
@@ -440,7 +440,7 @@ def v1_va_vc(cache):
                     r"\stirrings-still-seven-plus-nine-of-e-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.tasto_spanner(
+                baca.spanners.tasto(
                     o.rleaves(),
                     staff_padding=5.5,
                 )
@@ -451,7 +451,7 @@ def v1_va_vc(cache):
                     r"\stirrings-still-eleven-plus-three-of-e-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.tasto_spanner(
+                baca.spanners.tasto(
                     o.rleaves(),
                     staff_padding=5.5,
                 )
@@ -478,7 +478,7 @@ def v2(cache):
             m = cache["v2"]
         with baca.scope(m[n]) as o:
             baca.dynamic(o.phead(0), "mp")
-            baca.tasto_spanner(
+            baca.spanners.tasto(
                 o.rleaves(),
                 staff_padding=5.5,
             )
@@ -516,7 +516,7 @@ def va(cache):
             m = cache["va"]
         with baca.scope(m[n]) as o:
             baca.dynamic(o.phead(0), "mp")
-            baca.tasto_spanner(
+            baca.spanners.tasto(
                 o.rleaves(),
                 staff_padding=5.5,
             )

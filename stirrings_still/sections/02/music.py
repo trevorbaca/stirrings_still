@@ -749,7 +749,7 @@ def v1(cache):
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m[26]) as o:
-        baca.tasto_spanner(
+        baca.spanners.tasto(
             o.rleaves(),
             staff_padding=5.5,
         )
@@ -852,7 +852,7 @@ def v1_v2_va(cache):
                 "p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
-            baca.tasto_spanner(
+            baca.spanners.tasto(
                 o.rleaves(),
                 staff_padding=5.5,
             )
@@ -863,7 +863,7 @@ def v1_v2_va(cache):
         with baca.scope(m[64]) as o:
             library.urtext_spanner(o.rleaves(), "urtext (cds) -|", 8)
             baca.dynamic(o.phead(0), "p")
-            baca.tasto_spanner(
+            baca.spanners.tasto(
                 o.rleaves(),
                 staff_padding=5.5,
             )
@@ -1186,7 +1186,7 @@ def v2(cache, time_signatures):
             "G5",
         )
     with baca.scope(m.get(18, 27)) as o:
-        baca.tasto_spanner(
+        baca.spanners.tasto(
             o.rleaves(),
             staff_padding=4 + 6.5 + 2.5,
         )
@@ -1369,7 +1369,7 @@ def va(cache):
             pieces=baca.select.mgroups(o.rleaves(), [2, 1 + 1]),
         )
     with baca.scope(m.get(23, 27)) as o:
-        baca.tasto_spanner(
+        baca.spanners.tasto(
             o.rleaves(),
             staff_padding=4 + 6.5 + 2.5,
         )
@@ -1557,7 +1557,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             pieces=baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
         )
-        baca.tasto_spanner(
+        baca.spanners.tasto(
             o.rleaves(),
             staff_padding=4 + 6.5 + 2.5,
         )
@@ -1586,7 +1586,7 @@ def vc(cache):
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
         )
-        baca.tasto_spanner(
+        baca.spanners.tasto(
             o.rleaves(),
             staff_padding=4 + 6.5 + 2.5,
         )

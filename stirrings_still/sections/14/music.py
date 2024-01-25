@@ -614,7 +614,7 @@ def vc(cache):
             "p -- ! >o niente",
             pieces=baca.select.cmgroups(o.rleaves()),
         )
-        baca.tasto_spanner(
+        baca.spanners.tasto(
             o.rleaves(),
             staff_padding=3,
         )

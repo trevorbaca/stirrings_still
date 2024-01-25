@@ -667,7 +667,7 @@ def v1_v2_va(cache):
                 "p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
-            baca.tasto_spanner(
+            baca.spanners.tasto(
                 o.rleaves(),
                 staff_padding=8,
             )
@@ -715,12 +715,12 @@ def v1_v2_va(cache):
                 baca.flat_glissando(o.pleaves(), "C3")
         with baca.scope(m.get(6, 40)) as o:
             if name in ("v1", "v2"):
-                baca.tasto_spanner(
+                baca.spanners.tasto(
                     o.rleaves(),
                     staff_padding=10.5,
                 )
             elif name == "va":
-                baca.tasto_spanner(
+                baca.spanners.tasto(
                     o.rleaves(),
                     staff_padding=8,
                 )
