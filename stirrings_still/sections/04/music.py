@@ -658,9 +658,9 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight-poss-grind-at-talon",
             )
-            baca.damp_spanner(
+            baca.spanners.damp(
                 baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                staff_padding=8,
             ),
             baca.hairpin(
                 o.rleaves(),
@@ -683,11 +683,11 @@ def tutti_1(cache):
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(1, 36)) as o:
-            baca.damp_spanner(
+            baca.spanners.damp(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 # manual padding because spanner ends of volta
                 abjad.Tweak(r"- \tweak bound-details.right.padding 5.25"),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
         with baca.scope(m.get(7, 12)) as o:
             baca.hairpin(
@@ -734,9 +734,9 @@ def tutti_1(cache):
                 baca.stem_tremolo(ntlt[-1])
             library.ntlt_flat_glissandi(o)
         with baca.scope(m.get(58, 63)) as o:
-            baca.damp_spanner(
+            baca.spanners.damp(
                 baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
             baca.hairpin(o, "mf >o niente")
             if name == "vc":
@@ -840,9 +840,9 @@ def vc(cache):
             '"f" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6.5}"),
+            staff_padding=4.5 + 6.5,
         )
         baca.markup(
             o.pleaf(0),

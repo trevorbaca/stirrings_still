@@ -220,10 +220,10 @@ def vc(cache):
             # temporary:
             pieces=baca.select.mgroups(o.leaves(), [5, 4, 1 + 1]),
         )
-        baca.half_clt_spanner(
-            o.leaves(),
-            abjad.Tweak(rf"- \tweak staff-padding {6 + 6.5}"),
+        baca.spanners.half_clt(
             # TODO: extend spanner to phantom measure
+            o.leaves(),
+            staff_padding=6 + 6.5,
         )
         baca.markup(
             o.pleaf(0),

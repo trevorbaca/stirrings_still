@@ -71,9 +71,9 @@ def v1(cache):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 7)
     with baca.scope(m.get(1, 8)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {8 + 6}"),
+            staff_padding=8 + 6,
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=8)
@@ -91,9 +91,9 @@ def v2(cache):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 7)
     with baca.scope(m.get(1, 8)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
+            staff_padding=4.5 + 6,
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -9, clt=True, staff_padding=4.5)

@@ -225,9 +225,9 @@ def vc(cache):
             "p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {3 + 6.5}"),
+            staff_padding=3 + 6.5,
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -4, clt=True, staff_padding=3)

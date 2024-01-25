@@ -170,10 +170,10 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 pieces=baca.select.mgroups(o.rleaves(), [2, 4 + 1]),
             )
-            baca.half_clt_spanner(
+            baca.spanners.half_clt(
                 # TODO: allow spanner to extend to phantom measure
                 o.leaves(),
-                abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+                staff_padding=4 + 6.5,
             )
             if name == "v1":
                 library.bcps(o, -6, clt=True, staff_padding=4)
@@ -270,18 +270,18 @@ def v2(cache):
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.alternate_bow_strokes(o.pheads())
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.hairpin(
             o.rleaves(),
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
         baca.pitch(o, "F5")
         baca.override.tuplet_bracket_staff_padding(o, 1)

@@ -316,11 +316,11 @@ def clouded_pane_spanner(
     string,
     staff_padding,
 ):
-    wrappers = baca.material_annotation_spanner(
+    wrappers = baca.spanners.material_annotation(
         argument,
         string,
         abjad.Tweak(r"- \tweak color #red"),
-        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
+        staff_padding=staff_padding,
     )
     baca.tags.wrappers(wrappers, abjad.Tag("MATERIAL:CLOUDED_PANE"))
     return wrappers
@@ -1255,11 +1255,11 @@ def first_order_stages(section):
 
 
 def flight_spanner(o, string, staff_padding):
-    wrappers = baca.material_annotation_spanner(
+    wrappers = baca.spanners.material_annotation(
         o.rleaves(),
         string,
         abjad.Tweak(r"- \tweak color #darkmagenta"),
-        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
+        staff_padding=staff_padding,
     )
     baca.tags.wrappers(wrappers, abjad.Tag("MATERIAL:FLIGHT"))
     return wrappers
@@ -3061,11 +3061,11 @@ def urtext_spanner(
     string,
     staff_padding,
 ):
-    wrappers = baca.material_annotation_spanner(
+    wrappers = baca.spanners.material_annotation(
         argument,
         string,
         abjad.Tweak(r"- \tweak color #darkred"),
-        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
+        staff_padding=staff_padding,
     )
     baca.tags.wrappers(wrappers, abjad.Tag("MATERIAL:URTEXT"))
     return wrappers
