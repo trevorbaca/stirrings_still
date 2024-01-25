@@ -829,7 +829,7 @@ def v1_v2_va(cache):
                     o.pleaves(),
                     "P -> T",
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                    bookend=True,
+                    bookend=-1,
                 )
             elif name == "va":
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
