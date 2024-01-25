@@ -580,7 +580,7 @@ def v1(cache):
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.tasto_spanner(
+        baca.spanners.tasto(
             o.rleaves(),
             staff_padding=5.5,
         )
@@ -649,7 +649,7 @@ def v1_v2_va(cache):
             )
         for item in [3, (5, 6), (8, 9)]:
             with baca.scope(m.get(item)) as o:
-                baca.tasto_spanner(
+                baca.spanners.tasto(
                     o.rleaves(),
                     staff_padding=5.5,
                 )
@@ -676,7 +676,7 @@ def v1_v2_va(cache):
                 "p < f-scratch -- ! >o niente",
                 pieces=baca.select.omgroups(leaves, [1, 2]),
             )
-            baca.tasto_spanner(
+            baca.spanners.tasto(
                 o.rleaves(),
                 staff_padding=5.5,
             )
@@ -692,7 +692,7 @@ def v1_v2_va(cache):
             )
         for n in [18, 20, 22, 25, 29]:
             with baca.scope(m.get(n)) as o:
-                baca.tasto_spanner(
+                baca.spanners.tasto(
                     o.rleaves(),
                     staff_padding=5.5,
                 )
@@ -778,7 +778,7 @@ def v1_v2_va(cache):
                 pieces=baca.select.clparts(o, [1]),
             )
             baca.stop_on_string(o.pleaf(-1))
-            baca.tasto_spanner(
+            baca.spanners.tasto(
                 o.rleaves(),
                 staff_padding=5.5,
             )
@@ -882,7 +882,7 @@ def v2(cache):
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.tasto_spanner(
+        baca.spanners.tasto(
             o.rleaves(),
             staff_padding=5.5,
         )
@@ -950,7 +950,7 @@ def va(cache):
             r"\stirrings-still-nine-plus-seven-of-b-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.tasto_spanner(
+        baca.spanners.tasto(
             o.rleaves(),
             staff_padding=5.5,
         )
@@ -1027,7 +1027,7 @@ def vc(cache):
             "Db2",
             hide_middle_stems=True,
         )
-        baca.tasto_spanner(
+        baca.spanners.tasto(
             o.rleaves(),
             staff_padding=5.5,
         )

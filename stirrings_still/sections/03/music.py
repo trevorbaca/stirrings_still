@@ -502,7 +502,7 @@ def v1(cache):
             r"\stirrings-still-seven-plus-nine-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.tasto_spanner(
+        baca.spanners.tasto(
             o.rleaves(),
             staff_padding=5.5,
         )
@@ -612,7 +612,7 @@ def va(cache):
             r"\stirrings-still-eleven-plus-three-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.tasto_spanner(
+        baca.spanners.tasto(
             o.rleaves(),
             staff_padding=5.5,
         )
@@ -646,7 +646,7 @@ def v1_v2_va(cache):
         with baca.scope(m.get(1, 69)) as o:
             baca.override.tuplet_bracket_down(o)
         with baca.scope(m[5]) as o:
-            baca.tasto_spanner(
+            baca.spanners.tasto(
                 o.rleaves(),
                 staff_padding=5.5,
             )
