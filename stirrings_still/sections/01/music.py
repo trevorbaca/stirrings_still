@@ -596,9 +596,9 @@ def v1(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight",
             )
-            baca.damp_spanner(
+            baca.spanners.damp(
                 baca.select.rleak(o.tleaves()),
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                staff_padding=8,
             )
             baca.flat_glissando(o, "C5")
             baca.hairpin(
@@ -829,9 +829,9 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="very-tight",
             )
-            baca.damp_spanner(
+            baca.spanners.damp(
                 baca.select.rleak(baca.select.tleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                staff_padding=8,
             )
             baca.hairpin(
                 o.rleaves(),
@@ -895,9 +895,9 @@ def v2(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight",
             )
-            baca.damp_spanner(
+            baca.spanners.damp(
                 baca.select.rleak(baca.select.tleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                staff_padding=8,
             )
             baca.hairpin(
                 o.rleaves(),
@@ -963,9 +963,9 @@ def va(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight",
             )
-            baca.damp_spanner(
+            baca.spanners.damp(
                 baca.select.rleak(baca.select.tleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                staff_padding=8,
             )
             baca.hairpin(
                 o.rleaves(),
@@ -1043,9 +1043,9 @@ def vc(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             pieces=baca.select.mgroups(o.rleaves(), [1, 2]),
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 11.0"),
+            staff_padding=11.0,
         )
         baca.markup(
             o.pleaf(0),
@@ -1072,9 +1072,9 @@ def vc(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight",
             )
-            baca.damp_spanner(
+            baca.spanners.damp(
                 baca.select.rleak(baca.select.tleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                staff_padding=8,
             )
             baca.hairpin(
                 o.rleaves(),
@@ -1090,9 +1090,9 @@ def vc(cache):
             '"f" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 11.0"),
+            staff_padding=11.0,
         )
         baca.markup(
             o.pleaf(0),

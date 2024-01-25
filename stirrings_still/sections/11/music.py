@@ -443,9 +443,9 @@ def v1(cache):
     name = "v1"
     m = cache[name]
     with baca.scope(m.get(1, 2)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            staff_padding=4 + 6.5,
         )
         library.bcps(o, 0, clt=True, staff_padding=4)
         baca.multistage_leaf_glissando(
@@ -471,9 +471,9 @@ def v1(cache):
         library.bcps(o, 0, clt=True, staff_padding=4)
     for item in [(5, 9), (11, 14), 16]:
         with baca.scope(m.get(item)) as o:
-            baca.half_clt_spanner(
+            baca.spanners.half_clt(
                 baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+                staff_padding=4 + 6.5,
             )
     with baca.scope(m.get(5, 16)) as o:
         baca.multistage_leaf_glissando(
@@ -614,10 +614,10 @@ def v1(cache):
         baca.hairpin(o, "pp <", bookend=False)
     with baca.scope(m.get(46, 53)) as o:
         baca.hairpin(o, "p >o niente")
-        baca.damp_spanner(
+        baca.spanners.damp(
             # TODO: allow spanner to extend to phantom measure
             o.leaves(),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.scp_spanner(
             # TODO: allow spanner to extend to phantom measure
@@ -674,9 +674,9 @@ def v2(cache):
     name = "v2"
     m = cache[name]
     with baca.scope(m.get(1, 2)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            staff_padding=4 + 6.5,
         )
         library.bcps(o, -1, clt=True, staff_padding=4)
         baca.multistage_leaf_glissando(
@@ -702,9 +702,9 @@ def v2(cache):
         library.bcps(o, -1, clt=True, staff_padding=4)
     for item in [(5, 9), 13, (15, 16)]:
         with baca.scope(m.get(item)) as o:
-            baca.half_clt_spanner(
+            baca.spanners.half_clt(
                 baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+                staff_padding=4 + 6.5,
             )
     with baca.scope(m.get(5, 16)) as o:
         baca.multistage_leaf_glissando(
@@ -838,10 +838,10 @@ def v2(cache):
         baca.hairpin(o, "pp <", bookend=False)
     with baca.scope(m.get(46, 53)) as o:
         baca.hairpin(o, "p >o niente")
-        baca.damp_spanner(
+        baca.spanners.damp(
             # TODO: allow spanner to extend to phantom measure
             o.leaves(),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         ),
         baca.scp_spanner(
             # TODO: allow spanner to extend to phantom measure
@@ -855,9 +855,9 @@ def va(cache):
     name = "va"
     m = cache[name]
     with baca.scope(m.get(1, 2)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            staff_padding=4 + 6.5,
         )
         library.bcps(o, -2, clt=True, staff_padding=4)
         baca.multistage_leaf_glissando(
@@ -893,9 +893,9 @@ def va(cache):
         )
     for item in [(12, 13), (16, 17)]:
         with baca.scope(m.get(item)) as o:
-            baca.half_clt_spanner(
+            baca.spanners.half_clt(
                 baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+                staff_padding=4 + 6.5,
             )
             library.bcps(o, -3, clt=True, staff_padding=4)
     with baca.scope(m.get(12, 17)) as o:
@@ -1018,16 +1018,16 @@ def va(cache):
             '"mf" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            staff_padding=4 + 6.5,
         )
         library.bcps(o, -2, clt=True, staff_padding=4)
     with baca.scope(m.get(46, 53)) as o:
-        baca.damp_spanner(
+        baca.spanners.damp(
             # TODO: allow spanner to extend to phantom measure
             o.leaves(),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.hairpin(o, "p >o niente")
         baca.scp_spanner(
@@ -1042,9 +1042,9 @@ def vc(cache):
     name = "vc"
     m = cache[name]
     with baca.scope(m.get(1, 2)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            staff_padding=4 + 6.5,
         )
         library.bcps(o, -3, clt=True, staff_padding=4)
         baca.multistage_leaf_glissando(
@@ -1070,9 +1070,9 @@ def vc(cache):
         library.bcps(o, -3, clt=True, staff_padding=4)
     for item in [(5, 10), (13, 14)]:
         with baca.scope(m.get(item)) as o:
-            baca.half_clt_spanner(
+            baca.spanners.half_clt(
                 baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+                staff_padding=4 + 6.5,
             )
     with baca.scope(m.get(5, 14)) as o:
         baca.multistage_leaf_glissando(
@@ -1110,9 +1110,9 @@ def vc(cache):
             'niente o< "f" -- ! >o niente',
             pieces=baca.select.cmgroups(o),
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6.5}"),
+            staff_padding=11.0,
         )
         baca.markup(
             o.pleaf(0),

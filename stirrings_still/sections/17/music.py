@@ -440,9 +440,9 @@ def v1(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     for item in [(2, 9), (25, 27), (41, 42), (53, 54), 63, 69]:
@@ -467,9 +467,9 @@ def v1(cache):
     with baca.scope(m.get(14, 24)) as o:
         baca.flat_glissando(o, "Eb5")
     with baca.scope(m.get(18, 24)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(25, 27)) as o:
         baca.breathe(o.pleaf(-1))
@@ -478,9 +478,9 @@ def v1(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.tleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(28, 30)) as o:
@@ -502,9 +502,9 @@ def v1(cache):
     with baca.scope(m.get(31, 40)) as o:
         baca.flat_glissando(o, "E5")
     with baca.scope(m.get(35, 40)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(41, 42)) as o:
         baca.breathe(o.pleaf(-1))
@@ -513,9 +513,9 @@ def v1(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(43, 45)) as o:
@@ -537,9 +537,9 @@ def v1(cache):
     with baca.scope(m.get(46, 52)) as o:
         baca.flat_glissando(o, "F5")
     with baca.scope(m.get(49, 52)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(53, 54)) as o:
         baca.breathe(o.pleaf(-1))
@@ -548,9 +548,9 @@ def v1(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(55, 56)) as o:
@@ -572,9 +572,9 @@ def v1(cache):
     with baca.scope(m.get(57, 62)) as o:
         baca.flat_glissando(o, "Gb5")
     with baca.scope(m.get(59, 62)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m[63]) as o:
         baca.breathe(o.pleaf(-1))
@@ -583,9 +583,9 @@ def v1(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.tleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m[64]) as o:
@@ -605,9 +605,9 @@ def v1(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=4.5)
     with baca.scope(m.get(64, 68)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(65, 68)) as o:
         baca.flat_glissando(o, "G5")
@@ -618,9 +618,9 @@ def v1(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.tleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(70, 71)) as o:
@@ -634,9 +634,9 @@ def v1(cache):
         library.bcps(o, -8, clt=True, staff_padding=4.5)
         baca.flat_glissando(o, "Ab4", stop_pitch="Ab5")
     with baca.scope(m[71]) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(73, 92)) as o:
         baca.dynamic(
@@ -644,9 +644,9 @@ def v1(cache):
             "ppp",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 14"),
+            staff_padding=14,
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=8)
@@ -685,9 +685,9 @@ def v2(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     for item in [(2, 13), (22, 30), (38, 45), (51, 56), (61, 64), (68, 70)]:
@@ -704,9 +704,9 @@ def v2(cache):
         library.bcps(o, -7, clt=True, staff_padding=3.5)
         baca.flat_glissando(o, "Dqf5")
     with baca.scope(m.get(18, 21)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(22, 30)) as o:
         baca.breathe(o.pleaf(-1))
@@ -715,9 +715,9 @@ def v2(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(31, 37)) as o:
@@ -731,9 +731,9 @@ def v2(cache):
         library.bcps(o, -7, clt=True, staff_padding=3.5)
         baca.flat_glissando(o, "Dqs5")
     with baca.scope(m.get(35, 37)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(38, 45)) as o:
         baca.breathe(o.pleaf(-1))
@@ -742,9 +742,9 @@ def v2(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(46, 50)) as o:
@@ -758,9 +758,9 @@ def v2(cache):
         library.bcps(o, -7, clt=True, staff_padding=3.5)
         baca.flat_glissando(o, "Cqs5")
     with baca.scope(m.get(48, 50)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(51, 56)) as o:
         baca.breathe(o.pleaf(-1))
@@ -769,9 +769,9 @@ def v2(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(57, 60)) as o:
@@ -785,9 +785,9 @@ def v2(cache):
         library.bcps(o, -7, clt=True, staff_padding=3.5)
         baca.flat_glissando(o, "Eqs5")
     with baca.scope(m.get(59, 60)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(61, 64)) as o:
         baca.breathe(o.pleaf(-1))
@@ -796,9 +796,9 @@ def v2(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(
             o.phead(0),
@@ -816,9 +816,9 @@ def v2(cache):
         library.bcps(o, -7, clt=True, staff_padding=3.5)
         baca.flat_glissando(o, "Fqs5")
     with baca.scope(m.get(66, 67)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.tleaves(o, rleak=True),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(68, 70)) as o:
         baca.breathe(o.pleaf(-1))
@@ -827,17 +827,17 @@ def v2(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m[71]) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(o.rleaves(), "p >o !")
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
+            staff_padding=4.5 + 6,
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=4.5)
@@ -848,9 +848,9 @@ def v2(cache):
             "ppp",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {4.5 + 6}"),
+            staff_padding=4.5 + 6,
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=4.5)
@@ -873,9 +873,9 @@ def va(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     for item in [(2, 9), (22, 27), (38, 42), (51, 54), (61, 63), (68, 69)]:
@@ -900,9 +900,9 @@ def va(cache):
     with baca.scope(m.get(14, 21)) as o:
         baca.flat_glissando(o, "E3")
     with baca.scope(m.get(18, 21)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(22, 27)) as o:
         baca.breathe(o.pleaf(-1))
@@ -911,9 +911,9 @@ def va(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(28, 30)) as o:
@@ -935,9 +935,9 @@ def va(cache):
     with baca.scope(m.get(31, 37)) as o:
         baca.flat_glissando(o, "Eb3")
     with baca.scope(m.get(35, 37)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(38, 42)) as o:
         baca.breathe(o.pleaf(-1))
@@ -946,9 +946,9 @@ def va(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(43, 45)) as o:
@@ -970,9 +970,9 @@ def va(cache):
     with baca.scope(m.get(46, 50)) as o:
         baca.flat_glissando(o, "C3")
     with baca.scope(m.get(48, 50)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(51, 54)) as o:
         baca.breathe(o.pleaf(-1))
@@ -981,9 +981,9 @@ def va(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(55, 56)) as o:
@@ -1005,9 +1005,9 @@ def va(cache):
     with baca.scope(m.get(57, 60)) as o:
         baca.flat_glissando(o, "B2")
     with baca.scope(m.get(59, 60)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(61, 63)) as o:
         baca.breathe(o.pleaf(-1))
@@ -1016,9 +1016,9 @@ def va(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(
             o.phead(0),
@@ -1039,9 +1039,9 @@ def va(cache):
     with baca.scope(m.get(65, 67)) as o:
         baca.flat_glissando(o, "Gb3")
     with baca.scope(m.get(66, 67)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(68, 69)) as o:
         baca.breathe(o.pleaf(-1))
@@ -1050,9 +1050,9 @@ def va(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(70, 71)) as o:
@@ -1066,9 +1066,9 @@ def va(cache):
         library.bcps(o, -6, clt=True, staff_padding=3.5)
         baca.flat_glissando(o, "Ab3", stop_pitch="B2")
     with baca.scope(m[71]) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(73, 92)) as o:
         baca.dynamic(
@@ -1093,9 +1093,9 @@ def vc(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         ),
         baca.dynamic(o.phead(0), "p")
     for item in [(2, 9), (22, 27), (38, 42), (51, 54), (61, 63), (68, 69)]:
@@ -1120,9 +1120,9 @@ def vc(cache):
     with baca.scope(m.get(14, 21)) as o:
         baca.flat_glissando(o, "D3")
     with baca.scope(m.get(18, 21)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(22, 27)) as o:
         baca.breathe(
@@ -1134,9 +1134,9 @@ def vc(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(28, 30)) as o:
@@ -1159,9 +1159,9 @@ def vc(cache):
     with baca.scope(m.get(31, 37)) as o:
         baca.flat_glissando(o, "Db3")
     with baca.scope(m.get(35, 37)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(38, 42)) as o:
         baca.breathe(
@@ -1173,9 +1173,9 @@ def vc(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(43, 45)) as o:
@@ -1197,9 +1197,9 @@ def vc(cache):
     with baca.scope(m.get(46, 50)) as o:
         baca.flat_glissando(o, "B2")
     with baca.scope(m.get(48, 50)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(51, 54)) as o:
         baca.breathe(
@@ -1211,9 +1211,9 @@ def vc(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(55, 56)) as o:
@@ -1235,9 +1235,9 @@ def vc(cache):
     with baca.scope(m.get(57, 60)) as o:
         baca.flat_glissando(o, "Bb2")
     with baca.scope(m.get(59, 60)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(61, 63)) as o:
         baca.breathe(
@@ -1249,9 +1249,9 @@ def vc(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(
             o.phead(0),
@@ -1277,9 +1277,9 @@ def vc(cache):
     with baca.scope(m.get(65, 67)) as o:
         baca.flat_glissando(o, "A2")
     with baca.scope(m.get(66, 67)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(68, 69)) as o:
         baca.breathe(
@@ -1291,9 +1291,9 @@ def vc(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(70, 71)) as o:
@@ -1307,9 +1307,9 @@ def vc(cache):
         library.bcps(o, -5, clt=True, staff_padding=3.5)
         baca.flat_glissando(o, "Ab3", stop_pitch="Ab2")
     with baca.scope(m[71]) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
     with baca.scope(m.get(73, 87)) as o:
         baca.spanners.beam(o.tleaves())

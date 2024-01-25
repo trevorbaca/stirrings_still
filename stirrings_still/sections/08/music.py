@@ -472,18 +472,18 @@ def v2(cache):
             baca.flat_glissando(o, "B4")
     with baca.scope(m.get(33, 34)) as o:
         baca.alternate_bow_strokes(o.pheads())
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.hairpin(
             o.rleaves(),
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
         baca.pitch(o, "F5")
         baca.override.tuplet_bracket_staff_padding(o, 1)
@@ -496,18 +496,18 @@ def v2(cache):
             )
     with baca.scope(m.get(53, 54)) as o:
         baca.alternate_bow_strokes(o.pheads())
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.hairpin(
             o.rleaves(),
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
         baca.pitch(o, "F5")
         baca.override.tuplet_bracket_staff_padding(o, 1)
@@ -578,9 +578,9 @@ def vc(cache):
             "p <",
             bookend=False,
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {6 + 6.5}"),
+            staff_padding=6 + 6.5,
         )
         library.transition_bcps(o, staff_padding=6)
     with baca.scope(m.get(7, 8)) as o:
@@ -641,9 +641,9 @@ def vc(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             pieces=baca.select.mgroups(o.rleaves(), [3, 2 + 1]),
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            staff_padding=10.5,
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -4, clt=True, staff_padding=3)

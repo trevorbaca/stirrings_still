@@ -533,9 +533,9 @@ def vc(cache):
     with baca.scope(m.get(6, 8)) as o:
         baca.hairpin(o.rleaves(), "(fff) > p")
     with baca.scope(m.get(11, 12)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {3 + 6}"),
+            staff_padding=3 + 6,
         )
         library.cello_cell_bcps(o, staff_padding=3)
     with baca.scope(m.get(13, 22)) as o:

@@ -676,13 +676,13 @@ def v1(cache):
     m = cache["v1"]
     with baca.scope(m.get(1, 7)) as o:
         baca.alternate_bow_strokes(o.pheads())
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
         baca.override.tuplet_number_denominator(o)
     for item in [(1, 7), (14, 24)]:
@@ -712,9 +712,9 @@ def v1(cache):
         )
         baca.flat_glissando(o.pleaves(), "C5")
     with baca.scope(m.get(12, 24)) as o:
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.hairpin(
             (),
@@ -724,9 +724,9 @@ def v1(cache):
     with baca.scope(m.get(14, 15)) as o:
         baca.alternate_bow_strokes(o.pheads())
     with baca.scope(m.get(14, 24)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
     with baca.scope(m.get(16, 17)) as o:
         baca.alternate_bow_strokes(o.pheads())
@@ -1024,9 +1024,9 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="very-tight",
             )
-            baca.damp_spanner(
+            baca.spanners.damp(
                 baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                staff_padding=8,
             ),
             baca.hairpin(
                 o.rleaves(),
@@ -1084,9 +1084,9 @@ def tutti(cache):
             baca.hairpin(o.rleaves(), ">o niente")
         with baca.scope(m[65]) as o:
             baca.pitch(o, "Eb5")
-            baca.damp_spanner(
+            baca.spanners.damp(
                 baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
             if name == "v1":
                 baca.dynamic(
@@ -1120,13 +1120,13 @@ def v2(cache, time_signatures):
         )
     with baca.scope(m.get(1, 7)) as o:
         baca.alternate_bow_strokes(o.pheads())
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
         baca.override.tuplet_number_denominator(o)
     with baca.scope(m.get(1, 17)) as o:
@@ -1142,16 +1142,16 @@ def v2(cache, time_signatures):
     with baca.scope(m.get(12, 13)) as o:
         baca.alternate_bow_strokes(o.pheads())
     with baca.scope(m.get(12, 17)) as o:
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.override.tuplet_number_denominator(o)
     for item in [(12, 25), 27]:
         with baca.scope(m.get(item)) as o:
-            baca.half_clt_spanner(
+            baca.spanners.half_clt(
                 baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 10.5"),
+                staff_padding=10.5,
             )
     with baca.scope(m.get(12, 27)) as o:
         baca.hairpin(
@@ -1299,9 +1299,9 @@ def va(cache):
     with baca.scope(m.get(1, 5)) as o:
         baca.alternate_bow_strokes(o.pheads())
         baca.clef(o.leaf(0), "treble")
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
         with baca.scope(o.rleaf(-1)) as u:
             baca.clef(u, "alto")
@@ -1309,9 +1309,9 @@ def va(cache):
         baca.pitch(o, "Eqs5")
         baca.override.tuplet_bracket_staff_padding(o, 1)
     with baca.scope(m.get(1, 7)) as o:
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
     with baca.scope(m.get(5, 7)) as o:
         baca.hairpin(
@@ -1332,9 +1332,9 @@ def va(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.flat_glissando(o, "Ab3")
@@ -1356,7 +1356,7 @@ def va(cache):
         )
     for item in [(23, 25), 27]:
         with baca.scope(m.get(item)) as o:
-            baca.half_clt_spanner(
+            baca.spanners.half_clt(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
             )
@@ -1483,13 +1483,13 @@ def vc(cache):
         baca.alternate_bow_strokes(o.pheads())
         baca.clef(o.leaf(0), "treble")
         baca.clef(o.rleaf(-1), "bass")
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
         baca.pitch(o, "Dtqs5")
         baca.override.tuplet_number_denominator(o)
@@ -1515,9 +1515,9 @@ def vc(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
         )
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.flat_glissando(o.pleaves(), "G3")
     with baca.scope(m.get(12, 19)) as o:
@@ -1539,14 +1539,14 @@ def vc(cache):
             baca.override.clef_extra_offset(u, (-1, 0))
         baca.pitch(o.pleaves()[:-1], "Dtqs5")
     with baca.scope(m.get(16, 19)) as o:
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5 + 2.5}"),
+            staff_padding=4 + 6.5 + 2.5,
         )
     with baca.scope(m.get(16, 25)) as o:
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            staff_padding=4 + 6.5,
         )
     with baca.scope(m.get(18, 19)) as o:
         baca.alternate_bow_strokes(o.pheads())
@@ -1582,9 +1582,9 @@ def vc(cache):
             "mf -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+            staff_padding=4 + 6.5,
         )
         baca.spanners.tasto(
             o.rleaves(),

@@ -547,18 +547,18 @@ def v2(cache):
         baca.flat_glissando(o, "Bb4")
     with baca.scope(m.get(28, 29)) as o:
         baca.alternate_bow_strokes(o.pheads())
-        baca.damp_spanner(
+        baca.spanners.damp(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            staff_padding=8,
         )
         baca.hairpin(
             o.rleaves(),
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.half_clt_spanner(
+        baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
         baca.pitch(o, "F5")
     with baca.scope(m[56]) as o:
@@ -684,9 +684,9 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight-poss-grind-at-talon",
             )
-            baca.damp_spanner(
+            baca.spanners.damp(
                 baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                staff_padding=8,
             )
             baca.flat_glissando(o, "G4")
             baca.hairpin(
@@ -700,9 +700,9 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight-poss-grind-at-talon",
             )
-            baca.damp_spanner(
+            baca.spanners.damp(
                 baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                staff_padding=8,
             )
             baca.hairpin(
                 o.rleaves(),
@@ -733,9 +733,9 @@ def tutti(cache):
             )
         with baca.scope(m.get(12, 27)) as o:
             baca.breathe(o.pleaf(-1))
-            baca.damp_spanner(
+            baca.spanners.damp(
                 baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                staff_padding=8,
             )
         with baca.scope(m.get(16, 19)) as o:
             baca.dynamic(o.phead(0), "p", redundant=True)
@@ -771,9 +771,9 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="wide",
             )
-            baca.damp_spanner(
+            baca.spanners.damp(
                 baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                staff_padding=8,
             )
             baca.hairpin(
                 (),
