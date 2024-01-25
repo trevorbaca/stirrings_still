@@ -504,9 +504,9 @@ def v1(cache):
             baca.stem_tremolo(plt)
         for plt in abjad.select.get(baca.select.plts(o), [1], 2):
             baca.hairpin(plt, "pp --", bookend=False)
-            baca.xfb_spanner(
+            baca.spanners.xfb(
                 baca.select.rleaves(plt),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
             baca.flat_glissando(plt, "Etqf4")
         baca.pitch(o, "Etqf4", allow_repitch=True)
@@ -731,9 +731,9 @@ def v1_v2_va(cache):
                 baca.stem_tremolo(plt)
             for plt in abjad.select.get(baca.select.plts(o), [1], 2):
                 baca.hairpin(plt, "pp --", bookend=False)
-                baca.xfb_spanner(
+                baca.spanners.xfb(
                     baca.select.rleaves(plt),
-                    abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                    staff_padding=5.5,
                 )
         with baca.scope(m[34]) as o:
             if name == "v1":
@@ -918,9 +918,9 @@ def v2(cache):
             baca.stem_tremolo(plt)
         for plt in abjad.select.get(baca.select.plts(o), [1], 2):
             baca.hairpin(plt, "pp --", bookend=False)
-            baca.xfb_spanner(
+            baca.spanners.xfb(
                 baca.select.rleaves(plt),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
             baca.flat_glissando(plt, "Bqf3")
         baca.pitch(o, "Bqf3", allow_repitch=True)
@@ -1079,9 +1079,9 @@ def va(cache):
             baca.stem_tremolo(plt)
         for plt in abjad.select.get(baca.select.plts(o), [1], 2):
             baca.hairpin(plt, "pp --", bookend=False)
-            baca.xfb_spanner(
+            baca.spanners.xfb(
                 baca.select.rleaves(plt),
-                abjad.Tweak(r"- \tweak staff-padding 3"),
+                staff_padding=3,
             )
             baca.flat_glissando(plt, "A3")
         baca.pitch(o, "A3", allow_repitch=True)
@@ -1101,15 +1101,15 @@ def va(cache):
             baca.stem_tremolo(plt)
         for plt in abjad.select.get(baca.select.plts(o)[:-1], [1], 2):
             baca.hairpin(plt, "pp --", bookend=False)
-            baca.xfb_spanner(
+            baca.spanners.xfb(
                 baca.select.rleaves(plt),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
         for plt in baca.select.plts(o)[-1:]:
             baca.hairpin(plt, "pp --", bookend=False)
-            baca.xfb_spanner(
+            baca.spanners.xfb(
                 baca.select.rleaves(plt),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                staff_padding=5.5,
             )
         baca.dynamic(o.pleaf(-1), "!")
         baca.flat_glissando(o, "Gb4")
