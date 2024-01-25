@@ -386,7 +386,7 @@ def v1(cache):
             pieces=baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
         )
     with baca.scope(m[6]) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.circle_bow_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -569,7 +569,7 @@ def vc(cache):
         )
         baca.flat_glissando(o, "Ab2", hide_middle_stems=True)
     with baca.scope(m[6]) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.pitches(o, "C#4 F4 G2 B3 D3")
         baca.glissando(o.tleaves())
@@ -860,7 +860,7 @@ def v1_v2(cache):
             )
             if name == "v1":
                 baca.flat_glissando(o, "Aqs4", right_broken=True)
-                baca.beam(o.tleaves())
+                baca.spanners.beam(o.tleaves())
                 baca.markup(
                     o.pleaf(0),
                     r"\baca-thirteen-d-flat",

@@ -88,7 +88,7 @@ def v1(cache):
     name = "v1"
     m = cache[name]
     with baca.scope(m.get(1, 7)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.circle_bow_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -233,7 +233,7 @@ def vc(cache):
         )
         baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(1, 6)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.pitches(o, "G2 B3 D3 C#4 F4")
         baca.glissando(o.rleaves())
         library.transition_bcps(o, final_spanner=True, staff_padding=6)

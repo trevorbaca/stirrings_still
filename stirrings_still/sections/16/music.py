@@ -271,7 +271,7 @@ def v1(cache):
             pieces=baca.select.lparts(o.rleaves(), [2, 4, 1]),
         )
     with baca.scope(m.get(21, 25)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "A4", stop_pitch="Bb5")
 
 
@@ -348,7 +348,7 @@ def v2(cache):
             pieces=baca.select.lparts(o.rleaves(), [1, 2, 1]),
         )
     with baca.scope(m.get(20, 25)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "A3", stop_pitch="Gb4")
 
 
@@ -385,7 +385,7 @@ def va(cache):
             pieces=baca.select.cmgroups(o.rleaves(), [1, 2]),
         )
     with baca.scope(m.get(21, 25)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "A3", stop_pitch="B3")
 
 
@@ -424,7 +424,7 @@ def vc(cache):
             pieces=baca.select.cmgroups(o.rleaves(), [1, 2]),
         )
     with baca.scope(m.get(19, 25)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "A2", stop_pitch="C3")
 
 
