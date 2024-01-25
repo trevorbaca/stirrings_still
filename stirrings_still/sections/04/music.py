@@ -603,7 +603,7 @@ def v1_v2_va(cache):
             )
             if name == "v1":
                 baca.flat_glissando(o, "Aqs4")
-                baca.beam(o.tleaves())
+                baca.spanners.beam(o.tleaves())
                 baca.markup(
                     o.pleaf(0),
                     r"\baca-thirteen-d-flat",

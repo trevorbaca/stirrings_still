@@ -224,11 +224,11 @@ def vc(cache):
     with baca.scope(m[1]) as o:
         baca.flat_glissando(o, "B0")
         baca.hairpin(o, "o< mf")
-        baca.ottava_bassa(o.tleaves())
+        baca.spanners.ottava_bassa(o.tleaves())
     for item in [(3, 4), (6, 8), (10, 15)]:
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "B0", hide_middle_stems=True)
-            baca.ottava_bassa(o.tleaves())
+            baca.spanners.ottava_bassa(o.tleaves())
     with baca.scope(m.get(3, 4)) as o:
         baca.hairpin(
             (),

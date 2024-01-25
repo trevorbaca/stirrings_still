@@ -1312,7 +1312,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
         )
     with baca.scope(m.get(73, 87)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
     with baca.scope(m.get(73, 88)) as o:
         baca.dynamic(
             o.phead(0),
@@ -1325,7 +1325,7 @@ def vc(cache):
             o.pleaf(0),
             r"\stirrings-still-tuning-peg-slowly-detune-markup",
         )
-        baca.ottava_bassa(o.tleaves())
+        baca.spanners.ottava_bassa(o.tleaves())
     with baca.scope(m.get(88, 92)) as o:
         baca.flat_glissando(o, "B0", hide_middle_stems=True, right_broken=True)
 
