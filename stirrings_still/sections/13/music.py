@@ -191,7 +191,7 @@ def v1(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "D6", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
@@ -213,7 +213,7 @@ def v1(cache):
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(abjad.select.leaves(o)[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
@@ -224,7 +224,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
     with baca.scope(m.get(25, 28)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(abjad.select.leaves(o)[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
@@ -246,7 +246,7 @@ def v1_v2_va(cache):
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 5)
         with baca.scope(m.get(1, 12)) as o:
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.mgroups(o, [8, 4]),
                 "o< f >o",
                 bookend=False,
@@ -262,7 +262,7 @@ def v1_v2_va(cache):
                 ">o",
             )
         with baca.scope(m.get(21, 32)) as o:
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.mgroups(o, [5, 3, 4]),
                 "o< fff >o ! o< fff",
             )
@@ -316,7 +316,7 @@ def v2(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "Fqs5", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
@@ -341,7 +341,7 @@ def v2(cache):
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(abjad.select.leaves(o)[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
@@ -352,7 +352,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
     with baca.scope(m.get(25, 28)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(abjad.select.leaves(o)[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
@@ -393,7 +393,7 @@ def va(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "Aqf4", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
@@ -415,7 +415,7 @@ def va(cache):
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(abjad.select.leaves(o)[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
@@ -426,7 +426,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
     with baca.scope(m.get(25, 28)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(o.leaves()[1:]),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
@@ -453,7 +453,7 @@ def vc(cache):
             5.5,
         )
     with baca.scope(m.get(7, 32)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]),
             "(fff) > f < fff -- (fff) > f < fff -- (fff) > f < fff",
             bookend=False,

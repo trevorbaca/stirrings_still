@@ -393,7 +393,7 @@ def tutti(cache):
             baca.override.hairpin_shorten_pair(o, (0, 5))
             baca.untie(o.leaves())
             leaves = baca.select.rleak(baca.select.ltleaves(o))
-            baca.scp_spanner(
+            baca.piecewise.scp(
                 (),
                 "T -> P ->",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -537,19 +537,19 @@ def vc(cache):
         baca.clef(o.leaf(0), "bass")
     for n in [1, 3, 7, 9]:
         with baca.scope(m[n]) as o:
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.lparts(o.rleaves(), [1, 2]),
                 "o< f >o !",
             )
     with baca.scope(m.get(5, 6)) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m[11]) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.lparts(o.rleaves(), [1, 2]),
             "o< f -- !",
         )
     with baca.scope(m[14]) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.lparts(o.rleaves(), [1, 2]),
             "f -- ! >o niente",
         )

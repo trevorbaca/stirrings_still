@@ -105,7 +105,7 @@ def v1(cache):
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [1, 2, 1, 2, 1, 2]),
             "pp < f > pp < f > pp < f >o niente",
         )
@@ -128,7 +128,7 @@ def v2(cache):
         cache.rebuild()
         m = cache["v2"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [2, 1, 2, 1, 1, 2]),
             "pp < f > pp < f > pp < f >o niente",
         )
@@ -171,7 +171,7 @@ def vc(cache):
             hide_middle_stems=True,
             left_broken=True,
         )
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [2, 4, 2 + 1]),
             "(p) < ff -- (ff) >o niente",
         )
@@ -198,7 +198,7 @@ def tutti(cache):
             baca.override.dls_staff_padding(o.leaves(), 6)
             baca.override.tuplet_bracket_down(o.leaves())
         with baca.scope(m.get(12, 13)) as o:
-            baca.circle_bow_spanner(
+            baca.piecewise.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight-poss-grind-at-talon",

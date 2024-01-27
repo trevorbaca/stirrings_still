@@ -380,13 +380,13 @@ def v1(cache):
     with baca.scope(m.get(1, 5)) as o:
         baca.flat_glissando(o, "Gb4", hide_middle_stems=True)
     with baca.scope(m.get(1, 6)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
             "niente o< mp -- !",
         )
     with baca.scope(m[6]) as o:
         baca.spanners.beam(o.tleaves())
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -418,18 +418,18 @@ def v1(cache):
 def v2(cache):
     m = cache["v2"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 5 + 1]),
             "niente o< mp -- !",
         )
-        baca.text_spanner(
+        baca.piecewise.text(
             o.rleaves(),
             "2° =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
             lilypond_id=1,
         )
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             "rasp -> flaut. =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -440,13 +440,13 @@ def v2(cache):
     with baca.scope(m.get(1, 10)) as o:
         baca.flat_glissando(o, "F4", hide_middle_stems=True)
     with baca.scope(m.get(9, 14)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [2, 4 + 1]),
             "(mp) > p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
     with baca.scope(m.get(9, 16)) as o:
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             "flaut. (2°) -> ord. ->"
             r" \baca-circle-tight-markup ->"
@@ -517,13 +517,13 @@ def va(cache):
     with baca.scope(m.get(1, 5)) as o:
         baca.flat_glissando(o, "Ab3", hide_middle_stems=True)
     with baca.scope(m.get(1, 6)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
             "niente o< mp -- !",
         )
     with baca.scope(m[6]) as o:
         baca.pitch(o, "Bqf3")
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
@@ -558,7 +558,7 @@ def vc(cache):
     with baca.scope(m.leaves()) as o:
         baca.clef(o.leaf(0), "bass")
     with baca.scope(m.get(1, 5)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 2 + 1]),
             "niente o< mp -- !",
         )
@@ -585,7 +585,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
         )
-        baca.bow_speed_spanner(
+        baca.piecewise.bow_speed(
             o.leaves(),
             "flaut. -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -602,7 +602,7 @@ def vc(cache):
     with baca.scope(m.get(9, 16)) as o:
         baca.spanners.hairpin(o.rleaves(), "(mp) < ff")
     with baca.scope(m.get(9, 27)) as o:
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             "no overpressure -> molto overpressure =|" " (molto) -> no overpressure.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -610,7 +610,7 @@ def vc(cache):
         )
     with baca.scope(m.get(23, 31)) as o:
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -1)
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [5, 4 + 1]),
             "(ff) > ppp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -628,7 +628,7 @@ def vc(cache):
             stop_pitch="Db2",
         )
     with baca.scope(m.get(47, 51)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 2 + 1]),
             "(ppp) < p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -649,12 +649,12 @@ def vc(cache):
                 8,
             )
             if n == 52:
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     baca.select.lparts(o.rleaves(), [1, 2]),
                     "o< f -- !",
                 )
             elif n == 55:
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     baca.select.lparts(o.rleaves(), [1, 2]),
                     "f -- ! >o !",
                 )
@@ -679,13 +679,13 @@ def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(23, 28)) as o:
-            baca.circle_bow_spanner(
+            baca.piecewise.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="wide",
             )
             leaves = baca.select.rleak(baca.select.ltleaves(o))
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.mgroups(leaves, [2, 4 + 1]),
                 "niente o< p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -719,7 +719,7 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             leaves = baca.select.rleak(baca.select.ltleaves(o))
-            baca.text_spanner(
+            baca.piecewise.text(
                 (),
                 r"\baca-circle-very-wide-markup -> \baca-circle-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -732,7 +732,7 @@ def v1_v2_va(cache):
                 "mf -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
-            baca.text_spanner(
+            baca.piecewise.text(
                 (),
                 r"\baca-circle-wide-markup -> \baca-circle-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -745,7 +745,7 @@ def v1_v2_va(cache):
                 "f -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
-            baca.text_spanner(
+            baca.piecewise.text(
                 (),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -753,7 +753,7 @@ def v1_v2_va(cache):
                 pieces=baca.select.mgroups(o.rleaves(), [2, 2 + 1]),
             )
         with baca.scope(m.get(47, 51)) as o:
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.mgroups(o, [3, 2]),
                 "ff -- ! > mf",
             )
@@ -778,7 +778,7 @@ def v1_v2_va(cache):
                     abjad.Tweak(r"- \tweak padding 1"),
                 )
                 baca.flat_glissando(o, "Bqf3")
-            baca.text_spanner(
+            baca.piecewise.text(
                 (),
                 r"\baca-circle-very-tight-markup -> \baca-circle-wide-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -835,7 +835,7 @@ def v1_v2(cache):
     for name in ["v1", "v2"]:
         m = cache[name]
         with baca.scope(m[56]) as o:
-            baca.circle_bow_spanner(
+            baca.piecewise.circle_bow(
                 # TODO: allow spanner to run to end of section
                 o.leaves(),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -871,7 +871,7 @@ def v1_va(cache):
     for name in ["v1", "va"]:
         m = cache[name]
         with baca.scope(m.get(7, 16)) as o:
-            baca.text_spanner(
+            baca.piecewise.text(
                 (),
                 r"\baca-circle-very-tight-markup ->"
                 r" \baca-circle-tight-markup ->"
@@ -974,14 +974,14 @@ def tutti(cache):
                     abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
                 )
             if name in ("v1", "va", "vc"):
-                baca.text_spanner(
+                baca.piecewise.text(
                     o.rleaves(),
                     "2° =|",
                     abjad.Tweak(r"- \tweak staff-padding 8"),
                     bookend=False,
                     lilypond_id=1,
                 )
-                baca.text_spanner(
+                baca.piecewise.text(
                     (),
                     "rasp -> flaut. =|",
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -990,7 +990,7 @@ def tutti(cache):
                 )
                 library.urtext_spanner(o.rleaves(), "urtext (rasp) -|", 10.5)
         with baca.scope(m.get(36, 37)) as o:
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
                 "niente o< mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -1008,14 +1008,14 @@ def tutti(cache):
                 "vc": "Ab2",
             }[name]
             baca.flat_glissando(o, pitch)
-            baca.text_spanner(
+            baca.piecewise.text(
                 o.rleaves(),
                 "2° =|",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
                 bookend=False,
                 lilypond_id=1,
             )
-            baca.text_spanner(
+            baca.piecewise.text(
                 (),
                 "rasp -> poco rasp =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
