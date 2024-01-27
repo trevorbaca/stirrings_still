@@ -210,7 +210,7 @@ def tutti(cache):
                 baca.select.rleak(baca.select.tleaves(o)),
                 staff_padding=8,
             )
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),

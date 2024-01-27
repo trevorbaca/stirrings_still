@@ -661,7 +661,7 @@ def tutti(cache):
             baca.override.tuplet_bracket_down(o.leaves())
             baca.override.tuplet_bracket_staff_padding(o.leaves(), 1)
         with baca.scope(m[1]) as o:
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -834,7 +834,7 @@ def v2(cache):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m[71]) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpin(o.rleaves(), "p >o !")
+        baca.spanners.hairpin(o.rleaves(), "p >o !")
         baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
             staff_padding=4.5 + 6,
