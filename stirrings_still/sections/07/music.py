@@ -538,23 +538,20 @@ def vc(cache):
     for n in [1, 3, 7, 9]:
         with baca.scope(m[n]) as o:
             baca.hairpin(
-                (),
+                baca.select.lparts(o.rleaves(), [1, 2]),
                 "o< f >o !",
-                pieces=baca.select.lparts(o.rleaves(), [1, 2]),
             )
     with baca.scope(m.get(5, 6)) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m[11]) as o:
         baca.hairpin(
-            (),
+            baca.select.lparts(o.rleaves(), [1, 2]),
             "o< f -- !",
-            pieces=baca.select.lparts(o.rleaves(), [1, 2]),
         )
     with baca.scope(m[14]) as o:
         baca.hairpin(
-            (),
+            baca.select.lparts(o.rleaves(), [1, 2]),
             "f -- ! >o niente",
-            pieces=baca.select.lparts(o.rleaves(), [1, 2]),
         )
     with baca.scope(m[19]) as o:
         baca.clef(o.leaf(0), "treble")

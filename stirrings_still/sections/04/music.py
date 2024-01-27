@@ -533,10 +533,9 @@ def v1_v2(cache):
             )
         with baca.scope(m.get(86, 92)) as o:
             baca.hairpin(
-                (),
+                baca.select.mgroups(o.rleaves(), [3, 4 + 1]),
                 "(p) < mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
-                pieces=baca.select.mgroups(o.rleaves(), [3, 4 + 1]),
             )
         with baca.scope(m.get(90, 92)) as o:
             library.urtext_spanner(o.rleaves(), "urtext (NEW cds) -|", 8)
@@ -568,9 +567,8 @@ def v1_v2_va(cache):
             with baca.scope(m[item]) as o:
                 baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
                 baca.hairpin(
-                    (),
+                    baca.select.clparts(o, [1]),
                     "p <| mp p < mp",
-                    pieces=baca.select.clparts(o, [1]),
                 )
                 baca.stop_on_string(o.pleaf(-1))
                 baca.spanners.tasto(
@@ -689,31 +687,27 @@ def tutti_1(cache):
             )
         with baca.scope(m.get(7, 12)) as o:
             baca.hairpin(
-                (),
+                baca.select.lts(o, nontrivial=True),
                 "mp p",
                 bookend=False,
-                pieces=baca.select.lts(o, nontrivial=True),
             )
         with baca.scope(m.get(13, 18)) as o:
             baca.hairpin(
-                (),
+                baca.select.lts(o, nontrivial=True),
                 "mf mp",
                 bookend=False,
-                pieces=baca.select.lts(o, nontrivial=True),
             )
         with baca.scope(m.get(19, 24)) as o:
             baca.hairpin(
-                (),
+                baca.select.lts(o, nontrivial=True),
                 '"f" mf',
                 bookend=False,
-                pieces=baca.select.lts(o, nontrivial=True),
             )
         with baca.scope(m.get(25, 30)) as o:
             baca.hairpin(
-                (),
+                baca.select.lts(o, nontrivial=True),
                 '"ff" "f"',
                 bookend=False,
-                pieces=baca.select.lts(o, nontrivial=True),
             )
         with baca.scope(m.get(31, 36)) as o:
             baca.dynamic(o.phead(0), '"ff"')
@@ -879,10 +873,9 @@ def vc(cache):
         library.clouded_pane_spanner(o.rleaves(), "clouded pane (arrival) -|", 5.5)
     with baca.scope(m.get(86, 92)) as o:
         baca.hairpin(
-            (),
+            baca.select.mgroups(o.rleaves(), [3, 4 + 1]),
             "(p) < fff -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            pieces=baca.select.mgroups(o.rleaves(), [3, 4 + 1]),
         )
     with baca.scope(cache["vcr"][93]) as o:
         baca.override.tacet(o.mmrests())

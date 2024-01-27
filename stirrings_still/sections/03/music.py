@@ -776,46 +776,40 @@ def tutti(cache):
                 staff_padding=8,
             )
             baca.hairpin(
-                (),
+                baca.select.runs(o),
                 "mf mf mp p pp pp",
                 bookend=False,
-                pieces=baca.select.runs(o),
             )
         with baca.scope(m.get(36, 39)) as o:
             baca.hairpin(
-                (),
+                library.grouped_pheads(o),
                 "pp pp p p mp mp",
                 bookend=False,
-                pieces=library.grouped_pheads(o),
             )
         with baca.scope(m.get(40, 43)) as o:
             baca.hairpin(
-                (),
+                library.grouped_pheads(o),
                 "mf mp mp p p pp pp",
                 bookend=False,
-                pieces=library.grouped_pheads(o),
             )
         with baca.scope(m.get(44, 47)) as o:
             baca.hairpin(
-                (),
+                library.grouped_pheads(o),
                 "pp pp p mp mf",
                 bookend=False,
-                pieces=library.grouped_pheads(o),
             )
         with baca.scope(m.get(48, 51)) as o:
             baca.hairpin(
-                (),
+                library.grouped_pheads(o),
                 "f mf mp mp p p pp",
                 bookend=False,
-                pieces=library.grouped_pheads(o),
             )
         with baca.scope(m.get(52, 55)) as o:
             baca.hairpin(
-                (),
+                library.grouped_pheads(o, None, -1),
                 # "pp p mp mf f ff",
                 "pp p mp mf f",
                 bookend=False,
-                pieces=library.grouped_pheads(o, None, -1),
             )
         with baca.scope(m.get(36, 59)) as o:
             baca.circle_bow_spanner(
@@ -889,9 +883,8 @@ def vc(cache):
         baca.pitch(o, "B1")
         baca.clef(o.leaf(0), "bass")
         baca.hairpin(
-            (),
+            library.rleaves_partition_by_counts(o.rleaves(), [1, 1, 1]),
             "o< f >o niente",
-            pieces=library.rleaves_partition_by_counts(o.rleaves(), [1, 1, 1]),
         )
         library.clouded_pane_spanner(
             o.rleaves(),

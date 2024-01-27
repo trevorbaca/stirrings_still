@@ -157,18 +157,16 @@ def v1_v2_va(cache):
             baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
             baca.override.dynamic_text_self_alignment_x(o.leaf(-1), -0.75)
             baca.hairpin(
-                (),
+                baca.select.mgroups(o, [2, 5]),
                 "appena-udibile -- ! < fff-poco-scratch",
-                pieces=baca.select.mgroups(o, [2, 5]),
             )
         with baca.scope(m.get(5, 11)) as o:
             library.urtext_spanner(o.rleaves(), "urtext (ds field) -|", 8)
         with baca.scope(m.get(12, 17)) as o:
             baca.hairpin(
-                (),
+                baca.select.mgroups(o.rleaves(), [2, 4 + 1]),
                 '"fff" > pp -- !',
                 abjad.Tweak(r"- \tweak to-barline ##t"),
-                pieces=baca.select.mgroups(o.rleaves(), [2, 4 + 1]),
             )
             baca.spanners.half_clt(
                 # TODO: allow spanner to extend to phantom measure
