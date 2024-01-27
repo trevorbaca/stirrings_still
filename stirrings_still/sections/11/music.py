@@ -454,12 +454,12 @@ def v1(cache):
             "F5",
         )
     with baca.scope(m.get(3, 4)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide-poss",
         )
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -510,7 +510,7 @@ def v1(cache):
         baca.breathe(o.pleaf(-1))
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[21]) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
@@ -536,7 +536,7 @@ def v1(cache):
         baca.breathe(o.pleaf(-1))
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.spanners.hairpin(o, '"ff" > mf')
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -554,7 +554,7 @@ def v1(cache):
         )
         baca.stem_tremolo(o.pleaves())
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -564,7 +564,7 @@ def v1(cache):
     with baca.scope(m.get(32, 37)) as o:
         baca.accent(o.pheads())
         baca.stem_tremolo(o.pleaves())
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
@@ -576,7 +576,7 @@ def v1(cache):
             pieces=baca.select.cmgroups(o.rleaves(), [1, 1, 1, 1, 2, 1]),
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -592,7 +592,7 @@ def v1(cache):
         baca.flat_glissando(o, "Bqf5")
     with baca.scope(m.get(38, 45)) as o:
         baca.accent(o.pheads())
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             r"\baca-null-markup || \baca-null-markup || \baca-damp-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -602,7 +602,7 @@ def v1(cache):
             pieces=baca.select.plts(o),
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "T1 -> T3 -> T2 -> T3 ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -619,7 +619,7 @@ def v1(cache):
             o.leaves(),
             staff_padding=8,
         )
-        baca.scp_spanner(
+        baca.piecewise.scp(
             # TODO: allow spanner to extend to phantom measure
             o.leaves(),
             "T poss. =|",
@@ -650,7 +650,7 @@ def tutti(cache):
             if name in ("v1", "v2", "vc"):
                 baca.spanners.hairpin(o.rleaves(), "pp < mp")
         with baca.scope(m.get(24, 31)) as o:
-            baca.text_spanner(
+            baca.piecewise.text(
                 o.rleaves(),
                 "each time more ponticello =|",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -658,7 +658,7 @@ def tutti(cache):
                 lilypond_id=2,
             )
         with baca.scope(m.get(32, 37)) as o:
-            baca.text_spanner(
+            baca.piecewise.text(
                 o.rleaves(),
                 "each time less ponticello =|",
                 abjad.Tweak(r"- \tweak staff-padding 10.5"),
@@ -685,12 +685,12 @@ def v2(cache):
             "Eb5",
         )
     with baca.scope(m.get(3, 4)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide-poss",
         )
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -739,7 +739,7 @@ def v2(cache):
         baca.breathe(o.pleaf(-1))
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[21]) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
@@ -762,7 +762,7 @@ def v2(cache):
         baca.breathe(o.pleaf(-1))
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.spanners.hairpin(o, '"ff" > mf')
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -779,7 +779,7 @@ def v2(cache):
         )
         baca.stem_tremolo(o.pleaves())
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -789,7 +789,7 @@ def v2(cache):
     with baca.scope(m.get(32, 37)) as o:
         baca.accent(o.pheads())
         baca.stem_tremolo(o.pleaves())
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
@@ -801,7 +801,7 @@ def v2(cache):
             pieces=baca.select.cmgroups(o.rleaves(), [1, 2, 1, 1, 1, 1]),
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -816,7 +816,7 @@ def v2(cache):
         baca.flat_glissando(o, "Eb5")
     with baca.scope(m.get(38, 45)) as o:
         baca.accent(o.pheads())
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             r"\baca-null-markup || \baca-damp-markup =| \baca-null-markup ||",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -826,7 +826,7 @@ def v2(cache):
             pieces=baca.select.plts(o),
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "T1 -> T3 -> T2 -> T3 ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -843,7 +843,7 @@ def v2(cache):
             o.leaves(),
             staff_padding=8,
         ),
-        baca.scp_spanner(
+        baca.piecewise.scp(
             # TODO: allow spanner to extend to phantom measure
             o.leaves(),
             "T poss. =|",
@@ -866,12 +866,12 @@ def va(cache):
             "B3",
         )
     with baca.scope(m.get(3, 4)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide-poss",
         )
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -919,7 +919,7 @@ def va(cache):
         baca.stem_tremolo(o.pleaves())
         baca.flat_glissando(o, "G#3")
     with baca.scope(m[21]) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
@@ -942,7 +942,7 @@ def va(cache):
         baca.breathe(o.pleaf(-1))
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.spanners.hairpin(o, '"ff" > mf')
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -959,7 +959,7 @@ def va(cache):
         )
         baca.stem_tremolo(o.pleaves())
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -969,7 +969,7 @@ def va(cache):
     with baca.scope(m.get(32, 37)) as o:
         baca.accent(o.pheads())
         baca.stem_tremolo(o.pleaves())
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
@@ -981,7 +981,7 @@ def va(cache):
             pieces=baca.select.cmgroups(o.rleaves(), [1, 1, 2, 1, 1, 1]),
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -996,7 +996,7 @@ def va(cache):
         baca.flat_glissando(o, "F3")
     with baca.scope(m.get(38, 42)) as o:
         baca.accent(o.pheads())
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             r"\baca-null-markup || \baca-damp-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -1006,7 +1006,7 @@ def va(cache):
             pieces=baca.select.plts(o)[:-1],
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "T1 -> T3 -> T2 -> T3 ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1030,7 +1030,7 @@ def va(cache):
             staff_padding=8,
         )
         baca.spanners.hairpin(o, "p >o niente")
-        baca.scp_spanner(
+        baca.piecewise.scp(
             # TODO: allow spanner to extend to phantom measure
             o.leaves(),
             "T poss. =|",
@@ -1053,12 +1053,12 @@ def vc(cache):
             "F3",
         )
     with baca.scope(m.get(3, 4)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide",
         )
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1105,7 +1105,7 @@ def vc(cache):
         baca.breathe(o.pleaf(-1))
         baca.clef(o.leaf(0), "treble")
         baca.clef(o.rleaf(-1), "bass")
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.cmgroups(o),
             'niente o< "f" -- ! >o niente',
         )
@@ -1128,7 +1128,7 @@ def vc(cache):
         baca.dynamic(o.phead(0), "p")
         baca.stem_tremolo(o.pleaves())
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1138,14 +1138,14 @@ def vc(cache):
     with baca.scope(m.get(32, 37)) as o:
         baca.accent(o.pheads())
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             pieces=baca.select.plts(leaves)[:-1],
         )
         baca.stem_tremolo(o.pleaves())
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
@@ -1173,7 +1173,7 @@ def vc(cache):
             baca.override.dots_transparent(u)
             baca.override.stem_transparent(u)
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "T -> T poss. =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),

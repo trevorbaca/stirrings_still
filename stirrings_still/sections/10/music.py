@@ -156,14 +156,14 @@ def v1_v2_va(cache):
         with baca.scope(m.get(5, 11)) as o:
             baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
             baca.override.dynamic_text_self_alignment_x(o.leaf(-1), -0.75)
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.mgroups(o, [2, 5]),
                 "appena-udibile -- ! < fff-poco-scratch",
             )
         with baca.scope(m.get(5, 11)) as o:
             library.urtext_spanner(o.rleaves(), "urtext (ds field) -|", 8)
         with baca.scope(m.get(12, 17)) as o:
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.mgroups(o.rleaves(), [2, 4 + 1]),
                 '"fff" > pp -- !',
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -329,7 +329,7 @@ def vc(cache):
         baca.flat_glissando(o, "Bb1", hide_middle_stems=True)
         baca.spanners.hairpin(o, "pp < fff-poco-scratch")
     with baca.scope(m.get(12, 13)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",

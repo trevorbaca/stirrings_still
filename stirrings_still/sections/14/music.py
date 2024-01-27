@@ -188,7 +188,7 @@ def v1(cache):
         )
     with baca.scope(m.get(13, 19)) as o:
         baca.spanners.hairpin(o.rleaves(), "niente o< f")
-        baca.scp_spanner(
+        baca.piecewise.scp(
             o.rleaves(),
             "T -> O",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -217,14 +217,14 @@ def v1(cache):
         )
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
-        baca.hairpin(
+        baca.piecewise.hairpin(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "f < ff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -246,14 +246,14 @@ def v1(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
-        baca.hairpin(
+        baca.piecewise.hairpin(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "ff < fff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -263,11 +263,11 @@ def v1(cache):
     with baca.scope(m.get(37, 38)) as o:
         baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "G4", stop_pitch="F4")
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.cmgroups(o.rleaves()),
             "p -- ! >o niente",
         )
-        baca.text_spanner(
+        baca.piecewise.text(
             o.rleaves(),
             "slow bow -> stopped",
             abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
@@ -323,7 +323,7 @@ def v2(cache):
         )
     with baca.scope(m.get(13, 19)) as o:
         baca.spanners.hairpin(o.rleaves(), "niente o< f")
-        baca.scp_spanner(
+        baca.piecewise.scp(
             o.rleaves(),
             "T -> O",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -353,14 +353,14 @@ def v2(cache):
         )
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
-        baca.hairpin(
+        baca.piecewise.hairpin(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "f < ff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -382,14 +382,14 @@ def v2(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
-        baca.hairpin(
+        baca.piecewise.hairpin(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "ff < fff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -399,11 +399,11 @@ def v2(cache):
     with baca.scope(m.get(37, 38)) as o:
         baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "F4", stop_pitch="E4")
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.cmgroups(o.rleaves()),
             "p -- ! >o niente",
         )
-        baca.text_spanner(
+        baca.piecewise.text(
             o.rleaves(),
             "slow bow -> stopped",
             abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
@@ -423,7 +423,7 @@ def va(cache):
         )
     with baca.scope(m.get(13, 19)) as o:
         baca.spanners.hairpin(o.rleaves(), "niente o< f")
-        baca.scp_spanner(
+        baca.piecewise.scp(
             o.rleaves(),
             "T -> O",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -453,14 +453,14 @@ def va(cache):
         )
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
-        baca.hairpin(
+        baca.piecewise.hairpin(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "f < ff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -482,14 +482,14 @@ def va(cache):
         baca.stem_tremolo(o.pheads())
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
-        baca.hairpin(
+        baca.piecewise.hairpin(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "ff < fff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -499,11 +499,11 @@ def va(cache):
     with baca.scope(m.get(37, 38)) as o:
         baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "Ab3", stop_pitch="Gb3")
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.cmgroups(o.rleaves()),
             "p -- ! >o niente",
         )
-        baca.text_spanner(
+        baca.piecewise.text(
             o.rleaves(),
             "slow bow -> stopped",
             abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
@@ -539,14 +539,14 @@ def vc(cache):
         baca.spanners.hairpin(o.rleaves(), "(p) >o")
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
-        baca.hairpin(
+        baca.piecewise.hairpin(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "f < ff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -581,14 +581,14 @@ def vc(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
-        baca.hairpin(
+        baca.piecewise.hairpin(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "ff < fff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -597,7 +597,7 @@ def vc(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
         baca.flat_glissando(o, "B1")
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.cmgroups(o.rleaves()),
             "p -- ! >o niente",
         )
@@ -605,7 +605,7 @@ def vc(cache):
             o.rleaves(),
             staff_padding=3,
         )
-        baca.text_spanner(
+        baca.piecewise.text(
             o.rleaves(),
             "slow bow -> stopped",
             abjad.Tweak(r"- \tweak bound-details.right.padding 11"),

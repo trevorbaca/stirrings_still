@@ -89,7 +89,7 @@ def v1(cache):
     m = cache[name]
     with baca.scope(m.get(1, 7)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -149,7 +149,7 @@ def v2(cache):
     name = "v2"
     m = cache[name]
     with baca.scope(m.get(1, 7)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -181,7 +181,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
     with baca.scope(m.get(1, 7)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide-poss",
@@ -211,7 +211,7 @@ def va(cache):
 def vc(cache):
     m = cache["vc"]
     with baca.scope(m.leaves()) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o.leaves(), [5, 4, 1 + 1]),
             'p < "f" -- "f" >o niente',
             # TODO: extend hairpin to phantom measure

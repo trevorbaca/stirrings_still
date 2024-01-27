@@ -498,7 +498,7 @@ def v1(cache):
         baca.pitch(o, "Eb5")
     with baca.scope(m[57]) as o:
         baca.flat_glissando(o, "Bb4")
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide-poss",
@@ -513,7 +513,7 @@ def v1(cache):
         baca.spanners.hairpin(o, "pp < mp")
         baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(86, 92)) as o:
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "T -> P -> T -> P =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -532,7 +532,7 @@ def v1_v2(cache):
                 staff_padding=5.5,
             )
         with baca.scope(m.get(86, 92)) as o:
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.mgroups(o.rleaves(), [3, 4 + 1]),
                 "(p) < mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -566,7 +566,7 @@ def v1_v2_va(cache):
                 m = cache[name]
             with baca.scope(m[item]) as o:
                 baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     baca.select.clparts(o, [1]),
                     "p <| mp p < mp",
                 )
@@ -589,7 +589,7 @@ def v1_v2_va(cache):
             )
             library.urtext_spanner(o.rleaves(), "urtext (cds) -|", 8)
         with baca.scope(m[66]) as o:
-            baca.circle_bow_spanner(
+            baca.piecewise.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="wide",
@@ -640,7 +640,7 @@ def v1_v2_va(cache):
                 o.rleaves(),
                 "mp >o",
             )
-            baca.scp_spanner(
+            baca.piecewise.scp(
                 (),
                 "P -> T =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -649,7 +649,7 @@ def v1_v2_va(cache):
             )
             library.urtext_spanner(o.rleaves(), "urtext (resumes) -|", 8)
         with baca.scope(m.get(97, 98)) as o:
-            baca.circle_bow_spanner(
+            baca.piecewise.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight-poss-grind-at-talon",
@@ -686,25 +686,25 @@ def tutti_1(cache):
                 staff_padding=5.5,
             )
         with baca.scope(m.get(7, 12)) as o:
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 "mp p",
                 bookend=False,
             )
         with baca.scope(m.get(13, 18)) as o:
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 "mf mp",
                 bookend=False,
             )
         with baca.scope(m.get(19, 24)) as o:
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 '"f" mf',
                 bookend=False,
             )
         with baca.scope(m.get(25, 30)) as o:
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 '"ff" "f"',
                 bookend=False,
@@ -748,7 +748,7 @@ def v2(cache):
     with baca.scope(m.get(13, 24)) as o:
         baca.pitch(o, "Dqs5")
     with baca.scope(m[57]) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide-poss",
@@ -758,7 +758,7 @@ def v2(cache):
         baca.spanners.hairpin(o, "pp < mp")
         baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(86, 92)) as o:
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "T -> P -> T -> P =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -872,7 +872,7 @@ def vc(cache):
         baca.spanners.hairpin(cmgroups, "niente o< p")
         library.clouded_pane_spanner(o.rleaves(), "clouded pane (arrival) -|", 5.5)
     with baca.scope(m.get(86, 92)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 4 + 1]),
             "(p) < fff -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),

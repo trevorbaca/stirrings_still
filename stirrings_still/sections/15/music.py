@@ -104,7 +104,7 @@ def v1(cache):
     name = "v1"
     m = cache[name]
     with baca.scope(m.get(1, 6)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="granulation",
@@ -116,7 +116,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
     with baca.scope(m[7]) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -144,7 +144,7 @@ def v2(cache):
     name = "v2"
     m = cache[name]
     with baca.scope(m.get(1, 6)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="granulation",
@@ -156,7 +156,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
     with baca.scope(m[7]) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -174,7 +174,7 @@ def va(cache):
     name = "va"
     m = cache[name]
     with baca.scope(m.get(1, 6)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="granulation",
@@ -186,7 +186,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
     with baca.scope(m[7]) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -207,7 +207,7 @@ def vc(cache):
     name = "vc"
     m = cache[name]
     with baca.scope(m.get(1, 6)) as o:
-        baca.circle_bow_spanner(
+        baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="granulation",
