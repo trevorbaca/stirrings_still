@@ -218,11 +218,10 @@ def v1(cache):
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            (),
-            "f < ff >",
-            pieces=abjad.select.partition_by_counts(
+            abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
+            "f < ff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
@@ -248,11 +247,10 @@ def v1(cache):
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            (),
-            "ff < fff >",
-            pieces=abjad.select.partition_by_counts(
+            abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
+            "ff < fff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
@@ -266,9 +264,8 @@ def v1(cache):
         baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "G4", stop_pitch="F4")
         baca.hairpin(
-            (),
+            baca.select.cmgroups(o.rleaves()),
             "p -- ! >o niente",
-            pieces=baca.select.cmgroups(o.rleaves()),
         )
         baca.text_spanner(
             o.rleaves(),
@@ -357,11 +354,10 @@ def v2(cache):
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            (),
-            "f < ff >",
-            pieces=abjad.select.partition_by_counts(
+            abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
+            "f < ff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
@@ -387,11 +383,10 @@ def v2(cache):
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            (),
-            "ff < fff >",
-            pieces=abjad.select.partition_by_counts(
+            abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
+            "ff < fff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
@@ -405,9 +400,8 @@ def v2(cache):
         baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "F4", stop_pitch="E4")
         baca.hairpin(
-            (),
+            baca.select.cmgroups(o.rleaves()),
             "p -- ! >o niente",
-            pieces=baca.select.cmgroups(o.rleaves()),
         )
         baca.text_spanner(
             o.rleaves(),
@@ -460,11 +454,10 @@ def va(cache):
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            (),
-            "f < ff >",
-            pieces=abjad.select.partition_by_counts(
+            abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
+            "f < ff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
@@ -490,11 +483,10 @@ def va(cache):
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            (),
-            "ff < fff >",
-            pieces=abjad.select.partition_by_counts(
+            abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
+            "ff < fff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
@@ -508,9 +500,8 @@ def va(cache):
         baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "Ab3", stop_pitch="Gb3")
         baca.hairpin(
-            (),
+            baca.select.cmgroups(o.rleaves()),
             "p -- ! >o niente",
-            pieces=baca.select.cmgroups(o.rleaves()),
         )
         baca.text_spanner(
             o.rleaves(),
@@ -549,11 +540,10 @@ def vc(cache):
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            (),
-            "f < ff >",
-            pieces=abjad.select.partition_by_counts(
+            abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
+            "f < ff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
@@ -592,11 +582,10 @@ def vc(cache):
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
         baca.hairpin(
-            (),
-            "ff < fff >",
-            pieces=abjad.select.partition_by_counts(
+            abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
+            "ff < fff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
@@ -609,9 +598,8 @@ def vc(cache):
     with baca.scope(m.get(37, 38)) as o:
         baca.flat_glissando(o, "B1")
         baca.hairpin(
-            (),
+            baca.select.cmgroups(o.rleaves()),
             "p -- ! >o niente",
-            pieces=baca.select.cmgroups(o.rleaves()),
         )
         baca.spanners.tasto(
             o.rleaves(),
