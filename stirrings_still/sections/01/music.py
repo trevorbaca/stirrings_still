@@ -669,7 +669,7 @@ def v1_v2_va(cache):
             )
         with baca.scope(m.get(11, 16)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpin(o.leaves()[:2], "p <| f")
+            baca.spanners.hairpin(o.leaves()[:2], "p <| f")
             leaves = baca.select.rleak(o.leaves()[2:])
             baca.hairpin(
                 (),
