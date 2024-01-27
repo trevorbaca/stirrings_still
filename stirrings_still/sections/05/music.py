@@ -503,7 +503,10 @@ def v1(cache):
             baca.dynamic(plt[0], "sfp")
             baca.stem_tremolo(plt)
         for plt in abjad.select.get(baca.select.plts(o), [1], 2):
-            baca.hairpin(plt, "pp --", bookend=False)
+            baca.spanners.hairpin(
+                plt,
+                "pp --",
+            )
             baca.spanners.xfb(
                 baca.select.rleaves(plt),
                 staff_padding=5.5,
@@ -541,7 +544,7 @@ def v1(cache):
             baca.select.rleak(baca.select.ltleaves(o)),
             staff_padding=8,
         )
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -571,7 +574,7 @@ def v1(cache):
     with baca.scope(m.get(54, 61)) as o:
         baca.flat_glissando(o, "Eb5")
     with baca.scope(m.get(63, 70)) as o:
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             '"ff" > p',
         )
@@ -617,7 +620,7 @@ def v1(cache):
             qualifier="wide",
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "p-ancora -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -662,7 +665,7 @@ def v1_v2_va(cache):
                 baca.select.rleak(baca.select.tleaves(o)),
                 staff_padding=5.5,
             )
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -672,10 +675,9 @@ def v1_v2_va(cache):
                 staff_padding=8,
             )
         with baca.scope(m.get(4, 5)) as o:
-            baca.hairpin(
+            baca.spanners.hairpin(
                 baca.select.tleaves(o, rleak=True),
                 "niente o<|",
-                bookend=False,
             )
             if name == "v1":
                 baca.circle_bow_spanner(
@@ -730,7 +732,7 @@ def v1_v2_va(cache):
                 baca.dynamic(plt[0], "sfp")
                 baca.stem_tremolo(plt)
             for plt in abjad.select.get(baca.select.plts(o), [1], 2):
-                baca.hairpin(plt, "pp --", bookend=False)
+                baca.spanners.hairpin(plt, "pp --")
                 baca.spanners.xfb(
                     baca.select.rleaves(plt),
                     staff_padding=5.5,
@@ -794,7 +796,7 @@ def v1_v2_va(cache):
             )
             baca.stem_tremolo(o.pleaves())
         with baca.scope(m.get(87, 88)) as o:
-            baca.hairpin(o, '"f" > p')
+            baca.spanners.hairpin(o, '"f" > p')
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.scp_spanner(
                 (),
@@ -809,7 +811,7 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak bound-details.right.padding 7.75"),
                 staff_padding=8,
             )
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "p -- !",
                 # terminate at double bar:
@@ -917,7 +919,7 @@ def v2(cache):
             baca.dynamic(plt[0], "sfp")
             baca.stem_tremolo(plt)
         for plt in abjad.select.get(baca.select.plts(o), [1], 2):
-            baca.hairpin(plt, "pp --", bookend=False)
+            baca.spanners.hairpin(plt, "pp --")
             baca.spanners.xfb(
                 baca.select.rleaves(plt),
                 staff_padding=5.5,
@@ -959,7 +961,7 @@ def v2(cache):
             baca.select.rleak(baca.select.ltleaves(o)),
             staff_padding=8,
         )
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -981,7 +983,7 @@ def v2(cache):
             staff_padding=10,
         )
     with baca.scope(m.get(63, 70)) as o:
-        baca.hairpin(o.rleaves(), '"ff" > p')
+        baca.spanners.hairpin(o.rleaves(), '"ff" > p')
     with baca.scope(m.get(63, 77)) as o:
         baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
@@ -1030,7 +1032,7 @@ def v2(cache):
             qualifier="wide",
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "p-ancora -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -1078,7 +1080,7 @@ def va(cache):
             baca.dynamic(plt[0], "sfp")
             baca.stem_tremolo(plt)
         for plt in abjad.select.get(baca.select.plts(o), [1], 2):
-            baca.hairpin(plt, "pp --", bookend=False)
+            baca.spanners.hairpin(plt, "pp --")
             baca.spanners.xfb(
                 baca.select.rleaves(plt),
                 staff_padding=3,
@@ -1100,13 +1102,13 @@ def va(cache):
             baca.dynamic(plt[0], "sfp")
             baca.stem_tremolo(plt)
         for plt in abjad.select.get(baca.select.plts(o)[:-1], [1], 2):
-            baca.hairpin(plt, "pp --", bookend=False)
+            baca.spanners.hairpin(plt, "pp --")
             baca.spanners.xfb(
                 baca.select.rleaves(plt),
                 staff_padding=5.5,
             )
         for plt in baca.select.plts(o)[-1:]:
-            baca.hairpin(plt, "pp --", bookend=False)
+            baca.spanners.hairpin(plt, "pp --")
             baca.spanners.xfb(
                 baca.select.rleaves(plt),
                 staff_padding=5.5,
@@ -1114,7 +1116,7 @@ def va(cache):
         baca.dynamic(o.pleaf(-1), "!")
         baca.flat_glissando(o, "Gb4")
     with baca.scope(m.get(63, 70)) as o:
-        baca.hairpin(o.rleaves(), '"ff" > p')
+        baca.spanners.hairpin(o.rleaves(), '"ff" > p')
     with baca.scope(m.get(63, 76)) as o:
         baca.clef(o.leaf(0), "treble")
         baca.spanners.half_clt(
@@ -1173,7 +1175,7 @@ def va_vc(cache):
                 baca.select.rleak(baca.select.tleaves(o)),
                 staff_padding=8,
             )
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -1231,7 +1233,7 @@ def va_vc(cache):
                     staff_padding=8,
                 )
             baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "p-ancora -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -1303,7 +1305,7 @@ def vc(cache):
         library.clouded_pane_spanner(o.rleaves(), "clouded pane (continues) -|", 8)
     with baca.scope(m.get(4, 5)) as o:
         baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
-        baca.hairpin(o.rleaves(), "ff > p")
+        baca.spanners.hairpin(o.rleaves(), "ff > p")
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.pitch(o, "Gb2")
         baca.text_spanner(
@@ -1325,7 +1327,7 @@ def vc(cache):
     with baca.scope(cache["vcr"].get(28, 40)) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m.get(63, 64)) as o:
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "niente o< p",
         )
@@ -1364,7 +1366,7 @@ def vc(cache):
     with baca.scope(m[117]) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m.get(118, 119)) as o:
-        baca.hairpin(o.rleaves(), "o< p")
+        baca.spanners.hairpin(o.rleaves(), "o< p")
     with baca.scope(m.get(118, 127)) as o:
         library.clouded_pane_spanner(
             # TODO: extend to phantom measure

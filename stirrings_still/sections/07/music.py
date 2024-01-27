@@ -357,7 +357,7 @@ def v1_v2_va(cache):
             m = cache[name]
         with baca.scope(m.get(5, 6)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "appena-udibile -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -389,7 +389,7 @@ def tutti(cache):
             m = cache[name]
         with baca.scope(m.get(16, 17)) as o:
             baca.espressivo(o.pleaves())
-            baca.hairpin(o.rleaves(), "pp < mf")
+            baca.spanners.hairpin(o.rleaves(), "pp < mf")
             baca.override.hairpin_shorten_pair(o, (0, 5))
             baca.untie(o.leaves())
             leaves = baca.select.rleak(baca.select.ltleaves(o))
@@ -409,7 +409,7 @@ def tutti(cache):
                 baca.select.rleak(baca.select.ltleaves(o)),
                 staff_padding=5.5,
             )
-            baca.hairpin(o, "mf >o niente")
+            baca.spanners.hairpin(o, "mf >o niente")
             baca.pitch(o, "C#6")
             for ntlt in baca.select.lts(o, nontrivial=True):
                 baca.stop_on_string(ntlt[-1])
@@ -429,7 +429,7 @@ def v1_va_vc(cache):
             cache.rebuild()
             m = cache[name]
         with baca.scope(m.get(12, 13)) as o:
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "pp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -490,7 +490,7 @@ def v2(cache):
             baca.select.rleak(baca.select.ltleaves(o)),
             staff_padding=8,
         )
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),

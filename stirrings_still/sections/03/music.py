@@ -492,7 +492,7 @@ def v1(cache):
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m.get(28, 29)) as o:
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "pp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -551,7 +551,7 @@ def v2(cache):
             baca.select.rleak(baca.select.ltleaves(o)),
             staff_padding=8,
         )
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -602,7 +602,7 @@ def va(cache):
         cache.rebuild()
         m = cache["va"]
     with baca.scope(m.get(28, 29)) as o:
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "pp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -664,7 +664,7 @@ def v1_v2_va(cache):
             m = cache[name]
         with baca.scope(m.get(60, 61)) as o:
             baca.breathe(o.pleaf(-1))
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "appena-udibile -- !",
                 abjad.Tweak(r"- \tweak self-alignment-X #left"),
@@ -689,7 +689,7 @@ def tutti(cache):
                 staff_padding=8,
             )
             baca.flat_glissando(o, "G4")
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 '"ff" -- !',
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -704,7 +704,7 @@ def tutti(cache):
                 baca.select.rleak(baca.select.ltleaves(o)),
                 staff_padding=8,
             )
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -825,7 +825,7 @@ def tutti(cache):
             )
         with baca.scope(m.get(56, 59)) as o:
             baca.breathe(o.pleaf(-1))
-            baca.hairpin(
+            baca.spanners.hairpin(
                 baca.select.rleak(baca.select.lleak(o.leaves())),
                 '"ff" -- !',
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -836,7 +836,7 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="wide",
             )
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -863,7 +863,7 @@ def tutti(cache):
             }[name]
             baca.flat_glissando(o, pitch, stop_pitch=stop_pitch)
         with baca.scope(m.get(71, 76)) as o:
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "f >o niente",
                 abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
@@ -909,7 +909,7 @@ def vc(cache):
         baca.flat_glissando(o, "Bb2")
     with baca.scope(m.get(28, 29)) as o:
         baca.flat_glissando(o, "E2")
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "pp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -918,7 +918,7 @@ def vc(cache):
     with baca.scope(m.get(34, 35)) as o:
         baca.breathe(o.pleaf(-1))
         baca.flat_glissando(o, "E2", allow_repitch=True)
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),

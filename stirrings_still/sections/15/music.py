@@ -110,7 +110,7 @@ def v1(cache):
             qualifier="granulation",
         )
         baca.flat_glissando(o, "Eb4")
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             '"mf" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -122,7 +122,7 @@ def v1(cache):
             qualifier="wide",
         )
         baca.flat_glissando(o, "Aqs4")
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "mf >o niente",
         )
@@ -150,7 +150,7 @@ def v2(cache):
             qualifier="granulation",
         )
         baca.flat_glissando(o, "D4")
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             '"mf" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -162,7 +162,7 @@ def v2(cache):
             qualifier="wide",
         ),
         baca.flat_glissando(o, "Eb4")
-        baca.hairpin(o.rleaves(), "mf >o niente")
+        baca.spanners.hairpin(o.rleaves(), "mf >o niente")
         baca.markup(
             o.pleaf(0),
             r"\baca-nine-d-flat",
@@ -180,7 +180,7 @@ def va(cache):
             qualifier="granulation",
         )
         baca.flat_glissando(o, "G3")
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             '"mf" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -192,7 +192,7 @@ def va(cache):
             qualifier="wide",
         )
         baca.flat_glissando(o, "Bqf3")
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "mf >o niente",
         )
@@ -213,14 +213,14 @@ def vc(cache):
             qualifier="granulation",
         )
         baca.flat_glissando(o, "Ab3")
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             '"mf" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
     with baca.scope(m[7]) as o:
         baca.flat_glissando(o, "Db2")
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),

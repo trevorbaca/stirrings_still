@@ -147,7 +147,7 @@ def v1_v2_va(cache):
         m = cache[name]
         with baca.scope(m.get(1, 2)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "appena-udibile -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -217,7 +217,7 @@ def v1_va_vc(cache):
                     o.rleaves(),
                     staff_padding=5.5,
                 )
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "pp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -274,7 +274,7 @@ def v2(cache):
             baca.select.rleak(baca.select.ltleaves(o)),
             staff_padding=8,
         )
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -329,7 +329,7 @@ def vc(cache):
     with baca.scope(m.get(7, 11)) as o:
         baca.override.dynamic_text_self_alignment_x(o.leaf(-1), -0.75)
         baca.flat_glissando(o, "Bb1", hide_middle_stems=True)
-        baca.hairpin(o, "pp < fff-poco-scratch")
+        baca.spanners.hairpin(o, "pp < fff-poco-scratch")
     with baca.scope(m.get(12, 13)) as o:
         baca.circle_bow_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
@@ -337,7 +337,7 @@ def vc(cache):
             qualifier="wide",
         )
         baca.flat_glissando(o, "Cb2", stop_pitch="Bb1")
-        baca.hairpin(o, "fff > pp")
+        baca.spanners.hairpin(o, "fff > pp")
     with baca.scope(cache["vcr"][14]) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m.get(15, 17)) as o:

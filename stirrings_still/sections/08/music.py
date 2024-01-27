@@ -399,7 +399,7 @@ def v1(cache):
         )
         baca.flat_glissando(o, "Aqs4")
     with baca.scope(m.get(7, 14)) as o:
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -476,7 +476,7 @@ def v2(cache):
             baca.select.rleak(baca.select.ltleaves(o)),
             staff_padding=8,
         )
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -500,7 +500,7 @@ def v2(cache):
             baca.select.rleak(baca.select.ltleaves(o)),
             staff_padding=8,
         )
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -538,7 +538,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     with baca.scope(m.get(7, 14)) as o:
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -573,10 +573,9 @@ def vc(cache):
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.pitches(o, "C#4 F4 G2 B3 D3")
         baca.glissando(o.tleaves())
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "p <",
-            bookend=False,
         )
         baca.spanners.half_clt(
             baca.select.rleak(baca.select.ltleaves(o)),
@@ -584,7 +583,7 @@ def vc(cache):
         )
         library.transition_bcps(o, staff_padding=6)
     with baca.scope(m.get(7, 8)) as o:
-        baca.hairpin(o.rleaves(), "mp -- !")
+        baca.spanners.hairpin(o.rleaves(), "mp -- !")
         baca.markup(
             o.pleaf(0),
             r"\baca-string-iv-markup",
@@ -606,7 +605,7 @@ def vc(cache):
     with baca.scope(m.get(8, 31)) as o:
         baca.flat_glissando(o, "Gb2", hide_middle_stems=True)
     with baca.scope(m.get(9, 16)) as o:
-        baca.hairpin(o.rleaves(), "(mp) < ff")
+        baca.spanners.hairpin(o.rleaves(), "(mp) < ff")
     with baca.scope(m.get(9, 27)) as o:
         baca.text_spanner(
             (),
@@ -623,7 +622,7 @@ def vc(cache):
             pieces=baca.select.mgroups(o.rleaves(), [5, 4 + 1]),
         )
     with baca.scope(m.get(38, 46)) as o:
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "ppp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -679,7 +678,7 @@ def v1_v2_va(cache):
             baca.override.tuplet_bracket_down(o)
             baca.override.tuplet_bracket_staff_padding(o, 1.5)
         with baca.scope(m.get(15, 16)) as o:
-            baca.hairpin(o.rleaves(), "(p) >o niente")
+            baca.spanners.hairpin(o.rleaves(), "(p) >o niente")
         with baca.scope(m.get(17 + 1, 22)) as o:
             baca.override.tacet(o.mmrests())
     for name in ["v1r", "v2r", "var"]:
@@ -724,7 +723,7 @@ def v1_v2_va(cache):
                 baca.flat_glissando(o.pleaves(), "C3")
             baca.override.tuplet_bracket_down(o)
         with baca.scope(m.get(30, 31)) as o:
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -738,7 +737,7 @@ def v1_v2_va(cache):
                 pieces=baca.select.mgroups(leaves, [1, 2]),
             )
         with baca.scope(m.get(38, 40)) as o:
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "mf -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -751,7 +750,7 @@ def v1_v2_va(cache):
                 pieces=baca.select.mgroups(o.rleaves(), [1, 2 + 1]),
             )
         with baca.scope(m.get(42, 45)) as o:
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "f -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -853,7 +852,7 @@ def v1_v2(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="wide",
             )
-            baca.hairpin(
+            baca.spanners.hairpin(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 "mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -930,7 +929,7 @@ def v1_va_vc(cache):
                     o.rleaves(),
                     staff_padding=5.5,
                 )
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "pp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -958,7 +957,7 @@ def v1_va_vc(cache):
                     o.pleaf(0),
                     r"\stirrings-still-eleven-plus-three-of-e-markup",
                 )
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 "pp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
