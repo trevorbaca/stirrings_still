@@ -2594,13 +2594,6 @@ number.2.Violin.1.Music = {
     r2.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-      %! REAPPLIED_DYNAMIC
-    - \tweak stencil #constante-hairpin
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    \<
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2622,17 +2615,17 @@ number.2.Violin.1.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \mp
-          %! REDUNDANT_DYNAMIC
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak stencil #constante-hairpin
-          %! REDUNDANT_DYNAMIC_COLOR
-          %! REDUNDANT_DYNAMIC
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak color #(x11-color 'DeepPink1)
-          %! REDUNDANT_DYNAMIC
+        - \tweak color #blue
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! REDUNDANT_DYNAMIC
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
 
