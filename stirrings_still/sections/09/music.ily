@@ -479,13 +479,6 @@ number.9.Violin.1.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
-      %! REAPPLIED_DYNAMIC
-    - \tweak stencil #constante-hairpin
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    \<
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -905,13 +898,6 @@ number.9.Violin.2.Music = {
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
-      %! REAPPLIED_DYNAMIC
-    - \tweak stencil #constante-hairpin
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    \<
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
