@@ -673,7 +673,7 @@ def v1_v2_va(cache):
             )
         with baca.scope(m.get(4, 5)) as o:
             baca.spanners.hairpin(
-                baca.select.tleaves(o, rleak=True),
+                baca.select.rleak(baca.select.tleaves(o)),
                 "niente o<|",
             )
             if name == "v1":
