@@ -602,7 +602,7 @@ def vc(cache):
             "p -- ! >o niente",
         )
         baca.spanners.tasto(
-            o.rleaves(),
+            o,
             staff_padding=3,
         )
         baca.piecewise.text(

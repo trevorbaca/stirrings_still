@@ -581,7 +581,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         baca.spanners.tasto(
-            o.rleaves(),
+            o,
             staff_padding=5.5,
         )
         library.urtext_spanner(
@@ -648,7 +648,7 @@ def v1_v2_va(cache):
         for item in [3, (5, 6), (8, 9)]:
             with baca.scope(m.get(item)) as o:
                 baca.spanners.tasto(
-                    o.rleaves(),
+                    o,
                     staff_padding=5.5,
                 )
         with baca.scope(m.get(5, 6)) as o:
@@ -672,7 +672,7 @@ def v1_v2_va(cache):
                 "p < f-scratch -- ! >o niente",
             )
             baca.spanners.tasto(
-                o.rleaves(),
+                o,
                 staff_padding=5.5,
             )
             library.breathe(o.leaf(1))
@@ -687,7 +687,7 @@ def v1_v2_va(cache):
         for n in [18, 20, 22, 25, 29]:
             with baca.scope(m.get(n)) as o:
                 baca.spanners.tasto(
-                    o.rleaves(),
+                    o,
                     staff_padding=5.5,
                 )
                 library.breathe(o.pleaf(1))
@@ -767,7 +767,7 @@ def v1_v2_va(cache):
             )
             baca.stop_on_string(o.pleaf(-1))
             baca.spanners.tasto(
-                o.rleaves(),
+                o,
                 staff_padding=5.5,
             )
             library.breathe(o.pleaf(1))
@@ -870,7 +870,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         baca.spanners.tasto(
-            o.rleaves(),
+            o,
             staff_padding=5.5,
         )
         library.urtext_spanner(o.rleaves(), "urtext (double stop G.1) -|", 8)
@@ -938,7 +938,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         baca.spanners.tasto(
-            o.rleaves(),
+            o,
             staff_padding=5.5,
         )
         library.clouded_pane_spanner(o.rleaves(), "clouded (partial G.1) -|", 8)
@@ -1014,7 +1014,7 @@ def vc(cache):
             hide_middle_stems=True,
         )
         baca.spanners.tasto(
-            o.rleaves(),
+            o,
             staff_padding=5.5,
         )
         library.urtext_spanner(o.rleaves(), "urtext (field) -|", 8)

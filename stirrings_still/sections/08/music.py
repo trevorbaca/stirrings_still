@@ -410,7 +410,7 @@ def v1(cache):
             baca.flat_glissando(o, "Db5", stop_pitch="B4")
     with baca.scope(m.get(52, 55)) as o:
         baca.spanners.tasto(
-            o.rleaves(),
+            o,
             staff_padding=5.5,
         )
 
@@ -488,7 +488,7 @@ def v2(cache):
     for n in [52, 55]:
         with baca.scope(m[n]) as o:
             baca.spanners.tasto(
-                o.rleaves(),
+                o,
                 staff_padding=5.5,
             )
     with baca.scope(m.get(53, 54)) as o:
@@ -546,7 +546,7 @@ def va(cache):
             baca.flat_glissando(o, "B4")
     with baca.scope(m.get(52, 55)) as o:
         baca.spanners.tasto(
-            o.rleaves(),
+            o,
             staff_padding=5.5,
         )
     with baca.scope(cache["var"][56]) as o:
@@ -905,7 +905,7 @@ def v1_va_vc(cache):
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
                 baca.spanners.tasto(
-                    o.rleaves(),
+                    o,
                     staff_padding=5.5,
                 )
             elif name == "va":
@@ -915,7 +915,7 @@ def v1_va_vc(cache):
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
                 baca.spanners.tasto(
-                    o.rleaves(),
+                    o,
                     staff_padding=5.5,
                 )
             baca.spanners.hairpin(

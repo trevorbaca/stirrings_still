@@ -233,7 +233,7 @@ def v1(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(baca.select.rleak(o), "A4", hide_middle_stems=True)
             baca.spanners.tasto(
-                o.rleaves(),
+                o,
                 staff_padding=v1_spanner_staff_padding,
             )
     with baca.scope(m.get(6, 7)) as o:
@@ -294,7 +294,7 @@ def v2(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(baca.select.rleak(o), "A3", hide_middle_stems=True)
             baca.spanners.tasto(
-                o.rleaves(),
+                o,
                 staff_padding=v2_spanner_staff_padding,
             )
     for n in [5, 7, 9, 15, 17, 19]:
@@ -349,7 +349,7 @@ def va(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(baca.select.rleak(o), "A3", hide_middle_stems=True)
             baca.spanners.tasto(
-                o.rleaves(),
+                o,
                 staff_padding=va_spanner_staff_padding,
             )
     with baca.scope(m.get(8, 10)) as o:
@@ -384,7 +384,7 @@ def vc(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(baca.select.rleak(o), "A2", hide_middle_stems=True)
             baca.spanners.tasto(
-                o.rleaves(),
+                o,
                 staff_padding=vc_spanner_staff_padding,
             )
     with baca.scope(m.get(1, 18)) as o:

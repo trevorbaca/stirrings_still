@@ -503,7 +503,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         baca.spanners.tasto(
-            o.rleaves(),
+            o,
             staff_padding=5.5,
         )
         library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
@@ -613,7 +613,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         baca.spanners.tasto(
-            o.rleaves(),
+            o,
             staff_padding=5.5,
         )
         library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
@@ -647,7 +647,7 @@ def v1_v2_va(cache):
             baca.override.tuplet_bracket_down(o)
         with baca.scope(m[5]) as o:
             baca.spanners.tasto(
-                o.rleaves(),
+                o,
                 staff_padding=5.5,
             )
         with baca.scope(m[35]) as o:
