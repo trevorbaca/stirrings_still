@@ -538,7 +538,7 @@ def v1_v2(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
         with baca.scope(m.get(90, 92)) as o:
-            library.urtext_spanner(o.rleaves(), "urtext (NEW cds) -|", 8)
+            library.urtext_spanner(o, "urtext (NEW cds) -|", 8)
     with baca.scope(cache["v1r"][93]) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(cache["v2r"][93]) as o:
@@ -576,7 +576,7 @@ def v1_v2_va(cache):
                     staff_padding=5.5,
                 )
                 library.breathe(o.pleaf(1))
-                library.urtext_spanner(o.rleaves(), "A, B -|", 8)
+                library.urtext_spanner(o, "A, B -|", 8)
         with baca.scope(m[65]) as o:
             baca.spanners.hairpin(
                 o.rleaves(),
@@ -587,7 +587,7 @@ def v1_v2_va(cache):
                 o,
                 staff_padding=5.5,
             )
-            library.urtext_spanner(o.rleaves(), "urtext (cds) -|", 8)
+            library.urtext_spanner(o, "urtext (cds) -|", 8)
         with baca.scope(m[66]) as o:
             baca.piecewise.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
@@ -628,7 +628,7 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
             )
         with baca.scope(m.get(67, 89)) as o:
-            library.urtext_spanner(o.rleaves(), "urtext (resumes) -|", 8)
+            library.urtext_spanner(o, "urtext (resumes) -|", 8)
         with baca.scope(m.get(68, 83)) as o:
             for plt in abjad.select.get(baca.select.plts(o), [1], 2):
                 baca.espressivo(baca.select.phead(plt, 0))
@@ -647,7 +647,7 @@ def v1_v2_va(cache):
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [2, 1 + 1]),
             )
-            library.urtext_spanner(o.rleaves(), "urtext (resumes) -|", 8)
+            library.urtext_spanner(o, "urtext (resumes) -|", 8)
         with baca.scope(m.get(97, 98)) as o:
             baca.piecewise.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
@@ -856,7 +856,7 @@ def vc(cache):
             )
             if item == (49, 50):
                 baca.clef(o.leaf(0), "bass")
-            library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 5.5)
+            library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 5.5)
     with baca.scope(cache["vcr"][51]) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m[55]) as o:
@@ -870,7 +870,7 @@ def vc(cache):
         baca.flat_glissando(o, "E2", hide_middle_stems=True)
         cmgroups = baca.select.cmgroups(o)[:3]
         baca.spanners.hairpin(cmgroups, "niente o< p")
-        library.clouded_pane_spanner(o.rleaves(), "clouded pane (arrival) -|", 5.5)
+        library.clouded_pane_spanner(o, "clouded pane (arrival) -|", 5.5)
     with baca.scope(m.get(86, 92)) as o:
         baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 4 + 1]),
@@ -882,8 +882,7 @@ def vc(cache):
     with baca.scope(m.get(94, 99)) as o:
         baca.flat_glissando(o, "F2", hide_middle_stems=True, right_broken=True)
         library.clouded_pane_spanner(
-            # TODO: extend spanner to phantom measure
-            o.leaves(),
+            o,
             "clouded pane (stepwise up) -|",
             5.5,
         )

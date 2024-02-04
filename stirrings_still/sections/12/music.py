@@ -368,8 +368,7 @@ def vc(cache):
             left_broken=True,
         )
         library.clouded_pane_spanner(
-            # TODO: extend to phantom measure
-            o.leaves(),
+            o,
             "clouded pane (continues) -|",
             5.5,
         )

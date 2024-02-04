@@ -788,11 +788,6 @@ number.9.Violin.1.Music = {
       %! RIGHT_BROKEN
     \revert Stem.transparent
     <f' a'>4
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_STOP
-      %! URTEXT
-    \bacaStopTextSpanMaterialAnnotation
     \revert DynamicLineSpanner.staff-padding
 
       %! ANCHOR_NOTE
@@ -830,6 +825,12 @@ number.9.Violin.1.Music = {
       %! ANCHOR_NOTE
       %! SPANNER_STOP
     \!
+      %! ANCHOR_NOTE
+      %! MATERIAL
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_STOP
+      %! URTEXT
+    \bacaStopTextSpanMaterialAnnotation
 
 }
 
@@ -1147,11 +1148,6 @@ number.9.Violin.2.Music = {
       %! RIGHT_BROKEN
     \revert Stem.transparent
     <e' gs'!>4
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_STOP
-      %! URTEXT
-    \bacaStopTextSpanMaterialAnnotation
     \revert DynamicLineSpanner.staff-padding
 
       %! ANCHOR_NOTE
@@ -1189,6 +1185,12 @@ number.9.Violin.2.Music = {
       %! ANCHOR_NOTE
       %! SPANNER_STOP
     \!
+      %! ANCHOR_NOTE
+      %! MATERIAL
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_STOP
+      %! URTEXT
+    \bacaStopTextSpanMaterialAnnotation
 
 }
 
@@ -1493,11 +1495,6 @@ number.9.Viola.Music = {
       %! RIGHT_BROKEN
     \revert Stem.transparent
     <eqs'! gtqs'!>4
-      %! MATERIAL
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_STOP
-      %! URTEXT
-    \bacaStopTextSpanMaterialAnnotation
     \revert DynamicLineSpanner.staff-padding
 
       %! ANCHOR_NOTE
@@ -1535,6 +1532,12 @@ number.9.Viola.Music = {
       %! ANCHOR_NOTE
       %! SPANNER_STOP
     \!
+      %! ANCHOR_NOTE
+      %! MATERIAL
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_STOP
+      %! URTEXT
+    \bacaStopTextSpanMaterialAnnotation
 
 }
 

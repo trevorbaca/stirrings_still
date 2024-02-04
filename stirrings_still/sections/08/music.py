@@ -436,7 +436,7 @@ def v2(cache):
             bookend=False,
             pieces=baca.select.mgroups(o.rleaves(), [3, 5 + 1]),
         )
-        library.urtext_spanner(o.rleaves(), "urtext (rasp) -|", 10.5)
+        library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
     with baca.scope(m.get(1, 10)) as o:
         baca.flat_glissando(o, "F4", hide_middle_stems=True)
     with baca.scope(m.get(9, 14)) as o:
@@ -596,7 +596,7 @@ def vc(cache):
         baca.untie(o.leaf(1))
         baca.pitch(o.pleaf(0), "Ab2")
         baca.finger_pressure_transition(o)
-        library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 8)
+        library.clouded_pane_spanner(o, "clouded pane -|", 8)
     with baca.scope(m.get(8, 31)) as o:
         baca.flat_glissando(o, "Gb2", hide_middle_stems=True)
     with baca.scope(m.get(9, 16)) as o:
@@ -644,7 +644,7 @@ def vc(cache):
         with baca.scope(m[n]) as o:
             baca.pitch(o, "B1")
             library.clouded_pane_spanner(
-                o.rleaves(),
+                o,
                 "clouded pane (pane / urtext) -|",
                 8,
             )
@@ -797,13 +797,11 @@ def v1_v2_va(cache):
             m = cache[name]
         with baca.scope(m[52]) as o:
             if name == "v1":
-                library.urtext_spanner(o.rleaves(), "urtext (ds) -|", 8)
+                library.urtext_spanner(o, "urtext (ds) -|", 8)
             elif name == "v2":
-                library.urtext_spanner(o.rleaves(), "urtext (ds) -|", 8)
+                library.urtext_spanner(o, "urtext (ds) -|", 8)
             elif name == "va":
-                library.clouded_pane_spanner(
-                    o.rleaves(), "clouded pane (partial) -|", 8
-                )
+                library.clouded_pane_spanner(o, "clouded pane (partial) -|", 8)
                 baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-nine-plus-seven-of-b-markup",
@@ -821,13 +819,11 @@ def v1_v2_va(cache):
             m = cache[name]
         with baca.scope(m[55]) as o:
             if name == "v1":
-                library.urtext_spanner(o.rleaves(), "urtext (ds) -|", 8)
+                library.urtext_spanner(o, "urtext (ds) -|", 8)
             elif name == "v2":
-                library.urtext_spanner(o.rleaves(), "urtext (ds) -|", 8)
+                library.urtext_spanner(o, "urtext (ds) -|", 8)
             elif name == "va":
-                library.clouded_pane_spanner(
-                    o.rleaves(), "clouded pane (partial) -|", 8
-                )
+                library.clouded_pane_spanner(o, "clouded pane (partial) -|", 8)
             baca.dynamic(o.phead(0), "mp")
 
 
@@ -924,7 +920,7 @@ def v1_va_vc(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             baca.override.tuplet_bracket_down(o)
-            library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
+            library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
         with baca.scope(m.get(53, 54)) as o:
             if name == "v1":
                 baca.flat_glissando(o, "<F#4 Dqf5>")
@@ -951,7 +947,7 @@ def v1_va_vc(cache):
                 "pp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
-            library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
+            library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
 
 
 def tutti(cache):
@@ -988,7 +984,7 @@ def tutti(cache):
                     bookend=False,
                     pieces=baca.select.mgroups(o.rleaves(), [3, 3]),
                 )
-                library.urtext_spanner(o.rleaves(), "urtext (rasp) -|", 10.5)
+                library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
         with baca.scope(m.get(36, 37)) as o:
             baca.piecewise.hairpin(
                 baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
@@ -1022,7 +1018,7 @@ def tutti(cache):
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [1, 2]),
             )
-            library.urtext_spanner(o.rleaves(), "urtext (rasp) -|", 10.5)
+            library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
         with baca.scope(m.get(52, 55)) as o:
             baca.override.tuplet_bracket_down(o)
 

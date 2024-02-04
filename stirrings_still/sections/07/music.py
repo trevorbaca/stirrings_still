@@ -333,7 +333,7 @@ def v1(cache):
                 o,
                 staff_padding=5.5,
             )
-            library.urtext_spanner(o.rleaves(), "urtext (double stop) -|", 8)
+            library.urtext_spanner(o, "urtext (double stop) -|", 8)
 
 
 def v1_v2_va(cache):
@@ -363,7 +363,7 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
             )
-            library.urtext_spanner(o.rleaves(), "urtext (ds field) -|", 8)
+            library.urtext_spanner(o, "urtext (ds field) -|", 8)
 
 
 def tutti(cache):
@@ -401,7 +401,7 @@ def tutti(cache):
             )
             baca.stem_tremolo(o.pleaves())
             baca.override.tuplet_bracket_down(o)
-            library.urtext_spanner(o.rleaves(), "urtext (ds) -|", 8)
+            library.urtext_spanner(o, "urtext (ds) -|", 8)
         with baca.scope(m[18]) as o:
             baca.override.dynamic_text_extra_offset(abjad.select.leaf(o, 0), (-5, 0))
         with baca.scope(m.get(19, 24)) as o:
@@ -444,7 +444,7 @@ def v1_va_vc(cache):
                     o,
                     staff_padding=5.5,
                 )
-                library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
+                library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
             elif name == "va":
                 baca.markup(
                     o.pleaf(0),
@@ -455,11 +455,13 @@ def v1_va_vc(cache):
                     o,
                     staff_padding=5.5,
                 )
-                library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
+                library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
             elif name == "vc":
                 baca.override.tuplet_bracket_down(o)
                 library.clouded_pane_spanner(
-                    o.rleaves(), "clouded pane (beacon) -|", 5.5
+                    o,
+                    "clouded pane (beacon) -|",
+                    5.5,
                 )
 
 
@@ -482,7 +484,7 @@ def v2(cache):
                 o,
                 staff_padding=5.5,
             )
-            library.urtext_spanner(o.rleaves(), "urtext (double stop) -|", 8)
+            library.urtext_spanner(o, "urtext (double stop) -|", 8)
     with baca.scope(m.get(12, 13)) as o:
         baca.pitch(o, "F5")
         baca.alternate_bow_strokes(o.pheads())
@@ -520,7 +522,7 @@ def va(cache):
                 o,
                 staff_padding=5.5,
             )
-            library.clouded_pane_spanner(o.rleaves(), "clouded pane (partial) -|", 8)
+            library.clouded_pane_spanner(o, "clouded pane (partial) -|", 8)
     with baca.scope(m[19]) as o:
         baca.clef(o.leaf(0), "treble")
 
@@ -530,9 +532,7 @@ def vc(cache):
     for n in [1, 3, 7, 9, 11, 14]:
         with baca.scope(m[n]) as o:
             baca.pitch(o, "B1")
-            library.clouded_pane_spanner(
-                o.rleaves(), "clouded pane (pane / urtext) -|", 5.5
-            )
+            library.clouded_pane_spanner(o, "clouded pane (pane / urtext) -|", 5.5)
     with baca.scope(m.leaves()) as o:
         baca.clef(o.leaf(0), "bass")
     for n in [1, 3, 7, 9]:

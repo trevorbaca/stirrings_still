@@ -831,10 +831,10 @@ def v1_v2_va(cache):
             )
             if name == "v1":
                 library.breathe(o.pleaf(1))
-                library.urtext_spanner(o.rleaves(), "A, B -|", 8)
+                library.urtext_spanner(o, "A, B -|", 8)
             if name in ("v2", "va"):
                 library.breathe(o.pleaf(1))
-                library.urtext_spanner(o.rleaves(), "A, B -|", 10.5)
+                library.urtext_spanner(o, "A, B -|", 10.5)
             baca.stop_on_string(o.pleaf(-1))
     for name in ["v1r", "v2r", "var"]:
         m = cache[name]
@@ -853,11 +853,11 @@ def v1_v2_va(cache):
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o)
-            library.urtext_spanner(o.rleaves(), "urtext (cds) -|", 8)
+            library.urtext_spanner(o, "urtext (cds) -|", 8)
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m[64]) as o:
-            library.urtext_spanner(o.rleaves(), "urtext (cds) -|", 8)
+            library.urtext_spanner(o, "urtext (cds) -|", 8)
             baca.dynamic(o.phead(0), "p")
             baca.spanners.tasto(
                 o,
@@ -945,7 +945,7 @@ def tutti(cache):
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
             )
-            library.urtext_spanner(o.rleaves(), "urtext (rasp) -|", 10.5)
+            library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
         with baca.scope(m.get(34, 35)) as o:
             baca.piecewise.hairpin(
                 baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
@@ -1490,7 +1490,7 @@ def vc(cache):
             "o< f -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 5.5)
+        library.clouded_pane_spanner(o, "clouded pane -|", 5.5)
     with baca.scope(m.get(12, 15)) as o:
         baca.piecewise.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
@@ -1602,7 +1602,7 @@ def vc(cache):
             "p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 5.5)
+        library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 5.5)
     with baca.scope(m[46]) as o:
         baca.flat_glissando(o, "D2")
     with baca.scope(m[48]) as o:
@@ -1612,7 +1612,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.pitch(o, "E2")
-        library.clouded_pane_spanner(o.rleaves(), "clouded pane (flight) -|", 5.5)
+        library.clouded_pane_spanner(o, "clouded pane (flight) -|", 5.5)
     with baca.scope(m.get(50, 51)) as o:
         baca.flat_glissando(baca.select.rleak(o), "D2")
     with baca.scope(m.get(50, 60)) as o:
@@ -1655,7 +1655,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.pitch(o, "E2")
-        library.clouded_pane_spanner(o.rleaves(), "clouded pane (flight) -|", 5.5)
+        library.clouded_pane_spanner(o, "clouded pane (flight) -|", 5.5)
 
 
 @baca.build.timed("make_score")

@@ -133,7 +133,7 @@ def v1_v2_va(cache):
             )
             # TODO: allow right-broken spanner
             library.urtext_spanner(
-                o.leaves(),
+                o,
                 "urtext (sustained ds) -|",
                 5.5,
             )

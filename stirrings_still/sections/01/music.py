@@ -585,7 +585,7 @@ def v1(cache):
             staff_padding=5.5,
         )
         library.urtext_spanner(
-            o.rleaves(),
+            o,
             "urtext (double stop G.1) -|",
             8,
         )
@@ -635,7 +635,7 @@ def v1_v2_va(cache):
                 library.breathe(o.pleaf(1))
         with baca.scope(m.get(1, 16)) as o:
             library.urtext_spanner(
-                o.rleaves(),
+                o,
                 "urtext (cds) A, B -|",
                 8,
             )
@@ -694,7 +694,7 @@ def v1_v2_va(cache):
                 library.breathe(o.pleaf(-1))
         for item in [(18, 22), 25, 29]:
             with baca.scope(m.get(item)) as o:
-                library.urtext_spanner(o.rleaves(), "C, D -|", 8)
+                library.urtext_spanner(o, "C, D -|", 8)
         with baca.scope(m[20]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.piecewise.hairpin(
@@ -771,7 +771,7 @@ def v1_v2_va(cache):
                 staff_padding=5.5,
             )
             library.breathe(o.pleaf(1))
-            library.urtext_spanner(o.rleaves(), "A, B -|", 8)
+            library.urtext_spanner(o, "A, B -|", 8)
 
 
 def tutti(cache):
@@ -806,7 +806,7 @@ def tutti(cache):
                 pieces=baca.select.mgroups(o.rleaves(), [1, 2]),
             )
             library.urtext_spanner(
-                o.rleaves(),
+                o,
                 "urtext (rasp) -|",
                 10.5,
             )
@@ -873,7 +873,7 @@ def v2(cache):
             o,
             staff_padding=5.5,
         )
-        library.urtext_spanner(o.rleaves(), "urtext (double stop G.1) -|", 8)
+        library.urtext_spanner(o, "urtext (double stop G.1) -|", 8)
     for item in [(46, 50), 52, 54, 58]:
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "C4")
@@ -941,7 +941,7 @@ def va(cache):
             o,
             staff_padding=5.5,
         )
-        library.clouded_pane_spanner(o.rleaves(), "clouded (partial G.1) -|", 8)
+        library.clouded_pane_spanner(o, "clouded (partial G.1) -|", 8)
     for item in [(46, 50), 52, 54, 58]:
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "Ab3")
@@ -994,7 +994,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             left_broken_text=r"\baca-left-broken-t-markup",
         )
-        library.urtext_spanner(o.rleaves(), "urtext (field) -|", 8)
+        library.urtext_spanner(o, "urtext (field) -|", 8)
     with baca.scope(m[27]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o.rleaves(), [1, 1 + 1]),
@@ -1002,7 +1002,7 @@ def vc(cache):
         )
         baca.pitch(o, "B1")
         library.clouded_pane_spanner(
-            o.rleaves(),
+            o,
             "clouded pane (pane / urtext) -|",
             5.5,
         )
@@ -1017,7 +1017,7 @@ def vc(cache):
             o,
             staff_padding=5.5,
         )
-        library.urtext_spanner(o.rleaves(), "urtext (field) -|", 8)
+        library.urtext_spanner(o, "urtext (field) -|", 8)
     with baca.scope(m.get(35, 40)) as o:
         baca.spanners.hairpin(o.rleaves(), "(p) >o niente")
     with baca.scope(m.get(42, 43)) as o:

@@ -481,7 +481,7 @@ def v1(cache):
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        library.urtext_spanner(o.rleaves(), "urtext (ds) -|", 8)
+        library.urtext_spanner(o, "urtext (ds) -|", 8)
     for item in [(12, 23), (30, 59)]:
         with baca.scope(m.get(item)) as o:
             baca.pitch(o, "Bqf5")
@@ -506,7 +506,7 @@ def v1(cache):
             o,
             staff_padding=5.5,
         )
-        library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
+        library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
     with baca.scope(m[56]) as o:
         baca.tie(o.lleaf(0))
     with baca.scope(m.get(36, 59)) as o:
@@ -539,7 +539,7 @@ def v2(cache):
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        library.urtext_spanner(o.rleaves(), "urtext (ds) -|", 8)
+        library.urtext_spanner(o, "urtext (ds) -|", 8)
     for item in [(12, 23), (30, 59)]:
         with baca.scope(m.get(item)) as o:
             baca.pitch(o, "Bb4")
@@ -588,7 +588,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         library.clouded_pane_spanner(
-            o.rleaves(),
+            o,
             "clouded (partial: stopped) -|",
             8,
         )
@@ -616,7 +616,7 @@ def va(cache):
             o,
             staff_padding=5.5,
         )
-        library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
+        library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
     with baca.scope(m[56]) as o:
         baca.tie(o.lleaf(0))
     with baca.scope(m.get(36, 59)) as o:
@@ -670,7 +670,7 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak self-alignment-X #left"),
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
-            library.urtext_spanner(o.rleaves(), "urtext (ds field) -|", 5.5)
+            library.urtext_spanner(o, "urtext (ds field) -|", 5.5)
 
 
 def tutti(cache):
@@ -887,7 +887,7 @@ def vc(cache):
             "o< f >o niente",
         )
         library.clouded_pane_spanner(
-            o.rleaves(),
+            o,
             "clouded pane (pane / urtext) -|",
             5.5,
         )
@@ -907,7 +907,7 @@ def vc(cache):
             "pp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 5.5)
+        library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 5.5)
     with baca.scope(m.get(34, 35)) as o:
         baca.breathe(o.pleaf(-1))
         baca.flat_glissando(o, "E2", allow_repitch=True)
@@ -916,7 +916,7 @@ def vc(cache):
             "p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 5.5)
+        library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 5.5)
     with baca.scope(m[56]) as o:
         baca.tie(o.lleaf(0))
     with baca.scope(m.get(36, 59)) as o:

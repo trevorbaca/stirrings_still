@@ -115,7 +115,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         library.clouded_pane_spanner(
-            o.rleaves(),
+            o,
             "clouded pane (doublestop partials) -|",
             8,
         )
@@ -138,7 +138,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         library.clouded_pane_spanner(
-            o.rleaves(),
+            o,
             "clouded pane (doublestop partials) -|",
             8,
         )
@@ -176,7 +176,7 @@ def vc(cache):
             "(p) < ff -- (ff) >o niente",
         )
         library.clouded_pane_spanner(
-            o.rleaves(),
+            o,
             "clouded pane (continues) -|",
             5.5,
         )
