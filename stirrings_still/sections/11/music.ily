@@ -3930,9 +3930,6 @@ number.11.Violin.1.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \!
-      %! DAMP_SPANNER
-      %! SPANNER_STOP
-    \bacaStopTextSpanDamp
       %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
@@ -3964,6 +3961,9 @@ number.11.Violin.1.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! DAMP_SPANNER
+              %! SPANNER_STOP
+            \bacaStopTextSpanDamp
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
@@ -6242,9 +6242,6 @@ number.11.Violin.2.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \!
-      %! DAMP_SPANNER
-      %! SPANNER_STOP
-    \bacaStopTextSpanDamp
       %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
@@ -6276,6 +6273,9 @@ number.11.Violin.2.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! DAMP_SPANNER
+              %! SPANNER_STOP
+            \bacaStopTextSpanDamp
 
         }
 
@@ -8476,9 +8476,6 @@ number.11.Viola.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \!
-      %! DAMP_SPANNER
-      %! SPANNER_STOP
-    \bacaStopTextSpanDamp
       %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
@@ -8510,6 +8507,9 @@ number.11.Viola.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! DAMP_SPANNER
+              %! SPANNER_STOP
+            \bacaStopTextSpanDamp
 
         }
 

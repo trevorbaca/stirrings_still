@@ -470,7 +470,7 @@ def v2(cache):
     with baca.scope(m.get(33, 34)) as o:
         baca.alternate_bow_strokes(o.pheads())
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.spanners.hairpin(
@@ -494,7 +494,7 @@ def v2(cache):
     with baca.scope(m.get(53, 54)) as o:
         baca.alternate_bow_strokes(o.pheads())
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.spanners.hairpin(

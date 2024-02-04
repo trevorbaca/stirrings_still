@@ -406,7 +406,7 @@ def tutti(cache):
             baca.override.dynamic_text_extra_offset(abjad.select.leaf(o, 0), (-5, 0))
         with baca.scope(m.get(19, 24)) as o:
             baca.spanners.damp(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=5.5,
             )
             baca.spanners.hairpin(o, "mf >o niente")
@@ -487,7 +487,7 @@ def v2(cache):
         baca.pitch(o, "F5")
         baca.alternate_bow_strokes(o.pheads())
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.spanners.hairpin(
