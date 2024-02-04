@@ -524,7 +524,7 @@ def vc(cache):
         baca.spanners.hairpin(o.rleaves(), "(fff) > p")
     with baca.scope(m.get(11, 12)) as o:
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=3 + 6,
         )
         library.cello_cell_bcps(o, staff_padding=3)

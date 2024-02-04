@@ -220,7 +220,6 @@ def vc(cache):
             # temporary:
         )
         baca.spanners.half_clt(
-            # TODO: extend spanner to phantom measure
             o.leaves(),
             staff_padding=6 + 6.5,
         )

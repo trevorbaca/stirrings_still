@@ -496,7 +496,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=5.5,
         )
 

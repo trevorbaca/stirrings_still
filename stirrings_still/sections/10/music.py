@@ -169,7 +169,6 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             baca.spanners.half_clt(
-                # TODO: allow spanner to extend to phantom measure
                 o.leaves(),
                 staff_padding=4 + 6.5,
             )
@@ -278,7 +277,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=5.5,
         )
         baca.pitch(o, "F5")

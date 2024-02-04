@@ -72,7 +72,7 @@ def v1(cache):
         baca.override.dls_staff_padding(o, 7)
     with baca.scope(m.get(1, 8)) as o:
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8 + 6,
         )
         baca.override.tuplet_bracket_down(o)
@@ -92,7 +92,7 @@ def v2(cache):
         baca.override.dls_staff_padding(o.leaves(), 7)
     with baca.scope(m.get(1, 8)) as o:
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=4.5 + 6,
         )
         baca.override.tuplet_bracket_down(o)

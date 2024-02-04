@@ -681,7 +681,7 @@ def v1(cache):
             staff_padding=8,
         )
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=5.5,
         )
         baca.override.tuplet_number_denominator(o)
@@ -723,7 +723,7 @@ def v1(cache):
         baca.alternate_bow_strokes(o.pheads())
     with baca.scope(m.get(14, 24)) as o:
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=5.5,
         )
     with baca.scope(m.get(16, 17)) as o:
@@ -1115,7 +1115,7 @@ def v2(cache, time_signatures):
             staff_padding=8,
         )
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=5.5,
         )
         baca.override.tuplet_number_denominator(o)
@@ -1139,7 +1139,7 @@ def v2(cache, time_signatures):
     for item in [(12, 25), 27]:
         with baca.scope(m.get(item)) as o:
             baca.spanners.half_clt(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=10.5,
             )
     with baca.scope(m.get(12, 27)) as o:
@@ -1287,7 +1287,7 @@ def va(cache):
         baca.alternate_bow_strokes(o.pheads())
         baca.clef(o.leaf(0), "treble")
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=5.5,
         )
         with baca.scope(o.rleaf(-1)) as u:
@@ -1342,7 +1342,7 @@ def va(cache):
     for item in [(23, 25), 27]:
         with baca.scope(m.get(item)) as o:
             baca.spanners.half_clt(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
             )
             library.bcps(o, 0, clt=True, staff_padding=4)
@@ -1471,7 +1471,7 @@ def vc(cache):
             staff_padding=8,
         )
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=5.5,
         )
         baca.pitch(o, "Dtqs5")
@@ -1527,7 +1527,7 @@ def vc(cache):
         )
     with baca.scope(m.get(16, 25)) as o:
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=4 + 6.5,
         )
     with baca.scope(m.get(18, 19)) as o:
@@ -1564,7 +1564,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=4 + 6.5,
         )
         baca.spanners.tasto(

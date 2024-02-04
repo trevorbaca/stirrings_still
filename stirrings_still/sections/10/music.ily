@@ -1306,9 +1306,6 @@ number.10.Violin.1.Music = {
         \undo \hide NoteHead
         e''4.
         \bacaStopTextSpanBCP
-          %! HALF_CLT_SPANNER
-          %! SPANNER_STOP
-        \bacaStopTextSpanHalfCLT
         \revert DynamicLineSpanner.staff-padding
         \revert TupletBracket.direction
         \revert TupletBracket.staff-padding
@@ -1350,6 +1347,10 @@ number.10.Violin.1.Music = {
       %! ANCHOR_NOTE
       %! SPANNER_STOP
     \!
+      %! ANCHOR_NOTE
+      %! HALF_CLT_SPANNER
+      %! SPANNER_STOP
+    \bacaStopTextSpanHalfCLT
 
 }
 
@@ -2069,9 +2070,6 @@ number.10.Violin.2.Music = {
     \undo \hide NoteHead
     cs''!8
     \bacaStopTextSpanBCP
-      %! HALF_CLT_SPANNER
-      %! SPANNER_STOP
-    \bacaStopTextSpanHalfCLT
     \revert DynamicLineSpanner.staff-padding
     \revert TupletBracket.direction
     \revert TupletBracket.staff-padding
@@ -2111,6 +2109,10 @@ number.10.Violin.2.Music = {
       %! ANCHOR_NOTE
       %! SPANNER_STOP
     \!
+      %! ANCHOR_NOTE
+      %! HALF_CLT_SPANNER
+      %! SPANNER_STOP
+    \bacaStopTextSpanHalfCLT
 
 }
 
@@ -2824,9 +2826,6 @@ number.10.Viola.Music = {
         \undo \hide NoteHead
         d'8
         \bacaStopTextSpanBCP
-          %! HALF_CLT_SPANNER
-          %! SPANNER_STOP
-        \bacaStopTextSpanHalfCLT
         ]
         \revert DynamicLineSpanner.staff-padding
         \revert TupletBracket.direction
@@ -2869,6 +2868,10 @@ number.10.Viola.Music = {
       %! ANCHOR_NOTE
       %! SPANNER_STOP
     \!
+      %! ANCHOR_NOTE
+      %! HALF_CLT_SPANNER
+      %! SPANNER_STOP
+    \bacaStopTextSpanHalfCLT
 
 }
 
