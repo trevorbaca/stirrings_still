@@ -479,7 +479,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=5.5,
         )
         baca.pitch(o, "F5")
@@ -503,7 +503,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=5.5,
         )
         baca.pitch(o, "F5")
@@ -573,7 +573,7 @@ def vc(cache):
             "p <",
         )
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=6 + 6.5,
         )
         library.transition_bcps(o, staff_padding=6)
@@ -634,7 +634,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=10.5,
         )
         baca.override.tuplet_bracket_down(o)

@@ -567,7 +567,7 @@ def v1(cache):
         )
     with baca.scope(m.get(58, 61)) as o:
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=10,
         )
     with baca.scope(m.get(54, 61)) as o:
@@ -579,7 +579,7 @@ def v1(cache):
         )
     with baca.scope(m.get(63, 78)) as o:
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=4.5 + 6.5,
         )
         baca.pitches(o, "D5 F5 Dqs5 E5 Fqs5 G#5 A5 F5 Aqs5")
@@ -648,7 +648,7 @@ def v1(cache):
         library.breathe(o.pleaf(-1))
     with baca.scope(m.get(105, 108)) as o:
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=10,
         )
 
@@ -973,14 +973,14 @@ def v2(cache):
         baca.flat_glissando(o, "Dqf5")
     with baca.scope(m.get(58, 61)) as o:
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=10,
         )
     with baca.scope(m.get(63, 70)) as o:
         baca.spanners.hairpin(o.rleaves(), '"ff" > p')
     with baca.scope(m.get(63, 77)) as o:
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=4.5 + 6.5,
         )
         baca.pitches(o, "D5 F5 Dqs5 E5 Fqs5 G#5 A5 F5 Aqs5")
@@ -1042,7 +1042,7 @@ def v2(cache):
         baca.flat_glissando(o, "Dqf5")
     with baca.scope(m.get(105, 108)) as o:
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=10,
         )
 
@@ -1115,7 +1115,7 @@ def va(cache):
     with baca.scope(m.get(63, 76)) as o:
         baca.clef(o.leaf(0), "treble")
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=4.5 + 6.5,
         )
         baca.pitches(o, "D5 F5 Dqs5 E5 Fqs5 G#5 A5 F5 Aqs5")
@@ -1211,7 +1211,7 @@ def va_vc(cache):
                     baca.flat_glissando(u, "D3")
         with baca.scope(m.get(58, 61)) as o:
             baca.spanners.half_clt(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=10,
             )
         with baca.scope(m.get(89, 96)) as o:
@@ -1273,7 +1273,7 @@ def va_vc(cache):
                     baca.flat_glissando(u, "D3")
         with baca.scope(m.get(105, 108)) as o:
             baca.spanners.half_clt(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=10,
             )
 

@@ -444,7 +444,7 @@ def v1(cache):
     m = cache[name]
     with baca.scope(m.get(1, 2)) as o:
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=4 + 6.5,
         )
         library.bcps(o, 0, clt=True, staff_padding=4)
@@ -472,7 +472,7 @@ def v1(cache):
     for item in [(5, 9), (11, 14), 16]:
         with baca.scope(m.get(item)) as o:
             baca.spanners.half_clt(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=4 + 6.5,
             )
     with baca.scope(m.get(5, 16)) as o:
@@ -674,7 +674,7 @@ def v2(cache):
     m = cache[name]
     with baca.scope(m.get(1, 2)) as o:
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=4 + 6.5,
         )
         library.bcps(o, -1, clt=True, staff_padding=4)
@@ -702,7 +702,7 @@ def v2(cache):
     for item in [(5, 9), 13, (15, 16)]:
         with baca.scope(m.get(item)) as o:
             baca.spanners.half_clt(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=4 + 6.5,
             )
     with baca.scope(m.get(5, 16)) as o:
@@ -854,7 +854,7 @@ def va(cache):
     m = cache[name]
     with baca.scope(m.get(1, 2)) as o:
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=4 + 6.5,
         )
         library.bcps(o, -2, clt=True, staff_padding=4)
@@ -892,7 +892,7 @@ def va(cache):
     for item in [(12, 13), (16, 17)]:
         with baca.scope(m.get(item)) as o:
             baca.spanners.half_clt(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=4 + 6.5,
             )
             library.bcps(o, -3, clt=True, staff_padding=4)
@@ -1017,7 +1017,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=4 + 6.5,
         )
         library.bcps(o, -2, clt=True, staff_padding=4)
@@ -1040,7 +1040,7 @@ def vc(cache):
     m = cache[name]
     with baca.scope(m.get(1, 2)) as o:
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=4 + 6.5,
         )
         library.bcps(o, -3, clt=True, staff_padding=4)
@@ -1068,7 +1068,7 @@ def vc(cache):
     for item in [(5, 10), (13, 14)]:
         with baca.scope(m.get(item)) as o:
             baca.spanners.half_clt(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=4 + 6.5,
             )
     with baca.scope(m.get(5, 14)) as o:
@@ -1107,7 +1107,7 @@ def vc(cache):
             'niente o< "f" -- ! >o niente',
         )
         baca.spanners.half_clt(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=11.0,
         )
         baca.markup(

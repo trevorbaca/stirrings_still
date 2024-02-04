@@ -2727,9 +2727,6 @@ number.9.Cello.Music = {
       %! SPANNER_STOP
     \!
     \bacaStopTextSpanBCP
-      %! HALF_CLT_SPANNER
-      %! SPANNER_STOP
-    \bacaStopTextSpanHalfCLT
     ]
     \revert DynamicLineSpanner.staff-padding
     \revert NoteHead.style
@@ -2766,6 +2763,10 @@ number.9.Cello.Music = {
       %! HIDDEN
       %! NOTE
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+      %! ANCHOR_NOTE
+      %! HALF_CLT_SPANNER
+      %! SPANNER_STOP
+    \bacaStopTextSpanHalfCLT
 
 }
 
