@@ -698,7 +698,7 @@ def v1(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
     with baca.scope(m.get(5, 7)) as o:
-        leaves = baca.select.tleaves(o, rleak=True)
+        leaves = baca.select.rleak(baca.select.tleaves(o))
         baca.piecewise.hairpin(
             baca.select.mgroups(leaves, [1, 2]),
             "mf -- ! >o niente",
@@ -1123,7 +1123,7 @@ def v2(cache, time_signatures):
         baca.pitch(o, "F5")
         baca.override.tuplet_bracket_staff_padding(o, 1)
     with baca.scope(m.get(5, 7)) as o:
-        leaves = baca.select.tleaves(o, rleak=True)
+        leaves = baca.select.rleak(baca.select.tleaves(o))
         baca.piecewise.hairpin(
             baca.select.mgroups(leaves, [1, 2]),
             "mf -- ! >o niente",

@@ -806,7 +806,7 @@ def v2(cache):
         baca.flat_glissando(o, "Fqs5")
     with baca.scope(m.get(66, 67)) as o:
         baca.spanners.half_clt(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.rleak(baca.select.tleaves(o)),
             staff_padding=10.5,
         )
     with baca.scope(m.get(68, 70)) as o:
