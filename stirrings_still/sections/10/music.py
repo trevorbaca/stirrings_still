@@ -152,7 +152,7 @@ def v1_v2_va(cache):
                 "appena-udibile -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
-            library.urtext_spanner(o.rleaves(), "urtext (ds field) -|", 8)
+            library.urtext_spanner(o, "urtext (ds field) -|", 8)
         with baca.scope(m.get(5, 11)) as o:
             baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
             baca.override.dynamic_text_self_alignment_x(o.leaf(-1), -0.75)
@@ -161,7 +161,7 @@ def v1_v2_va(cache):
                 "appena-udibile -- ! < fff-poco-scratch",
             )
         with baca.scope(m.get(5, 11)) as o:
-            library.urtext_spanner(o.rleaves(), "urtext (ds field) -|", 8)
+            library.urtext_spanner(o, "urtext (ds field) -|", 8)
         with baca.scope(m.get(12, 17)) as o:
             baca.piecewise.hairpin(
                 baca.select.mgroups(o.rleaves(), [2, 4 + 1]),
@@ -220,7 +220,7 @@ def v1_va_vc(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             baca.override.tuplet_bracket_down(o)
-            library.clouded_pane_spanner(o.rleaves(), "clouded pane (beacon) -|", 8)
+            library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
 
 
 def tutti(cache):

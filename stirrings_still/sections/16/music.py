@@ -282,7 +282,7 @@ def tutti(cache):
             baca.dynamic(o.phead(0), "ppppp")
         with baca.scope(m.get(1, 20)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaves(), -0.75)
-            library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 10.5)
+            library.clouded_pane_spanner(o, "clouded pane -|", 10.5)
         with baca.scope(m.get(21, 25)) as o:
             baca.breathe(o.pleaf(-1))
 

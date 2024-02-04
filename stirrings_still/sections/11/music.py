@@ -1155,8 +1155,7 @@ def vc(cache):
         )
     with baca.scope(m.get(32, 54)) as o:
         library.clouded_pane_spanner(
-            # TODO: allow spanner to extend to phantom measure
-            o.leaves(),
+            o,
             "clouded pane -|",
             13,
         )

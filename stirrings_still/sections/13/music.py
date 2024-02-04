@@ -267,27 +267,27 @@ def v1_v2_va(cache):
                 "o< fff >o ! o< fff",
             )
         with baca.scope(m.get(1, 8)) as o:
-            library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 8)
+            library.clouded_pane_spanner(o, "clouded pane -|", 8)
         with baca.scope(m.get(9, 12)) as o:
-            library.urtext_spanner(o.rleaves(), "urtext (ds) -|", 8)
+            library.urtext_spanner(o, "urtext (ds) -|", 8)
         with baca.scope(m.get(13, 16)) as o:
             library.clouded_pane_spanner(
-                baca.select.rleak(o.leaves(), count=2),
+                baca.select.rleak(o.leaves(), count=1),
                 "clouded pane -|",
                 8,
             )
         with baca.scope(m.get(17, 20)) as o:
             library.urtext_spanner(
-                baca.select.rleak(o.leaves()[1:]),
+                o.leaves()[1:],
                 "urtext (ds) -|",
                 8,
             )
         with baca.scope(m.get(21, 25)) as o:
-            library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 8)
+            library.clouded_pane_spanner(o, "clouded pane -|", 8)
         with baca.scope(m.get(26, 28)) as o:
-            library.urtext_spanner(o.rleaves(), "urtext (ds) -|", 8)
+            library.urtext_spanner(o, "urtext (ds) -|", 8)
         with baca.scope(m.get(29, 32)) as o:
-            library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 8)
+            library.clouded_pane_spanner(o, "clouded pane -|", 8)
 
 
 def v2(cache):
@@ -448,7 +448,7 @@ def vc(cache):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 7)
         library.clouded_pane_spanner(
-            o.rleaves(),
+            o,
             "clouded pane (semitone down) -|",
             5.5,
         )

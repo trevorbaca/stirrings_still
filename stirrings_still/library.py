@@ -1257,7 +1257,7 @@ def first_order_stages(section):
 
 def flight_spanner(o, string, staff_padding):
     wrappers = baca.spanners.material_annotation(
-        o.rleaves(),
+        o,
         string,
         abjad.Tweak(r"- \tweak color #darkmagenta"),
         staff_padding=staff_padding,

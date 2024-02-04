@@ -279,7 +279,7 @@ def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(1, 8)) as o:
-            library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 8)
+            library.clouded_pane_spanner(o, "clouded pane -|", 8)
         with baca.scope(m.get(6, 8)) as o:
             baca.spanners.hairpin(
                 o.rleaves(),
@@ -294,12 +294,12 @@ def v1_v2_va(cache):
         with baca.scope(m.get(10, 12)) as o:
             baca.override.tacet(o.mmrests())
         with baca.scope(m.get(13, 28)) as o:
-            library.urtext_spanner(o.rleaves(), "urtext (field) -|", 8)
+            library.urtext_spanner(o, "urtext (field) -|", 8)
         with baca.scope(m.get(30, 35)) as o:
-            library.urtext_spanner(o.rleaves(), "urtext (field) -|", 8)
+            library.urtext_spanner(o, "urtext (field) -|", 8)
         with baca.scope(m.get(37, 38)) as o:
             library.urtext_spanner(
-                o.rleaves(),
+                o,
                 "urtext / clouded pane (composite) -|",
                 8,
             )
@@ -517,7 +517,7 @@ def vc(cache):
     with baca.scope(m.get(1, 10)) as o:
         baca.override.dots_transparent(o)
         baca.override.stem_transparent(o.pleaves())
-        library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 8)
+        library.clouded_pane_spanner(o, "clouded pane -|", 8)
     with baca.scope(m.get(1, 22)) as o:
         baca.flat_glissando(o, "Bb1")
     with baca.scope(m.get(6, 8)) as o:
@@ -534,7 +534,7 @@ def vc(cache):
             baca.override.stem_transparent(u)
     for item in [(13, 22), (37, 38)]:
         with baca.scope(m.get(item)) as o:
-            library.clouded_pane_spanner(o.rleaves(), "clouded pane -|", 8)
+            library.clouded_pane_spanner(o, "clouded pane -|", 8)
     with baca.scope(m.get(17, 22)) as o:
         baca.spanners.hairpin(o.rleaves(), "(p) >o")
     with baca.scope(m.get(23, 28)) as o:
@@ -561,7 +561,7 @@ def vc(cache):
         )
     for item in [(23, 28), (30, 35)]:
         with baca.scope(m.get(item)) as o:
-            library.urtext_spanner(o.rleaves(), "urtext (field) -|", 8)
+            library.urtext_spanner(o, "urtext (field) -|", 8)
             baca.flat_glissando(o, "<B2 Gqs3>")
     cache.rebuild()
     m = cache[name]
