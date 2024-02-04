@@ -597,7 +597,7 @@ def v1(cache):
                 qualifier="tight",
             )
             baca.spanners.damp(
-                baca.select.rleak(o.tleaves()),
+                o.tleaves(),
                 staff_padding=8,
             )
             baca.flat_glissando(o, "C5")
@@ -817,7 +817,7 @@ def tutti(cache):
                 qualifier="very-tight",
             )
             baca.spanners.damp(
-                baca.select.rleak(baca.select.tleaves(o)),
+                baca.select.tleaves(o),
                 staff_padding=8,
             )
             baca.spanners.hairpin(
@@ -883,7 +883,7 @@ def v2(cache):
                 qualifier="tight",
             )
             baca.spanners.damp(
-                baca.select.rleak(baca.select.tleaves(o)),
+                baca.select.tleaves(o),
                 staff_padding=8,
             )
             baca.spanners.hairpin(
@@ -951,7 +951,7 @@ def va(cache):
                 qualifier="tight",
             )
             baca.spanners.damp(
-                baca.select.rleak(baca.select.tleaves(o)),
+                baca.select.tleaves(o),
                 staff_padding=8,
             )
             baca.spanners.hairpin(
@@ -1058,7 +1058,7 @@ def vc(cache):
                 qualifier="tight",
             )
             baca.spanners.damp(
-                baca.select.rleak(baca.select.tleaves(o)),
+                baca.select.tleaves(o),
                 staff_padding=8,
             )
             baca.spanners.hairpin(

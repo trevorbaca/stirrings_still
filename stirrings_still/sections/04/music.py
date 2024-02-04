@@ -655,7 +655,7 @@ def v1_v2_va(cache):
                 qualifier="tight-poss-grind-at-talon",
             )
             baca.spanners.damp(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=8,
             ),
             baca.spanners.hairpin(
@@ -680,7 +680,7 @@ def tutti_1(cache):
             baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(1, 36)) as o:
             baca.spanners.damp(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 # manual padding because spanner ends of volta
                 abjad.Tweak(r"- \tweak bound-details.right.padding 5.25"),
                 staff_padding=5.5,
@@ -727,7 +727,7 @@ def tutti_1(cache):
             library.ntlt_flat_glissandi(o)
         with baca.scope(m.get(58, 63)) as o:
             baca.spanners.damp(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=5.5,
             )
             baca.spanners.hairpin(o, "mf >o niente")

@@ -548,7 +548,7 @@ def v2(cache):
     with baca.scope(m.get(28, 29)) as o:
         baca.alternate_bow_strokes(o.pheads())
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.spanners.hairpin(
@@ -685,7 +685,7 @@ def tutti(cache):
                 qualifier="tight-poss-grind-at-talon",
             )
             baca.spanners.damp(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=8,
             )
             baca.flat_glissando(o, "G4")
@@ -701,7 +701,7 @@ def tutti(cache):
                 qualifier="tight-poss-grind-at-talon",
             )
             baca.spanners.damp(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=8,
             )
             baca.spanners.hairpin(
@@ -734,7 +734,7 @@ def tutti(cache):
         with baca.scope(m.get(12, 27)) as o:
             baca.breathe(o.pleaf(-1))
             baca.spanners.damp(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=8,
             )
         with baca.scope(m.get(16, 19)) as o:
@@ -772,7 +772,7 @@ def tutti(cache):
                 qualifier="wide",
             )
             baca.spanners.damp(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=8,
             )
             baca.piecewise.hairpin(

@@ -677,7 +677,7 @@ def v1(cache):
     with baca.scope(m.get(1, 7)) as o:
         baca.alternate_bow_strokes(o.pheads())
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.spanners.half_clt(
@@ -712,7 +712,7 @@ def v1(cache):
         baca.flat_glissando(o.pleaves(), "C5")
     with baca.scope(m.get(12, 24)) as o:
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.piecewise.hairpin(
@@ -1016,7 +1016,7 @@ def tutti(cache):
                 qualifier="very-tight",
             )
             baca.spanners.damp(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=8,
             ),
             baca.spanners.hairpin(
@@ -1075,7 +1075,7 @@ def tutti(cache):
         with baca.scope(m[65]) as o:
             baca.pitch(o, "Eb5")
             baca.spanners.damp(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=5.5,
             )
             if name == "v1":
@@ -1111,7 +1111,7 @@ def v2(cache, time_signatures):
     with baca.scope(m.get(1, 7)) as o:
         baca.alternate_bow_strokes(o.pheads())
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.spanners.half_clt(
@@ -1132,7 +1132,7 @@ def v2(cache, time_signatures):
         baca.alternate_bow_strokes(o.pheads())
     with baca.scope(m.get(12, 17)) as o:
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.override.tuplet_number_denominator(o)
@@ -1297,7 +1297,7 @@ def va(cache):
         baca.override.tuplet_bracket_staff_padding(o, 1)
     with baca.scope(m.get(1, 7)) as o:
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
     with baca.scope(m.get(5, 7)) as o:
@@ -1319,7 +1319,7 @@ def va(cache):
             qualifier="tight",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
@@ -1467,7 +1467,7 @@ def vc(cache):
         baca.clef(o.leaf(0), "treble")
         baca.clef(o.rleaf(-1), "bass")
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.spanners.half_clt(
@@ -1498,7 +1498,7 @@ def vc(cache):
             qualifier="tight",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.flat_glissando(o.pleaves(), "G3")
@@ -1522,7 +1522,7 @@ def vc(cache):
         baca.pitch(o.pleaves()[:-1], "Dtqs5")
     with baca.scope(m.get(16, 19)) as o:
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=4 + 6.5 + 2.5,
         )
     with baca.scope(m.get(16, 25)) as o:

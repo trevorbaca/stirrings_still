@@ -441,7 +441,7 @@ def v1(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -478,7 +478,7 @@ def v1(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.tleaves(o)),
+            baca.select.tleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -512,7 +512,7 @@ def v1(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -546,7 +546,7 @@ def v1(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -580,7 +580,7 @@ def v1(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.tleaves(o)),
+            baca.select.tleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -614,7 +614,7 @@ def v1(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.tleaves(o)),
+            baca.select.tleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -680,7 +680,7 @@ def v2(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -709,7 +709,7 @@ def v2(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -735,7 +735,7 @@ def v2(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -761,7 +761,7 @@ def v2(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -787,7 +787,7 @@ def v2(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(
@@ -817,7 +817,7 @@ def v2(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -863,7 +863,7 @@ def va(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -900,7 +900,7 @@ def va(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -934,7 +934,7 @@ def va(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -968,7 +968,7 @@ def va(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -1002,7 +1002,7 @@ def va(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(
@@ -1035,7 +1035,7 @@ def va(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -1077,7 +1077,7 @@ def vc(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         ),
         baca.dynamic(o.phead(0), "p")
@@ -1117,7 +1117,7 @@ def vc(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -1155,7 +1155,7 @@ def vc(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -1192,7 +1192,7 @@ def vc(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
@@ -1229,7 +1229,7 @@ def vc(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(
@@ -1270,7 +1270,7 @@ def vc(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")

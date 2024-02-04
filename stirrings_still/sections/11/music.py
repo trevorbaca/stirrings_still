@@ -615,7 +615,6 @@ def v1(cache):
     with baca.scope(m.get(46, 53)) as o:
         baca.spanners.hairpin(o, "p >o niente")
         baca.spanners.damp(
-            # TODO: allow spanner to extend to phantom measure
             o.leaves(),
             staff_padding=8,
         )
@@ -839,7 +838,6 @@ def v2(cache):
     with baca.scope(m.get(46, 53)) as o:
         baca.spanners.hairpin(o, "p >o niente")
         baca.spanners.damp(
-            # TODO: allow spanner to extend to phantom measure
             o.leaves(),
             staff_padding=8,
         ),
@@ -1025,7 +1023,6 @@ def va(cache):
         library.bcps(o, -2, clt=True, staff_padding=4)
     with baca.scope(m.get(46, 53)) as o:
         baca.spanners.damp(
-            # TODO: allow spanner to extend to phantom measure
             o.leaves(),
             staff_padding=8,
         )

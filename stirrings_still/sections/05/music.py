@@ -495,7 +495,7 @@ def v1(cache):
         baca.flat_glissando(o, "Etqf4")
     with baca.scope(m.get(6, 23)) as o:
         baca.spanners.damp(
-            baca.select.rleak(baca.select.tleaves(o)),
+            baca.select.tleaves(o),
             staff_padding=8,
         )
         for plt in abjad.select.get(baca.select.plts(o), [0], 2):
@@ -541,7 +541,7 @@ def v1(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.spanners.hairpin(
@@ -626,7 +626,7 @@ def v1(cache):
         baca.flat_glissando(o, "Bb5")
     with baca.scope(m.get(87, 96)) as o:
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
     with baca.scope(m.get(97, 100)) as o:
@@ -659,7 +659,7 @@ def v1_v2_va(cache):
         with baca.scope(m.get(1, 2)) as o:
             baca.stem_tremolo(o)
             baca.spanners.damp(
-                baca.select.rleak(baca.select.tleaves(o)),
+                baca.select.tleaves(o),
                 staff_padding=5.5,
             )
             baca.spanners.hairpin(
@@ -803,7 +803,7 @@ def v1_v2_va(cache):
             baca.stem_tremolo(o.pleaves())
         with baca.scope(m.get(109, 110)) as o:
             baca.spanners.damp(
-                baca.select.rleak(baca.select.tleaves(o)),
+                baca.select.tleaves(o),
                 abjad.Tweak(r"- \tweak bound-details.right.padding 7.75"),
                 staff_padding=8,
             )
@@ -840,7 +840,7 @@ def v1_v2_va(cache):
             baca.stem_tremolo(o.pleaves())
         with baca.scope(m.get(112, 119)) as o:
             baca.spanners.damp(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 staff_padding=8,
             ),
             baca.piecewise.hairpin(
@@ -906,7 +906,7 @@ def v2(cache):
         plts = abjad.select.get(plts, [0], 2)
         for plt in plts:
             baca.spanners.damp(
-                baca.select.rleak(plt),
+                plt,
                 staff_padding=8,
             )
         for plt in abjad.select.get(baca.select.plts(o), [0], 2):
@@ -953,7 +953,7 @@ def v2(cache):
             qualifier="wide",
         )
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
         baca.spanners.hairpin(
@@ -1014,7 +1014,7 @@ def v2(cache):
     m = cache["v2"]
     with baca.scope(m.get(87, 100)) as o:
         baca.spanners.damp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=8,
         )
     with baca.scope(m.get(89, 100)) as o:
@@ -1064,7 +1064,7 @@ def va(cache):
         plts = abjad.select.get(plts, [0], 2)
         for plt in plts:
             baca.spanners.damp(
-                baca.select.rleak(baca.select.tleaves(plt)),
+                baca.select.tleaves(plt),
                 staff_padding=5.5,
             )
         for plt in abjad.select.get(baca.select.plts(o), [0], 2):
@@ -1148,7 +1148,7 @@ def va(cache):
     m = cache["va"]
     with baca.scope(m.get(87, 96)) as o:
         baca.spanners.damp(
-            baca.select.rleak(baca.select.tleaves(o)),
+            baca.select.tleaves(o),
             staff_padding=8,
         )
     with baca.scope(m[89]) as o:
@@ -1166,7 +1166,7 @@ def va_vc(cache):
                 qualifier="wide",
             )
             baca.spanners.damp(
-                baca.select.rleak(baca.select.tleaves(o)),
+                baca.select.tleaves(o),
                 staff_padding=8,
             )
             baca.spanners.hairpin(
@@ -1222,7 +1222,7 @@ def va_vc(cache):
             )
             if name == "vc":
                 baca.spanners.damp(
-                    baca.select.rleak(baca.select.ltleaves(o)),
+                    baca.select.ltleaves(o),
                     staff_padding=8,
                 )
             baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
