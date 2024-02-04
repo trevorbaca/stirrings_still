@@ -748,7 +748,7 @@ def v1(cache):
         m = cache["v1"]
     with baca.scope(m[26]) as o:
         baca.spanners.tasto(
-            o.rleaves(),
+            o,
             staff_padding=5.5,
         )
     with baca.scope(m.get(29, 30)) as o:
@@ -849,7 +849,7 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             baca.spanners.tasto(
-                o.rleaves(),
+                o,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o)
@@ -860,7 +860,7 @@ def v1_v2_va(cache):
             library.urtext_spanner(o.rleaves(), "urtext (cds) -|", 8)
             baca.dynamic(o.phead(0), "p")
             baca.spanners.tasto(
-                o.rleaves(),
+                o,
                 staff_padding=5.5,
             )
             for plt in abjad.select.get(baca.select.plts(o), [1], 2):
@@ -1175,7 +1175,7 @@ def v2(cache, time_signatures):
         )
     with baca.scope(m.get(18, 27)) as o:
         baca.spanners.tasto(
-            o.rleaves(),
+            o,
             staff_padding=4 + 6.5 + 2.5,
         )
     with baca.scope(m[26]) as o:
@@ -1354,7 +1354,7 @@ def va(cache):
         )
     with baca.scope(m.get(23, 27)) as o:
         baca.spanners.tasto(
-            o.rleaves(),
+            o,
             staff_padding=4 + 6.5 + 2.5,
         )
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
@@ -1539,7 +1539,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.spanners.tasto(
-            o.rleaves(),
+            o,
             staff_padding=4 + 6.5 + 2.5,
         )
         library.bcps(o, 0, clt=True, staff_padding=4)
@@ -1568,7 +1568,7 @@ def vc(cache):
             staff_padding=4 + 6.5,
         )
         baca.spanners.tasto(
-            o.rleaves(),
+            o,
             staff_padding=4 + 6.5 + 2.5,
         )
         library.bcps(o, -2, clt=True, staff_padding=4)

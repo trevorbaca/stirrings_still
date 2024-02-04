@@ -668,7 +668,7 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             baca.spanners.tasto(
-                o.rleaves(),
+                o,
                 staff_padding=8,
             )
         with baca.scope(m.get(4, 5)) as o:
@@ -715,12 +715,12 @@ def v1_v2_va(cache):
         with baca.scope(m.get(6, 40)) as o:
             if name in ("v1", "v2"):
                 baca.spanners.tasto(
-                    o.rleaves(),
+                    o,
                     staff_padding=10.5,
                 )
             elif name == "va":
                 baca.spanners.tasto(
-                    o.rleaves(),
+                    o,
                     staff_padding=8,
                 )
         with baca.scope(m.get(24, 33)) as o:

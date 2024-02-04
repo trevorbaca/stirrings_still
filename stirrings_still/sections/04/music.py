@@ -528,7 +528,7 @@ def v1_v2(cache):
             baca.override.tacet(o.mmrests())
         with baca.scope(m.get(67, 85)) as o:
             baca.spanners.tasto(
-                o.rleaves(),
+                o,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(86, 92)) as o:
@@ -572,7 +572,7 @@ def v1_v2_va(cache):
                 )
                 baca.stop_on_string(o.pleaf(-1))
                 baca.spanners.tasto(
-                    o.rleaves(),
+                    o,
                     staff_padding=5.5,
                 )
                 library.breathe(o.pleaf(1))
@@ -584,7 +584,7 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             baca.spanners.tasto(
-                o.rleaves(),
+                o,
                 staff_padding=5.5,
             )
             library.urtext_spanner(o.rleaves(), "urtext (cds) -|", 8)
@@ -801,7 +801,7 @@ def va(cache):
         baca.clef(o.leaf(0), "alto")
     with baca.scope(m.get(67, 89)) as o:
         baca.spanners.tasto(
-            o.rleaves(),
+            o,
             staff_padding=5.5,
         )
     with baca.scope(m.get(90, 93)) as o:
