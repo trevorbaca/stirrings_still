@@ -510,7 +510,6 @@ def v1(cache):
             baca.spanners.xfb(
                 plt,
                 staff_padding=5.5,
-                with_next_leaf=True,
             )
             baca.flat_glissando(plt, "Etqf4")
         baca.pitch(o, "Etqf4", allow_repitch=True)
@@ -733,7 +732,6 @@ def v1_v2_va(cache):
                 baca.spanners.xfb(
                     plt,
                     staff_padding=5.5,
-                    with_next_leaf=True,
                 )
         with baca.scope(m[34]) as o:
             if name == "v1":
@@ -918,7 +916,6 @@ def v2(cache):
             baca.spanners.xfb(
                 plt,
                 staff_padding=5.5,
-                with_next_leaf=True,
             )
             baca.flat_glissando(plt, "Bqf3")
         baca.pitch(o, "Bqf3", allow_repitch=True)
@@ -1076,7 +1073,6 @@ def va(cache):
             baca.spanners.xfb(
                 plt,
                 staff_padding=3,
-                with_next_leaf=True,
             )
             baca.flat_glissando(plt, "A3")
         baca.pitch(o, "A3", allow_repitch=True)
@@ -1099,14 +1095,12 @@ def va(cache):
             baca.spanners.xfb(
                 plt,
                 staff_padding=5.5,
-                with_next_leaf=True,
             )
         for plt in baca.select.plts(o)[-1:]:
             baca.spanners.hairpin(plt, "pp --")
             baca.spanners.xfb(
                 plt,
                 staff_padding=5.5,
-                with_next_leaf=True,
             )
         baca.dynamic(o.pleaf(-1), "!")
         baca.flat_glissando(o, "Gb4")
