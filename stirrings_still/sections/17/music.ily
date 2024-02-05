@@ -17338,6 +17338,8 @@ number.17.Cello.Music = {
     % [Cello.Music measure 92]
     b,,,4.
 
+      %! SPANNER_STOP
+    \ottava 0
       %! HIDE_TO_JOIN_BROKEN_SPANNERS
       %! RIGHT_BROKEN
     \revert Accidental.stencil
@@ -17357,8 +17359,6 @@ number.17.Cello.Music = {
       %! RIGHT_BROKEN
     \revert Stem.transparent
     b,,,4
-      %! SPANNER_STOP
-    \ottava 0
     \revert DynamicLineSpanner.staff-padding
     \revert TupletBracket.direction
     \revert TupletBracket.staff-padding

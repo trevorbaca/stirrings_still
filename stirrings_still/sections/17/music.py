@@ -1302,7 +1302,7 @@ def vc(cache):
             o.pleaf(0),
             r"\stirrings-still-tuning-peg-slowly-detune-markup",
         )
-        baca.spanners.ottava_bassa(o.tleaves())
+        baca.rspanners.ottava_bassa(o.tleaves())
     with baca.scope(m.get(88, 92)) as o:
         baca.flat_glissando(o, "B0", hide_middle_stems=True, right_broken=True)
 
