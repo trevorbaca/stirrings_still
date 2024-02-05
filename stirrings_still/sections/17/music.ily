@@ -17081,6 +17081,9 @@ number.17.Cello.Music = {
     >>
 
     % [Cello.Music measure 73]
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_START
     \ottava -1
     bf,,!8
@@ -17338,6 +17341,9 @@ number.17.Cello.Music = {
     % [Cello.Music measure 92]
     b,,,4.
 
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_STOP
     \ottava 0
       %! HIDE_TO_JOIN_BROKEN_SPANNERS
