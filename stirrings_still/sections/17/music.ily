@@ -17084,7 +17084,6 @@ number.17.Cello.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_START
     \ottava -1
     bf,,!8
       %! EXPLICIT_DYNAMIC_COLOR
@@ -17344,7 +17343,6 @@ number.17.Cello.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_STOP
     \ottava 0
       %! HIDE_TO_JOIN_BROKEN_SPANNERS
       %! RIGHT_BROKEN

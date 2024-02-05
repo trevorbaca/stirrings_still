@@ -2947,7 +2947,6 @@ number.19.Cello.Music = {
       %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
       %! EXPLICIT_OTTAVA
-      %! SPANNER_START
     \ottava -1
     \override DynamicLineSpanner.staff-padding = 6
       %! EXPLICIT_BAR_EXTENT
@@ -3020,7 +3019,6 @@ number.19.Cello.Music = {
               %! EXPLICIT_OTTAVA_COLOR
             \once \override Staff.OttavaBracket.color = #blue
               %! EXPLICIT_OTTAVA
-              %! SPANNER_STOP
             \ottava 0
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -3054,7 +3052,6 @@ number.19.Cello.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_START
     \ottava -1
     b,,,2.
       %! EXPLICIT_DYNAMIC
@@ -3122,7 +3119,6 @@ number.19.Cello.Music = {
               %! EXPLICIT_OTTAVA_COLOR
             \once \override Staff.OttavaBracket.color = #blue
               %! EXPLICIT_OTTAVA
-              %! SPANNER_STOP
             \ottava 0
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -3158,7 +3154,6 @@ number.19.Cello.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_START
     \ottava -1
     b,,,2.
       %! EXPLICIT_DYNAMIC
@@ -3231,7 +3226,6 @@ number.19.Cello.Music = {
               %! EXPLICIT_OTTAVA_COLOR
             \once \override Staff.OttavaBracket.color = #blue
               %! EXPLICIT_OTTAVA
-              %! SPANNER_STOP
             \ottava 0
             \stopStaff
             \once \override Staff.StaffSymbol.line-count = 0
@@ -3270,7 +3264,6 @@ number.19.Cello.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_START
     \ottava -1
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -3357,7 +3350,6 @@ number.19.Cello.Music = {
               %! EXPLICIT_OTTAVA_COLOR
             \once \override Staff.OttavaBracket.color = #blue
               %! EXPLICIT_OTTAVA
-              %! SPANNER_STOP
             \ottava 0
             \stopStaff
             \once \override Staff.StaffSymbol.line-count = 0

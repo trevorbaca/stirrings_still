@@ -1932,7 +1932,6 @@ number.18.Cello.Music = {
       %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
       %! EXPLICIT_OTTAVA
-      %! SPANNER_START
     \ottava -1
     \override DynamicLineSpanner.staff-padding = 8
       %! EXPLICIT_BAR_EXTENT
@@ -2053,7 +2052,6 @@ number.18.Cello.Music = {
               %! EXPLICIT_OTTAVA_COLOR
             \once \override Staff.OttavaBracket.color = #blue
               %! EXPLICIT_OTTAVA
-              %! SPANNER_STOP
             \ottava 0
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
