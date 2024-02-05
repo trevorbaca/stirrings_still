@@ -2942,8 +2942,11 @@ number.19.Cello.Music = {
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
       %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! EXPLICIT_OTTAVA
       %! SPANNER_START
     \ottava -1
     \override DynamicLineSpanner.staff-padding = 6
@@ -3014,6 +3017,9 @@ number.19.Cello.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! EXPLICIT_OTTAVA_COLOR
+            \once \override Staff.OttavaBracket.color = #blue
+              %! EXPLICIT_OTTAVA
               %! SPANNER_STOP
             \ottava 0
             \once \override Accidental.stencil = ##f
@@ -3045,6 +3051,9 @@ number.19.Cello.Music = {
     >>
 
     % [Cello.Music measure 3]
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_START
     \ottava -1
     b,,,2.
@@ -3110,6 +3119,9 @@ number.19.Cello.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! EXPLICIT_OTTAVA_COLOR
+            \once \override Staff.OttavaBracket.color = #blue
+              %! EXPLICIT_OTTAVA
               %! SPANNER_STOP
             \ottava 0
             \once \override Accidental.stencil = ##f
@@ -3143,6 +3155,9 @@ number.19.Cello.Music = {
     >>
 
     % [Cello.Music measure 6]
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_START
     \ottava -1
     b,,,2.
@@ -3213,6 +3228,9 @@ number.19.Cello.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! EXPLICIT_OTTAVA_COLOR
+            \once \override Staff.OttavaBracket.color = #blue
+              %! EXPLICIT_OTTAVA
               %! SPANNER_STOP
             \ottava 0
             \stopStaff
@@ -3249,6 +3267,9 @@ number.19.Cello.Music = {
     >>
 
     % [Cello.Music measure 10]
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_START
     \ottava -1
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
@@ -3333,6 +3354,9 @@ number.19.Cello.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! EXPLICIT_OTTAVA_COLOR
+            \once \override Staff.OttavaBracket.color = #blue
+              %! EXPLICIT_OTTAVA
               %! SPANNER_STOP
             \ottava 0
             \stopStaff
