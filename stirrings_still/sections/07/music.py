@@ -329,7 +329,7 @@ def v1(cache):
             m = cache["v1"]
         with baca.scope(m[n]) as o:
             baca.dynamic(o.phead(0), "mp")
-            baca.spanners.tasto(
+            baca.rspanners.tasto(
                 o,
                 staff_padding=5.5,
             )
@@ -405,7 +405,7 @@ def tutti(cache):
         with baca.scope(m[18]) as o:
             baca.override.dynamic_text_extra_offset(abjad.select.leaf(o, 0), (-5, 0))
         with baca.scope(m.get(19, 24)) as o:
-            baca.spanners.damp(
+            baca.rspanners.damp(
                 baca.select.ltleaves(o),
                 staff_padding=5.5,
             )
@@ -440,7 +440,7 @@ def v1_va_vc(cache):
                     r"\stirrings-still-seven-plus-nine-of-e-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.spanners.tasto(
+                baca.rspanners.tasto(
                     o,
                     staff_padding=5.5,
                 )
@@ -451,7 +451,7 @@ def v1_va_vc(cache):
                     r"\stirrings-still-eleven-plus-three-of-e-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.spanners.tasto(
+                baca.rspanners.tasto(
                     o,
                     staff_padding=5.5,
                 )
@@ -480,7 +480,7 @@ def v2(cache):
             m = cache["v2"]
         with baca.scope(m[n]) as o:
             baca.dynamic(o.phead(0), "mp")
-            baca.spanners.tasto(
+            baca.rspanners.tasto(
                 o,
                 staff_padding=5.5,
             )
@@ -488,7 +488,7 @@ def v2(cache):
     with baca.scope(m.get(12, 13)) as o:
         baca.pitch(o, "F5")
         baca.alternate_bow_strokes(o.pheads())
-        baca.spanners.damp(
+        baca.rspanners.damp(
             baca.select.ltleaves(o),
             staff_padding=8,
         )
@@ -497,7 +497,7 @@ def v2(cache):
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.spanners.half_clt(
+        baca.rspanners.half_clt(
             baca.select.ltleaves(o),
             staff_padding=5.5,
         )
@@ -518,7 +518,7 @@ def va(cache):
             m = cache["va"]
         with baca.scope(m[n]) as o:
             baca.dynamic(o.phead(0), "mp")
-            baca.spanners.tasto(
+            baca.rspanners.tasto(
                 o,
                 staff_padding=5.5,
             )

@@ -71,7 +71,7 @@ def v1(cache):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 7)
     with baca.scope(m.get(1, 8)) as o:
-        baca.spanners.half_clt(
+        baca.rspanners.half_clt(
             baca.select.ltleaves(o),
             staff_padding=8 + 6,
         )
@@ -91,7 +91,7 @@ def v2(cache):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 7)
     with baca.scope(m.get(1, 8)) as o:
-        baca.spanners.half_clt(
+        baca.rspanners.half_clt(
             baca.select.ltleaves(o),
             staff_padding=4.5 + 6,
         )

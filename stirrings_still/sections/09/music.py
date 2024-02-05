@@ -219,7 +219,7 @@ def vc(cache):
             # pieces=baca.select.mgroups(_, [5, 4, 2 + 1]),
             # temporary:
         )
-        baca.spanners.half_clt(
+        baca.rspanners.half_clt(
             o.leaves(),
             staff_padding=6 + 6.5,
         )

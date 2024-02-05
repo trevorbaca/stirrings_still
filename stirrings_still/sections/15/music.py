@@ -225,7 +225,7 @@ def vc(cache):
             "p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.spanners.half_clt(
+        baca.rspanners.half_clt(
             baca.select.ltleaves(o),
             staff_padding=3 + 6.5,
         )

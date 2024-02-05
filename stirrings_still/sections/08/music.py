@@ -409,7 +409,7 @@ def v1(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "Db5", stop_pitch="B4")
     with baca.scope(m.get(52, 55)) as o:
-        baca.spanners.tasto(
+        baca.rspanners.tasto(
             o,
             staff_padding=5.5,
         )
@@ -469,7 +469,7 @@ def v2(cache):
             baca.flat_glissando(o, "B4")
     with baca.scope(m.get(33, 34)) as o:
         baca.alternate_bow_strokes(o.pheads())
-        baca.spanners.damp(
+        baca.rspanners.damp(
             baca.select.ltleaves(o),
             staff_padding=8,
         )
@@ -478,7 +478,7 @@ def v2(cache):
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.spanners.half_clt(
+        baca.rspanners.half_clt(
             baca.select.ltleaves(o),
             staff_padding=5.5,
         )
@@ -487,13 +487,13 @@ def v2(cache):
         baca.override.tuplet_number_denominator(o)
     for n in [52, 55]:
         with baca.scope(m[n]) as o:
-            baca.spanners.tasto(
+            baca.rspanners.tasto(
                 o,
                 staff_padding=5.5,
             )
     with baca.scope(m.get(53, 54)) as o:
         baca.alternate_bow_strokes(o.pheads())
-        baca.spanners.damp(
+        baca.rspanners.damp(
             baca.select.ltleaves(o),
             staff_padding=8,
         )
@@ -502,7 +502,7 @@ def v2(cache):
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.spanners.half_clt(
+        baca.rspanners.half_clt(
             baca.select.ltleaves(o),
             staff_padding=5.5,
         )
@@ -545,7 +545,7 @@ def va(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "B4")
     with baca.scope(m.get(52, 55)) as o:
-        baca.spanners.tasto(
+        baca.rspanners.tasto(
             o,
             staff_padding=5.5,
         )
@@ -572,7 +572,7 @@ def vc(cache):
             o.rleaves(),
             "p <",
         )
-        baca.spanners.half_clt(
+        baca.rspanners.half_clt(
             baca.select.ltleaves(o),
             staff_padding=6 + 6.5,
         )
@@ -633,7 +633,7 @@ def vc(cache):
             "(ppp) < p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.spanners.half_clt(
+        baca.rspanners.half_clt(
             baca.select.ltleaves(o),
             staff_padding=10.5,
         )
@@ -900,7 +900,7 @@ def v1_va_vc(cache):
                     r"\stirrings-still-seven-plus-nine-of-e-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.spanners.tasto(
+                baca.rspanners.tasto(
                     o,
                     staff_padding=5.5,
                 )
@@ -910,7 +910,7 @@ def v1_va_vc(cache):
                     r"\stirrings-still-eleven-plus-three-of-e-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.spanners.tasto(
+                baca.rspanners.tasto(
                     o,
                     staff_padding=5.5,
                 )

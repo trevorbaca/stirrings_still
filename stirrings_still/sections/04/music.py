@@ -527,7 +527,7 @@ def v1_v2(cache):
         with baca.scope(m.get(49, 53)) as o:
             baca.override.tacet(o.mmrests())
         with baca.scope(m.get(67, 85)) as o:
-            baca.spanners.tasto(
+            baca.rspanners.tasto(
                 o,
                 staff_padding=5.5,
             )
@@ -571,7 +571,7 @@ def v1_v2_va(cache):
                     "p <| mp p < mp",
                 )
                 baca.stop_on_string(o.pleaf(-1))
-                baca.spanners.tasto(
+                baca.rspanners.tasto(
                     o,
                     staff_padding=5.5,
                 )
@@ -583,7 +583,7 @@ def v1_v2_va(cache):
                 "p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
-            baca.spanners.tasto(
+            baca.rspanners.tasto(
                 o,
                 staff_padding=5.5,
             )
@@ -654,7 +654,7 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight-poss-grind-at-talon",
             )
-            baca.spanners.damp(
+            baca.rspanners.damp(
                 baca.select.ltleaves(o),
                 staff_padding=8,
             ),
@@ -679,7 +679,7 @@ def tutti_1(cache):
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(1, 36)) as o:
-            baca.spanners.damp(
+            baca.rspanners.damp(
                 baca.select.ltleaves(o),
                 # manual padding because spanner ends of volta
                 abjad.Tweak(r"- \tweak bound-details.right.padding 5.25"),
@@ -726,7 +726,7 @@ def tutti_1(cache):
                 baca.stem_tremolo(ntlt[-1])
             library.ntlt_flat_glissandi(o)
         with baca.scope(m.get(58, 63)) as o:
-            baca.spanners.damp(
+            baca.rspanners.damp(
                 baca.select.ltleaves(o),
                 staff_padding=5.5,
             )
@@ -800,7 +800,7 @@ def va(cache):
     with baca.scope(m[65]) as o:
         baca.clef(o.leaf(0), "alto")
     with baca.scope(m.get(67, 89)) as o:
-        baca.spanners.tasto(
+        baca.rspanners.tasto(
             o,
             staff_padding=5.5,
         )
@@ -832,7 +832,7 @@ def vc(cache):
             '"f" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.spanners.half_clt(
+        baca.rspanners.half_clt(
             baca.select.ltleaves(o),
             staff_padding=4.5 + 6.5,
         )

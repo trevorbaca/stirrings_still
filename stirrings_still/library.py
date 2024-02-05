@@ -317,7 +317,7 @@ def clouded_pane_spanner(
     string,
     staff_padding,
 ):
-    wrappers = baca.spanners.material_annotation(
+    wrappers = baca.rspanners.material_annotation(
         argument,
         string,
         abjad.Tweak(r"- \tweak color #red"),
@@ -1256,7 +1256,7 @@ def first_order_stages(section):
 
 
 def flight_spanner(o, string, staff_padding):
-    wrappers = baca.spanners.material_annotation(
+    wrappers = baca.rspanners.material_annotation(
         o,
         string,
         abjad.Tweak(r"- \tweak color #darkmagenta"),
@@ -3062,7 +3062,7 @@ def urtext_spanner(
     string,
     staff_padding,
 ):
-    wrappers = baca.spanners.material_annotation(
+    wrappers = baca.rspanners.material_annotation(
         argument,
         string,
         abjad.Tweak(r"- \tweak color #darkred"),
