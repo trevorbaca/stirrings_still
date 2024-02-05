@@ -3001,8 +3001,6 @@ number.19.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \mf
-      %! SPANNER_STOP
-    \ottava 0
 
     <<
 
@@ -3016,6 +3014,8 @@ number.19.Cello.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! SPANNER_STOP
+            \ottava 0
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
@@ -3097,8 +3097,6 @@ number.19.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
-      %! SPANNER_STOP
-    \ottava 0
 
     <<
 
@@ -3112,6 +3110,8 @@ number.19.Cello.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! SPANNER_STOP
+            \ottava 0
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
@@ -3200,8 +3200,6 @@ number.19.Cello.Music = {
     \revert Dots.transparent
     \revert Stem.transparent
     b,,,1.
-      %! SPANNER_STOP
-    \ottava 0
 
     <<
 
@@ -3215,6 +3213,8 @@ number.19.Cello.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! SPANNER_STOP
+            \ottava 0
             \stopStaff
             \once \override Staff.StaffSymbol.line-count = 0
             \startStaff
@@ -3320,8 +3320,6 @@ number.19.Cello.Music = {
     \revert Dots.transparent
     \revert Stem.transparent
     b,,,1
-      %! SPANNER_STOP
-    \ottava 0
 
     <<
 
@@ -3335,6 +3333,8 @@ number.19.Cello.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! SPANNER_STOP
+            \ottava 0
             \stopStaff
             \once \override Staff.StaffSymbol.line-count = 0
             \startStaff

@@ -2034,8 +2034,6 @@ number.18.Cello.Music = {
     \revert Dots.transparent
     \revert Stem.transparent
     b,,,1
-      %! SPANNER_STOP
-    \ottava 0
 
     <<
 
@@ -2049,6 +2047,8 @@ number.18.Cello.Music = {
               %! INVISIBLE_MUSIC_COLORING
               %! NOTE
             \abjad-invisible-music-coloring
+              %! SPANNER_STOP
+            \ottava 0
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
