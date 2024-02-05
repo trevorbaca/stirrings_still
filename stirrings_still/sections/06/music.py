@@ -203,7 +203,7 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight-poss-grind-at-talon",
             )
-            baca.spanners.damp(
+            baca.rspanners.damp(
                 baca.select.tleaves(o),
                 staff_padding=8,
             )

@@ -523,7 +523,7 @@ def vc(cache):
     with baca.scope(m.get(6, 8)) as o:
         baca.spanners.hairpin(o.rleaves(), "(fff) > p")
     with baca.scope(m.get(11, 12)) as o:
-        baca.spanners.half_clt(
+        baca.rspanners.half_clt(
             baca.select.ltleaves(o),
             staff_padding=3 + 6,
         )
@@ -601,7 +601,7 @@ def vc(cache):
             baca.select.cmgroups(o.rleaves()),
             "p -- ! >o niente",
         )
-        baca.spanners.tasto(
+        baca.rspanners.tasto(
             o,
             staff_padding=3,
         )

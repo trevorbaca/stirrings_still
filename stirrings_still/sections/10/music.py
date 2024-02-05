@@ -168,7 +168,7 @@ def v1_v2_va(cache):
                 '"fff" > pp -- !',
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
-            baca.spanners.half_clt(
+            baca.rspanners.half_clt(
                 o.leaves(),
                 staff_padding=4 + 6.5,
             )
@@ -200,7 +200,7 @@ def v1_va_vc(cache):
                     o.pleaf(0),
                     r"\stirrings-still-seven-plus-nine-of-e-markup",
                 )
-                baca.spanners.tasto(
+                baca.rspanners.tasto(
                     o,
                     staff_padding=5.5,
                 )
@@ -210,7 +210,7 @@ def v1_va_vc(cache):
                     r"\stirrings-still-eleven-plus-three-of-e-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.spanners.tasto(
+                baca.rspanners.tasto(
                     o,
                     staff_padding=5.5,
                 )
@@ -267,7 +267,7 @@ def v2(cache):
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.alternate_bow_strokes(o.pheads())
-        baca.spanners.damp(
+        baca.rspanners.damp(
             baca.select.ltleaves(o),
             staff_padding=8,
         )
@@ -276,7 +276,7 @@ def v2(cache):
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.spanners.half_clt(
+        baca.rspanners.half_clt(
             baca.select.ltleaves(o),
             staff_padding=5.5,
         )
