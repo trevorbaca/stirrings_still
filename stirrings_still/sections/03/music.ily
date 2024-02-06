@@ -3662,10 +3662,8 @@ number.3.Violin.1.Music = {
     bqf''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! SPANNER_STOP
     \!
@@ -3713,10 +3711,8 @@ number.3.Violin.1.Music = {
     bqf''!8
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     ~
 
@@ -3728,10 +3724,8 @@ number.3.Violin.1.Music = {
     bqf''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r8
@@ -3742,10 +3736,8 @@ number.3.Violin.1.Music = {
     bqf''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r8
@@ -3753,10 +3745,8 @@ number.3.Violin.1.Music = {
     bqf''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     % [Violin.1.Music measure 33]
@@ -3765,10 +3755,8 @@ number.3.Violin.1.Music = {
     bqf''!4.
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     r4
@@ -3835,10 +3823,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
@@ -3862,10 +3848,8 @@ number.3.Violin.1.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     ~
 
@@ -3878,10 +3862,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r8
@@ -3893,10 +3875,8 @@ number.3.Violin.1.Music = {
     bqf''!4.
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r8
@@ -3905,10 +3885,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -3921,10 +3899,8 @@ number.3.Violin.1.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r8
@@ -3936,10 +3912,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r4
@@ -3949,10 +3923,8 @@ number.3.Violin.1.Music = {
     bqf''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r8
@@ -3961,10 +3933,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r8
@@ -3976,10 +3946,8 @@ number.3.Violin.1.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r4
@@ -3988,10 +3956,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \p
     ~
 
@@ -4004,10 +3970,8 @@ number.3.Violin.1.Music = {
     bqf''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     r8
@@ -4016,10 +3980,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     ~
 
@@ -4032,10 +3994,8 @@ number.3.Violin.1.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     ~
 
@@ -4048,10 +4008,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     r4
@@ -4061,10 +4019,8 @@ number.3.Violin.1.Music = {
     bqf''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r8
@@ -4073,10 +4029,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -4089,10 +4043,8 @@ number.3.Violin.1.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r4
@@ -4102,10 +4054,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
 
     r4
@@ -4114,10 +4064,8 @@ number.3.Violin.1.Music = {
     bqf''!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     ~
 
@@ -4131,10 +4079,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r4
@@ -4144,10 +4090,8 @@ number.3.Violin.1.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r4
@@ -4156,10 +4100,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     % [Violin.1.Music measure 51]
@@ -4169,10 +4111,8 @@ number.3.Violin.1.Music = {
     bqf''!4.
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r8
@@ -4181,10 +4121,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     ~
 
@@ -4197,10 +4135,8 @@ number.3.Violin.1.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     % [Violin.1.Music measure 53]
@@ -4210,10 +4146,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r4
@@ -4222,10 +4156,8 @@ number.3.Violin.1.Music = {
     bqf''!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -4239,10 +4171,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     % [Violin.1.Music measure 55]
@@ -4252,10 +4182,8 @@ number.3.Violin.1.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
 
     r4
@@ -5602,10 +5530,8 @@ number.3.Violin.2.Music = {
     bf'!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! SPANNER_STOP
     \!
@@ -5651,10 +5577,8 @@ number.3.Violin.2.Music = {
     bf'!8
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     ~
 
@@ -5666,10 +5590,8 @@ number.3.Violin.2.Music = {
     bf'!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r8
@@ -5680,10 +5602,8 @@ number.3.Violin.2.Music = {
     bf'!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r8
@@ -5691,10 +5611,8 @@ number.3.Violin.2.Music = {
     bf'!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     % [Violin.2.Music measure 33]
@@ -5703,10 +5621,8 @@ number.3.Violin.2.Music = {
     bf'!4.
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     r4
@@ -5773,10 +5689,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
@@ -5800,10 +5714,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     ~
 
@@ -5816,10 +5728,8 @@ number.3.Violin.2.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r8
@@ -5829,10 +5739,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r4
@@ -5841,10 +5749,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -5857,10 +5763,8 @@ number.3.Violin.2.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r8
@@ -5872,10 +5776,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r8
@@ -5884,10 +5786,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -5900,10 +5800,8 @@ number.3.Violin.2.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r8
@@ -5915,10 +5813,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r4
@@ -5927,10 +5823,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \p
     ~
 
@@ -5943,10 +5837,8 @@ number.3.Violin.2.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     r4
@@ -5955,10 +5847,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     ~
 
@@ -5971,10 +5861,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     ~
 
@@ -5987,10 +5875,8 @@ number.3.Violin.2.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     r8
@@ -5999,10 +5885,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     ~
 
@@ -6015,10 +5899,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -6031,10 +5913,8 @@ number.3.Violin.2.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r4
@@ -6044,10 +5924,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
 
     r8
@@ -6056,10 +5934,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     ~
 
@@ -6072,10 +5948,8 @@ number.3.Violin.2.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r4
@@ -6085,10 +5959,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r4
@@ -6097,10 +5969,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     % [Violin.2.Music measure 51]
@@ -6110,10 +5980,8 @@ number.3.Violin.2.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r4
@@ -6122,10 +5990,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     ~
 
@@ -6138,10 +6004,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     % [Violin.2.Music measure 53]
@@ -6151,10 +6015,8 @@ number.3.Violin.2.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r8
@@ -6163,10 +6025,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -6179,10 +6039,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     % [Violin.2.Music measure 55]
@@ -6192,10 +6050,8 @@ number.3.Violin.2.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
 
     r4
@@ -7700,10 +7556,8 @@ number.3.Viola.Music = {
     bqf!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! SPANNER_STOP
     \!
@@ -7751,10 +7605,8 @@ number.3.Viola.Music = {
     bqf!8
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     ~
 
@@ -7766,10 +7618,8 @@ number.3.Viola.Music = {
     bqf!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r8
@@ -7780,10 +7630,8 @@ number.3.Viola.Music = {
     bqf!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r8
@@ -7791,10 +7639,8 @@ number.3.Viola.Music = {
     bqf!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     % [Viola.Music measure 33]
@@ -7803,10 +7649,8 @@ number.3.Viola.Music = {
     bqf!4.
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     r4
@@ -7873,10 +7717,8 @@ number.3.Viola.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
@@ -7900,10 +7742,8 @@ number.3.Viola.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     ~
 
@@ -7916,10 +7756,8 @@ number.3.Viola.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r4
@@ -7929,10 +7767,8 @@ number.3.Viola.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r4
@@ -7941,10 +7777,8 @@ number.3.Viola.Music = {
     bqf!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -7958,10 +7792,8 @@ number.3.Viola.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r8
@@ -7971,10 +7803,8 @@ number.3.Viola.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r4
@@ -7983,10 +7813,8 @@ number.3.Viola.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -7999,10 +7827,8 @@ number.3.Viola.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r8
@@ -8014,10 +7840,8 @@ number.3.Viola.Music = {
     bqf!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r8
@@ -8026,10 +7850,8 @@ number.3.Viola.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     % [Viola.Music measure 43]
@@ -8039,10 +7861,8 @@ number.3.Viola.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     r4
@@ -8051,10 +7871,8 @@ number.3.Viola.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     ~
 
@@ -8067,10 +7885,8 @@ number.3.Viola.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     ~
 
@@ -8083,10 +7899,8 @@ number.3.Viola.Music = {
     bqf!4.
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     r4
@@ -8095,10 +7909,8 @@ number.3.Viola.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     ~
 
@@ -8111,10 +7923,8 @@ number.3.Viola.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -8127,10 +7937,8 @@ number.3.Viola.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r8
@@ -8139,10 +7947,8 @@ number.3.Viola.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     ~
 
@@ -8155,10 +7961,8 @@ number.3.Viola.Music = {
     bqf!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
     ~
 
@@ -8172,10 +7976,8 @@ number.3.Viola.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r4
@@ -8185,10 +7987,8 @@ number.3.Viola.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r8
@@ -8197,10 +7997,8 @@ number.3.Viola.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r8
@@ -8212,10 +8010,8 @@ number.3.Viola.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r4
@@ -8224,10 +8020,8 @@ number.3.Viola.Music = {
     bqf!4
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \p
     ~
 
@@ -8241,10 +8035,8 @@ number.3.Viola.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     % [Viola.Music measure 53]
@@ -8254,10 +8046,8 @@ number.3.Viola.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r4
@@ -8266,10 +8056,8 @@ number.3.Viola.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -8282,10 +8070,8 @@ number.3.Viola.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     % [Viola.Music measure 55]
@@ -8295,10 +8081,8 @@ number.3.Viola.Music = {
     bqf!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
 
     r8
@@ -9077,10 +8861,8 @@ number.3.Cello.Music = {
     b,,4..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9116,10 +8898,8 @@ number.3.Cello.Music = {
             d1 * 1/4
               %! EXPLICIT_DYNAMIC_COLOR
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             - \tweak color #blue
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
@@ -9757,10 +9537,8 @@ number.3.Cello.Music = {
     bf,!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! SPANNER_STOP
     \!
@@ -9805,10 +9583,8 @@ number.3.Cello.Music = {
     bf,!8
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     ~
 
@@ -9820,10 +9596,8 @@ number.3.Cello.Music = {
     bf,!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r8
@@ -9834,10 +9608,8 @@ number.3.Cello.Music = {
     bf,!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r8
@@ -9845,10 +9617,8 @@ number.3.Cello.Music = {
     bf,!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     % [Cello.Music measure 33]
@@ -9857,10 +9627,8 @@ number.3.Cello.Music = {
     bf,!4.
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     r4
@@ -9940,10 +9708,8 @@ number.3.Cello.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \!
@@ -9974,10 +9740,8 @@ number.3.Cello.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     ~
 
@@ -9990,10 +9754,8 @@ number.3.Cello.Music = {
     bf,!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r4
@@ -10003,10 +9765,8 @@ number.3.Cello.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r4
@@ -10015,10 +9775,8 @@ number.3.Cello.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -10031,10 +9789,8 @@ number.3.Cello.Music = {
     bf,!4.
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r4
@@ -10044,10 +9800,8 @@ number.3.Cello.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r4
@@ -10056,10 +9810,8 @@ number.3.Cello.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -10072,10 +9824,8 @@ number.3.Cello.Music = {
     bf,!4.
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r8
@@ -10085,10 +9835,8 @@ number.3.Cello.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r4
@@ -10097,10 +9845,8 @@ number.3.Cello.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     % [Cello.Music measure 43]
@@ -10110,10 +9856,8 @@ number.3.Cello.Music = {
     bf,!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     r4
@@ -10122,10 +9866,8 @@ number.3.Cello.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     ~
 
@@ -10138,10 +9880,8 @@ number.3.Cello.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     % [Cello.Music measure 45]
@@ -10151,10 +9891,8 @@ number.3.Cello.Music = {
     bf,!4.
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     r4
@@ -10163,10 +9901,8 @@ number.3.Cello.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     ~
 
@@ -10179,10 +9915,8 @@ number.3.Cello.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -10195,10 +9929,8 @@ number.3.Cello.Music = {
     bf,!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r4
@@ -10207,10 +9939,8 @@ number.3.Cello.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     ~
 
@@ -10223,10 +9953,8 @@ number.3.Cello.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
     ~
 
@@ -10239,10 +9967,8 @@ number.3.Cello.Music = {
     bf,!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r8
@@ -10251,10 +9977,8 @@ number.3.Cello.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -10267,10 +9991,8 @@ number.3.Cello.Music = {
     - \baca-double-diamond
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \mp
 
     r8
@@ -10282,10 +10004,8 @@ number.3.Cello.Music = {
     bf,!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r4
@@ -10294,10 +10014,8 @@ number.3.Cello.Music = {
     - \baca-damp
       %! REDUNDANT_DYNAMIC_COLOR
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \p
     ~
 
@@ -10310,10 +10028,8 @@ number.3.Cello.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
 
     r8
@@ -10325,10 +10041,8 @@ number.3.Cello.Music = {
     bf,!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r4
@@ -10337,10 +10051,8 @@ number.3.Cello.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ~
 
@@ -10353,10 +10065,8 @@ number.3.Cello.Music = {
     - \baca-double-diamond
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     % [Cello.Music measure 55]
@@ -10366,10 +10076,8 @@ number.3.Cello.Music = {
     bf,!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
 
     r4

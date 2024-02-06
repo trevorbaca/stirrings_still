@@ -836,10 +836,8 @@ number.10.Violin.1.Music = {
     <f' a'>2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-appena-udibile
       %! SPANNER_STOP
     \!
@@ -931,10 +929,8 @@ number.10.Violin.1.Music = {
     <f' a'>2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-fff-poco-scratch
     - \tweak staff-padding 3
     ^ \stirrings-still-third-time-no-breath-markup
@@ -945,10 +941,8 @@ number.10.Violin.1.Music = {
     a'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-fff
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.5
@@ -1096,10 +1090,8 @@ number.10.Violin.1.Music = {
         c''8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
         \bacaStopTextSpanBCP
         - \baca-solid-line-with-arrow
@@ -1586,10 +1578,8 @@ number.10.Violin.2.Music = {
     <e' gs'!>2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-appena-udibile
       %! SPANNER_STOP
     \!
@@ -1679,10 +1669,8 @@ number.10.Violin.2.Music = {
     <e' gs'!>2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-fff-poco-scratch
     - \tweak staff-padding 3
     ^ \stirrings-still-third-time-no-breath-markup
@@ -1697,10 +1685,8 @@ number.10.Violin.2.Music = {
         gs'!4.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-fff
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
@@ -1854,10 +1840,8 @@ number.10.Violin.2.Music = {
         a'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -2323,10 +2307,8 @@ number.10.Viola.Music = {
     <eqs'! gtqs'!>2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-appena-udibile
       %! SPANNER_STOP
     \!
@@ -2418,10 +2400,8 @@ number.10.Viola.Music = {
     <eqs'! gtqs'!>2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-fff-poco-scratch
     - \tweak staff-padding 3
     ^ \stirrings-still-third-time-no-breath-markup
@@ -2436,10 +2416,8 @@ number.10.Viola.Music = {
         f'8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-fff
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
@@ -2614,10 +2592,8 @@ number.10.Viola.Music = {
     f'8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START

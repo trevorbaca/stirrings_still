@@ -3298,10 +3298,8 @@ number.17.Violin.1.Music = {
         ef''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
         \bacaStopTextSpanBCP
         - \baca-solid-line-with-arrow
@@ -3506,10 +3504,8 @@ number.17.Violin.1.Music = {
         ef''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-fff
           %! HALF_CLT_SPANNER
           %! SPANNER_START
@@ -4135,10 +4131,8 @@ number.17.Violin.1.Music = {
     e''8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.0
@@ -4303,10 +4297,8 @@ number.17.Violin.1.Music = {
     e''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
     \bacaStopTextSpanBCP
       %! HALF_CLT_SPANNER
@@ -4859,10 +4851,8 @@ number.17.Violin.1.Music = {
     f''8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.0
@@ -4966,10 +4956,8 @@ number.17.Violin.1.Music = {
         f''8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-f
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.0
@@ -5471,10 +5459,8 @@ number.17.Violin.1.Music = {
         gf''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mf
         - \tweak self-alignment-X #left
         - \tweak staff-padding 7.0
@@ -5567,10 +5553,8 @@ number.17.Violin.1.Music = {
         gf''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-mf
         \bacaStopTextSpanBCP
           %! HALF_CLT_SPANNER
@@ -5927,10 +5911,8 @@ number.17.Violin.1.Music = {
         g''8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
         \bacaStopTextSpanBCP
         - \baca-solid-line-with-arrow
@@ -6009,10 +5991,8 @@ number.17.Violin.1.Music = {
         g''4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
         - \tweak self-alignment-X #left
         - \tweak staff-padding 7.0
@@ -6261,10 +6241,8 @@ number.17.Violin.1.Music = {
         d''8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
         \bacaStopTextSpanBCP
           %! HALF_CLT_SPANNER
@@ -7589,10 +7567,8 @@ number.17.Violin.2.Music = {
     dqf''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.0
@@ -7795,10 +7771,8 @@ number.17.Violin.2.Music = {
     dqf''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-fff
     \bacaStopTextSpanBCP
       %! HALF_CLT_SPANNER
@@ -8175,10 +8149,8 @@ number.17.Violin.2.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.0
@@ -8349,10 +8321,8 @@ number.17.Violin.2.Music = {
     dqs''!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
       %! HALF_CLT_SPANNER
       %! SPANNER_START
@@ -8666,10 +8636,8 @@ number.17.Violin.2.Music = {
     cqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.0
@@ -8782,10 +8750,8 @@ number.17.Violin.2.Music = {
         cqs''!8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-f
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.0
@@ -9103,10 +9069,8 @@ number.17.Violin.2.Music = {
     eqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.0
@@ -9196,10 +9160,8 @@ number.17.Violin.2.Music = {
         eqs''!4.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-mf
         \bacaStopTextSpanBCP
           %! HALF_CLT_SPANNER
@@ -9435,10 +9397,8 @@ number.17.Violin.2.Music = {
     fqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.0
@@ -9519,10 +9479,8 @@ number.17.Violin.2.Music = {
         fqs''!8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
           %! HALF_CLT_SPANNER
           %! SPANNER_START
@@ -11149,10 +11107,8 @@ number.17.Viola.Music = {
         e8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
         \bacaStopTextSpanBCP
         - \baca-solid-line-with-arrow
@@ -11343,10 +11299,8 @@ number.17.Viola.Music = {
         e8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-fff
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.0
@@ -11843,10 +11797,8 @@ number.17.Viola.Music = {
         ef!8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.0
@@ -12013,10 +11965,8 @@ number.17.Viola.Music = {
         ef!4.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-ff
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.0
@@ -12447,10 +12397,8 @@ number.17.Viola.Music = {
         c4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.0
@@ -12558,10 +12506,8 @@ number.17.Viola.Music = {
         c4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-f
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.0
@@ -12941,10 +12887,8 @@ number.17.Viola.Music = {
         b,8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mf
         \bacaStopTextSpanBCP
         - \baca-solid-line-with-arrow
@@ -13031,10 +12975,8 @@ number.17.Viola.Music = {
         b,4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-mf
           %! HALF_CLT_SPANNER
           %! SPANNER_START
@@ -13315,10 +13257,8 @@ number.17.Viola.Music = {
     gf!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.0
@@ -13395,10 +13335,8 @@ number.17.Viola.Music = {
         gf!8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
         [
           %! HALF_CLT_SPANNER
@@ -13639,10 +13577,8 @@ number.17.Viola.Music = {
     e8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     [
       %! HALF_CLT_SPANNER
@@ -14316,10 +14252,8 @@ number.17.Cello.Music = {
         d4.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
         \bacaStopTextSpanBCP
         - \baca-solid-line-with-arrow
@@ -14519,10 +14453,8 @@ number.17.Cello.Music = {
         d8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-fff
           %! HALF_CLT_SPANNER
           %! SPANNER_START
@@ -15026,10 +14958,8 @@ number.17.Cello.Music = {
         df!8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.0
@@ -15200,10 +15130,8 @@ number.17.Cello.Music = {
         df!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-ff
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.0
@@ -15659,10 +15587,8 @@ number.17.Cello.Music = {
         b,8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.0
@@ -15777,10 +15703,8 @@ number.17.Cello.Music = {
         b,8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-f
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.0
@@ -16196,10 +16120,8 @@ number.17.Cello.Music = {
     bf,!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     \bacaStopTextSpanBCP
     - \baca-solid-line-with-arrow
@@ -16281,10 +16203,8 @@ number.17.Cello.Music = {
         bf,!8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-mf
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.0
@@ -16616,10 +16536,8 @@ number.17.Cello.Music = {
         a,8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.0
@@ -16682,10 +16600,8 @@ number.17.Cello.Music = {
     a,4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.0
@@ -16948,10 +16864,8 @@ number.17.Cello.Music = {
         d8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.0
