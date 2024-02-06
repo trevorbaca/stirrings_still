@@ -3137,10 +3137,8 @@ number.10.Cello.Music = {
     bf,,!2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-fff-poco-scratch
     - \tweak staff-padding 3
     ^ \stirrings-still-third-time-no-breath-markup
@@ -3236,10 +3234,8 @@ number.10.Cello.Music = {
         bf,,!16 * 95/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"95" #"64"
