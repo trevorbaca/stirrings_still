@@ -9266,10 +9266,8 @@ number.11.Cello.Music = {
     a''8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     - \tweak self-alignment-X #left
     - \tweak staff-padding 7.0
@@ -9395,10 +9393,8 @@ number.11.Cello.Music = {
     a''8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \tweak self-alignment-X #left
     - \tweak staff-padding 7.0
@@ -9576,10 +9572,8 @@ number.11.Cello.Music = {
     a''16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     \bacaStopTextSpanBCP
     ]

@@ -1218,11 +1218,6 @@ number.9.Viola.Music = {
       %! REAPPLIED_STAFF_LINES
     \startStaff
     r4
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    \mp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -1563,10 +1558,8 @@ number.9.Cello.Music = {
     g,8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     - \tweak self-alignment-X #left
     - \tweak staff-padding 8.5
@@ -2005,10 +1998,8 @@ number.9.Cello.Music = {
     b8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \tweak self-alignment-X #left
     - \tweak staff-padding 8.5
@@ -2491,10 +2482,8 @@ number.9.Cello.Music = {
     a''8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \tweak self-alignment-X #left
     - \tweak staff-padding 8.5
@@ -2704,10 +2693,8 @@ number.9.Cello.Music = {
     a''8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     \bacaStopTextSpanBCP
     ]

@@ -920,10 +920,8 @@ number.16.Violin.1.Music = {
         a'16 * 241/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppppp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"241" #"64"
@@ -994,10 +992,8 @@ number.16.Violin.1.Music = {
         a'16 * 29/32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"29" #"32"
@@ -1047,10 +1043,8 @@ number.16.Violin.1.Music = {
     a'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
@@ -1097,10 +1091,8 @@ number.16.Violin.1.Music = {
         a'16 * 241/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"241" #"64"
@@ -1143,10 +1135,8 @@ number.16.Violin.1.Music = {
         a'16 * 61/32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"61" #"32"
@@ -1183,10 +1173,8 @@ number.16.Violin.1.Music = {
     a'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppppp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
@@ -1244,10 +1232,8 @@ number.16.Violin.1.Music = {
         a'16 * 245/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppppp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"245" #"64"
@@ -1326,10 +1312,8 @@ number.16.Violin.1.Music = {
         a'16 * 59/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"59" #"64"
@@ -1387,10 +1371,8 @@ number.16.Violin.1.Music = {
     a'2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
@@ -1437,10 +1419,8 @@ number.16.Violin.1.Music = {
         a'16 * 241/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"241" #"64"
@@ -1483,10 +1463,8 @@ number.16.Violin.1.Music = {
         a'16 * 61/32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"61" #"32"
@@ -1524,10 +1502,8 @@ number.16.Violin.1.Music = {
     a'8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppppp
       %! CLOUDED_PANE
       %! MATERIAL
@@ -1797,10 +1773,8 @@ number.16.Violin.2.Music = {
         a16 * 351/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppppp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"351" #"64"
@@ -1839,10 +1813,8 @@ number.16.Violin.2.Music = {
         a16 * 5/2
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"5" #"2"
@@ -1875,10 +1847,8 @@ number.16.Violin.2.Music = {
     a2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
@@ -1922,10 +1892,8 @@ number.16.Violin.2.Music = {
         a16 * 57/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"57" #"64"
@@ -1980,10 +1948,8 @@ number.16.Violin.2.Music = {
         a16 * 285/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"285" #"64"
@@ -2008,10 +1974,8 @@ number.16.Violin.2.Music = {
     a2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
@@ -2055,10 +2019,8 @@ number.16.Violin.2.Music = {
         a16 * 381/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"381" #"64"
@@ -2097,10 +2059,8 @@ number.16.Violin.2.Music = {
         a16 * 111/32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"111" #"32"
@@ -2133,10 +2093,8 @@ number.16.Violin.2.Music = {
     a2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppppp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
@@ -2194,10 +2152,8 @@ number.16.Violin.2.Music = {
         a16 * 377/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppppp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"377" #"64"
@@ -2236,10 +2192,8 @@ number.16.Violin.2.Music = {
         a16 * 255/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"255" #"64"
@@ -2276,10 +2230,8 @@ number.16.Violin.2.Music = {
     a1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
@@ -2323,10 +2275,8 @@ number.16.Violin.2.Music = {
         a16 * 13/16
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"13" #"16"
@@ -2389,10 +2339,8 @@ number.16.Violin.2.Music = {
         a16 * 151/32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"151" #"32"
@@ -2417,10 +2365,8 @@ number.16.Violin.2.Music = {
     a2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
@@ -2464,10 +2410,8 @@ number.16.Violin.2.Music = {
         a16 * 351/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"351" #"64"
@@ -2506,10 +2450,8 @@ number.16.Violin.2.Music = {
         a16 * 101/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"101" #"64"
@@ -2538,10 +2480,8 @@ number.16.Violin.2.Music = {
     a8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppppp
       %! SPANNER_START
     [
@@ -2833,10 +2773,8 @@ number.16.Viola.Music = {
         a16 * 77/16
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppppp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"77" #"16"
@@ -2895,10 +2833,8 @@ number.16.Viola.Music = {
         a16 * 47/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"47" #"64"
@@ -2981,10 +2917,8 @@ number.16.Viola.Music = {
     a2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppppp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
@@ -3048,10 +2982,8 @@ number.16.Viola.Music = {
         a16 * 307/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppppp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"307" #"64"
@@ -3122,10 +3054,8 @@ number.16.Viola.Music = {
         a16 * 45/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"45" #"64"
@@ -3201,10 +3131,8 @@ number.16.Viola.Music = {
     a8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppppp
       %! CLOUDED_PANE
       %! MATERIAL
@@ -3479,10 +3407,8 @@ number.16.Cello.Music = {
         a,16 * 107/16
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppppp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"107" #"16"
@@ -3545,10 +3471,8 @@ number.16.Cello.Music = {
         a,16 * 3/4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"
@@ -3615,10 +3539,8 @@ number.16.Cello.Music = {
     a,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppppp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
@@ -3682,10 +3604,8 @@ number.16.Cello.Music = {
         a,16 * 447/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppppp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"447" #"64"
@@ -3752,10 +3672,8 @@ number.16.Cello.Music = {
         a,16 * 63/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"63" #"64"
@@ -3838,10 +3756,8 @@ number.16.Cello.Music = {
     a,8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppppp
       %! SPANNER_START
     [

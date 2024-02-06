@@ -1974,10 +1974,8 @@ number.8.Violin.1.Music = {
     gf'!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
@@ -2059,10 +2057,8 @@ number.8.Violin.1.Music = {
     gf'!2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! SPANNER_STOP
     \stopTextSpan
@@ -2474,10 +2470,8 @@ number.8.Violin.1.Music = {
         gqf'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \!
         - \tweak padding 1.5
         ^ \baca-thirteen-b-flat
@@ -2539,10 +2533,8 @@ number.8.Violin.1.Music = {
         gqf'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -2934,10 +2926,8 @@ number.8.Violin.1.Music = {
     gf'!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
@@ -3009,10 +2999,8 @@ number.8.Violin.1.Music = {
     gf'!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! SPANNER_STOP
     \stopTextSpan
@@ -3337,10 +3325,8 @@ number.8.Violin.1.Music = {
         aqs'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
         - \tweak padding 1.5
         ^ \baca-thirteen-d-flat
@@ -3453,10 +3439,8 @@ number.8.Violin.1.Music = {
         aqs'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mf
         \revert TupletBracket.direction
 
@@ -3826,10 +3810,8 @@ number.8.Violin.2.Music = {
     f'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
@@ -3911,10 +3893,8 @@ number.8.Violin.2.Music = {
     f'2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! SPANNER_STOP
     \stopTextSpan
@@ -3953,10 +3933,8 @@ number.8.Violin.2.Music = {
     f'4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-mp-parenthesized
       %! SPANNER_STOP
     \!
@@ -4019,10 +3997,8 @@ number.8.Violin.2.Music = {
         f'16 * 503/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"503" #"64"
@@ -4272,10 +4248,8 @@ number.8.Violin.2.Music = {
         atqf!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \!
         - \tweak padding 1.5
         ^ \baca-seven-b-flat
@@ -4333,10 +4307,8 @@ number.8.Violin.2.Music = {
         atqf!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -4732,10 +4704,8 @@ number.8.Violin.2.Music = {
     f'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
@@ -4807,10 +4777,8 @@ number.8.Violin.2.Music = {
     f'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! SPANNER_STOP
     \stopTextSpan
@@ -5115,10 +5083,8 @@ number.8.Violin.2.Music = {
         ef'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
         - \tweak padding 1.5
         ^ \baca-nine-d-flat
@@ -5223,10 +5189,8 @@ number.8.Violin.2.Music = {
         ef'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mf
         \revert TupletBracket.direction
 
@@ -5667,10 +5631,8 @@ number.8.Viola.Music = {
     af!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
@@ -5752,10 +5714,8 @@ number.8.Viola.Music = {
     af!2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! SPANNER_STOP
     \stopTextSpan
@@ -6127,10 +6087,8 @@ number.8.Viola.Music = {
     c4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     - \tweak padding 1.5
     ^ \baca-nine-b-flat
@@ -6181,10 +6139,8 @@ number.8.Viola.Music = {
     c4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6536,10 +6492,8 @@ number.8.Viola.Music = {
     af!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
@@ -6611,10 +6565,8 @@ number.8.Viola.Music = {
     af!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! SPANNER_STOP
     \stopTextSpan
@@ -6908,10 +6860,8 @@ number.8.Viola.Music = {
     bqf!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak padding 1
     ^ \baca-seven-d-flat
@@ -6993,10 +6943,8 @@ number.8.Viola.Music = {
     bqf!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     \revert TupletBracket.direction
 
@@ -7305,10 +7253,8 @@ number.8.Cello.Music = {
     af,!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
@@ -7390,10 +7336,8 @@ number.8.Cello.Music = {
     af,!2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! SPANNER_STOP
     \stopTextSpan
@@ -7709,10 +7653,8 @@ number.8.Cello.Music = {
     gf,!2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-ff-parenthesized
       %! SPANNER_STOP
     \stopTextSpan
@@ -7757,10 +7699,8 @@ number.8.Cello.Music = {
     gf,!2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
       %! SPANNER_STOP
     \stopTextSpan
@@ -7960,10 +7900,8 @@ number.8.Cello.Music = {
     af,!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
@@ -8035,10 +7973,8 @@ number.8.Cello.Music = {
     af,!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! SPANNER_STOP
     \stopTextSpan
@@ -8144,10 +8080,8 @@ number.8.Cello.Music = {
         df,!8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-ppp-parenthesized
         - \tweak self-alignment-X #left
         - \tweak staff-padding 5.5
@@ -8367,10 +8301,8 @@ number.8.Cello.Music = {
         df,!8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
         - \tweak self-alignment-X #left
         - \tweak staff-padding 5.5
@@ -8542,10 +8474,8 @@ number.8.Cello.Music = {
         b,,4.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -8638,10 +8568,8 @@ number.8.Cello.Music = {
     b,,4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SPANNER_STOP
     \!

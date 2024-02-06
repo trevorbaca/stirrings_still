@@ -1592,10 +1592,8 @@ number.14.Violin.1.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SCP_SPANNER
       %! SPANNER_START
@@ -1647,10 +1645,8 @@ number.14.Violin.1.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -1699,10 +1695,8 @@ number.14.Violin.1.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -1757,10 +1751,8 @@ number.14.Violin.1.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -1809,10 +1801,8 @@ number.14.Violin.1.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -1862,10 +1852,8 @@ number.14.Violin.1.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -1918,10 +1906,8 @@ number.14.Violin.1.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -1956,10 +1942,8 @@ number.14.Violin.1.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -2038,10 +2022,8 @@ number.14.Violin.1.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
         - \tweak staff-padding 8
         ^ \stirrings-still-twenty-four-et-markup
@@ -2124,10 +2106,8 @@ number.14.Violin.1.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -2182,10 +2162,8 @@ number.14.Violin.1.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -2235,10 +2213,8 @@ number.14.Violin.1.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -2287,10 +2263,8 @@ number.14.Violin.1.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -2346,10 +2320,8 @@ number.14.Violin.1.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -2401,10 +2373,8 @@ number.14.Violin.1.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -2458,10 +2428,8 @@ number.14.Violin.1.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -2491,10 +2459,8 @@ number.14.Violin.1.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -2602,10 +2568,8 @@ number.14.Violin.1.Music = {
     g'8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_START
     [
@@ -2739,10 +2703,8 @@ number.14.Violin.1.Music = {
             b'1 * 1/4
               %! EXPLICIT_DYNAMIC_COLOR
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             - \tweak color #blue
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
@@ -3107,10 +3069,8 @@ number.14.Violin.2.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SCP_SPANNER
       %! SPANNER_START
@@ -3162,10 +3122,8 @@ number.14.Violin.2.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -3219,10 +3177,8 @@ number.14.Violin.2.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -3271,10 +3227,8 @@ number.14.Violin.2.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -3326,10 +3280,8 @@ number.14.Violin.2.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -3383,10 +3335,8 @@ number.14.Violin.2.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -3442,10 +3392,8 @@ number.14.Violin.2.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -3475,10 +3423,8 @@ number.14.Violin.2.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -3553,10 +3499,8 @@ number.14.Violin.2.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak padding 1.5
     ^ \stirrings-still-twenty-four-et-markup
@@ -3641,10 +3585,8 @@ number.14.Violin.2.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -3700,10 +3642,8 @@ number.14.Violin.2.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -3752,10 +3692,8 @@ number.14.Violin.2.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -3807,10 +3745,8 @@ number.14.Violin.2.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -3864,10 +3800,8 @@ number.14.Violin.2.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -3923,10 +3857,8 @@ number.14.Violin.2.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -3956,10 +3888,8 @@ number.14.Violin.2.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -4048,10 +3978,8 @@ number.14.Violin.2.Music = {
     f'8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_START
     [
@@ -4185,10 +4113,8 @@ number.14.Violin.2.Music = {
             b'1 * 1/4
               %! EXPLICIT_DYNAMIC_COLOR
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             - \tweak color #blue
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
@@ -4548,10 +4474,8 @@ number.14.Viola.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SCP_SPANNER
       %! SPANNER_START
@@ -4603,10 +4527,8 @@ number.14.Viola.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -4657,10 +4579,8 @@ number.14.Viola.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -4710,10 +4630,8 @@ number.14.Viola.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -4769,10 +4687,8 @@ number.14.Viola.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -4821,10 +4737,8 @@ number.14.Viola.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -4880,10 +4794,8 @@ number.14.Viola.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -4913,10 +4825,8 @@ number.14.Viola.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -5015,10 +4925,8 @@ number.14.Viola.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
         - \tweak staff-padding 8
         ^ \stirrings-still-twenty-four-et-markup
@@ -5098,10 +5006,8 @@ number.14.Viola.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -5150,10 +5056,8 @@ number.14.Viola.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -5209,10 +5113,8 @@ number.14.Viola.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -5264,10 +5166,8 @@ number.14.Viola.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -5321,10 +5221,8 @@ number.14.Viola.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -5373,10 +5271,8 @@ number.14.Viola.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -5432,10 +5328,8 @@ number.14.Viola.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -5484,10 +5378,8 @@ number.14.Viola.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -5520,10 +5412,8 @@ number.14.Viola.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -5629,10 +5519,8 @@ number.14.Viola.Music = {
     af!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_START
     [
@@ -5766,10 +5654,8 @@ number.14.Viola.Music = {
             c'1 * 1/4
               %! EXPLICIT_DYNAMIC_COLOR
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             - \tweak color #blue
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
@@ -6246,10 +6132,8 @@ number.14.Cello.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
         - \tweak padding 1.5
         ^ \stirrings-still-twenty-four-et-markup
@@ -6338,10 +6222,8 @@ number.14.Cello.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -6398,10 +6280,8 @@ number.14.Cello.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -6457,10 +6337,8 @@ number.14.Cello.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -6509,10 +6387,8 @@ number.14.Cello.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -6564,10 +6440,8 @@ number.14.Cello.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -6598,10 +6472,8 @@ number.14.Cello.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -6678,10 +6550,8 @@ number.14.Cello.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SPANNER_STOP
         \!
@@ -6759,10 +6629,8 @@ number.14.Cello.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -6814,10 +6682,8 @@ number.14.Cello.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -6871,10 +6737,8 @@ number.14.Cello.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -6923,10 +6787,8 @@ number.14.Cello.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -6982,10 +6844,8 @@ number.14.Cello.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -7034,10 +6894,8 @@ number.14.Cello.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -7089,10 +6947,8 @@ number.14.Cello.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -7146,10 +7002,8 @@ number.14.Cello.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -7179,10 +7033,8 @@ number.14.Cello.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \fff
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -7290,10 +7142,8 @@ number.14.Cello.Music = {
     b,,1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! SPANNER_START
       %! TASTO_SPANNER
@@ -7410,10 +7260,8 @@ number.14.Cello.Music = {
             d1 * 1/4
               %! EXPLICIT_DYNAMIC_COLOR
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             - \tweak color #blue
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             \!
               %! DURATION_MULTIPLIER
               %! HIDDEN

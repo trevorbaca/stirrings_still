@@ -3326,10 +3326,8 @@ number.4.Violin.1.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \abjad-zero-padding-glissando
     \glissando
@@ -3358,10 +3356,8 @@ number.4.Violin.1.Music = {
     dqs''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     - \abjad-zero-padding-glissando
     \glissando
@@ -3379,10 +3375,8 @@ number.4.Violin.1.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \abjad-zero-padding-glissando
     \glissando
@@ -3413,10 +3407,8 @@ number.4.Violin.1.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -3445,10 +3437,8 @@ number.4.Violin.1.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \abjad-zero-padding-glissando
     \glissando
@@ -3477,10 +3467,8 @@ number.4.Violin.1.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -3505,10 +3493,8 @@ number.4.Violin.1.Music = {
     ef''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \abjad-zero-padding-glissando
     \glissando
@@ -3537,10 +3523,8 @@ number.4.Violin.1.Music = {
     ef''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -3571,10 +3555,8 @@ number.4.Violin.1.Music = {
     ef''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \abjad-zero-padding-glissando
     \glissando
@@ -3605,10 +3587,8 @@ number.4.Violin.1.Music = {
     ef''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
     - \abjad-zero-padding-glissando
     \glissando
@@ -3626,10 +3606,8 @@ number.4.Violin.1.Music = {
     ef''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \abjad-zero-padding-glissando
     \glissando
@@ -3662,10 +3640,8 @@ number.4.Violin.1.Music = {
     ef''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
     - \abjad-zero-padding-glissando
     \glissando
@@ -3972,10 +3948,8 @@ number.4.Violin.1.Music = {
     <e' c''>8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     [
       %! SPANNER_START
@@ -4041,10 +4015,8 @@ number.4.Violin.1.Music = {
     <e' c''>16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ]
     \tweak extra-offset #'(-0.25 . 2)
@@ -4058,10 +4030,8 @@ number.4.Violin.1.Music = {
         <e' cqs''!>4.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -4088,10 +4058,8 @@ number.4.Violin.1.Music = {
         - \baca-stop-on-string
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
 
     }
@@ -4182,10 +4150,8 @@ number.4.Violin.1.Music = {
     <e' c''>8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     [
       %! SPANNER_START
@@ -4251,10 +4217,8 @@ number.4.Violin.1.Music = {
     <e' c''>16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ]
     \tweak extra-offset #'(-0.25 . 2)
@@ -4268,10 +4232,8 @@ number.4.Violin.1.Music = {
         <e' cqs''!>2.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -4298,10 +4260,8 @@ number.4.Violin.1.Music = {
         - \baca-stop-on-string
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
 
     }
@@ -5050,10 +5010,8 @@ number.4.Violin.1.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! SPANNER_STOP
       %! TASTO_SPANNER
@@ -5131,10 +5089,8 @@ number.4.Violin.1.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -5690,10 +5646,8 @@ number.4.Violin.2.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \abjad-zero-padding-glissando
     \glissando
@@ -5723,10 +5677,8 @@ number.4.Violin.2.Music = {
     d''8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     - \abjad-zero-padding-glissando
     \glissando
@@ -5753,10 +5705,8 @@ number.4.Violin.2.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \abjad-zero-padding-glissando
     \glissando
@@ -5790,10 +5740,8 @@ number.4.Violin.2.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -5824,10 +5772,8 @@ number.4.Violin.2.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \abjad-zero-padding-glissando
     \glissando
@@ -5855,10 +5801,8 @@ number.4.Violin.2.Music = {
     dqs''!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -5892,10 +5836,8 @@ number.4.Violin.2.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \abjad-zero-padding-glissando
     \glissando
@@ -5921,10 +5863,8 @@ number.4.Violin.2.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -5953,10 +5893,8 @@ number.4.Violin.2.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \abjad-zero-padding-glissando
     \glissando
@@ -5982,10 +5920,8 @@ number.4.Violin.2.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -6010,10 +5946,8 @@ number.4.Violin.2.Music = {
     ef''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
     - \abjad-zero-padding-glissando
     \glissando
@@ -6041,10 +5975,8 @@ number.4.Violin.2.Music = {
     ef''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \abjad-zero-padding-glissando
     \glissando
@@ -6062,10 +5994,8 @@ number.4.Violin.2.Music = {
     ef''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
     - \abjad-zero-padding-glissando
     \glissando
@@ -6093,10 +6023,8 @@ number.4.Violin.2.Music = {
     ef''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \abjad-zero-padding-glissando
     \glissando
@@ -6413,10 +6341,8 @@ number.4.Violin.2.Music = {
     <ef'! b'>8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     [
       %! SPANNER_START
@@ -6482,10 +6408,8 @@ number.4.Violin.2.Music = {
     <ef'! b'>16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ]
     \tweak extra-offset #'(-0.25 . 2)
@@ -6499,10 +6423,8 @@ number.4.Violin.2.Music = {
         <eqf'! c''>4.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -6529,10 +6451,8 @@ number.4.Violin.2.Music = {
         - \baca-stop-on-string
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
 
     }
@@ -6623,10 +6543,8 @@ number.4.Violin.2.Music = {
     <ef'! b'>8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     [
       %! SPANNER_START
@@ -6692,10 +6610,8 @@ number.4.Violin.2.Music = {
     <ef'! b'>16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ]
     \tweak extra-offset #'(-0.25 . 2)
@@ -6709,10 +6625,8 @@ number.4.Violin.2.Music = {
         <eqf'! c''>2.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -6739,10 +6653,8 @@ number.4.Violin.2.Music = {
         - \baca-stop-on-string
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
 
     }
@@ -7468,10 +7380,8 @@ number.4.Violin.2.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! SPANNER_STOP
       %! TASTO_SPANNER
@@ -7549,10 +7459,8 @@ number.4.Violin.2.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -8072,10 +7980,8 @@ number.4.Viola.Music = {
     d''8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \abjad-zero-padding-glissando
     \glissando
@@ -8097,10 +8003,8 @@ number.4.Viola.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     - \abjad-zero-padding-glissando
     \glissando
@@ -8135,10 +8039,8 @@ number.4.Viola.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \abjad-zero-padding-glissando
     \glissando
@@ -8168,10 +8070,8 @@ number.4.Viola.Music = {
     d''8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     - \abjad-zero-padding-glissando
     \glissando
@@ -8207,10 +8107,8 @@ number.4.Viola.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -8236,10 +8134,8 @@ number.4.Viola.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \abjad-zero-padding-glissando
     \glissando
@@ -8273,10 +8169,8 @@ number.4.Viola.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -8302,10 +8196,8 @@ number.4.Viola.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \abjad-zero-padding-glissando
     \glissando
@@ -8341,10 +8233,8 @@ number.4.Viola.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \abjad-zero-padding-glissando
     \glissando
@@ -8374,10 +8264,8 @@ number.4.Viola.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -8405,10 +8293,8 @@ number.4.Viola.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \abjad-zero-padding-glissando
     \glissando
@@ -8438,10 +8324,8 @@ number.4.Viola.Music = {
     dqs''!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -8475,10 +8359,8 @@ number.4.Viola.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
     - \abjad-zero-padding-glissando
     \glissando
@@ -8511,10 +8393,8 @@ number.4.Viola.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \abjad-zero-padding-glissando
     \glissando
@@ -8547,10 +8427,8 @@ number.4.Viola.Music = {
     dqs''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
     - \abjad-zero-padding-glissando
     \glissando
@@ -8863,10 +8741,8 @@ number.4.Viola.Music = {
     <d' gqs'!>8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     [
       %! SPANNER_START
@@ -8934,10 +8810,8 @@ number.4.Viola.Music = {
     <d' gqs'!>16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ]
     \tweak extra-offset #'(-0.25 . 2)
@@ -8951,10 +8825,8 @@ number.4.Viola.Music = {
         <cs'! gqs'!>4.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -8981,10 +8853,8 @@ number.4.Viola.Music = {
         - \baca-stop-on-string
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
 
     }
@@ -9124,10 +8994,8 @@ number.4.Viola.Music = {
     <d' gqs'!>8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     [
       %! SPANNER_START
@@ -9193,10 +9061,8 @@ number.4.Viola.Music = {
     <d' gqs'!>16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     ]
     \tweak extra-offset #'(-0.25 . 2)
@@ -9210,10 +9076,8 @@ number.4.Viola.Music = {
         <cs'! gqs'!>2.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -9240,10 +9104,8 @@ number.4.Viola.Music = {
         - \baca-stop-on-string
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
 
     }
@@ -10423,10 +10285,8 @@ number.4.Cello.Music = {
     d''4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \abjad-zero-padding-glissando
     \glissando
@@ -10452,10 +10312,8 @@ number.4.Cello.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     - \abjad-zero-padding-glissando
     \glissando
@@ -10498,10 +10356,8 @@ number.4.Cello.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -10529,10 +10385,8 @@ number.4.Cello.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \abjad-zero-padding-glissando
     \glissando
@@ -10554,10 +10408,8 @@ number.4.Cello.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -10594,10 +10446,8 @@ number.4.Cello.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \abjad-zero-padding-glissando
     \glissando
@@ -10628,10 +10478,8 @@ number.4.Cello.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \abjad-zero-padding-glissando
     \glissando
@@ -10661,10 +10509,8 @@ number.4.Cello.Music = {
     d''8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -10696,10 +10542,8 @@ number.4.Cello.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \abjad-zero-padding-glissando
     \glissando
@@ -10734,10 +10578,8 @@ number.4.Cello.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -10764,10 +10606,8 @@ number.4.Cello.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
     - \abjad-zero-padding-glissando
     \glissando
@@ -10795,10 +10635,8 @@ number.4.Cello.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \abjad-zero-padding-glissando
     \glissando
@@ -10831,10 +10669,8 @@ number.4.Cello.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
     - \abjad-zero-padding-glissando
     \glissando
@@ -10862,10 +10698,8 @@ number.4.Cello.Music = {
     dqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \abjad-zero-padding-glissando
     \glissando
@@ -12014,10 +11848,8 @@ number.4.Cello.Music = {
     e,2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -12042,10 +11874,8 @@ number.4.Cello.Music = {
     e,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \fff
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
