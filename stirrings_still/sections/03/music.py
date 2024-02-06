@@ -738,7 +738,6 @@ def tutti(cache):
                 staff_padding=8,
             )
         with baca.scope(m.get(16, 19)) as o:
-            baca.dynamic(o.phead(0), "p", redundant=True)
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.piecewise.text(
                 (),
@@ -748,7 +747,6 @@ def tutti(cache):
                 pieces=baca.select.omgroups(leaves, [2]),
             ),
         with baca.scope(m.get(20, 23)) as o:
-            baca.dynamic(o.phead(0), "p", redundant=True)
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.piecewise.text(
                 (),
@@ -759,7 +757,6 @@ def tutti(cache):
                 pieces=baca.select.omgroups(leaves, [2]),
             )
         with baca.scope(m.get(24, 27)) as o:
-            baca.dynamic(o.phead(0), "p", redundant=True)
             baca.piecewise.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
