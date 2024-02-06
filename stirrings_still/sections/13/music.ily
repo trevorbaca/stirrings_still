@@ -1293,10 +1293,8 @@ number.13.Violin.1.Music = {
         <ds'! a'>4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
         - \tweak staff-padding 8
         ^ \stirrings-still-twelve-et-markup
@@ -2094,10 +2092,8 @@ number.13.Violin.2.Music = {
         <dqs'! gtqs'!>4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
         - \tweak staff-padding 8
         ^ \stirrings-still-twenty-four-et-markup
@@ -2858,10 +2854,8 @@ number.13.Viola.Music = {
     <d' gs'!>4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak staff-padding 8
     ^ \stirrings-still-twelve-et-markup
