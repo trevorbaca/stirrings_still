@@ -589,7 +589,7 @@ def vc(cache):
             o.leaves(),
             "flaut. -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            bookend=-1,
+            bookend=True,
         )
     with baca.scope(m.get(7, 31)) as o:
         baca.override.note_head_style_harmonic(o.pleaves())
