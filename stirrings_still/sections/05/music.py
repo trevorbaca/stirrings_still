@@ -1102,7 +1102,7 @@ def va(cache):
                 plt,
                 staff_padding=5.5,
             )
-        baca.dynamic(o.pleaf(-1), "!")
+        baca.hairpin(o.pleaf(-1), "!")
         baca.flat_glissando(o, "Gb4")
     with baca.scope(m.get(63, 70)) as o:
         baca.spanners.hairpin(o.rleaves(), '"ff" > p')
