@@ -746,10 +746,8 @@ number.6.Violin.1.Music = {
         bf'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -1170,10 +1168,8 @@ number.6.Violin.2.Music = {
     g'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
@@ -1464,10 +1460,8 @@ number.6.Viola.Music = {
         bf'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -1885,10 +1879,8 @@ number.6.Cello.Music = {
         bf'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START

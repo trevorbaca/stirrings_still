@@ -1219,10 +1219,8 @@ number.7.Violin.1.Music = {
     <f' a'>2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-appena-udibile
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -1606,10 +1604,8 @@ number.7.Violin.1.Music = {
     <fs'! dqf''!>2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     - \tweak padding 1.5
     ^ \stirrings-still-seven-plus-nine-of-e-markup
@@ -1831,10 +1827,8 @@ number.7.Violin.1.Music = {
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! SCP_SPANNER
           %! SPANNER_START
@@ -2016,10 +2010,8 @@ number.7.Violin.1.Music = {
     cs'''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -2530,10 +2522,8 @@ number.7.Violin.2.Music = {
     <e' gs'!>2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-appena-udibile
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2944,10 +2934,8 @@ number.7.Violin.2.Music = {
         - \downbow
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
@@ -3186,10 +3174,8 @@ number.7.Violin.2.Music = {
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SCP_SPANNER
       %! SPANNER_START
@@ -3411,10 +3397,8 @@ number.7.Violin.2.Music = {
     cs'''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -3910,10 +3894,8 @@ number.7.Viola.Music = {
     <eqs'! gtqs'!>2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-appena-udibile
     - \tweak padding 1.5
     ^ \stirrings-still-twenty-four-et-markup
@@ -4304,10 +4286,8 @@ number.7.Viola.Music = {
     <b, aqs!>2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     - \tweak padding 1.5
     ^ \stirrings-still-eleven-plus-three-of-e-markup
@@ -4532,10 +4512,8 @@ number.7.Viola.Music = {
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
         - \tweak padding 1.5
         ^ \stirrings-still-twenty-four-et-markup
@@ -4748,10 +4726,8 @@ number.7.Viola.Music = {
     cs'''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando
@@ -5545,10 +5521,8 @@ number.7.Cello.Music = {
     e,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \!
@@ -5749,10 +5723,8 @@ number.7.Cello.Music = {
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SCP_SPANNER
       %! SPANNER_START
@@ -5952,10 +5924,8 @@ number.7.Cello.Music = {
     cs'''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \abjad-zero-padding-glissando
     \glissando

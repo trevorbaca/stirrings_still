@@ -831,10 +831,8 @@ number.18.Violin.1.Music = {
         a'''8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
         [
           %! EXPLICIT_DYNAMIC
@@ -1437,10 +1435,8 @@ number.18.Violin.2.Music = {
     af''!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ppp
     - \tweak self-alignment-X #left
     - \tweak staff-padding 7.0
@@ -2001,10 +1997,8 @@ number.18.Cello.Music = {
     b,,,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
