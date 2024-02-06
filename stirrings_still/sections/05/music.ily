@@ -15836,6 +15836,7 @@ number.5.Viola.Music = {
     \revert NoteHead.no-ledgers
     \undo \hide NoteHead
     gf'!8
+      %! SPANNER_STOP
     \!
 
     <<
