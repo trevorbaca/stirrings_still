@@ -4365,10 +4365,8 @@ number.4.Violin.1.Music = {
         bf'!16 * 245/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
         - \tweak padding 1.5
         _ \baca-string-iv-markup
@@ -4453,10 +4451,8 @@ number.4.Violin.1.Music = {
     cs'''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
@@ -4674,10 +4670,8 @@ number.4.Violin.1.Music = {
     <fs'! dqf''!>2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     - \tweak padding 1.5
     ^ \stirrings-still-seven-plus-nine-of-e-markup
@@ -4750,10 +4744,8 @@ number.4.Violin.1.Music = {
     aqs'!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \tweak padding 1.5
     ^ \baca-thirteen-d-flat
@@ -5287,10 +5279,8 @@ number.4.Violin.1.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! SCP_SPANNER
       %! SPANNER_START
@@ -5386,10 +5376,8 @@ number.4.Violin.1.Music = {
         bf'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
@@ -6822,10 +6810,8 @@ number.4.Violin.2.Music = {
         f'16 * 235/64
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"235" #"64"
@@ -6900,10 +6886,8 @@ number.4.Violin.2.Music = {
     cs'''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
@@ -7117,10 +7101,8 @@ number.4.Violin.2.Music = {
     <cqs'! af'!>2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     - \tweak padding 1.5
     ^ \stirrings-still-five-plus-thirteen-of-e-markup
@@ -7193,10 +7175,8 @@ number.4.Violin.2.Music = {
     ef'!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \tweak padding 1.5
     ^ \baca-nine-d-flat
@@ -7721,10 +7701,8 @@ number.4.Violin.2.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! SCP_SPANNER
       %! SPANNER_START
@@ -7816,10 +7794,8 @@ number.4.Violin.2.Music = {
     g'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -9332,10 +9308,8 @@ number.4.Viola.Music = {
     bf,!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! FLIGHT
       %! MATERIAL
@@ -9394,10 +9368,8 @@ number.4.Viola.Music = {
     cs'''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! SPANNER_STOP
     \!
@@ -9631,10 +9603,8 @@ number.4.Viola.Music = {
     <b, aqs!>2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     - \tweak padding 1.5
     ^ \stirrings-still-eleven-plus-three-of-e-markup
@@ -9721,10 +9691,8 @@ number.4.Viola.Music = {
     bqf!2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \tweak padding 1.5
     ^ \baca-seven-d-flat
@@ -10073,10 +10041,8 @@ number.4.Viola.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \tweak padding 1.5
     ^ \baca-five-f-markup
@@ -10174,10 +10140,8 @@ number.4.Viola.Music = {
         af'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
@@ -11084,10 +11048,8 @@ number.4.Cello.Music = {
     a''8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \tweak self-alignment-X #left
     - \tweak staff-padding 7.0
@@ -11407,10 +11369,8 @@ number.4.Cello.Music = {
     e,2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! CLOUDED_PANE
       %! MATERIAL
@@ -11520,10 +11480,8 @@ number.4.Cello.Music = {
     e,2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! CLOUDED_PANE
       %! MATERIAL
@@ -11712,10 +11670,8 @@ number.4.Cello.Music = {
     cs'''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! FLIGHT
       %! MATERIAL
@@ -11951,10 +11907,8 @@ number.4.Cello.Music = {
     e,2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! CLOUDED_PANE
       %! MATERIAL

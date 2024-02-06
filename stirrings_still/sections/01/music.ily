@@ -2877,10 +2877,8 @@ number.1.Violin.1.Music = {
     <e' c''>8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     [
       %! SPANNER_START
@@ -3521,10 +3519,8 @@ number.1.Violin.1.Music = {
         b'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
@@ -3771,10 +3767,8 @@ number.1.Violin.1.Music = {
         b'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
@@ -4306,10 +4300,8 @@ number.1.Violin.1.Music = {
         b'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-ppp-parenthesized
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -4410,10 +4402,8 @@ number.1.Violin.1.Music = {
         c''4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_STOP
@@ -4593,10 +4583,8 @@ number.1.Violin.1.Music = {
         c''4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -4717,10 +4705,8 @@ number.1.Violin.1.Music = {
         c''4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -4953,10 +4939,8 @@ number.1.Violin.1.Music = {
         c''4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -5249,10 +5233,8 @@ number.1.Violin.1.Music = {
     c''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
@@ -6035,10 +6017,8 @@ number.1.Violin.2.Music = {
     <ef'! b'>8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     [
       %! SPANNER_START
@@ -6671,10 +6651,8 @@ number.1.Violin.2.Music = {
     df'!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -6909,10 +6887,8 @@ number.1.Violin.2.Music = {
     df'!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -7369,10 +7345,8 @@ number.1.Violin.2.Music = {
         df'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-ppp-parenthesized
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -7441,10 +7415,8 @@ number.1.Violin.2.Music = {
     c'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
@@ -7602,10 +7574,8 @@ number.1.Violin.2.Music = {
     c'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
@@ -7718,10 +7688,8 @@ number.1.Violin.2.Music = {
     c'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
@@ -7950,10 +7918,8 @@ number.1.Violin.2.Music = {
         c'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -8240,10 +8206,8 @@ number.1.Violin.2.Music = {
     c'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
@@ -9021,10 +8985,8 @@ number.1.Viola.Music = {
     <d' gqs'!>8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     [
       %! SPANNER_START
@@ -9661,10 +9623,8 @@ number.1.Viola.Music = {
         a4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
@@ -9909,10 +9869,8 @@ number.1.Viola.Music = {
         a4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
@@ -10447,10 +10405,8 @@ number.1.Viola.Music = {
         a4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-ppp-parenthesized
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -10561,10 +10517,8 @@ number.1.Viola.Music = {
         af!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_STOP
@@ -10750,10 +10704,8 @@ number.1.Viola.Music = {
         af!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -10876,10 +10828,8 @@ number.1.Viola.Music = {
         af!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -11114,10 +11064,8 @@ number.1.Viola.Music = {
         af!2
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -11404,10 +11352,8 @@ number.1.Viola.Music = {
     af!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
@@ -12019,10 +11965,8 @@ number.1.Cello.Music = {
     df,!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -12425,10 +12369,8 @@ number.1.Cello.Music = {
         g4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -12519,10 +12461,8 @@ number.1.Cello.Music = {
     a''8.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-f
     - \tweak self-alignment-X #left
     - \tweak staff-padding 7.0
@@ -12654,10 +12594,8 @@ number.1.Cello.Music = {
         g4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! SPANNER_STOP
         \!
@@ -12790,10 +12728,8 @@ number.1.Cello.Music = {
         g4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -12910,10 +12846,8 @@ number.1.Cello.Music = {
         g4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -13142,10 +13076,8 @@ number.1.Cello.Music = {
         g4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -13278,10 +13210,8 @@ number.1.Cello.Music = {
     g4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START

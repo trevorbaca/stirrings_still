@@ -539,10 +539,8 @@ number.9.Violin.1.Music = {
     aqs'!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-mp-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -701,10 +699,8 @@ number.9.Violin.1.Music = {
     <f' a'>1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-appena-udibile
     - \tweak padding 1.5
     ^ \stirrings-still-twelve-et-markup
@@ -937,10 +933,8 @@ number.9.Violin.2.Music = {
     ef'!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-mp-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -1061,10 +1055,8 @@ number.9.Violin.2.Music = {
     <e' gs'!>1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-appena-udibile
     - \tweak padding 1.5
     ^ \stirrings-still-twelve-et-markup
@@ -1248,10 +1240,8 @@ number.9.Viola.Music = {
     bqf!2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \tweak padding 1.5
     ^ \baca-seven-d-flat
@@ -1302,10 +1292,8 @@ number.9.Viola.Music = {
     bqf!2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-mp-parenthesized
       %! SPANNER_STOP
     \!
@@ -1408,10 +1396,8 @@ number.9.Viola.Music = {
     <eqs'! gtqs'!>1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-appena-udibile
     - \tweak padding 1.5
     ^ \stirrings-still-twenty-four-et-markup

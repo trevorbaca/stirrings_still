@@ -1369,10 +1369,8 @@ number.14.Violin.1.Music = {
     c'''2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-fff-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -1477,10 +1475,8 @@ number.14.Violin.1.Music = {
     <a fqs'!>2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     - \tweak padding 1.5
     ^ \stirrings-still-twenty-four-et-markup
@@ -2012,10 +2008,8 @@ number.14.Violin.1.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \tweak padding 1.5
     ^ \baca-eleven-e
@@ -2894,10 +2888,8 @@ number.14.Violin.2.Music = {
     eqf''!2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-fff-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -3002,10 +2994,8 @@ number.14.Violin.2.Music = {
     <fs! dqs'!>2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     - \tweak padding 1.5
     ^ \stirrings-still-twenty-four-et-markup
@@ -3541,10 +3531,8 @@ number.14.Violin.2.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \tweak padding 1.5
     ^ \baca-nine-e
@@ -4345,10 +4333,8 @@ number.14.Viola.Music = {
     gqf'!2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-fff-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -4453,10 +4439,8 @@ number.14.Viola.Music = {
     <c aqs!>2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     - \tweak padding 1.5
     ^ \stirrings-still-twenty-four-et-markup
@@ -5009,10 +4993,8 @@ number.14.Viola.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \tweak padding 1.5
     ^ \baca-five-e
@@ -5937,10 +5919,8 @@ number.14.Cello.Music = {
     bf,,!2..
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-fff-parenthesized
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -6230,10 +6210,8 @@ number.14.Cello.Music = {
     bf,,!2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6680,10 +6658,8 @@ number.14.Cello.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \tweak padding 1.5
     _ \baca-string-iii-markup

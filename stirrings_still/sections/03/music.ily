@@ -2740,10 +2740,8 @@ number.3.Violin.1.Music = {
         g'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-ff
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
@@ -2999,10 +2997,8 @@ number.3.Violin.1.Music = {
         bf'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -3577,10 +3573,8 @@ number.3.Violin.1.Music = {
     <fs'! dqf''!>2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     - \tweak padding 1.5
     ^ \stirrings-still-seven-plus-nine-of-e-markup
@@ -4270,10 +4264,8 @@ number.3.Violin.1.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -4346,10 +4338,8 @@ number.3.Violin.1.Music = {
     <f' a'>2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-appena-udibile
       %! SPANNER_STOP
     \!
@@ -4419,10 +4409,8 @@ number.3.Violin.1.Music = {
     b''4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     \laissezVibrer
       %! SPANNER_STOP
@@ -4604,10 +4592,8 @@ number.3.Violin.1.Music = {
         bf'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
           %! SPANNER_START
         - \baca-solid-line-with-arrow
@@ -4861,10 +4847,8 @@ number.3.Violin.2.Music = {
     g'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
@@ -5097,10 +5081,8 @@ number.3.Violin.2.Music = {
     g'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
@@ -5519,10 +5501,8 @@ number.3.Violin.2.Music = {
         - \downbow
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_STOP
@@ -6226,10 +6206,8 @@ number.3.Violin.2.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6305,10 +6283,8 @@ number.3.Violin.2.Music = {
     <e' gs'!>2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-appena-udibile
       %! SPANNER_STOP
     \!
@@ -6378,10 +6354,8 @@ number.3.Violin.2.Music = {
     b'4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     \laissezVibrer
       %! SPANNER_STOP
@@ -6553,10 +6527,8 @@ number.3.Violin.2.Music = {
     af'!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! SPANNER_START
     - \baca-solid-line-with-arrow
@@ -6763,10 +6735,8 @@ number.3.Viola.Music = {
         g'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-ff
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“Viola”)"
@@ -7033,10 +7003,8 @@ number.3.Viola.Music = {
         bf'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -7647,10 +7615,8 @@ number.3.Viola.Music = {
     <b, aqs!>2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
     - \tweak padding 1.5
     ^ \stirrings-still-eleven-plus-three-of-e-markup
@@ -8345,10 +8311,8 @@ number.3.Viola.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -8424,10 +8388,8 @@ number.3.Viola.Music = {
     <eqs'! gtqs'!>2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-appena-udibile
       %! SPANNER_STOP
     \!
@@ -8497,10 +8459,8 @@ number.3.Viola.Music = {
     b4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     \laissezVibrer
       %! SPANNER_STOP
@@ -8677,10 +8637,8 @@ number.3.Viola.Music = {
         a4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
           %! SPANNER_START
         - \baca-solid-line-with-arrow
@@ -8952,10 +8910,8 @@ number.3.Cello.Music = {
         g'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-ff
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -9221,10 +9177,8 @@ number.3.Cello.Music = {
         bf'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
@@ -9737,10 +9691,8 @@ number.3.Cello.Music = {
     e,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
@@ -9925,10 +9877,8 @@ number.3.Cello.Music = {
     e,2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
@@ -10434,10 +10384,8 @@ number.3.Cello.Music = {
     - \baca-damp
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10570,10 +10518,8 @@ number.3.Cello.Music = {
     b,,4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     \laissezVibrer
       %! CIRCLE_BOW_SPANNER
@@ -10746,10 +10692,8 @@ number.3.Cello.Music = {
         g,4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
           %! SPANNER_START
         - \baca-solid-line-with-arrow
