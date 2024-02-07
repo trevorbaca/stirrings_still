@@ -669,7 +669,7 @@ def v1_v2_va(cache):
             leaves = baca.select.rleak(o.leaves()[2:])
             baca.piecewise.hairpin(
                 baca.select.omgroups(leaves, [1, 2]),
-                "p < f-scratch -- ! >o niente",
+                "p < f-scratch -- ! >o !",
             )
             baca.rspanners.tasto(
                 o,
@@ -1019,7 +1019,7 @@ def vc(cache):
         )
         library.urtext_spanner(o, "urtext (field) -|", 8)
     with baca.scope(m.get(35, 40)) as o:
-        baca.spanners.hairpin(o.rleaves(), "(p) >o niente")
+        baca.spanners.hairpin(o.rleaves(), "(p) >o !")
     with baca.scope(m.get(42, 43)) as o:
         baca.clef(o.leaf(0), "treble")
         baca.flat_glissando(o, "A5")

@@ -2399,15 +2399,12 @@ number.8.Violin.1.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 8/8
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"8" #"8"
+              %! SPANNER_STOP
+            \!
               %! SPANNER_STOP
             \stopTextSpan
 
@@ -4177,15 +4174,12 @@ number.8.Violin.2.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 8/8
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"8" #"8"
+              %! SPANNER_STOP
+            \!
               %! SPANNER_STOP
             \stopTextSpan
 
@@ -6019,15 +6013,12 @@ number.8.Viola.Music = {
               %! HIDDEN
               %! NOTE
             c'1 * 8/8
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"8" #"8"
+              %! SPANNER_STOP
+            \!
               %! SPANNER_STOP
             \stopTextSpan
 

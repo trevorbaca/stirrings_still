@@ -3901,10 +3901,7 @@ number.11.Violin.1.Music = {
     \revert NoteHead.no-ledgers
     \undo \hide NoteHead
     bqf''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -6189,10 +6186,7 @@ number.11.Violin.2.Music = {
     \revert NoteHead.no-ledgers
     \undo \hide NoteHead
     ef''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! SCP_SPANNER
       %! SPANNER_STOP
@@ -8403,10 +8397,7 @@ number.11.Viola.Music = {
     \revert NoteHead.no-ledgers
     \undo \hide NoteHead
     f8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! SCP_SPANNER
       %! SPANNER_STOP

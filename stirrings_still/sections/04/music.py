@@ -730,7 +730,7 @@ def tutti_1(cache):
                 baca.select.ltleaves(o),
                 staff_padding=5.5,
             )
-            baca.spanners.hairpin(o, "mf >o niente")
+            baca.spanners.hairpin(o, "mf >o !")
             if name == "vc":
                 baca.clef(o.leaf(0), "treble")
             baca.pitch(o, "C#6")

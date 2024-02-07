@@ -124,7 +124,7 @@ def v1(cache):
         baca.flat_glissando(o, "Aqs4")
         baca.spanners.hairpin(
             o.rleaves(),
-            "mf >o niente",
+            "mf >o !",
         )
         baca.markup(
             o.pleaf(0),
@@ -162,7 +162,7 @@ def v2(cache):
             qualifier="wide",
         ),
         baca.flat_glissando(o, "Eb4")
-        baca.spanners.hairpin(o.rleaves(), "mf >o niente")
+        baca.spanners.hairpin(o.rleaves(), "mf >o !")
         baca.markup(
             o.pleaf(0),
             r"\baca-nine-d-flat",
@@ -194,7 +194,7 @@ def va(cache):
         baca.flat_glissando(o, "Bqf3")
         baca.spanners.hairpin(
             o.rleaves(),
-            "mf >o niente",
+            "mf >o !",
         )
         baca.markup(
             o.pleaf(0),

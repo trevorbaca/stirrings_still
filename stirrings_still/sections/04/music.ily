@@ -3203,11 +3203,6 @@ number.4.Violin.1.Music = {
       %! EXPLICIT_STAFF_LINES
     \startStaff
     r2
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -4559,10 +4554,7 @@ number.4.Violin.1.Music = {
 
     cs'''!8
     - \baca-stop-on-string
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
     ]
     \revert Accidental.stencil
@@ -6942,10 +6934,7 @@ number.4.Violin.2.Music = {
 
     cs'''!8
     - \baca-stop-on-string
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
     ]
     \revert Accidental.stencil
@@ -7876,11 +7865,6 @@ number.4.Viola.Music = {
       %! EXPLICIT_STAFF_LINES
     \startStaff
     r2
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -9378,10 +9362,7 @@ number.4.Viola.Music = {
 
     cs'''!8
     - \baca-stop-on-string
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
     ]
     \revert Accidental.stencil
@@ -11646,10 +11627,7 @@ number.4.Cello.Music = {
 
     cs'''!8
     - \baca-stop-on-string
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
     ]
     \revert Accidental.stencil

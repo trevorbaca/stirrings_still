@@ -856,7 +856,7 @@ def tutti(cache):
         with baca.scope(m.get(71, 76)) as o:
             baca.spanners.hairpin(
                 o.rleaves(),
-                "f >o niente",
+                "f >o !",
                 abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
             )
             baca.piecewise.text(
@@ -881,7 +881,7 @@ def vc(cache):
         baca.clef(o.leaf(0), "bass")
         baca.piecewise.hairpin(
             library.rleaves_partition_by_counts(o.rleaves(), [1, 1, 1]),
-            "o< f >o niente",
+            "o< f >o !",
         )
         library.clouded_pane_spanner(
             o,

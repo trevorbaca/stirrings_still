@@ -843,7 +843,7 @@ def v1_v2_va(cache):
             ),
             baca.piecewise.hairpin(
                 baca.select.mgroups(o.rleaves(), [4, 4 + 1]),
-                "p -- ! >o niente",
+                "p -- ! >o !",
             )
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.piecewise.scp(
@@ -1336,7 +1336,7 @@ def vc(cache):
     with baca.scope(m.get(109, 115)) as o:
         baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 4 + 1]),
-            "p -- ! >o niente",
+            "p -- ! >o !",
         )
         library.clouded_pane_spanner(
             o,
