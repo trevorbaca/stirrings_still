@@ -187,7 +187,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     with baca.scope(m.get(13, 19)) as o:
-        baca.spanners.hairpin(o.rleaves(), "niente o< f")
+        baca.spanners.hairpin(o.rleaves(), "o< f")
         baca.piecewise.scp(
             o.rleaves(),
             "T -> O",
@@ -322,7 +322,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     with baca.scope(m.get(13, 19)) as o:
-        baca.spanners.hairpin(o.rleaves(), "niente o< f")
+        baca.spanners.hairpin(o.rleaves(), "o< f")
         baca.piecewise.scp(
             o.rleaves(),
             "T -> O",
@@ -422,7 +422,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     with baca.scope(m.get(13, 19)) as o:
-        baca.spanners.hairpin(o.rleaves(), "niente o< f")
+        baca.spanners.hairpin(o.rleaves(), "o< f")
         baca.piecewise.scp(
             o.rleaves(),
             "T -> O",

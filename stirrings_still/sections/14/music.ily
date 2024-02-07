@@ -1468,11 +1468,6 @@ number.14.Violin.1.Music = {
 
     % [Violin.1.Music measure 13]
     <a fqs'!>2.
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     ^ \stirrings-still-twenty-four-et-markup
       %! SCP_SPANNER
@@ -2939,11 +2934,6 @@ number.14.Violin.2.Music = {
 
     % [Violin.2.Music measure 13]
     <fs! dqs'!>2.
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     ^ \stirrings-still-twenty-four-et-markup
       %! SCP_SPANNER
@@ -4338,11 +4328,6 @@ number.14.Viola.Music = {
 
     % [Viola.Music measure 13]
     <c aqs!>2.
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     ^ \stirrings-still-twenty-four-et-markup
       %! SCP_SPANNER

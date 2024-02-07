@@ -382,7 +382,7 @@ def v1(cache):
     with baca.scope(m.get(1, 6)) as o:
         baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
-            "niente o< mp -- !",
+            "o< mp -- !",
         )
     with baca.scope(m[6]) as o:
         baca.spanners.beam(o.tleaves())
@@ -420,7 +420,7 @@ def v2(cache):
     with baca.scope(m.get(1, 8)) as o:
         baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 5 + 1]),
-            "niente o< mp -- !",
+            "o< mp -- !",
         )
         baca.piecewise.text(
             o.rleaves(),
@@ -519,7 +519,7 @@ def va(cache):
     with baca.scope(m.get(1, 6)) as o:
         baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
-            "niente o< mp -- !",
+            "o< mp -- !",
         )
     with baca.scope(m[6]) as o:
         baca.pitch(o, "Bqf3")
@@ -560,7 +560,7 @@ def vc(cache):
     with baca.scope(m.get(1, 5)) as o:
         baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 2 + 1]),
-            "niente o< mp -- !",
+            "o< mp -- !",
         )
         baca.flat_glissando(o, "Ab2", hide_middle_stems=True)
     with baca.scope(m[6]) as o:
@@ -687,7 +687,7 @@ def v1_v2_va(cache):
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.piecewise.hairpin(
                 baca.select.mgroups(leaves, [2, 4 + 1]),
-                "niente o< p -- !",
+                "o< p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             if name == "v1":
@@ -988,7 +988,7 @@ def tutti(cache):
         with baca.scope(m.get(36, 37)) as o:
             baca.piecewise.hairpin(
                 baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
-                "niente o< mp -- !",
+                "o< mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             baca.markup(

@@ -11703,11 +11703,6 @@ number.4.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
     e,2
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER

@@ -1972,11 +1972,6 @@ number.8.Violin.1.Music = {
       %! REAPPLIED_STAFF_LINES
     \startStaff
     gf'!1
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -2465,11 +2460,6 @@ number.8.Violin.1.Music = {
     {
 
         gqf'!4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         - \tweak padding 1.5
         ^ \baca-thirteen-b-flat
           %! CIRCLE_BOW_SPANNER
@@ -2921,11 +2911,6 @@ number.8.Violin.1.Music = {
 
     % [Violin.1.Music measure 36]
     gf'!1
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
       %! SPANNER_START
@@ -3805,11 +3790,6 @@ number.8.Violin.2.Music = {
       %! REAPPLIED_STAFF_LINES
     \startStaff
     f'1
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -4240,11 +4220,6 @@ number.8.Violin.2.Music = {
     {
 
         atqf!4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         - \tweak padding 1.5
         ^ \baca-seven-b-flat
           %! CIRCLE_BOW_SPANNER
@@ -4696,11 +4671,6 @@ number.8.Violin.2.Music = {
 
     % [Violin.2.Music measure 36]
     f'1
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
       %! SPANNER_START
@@ -5623,11 +5593,6 @@ number.8.Viola.Music = {
       %! REAPPLIED_STAFF_LINES
     \startStaff
     af!1
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -6076,11 +6041,6 @@ number.8.Viola.Music = {
     r4
 
     c4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     ^ \baca-nine-b-flat
       %! CIRCLE_BOW_SPANNER
@@ -6481,11 +6441,6 @@ number.8.Viola.Music = {
 
     % [Viola.Music measure 36]
     af!1
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
       %! SPANNER_START
@@ -7242,11 +7197,6 @@ number.8.Cello.Music = {
       %! REAPPLIED_STAFF_LINES
     \startStaff
     af,!1
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -7889,11 +7839,6 @@ number.8.Cello.Music = {
 
     % [Cello.Music measure 36]
     af,!1
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     _ \baca-string-iii-markup
       %! SPANNER_START

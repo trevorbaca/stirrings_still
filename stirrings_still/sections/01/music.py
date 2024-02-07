@@ -998,7 +998,7 @@ def vc(cache):
     with baca.scope(m[27]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o.rleaves(), [1, 1 + 1]),
-            "niente o< f >o !",
+            "o< f >o !",
         )
         baca.pitch(o, "B1")
         library.clouded_pane_spanner(

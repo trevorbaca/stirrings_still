@@ -673,7 +673,7 @@ def v1_v2_va(cache):
         with baca.scope(m.get(4, 5)) as o:
             baca.spanners.hairpin(
                 baca.select.rleak(baca.select.tleaves(o)),
-                "niente o<|",
+                "o<|",
             )
             if name == "v1":
                 baca.piecewise.circle_bow(
@@ -1313,7 +1313,7 @@ def vc(cache):
     with baca.scope(m.get(63, 64)) as o:
         baca.spanners.hairpin(
             o.rleaves(),
-            "niente o< p",
+            "o< p",
         )
     with baca.scope(m.get(63, 80)) as o:
         library.clouded_pane_spanner(o, "clouded pane (down) -|", 5.5)

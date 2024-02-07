@@ -869,7 +869,7 @@ def vc(cache):
         baca.clef(o.leaf(0), "bass")
         baca.flat_glissando(o, "E2", hide_middle_stems=True)
         cmgroups = baca.select.cmgroups(o)[:3]
-        baca.spanners.hairpin(cmgroups, "niente o< p")
+        baca.spanners.hairpin(cmgroups, "o< p")
         library.clouded_pane_spanner(o, "clouded pane (arrival) -|", 5.5)
     with baca.scope(m.get(86, 92)) as o:
         baca.piecewise.hairpin(
