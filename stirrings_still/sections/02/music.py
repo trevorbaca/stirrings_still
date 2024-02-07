@@ -701,7 +701,7 @@ def v1(cache):
         leaves = baca.select.rleak(baca.select.tleaves(o))
         baca.piecewise.hairpin(
             baca.select.mgroups(leaves, [1, 2]),
-            "mf -- ! >o niente",
+            "mf -- ! >o !",
         )
     with baca.scope(m.get(12, 13)) as o:
         baca.piecewise.circle_bow(
@@ -717,7 +717,7 @@ def v1(cache):
         )
         baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [8, 5 + 1]),
-            "p -- (p) >o niente",
+            "p -- (p) >o !",
         )
     with baca.scope(m.get(14, 15)) as o:
         baca.alternate_bow_strokes(o.pheads())
@@ -1071,7 +1071,7 @@ def tutti(cache):
                     abjad.Tweak(r"- \tweak staff-padding 10.5"),
                 )
         with baca.scope(m.get(61, 62)) as o:
-            baca.spanners.hairpin(o.rleaves(), ">o niente")
+            baca.spanners.hairpin(o.rleaves(), ">o !")
         with baca.scope(m[65]) as o:
             baca.pitch(o, "Eb5")
             baca.rspanners.damp(
@@ -1126,7 +1126,7 @@ def v2(cache, time_signatures):
         leaves = baca.select.rleak(baca.select.tleaves(o))
         baca.piecewise.hairpin(
             baca.select.mgroups(leaves, [1, 2]),
-            "mf -- ! >o niente",
+            "mf -- ! >o !",
         )
     with baca.scope(m.get(12, 13)) as o:
         baca.alternate_bow_strokes(o.pheads())
@@ -1326,7 +1326,7 @@ def va(cache):
         baca.flat_glissando(o, "Ab3")
         baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [8, 2 + 1]),
-            "p-ancora -- (p) >o niente",
+            "p-ancora -- (p) >o !",
         )
     m = cache["var"]
     with baca.scope(m[22]) as o:

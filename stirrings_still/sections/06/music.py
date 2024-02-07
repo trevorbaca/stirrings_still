@@ -107,7 +107,7 @@ def v1(cache):
     with baca.scope(m.get(1, 8)) as o:
         baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [1, 2, 1, 2, 1, 2]),
-            "pp < f > pp < f > pp < f >o niente",
+            "pp < f > pp < f > pp < f >o !",
         )
         baca.markup(
             o.pleaf(0),
@@ -130,7 +130,7 @@ def v2(cache):
     with baca.scope(m.get(1, 8)) as o:
         baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [2, 1, 2, 1, 1, 2]),
-            "pp < f > pp < f > pp < f >o niente",
+            "pp < f > pp < f > pp < f >o !",
         )
         baca.markup(
             o.pleaf(0),
@@ -173,7 +173,7 @@ def vc(cache):
         )
         baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [2, 4, 2 + 1]),
-            "(p) < ff -- (ff) >o niente",
+            "(p) < ff -- (ff) >o !",
         )
         library.clouded_pane_spanner(
             o,

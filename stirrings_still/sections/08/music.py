@@ -669,7 +669,7 @@ def v1_v2_va(cache):
             baca.override.tuplet_bracket_down(o)
             baca.override.tuplet_bracket_staff_padding(o, 1.5)
         with baca.scope(m.get(15, 16)) as o:
-            baca.spanners.hairpin(o.rleaves(), "(p) >o niente")
+            baca.spanners.hairpin(o.rleaves(), "(p) >o !")
         with baca.scope(m.get(17 + 1, 22)) as o:
             baca.override.tacet(o.mmrests())
     for name in ["v1r", "v2r", "var"]:

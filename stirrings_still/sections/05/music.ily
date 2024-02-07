@@ -9403,15 +9403,12 @@ number.5.Violin.1.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 8/8
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"8" #"8"
+              %! SPANNER_STOP
+            \!
               %! DAMP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanDamp
@@ -14105,15 +14102,12 @@ number.5.Violin.2.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 8/8
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"8" #"8"
+              %! SPANNER_STOP
+            \!
               %! DAMP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanDamp
@@ -18565,15 +18559,12 @@ number.5.Viola.Music = {
               %! HIDDEN
               %! NOTE
             c'1 * 8/8
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"8" #"8"
+              %! SPANNER_STOP
+            \!
               %! DAMP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanDamp
@@ -20984,15 +20975,12 @@ number.5.Cello.Music = {
               %! HIDDEN
               %! NOTE
             d1 * 7/8
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"7" #"8"
+              %! SPANNER_STOP
+            \!
               %! CLOUDED_PANE
               %! MATERIAL
               %! MATERIAL_ANNOTATION_SPANNER

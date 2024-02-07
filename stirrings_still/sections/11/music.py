@@ -613,7 +613,7 @@ def v1(cache):
     with baca.scope(m.get(45)) as o:
         baca.spanners.hairpin(o, "pp <")
     with baca.scope(m.get(46, 53)) as o:
-        baca.spanners.hairpin(o, "p >o niente")
+        baca.spanners.hairpin(o, "p >o !")
         baca.rspanners.damp(
             o.leaves(),
             staff_padding=8,
@@ -836,7 +836,7 @@ def v2(cache):
     with baca.scope(m.get(45)) as o:
         baca.spanners.hairpin(o, "pp <")
     with baca.scope(m.get(46, 53)) as o:
-        baca.spanners.hairpin(o, "p >o niente")
+        baca.spanners.hairpin(o, "p >o !")
         baca.rspanners.damp(
             o.leaves(),
             staff_padding=8,
@@ -1026,7 +1026,7 @@ def va(cache):
             o.leaves(),
             staff_padding=8,
         )
-        baca.spanners.hairpin(o, "p >o niente")
+        baca.spanners.hairpin(o, "p >o !")
         baca.piecewise.scp(
             # TODO: allow spanner to extend to phantom measure
             o.leaves(),

@@ -26,16 +26,6 @@
     "first_measure_number": 823,
     "has_anchor_skip": True,
     "persistent_indicators": {
-        "Cello.Music": [
-            baca.Memento(
-                context="Cello.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            )
-        ],
         "Cello.Staff": [
             baca.Memento(
                 context="Cello.Music",
@@ -148,16 +138,6 @@
                 value="Va.",
             ),
         ],
-        "Violin.1.Music": [
-            baca.Memento(
-                context="Violin.1.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            )
-        ],
         "Violin.1.Staff": [
             baca.Memento(
                 context="Violin.1.Music",
@@ -199,16 +179,6 @@
                 synthetic_offset=None,
                 value="Vn. I",
             ),
-        ],
-        "Violin.2.Music": [
-            baca.Memento(
-                context="Violin.2.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            )
         ],
         "Violin.2.MusicStaff": [
             baca.Memento(

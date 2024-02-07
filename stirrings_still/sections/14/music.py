@@ -265,7 +265,7 @@ def v1(cache):
         baca.flat_glissando(o, "G4", stop_pitch="F4")
         baca.piecewise.hairpin(
             baca.select.cmgroups(o.rleaves()),
-            "p -- ! >o niente",
+            "p -- ! >o !",
         )
         baca.piecewise.text(
             o.rleaves(),
@@ -283,7 +283,7 @@ def v1_v2_va(cache):
         with baca.scope(m.get(6, 8)) as o:
             baca.spanners.hairpin(
                 o.rleaves(),
-                "(fff) >o niente",
+                "(fff) >o !",
             )
     for name in ["v1r", "v2r", "var"]:
         m = cache[name]
@@ -401,7 +401,7 @@ def v2(cache):
         baca.flat_glissando(o, "F4", stop_pitch="E4")
         baca.piecewise.hairpin(
             baca.select.cmgroups(o.rleaves()),
-            "p -- ! >o niente",
+            "p -- ! >o !",
         )
         baca.piecewise.text(
             o.rleaves(),
@@ -501,7 +501,7 @@ def va(cache):
         baca.flat_glissando(o, "Ab3", stop_pitch="Gb3")
         baca.piecewise.hairpin(
             baca.select.cmgroups(o.rleaves()),
-            "p -- ! >o niente",
+            "p -- ! >o !",
         )
         baca.piecewise.text(
             o.rleaves(),
@@ -599,7 +599,7 @@ def vc(cache):
         baca.flat_glissando(o, "B1")
         baca.piecewise.hairpin(
             baca.select.cmgroups(o.rleaves()),
-            "p -- ! >o niente",
+            "p -- ! >o !",
         )
         baca.rspanners.tasto(
             o,

@@ -409,7 +409,7 @@ def tutti(cache):
                 baca.select.ltleaves(o),
                 staff_padding=5.5,
             )
-            baca.spanners.hairpin(o, "mf >o niente")
+            baca.spanners.hairpin(o, "mf >o !")
             baca.pitch(o, "C#6")
             for ntlt in baca.select.lts(o, nontrivial=True):
                 baca.stop_on_string(ntlt[-1])
@@ -551,7 +551,7 @@ def vc(cache):
     with baca.scope(m[14]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o.rleaves(), [1, 2]),
-            "f -- ! >o niente",
+            "f -- ! >o !",
         )
     with baca.scope(m[19]) as o:
         baca.clef(o.leaf(0), "treble")
