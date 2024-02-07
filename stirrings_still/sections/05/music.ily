@@ -4168,11 +4168,6 @@ number.5.Violin.1.Music = {
     {
 
         gqf'!4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         - \tweak padding 1.5
         ^ \baca-thirteen-b-flat
           %! CIRCLE_BOW_SPANNER
@@ -9650,11 +9645,6 @@ number.5.Violin.2.Music = {
     {
 
         atqf!4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         - \tweak padding 1.5
         ^ \baca-seven-b-flat
           %! CIRCLE_BOW_SPANNER
@@ -14343,11 +14333,6 @@ number.5.Viola.Music = {
     r8
 
     c4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     ^ \baca-nine-b-flat
       %! CIRCLE_BOW_SPANNER
@@ -19843,11 +19828,6 @@ number.5.Cello.Music = {
 
     % [Cello.Music measure 63]
     d,2..
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! CLOUDED_PANE
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER

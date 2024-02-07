@@ -11477,11 +11477,6 @@ number.1.Cello.Music = {
 
     % [Cello.Music measure 27]
     b,,4..
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
