@@ -9255,11 +9255,6 @@ number.11.Cello.Music = {
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     a''8.
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak self-alignment-X #left
     - \tweak staff-padding 7.0
     - \downbow
@@ -9561,10 +9556,7 @@ number.11.Cello.Music = {
     \revert NoteHead.no-ledgers
     \undo \hide NoteHead
     a''16
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
     \bacaStopTextSpanBCP
     ]

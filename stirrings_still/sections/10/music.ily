@@ -2898,11 +2898,6 @@ number.10.Cello.Music = {
               %! HIDDEN
               %! NOTE
             d1 * 8/16
-              %! REAPPLIED_DYNAMIC_COLOR
-              %! REAPPLIED_DYNAMIC
-            - \tweak color #(x11-color 'green4)
-              %! REAPPLIED_DYNAMIC
-            _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE

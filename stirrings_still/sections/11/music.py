@@ -1104,7 +1104,7 @@ def vc(cache):
         baca.clef(o.rleaf(-1), "bass")
         baca.piecewise.hairpin(
             baca.select.cmgroups(o),
-            'niente o< "f" -- ! >o niente',
+            'o< "f" -- ! >o !',
         )
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),

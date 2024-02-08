@@ -1025,7 +1025,7 @@ def vc(cache):
         baca.flat_glissando(o, "A5")
         baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [1, 2]),
-            'niente o< "f" -- !',
+            'o< "f" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.rspanners.half_clt(

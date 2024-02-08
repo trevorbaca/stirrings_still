@@ -9440,11 +9440,6 @@ number.2.Viola.Music = {
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     af!4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
