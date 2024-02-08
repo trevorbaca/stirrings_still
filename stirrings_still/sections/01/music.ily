@@ -11784,11 +11784,6 @@ number.1.Cello.Music = {
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     a''8.
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak self-alignment-X #left
     - \tweak staff-padding 7.0
     - \downbow

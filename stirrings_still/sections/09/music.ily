@@ -2682,11 +2682,6 @@ number.9.Cello.Music = {
     \revert NoteHead.no-ledgers
     \undo \hide NoteHead
     a''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \bacaStopTextSpanBCP
     ]
     \revert DynamicLineSpanner.staff-padding
@@ -2724,6 +2719,9 @@ number.9.Cello.Music = {
       %! HIDDEN
       %! NOTE
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+      %! ANCHOR_NOTE
+      %! SPANNER_STOP
+    \!
       %! ANCHOR_NOTE
       %! HALF_CLT_SPANNER
       %! SPANNER_STOP

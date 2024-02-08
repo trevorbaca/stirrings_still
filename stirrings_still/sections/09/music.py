@@ -213,11 +213,8 @@ def vc(cache):
     with baca.scope(m.leaves()) as o:
         baca.piecewise.hairpin(
             baca.select.mgroups(o.leaves(), [5, 4, 1 + 1]),
-            'p < "f" -- "f" >o niente',
-            # TODO: extend hairpin to phantom measure
-            # following two lines should remain
-            # pieces=baca.select.mgroups(_, [5, 4, 2 + 1]),
-            # temporary:
+            'p < "f" -- "f" >o !',
+            with_next_leaf=True,
         )
         baca.rspanners.half_clt(
             o.leaves(),
