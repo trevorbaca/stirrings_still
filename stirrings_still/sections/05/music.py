@@ -1061,7 +1061,7 @@ def va(cache):
         plts = abjad.select.get(plts, [0], 2)
         for plt in plts:
             baca.rspanners.damp(
-                baca.select.tleaves(plt),
+                plt,
                 staff_padding=5.5,
             )
         for plt in abjad.select.get(baca.select.plts(o), [0], 2):
