@@ -621,11 +621,10 @@ def v1_v2_va(cache):
                 baca.select.clparts(o, [1]),
                 "p <| f p < mp",
             )
-            baca.piecewise.scp(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                "tasto (T) =|",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                left_broken_text=r"\baca-left-broken-t-markup",
+            baca.rspanners.tasto(
+                o,
+                items="tasto (T) =|",
+                staff_padding=5.5,
             )
         for item in [1, 3, (5, 6), (8, 9)]:
             with baca.scope(m.get(item)) as o:
