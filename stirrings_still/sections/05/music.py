@@ -822,10 +822,11 @@ def v1_v2_va(cache):
                 )
             elif name == "v2":
                 baca.piecewise.scp(
-                    o.pleaves(),
+                    (),
                     "P -> T",
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
                     bookend=True,
+                    pieces=[o.pleaves()],
                 )
             elif name == "va":
                 leaves = baca.select.rleak(baca.select.ltleaves(o))

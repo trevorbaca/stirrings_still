@@ -988,10 +988,11 @@ def vc(cache):
             hide_middle_stems=True,
         )
         baca.piecewise.scp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            (),
             "tasto (T) =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             left_broken_text=r"\baca-left-broken-t-markup",
+            pieces=[baca.select.rleak(baca.select.ltleaves(o))],
         )
         library.urtext_spanner(o, "urtext (field) -|", 8)
     with baca.scope(m[27]) as o:

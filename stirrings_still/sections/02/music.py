@@ -1060,15 +1060,17 @@ def tutti(cache):
             )
             if name == "v1":
                 baca.piecewise.scp(
-                    baca.select.rleak(baca.select.ltleaves(o)),
+                    (),
                     "P poss. =|",
                     abjad.Tweak(r"- \tweak staff-padding 13"),
+                    pieces=[baca.select.rleak(baca.select.ltleaves(o))],
                 )
             elif name in ("v2", "va", "vc"):
                 baca.piecewise.scp(
-                    baca.select.rleak(baca.select.ltleaves(o)),
+                    (),
                     "P poss. =|",
                     abjad.Tweak(r"- \tweak staff-padding 10.5"),
+                    pieces=[baca.select.rleak(baca.select.ltleaves(o))],
                 )
         with baca.scope(m.get(61, 62)) as o:
             baca.spanners.hairpin(o.rleaves(), ">o !")

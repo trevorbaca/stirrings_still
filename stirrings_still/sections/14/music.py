@@ -189,10 +189,11 @@ def v1(cache):
     with baca.scope(m.get(13, 19)) as o:
         baca.spanners.hairpin(o.rleaves(), "o< f")
         baca.piecewise.scp(
-            o.rleaves(),
+            (),
             "T -> O",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=True,
+            pieces=[o.rleaves()],
         )
     with baca.scope(m.get(13, 22)) as o:
         baca.markup(
@@ -324,10 +325,11 @@ def v2(cache):
     with baca.scope(m.get(13, 19)) as o:
         baca.spanners.hairpin(o.rleaves(), "o< f")
         baca.piecewise.scp(
-            o.rleaves(),
+            (),
             "T -> O",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=True,
+            pieces=[o.rleaves()],
         )
     with baca.scope(m.get(13, 22)) as o:
         baca.flat_glissando(o, "<F#3 Dqs4>", hide_middle_stems=True)
@@ -424,10 +426,11 @@ def va(cache):
     with baca.scope(m.get(13, 19)) as o:
         baca.spanners.hairpin(o.rleaves(), "o< f")
         baca.piecewise.scp(
-            o.rleaves(),
+            (),
             "T -> O",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=True,
+            pieces=[o.rleaves()],
         )
     with baca.scope(m.get(13, 22)) as o:
         baca.flat_glissando(o, "<C3 Aqs3>", hide_middle_stems=True)
