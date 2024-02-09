@@ -2261,20 +2261,20 @@ number.1.Violin.1.Music = {
       %! EXPLICIT_INSTRUMENT_ALERT
     ^ \baca-explicit-instrument-markup "(“ViolinI”)"
     [
-      %! SCP_SPANNER
       %! SPANNER_START
+      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
-      %! SCP_SPANNER
       %! SPANNER_START
+      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "tasto (T)"
-      %! SCP_SPANNER
       %! SPANNER_START
+      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
-      %! SCP_SPANNER
       %! SPANNER_START
+      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
+      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2398,8 +2398,8 @@ number.1.Violin.1.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-              %! SCP_SPANNER
               %! SPANNER_STOP
+              %! TASTO_SPANNER
             \bacaStopTextSpanSCP
 
         }
@@ -5312,20 +5312,20 @@ number.1.Violin.2.Music = {
       %! EXPLICIT_INSTRUMENT_ALERT
     ^ \baca-explicit-instrument-markup "(“ViolinI”)"
     [
-      %! SCP_SPANNER
       %! SPANNER_START
+      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
-      %! SCP_SPANNER
       %! SPANNER_START
+      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "tasto (T)"
-      %! SCP_SPANNER
       %! SPANNER_START
+      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
-      %! SCP_SPANNER
       %! SPANNER_START
+      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
+      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -5449,8 +5449,8 @@ number.1.Violin.2.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-              %! SCP_SPANNER
               %! SPANNER_STOP
+              %! TASTO_SPANNER
             \bacaStopTextSpanSCP
 
         }
@@ -8187,20 +8187,20 @@ number.1.Viola.Music = {
       %! EXPLICIT_INSTRUMENT_ALERT
     ^ \baca-explicit-instrument-markup "(“Viola”)"
     [
-      %! SCP_SPANNER
       %! SPANNER_START
+      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
-      %! SCP_SPANNER
       %! SPANNER_START
+      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "tasto (T)"
-      %! SCP_SPANNER
       %! SPANNER_START
+      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
-      %! SCP_SPANNER
       %! SPANNER_START
+      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
+      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -8324,8 +8324,8 @@ number.1.Viola.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-              %! SCP_SPANNER
               %! SPANNER_STOP
+              %! TASTO_SPANNER
             \bacaStopTextSpanSCP
 
         }
