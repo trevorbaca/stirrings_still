@@ -585,7 +585,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
         )
-        baca.piecewise.bow_speed(
+        baca.mspanners.bow_speed(
             o,
             "flaut. -> ord.",
             staff_padding=5.5,
