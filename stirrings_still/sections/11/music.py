@@ -619,10 +619,11 @@ def v1(cache):
             staff_padding=8,
         )
         baca.piecewise.scp(
+            (),
             # TODO: allow spanner to extend to phantom measure
-            o.leaves(),
             "T poss. =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            pieces=[o.leaves()],
         )
 
 
@@ -842,10 +843,11 @@ def v2(cache):
             staff_padding=8,
         ),
         baca.piecewise.scp(
+            (),
             # TODO: allow spanner to extend to phantom measure
-            o.leaves(),
             "T poss. =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            pieces=[o.leaves()],
         )
 
 
@@ -1028,10 +1030,11 @@ def va(cache):
         )
         baca.spanners.hairpin(o, "p >o !")
         baca.piecewise.scp(
+            (),
             # TODO: allow spanner to extend to phantom measure
-            o.leaves(),
             "T poss. =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            pieces=[o.leaves()],
         )
 
 
