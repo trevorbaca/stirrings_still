@@ -586,10 +586,8 @@ def vc(cache):
             direction=abjad.DOWN,
         )
         baca.piecewise.bow_speed(
-            # [o.leaves()],
-            o.leaves(),
+            o,
             "flaut. -> ord.",
-            bookend=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(7, 31)) as o:
