@@ -586,11 +586,10 @@ def vc(cache):
             direction=abjad.DOWN,
         )
         baca.piecewise.bow_speed(
-            (),
+            [o.leaves()],
             "flaut. -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=True,
-            pieces=[o.leaves()],
         )
     with baca.scope(m.get(7, 31)) as o:
         baca.override.note_head_style_harmonic(o.pleaves())
