@@ -333,19 +333,14 @@ number.15.Violin.1.Music = {
     \baca-effort-mf
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-granulation-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
       %! EXPLICIT_DYNAMIC
@@ -441,22 +436,16 @@ number.15.Violin.1.Music = {
         ^ \baca-thirteen-d-flat
           %! SPANNER_STOP
         \!
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanCircleBow
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC
@@ -522,7 +511,6 @@ number.15.Violin.1.Music = {
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! SPANNER_STOP
             \!
-              %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
@@ -595,19 +583,14 @@ number.15.Violin.2.Music = {
     \baca-effort-mf
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-granulation-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
       %! EXPLICIT_DYNAMIC
@@ -703,22 +686,16 @@ number.15.Violin.2.Music = {
         ^ \baca-nine-d-flat
           %! SPANNER_STOP
         \!
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanCircleBow
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC
@@ -782,7 +759,6 @@ number.15.Violin.2.Music = {
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! SPANNER_STOP
             \!
-              %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
 
@@ -850,19 +826,14 @@ number.15.Viola.Music = {
     \baca-effort-mf
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-granulation-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
       %! EXPLICIT_DYNAMIC
@@ -955,22 +926,16 @@ number.15.Viola.Music = {
     ^ \baca-seven-d-flat
       %! SPANNER_STOP
     \!
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-wide-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
       %! EXPLICIT_DYNAMIC
@@ -1030,7 +995,6 @@ number.15.Viola.Music = {
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! SPANNER_STOP
             \!
-              %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
 
@@ -1100,19 +1064,14 @@ number.15.Cello.Music = {
     \baca-effort-mf
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-granulation-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
       %! EXPLICIT_DYNAMIC
@@ -1211,23 +1170,17 @@ number.15.Cello.Music = {
         - \upbow
           %! SPANNER_STOP
         \!
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanCircleBow
         [
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 9.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -1345,7 +1298,6 @@ number.15.Cello.Music = {
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! SPANNER_STOP
             \!
-              %! HALF_CLT_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanHalfCLT
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT

@@ -1827,19 +1827,14 @@ number.11.Violin.1.Music = {
         - \downbow
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 10.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -1978,22 +1973,16 @@ number.11.Violin.1.Music = {
         \baca-effort-f
           %! SPANNER_STOP
         \!
-          %! HALF_CLT_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanHalfCLT
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 8
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! SPANNER_START
@@ -2096,24 +2085,18 @@ number.11.Violin.1.Music = {
         - \downbow
           %! SPANNER_STOP
         \!
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanCircleBow
           %! SPANNER_STOP
         \stopTextSpan
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 10.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -2305,7 +2288,6 @@ number.11.Violin.1.Music = {
     % [Violin.1.Music measure 10]
     d''1
     :32
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
 
@@ -2318,19 +2300,14 @@ number.11.Violin.1.Music = {
     - \tweak self-alignment-X #left
     - \tweak staff-padding 6.5
     - \downbow
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "½ clt"
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 10.5
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanHalfCLT
     - \baca-solid-line-with-arrow
@@ -2505,7 +2482,6 @@ number.11.Violin.1.Music = {
     \override NoteHead.no-ledgers = ##t
     f''1
     :32
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
 
@@ -2522,19 +2498,14 @@ number.11.Violin.1.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
         - \downbow
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 10.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -2572,7 +2543,6 @@ number.11.Violin.1.Music = {
     :32
     - \tweak padding 1.5
     ^ \baca-eleven-e
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
     \glissando
@@ -2633,19 +2603,14 @@ number.11.Violin.1.Music = {
         \baca-effort-ff
         - \tweak padding 1.5
         ^ \baca-thirteen-d-flat
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-tight-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC
@@ -2706,7 +2671,6 @@ number.11.Violin.1.Music = {
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
               %! SPANNER_STOP
             \!
-              %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
 
@@ -2741,19 +2705,14 @@ number.11.Violin.1.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2802,7 +2761,6 @@ number.11.Violin.1.Music = {
     \p
     - \tweak padding 1.5
     _ \baca-eleven-e-flat
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
       %! SPANNER_START
@@ -2813,16 +2771,12 @@ number.11.Violin.1.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanTwo
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
     \glissando
@@ -2846,38 +2800,28 @@ number.11.Violin.1.Music = {
         aqf''!8
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         aqf''!2.
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -2894,19 +2838,14 @@ number.11.Violin.1.Music = {
     aqf''!8
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "P"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -2918,19 +2857,14 @@ number.11.Violin.1.Music = {
         aqf''!2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -2941,20 +2875,15 @@ number.11.Violin.1.Music = {
         aqf''!8
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
         ]
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -2971,19 +2900,14 @@ number.11.Violin.1.Music = {
         aqf''!2.
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -2996,28 +2920,20 @@ number.11.Violin.1.Music = {
     aqf''!4
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "P"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-right-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 0.5
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -3028,7 +2944,6 @@ number.11.Violin.1.Music = {
     aqf''!8
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
     \breathe
@@ -3049,16 +2964,12 @@ number.11.Violin.1.Music = {
     - \tweak staff-padding 10.5
       %! SPANNER_START
     \startTextSpanTwo
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
       %! SPANNER_START
@@ -3116,38 +3027,28 @@ number.11.Violin.1.Music = {
         bqf''!8
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         bqf''!4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -3197,38 +3098,28 @@ number.11.Violin.1.Music = {
         bqf''!8
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         bqf''!2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -3238,35 +3129,26 @@ number.11.Violin.1.Music = {
         bqf''!4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-right-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 0.5
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         bqf''!4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
 
@@ -3287,22 +3169,17 @@ number.11.Violin.1.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T1"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
     bqf''!8
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -3315,23 +3192,18 @@ number.11.Violin.1.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T3"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
     % [Violin.1.Music measure 39]
     bqf''!2
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -3344,16 +3216,12 @@ number.11.Violin.1.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T2"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -3364,7 +3232,6 @@ number.11.Violin.1.Music = {
         % [Violin.1.Music measure 40]
         bqf''!2.
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -3377,22 +3244,17 @@ number.11.Violin.1.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         bqf''!8
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -3405,22 +3267,17 @@ number.11.Violin.1.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T1"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         bqf''!4.
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -3433,16 +3290,12 @@ number.11.Violin.1.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -3456,7 +3309,6 @@ number.11.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \p
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -3469,16 +3321,12 @@ number.11.Violin.1.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T2"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3492,7 +3340,6 @@ number.11.Violin.1.Music = {
     % [Violin.1.Music measure 42]
     bqf''!2..
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -3505,22 +3352,17 @@ number.11.Violin.1.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T3"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
     bqf''!8
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -3533,16 +3375,12 @@ number.11.Violin.1.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T1"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -3558,7 +3396,6 @@ number.11.Violin.1.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \pp
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -3571,22 +3408,17 @@ number.11.Violin.1.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         bqf''!8
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -3599,22 +3431,17 @@ number.11.Violin.1.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T2"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         bqf''!4
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -3627,22 +3454,17 @@ number.11.Violin.1.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         bqf''!4.
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -3655,16 +3477,12 @@ number.11.Violin.1.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T1"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -3677,7 +3495,6 @@ number.11.Violin.1.Music = {
         % [Violin.1.Music measure 44]
         bqf''!2..
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -3690,22 +3507,17 @@ number.11.Violin.1.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         bqf''!8
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -3718,16 +3530,12 @@ number.11.Violin.1.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T2"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -3741,7 +3549,6 @@ number.11.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \pp
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -3754,16 +3561,12 @@ number.11.Violin.1.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T3"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3776,7 +3579,6 @@ number.11.Violin.1.Music = {
 
     bqf''!2
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -3795,31 +3597,23 @@ number.11.Violin.1.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T1"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-right-text "T3"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 0.5
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
     bqf''!8
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -3833,31 +3627,22 @@ number.11.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \p
-      %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-damp-markup
-      %! DAMP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-      %! DAMP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 8
-      %! DAMP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanDamp
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T poss."
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
       %! EXPLICIT_DYNAMIC
@@ -3903,7 +3688,6 @@ number.11.Violin.1.Music = {
     bqf''!8
       %! SPANNER_STOP
     \!
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
     \revert DynamicLineSpanner.staff-padding
@@ -3934,7 +3718,6 @@ number.11.Violin.1.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-              %! DAMP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanDamp
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
@@ -4015,19 +3798,14 @@ number.11.Violin.2.Music = {
         - \downbow
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 10.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -4158,22 +3936,16 @@ number.11.Violin.2.Music = {
         \baca-effort-f
           %! SPANNER_STOP
         \!
-          %! HALF_CLT_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanHalfCLT
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 8
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! SPANNER_START
@@ -4272,24 +4044,18 @@ number.11.Violin.2.Music = {
         - \downbow
           %! SPANNER_STOP
         \!
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanCircleBow
           %! SPANNER_STOP
         \stopTextSpan
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 10.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -4463,7 +4229,6 @@ number.11.Violin.2.Music = {
     % [Violin.2.Music measure 10]
     c''1
     :32
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
 
@@ -4496,19 +4261,14 @@ number.11.Violin.2.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
         - \downbow
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 10.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -4554,7 +4314,6 @@ number.11.Violin.2.Music = {
     % [Violin.2.Music measure 14]
     d''2.
     :32
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
 
@@ -4567,19 +4326,14 @@ number.11.Violin.2.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
         - \downbow
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 10.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -4697,7 +4451,6 @@ number.11.Violin.2.Music = {
     :32
     - \tweak padding 1.5
     ^ \baca-nine-e
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
     \glissando
@@ -4772,19 +4525,14 @@ number.11.Violin.2.Music = {
         \baca-effort-ff
         - \tweak padding 1.5
         ^ \baca-nine-d-flat
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-tight-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC
@@ -4843,7 +4591,6 @@ number.11.Violin.2.Music = {
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
               %! SPANNER_STOP
             \!
-              %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
 
@@ -4878,19 +4625,14 @@ number.11.Violin.2.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -4937,7 +4679,6 @@ number.11.Violin.2.Music = {
     \p
     - \tweak padding 0.5
     ^ \baca-nine-e-flat
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
       %! SPANNER_START
@@ -4948,16 +4689,12 @@ number.11.Violin.2.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanTwo
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
     \glissando
@@ -4981,38 +4718,28 @@ number.11.Violin.2.Music = {
         f''8
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         f''2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -5029,38 +4756,28 @@ number.11.Violin.2.Music = {
         f''4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         f''2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -5084,38 +4801,28 @@ number.11.Violin.2.Music = {
         f''4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         f''2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -5129,38 +4836,28 @@ number.11.Violin.2.Music = {
         f''4.
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         f''2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -5170,47 +4867,34 @@ number.11.Violin.2.Music = {
     f''4
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "P"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
     f''2
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-right-text "P"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 0.5
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -5221,7 +4905,6 @@ number.11.Violin.2.Music = {
     f''8
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
     \breathe
@@ -5242,16 +4925,12 @@ number.11.Violin.2.Music = {
     - \tweak staff-padding 10.5
       %! SPANNER_START
     \startTextSpanTwo
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
       %! SPANNER_START
@@ -5301,39 +4980,29 @@ number.11.Violin.2.Music = {
         ef''!8
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef''!8
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
         ]
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -5362,38 +5031,28 @@ number.11.Violin.2.Music = {
         ef''!4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef''!8
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -5442,54 +5101,40 @@ number.11.Violin.2.Music = {
         ef''!4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef''!2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-right-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 0.5
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef''!4.
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
 
@@ -5510,22 +5155,17 @@ number.11.Violin.2.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T1"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
     ef''!8
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -5538,23 +5178,18 @@ number.11.Violin.2.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T3"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
     % [Violin.2.Music measure 39]
     ef''!2
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -5567,16 +5202,12 @@ number.11.Violin.2.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T2"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -5587,7 +5218,6 @@ number.11.Violin.2.Music = {
         % [Violin.2.Music measure 40]
         ef''!2..
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -5600,22 +5230,17 @@ number.11.Violin.2.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef''!8
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -5628,22 +5253,17 @@ number.11.Violin.2.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T1"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef''!4
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -5656,16 +5276,12 @@ number.11.Violin.2.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -5683,7 +5299,6 @@ number.11.Violin.2.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \p
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -5696,16 +5311,12 @@ number.11.Violin.2.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T2"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
           %! EXPLICIT_DYNAMIC_COLOR
@@ -5718,7 +5329,6 @@ number.11.Violin.2.Music = {
 
         ef''!4
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -5731,22 +5341,17 @@ number.11.Violin.2.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef''!4
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -5759,16 +5364,12 @@ number.11.Violin.2.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T1"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -5777,7 +5378,6 @@ number.11.Violin.2.Music = {
     % [Violin.2.Music measure 42]
     ef''!1
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -5790,16 +5390,12 @@ number.11.Violin.2.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T3"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -5815,7 +5411,6 @@ number.11.Violin.2.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \pp
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -5828,22 +5423,17 @@ number.11.Violin.2.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T2"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef''!2
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -5856,22 +5446,17 @@ number.11.Violin.2.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef''!4.
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -5884,22 +5469,17 @@ number.11.Violin.2.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T1"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef''!8
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -5912,16 +5492,12 @@ number.11.Violin.2.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -5934,7 +5510,6 @@ number.11.Violin.2.Music = {
         % [Violin.2.Music measure 44]
         ef''!4.
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -5947,22 +5522,17 @@ number.11.Violin.2.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T2"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef''!4
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -5975,22 +5545,17 @@ number.11.Violin.2.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef''!4.
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -6003,16 +5568,12 @@ number.11.Violin.2.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T1"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -6026,7 +5587,6 @@ number.11.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \pp
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -6039,16 +5599,12 @@ number.11.Violin.2.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T3"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
       %! EXPLICIT_DYNAMIC_COLOR
@@ -6061,7 +5617,6 @@ number.11.Violin.2.Music = {
 
     ef''!4.
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -6080,31 +5635,23 @@ number.11.Violin.2.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T2"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-right-text "T3"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 0.5
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
     ef''!4
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -6118,31 +5665,22 @@ number.11.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \p
-      %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-damp-markup
-      %! DAMP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-      %! DAMP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 8
-      %! DAMP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanDamp
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T poss."
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
       %! EXPLICIT_DYNAMIC
@@ -6188,7 +5726,6 @@ number.11.Violin.2.Music = {
     ef''!8
       %! SPANNER_STOP
     \!
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
     \revert DynamicLineSpanner.staff-padding
@@ -6219,7 +5756,6 @@ number.11.Violin.2.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-              %! DAMP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanDamp
 
@@ -6291,19 +5827,14 @@ number.11.Viola.Music = {
     - \downbow
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "½ clt"
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 10.5
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanHalfCLT
     - \baca-solid-line-with-arrow
@@ -6418,22 +5949,16 @@ number.11.Viola.Music = {
     \baca-effort-f
       %! SPANNER_STOP
     \!
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 8
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
       %! SPANNER_START
@@ -6519,7 +6044,6 @@ number.11.Viola.Music = {
     ^ \baca-boxed-markup tailpiece
       %! SPANNER_STOP
     \!
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
       %! SPANNER_STOP
@@ -6575,19 +6099,14 @@ number.11.Viola.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
         - \downbow
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 10.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -6697,7 +6216,6 @@ number.11.Viola.Music = {
     \undo \hide NoteHead
     af!2.
     :32
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
     \glissando
@@ -6719,19 +6237,14 @@ number.11.Viola.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
         - \downbow
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 10.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -6828,7 +6341,6 @@ number.11.Viola.Music = {
     \mp
     - \tweak padding 1.5
     ^ \baca-five-e
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
     \glissando
@@ -6883,19 +6395,14 @@ number.11.Viola.Music = {
     \baca-effort-ff
     - \tweak padding 1.5
     ^ \baca-seven-d-flat
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-tight-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
       %! EXPLICIT_DYNAMIC
@@ -6950,7 +6457,6 @@ number.11.Viola.Music = {
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
               %! SPANNER_STOP
             \!
-              %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
 
@@ -6982,19 +6488,14 @@ number.11.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-effort-ff
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-circle-wide-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanCircleBow
       %! EXPLICIT_DYNAMIC_COLOR
@@ -7037,7 +6538,6 @@ number.11.Viola.Music = {
     \p
     - \tweak padding 1.5
     ^ \baca-five-e-flat
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
       %! SPANNER_START
@@ -7048,16 +6548,12 @@ number.11.Viola.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanTwo
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
     \glissando
@@ -7073,20 +6569,15 @@ number.11.Viola.Music = {
     g8
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
     ]
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "P"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -7101,19 +6592,14 @@ number.11.Viola.Music = {
         g1
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -7130,38 +6616,28 @@ number.11.Viola.Music = {
         g4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         g2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -7175,38 +6651,28 @@ number.11.Viola.Music = {
         g2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         g2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -7223,38 +6689,28 @@ number.11.Viola.Music = {
         g4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         g2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -7268,38 +6724,28 @@ number.11.Viola.Music = {
         g4.
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         g4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -7312,38 +6758,28 @@ number.11.Viola.Music = {
     g2
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "P"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
     g8
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -7358,47 +6794,34 @@ number.11.Viola.Music = {
         g4.
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         g4.
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-right-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 0.5
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -7409,7 +6832,6 @@ number.11.Viola.Music = {
         g4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
         \breathe
@@ -7432,16 +6854,12 @@ number.11.Viola.Music = {
     - \tweak staff-padding 10.5
       %! SPANNER_START
     \startTextSpanTwo
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
       %! SPANNER_START
@@ -7466,19 +6884,14 @@ number.11.Viola.Music = {
     f4
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "P"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -7486,7 +6899,6 @@ number.11.Viola.Music = {
     f2
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -7501,16 +6913,12 @@ number.11.Viola.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -7537,19 +6945,14 @@ number.11.Viola.Music = {
         f4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -7559,38 +6962,28 @@ number.11.Viola.Music = {
     f2
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
     f4
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "P"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -7617,57 +7010,42 @@ number.11.Viola.Music = {
         f2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         f4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         f4.
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -7700,54 +7078,40 @@ number.11.Viola.Music = {
         f4.
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         f4.
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-right-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 0.5
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         f4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
 
@@ -7768,22 +7132,17 @@ number.11.Viola.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T1"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
     f8
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
@@ -7796,16 +7155,12 @@ number.11.Viola.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanOne
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T3"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -7816,7 +7171,6 @@ number.11.Viola.Music = {
         % [Viola.Music measure 39]
         f4
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -7829,22 +7183,17 @@ number.11.Viola.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T2"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         f2
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -7857,16 +7206,12 @@ number.11.Viola.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -7879,7 +7224,6 @@ number.11.Viola.Music = {
         % [Viola.Music measure 40]
         f2.
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -7892,22 +7236,17 @@ number.11.Viola.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T1"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         f4
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -7920,22 +7259,17 @@ number.11.Viola.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         f8
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -7948,16 +7282,12 @@ number.11.Viola.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T2"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -7970,7 +7300,6 @@ number.11.Viola.Music = {
         % [Viola.Music measure 41]
         f2
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -7983,22 +7312,17 @@ number.11.Viola.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         f2
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -8011,16 +7335,12 @@ number.11.Viola.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T1"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -8033,7 +7353,6 @@ number.11.Viola.Music = {
         % [Viola.Music measure 42]
         f2
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -8052,51 +7371,38 @@ number.11.Viola.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         f4
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
         \stopTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T2"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-right-text "T3"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 0.5
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         f2
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
 
@@ -8121,19 +7427,14 @@ number.11.Viola.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"235" #"64"
         [
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 10.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -8326,34 +7627,24 @@ number.11.Viola.Music = {
     \p
       %! SPANNER_STOP
     \!
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
-      %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! DAMP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-damp-markup
-      %! DAMP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-      %! DAMP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 8
-      %! DAMP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanDamp
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T poss."
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
       %! EXPLICIT_DYNAMIC
@@ -8399,7 +7690,6 @@ number.11.Viola.Music = {
     f8
       %! SPANNER_STOP
     \!
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
     \revert DynamicLineSpanner.staff-padding
@@ -8430,7 +7720,6 @@ number.11.Viola.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-              %! DAMP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanDamp
 
@@ -8511,19 +7800,14 @@ number.11.Cello.Music = {
         - \downbow
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“Cello”)"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 10.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -8660,22 +7944,16 @@ number.11.Cello.Music = {
         \baca-effort-f
           %! SPANNER_STOP
         \!
-          %! HALF_CLT_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanHalfCLT
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 8
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! SPANNER_START
@@ -8766,24 +8044,18 @@ number.11.Cello.Music = {
         - \downbow
           %! SPANNER_STOP
         \!
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanCircleBow
           %! SPANNER_STOP
         \stopTextSpan
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 10.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -9028,7 +8300,6 @@ number.11.Cello.Music = {
     % [Cello.Music measure 11]
     g,2
     :32
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
 
@@ -9057,19 +8328,14 @@ number.11.Cello.Music = {
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
         - \downbow
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 10.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -9166,7 +8432,6 @@ number.11.Cello.Music = {
     \undo \hide NoteHead
     e,1
     :32
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
     \glissando
@@ -9261,19 +8526,14 @@ number.11.Cello.Music = {
     - \tweak padding 1.5
     _ \baca-string-iii-markup
     [
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "½ clt"
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 11.0
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanHalfCLT
     - \baca-solid-line-with-arrow
@@ -9586,7 +8846,6 @@ number.11.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \p
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
       %! SPANNER_START
@@ -9597,16 +8856,12 @@ number.11.Cello.Music = {
     - \tweak staff-padding 8
       %! SPANNER_START
     \startTextSpanTwo
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
     \glissando
@@ -9628,38 +8883,28 @@ number.11.Cello.Music = {
         ef,!4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef,!2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -9669,38 +8914,28 @@ number.11.Cello.Music = {
     ef,!4.
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "P"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
     ef,!2
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -9712,57 +8947,42 @@ number.11.Cello.Music = {
         ef,!4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef,!2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef,!4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -9779,38 +8999,28 @@ number.11.Cello.Music = {
         ef,!4.
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef,!4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -9823,19 +9033,14 @@ number.11.Cello.Music = {
     ef,!4
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -9847,57 +9052,42 @@ number.11.Cello.Music = {
         ef,!4.
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef,!4.
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         ef,!4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -9914,28 +9104,20 @@ number.11.Cello.Music = {
         ef,!4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-right-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 0.5
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -9946,7 +9128,6 @@ number.11.Cello.Music = {
         ef,!2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
         \breathe
@@ -9967,16 +9148,12 @@ number.11.Cello.Music = {
     - \tweak staff-padding 10.5
       %! SPANNER_START
     \startTextSpanTwo
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
       %! SPANNER_START
@@ -10051,38 +9228,28 @@ number.11.Cello.Music = {
         df,!4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         df,!4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -10107,19 +9274,14 @@ number.11.Cello.Music = {
     df,!4.
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "P"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -10131,7 +9293,6 @@ number.11.Cello.Music = {
         df,!2
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
           %! SPANNER_STOP
@@ -10146,54 +9307,40 @@ number.11.Cello.Music = {
         - \tweak staff-padding 8
           %! SPANNER_START
         \startTextSpanOne
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         df,!4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         df,!4
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -10210,57 +9357,42 @@ number.11.Cello.Music = {
         df,!4.
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         df,!4.
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
         df,!8
         :32
         - \accent
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
-          %! SCP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "P"
-          %! SCP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! SCP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
@@ -10289,35 +9421,26 @@ number.11.Cello.Music = {
     df,!4
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-right-text "P"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 0.5
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
     df,!4.
     :32
     - \accent
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
 
@@ -10329,16 +9452,12 @@ number.11.Cello.Music = {
     \stopTextSpanOne
       %! SPANNER_STOP
     \stopTextSpanTwo
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -10367,19 +9486,14 @@ number.11.Cello.Music = {
 
     % [Cello.Music measure 46]
     df,!1
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "T poss."
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
 
@@ -10405,7 +9519,6 @@ number.11.Cello.Music = {
     df,!2
 
     df,!8
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
     \revert Dots.transparent

@@ -757,19 +757,14 @@ number.10.Violin.1.Music = {
       %! URTEXT
     \bacaStopTextSpanMaterialAnnotation
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
       %! CLOUDED_PANE
       %! MATERIAL
@@ -847,7 +842,6 @@ number.10.Violin.1.Music = {
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
       %! SPANNER_STOP
-      %! TASTO_SPANNER
     \bacaStopTextSpanSCP
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -952,19 +946,14 @@ number.10.Violin.1.Music = {
       %! SPANNER_STOP
       %! URTEXT
     \bacaStopTextSpanMaterialAnnotation
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "½ clt"
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 10.5
-      %! HALF_CLT_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanHalfCLT
     - \baca-solid-line-with-arrow
@@ -1336,7 +1325,6 @@ number.10.Violin.1.Music = {
       %! SPANNER_STOP
     \!
       %! ANCHOR_NOTE
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
 
@@ -1482,34 +1470,24 @@ number.10.Violin.2.Music = {
           %! SPANNER_STOP
           %! URTEXT
         \bacaStopTextSpanMaterialAnnotation
-          %! DAMP_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! DAMP_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-markup
-          %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup
-          %! DAMP_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 8
-          %! DAMP_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanDamp
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
           %! EXPLICIT_DYNAMIC
@@ -1583,10 +1561,8 @@ number.10.Violin.2.Music = {
     \baca-appena-udibile
       %! SPANNER_STOP
     \!
-      %! DAMP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanDamp
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
       %! MATERIAL
@@ -1696,19 +1672,14 @@ number.10.Violin.2.Music = {
           %! SPANNER_STOP
           %! URTEXT
         \bacaStopTextSpanMaterialAnnotation
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 10.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -2086,7 +2057,6 @@ number.10.Violin.2.Music = {
       %! SPANNER_STOP
     \!
       %! ANCHOR_NOTE
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
 
@@ -2228,19 +2198,14 @@ number.10.Viola.Music = {
       %! URTEXT
     \bacaStopTextSpanMaterialAnnotation
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
       %! CLOUDED_PANE
       %! MATERIAL
@@ -2318,7 +2283,6 @@ number.10.Viola.Music = {
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
       %! SPANNER_STOP
-      %! TASTO_SPANNER
     \bacaStopTextSpanSCP
       %! MATERIAL
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2428,19 +2392,14 @@ number.10.Viola.Music = {
           %! URTEXT
         \bacaStopTextSpanMaterialAnnotation
         [
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "½ clt"
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 10.5
-          %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
         - \baca-solid-line-with-arrow
@@ -2833,7 +2792,6 @@ number.10.Viola.Music = {
       %! SPANNER_STOP
     \!
       %! ANCHOR_NOTE
-      %! HALF_CLT_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanHalfCLT
 
@@ -3130,19 +3088,14 @@ number.10.Cello.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"253" #"64"
         [
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3238,7 +3191,6 @@ number.10.Cello.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"16" #"16"
-              %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
 

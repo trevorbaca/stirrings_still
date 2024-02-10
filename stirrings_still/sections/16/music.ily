@@ -836,19 +836,14 @@ number.16.Violin.1.Music = {
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
       %! CLOUDED_PANE
       %! MATERIAL
@@ -926,22 +921,16 @@ number.16.Violin.1.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"241" #"64"
           %! SPANNER_STOP
-          %! TASTO_SPANNER
         \bacaStopTextSpanSCP
         [
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1046,23 +1035,17 @@ number.16.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
     \glissando
 
@@ -1097,22 +1080,16 @@ number.16.Violin.1.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"241" #"64"
           %! SPANNER_STOP
-          %! TASTO_SPANNER
         \bacaStopTextSpanSCP
         [
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1176,23 +1153,17 @@ number.16.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppppp
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
     \glissando
 
@@ -1238,22 +1209,16 @@ number.16.Violin.1.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"245" #"64"
           %! SPANNER_STOP
-          %! TASTO_SPANNER
         \bacaStopTextSpanSCP
         [
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1374,23 +1339,17 @@ number.16.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
     \glissando
 
@@ -1425,22 +1384,16 @@ number.16.Violin.1.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"241" #"64"
           %! SPANNER_STOP
-          %! TASTO_SPANNER
         \bacaStopTextSpanSCP
         [
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1622,7 +1575,6 @@ number.16.Violin.1.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"10" #"16"
-              %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
 
@@ -1694,19 +1646,14 @@ number.16.Violin.2.Music = {
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
       %! CLOUDED_PANE
       %! MATERIAL
@@ -1779,22 +1726,16 @@ number.16.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"351" #"64"
           %! SPANNER_STOP
-          %! TASTO_SPANNER
         \bacaStopTextSpanSCP
         [
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1850,23 +1791,17 @@ number.16.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
     \glissando
 
@@ -1898,22 +1833,16 @@ number.16.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"57" #"64"
           %! SPANNER_STOP
-          %! TASTO_SPANNER
         \bacaStopTextSpanSCP
         [
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1977,23 +1906,17 @@ number.16.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
     \glissando
 
@@ -2025,22 +1948,16 @@ number.16.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"381" #"64"
           %! SPANNER_STOP
-          %! TASTO_SPANNER
         \bacaStopTextSpanSCP
         [
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2096,23 +2013,17 @@ number.16.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppppp
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
     \glissando
 
@@ -2158,22 +2069,16 @@ number.16.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"377" #"64"
           %! SPANNER_STOP
-          %! TASTO_SPANNER
         \bacaStopTextSpanSCP
         [
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2233,23 +2138,17 @@ number.16.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \pp
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
     \glissando
 
@@ -2281,22 +2180,16 @@ number.16.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"13" #"16"
           %! SPANNER_STOP
-          %! TASTO_SPANNER
         \bacaStopTextSpanSCP
         [
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2368,23 +2261,17 @@ number.16.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \pp
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
     \glissando
 
@@ -2416,22 +2303,16 @@ number.16.Violin.2.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"351" #"64"
           %! SPANNER_STOP
-          %! TASTO_SPANNER
         \bacaStopTextSpanSCP
         [
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2613,7 +2494,6 @@ number.16.Violin.2.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"10" #"16"
-              %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
 
@@ -2683,19 +2563,14 @@ number.16.Viola.Music = {
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
       %! CLOUDED_PANE
       %! MATERIAL
@@ -2779,22 +2654,16 @@ number.16.Viola.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"77" #"16"
           %! SPANNER_STOP
-          %! TASTO_SPANNER
         \bacaStopTextSpanSCP
         [
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2920,23 +2789,17 @@ number.16.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppppp
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
     \glissando
 
@@ -2988,22 +2851,16 @@ number.16.Viola.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"307" #"64"
           %! SPANNER_STOP
-          %! TASTO_SPANNER
         \bacaStopTextSpanSCP
         [
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3251,7 +3108,6 @@ number.16.Viola.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"10" #"16"
-              %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
 
@@ -3323,19 +3179,14 @@ number.16.Cello.Music = {
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
       %! CLOUDED_PANE
       %! MATERIAL
@@ -3413,22 +3264,16 @@ number.16.Cello.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"107" #"16"
           %! SPANNER_STOP
-          %! TASTO_SPANNER
         \bacaStopTextSpanSCP
         [
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3542,23 +3387,17 @@ number.16.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppppp
-      %! CIRCLE_BOW_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCircleBow
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \baca-text-spanner-left-text "T"
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup
       %! SPANNER_START
-      %! TASTO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! TASTO_SPANNER
     \bacaStartTextSpanSCP
     \glissando
 
@@ -3610,22 +3449,16 @@ number.16.Cello.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"447" #"64"
           %! SPANNER_STOP
-          %! TASTO_SPANNER
         \bacaStopTextSpanSCP
         [
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CIRCLE_BOW_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCircleBow
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3899,7 +3732,6 @@ number.16.Cello.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"10" #"16"
-              %! CIRCLE_BOW_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
 
