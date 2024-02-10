@@ -251,7 +251,7 @@ def v1(cache):
             baca.flat_glissando(baca.select.rleak(o), "A4", allow_repitch=True)
     for item in [(6, 7), 10, (16, 17), (20, 25)]:
         with baca.scope(m.get(item)) as o:
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
                 qualifier="wide-poss",
@@ -302,7 +302,7 @@ def v2(cache):
             baca.flat_glissando(baca.select.rleak(o), "A3", allow_repitch=True)
     for item in [5, 7, 9, 15, 17, (19, 25)]:
         with baca.scope(m.get(item)) as o:
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(rf"- \tweak staff-padding {v2_spanner_staff_padding}"),
                 qualifier="wide-poss",
@@ -362,7 +362,7 @@ def va(cache):
             baca.flat_glissando(baca.select.rleak(o), "A3", allow_repitch=True)
     for item in [(8, 10), (18, 25)]:
         with baca.scope(m.get(item)) as o:
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
                 qualifier="wide-poss",
@@ -399,7 +399,7 @@ def vc(cache):
             baca.flat_glissando(baca.select.rleak(o), "A2", allow_repitch=True)
     for item in [(6, 8), (16, 25)]:
         with baca.scope(m.get(item)) as o:
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
                 qualifier="wide-poss",

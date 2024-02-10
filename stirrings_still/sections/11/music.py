@@ -454,7 +454,7 @@ def v1(cache):
             "F5",
         )
     with baca.scope(m.get(3, 4)) as o:
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide-poss",
@@ -510,7 +510,7 @@ def v1(cache):
         baca.breathe(o.pleaf(-1))
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[21]) as o:
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
@@ -536,7 +536,7 @@ def v1(cache):
         baca.breathe(o.pleaf(-1))
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.spanners.hairpin(o, '"ff" > mf')
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -685,7 +685,7 @@ def v2(cache):
             "Eb5",
         )
     with baca.scope(m.get(3, 4)) as o:
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide-poss",
@@ -739,7 +739,7 @@ def v2(cache):
         baca.breathe(o.pleaf(-1))
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[21]) as o:
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
@@ -762,7 +762,7 @@ def v2(cache):
         baca.breathe(o.pleaf(-1))
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.spanners.hairpin(o, '"ff" > mf')
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -866,7 +866,7 @@ def va(cache):
             "B3",
         )
     with baca.scope(m.get(3, 4)) as o:
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide-poss",
@@ -919,7 +919,7 @@ def va(cache):
         baca.stem_tremolo(o.pleaves())
         baca.flat_glissando(o, "G#3")
     with baca.scope(m[21]) as o:
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="tight",
@@ -942,7 +942,7 @@ def va(cache):
         baca.breathe(o.pleaf(-1))
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.spanners.hairpin(o, '"ff" > mf')
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -1053,7 +1053,7 @@ def vc(cache):
             "F3",
         )
     with baca.scope(m.get(3, 4)) as o:
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide",

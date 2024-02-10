@@ -498,7 +498,7 @@ def v1(cache):
         baca.pitch(o, "Eb5")
     with baca.scope(m[57]) as o:
         baca.flat_glissando(o, "Bb4")
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide-poss",
@@ -589,7 +589,7 @@ def v1_v2_va(cache):
             )
             library.urtext_spanner(o, "urtext (cds) -|", 8)
         with baca.scope(m[66]) as o:
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="wide",
@@ -649,7 +649,7 @@ def v1_v2_va(cache):
             )
             library.urtext_spanner(o, "urtext (resumes) -|", 8)
         with baca.scope(m.get(97, 98)) as o:
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight-poss-grind-at-talon",
@@ -748,7 +748,7 @@ def v2(cache):
     with baca.scope(m.get(13, 24)) as o:
         baca.pitch(o, "Dqs5")
     with baca.scope(m[57]) as o:
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide-poss",

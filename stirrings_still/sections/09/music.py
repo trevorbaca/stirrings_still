@@ -89,7 +89,7 @@ def v1(cache):
     m = cache[name]
     with baca.scope(m.get(1, 7)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -149,7 +149,7 @@ def v2(cache):
     name = "v2"
     m = cache[name]
     with baca.scope(m.get(1, 7)) as o:
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -181,7 +181,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
     with baca.scope(m.get(1, 7)) as o:
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide-poss",
