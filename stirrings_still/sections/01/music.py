@@ -623,7 +623,7 @@ def v1_v2_va(cache):
             )
             baca.rspanners.tasto(
                 o,
-                items="tasto (T) =|",
+                descriptor="tasto (T) =|",
                 staff_padding=5.5,
             )
         for item in [1, 3, (5, 6), (8, 9)]:
