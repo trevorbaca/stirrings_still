@@ -164,7 +164,7 @@ def v1(cache):
         )
     for item in [1, (3, 4), (6, 8), (10, 15)]:
         with baca.scope(m.get(item)) as o:
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 3"),
                 qualifier="wide",
@@ -191,7 +191,7 @@ def v2(cache):
         )
     for item in [1, (3, 4), (6, 8), (10, 15)]:
         with baca.scope(m.get(item)) as o:
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 3"),
                 qualifier="wide",

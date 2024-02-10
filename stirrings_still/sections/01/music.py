@@ -591,7 +591,7 @@ def v1(cache):
         )
     for item in [(46, 50), 52, 54, 58]:
         with baca.scope(m.get(item)) as o:
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(o.ltleaves()),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight",
@@ -707,7 +707,7 @@ def v1_v2_va(cache):
                 "pp <| p pp <| mf",
             )
         with baca.scope(m[23]) as o:
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="mod-width",
@@ -724,7 +724,7 @@ def v1_v2_va(cache):
                 "pp <| p pp <| f",
             )
         with baca.scope(m[26]) as o:
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="wide",
@@ -745,7 +745,7 @@ def v1_v2_va(cache):
         with baca.scope(m[30]) as o:
             baca.dynamic(o.phead(0), "ppp")
         with baca.scope(m.get(30, 45)) as o:
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak bound-details.right.padding 1.25"),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -810,7 +810,7 @@ def tutti(cache):
                 10.5,
             )
         with baca.scope(m[62]) as o:
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="very-tight",
@@ -876,7 +876,7 @@ def v2(cache):
     for item in [(46, 50), 52, 54, 58]:
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "C4")
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight",
@@ -944,7 +944,7 @@ def va(cache):
     for item in [(46, 50), 52, 54, 58]:
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "Ab3")
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight",
@@ -1052,7 +1052,7 @@ def vc(cache):
     for item in [(46, 47), (49, 50), 52, 54, 58]:
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "G3")
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight",

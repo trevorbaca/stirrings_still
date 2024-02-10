@@ -386,7 +386,7 @@ def v1(cache):
         )
     with baca.scope(m[6]) as o:
         baca.spanners.beam(o.tleaves())
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="wide",
@@ -523,7 +523,7 @@ def va(cache):
         )
     with baca.scope(m[6]) as o:
         baca.pitch(o, "Bqf3")
-        baca.piecewise.circle_bow(
+        baca.mspanners.circle_bow(
             baca.select.rleak(baca.select.ltleaves(o)),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             qualifier="very-wide",
@@ -678,7 +678,7 @@ def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(23, 28)) as o:
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 baca.select.rleak(baca.select.ltleaves(o)),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="wide",
@@ -830,7 +830,7 @@ def v1_v2(cache):
     for name in ["v1", "v2"]:
         m = cache[name]
         with baca.scope(m[56]) as o:
-            baca.piecewise.circle_bow(
+            baca.mspanners.circle_bow(
                 # TODO: allow spanner to run to end of section
                 o.leaves(),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
