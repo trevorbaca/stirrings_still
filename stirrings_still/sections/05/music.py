@@ -851,9 +851,9 @@ def v1_v2_va(cache):
             baca.mspanners.text(
                 (),
                 "trem. ord. -> larghiss. =|",
-                abjad.Tweak(r"- \tweak staff-padding 10.5"),
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [3, 1 + 1]),
+                staff_padding=10.5,
             )
         with baca.scope(m.get(120, 127)) as o:
             baca.override.tacet(o.mmrests())
@@ -1288,7 +1288,7 @@ def vc(cache):
         baca.mspanners.text(
             o.rleaves(),
             "overpressure harmonic -> ord.",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            staff_padding=5.5,
         )
     with baca.scope(m.get(20, 27)) as o:
         baca.piecewise.hairpin(

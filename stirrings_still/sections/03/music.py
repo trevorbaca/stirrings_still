@@ -727,9 +727,9 @@ def tutti(cache):
             baca.mspanners.text(
                 (),
                 r"\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
                 pieces=baca.select.omgroups(o.rleaves(), [2]),
+                staff_padding=5.5,
             )
         with baca.scope(m.get(12, 27)) as o:
             baca.breathe(o.pleaf(-1))
@@ -742,19 +742,19 @@ def tutti(cache):
             baca.mspanners.text(
                 (),
                 r"\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
                 pieces=baca.select.omgroups(leaves, [2]),
+                staff_padding=5.5,
             ),
         with baca.scope(m.get(20, 23)) as o:
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.mspanners.text(
                 (),
                 r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 library.left_broken_circle_bow_tweak(),
                 bookend=False,
                 pieces=baca.select.omgroups(leaves, [2]),
+                staff_padding=5.5,
             )
         with baca.scope(m.get(24, 27)) as o:
             baca.mspanners.circle_bow(
@@ -862,11 +862,11 @@ def tutti(cache):
             baca.mspanners.text(
                 (),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 # spanner terminates at double bar:
                 (abjad.Tweak(r"- \tweak bound-details.right.padding 7.75"), -1),
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
+                staff_padding=5.5,
             )
 
 

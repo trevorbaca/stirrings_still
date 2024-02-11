@@ -425,16 +425,16 @@ def v2(cache):
         baca.mspanners.text(
             o.rleaves(),
             "2° =|",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
             lilypond_id=1,
+            staff_padding=8,
         )
         baca.mspanners.text(
             (),
             "rasp -> flaut. =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=False,
             pieces=baca.select.mgroups(o.rleaves(), [3, 5 + 1]),
+            staff_padding=5.5,
         )
         library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
     with baca.scope(m.get(1, 10)) as o:
@@ -452,9 +452,9 @@ def v2(cache):
             r" \baca-circle-tight-markup ->"
             r" \baca-circle-mod-markup ->"
             r" \baca-circle-wide-markup =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=False,
             pieces=baca.select.mgroups(o.rleaves(), [1, 1, 2, 2, 2 + 1]),
+            staff_padding=5.5,
         )
     with baca.scope(m.get(11, 14)) as o:
         baca.flat_glissando(
@@ -604,8 +604,8 @@ def vc(cache):
         baca.mspanners.text(
             (),
             "no overpressure -> molto overpressure =|" " (molto) -> no overpressure.",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             pieces=baca.select.mgroups(o.rleaves(), [8, 6, 5 + 1]),
+            staff_padding=5.5,
         )
     with baca.scope(m.get(23, 31)) as o:
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -1)
@@ -721,9 +721,9 @@ def v1_v2_va(cache):
             baca.mspanners.text(
                 (),
                 r"\baca-circle-very-wide-markup -> \baca-circle-tight-markup =|",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
                 pieces=baca.select.mgroups(leaves, [1, 2]),
+                staff_padding=5.5,
             )
         with baca.scope(m.get(38, 40)) as o:
             baca.spanners.hairpin(
@@ -734,9 +734,9 @@ def v1_v2_va(cache):
             baca.mspanners.text(
                 (),
                 r"\baca-circle-wide-markup -> \baca-circle-tight-markup =|",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [1, 2 + 1]),
+                staff_padding=5.5,
             )
         with baca.scope(m.get(42, 45)) as o:
             baca.spanners.hairpin(
@@ -747,9 +747,9 @@ def v1_v2_va(cache):
             baca.mspanners.text(
                 (),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [2, 2 + 1]),
+                staff_padding=5.5,
             )
         with baca.scope(m.get(47, 51)) as o:
             baca.piecewise.hairpin(
@@ -780,9 +780,9 @@ def v1_v2_va(cache):
             baca.mspanners.text(
                 (),
                 r"\baca-circle-very-tight-markup -> \baca-circle-wide-markup =|",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [3, 2 + 1]),
+                staff_padding=5.5,
             )
             baca.override.tuplet_bracket_down(o)
         with baca.scope(m[52]) as o:
@@ -872,9 +872,9 @@ def v1_va(cache):
                 r" \baca-circle-tight-markup ->"
                 r" \baca-circle-mod-markup ->"
                 r" \baca-circle-wide-markup =|",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [2, 2, 2, 5]),
+                staff_padding=5.5,
             )
 
 
@@ -972,16 +972,16 @@ def tutti(cache):
                 baca.mspanners.text(
                     o.rleaves(),
                     "2° =|",
-                    abjad.Tweak(r"- \tweak staff-padding 8"),
                     bookend=False,
                     lilypond_id=1,
+                    staff_padding=8,
                 )
                 baca.mspanners.text(
                     (),
                     "rasp -> flaut. =|",
-                    abjad.Tweak(r"- \tweak staff-padding 5.5"),
                     bookend=False,
                     pieces=baca.select.mgroups(o.rleaves(), [3, 3]),
+                    staff_padding=5.5,
                 )
                 library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
         with baca.scope(m.get(36, 37)) as o:
@@ -1006,16 +1006,16 @@ def tutti(cache):
             baca.mspanners.text(
                 o.rleaves(),
                 "2° =|",
-                abjad.Tweak(r"- \tweak staff-padding 8"),
                 bookend=False,
                 lilypond_id=1,
+                staff_padding=8,
             )
             baca.mspanners.text(
                 (),
                 "rasp -> poco rasp =|",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [1, 2]),
+                staff_padding=5.5,
             )
             library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
         with baca.scope(m.get(52, 55)) as o:
