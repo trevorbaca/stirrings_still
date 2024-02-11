@@ -622,7 +622,7 @@ def v1(cache):
             (),
             # TODO: allow spanner to extend to phantom measure
             "T poss. =|",
-            pieces=[o.leaves()],
+            pieces=o.leaves(),
             staff_padding=5.5,
         )
 
@@ -846,7 +846,7 @@ def v2(cache):
             (),
             # TODO: allow spanner to extend to phantom measure
             "T poss. =|",
-            pieces=[o.leaves()],
+            pieces=o.leaves(),
             staff_padding=5.5,
         )
 
@@ -1033,7 +1033,7 @@ def va(cache):
             (),
             # TODO: allow spanner to extend to phantom measure
             "T poss. =|",
-            pieces=[o.leaves()],
+            pieces=o.leaves(),
             staff_padding=5.5,
         )
 

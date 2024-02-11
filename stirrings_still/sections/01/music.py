@@ -991,7 +991,7 @@ def vc(cache):
             (),
             "tasto (T) =|",
             left_broken_text=r"\baca-left-broken-t-markup",
-            pieces=[baca.select.rleak(baca.select.ltleaves(o))],
+            pieces=baca.select.rleak(baca.select.ltleaves(o)),
             staff_padding=5.5,
         )
         library.urtext_spanner(o, "urtext (field) -|", 8)
