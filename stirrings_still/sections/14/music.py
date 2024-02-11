@@ -266,7 +266,7 @@ def v1(cache):
             "p -- ! >o !",
         )
         baca.mspanners.text(
-            o.rleaves(),
+            [o.rleaves()],
             "slow bow -> stopped",
             abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
             staff_padding=5.5,
@@ -400,7 +400,7 @@ def v2(cache):
             "p -- ! >o !",
         )
         baca.mspanners.text(
-            o.rleaves(),
+            [o.rleaves()],
             "slow bow -> stopped",
             abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
             staff_padding=5.5,
@@ -498,7 +498,7 @@ def va(cache):
             "p -- ! >o !",
         )
         baca.mspanners.text(
-            o.rleaves(),
+            [o.rleaves()],
             "slow bow -> stopped",
             abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
             staff_padding=5.5,
@@ -598,7 +598,7 @@ def vc(cache):
             staff_padding=3,
         )
         baca.mspanners.text(
-            o.rleaves(),
+            [o.rleaves()],
             "slow bow -> stopped",
             abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
             staff_padding=5.5,

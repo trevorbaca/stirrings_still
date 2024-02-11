@@ -430,10 +430,9 @@ def v2(cache):
             staff_padding=8,
         )
         baca.mspanners.text(
-            (),
+            baca.select.mgroups(o.rleaves(), [3, 5 + 1]),
             "rasp -> flaut. =|",
             bookend=False,
-            pieces=baca.select.mgroups(o.rleaves(), [3, 5 + 1]),
             staff_padding=5.5,
         )
         library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
@@ -447,13 +446,12 @@ def v2(cache):
         )
     with baca.scope(m.get(9, 16)) as o:
         baca.mspanners.text(
-            (),
+            baca.select.mgroups(o.rleaves(), [1, 1, 2, 2, 2 + 1]),
             "flaut. (2°) -> ord. ->"
             r" \baca-circle-tight-markup ->"
             r" \baca-circle-mod-markup ->"
             r" \baca-circle-wide-markup =|",
             bookend=False,
-            pieces=baca.select.mgroups(o.rleaves(), [1, 1, 2, 2, 2 + 1]),
             staff_padding=5.5,
         )
     with baca.scope(m.get(11, 14)) as o:
@@ -602,9 +600,8 @@ def vc(cache):
         baca.spanners.hairpin(o.rleaves(), "(mp) < ff")
     with baca.scope(m.get(9, 27)) as o:
         baca.mspanners.text(
-            (),
+            baca.select.mgroups(o.rleaves(), [8, 6, 5 + 1]),
             "no overpressure -> molto overpressure =|" " (molto) -> no overpressure.",
-            pieces=baca.select.mgroups(o.rleaves(), [8, 6, 5 + 1]),
             staff_padding=5.5,
         )
     with baca.scope(m.get(23, 31)) as o:
@@ -719,10 +716,9 @@ def v1_v2_va(cache):
             )
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.mspanners.text(
-                (),
+                baca.select.mgroups(leaves, [1, 2]),
                 r"\baca-circle-very-wide-markup -> \baca-circle-tight-markup =|",
                 bookend=False,
-                pieces=baca.select.mgroups(leaves, [1, 2]),
                 staff_padding=5.5,
             )
         with baca.scope(m.get(38, 40)) as o:
@@ -732,10 +728,9 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             baca.mspanners.text(
-                (),
+                baca.select.mgroups(o.rleaves(), [1, 2 + 1]),
                 r"\baca-circle-wide-markup -> \baca-circle-tight-markup =|",
                 bookend=False,
-                pieces=baca.select.mgroups(o.rleaves(), [1, 2 + 1]),
                 staff_padding=5.5,
             )
         with baca.scope(m.get(42, 45)) as o:
@@ -745,10 +740,9 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             baca.mspanners.text(
-                (),
+                baca.select.mgroups(o.rleaves(), [2, 2 + 1]),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 bookend=False,
-                pieces=baca.select.mgroups(o.rleaves(), [2, 2 + 1]),
                 staff_padding=5.5,
             )
         with baca.scope(m.get(47, 51)) as o:
@@ -778,10 +772,9 @@ def v1_v2_va(cache):
                 )
                 baca.flat_glissando(o, "Bqf3")
             baca.mspanners.text(
-                (),
+                baca.select.mgroups(o.rleaves(), [3, 2 + 1]),
                 r"\baca-circle-very-tight-markup -> \baca-circle-wide-markup =|",
                 bookend=False,
-                pieces=baca.select.mgroups(o.rleaves(), [3, 2 + 1]),
                 staff_padding=5.5,
             )
             baca.override.tuplet_bracket_down(o)
@@ -867,13 +860,12 @@ def v1_va(cache):
         m = cache[name]
         with baca.scope(m.get(7, 16)) as o:
             baca.mspanners.text(
-                (),
+                baca.select.mgroups(o.rleaves(), [2, 2, 2, 5]),
                 r"\baca-circle-very-tight-markup ->"
                 r" \baca-circle-tight-markup ->"
                 r" \baca-circle-mod-markup ->"
                 r" \baca-circle-wide-markup =|",
                 bookend=False,
-                pieces=baca.select.mgroups(o.rleaves(), [2, 2, 2, 5]),
                 staff_padding=5.5,
             )
 
@@ -977,10 +969,9 @@ def tutti(cache):
                     staff_padding=8,
                 )
                 baca.mspanners.text(
-                    (),
+                    baca.select.mgroups(o.rleaves(), [3, 3]),
                     "rasp -> flaut. =|",
                     bookend=False,
-                    pieces=baca.select.mgroups(o.rleaves(), [3, 3]),
                     staff_padding=5.5,
                 )
                 library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
@@ -1011,10 +1002,9 @@ def tutti(cache):
                 staff_padding=8,
             )
             baca.mspanners.text(
-                (),
+                baca.select.mgroups(o.rleaves(), [1, 2]),
                 "rasp -> poco rasp =|",
                 bookend=False,
-                pieces=baca.select.mgroups(o.rleaves(), [1, 2]),
                 staff_padding=5.5,
             )
             library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
