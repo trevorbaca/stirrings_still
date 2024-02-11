@@ -394,9 +394,8 @@ def tutti(cache):
             baca.untie(o.leaves())
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.mspanners.scp(
-                (),
+                baca.select.plts(leaves)[:-1],
                 "T -> P ->",
-                pieces=baca.select.plts(leaves)[:-1],
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())

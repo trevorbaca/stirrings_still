@@ -189,10 +189,9 @@ def v1(cache):
     with baca.scope(m.get(13, 19)) as o:
         baca.spanners.hairpin(o.rleaves(), "o< f")
         baca.mspanners.scp(
-            (),
+            [o.rleaves()],
             "T -> O",
             bookend=True,
-            pieces=[o.rleaves()],
             staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
@@ -226,9 +225,8 @@ def v1(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -255,9 +253,8 @@ def v1(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -325,10 +322,9 @@ def v2(cache):
     with baca.scope(m.get(13, 19)) as o:
         baca.spanners.hairpin(o.rleaves(), "o< f")
         baca.mspanners.scp(
-            (),
+            [o.rleaves()],
             "T -> O",
             bookend=True,
-            pieces=[o.rleaves()],
             staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
@@ -363,9 +359,8 @@ def v2(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -392,9 +387,8 @@ def v2(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -426,10 +420,9 @@ def va(cache):
     with baca.scope(m.get(13, 19)) as o:
         baca.spanners.hairpin(o.rleaves(), "o< f")
         baca.mspanners.scp(
-            (),
+            [o.rleaves()],
             "T -> O",
             bookend=True,
-            pieces=[o.rleaves()],
             staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
@@ -464,9 +457,8 @@ def va(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -493,9 +485,8 @@ def va(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -550,9 +541,8 @@ def vc(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -592,9 +582,8 @@ def vc(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())

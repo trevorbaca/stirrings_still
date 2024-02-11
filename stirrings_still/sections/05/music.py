@@ -596,10 +596,9 @@ def v1(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.mspanners.scp(
-            (),
+            baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
             "T -> poco P =|",
             bookend=False,
-            pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -783,9 +782,8 @@ def v1_v2_va(cache):
             )
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.mspanners.scp(
-                (),
+                baca.select.plts(leaves)[:-1],
                 "P -> T ->",
-                pieces=baca.select.plts(leaves)[:-1],
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
@@ -793,9 +791,8 @@ def v1_v2_va(cache):
             baca.spanners.hairpin(o, '"f" > p')
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.mspanners.scp(
-                (),
+                baca.select.plts(leaves)[:-1],
                 "P -> T ->",
-                pieces=baca.select.plts(leaves)[:-1],
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
@@ -815,25 +812,22 @@ def v1_v2_va(cache):
             if name == "v1":
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
                 baca.mspanners.scp(
-                    (),
+                    baca.select.plts(leaves)[:-1],
                     "P -> T ->",
-                    pieces=baca.select.plts(leaves)[:-1],
                     staff_padding=5.5,
                 )
             elif name == "v2":
                 baca.mspanners.scp(
-                    (),
+                    [o.pleaves()],
                     "P -> T",
                     bookend=True,
-                    pieces=[o.pleaves()],
                     staff_padding=5.5,
                 )
             elif name == "va":
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
                 baca.mspanners.scp(
-                    (),
+                    baca.select.plts(leaves)[:-1],
                     "P -> T ->",
-                    pieces=baca.select.plts(leaves)[:-1],
                     staff_padding=5.5,
                 )
             baca.stem_tremolo(o.pleaves())
@@ -848,9 +842,8 @@ def v1_v2_va(cache):
             )
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.mspanners.scp(
-                (),
+                baca.select.plts(leaves)[:-1],
                 "P -> T ->",
-                pieces=baca.select.plts(leaves)[:-1],
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
@@ -997,10 +990,9 @@ def v2(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.mspanners.scp(
-            (),
+            baca.select.mgroups(o.rleaves(), [2, 1 + 1]),
             "T -> poco P =|",
             bookend=False,
-            pieces=baca.select.mgroups(o.rleaves(), [2, 1 + 1]),
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -1127,10 +1119,9 @@ def va(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
         baca.mspanners.scp(
-            (),
+            baca.select.mgroups(o.rleaves(), [3, 1 + 1]),
             "T -> poco P =|",
             bookend=False,
-            pieces=baca.select.mgroups(o.rleaves(), [3, 1 + 1]),
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
