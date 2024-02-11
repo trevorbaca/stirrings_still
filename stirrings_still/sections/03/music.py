@@ -724,7 +724,7 @@ def tutti(cache):
                 "p-ancora",
                 abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
             )
-            baca.piecewise.text(
+            baca.mspanners.text(
                 (),
                 r"\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -739,7 +739,7 @@ def tutti(cache):
             )
         with baca.scope(m.get(16, 19)) as o:
             leaves = baca.select.rleak(baca.select.ltleaves(o))
-            baca.piecewise.text(
+            baca.mspanners.text(
                 (),
                 r"\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -748,7 +748,7 @@ def tutti(cache):
             ),
         with baca.scope(m.get(20, 23)) as o:
             leaves = baca.select.rleak(baca.select.ltleaves(o))
-            baca.piecewise.text(
+            baca.mspanners.text(
                 (),
                 r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -859,7 +859,7 @@ def tutti(cache):
                 "f >o !",
                 abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
             )
-            baca.piecewise.text(
+            baca.mspanners.text(
                 (),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),

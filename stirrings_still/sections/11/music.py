@@ -459,7 +459,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide-poss",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -563,7 +563,7 @@ def v1(cache):
     with baca.scope(m.get(32, 37)) as o:
         baca.accent(o.pheads())
         baca.stem_tremolo(o.pleaves())
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
@@ -590,7 +590,7 @@ def v1(cache):
         baca.flat_glissando(o, "Bqf5")
     with baca.scope(m.get(38, 45)) as o:
         baca.accent(o.pheads())
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             r"\baca-null-markup || \baca-null-markup || \baca-damp-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -646,7 +646,7 @@ def tutti(cache):
             if name in ("v1", "v2", "vc"):
                 baca.spanners.hairpin(o.rleaves(), "pp < mp")
         with baca.scope(m.get(24, 31)) as o:
-            baca.piecewise.text(
+            baca.mspanners.text(
                 o.rleaves(),
                 "each time more ponticello =|",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -654,7 +654,7 @@ def tutti(cache):
                 lilypond_id=2,
             )
         with baca.scope(m.get(32, 37)) as o:
-            baca.piecewise.text(
+            baca.mspanners.text(
                 o.rleaves(),
                 "each time less ponticello =|",
                 abjad.Tweak(r"- \tweak staff-padding 10.5"),
@@ -686,7 +686,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide-poss",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -784,7 +784,7 @@ def v2(cache):
     with baca.scope(m.get(32, 37)) as o:
         baca.accent(o.pheads())
         baca.stem_tremolo(o.pleaves())
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
@@ -810,7 +810,7 @@ def v2(cache):
         baca.flat_glissando(o, "Eb5")
     with baca.scope(m.get(38, 45)) as o:
         baca.accent(o.pheads())
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             r"\baca-null-markup || \baca-damp-markup =| \baca-null-markup ||",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -863,7 +863,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide-poss",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -960,7 +960,7 @@ def va(cache):
     with baca.scope(m.get(32, 37)) as o:
         baca.accent(o.pheads())
         baca.stem_tremolo(o.pleaves())
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
@@ -986,7 +986,7 @@ def va(cache):
         baca.flat_glissando(o, "F3")
     with baca.scope(m.get(38, 42)) as o:
         baca.accent(o.pheads())
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             r"\baca-null-markup || \baca-damp-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -1046,7 +1046,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
             qualifier="wide",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1131,7 +1131,7 @@ def vc(cache):
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",

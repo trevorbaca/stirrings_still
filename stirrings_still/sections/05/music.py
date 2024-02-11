@@ -848,7 +848,7 @@ def v1_v2_va(cache):
             )
             baca.stem_tremolo(o.pleaves())
         with baca.scope(m.get(116, 119)) as o:
-            baca.piecewise.text(
+            baca.mspanners.text(
                 (),
                 "trem. ord. -> larghiss. =|",
                 abjad.Tweak(r"- \tweak staff-padding 10.5"),
@@ -1285,7 +1285,7 @@ def vc(cache):
         baca.spanners.hairpin(o.rleaves(), "ff > p")
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.pitch(o, "Gb2")
-        baca.piecewise.text(
+        baca.mspanners.text(
             o.rleaves(),
             "overpressure harmonic -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
