@@ -796,7 +796,7 @@ def v1(cache):
                 "fff -- ff > ppp --",
                 bookend=False,
             )
-            baca.piecewise.scp(
+            baca.mspanners.scp(
                 (),
                 "P poss. =| P molto -> T =|",
                 (abjad.Tweak(r"- \tweak bound-details.right.padding 2.25"), 0),
@@ -906,7 +906,7 @@ def tutti(cache):
             )
             if name == "v1":
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "T -> ord. =|",
                     abjad.Tweak(r"- \tweak staff-padding 13"),
@@ -914,7 +914,7 @@ def tutti(cache):
                 )
             elif name in ("v2", "va", "vc"):
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "T -> ord. =|",
                     abjad.Tweak(r"- \tweak staff-padding 10.5"),
@@ -953,14 +953,14 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             if name == "v1":
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "T -> poco P =|",
                     abjad.Tweak(r"- \tweak staff-padding 13"),
                     pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
                 )
             elif name in ("v2", "va", "vc"):
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "T -> poco P =|",
                     abjad.Tweak(r"- \tweak staff-padding 10.5"),
@@ -974,7 +974,7 @@ def tutti(cache):
             )
             if name == "v1":
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "T -> P =|",
                     abjad.Tweak(r"- \tweak staff-padding 13"),
@@ -982,7 +982,7 @@ def tutti(cache):
                 )
             elif name in ("v2", "va", "vc"):
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "T -> P =|",
                     abjad.Tweak(r"- \tweak staff-padding 10.5"),
@@ -995,7 +995,7 @@ def tutti(cache):
             )
             if name == "v1":
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "T -> P molto =|",
                     abjad.Tweak(r"- \tweak staff-padding 13"),
@@ -1003,7 +1003,7 @@ def tutti(cache):
                 )
             elif name in ("v2", "va", "vc"):
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "T -> P molto =|",
                     abjad.Tweak(r"- \tweak staff-padding 10.5"),
@@ -1034,7 +1034,7 @@ def tutti(cache):
             )
             if name == "v1":
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "T -> P molto =|",
                     abjad.Tweak(r"- \tweak staff-padding 13"),
@@ -1044,7 +1044,7 @@ def tutti(cache):
                 )
             elif name in ("v2", "va", "vc"):
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "T -> P molto =|",
                     abjad.Tweak(r"- \tweak staff-padding 10.5"),
@@ -1059,14 +1059,14 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             if name == "v1":
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "P poss. =|",
                     abjad.Tweak(r"- \tweak staff-padding 13"),
                     pieces=[baca.select.rleak(baca.select.ltleaves(o))],
                 )
             elif name in ("v2", "va", "vc"):
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "P poss. =|",
                     abjad.Tweak(r"- \tweak staff-padding 10.5"),
@@ -1252,7 +1252,7 @@ def v2(cache, time_signatures):
                 "fff -- ff > ppp --",
                 bookend=False,
             )
-            baca.piecewise.scp(
+            baca.mspanners.scp(
                 (),
                 "P poss. -> P molto -> T =|",
                 abjad.Tweak(r"- \tweak staff-padding 10.5"),
@@ -1429,7 +1429,7 @@ def va(cache):
                 "fff -- ff > ppp --",
                 bookend=False,
             )
-            baca.piecewise.scp(
+            baca.mspanners.scp(
                 (),
                 "P poss. -> P molto -> T =|",
                 abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
@@ -1625,7 +1625,7 @@ def vc(cache):
         )
     with baca.scope(m.get(50, 61)) as o:
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "P poss. -> P molto -> T =|",
             abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),

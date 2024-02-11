@@ -393,7 +393,7 @@ def tutti(cache):
             baca.override.hairpin_shorten_pair(o, (0, 5))
             baca.untie(o.leaves())
             leaves = baca.select.rleak(baca.select.ltleaves(o))
-            baca.piecewise.scp(
+            baca.mspanners.scp(
                 (),
                 "T -> P ->",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),

@@ -595,7 +595,7 @@ def v1(cache):
             "o< mf -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> poco P =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -782,7 +782,7 @@ def v1_v2_va(cache):
                 do_not_start_spanner_on_final_piece=True,
             )
             leaves = baca.select.rleak(baca.select.ltleaves(o))
-            baca.piecewise.scp(
+            baca.mspanners.scp(
                 (),
                 "P -> T ->",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -792,7 +792,7 @@ def v1_v2_va(cache):
         with baca.scope(m.get(87, 88)) as o:
             baca.spanners.hairpin(o, '"f" > p')
             leaves = baca.select.rleak(baca.select.ltleaves(o))
-            baca.piecewise.scp(
+            baca.mspanners.scp(
                 (),
                 "P -> T ->",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -814,14 +814,14 @@ def v1_v2_va(cache):
             )
             if name == "v1":
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "P -> T ->",
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
                     pieces=baca.select.plts(leaves)[:-1],
                 )
             elif name == "v2":
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "P -> T",
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -830,7 +830,7 @@ def v1_v2_va(cache):
                 )
             elif name == "va":
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "P -> T ->",
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -847,7 +847,7 @@ def v1_v2_va(cache):
                 "p -- ! >o !",
             )
             leaves = baca.select.rleak(baca.select.ltleaves(o))
-            baca.piecewise.scp(
+            baca.mspanners.scp(
                 (),
                 "P -> T ->",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -996,7 +996,7 @@ def v2(cache):
             "o< mf -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> poco P =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1126,7 +1126,7 @@ def va(cache):
             "o< mf -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> poco P =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),

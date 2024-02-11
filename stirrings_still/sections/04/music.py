@@ -513,7 +513,7 @@ def v1(cache):
         baca.spanners.hairpin(o, "pp < mp")
         baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(86, 92)) as o:
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> P -> T -> P =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -640,7 +640,7 @@ def v1_v2_va(cache):
                 o.rleaves(),
                 "mp >o",
             )
-            baca.piecewise.scp(
+            baca.mspanners.scp(
                 (),
                 "P -> T =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -758,7 +758,7 @@ def v2(cache):
         baca.spanners.hairpin(o, "pp < mp")
         baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(86, 92)) as o:
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> P -> T -> P =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),

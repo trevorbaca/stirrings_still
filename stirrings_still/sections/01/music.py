@@ -987,7 +987,7 @@ def vc(cache):
             "D2",
             hide_middle_stems=True,
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "tasto (T) =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
