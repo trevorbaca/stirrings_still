@@ -798,10 +798,9 @@ def tutti(cache):
                 staff_padding=8,
             )
             baca.mspanners.text(
-                (),
+                baca.select.mgroups(o.rleaves(), [1, 2]),
                 "rasp -> flaut. =|",
                 bookend=False,
-                pieces=baca.select.mgroups(o.rleaves(), [1, 2]),
                 staff_padding=5.5,
             )
             library.urtext_spanner(

@@ -725,10 +725,9 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
             )
             baca.mspanners.text(
-                (),
+                baca.select.omgroups(o.rleaves(), [2]),
                 r"\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|",
                 bookend=False,
-                pieces=baca.select.omgroups(o.rleaves(), [2]),
                 staff_padding=5.5,
             )
         with baca.scope(m.get(12, 27)) as o:
@@ -740,20 +739,18 @@ def tutti(cache):
         with baca.scope(m.get(16, 19)) as o:
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.mspanners.text(
-                (),
+                baca.select.omgroups(leaves, [2]),
                 r"\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|",
                 bookend=False,
-                pieces=baca.select.omgroups(leaves, [2]),
                 staff_padding=5.5,
             ),
         with baca.scope(m.get(20, 23)) as o:
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.mspanners.text(
-                (),
+                baca.select.omgroups(leaves, [2]),
                 r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
                 library.left_broken_circle_bow_tweak(),
                 bookend=False,
-                pieces=baca.select.omgroups(leaves, [2]),
                 staff_padding=5.5,
             )
         with baca.scope(m.get(24, 27)) as o:
@@ -860,12 +857,11 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
             )
             baca.mspanners.text(
-                (),
+                baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 # spanner terminates at double bar:
                 (abjad.Tweak(r"- \tweak bound-details.right.padding 7.75"), -1),
                 bookend=False,
-                pieces=baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
                 staff_padding=5.5,
             )
 

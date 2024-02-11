@@ -849,10 +849,9 @@ def v1_v2_va(cache):
             baca.stem_tremolo(o.pleaves())
         with baca.scope(m.get(116, 119)) as o:
             baca.mspanners.text(
-                (),
+                baca.select.mgroups(o.rleaves(), [3, 1 + 1]),
                 "trem. ord. -> larghiss. =|",
                 bookend=False,
-                pieces=baca.select.mgroups(o.rleaves(), [3, 1 + 1]),
                 staff_padding=10.5,
             )
         with baca.scope(m.get(120, 127)) as o:
@@ -1286,7 +1285,7 @@ def vc(cache):
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.pitch(o, "Gb2")
         baca.mspanners.text(
-            o.rleaves(),
+            [o.rleaves()],
             "overpressure harmonic -> ord.",
             staff_padding=5.5,
         )
