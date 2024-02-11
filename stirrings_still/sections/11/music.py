@@ -555,9 +555,8 @@ def v1(cache):
         baca.stem_tremolo(o.pleaves())
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Aqf5")
@@ -577,9 +576,8 @@ def v1(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
     with baca.scope(m.get(32, 53)) as o:
@@ -603,9 +601,8 @@ def v1(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "T1 -> T3 -> T2 -> T3 ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
     with baca.scope(m.get(41, 42)) as o:
@@ -619,10 +616,9 @@ def v1(cache):
             staff_padding=8,
         )
         baca.mspanners.scp(
-            (),
+            o.leaves(),
             # TODO: allow spanner to extend to phantom measure
             "T poss. =|",
-            pieces=o.leaves(),
             staff_padding=5.5,
         )
 
@@ -780,9 +776,8 @@ def v2(cache):
         baca.stem_tremolo(o.pleaves())
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "F5")
@@ -802,9 +797,8 @@ def v2(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
     with baca.scope(m.get(32, 53)) as o:
@@ -827,9 +821,8 @@ def v2(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "T1 -> T3 -> T2 -> T3 ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
     with baca.scope(m.get(41, 42)) as o:
@@ -843,10 +836,9 @@ def v2(cache):
             staff_padding=8,
         ),
         baca.mspanners.scp(
-            (),
+            o.leaves(),
             # TODO: allow spanner to extend to phantom measure
             "T poss. =|",
-            pieces=o.leaves(),
             staff_padding=5.5,
         )
 
@@ -960,9 +952,8 @@ def va(cache):
         baca.stem_tremolo(o.pleaves())
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "G3")
@@ -982,9 +973,8 @@ def va(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
     with baca.scope(m.get(32, 53)) as o:
@@ -1007,9 +997,8 @@ def va(cache):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "T1 -> T3 -> T2 -> T3 ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
     with baca.scope(m.get(43, 45)) as o:
@@ -1030,10 +1019,9 @@ def va(cache):
         )
         baca.spanners.hairpin(o, "p >o !")
         baca.mspanners.scp(
-            (),
+            o.leaves(),
             # TODO: allow spanner to extend to phantom measure
             "T poss. =|",
-            pieces=o.leaves(),
             staff_padding=5.5,
         )
 
@@ -1129,9 +1117,8 @@ def vc(cache):
         baca.stem_tremolo(o.pleaves())
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Eb2")
@@ -1139,9 +1126,8 @@ def vc(cache):
         baca.accent(o.pheads())
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            pieces=baca.select.plts(leaves)[:-1],
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -1173,9 +1159,8 @@ def vc(cache):
             baca.override.stem_transparent(u)
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            (),
+            baca.select.cmgroups(leaves, [8, 8]),
             "T -> T poss. =|",
-            pieces=baca.select.cmgroups(leaves, [8, 8]),
             staff_padding=5.5,
         )
 
