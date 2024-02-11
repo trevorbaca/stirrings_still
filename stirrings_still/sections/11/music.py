@@ -554,7 +554,7 @@ def v1(cache):
         )
         baca.stem_tremolo(o.pleaves())
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -576,7 +576,7 @@ def v1(cache):
             pieces=baca.select.cmgroups(o.rleaves(), [1, 1, 1, 1, 2, 1]),
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -602,7 +602,7 @@ def v1(cache):
             pieces=baca.select.plts(o),
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T1 -> T3 -> T2 -> T3 ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -618,7 +618,7 @@ def v1(cache):
             o.leaves(),
             staff_padding=8,
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             # TODO: allow spanner to extend to phantom measure
             "T poss. =|",
@@ -779,7 +779,7 @@ def v2(cache):
         )
         baca.stem_tremolo(o.pleaves())
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -801,7 +801,7 @@ def v2(cache):
             pieces=baca.select.cmgroups(o.rleaves(), [1, 2, 1, 1, 1, 1]),
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -826,7 +826,7 @@ def v2(cache):
             pieces=baca.select.plts(o),
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T1 -> T3 -> T2 -> T3 ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -842,7 +842,7 @@ def v2(cache):
             o.leaves(),
             staff_padding=8,
         ),
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             # TODO: allow spanner to extend to phantom measure
             "T poss. =|",
@@ -959,7 +959,7 @@ def va(cache):
         )
         baca.stem_tremolo(o.pleaves())
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -981,7 +981,7 @@ def va(cache):
             pieces=baca.select.cmgroups(o.rleaves(), [1, 1, 2, 1, 1, 1]),
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1006,7 +1006,7 @@ def va(cache):
             pieces=baca.select.plts(o)[:-1],
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T1 -> T3 -> T2 -> T3 ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1029,7 +1029,7 @@ def va(cache):
             staff_padding=8,
         )
         baca.spanners.hairpin(o, "p >o !")
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             # TODO: allow spanner to extend to phantom measure
             "T poss. =|",
@@ -1128,7 +1128,7 @@ def vc(cache):
         baca.dynamic(o.phead(0), "p")
         baca.stem_tremolo(o.pleaves())
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1138,7 +1138,7 @@ def vc(cache):
     with baca.scope(m.get(32, 37)) as o:
         baca.accent(o.pheads())
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1172,7 +1172,7 @@ def vc(cache):
             baca.override.dots_transparent(u)
             baca.override.stem_transparent(u)
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> T poss. =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),

@@ -188,7 +188,7 @@ def v1(cache):
         )
     with baca.scope(m.get(13, 19)) as o:
         baca.spanners.hairpin(o.rleaves(), "o< f")
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> O",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -225,7 +225,7 @@ def v1(cache):
             "f < ff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -254,7 +254,7 @@ def v1(cache):
             "ff < fff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -324,7 +324,7 @@ def v2(cache):
         )
     with baca.scope(m.get(13, 19)) as o:
         baca.spanners.hairpin(o.rleaves(), "o< f")
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> O",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -362,7 +362,7 @@ def v2(cache):
             "f < ff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -391,7 +391,7 @@ def v2(cache):
             "ff < fff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -425,7 +425,7 @@ def va(cache):
         )
     with baca.scope(m.get(13, 19)) as o:
         baca.spanners.hairpin(o.rleaves(), "o< f")
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "T -> O",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -463,7 +463,7 @@ def va(cache):
             "f < ff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -492,7 +492,7 @@ def va(cache):
             "ff < fff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -549,7 +549,7 @@ def vc(cache):
             "f < ff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -591,7 +591,7 @@ def vc(cache):
             "ff < fff >",
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "O -> P ->",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
