@@ -422,14 +422,14 @@ def v2(cache):
             baca.select.mgroups(o.rleaves(), [3, 5 + 1]),
             "o< mp -- !",
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             o.rleaves(),
             "2° =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
             lilypond_id=1,
         )
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "rasp -> flaut. =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -446,7 +446,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
     with baca.scope(m.get(9, 16)) as o:
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "flaut. (2°) -> ord. ->"
             r" \baca-circle-tight-markup ->"
@@ -601,7 +601,7 @@ def vc(cache):
     with baca.scope(m.get(9, 16)) as o:
         baca.spanners.hairpin(o.rleaves(), "(mp) < ff")
     with baca.scope(m.get(9, 27)) as o:
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "no overpressure -> molto overpressure =|" " (molto) -> no overpressure.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -718,7 +718,7 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
             leaves = baca.select.rleak(baca.select.ltleaves(o))
-            baca.piecewise.text(
+            baca.mspanners.text(
                 (),
                 r"\baca-circle-very-wide-markup -> \baca-circle-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -731,7 +731,7 @@ def v1_v2_va(cache):
                 "mf -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
-            baca.piecewise.text(
+            baca.mspanners.text(
                 (),
                 r"\baca-circle-wide-markup -> \baca-circle-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -744,7 +744,7 @@ def v1_v2_va(cache):
                 "f -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
             )
-            baca.piecewise.text(
+            baca.mspanners.text(
                 (),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -777,7 +777,7 @@ def v1_v2_va(cache):
                     abjad.Tweak(r"- \tweak padding 1"),
                 )
                 baca.flat_glissando(o, "Bqf3")
-            baca.piecewise.text(
+            baca.mspanners.text(
                 (),
                 r"\baca-circle-very-tight-markup -> \baca-circle-wide-markup =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -866,7 +866,7 @@ def v1_va(cache):
     for name in ["v1", "va"]:
         m = cache[name]
         with baca.scope(m.get(7, 16)) as o:
-            baca.piecewise.text(
+            baca.mspanners.text(
                 (),
                 r"\baca-circle-very-tight-markup ->"
                 r" \baca-circle-tight-markup ->"
@@ -969,14 +969,14 @@ def tutti(cache):
                     abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
                 )
             if name in ("v1", "va", "vc"):
-                baca.piecewise.text(
+                baca.mspanners.text(
                     o.rleaves(),
                     "2° =|",
                     abjad.Tweak(r"- \tweak staff-padding 8"),
                     bookend=False,
                     lilypond_id=1,
                 )
-                baca.piecewise.text(
+                baca.mspanners.text(
                     (),
                     "rasp -> flaut. =|",
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1003,14 +1003,14 @@ def tutti(cache):
                 "vc": "Ab2",
             }[name]
             baca.flat_glissando(o, pitch)
-            baca.piecewise.text(
+            baca.mspanners.text(
                 o.rleaves(),
                 "2° =|",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
                 bookend=False,
                 lilypond_id=1,
             )
-            baca.piecewise.text(
+            baca.mspanners.text(
                 (),
                 "rasp -> poco rasp =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),

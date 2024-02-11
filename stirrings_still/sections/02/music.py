@@ -928,14 +928,14 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak padding 1.5"),
                 direction=abjad.DOWN,
             )
-            baca.piecewise.text(
+            baca.mspanners.text(
                 o.rleaves(),
                 "2° =|",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
                 bookend=False,
                 lilypond_id=1,
             )
-            baca.piecewise.text(
+            baca.mspanners.text(
                 (),
                 "rasp -> flaut. =|",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
