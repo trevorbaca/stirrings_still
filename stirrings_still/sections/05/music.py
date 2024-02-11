@@ -598,9 +598,9 @@ def v1(cache):
         baca.mspanners.scp(
             (),
             "T -> poco P =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=False,
             pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
+            staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
         library.flight_spanner(o, "flight -|", 8)
@@ -785,8 +785,8 @@ def v1_v2_va(cache):
             baca.mspanners.scp(
                 (),
                 "P -> T ->",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 pieces=baca.select.plts(leaves)[:-1],
+                staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
         with baca.scope(m.get(87, 88)) as o:
@@ -795,8 +795,8 @@ def v1_v2_va(cache):
             baca.mspanners.scp(
                 (),
                 "P -> T ->",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 pieces=baca.select.plts(leaves)[:-1],
+                staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
         with baca.scope(m.get(109, 110)) as o:
@@ -817,24 +817,24 @@ def v1_v2_va(cache):
                 baca.mspanners.scp(
                     (),
                     "P -> T ->",
-                    abjad.Tweak(r"- \tweak staff-padding 5.5"),
                     pieces=baca.select.plts(leaves)[:-1],
+                    staff_padding=5.5,
                 )
             elif name == "v2":
                 baca.mspanners.scp(
                     (),
                     "P -> T",
-                    abjad.Tweak(r"- \tweak staff-padding 5.5"),
                     bookend=True,
                     pieces=[o.pleaves()],
+                    staff_padding=5.5,
                 )
             elif name == "va":
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
                 baca.mspanners.scp(
                     (),
                     "P -> T ->",
-                    abjad.Tweak(r"- \tweak staff-padding 5.5"),
                     pieces=baca.select.plts(leaves)[:-1],
+                    staff_padding=5.5,
                 )
             baca.stem_tremolo(o.pleaves())
         with baca.scope(m.get(112, 119)) as o:
@@ -850,8 +850,8 @@ def v1_v2_va(cache):
             baca.mspanners.scp(
                 (),
                 "P -> T ->",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 pieces=baca.select.plts(leaves)[:-1],
+                staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
         with baca.scope(m.get(116, 119)) as o:
@@ -999,9 +999,9 @@ def v2(cache):
         baca.mspanners.scp(
             (),
             "T -> poco P =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=False,
             pieces=baca.select.mgroups(o.rleaves(), [2, 1 + 1]),
+            staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
         library.flight_spanner(o, "flight -|", 8)
@@ -1129,9 +1129,9 @@ def va(cache):
         baca.mspanners.scp(
             (),
             "T -> poco P =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=False,
             pieces=baca.select.mgroups(o.rleaves(), [3, 1 + 1]),
+            staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
         library.flight_spanner(o, "flight -|", 8)
