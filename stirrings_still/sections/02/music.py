@@ -1062,14 +1062,14 @@ def tutti(cache):
                 baca.mspanners.scp(
                     (),
                     "P poss. =|",
-                    pieces=[baca.select.rleak(baca.select.ltleaves(o))],
+                    pieces=baca.select.rleak(baca.select.ltleaves(o)),
                     staff_padding=13,
                 )
             elif name in ("v2", "va", "vc"):
                 baca.mspanners.scp(
                     (),
                     "P poss. =|",
-                    pieces=[baca.select.rleak(baca.select.ltleaves(o))],
+                    pieces=baca.select.rleak(baca.select.ltleaves(o)),
                     staff_padding=10.5,
                 )
         with baca.scope(m.get(61, 62)) as o:
