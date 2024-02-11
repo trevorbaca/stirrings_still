@@ -462,9 +462,9 @@ def v1(cache):
         baca.mspanners.text(
             (),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=False,
             pieces=library.rleaves_partition_by_ratio(o, (1, 1, 1)),
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bqf5")
     with baca.scope(m.get(5, 8)) as o:
@@ -568,11 +568,11 @@ def v1(cache):
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             pieces=baca.select.cmgroups(o.rleaves(), [1, 1, 1, 1, 2, 1]),
+            staff_padding=8,
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
@@ -593,11 +593,11 @@ def v1(cache):
         baca.mspanners.text(
             (),
             r"\baca-null-markup || \baca-null-markup || \baca-damp-markup =|",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             pieces=baca.select.plts(o),
+            staff_padding=8,
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
@@ -649,17 +649,17 @@ def tutti(cache):
             baca.mspanners.text(
                 o.rleaves(),
                 "each time more ponticello =|",
-                abjad.Tweak(r"- \tweak staff-padding 8"),
                 bookend=False,
                 lilypond_id=2,
+                staff_padding=8,
             )
         with baca.scope(m.get(32, 37)) as o:
             baca.mspanners.text(
                 o.rleaves(),
                 "each time less ponticello =|",
-                abjad.Tweak(r"- \tweak staff-padding 10.5"),
                 bookend=False,
                 lilypond_id=2,
+                staff_padding=10.5,
             )
         with baca.scope(m.get(46, 53)) as o:
             if name in ("v1", "v2", "va"):
@@ -689,9 +689,9 @@ def v2(cache):
         baca.mspanners.text(
             (),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=False,
             pieces=library.rleaves_partition_by_ratio(o, (1, 1, 1)),
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bb4")
     with baca.scope(m.get(5, 8)) as o:
@@ -789,11 +789,11 @@ def v2(cache):
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             pieces=baca.select.cmgroups(o.rleaves(), [1, 2, 1, 1, 1, 1]),
+            staff_padding=8,
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
@@ -813,11 +813,11 @@ def v2(cache):
         baca.mspanners.text(
             (),
             r"\baca-null-markup || \baca-damp-markup =| \baca-null-markup ||",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             pieces=baca.select.plts(o),
+            staff_padding=8,
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
@@ -866,9 +866,9 @@ def va(cache):
         baca.mspanners.text(
             (),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=False,
             pieces=library.rleaves_partition_by_ratio(o, (1, 1, 1)),
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bqf3")
     with baca.scope(m.get(5, 11)) as o:
@@ -965,11 +965,11 @@ def va(cache):
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             pieces=baca.select.cmgroups(o.rleaves(), [1, 1, 2, 1, 1, 1]),
+            staff_padding=8,
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
@@ -989,11 +989,11 @@ def va(cache):
         baca.mspanners.text(
             (),
             r"\baca-null-markup || \baca-damp-markup =|",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             pieces=baca.select.plts(o)[:-1],
+            staff_padding=8,
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
@@ -1049,9 +1049,9 @@ def vc(cache):
         baca.mspanners.text(
             (),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=False,
             pieces=library.rleaves_partition_by_ratio(o, (1, 1, 1)),
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bb2")
     with baca.scope(m.get(5, 8)) as o:
@@ -1136,11 +1136,11 @@ def vc(cache):
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
             bookend=False,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             pieces=baca.select.cmgroups(o.rleaves(), [1, 1, 1, 2, 1, 1]),
+            staff_padding=8,
         )
     with baca.scope(m.get(32, 54)) as o:
         library.clouded_pane_spanner(
