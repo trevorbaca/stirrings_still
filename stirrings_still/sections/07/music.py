@@ -396,8 +396,8 @@ def tutti(cache):
             baca.mspanners.scp(
                 (),
                 "T -> P ->",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 pieces=baca.select.plts(leaves)[:-1],
+                staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
             baca.override.tuplet_bracket_down(o)

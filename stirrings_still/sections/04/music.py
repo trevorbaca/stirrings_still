@@ -516,8 +516,8 @@ def v1(cache):
         baca.mspanners.scp(
             (),
             "T -> P -> T -> P =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             pieces=baca.select.lparts(o.rleaves(), [1, 2, 1, 4 + 1]),
+            staff_padding=5.5,
         )
 
 
@@ -643,9 +643,9 @@ def v1_v2_va(cache):
             baca.mspanners.scp(
                 (),
                 "P -> T =|",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=False,
                 pieces=baca.select.mgroups(o.rleaves(), [2, 1 + 1]),
+                staff_padding=5.5,
             )
             library.urtext_spanner(o, "urtext (resumes) -|", 8)
         with baca.scope(m.get(97, 98)) as o:
@@ -761,8 +761,8 @@ def v2(cache):
         baca.mspanners.scp(
             (),
             "T -> P -> T -> P =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             pieces=baca.select.lparts(o.rleaves(), [2, 1, 1, 4 + 1]),
+            staff_padding=5.5,
         )
 
 

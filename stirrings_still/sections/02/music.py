@@ -800,9 +800,9 @@ def v1(cache):
                 (),
                 "P poss. =| P molto -> T =|",
                 (abjad.Tweak(r"- \tweak bound-details.right.padding 2.25"), 0),
-                abjad.Tweak(r"- \tweak staff-padding 13"),
                 library.left_broken_tasto_tweak(),
                 pieces=baca.select.mgroups(u, [2, 4, 5 + 1]),
+                staff_padding=13,
             )
     with baca.scope(m.get(56, 62)) as o:
         baca.flat_glissando(o, "F5")
@@ -909,16 +909,16 @@ def tutti(cache):
                 baca.mspanners.scp(
                     (),
                     "T -> ord. =|",
-                    abjad.Tweak(r"- \tweak staff-padding 13"),
                     pieces=baca.select.mgroups(leaves, [1, 1 + 1]),
+                    staff_padding=13,
                 )
             elif name in ("v2", "va", "vc"):
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
                 baca.mspanners.scp(
                     (),
                     "T -> ord. =|",
-                    abjad.Tweak(r"- \tweak staff-padding 10.5"),
                     pieces=baca.select.mgroups(leaves, [1, 1 + 1]),
+                    staff_padding=10.5,
                 )
         with baca.scope(m.get(32, 33)) as o:
             baca.piecewise.hairpin(
@@ -956,15 +956,15 @@ def tutti(cache):
                 baca.mspanners.scp(
                     (),
                     "T -> poco P =|",
-                    abjad.Tweak(r"- \tweak staff-padding 13"),
                     pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
+                    staff_padding=13,
                 )
             elif name in ("v2", "va", "vc"):
                 baca.mspanners.scp(
                     (),
                     "T -> poco P =|",
-                    abjad.Tweak(r"- \tweak staff-padding 10.5"),
                     pieces=baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
+                    staff_padding=10.5,
                 )
         with baca.scope(m.get(37, 38)) as o:
             baca.piecewise.hairpin(
@@ -977,16 +977,16 @@ def tutti(cache):
                 baca.mspanners.scp(
                     (),
                     "T -> P =|",
-                    abjad.Tweak(r"- \tweak staff-padding 13"),
                     pieces=baca.select.mgroups(leaves, [1, 1 + 1]),
+                    staff_padding=13,
                 )
             elif name in ("v2", "va", "vc"):
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
                 baca.mspanners.scp(
                     (),
                     "T -> P =|",
-                    abjad.Tweak(r"- \tweak staff-padding 10.5"),
                     pieces=baca.select.mgroups(leaves, [1, 1 + 1]),
+                    staff_padding=10.5,
                 )
         with baca.scope(m.get(40, 41)) as o:
             baca.piecewise.hairpin(
@@ -998,16 +998,16 @@ def tutti(cache):
                 baca.mspanners.scp(
                     (),
                     "T -> P molto =|",
-                    abjad.Tweak(r"- \tweak staff-padding 13"),
                     pieces=baca.select.mgroups(leaves, [1, 1 + 1]),
+                    staff_padding=13,
                 )
             elif name in ("v2", "va", "vc"):
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
                 baca.mspanners.scp(
                     (),
                     "T -> P molto =|",
-                    abjad.Tweak(r"- \tweak staff-padding 10.5"),
                     pieces=baca.select.mgroups(leaves, [1, 1 + 1]),
+                    staff_padding=10.5,
                 )
         with baca.scope(m[42]) as o:
             baca.mspanners.circle_bow(
@@ -1037,20 +1037,20 @@ def tutti(cache):
                 baca.mspanners.scp(
                     (),
                     "T -> P molto =|",
-                    abjad.Tweak(r"- \tweak staff-padding 13"),
                     pieces=abjad.select.partition_by_counts(
                         abjad.select.leaves(leaves), [2], overhang=True
                     ),
+                    staff_padding=13,
                 )
             elif name in ("v2", "va", "vc"):
                 leaves = baca.select.rleak(baca.select.ltleaves(o))
                 baca.mspanners.scp(
                     (),
                     "T -> P molto =|",
-                    abjad.Tweak(r"- \tweak staff-padding 10.5"),
                     pieces=abjad.select.partition_by_counts(
                         abjad.select.leaves(leaves), [2], overhang=True
                     ),
+                    staff_padding=10.5,
                 )
         with baca.scope(m[46]) as o:
             baca.spanners.hairpin(
@@ -1062,15 +1062,15 @@ def tutti(cache):
                 baca.mspanners.scp(
                     (),
                     "P poss. =|",
-                    abjad.Tweak(r"- \tweak staff-padding 13"),
                     pieces=[baca.select.rleak(baca.select.ltleaves(o))],
+                    staff_padding=13,
                 )
             elif name in ("v2", "va", "vc"):
                 baca.mspanners.scp(
                     (),
                     "P poss. =|",
-                    abjad.Tweak(r"- \tweak staff-padding 10.5"),
                     pieces=[baca.select.rleak(baca.select.ltleaves(o))],
+                    staff_padding=10.5,
                 )
         with baca.scope(m.get(61, 62)) as o:
             baca.spanners.hairpin(o.rleaves(), ">o !")
@@ -1255,9 +1255,9 @@ def v2(cache, time_signatures):
             baca.mspanners.scp(
                 (),
                 "P poss. -> P molto -> T =|",
-                abjad.Tweak(r"- \tweak staff-padding 10.5"),
                 library.left_broken_tasto_tweak(),
                 pieces=baca.select.mgroups(u, [2, 4, 2 + 1]),
+                staff_padding=10.5,
             )
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(52, 55)) as o:
@@ -1432,9 +1432,9 @@ def va(cache):
             baca.mspanners.scp(
                 (),
                 "P poss. -> P molto -> T =|",
-                abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
                 library.left_broken_tasto_tweak(),
                 pieces=baca.select.mgroups(u, [2, 4, 4 + 1]),
+                staff_padding=4 + 6.5,
             )
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(52, 55)) as o:
@@ -1628,9 +1628,9 @@ def vc(cache):
         baca.mspanners.scp(
             (),
             "P poss. -> P molto -> T =|",
-            abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
             library.left_broken_tasto_tweak(),
             pieces=baca.select.mgroups(leaves, [2, 4, 6 + 1]),
+            staff_padding=4 + 6.5,
         )
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(52, 55)) as o:
