@@ -993,9 +993,10 @@ def vc(cache):
             hide_middle_stems=True,
         )
         baca.mspanners.scp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            o,
             "tasto (T) =|",
             left_broken_text=r"\baca-left-broken-t-markup",
+            rleak=True,
             staff_padding=5.5,
         )
         library.urtext_spanner(o, "urtext (field) -|", 8)
