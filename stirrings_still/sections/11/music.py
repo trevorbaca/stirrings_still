@@ -997,11 +997,10 @@ def va(cache):
             lilypond_id=1,
             staff_padding=8,
         )
-        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            baca.select.plts(leaves)[:-1],
+            o.plts(),
             "T1 -> T3 -> T2 -> T3 ->",
-            do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(43, 45)) as o:
@@ -1118,21 +1117,19 @@ def vc(cache):
         baca.breathe(o.pleaf(-1))
         baca.dynamic(o.phead(0), "p")
         baca.stem_tremolo(o.pleaves())
-        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            baca.select.plts(leaves)[:-1],
+            o.plts(),
             "T -> P ->",
-            do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Eb2")
     with baca.scope(m.get(32, 37)) as o:
         baca.accent(o.pheads())
-        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            baca.select.plts(leaves)[:-1],
+            o.plts(),
             "T -> P ->",
-            do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -1161,9 +1158,8 @@ def vc(cache):
         with baca.scope(o.leaves()[:-1]) as u:
             baca.override.dots_transparent(u)
             baca.override.stem_transparent(u)
-        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            baca.select.cmgroups(leaves, [8, 8]),
+            baca.select.cmgroups(o, [8, 9]),
             "T -> T poss. =|",
             do_not_bookend=True,
             staff_padding=5.5,
