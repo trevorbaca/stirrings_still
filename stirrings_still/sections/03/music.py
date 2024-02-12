@@ -727,7 +727,7 @@ def tutti(cache):
             baca.mspanners.text(
                 baca.select.omgroups(o.rleaves(), [2]),
                 r"\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|",
-                bookend=False,
+                do_not_bookend=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(12, 27)) as o:
@@ -741,7 +741,7 @@ def tutti(cache):
             baca.mspanners.text(
                 baca.select.omgroups(leaves, [2]),
                 r"\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|",
-                bookend=False,
+                do_not_bookend=True,
                 staff_padding=5.5,
             ),
         with baca.scope(m.get(20, 23)) as o:
@@ -750,7 +750,7 @@ def tutti(cache):
                 baca.select.omgroups(leaves, [2]),
                 r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
                 library.left_broken_circle_bow_tweak(),
-                bookend=False,
+                do_not_bookend=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(24, 27)) as o:
@@ -772,38 +772,38 @@ def tutti(cache):
             baca.piecewise.hairpin(
                 baca.select.runs(o),
                 "mf mf mp p pp pp",
-                bookend=False,
+                do_not_bookend=True,
             )
         with baca.scope(m.get(36, 39)) as o:
             baca.piecewise.hairpin(
                 library.grouped_pheads(o),
                 "pp pp p p mp mp",
-                bookend=False,
+                do_not_bookend=True,
             )
         with baca.scope(m.get(40, 43)) as o:
             baca.piecewise.hairpin(
                 library.grouped_pheads(o),
                 "mf mp mp p p pp pp",
-                bookend=False,
+                do_not_bookend=True,
             )
         with baca.scope(m.get(44, 47)) as o:
             baca.piecewise.hairpin(
                 library.grouped_pheads(o),
                 "pp pp p mp mf",
-                bookend=False,
+                do_not_bookend=True,
             )
         with baca.scope(m.get(48, 51)) as o:
             baca.piecewise.hairpin(
                 library.grouped_pheads(o),
                 "f mf mp mp p p pp",
-                bookend=False,
+                do_not_bookend=True,
             )
         with baca.scope(m.get(52, 55)) as o:
             baca.piecewise.hairpin(
                 library.grouped_pheads(o, None, -1),
                 # "pp p mp mf f ff",
                 "pp p mp mf f",
-                bookend=False,
+                do_not_bookend=True,
             )
         with baca.scope(m.get(36, 59)) as o:
             baca.mspanners.circle_bow(
@@ -861,7 +861,7 @@ def tutti(cache):
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 # spanner terminates at double bar:
                 (abjad.Tweak(r"- \tweak bound-details.right.padding 7.75"), -1),
-                bookend=False,
+                do_not_bookend=True,
                 staff_padding=5.5,
             )
 

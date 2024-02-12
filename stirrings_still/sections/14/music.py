@@ -226,7 +226,7 @@ def v1(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -255,7 +255,7 @@ def v1(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -361,7 +361,7 @@ def v2(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -390,7 +390,7 @@ def v2(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -460,7 +460,7 @@ def va(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -489,7 +489,7 @@ def va(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -546,7 +546,7 @@ def vc(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -588,7 +588,7 @@ def vc(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "O -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())

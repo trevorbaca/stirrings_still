@@ -526,7 +526,7 @@ def v1(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [4, 2]),
             'p < "mf"',
-            bookend=False,
+            do_not_bookend=True,
         )
         library.bcps(o, -8, clt=True, staff_padding=4.5)
         baca.untie(o)
@@ -598,7 +598,7 @@ def v1(cache):
         baca.mspanners.scp(
             baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
             "T -> poco P =|",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -777,14 +777,14 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.plts(o),
                 "ff > p < ff -- f > p < f --",
-                bookend=False,
+                do_not_bookend=True,
                 do_not_start_spanner_on_final_piece=True,
             )
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.mspanners.scp(
                 baca.select.plts(leaves)[:-1],
                 "P -> T ->",
-                bookend=False,
+                do_not_bookend=True,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
@@ -794,7 +794,7 @@ def v1_v2_va(cache):
             baca.mspanners.scp(
                 baca.select.plts(leaves)[:-1],
                 "P -> T ->",
-                bookend=False,
+                do_not_bookend=True,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
@@ -816,7 +816,7 @@ def v1_v2_va(cache):
                 baca.mspanners.scp(
                     baca.select.plts(leaves)[:-1],
                     "P -> T ->",
-                    bookend=False,
+                    do_not_bookend=True,
                     staff_padding=5.5,
                 )
             elif name == "v2":
@@ -830,7 +830,7 @@ def v1_v2_va(cache):
                 baca.mspanners.scp(
                     baca.select.plts(leaves)[:-1],
                     "P -> T ->",
-                    bookend=False,
+                    do_not_bookend=True,
                     staff_padding=5.5,
                 )
             baca.stem_tremolo(o.pleaves())
@@ -847,7 +847,7 @@ def v1_v2_va(cache):
             baca.mspanners.scp(
                 baca.select.plts(leaves)[:-1],
                 "P -> T ->",
-                bookend=False,
+                do_not_bookend=True,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
@@ -855,7 +855,7 @@ def v1_v2_va(cache):
             baca.mspanners.text(
                 baca.select.mgroups(o.rleaves(), [3, 1 + 1]),
                 "trem. ord. -> larghiss. =|",
-                bookend=False,
+                do_not_bookend=True,
                 staff_padding=10.5,
             )
         with baca.scope(m.get(120, 127)) as o:
@@ -929,7 +929,7 @@ def v2(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [4, 2]),
             'p < "mf"',
-            bookend=False,
+            do_not_bookend=True,
         )
         library.bcps(o, -7, clt=True, staff_padding=4.5)
         baca.untie(o.leaves())
@@ -995,7 +995,7 @@ def v2(cache):
         baca.mspanners.scp(
             baca.select.mgroups(o.rleaves(), [2, 1 + 1]),
             "T -> poco P =|",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -1124,7 +1124,7 @@ def va(cache):
         baca.mspanners.scp(
             baca.select.mgroups(o.rleaves(), [3, 1 + 1]),
             "T -> poco P =|",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
