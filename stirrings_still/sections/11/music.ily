@@ -3688,8 +3688,6 @@ number.11.Violin.1.Music = {
     bqf''!8
       %! SPANNER_STOP
     \!
-      %! SPANNER_STOP
-    \bacaStopTextSpanSCP
     \revert DynamicLineSpanner.staff-padding
     \revert TupletBracket.direction
     \revert TupletBracket.staff-padding
@@ -3720,6 +3718,8 @@ number.11.Violin.1.Music = {
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! SPANNER_STOP
             \bacaStopTextSpanDamp
+              %! SPANNER_STOP
+            \bacaStopTextSpanSCP
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
@@ -5726,8 +5726,6 @@ number.11.Violin.2.Music = {
     ef''!8
       %! SPANNER_STOP
     \!
-      %! SPANNER_STOP
-    \bacaStopTextSpanSCP
     \revert DynamicLineSpanner.staff-padding
     \revert TupletBracket.direction
     \revert TupletBracket.staff-padding
@@ -5758,6 +5756,8 @@ number.11.Violin.2.Music = {
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! SPANNER_STOP
             \bacaStopTextSpanDamp
+              %! SPANNER_STOP
+            \bacaStopTextSpanSCP
 
         }
 
@@ -7690,8 +7690,6 @@ number.11.Viola.Music = {
     f8
       %! SPANNER_STOP
     \!
-      %! SPANNER_STOP
-    \bacaStopTextSpanSCP
     \revert DynamicLineSpanner.staff-padding
     \revert TupletBracket.direction
     \revert TupletBracket.staff-padding
@@ -7722,6 +7720,8 @@ number.11.Viola.Music = {
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! SPANNER_STOP
             \bacaStopTextSpanDamp
+              %! SPANNER_STOP
+            \bacaStopTextSpanSCP
 
         }
 
