@@ -425,7 +425,6 @@ def v2(cache):
         baca.mspanners.text(
             o.rleaves(),
             "2° =|",
-            bookend=False,
             lilypond_id=1,
             staff_padding=8,
         )
@@ -964,7 +963,6 @@ def tutti(cache):
                 baca.mspanners.text(
                     o.rleaves(),
                     "2° =|",
-                    bookend=False,
                     lilypond_id=1,
                     staff_padding=8,
                 )
@@ -997,7 +995,6 @@ def tutti(cache):
             baca.mspanners.text(
                 o.rleaves(),
                 "2° =|",
-                bookend=False,
                 lilypond_id=1,
                 staff_padding=8,
             )
