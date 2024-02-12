@@ -555,11 +555,10 @@ def v1(cache):
             direction=abjad.DOWN,
         )
         baca.stem_tremolo(o.pleaves())
-        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            baca.select.plts(leaves)[:-1],
+            o.plts(),
             "T -> P ->",
-            do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Aqf5")
@@ -576,11 +575,10 @@ def v1(cache):
             lilypond_id=1,
             staff_padding=8,
         )
-        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            baca.select.plts(leaves)[:-1],
+            o.plts(),
             "T -> P ->",
-            do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(32, 53)) as o:
@@ -601,11 +599,11 @@ def v1(cache):
             lilypond_id=1,
             staff_padding=8,
         )
-        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            baca.select.plts(leaves)[:-1],
+            o.plts(),
             "T1 -> T3 -> T2 -> T3 ->",
             do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(41, 42)) as o:
@@ -619,9 +617,9 @@ def v1(cache):
             staff_padding=8,
         )
         baca.mspanners.scp(
-            o.leaves(),
-            # TODO: allow spanner to extend to phantom measure
+            o,
             "T poss. =|",
+            rleak=True,
             staff_padding=5.5,
         )
 
@@ -840,9 +838,9 @@ def v2(cache):
             staff_padding=8,
         ),
         baca.mspanners.scp(
-            o.leaves(),
-            # TODO: allow spanner to extend to phantom measure
+            o,
             "T poss. =|",
+            rleak=True,
             staff_padding=5.5,
         )
 
@@ -956,11 +954,10 @@ def va(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         baca.stem_tremolo(o.pleaves())
-        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            baca.select.plts(leaves)[:-1],
+            o.plts(),
             "T -> P ->",
-            do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "G3")
@@ -977,11 +974,10 @@ def va(cache):
             lilypond_id=1,
             staff_padding=8,
         )
-        leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.mspanners.scp(
-            baca.select.plts(leaves)[:-1],
+            o.plts(),
             "T -> P ->",
-            do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(32, 53)) as o:
@@ -1026,9 +1022,9 @@ def va(cache):
         )
         baca.spanners.hairpin(o, "p >o !")
         baca.mspanners.scp(
-            o.leaves(),
-            # TODO: allow spanner to extend to phantom measure
+            o,
             "T poss. =|",
+            rleak=True,
             staff_padding=5.5,
         )
 
