@@ -585,6 +585,7 @@ def vc(cache):
         baca.mspanners.bow_speed(
             o,
             "flaut. -> ord.",
+            bookend=False,
             staff_padding=5.5,
         )
     with baca.scope(m.get(7, 31)) as o:
