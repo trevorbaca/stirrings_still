@@ -516,6 +516,7 @@ def v1(cache):
         baca.mspanners.scp(
             baca.select.lparts(o.rleaves(), [1, 2, 1, 4 + 1]),
             "T -> P -> T -> P =|",
+            bookend=False,
             staff_padding=5.5,
         )
 
@@ -759,6 +760,7 @@ def v2(cache):
         baca.mspanners.scp(
             baca.select.lparts(o.rleaves(), [2, 1, 1, 4 + 1]),
             "T -> P -> T -> P =|",
+            bookend=False,
             staff_padding=5.5,
         )
 

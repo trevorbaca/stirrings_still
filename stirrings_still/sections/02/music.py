@@ -801,6 +801,7 @@ def v1(cache):
                 "P poss. =| P molto -> T =|",
                 (abjad.Tweak(r"- \tweak bound-details.right.padding 2.25"), 0),
                 library.left_broken_tasto_tweak(),
+                bookend=False,
                 staff_padding=13,
             )
     with baca.scope(m.get(56, 62)) as o:
@@ -908,6 +909,7 @@ def tutti(cache):
                 baca.mspanners.scp(
                     baca.select.mgroups(leaves, [1, 1 + 1]),
                     "T -> ord. =|",
+                    bookend=False,
                     staff_padding=13,
                 )
             elif name in ("v2", "va", "vc"):
@@ -915,6 +917,7 @@ def tutti(cache):
                 baca.mspanners.scp(
                     baca.select.mgroups(leaves, [1, 1 + 1]),
                     "T -> ord. =|",
+                    bookend=False,
                     staff_padding=10.5,
                 )
         with baca.scope(m.get(32, 33)) as o:
@@ -951,12 +954,14 @@ def tutti(cache):
                 baca.mspanners.scp(
                     baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
                     "T -> poco P =|",
+                    bookend=False,
                     staff_padding=13,
                 )
             elif name in ("v2", "va", "vc"):
                 baca.mspanners.scp(
                     baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
                     "T -> poco P =|",
+                    bookend=False,
                     staff_padding=10.5,
                 )
         with baca.scope(m.get(37, 38)) as o:
@@ -970,6 +975,7 @@ def tutti(cache):
                 baca.mspanners.scp(
                     baca.select.mgroups(leaves, [1, 1 + 1]),
                     "T -> P =|",
+                    bookend=False,
                     staff_padding=13,
                 )
             elif name in ("v2", "va", "vc"):
@@ -977,6 +983,7 @@ def tutti(cache):
                 baca.mspanners.scp(
                     baca.select.mgroups(leaves, [1, 1 + 1]),
                     "T -> P =|",
+                    bookend=False,
                     staff_padding=10.5,
                 )
         with baca.scope(m.get(40, 41)) as o:
@@ -989,6 +996,7 @@ def tutti(cache):
                 baca.mspanners.scp(
                     baca.select.mgroups(leaves, [1, 1 + 1]),
                     "T -> P molto =|",
+                    bookend=False,
                     staff_padding=13,
                 )
             elif name in ("v2", "va", "vc"):
@@ -996,6 +1004,7 @@ def tutti(cache):
                 baca.mspanners.scp(
                     baca.select.mgroups(leaves, [1, 1 + 1]),
                     "T -> P molto =|",
+                    bookend=False,
                     staff_padding=10.5,
                 )
         with baca.scope(m[42]) as o:
@@ -1028,6 +1037,7 @@ def tutti(cache):
                         abjad.select.leaves(leaves), [2], overhang=True
                     ),
                     "T -> P molto =|",
+                    bookend=False,
                     staff_padding=13,
                 )
             elif name in ("v2", "va", "vc"):
@@ -1037,6 +1047,7 @@ def tutti(cache):
                         abjad.select.leaves(leaves), [2], overhang=True
                     ),
                     "T -> P molto =|",
+                    bookend=False,
                     staff_padding=10.5,
                 )
         with baca.scope(m[46]) as o:
@@ -1241,6 +1252,7 @@ def v2(cache, time_signatures):
                 baca.select.mgroups(u, [2, 4, 2 + 1]),
                 "P poss. -> P molto -> T =|",
                 library.left_broken_tasto_tweak(),
+                bookend=False,
                 staff_padding=10.5,
             )
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
@@ -1417,6 +1429,7 @@ def va(cache):
                 baca.select.mgroups(u, [2, 4, 4 + 1]),
                 "P poss. -> P molto -> T =|",
                 library.left_broken_tasto_tweak(),
+                bookend=False,
                 staff_padding=4 + 6.5,
             )
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
@@ -1612,6 +1625,7 @@ def vc(cache):
             baca.select.mgroups(leaves, [2, 4, 6 + 1]),
             "P poss. -> P molto -> T =|",
             library.left_broken_tasto_tweak(),
+            bookend=False,
             staff_padding=4 + 6.5,
         )
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
