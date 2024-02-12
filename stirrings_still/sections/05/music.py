@@ -784,6 +784,7 @@ def v1_v2_va(cache):
             baca.mspanners.scp(
                 baca.select.plts(leaves)[:-1],
                 "P -> T ->",
+                bookend=False,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
@@ -793,6 +794,7 @@ def v1_v2_va(cache):
             baca.mspanners.scp(
                 baca.select.plts(leaves)[:-1],
                 "P -> T ->",
+                bookend=False,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
@@ -814,13 +816,13 @@ def v1_v2_va(cache):
                 baca.mspanners.scp(
                     baca.select.plts(leaves)[:-1],
                     "P -> T ->",
+                    bookend=False,
                     staff_padding=5.5,
                 )
             elif name == "v2":
                 baca.mspanners.scp(
                     [o.pleaves()],
                     "P -> T",
-                    bookend=True,
                     staff_padding=5.5,
                 )
             elif name == "va":
@@ -828,6 +830,7 @@ def v1_v2_va(cache):
                 baca.mspanners.scp(
                     baca.select.plts(leaves)[:-1],
                     "P -> T ->",
+                    bookend=False,
                     staff_padding=5.5,
                 )
             baca.stem_tremolo(o.pleaves())
@@ -844,6 +847,7 @@ def v1_v2_va(cache):
             baca.mspanners.scp(
                 baca.select.plts(leaves)[:-1],
                 "P -> T ->",
+                bookend=False,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())

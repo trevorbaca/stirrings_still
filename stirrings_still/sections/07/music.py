@@ -396,6 +396,7 @@ def tutti(cache):
             baca.mspanners.scp(
                 baca.select.plts(leaves)[:-1],
                 "T -> P ->",
+                bookend=False,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
