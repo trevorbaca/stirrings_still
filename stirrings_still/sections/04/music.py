@@ -515,9 +515,10 @@ def v1(cache):
         baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(86, 92)) as o:
         baca.mspanners.scp(
-            baca.select.lparts(o.rleaves(), [1, 2, 1, 4 + 1]),
+            baca.select.lparts(o, [1, 2, 1, 4]),
             "T -> P -> T -> P =|",
             do_not_bookend=True,
+            rleak=True,
             staff_padding=5.5,
         )
 
@@ -643,9 +644,10 @@ def v1_v2_va(cache):
                 "mp >o",
             )
             baca.mspanners.scp(
-                baca.select.mgroups(o.rleaves(), [2, 1 + 1]),
+                baca.select.mgroups(o, [2, 1]),
                 "P -> T =|",
                 do_not_bookend=True,
+                rleak=True,
                 staff_padding=5.5,
             )
             library.urtext_spanner(o, "urtext (resumes) -|", 8)
@@ -762,9 +764,10 @@ def v2(cache):
         baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(86, 92)) as o:
         baca.mspanners.scp(
-            baca.select.lparts(o.rleaves(), [2, 1, 1, 4 + 1]),
+            baca.select.lparts(o, [2, 1, 1, 4]),
             "T -> P -> T -> P =|",
             do_not_bookend=True,
+            rleak=True,
             staff_padding=5.5,
         )
 

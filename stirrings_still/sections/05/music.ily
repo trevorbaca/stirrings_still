@@ -7555,12 +7555,6 @@ number.5.Violin.1.Music = {
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
           %! SPANNER_START
-        - \baca-text-spanner-right-text "P"
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 0.5
-          %! SPANNER_START
-        - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
         \bacaStartTextSpanSCP
@@ -7581,6 +7575,20 @@ number.5.Violin.1.Music = {
         \ff
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
+          %! SPANNER_START
+        - \baca-solid-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "P"
+          %! SPANNER_START
+        - \baca-text-spanner-right-text "T"
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! SPANNER_START
+        \bacaStartTextSpanSCP
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak stencil #constante-hairpin
@@ -7603,6 +7611,8 @@ number.5.Violin.1.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \f
+          %! SPANNER_STOP
+        \bacaStopTextSpanSCP
 
     }
 
@@ -12376,6 +12386,12 @@ number.5.Violin.2.Music = {
       %! SPANNER_START
     - \baca-text-spanner-left-text "P"
       %! SPANNER_START
+    - \baca-text-spanner-right-text "T"
+      %! SPANNER_START
+    - \tweak bound-details.right.padding 0.5
+      %! SPANNER_START
+    - \tweak bound-details.right.stencil-align-dir-y #center
+      %! SPANNER_START
     - \tweak staff-padding 5.5
       %! SPANNER_START
     \bacaStartTextSpanSCP
@@ -12389,8 +12405,6 @@ number.5.Violin.2.Music = {
 
     <e'' aqs''!>8
     :32
-      %! SPANNER_STOP
-    \bacaStopTextSpanSCP
     [
 
     \revert Accidental.stencil
@@ -12404,6 +12418,8 @@ number.5.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \f
+      %! SPANNER_STOP
+    \bacaStopTextSpanSCP
     ]
 
     % [Violin.2.Music measure 86]
@@ -16358,6 +16374,12 @@ number.5.Viola.Music = {
           %! SPANNER_START
         - \baca-text-spanner-left-text "T"
           %! SPANNER_START
+        - \baca-text-spanner-right-text "P"
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
+          %! SPANNER_START
         - \tweak staff-padding 5.5
           %! SPANNER_START
         \bacaStartTextSpanSCP
@@ -16378,8 +16400,6 @@ number.5.Viola.Music = {
         % [Viola.Music measure 85]
         <d'' fqs''!>2.
         :32
-          %! SPANNER_STOP
-        \bacaStopTextSpanSCP
 
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
@@ -16392,6 +16412,8 @@ number.5.Viola.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \p
+          %! SPANNER_STOP
+        \bacaStopTextSpanSCP
 
     }
 
