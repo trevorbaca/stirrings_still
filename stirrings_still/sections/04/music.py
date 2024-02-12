@@ -499,9 +499,10 @@ def v1(cache):
     with baca.scope(m[57]) as o:
         baca.flat_glissando(o, "Bb4")
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide-poss",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.markup(
             o.pleaf(0),
@@ -590,9 +591,10 @@ def v1_v2_va(cache):
             library.urtext_spanner(o, "urtext (cds) -|", 8)
         with baca.scope(m[66]) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
+                staff_padding=5.5,
             )
             baca.spanners.hairpin(
                 baca.select.rleak(baca.select.ltleaves(o)),
@@ -649,9 +651,10 @@ def v1_v2_va(cache):
             library.urtext_spanner(o, "urtext (resumes) -|", 8)
         with baca.scope(m.get(97, 98)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="tight-poss-grind-at-talon",
+                rleak=True,
+                staff_padding=5.5,
             )
             baca.rspanners.damp(
                 baca.select.ltleaves(o),
@@ -748,9 +751,10 @@ def v2(cache):
         baca.pitch(o, "Dqs5")
     with baca.scope(m[57]) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide-poss",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "F4")
         baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 1)

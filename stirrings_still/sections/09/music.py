@@ -90,9 +90,10 @@ def v1(cache):
     with baca.scope(m.get(1, 7)) as o:
         baca.spanners.beam(o.tleaves())
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "Aqs4", left_broken=True)
     with baca.scope(m.get(10, 11)) as o:
@@ -150,9 +151,10 @@ def v2(cache):
     m = cache[name]
     with baca.scope(m.get(1, 7)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "Eb4", left_broken=True)
     with baca.scope(m.get(10, 11)) as o:
@@ -182,9 +184,10 @@ def va(cache):
         )
     with baca.scope(m.get(1, 7)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide-poss",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.flat_glissando(o.pleaves(), "Bqf3")
         baca.markup(

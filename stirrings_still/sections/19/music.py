@@ -165,9 +165,10 @@ def v1(cache):
     for item in [1, (3, 4), (6, 8), (10, 15)]:
         with baca.scope(m.get(item)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 3"),
+                baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
+                staff_padding=3,
             )
             baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
             baca.flat_glissando(o, "Bb4")
@@ -192,9 +193,10 @@ def v2(cache):
     for item in [1, (3, 4), (6, 8), (10, 15)]:
         with baca.scope(m.get(item)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 3"),
+                baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
+                staff_padding=3,
             )
             baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
             baca.flat_glissando(o, "F4")

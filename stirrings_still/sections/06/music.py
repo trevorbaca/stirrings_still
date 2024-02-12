@@ -199,9 +199,10 @@ def tutti(cache):
             baca.override.tuplet_bracket_down(o.leaves())
         with baca.scope(m.get(12, 13)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="tight-poss-grind-at-talon",
+                rleak=True,
+                staff_padding=5.5,
             )
             baca.rspanners.damp(
                 baca.select.tleaves(o),

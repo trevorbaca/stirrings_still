@@ -387,9 +387,10 @@ def v1(cache):
     with baca.scope(m[6]) as o:
         baca.spanners.beam(o.tleaves())
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.markup(
             o.pleaf(0),
@@ -521,9 +522,10 @@ def va(cache):
     with baca.scope(m[6]) as o:
         baca.pitch(o, "Bqf3")
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="very-wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.markup(
             o.pleaf(0),
@@ -586,6 +588,7 @@ def vc(cache):
             o,
             "flaut. -> ord.",
             do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(7, 31)) as o:
@@ -676,9 +679,10 @@ def v1_v2_va(cache):
         m = cache[name]
         with baca.scope(m.get(23, 28)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
+                staff_padding=5.5,
             )
             leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.piecewise.hairpin(
@@ -826,8 +830,8 @@ def v1_v2(cache):
             baca.mspanners.circle_bow(
                 # TODO: allow spanner to run to end of section
                 o.leaves(),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="wide",
+                staff_padding=5.5,
             )
             baca.spanners.hairpin(
                 baca.select.rleak(baca.select.ltleaves(o)),

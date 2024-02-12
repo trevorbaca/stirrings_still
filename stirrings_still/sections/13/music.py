@@ -192,9 +192,10 @@ def v1(cache):
             baca.flat_glissando(o, "D6", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="very-wide",
+            rleak=True,
+            staff_padding=5.5,
         )
     for item in [(9, 12), (26, 28)]:
         with baca.scope(m.get(item)) as o:
@@ -214,9 +215,10 @@ def v1(cache):
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(abjad.select.leaves(o)[1:]),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            abjad.select.leaves(o)[1:],
             qualifier="very-wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.markup(
             o.leaf(1),
@@ -225,9 +227,10 @@ def v1(cache):
         )
     with baca.scope(m.get(25, 28)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(abjad.select.leaves(o)[1:]),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            abjad.select.leaves(o)[1:],
             qualifier="very-wide",
+            rleak=True,
+            staff_padding=5.5,
         )
     with baca.scope(m.get(29, 32)) as o:
         baca.flat_glissando(
@@ -317,9 +320,10 @@ def v2(cache):
             baca.flat_glissando(o, "Fqs5", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="very-wide",
+            rleak=True,
+            staff_padding=5.5,
         )
     for item in [(9, 12), (26, 28)]:
         with baca.scope(m.get(item)) as o:
@@ -342,9 +346,10 @@ def v2(cache):
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(abjad.select.leaves(o)[1:]),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            abjad.select.leaves(o)[1:],
             qualifier="very-wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.markup(
             o.leaf(1),
@@ -353,9 +358,10 @@ def v2(cache):
         )
     with baca.scope(m.get(25, 28)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(abjad.select.leaves(o)[1:]),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            abjad.select.leaves(o)[1:],
             qualifier="very-wide",
+            rleak=True,
+            staff_padding=5.5,
         )
     with baca.scope(m.get(29, 32)) as o:
         baca.flat_glissando(
@@ -394,9 +400,10 @@ def va(cache):
             baca.flat_glissando(o, "Aqf4", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="very-wide",
+            rleak=True,
+            staff_padding=5.5,
         )
     for item in [(9, 12), (26, 28)]:
         with baca.scope(m.get(item)) as o:
@@ -416,9 +423,10 @@ def va(cache):
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(abjad.select.leaves(o)[1:]),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            abjad.select.leaves(o)[1:],
             qualifier="very-wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.markup(
             o.leaf(1),
@@ -427,9 +435,10 @@ def va(cache):
         )
     with baca.scope(m.get(25, 28)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(o.leaves()[1:]),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            o.leaves()[1:],
             qualifier="very-wide",
+            rleak=True,
+            staff_padding=5.5,
         )
     with baca.scope(m.get(29, 32)) as o:
         baca.flat_glissando(

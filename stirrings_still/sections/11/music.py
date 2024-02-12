@@ -455,9 +455,10 @@ def v1(cache):
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.select.ltleaves(o),
             qualifier="wide-poss",
+            rleak=True,
+            staff_padding=8,
         )
         baca.mspanners.text(
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),
@@ -510,9 +511,10 @@ def v1(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[21]) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="tight",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.spanners.hairpin(
@@ -536,9 +538,10 @@ def v1(cache):
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.spanners.hairpin(o, '"ff" > mf')
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "Aqs4")
     with baca.scope(m.get(24, 31)) as o:
@@ -680,9 +683,10 @@ def v2(cache):
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.select.ltleaves(o),
             qualifier="wide-poss",
+            rleak=True,
+            staff_padding=8,
         )
         baca.mspanners.text(
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),
@@ -733,9 +737,10 @@ def v2(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[21]) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="tight",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.spanners.hairpin(
@@ -756,9 +761,10 @@ def v2(cache):
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.spanners.hairpin(o, '"ff" > mf')
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "Eb4")
     with baca.scope(m.get(24, 31)) as o:
@@ -857,9 +863,10 @@ def va(cache):
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.select.ltleaves(o),
             qualifier="wide-poss",
+            rleak=True,
+            staff_padding=8,
         )
         baca.mspanners.text(
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),
@@ -909,9 +916,10 @@ def va(cache):
         baca.flat_glissando(o, "G#3")
     with baca.scope(m[21]) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="tight",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.spanners.hairpin(
@@ -932,9 +940,10 @@ def va(cache):
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.spanners.hairpin(o, '"ff" > mf')
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bqf3")
     with baca.scope(m.get(24, 31)) as o:
@@ -1040,9 +1049,10 @@ def vc(cache):
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=8,
         )
         baca.mspanners.text(
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),

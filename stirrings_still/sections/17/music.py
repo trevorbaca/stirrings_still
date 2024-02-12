@@ -436,9 +436,10 @@ def v1(cache):
     with baca.scope(m.get(2, 9)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -473,9 +474,10 @@ def v1(cache):
     with baca.scope(m.get(25, 27)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            staff_padding=5.5,
+            rleak=True,
         )
         baca.rspanners.damp(
             baca.select.tleaves(o),
@@ -507,9 +509,10 @@ def v1(cache):
     with baca.scope(m.get(41, 42)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -541,9 +544,10 @@ def v1(cache):
     with baca.scope(m.get(53, 54)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -575,9 +579,10 @@ def v1(cache):
     with baca.scope(m[63]) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.tleaves(o),
@@ -609,9 +614,10 @@ def v1(cache):
     with baca.scope(m[69]) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.tleaves(o),
@@ -675,9 +681,10 @@ def v2(cache):
     with baca.scope(m.get(2, 13)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -704,9 +711,10 @@ def v2(cache):
     with baca.scope(m.get(22, 30)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -730,9 +738,10 @@ def v2(cache):
     with baca.scope(m.get(38, 45)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -756,9 +765,10 @@ def v2(cache):
     with baca.scope(m.get(51, 56)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -782,9 +792,10 @@ def v2(cache):
     with baca.scope(m.get(61, 64)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -812,9 +823,10 @@ def v2(cache):
     with baca.scope(m.get(68, 70)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -858,9 +870,10 @@ def va(cache):
     with baca.scope(m.get(2, 9)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -895,9 +908,10 @@ def va(cache):
     with baca.scope(m.get(22, 27)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -929,9 +943,10 @@ def va(cache):
     with baca.scope(m.get(38, 42)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -963,9 +978,10 @@ def va(cache):
     with baca.scope(m.get(51, 54)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -997,9 +1013,10 @@ def va(cache):
     with baca.scope(m.get(61, 63)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -1030,9 +1047,10 @@ def va(cache):
     with baca.scope(m.get(68, 69)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -1072,9 +1090,10 @@ def vc(cache):
             abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
         )
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -1112,9 +1131,10 @@ def vc(cache):
             abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
         )
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -1150,9 +1170,10 @@ def vc(cache):
             abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
         )
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -1187,9 +1208,10 @@ def vc(cache):
             abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
         )
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -1224,9 +1246,10 @@ def vc(cache):
             abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
         )
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -1265,9 +1288,10 @@ def vc(cache):
             abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
         )
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),

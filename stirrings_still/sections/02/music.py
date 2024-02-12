@@ -705,9 +705,10 @@ def v1(cache):
         )
     with baca.scope(m.get(12, 13)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="tight",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.flat_glissando(o.pleaves(), "C5")
     with baca.scope(m.get(12, 24)) as o:
@@ -808,9 +809,10 @@ def v1(cache):
         baca.flat_glissando(o, "F5")
     with baca.scope(m.get(61, 62)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
 
 
@@ -1009,9 +1011,10 @@ def tutti(cache):
                 )
         with baca.scope(m[42]) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="very-tight",
+                rleak=True,
+                staff_padding=5.5,
             )
             baca.rspanners.damp(
                 baca.select.ltleaves(o),
@@ -1267,9 +1270,10 @@ def v2(cache, time_signatures):
         baca.flat_glissando(o, "F#4")
     with baca.scope(m.get(58, 62)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
 
 
@@ -1306,15 +1310,17 @@ def va(cache):
     with baca.scope(m.get(6, 7)) as o:
         baca.flat_glissando(o, "Ab3")
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="tight",
+            rleak=True,
+            staff_padding=5.5,
         )
     with baca.scope(m.get(12, 21)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="tight",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -1446,9 +1452,10 @@ def va(cache):
         library.bcps(o, -2, clt=True, staff_padding=4)
     with baca.scope(m.get(60, 62)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
 
 
@@ -1491,9 +1498,10 @@ def vc(cache):
         library.clouded_pane_spanner(o, "clouded pane -|", 5.5)
     with baca.scope(m.get(12, 15)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="tight",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -1642,9 +1650,10 @@ def vc(cache):
         library.bcps(o, -4, clt=True, staff_padding=4)
     with baca.scope(m[62]) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
     with baca.scope(m[64]) as o:
         baca.spanners.hairpin(
