@@ -329,9 +329,10 @@ def vc(cache):
         baca.spanners.hairpin(o, "pp < fff-poco-scratch")
     with baca.scope(m.get(12, 13)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "Cb2", stop_pitch="Bb1")
         baca.spanners.hairpin(o, "fff > pp")

@@ -592,9 +592,10 @@ def v1(cache):
     for item in [(46, 50), 52, 54, 58]:
         with baca.scope(m.get(item)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(o.ltleaves()),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                o.ltleaves(),
                 qualifier="tight",
+                rleak=True,
+                staff_padding=5.5,
             )
             baca.rspanners.damp(
                 o.tleaves(),
@@ -708,9 +709,10 @@ def v1_v2_va(cache):
             )
         with baca.scope(m[23]) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="mod-width",
+                staff_padding=5.5,
+                rleak=True,
             )
             baca.spanners.hairpin(
                 o.rleaves(),
@@ -725,9 +727,10 @@ def v1_v2_va(cache):
             )
         with baca.scope(m[26]) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
+                staff_padding=5.5,
             )
             baca.spanners.hairpin(
                 o.rleaves(),
@@ -746,10 +749,11 @@ def v1_v2_va(cache):
             baca.dynamic(o.phead(0), "ppp")
         with baca.scope(m.get(30, 45)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 abjad.Tweak(r"- \tweak bound-details.right.padding 1.25"),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="very-wide",
+                rleak=True,
+                staff_padding=5.5,
             ),
         with baca.scope(m.get(41, 45)) as o:
             baca.breathe(o.pleaf(-1))
@@ -809,9 +813,10 @@ def tutti(cache):
             )
         with baca.scope(m[62]) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="very-tight",
+                rleak=True,
+                staff_padding=5.5,
             )
             baca.rspanners.damp(
                 baca.select.tleaves(o),
@@ -875,9 +880,10 @@ def v2(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "C4")
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="tight",
+                rleak=True,
+                staff_padding=5.5,
             )
             baca.rspanners.damp(
                 baca.select.tleaves(o),
@@ -943,9 +949,10 @@ def va(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "Ab3")
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="tight",
+                rleak=True,
+                staff_padding=5.5,
             )
             baca.rspanners.damp(
                 baca.select.tleaves(o),
@@ -1050,9 +1057,10 @@ def vc(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "G3")
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="tight",
+                rleak=True,
+                staff_padding=5.5,
             )
             baca.rspanners.damp(
                 baca.select.tleaves(o),

@@ -680,9 +680,10 @@ def tutti(cache):
             baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(1, 4)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="tight-poss-grind-at-talon",
+                staff_padding=5.5,
+                rleak=True,
             )
             baca.rspanners.damp(
                 baca.select.ltleaves(o),
@@ -755,15 +756,17 @@ def tutti(cache):
             )
         with baca.scope(m.get(24, 27)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
+                staff_padding=5.5,
             )
         with baca.scope(m.get(30, 33)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
+                staff_padding=5.5,
             )
             baca.rspanners.damp(
                 baca.select.ltleaves(o),
@@ -807,9 +810,10 @@ def tutti(cache):
             )
         with baca.scope(m.get(36, 59)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
+                staff_padding=5.5,
             )
         with baca.scope(m.get(56, 59)) as o:
             baca.breathe(o.pleaf(-1))
@@ -820,9 +824,10 @@ def tutti(cache):
             )
         with baca.scope(m.get(62, 69)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
+                staff_padding=5.5,
             )
             baca.spanners.hairpin(
                 o.rleaves(),

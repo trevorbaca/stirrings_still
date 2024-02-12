@@ -1,4 +1,3 @@
-import abjad
 import baca
 
 from stirrings_still import library
@@ -252,9 +251,10 @@ def v1(cache):
     for item in [(6, 7), 10, (16, 17), (20, 25)]:
         with baca.scope(m.get(item)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(rf"- \tweak staff-padding {v1_spanner_staff_padding}"),
+                baca.select.ltleaves(o),
                 qualifier="wide-poss",
+                rleak=True,
+                staff_padding=v1_spanner_staff_padding,
             )
     with baca.scope(m.get(16, 17)) as o:
         baca.piecewise.hairpin(
@@ -303,9 +303,10 @@ def v2(cache):
     for item in [5, 7, 9, 15, 17, (19, 25)]:
         with baca.scope(m.get(item)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(rf"- \tweak staff-padding {v2_spanner_staff_padding}"),
+                baca.select.ltleaves(o),
                 qualifier="wide-poss",
+                rleak=True,
+                staff_padding=v2_spanner_staff_padding,
             )
     with baca.scope(m[5]) as o:
         baca.piecewise.hairpin(
@@ -363,9 +364,10 @@ def va(cache):
     for item in [(8, 10), (18, 25)]:
         with baca.scope(m.get(item)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(rf"- \tweak staff-padding {va_spanner_staff_padding}"),
+                baca.select.ltleaves(o),
                 qualifier="wide-poss",
+                rleak=True,
+                staff_padding=va_spanner_staff_padding,
             )
     with baca.scope(m.get(18, 20)) as o:
         baca.piecewise.hairpin(
@@ -400,9 +402,10 @@ def vc(cache):
     for item in [(6, 8), (16, 25)]:
         with baca.scope(m.get(item)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
-                abjad.Tweak(rf"- \tweak staff-padding {vc_spanner_staff_padding}"),
+                baca.select.ltleaves(o),
                 qualifier="wide-poss",
+                rleak=True,
+                staff_padding=vc_spanner_staff_padding,
             )
     with baca.scope(m.get(16, 18)) as o:
         baca.piecewise.hairpin(

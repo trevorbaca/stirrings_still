@@ -105,9 +105,10 @@ def v1(cache):
     m = cache[name]
     with baca.scope(m.get(1, 6)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="granulation",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "Eb4")
         baca.spanners.hairpin(
@@ -117,9 +118,10 @@ def v1(cache):
         )
     with baca.scope(m[7]) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "Aqs4")
         baca.spanners.hairpin(
@@ -145,9 +147,10 @@ def v2(cache):
     m = cache[name]
     with baca.scope(m.get(1, 6)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="granulation",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "D4")
         baca.spanners.hairpin(
@@ -157,9 +160,10 @@ def v2(cache):
         )
     with baca.scope(m[7]) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         ),
         baca.flat_glissando(o, "Eb4")
         baca.spanners.hairpin(o.rleaves(), "mf >o !")
@@ -175,9 +179,10 @@ def va(cache):
     m = cache[name]
     with baca.scope(m.get(1, 6)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="granulation",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "G3")
         baca.spanners.hairpin(
@@ -187,9 +192,10 @@ def va(cache):
         )
     with baca.scope(m[7]) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bqf3")
         baca.spanners.hairpin(
@@ -208,9 +214,10 @@ def vc(cache):
     m = cache[name]
     with baca.scope(m.get(1, 6)) as o:
         baca.mspanners.circle_bow(
-            baca.select.rleak(baca.select.ltleaves(o)),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.select.ltleaves(o),
             qualifier="granulation",
+            rleak=True,
+            staff_padding=5.5,
         )
         baca.flat_glissando(o, "Ab3")
         baca.spanners.hairpin(
