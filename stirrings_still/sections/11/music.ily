@@ -9519,8 +9519,6 @@ number.11.Cello.Music = {
     df,!2
 
     df,!8
-      %! SPANNER_STOP
-    \bacaStopTextSpanSCP
     \revert Dots.transparent
     \revert Stem.transparent
 
@@ -9546,6 +9544,8 @@ number.11.Cello.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
+      %! SPANNER_STOP
+    \bacaStopTextSpanSCP
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
     \revert DynamicLineSpanner.staff-padding
