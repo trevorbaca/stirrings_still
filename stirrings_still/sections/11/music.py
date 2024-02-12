@@ -646,7 +646,6 @@ def tutti(cache):
             baca.mspanners.text(
                 o.rleaves(),
                 "each time more ponticello =|",
-                bookend=False,
                 lilypond_id=2,
                 staff_padding=8,
             )
@@ -654,7 +653,6 @@ def tutti(cache):
             baca.mspanners.text(
                 o.rleaves(),
                 "each time less ponticello =|",
-                bookend=False,
                 lilypond_id=2,
                 staff_padding=10.5,
             )
