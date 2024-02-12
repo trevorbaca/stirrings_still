@@ -516,7 +516,7 @@ def v1(cache):
         baca.mspanners.scp(
             baca.select.lparts(o.rleaves(), [1, 2, 1, 4 + 1]),
             "T -> P -> T -> P =|",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
 
@@ -643,7 +643,7 @@ def v1_v2_va(cache):
             baca.mspanners.scp(
                 baca.select.mgroups(o.rleaves(), [2, 1 + 1]),
                 "P -> T =|",
-                bookend=False,
+                do_not_bookend=True,
                 staff_padding=5.5,
             )
             library.urtext_spanner(o, "urtext (resumes) -|", 8)
@@ -688,25 +688,25 @@ def tutti_1(cache):
             baca.piecewise.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 "mp p",
-                bookend=False,
+                do_not_bookend=True,
             )
         with baca.scope(m.get(13, 18)) as o:
             baca.piecewise.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 "mf mp",
-                bookend=False,
+                do_not_bookend=True,
             )
         with baca.scope(m.get(19, 24)) as o:
             baca.piecewise.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 '"f" mf',
-                bookend=False,
+                do_not_bookend=True,
             )
         with baca.scope(m.get(25, 30)) as o:
             baca.piecewise.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 '"ff" "f"',
-                bookend=False,
+                do_not_bookend=True,
             )
         with baca.scope(m.get(31, 36)) as o:
             baca.dynamic(o.phead(0), '"ff"')
@@ -760,7 +760,7 @@ def v2(cache):
         baca.mspanners.scp(
             baca.select.lparts(o.rleaves(), [2, 1, 1, 4 + 1]),
             "T -> P -> T -> P =|",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
 

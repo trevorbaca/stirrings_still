@@ -462,7 +462,7 @@ def v1(cache):
         baca.mspanners.text(
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bqf5")
@@ -556,7 +556,7 @@ def v1(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Aqf5")
@@ -568,7 +568,7 @@ def v1(cache):
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
-            bookend=False,
+            do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             staff_padding=8,
@@ -577,7 +577,7 @@ def v1(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(32, 53)) as o:
@@ -593,7 +593,7 @@ def v1(cache):
         baca.mspanners.text(
             baca.select.plts(o),
             r"\baca-null-markup || \baca-null-markup || \baca-damp-markup =|",
-            bookend=False,
+            do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             staff_padding=8,
@@ -602,7 +602,7 @@ def v1(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "T1 -> T3 -> T2 -> T3 ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(41, 42)) as o:
@@ -687,7 +687,7 @@ def v2(cache):
         baca.mspanners.text(
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bb4")
@@ -775,7 +775,7 @@ def v2(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "F5")
@@ -787,7 +787,7 @@ def v2(cache):
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
-            bookend=False,
+            do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             staff_padding=8,
@@ -796,7 +796,7 @@ def v2(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(32, 53)) as o:
@@ -811,7 +811,7 @@ def v2(cache):
         baca.mspanners.text(
             baca.select.plts(o),
             r"\baca-null-markup || \baca-damp-markup =| \baca-null-markup ||",
-            bookend=False,
+            do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             staff_padding=8,
@@ -820,7 +820,7 @@ def v2(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "T1 -> T3 -> T2 -> T3 ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(41, 42)) as o:
@@ -864,7 +864,7 @@ def va(cache):
         baca.mspanners.text(
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bqf3")
@@ -951,7 +951,7 @@ def va(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "G3")
@@ -963,7 +963,7 @@ def va(cache):
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
-            bookend=False,
+            do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             staff_padding=8,
@@ -972,7 +972,7 @@ def va(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(32, 53)) as o:
@@ -987,7 +987,7 @@ def va(cache):
         baca.mspanners.text(
             baca.select.plts(o)[:-1],
             r"\baca-null-markup || \baca-damp-markup =|",
-            bookend=False,
+            do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             staff_padding=8,
@@ -996,7 +996,7 @@ def va(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "T1 -> T3 -> T2 -> T3 ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(43, 45)) as o:
@@ -1047,7 +1047,7 @@ def vc(cache):
         baca.mspanners.text(
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bb2")
@@ -1116,7 +1116,7 @@ def vc(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Eb2")
@@ -1126,7 +1126,7 @@ def vc(cache):
         baca.mspanners.scp(
             baca.select.plts(leaves)[:-1],
             "T -> P ->",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -1135,7 +1135,7 @@ def vc(cache):
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
-            bookend=False,
+            do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             staff_padding=8,
@@ -1159,7 +1159,7 @@ def vc(cache):
         baca.mspanners.scp(
             baca.select.cmgroups(leaves, [8, 8]),
             "T -> T poss. =|",
-            bookend=False,
+            do_not_bookend=True,
             staff_padding=5.5,
         )
 
