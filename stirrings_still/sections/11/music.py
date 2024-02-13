@@ -650,7 +650,6 @@ def tutti(cache):
                 o,
                 "each time more ponticello =|",
                 lilypond_id=2,
-                rleak=True,
                 staff_padding=8,
             )
         with baca.scope(m.get(32, 37)) as o:
@@ -658,7 +657,6 @@ def tutti(cache):
                 o,
                 "each time less ponticello =|",
                 lilypond_id=2,
-                rleak=True,
                 staff_padding=10.5,
             )
         with baca.scope(m.get(46, 53)) as o:
