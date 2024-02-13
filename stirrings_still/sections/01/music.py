@@ -594,7 +594,6 @@ def v1(cache):
             baca.mspanners.circle_bow(
                 o.ltleaves(),
                 qualifier="tight",
-                rleak=True,
                 staff_padding=5.5,
             )
             baca.rspanners.damp(
@@ -712,7 +711,6 @@ def v1_v2_va(cache):
                 baca.select.ltleaves(o),
                 qualifier="mod-width",
                 staff_padding=5.5,
-                rleak=True,
             )
             baca.spanners.hairpin(
                 o.rleaves(),
@@ -729,7 +727,6 @@ def v1_v2_va(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
-                rleak=True,
                 staff_padding=5.5,
             )
             baca.spanners.hairpin(
@@ -752,7 +749,6 @@ def v1_v2_va(cache):
                 baca.select.ltleaves(o),
                 abjad.Tweak(r"- \tweak bound-details.right.padding 1.25"),
                 qualifier="very-wide",
-                rleak=True,
                 staff_padding=5.5,
             ),
         with baca.scope(m.get(41, 45)) as o:
@@ -817,7 +813,6 @@ def tutti(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="very-tight",
-                rleak=True,
                 staff_padding=5.5,
             )
             baca.rspanners.damp(
@@ -884,7 +879,6 @@ def v2(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="tight",
-                rleak=True,
                 staff_padding=5.5,
             )
             baca.rspanners.damp(
@@ -953,7 +947,6 @@ def va(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="tight",
-                rleak=True,
                 staff_padding=5.5,
             )
             baca.rspanners.damp(
@@ -1062,7 +1055,6 @@ def vc(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="tight",
-                rleak=True,
                 staff_padding=5.5,
             )
             baca.rspanners.damp(

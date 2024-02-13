@@ -683,7 +683,6 @@ def tutti(cache):
                 baca.select.ltleaves(o),
                 qualifier="tight-poss-grind-at-talon",
                 staff_padding=5.5,
-                rleak=True,
             )
             baca.rspanners.damp(
                 baca.select.ltleaves(o),
@@ -697,7 +696,7 @@ def tutti(cache):
             )
         with baca.scope(m.get(7, 10)) as o:
             baca.mspanners.circle_bow(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight-poss-grind-at-talon",
             )
@@ -759,14 +758,12 @@ def tutti(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
-                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(30, 33)) as o:
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
-                rleak=True,
                 staff_padding=5.5,
             )
             baca.rspanners.damp(
@@ -813,7 +810,6 @@ def tutti(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
-                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(56, 59)) as o:
@@ -827,7 +823,6 @@ def tutti(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
-                rleak=True,
                 staff_padding=5.5,
             )
             baca.spanners.hairpin(

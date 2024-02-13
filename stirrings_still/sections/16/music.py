@@ -253,7 +253,6 @@ def v1(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide-poss",
-                rleak=True,
                 staff_padding=v1_spanner_staff_padding,
             )
     with baca.scope(m.get(16, 17)) as o:
@@ -305,7 +304,6 @@ def v2(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide-poss",
-                rleak=True,
                 staff_padding=v2_spanner_staff_padding,
             )
     with baca.scope(m[5]) as o:
@@ -366,7 +364,6 @@ def va(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide-poss",
-                rleak=True,
                 staff_padding=va_spanner_staff_padding,
             )
     with baca.scope(m.get(18, 20)) as o:
@@ -404,7 +401,6 @@ def vc(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide-poss",
-                rleak=True,
                 staff_padding=vc_spanner_staff_padding,
             )
     with baca.scope(m.get(16, 18)) as o:

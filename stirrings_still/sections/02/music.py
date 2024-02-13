@@ -707,7 +707,6 @@ def v1(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="tight",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o.pleaves(), "C5")
@@ -812,7 +811,6 @@ def v1(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
-            rleak=True,
             staff_padding=5.5,
         )
 
@@ -1019,7 +1017,6 @@ def tutti(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="very-tight",
-                rleak=True,
                 staff_padding=5.5,
             )
             baca.rspanners.damp(
@@ -1277,7 +1274,6 @@ def v2(cache, time_signatures):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
-            rleak=True,
             staff_padding=5.5,
         )
 
@@ -1317,14 +1313,12 @@ def va(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="tight",
-            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(12, 21)) as o:
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="tight",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.rspanners.damp(
@@ -1460,7 +1454,6 @@ def va(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
-            rleak=True,
             staff_padding=5.5,
         )
 
@@ -1506,7 +1499,6 @@ def vc(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="tight",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.rspanners.damp(
@@ -1659,7 +1651,6 @@ def vc(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
-            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m[64]) as o:
