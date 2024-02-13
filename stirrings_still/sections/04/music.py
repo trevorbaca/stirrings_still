@@ -533,9 +533,10 @@ def v1_v2(cache):
             )
         with baca.scope(m.get(86, 92)) as o:
             baca.piecewise.hairpin(
-                baca.select.mgroups(o.rleaves(), [3, 4 + 1]),
+                baca.select.mgroups(o, [3, 4]),
                 "(p) < mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                rleak=True,
             )
         with baca.scope(m.get(90, 92)) as o:
             library.urtext_spanner(o, "urtext (NEW cds) -|", 8)
@@ -579,9 +580,10 @@ def v1_v2_va(cache):
                 library.urtext_spanner(o, "A, B -|", 8)
         with baca.scope(m[65]) as o:
             baca.spanners.hairpin(
-                o.rleaves(),
+                o,
                 "p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                rleak=True,
             )
             baca.rspanners.tasto(
                 o,
@@ -595,9 +597,10 @@ def v1_v2_va(cache):
                 staff_padding=5.5,
             )
             baca.spanners.hairpin(
-                baca.select.rleak(baca.select.ltleaves(o)),
+                baca.select.ltleaves(o),
                 "mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                rleak=True,
             )
             if name == "v1":
                 baca.flat_glissando(o, "Aqs4")
@@ -637,8 +640,9 @@ def v1_v2_va(cache):
         with baca.scope(m.get(94, 96)) as o:
             baca.stem_tremolo(o)
             baca.spanners.hairpin(
-                o.rleaves(),
+                o,
                 "mp >o",
+                rleak=True,
             )
             baca.mspanners.scp(
                 baca.select.mgroups(o, [2, 1]),
@@ -658,9 +662,10 @@ def v1_v2_va(cache):
                 staff_padding=8,
             ),
             baca.spanners.hairpin(
-                o.rleaves(),
+                o,
                 "p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                rleak=True,
             )
             pitch, stop_pitch = {
                 "v1": ("Bb4", None),
@@ -788,9 +793,10 @@ def va(cache):
         )
     with baca.scope(m[57]) as o:
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "pp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            rleak=True,
         )
         baca.pitch(o, "Bb2")
         library.flight_spanner(o, "memory of flight -|", 5.5)
@@ -827,9 +833,10 @@ def vc(cache):
     with baca.scope(m[38]) as o:
         baca.flat_glissando(o, "A5")
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             '"f" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            rleak=True,
         )
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -849,9 +856,10 @@ def vc(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "E2")
             baca.spanners.hairpin(
-                o.rleaves(),
+                o,
                 "p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                rleak=True,
             )
             if item == (49, 50):
                 baca.clef(o.leaf(0), "bass")
@@ -872,9 +880,10 @@ def vc(cache):
         library.clouded_pane_spanner(o, "clouded pane (arrival) -|", 5.5)
     with baca.scope(m.get(86, 92)) as o:
         baca.piecewise.hairpin(
-            baca.select.mgroups(o.rleaves(), [3, 4 + 1]),
+            baca.select.mgroups(o, [3, 4]),
             "(p) < fff -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            rleak=True,
         )
     with baca.scope(cache["vcr"][93]) as o:
         baca.override.tacet(o.mmrests())
@@ -886,7 +895,7 @@ def vc(cache):
             5.5,
         )
     with baca.scope(m.get(94, 96)) as o:
-        baca.spanners.hairpin(o.rleaves(), "o< p")
+        baca.spanners.hairpin(o, "o< p", rleak=True)
 
 
 def v1_stage_2(cache):

@@ -253,12 +253,13 @@ def v1_v2_va(cache):
             )
         with baca.scope(m.get(13, 16)) as o:
             baca.spanners.hairpin(
-                baca.select.rleak(o.leaves(), count=2),
+                baca.select.rleak(o),
                 "o< ff",
+                rleak=True,
             )
         with baca.scope(m.get(17, 20)) as o:
             baca.spanners.hairpin(
-                o.leaves()[1:],
+                o[1:],
                 ">o",
             )
         with baca.scope(m.get(21, 32)) as o:
@@ -454,9 +455,10 @@ def vc(cache):
         )
     with baca.scope(m.get(7, 32)) as o:
         baca.piecewise.hairpin(
-            baca.select.mgroups(o.rleaves(), [2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]),
+            baca.select.mgroups(o, [2, 4, 2, 2, 4, 2, 3, 3, 4]),
             "(fff) > f < fff -- (fff) > f < fff -- (fff) > f < fff",
             do_not_bookend=True,
+            rleak=True,
         )
     with baca.scope(m.get(29)) as o:
         baca.override.hairpin_to_bar_line(o.leaf(0), True)

@@ -162,11 +162,9 @@ def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         with baca.scope(cache[name].leaves()) as o:
             baca.piecewise.hairpin(
-                baca.select.mgroups(
-                    o.rleaves(),
-                    [2, 1, 1, 2, 1, 1, 2, 1, 1, 4 + 1],
-                ),
+                baca.select.mgroups(o, [2, 1, 1, 2, 1, 1, 2, 1, 1, 4]),
                 '"f" > p p < "ff" > p p < "fff" > p p < "fff" >o !',
+                rleak=True,
             )
 
 

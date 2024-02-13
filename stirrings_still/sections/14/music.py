@@ -187,7 +187,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     with baca.scope(m.get(13, 19)) as o:
-        baca.spanners.hairpin(o.rleaves(), "o< f")
+        baca.spanners.hairpin(o, "o< f", rleak=True)
         baca.mspanners.scp(
             [o],
             "T -> O",
@@ -231,9 +231,10 @@ def v1(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[29]) as o:
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            rleak=True,
         )
         baca.markup(
             o.pleaf(0),
@@ -261,8 +262,9 @@ def v1(cache):
         baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "G4", stop_pitch="F4")
         baca.piecewise.hairpin(
-            baca.select.cmgroups(o.rleaves()),
+            baca.select.cmgroups(o),
             "p -- ! >o !",
+            rleak=True,
         )
         baca.mspanners.text(
             [o],
@@ -279,8 +281,9 @@ def v1_v2_va(cache):
             library.clouded_pane_spanner(o, "clouded pane -|", 8)
         with baca.scope(m.get(6, 8)) as o:
             baca.spanners.hairpin(
-                o.rleaves(),
+                o,
                 "(fff) >o !",
+                rleak=True,
             )
     for name in ["v1r", "v2r", "var"]:
         m = cache[name]
@@ -368,9 +371,10 @@ def v2(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[29]) as o:
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            rleak=True,
         )
         baca.markup(
             o.pleaf(0),
@@ -398,8 +402,9 @@ def v2(cache):
         baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "F4", stop_pitch="E4")
         baca.piecewise.hairpin(
-            baca.select.cmgroups(o.rleaves()),
+            baca.select.cmgroups(o),
             "p -- ! >o !",
+            rleak=True,
         )
         baca.mspanners.text(
             [o],
@@ -469,9 +474,10 @@ def va(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[29]) as o:
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            rleak=True,
         )
         baca.markup(
             o.pleaf(0),
@@ -499,8 +505,9 @@ def va(cache):
         baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "Ab3", stop_pitch="Gb3")
         baca.piecewise.hairpin(
-            baca.select.cmgroups(o.rleaves()),
+            baca.select.cmgroups(o),
             "p -- ! >o !",
+            rleak=True,
         )
         baca.mspanners.text(
             [o],
@@ -520,7 +527,7 @@ def vc(cache):
     with baca.scope(m.get(1, 22)) as o:
         baca.flat_glissando(o, "Bb1")
     with baca.scope(m.get(6, 8)) as o:
-        baca.spanners.hairpin(o.rleaves(), "(fff) > p")
+        baca.spanners.hairpin(o, "(fff) > p", rleak=True)
     with baca.scope(m.get(11, 12)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -535,7 +542,7 @@ def vc(cache):
         with baca.scope(m.get(item)) as o:
             library.clouded_pane_spanner(o, "clouded pane -|", 8)
     with baca.scope(m.get(17, 22)) as o:
-        baca.spanners.hairpin(o.rleaves(), "(p) >o")
+        baca.spanners.hairpin(o, "(p) >o", rleak=True)
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
         baca.piecewise.hairpin(
@@ -565,9 +572,10 @@ def vc(cache):
     m = cache[name]
     with baca.scope(m[29]) as o:
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            rleak=True,
         )
         baca.markup(
             o.pleaf(0),
@@ -595,8 +603,9 @@ def vc(cache):
     with baca.scope(m.get(37, 38)) as o:
         baca.flat_glissando(o, "B1")
         baca.piecewise.hairpin(
-            baca.select.cmgroups(o.rleaves()),
+            baca.select.cmgroups(o),
             "p -- ! >o !",
+            rleak=True,
         )
         baca.rspanners.tasto(
             o,

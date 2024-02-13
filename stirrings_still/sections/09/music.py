@@ -115,7 +115,7 @@ def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(4, 7)) as o:
-            baca.spanners.hairpin(o.rleaves(), "(mp) >o !")
+            baca.spanners.hairpin(o, "(mp) >o !", rleak=True)
     for name in ["v1r", "v2r", "var"]:
         m = cache[name]
         with baca.scope(m[8]) as o:
@@ -127,9 +127,10 @@ def v1_v2_va(cache):
         with baca.scope(m.get(10, 11)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
             baca.spanners.hairpin(
-                o.rleaves(),
+                o,
                 "appena-udibile -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                rleak=True,
             )
             # TODO: allow right-broken spanner
             library.urtext_spanner(
@@ -176,9 +177,10 @@ def va(cache):
     m = cache[name]
     with baca.scope(m.get(1, 3)) as o:
         baca.spanners.hairpin(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            o.ltleaves(),
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            rleak=True,
         )
     with baca.scope(m.get(1, 7)) as o:
         baca.mspanners.circle_bow(
@@ -212,7 +214,7 @@ def vc(cache):
     m = cache["vc"]
     with baca.scope(m.leaves()) as o:
         baca.piecewise.hairpin(
-            baca.select.mgroups(o.leaves(), [5, 4, 1 + 1]),
+            baca.select.mgroups(o, [5, 4, 1 + 1]),
             'p < "f" -- "f" >o !',
             rleak=True,
         )
