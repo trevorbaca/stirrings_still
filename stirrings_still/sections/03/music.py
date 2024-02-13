@@ -726,9 +726,10 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
             )
             baca.mspanners.text(
-                baca.select.omgroups(o.rleaves(), [2]),
+                baca.select.omgroups(o, [2]),
                 r"\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|",
                 do_not_bookend=True,
+                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(12, 27)) as o:
@@ -738,20 +739,20 @@ def tutti(cache):
                 staff_padding=8,
             )
         with baca.scope(m.get(16, 19)) as o:
-            leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.mspanners.text(
-                baca.select.omgroups(leaves, [2]),
+                baca.select.omgroups(o, [2]),
                 r"\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|",
                 do_not_bookend=True,
+                rleak=True,
                 staff_padding=5.5,
             ),
         with baca.scope(m.get(20, 23)) as o:
-            leaves = baca.select.rleak(baca.select.ltleaves(o))
             baca.mspanners.text(
-                baca.select.omgroups(leaves, [2]),
+                baca.select.omgroups(o, [2]),
                 r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
                 library.left_broken_circle_bow_tweak(),
                 do_not_bookend=True,
+                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(24, 27)) as o:
@@ -862,11 +863,12 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
             )
             baca.mspanners.text(
-                baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
+                baca.select.mgroups(o, [3, 3]),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 # spanner terminates at double bar:
                 (abjad.Tweak(r"- \tweak bound-details.right.padding 7.75"), -1),
                 do_not_bookend=True,
+                rleak=True,
                 staff_padding=5.5,
             )
 
