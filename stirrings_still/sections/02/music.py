@@ -936,15 +936,17 @@ def tutti(cache):
                 direction=abjad.DOWN,
             )
             baca.mspanners.text(
-                o.rleaves(),
+                o,
                 "2° =|",
                 lilypond_id=1,
+                rleak=True,
                 staff_padding=8,
             )
             baca.mspanners.text(
-                baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
+                baca.select.mgroups(o, [1, 1]),
                 "rasp -> flaut. =|",
                 do_not_bookend=True,
+                rleak=True,
                 staff_padding=5.5,
             )
             library.urtext_spanner(o, "urtext (rasp) -|", 10.5)

@@ -464,6 +464,7 @@ def v1(cache):
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bqf5")
@@ -571,6 +572,7 @@ def v1(cache):
             " trem. larghiss. -> no trem.",
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
             do_not_bookend=True,
+            do_not_rleak=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             staff_padding=8,
@@ -595,6 +597,7 @@ def v1(cache):
             baca.select.plts(o),
             r"\baca-null-markup || \baca-null-markup || \baca-damp-markup =|",
             do_not_bookend=True,
+            do_not_rleak=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             staff_padding=8,
@@ -648,16 +651,18 @@ def tutti(cache):
                 baca.spanners.hairpin(o.rleaves(), "pp < mp")
         with baca.scope(m.get(24, 31)) as o:
             baca.mspanners.text(
-                o.rleaves(),
+                o,
                 "each time more ponticello =|",
                 lilypond_id=2,
+                rleak=True,
                 staff_padding=8,
             )
         with baca.scope(m.get(32, 37)) as o:
             baca.mspanners.text(
-                o.rleaves(),
+                o,
                 "each time less ponticello =|",
                 lilypond_id=2,
+                rleak=True,
                 staff_padding=10.5,
             )
         with baca.scope(m.get(46, 53)) as o:
@@ -690,6 +695,7 @@ def v2(cache):
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bb4")
@@ -792,6 +798,7 @@ def v2(cache):
             " trem. larghiss. -> no trem.",
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
             do_not_bookend=True,
+            do_not_rleak=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             staff_padding=8,
@@ -813,9 +820,10 @@ def v2(cache):
     with baca.scope(m.get(38, 45)) as o:
         baca.accent(o.pheads())
         baca.mspanners.text(
-            baca.select.plts(o),
+            o.plts(),
             r"\baca-null-markup || \baca-damp-markup =| \baca-null-markup ||",
             do_not_bookend=True,
+            do_not_rleak=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             staff_padding=8,
@@ -870,6 +878,7 @@ def va(cache):
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bqf3")
@@ -970,6 +979,7 @@ def va(cache):
             " trem. larghiss. -> no trem.",
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
             do_not_bookend=True,
+            do_not_rleak=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             staff_padding=8,
@@ -993,6 +1003,7 @@ def va(cache):
             baca.select.plts(o)[:-1],
             r"\baca-null-markup || \baca-damp-markup =|",
             do_not_bookend=True,
+            do_not_rleak=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             staff_padding=8,
@@ -1053,6 +1064,7 @@ def vc(cache):
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
             do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bb2")
@@ -1139,6 +1151,7 @@ def vc(cache):
             " trem. larghiss. -> no trem.",
             abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
             do_not_bookend=True,
+            do_not_rleak=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
             staff_padding=8,
