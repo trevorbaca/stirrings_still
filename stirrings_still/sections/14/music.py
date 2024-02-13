@@ -191,7 +191,6 @@ def v1(cache):
         baca.mspanners.scp(
             [o],
             "T -> O",
-            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
@@ -329,7 +328,6 @@ def v2(cache):
         baca.mspanners.scp(
             [o],
             "T -> O",
-            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
@@ -433,7 +431,6 @@ def va(cache):
             [o],
             "T -> O",
             staff_padding=5.5,
-            rleak=True,
         )
     with baca.scope(m.get(13, 22)) as o:
         baca.flat_glissando(o, "<C3 Aqs3>", hide_middle_stems=True)

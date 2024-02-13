@@ -599,7 +599,6 @@ def v1(cache):
             baca.select.mgroups(o, [1, 1]),
             "T -> poco P =|",
             do_not_bookend=True,
-            rleak=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -784,6 +783,7 @@ def v1_v2_va(cache):
             baca.mspanners.scp(
                 o.plts(),
                 "P -> T ->",
+                do_not_rleak=True,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
@@ -792,6 +792,7 @@ def v1_v2_va(cache):
             baca.mspanners.scp(
                 o.plts(),
                 "P -> T ->",
+                do_not_rleak=True,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
@@ -812,6 +813,7 @@ def v1_v2_va(cache):
                 baca.mspanners.scp(
                     o.plts(),
                     "P -> T ->",
+                    do_not_rleak=True,
                     staff_padding=5.5,
                 )
             elif name == "v2":
@@ -825,6 +827,7 @@ def v1_v2_va(cache):
                 baca.mspanners.scp(
                     o.plts(),
                     "P -> T ->",
+                    do_not_rleak=True,
                     staff_padding=5.5,
                 )
             baca.stem_tremolo(o.pleaves())
@@ -840,6 +843,7 @@ def v1_v2_va(cache):
             baca.mspanners.scp(
                 o.plts(),
                 "P -> T ->",
+                do_not_rleak=True,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
@@ -989,7 +993,6 @@ def v2(cache):
             baca.select.mgroups(o.rleaves(), [2, 1]),
             "T -> poco P =|",
             do_not_bookend=True,
-            rleak=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -1119,7 +1122,6 @@ def va(cache):
             baca.select.mgroups(o, [3, 1]),
             "T -> poco P =|",
             do_not_bookend=True,
-            rleak=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())

@@ -517,7 +517,6 @@ def v1(cache):
             baca.select.lparts(o, [1, 2, 1, 4]),
             "T -> P -> T -> P =|",
             do_not_bookend=True,
-            rleak=True,
             staff_padding=5.5,
         )
 
@@ -645,7 +644,6 @@ def v1_v2_va(cache):
                 baca.select.mgroups(o, [2, 1]),
                 "P -> T =|",
                 do_not_bookend=True,
-                rleak=True,
                 staff_padding=5.5,
             )
             library.urtext_spanner(o, "urtext (resumes) -|", 8)
@@ -763,7 +761,6 @@ def v2(cache):
             baca.select.lparts(o, [2, 1, 1, 4]),
             "T -> P -> T -> P =|",
             do_not_bookend=True,
-            rleak=True,
             staff_padding=5.5,
         )
 
