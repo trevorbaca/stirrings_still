@@ -268,7 +268,6 @@ def v1(cache):
             [o],
             "slow bow -> stopped",
             abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
-            rleak=True,
             staff_padding=5.5,
         )
 
@@ -406,7 +405,6 @@ def v2(cache):
             [o],
             "slow bow -> stopped",
             abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
-            rleak=True,
             staff_padding=5.5,
         )
 
@@ -508,7 +506,6 @@ def va(cache):
             [o],
             "slow bow -> stopped",
             abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
-            rleak=True,
             staff_padding=5.5,
         )
 
@@ -609,7 +606,6 @@ def vc(cache):
             [o],
             "slow bow -> stopped",
             abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
-            rleak=True,
             staff_padding=5.5,
         )
 

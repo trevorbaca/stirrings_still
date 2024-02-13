@@ -852,7 +852,6 @@ def v1_v2_va(cache):
                 baca.select.mgroups(o, [3, 1]),
                 "trem. ord. -> larghiss. =|",
                 do_not_bookend=True,
-                rleak=True,
                 staff_padding=10.5,
             )
         with baca.scope(m.get(120, 127)) as o:
@@ -1288,7 +1287,6 @@ def vc(cache):
         baca.mspanners.text(
             [o],
             "overpressure harmonic -> ord.",
-            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(20, 27)) as o:

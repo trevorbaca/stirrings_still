@@ -728,7 +728,6 @@ def tutti(cache):
                 baca.select.omgroups(o, [2]),
                 r"\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|",
                 do_not_bookend=True,
-                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(12, 27)) as o:
@@ -742,7 +741,6 @@ def tutti(cache):
                 baca.select.omgroups(o, [2]),
                 r"\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|",
                 do_not_bookend=True,
-                rleak=True,
                 staff_padding=5.5,
             ),
         with baca.scope(m.get(20, 23)) as o:
@@ -751,7 +749,6 @@ def tutti(cache):
                 r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
                 library.left_broken_circle_bow_tweak(),
                 do_not_bookend=True,
-                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(24, 27)) as o:
@@ -863,7 +860,6 @@ def tutti(cache):
                 # spanner terminates at double bar:
                 (abjad.Tweak(r"- \tweak bound-details.right.padding 7.75"), -1),
                 do_not_bookend=True,
-                rleak=True,
                 staff_padding=5.5,
             )
 

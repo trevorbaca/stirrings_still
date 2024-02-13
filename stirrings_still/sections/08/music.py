@@ -426,14 +426,12 @@ def v2(cache):
             o,
             "2° =|",
             lilypond_id=1,
-            rleak=True,
             staff_padding=8,
         )
         baca.mspanners.text(
             baca.select.mgroups(o, [3, 5]),
             "rasp -> flaut. =|",
             do_not_bookend=True,
-            rleak=True,
             staff_padding=5.5,
         )
         library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
@@ -453,7 +451,6 @@ def v2(cache):
             r" \baca-circle-mod-markup ->"
             r" \baca-circle-wide-markup =|",
             do_not_bookend=True,
-            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(11, 14)) as o:
@@ -606,7 +603,6 @@ def vc(cache):
         baca.mspanners.text(
             baca.select.mgroups(o, [8, 6, 5]),
             "no overpressure -> molto overpressure =|" " (molto) -> no overpressure.",
-            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(23, 31)) as o:
@@ -723,7 +719,6 @@ def v1_v2_va(cache):
                 baca.select.mgroups(o, [1, 1]),
                 r"\baca-circle-very-wide-markup -> \baca-circle-tight-markup =|",
                 do_not_bookend=True,
-                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(38, 40)) as o:
@@ -736,7 +731,6 @@ def v1_v2_va(cache):
                 baca.select.mgroups(o, [1, 2]),
                 r"\baca-circle-wide-markup -> \baca-circle-tight-markup =|",
                 do_not_bookend=True,
-                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(42, 45)) as o:
@@ -749,7 +743,6 @@ def v1_v2_va(cache):
                 baca.select.mgroups(o, [2, 2]),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 do_not_bookend=True,
-                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(47, 51)) as o:
@@ -782,7 +775,6 @@ def v1_v2_va(cache):
                 baca.select.mgroups(o, [3, 2]),
                 r"\baca-circle-very-tight-markup -> \baca-circle-wide-markup =|",
                 do_not_bookend=True,
-                rleak=True,
                 staff_padding=5.5,
             )
             baca.override.tuplet_bracket_down(o)
@@ -873,7 +865,6 @@ def v1_va(cache):
                 r" \baca-circle-mod-markup ->"
                 r" \baca-circle-wide-markup =|",
                 do_not_bookend=True,
-                rleak=True,
                 staff_padding=5.5,
             )
 
@@ -973,14 +964,12 @@ def tutti(cache):
                     o,
                     "2° =|",
                     lilypond_id=1,
-                    rleak=True,
                     staff_padding=8,
                 )
                 baca.mspanners.text(
                     baca.select.mgroups(o, [3, 2]),
                     "rasp -> flaut. =|",
                     do_not_bookend=True,
-                    rleak=True,
                     staff_padding=5.5,
                 )
                 library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
@@ -1007,14 +996,12 @@ def tutti(cache):
                 o,
                 "2° =|",
                 lilypond_id=1,
-                rleak=True,
                 staff_padding=8,
             )
             baca.mspanners.text(
                 baca.select.mgroups(o, [1, 1]),
                 "rasp -> poco rasp =|",
                 do_not_bookend=True,
-                rleak=True,
                 staff_padding=5.5,
             )
             library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
