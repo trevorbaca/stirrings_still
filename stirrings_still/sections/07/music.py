@@ -358,10 +358,11 @@ def v1_v2_va(cache):
         with baca.scope(m.get(5, 6)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
             baca.spanners.hairpin(
-                o.rleaves(),
+                o,
                 "appena-udibile -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+                rleak=True,
             )
             library.urtext_spanner(o, "urtext (ds field) -|", 8)
 
@@ -389,7 +390,7 @@ def tutti(cache):
             m = cache[name]
         with baca.scope(m.get(16, 17)) as o:
             baca.espressivo(o.pleaves())
-            baca.spanners.hairpin(o.rleaves(), "pp < mf")
+            baca.spanners.hairpin(o, "pp < mf", rleak=True)
             baca.override.hairpin_shorten_pair(o, (0, 5))
             baca.untie(o.leaves())
             baca.mspanners.scp(
@@ -429,9 +430,10 @@ def v1_va_vc(cache):
             m = cache[name]
         with baca.scope(m.get(12, 13)) as o:
             baca.spanners.hairpin(
-                o.rleaves(),
+                o,
                 "pp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                rleak=True,
             )
             if name == "v1":
                 baca.markup(
@@ -492,9 +494,10 @@ def v2(cache):
             staff_padding=8,
         )
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            rleak=True,
         )
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -537,20 +540,23 @@ def vc(cache):
     for n in [1, 3, 7, 9]:
         with baca.scope(m[n]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o.rleaves(), [1, 2]),
+                baca.select.lparts(o, [1, 1]),
                 "o< f >o !",
+                rleak=True,
             )
     with baca.scope(m.get(5, 6)) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m[11]) as o:
         baca.piecewise.hairpin(
-            baca.select.lparts(o.rleaves(), [1, 2]),
+            baca.select.lparts(o, [1, 1]),
             "o< f -- !",
+            rleak=True,
         )
     with baca.scope(m[14]) as o:
         baca.piecewise.hairpin(
-            baca.select.lparts(o.rleaves(), [1, 2]),
+            baca.select.lparts(o, [1, 1]),
             "f -- ! >o !",
+            rleak=True,
         )
     with baca.scope(m[19]) as o:
         baca.clef(o.leaf(0), "treble")

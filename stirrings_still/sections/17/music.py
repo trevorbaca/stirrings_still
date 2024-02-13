@@ -656,9 +656,10 @@ def tutti(cache):
             baca.override.tuplet_bracket_staff_padding(o.leaves(), 1)
         with baca.scope(m[1]) as o:
             baca.spanners.hairpin(
-                o.rleaves(),
+                o,
                 "mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                rleak=True,
             )
             baca.stem_tremolo(o.pleaves())
 
@@ -823,7 +824,7 @@ def v2(cache):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m[71]) as o:
         baca.breathe(o.pleaf(-1))
-        baca.spanners.hairpin(o.rleaves(), "p >o !")
+        baca.spanners.hairpin(o, "p >o !", rleak=True)
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
             staff_padding=4.5 + 6,
@@ -1169,8 +1170,9 @@ def vc(cache):
     with baca.scope(m.get(43, 50)) as o:
         baca.breathe(o.pleaf(-1))
         baca.piecewise.hairpin(
-            baca.select.mgroups(o.rleaves(), [3, 2, 3 + 1]),
+            baca.select.mgroups(o, [3, 2, 3]),
             'o< f -- "f" >o !',
+            rleak=True,
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
@@ -1206,8 +1208,9 @@ def vc(cache):
     with baca.scope(m.get(55, 60)) as o:
         baca.breathe(o.pleaf(-1))
         baca.piecewise.hairpin(
-            baca.select.mgroups(o.rleaves(), [2, 2, 2 + 1]),
+            baca.select.mgroups(o, [2, 2, 2]),
             'o< mf -- "mf" >o !',
+            rleak=True,
         ),
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
@@ -1247,8 +1250,9 @@ def vc(cache):
     with baca.scope(m.get(64, 67)) as o:
         baca.breathe(o.pleaf(-1))
         baca.piecewise.hairpin(
-            baca.select.mgroups(o.rleaves(), [1, 1, 2 + 1]),
+            baca.select.mgroups(o, [1, 1, 2]),
             "o< mp -- mp >o !",
+            rleak=True,
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
@@ -1277,8 +1281,9 @@ def vc(cache):
     with baca.scope(m.get(70, 71)) as o:
         baca.breathe(o.pleaf(-1))
         baca.piecewise.hairpin(
-            baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
+            baca.select.mgroups(o, [1, 1]),
             "o< p >o !",
+            rleak=True,
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)

@@ -229,21 +229,24 @@ def vc(cache):
             baca.rspanners.ottava(o.tleaves(), -1)
     with baca.scope(m.get(3, 4)) as o:
         baca.piecewise.hairpin(
-            baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
+            baca.select.mgroups(o, [1, 1]),
             "o< f -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            rleak=True,
         )
     with baca.scope(m.get(6, 8)) as o:
         baca.piecewise.hairpin(
-            baca.select.mgroups(o.rleaves(), [1, 2 + 1]),
+            baca.select.mgroups(o, [1, 2]),
             "o< ff -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            rleak=True,
         )
     with baca.scope(m.get(10, 15)) as o:
         baca.piecewise.hairpin(
-            baca.select.mgroups(o.rleaves(), [2, 4 + 1]),
+            baca.select.mgroups(o, [2, 4]),
             "o< fff -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            rleak=True,
         )
     with baca.scope(m[20]) as o:
         baca.literal(

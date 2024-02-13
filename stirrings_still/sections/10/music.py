@@ -148,25 +148,28 @@ def v1_v2_va(cache):
         with baca.scope(m.get(1, 2)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
             baca.spanners.hairpin(
-                o.rleaves(),
+                o,
                 "appena-udibile -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                rleak=True,
             )
             library.urtext_spanner(o, "urtext (ds field) -|", 8)
         with baca.scope(m.get(5, 11)) as o:
             baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
             baca.override.dynamic_text_self_alignment_x(o.leaf(-1), -0.75)
             baca.piecewise.hairpin(
-                baca.select.mgroups(o, [2, 5]),
+                baca.select.mgroups(o, [2, 4]),
                 "appena-udibile -- ! < fff-poco-scratch",
+                rleak=True,
             )
         with baca.scope(m.get(5, 11)) as o:
             library.urtext_spanner(o, "urtext (ds field) -|", 8)
         with baca.scope(m.get(12, 17)) as o:
             baca.piecewise.hairpin(
-                baca.select.mgroups(o.rleaves(), [2, 4 + 1]),
+                baca.select.mgroups(o, [2, 4]),
                 '"fff" > pp -- !',
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                rleak=True,
             )
             baca.rspanners.half_clt(
                 o.leaves(),
@@ -215,9 +218,10 @@ def v1_va_vc(cache):
                     staff_padding=5.5,
                 )
             baca.spanners.hairpin(
-                o.rleaves(),
+                o,
                 "pp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                rleak=True,
             )
             baca.override.tuplet_bracket_down(o)
             library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
@@ -272,9 +276,10 @@ def v2(cache):
             staff_padding=8,
         )
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "mp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            rleak=True,
         )
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),

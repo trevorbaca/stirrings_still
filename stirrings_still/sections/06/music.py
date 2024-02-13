@@ -106,8 +106,9 @@ def v1(cache):
         m = cache["v1"]
     with baca.scope(m.get(1, 8)) as o:
         baca.piecewise.hairpin(
-            baca.select.mgroups(o.rleaves(), [1, 2, 1, 2, 1, 2]),
+            baca.select.mgroups(o, [1, 2, 1, 2, 1, 1]),
             "pp < f > pp < f > pp < f >o !",
+            rleak=True,
         )
         baca.markup(
             o.pleaf(0),
@@ -129,8 +130,9 @@ def v2(cache):
         m = cache["v2"]
     with baca.scope(m.get(1, 8)) as o:
         baca.piecewise.hairpin(
-            baca.select.mgroups(o.rleaves(), [2, 1, 2, 1, 1, 2]),
+            baca.select.mgroups(o, [2, 1, 2, 1, 1, 1]),
             "pp < f > pp < f > pp < f >o !",
+            rleak=True,
         )
         baca.markup(
             o.pleaf(0),
@@ -172,8 +174,9 @@ def vc(cache):
             left_broken=True,
         )
         baca.piecewise.hairpin(
-            baca.select.mgroups(o.rleaves(), [2, 4, 2 + 1]),
+            baca.select.mgroups(o, [2, 4, 2]),
             "(p) < ff -- (ff) >o !",
+            rleak=True,
         )
         library.clouded_pane_spanner(
             o,
@@ -208,9 +211,10 @@ def tutti(cache):
                 staff_padding=8,
             )
             baca.spanners.hairpin(
-                o.rleaves(),
+                o,
                 "p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                rleak=True,
             )
             if name == "v1":
                 baca.flat_glissando(o, "Bb4")
