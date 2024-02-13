@@ -537,7 +537,6 @@ def v1(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.rspanners.damp(
@@ -615,7 +614,6 @@ def v1(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
@@ -681,7 +679,6 @@ def v1_v2_va(cache):
                 baca.mspanners.circle_bow(
                     baca.select.ltleaves(o),
                     qualifier="wide",
-                    rleak=True,
                     staff_padding=8,
                 )
                 baca.markup(
@@ -694,7 +691,6 @@ def v1_v2_va(cache):
                 baca.mspanners.circle_bow(
                     baca.select.ltleaves(o),
                     qualifier="wide",
-                    rleak=True,
                     staff_padding=8,
                 )
                 baca.markup(
@@ -707,7 +703,6 @@ def v1_v2_va(cache):
                 baca.mspanners.circle_bow(
                     baca.select.ltleaves(o),
                     qualifier="wide",
-                    rleak=True,
                     staff_padding=5.5,
                 )
                 baca.markup(
@@ -940,7 +935,9 @@ def v2(cache):
     with baca.scope(m.get(42, 53)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
-            baca.select.ltleaves(o), qualifier="wide", rleak=True, staff_padding=5.5
+            baca.select.ltleaves(o),
+            qualifier="wide",
+            staff_padding=5.5,
         )
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -1012,7 +1009,6 @@ def v2(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
@@ -1150,7 +1146,6 @@ def va_vc(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
-                rleak=True,
                 staff_padding=5.5,
             )
             baca.rspanners.damp(
@@ -1206,7 +1201,6 @@ def va_vc(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
-                rleak=True,
                 staff_padding=5.5,
             )
             if name == "vc":

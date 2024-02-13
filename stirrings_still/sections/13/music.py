@@ -194,7 +194,6 @@ def v1(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="very-wide",
-            rleak=True,
             staff_padding=5.5,
         )
     for item in [(9, 12), (26, 28)]:
@@ -217,7 +216,6 @@ def v1(cache):
         baca.mspanners.circle_bow(
             abjad.select.leaves(o)[1:],
             qualifier="very-wide",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.markup(
@@ -229,7 +227,6 @@ def v1(cache):
         baca.mspanners.circle_bow(
             abjad.select.leaves(o)[1:],
             qualifier="very-wide",
-            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(29, 32)) as o:
@@ -322,7 +319,6 @@ def v2(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="very-wide",
-            rleak=True,
             staff_padding=5.5,
         )
     for item in [(9, 12), (26, 28)]:
@@ -348,7 +344,6 @@ def v2(cache):
         baca.mspanners.circle_bow(
             abjad.select.leaves(o)[1:],
             qualifier="very-wide",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.markup(
@@ -360,7 +355,6 @@ def v2(cache):
         baca.mspanners.circle_bow(
             abjad.select.leaves(o)[1:],
             qualifier="very-wide",
-            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(29, 32)) as o:
@@ -402,7 +396,6 @@ def va(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="very-wide",
-            rleak=True,
             staff_padding=5.5,
         )
     for item in [(9, 12), (26, 28)]:
@@ -425,7 +418,6 @@ def va(cache):
         baca.mspanners.circle_bow(
             abjad.select.leaves(o)[1:],
             qualifier="very-wide",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.markup(
@@ -437,7 +429,6 @@ def va(cache):
         baca.mspanners.circle_bow(
             o.leaves()[1:],
             qualifier="very-wide",
-            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(29, 32)) as o:

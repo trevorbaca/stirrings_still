@@ -331,7 +331,6 @@ def vc(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Cb2", stop_pitch="Bb1")

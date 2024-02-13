@@ -92,7 +92,6 @@ def v1(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Aqs4", left_broken=True)
@@ -153,7 +152,6 @@ def v2(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Eb4", left_broken=True)
@@ -186,7 +184,6 @@ def va(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide-poss",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o.pleaves(), "Bqf3")

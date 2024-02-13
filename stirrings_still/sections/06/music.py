@@ -201,7 +201,6 @@ def tutti(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="tight-poss-grind-at-talon",
-                rleak=True,
                 staff_padding=5.5,
             )
             baca.rspanners.damp(

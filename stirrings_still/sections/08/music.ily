@@ -3676,8 +3676,6 @@ number.8.Violin.1.Music = {
     \undo \hide NoteHead
     aqs'!8
       %! SPANNER_STOP
-    \bacaStopTextSpanCircleBow
-      %! SPANNER_STOP
     ]
     \revert DynamicLineSpanner.staff-padding
 
@@ -3716,6 +3714,9 @@ number.8.Violin.1.Music = {
       %! ANCHOR_NOTE
       %! SPANNER_STOP
     \!
+      %! ANCHOR_NOTE
+      %! SPANNER_STOP
+    \bacaStopTextSpanCircleBow
 
 }
 
@@ -5429,8 +5430,6 @@ number.8.Violin.2.Music = {
       %! RIGHT_BROKEN
     \undo \hide NoteHead
     ef'!4
-      %! SPANNER_STOP
-    \bacaStopTextSpanCircleBow
     \revert DynamicLineSpanner.staff-padding
 
       %! ANCHOR_NOTE
@@ -5468,6 +5467,9 @@ number.8.Violin.2.Music = {
       %! ANCHOR_NOTE
       %! SPANNER_STOP
     \!
+      %! ANCHOR_NOTE
+      %! SPANNER_STOP
+    \bacaStopTextSpanCircleBow
 
 }
 

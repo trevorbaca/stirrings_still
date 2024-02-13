@@ -107,7 +107,6 @@ def v1(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="granulation",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Eb4")
@@ -120,7 +119,6 @@ def v1(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Aqs4")
@@ -149,7 +147,6 @@ def v2(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="granulation",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "D4")
@@ -162,7 +159,6 @@ def v2(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
-            rleak=True,
             staff_padding=5.5,
         ),
         baca.flat_glissando(o, "Eb4")
@@ -181,7 +177,6 @@ def va(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="granulation",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "G3")
@@ -194,7 +189,6 @@ def va(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bqf3")
@@ -216,7 +210,6 @@ def vc(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="granulation",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Ab3")

@@ -389,7 +389,6 @@ def v1(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.markup(
@@ -527,7 +526,6 @@ def va(cache):
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="very-wide",
-            rleak=True,
             staff_padding=5.5,
         )
         baca.markup(
@@ -685,7 +683,6 @@ def v1_v2_va(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
-                rleak=True,
                 staff_padding=5.5,
             )
             leaves = baca.select.rleak(baca.select.ltleaves(o))
@@ -835,8 +832,7 @@ def v1_v2(cache):
         m = cache[name]
         with baca.scope(m[56]) as o:
             baca.mspanners.circle_bow(
-                # TODO: allow spanner to run to end of section
-                o.leaves(),
+                o,
                 qualifier="wide",
                 staff_padding=5.5,
             )

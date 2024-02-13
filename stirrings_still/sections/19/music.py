@@ -167,7 +167,6 @@ def v1(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
-                rleak=True,
                 staff_padding=3,
             )
             baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
@@ -195,7 +194,6 @@ def v2(cache):
             baca.mspanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
-                rleak=True,
                 staff_padding=3,
             )
             baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
