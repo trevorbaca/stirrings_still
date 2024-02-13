@@ -619,7 +619,6 @@ def v1(cache):
         baca.mspanners.scp(
             o,
             "T poss. =|",
-            rleak=True,
             staff_padding=5.5,
         )
 
@@ -780,6 +779,7 @@ def v2(cache):
             baca.select.plts(leaves)[:-1],
             "T -> P ->",
             do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "F5")
@@ -802,6 +802,7 @@ def v2(cache):
             baca.select.plts(leaves)[:-1],
             "T -> P ->",
             do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(32, 53)) as o:
@@ -827,6 +828,7 @@ def v2(cache):
             baca.select.plts(leaves)[:-1],
             "T1 -> T3 -> T2 -> T3 ->",
             do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(41, 42)) as o:
@@ -842,7 +844,6 @@ def v2(cache):
         baca.mspanners.scp(
             o,
             "T poss. =|",
-            rleak=True,
             staff_padding=5.5,
         )
 
@@ -1025,7 +1026,6 @@ def va(cache):
         baca.mspanners.scp(
             o,
             "T poss. =|",
-            rleak=True,
             staff_padding=5.5,
         )
 

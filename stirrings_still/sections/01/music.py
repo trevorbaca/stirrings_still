@@ -991,7 +991,6 @@ def vc(cache):
             o,
             "tasto (T) =|",
             left_broken_text=r"\baca-left-broken-t-markup",
-            rleak=True,
             staff_padding=5.5,
         )
         library.urtext_spanner(o, "urtext (field) -|", 8)
