@@ -4471,9 +4471,6 @@ number.3.Violin.1.Music = {
         - \tweak shorten-pair #'(0 . 3.5)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
         \glissando
 
@@ -6249,9 +6246,6 @@ number.3.Violin.2.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak shorten-pair #'(0 . 3.5)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -8212,9 +8206,6 @@ number.3.Viola.Music = {
         - \tweak shorten-pair #'(0 . 3.5)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
         \glissando
 
@@ -8628,9 +8619,6 @@ number.3.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -10121,9 +10109,6 @@ number.3.Cello.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak shorten-pair #'(0 . 3.5)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
