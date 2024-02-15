@@ -546,9 +546,6 @@ number.9.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
 
     aqs'!8
@@ -929,9 +926,6 @@ number.9.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
 
     ef'!4
@@ -1272,9 +1266,6 @@ number.9.Viola.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -2469,9 +2460,6 @@ number.9.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>

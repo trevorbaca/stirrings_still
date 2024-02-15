@@ -1258,9 +1258,6 @@ number.12.Violin.1.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
         \glissando
 
@@ -2164,9 +2161,6 @@ number.12.Violin.2.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -3096,9 +3090,6 @@ number.12.Viola.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>

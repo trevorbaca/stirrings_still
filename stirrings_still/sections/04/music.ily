@@ -4406,9 +4406,6 @@ number.4.Violin.1.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
 
     \override Accidental.stencil = ##f
@@ -5197,9 +5194,6 @@ number.4.Violin.1.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -6695,9 +6689,6 @@ number.4.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
 
     \override Accidental.stencil = ##f
@@ -7473,9 +7464,6 @@ number.4.Violin.2.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -9036,9 +9024,6 @@ number.4.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -9694,9 +9679,6 @@ number.4.Viola.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -11240,9 +11222,6 @@ number.4.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>

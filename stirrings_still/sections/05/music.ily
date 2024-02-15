@@ -6359,9 +6359,6 @@ number.5.Violin.1.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         ef''!8
@@ -8380,9 +8377,6 @@ number.5.Violin.1.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         ef''!8
@@ -8900,9 +8894,6 @@ number.5.Violin.1.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -11187,9 +11178,6 @@ number.5.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
 
     dqf''!4.
@@ -12955,9 +12943,6 @@ number.5.Violin.2.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
 
     dqf''!8
@@ -13344,9 +13329,6 @@ number.5.Violin.2.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -17073,9 +17055,6 @@ number.5.Viola.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         e4
@@ -17489,9 +17468,6 @@ number.5.Viola.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -19695,9 +19671,6 @@ number.5.Cello.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         d8
@@ -19920,9 +19893,6 @@ number.5.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
