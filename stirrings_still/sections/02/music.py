@@ -831,6 +831,7 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| mp p < mp",
+                do_not_bookend=True,
             )
             if name == "v1":
                 library.breathe(o.pleaf(1))
