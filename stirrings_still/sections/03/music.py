@@ -884,6 +884,7 @@ def vc(cache):
         baca.piecewise.hairpin(
             library.rleaves_partition_by_counts(o.rleaves(), [1, 1, 1]),
             "o< f >o !",
+            do_not_bookend=True,
         )
         library.clouded_pane_spanner(
             o,

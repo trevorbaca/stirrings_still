@@ -780,6 +780,7 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| mp p < mp",
+                do_not_bookend=True,
             )
         with baca.scope(m.get(82, 85)) as o:
             baca.piecewise.hairpin(

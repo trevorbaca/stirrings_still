@@ -570,6 +570,7 @@ def v1_v2_va(cache):
                 baca.piecewise.hairpin(
                     baca.select.clparts(o, [1]),
                     "p <| mp p < mp",
+                    do_not_bookend=True,
                 )
                 baca.stop_on_string(o.pleaf(-1))
                 baca.rspanners.tasto(

@@ -374,6 +374,7 @@ def vc(cache):
         baca.piecewise.hairpin(
             baca.select.cmgroups(o, [2, 1, 1]),
             "p < ff ff > p < ff ff > p < fff fff > p < fff",
+            do_not_bookend=True,
         )
 
 

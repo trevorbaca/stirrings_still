@@ -621,6 +621,7 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| f p < mp",
+                do_not_bookend=True,
             )
             baca.rspanners.tasto(
                 o,
@@ -644,6 +645,7 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| f p < mf",
+                do_not_bookend=True,
             )
         for item in [3, (5, 6), (8, 9)]:
             with baca.scope(m.get(item)) as o:
@@ -656,12 +658,14 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| f p < mf-poco-scratch",
+                do_not_bookend=True,
             )
         with baca.scope(m.get(8, 9)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.piecewise.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| f p < f-poco-scratch",
+                do_not_bookend=True,
             )
         with baca.scope(m.get(11, 16)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
@@ -683,6 +687,7 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp <| p pp <| p",
+                do_not_bookend=True,
             )
         for n in [18, 20, 22, 25, 29]:
             with baca.scope(m.get(n)) as o:
@@ -700,12 +705,14 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp <| p pp <| mp",
+                do_not_bookend=True,
             )
         with baca.scope(m[22]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.piecewise.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp <| p pp <| mf",
+                do_not_bookend=True,
             )
         with baca.scope(m[23]) as o:
             baca.mspanners.circle_bow(
@@ -724,6 +731,7 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp <| p pp <| f",
+                do_not_bookend=True,
             )
         with baca.scope(m[26]) as o:
             baca.mspanners.circle_bow(
@@ -744,6 +752,7 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp <| p pp <| ff",
+                do_not_bookend=True,
             )
         with baca.scope(m[30]) as o:
             baca.dynamic(o.phead(0), "ppp")
@@ -767,6 +776,7 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| f p < mp",
+                do_not_bookend=True,
             )
             baca.stop_on_string(o.pleaf(-1))
             baca.rspanners.tasto(
