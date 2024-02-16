@@ -1302,8 +1302,10 @@ def va(cache):
         )
     with baca.scope(m.get(5, 7)) as o:
         baca.piecewise.hairpin(
-            baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
+            baca.select.mgroups(o.rleaves(), [1, 1, 2]),
             "mf -- - o< p -- !",
+            (abjad.Tweak(r"- \tweak to-barline ##t"), -1),
+            glue=True,
         )
     with baca.scope(m.get(6, 7)) as o:
         baca.flat_glissando(o, "Ab3")

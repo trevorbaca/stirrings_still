@@ -221,6 +221,7 @@ def v1(cache):
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "f < ff >",
+            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),
@@ -250,6 +251,7 @@ def v1(cache):
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "ff < fff >",
+            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),
@@ -361,6 +363,7 @@ def v2(cache):
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "f < ff >",
+            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),
@@ -390,6 +393,7 @@ def v2(cache):
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "ff < fff >",
+            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),
@@ -464,6 +468,7 @@ def va(cache):
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "f < ff >",
+            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),
@@ -493,6 +498,7 @@ def va(cache):
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "ff < fff >",
+            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),
@@ -550,6 +556,7 @@ def vc(cache):
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "f < ff >",
+            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),
@@ -592,6 +599,7 @@ def vc(cache):
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "ff < fff >",
+            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),

@@ -174,6 +174,7 @@ def v1(cache):
             baca.piecewise.hairpin(
                 baca.select.cmgroups(o),
                 "p > ppp <",
+                cyclic=True,
             )
 
 
@@ -201,6 +202,7 @@ def v2(cache):
             baca.piecewise.hairpin(
                 baca.select.cmgroups(o),
                 "ppp < p >",
+                cyclic=True,
             )
 
 

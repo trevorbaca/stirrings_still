@@ -239,6 +239,7 @@ def v1(cache):
         baca.piecewise.hairpin(
             baca.select.cmgroups(o),
             "ppppp < p > ppp",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m[10]) as o:
@@ -261,6 +262,7 @@ def v1(cache):
         baca.piecewise.hairpin(
             baca.select.cmgroups(o),
             "ppppp < p > ppp",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m[20]) as o:

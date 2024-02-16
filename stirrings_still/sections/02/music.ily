@@ -9164,6 +9164,24 @@ number.2.Viola.Music = {
 
     % [Viola.Music measure 7]
     af!4
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
+    \p
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak stencil #constante-hairpin
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
 
     af!4
 
@@ -9174,11 +9192,6 @@ number.2.Viola.Music = {
     \revert NoteHead.no-ledgers
     \undo \hide NoteHead
     af!4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \p
 
     <<
 
@@ -9201,6 +9214,8 @@ number.2.Viola.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"8" #"8"
+              %! SPANNER_STOP
+            \!
               %! SPANNER_STOP
             \bacaStopTextSpanCircleBow
               %! SPANNER_STOP
