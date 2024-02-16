@@ -618,7 +618,7 @@ def v1_v2_va(cache):
         m = cache[name]
         with baca.scope(m[1]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| f p < mp",
                 do_not_bookend=True,
@@ -642,7 +642,7 @@ def v1_v2_va(cache):
             )
         with baca.scope(m[3]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| f p < mf",
                 do_not_bookend=True,
@@ -655,14 +655,14 @@ def v1_v2_va(cache):
                 )
         with baca.scope(m.get(5, 6)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| f p < mf-poco-scratch",
                 do_not_bookend=True,
             )
         with baca.scope(m.get(8, 9)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| f p < f-poco-scratch",
                 do_not_bookend=True,
@@ -671,7 +671,7 @@ def v1_v2_va(cache):
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.spanners.hairpin(o[:2], "p <| f")
             leaves = baca.select.rleak(o[2:])
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.omgroups(leaves, [1, 2]),
                 "p < f-scratch -- ! >o !",
                 glue=True,
@@ -685,7 +685,7 @@ def v1_v2_va(cache):
             baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         with baca.scope(m[18]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp <| p pp <| p",
                 do_not_bookend=True,
@@ -703,14 +703,14 @@ def v1_v2_va(cache):
                 library.urtext_spanner(o, "C, D -|", 8)
         with baca.scope(m[20]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp <| p pp <| mp",
                 do_not_bookend=True,
             )
         with baca.scope(m[22]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp <| p pp <| mf",
                 do_not_bookend=True,
@@ -729,7 +729,7 @@ def v1_v2_va(cache):
             )
         with baca.scope(m[25]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp <| p pp <| f",
                 do_not_bookend=True,
@@ -750,7 +750,7 @@ def v1_v2_va(cache):
             baca.dynamic(o.phead(0), "mp")
         with baca.scope(m[29]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp <| p pp <| ff",
                 do_not_bookend=True,
@@ -774,7 +774,7 @@ def v1_v2_va(cache):
             )
         with baca.scope(m[60]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| f p < mp",
                 do_not_bookend=True,
@@ -794,7 +794,7 @@ def tutti(cache):
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(55, 56)) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.mgroups(o, [1, 1]),
                 "o< mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -1013,7 +1013,7 @@ def vc(cache):
         )
         library.urtext_spanner(o, "urtext (field) -|", 8)
     with baca.scope(m[27]) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< f >o !",
             glue=True,
@@ -1042,7 +1042,7 @@ def vc(cache):
     with baca.scope(m.get(42, 43)) as o:
         baca.clef(o.leaf(0), "treble")
         baca.flat_glissando(o, "A5")
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.mgroups(o, [1, 1]),
             'o< "f" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),

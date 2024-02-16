@@ -1098,7 +1098,7 @@ def vc(cache):
         baca.breathe(o.pleaf(-1))
         baca.clef(o.leaf(0), "treble")
         baca.clef(o.rleaf(-1), "bass")
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.cmgroups(o),
             'o< "f" -- ! >o !',
             glue=True,

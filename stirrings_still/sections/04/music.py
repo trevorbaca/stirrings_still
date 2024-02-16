@@ -532,7 +532,7 @@ def v1_v2(cache):
                 staff_padding=5.5,
             )
         with baca.scope(m.get(86, 92)) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.mgroups(o, [3, 4]),
                 "(p) < mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -568,7 +568,7 @@ def v1_v2_va(cache):
                 m = cache[name]
             with baca.scope(m[item]) as o:
                 baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-                baca.piecewise.hairpin(
+                baca.hairpinlib.hairpin(
                     baca.select.clparts(o, [1]),
                     "p <| mp p < mp",
                     do_not_bookend=True,
@@ -692,25 +692,25 @@ def tutti_1(cache):
                 staff_padding=5.5,
             )
         with baca.scope(m.get(7, 12)) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 "mp p",
                 do_not_bookend=True,
             )
         with baca.scope(m.get(13, 18)) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 "mf mp",
                 do_not_bookend=True,
             )
         with baca.scope(m.get(19, 24)) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 '"f" mf',
                 do_not_bookend=True,
             )
         with baca.scope(m.get(25, 30)) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 '"ff" "f"',
                 do_not_bookend=True,
@@ -881,7 +881,7 @@ def vc(cache):
         baca.spanners.hairpin(cmgroups, "o< p")
         library.clouded_pane_spanner(o, "clouded pane (arrival) -|", 5.5)
     with baca.scope(m.get(86, 92)) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.mgroups(o, [3, 4]),
             "(p) < fff -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),

@@ -539,7 +539,7 @@ def vc(cache):
         baca.clef(o.leaf(0), "bass")
     for n in [1, 3, 7, 9]:
         with baca.scope(m[n]) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "o< f >o !",
                 glue=True,
@@ -548,14 +548,14 @@ def vc(cache):
     with baca.scope(m.get(5, 6)) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m[11]) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< f -- !",
             glue=True,
             rleak=True,
         )
     with baca.scope(m[14]) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.lparts(o, [1, 1]),
             "f -- ! >o !",
             glue=True,

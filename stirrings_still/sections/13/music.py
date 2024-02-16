@@ -246,7 +246,7 @@ def v1_v2_va(cache):
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 5)
         with baca.scope(m.get(1, 12)) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.mgroups(o, [8, 4]),
                 "o< f >o",
                 do_not_bookend=True,
@@ -263,7 +263,7 @@ def v1_v2_va(cache):
                 ">o",
             )
         with baca.scope(m.get(21, 32)) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.mgroups(o, [5, 3, 4]),
                 "o< fff >o ! o< fff",
                 glue=True,
@@ -455,7 +455,7 @@ def vc(cache):
             5.5,
         )
     with baca.scope(m.get(7, 32)) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.mgroups(o, [2, 4, 2, 2, 4, 2, 3, 3, 4]),
             "(fff) > f < fff -- (fff) > f < fff -- (fff) > f < fff",
             do_not_bookend=True,

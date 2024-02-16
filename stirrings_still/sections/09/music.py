@@ -213,7 +213,7 @@ def va(cache):
 def vc(cache):
     m = cache["vc"]
     with baca.scope(m.leaves()) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.mgroups(o, [5, 4, 1 + 1]),
             'p < "f" -- "f" >o !',
             glue=True,
