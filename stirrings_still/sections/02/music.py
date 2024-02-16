@@ -702,6 +702,7 @@ def v1(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o.tleaves(), [1, 2]),
             "mf -- ! >o !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m.get(12, 13)) as o:
@@ -719,6 +720,7 @@ def v1(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [8, 5]),
             "p -- (p) >o !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m.get(14, 15)) as o:
@@ -908,6 +910,7 @@ def tutti(cache):
                 baca.select.mgroups(o, [1, 1]),
                 "ppp < mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                glue=True,
                 rleak=True,
             )
             if name == "v1":
@@ -929,6 +932,7 @@ def tutti(cache):
             baca.piecewise.hairpin(
                 baca.select.mgroups(o, [1, 1]),
                 "o< mp -- !",
+                glue=True,
                 rleak=True,
             )
             baca.markup(
@@ -955,6 +959,7 @@ def tutti(cache):
                 baca.select.mgroups(o, [1, 1]),
                 "pp < mf -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                glue=True,
                 rleak=True,
             )
             if name == "v1":
@@ -976,6 +981,7 @@ def tutti(cache):
                 baca.select.mgroups(o, [1, 1]),
                 "p < f -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                glue=True,
                 rleak=True,
             )
             if name == "v1":
@@ -996,6 +1002,7 @@ def tutti(cache):
             baca.piecewise.hairpin(
                 baca.select.mgroups(o, [1, 1]),
                 "mp < ff -- !",
+                glue=True,
                 rleak=True,
             )
             if name == "v1":
@@ -1033,6 +1040,7 @@ def tutti(cache):
                 abjad.select.partition_by_counts(o.rleaves(), [2], overhang=True),
                 "mf < ff -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                glue=True,
             )
             if name == "v1":
                 baca.mspanners.scp(
@@ -1124,6 +1132,7 @@ def v2(cache, time_signatures):
         baca.piecewise.hairpin(
             baca.select.mgroups(o.tleaves(), [1, 2]),
             "mf -- ! >o !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m.get(12, 13)) as o:
@@ -1145,6 +1154,7 @@ def v2(cache, time_signatures):
             baca.select.mgroups(o, [6, 3, 5 + 1]),
             "p -- (p) < mf -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            glue=True,
         )
     with baca.scope(m.get(14, 15)) as o:
         baca.alternate_bow_strokes(o.pheads())
@@ -1329,6 +1339,7 @@ def va(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [8, 2 + 1]),
             "p-ancora -- (p) >o !",
+            glue=True,
         )
     m = cache["var"]
     with baca.scope(m[22]) as o:
@@ -1353,6 +1364,7 @@ def va(cache):
             baca.select.mgroups(o.rleaves(), [2, 1 + 1]),
             "o< mf -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            glue=True,
         )
     with baca.scope(m.get(23, 27)) as o:
         baca.rspanners.tasto(
@@ -1494,6 +1506,7 @@ def vc(cache):
             baca.select.mgroups(o.rleaves(), [4, 2 + 1]),
             "o< f -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            glue=True,
         )
         library.clouded_pane_spanner(o, "clouded pane -|", 5.5)
     with baca.scope(m.get(12, 15)) as o:
@@ -1543,6 +1556,7 @@ def vc(cache):
             baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
             "(p) < mf -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            glue=True,
         )
         baca.rspanners.tasto(
             o,

@@ -170,6 +170,7 @@ def v1_v2_va(cache):
                 baca.select.mgroups(o, [2, 4]),
                 '"fff" > pp -- !',
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                glue=True,
                 rleak=True,
             )
             baca.rspanners.half_clt(

@@ -266,6 +266,7 @@ def v1(cache):
         baca.piecewise.hairpin(
             baca.select.cmgroups(o),
             "p -- ! >o !",
+            glue=True,
             rleak=True,
         )
         baca.mspanners.text(
@@ -408,6 +409,7 @@ def v2(cache):
         baca.piecewise.hairpin(
             baca.select.cmgroups(o),
             "p -- ! >o !",
+            glue=True,
             rleak=True,
         )
         baca.mspanners.text(
@@ -513,6 +515,7 @@ def va(cache):
         baca.piecewise.hairpin(
             baca.select.cmgroups(o),
             "p -- ! >o !",
+            glue=True,
             rleak=True,
         )
         baca.mspanners.text(
@@ -613,6 +616,7 @@ def vc(cache):
         baca.piecewise.hairpin(
             baca.select.cmgroups(o),
             "p -- ! >o !",
+            glue=True,
             rleak=True,
         )
         baca.rspanners.tasto(

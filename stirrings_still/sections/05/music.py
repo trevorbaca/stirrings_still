@@ -555,6 +555,7 @@ def v1(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [4, 4, 4]),
             'o< fff -- "fff" >o !',
+            glue=True,
             rleak=True,
         )
         baca.override.tuplet_bracket_down(o)
@@ -597,6 +598,7 @@ def v1(cache):
             baca.select.mgroups(o, [1, 1]),
             "o< mf -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            glue=True,
             rleak=True,
         )
         baca.mspanners.scp(
@@ -645,6 +647,7 @@ def v1(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [4, 4, 4]),
             'o< fff -- "fff" >o !',
+            glue=True,
             rleak=True,
         )
         baca.override.tuplet_bracket_down(o)
@@ -849,6 +852,7 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.mgroups(o, [4, 4]),
                 "p -- ! >o !",
+                glue=True,
                 rleak=True,
             )
             baca.mspanners.scp(
@@ -969,6 +973,7 @@ def v2(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [4, 4]),
             'fff -- "fff" >o !',
+            glue=True,
             rleak=True,
         )
         baca.override.tuplet_bracket_down(o)
@@ -1000,6 +1005,7 @@ def v2(cache):
             baca.select.mgroups(o, [2, 1]),
             "o< mf -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            glue=True,
             rleak=True,
         )
         baca.mspanners.scp(
@@ -1040,6 +1046,7 @@ def v2(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [4, 4]),
             'fff -- "fff" >o !',
+            glue=True,
             rleak=True,
         )
         baca.override.tuplet_bracket_down(o)
@@ -1132,6 +1139,7 @@ def va(cache):
             baca.select.mgroups(o, [3, 1]),
             "o< mf -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            glue=True,
             rleak=True,
         )
         baca.mspanners.scp(
@@ -1250,6 +1258,7 @@ def va_vc(cache):
             baca.piecewise.hairpin(
                 baca.select.mgroups(o, [4, 4, 4]),
                 'o< fff -- "fff" >o !',
+                glue=True,
                 rleak=True,
             )
             if name == "va":
@@ -1315,6 +1324,7 @@ def vc(cache):
             baca.select.mgroups(o, [4, 4]),
             "p < fff-poco-scratch -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            glue=True,
             rleak=True,
         )
     with baca.scope(m[24]) as o:
@@ -1351,6 +1361,7 @@ def vc(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [3, 4]),
             "p -- ! >o !",
+            glue=True,
             rleak=True,
         )
         library.clouded_pane_spanner(
