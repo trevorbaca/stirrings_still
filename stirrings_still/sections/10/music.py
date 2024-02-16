@@ -157,7 +157,7 @@ def v1_v2_va(cache):
         with baca.scope(m.get(5, 11)) as o:
             baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
             baca.override.dynamic_text_self_alignment_x(o.leaf(-1), -0.75)
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.mgroups(o, [2, 5]),
                 "appena-udibile -- ! < fff-poco-scratch",
                 (abjad.Tweak(r"- \tweak to-barline ##t"), 0),
@@ -166,7 +166,7 @@ def v1_v2_va(cache):
         with baca.scope(m.get(5, 11)) as o:
             library.urtext_spanner(o, "urtext (ds field) -|", 8)
         with baca.scope(m.get(12, 17)) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.mgroups(o, [2, 4]),
                 '"fff" > pp -- !',
                 abjad.Tweak(r"- \tweak to-barline ##t"),

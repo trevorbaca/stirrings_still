@@ -236,14 +236,14 @@ def v1(cache):
                 staff_padding=v1_spanner_staff_padding,
             )
     with baca.scope(m.get(6, 7)) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.cmgroups(o),
             "ppppp < p > ppp",
             glue=True,
             rleak=True,
         )
     with baca.scope(m[10]) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.lparts(o.rleaves(), [2, 4, 1]),
             "ppp < p > ppppp",
             do_not_bookend=True,
@@ -259,14 +259,14 @@ def v1(cache):
                 staff_padding=v1_spanner_staff_padding,
             )
     with baca.scope(m.get(16, 17)) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.cmgroups(o),
             "ppppp < p > ppp",
             glue=True,
             rleak=True,
         )
     with baca.scope(m[20]) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.lparts(o.rleaves(), [2, 4, 1]),
             "ppp < p > ppppp",
             do_not_bookend=True,
@@ -313,37 +313,37 @@ def v2(cache):
                 staff_padding=v2_spanner_staff_padding,
             )
     with baca.scope(m[5]) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.lparts(o.rleaves(), [1, 3, 1]),
             "ppppp < p > ppp",
             do_not_bookend=True,
         )
     with baca.scope(m[7]) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.lparts(o.rleaves(), [5, 1, 1]),
             "ppp < p > ppp",
             do_not_bookend=True,
         )
     with baca.scope(m[9]) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.lparts(o.rleaves(), [1, 3, 1]),
             "ppp < p > ppppp",
             do_not_bookend=True,
         )
     with baca.scope(m[15]) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.lparts(o.rleaves(), [1, 4, 1]),
             "ppppp < p > pp",
             do_not_bookend=True,
         )
     with baca.scope(m[17]) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.lparts(o.rleaves(), [7, 1, 1]),
             "ppp < p > pp",
             do_not_bookend=True,
         )
     with baca.scope(m[19]) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.lparts(o.rleaves(), [1, 2, 1]),
             "ppp < p > ppppp",
             do_not_bookend=True,
@@ -364,7 +364,7 @@ def va(cache):
                 staff_padding=va_spanner_staff_padding,
             )
     with baca.scope(m.get(8, 10)) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.cmgroups(o.rleaves(), [1, 2]),
             "ppppp < p > ppppp",
             do_not_bookend=True,
@@ -380,7 +380,7 @@ def va(cache):
                 staff_padding=va_spanner_staff_padding,
             )
     with baca.scope(m.get(18, 20)) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.cmgroups(o.rleaves(), [1, 2]),
             "ppppp < p > ppppp",
             do_not_bookend=True,
@@ -403,7 +403,7 @@ def vc(cache):
     with baca.scope(m.get(1, 18)) as o:
         baca.pitch(o, "A2", allow_repitch=True)
     with baca.scope(m.get(6, 8)) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.cmgroups(o.rleaves(), [1, 2]),
             "ppppp < p > ppppp",
             do_not_bookend=True,
@@ -419,7 +419,7 @@ def vc(cache):
                 staff_padding=vc_spanner_staff_padding,
             )
     with baca.scope(m.get(16, 18)) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.cmgroups(o.rleaves(), [1, 2]),
             "ppppp < p > ppppp",
             do_not_bookend=True,

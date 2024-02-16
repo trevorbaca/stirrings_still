@@ -773,37 +773,37 @@ def tutti(cache):
                 baca.select.ltleaves(o),
                 staff_padding=8,
             )
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.runs(o),
                 "mf mf mp p pp pp",
                 do_not_bookend=True,
             )
         with baca.scope(m.get(36, 39)) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 library.grouped_pheads(o),
                 "pp pp p p mp mp",
                 do_not_bookend=True,
             )
         with baca.scope(m.get(40, 43)) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 library.grouped_pheads(o),
                 "mf mp mp p p pp pp",
                 do_not_bookend=True,
             )
         with baca.scope(m.get(44, 47)) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 library.grouped_pheads(o),
                 "pp pp p mp mf",
                 do_not_bookend=True,
             )
         with baca.scope(m.get(48, 51)) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 library.grouped_pheads(o),
                 "f mf mp mp p p pp",
                 do_not_bookend=True,
             )
         with baca.scope(m.get(52, 55)) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 library.grouped_pheads(o, None, -1),
                 "pp p mp mf f",
                 do_not_bookend=True,
@@ -881,7 +881,7 @@ def vc(cache):
     with baca.scope(m[5]) as o:
         baca.pitch(o, "B1")
         baca.clef(o.leaf(0), "bass")
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             library.rleaves_partition_by_counts(o.rleaves(), [1, 1, 1]),
             "o< f >o !",
             do_not_bookend=True,
