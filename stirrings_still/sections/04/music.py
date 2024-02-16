@@ -536,6 +536,7 @@ def v1_v2(cache):
                 baca.select.mgroups(o, [3, 4]),
                 "(p) < mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                glue=True,
                 rleak=True,
             )
         with baca.scope(m.get(90, 92)) as o:
@@ -884,6 +885,7 @@ def vc(cache):
             baca.select.mgroups(o, [3, 4]),
             "(p) < fff -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            glue=True,
             rleak=True,
         )
     with baca.scope(cache["vcr"][93]) as o:

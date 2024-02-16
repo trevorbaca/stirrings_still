@@ -542,6 +542,7 @@ def vc(cache):
             baca.piecewise.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "o< f >o !",
+                glue=True,
                 rleak=True,
             )
     with baca.scope(m.get(5, 6)) as o:
@@ -550,12 +551,14 @@ def vc(cache):
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< f -- !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m[14]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1]),
             "f -- ! >o !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m[19]) as o:

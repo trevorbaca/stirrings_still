@@ -216,6 +216,7 @@ def vc(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [5, 4, 1 + 1]),
             'p < "f" -- "f" >o !',
+            glue=True,
             rleak=True,
         )
         baca.rspanners.half_clt(

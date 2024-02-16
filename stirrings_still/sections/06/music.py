@@ -108,6 +108,7 @@ def v1(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [1, 2, 1, 2, 1, 1]),
             "pp < f > pp < f > pp < f >o !",
+            glue=True,
             rleak=True,
         )
         baca.markup(
@@ -132,6 +133,7 @@ def v2(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [2, 1, 2, 1, 1, 1]),
             "pp < f > pp < f > pp < f >o !",
+            glue=True,
             rleak=True,
         )
         baca.markup(
@@ -176,6 +178,7 @@ def vc(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [2, 4, 2]),
             "(p) < ff -- (ff) >o !",
+            glue=True,
             rleak=True,
         )
         library.clouded_pane_spanner(

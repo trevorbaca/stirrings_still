@@ -164,6 +164,7 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.mgroups(o, [2, 1, 1, 2, 1, 1, 2, 1, 1, 4]),
                 '"f" > p p < "ff" > p p < "fff" > p p < "fff" >o !',
+                glue=True,
                 rleak=True,
             )
 

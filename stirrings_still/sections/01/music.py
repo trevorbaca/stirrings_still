@@ -674,6 +674,7 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.omgroups(leaves, [1, 2]),
                 "p < f-scratch -- ! >o !",
+                glue=True,
             )
             baca.rspanners.tasto(
                 o,
@@ -797,6 +798,7 @@ def tutti(cache):
                 baca.select.mgroups(o, [1, 1]),
                 "o< mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                glue=True,
                 rleak=True,
             )
             baca.markup(
@@ -1014,6 +1016,7 @@ def vc(cache):
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< f >o !",
+            glue=True,
             rleak=True,
         )
         baca.pitch(o, "B1")
@@ -1043,6 +1046,7 @@ def vc(cache):
             baca.select.mgroups(o, [1, 1]),
             'o< "f" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            glue=True,
             rleak=True,
         )
         baca.rspanners.half_clt(

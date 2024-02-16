@@ -383,6 +383,7 @@ def v1(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [3, 3]),
             "o< mp -- !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m[6]) as o:
@@ -423,6 +424,7 @@ def v2(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [3, 5]),
             "o< mp -- !",
+            glue=True,
             rleak=True,
         )
         baca.mspanners.text(
@@ -445,6 +447,7 @@ def v2(cache):
             baca.select.mgroups(o, [2, 4]),
             "(mp) > p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            glue=True,
             rleak=True,
         )
     with baca.scope(m.get(9, 16)) as o:
@@ -523,6 +526,7 @@ def va(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [3, 3]),
             "o< mp -- !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m[6]) as o:
@@ -566,6 +570,7 @@ def vc(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [3, 2]),
             "o< mp -- !",
+            glue=True,
             rleak=True,
         )
         baca.flat_glissando(o, "Ab2", hide_middle_stems=True)
@@ -621,6 +626,7 @@ def vc(cache):
             baca.select.mgroups(o, [5, 4]),
             "(ff) > ppp -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            glue=True,
             rleak=True,
         )
     with baca.scope(m.get(38, 46)) as o:
@@ -641,6 +647,7 @@ def vc(cache):
             baca.select.mgroups(o, [3, 2]),
             "(ppp) < p -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
+            glue=True,
             rleak=True,
         )
         baca.rspanners.half_clt(
@@ -662,12 +669,14 @@ def vc(cache):
                 baca.piecewise.hairpin(
                     baca.select.lparts(o, [1, 1]),
                     "o< f -- !",
+                    glue=True,
                     rleak=True,
                 )
             elif n == 55:
                 baca.piecewise.hairpin(
                     baca.select.lparts(o, [1, 1]),
                     "f -- ! >o !",
+                    glue=True,
                     rleak=True,
                 )
     with baca.scope(cache["vcr"][56]) as o:
@@ -700,6 +709,7 @@ def v1_v2_va(cache):
                 baca.select.mgroups(o.ltleaves(), [2, 4]),
                 "o< p -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                glue=True,
                 rleak=True,
             )
             if name == "v1":
@@ -1000,6 +1010,7 @@ def tutti(cache):
                 baca.select.mgroups(o, [1, 1]),
                 "o< mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
+                glue=True,
                 rleak=True,
             )
             baca.markup(
