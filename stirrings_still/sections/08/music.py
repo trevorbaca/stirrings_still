@@ -767,6 +767,7 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.mgroups(o, [3, 2]),
                 "ff -- ! > mf",
+                glue=True,
             )
             if name == "v1":
                 baca.markup(

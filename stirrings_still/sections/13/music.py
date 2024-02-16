@@ -266,6 +266,7 @@ def v1_v2_va(cache):
             baca.piecewise.hairpin(
                 baca.select.mgroups(o, [5, 3, 4]),
                 "o< fff >o ! o< fff",
+                glue=True,
             )
         with baca.scope(m.get(1, 8)) as o:
             library.clouded_pane_spanner(o, "clouded pane -|", 8)

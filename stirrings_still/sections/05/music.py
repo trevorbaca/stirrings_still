@@ -1186,6 +1186,7 @@ def va_vc(cache):
             baca.piecewise.hairpin(
                 baca.select.mgroups(o, [4, 4, 4]),
                 'ff < fff -- "fff" > "f"',
+                glue=True,
             )
             if name == "va":
                 baca.override.tuplet_bracket_down(o)
