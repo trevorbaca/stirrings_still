@@ -171,10 +171,9 @@ def v1(cache):
             )
             baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
             baca.flat_glissando(o, "Bb4")
-            baca.hairpinlib.hairpin(
+            baca.hairpinlib.cyclic(
                 baca.select.cmgroups(o),
                 "p > ppp <",
-                cyclic=True,
             )
 
 
@@ -199,10 +198,9 @@ def v2(cache):
             )
             baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
             baca.flat_glissando(o, "F4")
-            baca.hairpinlib.hairpin(
+            baca.hairpinlib.cyclic(
                 baca.select.cmgroups(o),
                 "ppp < p >",
-                cyclic=True,
             )
 
 

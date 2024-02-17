@@ -961,10 +961,9 @@ def va(cache):
         )
     with baca.scope(m.get(43, 50)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpinlib.hairpin(
+        baca.hairpinlib.cyclic(
             baca.select.mgroups(o, [3, 2, 3 + 1]),
             'o< f -- "f" >o !',
-            cyclic=True,
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)

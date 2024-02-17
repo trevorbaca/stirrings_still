@@ -216,12 +216,11 @@ def v1(cache):
         )
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.hairpin(
+        baca.hairpinlib.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "f < ff >",
-            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),
@@ -246,12 +245,11 @@ def v1(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.hairpin(
+        baca.hairpinlib.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "ff < fff >",
-            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),
@@ -359,12 +357,11 @@ def v2(cache):
         )
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.hairpin(
+        baca.hairpinlib.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "f < ff >",
-            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),
@@ -389,12 +386,11 @@ def v2(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.hairpin(
+        baca.hairpinlib.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "ff < fff >",
-            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),
@@ -465,12 +461,11 @@ def va(cache):
         )
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.hairpin(
+        baca.hairpinlib.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "f < ff >",
-            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),
@@ -495,12 +490,11 @@ def va(cache):
         baca.stem_tremolo(o.pheads())
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.hairpin(
+        baca.hairpinlib.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "ff < fff >",
-            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),
@@ -554,12 +548,11 @@ def vc(cache):
         baca.spanners.hairpin(o, "(p) >o", rleak=True)
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.hairpin(
+        baca.hairpinlib.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "f < ff >",
-            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),
@@ -597,12 +590,11 @@ def vc(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.hairpin(
+        baca.hairpinlib.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
             "ff < fff >",
-            cyclic=True,
         )
         baca.mspanners.scp(
             o.plts(),
