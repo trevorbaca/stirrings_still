@@ -784,10 +784,9 @@ def v1_v2_va(cache):
                 "p <| mp p < mp",
             )
         with baca.scope(m.get(82, 85)) as o:
-            baca.hairpinlib.hairpin(
+            baca.hairpinlib.cyclic(
                 baca.select.plts(o),
                 "ff > p < ff -- f > p < f --",
-                cyclic=True,
                 do_not_bookend=True,
                 do_not_start_spanner_on_final_piece=True,
             )
