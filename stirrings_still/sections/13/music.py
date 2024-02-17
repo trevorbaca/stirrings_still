@@ -249,7 +249,6 @@ def v1_v2_va(cache):
             baca.hairpinlib.hairpin(
                 baca.select.mgroups(o, [8, 4]),
                 "o< f >o",
-                do_not_bookend=True,
             )
         with baca.scope(m.get(13, 16)) as o:
             baca.spanners.hairpin(
@@ -458,7 +457,6 @@ def vc(cache):
         baca.hairpinlib.hairpin(
             baca.select.mgroups(o, [2, 4, 2, 2, 4, 2, 3, 3, 4]),
             "(fff) > f < fff -- (fff) > f < fff -- (fff) > f < fff",
-            do_not_bookend=True,
             rleak=True,
         )
     with baca.scope(m.get(29)) as o:

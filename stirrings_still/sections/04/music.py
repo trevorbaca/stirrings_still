@@ -571,7 +571,6 @@ def v1_v2_va(cache):
                 baca.hairpinlib.hairpin(
                     baca.select.clparts(o, [1]),
                     "p <| mp p < mp",
-                    do_not_bookend=True,
                 )
                 baca.stop_on_string(o.pleaf(-1))
                 baca.rspanners.tasto(
@@ -687,7 +686,7 @@ def tutti_1(cache):
         with baca.scope(m.get(1, 36)) as o:
             baca.rspanners.damp(
                 baca.select.ltleaves(o),
-                # manual padding because spanner ends of volta
+                # manual padding because spanner ends at volta
                 abjad.Tweak(r"- \tweak bound-details.right.padding 5.25"),
                 staff_padding=5.5,
             )
@@ -695,25 +694,21 @@ def tutti_1(cache):
             baca.hairpinlib.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 "mp p",
-                do_not_bookend=True,
             )
         with baca.scope(m.get(13, 18)) as o:
             baca.hairpinlib.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 "mf mp",
-                do_not_bookend=True,
             )
         with baca.scope(m.get(19, 24)) as o:
             baca.hairpinlib.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 '"f" mf',
-                do_not_bookend=True,
             )
         with baca.scope(m.get(25, 30)) as o:
             baca.hairpinlib.hairpin(
                 baca.select.lts(o, nontrivial=True),
                 '"ff" "f"',
-                do_not_bookend=True,
             )
         with baca.scope(m.get(31, 36)) as o:
             baca.dynamic(o.phead(0), '"ff"')

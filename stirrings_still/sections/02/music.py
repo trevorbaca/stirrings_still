@@ -798,7 +798,6 @@ def v1(cache):
             baca.hairpinlib.hairpin(
                 baca.select.mgroups(u, [2, 4, 5]),
                 "fff -- ff > ppp --",
-                do_not_bookend=True,
                 rleak=True,
             )
             baca.mspanners.scp(
@@ -833,7 +832,6 @@ def v1_v2_va(cache):
             baca.hairpinlib.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| mp p < mp",
-                do_not_bookend=True,
             )
             if name == "v1":
                 library.breathe(o.pleaf(1))
@@ -1257,7 +1255,6 @@ def v2(cache, time_signatures):
             baca.hairpinlib.hairpin(
                 baca.select.mgroups(u, [2, 4, 2 + 1]),
                 "fff -- ff > ppp --",
-                do_not_bookend=True,
             )
             baca.mspanners.scp(
                 baca.select.mgroups(u, [2, 4, 2]),
@@ -1440,7 +1437,6 @@ def va(cache):
             baca.hairpinlib.hairpin(
                 baca.select.mgroups(u, [2, 4, 4 + 1]),
                 "fff -- ff > ppp --",
-                do_not_bookend=True,
             )
             baca.mspanners.scp(
                 baca.select.mgroups(u, [2, 4, 4]),
@@ -1642,7 +1638,6 @@ def vc(cache):
         baca.hairpinlib.hairpin(
             baca.select.mgroups(o.rleaves(), [2, 4, 5 + 1]),
             "fff -- ff > ppp --",
-            do_not_bookend=True,
         )
     with baca.scope(m.get(50, 61)) as o:
         leaves = baca.select.rleak(baca.select.ltleaves(o))

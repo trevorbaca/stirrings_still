@@ -776,37 +776,31 @@ def tutti(cache):
             baca.hairpinlib.hairpin(
                 baca.select.runs(o),
                 "mf mf mp p pp pp",
-                do_not_bookend=True,
             )
         with baca.scope(m.get(36, 39)) as o:
             baca.hairpinlib.hairpin(
                 library.grouped_pheads(o),
                 "pp pp p p mp mp",
-                do_not_bookend=True,
             )
         with baca.scope(m.get(40, 43)) as o:
             baca.hairpinlib.hairpin(
                 library.grouped_pheads(o),
                 "mf mp mp p p pp pp",
-                do_not_bookend=True,
             )
         with baca.scope(m.get(44, 47)) as o:
             baca.hairpinlib.hairpin(
                 library.grouped_pheads(o),
                 "pp pp p mp mf",
-                do_not_bookend=True,
             )
         with baca.scope(m.get(48, 51)) as o:
             baca.hairpinlib.hairpin(
                 library.grouped_pheads(o),
                 "f mf mp mp p p pp",
-                do_not_bookend=True,
             )
         with baca.scope(m.get(52, 55)) as o:
             baca.hairpinlib.hairpin(
                 library.grouped_pheads(o, None, -1),
                 "pp p mp mf f",
-                do_not_bookend=True,
             )
         with baca.scope(m.get(36, 59)) as o:
             baca.mspanners.circle_bow(
@@ -882,9 +876,9 @@ def vc(cache):
         baca.pitch(o, "B1")
         baca.clef(o.leaf(0), "bass")
         baca.hairpinlib.hairpin(
-            library.rleaves_partition_by_counts(o.rleaves(), [1, 1, 1]),
+            library.rleaves_partition_by_counts(o.rleaves(), [1, 2]),
             "o< f >o !",
-            do_not_bookend=True,
+            glue=True,
         )
         library.clouded_pane_spanner(
             o,
