@@ -526,7 +526,6 @@ def v1(cache):
         baca.hairpinlib.hairpin(
             baca.select.mgroups(o, [4, 2]),
             'p < "mf"',
-            do_not_bookend=True,
         )
         library.bcps(o, -8, clt=True, staff_padding=4.5)
         baca.untie(o)
@@ -783,7 +782,6 @@ def v1_v2_va(cache):
             baca.hairpinlib.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| mp p < mp",
-                do_not_bookend=True,
             )
         with baca.scope(m.get(82, 85)) as o:
             baca.hairpinlib.hairpin(
@@ -941,7 +939,6 @@ def v2(cache):
         baca.hairpinlib.hairpin(
             baca.select.mgroups(o, [4, 2]),
             'p < "mf"',
-            do_not_bookend=True,
         )
         library.bcps(o, -7, clt=True, staff_padding=4.5)
         baca.untie(o.leaves())
