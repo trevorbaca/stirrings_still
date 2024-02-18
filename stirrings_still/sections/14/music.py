@@ -187,7 +187,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     with baca.scope(m.get(13, 19)) as o:
-        baca.spanners.hairpin(o, "o< f", rleak=True)
+        baca.hairpinlib.exact(o, "o<f", rleak=True)
         baca.mspanners.scp(
             [o],
             "T -> O",
@@ -230,9 +230,9 @@ def v1(cache):
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[29]) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mp -- !",
+            "mp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
@@ -281,9 +281,9 @@ def v1_v2_va(cache):
         with baca.scope(m.get(1, 8)) as o:
             library.clouded_pane_spanner(o, "clouded pane -|", 8)
         with baca.scope(m.get(6, 8)) as o:
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 o,
-                "(fff) >o !",
+                "(fff)>o!",
                 rleak=True,
             )
     for name in ["v1r", "v2r", "var"]:
@@ -323,9 +323,9 @@ def v2(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     with baca.scope(m.get(13, 19)) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "o< f",
+            "o<f",
             rleak=True,
         )
         baca.mspanners.scp(
@@ -371,9 +371,9 @@ def v2(cache):
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[29]) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mp -- !",
+            "mp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
@@ -427,9 +427,9 @@ def va(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     with baca.scope(m.get(13, 19)) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "o< f",
+            "o<f",
             rleak=True,
         )
         baca.mspanners.scp(
@@ -475,9 +475,9 @@ def va(cache):
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[29]) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mp -- !",
+            "mp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
@@ -530,7 +530,7 @@ def vc(cache):
     with baca.scope(m.get(1, 22)) as o:
         baca.flat_glissando(o, "Bb1")
     with baca.scope(m.get(6, 8)) as o:
-        baca.spanners.hairpin(o, "(fff) > p", rleak=True)
+        baca.hairpinlib.exact(o, "(fff)>p", rleak=True)
     with baca.scope(m.get(11, 12)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -545,7 +545,7 @@ def vc(cache):
         with baca.scope(m.get(item)) as o:
             library.clouded_pane_spanner(o, "clouded pane -|", 8)
     with baca.scope(m.get(17, 22)) as o:
-        baca.spanners.hairpin(o, "(p) >o", rleak=True)
+        baca.hairpinlib.exact(o, "(p)>o", rleak=True)
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
         baca.hairpinlib.cyclic(
@@ -574,9 +574,9 @@ def vc(cache):
     cache.rebuild()
     m = cache[name]
     with baca.scope(m[29]) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mp -- !",
+            "mp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )

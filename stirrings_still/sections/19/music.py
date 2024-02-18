@@ -221,7 +221,7 @@ def vc(cache):
         baca.override.dls_staff_padding(o.leaves(), 6)
     with baca.scope(m[1]) as o:
         baca.flat_glissando(o, "B0")
-        baca.spanners.hairpin(o, "o< mf")
+        baca.hairpinlib.exact(o, "o<mf")
         baca.rspanners.ottava(o.tleaves(), -1)
     for item in [(3, 4), (6, 8), (10, 15)]:
         with baca.scope(m.get(item)) as o:

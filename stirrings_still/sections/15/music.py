@@ -110,9 +110,9 @@ def v1(cache):
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Eb4")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            '"mf" -- !',
+            '"mf"--!',
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
@@ -123,9 +123,9 @@ def v1(cache):
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Aqs4")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mf >o !",
+            "mf>o!",
             rleak=True,
         )
         baca.markup(
@@ -152,9 +152,9 @@ def v2(cache):
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "D4")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            '"mf" -- !',
+            '"mf"--!',
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
@@ -165,7 +165,7 @@ def v2(cache):
             staff_padding=5.5,
         ),
         baca.flat_glissando(o, "Eb4")
-        baca.spanners.hairpin(o, "mf >o !", rleak=True)
+        baca.hairpinlib.exact(o, "mf>o!", rleak=True)
         baca.markup(
             o.pleaf(0),
             r"\baca-nine-d-flat",
@@ -183,9 +183,9 @@ def va(cache):
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "G3")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            '"mf" -- !',
+            '"mf"--!',
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
@@ -196,9 +196,9 @@ def va(cache):
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bqf3")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mf >o !",
+            "mf>o!",
             rleak=True,
         )
         baca.markup(
@@ -218,17 +218,17 @@ def vc(cache):
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Ab3")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            '"mf" -- !',
+            '"mf"--!',
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
     with baca.scope(m[7]) as o:
         baca.flat_glissando(o, "Db2")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "p -- !",
+            "p--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
