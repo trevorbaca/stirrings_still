@@ -492,9 +492,9 @@ def v1(cache):
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m.get(28, 29)) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "pp -- !",
+            "pp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
@@ -552,9 +552,9 @@ def v2(cache):
             baca.select.ltleaves(o),
             staff_padding=8,
         )
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mp -- !",
+            "mp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
@@ -604,9 +604,9 @@ def va(cache):
         cache.rebuild()
         m = cache["va"]
     with baca.scope(m.get(28, 29)) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "pp -- !",
+            "pp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
@@ -667,9 +667,9 @@ def v1_v2_va(cache):
             m = cache[name]
         with baca.scope(m.get(60, 61)) as o:
             baca.breathe(o.pleaf(-1))
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 o,
-                "appena-udibile -- !",
+                "appena-udibile--!",
                 abjad.Tweak(r"- \tweak self-alignment-X #left"),
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 rleak=True,
@@ -693,9 +693,9 @@ def tutti(cache):
                 staff_padding=8,
             )
             baca.flat_glissando(o, "G4")
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 o,
-                '"ff" -- !',
+                '"ff"--!',
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 rleak=True,
             )
@@ -709,9 +709,9 @@ def tutti(cache):
                 baca.select.ltleaves(o),
                 staff_padding=8,
             )
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 o,
-                "p -- !",
+                "p--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 rleak=True,
             )
@@ -812,9 +812,9 @@ def tutti(cache):
             )
         with baca.scope(m.get(56, 59)) as o:
             baca.breathe(o.pleaf(-1))
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 baca.select.lleak(o),
-                '"ff" -- !',
+                '"ff"--!',
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 rleak=True,
             )
@@ -824,9 +824,9 @@ def tutti(cache):
                 qualifier="wide",
                 staff_padding=5.5,
             )
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 o,
-                "p -- !",
+                "p--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 rleak=True,
             )
@@ -852,9 +852,9 @@ def tutti(cache):
             }[name]
             baca.flat_glissando(o, pitch, stop_pitch=stop_pitch)
         with baca.scope(m.get(71, 76)) as o:
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 o,
-                "f >o !",
+                "f>o!",
                 abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
                 rleak=True,
             )
@@ -898,9 +898,9 @@ def vc(cache):
         baca.flat_glissando(o, "Bb2")
     with baca.scope(m.get(28, 29)) as o:
         baca.flat_glissando(o, "E2")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "pp -- !",
+            "pp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
@@ -908,9 +908,9 @@ def vc(cache):
     with baca.scope(m.get(34, 35)) as o:
         baca.breathe(o.pleaf(-1))
         baca.flat_glissando(o, "E2", allow_repitch=True)
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "p -- !",
+            "p--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )

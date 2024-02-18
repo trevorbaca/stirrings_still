@@ -251,13 +251,13 @@ def v1_v2_va(cache):
                 "o< f >o",
             )
         with baca.scope(m.get(13, 16)) as o:
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 baca.select.rleak(o),
-                "o< ff",
+                "o<ff",
                 rleak=True,
             )
         with baca.scope(m.get(17, 20)) as o:
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 o[1:],
                 ">o",
             )

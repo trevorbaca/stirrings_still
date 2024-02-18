@@ -213,9 +213,9 @@ def tutti(cache):
                 baca.select.tleaves(o),
                 staff_padding=8,
             )
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 o,
-                "p -- !",
+                "p--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 rleak=True,
             )
