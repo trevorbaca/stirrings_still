@@ -187,7 +187,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     with baca.scope(m.get(13, 19)) as o:
-        baca.hairpinlib.exact(o, "o<f", rleak=True)
+        baca.hairpins.exact(o, "o<f", rleak=True)
         baca.mspanners.scp(
             [o],
             "T -> O",
@@ -216,7 +216,7 @@ def v1(cache):
         )
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.cyclic(
+        baca.hairpins.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
@@ -230,7 +230,7 @@ def v1(cache):
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[29]) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -245,7 +245,7 @@ def v1(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.cyclic(
+        baca.hairpins.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
@@ -261,7 +261,7 @@ def v1(cache):
     with baca.scope(m.get(37, 38)) as o:
         baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "G4", stop_pitch="F4")
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.cmgroups(o),
             "p -- ! >o !",
             glue=True,
@@ -281,7 +281,7 @@ def v1_v2_va(cache):
         with baca.scope(m.get(1, 8)) as o:
             library.clouded_pane_spanner(o, "clouded pane -|", 8)
         with baca.scope(m.get(6, 8)) as o:
-            baca.hairpinlib.exact(
+            baca.hairpins.exact(
                 o,
                 "(fff)>o!",
                 rleak=True,
@@ -323,7 +323,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     with baca.scope(m.get(13, 19)) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "o<f",
             rleak=True,
@@ -357,7 +357,7 @@ def v2(cache):
         )
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.cyclic(
+        baca.hairpins.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
@@ -371,7 +371,7 @@ def v2(cache):
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[29]) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -386,7 +386,7 @@ def v2(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.cyclic(
+        baca.hairpins.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
@@ -402,7 +402,7 @@ def v2(cache):
     with baca.scope(m.get(37, 38)) as o:
         baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "F4", stop_pitch="E4")
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.cmgroups(o),
             "p -- ! >o !",
             glue=True,
@@ -427,7 +427,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     with baca.scope(m.get(13, 19)) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "o<f",
             rleak=True,
@@ -461,7 +461,7 @@ def va(cache):
         )
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.cyclic(
+        baca.hairpins.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
@@ -475,7 +475,7 @@ def va(cache):
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[29]) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -490,7 +490,7 @@ def va(cache):
         baca.stem_tremolo(o.pheads())
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.cyclic(
+        baca.hairpins.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
@@ -506,7 +506,7 @@ def va(cache):
     with baca.scope(m.get(37, 38)) as o:
         baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "Ab3", stop_pitch="Gb3")
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.cmgroups(o),
             "p -- ! >o !",
             glue=True,
@@ -530,7 +530,7 @@ def vc(cache):
     with baca.scope(m.get(1, 22)) as o:
         baca.flat_glissando(o, "Bb1")
     with baca.scope(m.get(6, 8)) as o:
-        baca.hairpinlib.exact(o, "(fff)>p", rleak=True)
+        baca.hairpins.exact(o, "(fff)>p", rleak=True)
     with baca.scope(m.get(11, 12)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -545,10 +545,10 @@ def vc(cache):
         with baca.scope(m.get(item)) as o:
             library.clouded_pane_spanner(o, "clouded pane -|", 8)
     with baca.scope(m.get(17, 22)) as o:
-        baca.hairpinlib.exact(o, "(p)>o", rleak=True)
+        baca.hairpins.exact(o, "(p)>o", rleak=True)
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.cyclic(
+        baca.hairpins.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
@@ -574,7 +574,7 @@ def vc(cache):
     cache.rebuild()
     m = cache[name]
     with baca.scope(m[29]) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -590,7 +590,7 @@ def vc(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(30, 35)) as o:
         baca.accent(o.pheads())
-        baca.hairpinlib.cyclic(
+        baca.hairpins.cyclic(
             abjad.select.partition_by_counts(
                 baca.select.plts(o)[:-1], [2], cyclic=True
             ),
@@ -605,7 +605,7 @@ def vc(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
         baca.flat_glissando(o, "B1")
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.cmgroups(o),
             "p -- ! >o !",
             glue=True,

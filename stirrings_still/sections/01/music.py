@@ -601,7 +601,7 @@ def v1(cache):
                 staff_padding=8,
             )
             baca.flat_glissando(o, "C5")
-            baca.hairpinlib.exact(
+            baca.hairpins.exact(
                 o,
                 "p--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -618,7 +618,7 @@ def v1_v2_va(cache):
         m = cache[name]
         with baca.scope(m[1]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| f p < mp",
             )
@@ -641,7 +641,7 @@ def v1_v2_va(cache):
             )
         with baca.scope(m[3]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| f p < mf",
             )
@@ -653,21 +653,21 @@ def v1_v2_va(cache):
                 )
         with baca.scope(m.get(5, 6)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| f p < mf-poco-scratch",
             )
         with baca.scope(m.get(8, 9)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| f p < f-poco-scratch",
             )
         with baca.scope(m.get(11, 16)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpinlib.exact(o[:2], "p<|f")
+            baca.hairpins.exact(o[:2], "p<|f")
             leaves = baca.select.rleak(o[2:])
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.omgroups(leaves, [1, 2]),
                 "p < f-scratch -- ! >o !",
                 glue=True,
@@ -681,7 +681,7 @@ def v1_v2_va(cache):
             baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         with baca.scope(m[18]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp <| p pp <| p",
             )
@@ -698,13 +698,13 @@ def v1_v2_va(cache):
                 library.urtext_spanner(o, "C, D -|", 8)
         with baca.scope(m[20]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp <| p pp <| mp",
             )
         with baca.scope(m[22]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp <| p pp <| mf",
             )
@@ -714,7 +714,7 @@ def v1_v2_va(cache):
                 qualifier="mod-width",
                 staff_padding=5.5,
             )
-            baca.hairpinlib.exact(
+            baca.hairpins.exact(
                 o,
                 "p--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -722,7 +722,7 @@ def v1_v2_va(cache):
             )
         with baca.scope(m[25]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp <| p pp <| f",
             )
@@ -732,7 +732,7 @@ def v1_v2_va(cache):
                 qualifier="wide",
                 staff_padding=5.5,
             )
-            baca.hairpinlib.exact(
+            baca.hairpins.exact(
                 o,
                 "pp--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -742,7 +742,7 @@ def v1_v2_va(cache):
             baca.dynamic(o.phead(0), "mp")
         with baca.scope(m[29]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp <| p pp <| ff",
             )
@@ -758,14 +758,14 @@ def v1_v2_va(cache):
         with baca.scope(m.get(41, 45)) as o:
             baca.breathe(o.pleaf(-1))
             baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -1)
-            baca.hairpinlib.exact(
+            baca.hairpins.exact(
                 o,
                 "(ppp)>o",
                 rleak=True,
             )
         with baca.scope(m[60]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.clparts(o, [1]),
                 "p <| f p < mp",
             )
@@ -784,7 +784,7 @@ def tutti(cache):
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(55, 56)) as o:
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.mgroups(o, [1, 1]),
                 "o< mp -- !",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -824,7 +824,7 @@ def tutti(cache):
                 baca.select.tleaves(o),
                 staff_padding=8,
             )
-            baca.hairpinlib.exact(
+            baca.hairpins.exact(
                 o,
                 "p--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -891,7 +891,7 @@ def v2(cache):
                 baca.select.tleaves(o),
                 staff_padding=8,
             )
-            baca.hairpinlib.exact(
+            baca.hairpins.exact(
                 o,
                 "p--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -960,7 +960,7 @@ def va(cache):
                 baca.select.tleaves(o),
                 staff_padding=8,
             )
-            baca.hairpinlib.exact(
+            baca.hairpins.exact(
                 o,
                 "p--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -1003,7 +1003,7 @@ def vc(cache):
         )
         library.urtext_spanner(o, "urtext (field) -|", 8)
     with baca.scope(m[27]) as o:
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< f >o !",
             glue=True,
@@ -1028,11 +1028,11 @@ def vc(cache):
         )
         library.urtext_spanner(o, "urtext (field) -|", 8)
     with baca.scope(m.get(35, 40)) as o:
-        baca.hairpinlib.exact(o, "(p)>o!", rleak=True)
+        baca.hairpins.exact(o, "(p)>o!", rleak=True)
     with baca.scope(m.get(42, 43)) as o:
         baca.clef(o.leaf(0), "treble")
         baca.flat_glissando(o, "A5")
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.mgroups(o, [1, 1]),
             'o< "f" -- !',
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -1072,7 +1072,7 @@ def vc(cache):
                 baca.select.tleaves(o),
                 staff_padding=8,
             )
-            baca.hairpinlib.exact(
+            baca.hairpins.exact(
                 o,
                 "p--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -1082,7 +1082,7 @@ def vc(cache):
         baca.clef(o.leaf(0), "treble")
         baca.flat_glissando(o, "A5")
         baca.clef(o.rleaf(-1), "bass")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             '"f"--!',
             abjad.Tweak(r"- \tweak to-barline ##t"),
