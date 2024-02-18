@@ -790,7 +790,7 @@ def tutti(cache):
         with baca.scope(m.get(44, 47)) as o:
             baca.hairpinlib.hairpin(
                 library.grouped_pheads(o),
-                "pp pp p mp mf",
+                "pp pp p mp mf mf",
             )
         with baca.scope(m.get(48, 51)) as o:
             baca.hairpinlib.hairpin(

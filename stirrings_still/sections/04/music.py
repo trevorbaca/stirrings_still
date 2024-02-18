@@ -691,24 +691,28 @@ def tutti_1(cache):
                 staff_padding=5.5,
             )
         with baca.scope(m.get(7, 12)) as o:
-            baca.hairpinlib.hairpin(
+            baca.hairpinlib.cyclic(
                 baca.select.lts(o, nontrivial=True),
                 "mp p",
+                do_not_bookend=True,
             )
         with baca.scope(m.get(13, 18)) as o:
-            baca.hairpinlib.hairpin(
+            baca.hairpinlib.cyclic(
                 baca.select.lts(o, nontrivial=True),
                 "mf mp",
+                do_not_bookend=True,
             )
         with baca.scope(m.get(19, 24)) as o:
-            baca.hairpinlib.hairpin(
+            baca.hairpinlib.cyclic(
                 baca.select.lts(o, nontrivial=True),
                 '"f" mf',
+                do_not_bookend=True,
             )
         with baca.scope(m.get(25, 30)) as o:
-            baca.hairpinlib.hairpin(
+            baca.hairpinlib.cyclic(
                 baca.select.lts(o, nontrivial=True),
                 '"ff" "f"',
+                do_not_bookend=True,
             )
         with baca.scope(m.get(31, 36)) as o:
             baca.dynamic(o.phead(0), '"ff"')
