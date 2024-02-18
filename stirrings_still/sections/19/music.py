@@ -171,7 +171,7 @@ def v1(cache):
             )
             baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
             baca.flat_glissando(o, "Bb4")
-            baca.hairpinlib.cyclic(
+            baca.hairpins.cyclic(
                 baca.select.cmgroups(o),
                 "p > ppp <",
             )
@@ -198,7 +198,7 @@ def v2(cache):
             )
             baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
             baca.flat_glissando(o, "F4")
-            baca.hairpinlib.cyclic(
+            baca.hairpins.cyclic(
                 baca.select.cmgroups(o),
                 "ppp < p >",
             )
@@ -221,14 +221,14 @@ def vc(cache):
         baca.override.dls_staff_padding(o.leaves(), 6)
     with baca.scope(m[1]) as o:
         baca.flat_glissando(o, "B0")
-        baca.hairpinlib.exact(o, "o<mf")
+        baca.hairpins.exact(o, "o<mf")
         baca.rspanners.ottava(o.tleaves(), -1)
     for item in [(3, 4), (6, 8), (10, 15)]:
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "B0", hide_middle_stems=True)
             baca.rspanners.ottava(o.tleaves(), -1)
     with baca.scope(m.get(3, 4)) as o:
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.mgroups(o, [1, 1]),
             "o< f -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -236,7 +236,7 @@ def vc(cache):
             rleak=True,
         )
     with baca.scope(m.get(6, 8)) as o:
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.mgroups(o, [1, 2]),
             "o< ff -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -244,7 +244,7 @@ def vc(cache):
             rleak=True,
         )
     with baca.scope(m.get(10, 15)) as o:
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.mgroups(o, [2, 4]),
             "o< fff -- !",
             abjad.Tweak(r"- \tweak to-barline ##t"),

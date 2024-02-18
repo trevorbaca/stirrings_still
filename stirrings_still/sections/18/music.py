@@ -79,7 +79,7 @@ def v1(cache):
         library.bcps(o, -8, clt=True, staff_padding=8)
         baca.flat_glissando(o, "A6", left_broken=True)
     with baca.scope(m.get(5, 8)) as o:
-        baca.hairpinlib.exact(o, "ppp>o!", rleak=True)
+        baca.hairpins.exact(o, "ppp>o!", rleak=True)
     with baca.scope(cache["v1r"][9]) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m.get(10, 17)) as o:
@@ -99,7 +99,7 @@ def v2(cache):
         library.bcps(o, -9, clt=True, staff_padding=4.5)
         baca.flat_glissando(o, "Ab5", left_broken=True)
     with baca.scope(m.get(5, 8)) as o:
-        baca.hairpinlib.exact(o, "ppp>o!", rleak=True)
+        baca.hairpins.exact(o, "ppp>o!", rleak=True)
     with baca.scope(cache["v2r"][9]) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m.get(10, 17)) as o:
@@ -126,7 +126,7 @@ def vc(cache):
         baca.rspanners.ottava(o.tleaves(), -1)
         baca.flat_glissando(o, "B0", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
-        baca.hairpinlib.exact(o, "pp>o!", rleak=True)
+        baca.hairpins.exact(o, "pp>o!", rleak=True)
     with baca.scope(cache["vcr"][13]) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m.get(14, 17)) as o:
