@@ -492,7 +492,7 @@ def v1(cache):
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m.get(28, 29)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "pp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -552,7 +552,7 @@ def v2(cache):
             baca.select.ltleaves(o),
             staff_padding=8,
         )
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "mp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -604,7 +604,7 @@ def va(cache):
         cache.rebuild()
         m = cache["va"]
     with baca.scope(m.get(28, 29)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "pp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -667,7 +667,7 @@ def v1_v2_va(cache):
             m = cache[name]
         with baca.scope(m.get(60, 61)) as o:
             baca.breathe(o.pleaf(-1))
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "appena-udibile--!",
                 abjad.Tweak(r"- \tweak self-alignment-X #left"),
@@ -693,7 +693,7 @@ def tutti(cache):
                 staff_padding=8,
             )
             baca.flat_glissando(o, "G4")
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 '"ff"--!',
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -709,7 +709,7 @@ def tutti(cache):
                 baca.select.ltleaves(o),
                 staff_padding=8,
             )
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "p--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -773,34 +773,34 @@ def tutti(cache):
                 baca.select.ltleaves(o),
                 staff_padding=8,
             )
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.runs(o),
                 "mf mf mp p pp pp",
             )
         with baca.scope(m.get(36, 39)) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 library.grouped_pheads(o),
                 "pp pp p p mp mp",
             )
         with baca.scope(m.get(40, 43)) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 library.grouped_pheads(o),
                 "mf mp mp p p pp pp",
             )
         with baca.scope(m.get(44, 47)) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 library.grouped_pheads(o),
                 "pp pp p mp mf mf",
                 extra_specifiers=True,
             )
         with baca.scope(m.get(48, 51)) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 library.grouped_pheads(o),
                 "f mf mp mp p p pp",
                 extra_specifiers=True,
             )
         with baca.scope(m.get(52, 55)) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 library.grouped_pheads(o, None, -1),
                 "pp p mp mf f",
             )
@@ -812,7 +812,7 @@ def tutti(cache):
             )
         with baca.scope(m.get(56, 59)) as o:
             baca.breathe(o.pleaf(-1))
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.lleak(o),
                 '"ff"--!',
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -824,7 +824,7 @@ def tutti(cache):
                 qualifier="wide",
                 staff_padding=5.5,
             )
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "p--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -852,7 +852,7 @@ def tutti(cache):
             }[name]
             baca.flat_glissando(o, pitch, stop_pitch=stop_pitch)
         with baca.scope(m.get(71, 76)) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "f>o!",
                 abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
@@ -877,7 +877,7 @@ def vc(cache):
     with baca.scope(m[5]) as o:
         baca.pitch(o, "B1")
         baca.clef(o.leaf(0), "bass")
-        baca.hairpins.exact(
+        baca.hairpin(
             library.rleaves_partition_by_counts(o.rleaves(), [1, 2]),
             "o< f>o!",
         )
@@ -897,7 +897,7 @@ def vc(cache):
         baca.flat_glissando(o, "Bb2")
     with baca.scope(m.get(28, 29)) as o:
         baca.flat_glissando(o, "E2")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "pp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -907,7 +907,7 @@ def vc(cache):
     with baca.scope(m.get(34, 35)) as o:
         baca.breathe(o.pleaf(-1))
         baca.flat_glissando(o, "E2", allow_repitch=True)
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "p--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),

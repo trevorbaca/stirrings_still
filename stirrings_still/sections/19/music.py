@@ -221,28 +221,28 @@ def vc(cache):
         baca.override.dls_staff_padding(o.leaves(), 6)
     with baca.scope(m[1]) as o:
         baca.flat_glissando(o, "B0")
-        baca.hairpins.exact(o, "o<mf")
+        baca.hairpin(o, "o<mf")
         baca.rspanners.ottava(o.tleaves(), -1)
     for item in [(3, 4), (6, 8), (10, 15)]:
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "B0", hide_middle_stems=True)
             baca.rspanners.ottava(o.tleaves(), -1)
     with baca.scope(m.get(3, 4)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [1, 1]),
             "o< f--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
     with baca.scope(m.get(6, 8)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [1, 2]),
             "o< ff--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
     with baca.scope(m.get(10, 15)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [2, 4]),
             "o< fff--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),

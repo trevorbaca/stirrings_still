@@ -457,7 +457,7 @@ def v1(cache):
         )
     with baca.scope(m.get(10, 24)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [4, 4, 7 + 1]),
             'o< fff-- "fff">o!',
         )
@@ -491,7 +491,7 @@ def v1(cache):
         )
     with baca.scope(m.get(28, 40)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 4, 6 + 1]),
             'o< ff-- "ff">o!',
         )
@@ -525,7 +525,7 @@ def v1(cache):
         )
     with baca.scope(m.get(43, 52)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 2, 5 + 1]),
             'o< f-- "f">o!',
         )
@@ -559,7 +559,7 @@ def v1(cache):
         )
     with baca.scope(m.get(55, 62)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [2, 2, 4 + 1]),
             'o< mf-- "mf">o!',
         )
@@ -593,7 +593,7 @@ def v1(cache):
         )
     with baca.scope(m.get(64, 68)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [1, 1, 3 + 1]),
             "o< mp-- mp>o!",
         )
@@ -620,7 +620,7 @@ def v1(cache):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(70, 71)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
             "o< p>o!",
         )
@@ -655,7 +655,7 @@ def tutti(cache):
             baca.override.tuplet_bracket_down(o.leaves())
             baca.override.tuplet_bracket_staff_padding(o.leaves(), 1)
         with baca.scope(m[1]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "mp--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -690,7 +690,7 @@ def v2(cache):
             baca.flat_glissando(o, "Gb4")
     with baca.scope(m.get(14, 21)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [4, 4 + 1]),
             'fff-- "fff">o!',
         )
@@ -716,7 +716,7 @@ def v2(cache):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(31, 37)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [4, 3 + 1]),
             'ff-- "ff">o!',
         ),
@@ -742,7 +742,7 @@ def v2(cache):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(46, 50)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [2, 3 + 1]),
             'f-- "f">o!',
         )
@@ -768,7 +768,7 @@ def v2(cache):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(57, 60)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [2, 2 + 1]),
             'mf-- "mf">o!',
         )
@@ -798,7 +798,7 @@ def v2(cache):
         )
     with baca.scope(m.get(65, 67)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [1, 2 + 1]),
             "mp-- mp>o!",
         )
@@ -824,7 +824,7 @@ def v2(cache):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m[71]) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(o, "p>o!", rleak=True)
+        baca.hairpin(o, "p>o!", rleak=True)
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
             staff_padding=4.5 + 6,
@@ -880,7 +880,7 @@ def va(cache):
         )
     with baca.scope(m.get(10, 21)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [4, 4, 4 + 1]),
             'o< fff-- "fff">o!',
         )
@@ -914,7 +914,7 @@ def va(cache):
         )
     with baca.scope(m.get(28, 37)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 4, 3 + 1]),
             'o< ff-- "ff">o!',
         )
@@ -982,7 +982,7 @@ def va(cache):
         )
     with baca.scope(m.get(55, 60)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [2, 2, 2 + 1]),
             'o< mf-- "mf">o!',
         )
@@ -1015,7 +1015,7 @@ def va(cache):
         baca.flat_glissando(o.rleaves(), "Ab3", stop_pitch="Gb3")
     with baca.scope(m.get(64, 67)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [1, 1, 2 + 1]),
             "o< mp-- mp>o!",
         )
@@ -1042,7 +1042,7 @@ def va(cache):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(70, 71)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
             "o< p>o!",
         )
@@ -1094,7 +1094,7 @@ def vc(cache):
         )
     with baca.scope(m.get(10, 21)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [4, 4, 4 + 1]),
             'o< fff-- "fff">o!',
         )
@@ -1131,7 +1131,7 @@ def vc(cache):
         )
     with baca.scope(m.get(28, 37)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 4, 3 + 1]),
             'o< ff-- "ff">o!',
         )
@@ -1169,7 +1169,7 @@ def vc(cache):
         )
     with baca.scope(m.get(43, 50)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [3, 2, 3]),
             'o< f-- "f">o!',
             rleak=True,
@@ -1207,7 +1207,7 @@ def vc(cache):
         )
     with baca.scope(m.get(55, 60)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [2, 2, 2]),
             'o< mf-- "mf">o!',
             rleak=True,
@@ -1249,7 +1249,7 @@ def vc(cache):
         )
     with baca.scope(m.get(64, 67)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [1, 1, 2]),
             "o< mp-- mp>o!",
             rleak=True,
@@ -1280,7 +1280,7 @@ def vc(cache):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(70, 71)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [1, 1]),
             "o< p>o!",
             rleak=True,

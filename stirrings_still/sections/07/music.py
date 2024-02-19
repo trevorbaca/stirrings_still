@@ -357,7 +357,7 @@ def v1_v2_va(cache):
             m = cache[name]
         with baca.scope(m.get(5, 6)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "appena-udibile--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -390,7 +390,7 @@ def tutti(cache):
             m = cache[name]
         with baca.scope(m.get(16, 17)) as o:
             baca.espressivo(o.pleaves())
-            baca.hairpins.exact(o, "pp<mf", rleak=True)
+            baca.hairpin(o, "pp<mf", rleak=True)
             baca.override.hairpin_shorten_pair(o, (0, 5))
             baca.untie(o.leaves())
             baca.mspanners.scp(
@@ -409,7 +409,7 @@ def tutti(cache):
                 baca.select.ltleaves(o),
                 staff_padding=5.5,
             )
-            baca.hairpins.exact(o, "mf>o!")
+            baca.hairpin(o, "mf>o!")
             baca.pitch(o, "C#6")
             for ntlt in baca.select.lts(o, nontrivial=True):
                 baca.stop_on_string(ntlt[-1])
@@ -429,7 +429,7 @@ def v1_va_vc(cache):
             cache.rebuild()
             m = cache[name]
         with baca.scope(m.get(12, 13)) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "pp--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -493,7 +493,7 @@ def v2(cache):
             baca.select.ltleaves(o),
             staff_padding=8,
         )
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "mp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -539,7 +539,7 @@ def vc(cache):
         baca.clef(o.leaf(0), "bass")
     for n in [1, 3, 7, 9]:
         with baca.scope(m[n]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "o< f>o!",
                 rleak=True,
@@ -547,13 +547,13 @@ def vc(cache):
     with baca.scope(m.get(5, 6)) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m[11]) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< f--!",
             rleak=True,
         )
     with baca.scope(m[14]) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.lparts(o, [1, 1]),
             "f-- !>o!",
             rleak=True,
