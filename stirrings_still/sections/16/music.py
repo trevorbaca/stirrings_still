@@ -236,16 +236,15 @@ def v1(cache):
                 staff_padding=v1_spanner_staff_padding,
             )
     with baca.scope(m.get(6, 7)) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.cmgroups(o),
-            "ppppp < p > ppp",
-            glue=True,
+            "ppppp< p>ppp",
             rleak=True,
         )
     with baca.scope(m[10]) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o.rleaves(), [2, 4, 1]),
-            "ppp < p > ppppp",
+            "ppp< p> ppppp",
         )
     for item in [(6, 7), 10, (16, 17), 20]:
         with baca.scope(m.get(item)) as o:
@@ -258,16 +257,15 @@ def v1(cache):
                 staff_padding=v1_spanner_staff_padding,
             )
     with baca.scope(m.get(16, 17)) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.cmgroups(o),
-            "ppppp < p > ppp",
-            glue=True,
+            "ppppp< p>ppp",
             rleak=True,
         )
     with baca.scope(m[20]) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o.rleaves(), [2, 4, 1]),
-            "ppp < p > ppppp",
+            "ppp< p> ppppp",
         )
     with baca.scope(m.get(21, 25)) as o:
         baca.spanners.beam(o.tleaves())
@@ -311,34 +309,34 @@ def v2(cache):
                 staff_padding=v2_spanner_staff_padding,
             )
     with baca.scope(m[5]) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o.rleaves(), [1, 3, 1]),
-            "ppppp < p > ppp",
+            "ppppp< p> ppp",
         )
     with baca.scope(m[7]) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o.rleaves(), [5, 1, 1]),
-            "ppp < p > ppp",
+            "ppp< p> ppp",
         )
     with baca.scope(m[9]) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o.rleaves(), [1, 3, 1]),
-            "ppp < p > ppppp",
+            "ppp< p> ppppp",
         )
     with baca.scope(m[15]) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o.rleaves(), [1, 4, 1]),
-            "ppppp < p > pp",
+            "ppppp< p> pp",
         )
     with baca.scope(m[17]) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o.rleaves(), [7, 1, 1]),
-            "ppp < p > pp",
+            "ppp< p> pp",
         )
     with baca.scope(m[19]) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o.rleaves(), [1, 2, 1]),
-            "ppp < p > ppppp",
+            "ppp< p> ppppp",
         )
     with baca.scope(m.get(20, 25)) as o:
         baca.spanners.beam(o.tleaves())
@@ -356,9 +354,9 @@ def va(cache):
                 staff_padding=va_spanner_staff_padding,
             )
     with baca.scope(m.get(8, 10)) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.cmgroups(o.rleaves(), [1, 2]),
-            "ppppp < p > ppppp",
+            "ppppp< p> ppppp",
         )
     for item in [(8, 10), (18, 20)]:
         with baca.scope(m.get(item)) as o:
@@ -371,9 +369,9 @@ def va(cache):
                 staff_padding=va_spanner_staff_padding,
             )
     with baca.scope(m.get(18, 20)) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.cmgroups(o.rleaves(), [1, 2]),
-            "ppppp < p > ppppp",
+            "ppppp< p> ppppp",
         )
     with baca.scope(m.get(21, 25)) as o:
         baca.spanners.beam(o.tleaves())
@@ -393,9 +391,9 @@ def vc(cache):
     with baca.scope(m.get(1, 18)) as o:
         baca.pitch(o, "A2", allow_repitch=True)
     with baca.scope(m.get(6, 8)) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.cmgroups(o.rleaves(), [1, 2]),
-            "ppppp < p > ppppp",
+            "ppppp< p> ppppp",
         )
     for item in [(6, 8), (16, 18)]:
         with baca.scope(m.get(item)) as o:
@@ -408,9 +406,9 @@ def vc(cache):
                 staff_padding=vc_spanner_staff_padding,
             )
     with baca.scope(m.get(16, 18)) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.cmgroups(o.rleaves(), [1, 2]),
-            "ppppp < p > ppppp",
+            "ppppp< p> ppppp",
         )
     with baca.scope(m.get(19, 25)) as o:
         baca.spanners.beam(o.tleaves())
