@@ -105,7 +105,7 @@ def v1(cache):
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [1, 2, 1, 2, 1, 1]),
             "pp< f> pp< f> pp< f>o!",
             rleak=True,
@@ -129,7 +129,7 @@ def v2(cache):
         cache.rebuild()
         m = cache["v2"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [2, 1, 2, 1, 1, 1]),
             "pp< f> pp< f> pp< f>o!",
             rleak=True,
@@ -173,7 +173,7 @@ def vc(cache):
             hide_middle_stems=True,
             left_broken=True,
         )
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [2, 4, 2]),
             "(p)< ff-- (ff)>o!",
             rleak=True,
@@ -210,7 +210,7 @@ def tutti(cache):
                 baca.select.tleaves(o),
                 staff_padding=8,
             )
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "p--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),

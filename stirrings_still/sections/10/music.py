@@ -147,7 +147,7 @@ def v1_v2_va(cache):
         m = cache[name]
         with baca.scope(m.get(1, 2)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "appena-udibile--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -157,7 +157,7 @@ def v1_v2_va(cache):
         with baca.scope(m.get(5, 11)) as o:
             baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
             baca.override.dynamic_text_self_alignment_x(o.leaf(-1), -0.75)
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.mgroups(o, [2, 5]),
                 "appena-udibile-- !<fff-poco-scratch",
                 (abjad.Tweak(r"- \tweak to-barline ##t"), 0),
@@ -165,7 +165,7 @@ def v1_v2_va(cache):
         with baca.scope(m.get(5, 11)) as o:
             library.urtext_spanner(o, "urtext (ds field) -|", 8)
         with baca.scope(m.get(12, 17)) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.mgroups(o, [2, 4]),
                 '"fff"> pp--!',
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -217,7 +217,7 @@ def v1_va_vc(cache):
                     o,
                     staff_padding=5.5,
                 )
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "pp--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -275,7 +275,7 @@ def v2(cache):
             baca.select.ltleaves(o),
             staff_padding=8,
         )
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "mp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -331,7 +331,7 @@ def vc(cache):
     with baca.scope(m.get(7, 11)) as o:
         baca.override.dynamic_text_self_alignment_x(o.leaf(-1), -0.75)
         baca.flat_glissando(o, "Bb1", hide_middle_stems=True)
-        baca.hairpins.exact(o, "pp<fff-poco-scratch")
+        baca.hairpin(o, "pp<fff-poco-scratch")
     with baca.scope(m.get(12, 13)) as o:
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
@@ -339,7 +339,7 @@ def vc(cache):
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Cb2", stop_pitch="Bb1")
-        baca.hairpins.exact(o, "fff>pp")
+        baca.hairpin(o, "fff>pp")
     with baca.scope(cache["vcr"][14]) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m.get(15, 17)) as o:

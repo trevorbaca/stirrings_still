@@ -110,7 +110,7 @@ def v1(cache):
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Eb4")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             '"mf"--!',
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -123,7 +123,7 @@ def v1(cache):
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Aqs4")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "mf>o!",
             rleak=True,
@@ -152,7 +152,7 @@ def v2(cache):
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "D4")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             '"mf"--!',
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -165,7 +165,7 @@ def v2(cache):
             staff_padding=5.5,
         ),
         baca.flat_glissando(o, "Eb4")
-        baca.hairpins.exact(o, "mf>o!", rleak=True)
+        baca.hairpin(o, "mf>o!", rleak=True)
         baca.markup(
             o.pleaf(0),
             r"\baca-nine-d-flat",
@@ -183,7 +183,7 @@ def va(cache):
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "G3")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             '"mf"--!',
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -196,7 +196,7 @@ def va(cache):
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Bqf3")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "mf>o!",
             rleak=True,
@@ -218,7 +218,7 @@ def vc(cache):
             staff_padding=5.5,
         )
         baca.flat_glissando(o, "Ab3")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             '"mf"--!',
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -226,7 +226,7 @@ def vc(cache):
         )
     with baca.scope(m[7]) as o:
         baca.flat_glissando(o, "Db2")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "p--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),

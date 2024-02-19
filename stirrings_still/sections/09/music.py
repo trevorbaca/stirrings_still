@@ -115,7 +115,7 @@ def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(4, 7)) as o:
-            baca.hairpins.exact(o, "(mp)>o!", rleak=True)
+            baca.hairpin(o, "(mp)>o!", rleak=True)
     for name in ["v1r", "v2r", "var"]:
         m = cache[name]
         with baca.scope(m[8]) as o:
@@ -126,7 +126,7 @@ def v1_v2_va(cache):
             baca.override.tacet(o.mmrests())
         with baca.scope(m.get(10, 11)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "appena-udibile--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -176,7 +176,7 @@ def va(cache):
     name = "va"
     m = cache[name]
     with baca.scope(m.get(1, 3)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o.ltleaves(),
             "mp--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
@@ -213,7 +213,7 @@ def va(cache):
 def vc(cache):
     m = cache["vc"]
     with baca.scope(m.leaves()) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [5, 4, 1 + 1]),
             'p< "f"-- "f">o!',
             rleak=True,
