@@ -457,10 +457,9 @@ def v1(cache):
         )
     with baca.scope(m.get(10, 24)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [4, 4, 7 + 1]),
-            'o< fff -- "fff" >o !',
-            glue=True,
+            'o< fff-- "fff">o!',
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=3.5)
@@ -492,10 +491,9 @@ def v1(cache):
         )
     with baca.scope(m.get(28, 40)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [3, 4, 6 + 1]),
-            'o< ff -- "ff" >o !',
-            glue=True,
+            'o< ff-- "ff">o!',
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=3.5)
@@ -527,10 +525,9 @@ def v1(cache):
         )
     with baca.scope(m.get(43, 52)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [3, 2, 5 + 1]),
-            'o< f -- "f" >o !',
-            glue=True,
+            'o< f-- "f">o!',
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=3.5)
@@ -562,10 +559,9 @@ def v1(cache):
         )
     with baca.scope(m.get(55, 62)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [2, 2, 4 + 1]),
-            'o< mf -- "mf" >o !',
-            glue=True,
+            'o< mf-- "mf">o!',
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=4.5)
@@ -597,10 +593,9 @@ def v1(cache):
         )
     with baca.scope(m.get(64, 68)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [1, 1, 3 + 1]),
-            "o< mp -- mp >o !",
-            glue=True,
+            "o< mp-- mp>o!",
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=4.5)
@@ -625,10 +620,9 @@ def v1(cache):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(70, 71)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
-            "o< p >o !",
-            glue=True,
+            "o< p>o!",
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=4.5)
@@ -696,10 +690,9 @@ def v2(cache):
             baca.flat_glissando(o, "Gb4")
     with baca.scope(m.get(14, 21)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [4, 4 + 1]),
-            'fff -- "fff" >o !',
-            glue=True,
+            'fff-- "fff">o!',
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
@@ -723,10 +716,9 @@ def v2(cache):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(31, 37)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [4, 3 + 1]),
-            'ff -- "ff" >o !',
-            glue=True,
+            'ff-- "ff">o!',
         ),
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
@@ -750,10 +742,9 @@ def v2(cache):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(46, 50)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [2, 3 + 1]),
-            'f -- "f" >o !',
-            glue=True,
+            'f-- "f">o!',
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
@@ -777,10 +768,9 @@ def v2(cache):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(57, 60)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [2, 2 + 1]),
-            'mf -- "mf" >o !',
-            glue=True,
+            'mf-- "mf">o!',
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
@@ -808,10 +798,9 @@ def v2(cache):
         )
     with baca.scope(m.get(65, 67)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [1, 2 + 1]),
-            "mp -- mp >o !",
-            glue=True,
+            "mp-- mp>o!",
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
@@ -891,10 +880,9 @@ def va(cache):
         )
     with baca.scope(m.get(10, 21)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [4, 4, 4 + 1]),
-            'o< fff -- "fff" >o !',
-            glue=True,
+            'o< fff-- "fff">o!',
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
@@ -926,10 +914,9 @@ def va(cache):
         )
     with baca.scope(m.get(28, 37)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [3, 4, 3 + 1]),
-            'o< ff -- "ff" >o !',
-            glue=True,
+            'o< ff-- "ff">o!',
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
@@ -995,10 +982,9 @@ def va(cache):
         )
     with baca.scope(m.get(55, 60)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [2, 2, 2 + 1]),
-            'o< mf -- "mf" >o !',
-            glue=True,
+            'o< mf-- "mf">o!',
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
@@ -1029,10 +1015,9 @@ def va(cache):
         baca.flat_glissando(o.rleaves(), "Ab3", stop_pitch="Gb3")
     with baca.scope(m.get(64, 67)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [1, 1, 2 + 1]),
-            "o< mp -- mp >o !",
-            glue=True,
+            "o< mp-- mp>o!",
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
@@ -1057,10 +1042,9 @@ def va(cache):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(70, 71)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
-            "o< p >o !",
-            glue=True,
+            "o< p>o!",
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
@@ -1110,10 +1094,9 @@ def vc(cache):
         )
     with baca.scope(m.get(10, 21)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [4, 4, 4 + 1]),
-            'o< fff -- "fff" >o !',
-            glue=True,
+            'o< fff-- "fff">o!',
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
@@ -1148,10 +1131,9 @@ def vc(cache):
         )
     with baca.scope(m.get(28, 37)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o.rleaves(), [3, 4, 3 + 1]),
-            'o< ff -- "ff" >o !',
-            glue=True,
+            'o< ff-- "ff">o!',
         )
         baca.override.dynamic_text_x_offset(o.leaf(-1), -3)
         baca.override.tuplet_bracket_down(o)
@@ -1187,10 +1169,9 @@ def vc(cache):
         )
     with baca.scope(m.get(43, 50)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o, [3, 2, 3]),
-            'o< f -- "f" >o !',
-            glue=True,
+            'o< f-- "f">o!',
             rleak=True,
         )
         baca.override.tuplet_bracket_down(o)
@@ -1226,10 +1207,9 @@ def vc(cache):
         )
     with baca.scope(m.get(55, 60)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o, [2, 2, 2]),
-            'o< mf -- "mf" >o !',
-            glue=True,
+            'o< mf-- "mf">o!',
             rleak=True,
         ),
         baca.override.tuplet_bracket_down(o)
@@ -1269,10 +1249,9 @@ def vc(cache):
         )
     with baca.scope(m.get(64, 67)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o, [1, 1, 2]),
-            "o< mp -- mp >o !",
-            glue=True,
+            "o< mp-- mp>o!",
             rleak=True,
         )
         baca.override.tuplet_bracket_down(o)
@@ -1301,10 +1280,9 @@ def vc(cache):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(70, 71)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o, [1, 1]),
-            "o< p >o !",
-            glue=True,
+            "o< p>o!",
             rleak=True,
         )
         baca.override.tuplet_bracket_down(o)

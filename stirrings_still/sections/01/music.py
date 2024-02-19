@@ -618,9 +618,9 @@ def v1_v2_va(cache):
         m = cache[name]
         with baca.scope(m[1]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.clparts(o, [1]),
-                "p <| f p < mp",
+                "p<| f p< mp",
             )
             baca.rspanners.tasto(
                 o,
@@ -641,9 +641,9 @@ def v1_v2_va(cache):
             )
         with baca.scope(m[3]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.clparts(o, [1]),
-                "p <| f p < mf",
+                "p<| f p< mf",
             )
         for item in [3, (5, 6), (8, 9)]:
             with baca.scope(m.get(item)) as o:
@@ -653,24 +653,23 @@ def v1_v2_va(cache):
                 )
         with baca.scope(m.get(5, 6)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.clparts(o, [1]),
-                "p <| f p < mf-poco-scratch",
+                "p<| f p< mf-poco-scratch",
             )
         with baca.scope(m.get(8, 9)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.clparts(o, [1]),
-                "p <| f p < f-poco-scratch",
+                "p<| f p< f-poco-scratch",
             )
         with baca.scope(m.get(11, 16)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpins.exact(o[:2], "p<|f")
             leaves = baca.select.rleak(o[2:])
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.omgroups(leaves, [1, 2]),
-                "p < f-scratch -- ! >o !",
-                glue=True,
+                "p< f-scratch-- !>o!",
             )
             baca.rspanners.tasto(
                 o,
@@ -681,9 +680,9 @@ def v1_v2_va(cache):
             baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         with baca.scope(m[18]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.clparts(o, [1]),
-                "pp <| p pp <| p",
+                "pp<| p pp<| p",
             )
         for n in [18, 20, 22, 25, 29]:
             with baca.scope(m.get(n)) as o:
@@ -698,15 +697,15 @@ def v1_v2_va(cache):
                 library.urtext_spanner(o, "C, D -|", 8)
         with baca.scope(m[20]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.clparts(o, [1]),
-                "pp <| p pp <| mp",
+                "pp<| p pp<| mp",
             )
         with baca.scope(m[22]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.clparts(o, [1]),
-                "pp <| p pp <| mf",
+                "pp<| p pp<| mf",
             )
         with baca.scope(m[23]) as o:
             baca.mspanners.circle_bow(
@@ -722,9 +721,9 @@ def v1_v2_va(cache):
             )
         with baca.scope(m[25]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.clparts(o, [1]),
-                "pp <| p pp <| f",
+                "pp<| p pp<| f",
             )
         with baca.scope(m[26]) as o:
             baca.mspanners.circle_bow(
@@ -742,9 +741,9 @@ def v1_v2_va(cache):
             baca.dynamic(o.phead(0), "mp")
         with baca.scope(m[29]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.clparts(o, [1]),
-                "pp <| p pp <| ff",
+                "pp<| p pp<| ff",
             )
         with baca.scope(m[30]) as o:
             baca.dynamic(o.phead(0), "ppp")
@@ -765,9 +764,9 @@ def v1_v2_va(cache):
             )
         with baca.scope(m[60]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.clparts(o, [1]),
-                "p <| f p < mp",
+                "p<| f p< mp",
             )
             baca.stop_on_string(o.pleaf(-1))
             baca.rspanners.tasto(
@@ -784,11 +783,10 @@ def tutti(cache):
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(55, 56)) as o:
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.mgroups(o, [1, 1]),
-                "o< mp -- !",
+                "o< mp--!",
                 abjad.Tweak(r"- \tweak to-barline ##t"),
-                glue=True,
                 rleak=True,
             )
             baca.markup(
@@ -1003,10 +1001,9 @@ def vc(cache):
         )
         library.urtext_spanner(o, "urtext (field) -|", 8)
     with baca.scope(m[27]) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o, [1, 1]),
-            "o< f >o !",
-            glue=True,
+            "o< f>o!",
             rleak=True,
         )
         baca.pitch(o, "B1")
@@ -1032,11 +1029,10 @@ def vc(cache):
     with baca.scope(m.get(42, 43)) as o:
         baca.clef(o.leaf(0), "treble")
         baca.flat_glissando(o, "A5")
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o, [1, 1]),
-            'o< "f" -- !',
+            'o< "f"--!',
             abjad.Tweak(r"- \tweak to-barline ##t"),
-            glue=True,
             rleak=True,
         )
         baca.rspanners.half_clt(

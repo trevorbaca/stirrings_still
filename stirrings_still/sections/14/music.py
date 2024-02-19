@@ -261,10 +261,9 @@ def v1(cache):
     with baca.scope(m.get(37, 38)) as o:
         baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "G4", stop_pitch="F4")
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.cmgroups(o),
-            "p -- ! >o !",
-            glue=True,
+            "p-- !>o!",
             rleak=True,
         )
         baca.mspanners.text(
@@ -402,10 +401,9 @@ def v2(cache):
     with baca.scope(m.get(37, 38)) as o:
         baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "F4", stop_pitch="E4")
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.cmgroups(o),
-            "p -- ! >o !",
-            glue=True,
+            "p-- !>o!",
             rleak=True,
         )
         baca.mspanners.text(
@@ -506,10 +504,9 @@ def va(cache):
     with baca.scope(m.get(37, 38)) as o:
         baca.spanners.beam(o.tleaves())
         baca.flat_glissando(o, "Ab3", stop_pitch="Gb3")
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.cmgroups(o),
-            "p -- ! >o !",
-            glue=True,
+            "p-- !>o!",
             rleak=True,
         )
         baca.mspanners.text(
@@ -605,10 +602,9 @@ def vc(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
         baca.flat_glissando(o, "B1")
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.cmgroups(o),
-            "p -- ! >o !",
-            glue=True,
+            "p-- !>o!",
             rleak=True,
         )
         baca.rspanners.tasto(

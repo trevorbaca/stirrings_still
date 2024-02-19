@@ -213,10 +213,9 @@ def va(cache):
 def vc(cache):
     m = cache["vc"]
     with baca.scope(m.leaves()) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o, [5, 4, 1 + 1]),
-            'p < "f" -- "f" >o !',
-            glue=True,
+            'p< "f"-- "f">o!',
             rleak=True,
         )
         baca.rspanners.half_clt(

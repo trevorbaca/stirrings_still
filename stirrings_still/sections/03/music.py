@@ -773,34 +773,34 @@ def tutti(cache):
                 baca.select.ltleaves(o),
                 staff_padding=8,
             )
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.runs(o),
                 "mf mf mp p pp pp",
             )
         with baca.scope(m.get(36, 39)) as o:
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 library.grouped_pheads(o),
                 "pp pp p p mp mp",
             )
         with baca.scope(m.get(40, 43)) as o:
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 library.grouped_pheads(o),
                 "mf mp mp p p pp pp",
             )
         with baca.scope(m.get(44, 47)) as o:
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 library.grouped_pheads(o),
                 "pp pp p mp mf mf",
                 extra_specifiers=True,
             )
         with baca.scope(m.get(48, 51)) as o:
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 library.grouped_pheads(o),
                 "f mf mp mp p p pp",
                 extra_specifiers=True,
             )
         with baca.scope(m.get(52, 55)) as o:
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 library.grouped_pheads(o, None, -1),
                 "pp p mp mf f",
             )
@@ -877,10 +877,9 @@ def vc(cache):
     with baca.scope(m[5]) as o:
         baca.pitch(o, "B1")
         baca.clef(o.leaf(0), "bass")
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             library.rleaves_partition_by_counts(o.rleaves(), [1, 2]),
-            "o< f >o !",
-            glue=True,
+            "o< f>o!",
         )
         library.clouded_pane_spanner(
             o,

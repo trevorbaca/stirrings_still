@@ -105,10 +105,9 @@ def v1(cache):
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o, [1, 2, 1, 2, 1, 1]),
-            "pp < f > pp < f > pp < f >o !",
-            glue=True,
+            "pp< f> pp< f> pp< f>o!",
             rleak=True,
         )
         baca.markup(
@@ -130,10 +129,9 @@ def v2(cache):
         cache.rebuild()
         m = cache["v2"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o, [2, 1, 2, 1, 1, 1]),
-            "pp < f > pp < f > pp < f >o !",
-            glue=True,
+            "pp< f> pp< f> pp< f>o!",
             rleak=True,
         )
         baca.markup(
@@ -175,10 +173,9 @@ def vc(cache):
             hide_middle_stems=True,
             left_broken=True,
         )
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o, [2, 4, 2]),
-            "(p) < ff -- (ff) >o !",
-            glue=True,
+            "(p)< ff-- (ff)>o!",
             rleak=True,
         )
         library.clouded_pane_spanner(
