@@ -12884,7 +12884,16 @@ number.2.Cello.Music = {
         - \baca-bcp-spanner-left-text #7 #7
         - \tweak staff-padding 4
         \bacaStartTextSpanBCP
+        \glissando
 
+        \hide NoteHead
+        \override Accidental.stencil = ##f
+        \override NoteColumn.glissando-skip = ##t
+        \override NoteHead.no-ledgers = ##t
+        \revert Accidental.stencil
+        \revert NoteColumn.glissando-skip
+        \revert NoteHead.no-ledgers
+        \undo \hide NoteHead
         d''4
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
