@@ -478,7 +478,7 @@ def v1(cache):
         baca.multistage_leaf_glissando(
             o,
             "F5:4 Gb5:3 C5:5 Eb5:3 Db5:5 F5:3 E5:5 G5:2 F5:3 Aqs5",
-            rleak_final_stage=True,
+            rleak=True,
         )
     for item in [9, (11, 14), 16]:
         with baca.scope(m.get(item)) as o:
@@ -691,7 +691,7 @@ def v2(cache):
         baca.multistage_leaf_glissando(
             o,
             "Eb5:3 F5:8 B4:4 Db5:4 C5:4 E5:4 D5:4 F#5",
-            rleak_final_stage=True,
+            rleak=True,
         ),
     for item in [9, 13, (15, 16)]:
         with baca.scope(m.get(item)) as o:
@@ -876,7 +876,7 @@ def va(cache):
         baca.multistage_leaf_glissando(
             o,
             "B3 A3:3 C4:3 Ab3:6 B3:3 G#3",
-            rleak_final_stage=True,
+            rleak=True,
         )
     with baca.scope(m.get(14, 15)) as o:
         baca.stem_tremolo(o.pleaves())
@@ -1046,7 +1046,7 @@ def vc(cache):
         baca.multistage_leaf_glissando(
             o,
             "F3:3 C3:4 Db3:4 A2:4 Bb2:4 F2:4 Gb2:5 E2",
-            rleak_final_stage=True,
+            rleak=True,
         )
     for item in [(9, 10), (13, 14)]:
         with baca.scope(m.get(item)) as o:
