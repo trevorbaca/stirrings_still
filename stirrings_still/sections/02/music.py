@@ -785,7 +785,7 @@ def v1(cache):
     with baca.scope(m.get(50, 51)) as o:
         baca.flat_glissando(baca.select.rleak(o), "D6")
     with baca.scope(m.get(52, 55)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "D6:7 Ab5:7 B5:4 F5",
             rleak=True,
@@ -1155,7 +1155,7 @@ def v2(cache, time_signatures):
             clt=True,
             staff_padding=4,
         ),
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Bb4:5 D5:5 C5:5 Eb5:5 D5:5 F5:5 Eb5:4 G5",
         )
@@ -1245,7 +1245,7 @@ def v2(cache, time_signatures):
             )
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(52, 55)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "D4:7 Fb4:7 Eb4:4 F#4",
             rleak=True,
@@ -1321,7 +1321,7 @@ def va(cache):
     m = cache["va"]
     with baca.scope(m.get(23, 25)) as o:
         baca.clef(o.leaf(0), "treble")
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "C5:5 Eb5:5 D5:2 Ftqs5",
         )
@@ -1422,7 +1422,7 @@ def va(cache):
             )
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(52, 55)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "D3:7 Fb3:7 Eb3:2 F3",
             rleak=True,
@@ -1532,7 +1532,7 @@ def vc(cache):
         )
         library.bcps(o, 0, clt=True, staff_padding=4)
         baca.tie(o.lleaf(0))
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             baca.select.lleak(o),
             "Bb4:5 D5:5 C5:5 Eb5:5 D5 D5:5 Fqs5",
         )
@@ -1620,7 +1620,7 @@ def vc(cache):
         )
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(52, 55)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "D2:7 Fb2:7 Eb2:2 F2",
             rleak=True,

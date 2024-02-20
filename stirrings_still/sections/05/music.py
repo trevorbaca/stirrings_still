@@ -514,7 +514,7 @@ def v1(cache):
             baca.flat_glissando(plt, "Etqf4")
         baca.pitch(o, "Etqf4", allow_repitch=True)
     with baca.scope(m.get(24, 31)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Etqf4:3 F4:3 E4:3 Gb4:3 F4:4 Ab4",
             rleak=True,
@@ -558,7 +558,7 @@ def v1(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, staff_padding=2.5, clt=True)
     with baca.scope(m.get(50, 53)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab4:2 C5 B4:5 Db5:2 C5:6 Eb5",
             rleak=True,
@@ -630,7 +630,7 @@ def v1(cache):
             staff_padding=8,
         )
     with baca.scope(m.get(97, 100)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab4:2 C5 B4:5 Db5:2 C5:6 Eb5",
             rleak=True,
@@ -919,7 +919,7 @@ def v2(cache):
             baca.flat_glissando(plt, "Bqf3")
         baca.pitch(o, "Bqf3", allow_repitch=True)
     with baca.scope(m.get(24, 31)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Bqf3:2 Eb4:5 Db4:9 G4",
             rleak=True,
@@ -934,7 +934,7 @@ def v2(cache):
         library.bcps(o, -7, clt=True, staff_padding=4.5)
         baca.untie(o.leaves())
         baca.override.tuplet_bracket_down(o)
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "G4:6 G4:11 A4:6 A4",
         )
@@ -1077,7 +1077,7 @@ def va(cache):
             baca.flat_glissando(plt, "A3")
         baca.pitch(o, "A3", allow_repitch=True)
     with baca.scope(m.get(24, 31)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "A3:6 F4:5 D4:5 Gb4",
             rleak=True,
@@ -1182,7 +1182,7 @@ def va_vc(cache):
                 baca.override.tuplet_bracket_down(o)
                 library.bcps(o, -6, clt=True, staff_padding=2.5)
                 with baca.scope(m.get(50, 53)) as u:
-                    baca.multistage_leaf_glissando(
+                    baca.multistage_glissando(
                         u,
                         "Ab3:5 F3:5 Gb3:6 E3",
                         rleak=True,
@@ -1193,7 +1193,7 @@ def va_vc(cache):
                 baca.override.tuplet_bracket_down(o)
                 library.bcps(o, -5, clt=True, staff_padding=2.5)
                 with baca.scope(m.get(50, 53)) as u:
-                    baca.multistage_leaf_glissando(
+                    baca.multistage_glissando(
                         u,
                         "Ab3:2 F3 G3:5 Eb3:2 Gb3:5 D3",
                         rleak=True,
@@ -1244,7 +1244,7 @@ def va_vc(cache):
                 baca.override.tuplet_bracket_down(o)
                 library.bcps(o, -6, clt=True, staff_padding=2.5)
                 with baca.scope(m.get(97, 100)) as u:
-                    baca.multistage_leaf_glissando(
+                    baca.multistage_glissando(
                         u,
                         "Ab3:5 F3:5 Gb3:5 E3",
                         rleak=True,
@@ -1255,7 +1255,7 @@ def va_vc(cache):
                 baca.override.tuplet_bracket_down(o)
                 library.bcps(o, -5, clt=True, staff_padding=2.5)
                 with baca.scope(m.get(97, 100)) as u:
-                    baca.multistage_leaf_glissando(
+                    baca.multistage_glissando(
                         u,
                         "Ab3:2 F3 G3:5 Eb3:2 Gb3:8 D3",
                         rleak=True,
