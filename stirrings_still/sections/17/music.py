@@ -449,7 +449,7 @@ def v1(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "Bb5")
     with baca.scope(m.get(10, 13)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab4:2 C5 B4:5 Db5:2 C5 Eb5",
             rleak=True,
@@ -482,7 +482,7 @@ def v1(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(28, 30)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab4:3 C5:2 B4:2 Db5:2 C5 E5",
             rleak=True,
@@ -515,7 +515,7 @@ def v1(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(43, 45)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab4:2 Db5:2 B4:3 Eb5:2 Cb5 F5",
             rleak=True,
@@ -548,7 +548,7 @@ def v1(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(55, 56)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab4 Eb5 Db5:2 E5 D5 Gb5",
             rleak=True,
@@ -581,7 +581,7 @@ def v1(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m[64]) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab4:2 E5 D5 G5",
             rleak=True,
@@ -867,7 +867,7 @@ def va(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "B3")
     with baca.scope(m.get(10, 13)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab3:5 F3:5 Gb3 E3",
             rleak=True,
@@ -900,7 +900,7 @@ def va(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(28, 30)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab3:4 F3:6 Gb3 Eb3",
             rleak=True,
@@ -933,7 +933,7 @@ def va(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(43, 45)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab3:3 D3:6 Eb3 C3",
             rleak=True,
@@ -966,7 +966,7 @@ def va(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(55, 56)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab3:2 Db3:4 F3 B2",
             rleak=True,
@@ -1077,7 +1077,7 @@ def vc(cache):
         with baca.scope(m.get(item)) as o:
             baca.flat_glissando(o, "C3")
     with baca.scope(m.get(10, 13)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab3:2 F3 G3:5 Eb3:2 Gb3 D3",
             rleak=True,
@@ -1113,7 +1113,7 @@ def vc(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(28, 30)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab3:3 F3:2 G3:3 Eb3:4 Gb3 Db3",
             rleak=True,
@@ -1150,7 +1150,7 @@ def vc(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(43, 45)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab3:3 E3 Gb3:2 D3:3 Eb3 B2",
             rleak=True,
@@ -1187,7 +1187,7 @@ def vc(cache):
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(55, 56)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab3:2 F3 Gb3:2 D3:2 E3 Bb2",
             rleak=True,
@@ -1228,7 +1228,7 @@ def vc(cache):
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         )
     with baca.scope(m[64]) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Ab3:2 D3:2 Eb3 A2",
             rleak=True,

@@ -448,7 +448,7 @@ def v1(cache):
             staff_padding=4 + 6.5,
         )
         library.bcps(o, 0, clt=True, staff_padding=4)
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "E5:2 D5:7 F5",
         )
@@ -475,7 +475,7 @@ def v1(cache):
                 staff_padding=4 + 6.5,
             )
     with baca.scope(m.get(5, 16)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "F5:4 Gb5:3 C5:5 Eb5:3 Db5:5 F5:3 E5:5 G5:2 F5:3 Aqs5",
             rleak=True,
@@ -661,7 +661,7 @@ def v2(cache):
             staff_padding=4 + 6.5,
         )
         library.bcps(o, -1, clt=True, staff_padding=4)
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "C#5:3 E5 D5:3 Eb5",
         )
@@ -688,7 +688,7 @@ def v2(cache):
                 staff_padding=4 + 6.5,
             )
     with baca.scope(m.get(5, 16)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "Eb5:3 F5:8 B4:4 Db5:4 C5:4 E5:4 D5:4 F#5",
             rleak=True,
@@ -834,7 +834,7 @@ def va(cache):
             staff_padding=4 + 6.5,
         )
         library.bcps(o, -2, clt=True, staff_padding=4)
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "D4:5 A3 B3",
         )
@@ -873,7 +873,7 @@ def va(cache):
             library.bcps(o, -3, clt=True, staff_padding=4)
     with baca.scope(m.get(12, 17)) as o:
         baca.hairpin(o, "p<mp", rleak=True)
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "B3 A3:3 C4:3 Ab3:6 B3:3 G#3",
             rleak=True,
@@ -1016,7 +1016,7 @@ def vc(cache):
             staff_padding=4 + 6.5,
         )
         library.bcps(o, -3, clt=True, staff_padding=4)
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "D4:3 Ab3 B3:3 F3",
         )
@@ -1043,7 +1043,7 @@ def vc(cache):
                 staff_padding=4 + 6.5,
             )
     with baca.scope(m.get(5, 14)) as o:
-        baca.multistage_leaf_glissando(
+        baca.multistage_glissando(
             o,
             "F3:3 C3:4 Db3:4 A2:4 Bb2:4 F2:4 Gb2:5 E2",
             rleak=True,
