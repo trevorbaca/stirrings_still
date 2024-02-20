@@ -137,8 +137,7 @@ def v1(cache):
     with baca.scope(m.get(12, 17)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("A4", 4), ("C5", 2), ("B4", 8), ("Db5", 3), ("C5", None)],
-            "E5",
+            "A4:3 C5 B4:7 Db5:2 C5:11 E5",
         )
 
 
@@ -266,8 +265,7 @@ def v2(cache):
     with baca.scope(m.get(12, 17)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("G#4", 7), ("B4", 7), ("A4", 7), ("C5", 8), ("B4", None)],
-            "C#5",
+            "G#4:6 B4:6 A4:6 C5:7 B4:3 C#5",
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.alternate_bow_strokes(o.pheads())
@@ -310,8 +308,7 @@ def va(cache):
     with baca.scope(m.get(12, 17)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("F4", 5), ("E4", 5), ("Gb4", 6), ("F4", 7), ("Eb4", None)],
-            "D4",
+            "F4:4 E4:4 Gb4:5 F4:6 Eb4:8 D4",
         )
 
 
