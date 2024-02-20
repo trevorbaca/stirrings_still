@@ -450,8 +450,7 @@ def v1(cache):
         library.bcps(o, 0, clt=True, staff_padding=4)
         baca.multistage_leaf_glissando(
             o,
-            [("E5", 3), ("D5", None)],
-            "F5",
+            "E5:2 D5:7 F5",
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.mspanners.circle_bow(
@@ -478,18 +477,7 @@ def v1(cache):
     with baca.scope(m.get(5, 16)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [
-                ("F5", 5),
-                ("Gb5", 4),
-                ("C5", 6),
-                ("Eb5", 4),
-                ("Db5", 6),
-                ("F5", 4),
-                ("E5", 6),
-                ("G5", 3),
-                ("F5", None),
-            ],
-            "Aqs5",
+            "F5:4 Gb5:3 C5:5 Eb5:3 Db5:5 F5:3 E5:5 G5:2 F5:3 Aqs5",
             rleak_final_stage=True,
         )
     for item in [9, (11, 14), 16]:
@@ -675,8 +663,7 @@ def v2(cache):
         library.bcps(o, -1, clt=True, staff_padding=4)
         baca.multistage_leaf_glissando(
             o,
-            [("C#5", 4), ("E5", 2), ("D5", None)],
-            "Eb5",
+            "C#5:3 E5 D5:3 Eb5",
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.mspanners.circle_bow(
@@ -703,16 +690,7 @@ def v2(cache):
     with baca.scope(m.get(5, 16)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [
-                ("Eb5", 4),
-                ("F5", 9),
-                ("B4", 5),
-                ("Db5", 5),
-                ("C5", 5),
-                ("E5", 5),
-                ("D5", None),
-            ],
-            "F#5",
+            "Eb5:3 F5:8 B4:4 Db5:4 C5:4 E5:4 D5:4 F#5",
             rleak_final_stage=True,
         ),
     for item in [9, 13, (15, 16)]:
@@ -858,8 +836,7 @@ def va(cache):
         library.bcps(o, -2, clt=True, staff_padding=4)
         baca.multistage_leaf_glissando(
             o,
-            [("D4", 6), ("A3", None)],
-            "B3",
+            "D4:5 A3 B3",
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.mspanners.circle_bow(
@@ -898,8 +875,7 @@ def va(cache):
         baca.hairpin(o, "p<mp", rleak=True)
         baca.multistage_leaf_glissando(
             o,
-            [("B3", 2), ("A3", 4), ("C4", 4), ("Ab3", 7), ("B3", None)],
-            "G#3",
+            "B3 A3:3 C4:3 Ab3:6 B3:3 G#3",
             rleak_final_stage=True,
         )
     with baca.scope(m.get(14, 15)) as o:
@@ -1042,8 +1018,7 @@ def vc(cache):
         library.bcps(o, -3, clt=True, staff_padding=4)
         baca.multistage_leaf_glissando(
             o,
-            [("D4", 4), ("Ab3", 2), ("B3", None)],
-            "F3",
+            "D4:3 Ab3 B3:3 F3",
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.mspanners.circle_bow(
@@ -1070,16 +1045,7 @@ def vc(cache):
     with baca.scope(m.get(5, 14)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [
-                ("F3", 4),
-                ("C3", 5),
-                ("Db3", 5),
-                ("A2", 5),
-                ("Bb2", 5),
-                ("F2", 5),
-                ("Gb2", None),
-            ],
-            "E2",
+            "F3:3 C3:4 Db3:4 A2:4 Bb2:4 F2:4 Gb2:5 E2",
             rleak_final_stage=True,
         )
     for item in [(9, 10), (13, 14)]:

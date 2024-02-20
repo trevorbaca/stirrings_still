@@ -451,8 +451,7 @@ def v1(cache):
     with baca.scope(m.get(10, 13)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("Ab4", 3), ("C5", 2), ("B4", 6), ("Db5", 3), ("C5", None)],
-            "Eb5",
+            "Ab4:2 C5 B4:5 Db5:2 C5 Eb5",
             rleak_final_stage=True,
         )
     with baca.scope(m.get(10, 24)) as o:
@@ -485,8 +484,7 @@ def v1(cache):
     with baca.scope(m.get(28, 30)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("Ab4", 4), ("C5", 3), ("B4", 3), ("Db5", 3), ("C5", None)],
-            "E5",
+            "Ab4:3 C5:2 B4:2 Db5:2 C5 E5",
             rleak_final_stage=True,
         )
     with baca.scope(m.get(28, 40)) as o:
@@ -519,8 +517,7 @@ def v1(cache):
     with baca.scope(m.get(43, 45)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("Ab4", 3), ("Db5", 3), ("B4", 4), ("Eb5", 3), ("Cb5", None)],
-            "F5",
+            "Ab4:2 Db5:2 B4:3 Eb5:2 Cb5 F5",
             rleak_final_stage=True,
         )
     with baca.scope(m.get(43, 52)) as o:
@@ -553,8 +550,7 @@ def v1(cache):
     with baca.scope(m.get(55, 56)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("Ab4", 2), ("Eb5", 2), ("Db5", 3), ("E5", 2), ("D5", None)],
-            "Gb5",
+            "Ab4 Eb5 Db5:2 E5 D5 Gb5",
             rleak_final_stage=True,
         )
     with baca.scope(m.get(55, 62)) as o:
@@ -587,8 +583,7 @@ def v1(cache):
     with baca.scope(m[64]) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("Ab4", 3), ("E5", 2), ("D5", None)],
-            "G5",
+            "Ab4:2 E5 D5 G5",
             rleak_final_stage=True,
         )
     with baca.scope(m.get(64, 68)) as o:
@@ -874,8 +869,7 @@ def va(cache):
     with baca.scope(m.get(10, 13)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("Ab3", 6), ("F3", 6), ("Gb3", None)],
-            "E3",
+            "Ab3:5 F3:5 Gb3 E3",
             rleak_final_stage=True,
         )
     with baca.scope(m.get(10, 21)) as o:
@@ -908,8 +902,7 @@ def va(cache):
     with baca.scope(m.get(28, 30)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("Ab3", 5), ("F3", 7), ("Gb3", None)],
-            "Eb3",
+            "Ab3:4 F3:6 Gb3 Eb3",
             rleak_final_stage=True,
         )
     with baca.scope(m.get(28, 37)) as o:
@@ -942,8 +935,7 @@ def va(cache):
     with baca.scope(m.get(43, 45)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("Ab3", 4), ("D3", 7), ("Eb3", None)],
-            "C3",
+            "Ab3:3 D3:6 Eb3 C3",
             rleak_final_stage=True,
         )
     with baca.scope(m.get(43, 50)) as o:
@@ -976,8 +968,7 @@ def va(cache):
     with baca.scope(m.get(55, 56)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("Ab3", 3), ("Db3", 5), ("F3", None)],
-            "B2",
+            "Ab3:2 Db3:4 F3 B2",
             rleak_final_stage=True,
         )
     with baca.scope(m.get(55, 60)) as o:
@@ -1088,8 +1079,7 @@ def vc(cache):
     with baca.scope(m.get(10, 13)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("Ab3", 3), ("F3", 2), ("G3", 6), ("Eb3", 3), ("Gb3", None)],
-            "D3",
+            "Ab3:2 F3 G3:5 Eb3:2 Gb3 D3",
             rleak_final_stage=True,
         )
     with baca.scope(m.get(10, 21)) as o:
@@ -1125,8 +1115,7 @@ def vc(cache):
     with baca.scope(m.get(28, 30)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("Ab3", 4), ("F3", 3), ("G3", 4), ("Eb3", 5), ("Gb3", None)],
-            "Db3",
+            "Ab3:3 F3:2 G3:3 Eb3:4 Gb3 Db3",
             rleak_final_stage=True,
         )
     with baca.scope(m.get(28, 37)) as o:
@@ -1163,8 +1152,7 @@ def vc(cache):
     with baca.scope(m.get(43, 45)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("Ab3", 4), ("E3", 2), ("Gb3", 3), ("D3", 4), ("Eb3", None)],
-            "B2",
+            "Ab3:3 E3 Gb3:2 D3:3 Eb3 B2",
             rleak_final_stage=True,
         )
     with baca.scope(m.get(43, 50)) as o:
@@ -1201,8 +1189,7 @@ def vc(cache):
     with baca.scope(m.get(55, 56)) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("Ab3", 3), ("F3", 2), ("Gb3", 3), ("D3", 3), ("E3", None)],
-            "Bb2",
+            "Ab3:2 F3 Gb3:2 D3:2 E3 Bb2",
             rleak_final_stage=True,
         )
     with baca.scope(m.get(55, 60)) as o:
@@ -1243,8 +1230,7 @@ def vc(cache):
     with baca.scope(m[64]) as o:
         baca.multistage_leaf_glissando(
             o,
-            [("Ab3", 3), ("D3", 3), ("Eb3", None)],
-            "A2",
+            "Ab3:2 D3:2 Eb3 A2",
             rleak_final_stage=True,
         )
     with baca.scope(m.get(64, 67)) as o:
