@@ -1533,9 +1533,8 @@ def vc(cache):
         library.bcps(o, 0, clt=True, staff_padding=4)
         baca.tie(o.lleaf(0))
         baca.multistage_leaf_glissando(
-            o,
-            "Bb4:5 D5:5 C5:5 Eb5:5 D5:5 Fqs5",
-            use_pleaves_lleak=True,
+            baca.select.lleak(o),
+            "Bb4:5 D5:5 C5:5 Eb5:5 D5 D5:5 Fqs5",
         )
     with baca.scope(m.get(20, 30)) as o:
         baca.override.tuplet_bracket_staff_padding(o, 2)
