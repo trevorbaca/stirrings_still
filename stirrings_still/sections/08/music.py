@@ -409,7 +409,7 @@ def v1(cache):
         baca.flat_glissando(o, "Bb4")
     for item in [(30, 31), (38, 40), (42, 45)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(o, "Db5", stop_pitch="B4")
+            baca.flat_glissando(o, "Db5 B4")
     with baca.scope(m.get(52, 55)) as o:
         baca.rspanners.tasto(
             o,
@@ -460,8 +460,7 @@ def v2(cache):
     with baca.scope(m.get(11, 14)) as o:
         baca.flat_glissando(
             o.rleaves(),
-            "F4",
-            stop_pitch="Ab4",
+            "F4 Ab4",
         )
     with baca.scope(m.get(15, 16)) as o:
         baca.flat_glissando(o, "Ab4")
@@ -632,9 +631,8 @@ def vc(cache):
         )
         baca.flat_glissando(
             o.rleaves(),
-            "Gb2",
+            "Gb2 Db2",
             hide_middle_stems=True,
-            stop_pitch="Db2",
         )
     with baca.scope(m.get(47, 51)) as o:
         baca.hairpin(
@@ -871,9 +869,9 @@ def v1_v2(cache):
 
 def v1_va(cache):
     with baca.scope(cache["v1"].get(7, 14)) as o:
-        baca.flat_glissando(o.rleaves(), "Gb4", stop_pitch="Bb4")
+        baca.flat_glissando(o.rleaves(), "Gb4 Bb4")
     with baca.scope(cache["va"].get(7, 14)) as o:
-        baca.flat_glissando(o.rleaves(), "Ab3", stop_pitch="B3")
+        baca.flat_glissando(o.rleaves(), "Ab3 B3")
     for name in ["v1", "va"]:
         m = cache[name]
         with baca.scope(m.get(7, 16)) as o:

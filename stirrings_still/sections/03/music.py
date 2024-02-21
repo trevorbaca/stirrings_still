@@ -719,7 +719,7 @@ def tutti(cache):
             if name == "v1":
                 baca.flat_glissando(o, "Bb4")
             elif name == "v2":
-                baca.flat_glissando(o, "G4", stop_pitch="A4")
+                baca.flat_glissando(o, "G4 A4")
             elif name == "va":
                 baca.flat_glissando(o, "Bb4")
             elif name == "vc":
@@ -850,7 +850,7 @@ def tutti(cache):
                 "va": ("A3", "B2"),
                 "vc": ("G2", "Bb1"),
             }[name]
-            baca.flat_glissando(o, pitch, stop_pitch=stop_pitch)
+            baca.flat_glissando(o, f"{pitch} {stop_pitch}")
         with baca.scope(m.get(71, 76)) as o:
             baca.hairpin(
                 o,

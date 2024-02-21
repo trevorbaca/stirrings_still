@@ -672,7 +672,9 @@ def v1_v2_va(cache):
                 "v2": ("G4", "A4"),
                 "va": ("Ab4", None),
             }[name]
-            baca.flat_glissando(o, pitch, stop_pitch=stop_pitch)
+            if stop_pitch:
+                pitch += " " + stop_pitch
+            baca.flat_glissando(o, pitch)
 
 
 def tutti_1(cache):

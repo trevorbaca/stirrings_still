@@ -232,8 +232,7 @@ def v1(cache):
     with baca.scope(m.get(29, 32)) as o:
         baca.flat_glissando(
             o,
-            "D6",
-            stop_pitch="C6",
+            "D6 C6",
             hide_middle_stems=True,
             right_broken=True,
             right_broken_show_next=True,
@@ -360,11 +359,10 @@ def v2(cache):
     with baca.scope(m.get(29, 32)) as o:
         baca.flat_glissando(
             o,
-            "Fqs5",
+            "Fqs5 Eqf5",
             hide_middle_stems=True,
             right_broken=True,
             right_broken_show_next=True,
-            stop_pitch="Eqf5",
         )
 
 
@@ -434,11 +432,10 @@ def va(cache):
     with baca.scope(m.get(29, 32)) as o:
         baca.flat_glissando(
             o,
-            "Aqf4",
+            "Aqf4 Gqf4",
             hide_middle_stems=True,
             right_broken=True,
             right_broken_show_next=True,
-            stop_pitch="Gqf4",
         )
 
 
@@ -469,11 +466,10 @@ def vc(cache):
     with baca.scope(m.get(29, 32)) as o:
         baca.flat_glissando(
             o,
-            "C2",
+            "C2 Bb1",
             hide_middle_stems=True,
             right_broken=True,
             right_broken_show_next=True,
-            stop_pitch="Bb1",
         )
 
 
