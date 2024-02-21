@@ -335,7 +335,7 @@ def vc(cache):
             qualifier="wide",
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "Cb2", stop_pitch="Bb1")
+        baca.flat_glissando(o, "Cb2 Bb1")
         baca.hairpin(o, "fff>pp")
     with baca.scope(cache["vcr"][14]) as o:
         baca.override.tacet(o.mmrests())

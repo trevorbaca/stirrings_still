@@ -219,7 +219,7 @@ def tutti(cache):
             if name == "v1":
                 baca.flat_glissando(o, "Bb4")
             elif name == "v2":
-                baca.flat_glissando(o, "G4", stop_pitch="A4")
+                baca.flat_glissando(o, "G4 A4")
             elif name == "va":
                 baca.flat_glissando(o, "Bb4")
             elif name == "vc":

@@ -754,22 +754,22 @@ def v1(cache):
             staff_padding=5.5,
         )
     with baca.scope(m.get(29, 30)) as o:
-        baca.flat_glissando(o, "G#5", stop_pitch="Bb5")
+        baca.flat_glissando(o, "G#5 Bb5")
     for item in [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57), (58, 60)]:
         with baca.scope(m.get(item)) as o:
             library.bcps(o, 0, clt=True, staff_padding=6)
     with baca.scope(m.get(32, 33)) as o:
         baca.flat_glissando(o, "Gb4")
     with baca.scope(m.get(34, 35)) as o:
-        baca.flat_glissando(o, "G#5", stop_pitch="B5")
+        baca.flat_glissando(o, "G#5 B5")
     with baca.scope(m.get(37, 38)) as o:
-        baca.flat_glissando(o, "G#5", stop_pitch="C6")
+        baca.flat_glissando(o, "G#5 C6")
     with baca.scope(m.get(40, 41)) as o:
-        baca.flat_glissando(o, "G#5", stop_pitch="Db6")
+        baca.flat_glissando(o, "G#5 Db6")
     with baca.scope(m[42]) as o:
         baca.flat_glissando(o, "C5")
     with baca.scope(m[44]) as o:
-        baca.flat_glissando(o, "G#5", stop_pitch="D6")
+        baca.flat_glissando(o, "G#5 D6")
     with baca.scope(m[46]) as o:
         baca.flat_glissando(o, "D6")
     with baca.scope(m[48]) as o:
@@ -1193,8 +1193,7 @@ def v2(cache, time_signatures):
     with baca.scope(m.get(29, 30)) as o:
         baca.flat_glissando(
             o,
-            "G5",
-            stop_pitch="E5",
+            "G5 E5",
         )
     for item in [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]:
         with baca.scope(m.get(item)) as o:
@@ -1207,15 +1206,15 @@ def v2(cache, time_signatures):
     with baca.scope(m.get(32, 33)) as o:
         baca.flat_glissando(o, "F4")
     with baca.scope(m.get(34, 35)) as o:
-        baca.flat_glissando(o, "G5", stop_pitch="A4")
+        baca.flat_glissando(o, "G5 A4")
     with baca.scope(m.get(37, 38)) as o:
-        baca.flat_glissando(o, "G5", stop_pitch="G4")
+        baca.flat_glissando(o, "G5 G4")
     with baca.scope(m.get(40, 41)) as o:
-        baca.flat_glissando(o, "G5", stop_pitch="Gb4")
+        baca.flat_glissando(o, "G5 Gb4")
     with baca.scope(m[42]) as o:
         baca.flat_glissando(o, "C4")
     with baca.scope(m[44]) as o:
-        baca.flat_glissando(o, "G5", stop_pitch="D4")
+        baca.flat_glissando(o, "G5 D4")
     with baca.scope(m[46]) as o:
         baca.flat_glissando(o, "D4")
     with baca.scope(m[48]) as o:
@@ -1367,8 +1366,7 @@ def va(cache):
     with baca.scope(m.get(29, 30)) as o:
         baca.flat_glissando(
             o,
-            "Ftqs5",
-            stop_pitch="C5",
+            "Ftqs5 C5",
         )
     for item in [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]:
         with baca.scope(m.get(item)) as o:
@@ -1381,18 +1379,18 @@ def va(cache):
     with baca.scope(m.get(32, 33)) as o:
         baca.flat_glissando(o, "Ab3")
     with baca.scope(m.get(34, 35)) as o:
-        baca.flat_glissando(o, "Ftqs5", stop_pitch="Ab4")
+        baca.flat_glissando(o, "Ftqs5 Ab4")
     with baca.scope(m.get(34, 46)) as o:
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(37, 38)) as o:
-        baca.flat_glissando(o, "Ftqs5", stop_pitch="Eb4")
+        baca.flat_glissando(o, "Ftqs5 Eb4")
     with baca.scope(m.get(40, 41)) as o:
         baca.clef(o.leaf(0), "alto")
-        baca.flat_glissando(o, "Ftqs4", stop_pitch="Ab3")
+        baca.flat_glissando(o, "Ftqs4 Ab3")
     with baca.scope(m[42]) as o:
         baca.flat_glissando(o, "Ab3")
     with baca.scope(m[44]) as o:
-        baca.flat_glissando(o, "Ftqs4", stop_pitch="D3")
+        baca.flat_glissando(o, "Ftqs4 D3")
     with baca.scope(m[46]) as o:
         baca.flat_glissando(o, "D3")
     with baca.scope(m[48]) as o:
@@ -1560,7 +1558,7 @@ def vc(cache):
         )
         library.bcps(o, -2, clt=True, staff_padding=4)
     with baca.scope(m.get(29, 30)) as o:
-        baca.flat_glissando(o, "Fqs5", stop_pitch="B4")
+        baca.flat_glissando(o, "Fqs5 B4")
     for item in [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]:
         with baca.scope(m.get(item)) as o:
             library.bcps(o, -2, clt=True, staff_padding=4)
@@ -1569,19 +1567,19 @@ def vc(cache):
         baca.flat_glissando(o, "Ab2")
     with baca.scope(m.get(34, 35)) as o:
         baca.clef(o.leaf(0), "treble")
-        baca.flat_glissando(o, "Fqs5", stop_pitch="Bb3")
+        baca.flat_glissando(o, "Fqs5 Bb3")
     with baca.scope(m.get(34, 46)) as o:
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
     with baca.scope(m.get(37, 38)) as o:
         baca.clef(o.leaf(0), "tenor")
-        baca.flat_glissando(o, "Fqs4", stop_pitch="Gb3")
+        baca.flat_glissando(o, "Fqs4 Gb3")
     with baca.scope(m.get(40, 41)) as o:
         baca.clef(o.leaf(0), "bass")
-        baca.flat_glissando(o, "Fqs3", stop_pitch="F2")
+        baca.flat_glissando(o, "Fqs3 F2")
     with baca.scope(m[42]) as o:
         baca.flat_glissando(o, "G3")
     with baca.scope(m[44]) as o:
-        baca.flat_glissando(o, "Fqs3", stop_pitch="D2")
+        baca.flat_glissando(o, "Fqs3 D2")
     with baca.scope(m[45]) as o:
         baca.flat_glissando(o, "E2")
         baca.hairpin(

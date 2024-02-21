@@ -260,7 +260,7 @@ def v1(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.flat_glissando(o, "G4", stop_pitch="F4")
+        baca.flat_glissando(o, "G4 F4")
         baca.hairpin(
             baca.select.cmgroups(o),
             "p-- !>o!",
@@ -400,7 +400,7 @@ def v2(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.flat_glissando(o, "F4", stop_pitch="E4")
+        baca.flat_glissando(o, "F4 E4")
         baca.hairpin(
             baca.select.cmgroups(o),
             "p-- !>o!",
@@ -503,7 +503,7 @@ def va(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.flat_glissando(o, "Ab3", stop_pitch="Gb3")
+        baca.flat_glissando(o, "Ab3 Gb3")
         baca.hairpin(
             baca.select.cmgroups(o),
             "p-- !>o!",

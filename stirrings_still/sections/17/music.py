@@ -621,7 +621,7 @@ def v1(cache):
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=4.5)
-        baca.flat_glissando(o, "Ab4", stop_pitch="Ab5")
+        baca.flat_glissando(o, "Ab4 Ab5")
     with baca.scope(m[71]) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -1003,7 +1003,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         )
     with baca.scope(m[64]) as o:
-        baca.flat_glissando(o.rleaves(), "Ab3", stop_pitch="Gb3")
+        baca.flat_glissando(o.rleaves(), "Ab3 Gb3")
     with baca.scope(m.get(64, 67)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
@@ -1039,7 +1039,7 @@ def va(cache):
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
-        baca.flat_glissando(o, "Ab3", stop_pitch="B2")
+        baca.flat_glissando(o, "Ab3 B2")
     with baca.scope(m[71]) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -1273,7 +1273,7 @@ def vc(cache):
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
-        baca.flat_glissando(o, "Ab3", stop_pitch="Ab2")
+        baca.flat_glissando(o, "Ab3 Ab2")
     with baca.scope(m[71]) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -1287,7 +1287,7 @@ def vc(cache):
             "pp-sempre",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         )
-        baca.flat_glissando(o, "Bb1", stop_pitch="B0")
+        baca.flat_glissando(o, "Bb1 B0")
     with baca.scope(m.get(73, 92)) as o:
         baca.markup(
             o.pleaf(0),

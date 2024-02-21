@@ -269,7 +269,7 @@ def v1(cache):
         )
     with baca.scope(m.get(21, 25)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.flat_glissando(o, "A4", stop_pitch="Bb5")
+        baca.flat_glissando(o, "A4 Bb5")
 
 
 def tutti(cache):
@@ -340,7 +340,7 @@ def v2(cache):
         )
     with baca.scope(m.get(20, 25)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.flat_glissando(o, "A3", stop_pitch="Gb4")
+        baca.flat_glissando(o, "A3 Gb4")
 
 
 def va(cache):
@@ -375,7 +375,7 @@ def va(cache):
         )
     with baca.scope(m.get(21, 25)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.flat_glissando(o, "A3", stop_pitch="B3")
+        baca.flat_glissando(o, "A3 B3")
 
 
 def vc(cache):
@@ -412,7 +412,7 @@ def vc(cache):
         )
     with baca.scope(m.get(19, 25)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.flat_glissando(o, "A2", stop_pitch="C3")
+        baca.flat_glissando(o, "A2 C3")
 
 
 @baca.build.timed("make_score")
