@@ -1964,7 +1964,7 @@ def make_wave_rhythm(time_signatures, start, stop, *, previous_state=None):
 
 def ntlt_flat_glissandi(argument):
     for ntlt in baca.select.lts(argument, nontrivial=True):
-        baca.glissando(
+        baca.basic_glissando(
             ntlt,
             allow_repeats=True,
             allow_ties=True,
