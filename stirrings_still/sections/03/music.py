@@ -486,9 +486,9 @@ def v1(cache):
         with baca.scope(m.get(item)) as o:
             baca.pitch(o, "Bqf5")
     with baca.scope(m.get(24, 27)) as o:
-        baca.flat_glissando(o, "Bqf5")
+        baca.multistage_glissando(o, "Bqf5")
     with baca.scope(m.get(28, 29)) as o:
-        baca.flat_glissando(o, "<F#4 Dqf5>")
+        baca.multistage_glissando(o, "<F#4 Dqf5>")
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m.get(28, 29)) as o:
@@ -545,7 +545,7 @@ def v2(cache):
         with baca.scope(m.get(item)) as o:
             baca.pitch(o, "Bb4")
     with baca.scope(m.get(24, 27)) as o:
-        baca.flat_glissando(o, "Bb4")
+        baca.multistage_glissando(o, "Bb4")
     with baca.scope(m.get(28, 29)) as o:
         baca.alternate_bow_strokes(o.pheads())
         baca.rspanners.damp(
@@ -598,9 +598,9 @@ def va(cache):
         with baca.scope(m.get(item)) as o:
             baca.pitch(o, "Bqf3")
     with baca.scope(m.get(24, 27)) as o:
-        baca.flat_glissando(o, "Bqf3")
+        baca.multistage_glissando(o, "Bqf3")
     with baca.scope(m.get(28, 29)) as o:
-        baca.flat_glissando(o, "<B2 Aqs3>")
+        baca.multistage_glissando(o, "<B2 Aqs3>")
         cache.rebuild()
         m = cache["va"]
     with baca.scope(m.get(28, 29)) as o:
@@ -662,7 +662,7 @@ def v1_v2_va(cache):
                 string = "<E4 G#4>"
             elif name == "va":
                 string = "<Eqs4 Gtqs4>"
-            baca.flat_glissando(o, string, hide_middle_stems=True)
+            baca.multistage_glissando(o, string, hide_middle_stems=True)
             cache.rebuild()
             m = cache[name]
         with baca.scope(m.get(60, 61)) as o:
@@ -692,7 +692,7 @@ def tutti(cache):
                 baca.select.ltleaves(o),
                 staff_padding=8,
             )
-            baca.flat_glissando(o, "G4")
+            baca.multistage_glissando(o, "G4")
             baca.hairpin(
                 o,
                 '"ff"--!',
@@ -717,13 +717,13 @@ def tutti(cache):
             )
         with baca.scope(m.get(7, 10)) as o:
             if name == "v1":
-                baca.flat_glissando(o, "Bb4")
+                baca.multistage_glissando(o, "Bb4")
             elif name == "v2":
-                baca.flat_glissando(o, "G4 A4")
+                baca.multistage_glissando(o, "G4 A4")
             elif name == "va":
-                baca.flat_glissando(o, "Bb4")
+                baca.multistage_glissando(o, "Bb4")
             elif name == "vc":
-                baca.flat_glissando(o, "Bb4")
+                baca.multistage_glissando(o, "Bb4")
         with baca.scope(m.get(12, 15)) as o:
             baca.dynamic(
                 o.phead(0),
@@ -850,7 +850,7 @@ def tutti(cache):
                 "va": ("A3", "B2"),
                 "vc": ("G2", "Bb1"),
             }[name]
-            baca.flat_glissando(o, f"{pitch} {stop_pitch}")
+            baca.multistage_glissando(o, f"{pitch} {stop_pitch}")
         with baca.scope(m.get(71, 76)) as o:
             baca.hairpin(
                 o,
@@ -894,9 +894,9 @@ def vc(cache):
         with baca.scope(m.get(item)) as o:
             baca.pitch(o, "Bb2")
     with baca.scope(m.get(24, 27)) as o:
-        baca.flat_glissando(o, "Bb2")
+        baca.multistage_glissando(o, "Bb2")
     with baca.scope(m.get(28, 29)) as o:
-        baca.flat_glissando(o, "E2")
+        baca.multistage_glissando(o, "E2")
         baca.hairpin(
             o,
             "pp--!",
@@ -906,7 +906,7 @@ def vc(cache):
         library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 5.5)
     with baca.scope(m.get(34, 35)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.flat_glissando(o, "E2", allow_repitch=True)
+        baca.multistage_glissando(o, "E2", allow_repitch=True)
         baca.hairpin(
             o,
             "p--!",

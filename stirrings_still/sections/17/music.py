@@ -447,7 +447,7 @@ def v1(cache):
         baca.dynamic(o.phead(0), "p")
     for item in [(2, 9), (25, 27), (41, 42), (53, 54), 63, 69]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(o, "Bb5")
+            baca.multistage_glissando(o, "Bb5")
     with baca.scope(m.get(10, 13)) as o:
         baca.multistage_glissando(
             o,
@@ -463,7 +463,7 @@ def v1(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=3.5)
     with baca.scope(m.get(14, 24)) as o:
-        baca.flat_glissando(o, "Eb5")
+        baca.multistage_glissando(o, "Eb5")
     with baca.scope(m.get(18, 24)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -496,7 +496,7 @@ def v1(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=3.5)
     with baca.scope(m.get(31, 40)) as o:
-        baca.flat_glissando(o, "E5")
+        baca.multistage_glissando(o, "E5")
     with baca.scope(m.get(35, 40)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -529,7 +529,7 @@ def v1(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=3.5)
     with baca.scope(m.get(46, 52)) as o:
-        baca.flat_glissando(o, "F5")
+        baca.multistage_glissando(o, "F5")
     with baca.scope(m.get(49, 52)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -562,7 +562,7 @@ def v1(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=4.5)
     with baca.scope(m.get(57, 62)) as o:
-        baca.flat_glissando(o, "Gb5")
+        baca.multistage_glissando(o, "Gb5")
     with baca.scope(m.get(59, 62)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -600,7 +600,7 @@ def v1(cache):
             staff_padding=10.5,
         )
     with baca.scope(m.get(65, 68)) as o:
-        baca.flat_glissando(o, "G5")
+        baca.multistage_glissando(o, "G5")
     with baca.scope(m[69]) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
@@ -621,7 +621,7 @@ def v1(cache):
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=4.5)
-        baca.flat_glissando(o, "Ab4 Ab5")
+        baca.multistage_glissando(o, "Ab4 Ab5")
     with baca.scope(m[71]) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -639,7 +639,7 @@ def v1(cache):
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -8, clt=True, staff_padding=8)
-        baca.flat_glissando(o, "A6", right_broken=True)
+        baca.multistage_glissando(o, "A6", right_broken=True)
 
 
 def tutti(cache):
@@ -682,7 +682,7 @@ def v2(cache):
         baca.dynamic(o.phead(0), "p")
     for item in [(2, 13), (22, 30), (38, 45), (51, 56), (61, 64), (68, 70)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(o, "Gb4")
+            baca.multistage_glissando(o, "Gb4")
     with baca.scope(m.get(14, 21)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
@@ -691,7 +691,7 @@ def v2(cache):
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
-        baca.flat_glissando(o, "Dqf5")
+        baca.multistage_glissando(o, "Dqf5")
     with baca.scope(m.get(18, 21)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -717,7 +717,7 @@ def v2(cache):
         ),
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
-        baca.flat_glissando(o, "Dqs5")
+        baca.multistage_glissando(o, "Dqs5")
     with baca.scope(m.get(35, 37)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -743,7 +743,7 @@ def v2(cache):
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
-        baca.flat_glissando(o, "Cqs5")
+        baca.multistage_glissando(o, "Cqs5")
     with baca.scope(m.get(48, 50)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -769,7 +769,7 @@ def v2(cache):
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
-        baca.flat_glissando(o, "Eqs5")
+        baca.multistage_glissando(o, "Eqs5")
     with baca.scope(m.get(59, 60)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -799,7 +799,7 @@ def v2(cache):
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
-        baca.flat_glissando(o, "Fqs5")
+        baca.multistage_glissando(o, "Fqs5")
     with baca.scope(m.get(66, 67)) as o:
         baca.rspanners.half_clt(
             baca.select.tleaves(o),
@@ -826,7 +826,7 @@ def v2(cache):
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=4.5)
-        baca.flat_glissando(o, "G4")
+        baca.multistage_glissando(o, "G4")
     with baca.scope(m.get(73, 92)) as o:
         baca.dynamic(
             o.phead(0),
@@ -839,7 +839,7 @@ def v2(cache):
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=4.5)
-        baca.flat_glissando(o, "Ab5", right_broken=True)
+        baca.multistage_glissando(o, "Ab5", right_broken=True)
 
 
 def va(cache):
@@ -865,7 +865,7 @@ def va(cache):
         baca.dynamic(o.phead(0), "p")
     for item in [(2, 9), (22, 27), (38, 42), (51, 54), (61, 63), (68, 69)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(o, "B3")
+            baca.multistage_glissando(o, "B3")
     with baca.scope(m.get(10, 13)) as o:
         baca.multistage_glissando(
             o,
@@ -881,7 +881,7 @@ def va(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
     with baca.scope(m.get(14, 21)) as o:
-        baca.flat_glissando(o, "E3")
+        baca.multistage_glissando(o, "E3")
     with baca.scope(m.get(18, 21)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -914,7 +914,7 @@ def va(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
     with baca.scope(m.get(31, 37)) as o:
-        baca.flat_glissando(o, "Eb3")
+        baca.multistage_glissando(o, "Eb3")
     with baca.scope(m.get(35, 37)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -947,7 +947,7 @@ def va(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
     with baca.scope(m.get(46, 50)) as o:
-        baca.flat_glissando(o, "C3")
+        baca.multistage_glissando(o, "C3")
     with baca.scope(m.get(48, 50)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -980,7 +980,7 @@ def va(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
     with baca.scope(m.get(57, 60)) as o:
-        baca.flat_glissando(o, "B2")
+        baca.multistage_glissando(o, "B2")
     with baca.scope(m.get(59, 60)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -1003,7 +1003,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         )
     with baca.scope(m[64]) as o:
-        baca.flat_glissando(o.rleaves(), "Ab3 Gb3")
+        baca.multistage_glissando(o.rleaves(), "Ab3 Gb3")
     with baca.scope(m.get(64, 67)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
@@ -1013,7 +1013,7 @@ def va(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
     with baca.scope(m.get(65, 67)) as o:
-        baca.flat_glissando(o, "Gb3")
+        baca.multistage_glissando(o, "Gb3")
     with baca.scope(m.get(66, 67)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -1039,7 +1039,7 @@ def va(cache):
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
-        baca.flat_glissando(o, "Ab3 B2")
+        baca.multistage_glissando(o, "Ab3 B2")
     with baca.scope(m[71]) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -1051,7 +1051,7 @@ def va(cache):
             "pp-sempre",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         )
-        baca.flat_glissando(o, "Bb2", hide_middle_stems=True, right_broken=True)
+        baca.multistage_glissando(o, "Bb2", hide_middle_stems=True, right_broken=True)
 
 
 def vc(cache):
@@ -1075,7 +1075,7 @@ def vc(cache):
         baca.dynamic(o.phead(0), "p")
     for item in [(2, 9), (22, 27), (38, 42), (51, 54), (61, 63), (68, 69)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(o, "C3")
+            baca.multistage_glissando(o, "C3")
     with baca.scope(m.get(10, 13)) as o:
         baca.multistage_glissando(
             o,
@@ -1091,7 +1091,7 @@ def vc(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
     with baca.scope(m.get(14, 21)) as o:
-        baca.flat_glissando(o, "D3")
+        baca.multistage_glissando(o, "D3")
     with baca.scope(m.get(18, 21)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -1128,7 +1128,7 @@ def vc(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
     with baca.scope(m.get(31, 37)) as o:
-        baca.flat_glissando(o, "Db3")
+        baca.multistage_glissando(o, "Db3")
     with baca.scope(m.get(35, 37)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -1165,7 +1165,7 @@ def vc(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
     with baca.scope(m.get(46, 50)) as o:
-        baca.flat_glissando(o, "B2")
+        baca.multistage_glissando(o, "B2")
     with baca.scope(m.get(48, 50)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -1202,7 +1202,7 @@ def vc(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
     with baca.scope(m.get(57, 60)) as o:
-        baca.flat_glissando(o, "Bb2")
+        baca.multistage_glissando(o, "Bb2")
     with baca.scope(m.get(59, 60)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -1243,7 +1243,7 @@ def vc(cache):
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
     with baca.scope(m.get(65, 67)) as o:
-        baca.flat_glissando(o, "A2")
+        baca.multistage_glissando(o, "A2")
     with baca.scope(m.get(66, 67)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -1273,7 +1273,7 @@ def vc(cache):
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
-        baca.flat_glissando(o, "Ab3 Ab2")
+        baca.multistage_glissando(o, "Ab3 Ab2")
     with baca.scope(m[71]) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -1287,7 +1287,7 @@ def vc(cache):
             "pp-sempre",
             abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
         )
-        baca.flat_glissando(o, "Bb1 B0")
+        baca.multistage_glissando(o, "Bb1 B0")
     with baca.scope(m.get(73, 92)) as o:
         baca.markup(
             o.pleaf(0),
@@ -1295,7 +1295,7 @@ def vc(cache):
         )
         baca.rspanners.ottava(o.tleaves(), -1)
     with baca.scope(m.get(88, 92)) as o:
-        baca.flat_glissando(o, "B0", hide_middle_stems=True, right_broken=True)
+        baca.multistage_glissando(o, "B0", hide_middle_stems=True, right_broken=True)
 
 
 @baca.build.timed("make_score")

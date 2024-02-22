@@ -492,7 +492,7 @@ def v1(cache):
             r"\baca-seven-f-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.flat_glissando(o, "Etqf4")
+        baca.multistage_glissando(o, "Etqf4")
     with baca.scope(m.get(6, 23)) as o:
         baca.rspanners.damp(
             baca.select.tleaves(o),
@@ -511,7 +511,7 @@ def v1(cache):
                 plt,
                 staff_padding=5.5,
             )
-            baca.flat_glissando(plt, "Etqf4")
+            baca.multistage_glissando(plt, "Etqf4")
         baca.pitch(o, "Etqf4", allow_repitch=True)
     with baca.scope(m.get(24, 31)) as o:
         baca.multistage_glissando(
@@ -520,7 +520,7 @@ def v1(cache):
             rleak=True,
         )
     with baca.scope(m.get(32, 33)) as o:
-        baca.flat_glissando(o, "Ab4")
+        baca.multistage_glissando(o, "Ab4")
     with baca.scope(m.get(35, 40)) as o:
         baca.hairpin(
             baca.select.mgroups(o, [4, 2]),
@@ -529,7 +529,7 @@ def v1(cache):
         library.bcps(o, -8, clt=True, staff_padding=4.5)
         baca.untie(o)
         baca.override.tuplet_bracket_down(o)
-        baca.flat_glissando(o, "Ab4")
+        baca.multistage_glissando(o, "Ab4")
     with baca.scope(m.get(42, 49)) as o:
         baca.breathe(o.pleaf(-1))
         baca.mspanners.circle_bow(
@@ -547,7 +547,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
-        baca.flat_glissando(o, "Bb5")
+        baca.multistage_glissando(o, "Bb5")
     with baca.scope(m.get(50, 61)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
@@ -569,7 +569,7 @@ def v1(cache):
             staff_padding=10,
         )
     with baca.scope(m.get(54, 61)) as o:
-        baca.flat_glissando(o, "Eb5")
+        baca.multistage_glissando(o, "Eb5")
     with baca.scope(m.get(63, 70)) as o:
         baca.hairpin(
             o,
@@ -606,7 +606,7 @@ def v1(cache):
         library.flight_spanner(o, "flight -|", 8)
     for item in [(79, 80), (82, 85), (87, 88), (109, 110), (112, 119)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(o, "<Dqs5 G#5>")
+            baca.multistage_glissando(o, "<Dqs5 G#5>")
     cache.rebuild()
     m = cache["v1"]
     with baca.scope(m.get(89, 96)) as o:
@@ -623,7 +623,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
-        baca.flat_glissando(o, "Bb5")
+        baca.multistage_glissando(o, "Bb5")
     with baca.scope(m.get(87, 96)) as o:
         baca.rspanners.damp(
             baca.select.ltleaves(o),
@@ -636,7 +636,7 @@ def v1(cache):
             rleak=True,
         )
     with baca.scope(m.get(101, 108)) as o:
-        baca.flat_glissando(o, "Eb5")
+        baca.multistage_glissando(o, "Eb5")
     with baca.scope(m.get(97, 108)) as o:
         baca.hairpin(
             baca.select.mgroups(o, [4, 4, 4]),
@@ -689,7 +689,7 @@ def v1_v2_va(cache):
                     r"\baca-thirteen-b-flat",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.flat_glissando(o.pleaves(), "Gqf4")
+                baca.multistage_glissando(o.pleaves(), "Gqf4")
             elif name == "v2":
                 baca.mspanners.circle_bow(
                     baca.select.ltleaves(o),
@@ -701,7 +701,7 @@ def v1_v2_va(cache):
                     r"\baca-seven-b-flat",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.flat_glissando(o.pleaves(), "Atqf3")
+                baca.multistage_glissando(o.pleaves(), "Atqf3")
             elif name == "va":
                 baca.mspanners.circle_bow(
                     baca.select.ltleaves(o),
@@ -713,7 +713,7 @@ def v1_v2_va(cache):
                     r"\baca-nine-b-flat",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.flat_glissando(o.pleaves(), "C3")
+                baca.multistage_glissando(o.pleaves(), "C3")
         with baca.scope(m.get(6, 40)) as o:
             if name in ("v1", "v2"):
                 baca.rspanners.tasto(
@@ -738,31 +738,31 @@ def v1_v2_va(cache):
                 )
         with baca.scope(m[34]) as o:
             if name == "v1":
-                baca.flat_glissando(
+                baca.multistage_glissando(
                     o.pleaves()[:2],
                     "<E4 C5>",
                 )
-                baca.flat_glissando(
+                baca.multistage_glissando(
                     o.pleaves()[2:],
                     "<E4 Cqs5>",
                     hide_middle_stems=True,
                 )
             elif name == "v2":
-                baca.flat_glissando(
+                baca.multistage_glissando(
                     o.pleaves()[:2],
                     "<Eb4 B4>",
                 )
-                baca.flat_glissando(
+                baca.multistage_glissando(
                     o.pleaves()[2:],
                     "<Eqf4 C5>",
                     hide_middle_stems=True,
                 )
             elif name == "va":
-                baca.flat_glissando(
+                baca.multistage_glissando(
                     o.pleaves()[:2],
                     "<D4 Gqs4>",
                 )
-                baca.flat_glissando(
+                baca.multistage_glissando(
                     o.pleaves()[2:],
                     "<C#4 Gqs4>",
                     hide_middle_stems=True,
@@ -894,7 +894,7 @@ def v2(cache):
             r"\baca-eleven-f-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.flat_glissando(o, "Bqf3")
+        baca.multistage_glissando(o, "Bqf3")
     with baca.scope(m.get(6, 23)) as o:
         plts = baca.select.plts(o)
         plts = abjad.select.partition_by_counts(
@@ -916,7 +916,7 @@ def v2(cache):
                 plt,
                 staff_padding=5.5,
             )
-            baca.flat_glissando(plt, "Bqf3")
+            baca.multistage_glissando(plt, "Bqf3")
         baca.pitch(o, "Bqf3", allow_repitch=True)
     with baca.scope(m.get(24, 31)) as o:
         baca.multistage_glissando(
@@ -925,7 +925,7 @@ def v2(cache):
             rleak=True,
         )
     with baca.scope(m.get(32, 33)) as o:
-        baca.flat_glissando(o, "G4")
+        baca.multistage_glissando(o, "G4")
     with baca.scope(m.get(35, 40)) as o:
         baca.hairpin(
             baca.select.mgroups(o, [4, 2]),
@@ -955,7 +955,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
-        baca.flat_glissando(o, "Gb4")
+        baca.multistage_glissando(o, "Gb4")
     with baca.scope(m.get(54, 61)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
@@ -965,7 +965,7 @@ def v2(cache):
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=2.5)
-        baca.flat_glissando(o, "Dqf5")
+        baca.multistage_glissando(o, "Dqf5")
     with baca.scope(m.get(58, 61)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -1004,7 +1004,7 @@ def v2(cache):
         library.flight_spanner(o, "flight -|", 8)
     for item in [(78, 80), (82, 85), (87, 88), (109, 110), (112, 119)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(o, "<E5 Aqs5>")
+            baca.multistage_glissando(o, "<E5 Aqs5>")
     cache.rebuild()
     m = cache["v2"]
     with baca.scope(m.get(87, 100)) as o:
@@ -1026,7 +1026,7 @@ def v2(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
-        baca.flat_glissando(o, "Gb4")
+        baca.multistage_glissando(o, "Gb4")
     with baca.scope(m.get(101, 108)) as o:
         baca.breathe(o.pleaf(-1))
         baca.hairpin(
@@ -1036,7 +1036,7 @@ def v2(cache):
         )
         baca.override.tuplet_bracket_down(o)
         library.bcps(o, -7, clt=True, staff_padding=2.5)
-        baca.flat_glissando(o, "Dqf5")
+        baca.multistage_glissando(o, "Dqf5")
     with baca.scope(m.get(105, 108)) as o:
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),
@@ -1052,7 +1052,7 @@ def va(cache):
             r"\baca-five-f-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.flat_glissando(o, "A3")
+        baca.multistage_glissando(o, "A3")
     with baca.scope(m.get(6, 23)) as o:
         plts = baca.select.plts(o)
         plts = abjad.select.partition_by_counts(
@@ -1074,7 +1074,7 @@ def va(cache):
                 plt,
                 staff_padding=3,
             )
-            baca.flat_glissando(plt, "A3")
+            baca.multistage_glissando(plt, "A3")
         baca.pitch(o, "A3", allow_repitch=True)
     with baca.scope(m.get(24, 31)) as o:
         baca.multistage_glissando(
@@ -1083,7 +1083,7 @@ def va(cache):
             rleak=True,
         )
     with baca.scope(m.get(32, 33)) as o:
-        baca.flat_glissando(o, "Gb4")
+        baca.multistage_glissando(o, "Gb4")
     with baca.scope(m.get(35, 40)) as o:
         for plt in abjad.select.get(baca.select.plts(o), [0], 2):
             baca.accent(plt[0])
@@ -1101,7 +1101,7 @@ def va(cache):
                 plt,
                 staff_padding=5.5,
             )
-        baca.flat_glissando(o, "Gb4")
+        baca.multistage_glissando(o, "Gb4")
     with baca.scope(m.get(63, 70)) as o:
         baca.hairpin(o, '"ff">p', rleak=True)
     with baca.scope(m.get(63, 76)) as o:
@@ -1135,7 +1135,7 @@ def va(cache):
         library.flight_spanner(o, "flight -|", 8)
     for item in [(77, 80), (82, 85), (87, 88), (109, 110), (112, 119)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(o, "<D5 Fqs5>")
+            baca.multistage_glissando(o, "<D5 Fqs5>")
     cache.rebuild()
     m = cache["va"]
     with baca.scope(m.get(87, 96)) as o:
@@ -1169,9 +1169,9 @@ def va_vc(cache):
             )
         with baca.scope(m.get(42, 49)) as o:
             if name == "va":
-                baca.flat_glissando(o, "B3")
+                baca.multistage_glissando(o, "B3")
             elif name == "vc":
-                baca.flat_glissando(o, "C3")
+                baca.multistage_glissando(o, "C3")
         with baca.scope(m.get(50, 61)) as o:
             baca.breathe(o.pleaf(-1))
             baca.hairpin(
@@ -1188,7 +1188,7 @@ def va_vc(cache):
                         rleak=True,
                     )
                 with baca.scope(m.get(54, 61)) as u:
-                    baca.flat_glissando(u, "E3")
+                    baca.multistage_glissando(u, "E3")
             elif name == "vc":
                 baca.override.tuplet_bracket_down(o)
                 library.bcps(o, -5, clt=True, staff_padding=2.5)
@@ -1199,7 +1199,7 @@ def va_vc(cache):
                         rleak=True,
                     )
                 with baca.scope(m.get(54, 61)) as u:
-                    baca.flat_glissando(u, "D3")
+                    baca.multistage_glissando(u, "D3")
         with baca.scope(m.get(58, 61)) as o:
             baca.rspanners.half_clt(
                 baca.select.ltleaves(o),
@@ -1226,13 +1226,13 @@ def va_vc(cache):
         with baca.scope(m.get(89, 96)) as o:
             if name == "va":
                 baca.breathe(o.pleaf(-1))
-                baca.flat_glissando(o, "B3")
+                baca.multistage_glissando(o, "B3")
             elif name == "vc":
                 baca.breathe(
                     o.leaf(-1),
                     abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
                 )
-                baca.flat_glissando(o, "C3")
+                baca.multistage_glissando(o, "C3")
         with baca.scope(m.get(97, 108)) as o:
             baca.breathe(o.pleaf(-1))
             baca.hairpin(
@@ -1250,7 +1250,7 @@ def va_vc(cache):
                         rleak=True,
                     )
                 with baca.scope(m.get(101, 108)) as u:
-                    baca.flat_glissando(u, "E3")
+                    baca.multistage_glissando(u, "E3")
             elif name == "vc":
                 baca.override.tuplet_bracket_down(o)
                 library.bcps(o, -5, clt=True, staff_padding=2.5)
@@ -1261,7 +1261,7 @@ def va_vc(cache):
                         rleak=True,
                     )
                 with baca.scope(m.get(101, 108)) as u:
-                    baca.flat_glissando(u, "D3")
+                    baca.multistage_glissando(u, "D3")
         with baca.scope(m.get(105, 108)) as o:
             baca.rspanners.half_clt(
                 baca.select.ltleaves(o),
@@ -1272,14 +1272,14 @@ def va_vc(cache):
 def vc(cache):
     m = cache["vc"]
     with baca.scope(m.get(1, 2)) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "F2",
             hide_middle_stems=True,
             left_broken=True,
         )
     with baca.scope(m.get(6, 27)) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "F2",
             hide_middle_stems=True,
@@ -1317,7 +1317,7 @@ def vc(cache):
         )
     with baca.scope(m.get(63, 80)) as o:
         library.clouded_pane_spanner(o, "clouded pane (down) -|", 5.5)
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "D2",
             hide_middle_stems=True,
@@ -1328,7 +1328,7 @@ def vc(cache):
             "clouded pane (continues) -|",
             5.5,
         )
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "D2",
             hide_middle_stems=True,
@@ -1344,7 +1344,7 @@ def vc(cache):
             "clouded pane (continues) -|",
             5.5,
         )
-        baca.flat_glissando(o, "D2", hide_middle_stems=True)
+        baca.multistage_glissando(o, "D2", hide_middle_stems=True)
     with baca.scope(cache["vcr"][116]) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m[117]) as o:
@@ -1357,7 +1357,7 @@ def vc(cache):
             "clouded pane (stepwise above) -|",
             5.5,
         )
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "Eb2",
             hide_middle_stems=True,
