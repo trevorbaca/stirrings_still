@@ -189,7 +189,7 @@ def v1(cache):
             )
     for item in [(1, 8), (21, 25)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(o, "D6", hide_middle_stems=True)
+            baca.multistage_glissando(o, "D6", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
@@ -203,13 +203,13 @@ def v1(cache):
                 r"\stirrings-still-twelve-et-markup",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
             )
-            baca.flat_glissando(o, "<D#4 A4>")
+            baca.multistage_glissando(o, "<D#4 A4>")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(13, 16)) as o:
-        baca.flat_glissando(o.rleaves(), "D6", hide_middle_stems=True)
+        baca.multistage_glissando(o.rleaves(), "D6", hide_middle_stems=True)
     with baca.scope(m.get(17, 20)) as o:
-        baca.flat_glissando(o.leaves()[1:], "<D#4 A4>")
+        baca.multistage_glissando(o.leaves()[1:], "<D#4 A4>")
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
@@ -230,7 +230,7 @@ def v1(cache):
             staff_padding=5.5,
         )
     with baca.scope(m.get(29, 32)) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "D6 C6",
             hide_middle_stems=True,
@@ -313,7 +313,7 @@ def v2(cache):
                 )
     for item in [(1, 8), (21, 25)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(o, "Fqs5", hide_middle_stems=True)
+            baca.multistage_glissando(o, "Fqs5", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
@@ -327,13 +327,13 @@ def v2(cache):
                 r"\stirrings-still-twelve-et-markup",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
             )
-            baca.flat_glissando(o, "<Dqs4 Gtqs4>")
+            baca.multistage_glissando(o, "<Dqs4 Gtqs4>")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(13, 16)) as o:
-        baca.flat_glissando(o.rleaves(), "Fqs5", hide_middle_stems=True)
+        baca.multistage_glissando(o.rleaves(), "Fqs5", hide_middle_stems=True)
     with baca.scope(m.get(17, 20)) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.leaves()[1:],
             "<Dqs4 Gtqs4>",
         )
@@ -357,7 +357,7 @@ def v2(cache):
             staff_padding=5.5,
         )
     with baca.scope(m.get(29, 32)) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "Fqs5 Eqf5",
             hide_middle_stems=True,
@@ -389,7 +389,7 @@ def va(cache):
                 )
     for item in [(1, 8), (21, 25)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(o, "Aqf4", hide_middle_stems=True)
+            baca.multistage_glissando(o, "Aqf4", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
@@ -403,13 +403,13 @@ def va(cache):
                 r"\stirrings-still-twelve-et-markup",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
             )
-            baca.flat_glissando(o, "<D4 G#4>")
+            baca.multistage_glissando(o, "<D4 G#4>")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(13, 16)) as o:
-        baca.flat_glissando(o.rleaves(), "Aqf4", hide_middle_stems=True)
+        baca.multistage_glissando(o.rleaves(), "Aqf4", hide_middle_stems=True)
     with baca.scope(m.get(17, 20)) as o:
-        baca.flat_glissando(o.leaves()[1:], "<D4 G#4>")
+        baca.multistage_glissando(o.leaves()[1:], "<D4 G#4>")
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
@@ -430,7 +430,7 @@ def va(cache):
             staff_padding=5.5,
         )
     with baca.scope(m.get(29, 32)) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "Aqf4 Gqf4",
             hide_middle_stems=True,
@@ -458,13 +458,13 @@ def vc(cache):
     with baca.scope(m.get(29)) as o:
         baca.override.hairpin_to_bar_line(o.leaf(0), True)
     with baca.scope(m.get(1, 28)) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.rleaves(),
             "C2",
             hide_middle_stems=True,
         )
     with baca.scope(m.get(29, 32)) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "C2 Bb1",
             hide_middle_stems=True,

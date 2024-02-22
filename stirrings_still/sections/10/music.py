@@ -120,14 +120,14 @@ def v1(cache):
     name = "v1"
     m = cache[name]
     with baca.scope(m.get(1, 2)) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "<F4 A4>",
             hide_middle_stems=True,
             left_broken=True,
         )
     with baca.scope(m.get(5, 11)) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "<F4 A4>",
             hide_middle_stems=True,
@@ -189,11 +189,11 @@ def v1_va_vc(cache):
         m = cache[name]
         with baca.scope(m.get(3, 4)) as o:
             if name == "v1":
-                baca.flat_glissando(o, "<F#4 Dqf5>")
+                baca.multistage_glissando(o, "<F#4 Dqf5>")
             elif name == "va":
-                baca.flat_glissando(o, "<B2 Aqs3>")
+                baca.multistage_glissando(o, "<B2 Aqs3>")
             elif name == "vc":
-                baca.flat_glissando(o, "E2")
+                baca.multistage_glissando(o, "E2")
             cache.rebuild()
             m = cache[name]
         with baca.scope(m.get(3, 4)) as o:
@@ -248,14 +248,14 @@ def v2(cache):
     name = "v2"
     m = cache[name]
     with baca.scope(m.get(1, 2)) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "<E4 G#4>",
             hide_middle_stems=True,
             left_broken=True,
         )
     with baca.scope(m.get(5, 11)) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "<E4 G#4>",
             hide_middle_stems=True,
@@ -291,14 +291,14 @@ def va(cache):
     name = "va"
     m = cache[name]
     with baca.scope(m.get(1, 2)) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "<Eqs4 Gtqs4>",
             hide_middle_stems=True,
             left_broken=True,
         )
     with baca.scope(m.get(5, 11)) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "<Eqs4 Gtqs4>",
             hide_middle_stems=True,
@@ -327,7 +327,7 @@ def vc(cache):
         baca.override.tacet(o.mmrests())
     with baca.scope(m.get(7, 11)) as o:
         baca.override.dynamic_text_self_alignment_x(o.leaf(-1), -0.75)
-        baca.flat_glissando(o, "Bb1", hide_middle_stems=True)
+        baca.multistage_glissando(o, "Bb1", hide_middle_stems=True)
         baca.hairpin(o, "pp<fff-poco-scratch")
     with baca.scope(m.get(12, 13)) as o:
         baca.mspanners.circle_bow(
@@ -335,7 +335,7 @@ def vc(cache):
             qualifier="wide",
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "Cb2 Bb1")
+        baca.multistage_glissando(o, "Cb2 Bb1")
         baca.hairpin(o, "fff>pp")
     with baca.scope(cache["vcr"][14]) as o:
         baca.override.tacet(o.mmrests())

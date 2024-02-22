@@ -230,7 +230,7 @@ def v1(cache):
     m = cache[name]
     for item in [(1, 5), (8, 9), (11, 15), (18, 19)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(baca.select.rleak(o), "A4", hide_middle_stems=True)
+            baca.multistage_glissando(baca.select.rleak(o), "A4", hide_middle_stems=True)
             baca.rspanners.tasto(
                 o,
                 staff_padding=v1_spanner_staff_padding,
@@ -248,7 +248,7 @@ def v1(cache):
         )
     for item in [(6, 7), 10, (16, 17), 20]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(baca.select.rleak(o), "A4", allow_repitch=True)
+            baca.multistage_glissando(baca.select.rleak(o), "A4", allow_repitch=True)
     for item in [(6, 7), 10, (16, 17), (20, 25)]:
         with baca.scope(m.get(item)) as o:
             baca.mspanners.circle_bow(
@@ -269,7 +269,7 @@ def v1(cache):
         )
     with baca.scope(m.get(21, 25)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.flat_glissando(o, "A4 Bb5")
+        baca.multistage_glissando(o, "A4 Bb5")
 
 
 def tutti(cache):
@@ -293,14 +293,14 @@ def v2(cache):
     m = cache[name]
     for item in [(1, 4), 6, 8, (10, 14), 16, 18]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(baca.select.rleak(o), "A3", hide_middle_stems=True)
+            baca.multistage_glissando(baca.select.rleak(o), "A3", hide_middle_stems=True)
             baca.rspanners.tasto(
                 o,
                 staff_padding=v2_spanner_staff_padding,
             )
     for n in [5, 7, 9, 15, 17, 19]:
         with baca.scope(m[n]) as o:
-            baca.flat_glissando(baca.select.rleak(o), "A3", allow_repitch=True)
+            baca.multistage_glissando(baca.select.rleak(o), "A3", allow_repitch=True)
     for item in [5, 7, 9, 15, 17, (19, 25)]:
         with baca.scope(m.get(item)) as o:
             baca.mspanners.circle_bow(
@@ -340,7 +340,7 @@ def v2(cache):
         )
     with baca.scope(m.get(20, 25)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.flat_glissando(o, "A3 Gb4")
+        baca.multistage_glissando(o, "A3 Gb4")
 
 
 def va(cache):
@@ -348,7 +348,7 @@ def va(cache):
     m = cache[name]
     for item in [(1, 7), (11, 17)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(baca.select.rleak(o), "A3", hide_middle_stems=True)
+            baca.multistage_glissando(baca.select.rleak(o), "A3", hide_middle_stems=True)
             baca.rspanners.tasto(
                 o,
                 staff_padding=va_spanner_staff_padding,
@@ -360,7 +360,7 @@ def va(cache):
         )
     for item in [(8, 10), (18, 20)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(baca.select.rleak(o), "A3", allow_repitch=True)
+            baca.multistage_glissando(baca.select.rleak(o), "A3", allow_repitch=True)
     for item in [(8, 10), (18, 25)]:
         with baca.scope(m.get(item)) as o:
             baca.mspanners.circle_bow(
@@ -375,7 +375,7 @@ def va(cache):
         )
     with baca.scope(m.get(21, 25)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.flat_glissando(o, "A3 B3")
+        baca.multistage_glissando(o, "A3 B3")
 
 
 def vc(cache):
@@ -383,7 +383,7 @@ def vc(cache):
     m = cache[name]
     for item in [(1, 5), (9, 15)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(baca.select.rleak(o), "A2", hide_middle_stems=True)
+            baca.multistage_glissando(baca.select.rleak(o), "A2", hide_middle_stems=True)
             baca.rspanners.tasto(
                 o,
                 staff_padding=vc_spanner_staff_padding,
@@ -397,7 +397,7 @@ def vc(cache):
         )
     for item in [(6, 8), (16, 18)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(baca.select.rleak(o), "A2", allow_repitch=True)
+            baca.multistage_glissando(baca.select.rleak(o), "A2", allow_repitch=True)
     for item in [(6, 8), (16, 25)]:
         with baca.scope(m.get(item)) as o:
             baca.mspanners.circle_bow(
@@ -412,7 +412,7 @@ def vc(cache):
         )
     with baca.scope(m.get(19, 25)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.flat_glissando(o, "A2 C3")
+        baca.multistage_glissando(o, "A2 C3")
 
 
 @baca.build.timed("make_score")

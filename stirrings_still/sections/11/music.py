@@ -465,7 +465,7 @@ def v1(cache):
             do_not_rleak=True,
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "Bqf5")
+        baca.multistage_glissando(o, "Bqf5")
     with baca.scope(m.get(5, 8)) as o:
         library.bcps(o, 0, clt=True, staff_padding=4)
     for item in [(5, 9), (11, 14), 16]:
@@ -492,7 +492,7 @@ def v1(cache):
             r"\baca-eleven-e",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.flat_glissando(o, "Aqs5")
+        baca.multistage_glissando(o, "Aqs5")
     with baca.scope(m.get(18, 20)) as o:
         baca.accent(o.pheads())
         baca.breathe(o.pleaf(-1))
@@ -515,7 +515,7 @@ def v1(cache):
             r"\baca-thirteen-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.flat_glissando(o, "Aqs4")
+        baca.multistage_glissando(o, "Aqs4")
     with baca.scope(cache["v1r"][22]) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m[23]) as o:
@@ -527,7 +527,7 @@ def v1(cache):
             qualifier="wide",
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "Aqs4")
+        baca.multistage_glissando(o, "Aqs4")
     with baca.scope(m.get(24, 31)) as o:
         baca.accent(o.pheads())
         baca.breathe(o.pleaf(-1))
@@ -545,7 +545,7 @@ def v1(cache):
             do_not_rleak=True,
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "Aqf5")
+        baca.multistage_glissando(o, "Aqf5")
     with baca.scope(m.get(32, 37)) as o:
         baca.accent(o.pheads())
         baca.stem_tremolo(o.pleaves())
@@ -573,7 +573,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
         )
-        baca.flat_glissando(o, "Bqf5")
+        baca.multistage_glissando(o, "Bqf5")
     with baca.scope(m.get(38, 45)) as o:
         baca.accent(o.pheads())
         baca.mspanners.text(
@@ -678,7 +678,7 @@ def v2(cache):
             do_not_rleak=True,
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "Bb4")
+        baca.multistage_glissando(o, "Bb4")
     with baca.scope(m.get(5, 8)) as o:
         library.bcps(o, -1, clt=True, staff_padding=4)
     for item in [(5, 9), 13, (15, 16)]:
@@ -705,7 +705,7 @@ def v2(cache):
             r"\baca-nine-e",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.flat_glissando(o, "F#5")
+        baca.multistage_glissando(o, "F#5")
     with baca.scope(m.get(18, 20)) as o:
         baca.accent(o.pheads())
         baca.breathe(o.pleaf(-1))
@@ -728,7 +728,7 @@ def v2(cache):
             r"\baca-nine-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.flat_glissando(o, "Eb4")
+        baca.multistage_glissando(o, "Eb4")
     with baca.scope(cache["v2r"][22]) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m[23]) as o:
@@ -740,7 +740,7 @@ def v2(cache):
             qualifier="wide",
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "Eb4")
+        baca.multistage_glissando(o, "Eb4")
     with baca.scope(m.get(24, 31)) as o:
         baca.accent(o.pheads())
         baca.breathe(o.pleaf(-1))
@@ -759,7 +759,7 @@ def v2(cache):
             do_not_rleak=True,
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "F5")
+        baca.multistage_glissando(o, "F5")
     with baca.scope(m.get(32, 37)) as o:
         baca.accent(o.pheads())
         baca.stem_tremolo(o.pleaves())
@@ -788,7 +788,7 @@ def v2(cache):
             r"\baca-nine-d-flat",
             abjad.Tweak(r"- \tweak padding 0.5"),
         )
-        baca.flat_glissando(o, "Eb5")
+        baca.multistage_glissando(o, "Eb5")
     with baca.scope(m.get(38, 45)) as o:
         baca.accent(o.pheads())
         baca.mspanners.text(
@@ -851,7 +851,7 @@ def va(cache):
             do_not_rleak=True,
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "Bqf3")
+        baca.multistage_glissando(o, "Bqf3")
     with baca.scope(m.get(5, 11)) as o:
         baca.dynamic(
             o.phead(0),
@@ -889,7 +889,7 @@ def va(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         baca.stem_tremolo(o.pleaves())
-        baca.flat_glissando(o, "G#3")
+        baca.multistage_glissando(o, "G#3")
     with baca.scope(m[21]) as o:
         baca.mspanners.circle_bow(
             baca.select.ltleaves(o),
@@ -908,7 +908,7 @@ def va(cache):
             r"\baca-seven-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.flat_glissando(o, "Bqf3")
+        baca.multistage_glissando(o, "Bqf3")
     with baca.scope(cache["var"][22]) as o:
         baca.override.tacet(o.mmrests())
     with baca.scope(m[23]) as o:
@@ -920,7 +920,7 @@ def va(cache):
             qualifier="wide",
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "Bqf3")
+        baca.multistage_glissando(o, "Bqf3")
     with baca.scope(m.get(24, 31)) as o:
         baca.accent(o.pheads())
         baca.breathe(o.pleaf(-1))
@@ -937,7 +937,7 @@ def va(cache):
             do_not_rleak=True,
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "G3")
+        baca.multistage_glissando(o, "G3")
     with baca.scope(m.get(32, 37)) as o:
         baca.accent(o.pheads())
         baca.stem_tremolo(o.pleaves())
@@ -964,7 +964,7 @@ def va(cache):
             r"\baca-five-d-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.flat_glissando(o, "F3")
+        baca.multistage_glissando(o, "F3")
     with baca.scope(m.get(38, 42)) as o:
         baca.accent(o.pheads())
         baca.mspanners.text(
@@ -1033,7 +1033,7 @@ def vc(cache):
             do_not_rleak=True,
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "Bb2")
+        baca.multistage_glissando(o, "Bb2")
     with baca.scope(m.get(5, 8)) as o:
         library.bcps(o, -3, clt=True, staff_padding=4)
     for item in [(5, 10), (13, 14)]:
@@ -1055,7 +1055,7 @@ def vc(cache):
         with baca.scope(m.get(item)) as o:
             baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(15, 20)) as o:
-        baca.flat_glissando(o, "E2")
+        baca.multistage_glissando(o, "E2")
     with baca.scope(m.get(18, 20)) as o:
         baca.accent(o.pheads())
         baca.breathe(o.pleaf(-1))
@@ -1080,7 +1080,7 @@ def vc(cache):
         )
         baca.override.note_head_style_harmonic(o.pleaves())
         library.cello_cell_bcps(o, staff_padding=4.5)
-        baca.flat_glissando(o, "A5")
+        baca.multistage_glissando(o, "A5")
     with baca.scope(m.get(24, 31)) as o:
         baca.accent(o.pheads())
         baca.breathe(o.pleaf(-1))
@@ -1092,7 +1092,7 @@ def vc(cache):
             do_not_rleak=True,
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "Eb2")
+        baca.multistage_glissando(o, "Eb2")
     with baca.scope(m.get(32, 37)) as o:
         baca.accent(o.pheads())
         baca.mspanners.scp(
@@ -1119,7 +1119,7 @@ def vc(cache):
             "clouded pane -|",
             13,
         )
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "Db2",
             right_broken=True,

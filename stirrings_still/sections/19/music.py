@@ -170,7 +170,7 @@ def v1(cache):
                 staff_padding=3,
             )
             baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
-            baca.flat_glissando(o, "Bb4")
+            baca.multistage_glissando(o, "Bb4")
             baca.hairpins.cyclic(
                 baca.select.cmgroups(o),
                 "p > ppp <",
@@ -197,7 +197,7 @@ def v2(cache):
                 staff_padding=3,
             )
             baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
-            baca.flat_glissando(o, "F4")
+            baca.multistage_glissando(o, "F4")
             baca.hairpins.cyclic(
                 baca.select.cmgroups(o),
                 "ppp < p >",
@@ -207,7 +207,7 @@ def v2(cache):
 def va(cache):
     m = cache["va"]
     with baca.scope(m.get(1, 19)) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "Bb2",
             hide_middle_stems=True,
@@ -220,12 +220,12 @@ def vc(cache):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
     with baca.scope(m[1]) as o:
-        baca.flat_glissando(o, "B0")
+        baca.multistage_glissando(o, "B0")
         baca.hairpin(o, "o<mf")
         baca.rspanners.ottava(o.tleaves(), -1)
     for item in [(3, 4), (6, 8), (10, 15)]:
         with baca.scope(m.get(item)) as o:
-            baca.flat_glissando(o, "B0", hide_middle_stems=True)
+            baca.multistage_glissando(o, "B0", hide_middle_stems=True)
             baca.rspanners.ottava(o.tleaves(), -1)
     with baca.scope(m.get(3, 4)) as o:
         baca.hairpin(

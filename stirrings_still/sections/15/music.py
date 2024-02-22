@@ -109,7 +109,7 @@ def v1(cache):
             qualifier="granulation",
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "Eb4")
+        baca.multistage_glissando(o, "Eb4")
         baca.hairpin(
             o,
             '"mf"--!',
@@ -122,7 +122,7 @@ def v1(cache):
             qualifier="wide",
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "Aqs4")
+        baca.multistage_glissando(o, "Aqs4")
         baca.hairpin(
             o,
             "mf>o!",
@@ -151,7 +151,7 @@ def v2(cache):
             qualifier="granulation",
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "D4")
+        baca.multistage_glissando(o, "D4")
         baca.hairpin(
             o,
             '"mf"--!',
@@ -164,7 +164,7 @@ def v2(cache):
             qualifier="wide",
             staff_padding=5.5,
         ),
-        baca.flat_glissando(o, "Eb4")
+        baca.multistage_glissando(o, "Eb4")
         baca.hairpin(o, "mf>o!", rleak=True)
         baca.markup(
             o.pleaf(0),
@@ -182,7 +182,7 @@ def va(cache):
             qualifier="granulation",
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "G3")
+        baca.multistage_glissando(o, "G3")
         baca.hairpin(
             o,
             '"mf"--!',
@@ -195,7 +195,7 @@ def va(cache):
             qualifier="wide",
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "Bqf3")
+        baca.multistage_glissando(o, "Bqf3")
         baca.hairpin(
             o,
             "mf>o!",
@@ -217,7 +217,7 @@ def vc(cache):
             qualifier="granulation",
             staff_padding=5.5,
         )
-        baca.flat_glissando(o, "Ab3")
+        baca.multistage_glissando(o, "Ab3")
         baca.hairpin(
             o,
             '"mf"--!',
@@ -225,7 +225,7 @@ def vc(cache):
             rleak=True,
         )
     with baca.scope(m[7]) as o:
-        baca.flat_glissando(o, "Db2")
+        baca.multistage_glissando(o, "Db2")
         baca.hairpin(
             o,
             "p--!",
