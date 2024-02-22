@@ -572,7 +572,7 @@ def vc(cache):
         baca.spanners.beam(o.tleaves())
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.pitches(o, "C#4 F4 G2 B3 D3")
-        baca.glissando(o.tleaves())
+        baca.basic_glissando(o.tleaves())
         baca.hairpin(
             o,
             "p<",
