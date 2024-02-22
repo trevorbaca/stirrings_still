@@ -3462,14 +3462,6 @@ number.2.Violin.1.Music = {
     \<
     \glissando
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     <e' c''>16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -3497,18 +3489,6 @@ number.2.Violin.1.Music = {
     \<
     \glissando
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \override Dots.transparent = ##t
-    \override Stem.transparent = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
-    \revert Dots.transparent
-    \revert Stem.transparent
     <e' cqs''!>16
     - \baca-stop-on-string
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3824,14 +3804,6 @@ number.2.Violin.1.Music = {
     \glissando
 
     % [Violin.1.Music measure 33]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     gf'!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -4642,14 +4614,6 @@ number.2.Violin.1.Music = {
         \<
         \glissando
 
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         d'''4
         \bacaStopTextSpanBCP
 
@@ -6777,14 +6741,6 @@ number.2.Violin.2.Music = {
     \<
     \glissando
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     <ef'! b'>16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -6812,18 +6768,6 @@ number.2.Violin.2.Music = {
     \<
     \glissando
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \override Dots.transparent = ##t
-    \override Stem.transparent = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
-    \revert Dots.transparent
-    \revert Stem.transparent
     <eqf'! c''>16
     - \baca-stop-on-string
       %! EXPLICIT_DYNAMIC_COLOR
@@ -6884,14 +6828,6 @@ number.2.Violin.2.Music = {
         \<
         \glissando
 
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         g''4.
         \bacaStopTextSpanBCP
 
@@ -7174,14 +7110,6 @@ number.2.Violin.2.Music = {
     \glissando
 
     % [Violin.2.Music measure 33]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     f'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -7973,14 +7901,6 @@ number.2.Violin.2.Music = {
     \<
     \glissando
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     d'4
     \bacaStopTextSpanBCP
 
@@ -9709,14 +9629,6 @@ number.2.Viola.Music = {
     \<
     \glissando
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     <d' gqs'!>16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -9744,18 +9656,6 @@ number.2.Viola.Music = {
     \<
     \glissando
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \override Dots.transparent = ##t
-    \override Stem.transparent = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
-    \revert Dots.transparent
-    \revert Stem.transparent
     <cs'! gqs'!>16
     - \baca-stop-on-string
       %! EXPLICIT_DYNAMIC_COLOR
@@ -10125,14 +10025,6 @@ number.2.Viola.Music = {
     \glissando
 
     % [Viola.Music measure 33]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     af!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -12886,14 +12778,6 @@ number.2.Cello.Music = {
         \bacaStartTextSpanBCP
         \glissando
 
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         d''4
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
@@ -13420,14 +13304,6 @@ number.2.Cello.Music = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
     % [Cello.Music measure 33]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     af,!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -14359,14 +14235,6 @@ number.2.Cello.Music = {
     \<
     \glissando
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     e,8
 
     \tweak text #tuplet-number::calc-fraction-text

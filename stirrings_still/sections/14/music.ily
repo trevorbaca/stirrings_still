@@ -6479,14 +6479,6 @@ number.14.Cello.Music = {
     \glissando
 
     % [Cello.Music measure 38]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     b,,1
       %! SPANNER_STOP
     \!

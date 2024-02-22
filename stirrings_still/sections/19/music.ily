@@ -2875,14 +2875,6 @@ number.19.Cello.Music = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     b,,,4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2956,18 +2948,6 @@ number.19.Cello.Music = {
     \glissando
 
     % [Cello.Music measure 4]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \override Dots.transparent = ##t
-    \override Stem.transparent = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
-    \revert Dots.transparent
-    \revert Stem.transparent
     b,,,1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC

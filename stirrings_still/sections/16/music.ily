@@ -1810,19 +1810,7 @@ number.16.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 7]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \override Dots.transparent = ##t
-        \override Stem.transparent = ##t
         \override Staff.Stem.stemlet-length = 0.75
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
-        \revert Dots.transparent
-        \revert Stem.transparent
         \once \override Beam.grow-direction = #left
         a16 * 57/64
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1925,19 +1913,7 @@ number.16.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 9]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \override Dots.transparent = ##t
-        \override Stem.transparent = ##t
         \override Staff.Stem.stemlet-length = 0.75
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
-        \revert Dots.transparent
-        \revert Stem.transparent
         \once \override Beam.grow-direction = #right
         a16 * 381/64
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2157,19 +2133,7 @@ number.16.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 17]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \override Dots.transparent = ##t
-        \override Stem.transparent = ##t
         \override Staff.Stem.stemlet-length = 0.75
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
-        \revert Dots.transparent
-        \revert Stem.transparent
         \once \override Beam.grow-direction = #left
         a16 * 13/16
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2280,19 +2244,7 @@ number.16.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 19]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \override Dots.transparent = ##t
-        \override Stem.transparent = ##t
         \override Staff.Stem.stemlet-length = 0.75
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
-        \revert Dots.transparent
-        \revert Stem.transparent
         \once \override Beam.grow-direction = #right
         a16 * 351/64
           %! EXPLICIT_DYNAMIC_COLOR

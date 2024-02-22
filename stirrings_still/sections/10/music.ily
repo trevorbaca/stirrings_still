@@ -633,21 +633,6 @@ number.10.Violin.1.Music = {
     % [Violin.1.Music measure 1]
       %! REAPPLIED_CLEF
     \clef "treble"
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \hide NoteHead
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \override Accidental.stencil = ##f
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \override NoteHead.no-ledgers = ##t
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \override Dots.transparent = ##t
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \override Stem.transparent = ##t
     \once \override DynamicText.self-alignment-X = -0.75
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
@@ -729,15 +714,6 @@ number.10.Violin.1.Music = {
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup
 
     % [Violin.1.Music measure 2]
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \override NoteColumn.glissando-skip = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
-    \revert Dots.transparent
-    \revert Stem.transparent
     <f' a'>2.
 
     % [Violin.1.Music measure 3]
@@ -1021,14 +997,6 @@ number.10.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 13]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         b'4
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
@@ -1350,21 +1318,6 @@ number.10.Violin.2.Music = {
     % [Violin.2.Music measure 1]
       %! REAPPLIED_CLEF
     \clef "treble"
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \hide NoteHead
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \override Accidental.stencil = ##f
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \override NoteHead.no-ledgers = ##t
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \override Dots.transparent = ##t
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \override Stem.transparent = ##t
     \once \override DynamicText.self-alignment-X = -0.75
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
@@ -1443,15 +1396,6 @@ number.10.Violin.2.Music = {
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup
 
     % [Violin.2.Music measure 2]
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \override NoteColumn.glissando-skip = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
-    \revert Dots.transparent
-    \revert Stem.transparent
     <e' gs'!>2.
 
     \times 2/3
@@ -2082,21 +2026,6 @@ number.10.Viola.Music = {
     % [Viola.Music measure 1]
       %! REAPPLIED_CLEF
     \clef "alto"
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \hide NoteHead
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \override Accidental.stencil = ##f
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \override NoteHead.no-ledgers = ##t
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \override Dots.transparent = ##t
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \override Stem.transparent = ##t
     \once \override DynamicText.self-alignment-X = -0.75
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
@@ -2175,15 +2104,6 @@ number.10.Viola.Music = {
     \set Staff.shortInstrumentName = \stirrings-still-va-markup
 
     % [Viola.Music measure 2]
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! LEFT_BROKEN
-    \override NoteColumn.glissando-skip = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
-    \revert Dots.transparent
-    \revert Stem.transparent
     <eqs'! gtqs'!>2.
 
     % [Viola.Music measure 3]

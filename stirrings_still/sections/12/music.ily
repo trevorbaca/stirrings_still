@@ -657,14 +657,6 @@ number.12.Violin.1.Music = {
     \glissando
 
     % [Violin.1.Music measure 4]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     bqf''!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -905,14 +897,6 @@ number.12.Violin.1.Music = {
     \glissando
 
     % [Violin.1.Music measure 8]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     bqf''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1140,14 +1124,6 @@ number.12.Violin.1.Music = {
     \glissando
 
     % [Violin.1.Music measure 12]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     bqf''!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1349,14 +1325,6 @@ number.12.Violin.1.Music = {
     \glissando
 
     % [Violin.1.Music measure 16]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     bqf''!1
     \revert DynamicLineSpanner.staff-padding
     \revert TupletBracket.direction
@@ -1566,14 +1534,6 @@ number.12.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 4]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         ef''!8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -1810,14 +1770,6 @@ number.12.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 8]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         ef''!4.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -2040,14 +1992,6 @@ number.12.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 12]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         ef''!8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -2238,14 +2182,6 @@ number.12.Violin.2.Music = {
     \glissando
 
     % [Violin.2.Music measure 16]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     ef''!1
     \revert DynamicLineSpanner.staff-padding
     \revert TupletBracket.direction
@@ -2474,14 +2410,6 @@ number.12.Viola.Music = {
     {
 
         % [Viola.Music measure 4]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         f4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -2714,14 +2642,6 @@ number.12.Viola.Music = {
     {
 
         % [Viola.Music measure 8]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         f8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -2980,14 +2900,6 @@ number.12.Viola.Music = {
     {
 
         % [Viola.Music measure 12]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         f8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -3187,14 +3099,6 @@ number.12.Viola.Music = {
     \glissando
 
     % [Viola.Music measure 16]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     f1
     \revert DynamicLineSpanner.staff-padding
     \revert TupletBracket.direction

@@ -4274,14 +4274,6 @@ number.5.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 7]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         etqf'!2.
 
         etqf'!4
@@ -4330,14 +4322,6 @@ number.5.Violin.1.Music = {
         \<
         \glissando
 
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         etqf'!4
 
     }
@@ -4523,14 +4507,6 @@ number.5.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 14]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         etqf'!4
 
         etqf'!4
@@ -4720,14 +4696,6 @@ number.5.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 20]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         etqf'!4.
 
         etqf'!4
@@ -4843,14 +4811,6 @@ number.5.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 23]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         etqf'!2..
 
     }
@@ -5332,14 +5292,6 @@ number.5.Violin.1.Music = {
     \<
     \glissando
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     <e' c''>16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -5367,18 +5319,6 @@ number.5.Violin.1.Music = {
     \<
     \glissando
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \override Dots.transparent = ##t
-    \override Stem.transparent = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
-    \revert Dots.transparent
-    \revert Stem.transparent
     <e' cqs''!>16
     - \baca-stop-on-string
       %! EXPLICIT_DYNAMIC_COLOR
@@ -5978,14 +5918,6 @@ number.5.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 51]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         b'8
         [
         \glissando
@@ -7240,14 +7172,6 @@ number.5.Violin.1.Music = {
     \glissando
 
     % [Violin.1.Music measure 80]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     <dqs''! gs''!>2..
     :32
       %! EXPLICIT_DYNAMIC_COLOR
@@ -7957,14 +7881,6 @@ number.5.Violin.1.Music = {
     {
 
         % [Violin.1.Music measure 98]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         b'4
         - \tweak self-alignment-X #left
         - \tweak staff-padding 5.0
@@ -9378,14 +9294,6 @@ number.5.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 7]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         bqf!4.
 
         bqf!4
@@ -9524,14 +9432,6 @@ number.5.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 11]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         bqf!1
 
     }
@@ -9587,14 +9487,6 @@ number.5.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 13]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         bqf!4.
 
         bqf!4
@@ -9733,14 +9625,6 @@ number.5.Violin.2.Music = {
     {
 
         % [Violin.2.Music measure 17]
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         bqf!2..
 
     }
@@ -10316,14 +10200,6 @@ number.5.Violin.2.Music = {
     \<
     \glissando
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     <ef'! b'>16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -10351,18 +10227,6 @@ number.5.Violin.2.Music = {
     \<
     \glissando
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \override Dots.transparent = ##t
-    \override Stem.transparent = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
-    \revert Dots.transparent
-    \revert Stem.transparent
     <eqf'! c''>16
     - \baca-stop-on-string
       %! EXPLICIT_DYNAMIC_COLOR
@@ -12463,14 +12327,6 @@ number.5.Violin.2.Music = {
     \glissando
 
     % [Violin.2.Music measure 88]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     <e'' aqs''!>2..
     :32
       %! EXPLICIT_DYNAMIC_COLOR
@@ -13875,14 +13731,6 @@ number.5.Viola.Music = {
     \glissando
 
     % [Viola.Music measure 12]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     a2.
 
     a4
@@ -14577,14 +14425,6 @@ number.5.Viola.Music = {
     \<
     \glissando
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     <d' gqs'!>16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -14612,18 +14452,6 @@ number.5.Viola.Music = {
     \<
     \glissando
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \override Dots.transparent = ##t
-    \override Stem.transparent = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
-    \revert Dots.transparent
-    \revert Stem.transparent
     <cs'! gqs'!>16
     - \baca-stop-on-string
       %! EXPLICIT_DYNAMIC_COLOR
@@ -18241,14 +18069,6 @@ number.5.Cello.Music = {
         \bacaStartTextSpanBCP
         \glissando
 
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         g4.
         - \tweak self-alignment-X #left
         - \tweak staff-padding 5.0
@@ -19259,14 +19079,6 @@ number.5.Cello.Music = {
         \bacaStartTextSpanBCP
         \glissando
 
-        \hide NoteHead
-        \override Accidental.stencil = ##f
-        \override NoteColumn.glissando-skip = ##t
-        \override NoteHead.no-ledgers = ##t
-        \revert Accidental.stencil
-        \revert NoteColumn.glissando-skip
-        \revert NoteHead.no-ledgers
-        \undo \hide NoteHead
         g4
         - \tweak self-alignment-X #left
         - \tweak staff-padding 5.0

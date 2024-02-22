@@ -1254,18 +1254,6 @@ number.7.Violin.1.Music = {
     \glissando
 
     % [Violin.1.Music measure 6]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \override Dots.transparent = ##t
-    \override Stem.transparent = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
-    \revert Dots.transparent
-    \revert Stem.transparent
     <f' a'>2.
 
     % [Violin.1.Music measure 7]
@@ -2481,18 +2469,6 @@ number.7.Violin.2.Music = {
     \glissando
 
     % [Violin.2.Music measure 6]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \override Dots.transparent = ##t
-    \override Stem.transparent = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
-    \revert Dots.transparent
-    \revert Stem.transparent
     <e' gs'!>2.
 
     \tweak text #tuplet-number::calc-fraction-text
@@ -3763,18 +3739,6 @@ number.7.Viola.Music = {
     \glissando
 
     % [Viola.Music measure 6]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \override Dots.transparent = ##t
-    \override Stem.transparent = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
-    \revert Dots.transparent
-    \revert Stem.transparent
     <eqs'! gtqs'!>2.
 
     \tweak text #tuplet-number::calc-fraction-text

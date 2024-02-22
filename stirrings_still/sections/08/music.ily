@@ -2949,14 +2949,6 @@ number.8.Violin.1.Music = {
     \glissando
 
     % [Violin.1.Music measure 37]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     gf'!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -4677,14 +4669,6 @@ number.8.Violin.2.Music = {
     \glissando
 
     % [Violin.2.Music measure 37]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     f'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -5399,31 +5383,9 @@ number.8.Violin.2.Music = {
     \<
     \glissando
 
-      %! RIGHT_BROKEN
-      %! SHOW_TO_JOIN_BROKEN_SPANNERS
-    \hide NoteHead
-      %! RIGHT_BROKEN
-      %! SHOW_TO_JOIN_BROKEN_SPANNERS
-    \override Accidental.stencil = ##f
-      %! RIGHT_BROKEN
-      %! SHOW_TO_JOIN_BROKEN_SPANNERS
-    \override NoteColumn.glissando-skip = ##t
-      %! RIGHT_BROKEN
-      %! SHOW_TO_JOIN_BROKEN_SPANNERS
-    \override NoteHead.no-ledgers = ##t
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! RIGHT_BROKEN
-    \revert Accidental.stencil
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! RIGHT_BROKEN
-    \revert NoteColumn.glissando-skip
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! RIGHT_BROKEN
-    \revert NoteHead.no-ledgers
-      %! HIDE_TO_JOIN_BROKEN_SPANNERS
-      %! RIGHT_BROKEN
-    \undo \hide NoteHead
     ef'!4
+      %! SHOW_TO_JOIN_BROKEN_SPANNERS
+    %@% \glissando
     \revert DynamicLineSpanner.staff-padding
 
       %! ANCHOR_NOTE
@@ -6397,14 +6359,6 @@ number.8.Viola.Music = {
     \glissando
 
     % [Viola.Music measure 37]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     af!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -7775,14 +7729,6 @@ number.8.Cello.Music = {
     \glissando
 
     % [Cello.Music measure 37]
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     af,!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
