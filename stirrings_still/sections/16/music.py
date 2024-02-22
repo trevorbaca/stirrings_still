@@ -230,7 +230,9 @@ def v1(cache):
     m = cache[name]
     for item in [(1, 5), (8, 9), (11, 15), (18, 19)]:
         with baca.scope(m.get(item)) as o:
-            baca.multistage_glissando(baca.select.rleak(o), "A4", hide_middle_stems=True)
+            baca.multistage_glissando(
+                baca.select.rleak(o), "A4", hide_middle_stems=True
+            )
             baca.rspanners.tasto(
                 o,
                 staff_padding=v1_spanner_staff_padding,
@@ -293,7 +295,9 @@ def v2(cache):
     m = cache[name]
     for item in [(1, 4), 6, 8, (10, 14), 16, 18]:
         with baca.scope(m.get(item)) as o:
-            baca.multistage_glissando(baca.select.rleak(o), "A3", hide_middle_stems=True)
+            baca.multistage_glissando(
+                baca.select.rleak(o), "A3", hide_middle_stems=True
+            )
             baca.rspanners.tasto(
                 o,
                 staff_padding=v2_spanner_staff_padding,
@@ -348,7 +352,9 @@ def va(cache):
     m = cache[name]
     for item in [(1, 7), (11, 17)]:
         with baca.scope(m.get(item)) as o:
-            baca.multistage_glissando(baca.select.rleak(o), "A3", hide_middle_stems=True)
+            baca.multistage_glissando(
+                baca.select.rleak(o), "A3", hide_middle_stems=True
+            )
             baca.rspanners.tasto(
                 o,
                 staff_padding=va_spanner_staff_padding,
@@ -383,7 +389,9 @@ def vc(cache):
     m = cache[name]
     for item in [(1, 5), (9, 15)]:
         with baca.scope(m.get(item)) as o:
-            baca.multistage_glissando(baca.select.rleak(o), "A2", hide_middle_stems=True)
+            baca.multistage_glissando(
+                baca.select.rleak(o), "A2", hide_middle_stems=True
+            )
             baca.rspanners.tasto(
                 o,
                 staff_padding=vc_spanner_staff_padding,
