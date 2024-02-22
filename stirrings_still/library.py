@@ -1967,7 +1967,6 @@ def ntlt_flat_glissandi(argument):
         baca.untie(ntlt)
         baca.basic_glissando(
             ntlt,
-            allow_repeats=True,
             zero_padding=True,
         )
         with baca.scope(ntlt[1:]) as u:
