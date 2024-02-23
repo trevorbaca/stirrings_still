@@ -2978,7 +2978,7 @@ def style_tailpiece_material(o, *tweaks):
     wrappers.extend(wrappers_)
     wrappers_ = baca.override.text_script_parent_alignment_x(o, 0)
     wrappers.extend(wrappers_)
-    baca.multistage_glissando(
+    baca.glissando(
         o.rleaves(),
         None,
         *tweaks,

@@ -343,16 +343,16 @@ def v1_v2_va(cache):
             baca.override.tuplet_bracket_down(o.leaves())
         with baca.scope(m.get(5, 6)) as o:
             if name == "v1":
-                baca.multistage_glissando(o, "<F4 A4>", hide_middle_stems=True)
+                baca.glissando(o, "<F4 A4>", hide_middle_stems=True)
             elif name == "v2":
-                baca.multistage_glissando(o, "<E4 G#4>", hide_middle_stems=True)
+                baca.glissando(o, "<E4 G#4>", hide_middle_stems=True)
             elif name == "va":
                 baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-twenty-four-et-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.multistage_glissando(o, "<Eqs4 Gtqs4>", hide_middle_stems=True)
+                baca.glissando(o, "<Eqs4 Gtqs4>", hide_middle_stems=True)
             cache.rebuild()
             m = cache[name]
         with baca.scope(m.get(5, 6)) as o:
@@ -374,18 +374,18 @@ def tutti(cache):
             baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(16, 17)) as o:
             if name == "v1":
-                baca.multistage_glissando(o, "<F#4 A#4>")
+                baca.glissando(o, "<F#4 A#4>")
             elif name == "v2":
-                baca.multistage_glissando(o, "<F4 A4>")
+                baca.glissando(o, "<F4 A4>")
             elif name == "va":
                 baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-twenty-four-et-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.multistage_glissando(o, "<Ab3 C4>")
+                baca.glissando(o, "<Ab3 C4>")
             elif name == "vc":
-                baca.multistage_glissando(o, "<G3 B3>")
+                baca.glissando(o, "<G3 B3>")
             cache.rebuild()
             m = cache[name]
         with baca.scope(m.get(16, 17)) as o:
@@ -421,11 +421,11 @@ def v1_va_vc(cache):
         m = cache[name]
         with baca.scope(m.get(12, 13)) as o:
             if name == "v1":
-                baca.multistage_glissando(o, "<F#4 Dqf5>")
+                baca.glissando(o, "<F#4 Dqf5>")
             elif name == "va":
-                baca.multistage_glissando(o, "<B2 Aqs3>")
+                baca.glissando(o, "<B2 Aqs3>")
             elif name == "vc":
-                baca.multistage_glissando(o, "E2")
+                baca.glissando(o, "E2")
             cache.rebuild()
             m = cache[name]
         with baca.scope(m.get(12, 13)) as o:
