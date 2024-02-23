@@ -571,12 +571,13 @@ def vc(cache):
     with baca.scope(m[6]) as o:
         baca.spanners.beam(o.tleaves())
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.pitches(o, "C#4 F4 G2 B3 D3")
-        baca.basic_glissando(o.tleaves())
+        baca.glissando(
+            o,
+            "C#4 F4 G2 B3 D3 C#4",
+        )
         baca.hairpin(
             o,
             "p<",
-            rleak=True,
         )
         baca.rspanners.half_clt(
             baca.select.ltleaves(o),

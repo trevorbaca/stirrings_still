@@ -1964,15 +1964,14 @@ def make_wave_rhythm(time_signatures, start, stop, *, previous_state=None):
 
 def ntlt_flat_glissandi(argument):
     for ntlt in baca.select.lts(argument, nontrivial=True):
-        baca.untie(ntlt)
-        baca.basic_glissando(
+        baca.glissando(
             ntlt,
+            do_not_hide_middle_note_heads=True,
             zero_padding=True,
         )
-        with baca.scope(ntlt[1:]) as u:
-            baca.override.accidental_stencil_false(u)
-            baca.override.note_head_transparent(u)
-            baca.override.note_head_x_extent_zero(u)
+        baca.override.accidental_stencil_false(ntlt[1:])
+        baca.override.note_head_transparent(ntlt[1:])
+        baca.override.note_head_x_extent_zero(ntlt[1:])
 
 
 def operations():
