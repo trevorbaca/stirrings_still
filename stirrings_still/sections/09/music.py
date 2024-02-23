@@ -232,7 +232,11 @@ def vc(cache):
     with baca.scope(m.get(1, 6)) as o:
         baca.spanners.beam(o.tleaves())
         baca.pitches(o, "G2 B3 D3 C#4 F4")
-        baca.basic_glissando(o.rleaves())
+        baca.glissando(
+            o,
+            do_not_hide_middle_note_heads=True,
+            rleak=True,
+        )
         library.transition_bcps(o, final_spanner=True, staff_padding=6)
     with baca.scope(m.get(7, 11)) as o:
         baca.clef(o.leaf(0), "treble")
