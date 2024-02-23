@@ -94,14 +94,14 @@ def v1(cache):
             qualifier="wide",
             staff_padding=5.5,
         )
-        baca.multistage_glissando(o, "Aqs4", left_broken=True)
+        baca.glissando(o, "Aqs4", left_broken=True)
     with baca.scope(m.get(10, 11)) as o:
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-twelve-et-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "<F4 A4>",
             hide_middle_stems=True,
@@ -155,14 +155,14 @@ def v2(cache):
             qualifier="wide",
             staff_padding=5.5,
         )
-        baca.multistage_glissando(o, "Eb4", left_broken=True)
+        baca.glissando(o, "Eb4", left_broken=True)
     with baca.scope(m.get(10, 11)) as o:
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-twelve-et-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "<E4 G#4>",
             hide_middle_stems=True,
@@ -188,7 +188,7 @@ def va(cache):
             qualifier="wide-poss",
             staff_padding=5.5,
         )
-        baca.multistage_glissando(o.pleaves(), "Bqf3")
+        baca.glissando(o.pleaves(), "Bqf3")
         baca.markup(
             o.pleaf(0),
             r"\baca-seven-d-flat",
@@ -200,7 +200,7 @@ def va(cache):
             r"\stirrings-still-twenty-four-et-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "<Eqs4 Gtqs4>",
             hide_middle_stems=True,
@@ -236,7 +236,7 @@ def vc(cache):
         library.transition_bcps(o, final_spanner=True, staff_padding=6)
     with baca.scope(m.get(7, 11)) as o:
         baca.clef(o.leaf(0), "treble")
-        baca.multistage_glissando(o, "A5")
+        baca.glissando(o, "A5")
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-ninth-partial-markup",

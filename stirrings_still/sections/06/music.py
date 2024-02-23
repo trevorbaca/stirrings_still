@@ -101,7 +101,7 @@ def VC(voice, time_signatures):
 def v1(cache):
     m = cache["v1"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.multistage_glissando(o, "<F5 Bqs5>", hide_middle_stems=True)
+        baca.glissando(o, "<F5 Bqs5>", hide_middle_stems=True)
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m.get(1, 8)) as o:
@@ -125,7 +125,7 @@ def v1(cache):
 def v2(cache):
     m = cache["v2"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.multistage_glissando(o, "<G4 Dqs5>", hide_middle_stems=True)
+        baca.glissando(o, "<G4 Dqs5>", hide_middle_stems=True)
         cache.rebuild()
         m = cache["v2"]
     with baca.scope(m.get(1, 8)) as o:
@@ -167,7 +167,7 @@ def va(cache):
 def vc(cache):
     m = cache["vc"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Eb2",
             hide_middle_stems=True,
@@ -217,14 +217,14 @@ def tutti(cache):
                 rleak=True,
             )
             if name == "v1":
-                baca.multistage_glissando(o, "Bb4")
+                baca.glissando(o, "Bb4")
             elif name == "v2":
-                baca.multistage_glissando(o, "G4 A4")
+                baca.glissando(o, "G4 A4")
             elif name == "va":
-                baca.multistage_glissando(o, "Bb4")
+                baca.glissando(o, "Bb4")
             elif name == "vc":
                 baca.clef(o.leaf(0), "treble")
-                baca.multistage_glissando(o, "Bb4")
+                baca.glissando(o, "Bb4")
 
 
 @baca.build.timed("make_score")

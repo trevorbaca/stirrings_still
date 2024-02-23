@@ -99,7 +99,7 @@ def v1(cache):
             staff_padding=7,
         )
     with baca.scope(m.get(1, 2)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "G6 Bqf5",
             rleak=True,
@@ -112,39 +112,39 @@ def v1(cache):
             )
     for n in [3, 7, 11, 15]:
         with baca.scope(m[n]) as o:
-            baca.multistage_glissando(baca.select.rleak(o), "Bqf5")
+            baca.glissando(baca.select.rleak(o), "Bqf5")
     with baca.scope(m[4]) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Bqf5 G6",
             rleak=True,
         )
     with baca.scope(m.get(5, 6)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "G6 Bqf5",
             rleak=True,
         )
     with baca.scope(m[8]) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Bqf5 G6",
             rleak=True,
         )
     with baca.scope(m.get(9, 10)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "G6 Bqf5",
             rleak=True,
         )
     with baca.scope(m[12]) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Bqf5 G6",
             rleak=True,
         ),
     with baca.scope(m.get(13, 14)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "G6 Bqf5",
             rleak=True,
@@ -195,7 +195,7 @@ def v2(cache):
             staff_padding=4,
         )
     with baca.scope(m.get(1, 2)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "A5 Eb5",
             rleak=True,
@@ -208,39 +208,39 @@ def v2(cache):
             )
     for n in [3, 7, 11, 15]:
         with baca.scope(m[n]) as o:
-            baca.multistage_glissando(baca.select.rleak(o), "Eb5")
+            baca.glissando(baca.select.rleak(o), "Eb5")
     with baca.scope(m.get(4)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Eb5 A5",
             rleak=True,
         )
     with baca.scope(m.get(5, 6)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "A5 Eb5",
             rleak=True,
         )
     with baca.scope(m.get(8)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Eb5 A5",
             rleak=True,
         )
     with baca.scope(m.get(9, 10)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "A5 Eb5",
             rleak=True,
         )
     with baca.scope(m.get(12)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Eb5 A5",
             rleak=True,
         )
     with baca.scope(m.get(13, 14)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "A5 Eb5",
             rleak=True,
@@ -282,7 +282,7 @@ def va(cache):
             staff_padding=3,
         )
     with baca.scope(m.get(1, 2)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "D3 F3",
             rleak=True,
@@ -295,39 +295,39 @@ def va(cache):
             )
     for n in [3, 7, 11, 15]:
         with baca.scope(m[n]) as o:
-            baca.multistage_glissando(baca.select.rleak(o), "F3")
+            baca.glissando(baca.select.rleak(o), "F3")
     with baca.scope(m.get(4)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "F3 D3",
             rleak=True,
         )
     with baca.scope(m.get(5, 6)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "D3 F3",
             rleak=True,
         )
     with baca.scope(m.get(8)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "F3 D3",
             rleak=True,
         )
     with baca.scope(m.get(9, 10)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "D3 F3",
             rleak=True,
         )
     with baca.scope(m.get(12)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "F3 D3",
             rleak=True,
         )
     with baca.scope(m.get(13, 14)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "D3 F3",
             rleak=True,
@@ -338,7 +338,7 @@ def vc(cache):
     m = cache["vc"]
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 5)
-        baca.multistage_glissando(
+        baca.glissando(
             o.leaves(),
             "Db2",
             hide_middle_stems=True,

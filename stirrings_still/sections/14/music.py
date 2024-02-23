@@ -180,7 +180,7 @@ def v1(cache):
     name = "v1"
     m = cache[name]
     with baca.scope(m.get(1, 8)) as o:
-        baca.multistage_glissando(o, "C6", hide_middle_stems=True)
+        baca.glissando(o, "C6", hide_middle_stems=True)
         baca.markup(
             o.pleaf(0),
             r"\baca-nine-b-flat",
@@ -200,12 +200,12 @@ def v1(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         baca.breathe(o.pleaf(-1))
-        baca.multistage_glissando(o, "<A3 Fqs4>", hide_middle_stems=True)
+        baca.glissando(o, "<A3 Fqs4>", hide_middle_stems=True)
         cache.rebuild()
         m = cache[name]
     for item in [(23, 28), (30, 35)]:
         with baca.scope(m.get(item)) as o:
-            baca.multistage_glissando(o, "<A3 Fqs4>")
+            baca.glissando(o, "<A3 Fqs4>")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(30, 35)) as o:
@@ -260,7 +260,7 @@ def v1(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.multistage_glissando(o, "G4 F4")
+        baca.glissando(o, "G4 F4")
         baca.hairpin(
             baca.select.cmgroups(o),
             "p-- !>o!",
@@ -315,7 +315,7 @@ def v2(cache):
     name = "v2"
     m = cache[name]
     with baca.scope(m.get(1, 8)) as o:
-        baca.multistage_glissando(o, "Eqf5", hide_middle_stems=True)
+        baca.glissando(o, "Eqf5", hide_middle_stems=True)
         baca.markup(
             o.pleaf(0),
             r"\baca-eleven-b-flat",
@@ -333,7 +333,7 @@ def v2(cache):
             staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
-        baca.multistage_glissando(o, "<F#3 Dqs4>", hide_middle_stems=True)
+        baca.glissando(o, "<F#3 Dqs4>", hide_middle_stems=True)
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(13, 22)) as o:
@@ -345,7 +345,7 @@ def v2(cache):
         )
     for item in [(23, 28), (30, 35)]:
         with baca.scope(m.get(item)) as o:
-            baca.multistage_glissando(o, "<F#3 Dqs4>")
+            baca.glissando(o, "<F#3 Dqs4>")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(30, 35)) as o:
@@ -400,7 +400,7 @@ def v2(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.multistage_glissando(o, "F4 E4")
+        baca.glissando(o, "F4 E4")
         baca.hairpin(
             baca.select.cmgroups(o),
             "p-- !>o!",
@@ -418,7 +418,7 @@ def va(cache):
     name = "va"
     m = cache[name]
     with baca.scope(m.get(1, 8)) as o:
-        baca.multistage_glissando(o, "Gqf4", hide_middle_stems=True)
+        baca.glissando(o, "Gqf4", hide_middle_stems=True)
         baca.markup(
             o.pleaf(0),
             r"\baca-thirteen-b-flat",
@@ -436,7 +436,7 @@ def va(cache):
             staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
-        baca.multistage_glissando(o, "<C3 Aqs3>", hide_middle_stems=True)
+        baca.glissando(o, "<C3 Aqs3>", hide_middle_stems=True)
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(13, 22)) as o:
@@ -448,7 +448,7 @@ def va(cache):
         )
     for item in [(23, 28), (30, 35)]:
         with baca.scope(m.get(item)) as o:
-            baca.multistage_glissando(o, "<C3 Aqs3>")
+            baca.glissando(o, "<C3 Aqs3>")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(30, 35)) as o:
@@ -503,7 +503,7 @@ def va(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.multistage_glissando(o, "Ab3 Gb3")
+        baca.glissando(o, "Ab3 Gb3")
         baca.hairpin(
             baca.select.cmgroups(o),
             "p-- !>o!",
@@ -525,7 +525,7 @@ def vc(cache):
         baca.override.stem_transparent(o.pleaves())
         library.clouded_pane_spanner(o, "clouded pane -|", 8)
     with baca.scope(m.get(1, 22)) as o:
-        baca.multistage_glissando(o, "Bb1")
+        baca.glissando(o, "Bb1")
     with baca.scope(m.get(6, 8)) as o:
         baca.hairpin(o, "(fff)>p", rleak=True)
     with baca.scope(m.get(11, 12)) as o:
@@ -567,7 +567,7 @@ def vc(cache):
     for item in [(23, 28), (30, 35)]:
         with baca.scope(m.get(item)) as o:
             library.urtext_spanner(o, "urtext (field) -|", 8)
-            baca.multistage_glissando(o, "<B2 Gqs3>")
+            baca.glissando(o, "<B2 Gqs3>")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m[29]) as o:
@@ -601,7 +601,7 @@ def vc(cache):
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
-        baca.multistage_glissando(o, "B1")
+        baca.glissando(o, "B1")
         baca.hairpin(
             baca.select.cmgroups(o),
             "p-- !>o!",
