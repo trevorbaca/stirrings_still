@@ -787,7 +787,7 @@ def v1(cache):
     with baca.scope(m.get(52, 55)) as o:
         baca.glissando(
             o,
-            "D6:7 Ab5:7 B5:4 F5",
+            "D6/7 Ab5/7 B5/4 F5",
             rleak=True,
         )
     with baca.scope(m.get(50, 60)) as o:
@@ -1157,7 +1157,7 @@ def v2(cache, time_signatures):
         ),
         baca.glissando(
             o,
-            "Bb4:5 D5:5 C5:5 Eb5:5 D5:5 F5:5 Eb5:4 G5",
+            "Bb4/5 D5/5 C5/5 Eb5/5 D5/5 F5/5 Eb5/4 G5",
         )
     with baca.scope(m.get(18, 27)) as o:
         baca.rspanners.tasto(
@@ -1246,7 +1246,7 @@ def v2(cache, time_signatures):
     with baca.scope(m.get(52, 55)) as o:
         baca.glissando(
             o,
-            "D4:7 Fb4:7 Eb4:4 F#4",
+            "D4/7 Fb4/7 Eb4/4 F#4",
             rleak=True,
         )
     with baca.scope(m.get(56, 62)) as o:
@@ -1322,7 +1322,7 @@ def va(cache):
         baca.clef(o.leaf(0), "treble")
         baca.glissando(
             o,
-            "C5:5 Eb5:5 D5:2 Ftqs5",
+            "C5/5 Eb5/5 D5/2 Ftqs5",
         )
     for item in [(23, 25), 27]:
         with baca.scope(m.get(item)) as o:
@@ -1422,7 +1422,7 @@ def va(cache):
     with baca.scope(m.get(52, 55)) as o:
         baca.glissando(
             o,
-            "D3:7 Fb3:7 Eb3:2 F3",
+            "D3/7 Fb3/7 Eb3/2 F3",
             rleak=True,
         )
     with baca.scope(m.get(56, 62)) as o:
@@ -1532,7 +1532,7 @@ def vc(cache):
         baca.tie(o.lleaf(0))
         baca.glissando(
             baca.select.lleak(o),
-            "Bb4:5 D5:5 C5:5 Eb5:5 D5 D5:5 Fqs5",
+            "Bb4/5 D5/5 C5/5 Eb5/5 D5 D5/5 Fqs5",
         )
     with baca.scope(m.get(20, 30)) as o:
         baca.override.tuplet_bracket_staff_padding(o, 2)
@@ -1620,7 +1620,7 @@ def vc(cache):
     with baca.scope(m.get(52, 55)) as o:
         baca.glissando(
             o,
-            "D2:7 Fb2:7 Eb2:2 F2",
+            "D2/7 Fb2/7 Eb2/2 F2",
             rleak=True,
         )
     with baca.scope(m.get(56, 62)) as o:

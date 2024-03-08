@@ -451,7 +451,7 @@ def v1(cache):
     with baca.scope(m.get(10, 13)) as o:
         baca.glissando(
             o,
-            "Ab4:2 C5 B4:5 Db5:2 C5 Eb5",
+            "Ab4/2 C5 B4/5 Db5/2 C5 Eb5",
             rleak=True,
         )
     with baca.scope(m.get(10, 24)) as o:
@@ -484,7 +484,7 @@ def v1(cache):
     with baca.scope(m.get(28, 30)) as o:
         baca.glissando(
             o,
-            "Ab4:3 C5:2 B4:2 Db5:2 C5 E5",
+            "Ab4/3 C5/2 B4/2 Db5/2 C5 E5",
             rleak=True,
         )
     with baca.scope(m.get(28, 40)) as o:
@@ -517,7 +517,7 @@ def v1(cache):
     with baca.scope(m.get(43, 45)) as o:
         baca.glissando(
             o,
-            "Ab4:2 Db5:2 B4:3 Eb5:2 Cb5 F5",
+            "Ab4/2 Db5/2 B4/3 Eb5/2 Cb5 F5",
             rleak=True,
         )
     with baca.scope(m.get(43, 52)) as o:
@@ -550,7 +550,7 @@ def v1(cache):
     with baca.scope(m.get(55, 56)) as o:
         baca.glissando(
             o,
-            "Ab4 Eb5 Db5:2 E5 D5 Gb5",
+            "Ab4 Eb5 Db5/2 E5 D5 Gb5",
             rleak=True,
         )
     with baca.scope(m.get(55, 62)) as o:
@@ -583,7 +583,7 @@ def v1(cache):
     with baca.scope(m[64]) as o:
         baca.glissando(
             o,
-            "Ab4:2 E5 D5 G5",
+            "Ab4/2 E5 D5 G5",
             rleak=True,
         )
     with baca.scope(m.get(64, 68)) as o:
@@ -869,7 +869,7 @@ def va(cache):
     with baca.scope(m.get(10, 13)) as o:
         baca.glissando(
             o,
-            "Ab3:5 F3:5 Gb3 E3",
+            "Ab3/5 F3/5 Gb3 E3",
             rleak=True,
         )
     with baca.scope(m.get(10, 21)) as o:
@@ -902,7 +902,7 @@ def va(cache):
     with baca.scope(m.get(28, 30)) as o:
         baca.glissando(
             o,
-            "Ab3:4 F3:6 Gb3 Eb3",
+            "Ab3/4 F3/6 Gb3 Eb3",
             rleak=True,
         )
     with baca.scope(m.get(28, 37)) as o:
@@ -935,7 +935,7 @@ def va(cache):
     with baca.scope(m.get(43, 45)) as o:
         baca.glissando(
             o,
-            "Ab3:3 D3:6 Eb3 C3",
+            "Ab3/3 D3/6 Eb3 C3",
             rleak=True,
         )
     with baca.scope(m.get(43, 50)) as o:
@@ -968,7 +968,7 @@ def va(cache):
     with baca.scope(m.get(55, 56)) as o:
         baca.glissando(
             o,
-            "Ab3:2 Db3:4 F3 B2",
+            "Ab3/2 Db3/4 F3 B2",
             rleak=True,
         )
     with baca.scope(m.get(55, 60)) as o:
@@ -1079,7 +1079,7 @@ def vc(cache):
     with baca.scope(m.get(10, 13)) as o:
         baca.glissando(
             o,
-            "Ab3:2 F3 G3:5 Eb3:2 Gb3 D3",
+            "Ab3/2 F3 G3/5 Eb3/2 Gb3 D3",
             rleak=True,
         )
     with baca.scope(m.get(10, 21)) as o:
@@ -1115,7 +1115,7 @@ def vc(cache):
     with baca.scope(m.get(28, 30)) as o:
         baca.glissando(
             o,
-            "Ab3:3 F3:2 G3:3 Eb3:4 Gb3 Db3",
+            "Ab3/3 F3/2 G3/3 Eb3/4 Gb3 Db3",
             rleak=True,
         )
     with baca.scope(m.get(28, 37)) as o:
@@ -1152,7 +1152,7 @@ def vc(cache):
     with baca.scope(m.get(43, 45)) as o:
         baca.glissando(
             o,
-            "Ab3:3 E3 Gb3:2 D3:3 Eb3 B2",
+            "Ab3/3 E3 Gb3/2 D3/3 Eb3 B2",
             rleak=True,
         )
     with baca.scope(m.get(43, 50)) as o:
@@ -1189,7 +1189,7 @@ def vc(cache):
     with baca.scope(m.get(55, 56)) as o:
         baca.glissando(
             o,
-            "Ab3:2 F3 Gb3:2 D3:2 E3 Bb2",
+            "Ab3/2 F3 Gb3/2 D3/2 E3 Bb2",
             rleak=True,
         )
     with baca.scope(m.get(55, 60)) as o:
@@ -1230,7 +1230,7 @@ def vc(cache):
     with baca.scope(m[64]) as o:
         baca.glissando(
             o,
-            "Ab3:2 D3:2 Eb3 A2",
+            "Ab3/2 D3/2 Eb3 A2",
             rleak=True,
         )
     with baca.scope(m.get(64, 67)) as o:
