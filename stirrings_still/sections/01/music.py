@@ -571,7 +571,7 @@ def v1(cache):
         with baca.scope(m.get(item)) as o:
             baca.glissando(o, "B4")
     with baca.scope(m[27]) as o:
-        baca.pitch(o, "<F4 A4>")
+        baca.pitch(o, "F4:A4")
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m[27]) as o:
@@ -863,7 +863,7 @@ def v2(cache):
         with baca.scope(m.get(item)) as o:
             baca.glissando(o, "Db4")
     with baca.scope(m[27]) as o:
-        baca.pitch(o, "<E4 G#4>")
+        baca.pitch(o, "E4:G#4")
         cache.rebuild()
         m = cache["v2"]
     with baca.scope(m[27]) as o:
@@ -932,7 +932,7 @@ def va(cache):
         with baca.scope(m.get(item)) as o:
             baca.glissando(o, "A3")
     with baca.scope(m[27]) as o:
-        baca.pitch(o, "<Aqf3 C#4>")
+        baca.pitch(o, "Aqf3:C#4")
         cache.rebuild()
         m = cache["va"]
     with baca.scope(m[27]) as o:

@@ -471,7 +471,7 @@ def VC(voice, time_signatures):
 def v1(cache):
     m = cache["v1"]
     with baca.scope(m[5]) as o:
-        baca.pitch(o, "<F4 A4>")
+        baca.pitch(o, "F4:A4")
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m[5]) as o:
@@ -531,7 +531,7 @@ def v2(cache):
     m = cache["v2"]
     with baca.scope(m[5]) as o:
         baca.dynamic(o.phead(0), "mp")
-        baca.pitch(o, "<E4 G#4>")
+        baca.pitch(o, "E4:G#4")
         cache.rebuild()
         m = cache["v2"]
     with baca.scope(m[5]) as o:
@@ -579,7 +579,7 @@ def v2(cache):
 def va(cache):
     m = cache["va"]
     with baca.scope(m[5]) as o:
-        baca.pitch(o, "<Aqf3 C#4>")
+        baca.pitch(o, "Aqf3:C#4")
         cache.rebuild()
         m = cache["va"]
     with baca.scope(m[5]) as o:

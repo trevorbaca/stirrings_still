@@ -797,11 +797,11 @@ def v1_v2_va(cache):
             baca.override.tuplet_bracket_down(o)
         with baca.scope(m[52]) as o:
             if name == "v1":
-                baca.pitch(o, "<F4 A4>")
+                baca.pitch(o, "F4:A4")
             elif name == "v2":
-                baca.pitch(o, "<E4 G#4>")
+                baca.pitch(o, "E4:G#4")
             elif name == "va":
-                baca.pitch(o, "<Aqf3 C#4>")
+                baca.pitch(o, "Aqf3:C#4")
             cache.rebuild()
             m = cache[name]
         with baca.scope(m[52]) as o:
@@ -819,11 +819,11 @@ def v1_v2_va(cache):
             baca.dynamic(o.phead(0), "mp")
         with baca.scope(m[55]) as o:
             if name == "v1":
-                baca.pitch(o, "<F4 A4>")
+                baca.pitch(o, "F4:A4")
             elif name == "v2":
-                baca.pitch(o, "<E4 G#4>")
+                baca.pitch(o, "E4:G#4")
             elif name == "va":
-                baca.pitch(o, "<Aqf3 C#4>")
+                baca.pitch(o, "Aqf3:C#4")
             cache.rebuild()
             m = cache[name]
         with baca.scope(m[55]) as o:
