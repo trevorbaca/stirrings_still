@@ -122,14 +122,14 @@ def v1(cache):
     with baca.scope(m.get(1, 2)) as o:
         baca.glissando(
             o,
-            "<F4 A4>",
+            "F4:A4",
             hide_middle_stems=True,
             left_broken=True,
         )
     with baca.scope(m.get(5, 11)) as o:
         baca.glissando(
             o,
-            "<F4 A4>",
+            "F4:A4",
             hide_middle_stems=True,
         )
     cache.rebuild()
@@ -189,9 +189,9 @@ def v1_va_vc(cache):
         m = cache[name]
         with baca.scope(m.get(3, 4)) as o:
             if name == "v1":
-                baca.glissando(o, "<F#4 Dqf5>")
+                baca.glissando(o, "F#4:Dqf5")
             elif name == "va":
-                baca.glissando(o, "<B2 Aqs3>")
+                baca.glissando(o, "B2:Aqs3")
             elif name == "vc":
                 baca.glissando(o, "E2")
             cache.rebuild()
@@ -250,14 +250,14 @@ def v2(cache):
     with baca.scope(m.get(1, 2)) as o:
         baca.glissando(
             o,
-            "<E4 G#4>",
+            "E4:G#4",
             hide_middle_stems=True,
             left_broken=True,
         )
     with baca.scope(m.get(5, 11)) as o:
         baca.glissando(
             o,
-            "<E4 G#4>",
+            "E4:G#4",
             hide_middle_stems=True,
         )
     cache.rebuild()
@@ -293,14 +293,14 @@ def va(cache):
     with baca.scope(m.get(1, 2)) as o:
         baca.glissando(
             o,
-            "<Eqs4 Gtqs4>",
+            "Eqs4:Gtqs4",
             hide_middle_stems=True,
             left_broken=True,
         )
     with baca.scope(m.get(5, 11)) as o:
         baca.glissando(
             o,
-            "<Eqs4 Gtqs4>",
+            "Eqs4:Gtqs4",
             hide_middle_stems=True,
         )
     cache.rebuild()

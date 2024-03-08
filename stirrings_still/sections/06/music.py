@@ -101,7 +101,7 @@ def VC(voice, time_signatures):
 def v1(cache):
     m = cache["v1"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.glissando(o, "<F5 Bqs5>", hide_middle_stems=True)
+        baca.glissando(o, "F5:Bqs5", hide_middle_stems=True)
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m.get(1, 8)) as o:
@@ -125,7 +125,7 @@ def v1(cache):
 def v2(cache):
     m = cache["v2"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.glissando(o, "<G4 Dqs5>", hide_middle_stems=True)
+        baca.glissando(o, "G4:Dqs5", hide_middle_stems=True)
         cache.rebuild()
         m = cache["v2"]
     with baca.scope(m.get(1, 8)) as o:

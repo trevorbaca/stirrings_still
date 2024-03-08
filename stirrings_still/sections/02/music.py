@@ -740,10 +740,10 @@ def v1(cache):
                     baca.override.tacet(o.mmrests())
     m = cache["v1"]
     with baca.scope(m[26]) as o:
-        baca.glissando(o.pleaves()[:2], "<E4 C5>")
+        baca.glissando(o.pleaves()[:2], "E4:C5")
         baca.glissando(
             o.pleaves()[2:],
-            "<E4 Cqs5>",
+            "E4:Cqs5",
             hide_middle_stems=True,
         )
         cache.rebuild()
@@ -875,21 +875,21 @@ def v1_v2_va(cache):
                     r"\stirrings-still-seven-plus-nine-of-e-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.glissando(o, "<F#4 Dqf5>")
+                baca.glissando(o, "F#4:Dqf5")
             elif name == "v2":
                 baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-five-plus-thirteen-of-e-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.glissando(o, "<Cqs4 Ab4>")
+                baca.glissando(o, "Cqs4:Ab4")
             elif name == "va":
                 baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-eleven-plus-three-of-e-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.glissando(o, "<B2 Aqs3>")
+                baca.glissando(o, "B2:Aqs3")
             cache.rebuild()
             m = cache[name]
 
@@ -1167,11 +1167,11 @@ def v2(cache, time_signatures):
     with baca.scope(m[26]) as o:
         baca.glissando(
             o.pleaves()[:2],
-            "<Eb4 B4>",
+            "Eb4:B4",
         )
         baca.glissando(
             o.pleaves()[2:],
-            "<Eqf4 C5>",
+            "Eqf4:C5",
             hide_middle_stems=True,
         )
         cache.rebuild()
@@ -1346,11 +1346,11 @@ def va(cache):
     with baca.scope(m[26]) as o:
         baca.glissando(
             o.pleaves()[:2],
-            "<D4 Gqs4>",
+            "D4:Gqs4",
         )
         baca.glissando(
             o.pleaves()[2:],
-            "<C#4 Gqs4>",
+            "C#4:Gqs4",
             hide_middle_stems=True,
         )
         cache.rebuild()

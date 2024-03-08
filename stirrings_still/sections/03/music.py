@@ -488,7 +488,7 @@ def v1(cache):
     with baca.scope(m.get(24, 27)) as o:
         baca.glissando(o, "Bqf5")
     with baca.scope(m.get(28, 29)) as o:
-        baca.glissando(o, "<F#4 Dqf5>")
+        baca.glissando(o, "F#4:Dqf5")
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m.get(28, 29)) as o:
@@ -600,7 +600,7 @@ def va(cache):
     with baca.scope(m.get(24, 27)) as o:
         baca.glissando(o, "Bqf3")
     with baca.scope(m.get(28, 29)) as o:
-        baca.glissando(o, "<B2 Aqs3>")
+        baca.glissando(o, "B2:Aqs3")
         cache.rebuild()
         m = cache["va"]
     with baca.scope(m.get(28, 29)) as o:
@@ -657,11 +657,11 @@ def v1_v2_va(cache):
             baca.override.tacet(o.mmrests())
         with baca.scope(m.get(60, 61)) as o:
             if name == "v1":
-                string = "<F4 A4>"
+                string = "F4:A4"
             elif name == "v2":
-                string = "<E4 G#4>"
+                string = "E4:G#4"
             elif name == "va":
-                string = "<Eqs4 Gtqs4>"
+                string = "Eqs4:Gtqs4"
             baca.glissando(o, string, hide_middle_stems=True)
             cache.rebuild()
             m = cache[name]
