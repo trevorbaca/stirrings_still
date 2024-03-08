@@ -324,7 +324,7 @@ def v1(cache):
         )
     for n in [1, 3, 7, 9, 11, 14]:
         with baca.scope(m[n]) as o:
-            baca.pitch(o, "<F4 A4>")
+            baca.pitch(o, "F4:A4")
             cache.rebuild()
             m = cache["v1"]
         with baca.scope(m[n]) as o:
@@ -476,7 +476,7 @@ def v2(cache):
         )
     for n in [1, 3, 7, 9, 11, 14]:
         with baca.scope(m[n]) as o:
-            baca.pitch(o, "<E4 G#4>")
+            baca.pitch(o, "E4:G#4")
             cache.rebuild()
             m = cache["v2"]
         with baca.scope(m[n]) as o:
@@ -515,7 +515,7 @@ def va(cache):
         )
     for n in [1, 3, 7, 9, 11, 14]:
         with baca.scope(m[n]) as o:
-            baca.pitch(o, "<Aqf3 C#4>")
+            baca.pitch(o, "Aqf3:C#4")
             cache.rebuild()
             m = cache["va"]
         with baca.scope(m[n]) as o:

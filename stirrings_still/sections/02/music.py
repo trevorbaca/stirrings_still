@@ -779,7 +779,7 @@ def v1(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
             direction=abjad.DOWN,
         )
-        baca.pitch(o, "<F#4 Dqf5>")
+        baca.pitch(o, "F#4:Dqf5")
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m.get(50, 51)) as o:
@@ -1218,7 +1218,7 @@ def v2(cache, time_signatures):
     with baca.scope(m[46]) as o:
         baca.glissando(o, "D4")
     with baca.scope(m[48]) as o:
-        baca.pitch(o, "<Cqs4 Ab4>")
+        baca.pitch(o, "Cqs4:Ab4")
         cache.rebuild()
         m = cache["v2"]
     with baca.scope(m[48]) as o:
@@ -1394,7 +1394,7 @@ def va(cache):
     with baca.scope(m[46]) as o:
         baca.glissando(o, "D3")
     with baca.scope(m[48]) as o:
-        baca.pitch(o, "<B2 Aqs3>")
+        baca.pitch(o, "B2:Aqs3")
         cache.rebuild()
         m = cache["va"]
     with baca.scope(m[48]) as o:
