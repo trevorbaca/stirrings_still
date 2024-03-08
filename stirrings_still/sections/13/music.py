@@ -203,13 +203,13 @@ def v1(cache):
                 r"\stirrings-still-twelve-et-markup",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
             )
-            baca.glissando(o, "<D#4 A4>")
+            baca.glissando(o, "D#4:A4")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(13, 16)) as o:
         baca.glissando(o.rleaves(), "D6", hide_middle_stems=True)
     with baca.scope(m.get(17, 20)) as o:
-        baca.glissando(o.leaves()[1:], "<D#4 A4>")
+        baca.glissando(o.leaves()[1:], "D#4:A4")
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
@@ -327,7 +327,7 @@ def v2(cache):
                 r"\stirrings-still-twelve-et-markup",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
             )
-            baca.glissando(o, "<Dqs4 Gtqs4>")
+            baca.glissando(o, "Dqs4:Gtqs4")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(13, 16)) as o:
@@ -335,7 +335,7 @@ def v2(cache):
     with baca.scope(m.get(17, 20)) as o:
         baca.glissando(
             o.leaves()[1:],
-            "<Dqs4 Gtqs4>",
+            "Dqs4:Gtqs4",
         )
         cache.rebuild()
         m = cache[name]
@@ -403,13 +403,13 @@ def va(cache):
                 r"\stirrings-still-twelve-et-markup",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
             )
-            baca.glissando(o, "<D4 G#4>")
+            baca.glissando(o, "D4:G#4")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(13, 16)) as o:
         baca.glissando(o.rleaves(), "Aqf4", hide_middle_stems=True)
     with baca.scope(m.get(17, 20)) as o:
-        baca.glissando(o.leaves()[1:], "<D4 G#4>")
+        baca.glissando(o.leaves()[1:], "D4:G#4")
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:

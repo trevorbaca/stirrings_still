@@ -606,7 +606,7 @@ def v1(cache):
         library.flight_spanner(o, "flight -|", 8)
     for item in [(79, 80), (82, 85), (87, 88), (109, 110), (112, 119)]:
         with baca.scope(m.get(item)) as o:
-            baca.glissando(o, "<Dqs5 G#5>")
+            baca.glissando(o, "Dqs5:G#5")
     cache.rebuild()
     m = cache["v1"]
     with baca.scope(m.get(89, 96)) as o:
@@ -740,31 +740,31 @@ def v1_v2_va(cache):
             if name == "v1":
                 baca.glissando(
                     o.pleaves()[:2],
-                    "<E4 C5>",
+                    "E4:C5",
                 )
                 baca.glissando(
                     o.pleaves()[2:],
-                    "<E4 Cqs5>",
+                    "E4:Cqs5",
                     hide_middle_stems=True,
                 )
             elif name == "v2":
                 baca.glissando(
                     o.pleaves()[:2],
-                    "<Eb4 B4>",
+                    "Eb4:B4",
                 )
                 baca.glissando(
                     o.pleaves()[2:],
-                    "<Eqf4 C5>",
+                    "Eqf4:C5",
                     hide_middle_stems=True,
                 )
             elif name == "va":
                 baca.glissando(
                     o.pleaves()[:2],
-                    "<D4 Gqs4>",
+                    "D4:Gqs4",
                 )
                 baca.glissando(
                     o.pleaves()[2:],
-                    "<C#4 Gqs4>",
+                    "C#4:Gqs4",
                     hide_middle_stems=True,
                 )
             cache.rebuild()
@@ -1004,7 +1004,7 @@ def v2(cache):
         library.flight_spanner(o, "flight -|", 8)
     for item in [(78, 80), (82, 85), (87, 88), (109, 110), (112, 119)]:
         with baca.scope(m.get(item)) as o:
-            baca.glissando(o, "<E5 Aqs5>")
+            baca.glissando(o, "E5:Aqs5")
     cache.rebuild()
     m = cache["v2"]
     with baca.scope(m.get(87, 100)) as o:
@@ -1135,7 +1135,7 @@ def va(cache):
         library.flight_spanner(o, "flight -|", 8)
     for item in [(77, 80), (82, 85), (87, 88), (109, 110), (112, 119)]:
         with baca.scope(m.get(item)) as o:
-            baca.glissando(o, "<D5 Fqs5>")
+            baca.glissando(o, "D5:Fqs5")
     cache.rebuild()
     m = cache["va"]
     with baca.scope(m.get(87, 96)) as o:

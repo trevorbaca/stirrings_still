@@ -200,12 +200,12 @@ def v1(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         baca.breathe(o.pleaf(-1))
-        baca.glissando(o, "<A3 Fqs4>", hide_middle_stems=True)
+        baca.glissando(o, "A3:Fqs4", hide_middle_stems=True)
         cache.rebuild()
         m = cache[name]
     for item in [(23, 28), (30, 35)]:
         with baca.scope(m.get(item)) as o:
-            baca.glissando(o, "<A3 Fqs4>")
+            baca.glissando(o, "A3:Fqs4")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(30, 35)) as o:
@@ -333,7 +333,7 @@ def v2(cache):
             staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
-        baca.glissando(o, "<F#3 Dqs4>", hide_middle_stems=True)
+        baca.glissando(o, "F#3:Dqs4", hide_middle_stems=True)
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(13, 22)) as o:
@@ -345,7 +345,7 @@ def v2(cache):
         )
     for item in [(23, 28), (30, 35)]:
         with baca.scope(m.get(item)) as o:
-            baca.glissando(o, "<F#3 Dqs4>")
+            baca.glissando(o, "F#3:Dqs4")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(30, 35)) as o:
@@ -436,7 +436,7 @@ def va(cache):
             staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
-        baca.glissando(o, "<C3 Aqs3>", hide_middle_stems=True)
+        baca.glissando(o, "C3:Aqs3", hide_middle_stems=True)
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(13, 22)) as o:
@@ -448,7 +448,7 @@ def va(cache):
         )
     for item in [(23, 28), (30, 35)]:
         with baca.scope(m.get(item)) as o:
-            baca.glissando(o, "<C3 Aqs3>")
+            baca.glissando(o, "C3:Aqs3")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m.get(30, 35)) as o:
@@ -567,7 +567,7 @@ def vc(cache):
     for item in [(23, 28), (30, 35)]:
         with baca.scope(m.get(item)) as o:
             library.urtext_spanner(o, "urtext (field) -|", 8)
-            baca.glissando(o, "<B2 Gqs3>")
+            baca.glissando(o, "B2:Gqs3")
     cache.rebuild()
     m = cache[name]
     with baca.scope(m[29]) as o:

@@ -103,7 +103,7 @@ def v1(cache):
         )
         baca.glissando(
             o,
-            "<F4 A4>",
+            "F4:A4",
             hide_middle_stems=True,
             right_broken=True,
         )
@@ -164,7 +164,7 @@ def v2(cache):
         )
         baca.glissando(
             o,
-            "<E4 G#4>",
+            "E4:G#4",
             hide_middle_stems=True,
             right_broken=True,
         )
@@ -202,7 +202,7 @@ def va(cache):
         )
         baca.glissando(
             o,
-            "<Eqs4 Gtqs4>",
+            "Eqs4:Gtqs4",
             hide_middle_stems=True,
             right_broken=True,
         )

@@ -894,9 +894,9 @@ def v1_va_vc(cache):
             baca.breathe(o.pleaf(-1))
         with baca.scope(m.get(33, 34)) as o:
             if name == "v1":
-                baca.glissando(o, "<F#4 Dqf5>")
+                baca.glissando(o, "F#4:Dqf5")
             elif name == "va":
-                baca.glissando(o, "<B2 Aqs3>")
+                baca.glissando(o, "B2:Aqs3")
             elif name == "vc":
                 baca.glissando(o, "E2")
             cache.rebuild()
@@ -932,9 +932,9 @@ def v1_va_vc(cache):
             library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
         with baca.scope(m.get(53, 54)) as o:
             if name == "v1":
-                baca.glissando(o, "<F#4 Dqf5>")
+                baca.glissando(o, "F#4:Dqf5")
             elif name == "va":
-                baca.glissando(o, "<B2 Aqs3>")
+                baca.glissando(o, "B2:Aqs3")
             elif name == "vc":
                 baca.glissando(o, "E2")
             cache.rebuild()

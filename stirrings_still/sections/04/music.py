@@ -557,9 +557,9 @@ def v1_v2_va(cache):
             with baca.scope(m[item]) as o:
                 baca.repeat_tie(o.pleaf(-1))
                 start, stop = {
-                    "v1": ("<E4 C5>", "<E4 Cqs5>"),
-                    "v2": ("<Eb4 B4>", "<Eqf4 C5>"),
-                    "va": ("<D4 Gqs4>", "<C#4 Gqs4>"),
+                    "v1": ("E4:C5", "E4:Cqs5"),
+                    "v2": ("Eb4:B4", "Eqf4:C5"),
+                    "va": ("D4:Gqs4", "C#4:Gqs4"),
                 }[name]
                 baca.glissando(o.pleaves()[:2], start)
                 baca.glissando(o.pleaves()[2:], stop, hide_middle_stems=True)
@@ -904,7 +904,7 @@ def v1_stage_2(cache):
     m = cache["v1"]
     for item in [65, (67, 89)]:
         with baca.scope(m.get(item)) as o:
-            baca.glissando(o, "<F#4 Dqf5>")
+            baca.glissando(o, "F#4:Dqf5")
             cache.rebuild()
             m = cache["v1"]
         with baca.scope(m.get(item)) as o:
@@ -922,7 +922,7 @@ def v1_stage_2(cache):
         )
     for item in [(90, 92), (94, 96)]:
         with baca.scope(m.get(item)) as o:
-            baca.glissando(o, "<Etqf4 C5>", allow_repitch=True)
+            baca.glissando(o, "Etqf4:C5", allow_repitch=True)
             cache.rebuild()
             m = cache["v1"]
 
@@ -951,7 +951,7 @@ def v2_stage_2(cache):
                 r"\stirrings-still-five-plus-thirteen-of-e-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
             )
-            baca.glissando(o, "<Cqs4 Ab4>")
+            baca.glissando(o, "Cqs4:Ab4")
             cache.rebuild()
             m = cache["v2"]
     with baca.scope(m.get(90, 92)) as o:
@@ -963,7 +963,7 @@ def v2_stage_2(cache):
         )
     for item in [(90, 92), (94, 96)]:
         with baca.scope(m.get(item)) as o:
-            baca.glissando(o, "<Bqf3 G4>", allow_repitch=True)
+            baca.glissando(o, "Bqf3:G4", allow_repitch=True)
             cache.rebuild()
             m = cache["v2"]
 
@@ -977,7 +977,7 @@ def va_stage_2(cache):
                 r"\stirrings-still-eleven-plus-three-of-e-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
             )
-            baca.glissando(o, "<B2 Aqs3>")
+            baca.glissando(o, "B2:Aqs3")
             cache.rebuild()
             m = cache["va"]
     with baca.scope(m.get(94, 96)) as o:

@@ -545,11 +545,11 @@ def v1(cache):
         with baca.scope(m.get(item)) as o:
             baca.glissando(
                 o.pleaves()[:2],
-                "<E4 C5>",
+                "E4:C5",
             )
             baca.glissando(
                 o.pleaves()[2:],
-                "<E4 Cqs5>",
+                "E4:Cqs5",
                 hide_middle_stems=True,
             )
             cache.rebuild()
@@ -558,11 +558,11 @@ def v1(cache):
         with baca.scope(m[n]) as o:
             baca.glissando(
                 o.pleaves()[:2],
-                "<C#4 A4>",
+                "C#4:A4",
             )
             baca.glissando(
                 o.pleaves()[2:],
-                "<C#4 Aqs4>",
+                "C#4:Aqs4",
                 hide_middle_stems=True,
             )
             cache.rebuild()
@@ -841,20 +841,20 @@ def v2(cache):
         baca.override.tuplet_bracket_down(o.leaves())
     for item in [1, 3, (5, 6), (8, 9), (11, 16), 60]:
         with baca.scope(m.get(item)) as o:
-            baca.glissando(o.pleaves()[:2], "<Eb4 B4>")
+            baca.glissando(o.pleaves()[:2], "Eb4:B4")
             baca.glissando(
                 o.pleaves()[2:],
-                "<Eqf4 C5>",
+                "Eqf4:C5",
                 hide_middle_stems=True,
             )
     cache.rebuild()
     m = cache["v2"]
     for item in [18, 20, 22, 25, 29]:
         with baca.scope(m.get(item)) as o:
-            baca.glissando(o.pleaves()[:2], "<C4 G#4>")
+            baca.glissando(o.pleaves()[:2], "C4:G#4")
             baca.glissando(
                 o.pleaves()[2:],
-                "<Cqs4 A4>",
+                "Cqs4:A4",
                 hide_middle_stems=True,
             )
     cache.rebuild()
@@ -912,20 +912,20 @@ def va(cache):
         baca.override.tuplet_bracket_down(o.leaves())
     for item in [1, 3, (5, 6), (8, 9), (11, 16), 60]:
         with baca.scope(m.get(item)) as o:
-            baca.glissando(o.pleaves()[:2], "<D4 Gqs4>")
+            baca.glissando(o.pleaves()[:2], "D4:Gqs4")
             baca.glissando(
                 o.pleaves()[2:],
-                "<C#4 Gqs4>",
+                "C#4:Gqs4",
                 hide_middle_stems=True,
             )
     cache.rebuild()
     m = cache["va"]
     for item in [18, 20, 22, 25, 29]:
         with baca.scope(m.get(item)) as o:
-            baca.glissando(o.pleaves()[:2], "<B3 Eqs4>")
+            baca.glissando(o.pleaves()[:2], "B3:Eqs4")
             baca.glissando(
                 o.pleaves()[2:],
-                "<A#3 Eqs4>",
+                "A#3:Eqs4",
                 hide_middle_stems=True,
             )
     for item in [23, 26, (30, 45)]:
