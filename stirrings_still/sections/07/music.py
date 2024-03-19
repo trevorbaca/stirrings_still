@@ -340,7 +340,7 @@ def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.override.tuplet_bracket_down(o.leaves())
+            baca.override.tuplet_bracket_direction_down(o.leaves())
         with baca.scope(m.get(5, 6)) as o:
             if name == "v1":
                 baca.glissando(o, "F4:A4", hide_middle_stems=True)
@@ -400,7 +400,7 @@ def tutti(cache):
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
-            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_direction_down(o)
             library.urtext_spanner(o, "urtext (ds) -|", 8)
         with baca.scope(m[18]) as o:
             baca.override.dynamic_text_extra_offset(abjad.select.leaf(o, 0), (-5, 0))
@@ -458,7 +458,7 @@ def v1_va_vc(cache):
                 )
                 library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
             elif name == "vc":
-                baca.override.tuplet_bracket_down(o)
+                baca.override.tuplet_bracket_direction_down(o)
                 library.clouded_pane_spanner(
                     o,
                     "clouded pane (beacon) -|",

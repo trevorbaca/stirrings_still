@@ -75,7 +75,7 @@ def v1(cache):
             baca.select.ltleaves(o),
             staff_padding=8 + 6,
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -8, clt=True, staff_padding=8)
         baca.glissando(o, "A6", left_broken=True)
     with baca.scope(m.get(5, 8)) as o:
@@ -91,7 +91,7 @@ def v2(cache):
             baca.select.ltleaves(o),
             staff_padding=4.5 + 6,
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -9, clt=True, staff_padding=4.5)
         baca.glissando(o, "Ab5", left_broken=True)
     with baca.scope(m.get(5, 8)) as o:

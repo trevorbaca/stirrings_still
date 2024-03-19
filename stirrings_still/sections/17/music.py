@@ -460,7 +460,7 @@ def v1(cache):
             baca.select.mgroups(o.rleaves(), [4, 4, 7 + 1]),
             'o< fff-- "fff">o!',
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -8, clt=True, staff_padding=3.5)
     with baca.scope(m.get(14, 24)) as o:
         baca.glissando(o, "Eb5")
@@ -493,7 +493,7 @@ def v1(cache):
             baca.select.mgroups(o.rleaves(), [3, 4, 6 + 1]),
             'o< ff-- "ff">o!',
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -8, clt=True, staff_padding=3.5)
     with baca.scope(m.get(31, 40)) as o:
         baca.glissando(o, "E5")
@@ -526,7 +526,7 @@ def v1(cache):
             baca.select.mgroups(o.rleaves(), [3, 2, 5 + 1]),
             'o< f-- "f">o!',
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -8, clt=True, staff_padding=3.5)
     with baca.scope(m.get(46, 52)) as o:
         baca.glissando(o, "F5")
@@ -559,7 +559,7 @@ def v1(cache):
             baca.select.mgroups(o.rleaves(), [2, 2, 4 + 1]),
             'o< mf-- "mf">o!',
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -8, clt=True, staff_padding=4.5)
     with baca.scope(m.get(57, 62)) as o:
         baca.glissando(o, "Gb5")
@@ -592,7 +592,7 @@ def v1(cache):
             baca.select.mgroups(o.rleaves(), [1, 1, 3 + 1]),
             "o< mp-- mp>o!",
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -8, clt=True, staff_padding=4.5)
     with baca.scope(m.get(64, 68)) as o:
         baca.rspanners.half_clt(
@@ -619,7 +619,7 @@ def v1(cache):
             baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
             "o< p>o!",
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -8, clt=True, staff_padding=4.5)
         baca.glissando(o, "Ab4 Ab5")
     with baca.scope(m[71]) as o:
@@ -637,7 +637,7 @@ def v1(cache):
             baca.select.ltleaves(o),
             staff_padding=14,
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -8, clt=True, staff_padding=8)
         baca.glissando(o, "A6", right_broken=True)
 
@@ -647,7 +647,7 @@ def tutti(cache):
         m = cache[name]
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 6)
-            baca.override.tuplet_bracket_down(o.leaves())
+            baca.override.tuplet_bracket_direction_down(o.leaves())
             baca.override.tuplet_bracket_staff_padding(o.leaves(), 1)
         with baca.scope(m[1]) as o:
             baca.hairpin(
@@ -689,7 +689,7 @@ def v2(cache):
             baca.select.mgroups(o.rleaves(), [4, 4 + 1]),
             'fff-- "fff">o!',
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
         baca.glissando(o, "Dqf5")
     with baca.scope(m.get(18, 21)) as o:
@@ -715,7 +715,7 @@ def v2(cache):
             baca.select.mgroups(o.rleaves(), [4, 3 + 1]),
             'ff-- "ff">o!',
         ),
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
         baca.glissando(o, "Dqs5")
     with baca.scope(m.get(35, 37)) as o:
@@ -741,7 +741,7 @@ def v2(cache):
             baca.select.mgroups(o.rleaves(), [2, 3 + 1]),
             'f-- "f">o!',
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
         baca.glissando(o, "Cqs5")
     with baca.scope(m.get(48, 50)) as o:
@@ -767,7 +767,7 @@ def v2(cache):
             baca.select.mgroups(o.rleaves(), [2, 2 + 1]),
             'mf-- "mf">o!',
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
         baca.glissando(o, "Eqs5")
     with baca.scope(m.get(59, 60)) as o:
@@ -797,7 +797,7 @@ def v2(cache):
             baca.select.mgroups(o.rleaves(), [1, 2 + 1]),
             "mp-- mp>o!",
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -7, clt=True, staff_padding=3.5)
         baca.glissando(o, "Fqs5")
     with baca.scope(m.get(66, 67)) as o:
@@ -824,7 +824,7 @@ def v2(cache):
             baca.select.ltleaves(o),
             staff_padding=4.5 + 6,
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -7, clt=True, staff_padding=4.5)
         baca.glissando(o, "G4")
     with baca.scope(m.get(73, 92)) as o:
@@ -837,7 +837,7 @@ def v2(cache):
             baca.select.ltleaves(o),
             staff_padding=4.5 + 6,
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -7, clt=True, staff_padding=4.5)
         baca.glissando(o, "Ab5", right_broken=True)
 
@@ -878,7 +878,7 @@ def va(cache):
             baca.select.mgroups(o.rleaves(), [4, 4, 4 + 1]),
             'o< fff-- "fff">o!',
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
     with baca.scope(m.get(14, 21)) as o:
         baca.glissando(o, "E3")
@@ -911,7 +911,7 @@ def va(cache):
             baca.select.mgroups(o.rleaves(), [3, 4, 3 + 1]),
             'o< ff-- "ff">o!',
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
     with baca.scope(m.get(31, 37)) as o:
         baca.glissando(o, "Eb3")
@@ -944,7 +944,7 @@ def va(cache):
             baca.select.mgroups(o, [3, 2, 3 + 1]),
             'o< f -- "f" >o !',
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
     with baca.scope(m.get(46, 50)) as o:
         baca.glissando(o, "C3")
@@ -977,7 +977,7 @@ def va(cache):
             baca.select.mgroups(o.rleaves(), [2, 2, 2 + 1]),
             'o< mf-- "mf">o!',
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
     with baca.scope(m.get(57, 60)) as o:
         baca.glissando(o, "B2")
@@ -1010,7 +1010,7 @@ def va(cache):
             baca.select.mgroups(o.rleaves(), [1, 1, 2 + 1]),
             "o< mp-- mp>o!",
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
     with baca.scope(m.get(65, 67)) as o:
         baca.glissando(o, "Gb3")
@@ -1037,7 +1037,7 @@ def va(cache):
             baca.select.mgroups(o.rleaves(), [1, 1 + 1]),
             "o< p>o!",
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -6, clt=True, staff_padding=3.5)
         baca.glissando(o, "Ab3 B2")
     with baca.scope(m[71]) as o:
@@ -1088,7 +1088,7 @@ def vc(cache):
             baca.select.mgroups(o.rleaves(), [4, 4, 4 + 1]),
             'o< fff-- "fff">o!',
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
     with baca.scope(m.get(14, 21)) as o:
         baca.glissando(o, "D3")
@@ -1125,7 +1125,7 @@ def vc(cache):
             'o< ff-- "ff">o!',
         )
         baca.override.dynamic_text_x_offset(o.leaf(-1), -3)
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
     with baca.scope(m.get(31, 37)) as o:
         baca.glissando(o, "Db3")
@@ -1162,7 +1162,7 @@ def vc(cache):
             'o< f-- "f">o!',
             rleak=True,
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
     with baca.scope(m.get(46, 50)) as o:
         baca.glissando(o, "B2")
@@ -1199,7 +1199,7 @@ def vc(cache):
             'o< mf-- "mf">o!',
             rleak=True,
         ),
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
     with baca.scope(m.get(57, 60)) as o:
         baca.glissando(o, "Bb2")
@@ -1240,7 +1240,7 @@ def vc(cache):
             "o< mp-- mp>o!",
             rleak=True,
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
     with baca.scope(m.get(65, 67)) as o:
         baca.glissando(o, "A2")
@@ -1271,7 +1271,7 @@ def vc(cache):
             "o< p>o!",
             rleak=True,
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -5, clt=True, staff_padding=3.5)
         baca.glissando(o, "Ab3 Ab2")
     with baca.scope(m[71]) as o:

@@ -644,7 +644,7 @@ def vc(cache):
             baca.select.ltleaves(o),
             staff_padding=10.5,
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -4, clt=True, staff_padding=3)
         baca.glissando(o, "Db2")
     for n in [52, 55]:
@@ -673,7 +673,7 @@ def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(1, 16)) as o:
-            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_direction_down(o)
             baca.override.tuplet_bracket_staff_padding(o, 1.5)
         with baca.scope(m.get(15, 16)) as o:
             baca.hairpin(o, "(p)>o!", rleak=True)
@@ -712,7 +712,7 @@ def v1_v2_va(cache):
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
                 baca.glissando(o.pleaves(), "C3")
-            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_direction_down(o)
         with baca.scope(m.get(30, 31)) as o:
             baca.hairpin(
                 o,
@@ -784,7 +784,7 @@ def v1_v2_va(cache):
                 do_not_bookend=True,
                 staff_padding=5.5,
             )
-            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_direction_down(o)
         with baca.scope(m[52]) as o:
             if name == "v1":
                 baca.pitch(o, "F4:A4")
@@ -918,7 +918,7 @@ def v1_va_vc(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 rleak=True,
             )
-            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_direction_down(o)
             library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
         with baca.scope(m.get(53, 54)) as o:
             if name == "v1":
@@ -1017,7 +1017,7 @@ def tutti(cache):
             )
             library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
         with baca.scope(m.get(52, 55)) as o:
-            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_direction_down(o)
 
 
 @baca.build.timed("make_score")

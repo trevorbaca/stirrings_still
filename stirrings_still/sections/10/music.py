@@ -180,7 +180,7 @@ def v1_v2_va(cache):
                 library.bcps(o, -6, clt=True, staff_padding=4)
             elif name == "va":
                 library.bcps(o, -5, clt=True, staff_padding=4)
-            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_direction_down(o)
             baca.override.tuplet_bracket_staff_padding(o, 1.5)
 
 
@@ -222,7 +222,7 @@ def v1_va_vc(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 rleak=True,
             )
-            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_direction_down(o)
             library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
 
 

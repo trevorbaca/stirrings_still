@@ -883,7 +883,7 @@ def tutti(cache):
         m = cache[name]
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 6)
-            baca.override.tuplet_bracket_down(o.leaves())
+            baca.override.tuplet_bracket_direction_down(o.leaves())
         with baca.scope(m.get(29, 30)) as o:
             baca.hairpin(
                 baca.select.mgroups(o, [1, 1]),
