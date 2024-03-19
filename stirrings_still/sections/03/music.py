@@ -640,10 +640,6 @@ def va(cache):
 
 
 def v1_v2_va(cache):
-    for name in ["v1r", "v2r", "var"]:
-        m = cache[name]
-        with baca.scope(m[34]) as o:
-            baca.override.tacet(o.mmrests())
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(1, 69)) as o:
@@ -653,8 +649,6 @@ def v1_v2_va(cache):
                 o,
                 staff_padding=5.5,
             )
-        with baca.scope(m[35]) as o:
-            baca.override.tacet(o.mmrests())
         with baca.scope(m.get(60, 61)) as o:
             if name == "v1":
                 string = "F4:A4"
@@ -927,10 +921,6 @@ def vc(cache):
         )
         for plt in abjad.select.get(baca.select.plts(o), [2], 3):
             baca.override.note_head_style_harmonic(plt)
-    with baca.scope(cache["vcr"][60]) as o:
-        baca.override.tacet(o.mmrests())
-    with baca.scope(m[61]) as o:
-        baca.override.tacet(o.mmrests())
     with baca.scope(m.get(71, 76)) as o:
         baca.override.tuplet_bracket_staff_padding(o, 0.5)
 

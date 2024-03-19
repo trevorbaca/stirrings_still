@@ -1643,8 +1643,6 @@ number.19.Violin.1.Music = {
     >>
 
     % [Violin.1.Music measure 17]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
     \stopStaff
@@ -1663,8 +1661,6 @@ number.19.Violin.1.Music = {
     R1 * 3/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
     % [Violin.1.Music measure 20]
     \stopStaff
@@ -2589,8 +2585,6 @@ number.19.Violin.2.Music = {
     >>
 
     % [Violin.2.Music measure 17]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
@@ -2607,8 +2601,6 @@ number.19.Violin.2.Music = {
     R1 * 3/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
     % [Violin.2.Music measure 20]
     \stopStaff
@@ -3245,8 +3237,6 @@ number.19.Cello.Music = {
     >>
 
     % [Cello.Music measure 17]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
       %! FERMATA_MEASURE_NEXT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
     \stopStaff
@@ -3265,8 +3255,6 @@ number.19.Cello.Music = {
     R1 * 3/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
     % [Cello.Music measure 20]
     \stopStaff

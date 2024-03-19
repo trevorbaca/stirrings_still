@@ -10133,8 +10133,6 @@ number.1.Cello.Music = {
         {
 
             % [Cello.Rests measure 1]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 8/16
@@ -10149,8 +10147,6 @@ number.1.Cello.Music = {
 
     % [Cello.Music measure 2]
     \override DynamicLineSpanner.staff-padding = 6
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     \override TupletBracket.direction = #down
     R1 * 1/4
       %! DURATION_MULTIPLIER
@@ -10210,8 +10206,6 @@ number.1.Cello.Music = {
     R1 * 16/16
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"16" #"16"
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
     % [Cello.Music measure 12]
     d,2
@@ -10600,8 +10594,6 @@ number.1.Cello.Music = {
         {
 
             % [Cello.Rests measure 41]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 14/16
@@ -10865,8 +10857,6 @@ number.1.Cello.Music = {
         {
 
             % [Cello.Rests measure 44]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 16/16
@@ -10880,8 +10870,6 @@ number.1.Cello.Music = {
     >>
 
     % [Cello.Music measure 45]
-      %! TACET_COLORING
-    \once \override MultiMeasureRest.color = #green
     R1 * 14/16
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"14" #"16"
@@ -11640,8 +11628,6 @@ number.1.Cello.Music = {
     >>
 
     % [Cello.Music measure 60]
-      %! TACET_COLORING
-    \once \override MultiMeasureRest.color = #green
     R1 * 12/16
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"12" #"16"

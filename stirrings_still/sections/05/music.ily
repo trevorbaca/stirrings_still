@@ -8961,8 +8961,6 @@ number.5.Violin.1.Music = {
         {
 
             % [Violin.1.Rests measure 120]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 8/8
@@ -8976,8 +8974,6 @@ number.5.Violin.1.Music = {
     >>
 
     % [Violin.1.Music measure 121]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 8/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"8" #"8"
@@ -9012,8 +9008,6 @@ number.5.Violin.1.Music = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"7" #"8"
     \revert DynamicLineSpanner.staff-padding
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
 }
 
@@ -13298,8 +13292,6 @@ number.5.Violin.2.Music = {
         {
 
             % [Violin.2.Rests measure 120]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 8/8
@@ -13313,8 +13305,6 @@ number.5.Violin.2.Music = {
     >>
 
     % [Violin.2.Music measure 121]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 8/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"8" #"8"
@@ -13349,8 +13339,6 @@ number.5.Violin.2.Music = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"7" #"8"
     \revert DynamicLineSpanner.staff-padding
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
 }
 
@@ -17408,8 +17396,6 @@ number.5.Viola.Music = {
         {
 
             % [Viola.Rests measure 120]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 8/8
@@ -17423,8 +17409,6 @@ number.5.Viola.Music = {
     >>
 
     % [Viola.Music measure 121]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 8/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"8" #"8"
@@ -17459,8 +17443,6 @@ number.5.Viola.Music = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"7" #"8"
     \revert DynamicLineSpanner.staff-padding
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
 }
 
@@ -17775,8 +17757,6 @@ number.5.Cello.Music = {
         {
 
             % [Cello.Rests measure 28]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 4/8
@@ -17790,8 +17770,6 @@ number.5.Cello.Music = {
     >>
 
     % [Cello.Music measure 29]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 5/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"5" #"8"
@@ -17850,8 +17828,6 @@ number.5.Cello.Music = {
     R1 * 7/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"7" #"8"
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
     % [Cello.Music measure 41]
     \stopStaff
@@ -19761,8 +19737,6 @@ number.5.Cello.Music = {
         {
 
             % [Cello.Rests measure 116]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 7/8
@@ -19776,8 +19750,6 @@ number.5.Cello.Music = {
     >>
 
     % [Cello.Music measure 117]
-      %! TACET_COLORING
-    \once \override MultiMeasureRest.color = #green
     R1 * 5/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"5" #"8"

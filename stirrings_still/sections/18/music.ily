@@ -1079,8 +1079,6 @@ number.18.Violin.1.Music = {
         {
 
             % [Violin.1.Rests measure 9]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 5/4
@@ -1094,8 +1092,6 @@ number.18.Violin.1.Music = {
     >>
 
     % [Violin.1.Music measure 10]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 6/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
@@ -1140,8 +1136,6 @@ number.18.Violin.1.Music = {
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
     \revert DynamicLineSpanner.staff-padding
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
 }
 
@@ -1669,8 +1663,6 @@ number.18.Violin.2.Music = {
         {
 
             % [Violin.2.Rests measure 9]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 5/4
@@ -1684,8 +1676,6 @@ number.18.Violin.2.Music = {
     >>
 
     % [Violin.2.Music measure 10]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 6/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
@@ -1728,8 +1718,6 @@ number.18.Violin.2.Music = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     \revert DynamicLineSpanner.staff-padding
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
 }
 
@@ -2034,8 +2022,6 @@ number.18.Cello.Music = {
         {
 
             % [Cello.Rests measure 13]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 4/4
@@ -2049,8 +2035,6 @@ number.18.Cello.Music = {
     >>
 
     % [Cello.Music measure 14]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 3/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
@@ -2075,8 +2059,6 @@ number.18.Cello.Music = {
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
     \revert DynamicLineSpanner.staff-padding
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
 }
 

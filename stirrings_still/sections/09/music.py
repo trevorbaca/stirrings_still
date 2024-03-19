@@ -116,14 +116,8 @@ def v1_v2_va(cache):
         m = cache[name]
         with baca.scope(m.get(4, 7)) as o:
             baca.hairpin(o, "(mp)>o!", rleak=True)
-    for name in ["v1r", "v2r", "var"]:
-        m = cache[name]
-        with baca.scope(m[8]) as o:
-            baca.override.tacet(o.mmrests())
     for name in ["v1", "v2", "va"]:
         m = cache[name]
-        with baca.scope(m[9]) as o:
-            baca.override.tacet(o.mmrests())
         with baca.scope(m.get(10, 11)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
             baca.hairpin(

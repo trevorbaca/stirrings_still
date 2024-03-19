@@ -261,12 +261,6 @@ def vc(cache):
         )
 
 
-def v1_v2_vc(cache):
-    for name in ["v1", "v2", "vc"]:
-        with baca.scope(cache[name].get(17, 19)) as o:
-            baca.override.tacet(o.mmrests())
-
-
 @baca.build.timed("make_score")
 def make_score(first_measure_number, previous_persistent_indicators):
     score, voices, time_signatures = make_empty_score()
@@ -294,7 +288,6 @@ def make_score(first_measure_number, previous_persistent_indicators):
         library.voice_abbreviations,
     )
     v1(cache)
-    v1_v2_vc(cache)
     v2(cache)
     va(cache)
     vc(cache)

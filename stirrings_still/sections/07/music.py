@@ -544,8 +544,6 @@ def vc(cache):
                 "o< f>o!",
                 rleak=True,
             )
-    with baca.scope(m.get(5, 6)) as o:
-        baca.override.tacet(o.mmrests())
     with baca.scope(m[11]) as o:
         baca.hairpin(
             baca.select.lparts(o, [1, 1]),

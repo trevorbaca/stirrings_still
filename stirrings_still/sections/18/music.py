@@ -80,10 +80,6 @@ def v1(cache):
         baca.glissando(o, "A6", left_broken=True)
     with baca.scope(m.get(5, 8)) as o:
         baca.hairpin(o, "ppp>o!", rleak=True)
-    with baca.scope(cache["v1r"][9]) as o:
-        baca.override.tacet(o.mmrests())
-    with baca.scope(m.get(10, 17)) as o:
-        baca.override.tacet(o.mmrests())
 
 
 def v2(cache):
@@ -100,10 +96,6 @@ def v2(cache):
         baca.glissando(o, "Ab5", left_broken=True)
     with baca.scope(m.get(5, 8)) as o:
         baca.hairpin(o, "ppp>o!", rleak=True)
-    with baca.scope(cache["v2r"][9]) as o:
-        baca.override.tacet(o.mmrests())
-    with baca.scope(m.get(10, 17)) as o:
-        baca.override.tacet(o.mmrests())
 
 
 def va(cache):
@@ -127,10 +119,6 @@ def vc(cache):
         baca.glissando(o, "B0", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
         baca.hairpin(o, "pp>o!", rleak=True)
-    with baca.scope(cache["vcr"][13]) as o:
-        baca.override.tacet(o.mmrests())
-    with baca.scope(m.get(14, 17)) as o:
-        baca.override.tacet(o.mmrests())
 
 
 @baca.build.timed("make_score")

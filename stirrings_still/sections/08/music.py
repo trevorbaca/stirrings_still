@@ -553,8 +553,6 @@ def va(cache):
             o,
             staff_padding=5.5,
         )
-    with baca.scope(cache["var"][56]) as o:
-        baca.override.tacet(o.mmrests())
 
 
 def vc(cache):
@@ -669,8 +667,6 @@ def vc(cache):
                     "f-- !>o!",
                     rleak=True,
                 )
-    with baca.scope(cache["vcr"][56]) as o:
-        baca.override.tacet(o.mmrests())
 
 
 def v1_v2_va(cache):
@@ -681,12 +677,6 @@ def v1_v2_va(cache):
             baca.override.tuplet_bracket_staff_padding(o, 1.5)
         with baca.scope(m.get(15, 16)) as o:
             baca.hairpin(o, "(p)>o!", rleak=True)
-        with baca.scope(m.get(17 + 1, 22)) as o:
-            baca.override.tacet(o.mmrests())
-    for name in ["v1r", "v2r", "var"]:
-        m = cache[name]
-        with baca.scope(m[17]) as o:
-            baca.override.tacet(o.mmrests())
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(23, 28)) as o:

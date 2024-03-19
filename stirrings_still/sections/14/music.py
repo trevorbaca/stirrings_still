@@ -285,14 +285,8 @@ def v1_v2_va(cache):
                 "(fff)>o!",
                 rleak=True,
             )
-    for name in ["v1r", "v2r", "var"]:
-        m = cache[name]
-        with baca.scope(m[9]) as o:
-            baca.override.tacet(o.mmrests())
     for name in ["v1", "v2", "va"]:
         m = cache[name]
-        with baca.scope(m.get(10, 12)) as o:
-            baca.override.tacet(o.mmrests())
         with baca.scope(m.get(13, 28)) as o:
             library.urtext_spanner(o, "urtext (field) -|", 8)
         with baca.scope(m.get(30, 35)) as o:

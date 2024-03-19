@@ -732,12 +732,6 @@ def v1(cache):
         baca.alternate_bow_strokes(o.pheads())
     with baca.scope(m.get(18, 24)) as o:
         baca.alternate_bow_strokes(o.pheads())
-    for name in ["v1", "v1r"]:
-        m = cache[name]
-        for item in [25, 27]:
-            with baca.scope(m.get(item)) as o:
-                if o.mmrests():
-                    baca.override.tacet(o.mmrests())
     m = cache["v1"]
     with baca.scope(m[26]) as o:
         baca.glissando(o.pleaves()[:2], "E4:C5")
@@ -816,14 +810,8 @@ def v1(cache):
 
 
 def v1_v2_va(cache):
-    for name in ["v1r", "v2r", "var"]:
-        m = cache[name]
-        with baca.scope(m[8]) as o:
-            baca.override.tacet(o.mmrests())
     for name in ["v1", "v2", "va"]:
         m = cache[name]
-        with baca.scope(m.get(9, 11)) as o:
-            baca.override.tacet(o.mmrests())
         with baca.scope(m[26]) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
             baca.hairpin(
@@ -837,10 +825,6 @@ def v1_v2_va(cache):
                 library.breathe(o.pleaf(1))
                 library.urtext_spanner(o, "A, B -|", 10.5)
             baca.stop_on_string(o.pleaf(-1))
-    for name in ["v1r", "v2r", "var"]:
-        m = cache[name]
-        with baca.scope(m[45]) as o:
-            baca.override.tacet(o.mmrests())
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m[48]) as o:
@@ -1314,9 +1298,6 @@ def va(cache):
             baca.select.mgroups(o.rleaves(), [8, 2 + 1]),
             "p-ancora-- (p)>o!",
         )
-    m = cache["var"]
-    with baca.scope(m[22]) as o:
-        baca.override.tacet(o.mmrests())
     m = cache["va"]
     with baca.scope(m.get(23, 25)) as o:
         baca.clef(o.leaf(0), "treble")
@@ -1536,9 +1517,6 @@ def vc(cache):
         )
     with baca.scope(m.get(20, 30)) as o:
         baca.override.tuplet_bracket_staff_padding(o, 2)
-    m = cache["vcr"]
-    with baca.scope(m[26]) as o:
-        baca.override.tacet(o.mmrests())
     m = cache["vc"]
     with baca.scope(m[27]) as o:
         baca.glissando(o, "Fqs5")

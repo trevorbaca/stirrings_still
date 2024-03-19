@@ -1430,8 +1430,6 @@ number.14.Violin.1.Music = {
         {
 
             % [Violin.1.Rests measure 9]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 8/8
@@ -1445,8 +1443,6 @@ number.14.Violin.1.Music = {
     >>
 
     % [Violin.1.Music measure 10]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 8/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"8" #"8"
@@ -1460,8 +1456,6 @@ number.14.Violin.1.Music = {
     R1 * 3/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
     % [Violin.1.Music measure 13]
     <a fqs'!>2.
@@ -2721,8 +2715,6 @@ number.14.Violin.2.Music = {
         {
 
             % [Violin.2.Rests measure 9]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 8/8
@@ -2736,8 +2728,6 @@ number.14.Violin.2.Music = {
     >>
 
     % [Violin.2.Music measure 10]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 8/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"8" #"8"
@@ -2751,8 +2741,6 @@ number.14.Violin.2.Music = {
     R1 * 3/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
     % [Violin.2.Music measure 13]
     <fs! dqs'!>2.
@@ -3955,8 +3943,6 @@ number.14.Viola.Music = {
         {
 
             % [Viola.Rests measure 9]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 8/8
@@ -3970,8 +3956,6 @@ number.14.Viola.Music = {
     >>
 
     % [Viola.Music measure 10]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 8/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"8" #"8"
@@ -3985,8 +3969,6 @@ number.14.Viola.Music = {
     R1 * 3/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
     % [Viola.Music measure 13]
     <c aqs!>2.

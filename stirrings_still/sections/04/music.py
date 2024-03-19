@@ -524,8 +524,6 @@ def v1(cache):
 def v1_v2(cache):
     for name in ["v1", "v2"]:
         m = cache[name]
-        with baca.scope(m.get(49, 53)) as o:
-            baca.override.tacet(o.mmrests())
         with baca.scope(m.get(67, 85)) as o:
             baca.rspanners.tasto(
                 o,
@@ -540,10 +538,6 @@ def v1_v2(cache):
             )
         with baca.scope(m.get(90, 92)) as o:
             library.urtext_spanner(o, "urtext (NEW cds) -|", 8)
-    with baca.scope(cache["v1r"][93]) as o:
-        baca.override.tacet(o.mmrests())
-    with baca.scope(cache["v2r"][93]) as o:
-        baca.override.tacet(o.mmrests())
 
 
 def v1_v2_va(cache):
@@ -551,8 +545,6 @@ def v1_v2_va(cache):
         m = cache[name]
         with baca.scope(m.leaves()) as o:
             baca.override.tuplet_bracket_down(o.leaves())
-        with baca.scope(m[38]) as o:
-            baca.override.tacet(o.mmrests())
         for item in [47, 55]:
             with baca.scope(m[item]) as o:
                 baca.repeat_tie(o.pleaf(-1))
@@ -852,8 +844,6 @@ def vc(cache):
         )
         baca.override.note_head_style_harmonic(o.pleaves())
         library.cello_cell_bcps(o, staff_padding=4.5)
-    with baca.scope(m[47]) as o:
-        baca.override.tacet(o.mmrests())
     for item in [(49, 50), (52, 53)]:
         with baca.scope(m.get(item)) as o:
             baca.glissando(o, "E2")
@@ -866,10 +856,6 @@ def vc(cache):
             if item == (49, 50):
                 baca.clef(o.leaf(0), "bass")
             library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 5.5)
-    with baca.scope(cache["vcr"][51]) as o:
-        baca.override.tacet(o.mmrests())
-    with baca.scope(m[55]) as o:
-        baca.override.tacet(o.mmrests())
     with baca.scope(m[57]) as o:
         baca.glissando(o, "B1")
         baca.hairpin(o, "o<|mf")
@@ -887,8 +873,6 @@ def vc(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
-    with baca.scope(cache["vcr"][93]) as o:
-        baca.override.tacet(o.mmrests())
     with baca.scope(m.get(94, 99)) as o:
         baca.glissando(o, "F2", hide_middle_stems=True, right_broken=True)
         library.clouded_pane_spanner(

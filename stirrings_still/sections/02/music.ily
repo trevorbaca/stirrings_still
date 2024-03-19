@@ -2865,8 +2865,6 @@ number.2.Violin.1.Music = {
         {
 
             % [Violin.1.Rests measure 8]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 8/8
@@ -2880,8 +2878,6 @@ number.2.Violin.1.Music = {
     >>
 
     % [Violin.1.Music measure 9]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 5/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"5" #"8"
@@ -2895,8 +2891,6 @@ number.2.Violin.1.Music = {
     R1 * 8/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"8" #"8"
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
     % [Violin.1.Music measure 12]
     c''4
@@ -3393,8 +3387,6 @@ number.2.Violin.1.Music = {
         {
 
             % [Violin.1.Rests measure 25]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 6/8
@@ -3533,8 +3525,6 @@ number.2.Violin.1.Music = {
         {
 
             % [Violin.1.Rests measure 27]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 4/8
@@ -4558,8 +4548,6 @@ number.2.Violin.1.Music = {
         {
 
             % [Violin.1.Rests measure 45]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 10/16
@@ -5978,8 +5966,6 @@ number.2.Violin.2.Music = {
         {
 
             % [Violin.2.Rests measure 8]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 8/8
@@ -5993,8 +5979,6 @@ number.2.Violin.2.Music = {
     >>
 
     % [Violin.2.Music measure 9]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 5/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"5" #"8"
@@ -6008,8 +5992,6 @@ number.2.Violin.2.Music = {
     R1 * 8/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"8" #"8"
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
     \times 2/3
     {
@@ -7849,8 +7831,6 @@ number.2.Violin.2.Music = {
         {
 
             % [Violin.2.Rests measure 45]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 10/16
@@ -9147,8 +9127,6 @@ number.2.Viola.Music = {
         {
 
             % [Viola.Rests measure 8]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 8/8
@@ -9162,8 +9140,6 @@ number.2.Viola.Music = {
     >>
 
     % [Viola.Music measure 9]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 5/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"5" #"8"
@@ -9177,8 +9153,6 @@ number.2.Viola.Music = {
     R1 * 8/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"8" #"8"
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
     % [Viola.Music measure 12]
     \once \override DynamicText.self-alignment-X = -0.75
@@ -9338,8 +9312,6 @@ number.2.Viola.Music = {
         {
 
             % [Viola.Rests measure 22]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 6/8
@@ -10801,8 +10773,6 @@ number.2.Viola.Music = {
         {
 
             % [Viola.Rests measure 45]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 10/16
@@ -12873,8 +12843,6 @@ number.2.Cello.Music = {
         {
 
             % [Cello.Rests measure 26]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 8/16

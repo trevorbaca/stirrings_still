@@ -4912,8 +4912,6 @@ number.7.Cello.Music = {
     >>
 
     % [Cello.Music measure 5]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 8/16
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"8" #"16"
@@ -4922,8 +4920,6 @@ number.7.Cello.Music = {
     R1 * 12/16
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"12" #"16"
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
     % [Cello.Music measure 7]
     b,,2

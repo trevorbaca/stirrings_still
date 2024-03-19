@@ -981,11 +981,6 @@ def vc(cache):
             baca.instrument_name(u, r"\stirrings-still-cello-markup")
     with baca.scope(m.leaves()) as o:
         baca.override.tuplet_bracket_down(o.leaves())
-    for name in ["vc", "vcr"]:
-        m = cache[name]
-        with baca.scope(m.get(1, 11)) as o:
-            baca.override.tacet(o.mmrests())
-    m = cache["vc"]
     with baca.scope(m.get(12, 26)) as o:
         baca.dynamic(o.phead(0), "p")
         baca.glissando(
@@ -1047,12 +1042,6 @@ def vc(cache):
         )
         baca.override.note_head_style_harmonic(o.pleaves())
         library.cello_cell_bcps(o, staff_padding=4.5)
-    for name in ["vc", "vcr"]:
-        m = cache[name]
-        for item in [41, (44, 45)]:
-            with baca.scope(m.get(item)) as o:
-                if o.mmrests():
-                    baca.override.tacet(o.mmrests())
     m = cache["vc"]
     with baca.scope(m[46]) as o:
         baca.clef(o.leaf(0), "bass")
@@ -1098,8 +1087,6 @@ def vc(cache):
         library.cello_cell_bcps(o, staff_padding=4.5)
     with baca.scope(m.get(55, 56)) as o:
         baca.glissando(o, "Ab2")
-    with baca.scope(m[60]) as o:
-        baca.override.tacet(o.mmrests())
     with baca.scope(m[62]) as o:
         baca.glissando(o, "G3")
 

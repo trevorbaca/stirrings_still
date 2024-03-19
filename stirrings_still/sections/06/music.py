@@ -185,15 +185,6 @@ def vc(cache):
         )
 
 
-def v1_v2_vc(cache):
-    for name in ["v1r", "v2r", "vcr"]:
-        with baca.scope(cache[name][9]) as o:
-            baca.override.tacet(o.mmrests())
-    for name in ["v1", "v2", "vc"]:
-        with baca.scope(cache[name][10]) as o:
-            baca.override.tacet(o.mmrests())
-
-
 def tutti(cache):
     for name in ["v1", "v2", "va", "vc"]:
         m = cache[name]
@@ -257,7 +248,6 @@ def make_score(first_measure_number, previous_persistent_indicators):
     v2(cache)
     va(cache)
     vc(cache)
-    v1_v2_vc(cache)
     tutti(cache)
     return score
 
