@@ -317,14 +317,6 @@ def vc(cache):
     m = cache[name]
     with baca.scope(m.leaves()) as o:
         baca.clef(abjad.select.leaf(o, 0), "bass")
-    with baca.scope(cache["vcr"][1]) as o:
-        baca.override.tacet(o.mmrests())
-    with baca.scope(m[2]) as o:
-        baca.override.tacet(o.mmrests())
-    with baca.scope(cache["vcr"][5]) as o:
-        baca.override.tacet(o.mmrests())
-    with baca.scope(m[6]) as o:
-        baca.override.tacet(o.mmrests())
     with baca.scope(m.get(7, 11)) as o:
         baca.override.dynamic_text_self_alignment_x(o.leaf(-1), -0.75)
         baca.glissando(o, "Bb1", hide_middle_stems=True)
@@ -337,10 +329,6 @@ def vc(cache):
         )
         baca.glissando(o, "Cb2 Bb1")
         baca.hairpin(o, "fff>pp")
-    with baca.scope(cache["vcr"][14]) as o:
-        baca.override.tacet(o.mmrests())
-    with baca.scope(m.get(15, 17)) as o:
-        baca.override.tacet(o.mmrests())
 
 
 @baca.build.timed("make_score")

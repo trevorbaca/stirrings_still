@@ -2680,8 +2680,6 @@ number.11.Violin.1.Music = {
         {
 
             % [Violin.1.Rests measure 22]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 3/4
@@ -4589,8 +4587,6 @@ number.11.Violin.2.Music = {
         {
 
             % [Violin.2.Rests measure 22]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 3/4
@@ -6436,8 +6432,6 @@ number.11.Viola.Music = {
         {
 
             % [Viola.Rests measure 22]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 3/4

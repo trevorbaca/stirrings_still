@@ -516,8 +516,6 @@ def v1(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         baca.glissando(o, "Aqs4")
-    with baca.scope(cache["v1r"][22]) as o:
-        baca.override.tacet(o.mmrests())
     with baca.scope(m[23]) as o:
         baca.breathe(o.pleaf(-1))
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
@@ -729,8 +727,6 @@ def v2(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         baca.glissando(o, "Eb4")
-    with baca.scope(cache["v2r"][22]) as o:
-        baca.override.tacet(o.mmrests())
     with baca.scope(m[23]) as o:
         baca.breathe(o.pleaf(-1))
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
@@ -909,8 +905,6 @@ def va(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         baca.glissando(o, "Bqf3")
-    with baca.scope(cache["var"][22]) as o:
-        baca.override.tacet(o.mmrests())
     with baca.scope(m[23]) as o:
         baca.breathe(o.pleaf(-1))
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)

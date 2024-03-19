@@ -860,14 +860,6 @@ def v1_v2_va(cache):
                 do_not_bookend=True,
                 staff_padding=10.5,
             )
-        with baca.scope(m.get(120, 127)) as o:
-            baca.override.tacet(o.mmrests())
-    with baca.scope(cache["v1r"].get(120, 127)) as o:
-        baca.override.tacet(o.mmrests())
-    with baca.scope(cache["v2r"].get(120, 127)) as o:
-        baca.override.tacet(o.mmrests())
-    with baca.scope(cache["var"].get(120, 127)) as o:
-        baca.override.tacet(o.mmrests())
 
 
 def tutti(cache):
@@ -1305,10 +1297,6 @@ def vc(cache):
         )
     with baca.scope(m[24]) as o:
         baca.override.dynamic_text_self_alignment_x(o.leaf(0), -0.75)
-    with baca.scope(m.get(28, 40)) as o:
-        baca.override.tacet(o.mmrests())
-    with baca.scope(cache["vcr"].get(28, 40)) as o:
-        baca.override.tacet(o.mmrests())
     with baca.scope(m.get(63, 64)) as o:
         baca.hairpin(
             o,
@@ -1345,10 +1333,6 @@ def vc(cache):
             5.5,
         )
         baca.glissando(o, "D2", hide_middle_stems=True)
-    with baca.scope(cache["vcr"][116]) as o:
-        baca.override.tacet(o.mmrests())
-    with baca.scope(m[117]) as o:
-        baca.override.tacet(o.mmrests())
     with baca.scope(m.get(118, 119)) as o:
         baca.hairpin(o, "o<p", rleak=True)
     with baca.scope(m.get(118, 127)) as o:

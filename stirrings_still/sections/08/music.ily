@@ -2400,8 +2400,6 @@ number.8.Violin.1.Music = {
         {
 
             % [Violin.1.Rests measure 17]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 8/8
@@ -2415,8 +2413,6 @@ number.8.Violin.1.Music = {
     >>
 
     % [Violin.1.Music measure 18]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 4/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"8"
@@ -2440,8 +2436,6 @@ number.8.Violin.1.Music = {
     R1 * 8/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"8" #"8"
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
     % [Violin.1.Music measure 23]
     \override TupletBracket.direction = #down
@@ -4126,8 +4120,6 @@ number.8.Violin.2.Music = {
         {
 
             % [Violin.2.Rests measure 17]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 8/8
@@ -4141,8 +4133,6 @@ number.8.Violin.2.Music = {
     >>
 
     % [Violin.2.Music measure 18]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 4/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"8"
@@ -4166,8 +4156,6 @@ number.8.Violin.2.Music = {
     R1 * 8/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"8" #"8"
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
     % [Violin.2.Music measure 23]
     \override TupletBracket.direction = #down
@@ -5864,8 +5852,6 @@ number.8.Viola.Music = {
         {
 
             % [Viola.Rests measure 17]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 8/8
@@ -5879,8 +5865,6 @@ number.8.Viola.Music = {
     >>
 
     % [Viola.Music measure 18]
-      %! TACET_COLORING
-    \override MultiMeasureRest.color = #green
     R1 * 4/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"8"
@@ -5904,8 +5888,6 @@ number.8.Viola.Music = {
     R1 * 8/8
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"8" #"8"
-      %! TACET_COLORING
-    \revert MultiMeasureRest.color
 
     % [Viola.Music measure 23]
     \override TupletBracket.direction = #down
@@ -6981,8 +6963,6 @@ number.8.Viola.Music = {
         {
 
             % [Viola.Rests measure 56]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 4/8
@@ -8421,8 +8401,6 @@ number.8.Cello.Music = {
         {
 
             % [Cello.Rests measure 56]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 4/8

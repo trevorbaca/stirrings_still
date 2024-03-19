@@ -3737,8 +3737,6 @@ number.3.Violin.1.Music = {
         {
 
             % [Violin.1.Rests measure 34]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 10/16
@@ -3752,8 +3750,6 @@ number.3.Violin.1.Music = {
     >>
 
     % [Violin.1.Music measure 35]
-      %! TACET_COLORING
-    \once \override MultiMeasureRest.color = #green
     R1 * 12/16
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"12" #"16"
@@ -5507,8 +5503,6 @@ number.3.Violin.2.Music = {
         {
 
             % [Violin.2.Rests measure 34]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 10/16
@@ -5522,8 +5516,6 @@ number.3.Violin.2.Music = {
     >>
 
     % [Violin.2.Music measure 35]
-      %! TACET_COLORING
-    \once \override MultiMeasureRest.color = #green
     R1 * 12/16
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"12" #"16"
@@ -7445,8 +7437,6 @@ number.3.Viola.Music = {
         {
 
             % [Viola.Rests measure 34]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 10/16
@@ -7460,8 +7450,6 @@ number.3.Viola.Music = {
     >>
 
     % [Viola.Music measure 35]
-      %! TACET_COLORING
-    \once \override MultiMeasureRest.color = #green
     R1 * 12/16
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"12" #"16"
@@ -9859,8 +9847,6 @@ number.3.Cello.Music = {
         {
 
             % [Cello.Rests measure 60]
-              %! TACET_COLORING
-            \once \override MultiMeasureRest.color = #green
               %! MULTIMEASURE_REST
               %! REST_VOICE
             R1 * 8/16
@@ -9874,8 +9860,6 @@ number.3.Cello.Music = {
     >>
 
     % [Cello.Music measure 61]
-      %! TACET_COLORING
-    \once \override MultiMeasureRest.color = #green
     R1 * 12/16
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"12" #"16"
