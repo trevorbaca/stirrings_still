@@ -182,7 +182,7 @@ def v2(cache):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
         baca.override.note_head_style_harmonic(baca.select.rleak(o.pleaves()))
-        baca.override.tuplet_bracket_down(o.leaves())
+        baca.override.tuplet_bracket_direction_down(o.leaves())
     with baca.scope(m[1]) as o:
         baca.markup(
             o.pleaf(0),

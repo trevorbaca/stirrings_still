@@ -139,7 +139,7 @@ def tutti(cache):
     for name in ["v1", "v2", "va", "vc"]:
         with baca.scope(cache[name].leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 5)
-            baca.override.tuplet_bracket_down(o.leaves())
+            baca.override.tuplet_bracket_direction_down(o.leaves())
 
 
 def v2(cache):
@@ -236,7 +236,7 @@ def vc(cache):
             baca.select.ltleaves(o),
             staff_padding=3 + 6.5,
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -4, clt=True, staff_padding=3)
 
 

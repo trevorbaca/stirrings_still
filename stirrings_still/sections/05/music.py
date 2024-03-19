@@ -528,7 +528,7 @@ def v1(cache):
         )
         library.bcps(o, -8, clt=True, staff_padding=4.5)
         baca.untie(o)
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         baca.glissando(o, "Ab4")
     with baca.scope(m.get(42, 49)) as o:
         baca.breathe(o.pleaf(-1))
@@ -555,7 +555,7 @@ def v1(cache):
             'o< fff-- "fff">o!',
             rleak=True,
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -8, staff_padding=2.5, clt=True)
     with baca.scope(m.get(50, 53)) as o:
         baca.glissando(
@@ -582,7 +582,7 @@ def v1(cache):
             staff_padding=4.5 + 6.5,
         )
         baca.pitches(o, "D5 F5 Dqs5 E5 Fqs5 G#5 A5 F5 Aqs5")
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(
             measure_starts_plus_rest(o),
             0,
@@ -643,7 +643,7 @@ def v1(cache):
             'o< fff-- "fff">o!',
             rleak=True,
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -8, clt=True, staff_padding=2.5)
         library.breathe(o.pleaf(-1))
     with baca.scope(m.get(105, 108)) as o:
@@ -868,13 +868,13 @@ def tutti(cache):
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(42, 61)) as o:
-            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_direction_down(o)
             baca.override.tuplet_bracket_staff_padding(o, 1)
         with baca.scope(m.get(89, 108)) as o:
-            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_direction_down(o)
             baca.override.tuplet_bracket_staff_padding(o, 1)
         with baca.scope(m.get(112, 119)) as o:
-            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_direction_down(o)
             baca.override.tuplet_bracket_staff_padding(o, 1)
 
 
@@ -925,7 +925,7 @@ def v2(cache):
         )
         library.bcps(o, -7, clt=True, staff_padding=4.5)
         baca.untie(o.leaves())
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         baca.glissando(
             o,
             "G4/6 G4/11 A4/6 A4",
@@ -955,7 +955,7 @@ def v2(cache):
             'fff-- "fff">o!',
             rleak=True,
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -7, clt=True, staff_padding=2.5)
         baca.glissando(o, "Dqf5")
     with baca.scope(m.get(58, 61)) as o:
@@ -971,7 +971,7 @@ def v2(cache):
             staff_padding=4.5 + 6.5,
         )
         baca.pitches(o, "D5 F5 Dqs5 E5 Fqs5 G#5 A5 F5 Aqs5")
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         baca.override.tuplet_bracket_staff_padding(o, 1)
         library.bcps(
             measure_starts_plus_rest(o),
@@ -1026,7 +1026,7 @@ def v2(cache):
             'fff-- "fff">o!',
             rleak=True,
         )
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -7, clt=True, staff_padding=2.5)
         baca.glissando(o, "Dqf5")
     with baca.scope(m.get(105, 108)) as o:
@@ -1103,7 +1103,7 @@ def va(cache):
             staff_padding=4.5 + 6.5,
         )
         baca.pitches(o, "D5 F5 Dqs5 E5 Fqs5 G#5 A5 F5 Aqs5")
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         library.bcps(
             measure_starts_plus_rest(o),
             0,
@@ -1171,7 +1171,7 @@ def va_vc(cache):
                 'ff< fff-- "fff">"f"',
             )
             if name == "va":
-                baca.override.tuplet_bracket_down(o)
+                baca.override.tuplet_bracket_direction_down(o)
                 library.bcps(o, -6, clt=True, staff_padding=2.5)
                 with baca.scope(m.get(50, 53)) as u:
                     baca.glissando(
@@ -1182,7 +1182,7 @@ def va_vc(cache):
                 with baca.scope(m.get(54, 61)) as u:
                     baca.glissando(u, "E3")
             elif name == "vc":
-                baca.override.tuplet_bracket_down(o)
+                baca.override.tuplet_bracket_direction_down(o)
                 library.bcps(o, -5, clt=True, staff_padding=2.5)
                 with baca.scope(m.get(50, 53)) as u:
                     baca.glissando(
@@ -1233,7 +1233,7 @@ def va_vc(cache):
                 rleak=True,
             )
             if name == "va":
-                baca.override.tuplet_bracket_down(o)
+                baca.override.tuplet_bracket_direction_down(o)
                 library.bcps(o, -6, clt=True, staff_padding=2.5)
                 with baca.scope(m.get(97, 100)) as u:
                     baca.glissando(
@@ -1244,7 +1244,7 @@ def va_vc(cache):
                 with baca.scope(m.get(101, 108)) as u:
                     baca.glissando(u, "E3")
             elif name == "vc":
-                baca.override.tuplet_bracket_down(o)
+                baca.override.tuplet_bracket_direction_down(o)
                 library.bcps(o, -5, clt=True, staff_padding=2.5)
                 with baca.scope(m.get(97, 100)) as u:
                     baca.glissando(

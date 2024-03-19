@@ -544,7 +544,7 @@ def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.override.tuplet_bracket_down(o.leaves())
+            baca.override.tuplet_bracket_direction_down(o.leaves())
         for item in [47, 55]:
             with baca.scope(m[item]) as o:
                 baca.repeat_tie(o.pleaf(-1))

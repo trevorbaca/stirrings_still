@@ -523,7 +523,7 @@ def v1(cache):
         for plt in abjad.select.get(baca.select.plts(o), [3], 4):
             baca.override.note_head_style_harmonic(plt)
     with baca.scope(m.get(71, 76)) as o:
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
         baca.override.tuplet_bracket_staff_padding(o, 1.25)
 
 
@@ -643,7 +643,7 @@ def v1_v2_va(cache):
     for name in ["v1", "v2", "va"]:
         m = cache[name]
         with baca.scope(m.get(1, 69)) as o:
-            baca.override.tuplet_bracket_down(o)
+            baca.override.tuplet_bracket_direction_down(o)
         with baca.scope(m[5]) as o:
             baca.rspanners.tasto(
                 o,
@@ -867,7 +867,7 @@ def vc(cache):
     with baca.scope(m.leaves()) as o:
         baca.clef(o.leaf(0), "treble")
     with baca.scope(m.get(1, 35)) as o:
-        baca.override.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_direction_down(o)
     with baca.scope(m[5]) as o:
         baca.pitch(o, "B1")
         baca.clef(o.leaf(0), "bass")
