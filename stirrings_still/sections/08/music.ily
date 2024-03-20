@@ -2134,7 +2134,7 @@ number.8.Violin.1.Music = {
     ]
     \breathe
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 ~ 4 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
     \times 1/1
     {
 
@@ -5602,7 +5602,7 @@ number.8.Viola.Music = {
     \bacaStartTextSpanCircleBow
     \breathe
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 ~ 4 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
     \times 1/1
     {
 

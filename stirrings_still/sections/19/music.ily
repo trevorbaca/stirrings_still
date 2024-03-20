@@ -987,7 +987,7 @@ number.19.Violin.1.Music = {
 
     >>
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 ~ 4 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
     \times 1/1
     {
 
@@ -1370,7 +1370,7 @@ number.19.Violin.1.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 ~ 4 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
     \times 1/1
     {
 
@@ -1995,7 +1995,7 @@ number.19.Violin.2.Music = {
 
     >>
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 ~ 4 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
     \times 1/1
     {
 
@@ -2340,7 +2340,7 @@ number.19.Violin.2.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 ~ 4 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
     \times 1/1
     {
 
