@@ -1704,7 +1704,7 @@ number.16.Violin.2.Music = {
     % [Violin.2.Music measure 4]
     a2..
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2 ~ 8 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 2 } + \rhythm { 8 } }
     \times 1/1
     {
 
