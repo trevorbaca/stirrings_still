@@ -278,7 +278,7 @@ def bcps(
         ),
     )
     tag = baca.helpers.function_name(inspect.currentframe())
-    baca.tags.wrappers(wrappers, tag)
+    baca.tags.tag(wrappers, tag)
     return wrappers
 
 
@@ -291,7 +291,7 @@ def breathe(argument):
         abjad.Tweak(r"\tweak extra-offset #'(-0.25 . 2)"),
     )
     tag = baca.helpers.function_name(inspect.currentframe())
-    baca.tags.wrappers(wrappers, tag)
+    baca.tags.tag(wrappers, tag)
     return wrappers
 
 
@@ -308,7 +308,7 @@ def cello_cell_bcps(argument, *, staff_padding=None):
         ),
     )
     tag = baca.helpers.function_name(inspect.currentframe())
-    baca.tags.wrappers(wrappers, tag)
+    baca.tags.tag(wrappers, tag)
     return wrappers
 
 
@@ -323,7 +323,7 @@ def clouded_pane_spanner(
         abjad.Tweak(r"- \tweak color #red"),
         staff_padding=staff_padding,
     )
-    baca.tags.wrappers(wrappers, abjad.Tag("MATERIAL:CLOUDED_PANE"))
+    baca.tags.tag(wrappers, abjad.Tag("MATERIAL:CLOUDED_PANE"))
     return wrappers
 
 
@@ -1262,7 +1262,7 @@ def flight_spanner(o, string, staff_padding):
         abjad.Tweak(r"- \tweak color #darkmagenta"),
         staff_padding=staff_padding,
     )
-    baca.tags.wrappers(wrappers, abjad.Tag("MATERIAL:FLIGHT"))
+    baca.tags.tag(wrappers, abjad.Tag("MATERIAL:FLIGHT"))
     return wrappers
 
 
@@ -1687,7 +1687,7 @@ def make_loure_tuplets_material(time_signatures, extra_count):
     tag = baca.helpers.function_name(inspect.currentframe())
     music = make_desynchronization_rhythm(time_signatures, 8, [extra_count])
     wrappers = baca.espressivo(baca.select.pheads(music))
-    baca.tags.wrappers(wrappers, tag)
+    baca.tags.tag(wrappers, tag)
     return music
 
 
@@ -2983,7 +2983,7 @@ def style_tailpiece_material(o, *tweaks):
         *tweaks,
     )
     tag = baca.helpers.function_name(inspect.currentframe())
-    baca.tags.wrappers(wrappers, tag)
+    baca.tags.tag(wrappers, tag)
     return wrappers
 
 
@@ -3050,7 +3050,7 @@ def transition_bcps(argument, *, final_spanner=False, staff_padding=None):
         helper=helper,
     )
     tag = baca.helpers.function_name(inspect.currentframe())
-    baca.tags.wrappers(wrappers, tag)
+    baca.tags.tag(wrappers, tag)
     return wrappers
 
 
@@ -3065,7 +3065,7 @@ def urtext_spanner(
         abjad.Tweak(r"- \tweak color #darkred"),
         staff_padding=staff_padding,
     )
-    baca.tags.wrappers(wrappers, abjad.Tag("MATERIAL:URTEXT"))
+    baca.tags.tag(wrappers, abjad.Tag("MATERIAL:URTEXT"))
     return wrappers
 
 
