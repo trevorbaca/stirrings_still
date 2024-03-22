@@ -2229,7 +2229,7 @@ number.1.Violin.1.Music = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #blue
+    %@% \once \override Staff.InstrumentName.color = #blue
       %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #blue
     \override DynamicLineSpanner.staff-padding = 6
@@ -2259,7 +2259,7 @@ number.1.Violin.1.Music = {
       %! EXPLICIT_DYNAMIC
     \p
       %! EXPLICIT_INSTRUMENT_ALERT
-    ^ \baca-explicit-instrument-markup "(“ViolinI”)"
+    %@% ^ \baca-explicit-instrument-markup "(“ViolinI”)"
     [
       %! SPANNER_START
     - \baca-dashed-line-with-hook
@@ -2310,10 +2310,10 @@ number.1.Violin.1.Music = {
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup
+    \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup %@%
 
     <e' c''>16
       %! EXPLICIT_DYNAMIC_COLOR
@@ -4910,7 +4910,7 @@ number.1.Violin.2.Music = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #blue
+    %@% \once \override Staff.InstrumentName.color = #blue
       %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #blue
     \override DynamicLineSpanner.staff-padding = 6
@@ -4937,7 +4937,7 @@ number.1.Violin.2.Music = {
       %! EXPLICIT_DYNAMIC
     \p
       %! EXPLICIT_INSTRUMENT_ALERT
-    ^ \baca-explicit-instrument-markup "(“ViolinI”)"
+    %@% ^ \baca-explicit-instrument-markup "(“ViolinI”)"
     [
       %! SPANNER_START
     - \baca-dashed-line-with-hook
@@ -4988,10 +4988,10 @@ number.1.Violin.2.Music = {
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup
+    \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup %@%
 
     <ef'! b'>16
       %! EXPLICIT_DYNAMIC_COLOR
@@ -7404,7 +7404,7 @@ number.1.Viola.Music = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #blue
+    %@% \once \override Staff.InstrumentName.color = #blue
       %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #blue
     \override DynamicLineSpanner.staff-padding = 6
@@ -7431,7 +7431,7 @@ number.1.Viola.Music = {
       %! EXPLICIT_DYNAMIC
     \p
       %! EXPLICIT_INSTRUMENT_ALERT
-    ^ \baca-explicit-instrument-markup "(“Viola”)"
+    %@% ^ \baca-explicit-instrument-markup "(“Viola”)"
     [
       %! SPANNER_START
     - \baca-dashed-line-with-hook
@@ -7482,10 +7482,10 @@ number.1.Viola.Music = {
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \stirrings-still-va-markup
+    \set Staff.shortInstrumentName = \stirrings-still-va-markup %@%
 
     <d' gqs'!>16
       %! EXPLICIT_DYNAMIC_COLOR
@@ -10087,7 +10087,7 @@ number.1.Cello.Music = {
               %! SHIFTED_CLEF
         %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
               %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-            \once \override Staff.InstrumentName.color = #blue
+            %@% \once \override Staff.InstrumentName.color = #blue
               %! EXPLICIT_STAFF_LINES_COLOR
             \once \override Staff.StaffSymbol.color = #blue
               %! -PARTS
@@ -10118,14 +10118,14 @@ number.1.Cello.Music = {
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"8" #"16"
               %! EXPLICIT_INSTRUMENT_ALERT
-            ^ \baca-explicit-instrument-markup "(“Cello”)"
+            %@% ^ \baca-explicit-instrument-markup "(“Cello”)"
               %! EXPLICIT_CLEF_REDRAW_COLOR
             \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
               %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-            \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
+            %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
               %! -PARTS
               %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-            \set Staff.shortInstrumentName = \stirrings-still-vc-markup
+            \set Staff.shortInstrumentName = \stirrings-still-vc-markup %@%
 
         }
 
