@@ -657,7 +657,7 @@ def persist_score(score, environment):
         fermata_measure_empty_overrides=[39],
         global_rests_in_topmost_staff=True,
     )
-    baca.tags.activate(
+    baca.section.activate_tags(
         score,
         baca.tags.LOCAL_MEASURE_NUMBER,
         baca.tags.STAGE_NUMBER,
