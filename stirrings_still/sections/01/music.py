@@ -596,8 +596,9 @@ def v1(cache):
                 qualifier="tight",
                 staff_padding=5.5,
             )
-            baca.rspanners.damp(
+            baca.spanners.damp(
                 o.tleaves(),
+                rleak=True,
                 staff_padding=8,
             )
             baca.glissando(o, "C5")
@@ -818,8 +819,9 @@ def tutti(cache):
                 qualifier="very-tight",
                 staff_padding=5.5,
             )
-            baca.rspanners.damp(
+            baca.spanners.damp(
                 baca.select.tleaves(o),
+                rleak=True,
                 staff_padding=8,
             )
             baca.hairpin(
@@ -885,8 +887,9 @@ def v2(cache):
                 qualifier="tight",
                 staff_padding=5.5,
             )
-            baca.rspanners.damp(
+            baca.spanners.damp(
                 baca.select.tleaves(o),
+                rleak=True,
                 staff_padding=8,
             )
             baca.hairpin(
@@ -954,8 +957,9 @@ def va(cache):
                 qualifier="tight",
                 staff_padding=5.5,
             )
-            baca.rspanners.damp(
+            baca.spanners.damp(
                 baca.select.tleaves(o),
+                rleak=True,
                 staff_padding=8,
             )
             baca.hairpin(
@@ -1030,8 +1034,9 @@ def vc(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
-        baca.rspanners.half_clt(
+        baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            rleak=True,
             staff_padding=11.0,
         )
         baca.markup(
@@ -1053,8 +1058,9 @@ def vc(cache):
                 qualifier="tight",
                 staff_padding=5.5,
             )
-            baca.rspanners.damp(
+            baca.spanners.damp(
                 baca.select.tleaves(o),
+                rleak=True,
                 staff_padding=8,
             )
             baca.hairpin(
@@ -1073,8 +1079,9 @@ def vc(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
-        baca.rspanners.half_clt(
+        baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            rleak=True,
             staff_padding=11.0,
         )
         baca.markup(
