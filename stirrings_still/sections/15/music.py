@@ -232,8 +232,9 @@ def vc(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
-        baca.rspanners.half_clt(
+        baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            rleak=True,
             staff_padding=3 + 6.5,
         )
         baca.override.tuplet_bracket_direction_down(o)

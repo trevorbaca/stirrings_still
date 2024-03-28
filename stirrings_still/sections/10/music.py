@@ -170,8 +170,9 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 rleak=True,
             )
-            baca.rspanners.half_clt(
+            baca.spanners.half_clt(
                 o.leaves(),
+                rleak=True,
                 staff_padding=4 + 6.5,
             )
             if name == "v1":
@@ -269,8 +270,9 @@ def v2(cache):
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.alternate_bow_strokes(o.pheads())
-        baca.rspanners.damp(
+        baca.spanners.damp(
             baca.select.ltleaves(o),
+            rleak=True,
             staff_padding=8,
         )
         baca.hairpin(
@@ -279,8 +281,9 @@ def v2(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
-        baca.rspanners.half_clt(
+        baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            rleak=True,
             staff_padding=5.5,
         )
         baca.pitch(o, "F5")

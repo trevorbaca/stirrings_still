@@ -197,8 +197,9 @@ def tutti(cache):
                 qualifier="tight-poss-grind-at-talon",
                 staff_padding=5.5,
             )
-            baca.rspanners.damp(
+            baca.spanners.damp(
                 baca.select.tleaves(o),
+                rleak=True,
                 staff_padding=8,
             )
             baca.hairpin(

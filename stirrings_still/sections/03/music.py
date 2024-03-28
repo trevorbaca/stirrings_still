@@ -548,8 +548,9 @@ def v2(cache):
         baca.glissando(o, "Bb4")
     with baca.scope(m.get(28, 29)) as o:
         baca.alternate_bow_strokes(o.pheads())
-        baca.rspanners.damp(
+        baca.spanners.damp(
             baca.select.ltleaves(o),
+            rleak=True,
             staff_padding=8,
         )
         baca.hairpin(
@@ -558,8 +559,9 @@ def v2(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
-        baca.rspanners.half_clt(
+        baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            rleak=True,
             staff_padding=5.5,
         )
         baca.pitch(o, "F5")
@@ -682,8 +684,9 @@ def tutti(cache):
                 qualifier="tight-poss-grind-at-talon",
                 staff_padding=5.5,
             )
-            baca.rspanners.damp(
+            baca.spanners.damp(
                 baca.select.ltleaves(o),
+                rleak=True,
                 staff_padding=8,
             )
             baca.glissando(o, "G4")
@@ -699,8 +702,9 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight-poss-grind-at-talon",
             )
-            baca.rspanners.damp(
+            baca.spanners.damp(
                 baca.select.ltleaves(o),
+                rleak=True,
                 staff_padding=8,
             )
             baca.hairpin(
@@ -732,8 +736,9 @@ def tutti(cache):
             )
         with baca.scope(m.get(12, 27)) as o:
             baca.breathe(o.pleaf(-1))
-            baca.rspanners.damp(
+            baca.spanners.damp(
                 baca.select.ltleaves(o),
+                rleak=True,
                 staff_padding=8,
             )
         with baca.scope(m.get(16, 19)) as o:
@@ -763,8 +768,9 @@ def tutti(cache):
                 qualifier="wide",
                 staff_padding=5.5,
             )
-            baca.rspanners.damp(
+            baca.spanners.damp(
                 baca.select.ltleaves(o),
+                rleak=True,
                 staff_padding=8,
             )
             baca.hairpin(

@@ -212,8 +212,9 @@ def vc(cache):
             'p< "f"-- "f">o!',
             rleak=True,
         )
-        baca.rspanners.half_clt(
+        baca.spanners.half_clt(
             o.leaves(),
+            rleak=True,
             staff_padding=6 + 6.5,
         )
         baca.markup(
