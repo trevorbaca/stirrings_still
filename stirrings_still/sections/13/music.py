@@ -191,9 +191,10 @@ def v1(cache):
         with baca.scope(m.get(item)) as o:
             baca.glissando(o, "D6", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="very-wide",
+            rleak=True,
             staff_padding=5.5,
         )
     for item in [(9, 12), (26, 28)]:
@@ -213,9 +214,10 @@ def v1(cache):
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             abjad.select.leaves(o)[1:],
             qualifier="very-wide",
+            rleak=True,
             staff_padding=5.5,
         )
         baca.markup(
@@ -224,9 +226,10 @@ def v1(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
     with baca.scope(m.get(25, 28)) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             abjad.select.leaves(o)[1:],
             qualifier="very-wide",
+            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(29, 32)) as o:
@@ -315,9 +318,10 @@ def v2(cache):
         with baca.scope(m.get(item)) as o:
             baca.glissando(o, "Fqs5", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="very-wide",
+            rleak=True,
             staff_padding=5.5,
         )
     for item in [(9, 12), (26, 28)]:
@@ -340,9 +344,10 @@ def v2(cache):
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             abjad.select.leaves(o)[1:],
             qualifier="very-wide",
+            rleak=True,
             staff_padding=5.5,
         )
         baca.markup(
@@ -351,9 +356,10 @@ def v2(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
     with baca.scope(m.get(25, 28)) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             abjad.select.leaves(o)[1:],
             qualifier="very-wide",
+            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(29, 32)) as o:
@@ -391,9 +397,10 @@ def va(cache):
         with baca.scope(m.get(item)) as o:
             baca.glissando(o, "Aqf4", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="very-wide",
+            rleak=True,
             staff_padding=5.5,
         )
     for item in [(9, 12), (26, 28)]:
@@ -413,9 +420,10 @@ def va(cache):
         cache.rebuild()
         m = cache[name]
     with baca.scope(m.get(17, 20)) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             abjad.select.leaves(o)[1:],
             qualifier="very-wide",
+            rleak=True,
             staff_padding=5.5,
         )
         baca.markup(
@@ -424,9 +432,10 @@ def va(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
     with baca.scope(m.get(25, 28)) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             o.leaves()[1:],
             qualifier="very-wide",
+            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(29, 32)) as o:

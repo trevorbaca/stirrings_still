@@ -534,9 +534,10 @@ def v1(cache):
         baca.glissando(o, "Ab4")
     with baca.scope(m.get(42, 49)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
             staff_padding=5.5,
         )
         baca.spanners.damp(
@@ -616,9 +617,10 @@ def v1(cache):
     m = cache["v1"]
     with baca.scope(m.get(89, 96)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
             staff_padding=5.5,
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
@@ -688,9 +690,10 @@ def v1_v2_va(cache):
                 rleak=True,
             )
             if name == "v1":
-                baca.mspanners.circle_bow(
+                baca.spanners.circle_bow(
                     baca.select.ltleaves(o),
                     qualifier="wide",
+                    rleak=True,
                     staff_padding=8,
                 )
                 baca.markup(
@@ -700,9 +703,10 @@ def v1_v2_va(cache):
                 )
                 baca.glissando(o.pleaves(), "Gqf4")
             elif name == "v2":
-                baca.mspanners.circle_bow(
+                baca.spanners.circle_bow(
                     baca.select.ltleaves(o),
                     qualifier="wide",
+                    rleak=True,
                     staff_padding=8,
                 )
                 baca.markup(
@@ -712,9 +716,10 @@ def v1_v2_va(cache):
                 )
                 baca.glissando(o.pleaves(), "Atqf3")
             elif name == "va":
-                baca.mspanners.circle_bow(
+                baca.spanners.circle_bow(
                     baca.select.ltleaves(o),
                     qualifier="wide",
+                    rleak=True,
                     staff_padding=5.5,
                 )
                 baca.markup(
@@ -948,9 +953,10 @@ def v2(cache):
         )
     with baca.scope(m.get(42, 53)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
             staff_padding=5.5,
         )
         baca.spanners.damp(
@@ -1026,9 +1032,10 @@ def v2(cache):
         )
     with baca.scope(m.get(89, 100)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
             staff_padding=5.5,
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
@@ -1171,9 +1178,10 @@ def va_vc(cache):
         m = cache[name]
         with baca.scope(m.get(42, 49)) as o:
             baca.breathe(o.pleaf(-1))
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.spanners.damp(
@@ -1227,9 +1235,10 @@ def va_vc(cache):
                 staff_padding=10,
             )
         with baca.scope(m.get(89, 96)) as o:
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
                 staff_padding=5.5,
             )
             if name == "vc":

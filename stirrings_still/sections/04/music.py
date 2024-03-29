@@ -498,9 +498,10 @@ def v1(cache):
         baca.pitch(o, "Eb5")
     with baca.scope(m[57]) as o:
         baca.glissando(o, "Bb4")
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide-poss",
+            rleak=True,
             staff_padding=5.5,
         )
         baca.markup(
@@ -586,9 +587,10 @@ def v1_v2_va(cache):
             )
             library.urtext_spanner(o, "urtext (cds) -|", 8)
         with baca.scope(m[66]) as o:
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.hairpin(
@@ -647,9 +649,10 @@ def v1_v2_va(cache):
             )
             library.urtext_spanner(o, "urtext (resumes) -|", 8)
         with baca.scope(m.get(97, 98)) as o:
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="tight-poss-grind-at-talon",
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.spanners.damp(
@@ -752,9 +755,10 @@ def v2(cache):
     with baca.scope(m.get(13, 24)) as o:
         baca.pitch(o, "Dqs5")
     with baca.scope(m[57]) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide-poss",
+            rleak=True,
             staff_padding=5.5,
         )
         baca.glissando(o, "F4")
