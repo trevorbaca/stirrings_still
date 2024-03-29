@@ -602,10 +602,11 @@ def v1(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             baca.select.mgroups(o, [1, 1]),
             "T -> poco P =|",
             do_not_bookend=True,
+            rleak=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -801,19 +802,17 @@ def v1_v2_va(cache):
                 do_not_bookend=True,
                 do_not_start_spanner_on_final_piece=True,
             )
-            baca.mspanners.scp(
+            baca.spanners.scp(
                 o.plts(),
                 "P -> T ->",
-                do_not_rleak=True,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
         with baca.scope(m.get(87, 88)) as o:
             baca.hairpin(o, '"f">p')
-            baca.mspanners.scp(
+            baca.spanners.scp(
                 o.plts(),
                 "P -> T ->",
-                do_not_rleak=True,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
@@ -833,24 +832,21 @@ def v1_v2_va(cache):
                 rleak=True,
             )
             if name == "v1":
-                baca.mspanners.scp(
+                baca.spanners.scp(
                     o.plts(),
                     "P -> T ->",
-                    do_not_rleak=True,
                     staff_padding=5.5,
                 )
             elif name == "v2":
-                baca.mspanners.scp(
+                baca.spanners.scp(
                     [o.pleaves()],
                     "P -> T",
-                    do_not_rleak=True,
                     staff_padding=5.5,
                 )
             elif name == "va":
-                baca.mspanners.scp(
+                baca.spanners.scp(
                     o.plts(),
                     "P -> T ->",
-                    do_not_rleak=True,
                     staff_padding=5.5,
                 )
             baca.stem_tremolo(o.pleaves())
@@ -865,10 +861,9 @@ def v1_v2_va(cache):
                 "p-- !>o!",
                 rleak=True,
             )
-            baca.mspanners.scp(
+            baca.spanners.scp(
                 o.plts(),
                 "P -> T ->",
-                do_not_rleak=True,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())
@@ -1011,10 +1006,11 @@ def v2(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             baca.select.mgroups(o.rleaves(), [2, 1]),
             "T -> poco P =|",
             do_not_bookend=True,
+            rleak=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())
@@ -1150,10 +1146,11 @@ def va(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
             rleak=True,
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             baca.select.mgroups(o, [3, 1]),
             "T -> poco P =|",
             do_not_bookend=True,
+            rleak=True,
             staff_padding=5.5,
         )
         baca.stem_tremolo(o.pleaves())

@@ -394,10 +394,9 @@ def tutti(cache):
             baca.hairpin(o, "pp<mf", rleak=True)
             baca.override.hairpin_shorten_pair(o, (0, 5))
             baca.untie(o.leaves())
-            baca.mspanners.scp(
+            baca.spanners.scp(
                 o.plts(),
                 "T -> P ->",
-                do_not_rleak=True,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o.pleaves())

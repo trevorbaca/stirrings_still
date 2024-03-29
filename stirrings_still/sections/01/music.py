@@ -1007,10 +1007,11 @@ def vc(cache):
             "D2",
             hide_middle_stems=True,
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             o,
             "tasto (T) =|",
             left_broken_text=r"\baca-left-broken-t-markup",
+            rleak=True,
             staff_padding=5.5,
         )
         library.urtext_spanner(o, "urtext (field) -|", 8)
