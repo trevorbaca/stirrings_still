@@ -427,16 +427,18 @@ def v2(cache):
             "o< mp--!",
             rleak=True,
         )
-        baca.mspanners.text(
+        baca.spanners.text(
             o,
             "2° =|",
             lilypond_id=1,
+            rleak=True,
             staff_padding=8,
         )
-        baca.mspanners.text(
+        baca.spanners.text(
             baca.select.mgroups(o, [3, 5]),
             "rasp -> flaut. =|",
             do_not_bookend=True,
+            rleak=True,
             staff_padding=5.5,
         )
         library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
@@ -450,13 +452,14 @@ def v2(cache):
             rleak=True,
         )
     with baca.scope(m.get(9, 16)) as o:
-        baca.mspanners.text(
+        baca.spanners.text(
             baca.select.mgroups(o, [1, 1, 2, 2, 2]),
             "flaut. (2°) -> ord. ->"
             r" \baca-circle-tight-markup ->"
             r" \baca-circle-mod-markup ->"
             r" \baca-circle-wide-markup =|",
             do_not_bookend=True,
+            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(11, 14)) as o:
@@ -617,9 +620,10 @@ def vc(cache):
     with baca.scope(m.get(9, 16)) as o:
         baca.hairpin(o, "(mp)<ff", rleak=True)
     with baca.scope(m.get(9, 27)) as o:
-        baca.mspanners.text(
+        baca.spanners.text(
             baca.select.mgroups(o, [8, 6, 5]),
             "no overpressure -> molto overpressure =|" " (molto) -> no overpressure.",
+            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(23, 31)) as o:
@@ -731,10 +735,11 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 rleak=True,
             )
-            baca.mspanners.text(
+            baca.spanners.text(
                 baca.select.mgroups(o, [1, 1]),
                 r"\baca-circle-very-wide-markup -> \baca-circle-tight-markup =|",
                 do_not_bookend=True,
+                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(38, 40)) as o:
@@ -744,10 +749,11 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 rleak=True,
             )
-            baca.mspanners.text(
+            baca.spanners.text(
                 baca.select.mgroups(o, [1, 2]),
                 r"\baca-circle-wide-markup -> \baca-circle-tight-markup =|",
                 do_not_bookend=True,
+                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(42, 45)) as o:
@@ -757,10 +763,11 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 rleak=True,
             )
-            baca.mspanners.text(
+            baca.spanners.text(
                 baca.select.mgroups(o, [2, 2]),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 do_not_bookend=True,
+                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(47, 51)) as o:
@@ -789,10 +796,11 @@ def v1_v2_va(cache):
                     abjad.Tweak(r"- \tweak padding 1"),
                 )
                 baca.glissando(o, "Bqf3")
-            baca.mspanners.text(
+            baca.spanners.text(
                 baca.select.mgroups(o, [3, 2]),
                 r"\baca-circle-very-tight-markup -> \baca-circle-wide-markup =|",
                 do_not_bookend=True,
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.override.tuplet_bracket_direction_down(o)
@@ -878,13 +886,14 @@ def v1_va(cache):
     for name in ["v1", "va"]:
         m = cache[name]
         with baca.scope(m.get(7, 16)) as o:
-            baca.mspanners.text(
+            baca.spanners.text(
                 baca.select.mgroups(o, [2, 2, 2, 4]),
                 r"\baca-circle-very-tight-markup ->"
                 r" \baca-circle-tight-markup ->"
                 r" \baca-circle-mod-markup ->"
                 r" \baca-circle-wide-markup =|",
                 do_not_bookend=True,
+                rleak=True,
                 staff_padding=5.5,
             )
 
@@ -984,16 +993,18 @@ def tutti(cache):
                     abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
                 )
             if name in ("v1", "va", "vc"):
-                baca.mspanners.text(
+                baca.spanners.text(
                     o,
                     "2° =|",
                     lilypond_id=1,
+                    rleak=True,
                     staff_padding=8,
                 )
-                baca.mspanners.text(
+                baca.spanners.text(
                     baca.select.mgroups(o, [3, 2]),
                     "rasp -> flaut. =|",
                     do_not_bookend=True,
+                    rleak=True,
                     staff_padding=5.5,
                 )
                 library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
@@ -1017,16 +1028,18 @@ def tutti(cache):
                 "vc": "Ab2",
             }[name]
             baca.glissando(o, pitch)
-            baca.mspanners.text(
+            baca.spanners.text(
                 o,
                 "2° =|",
                 lilypond_id=1,
+                rleak=True,
                 staff_padding=8,
             )
-            baca.mspanners.text(
+            baca.spanners.text(
                 baca.select.mgroups(o, [1, 1]),
                 "rasp -> poco rasp =|",
                 do_not_bookend=True,
+                rleak=True,
                 staff_padding=5.5,
             )
             library.urtext_spanner(o, "urtext (rasp) -|", 10.5)
