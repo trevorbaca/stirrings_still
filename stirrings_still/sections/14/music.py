@@ -602,8 +602,9 @@ def vc(cache):
             "p-- !>o!",
             rleak=True,
         )
-        baca.rspanners.tasto(
+        baca.spanners.tasto(
             o,
+            rleak=True,
             staff_padding=3,
         )
         baca.mspanners.text(

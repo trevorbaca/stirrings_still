@@ -525,8 +525,9 @@ def v1_v2(cache):
     for name in ["v1", "v2"]:
         m = cache[name]
         with baca.scope(m.get(67, 85)) as o:
-            baca.rspanners.tasto(
+            baca.spanners.tasto(
                 o,
+                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(86, 92)) as o:
@@ -564,8 +565,9 @@ def v1_v2_va(cache):
                     "p<| mp p< mp",
                 )
                 baca.stop_on_string(o.pleaf(-1))
-                baca.rspanners.tasto(
+                baca.spanners.tasto(
                     o,
+                    rleak=True,
                     staff_padding=5.5,
                 )
                 library.breathe(o.pleaf(1))
@@ -577,8 +579,9 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 rleak=True,
             )
-            baca.rspanners.tasto(
+            baca.spanners.tasto(
                 o,
+                rleak=True,
                 staff_padding=5.5,
             )
             library.urtext_spanner(o, "urtext (cds) -|", 8)
@@ -802,8 +805,9 @@ def va(cache):
     with baca.scope(m[65]) as o:
         baca.clef(o.leaf(0), "alto")
     with baca.scope(m.get(67, 89)) as o:
-        baca.rspanners.tasto(
+        baca.spanners.tasto(
             o,
+            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(90, 93)) as o:

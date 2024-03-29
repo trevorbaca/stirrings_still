@@ -203,8 +203,9 @@ def v1_va_vc(cache):
                     o.pleaf(0),
                     r"\stirrings-still-seven-plus-nine-of-e-markup",
                 )
-                baca.rspanners.tasto(
+                baca.spanners.tasto(
                     o,
+                    rleak=True,
                     staff_padding=5.5,
                 )
             elif name == "va":
@@ -213,8 +214,9 @@ def v1_va_vc(cache):
                     r"\stirrings-still-eleven-plus-three-of-e-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.rspanners.tasto(
+                baca.spanners.tasto(
                     o,
+                    rleak=True,
                     staff_padding=5.5,
                 )
             baca.hairpin(

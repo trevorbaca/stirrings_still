@@ -747,8 +747,9 @@ def v1(cache):
         cache.rebuild()
         m = cache["v1"]
     with baca.scope(m[26]) as o:
-        baca.rspanners.tasto(
+        baca.spanners.tasto(
             o,
+            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(29, 30)) as o:
@@ -838,8 +839,9 @@ def v1_v2_va(cache):
                 abjad.Tweak(r"- \tweak to-barline ##t"),
                 rleak=True,
             )
-            baca.rspanners.tasto(
+            baca.spanners.tasto(
                 o,
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.stem_tremolo(o)
@@ -849,8 +851,9 @@ def v1_v2_va(cache):
         with baca.scope(m[64]) as o:
             library.urtext_spanner(o, "urtext (cds) -|", 8)
             baca.dynamic(o.phead(0), "p")
-            baca.rspanners.tasto(
+            baca.spanners.tasto(
                 o,
+                rleak=True,
                 staff_padding=5.5,
             )
             for plt in abjad.select.get(baca.select.plts(o), [1], 2):
@@ -1154,8 +1157,9 @@ def v2(cache, time_signatures):
             "Bb4/5 D5/5 C5/5 Eb5/5 D5/5 F5/5 Eb5/4 G5",
         )
     with baca.scope(m.get(18, 27)) as o:
-        baca.rspanners.tasto(
+        baca.spanners.tasto(
             o,
+            rleak=True,
             staff_padding=4 + 6.5 + 2.5,
         )
     with baca.scope(m[26]) as o:
@@ -1333,8 +1337,9 @@ def va(cache):
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
     with baca.scope(m.get(23, 27)) as o:
-        baca.rspanners.tasto(
+        baca.spanners.tasto(
             o,
+            rleak=True,
             staff_padding=4 + 6.5 + 2.5,
         )
         baca.override.tuplet_bracket_staff_padding(o, 1.5)
@@ -1524,8 +1529,9 @@ def vc(cache):
             "(p)< mf--!",
             abjad.Tweak(r"- \tweak to-barline ##t"),
         )
-        baca.rspanners.tasto(
+        baca.spanners.tasto(
             o,
+            rleak=True,
             staff_padding=4 + 6.5 + 2.5,
         )
         library.bcps(o, 0, clt=True, staff_padding=4)
@@ -1550,8 +1556,9 @@ def vc(cache):
             rleak=True,
             staff_padding=4 + 6.5,
         )
-        baca.rspanners.tasto(
+        baca.spanners.tasto(
             o,
+            rleak=True,
             staff_padding=4 + 6.5 + 2.5,
         )
         library.bcps(o, -2, clt=True, staff_padding=4)

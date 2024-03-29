@@ -117,7 +117,7 @@ def vc(cache):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 8)
     with baca.scope(m.get(1, 12)) as o:
-        baca.rspanners.ottava(o.tleaves(), -1)
+        baca.spanners.ottava(o.tleaves(), -1, rleak=True)
         baca.glissando(o, "B0", hide_middle_stems=True)
     with baca.scope(m.get(9, 12)) as o:
         baca.hairpin(o, "pp>o!", rleak=True)

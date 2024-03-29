@@ -503,8 +503,9 @@ def v1(cache):
             r"\stirrings-still-seven-plus-nine-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.rspanners.tasto(
+        baca.spanners.tasto(
             o,
+            rleak=True,
             staff_padding=5.5,
         )
         library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
@@ -617,8 +618,9 @@ def va(cache):
             r"\stirrings-still-eleven-plus-three-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.rspanners.tasto(
+        baca.spanners.tasto(
             o,
+            rleak=True,
             staff_padding=5.5,
         )
         library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
@@ -647,8 +649,9 @@ def v1_v2_va(cache):
         with baca.scope(m.get(1, 69)) as o:
             baca.override.tuplet_bracket_direction_down(o)
         with baca.scope(m[5]) as o:
-            baca.rspanners.tasto(
+            baca.spanners.tasto(
                 o,
+                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(60, 61)) as o:
