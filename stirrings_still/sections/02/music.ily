@@ -2591,7 +2591,9 @@ number.2.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
       %! REAPPLIED_INSTRUMENT_ALERT
     %@% ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -2668,7 +2670,9 @@ number.2.Violin.1.Music = {
     }
 
     % [Violin.1.Music measure 3]
-    r2..
+    R1 * 7/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"7" #"8"
       %! SPANNER_STOP
     \!
 

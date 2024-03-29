@@ -3202,7 +3202,9 @@ number.4.Violin.1.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-    r2
+    R1 * 10/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"10" #"16"
       %! REAPPLIED_INSTRUMENT_ALERT
     %@% ^ \baca-reapplied-instrument-markup "(“ViolinI”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -3212,8 +3214,6 @@ number.4.Violin.1.Music = {
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup %@%
-
-    r8
 
     % [Violin.1.Music measure 2]
     d''4
@@ -3257,7 +3257,9 @@ number.4.Violin.1.Music = {
     \revert NoteHead.transparent
 
     % [Violin.1.Music measure 3]
-    r2.
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Violin.1.Music measure 4]
     d''4
@@ -3284,7 +3286,9 @@ number.4.Violin.1.Music = {
     \revert NoteHead.transparent
 
     % [Violin.1.Music measure 5]
-    r2
+    R1 * 8/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"8" #"16"
 
     % [Violin.1.Music measure 6]
     d''4
@@ -3309,7 +3313,9 @@ number.4.Violin.1.Music = {
     \revert NoteHead.transparent
 
     % [Violin.1.Music measure 7]
-    r1
+    R1 * 16/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"16" #"16"
 
     % [Violin.1.Music measure 8]
     dqs''!4
@@ -3339,7 +3345,9 @@ number.4.Violin.1.Music = {
     \revert NoteHead.transparent
 
     % [Violin.1.Music measure 9]
-    r2..
+    R1 * 14/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"14" #"16"
 
     % [Violin.1.Music measure 10]
     dqs''!4.
@@ -3358,7 +3366,9 @@ number.4.Violin.1.Music = {
     - \baca-stop-on-string
 
     % [Violin.1.Music measure 11]
-    r2.
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Violin.1.Music measure 12]
     dqs''!4
@@ -3390,7 +3400,9 @@ number.4.Violin.1.Music = {
     \revert NoteHead.transparent
 
     % [Violin.1.Music measure 13]
-    r2..
+    R1 * 14/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"14" #"16"
 
     % [Violin.1.Music measure 14]
     dqs''!4
@@ -3420,7 +3432,9 @@ number.4.Violin.1.Music = {
     \revert NoteHead.transparent
 
     % [Violin.1.Music measure 15]
-    r1
+    R1 * 16/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"16" #"16"
 
     % [Violin.1.Music measure 16]
     dqs''!4
@@ -3450,7 +3464,9 @@ number.4.Violin.1.Music = {
     \revert NoteHead.transparent
 
     % [Violin.1.Music measure 17]
-    r2.
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Violin.1.Music measure 18]
     dqs''!4
@@ -3476,7 +3492,9 @@ number.4.Violin.1.Music = {
     \revert NoteHead.transparent
 
     % [Violin.1.Music measure 19]
-    r2..
+    R1 * 14/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"14" #"16"
 
     % [Violin.1.Music measure 20]
     ef''!4
@@ -3506,7 +3524,9 @@ number.4.Violin.1.Music = {
     \revert NoteHead.transparent
 
     % [Violin.1.Music measure 21]
-    r1
+    R1 * 16/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"16" #"16"
 
     % [Violin.1.Music measure 22]
     ef''!4
@@ -3536,9 +3556,9 @@ number.4.Violin.1.Music = {
     \revert NoteHead.transparent
 
     % [Violin.1.Music measure 23]
-    r2
-
-    r8
+    R1 * 10/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"10" #"16"
 
     % [Violin.1.Music measure 24]
     ef''!4
@@ -3570,7 +3590,9 @@ number.4.Violin.1.Music = {
     \revert NoteHead.transparent
 
     % [Violin.1.Music measure 25]
-    r2.
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Violin.1.Music measure 26]
     ef''!4.
@@ -3589,7 +3611,9 @@ number.4.Violin.1.Music = {
     :32
 
     % [Violin.1.Music measure 27]
-    r2.
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Violin.1.Music measure 28]
     ef''!4
@@ -3621,9 +3645,9 @@ number.4.Violin.1.Music = {
     \revert NoteHead.transparent
 
     % [Violin.1.Music measure 29]
-    r2
-
-    r8
+    R1 * 10/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"10" #"16"
 
     % [Violin.1.Music measure 30]
     ef''!4
@@ -3655,7 +3679,9 @@ number.4.Violin.1.Music = {
     \revert NoteHead.transparent
 
     % [Violin.1.Music measure 31]
-    r2.
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Violin.1.Music measure 32]
     ef''!4.
@@ -3674,7 +3700,9 @@ number.4.Violin.1.Music = {
     - \baca-stop-on-string
 
     % [Violin.1.Music measure 33]
-    r1
+    R1 * 16/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"16" #"16"
 
     % [Violin.1.Music measure 34]
     ef''!4
@@ -3699,7 +3727,9 @@ number.4.Violin.1.Music = {
     \revert NoteHead.transparent
 
     % [Violin.1.Music measure 35]
-    r2..
+    R1 * 14/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"14" #"16"
 
     % [Violin.1.Music measure 36]
     ef''!4
@@ -5567,7 +5597,9 @@ number.4.Violin.2.Music = {
     r4
 
     % [Violin.2.Music measure 12]
-    r2.
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Violin.2.Music measure 13]
     dqs''!4
@@ -5661,9 +5693,9 @@ number.4.Violin.2.Music = {
     r4
 
     % [Violin.2.Music measure 18]
-    r2
-
-    r8
+    R1 * 10/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"10" #"16"
 
     % [Violin.2.Music measure 19]
     dqs''!4
@@ -5720,7 +5752,9 @@ number.4.Violin.2.Music = {
     \revert NoteHead.transparent
 
     % [Violin.2.Music measure 21]
-    r1
+    R1 * 16/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"16" #"16"
 
     % [Violin.2.Music measure 22]
     dqs''!4
@@ -5773,7 +5807,9 @@ number.4.Violin.2.Music = {
     \revert NoteHead.transparent
 
     % [Violin.2.Music measure 24]
-    r2.
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Violin.2.Music measure 25]
     ef''!4
@@ -5821,7 +5857,9 @@ number.4.Violin.2.Music = {
     :32
 
     % [Violin.2.Music measure 27]
-    r2.
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Violin.2.Music measure 28]
     ef''!4
@@ -5876,7 +5914,9 @@ number.4.Violin.2.Music = {
     \revert NoteHead.transparent
 
     % [Violin.2.Music measure 30]
-    r2.
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Violin.2.Music measure 31]
     ef''!4
@@ -5919,7 +5959,9 @@ number.4.Violin.2.Music = {
     - \baca-stop-on-string
 
     % [Violin.2.Music measure 33]
-    r1
+    R1 * 16/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"16" #"16"
 
     % [Violin.2.Music measure 34]
     ef''!4
@@ -5966,7 +6008,9 @@ number.4.Violin.2.Music = {
     \revert NoteHead.transparent
 
     % [Violin.2.Music measure 36]
-    r1
+    R1 * 16/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"16" #"16"
 
     <<
 
@@ -7558,7 +7602,9 @@ number.4.Viola.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-    r2
+    R1 * 10/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"10" #"16"
       %! REAPPLIED_INSTRUMENT_ALERT
     %@% ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -7569,14 +7615,10 @@ number.4.Viola.Music = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \stirrings-still-va-markup %@%
 
-    r8
-
     % [Viola.Music measure 2]
-    r8
-
-    r2
-
-    r8
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Viola.Music measure 3]
     r8
@@ -7611,12 +7653,14 @@ number.4.Viola.Music = {
     r8
 
     % [Viola.Music measure 4]
-    r2.
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Viola.Music measure 5]
-    r8
-
-    r4.
+    R1 * 8/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"8" #"16"
 
     % [Viola.Music measure 6]
     r8
@@ -7771,7 +7815,9 @@ number.4.Viola.Music = {
     \revert NoteHead.transparent
 
     % [Viola.Music measure 13]
-    r2..
+    R1 * 14/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"14" #"16"
 
     % [Viola.Music measure 14]
     r8
@@ -7897,7 +7943,9 @@ number.4.Viola.Music = {
     \revert NoteHead.transparent
 
     % [Viola.Music measure 19]
-    r2..
+    R1 * 14/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"14" #"16"
 
     % [Viola.Music measure 20]
     r8
@@ -8025,7 +8073,9 @@ number.4.Viola.Music = {
     \revert NoteHead.transparent
 
     % [Viola.Music measure 25]
-    r2.
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Viola.Music measure 26]
     dqs''!4
@@ -8141,7 +8191,9 @@ number.4.Viola.Music = {
     \revert NoteHead.transparent
 
     % [Viola.Music measure 32]
-    r2
+    R1 * 8/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"8" #"16"
 
     % [Viola.Music measure 33]
     ef''!4
@@ -8166,7 +8218,9 @@ number.4.Viola.Music = {
     \revert NoteHead.transparent
 
     % [Viola.Music measure 34]
-    r2..
+    R1 * 14/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"14" #"16"
 
     % [Viola.Music measure 35]
     ef''!4
@@ -8191,7 +8245,9 @@ number.4.Viola.Music = {
     \revert NoteHead.transparent
 
     % [Viola.Music measure 36]
-    r1
+    R1 * 16/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"16" #"16"
 
     <<
 
@@ -9799,7 +9855,9 @@ number.4.Cello.Music = {
     r8
 
     % [Cello.Music measure 3]
-    r2.
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Cello.Music measure 4]
     r8
@@ -9822,12 +9880,14 @@ number.4.Cello.Music = {
     \revert NoteHead.transparent
 
     % [Cello.Music measure 5]
-    r2
+    R1 * 8/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"8" #"16"
 
     % [Cello.Music measure 6]
-    r4
-
-    r2.
+    R1 * 16/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"16" #"16"
 
     % [Cello.Music measure 7]
     d''4.
@@ -9848,11 +9908,9 @@ number.4.Cello.Music = {
     r2
 
     % [Cello.Music measure 8]
-    r4
-
-    r2
-
-    r8
+    R1 * 14/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"14" #"16"
 
     % [Cello.Music measure 9]
     r8
@@ -9891,14 +9949,14 @@ number.4.Cello.Music = {
     r4
 
     % [Cello.Music measure 11]
-    r2
-
-    r8
-
-    r8
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Cello.Music measure 12]
-    r2.
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Cello.Music measure 13]
     d''4
@@ -10275,7 +10333,9 @@ number.4.Cello.Music = {
     r2
 
     % [Cello.Music measure 31]
-    r2.
+    R1 * 12/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"12" #"16"
 
     % [Cello.Music measure 32]
     ef''!4.
@@ -10316,7 +10376,9 @@ number.4.Cello.Music = {
     \revert NoteHead.transparent
 
     % [Cello.Music measure 34]
-    r2..
+    R1 * 14/16
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"14" #"16"
 
     % [Cello.Music measure 35]
     ef''!4
