@@ -411,8 +411,9 @@ def v1(cache):
         with baca.scope(m.get(item)) as o:
             baca.glissando(o, "Db5 B4")
     with baca.scope(m.get(52, 55)) as o:
-        baca.rspanners.tasto(
+        baca.spanners.tasto(
             o,
+            rleak=True,
             staff_padding=5.5,
         )
 
@@ -490,8 +491,9 @@ def v2(cache):
         baca.override.tuplet_number_denominator(o)
     for n in [52, 55]:
         with baca.scope(m[n]) as o:
-            baca.rspanners.tasto(
+            baca.spanners.tasto(
                 o,
+                rleak=True,
                 staff_padding=5.5,
             )
     with baca.scope(m.get(53, 54)) as o:
@@ -553,8 +555,9 @@ def va(cache):
         with baca.scope(m.get(item)) as o:
             baca.glissando(o, "B4")
     with baca.scope(m.get(52, 55)) as o:
-        baca.rspanners.tasto(
+        baca.spanners.tasto(
             o,
+            rleak=True,
             staff_padding=5.5,
         )
 
@@ -904,8 +907,9 @@ def v1_va_vc(cache):
                     r"\stirrings-still-seven-plus-nine-of-e-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.rspanners.tasto(
+                baca.spanners.tasto(
                     o,
+                    rleak=True,
                     staff_padding=5.5,
                 )
             elif name == "va":
@@ -914,8 +918,9 @@ def v1_va_vc(cache):
                     r"\stirrings-still-eleven-plus-three-of-e-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.rspanners.tasto(
+                baca.spanners.tasto(
                     o,
+                    rleak=True,
                     staff_padding=5.5,
                 )
             baca.hairpin(

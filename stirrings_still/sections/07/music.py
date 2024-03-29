@@ -329,8 +329,9 @@ def v1(cache):
             m = cache["v1"]
         with baca.scope(m[n]) as o:
             baca.dynamic(o.phead(0), "mp")
-            baca.rspanners.tasto(
+            baca.spanners.tasto(
                 o,
+                rleak=True,
                 staff_padding=5.5,
             )
             library.urtext_spanner(o, "urtext (double stop) -|", 8)
@@ -442,8 +443,9 @@ def v1_va_vc(cache):
                     r"\stirrings-still-seven-plus-nine-of-e-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.rspanners.tasto(
+                baca.spanners.tasto(
                     o,
+                    rleak=True,
                     staff_padding=5.5,
                 )
                 library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
@@ -453,8 +455,9 @@ def v1_va_vc(cache):
                     r"\stirrings-still-eleven-plus-three-of-e-markup",
                     abjad.Tweak(r"- \tweak padding 1.5"),
                 )
-                baca.rspanners.tasto(
+                baca.spanners.tasto(
                     o,
+                    rleak=True,
                     staff_padding=5.5,
                 )
                 library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
@@ -482,8 +485,9 @@ def v2(cache):
             m = cache["v2"]
         with baca.scope(m[n]) as o:
             baca.dynamic(o.phead(0), "mp")
-            baca.rspanners.tasto(
+            baca.spanners.tasto(
                 o,
+                rleak=True,
                 staff_padding=5.5,
             )
             library.urtext_spanner(o, "urtext (double stop) -|", 8)
@@ -523,8 +527,9 @@ def va(cache):
             m = cache["va"]
         with baca.scope(m[n]) as o:
             baca.dynamic(o.phead(0), "mp")
-            baca.rspanners.tasto(
+            baca.spanners.tasto(
                 o,
+                rleak=True,
                 staff_padding=5.5,
             )
             library.clouded_pane_spanner(o, "clouded pane (partial) -|", 8)
