@@ -806,16 +806,18 @@ def tutti(cache):
                 abjad.Tweak(r"- \tweak padding 1.5"),
                 direction=abjad.DOWN,
             )
-            baca.mspanners.text(
+            baca.spanners.text(
                 o,
                 "(2°) =|",
                 lilypond_id=1,
+                rleak=True,
                 staff_padding=8,
             )
-            baca.mspanners.text(
+            baca.spanners.text(
                 baca.select.mgroups(o, [1, 1]),
                 "rasp -> flaut. =|",
                 do_not_bookend=True,
+                rleak=True,
                 staff_padding=5.5,
             )
             library.urtext_spanner(
