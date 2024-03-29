@@ -192,9 +192,10 @@ def tutti(cache):
             baca.override.dls_staff_padding(o.leaves(), 6)
             baca.override.tuplet_bracket_direction_down(o.leaves())
         with baca.scope(m.get(12, 13)) as o:
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="tight-poss-grind-at-talon",
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.spanners.damp(

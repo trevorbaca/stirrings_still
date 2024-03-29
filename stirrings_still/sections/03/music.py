@@ -682,9 +682,10 @@ def tutti(cache):
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o.leaves(), 6)
         with baca.scope(m.get(1, 4)) as o:
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="tight-poss-grind-at-talon",
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.spanners.damp(
@@ -700,10 +701,11 @@ def tutti(cache):
                 rleak=True,
             )
         with baca.scope(m.get(7, 10)) as o:
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 qualifier="tight-poss-grind-at-talon",
+                rleak=True,
             )
             baca.spanners.damp(
                 baca.select.ltleaves(o),
@@ -760,15 +762,17 @@ def tutti(cache):
                 staff_padding=5.5,
             )
         with baca.scope(m.get(24, 27)) as o:
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(30, 33)) as o:
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.spanners.damp(
@@ -808,9 +812,10 @@ def tutti(cache):
                 "pp p mp mf f",
             )
         with baca.scope(m.get(36, 59)) as o:
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
                 staff_padding=5.5,
             )
         with baca.scope(m.get(56, 59)) as o:
@@ -822,9 +827,10 @@ def tutti(cache):
                 rleak=True,
             )
         with baca.scope(m.get(62, 69)) as o:
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.hairpin(

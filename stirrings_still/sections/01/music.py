@@ -592,9 +592,10 @@ def v1(cache):
         )
     for item in [(46, 50), 52, 54, 58]:
         with baca.scope(m.get(item)) as o:
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 o.ltleaves(),
                 qualifier="tight",
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.spanners.damp(
@@ -714,9 +715,10 @@ def v1_v2_va(cache):
                 "pp<| p pp<| mf",
             )
         with baca.scope(m[23]) as o:
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="mod-width",
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.hairpin(
@@ -732,9 +734,10 @@ def v1_v2_va(cache):
                 "pp<| p pp<| f",
             )
         with baca.scope(m[26]) as o:
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="wide",
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.hairpin(
@@ -754,10 +757,11 @@ def v1_v2_va(cache):
         with baca.scope(m[30]) as o:
             baca.dynamic(o.phead(0), "ppp")
         with baca.scope(m.get(30, 45)) as o:
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 abjad.Tweak(r"- \tweak bound-details.right.padding 1.25"),
                 qualifier="very-wide",
+                rleak=True,
                 staff_padding=5.5,
             ),
         with baca.scope(m.get(41, 45)) as o:
@@ -820,9 +824,10 @@ def tutti(cache):
                 10.5,
             )
         with baca.scope(m[62]) as o:
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="very-tight",
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.spanners.damp(
@@ -889,9 +894,10 @@ def v2(cache):
     for item in [(46, 50), 52, 54, 58]:
         with baca.scope(m.get(item)) as o:
             baca.glissando(o, "C4")
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="tight",
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.spanners.damp(
@@ -960,9 +966,10 @@ def va(cache):
     for item in [(46, 50), 52, 54, 58]:
         with baca.scope(m.get(item)) as o:
             baca.glissando(o, "Ab3")
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="tight",
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.spanners.damp(
@@ -1062,9 +1069,10 @@ def vc(cache):
     for item in [(46, 47), (49, 50), 52, 54, 58]:
         with baca.scope(m.get(item)) as o:
             baca.glissando(o, "G3")
-            baca.mspanners.circle_bow(
+            baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 qualifier="tight",
+                rleak=True,
                 staff_padding=5.5,
             )
             baca.spanners.damp(

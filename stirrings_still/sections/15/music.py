@@ -104,9 +104,10 @@ def v1(cache):
     name = "v1"
     m = cache[name]
     with baca.scope(m.get(1, 6)) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="granulation",
+            rleak=True,
             staff_padding=5.5,
         )
         baca.glissando(o, "Eb4")
@@ -117,9 +118,10 @@ def v1(cache):
             rleak=True,
         )
     with baca.scope(m[7]) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
             staff_padding=5.5,
         )
         baca.glissando(o, "Aqs4")
@@ -146,9 +148,10 @@ def v2(cache):
     name = "v2"
     m = cache[name]
     with baca.scope(m.get(1, 6)) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="granulation",
+            rleak=True,
             staff_padding=5.5,
         )
         baca.glissando(o, "D4")
@@ -159,9 +162,10 @@ def v2(cache):
             rleak=True,
         )
     with baca.scope(m[7]) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
             staff_padding=5.5,
         ),
         baca.glissando(o, "Eb4")
@@ -177,9 +181,10 @@ def va(cache):
     name = "va"
     m = cache[name]
     with baca.scope(m.get(1, 6)) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="granulation",
+            rleak=True,
             staff_padding=5.5,
         )
         baca.glissando(o, "G3")
@@ -190,9 +195,10 @@ def va(cache):
             rleak=True,
         )
     with baca.scope(m[7]) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="wide",
+            rleak=True,
             staff_padding=5.5,
         )
         baca.glissando(o, "Bqf3")
@@ -212,9 +218,10 @@ def vc(cache):
     name = "vc"
     m = cache[name]
     with baca.scope(m.get(1, 6)) as o:
-        baca.mspanners.circle_bow(
+        baca.spanners.circle_bow(
             baca.select.ltleaves(o),
             qualifier="granulation",
+            rleak=True,
             staff_padding=5.5,
         )
         baca.glissando(o, "Ab3")
