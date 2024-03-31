@@ -36,7 +36,7 @@ def main():
         855,
         859,  # S
     ]
-    layout = baca.layout.Layout(
+    breaks = baca.layout.Breaks(
         baca.layout.Page(
             1,
             baca.layout.System(1, y_offset=second_system_y_offset, distances=(30, 40)),
@@ -522,6 +522,8 @@ def main():
                 measure=856, y_offset=first_system_y_offset, distances=distances
             ),
         ),
+    )
+    spacing = baca.layout.Spacing(
         default_spacing=(1, 20),
         spacing_overrides=(
             # OVERRIDES
@@ -582,7 +584,7 @@ def main():
             baca.layout.Override(859, (1, 420)),
         ),
     )
-    baca.build.write_layout_ly(layout)
+    baca.build.write_layout_ly(breaks, spacing)
 
 
 if __name__ == "__main__":
