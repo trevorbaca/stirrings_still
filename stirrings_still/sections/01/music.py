@@ -1176,38 +1176,38 @@ def persist_score(score, environment):
 
 
 def make_layout():
-    layout = baca.make_layout(
-        baca.page(
+    layout = baca.layout.layout(
+        baca.layout.page(
             1,
-            baca.system(measure=1, y_offset=85, distances=(18, 28)),
-            baca.system(measure=12, y_offset=200, distances=(18, 28)),
+            baca.layout.System(1, y_offset=85, distances=(18, 28)),
+            baca.layout.System(12, y_offset=200, distances=(18, 28)),
         ),
-        baca.page(
+        baca.layout.page(
             2,
-            baca.system(measure=24, y_offset=30, distances=(20, 30)),
-            baca.system(measure=35, y_offset=175, distances=(20, 30)),
+            baca.layout.System(24, y_offset=30, distances=(20, 30)),
+            baca.layout.System(35, y_offset=175, distances=(20, 30)),
         ),
-        baca.page(
+        baca.layout.page(
             3,
-            baca.system(measure=50, y_offset=30, distances=(20, 30)),
+            baca.layout.System(50, y_offset=30, distances=(20, 30)),
         ),
-        spacing=(1, 20),
-        overrides=(
-            baca.region((1, 11), (1, 48)),
-            baca.region([2, 4, 7], (1, 4)),
-            baca.region([6, 9], (1, 20)),
-            baca.region((13, 16), (1, 12)),
-            baca.region((18, 22), (1, 48)),
-            baca.region(21, (1, 4)),
-            baca.region([25, 29], (1, 48)),
-            baca.region(42, (1, 32)),
-            baca.region(43, (1, 32)),
-            baca.region(48, (1, 32)),
-            baca.region(60, (1, 48)),
-            baca.region([10, 19, 24, 28, 61, 63], (1, 288)),
+        default_spacing=(1, 20),
+        spacing_overrides=(
+            baca.layout.Override((1, 11), (1, 48)),
+            baca.layout.Override([2, 4, 7], (1, 4)),
+            baca.layout.Override([6, 9], (1, 20)),
+            baca.layout.Override((13, 16), (1, 12)),
+            baca.layout.Override((18, 22), (1, 48)),
+            baca.layout.Override(21, (1, 4)),
+            baca.layout.Override([25, 29], (1, 48)),
+            baca.layout.Override(42, (1, 32)),
+            baca.layout.Override(43, (1, 32)),
+            baca.layout.Override(48, (1, 32)),
+            baca.layout.Override(60, (1, 48)),
+            baca.layout.Override([10, 19, 24, 28, 61, 63], (1, 288)),
         ),
     )
-    baca.section.make_layout_ly(layout)
+    baca.section.write_layout_ly(layout)
 
 
 def main():
