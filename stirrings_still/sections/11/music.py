@@ -1176,7 +1176,6 @@ def persist_score(score, environment):
         score,
         environment,
         library.manifests,
-        error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[54],
         global_rests_in_topmost_staff=True,
     )
