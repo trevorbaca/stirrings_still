@@ -874,7 +874,7 @@ def tutti(cache):
                 baca.select.mgroups(o, [3, 3]),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 # spanner terminates at double bar:
-                (abjad.Tweak(r"- \tweak bound-details.right.padding 7.75"), -1),
+                (baca.postevent.bound_details_right_padding(7.75), -1),
                 do_not_bookend=True,
                 rleak=True,
                 staff_padding=5.5,

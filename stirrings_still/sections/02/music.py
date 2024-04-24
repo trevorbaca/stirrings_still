@@ -800,7 +800,7 @@ def v1(cache):
             baca.spanners.scp(
                 baca.select.mgroups(u, [2, 4, 5]),
                 "P poss. =| P molto -> T =|",
-                (abjad.Tweak(r"- \tweak bound-details.right.padding 2.25"), 0),
+                (baca.postevent.bound_details_right_padding(2.25), 0),
                 library.left_broken_tasto_tweak(),
                 do_not_bookend=True,
                 rleak=True,

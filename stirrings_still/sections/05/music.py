@@ -819,7 +819,7 @@ def v1_v2_va(cache):
         with baca.scope(m.get(109, 110)) as o:
             baca.spanners.damp(
                 baca.select.tleaves(o),
-                abjad.Tweak(r"- \tweak bound-details.right.padding 7.75"),
+                baca.postevent.bound_details_right_padding(7.75),
                 rleak=True,
                 staff_padding=8,
             )
