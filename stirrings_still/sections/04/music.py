@@ -689,7 +689,7 @@ def tutti_1(cache):
             baca.spanners.damp(
                 baca.select.ltleaves(o),
                 # manual padding because spanner ends at volta
-                abjad.Tweak(r"- \tweak bound-details.right.padding 5.25"),
+                baca.postevent.bound_details_right_padding(5.25),
                 rleak=True,
                 staff_padding=5.5,
             )
@@ -796,7 +796,7 @@ def va(cache):
         )
         library.style_tailpiece_material(
             o,
-            abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
+            baca.postevent.bound_details_right_padding(1.5),
         )
     with baca.scope(m[57]) as o:
         baca.hairpin(
@@ -826,7 +826,7 @@ def va(cache):
         library.style_tailpiece_material(
             o,
             abjad.Tweak(r"- \tweak bound-details.right.Y 0"),
-            abjad.Tweak(r"- \tweak bound-details.right.padding 5.5"),
+            baca.postevent.bound_details_right_padding(5.5),
         )
 
 

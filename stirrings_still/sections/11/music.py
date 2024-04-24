@@ -554,7 +554,7 @@ def v1(cache):
             baca.select.cmgroups(o.rleaves(), [1, 1, 1, 1, 2, 1]),
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
-            abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
+            baca.postevent.bound_details_right_padding(1.5),
             do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
@@ -769,7 +769,7 @@ def v2(cache):
             baca.select.cmgroups(o.rleaves(), [1, 2, 1, 1, 1, 1]),
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
-            abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
+            baca.postevent.bound_details_right_padding(1.5),
             do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
@@ -863,7 +863,7 @@ def va(cache):
         library.style_tailpiece_material(
             o,
             abjad.Tweak(r"- \tweak bound-details.right.Y 0"),
-            abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
+            baca.postevent.bound_details_right_padding(1.5),
         )
     for item in [(12, 13), (16, 17)]:
         with baca.scope(m.get(item)) as o:
@@ -946,7 +946,7 @@ def va(cache):
             baca.select.cmgroups(o.rleaves(), [1, 1, 2, 1, 1, 1]),
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
-            abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
+            baca.postevent.bound_details_right_padding(1.5),
             do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
@@ -1107,7 +1107,7 @@ def vc(cache):
             baca.select.cmgroups(o.rleaves(), [1, 1, 1, 2, 1, 1]),
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
-            abjad.Tweak(r"- \tweak bound-details.right.padding 1.5"),
+            baca.postevent.bound_details_right_padding(1.5),
             do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,

@@ -268,7 +268,7 @@ def v1(cache):
         baca.spanners.text(
             [o],
             "slow bow -> stopped",
-            abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
+            baca.postevent.bound_details_right_padding(11),
             rleak=True,
             staff_padding=5.5,
         )
@@ -402,7 +402,7 @@ def v2(cache):
         baca.spanners.text(
             [o],
             "slow bow -> stopped",
-            abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
+            baca.postevent.bound_details_right_padding(11),
             rleak=True,
             staff_padding=5.5,
         )
@@ -505,7 +505,7 @@ def va(cache):
         baca.spanners.text(
             [o],
             "slow bow -> stopped",
-            abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
+            baca.postevent.bound_details_right_padding(11),
             rleak=True,
             staff_padding=5.5,
         )
@@ -608,7 +608,7 @@ def vc(cache):
         baca.spanners.text(
             [o],
             "slow bow -> stopped",
-            abjad.Tweak(r"- \tweak bound-details.right.padding 11"),
+            baca.postevent.bound_details_right_padding(11),
             rleak=True,
             staff_padding=5.5,
         )

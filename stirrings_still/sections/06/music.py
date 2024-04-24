@@ -158,7 +158,7 @@ def va(cache):
     with baca.scope(m.get(1, 10)) as o:
         library.style_tailpiece_material(
             o,
-            abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            baca.postevent.bound_details_right_padding(2),
         )
     with baca.scope(m[12]) as o:
         baca.staff_lines(o.leaf(0), 5)

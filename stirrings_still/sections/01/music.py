@@ -759,7 +759,7 @@ def v1_v2_va(cache):
         with baca.scope(m.get(30, 45)) as o:
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
-                abjad.Tweak(r"- \tweak bound-details.right.padding 1.25"),
+                baca.postevent.bound_details_right_padding(1.25),
                 qualifier="very-wide",
                 rleak=True,
                 staff_padding=5.5,
