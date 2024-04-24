@@ -202,7 +202,7 @@ def v1(cache):
             baca.markup(
                 o.pleaf(0),
                 r"\stirrings-still-twelve-et-markup",
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                baca.postevent.staff_padding(8),
             )
             baca.glissando(o, "D#4:A4")
     cache.rebuild()
@@ -223,7 +223,7 @@ def v1(cache):
         baca.markup(
             o.leaf(1),
             r"\stirrings-still-twelve-et-markup",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
         )
     with baca.scope(m.get(25, 28)) as o:
         baca.spanners.circle_bow(
@@ -329,7 +329,7 @@ def v2(cache):
             baca.markup(
                 o.pleaf(0),
                 r"\stirrings-still-twelve-et-markup",
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                baca.postevent.staff_padding(8),
             )
             baca.glissando(o, "Dqs4:Gtqs4")
     cache.rebuild()
@@ -353,7 +353,7 @@ def v2(cache):
         baca.markup(
             o.leaf(1),
             r"\stirrings-still-twenty-four-et-markup",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
         )
     with baca.scope(m.get(25, 28)) as o:
         baca.spanners.circle_bow(
@@ -408,7 +408,7 @@ def va(cache):
             baca.markup(
                 o.pleaf(0),
                 r"\stirrings-still-twelve-et-markup",
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                baca.postevent.staff_padding(8),
             )
             baca.glissando(o, "D4:G#4")
     cache.rebuild()
@@ -429,7 +429,7 @@ def va(cache):
         baca.markup(
             o.leaf(1),
             r"\stirrings-still-twelve-et-markup",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
         )
     with baca.scope(m.get(25, 28)) as o:
         baca.spanners.circle_bow(

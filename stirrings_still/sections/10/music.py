@@ -238,7 +238,7 @@ def tutti(cache):
             baca.markup(
                 o.pleaf(0),
                 r"\stirrings-still-third-time-no-breath-markup",
-                abjad.Tweak(r"- \tweak staff-padding 3"),
+                baca.postevent.staff_padding(3),
             )
         with baca.scope(m[13]) as o:
             if name in ("v1", "v2", "va"):
