@@ -213,7 +213,7 @@ def v1(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-twenty-four-et-markup",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
         )
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())
@@ -450,7 +450,7 @@ def va(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-twenty-four-et-markup",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
         )
     with baca.scope(m.get(23, 28)) as o:
         baca.accent(o.pheads())

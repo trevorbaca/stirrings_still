@@ -703,7 +703,7 @@ def tutti(cache):
         with baca.scope(m.get(7, 10)) as o:
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                baca.postevent.staff_padding(5.5),
                 qualifier="tight-poss-grind-at-talon",
                 rleak=True,
             )
