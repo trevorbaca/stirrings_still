@@ -173,19 +173,19 @@ def v1(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.markup(
             o.pleaf(0),
             r"\baca-nine-c",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
     for item in [(13, 16), (21, 24), (29, 32)]:
         with baca.scope(m.get(item)) as o:
             baca.markup(
                 o.pleaf(0),
                 r"\baca-nine-c",
-                abjad.Tweak(r"- \tweak padding 1.5"),
+                baca.postevent.padding(1.5),
             )
     for item in [(1, 8), (21, 25)]:
         with baca.scope(m.get(item)) as o:
@@ -301,18 +301,18 @@ def v2(cache):
                 baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
-                    abjad.Tweak(r"- \tweak padding 1.5"),
+                    baca.postevent.padding(1.5),
                 )
                 baca.markup(
                     o.pleaf(0),
                     r"\baca-eleven-c",
-                    abjad.Tweak(r"- \tweak padding 1.5"),
+                    baca.postevent.padding(1.5),
                 )
             else:
                 baca.markup(
                     o.pleaf(0),
                     r"\baca-eleven-c",
-                    abjad.Tweak(r"- \tweak padding 1.5"),
+                    baca.postevent.padding(1.5),
                 )
     for item in [(1, 8), (21, 25)]:
         with baca.scope(m.get(item)) as o:
@@ -385,13 +385,13 @@ def va(cache):
                 baca.markup(
                     o.pleaf(0),
                     r"\baca-thirteen-c",
-                    abjad.Tweak(r"- \tweak padding 1.5"),
+                    baca.postevent.padding(1.5),
                 )
             else:
                 baca.markup(
                     o.pleaf(0),
                     r"\baca-thirteen-c",
-                    abjad.Tweak(r"- \tweak padding 1.5"),
+                    baca.postevent.padding(1.5),
                 )
     for item in [(1, 8), (21, 25)]:
         with baca.scope(m.get(item)) as o:

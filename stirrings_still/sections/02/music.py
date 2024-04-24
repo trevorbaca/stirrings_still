@@ -55,12 +55,12 @@ def GLOBALS(skips, rests, first_measure_number):
     baca.markup(
         skips[28 - 1],
         r"\stirrings-still-text-eight",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.markup(
         skips[66 - 1],
         r"\stirrings-still-text-nine",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.open_volta(skips[29 - 1], first_measure_number)
     baca.close_volta(skips[32 - 1], first_measure_number)
@@ -697,7 +697,7 @@ def v1(cache):
             baca.hairpin(
                 o,
                 "mp--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
     with baca.scope(m.get(5, 7)) as o:
@@ -776,7 +776,7 @@ def v1(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-seven-plus-nine-of-e-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
             direction=abjad.DOWN,
         )
         baca.pitch(o, "F#4:Dqf5")
@@ -839,7 +839,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             baca.spanners.tasto(
@@ -867,21 +867,21 @@ def v1_v2_va(cache):
                 baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-seven-plus-nine-of-e-markup",
-                    abjad.Tweak(r"- \tweak padding 1.5"),
+                    baca.postevent.padding(1.5),
                 )
                 baca.glissando(o, "F#4:Dqf5")
             elif name == "v2":
                 baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-five-plus-thirteen-of-e-markup",
-                    abjad.Tweak(r"- \tweak padding 1.5"),
+                    baca.postevent.padding(1.5),
                 )
                 baca.glissando(o, "Cqs4:Ab4")
             elif name == "va":
                 baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-eleven-plus-three-of-e-markup",
-                    abjad.Tweak(r"- \tweak padding 1.5"),
+                    baca.postevent.padding(1.5),
                 )
                 baca.glissando(o, "B2:Aqs3")
             cache.rebuild()
@@ -898,7 +898,7 @@ def tutti(cache):
             baca.hairpin(
                 baca.select.mgroups(o, [1, 1]),
                 "ppp< mp--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             if name == "v1":
@@ -927,7 +927,7 @@ def tutti(cache):
             baca.markup(
                 o.pleaf(0),
                 r"\baca-string-iii-markup",
-                abjad.Tweak(r"- \tweak padding 1.5"),
+                baca.postevent.padding(1.5),
                 direction=abjad.DOWN,
             )
             baca.spanners.text(
@@ -949,7 +949,7 @@ def tutti(cache):
             baca.hairpin(
                 baca.select.mgroups(o, [1, 1]),
                 "pp< mf--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             if name == "v1":
@@ -972,7 +972,7 @@ def tutti(cache):
             baca.hairpin(
                 baca.select.mgroups(o, [1, 1]),
                 "p< f--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             if name == "v1":
@@ -1028,14 +1028,14 @@ def tutti(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
         with baca.scope(m[44]) as o:
             baca.hairpin(
                 abjad.select.partition_by_counts(o.rleaves(), [2], overhang=True),
                 "mf< ff--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
             )
             if name == "v1":
                 baca.spanners.scp(
@@ -1057,7 +1057,7 @@ def tutti(cache):
             baca.hairpin(
                 o,
                 "fff--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             if name == "v1":
@@ -1111,7 +1111,7 @@ def v2(cache, time_signatures):
         baca.hairpin(
             o,
             "mp--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m.get(1, 7)) as o:
@@ -1156,7 +1156,7 @@ def v2(cache, time_signatures):
         baca.hairpin(
             baca.select.mgroups(o, [6, 3, 5 + 1]),
             "p-- (p)< mf--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
         )
     with baca.scope(m.get(14, 15)) as o:
         baca.alternate_bow_strokes(o.pheads())
@@ -1197,7 +1197,7 @@ def v2(cache, time_signatures):
         baca.hairpin(
             o,
             "mf--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         library.bcps(
@@ -1241,7 +1241,7 @@ def v2(cache, time_signatures):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-five-plus-thirteen-of-e-markup",
-            abjad.Tweak(r"- \tweak padding 1"),
+            baca.postevent.padding(1),
         )
     with baca.scope(m.get(50, 51)) as o:
         baca.glissando(baca.select.rleak(o), "D4")
@@ -1283,7 +1283,7 @@ def va(cache):
         baca.hairpin(
             o,
             "mp--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m.get(1, 5)) as o:
@@ -1309,7 +1309,7 @@ def va(cache):
         baca.hairpin(
             baca.select.mgroups(o.rleaves(), [1, 1, 2]),
             "mf-- o< p--!",
-            (abjad.Tweak(r"- \tweak to-barline ##t"), -1),
+            (baca.postevent.to_bar_line_true(), -1),
         )
     with baca.scope(m.get(6, 7)) as o:
         baca.glissando(o, "Ab3")
@@ -1356,7 +1356,7 @@ def va(cache):
         baca.hairpin(
             baca.select.mgroups(o.rleaves(), [2, 1 + 1]),
             "o< mf--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
         )
     with baca.scope(m.get(23, 27)) as o:
         baca.spanners.tasto(
@@ -1382,7 +1382,7 @@ def va(cache):
         baca.hairpin(
             o,
             "mf--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m.get(29, 30)) as o:
@@ -1423,7 +1423,7 @@ def va(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-eleven-plus-three-of-e-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
     with baca.scope(m.get(50, 51)) as o:
         baca.glissando(baca.select.rleak(o), "D3")
@@ -1467,7 +1467,7 @@ def vc(cache):
         baca.hairpin(
             o,
             "mp--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m.get(1, 5)) as o:
@@ -1490,7 +1490,7 @@ def vc(cache):
         baca.hairpin(
             o,
             "mf--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m.get(6, 11)) as o:
@@ -1499,7 +1499,7 @@ def vc(cache):
         baca.hairpin(
             baca.select.mgroups(o.rleaves(), [4, 2 + 1]),
             "o< f--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
         )
         library.clouded_pane_spanner(o, "clouded pane -|", 5.5)
     with baca.scope(m.get(12, 15)) as o:
@@ -1519,7 +1519,7 @@ def vc(cache):
         baca.hairpin(
             o,
             "p--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m[15]) as o:
@@ -1552,7 +1552,7 @@ def vc(cache):
         baca.hairpin(
             baca.select.mgroups(o.rleaves(), [3, 3 + 1]),
             "(p)< mf--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
         )
         baca.spanners.tasto(
             o,
@@ -1573,7 +1573,7 @@ def vc(cache):
         baca.hairpin(
             o,
             "mf--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         baca.spanners.half_clt(
@@ -1615,7 +1615,7 @@ def vc(cache):
         baca.hairpin(
             o,
             "p--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 5.5)
@@ -1625,7 +1625,7 @@ def vc(cache):
         baca.hairpin(
             o,
             "p--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         baca.pitch(o, "E2")
@@ -1669,7 +1669,7 @@ def vc(cache):
         baca.hairpin(
             o,
             "p--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         baca.pitch(o, "E2")

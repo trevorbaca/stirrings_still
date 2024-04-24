@@ -45,17 +45,17 @@ def GLOBALS(skips, rests, first_measure_number):
     baca.markup(
         skips[11 - 1],
         r"\stirrings-still-text-ten",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.markup(
         skips[70 - 1],
         r"\stirrings-still-text-eleven",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.markup(
         skips[77 - 1],
         r"\stirrings-still-text-twelve",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.open_volta(skips[4 - 1], first_measure_number)
     baca.close_volta(skips[8 - 1], first_measure_number)
@@ -479,7 +479,7 @@ def v1(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         library.urtext_spanner(o, "urtext (ds) -|", 8)
     for item in [(12, 23), (30, 59)]:
@@ -495,13 +495,13 @@ def v1(cache):
         baca.hairpin(
             o,
             "pp--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-seven-plus-nine-of-e-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.spanners.tasto(
             o,
@@ -539,7 +539,7 @@ def v2(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         library.urtext_spanner(o, "urtext (ds) -|", 8)
     for item in [(12, 23), (30, 59)]:
@@ -557,7 +557,7 @@ def v2(cache):
         baca.hairpin(
             o,
             "mp--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         baca.spanners.half_clt(
@@ -590,7 +590,7 @@ def va(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-nine-plus-seven-of-b-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         library.clouded_pane_spanner(
             o,
@@ -610,13 +610,13 @@ def va(cache):
         baca.hairpin(
             o,
             "pp--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-eleven-plus-three-of-e-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.spanners.tasto(
             o,
@@ -670,7 +670,7 @@ def v1_v2_va(cache):
                 o,
                 "appena-udibile--!",
                 abjad.Tweak(r"- \tweak self-alignment-X #left"),
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             library.urtext_spanner(o, "urtext (ds field) -|", 5.5)
@@ -697,7 +697,7 @@ def tutti(cache):
             baca.hairpin(
                 o,
                 '"ff"--!',
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
         with baca.scope(m.get(7, 10)) as o:
@@ -715,7 +715,7 @@ def tutti(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
         with baca.scope(m.get(7, 10)) as o:
@@ -826,7 +826,7 @@ def tutti(cache):
             baca.hairpin(
                 baca.select.lleak(o),
                 '"ff"--!',
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
         with baca.scope(m.get(62, 69)) as o:
@@ -839,7 +839,7 @@ def tutti(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             pitch = {
@@ -913,7 +913,7 @@ def vc(cache):
         baca.hairpin(
             o,
             "pp--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 5.5)
@@ -923,7 +923,7 @@ def vc(cache):
         baca.hairpin(
             o,
             "p--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 5.5)

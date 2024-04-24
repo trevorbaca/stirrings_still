@@ -430,7 +430,7 @@ def v1(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-eleven-e",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.pitch(o, "Aqs5")
     with baca.scope(m.get(2, 9)) as o:
@@ -672,7 +672,7 @@ def tutti(cache):
             baca.hairpin(
                 o,
                 "mp--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             baca.stem_tremolo(o.pleaves())
@@ -684,7 +684,7 @@ def v2(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-nine-e",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.pitch(o, "F#5")
     with baca.scope(m.get(2, 13)) as o:
@@ -886,7 +886,7 @@ def va(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-five-e",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.pitch(o, "G#3")
     with baca.scope(m.get(2, 9)) as o:

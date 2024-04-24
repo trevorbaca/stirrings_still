@@ -54,17 +54,17 @@ def GLOBALS(skips, rests, first_measure_number):
     baca.markup(
         skips[37 - 1],
         r"\stirrings-still-text-thirteen",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.markup(
         skips[46 - 1],
         r"\stirrings-still-text-fourteen",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.markup(
         skips[64 - 1],
         r"\stirrings-still-text-fifteen",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.open_volta(skips[1 - 1], first_measure_number)
     baca.double_volta(skips[7 - 1], first_measure_number)
@@ -507,7 +507,7 @@ def v1(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-string-iv-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
             direction=abjad.DOWN,
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 1)
@@ -536,7 +536,7 @@ def v1_v2(cache):
             baca.hairpin(
                 baca.select.mgroups(o, [3, 4]),
                 "(p)< mp--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
         with baca.scope(m.get(90, 92)) as o:
@@ -578,7 +578,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             baca.spanners.tasto(
@@ -597,7 +597,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 baca.select.ltleaves(o),
                 "mp--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             if name == "v1":
@@ -606,21 +606,21 @@ def v1_v2_va(cache):
                 baca.markup(
                     o.pleaf(0),
                     r"\baca-thirteen-d-flat",
-                    abjad.Tweak(r"- \tweak padding 1.5"),
+                    baca.postevent.padding(1.5),
                 )
             elif name == "v2":
                 baca.glissando(o, "Eb4")
                 baca.markup(
                     o.pleaf(0),
                     r"\baca-nine-d-flat",
-                    abjad.Tweak(r"- \tweak padding 1.5"),
+                    baca.postevent.padding(1.5),
                 )
             elif name == "va":
                 baca.pitch(o, "Bqf3")
                 baca.markup(
                     o.pleaf(0),
                     r"\baca-seven-d-flat",
-                    abjad.Tweak(r"- \tweak padding 1.5"),
+                    baca.postevent.padding(1.5),
                 )
         with baca.scope(m[67]) as o:
             baca.dynamic(
@@ -665,7 +665,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             pitch, stop_pitch = {
@@ -791,7 +791,7 @@ def va(cache):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            baca.postevent.extra_offset((-2, 0)),
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
         )
         library.style_tailpiece_material(
@@ -802,7 +802,7 @@ def va(cache):
         baca.hairpin(
             o,
             "pp--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         baca.pitch(o, "Bb2")
@@ -843,7 +843,7 @@ def vc(cache):
         baca.hairpin(
             o,
             '"f"--!',
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         baca.spanners.half_clt(
@@ -854,7 +854,7 @@ def vc(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-string-iii-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
             direction=abjad.DOWN,
         )
         baca.override.note_head_style_harmonic(o.pleaves())
@@ -865,7 +865,7 @@ def vc(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             if item == (49, 50):
@@ -885,7 +885,7 @@ def vc(cache):
         baca.hairpin(
             baca.select.mgroups(o, [3, 4]),
             "(p)< fff--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m.get(94, 99)) as o:
@@ -910,14 +910,14 @@ def v1_stage_2(cache):
             baca.markup(
                 o.pleaf(0),
                 r"\stirrings-still-seven-plus-nine-of-e-markup",
-                abjad.Tweak(r"- \tweak padding 1.5"),
+                baca.postevent.padding(1.5),
             )
     with baca.scope(m.get(90, 92)) as o:
         baca.untie(o.pleaf(0))
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-three-plus-seven-of-f-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
     for item in [(90, 92), (94, 96)]:
         with baca.scope(m.get(item)) as o:
@@ -948,7 +948,7 @@ def v2_stage_2(cache):
             baca.markup(
                 o.pleaf(0),
                 r"\stirrings-still-five-plus-thirteen-of-e-markup",
-                abjad.Tweak(r"- \tweak padding 1.5"),
+                baca.postevent.padding(1.5),
             )
             baca.glissando(o, "Cqs4:Ab4")
             cache.rebuild()
@@ -958,7 +958,7 @@ def v2_stage_2(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-nine-plus-eleven-of-f-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
     for item in [(90, 92), (94, 96)]:
         with baca.scope(m.get(item)) as o:
@@ -974,7 +974,7 @@ def va_stage_2(cache):
             baca.markup(
                 o.pleaf(0),
                 r"\stirrings-still-eleven-plus-three-of-e-markup",
-                abjad.Tweak(r"- \tweak padding 1.5"),
+                baca.postevent.padding(1.5),
             )
             baca.glissando(o, "B2:Aqs3")
             cache.rebuild()
@@ -984,7 +984,7 @@ def va_stage_2(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-five-f-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
 
 

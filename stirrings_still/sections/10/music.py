@@ -149,7 +149,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "appena-udibile--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             library.urtext_spanner(o, "urtext (ds field) -|", 8)
@@ -159,7 +159,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 baca.select.mgroups(o, [2, 5]),
                 "appena-udibile-- !<fff-poco-scratch",
-                (abjad.Tweak(r"- \tweak to-barline ##t"), 0),
+                (baca.postevent.to_bar_line_true(), 0),
             )
         with baca.scope(m.get(5, 11)) as o:
             library.urtext_spanner(o, "urtext (ds field) -|", 8)
@@ -167,7 +167,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 baca.select.mgroups(o, [2, 4]),
                 '"fff"> pp--!',
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             baca.spanners.half_clt(
@@ -212,7 +212,7 @@ def v1_va_vc(cache):
                 baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-eleven-plus-three-of-e-markup",
-                    abjad.Tweak(r"- \tweak padding 1.5"),
+                    baca.postevent.padding(1.5),
                 )
                 baca.spanners.tasto(
                     o,
@@ -222,7 +222,7 @@ def v1_va_vc(cache):
             baca.hairpin(
                 o,
                 "pp--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             baca.override.tuplet_bracket_direction_down(o)
@@ -280,7 +280,7 @@ def v2(cache):
         baca.hairpin(
             o,
             "mp--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         baca.spanners.half_clt(
