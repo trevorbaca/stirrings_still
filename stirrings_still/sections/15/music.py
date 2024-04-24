@@ -25,7 +25,7 @@ def GLOBALS(skips, rests, first_measure_number):
     baca.markup(
         skips[8 - 1],
         r"\stirrings-still-text-twenty-four",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     time = (
         ("largo piu mosso", 1),
@@ -114,7 +114,7 @@ def v1(cache):
         baca.hairpin(
             o,
             '"mf"--!',
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m[7]) as o:
@@ -133,7 +133,7 @@ def v1(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-thirteen-d-flat",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
 
 
@@ -158,7 +158,7 @@ def v2(cache):
         baca.hairpin(
             o,
             '"mf"--!',
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m[7]) as o:
@@ -173,7 +173,7 @@ def v2(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-nine-d-flat",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
 
 
@@ -191,7 +191,7 @@ def va(cache):
         baca.hairpin(
             o,
             '"mf"--!',
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m[7]) as o:
@@ -210,7 +210,7 @@ def va(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-seven-d-flat",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
 
 
@@ -228,7 +228,7 @@ def vc(cache):
         baca.hairpin(
             o,
             '"mf"--!',
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m[7]) as o:
@@ -236,7 +236,7 @@ def vc(cache):
         baca.hairpin(
             o,
             "p--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         baca.spanners.half_clt(

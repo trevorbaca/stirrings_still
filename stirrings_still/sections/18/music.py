@@ -27,7 +27,7 @@ def GLOBALS(skips, rests, first_measure_number):
     baca.markup(
         skips[17 - 1],
         r"\stirrings-still-text-twenty-five",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.open_volta(skips[3 - 1], first_measure_number)
     baca.close_volta(skips[5 - 1], first_measure_number)

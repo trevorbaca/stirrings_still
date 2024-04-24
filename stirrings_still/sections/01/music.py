@@ -48,33 +48,33 @@ def GLOBALS(skips, rests, first_measure_number):
         skips[10 - 1],
         r"\stirrings-still-text-two",
         # -20 because first page compresses vertical spacing
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.markup(
         skips[19 - 1],
         r"\stirrings-still-text-three",
         # -20 because first page compresses vertical spacing
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.markup(
         skips[24 - 1],
         r"\stirrings-still-text-four",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.markup(
         skips[28 - 1],
         r"\stirrings-still-text-five",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.markup(
         skips[61 - 1],
         r"\stirrings-still-text-six",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.markup(
         skips[63 - 1],
         r"\stirrings-still-text-seven",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.open_volta(skips[44 - 1], first_measure_number)
     baca.close_volta(skips[49 - 1], first_measure_number)
@@ -578,7 +578,7 @@ def v1(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.spanners.tasto(
             o,
@@ -607,7 +607,7 @@ def v1(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
     with baca.scope(m.get(55, 56)) as o:
@@ -724,7 +724,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
         with baca.scope(m[25]) as o:
@@ -743,7 +743,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "pp--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
         with baca.scope(m[27]) as o:
@@ -797,13 +797,13 @@ def tutti(cache):
             baca.hairpin(
                 baca.select.mgroups(o, [1, 1]),
                 "o< mp--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
             baca.markup(
                 o.pleaf(0),
                 r"\baca-string-iii-markup",
-                abjad.Tweak(r"- \tweak padding 1.5"),
+                baca.postevent.padding(1.5),
                 direction=abjad.DOWN,
             )
             baca.spanners.text(
@@ -840,7 +840,7 @@ def tutti(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
 
@@ -885,7 +885,7 @@ def v2(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.spanners.tasto(
             o,
@@ -910,7 +910,7 @@ def v2(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
     with baca.scope(m.get(55, 56)) as o:
@@ -957,7 +957,7 @@ def va(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-nine-plus-seven-of-b-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.spanners.tasto(
             o,
@@ -982,7 +982,7 @@ def va(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
     with baca.scope(m.get(55, 56)) as o:
@@ -1050,7 +1050,7 @@ def vc(cache):
         baca.hairpin(
             baca.select.mgroups(o, [1, 1]),
             'o< "f"--!',
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         baca.spanners.half_clt(
@@ -1061,7 +1061,7 @@ def vc(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-string-iii-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
             direction=abjad.DOWN,
         )
         baca.override.note_head_style_harmonic(o.pleaves())
@@ -1086,7 +1086,7 @@ def vc(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                abjad.Tweak(r"- \tweak to-barline ##t"),
+                baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
     with baca.scope(m[48]) as o:
@@ -1096,7 +1096,7 @@ def vc(cache):
         baca.hairpin(
             o,
             '"f"--!',
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
         baca.spanners.half_clt(
@@ -1107,7 +1107,7 @@ def vc(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-string-iii-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
             direction=abjad.DOWN,
         )
         baca.override.note_head_style_harmonic(o.pleaves())

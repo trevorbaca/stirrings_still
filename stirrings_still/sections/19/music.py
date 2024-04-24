@@ -28,7 +28,7 @@ def GLOBALS(skips, rests, first_measure_number):
     baca.markup(
         skips[9 - 1],
         r"\stirrings-still-text-twenty-six",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -30)"),
+        baca.postevent.extra_offset((4, -30)),
     )
     baca.markup(
         skips[16 - 1],
@@ -233,21 +233,21 @@ def vc(cache):
         baca.hairpin(
             baca.select.mgroups(o, [1, 1]),
             "o< f--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m.get(6, 8)) as o:
         baca.hairpin(
             baca.select.mgroups(o, [1, 2]),
             "o< ff--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m.get(10, 15)) as o:
         baca.hairpin(
             baca.select.mgroups(o, [2, 4]),
             "o< fff--!",
-            abjad.Tweak(r"- \tweak to-barline ##t"),
+            baca.postevent.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m[20]) as o:
