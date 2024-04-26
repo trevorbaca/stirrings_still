@@ -271,10 +271,10 @@ def bcps(
     wrappers = baca.bcps(
         argument,
         bcps_,
-        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
+        baca.postevent.staff_padding(staff_padding),
         bow_change_tweaks=(
-            abjad.Tweak(r"- \tweak self-alignment-X #left"),
-            abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
+            baca.postevent.self_alignment_x("#left"),
+            baca.postevent.staff_padding(staff_padding + 2.5),
         ),
     )
     tag = baca.helpers.function_name(inspect.currentframe())
@@ -301,10 +301,10 @@ def cello_cell_bcps(argument, *, staff_padding=None):
     wrappers = baca.bcps(
         argument,
         bcps,
-        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
+        baca.postevent.staff_padding(staff_padding),
         bow_change_tweaks=(
-            abjad.Tweak(r"- \tweak self-alignment-X #left"),
-            abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
+            baca.postevent.self_alignment_x("#left"),
+            baca.postevent.staff_padding(staff_padding + 2.5),
         ),
     )
     tag = baca.helpers.function_name(inspect.currentframe())
@@ -1260,7 +1260,7 @@ def flight_spanner(o, string, staff_padding):
     wrappers = baca.spanners.material_annotation(
         o,
         string,
-        abjad.Tweak(r"- \tweak color #darkmagenta"),
+        baca.postevent.color("#darkmagenta"),
         rleak=True,
         staff_padding=staff_padding,
     )
@@ -1277,18 +1277,12 @@ def grouped_pheads(argument, start=0, stop=None):
 
 def left_broken_circle_bow_tweak():
     string = r"\baca-left-broken-circle-bowing-markup"
-    return (
-        abjad.Tweak(rf"- \tweak bound-details.left-broken.text {string}"),
-        -1,
-    )
+    return baca.postevent.bound_details_left_broken_text(string, index=-1)
 
 
 def left_broken_tasto_tweak():
     string = r"\baca-left-broken-t-markup"
-    return (
-        abjad.Tweak(rf"- \tweak bound-details.left-broken.text {string}"),
-        -1,
-    )
+    return baca.postevent.bound_details_left_broken_text(string, index=-1)
 
 
 def make_accelerando(time_signatures, start, stop):
@@ -3043,10 +3037,10 @@ def transition_bcps(argument, *, final_spanner=False, staff_padding=None):
     wrappers = baca.bcps(
         argument,
         bcps,
-        abjad.Tweak(rf"- \tweak staff-padding {staff_padding}"),
+        baca.postevent.staff_padding(staff_padding),
         bow_change_tweaks=(
-            abjad.Tweak(r"- \tweak self-alignment-X #left"),
-            abjad.Tweak(rf"- \tweak staff-padding {staff_padding + 2.5}"),
+            baca.postevent.self_alignment_x("#left"),
+            baca.postevent.staff_padding(staff_padding + 2.5),
         ),
         final_spanner=final_spanner,
         helper=helper,
@@ -3064,7 +3058,7 @@ def urtext_spanner(
     wrappers = baca.spanners.material_annotation(
         argument,
         string,
-        abjad.Tweak(r"- \tweak color #darkred"),
+        baca.postevent.color("#darkred"),
         rleak=True,
         staff_padding=staff_padding,
     )

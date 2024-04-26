@@ -33,17 +33,17 @@ def GLOBALS(skips, rests, first_measure_number):
     baca.markup(
         skips[16 - 1],
         r"\stirrings-still-text-twenty-seven",
-        abjad.Tweak(r"- \tweak extra-offset #'(4 . -50)"),
+        baca.postevent.extra_offset((4, -50)),
     )
     baca.markup(
         skips[20 - 1],
         r"\stirrings-still-text-twenty-eight",
-        abjad.Tweak(r"- \tweak extra-offset #'(9 . -75)"),
+        baca.postevent.extra_offset((9, -75)),
     )
     baca.markup(
         skips[20 - 1],
         r"\stirrings-still-text-twenty-nine",
-        abjad.Tweak(r"- \tweak extra-offset #'(28 . -100)"),
+        baca.postevent.extra_offset((28, -100)),
     )
     baca.bar_line(skips[20 - 1], "|.")
     time = (

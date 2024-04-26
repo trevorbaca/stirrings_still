@@ -862,7 +862,7 @@ def va(cache):
         )
         library.style_tailpiece_material(
             o,
-            abjad.Tweak(r"- \tweak bound-details.right.Y 0"),
+            baca.postevent.bound_details_right_y(0),
             baca.postevent.bound_details_right_padding(1.5),
         )
     for item in [(12, 13), (16, 17)]:

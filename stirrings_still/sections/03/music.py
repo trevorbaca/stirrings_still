@@ -669,7 +669,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "appena-udibile--!",
-                abjad.Tweak(r"- \tweak self-alignment-X #left"),
+                baca.postevent.self_alignment_x("#left"),
                 baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
@@ -867,7 +867,7 @@ def tutti(cache):
             baca.hairpin(
                 o,
                 "f>o!",
-                abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
+                baca.postevent.shorten_pair((0, 3.5)),
                 rleak=True,
             )
             baca.spanners.text(
