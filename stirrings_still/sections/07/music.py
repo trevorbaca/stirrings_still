@@ -362,7 +362,7 @@ def v1_v2_va(cache):
                 o,
                 "appena-udibile--!",
                 baca.postevent.to_bar_line_true(),
-                abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+                baca.postevent.self_alignment_x(-0.75),
                 rleak=True,
             )
             library.urtext_spanner(o, "urtext (ds field) -|", 8)

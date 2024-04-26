@@ -153,7 +153,7 @@ def va(cache):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            baca.postevent.self_alignment_x(-0.75),
         )
     with baca.scope(m.get(1, 10)) as o:
         library.style_tailpiece_material(

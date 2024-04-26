@@ -626,7 +626,7 @@ def v1_v2_va(cache):
             baca.dynamic(
                 o.phead(0),
                 "p-sempre",
-                abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+                baca.postevent.self_alignment_x(-0.75),
             )
         with baca.scope(m.get(67, 89)) as o:
             library.urtext_spanner(o, "urtext (resumes) -|", 8)
@@ -792,7 +792,7 @@ def va(cache):
             o.phead(0),
             '"mf"',
             baca.postevent.extra_offset((-2, 0)),
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
         )
         library.style_tailpiece_material(
             o,
@@ -821,7 +821,7 @@ def va(cache):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            baca.postevent.self_alignment_x(-0.75),
         )
         library.style_tailpiece_material(
             o,
