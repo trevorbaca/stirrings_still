@@ -28,22 +28,22 @@ def GLOBALS(skips, rests, first_measure_number):
     baca.markup(
         skips[9 - 1],
         r"\stirrings-still-text-twenty-six",
-        baca.postevent.extra_offset((4, -30)),
+        baca.tweak.extra_offset((4, -30)),
     )
     baca.markup(
         skips[16 - 1],
         r"\stirrings-still-text-twenty-seven",
-        baca.postevent.extra_offset((4, -50)),
+        baca.tweak.extra_offset((4, -50)),
     )
     baca.markup(
         skips[20 - 1],
         r"\stirrings-still-text-twenty-eight",
-        baca.postevent.extra_offset((9, -75)),
+        baca.tweak.extra_offset((9, -75)),
     )
     baca.markup(
         skips[20 - 1],
         r"\stirrings-still-text-twenty-nine",
-        baca.postevent.extra_offset((28, -100)),
+        baca.tweak.extra_offset((28, -100)),
     )
     baca.bar_line(skips[20 - 1], "|.")
     time = (
@@ -233,21 +233,21 @@ def vc(cache):
         baca.hairpin(
             baca.select.mgroups(o, [1, 1]),
             "o< f--!",
-            baca.postevent.to_bar_line_true(),
+            baca.tweak.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m.get(6, 8)) as o:
         baca.hairpin(
             baca.select.mgroups(o, [1, 2]),
             "o< ff--!",
-            baca.postevent.to_bar_line_true(),
+            baca.tweak.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m.get(10, 15)) as o:
         baca.hairpin(
             baca.select.mgroups(o, [2, 4]),
             "o< fff--!",
-            baca.postevent.to_bar_line_true(),
+            baca.tweak.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m[20]) as o:

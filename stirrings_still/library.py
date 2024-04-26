@@ -271,10 +271,10 @@ def bcps(
     wrappers = baca.bcps(
         argument,
         bcps_,
-        baca.postevent.staff_padding(staff_padding),
+        baca.tweak.staff_padding(staff_padding),
         bow_change_tweaks=(
-            baca.postevent.self_alignment_x("#left"),
-            baca.postevent.staff_padding(staff_padding + 2.5),
+            baca.tweak.self_alignment_x("#left"),
+            baca.tweak.staff_padding(staff_padding + 2.5),
         ),
     )
     tag = baca.helpers.function_name(inspect.currentframe())
@@ -301,10 +301,10 @@ def cello_cell_bcps(argument, *, staff_padding=None):
     wrappers = baca.bcps(
         argument,
         bcps,
-        baca.postevent.staff_padding(staff_padding),
+        baca.tweak.staff_padding(staff_padding),
         bow_change_tweaks=(
-            baca.postevent.self_alignment_x("#left"),
-            baca.postevent.staff_padding(staff_padding + 2.5),
+            baca.tweak.self_alignment_x("#left"),
+            baca.tweak.staff_padding(staff_padding + 2.5),
         ),
     )
     tag = baca.helpers.function_name(inspect.currentframe())
@@ -320,7 +320,7 @@ def clouded_pane_spanner(
     wrappers = baca.spanners.material_annotation(
         argument,
         string,
-        baca.postevent.color("#red"),
+        baca.tweak.color("#red"),
         rleak=True,
         staff_padding=staff_padding,
     )
@@ -1260,7 +1260,7 @@ def flight_spanner(o, string, staff_padding):
     wrappers = baca.spanners.material_annotation(
         o,
         string,
-        baca.postevent.color("#darkmagenta"),
+        baca.tweak.color("#darkmagenta"),
         rleak=True,
         staff_padding=staff_padding,
     )
@@ -1277,12 +1277,12 @@ def grouped_pheads(argument, start=0, stop=None):
 
 def left_broken_circle_bow_tweak():
     string = r"\baca-left-broken-circle-bowing-markup"
-    return baca.postevent.bound_details_left_broken_text(string, index=-1)
+    return baca.tweak.bound_details_left_broken_text(string, index=-1)
 
 
 def left_broken_tasto_tweak():
     string = r"\baca-left-broken-t-markup"
-    return baca.postevent.bound_details_left_broken_text(string, index=-1)
+    return baca.tweak.bound_details_left_broken_text(string, index=-1)
 
 
 def make_accelerando(time_signatures, start, stop):
@@ -3037,10 +3037,10 @@ def transition_bcps(argument, *, final_spanner=False, staff_padding=None):
     wrappers = baca.bcps(
         argument,
         bcps,
-        baca.postevent.staff_padding(staff_padding),
+        baca.tweak.staff_padding(staff_padding),
         bow_change_tweaks=(
-            baca.postevent.self_alignment_x("#left"),
-            baca.postevent.staff_padding(staff_padding + 2.5),
+            baca.tweak.self_alignment_x("#left"),
+            baca.tweak.staff_padding(staff_padding + 2.5),
         ),
         final_spanner=final_spanner,
         helper=helper,
@@ -3058,7 +3058,7 @@ def urtext_spanner(
     wrappers = baca.spanners.material_annotation(
         argument,
         string,
-        baca.postevent.color("#darkred"),
+        baca.tweak.color("#darkred"),
         rleak=True,
         staff_padding=staff_padding,
     )

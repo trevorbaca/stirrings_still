@@ -31,7 +31,7 @@ def GLOBALS(skips, rests, first_measure_number):
     baca.markup(
         skips[11 - 1],
         r"\stirrings-still-repeat-three-markup",
-        baca.postevent.extra_offset((0, 10)),
+        baca.tweak.extra_offset((0, 10)),
     )
     baca.open_volta(skips[11 - 1], first_measure_number)
     baca.close_volta(skips[14 - 1], first_measure_number)
@@ -149,7 +149,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "appena-udibile--!",
-                baca.postevent.to_bar_line_true(),
+                baca.tweak.to_bar_line_true(),
                 rleak=True,
             )
             library.urtext_spanner(o, "urtext (ds field) -|", 8)
@@ -159,7 +159,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 baca.select.mgroups(o, [2, 5]),
                 "appena-udibile-- !<fff-poco-scratch",
-                (baca.postevent.to_bar_line_true(), 0),
+                (baca.tweak.to_bar_line_true(), 0),
             )
         with baca.scope(m.get(5, 11)) as o:
             library.urtext_spanner(o, "urtext (ds field) -|", 8)
@@ -167,7 +167,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 baca.select.mgroups(o, [2, 4]),
                 '"fff"> pp--!',
-                baca.postevent.to_bar_line_true(),
+                baca.tweak.to_bar_line_true(),
                 rleak=True,
             )
             baca.spanners.half_clt(
@@ -212,7 +212,7 @@ def v1_va_vc(cache):
                 baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-eleven-plus-three-of-e-markup",
-                    baca.postevent.padding(1.5),
+                    baca.tweak.padding(1.5),
                 )
                 baca.spanners.tasto(
                     o,
@@ -222,7 +222,7 @@ def v1_va_vc(cache):
             baca.hairpin(
                 o,
                 "pp--!",
-                baca.postevent.to_bar_line_true(),
+                baca.tweak.to_bar_line_true(),
                 rleak=True,
             )
             baca.override.tuplet_bracket_direction_down(o)
@@ -238,7 +238,7 @@ def tutti(cache):
             baca.markup(
                 o.pleaf(0),
                 r"\stirrings-still-third-time-no-breath-markup",
-                baca.postevent.staff_padding(3),
+                baca.tweak.staff_padding(3),
             )
         with baca.scope(m[13]) as o:
             if name in ("v1", "v2", "va"):
@@ -280,7 +280,7 @@ def v2(cache):
         baca.hairpin(
             o,
             "mp--!",
-            baca.postevent.to_bar_line_true(),
+            baca.tweak.to_bar_line_true(),
             rleak=True,
         )
         baca.spanners.half_clt(
