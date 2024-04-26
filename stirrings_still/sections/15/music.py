@@ -1,4 +1,3 @@
-import abjad
 import baca
 
 from stirrings_still import library
