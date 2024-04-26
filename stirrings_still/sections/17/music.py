@@ -1117,7 +1117,7 @@ def vc(cache):
     with baca.scope(m.get(2, 9)) as o:
         baca.breathe(
             o.pleaf(-1),
-            abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
+            extra_offset=(-1, 0),
         )
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
@@ -1159,7 +1159,7 @@ def vc(cache):
     with baca.scope(m.get(22, 27)) as o:
         baca.breathe(
             o.pleaf(-1),
-            abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
+            extra_offset=(-1, 0),
         )
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
@@ -1199,7 +1199,7 @@ def vc(cache):
     with baca.scope(m.get(38, 42)) as o:
         baca.breathe(
             o.pleaf(-1),
-            abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
+            extra_offset=(-1, 0),
         )
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
@@ -1239,7 +1239,7 @@ def vc(cache):
     with baca.scope(m.get(51, 54)) as o:
         baca.breathe(
             o.pleaf(-1),
-            abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
+            extra_offset=(-1, 0),
         )
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
@@ -1279,7 +1279,7 @@ def vc(cache):
     with baca.scope(m.get(61, 63)) as o:
         baca.breathe(
             o.pleaf(-1),
-            abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
+            extra_offset=(-1, 0),
         )
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
@@ -1323,7 +1323,7 @@ def vc(cache):
     with baca.scope(m.get(68, 69)) as o:
         baca.breathe(
             o.pleaf(-1),
-            abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
+            extra_offset=(-1, 0),
         )
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),

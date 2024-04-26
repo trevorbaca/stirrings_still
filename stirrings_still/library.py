@@ -288,7 +288,7 @@ def breathe(argument):
     """
     wrappers = baca.breathe(
         argument,
-        abjad.Tweak(r"\tweak extra-offset #'(-0.25 . 2)"),
+        extra_offset=(-0.25, 2),
     )
     tag = baca.helpers.function_name(inspect.currentframe())
     baca.tags.tag(wrappers, tag)

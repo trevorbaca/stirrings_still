@@ -1259,7 +1259,7 @@ def va_vc(cache):
             elif name == "vc":
                 baca.breathe(
                     o.leaf(-1),
-                    abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
+                    extra_offset=(-1, 0),
                 )
                 baca.glissando(o, "C3")
         with baca.scope(m.get(97, 108)) as o:
