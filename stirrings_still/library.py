@@ -320,7 +320,7 @@ def clouded_pane_spanner(
     wrappers = baca.spanners.material_annotation(
         argument,
         string,
-        abjad.Tweak(r"- \tweak color #red"),
+        baca.postevent.color("#red"),
         rleak=True,
         staff_padding=staff_padding,
     )

@@ -857,7 +857,7 @@ def va(cache):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-3, 0)),
         )
         library.style_tailpiece_material(

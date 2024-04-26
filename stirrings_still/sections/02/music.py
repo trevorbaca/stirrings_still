@@ -1087,7 +1087,7 @@ def tutti(cache):
                 baca.dynamic(
                     o.phead(0),
                     "mp-sub",
-                    abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+                    baca.postevent.self_alignment_x(-0.75),
                 )
             elif name == "v2":
                 baca.dynamic(o.phead(0), "mp-sub")
@@ -1097,7 +1097,7 @@ def tutti(cache):
                 baca.dynamic(
                     o.phead(0),
                     "mp-sub",
-                    abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+                    baca.postevent.self_alignment_x(-0.75),
                 )
             elif name == "vc":
                 baca.clef(o.leaf(0), "treble")

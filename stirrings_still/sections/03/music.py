@@ -731,7 +731,7 @@ def tutti(cache):
             baca.dynamic(
                 o.phead(0),
                 "p-ancora",
-                abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+                baca.postevent.self_alignment_x(-0.75),
             )
             baca.spanners.text(
                 baca.select.omgroups(o, [2]),

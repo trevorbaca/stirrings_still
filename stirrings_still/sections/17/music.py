@@ -649,7 +649,7 @@ def v1(cache):
         baca.dynamic(
             o.phead(0),
             "ppp",
-            abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            baca.postevent.self_alignment_x(-0.75),
         )
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
@@ -822,7 +822,7 @@ def v2(cache):
         baca.dynamic(
             o.phead(0),
             "p",
-            abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            baca.postevent.self_alignment_x(-0.75),
         )
     with baca.scope(m.get(65, 67)) as o:
         baca.breathe(o.pleaf(-1))
@@ -868,7 +868,7 @@ def v2(cache):
         baca.dynamic(
             o.phead(0),
             "ppp",
-            abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            baca.postevent.self_alignment_x(-0.75),
         )
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
@@ -1052,7 +1052,7 @@ def va(cache):
         baca.dynamic(
             o.phead(0),
             "p",
-            abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            baca.postevent.self_alignment_x(-0.75),
         )
     with baca.scope(m[64]) as o:
         baca.glissando(o.rleaves(), "Ab3 Gb3")
@@ -1105,7 +1105,7 @@ def va(cache):
         baca.dynamic(
             o.phead(0),
             "pp-sempre",
-            abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            baca.postevent.self_alignment_x(-0.75),
         )
         baca.glissando(o, "Bb2", hide_middle_stems=True, right_broken=True)
 
@@ -1295,7 +1295,7 @@ def vc(cache):
         baca.dynamic(
             o.phead(0),
             "p",
-            abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            baca.postevent.self_alignment_x(-0.75),
         )
     with baca.scope(m[64]) as o:
         baca.glissando(
@@ -1359,7 +1359,7 @@ def vc(cache):
         baca.dynamic(
             o.phead(0),
             "pp-sempre",
-            abjad.Tweak(r"- \tweak self-alignment-X -0.75"),
+            baca.postevent.self_alignment_x(-0.75),
         )
         baca.glissando(o, "Bb1 B0")
     with baca.scope(m.get(73, 92)) as o:
