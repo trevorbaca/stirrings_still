@@ -1348,7 +1348,7 @@ def va(cache):
         with baca.scope(m.get(item)) as o:
             baca.spanners.half_clt(
                 baca.select.ltleaves(o),
-                abjad.Tweak(rf"- \tweak staff-padding {4 + 6.5}"),
+                baca.postevent.staff_padding(4 + 6.5),
                 rleak=True,
             )
             library.bcps(o, 0, clt=True, staff_padding=4)

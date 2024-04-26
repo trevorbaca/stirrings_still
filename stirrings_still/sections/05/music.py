@@ -827,7 +827,7 @@ def v1_v2_va(cache):
                 o,
                 "p--!",
                 # terminate at double bar:
-                abjad.Tweak(r"- \tweak shorten-pair #'(0 . 3.5)"),
+                baca.postevent.shorten_pair((0, 3.5)),
                 baca.postevent.to_bar_line_true(),
                 rleak=True,
             )
