@@ -990,7 +990,7 @@ def tutti(cache):
             elif name == "vc":
                 baca.breathe(
                     o.pleaf(-1),
-                    abjad.Tweak(r"\tweak extra-offset #'(-1 . 0)"),
+                    extra_offset=(-1, 0),
                 )
             if name in ("v1", "va", "vc"):
                 baca.spanners.text(
