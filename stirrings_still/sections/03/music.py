@@ -45,17 +45,17 @@ def GLOBALS(skips, rests, first_measure_number):
     baca.markup(
         skips[11 - 1],
         r"\stirrings-still-text-ten",
-        baca.postevent.extra_offset((4, -30)),
+        baca.tweak.extra_offset((4, -30)),
     )
     baca.markup(
         skips[70 - 1],
         r"\stirrings-still-text-eleven",
-        baca.postevent.extra_offset((4, -30)),
+        baca.tweak.extra_offset((4, -30)),
     )
     baca.markup(
         skips[77 - 1],
         r"\stirrings-still-text-twelve",
-        baca.postevent.extra_offset((4, -30)),
+        baca.tweak.extra_offset((4, -30)),
     )
     baca.open_volta(skips[4 - 1], first_measure_number)
     baca.close_volta(skips[8 - 1], first_measure_number)
@@ -479,7 +479,7 @@ def v1(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
         library.urtext_spanner(o, "urtext (ds) -|", 8)
     for item in [(12, 23), (30, 59)]:
@@ -495,13 +495,13 @@ def v1(cache):
         baca.hairpin(
             o,
             "pp--!",
-            baca.postevent.to_bar_line_true(),
+            baca.tweak.to_bar_line_true(),
             rleak=True,
         )
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-seven-plus-nine-of-e-markup",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
         baca.spanners.tasto(
             o,
@@ -539,7 +539,7 @@ def v2(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
         library.urtext_spanner(o, "urtext (ds) -|", 8)
     for item in [(12, 23), (30, 59)]:
@@ -557,7 +557,7 @@ def v2(cache):
         baca.hairpin(
             o,
             "mp--!",
-            baca.postevent.to_bar_line_true(),
+            baca.tweak.to_bar_line_true(),
             rleak=True,
         )
         baca.spanners.half_clt(
@@ -590,7 +590,7 @@ def va(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-nine-plus-seven-of-b-markup",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
         library.clouded_pane_spanner(
             o,
@@ -610,13 +610,13 @@ def va(cache):
         baca.hairpin(
             o,
             "pp--!",
-            baca.postevent.to_bar_line_true(),
+            baca.tweak.to_bar_line_true(),
             rleak=True,
         )
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-eleven-plus-three-of-e-markup",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
         baca.spanners.tasto(
             o,
@@ -669,8 +669,8 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "appena-udibile--!",
-                baca.postevent.self_alignment_x("#left"),
-                baca.postevent.to_bar_line_true(),
+                baca.tweak.self_alignment_x("#left"),
+                baca.tweak.to_bar_line_true(),
                 rleak=True,
             )
             library.urtext_spanner(o, "urtext (ds field) -|", 5.5)
@@ -697,13 +697,13 @@ def tutti(cache):
             baca.hairpin(
                 o,
                 '"ff"--!',
-                baca.postevent.to_bar_line_true(),
+                baca.tweak.to_bar_line_true(),
                 rleak=True,
             )
         with baca.scope(m.get(7, 10)) as o:
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
-                baca.postevent.staff_padding(5.5),
+                baca.tweak.staff_padding(5.5),
                 qualifier="tight-poss-grind-at-talon",
                 rleak=True,
             )
@@ -715,7 +715,7 @@ def tutti(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                baca.postevent.to_bar_line_true(),
+                baca.tweak.to_bar_line_true(),
                 rleak=True,
             )
         with baca.scope(m.get(7, 10)) as o:
@@ -731,7 +731,7 @@ def tutti(cache):
             baca.dynamic(
                 o.phead(0),
                 "p-ancora",
-                baca.postevent.self_alignment_x(-0.75),
+                baca.tweak.self_alignment_x(-0.75),
             )
             baca.spanners.text(
                 baca.select.omgroups(o, [2]),
@@ -826,7 +826,7 @@ def tutti(cache):
             baca.hairpin(
                 baca.select.lleak(o),
                 '"ff"--!',
-                baca.postevent.to_bar_line_true(),
+                baca.tweak.to_bar_line_true(),
                 rleak=True,
             )
         with baca.scope(m.get(62, 69)) as o:
@@ -839,7 +839,7 @@ def tutti(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                baca.postevent.to_bar_line_true(),
+                baca.tweak.to_bar_line_true(),
                 rleak=True,
             )
             pitch = {
@@ -867,14 +867,14 @@ def tutti(cache):
             baca.hairpin(
                 o,
                 "f>o!",
-                baca.postevent.shorten_pair((0, 3.5)),
+                baca.tweak.shorten_pair((0, 3.5)),
                 rleak=True,
             )
             baca.spanners.text(
                 baca.select.mgroups(o, [3, 3]),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 # spanner terminates at double bar:
-                (baca.postevent.bound_details_right_padding(7.75), -1),
+                (baca.tweak.bound_details_right_padding(7.75), -1),
                 do_not_bookend=True,
                 rleak=True,
                 staff_padding=5.5,
@@ -913,7 +913,7 @@ def vc(cache):
         baca.hairpin(
             o,
             "pp--!",
-            baca.postevent.to_bar_line_true(),
+            baca.tweak.to_bar_line_true(),
             rleak=True,
         )
         library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 5.5)
@@ -923,7 +923,7 @@ def vc(cache):
         baca.hairpin(
             o,
             "p--!",
-            baca.postevent.to_bar_line_true(),
+            baca.tweak.to_bar_line_true(),
             rleak=True,
         )
         library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 5.5)

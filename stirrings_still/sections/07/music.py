@@ -33,12 +33,12 @@ def GLOBALS(skips, rests, first_measure_number):
     baca.markup(
         skips[8 - 1],
         r"\stirrings-still-text-twenty",
-        baca.postevent.extra_offset((4, -30)),
+        baca.tweak.extra_offset((4, -30)),
     )
     baca.markup(
         skips[18 - 1],
         r"\stirrings-still-text-twenty-one",
-        baca.postevent.extra_offset((4, -30)),
+        baca.tweak.extra_offset((4, -30)),
     )
     baca.open_volta(skips[19 - 1], first_measure_number)
     baca.close_volta(skips[22 - 1], first_measure_number)
@@ -320,7 +320,7 @@ def v1(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
     for n in [1, 3, 7, 9, 11, 14]:
         with baca.scope(m[n]) as o:
@@ -351,7 +351,7 @@ def v1_v2_va(cache):
                 baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-twenty-four-et-markup",
-                    baca.postevent.padding(1.5),
+                    baca.tweak.padding(1.5),
                 )
                 baca.glissando(o, "Eqs4:Gtqs4", hide_middle_stems=True)
             cache.rebuild()
@@ -361,8 +361,8 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "appena-udibile--!",
-                baca.postevent.to_bar_line_true(),
-                baca.postevent.self_alignment_x(-0.75),
+                baca.tweak.to_bar_line_true(),
+                baca.tweak.self_alignment_x(-0.75),
                 rleak=True,
             )
             library.urtext_spanner(o, "urtext (ds field) -|", 8)
@@ -382,7 +382,7 @@ def tutti(cache):
                 baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-twenty-four-et-markup",
-                    baca.postevent.padding(1.5),
+                    baca.tweak.padding(1.5),
                 )
                 baca.glissando(o, "Ab3:C4")
             elif name == "vc":
@@ -433,14 +433,14 @@ def v1_va_vc(cache):
             baca.hairpin(
                 o,
                 "pp--!",
-                baca.postevent.to_bar_line_true(),
+                baca.tweak.to_bar_line_true(),
                 rleak=True,
             )
             if name == "v1":
                 baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-seven-plus-nine-of-e-markup",
-                    baca.postevent.padding(1.5),
+                    baca.tweak.padding(1.5),
                 )
                 baca.spanners.tasto(
                     o,
@@ -452,7 +452,7 @@ def v1_va_vc(cache):
                 baca.markup(
                     o.pleaf(0),
                     r"\stirrings-still-eleven-plus-three-of-e-markup",
-                    baca.postevent.padding(1.5),
+                    baca.tweak.padding(1.5),
                 )
                 baca.spanners.tasto(
                     o,
@@ -475,7 +475,7 @@ def v2(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
     for n in [1, 3, 7, 9, 11, 14]:
         with baca.scope(m[n]) as o:
@@ -501,7 +501,7 @@ def v2(cache):
         baca.hairpin(
             o,
             "mp--!",
-            baca.postevent.to_bar_line_true(),
+            baca.tweak.to_bar_line_true(),
             rleak=True,
         )
         baca.spanners.half_clt(
@@ -517,7 +517,7 @@ def va(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-nine-plus-seven-of-b-markup",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
     for n in [1, 3, 7, 9, 11, 14]:
         with baca.scope(m[n]) as o:

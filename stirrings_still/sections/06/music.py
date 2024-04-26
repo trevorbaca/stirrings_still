@@ -26,7 +26,7 @@ def GLOBALS(skips, rests, first_measure_number):
     baca.markup(
         skips[11 - 1],
         r"\stirrings-still-text-nineteen",
-        baca.postevent.extra_offset((4, -30)),
+        baca.tweak.extra_offset((4, -30)),
     )
     time = (
         ("long", 11),
@@ -113,7 +113,7 @@ def v1(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-thirteen-plus-nine-e-flat",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
         library.clouded_pane_spanner(
             o,
@@ -137,7 +137,7 @@ def v2(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-seven-plus-five-e-flat",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
         library.clouded_pane_spanner(
             o,
@@ -153,12 +153,12 @@ def va(cache):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            baca.postevent.self_alignment_x(-0.75),
+            baca.tweak.self_alignment_x(-0.75),
         )
     with baca.scope(m.get(1, 10)) as o:
         library.style_tailpiece_material(
             o,
-            baca.postevent.bound_details_right_padding(2),
+            baca.tweak.bound_details_right_padding(2),
         )
     with baca.scope(m[12]) as o:
         baca.staff_lines(o.leaf(0), 5)
@@ -206,7 +206,7 @@ def tutti(cache):
             baca.hairpin(
                 o,
                 "p--!",
-                baca.postevent.to_bar_line_true(),
+                baca.tweak.to_bar_line_true(),
                 rleak=True,
             )
             if name == "v1":

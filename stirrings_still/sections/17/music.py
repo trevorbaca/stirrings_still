@@ -430,7 +430,7 @@ def v1(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-eleven-e",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
         baca.pitch(o, "Aqs5")
     with baca.scope(m.get(2, 9)) as o:
@@ -649,7 +649,7 @@ def v1(cache):
         baca.dynamic(
             o.phead(0),
             "ppp",
-            baca.postevent.self_alignment_x(-0.75),
+            baca.tweak.self_alignment_x(-0.75),
         )
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
@@ -672,7 +672,7 @@ def tutti(cache):
             baca.hairpin(
                 o,
                 "mp--!",
-                baca.postevent.to_bar_line_true(),
+                baca.tweak.to_bar_line_true(),
                 rleak=True,
             )
             baca.stem_tremolo(o.pleaves())
@@ -684,7 +684,7 @@ def v2(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-nine-e",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
         baca.pitch(o, "F#5")
     with baca.scope(m.get(2, 13)) as o:
@@ -822,7 +822,7 @@ def v2(cache):
         baca.dynamic(
             o.phead(0),
             "p",
-            baca.postevent.self_alignment_x(-0.75),
+            baca.tweak.self_alignment_x(-0.75),
         )
     with baca.scope(m.get(65, 67)) as o:
         baca.breathe(o.pleaf(-1))
@@ -868,7 +868,7 @@ def v2(cache):
         baca.dynamic(
             o.phead(0),
             "ppp",
-            baca.postevent.self_alignment_x(-0.75),
+            baca.tweak.self_alignment_x(-0.75),
         )
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
@@ -886,7 +886,7 @@ def va(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-five-e",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
         baca.pitch(o, "G#3")
     with baca.scope(m.get(2, 9)) as o:
@@ -1052,7 +1052,7 @@ def va(cache):
         baca.dynamic(
             o.phead(0),
             "p",
-            baca.postevent.self_alignment_x(-0.75),
+            baca.tweak.self_alignment_x(-0.75),
         )
     with baca.scope(m[64]) as o:
         baca.glissando(o.rleaves(), "Ab3 Gb3")
@@ -1105,7 +1105,7 @@ def va(cache):
         baca.dynamic(
             o.phead(0),
             "pp-sempre",
-            baca.postevent.self_alignment_x(-0.75),
+            baca.tweak.self_alignment_x(-0.75),
         )
         baca.glissando(o, "Bb2", hide_middle_stems=True, right_broken=True)
 
@@ -1295,7 +1295,7 @@ def vc(cache):
         baca.dynamic(
             o.phead(0),
             "p",
-            baca.postevent.self_alignment_x(-0.75),
+            baca.tweak.self_alignment_x(-0.75),
         )
     with baca.scope(m[64]) as o:
         baca.glissando(
@@ -1359,7 +1359,7 @@ def vc(cache):
         baca.dynamic(
             o.phead(0),
             "pp-sempre",
-            baca.postevent.self_alignment_x(-0.75),
+            baca.tweak.self_alignment_x(-0.75),
         )
         baca.glissando(o, "Bb1 B0")
     with baca.scope(m.get(73, 92)) as o:

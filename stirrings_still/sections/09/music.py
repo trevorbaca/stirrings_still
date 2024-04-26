@@ -100,7 +100,7 @@ def v1(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-twelve-et-markup",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
         baca.glissando(
             o,
@@ -124,7 +124,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 o,
                 "appena-udibile--!",
-                baca.postevent.to_bar_line_true(),
+                baca.tweak.to_bar_line_true(),
                 rleak=True,
             )
             # TODO: allow right-broken spanner
@@ -156,7 +156,7 @@ def v2(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-twelve-et-markup",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
         baca.glissando(
             o,
@@ -175,7 +175,7 @@ def va(cache):
         baca.hairpin(
             o.ltleaves(),
             "mp--!",
-            baca.postevent.to_bar_line_true(),
+            baca.tweak.to_bar_line_true(),
             rleak=True,
         )
     with baca.scope(m.get(1, 7)) as o:
@@ -189,13 +189,13 @@ def va(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-seven-d-flat",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
     with baca.scope(m.get(10, 11)) as o:
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-twenty-four-et-markup",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
         )
         baca.glissando(
             o,
@@ -223,7 +223,7 @@ def vc(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-string-iii-markup",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
             direction=abjad.DOWN,
         )
         baca.override.note_head_style_harmonic(o.pleaves())
@@ -242,7 +242,7 @@ def vc(cache):
         baca.markup(
             o.pleaf(0),
             r"\stirrings-still-ninth-partial-markup",
-            baca.postevent.padding(1.5),
+            baca.tweak.padding(1.5),
             direction=abjad.DOWN,
         )
         library.cello_cell_bcps(o, staff_padding=6)
