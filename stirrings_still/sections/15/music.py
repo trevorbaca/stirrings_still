@@ -105,9 +105,9 @@ def v1(cache):
     with baca.scope(m.get(1, 6)) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="granulation",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "Eb4")
         baca.hairpin(
@@ -119,9 +119,9 @@ def v1(cache):
     with baca.scope(m[7]) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "Aqs4")
         baca.hairpin(
@@ -149,9 +149,9 @@ def v2(cache):
     with baca.scope(m.get(1, 6)) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="granulation",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "D4")
         baca.hairpin(
@@ -163,9 +163,9 @@ def v2(cache):
     with baca.scope(m[7]) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         ),
         baca.glissando(o, "Eb4")
         baca.hairpin(o, "mf>o!", rleak=True)
@@ -182,9 +182,9 @@ def va(cache):
     with baca.scope(m.get(1, 6)) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="granulation",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "G3")
         baca.hairpin(
@@ -196,9 +196,9 @@ def va(cache):
     with baca.scope(m[7]) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "Bqf3")
         baca.hairpin(
@@ -219,9 +219,9 @@ def vc(cache):
     with baca.scope(m.get(1, 6)) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="granulation",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "Ab3")
         baca.hairpin(
@@ -240,8 +240,8 @@ def vc(cache):
         )
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(3 + 6.5),
             rleak=True,
-            staff_padding=3 + 6.5,
         )
         baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -4, clt=True, staff_padding=3)

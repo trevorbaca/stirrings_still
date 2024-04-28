@@ -321,8 +321,8 @@ def clouded_pane_spanner(
         argument,
         string,
         baca.tweak.color("#red"),
+        baca.tweak.staff_padding(staff_padding),
         rleak=True,
-        staff_padding=staff_padding,
     )
     baca.tags.tag(wrappers, abjad.Tag("MATERIAL:CLOUDED_PANE"))
     return wrappers
@@ -1261,8 +1261,8 @@ def flight_spanner(o, string, staff_padding):
         o,
         string,
         baca.tweak.color("#darkmagenta"),
+        baca.tweak.staff_padding(staff_padding),
         rleak=True,
-        staff_padding=staff_padding,
     )
     baca.tags.tag(wrappers, abjad.Tag("MATERIAL:FLIGHT"))
     return wrappers
@@ -3059,8 +3059,8 @@ def urtext_spanner(
         argument,
         string,
         baca.tweak.color("#darkred"),
+        baca.tweak.staff_padding(staff_padding),
         rleak=True,
-        staff_padding=staff_padding,
     )
     baca.tags.tag(wrappers, abjad.Tag("MATERIAL:URTEXT"))
     return wrappers

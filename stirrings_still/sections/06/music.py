@@ -193,14 +193,14 @@ def tutti(cache):
         with baca.scope(m.get(12, 13)) as o:
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(5.5),
                 qualifier="tight-poss-grind-at-talon",
                 rleak=True,
-                staff_padding=5.5,
             )
             baca.spanners.damp(
                 baca.select.tleaves(o),
+                baca.tweak.staff_padding(8),
                 rleak=True,
-                staff_padding=8,
             )
             baca.hairpin(
                 o,

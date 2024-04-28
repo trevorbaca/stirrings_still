@@ -91,9 +91,9 @@ def v1(cache):
         baca.spanners.beam(o.tleaves())
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "Aqs4", left_broken=True)
     with baca.scope(m.get(10, 11)) as o:
@@ -147,9 +147,9 @@ def v2(cache):
     with baca.scope(m.get(1, 7)) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "Eb4", left_broken=True)
     with baca.scope(m.get(10, 11)) as o:
@@ -181,9 +181,9 @@ def va(cache):
     with baca.scope(m.get(1, 7)) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide-poss",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.glissando(o.pleaves(), "Bqf3")
         baca.markup(
@@ -217,8 +217,8 @@ def vc(cache):
         )
         baca.spanners.half_clt(
             o.leaves(),
+            baca.tweak.staff_padding(6 + 6.5),
             rleak=True,
-            staff_padding=6 + 6.5,
         )
         baca.markup(
             o.pleaf(0),

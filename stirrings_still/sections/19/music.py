@@ -166,9 +166,9 @@ def v1(cache):
         with baca.scope(m.get(item)) as o:
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(3),
                 qualifier="wide",
                 rleak=True,
-                staff_padding=3,
             )
             baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
             baca.glissando(o, "Bb4")
@@ -194,9 +194,9 @@ def v2(cache):
         with baca.scope(m.get(item)) as o:
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(3),
                 qualifier="wide",
                 rleak=True,
-                staff_padding=3,
             )
             baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), 0.75)
             baca.glissando(o, "F4")

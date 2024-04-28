@@ -436,14 +436,14 @@ def v1(cache):
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     for item in [(2, 9), (25, 27), (41, 42), (53, 54), 63, 69]:
@@ -468,21 +468,21 @@ def v1(cache):
     with baca.scope(m.get(18, 24)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(25, 27)) as o:
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.tleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(28, 30)) as o:
@@ -504,21 +504,21 @@ def v1(cache):
     with baca.scope(m.get(35, 40)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(41, 42)) as o:
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(43, 45)) as o:
@@ -540,21 +540,21 @@ def v1(cache):
     with baca.scope(m.get(49, 52)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(53, 54)) as o:
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(55, 56)) as o:
@@ -576,21 +576,21 @@ def v1(cache):
     with baca.scope(m.get(59, 62)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m[63]) as o:
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.tleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m[64]) as o:
@@ -610,8 +610,8 @@ def v1(cache):
     with baca.scope(m.get(64, 68)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(65, 68)) as o:
         baca.glissando(o, "G5")
@@ -619,14 +619,14 @@ def v1(cache):
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.tleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(70, 71)) as o:
@@ -641,8 +641,8 @@ def v1(cache):
     with baca.scope(m[71]) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(73, 92)) as o:
         baca.dynamic(
@@ -652,8 +652,8 @@ def v1(cache):
         )
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(14),
             rleak=True,
-            staff_padding=14,
         )
         baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -8, clt=True, staff_padding=8)
@@ -690,14 +690,14 @@ def v2(cache):
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     for item in [(2, 13), (22, 30), (38, 45), (51, 56), (61, 64), (68, 70)]:
@@ -715,21 +715,21 @@ def v2(cache):
     with baca.scope(m.get(18, 21)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(22, 30)) as o:
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(31, 37)) as o:
@@ -744,21 +744,21 @@ def v2(cache):
     with baca.scope(m.get(35, 37)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(38, 45)) as o:
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(46, 50)) as o:
@@ -773,21 +773,21 @@ def v2(cache):
     with baca.scope(m.get(48, 50)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(51, 56)) as o:
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(57, 60)) as o:
@@ -802,21 +802,21 @@ def v2(cache):
     with baca.scope(m.get(59, 60)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(61, 64)) as o:
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(
             o.phead(0),
@@ -835,21 +835,21 @@ def v2(cache):
     with baca.scope(m.get(66, 67)) as o:
         baca.spanners.half_clt(
             baca.select.tleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(68, 70)) as o:
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m[71]) as o:
@@ -857,8 +857,8 @@ def v2(cache):
         baca.hairpin(o, "p>o!", rleak=True)
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(4.5 + 6),
             rleak=True,
-            staff_padding=4.5 + 6,
         )
         baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -7, clt=True, staff_padding=4.5)
@@ -871,8 +871,8 @@ def v2(cache):
         )
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(4.5 + 6),
             rleak=True,
-            staff_padding=4.5 + 6,
         )
         baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -7, clt=True, staff_padding=4.5)
@@ -892,14 +892,14 @@ def va(cache):
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     for item in [(2, 9), (22, 27), (38, 42), (51, 54), (61, 63), (68, 69)]:
@@ -924,21 +924,21 @@ def va(cache):
     with baca.scope(m.get(18, 21)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(22, 27)) as o:
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(28, 30)) as o:
@@ -960,21 +960,21 @@ def va(cache):
     with baca.scope(m.get(35, 37)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(38, 42)) as o:
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(43, 45)) as o:
@@ -996,21 +996,21 @@ def va(cache):
     with baca.scope(m.get(48, 50)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(51, 54)) as o:
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(55, 56)) as o:
@@ -1032,21 +1032,21 @@ def va(cache):
     with baca.scope(m.get(59, 60)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(61, 63)) as o:
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(
             o.phead(0),
@@ -1068,21 +1068,21 @@ def va(cache):
     with baca.scope(m.get(66, 67)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(68, 69)) as o:
         baca.breathe(o.pleaf(-1))
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(70, 71)) as o:
@@ -1097,8 +1097,8 @@ def va(cache):
     with baca.scope(m[71]) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(73, 92)) as o:
         baca.dynamic(
@@ -1120,14 +1120,14 @@ def vc(cache):
         )
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         ),
         baca.dynamic(o.phead(0), "p")
     for item in [(2, 9), (22, 27), (38, 42), (51, 54), (61, 63), (68, 69)]:
@@ -1152,8 +1152,8 @@ def vc(cache):
     with baca.scope(m.get(18, 21)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(22, 27)) as o:
         baca.breathe(
@@ -1162,14 +1162,14 @@ def vc(cache):
         )
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(28, 30)) as o:
@@ -1192,8 +1192,8 @@ def vc(cache):
     with baca.scope(m.get(35, 37)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(38, 42)) as o:
         baca.breathe(
@@ -1202,14 +1202,14 @@ def vc(cache):
         )
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(43, 45)) as o:
@@ -1232,8 +1232,8 @@ def vc(cache):
     with baca.scope(m.get(48, 50)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(51, 54)) as o:
         baca.breathe(
@@ -1242,14 +1242,14 @@ def vc(cache):
         )
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(55, 56)) as o:
@@ -1272,8 +1272,8 @@ def vc(cache):
     with baca.scope(m.get(59, 60)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(61, 63)) as o:
         baca.breathe(
@@ -1282,14 +1282,14 @@ def vc(cache):
         )
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(
             o.phead(0),
@@ -1316,8 +1316,8 @@ def vc(cache):
     with baca.scope(m.get(66, 67)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(68, 69)) as o:
         baca.breathe(
@@ -1326,14 +1326,14 @@ def vc(cache):
         )
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(70, 71)) as o:
@@ -1349,8 +1349,8 @@ def vc(cache):
     with baca.scope(m[71]) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(10.5),
             rleak=True,
-            staff_padding=10.5,
         )
     with baca.scope(m.get(73, 87)) as o:
         baca.spanners.beam(o.tleaves())

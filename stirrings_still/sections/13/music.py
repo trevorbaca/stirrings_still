@@ -193,9 +193,9 @@ def v1(cache):
     with baca.scope(m.get(9, 12)) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="very-wide",
             rleak=True,
-            staff_padding=5.5,
         )
     for item in [(9, 12), (26, 28)]:
         with baca.scope(m.get(item)) as o:
@@ -216,9 +216,9 @@ def v1(cache):
     with baca.scope(m.get(17, 20)) as o:
         baca.spanners.circle_bow(
             abjad.select.leaves(o)[1:],
+            baca.tweak.staff_padding(5.5),
             qualifier="very-wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.markup(
             o.leaf(1),
@@ -228,9 +228,9 @@ def v1(cache):
     with baca.scope(m.get(25, 28)) as o:
         baca.spanners.circle_bow(
             abjad.select.leaves(o)[1:],
+            baca.tweak.staff_padding(5.5),
             qualifier="very-wide",
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(29, 32)) as o:
         baca.glissando(
@@ -320,9 +320,9 @@ def v2(cache):
     with baca.scope(m.get(9, 12)) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="very-wide",
             rleak=True,
-            staff_padding=5.5,
         )
     for item in [(9, 12), (26, 28)]:
         with baca.scope(m.get(item)) as o:
@@ -346,9 +346,9 @@ def v2(cache):
     with baca.scope(m.get(17, 20)) as o:
         baca.spanners.circle_bow(
             abjad.select.leaves(o)[1:],
+            baca.tweak.staff_padding(5.5),
             qualifier="very-wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.markup(
             o.leaf(1),
@@ -358,9 +358,9 @@ def v2(cache):
     with baca.scope(m.get(25, 28)) as o:
         baca.spanners.circle_bow(
             abjad.select.leaves(o)[1:],
+            baca.tweak.staff_padding(5.5),
             qualifier="very-wide",
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(29, 32)) as o:
         baca.glissando(
@@ -399,9 +399,9 @@ def va(cache):
     with baca.scope(m.get(9, 12)) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="very-wide",
             rleak=True,
-            staff_padding=5.5,
         )
     for item in [(9, 12), (26, 28)]:
         with baca.scope(m.get(item)) as o:
@@ -422,9 +422,9 @@ def va(cache):
     with baca.scope(m.get(17, 20)) as o:
         baca.spanners.circle_bow(
             abjad.select.leaves(o)[1:],
+            baca.tweak.staff_padding(5.5),
             qualifier="very-wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.markup(
             o.leaf(1),
@@ -434,9 +434,9 @@ def va(cache):
     with baca.scope(m.get(25, 28)) as o:
         baca.spanners.circle_bow(
             o.leaves()[1:],
+            baca.tweak.staff_padding(5.5),
             qualifier="very-wide",
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(29, 32)) as o:
         baca.glissando(

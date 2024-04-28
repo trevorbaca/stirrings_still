@@ -191,8 +191,8 @@ def v1(cache):
         baca.spanners.scp(
             [o],
             "T -> O",
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
         baca.markup(
@@ -226,7 +226,7 @@ def v1(cache):
         baca.spanners.scp(
             o.plts(),
             "O -> P ->",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[29]) as o:
@@ -254,7 +254,7 @@ def v1(cache):
         baca.spanners.scp(
             o.plts(),
             "O -> P ->",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
@@ -269,8 +269,8 @@ def v1(cache):
             [o],
             "slow bow -> stopped",
             baca.tweak.bound_details_right_padding(11),
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
 
 
@@ -324,8 +324,8 @@ def v2(cache):
         baca.spanners.scp(
             [o],
             "T -> O",
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
         baca.glissando(o, "F#3:Dqs4", hide_middle_stems=True)
@@ -360,7 +360,7 @@ def v2(cache):
         baca.spanners.scp(
             o.plts(),
             "O -> P ->",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[29]) as o:
@@ -388,7 +388,7 @@ def v2(cache):
         baca.spanners.scp(
             o.plts(),
             "O -> P ->",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
@@ -403,8 +403,8 @@ def v2(cache):
             [o],
             "slow bow -> stopped",
             baca.tweak.bound_details_right_padding(11),
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
 
 
@@ -427,8 +427,8 @@ def va(cache):
         baca.spanners.scp(
             [o],
             "T -> O",
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
         baca.glissando(o, "C3:Aqs3", hide_middle_stems=True)
@@ -463,7 +463,7 @@ def va(cache):
         baca.spanners.scp(
             o.plts(),
             "O -> P ->",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[29]) as o:
@@ -491,7 +491,7 @@ def va(cache):
         baca.spanners.scp(
             o.plts(),
             "O -> P ->",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
@@ -506,8 +506,8 @@ def va(cache):
             [o],
             "slow bow -> stopped",
             baca.tweak.bound_details_right_padding(11),
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
 
 
@@ -525,8 +525,8 @@ def vc(cache):
     with baca.scope(m.get(11, 12)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(3 + 6),
             rleak=True,
-            staff_padding=3 + 6,
         )
         library.cello_cell_bcps(o, staff_padding=3)
     with baca.scope(m.get(13, 22)) as o:
@@ -549,7 +549,7 @@ def vc(cache):
         baca.spanners.scp(
             o.plts(),
             "O -> P ->",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(23, 28)) as o:
@@ -590,7 +590,7 @@ def vc(cache):
         baca.spanners.scp(
             o.plts(),
             "O -> P ->",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(37, 38)) as o:
@@ -602,15 +602,15 @@ def vc(cache):
         )
         baca.spanners.tasto(
             o,
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
         baca.spanners.text(
             [o],
             "slow bow -> stopped",
             baca.tweak.bound_details_right_padding(11),
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
 
 
