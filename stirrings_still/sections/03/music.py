@@ -505,8 +505,8 @@ def v1(cache):
         )
         baca.spanners.tasto(
             o,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
     with baca.scope(m[56]) as o:
@@ -551,8 +551,8 @@ def v2(cache):
         baca.alternate_bow_strokes(o.pheads())
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.hairpin(
             o,
@@ -562,8 +562,8 @@ def v2(cache):
         )
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.pitch(o, "F5")
     with baca.scope(m[56]) as o:
@@ -620,8 +620,8 @@ def va(cache):
         )
         baca.spanners.tasto(
             o,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
     with baca.scope(m[56]) as o:
@@ -651,8 +651,8 @@ def v1_v2_va(cache):
         with baca.scope(m[5]) as o:
             baca.spanners.tasto(
                 o,
+                baca.tweak.staff_padding(5.5),
                 rleak=True,
-                staff_padding=5.5,
             )
         with baca.scope(m.get(60, 61)) as o:
             if name == "v1":
@@ -684,14 +684,14 @@ def tutti(cache):
         with baca.scope(m.get(1, 4)) as o:
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(5.5),
                 qualifier="tight-poss-grind-at-talon",
                 rleak=True,
-                staff_padding=5.5,
             )
             baca.spanners.damp(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(8),
                 rleak=True,
-                staff_padding=8,
             )
             baca.glissando(o, "G4")
             baca.hairpin(
@@ -709,8 +709,8 @@ def tutti(cache):
             )
             baca.spanners.damp(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(8),
                 rleak=True,
-                staff_padding=8,
             )
             baca.hairpin(
                 o,
@@ -736,52 +736,52 @@ def tutti(cache):
             baca.spanners.text(
                 baca.select.omgroups(o, [2]),
                 r"\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|",
+                baca.tweak.staff_padding(5.5),
                 do_not_bookend=True,
                 rleak=True,
-                staff_padding=5.5,
             )
         with baca.scope(m.get(12, 27)) as o:
             baca.breathe(o.pleaf(-1))
             baca.spanners.damp(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(8),
                 rleak=True,
-                staff_padding=8,
             )
         with baca.scope(m.get(16, 19)) as o:
             baca.spanners.text(
                 baca.select.omgroups(o, [2]),
                 r"\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|",
+                baca.tweak.staff_padding(5.5),
                 do_not_bookend=True,
                 rleak=True,
-                staff_padding=5.5,
             ),
         with baca.scope(m.get(20, 23)) as o:
             baca.spanners.text(
                 baca.select.omgroups(o, [2]),
                 r"\baca-circle-tight-markup -> \baca-circle-mod-markup =|",
                 library.left_broken_circle_bow_tweak(),
+                baca.tweak.staff_padding(5.5),
                 do_not_bookend=True,
                 rleak=True,
-                staff_padding=5.5,
             )
         with baca.scope(m.get(24, 27)) as o:
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(5.5),
                 qualifier="wide",
                 rleak=True,
-                staff_padding=5.5,
             )
         with baca.scope(m.get(30, 33)) as o:
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(5.5),
                 qualifier="wide",
                 rleak=True,
-                staff_padding=5.5,
             )
             baca.spanners.damp(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(8),
                 rleak=True,
-                staff_padding=8,
             )
             baca.hairpin(
                 baca.select.runs(o),
@@ -817,9 +817,9 @@ def tutti(cache):
         with baca.scope(m.get(36, 59)) as o:
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(5.5),
                 qualifier="wide",
                 rleak=True,
-                staff_padding=5.5,
             )
         with baca.scope(m.get(56, 59)) as o:
             baca.breathe(o.pleaf(-1))
@@ -832,9 +832,9 @@ def tutti(cache):
         with baca.scope(m.get(62, 69)) as o:
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(5.5),
                 qualifier="wide",
                 rleak=True,
-                staff_padding=5.5,
             )
             baca.hairpin(
                 o,
@@ -875,9 +875,9 @@ def tutti(cache):
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 # spanner terminates at double bar:
                 (baca.tweak.bound_details_right_padding(7.75), -1),
+                baca.tweak.staff_padding(5.5),
                 do_not_bookend=True,
                 rleak=True,
-                staff_padding=5.5,
             )
 
 

@@ -72,8 +72,8 @@ def v1(cache):
     with baca.scope(m.get(1, 8)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8 + 6),
             rleak=True,
-            staff_padding=8 + 6,
         )
         baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -8, clt=True, staff_padding=8)
@@ -89,8 +89,8 @@ def v2(cache):
     with baca.scope(m.get(1, 8)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(4.5 + 6),
             rleak=True,
-            staff_padding=4.5 + 6,
         )
         baca.override.tuplet_bracket_direction_down(o)
         library.bcps(o, -9, clt=True, staff_padding=4.5)

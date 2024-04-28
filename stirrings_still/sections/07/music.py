@@ -331,8 +331,8 @@ def v1(cache):
             baca.dynamic(o.phead(0), "mp")
             baca.spanners.tasto(
                 o,
+                baca.tweak.staff_padding(5.5),
                 rleak=True,
-                staff_padding=5.5,
             )
             library.urtext_spanner(o, "urtext (double stop) -|", 8)
 
@@ -397,7 +397,7 @@ def tutti(cache):
             baca.spanners.scp(
                 o.plts(),
                 "T -> P ->",
-                staff_padding=5.5,
+                baca.tweak.staff_padding(5.5),
             )
             baca.stem_tremolo(o.pleaves())
             baca.override.tuplet_bracket_direction_down(o)
@@ -407,8 +407,8 @@ def tutti(cache):
         with baca.scope(m.get(19, 24)) as o:
             baca.spanners.damp(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(5.5),
                 rleak=True,
-                staff_padding=5.5,
             )
             baca.hairpin(o, "mf>o!")
             baca.pitch(o, "C#6")
@@ -444,8 +444,8 @@ def v1_va_vc(cache):
                 )
                 baca.spanners.tasto(
                     o,
+                    baca.tweak.staff_padding(5.5),
                     rleak=True,
-                    staff_padding=5.5,
                 )
                 library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
             elif name == "va":
@@ -456,8 +456,8 @@ def v1_va_vc(cache):
                 )
                 baca.spanners.tasto(
                     o,
+                    baca.tweak.staff_padding(5.5),
                     rleak=True,
-                    staff_padding=5.5,
                 )
                 library.clouded_pane_spanner(o, "clouded pane (beacon) -|", 8)
             elif name == "vc":
@@ -486,8 +486,8 @@ def v2(cache):
             baca.dynamic(o.phead(0), "mp")
             baca.spanners.tasto(
                 o,
+                baca.tweak.staff_padding(5.5),
                 rleak=True,
-                staff_padding=5.5,
             )
             library.urtext_spanner(o, "urtext (double stop) -|", 8)
     with baca.scope(m.get(12, 13)) as o:
@@ -495,8 +495,8 @@ def v2(cache):
         baca.alternate_bow_strokes(o.pheads())
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.hairpin(
             o,
@@ -506,8 +506,8 @@ def v2(cache):
         )
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
 
 
@@ -528,8 +528,8 @@ def va(cache):
             baca.dynamic(o.phead(0), "mp")
             baca.spanners.tasto(
                 o,
+                baca.tweak.staff_padding(5.5),
                 rleak=True,
-                staff_padding=5.5,
             )
             library.clouded_pane_spanner(o, "clouded pane (partial) -|", 8)
     with baca.scope(m[19]) as o:

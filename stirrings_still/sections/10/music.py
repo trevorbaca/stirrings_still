@@ -172,8 +172,8 @@ def v1_v2_va(cache):
             )
             baca.spanners.half_clt(
                 o.leaves(),
+                baca.tweak.staff_padding(4 + 6.5),
                 rleak=True,
-                staff_padding=4 + 6.5,
             )
             if name == "v1":
                 library.bcps(o, -6, clt=True, staff_padding=4)
@@ -205,8 +205,8 @@ def v1_va_vc(cache):
                 )
                 baca.spanners.tasto(
                     o,
+                    baca.tweak.staff_padding(5.5),
                     rleak=True,
-                    staff_padding=5.5,
                 )
             elif name == "va":
                 baca.markup(
@@ -216,8 +216,8 @@ def v1_va_vc(cache):
                 )
                 baca.spanners.tasto(
                     o,
+                    baca.tweak.staff_padding(5.5),
                     rleak=True,
-                    staff_padding=5.5,
                 )
             baca.hairpin(
                 o,
@@ -274,8 +274,8 @@ def v2(cache):
         baca.alternate_bow_strokes(o.pheads())
         baca.spanners.damp(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.hairpin(
             o,
@@ -285,8 +285,8 @@ def v2(cache):
         )
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.pitch(o, "F5")
         baca.override.tuplet_bracket_staff_padding(o, 1)
@@ -329,9 +329,9 @@ def vc(cache):
     with baca.scope(m.get(12, 13)) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "Cb2 Bb1")
         baca.hairpin(o, "fff>pp")

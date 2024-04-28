@@ -445,8 +445,8 @@ def v1(cache):
     with baca.scope(m.get(1, 2)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(4 + 6.5),
             rleak=True,
-            staff_padding=4 + 6.5,
         )
         library.bcps(o, 0, clt=True, staff_padding=4)
         baca.glissando(
@@ -456,15 +456,15 @@ def v1(cache):
     with baca.scope(m.get(3, 4)) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             qualifier="wide-poss",
             rleak=True,
-            staff_padding=8,
         )
         baca.spanners.text(
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
+            baca.tweak.staff_padding(5.5),
             do_not_bookend=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "Bqf5")
     with baca.scope(m.get(5, 8)) as o:
@@ -473,8 +473,8 @@ def v1(cache):
         with baca.scope(m.get(item)) as o:
             baca.spanners.half_clt(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(4 + 6.5),
                 rleak=True,
-                staff_padding=4 + 6.5,
             )
     with baca.scope(m.get(5, 16)) as o:
         baca.glissando(
@@ -502,9 +502,9 @@ def v1(cache):
     with baca.scope(m[21]) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="tight",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.hairpin(
@@ -525,9 +525,9 @@ def v1(cache):
         baca.hairpin(o, '"ff">mf')
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "Aqs4")
     with baca.scope(m.get(24, 31)) as o:
@@ -544,7 +544,7 @@ def v1(cache):
         baca.spanners.scp(
             o.plts(),
             "T -> P ->",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
         baca.glissando(o, "Aqf5")
     with baca.scope(m.get(32, 37)) as o:
@@ -555,15 +555,15 @@ def v1(cache):
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
             baca.tweak.bound_details_right_padding(1.5),
+            baca.tweak.staff_padding(8),
             do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
-            staff_padding=8,
         )
         baca.spanners.scp(
             o.plts(),
             "T -> P ->",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
     with baca.scope(m.get(32, 53)) as o:
         baca.markup(
@@ -578,16 +578,16 @@ def v1(cache):
         baca.spanners.text(
             baca.select.plts(o),
             r"\baca-null-markup || \baca-null-markup || \baca-damp-markup =|",
+            baca.tweak.staff_padding(8),
             do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
-            staff_padding=8,
         )
         baca.spanners.scp(
             o.plts(),
             "T1 -> T3 -> T2 -> T3 ->",
+            baca.tweak.staff_padding(5.5),
             do_not_bookend=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(41, 42)) as o:
         baca.hairpin(o, "p>pp", rleak=True)
@@ -597,14 +597,14 @@ def v1(cache):
         baca.hairpin(o, "p>o!")
         baca.spanners.damp(
             o.leaves(),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.spanners.scp(
             o,
             "T poss. =|",
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
 
 
@@ -636,17 +636,17 @@ def tutti(cache):
             baca.spanners.text(
                 o,
                 "each time more ponticello =|",
+                baca.tweak.staff_padding(8),
                 lilypond_id=2,
                 rleak=True,
-                staff_padding=8,
             )
         with baca.scope(m.get(32, 37)) as o:
             baca.spanners.text(
                 o,
                 "each time less ponticello =|",
+                baca.tweak.staff_padding(10.5),
                 lilypond_id=2,
                 rleak=True,
-                staff_padding=10.5,
             )
         with baca.scope(m.get(46, 53)) as o:
             if name in ("v1", "v2", "va"):
@@ -659,8 +659,8 @@ def v2(cache):
     with baca.scope(m.get(1, 2)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(4 + 6.5),
             rleak=True,
-            staff_padding=4 + 6.5,
         )
         library.bcps(o, -1, clt=True, staff_padding=4)
         baca.glissando(
@@ -670,15 +670,15 @@ def v2(cache):
     with baca.scope(m.get(3, 4)) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             qualifier="wide-poss",
             rleak=True,
-            staff_padding=8,
         )
         baca.spanners.text(
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
+            baca.tweak.staff_padding(5.5),
             do_not_bookend=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "Bb4")
     with baca.scope(m.get(5, 8)) as o:
@@ -687,8 +687,8 @@ def v2(cache):
         with baca.scope(m.get(item)) as o:
             baca.spanners.half_clt(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(4 + 6.5),
                 rleak=True,
-                staff_padding=4 + 6.5,
             )
     with baca.scope(m.get(5, 16)) as o:
         baca.glissando(
@@ -716,9 +716,9 @@ def v2(cache):
     with baca.scope(m[21]) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="tight",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.hairpin(
@@ -739,9 +739,9 @@ def v2(cache):
         baca.hairpin(o, '"ff">mf')
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "Eb4")
     with baca.scope(m.get(24, 31)) as o:
@@ -758,8 +758,8 @@ def v2(cache):
         baca.spanners.scp(
             baca.select.plts(leaves)[:-1],
             "T -> P ->",
+            baca.tweak.staff_padding(5.5),
             do_not_bookend=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "F5")
     with baca.scope(m.get(32, 37)) as o:
@@ -770,17 +770,17 @@ def v2(cache):
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
             baca.tweak.bound_details_right_padding(1.5),
+            baca.tweak.staff_padding(8),
             do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
-            staff_padding=8,
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.spanners.scp(
             baca.select.plts(leaves)[:-1],
             "T -> P ->",
+            baca.tweak.staff_padding(5.5),
             do_not_bookend=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(32, 53)) as o:
         baca.markup(
@@ -794,17 +794,17 @@ def v2(cache):
         baca.spanners.text(
             o.plts(),
             r"\baca-null-markup || \baca-damp-markup =| \baca-null-markup ||",
+            baca.tweak.staff_padding(8),
             do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
-            staff_padding=8,
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.spanners.scp(
             baca.select.plts(leaves)[:-1],
             "T1 -> T3 -> T2 -> T3 ->",
+            baca.tweak.staff_padding(5.5),
             do_not_bookend=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(41, 42)) as o:
         baca.hairpin(o, "p>pp", rleak=True)
@@ -814,14 +814,14 @@ def v2(cache):
         baca.hairpin(o, "p>o!")
         baca.spanners.damp(
             o.leaves(),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         ),
         baca.spanners.scp(
             o,
             "T poss. =|",
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
 
 
@@ -831,8 +831,8 @@ def va(cache):
     with baca.scope(m.get(1, 2)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(4 + 6.5),
             rleak=True,
-            staff_padding=4 + 6.5,
         )
         library.bcps(o, -2, clt=True, staff_padding=4)
         baca.glissando(
@@ -842,15 +842,15 @@ def va(cache):
     with baca.scope(m.get(3, 4)) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             qualifier="wide-poss",
             rleak=True,
-            staff_padding=8,
         )
         baca.spanners.text(
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
+            baca.tweak.staff_padding(5.5),
             do_not_bookend=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "Bqf3")
     with baca.scope(m.get(5, 11)) as o:
@@ -869,8 +869,8 @@ def va(cache):
         with baca.scope(m.get(item)) as o:
             baca.spanners.half_clt(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(4 + 6.5),
                 rleak=True,
-                staff_padding=4 + 6.5,
             )
             library.bcps(o, -3, clt=True, staff_padding=4)
     with baca.scope(m.get(12, 17)) as o:
@@ -895,9 +895,9 @@ def va(cache):
     with baca.scope(m[21]) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="tight",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.override.dynamic_text_self_alignment_x(o.pleaf(0), -0.75)
         baca.hairpin(
@@ -918,9 +918,9 @@ def va(cache):
         baca.hairpin(o, '"ff">mf')
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(5.5),
             qualifier="wide",
             rleak=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "Bqf3")
     with baca.scope(m.get(24, 31)) as o:
@@ -936,7 +936,7 @@ def va(cache):
         baca.spanners.scp(
             o.plts(),
             "T -> P ->",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
         baca.glissando(o, "G3")
     with baca.scope(m.get(32, 37)) as o:
@@ -947,15 +947,15 @@ def va(cache):
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
             baca.tweak.bound_details_right_padding(1.5),
+            baca.tweak.staff_padding(8),
             do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
-            staff_padding=8,
         )
         baca.spanners.scp(
             o.plts(),
             "T -> P ->",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
     with baca.scope(m.get(32, 53)) as o:
         baca.markup(
@@ -969,15 +969,15 @@ def va(cache):
         baca.spanners.text(
             baca.select.plts(o)[:-1],
             r"\baca-null-markup || \baca-damp-markup =|",
+            baca.tweak.staff_padding(8),
             do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
-            staff_padding=8,
         )
         baca.spanners.scp(
             o.plts(),
             "T1 -> T3 -> T2 -> T3 ->",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
     with baca.scope(m.get(43, 45)) as o:
         baca.hairpin(
@@ -988,22 +988,22 @@ def va(cache):
         )
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(4 + 6.5),
             rleak=True,
-            staff_padding=4 + 6.5,
         )
         library.bcps(o, -2, clt=True, staff_padding=4)
     with baca.scope(m.get(46, 53)) as o:
         baca.spanners.damp(
             o.leaves(),
+            baca.tweak.staff_padding(8),
             rleak=True,
-            staff_padding=8,
         )
         baca.hairpin(o, "p>o!")
         baca.spanners.scp(
             o,
             "T poss. =|",
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
 
 
@@ -1013,8 +1013,8 @@ def vc(cache):
     with baca.scope(m.get(1, 2)) as o:
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(4 + 6.5),
             rleak=True,
-            staff_padding=4 + 6.5,
         )
         library.bcps(o, -3, clt=True, staff_padding=4)
         baca.glissando(
@@ -1024,15 +1024,15 @@ def vc(cache):
     with baca.scope(m.get(3, 4)) as o:
         baca.spanners.circle_bow(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(8),
             qualifier="wide",
             rleak=True,
-            staff_padding=8,
         )
         baca.spanners.text(
             library.rleaves_partition_by_ratio(o, (1, 1, 1)),
             r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
+            baca.tweak.staff_padding(5.5),
             do_not_bookend=True,
-            staff_padding=5.5,
         )
         baca.glissando(o, "Bb2")
     with baca.scope(m.get(5, 8)) as o:
@@ -1041,8 +1041,8 @@ def vc(cache):
         with baca.scope(m.get(item)) as o:
             baca.spanners.half_clt(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(4 + 6.5),
                 rleak=True,
-                staff_padding=4 + 6.5,
             )
     with baca.scope(m.get(5, 14)) as o:
         baca.glissando(
@@ -1072,8 +1072,8 @@ def vc(cache):
         )
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(11.0),
             rleak=True,
-            staff_padding=11.0,
         )
         baca.markup(
             o.pleaf(0),
@@ -1092,7 +1092,7 @@ def vc(cache):
         baca.spanners.scp(
             o.plts(),
             "T -> P ->",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
         baca.glissando(o, "Eb2")
     with baca.scope(m.get(32, 37)) as o:
@@ -1100,7 +1100,7 @@ def vc(cache):
         baca.spanners.scp(
             o.plts(),
             "T -> P ->",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
         baca.stem_tremolo(o.pleaves())
         baca.spanners.text(
@@ -1108,10 +1108,10 @@ def vc(cache):
             "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
             " trem. larghiss. -> no trem.",
             baca.tweak.bound_details_right_padding(1.5),
+            baca.tweak.staff_padding(8),
             do_not_bookend=True,
             do_not_start_spanner_on_final_piece=True,
             lilypond_id=1,
-            staff_padding=8,
         )
     with baca.scope(m.get(32, 54)) as o:
         library.clouded_pane_spanner(
@@ -1131,9 +1131,9 @@ def vc(cache):
         baca.spanners.scp(
             baca.select.cmgroups(o, [8, 9]),
             "T -> T poss. =|",
+            baca.tweak.staff_padding(5.5),
             do_not_bookend=True,
             rleak=True,
-            staff_padding=5.5,
         )
 
 

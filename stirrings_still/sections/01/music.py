@@ -582,8 +582,8 @@ def v1(cache):
         )
         baca.spanners.tasto(
             o,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         library.urtext_spanner(
             o,
@@ -594,14 +594,14 @@ def v1(cache):
         with baca.scope(m.get(item)) as o:
             baca.spanners.circle_bow(
                 o.ltleaves(),
+                baca.tweak.staff_padding(5.5),
                 qualifier="tight",
                 rleak=True,
-                staff_padding=5.5,
             )
             baca.spanners.damp(
                 o.tleaves(),
+                baca.tweak.staff_padding(8),
                 rleak=True,
-                staff_padding=8,
             )
             baca.glissando(o, "C5")
             baca.hairpin(
@@ -627,9 +627,9 @@ def v1_v2_va(cache):
             )
             baca.spanners.tasto(
                 o,
+                baca.tweak.staff_padding(5.5),
                 descriptor="tasto (T) =|",
                 rleak=True,
-                staff_padding=5.5,
             )
         for item in [1, 3, (5, 6), (8, 9)]:
             with baca.scope(m.get(item)) as o:
@@ -653,8 +653,8 @@ def v1_v2_va(cache):
             with baca.scope(m.get(item)) as o:
                 baca.spanners.tasto(
                     o,
+                    baca.tweak.staff_padding(5.5),
                     rleak=True,
-                    staff_padding=5.5,
                 )
         with baca.scope(m.get(5, 6)) as o:
             baca.override.dynamic_text_self_alignment_x(o.leaf(2), -1)
@@ -678,8 +678,8 @@ def v1_v2_va(cache):
             )
             baca.spanners.tasto(
                 o,
+                baca.tweak.staff_padding(5.5),
                 rleak=True,
-                staff_padding=5.5,
             )
             library.breathe(o.leaf(1))
         with baca.scope(m[12]) as o:
@@ -694,8 +694,8 @@ def v1_v2_va(cache):
             with baca.scope(m.get(n)) as o:
                 baca.spanners.tasto(
                     o,
+                    baca.tweak.staff_padding(5.5),
                     rleak=True,
-                    staff_padding=5.5,
                 )
                 library.breathe(o.pleaf(1))
                 library.breathe(o.pleaf(-1))
@@ -717,9 +717,9 @@ def v1_v2_va(cache):
         with baca.scope(m[23]) as o:
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(5.5),
                 qualifier="mod-width",
                 rleak=True,
-                staff_padding=5.5,
             )
             baca.hairpin(
                 o,
@@ -736,9 +736,9 @@ def v1_v2_va(cache):
         with baca.scope(m[26]) as o:
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(5.5),
                 qualifier="wide",
                 rleak=True,
-                staff_padding=5.5,
             )
             baca.hairpin(
                 o,
@@ -760,9 +760,9 @@ def v1_v2_va(cache):
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
                 baca.tweak.bound_details_right_padding(1.25),
+                baca.tweak.staff_padding(5.5),
                 qualifier="very-wide",
                 rleak=True,
-                staff_padding=5.5,
             ),
         with baca.scope(m.get(41, 45)) as o:
             baca.breathe(o.pleaf(-1))
@@ -781,8 +781,8 @@ def v1_v2_va(cache):
             baca.stop_on_string(o.pleaf(-1))
             baca.spanners.tasto(
                 o,
+                baca.tweak.staff_padding(5.5),
                 rleak=True,
-                staff_padding=5.5,
             )
             library.breathe(o.pleaf(1))
             library.urtext_spanner(o, "A, B -|", 8)
@@ -809,16 +809,16 @@ def tutti(cache):
             baca.spanners.text(
                 o,
                 "(2°) =|",
+                baca.tweak.staff_padding(8),
                 lilypond_id=1,
                 rleak=True,
-                staff_padding=8,
             )
             baca.spanners.text(
                 baca.select.mgroups(o, [1, 1]),
                 "rasp -> flaut. =|",
+                baca.tweak.staff_padding(5.5),
                 do_not_bookend=True,
                 rleak=True,
-                staff_padding=5.5,
             )
             library.urtext_spanner(
                 o,
@@ -828,14 +828,14 @@ def tutti(cache):
         with baca.scope(m[62]) as o:
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(5.5),
                 qualifier="very-tight",
                 rleak=True,
-                staff_padding=5.5,
             )
             baca.spanners.damp(
                 baca.select.tleaves(o),
+                baca.tweak.staff_padding(8),
                 rleak=True,
-                staff_padding=8,
             )
             baca.hairpin(
                 o,
@@ -889,8 +889,8 @@ def v2(cache):
         )
         baca.spanners.tasto(
             o,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         library.urtext_spanner(o, "urtext (double stop G.1) -|", 8)
     for item in [(46, 50), 52, 54, 58]:
@@ -898,14 +898,14 @@ def v2(cache):
             baca.glissando(o, "C4")
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(5.5),
                 qualifier="tight",
                 rleak=True,
-                staff_padding=5.5,
             )
             baca.spanners.damp(
                 baca.select.tleaves(o),
+                baca.tweak.staff_padding(8),
                 rleak=True,
-                staff_padding=8,
             )
             baca.hairpin(
                 o,
@@ -961,8 +961,8 @@ def va(cache):
         )
         baca.spanners.tasto(
             o,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         library.clouded_pane_spanner(o, "clouded (partial G.1) -|", 8)
     for item in [(46, 50), 52, 54, 58]:
@@ -970,14 +970,14 @@ def va(cache):
             baca.glissando(o, "Ab3")
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(5.5),
                 qualifier="tight",
                 rleak=True,
-                staff_padding=5.5,
             )
             baca.spanners.damp(
                 baca.select.tleaves(o),
+                baca.tweak.staff_padding(8),
                 rleak=True,
-                staff_padding=8,
             )
             baca.hairpin(
                 o,
@@ -1012,9 +1012,9 @@ def vc(cache):
         baca.spanners.scp(
             o,
             "tasto (T) =|",
+            baca.tweak.staff_padding(5.5),
             left_broken_text=r"\baca-left-broken-t-markup",
             rleak=True,
-            staff_padding=5.5,
         )
         library.urtext_spanner(o, "urtext (field) -|", 8)
     with baca.scope(m[27]) as o:
@@ -1038,8 +1038,8 @@ def vc(cache):
         )
         baca.spanners.tasto(
             o,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         library.urtext_spanner(o, "urtext (field) -|", 8)
     with baca.scope(m.get(35, 40)) as o:
@@ -1055,8 +1055,8 @@ def vc(cache):
         )
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(11.0),
             rleak=True,
-            staff_padding=11.0,
         )
         baca.markup(
             o.pleaf(0),
@@ -1074,14 +1074,14 @@ def vc(cache):
             baca.glissando(o, "G3")
             baca.spanners.circle_bow(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(5.5),
                 qualifier="tight",
                 rleak=True,
-                staff_padding=5.5,
             )
             baca.spanners.damp(
                 baca.select.tleaves(o),
+                baca.tweak.staff_padding(8),
                 rleak=True,
-                staff_padding=8,
             )
             baca.hairpin(
                 o,
@@ -1101,8 +1101,8 @@ def vc(cache):
         )
         baca.spanners.half_clt(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(11.0),
             rleak=True,
-            staff_padding=11.0,
         )
         baca.markup(
             o.pleaf(0),

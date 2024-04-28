@@ -108,8 +108,8 @@ def v1(cache):
         with baca.scope(m.get(item)) as o:
             baca.spanners.half_clt(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(7 + 6.5),
                 rleak=True,
-                staff_padding=7 + 6.5,
             )
     for n in [3, 7, 11, 15]:
         with baca.scope(m[n]) as o:
@@ -205,8 +205,8 @@ def v2(cache):
         with baca.scope(m.get(item)) as o:
             baca.spanners.half_clt(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(4 + 6.5),
                 rleak=True,
-                staff_padding=4 + 6.5,
             )
     for n in [3, 7, 11, 15]:
         with baca.scope(m[n]) as o:
@@ -293,8 +293,8 @@ def va(cache):
         with baca.scope(m.get(item)) as o:
             baca.spanners.half_clt(
                 baca.select.ltleaves(o),
+                baca.tweak.staff_padding(3 + 6.5),
                 rleak=True,
-                staff_padding=3 + 6.5,
             )
     for n in [3, 7, 11, 15]:
         with baca.scope(m[n]) as o:
