@@ -282,13 +282,14 @@ def bcps(
     return wrappers
 
 
+# TODO: remove and use baca.breathe() directly to avoid hiding extra offset
 def breathe(argument):
     """
     Makes breathe command with (-0.25, 2) extra offset.
     """
     wrappers = baca.breathe(
         argument,
-        extra_offset=(-0.25, 2),
+        baca.tweak.extra_offset((-0.25, 2), event=True),
     )
     tag = baca.helpers.function_name(inspect.currentframe())
     baca.tags.tag(wrappers, tag)
