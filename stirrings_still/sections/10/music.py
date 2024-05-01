@@ -159,7 +159,7 @@ def v1_v2_va(cache):
             baca.hairpin(
                 baca.select.mgroups(o, [2, 5]),
                 "appena-udibile-- !<fff-poco-scratch",
-                (baca.tweak.to_bar_line_true(), 0),
+                baca.tweak.to_bar_line_true(index=0),
             )
         with baca.scope(m.get(5, 11)) as o:
             library.urtext_spanner(o, "urtext (ds field) -|", 8)

@@ -874,7 +874,7 @@ def tutti(cache):
                 baca.select.mgroups(o, [3, 3]),
                 r"\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|",
                 # spanner terminates at double bar:
-                (baca.tweak.bound_details_right_padding(7.75), -1),
+                baca.tweak.bound_details_right_padding(7.75, index=-1),
                 baca.tweak.staff_padding(5.5),
                 do_not_bookend=True,
                 rleak=True,

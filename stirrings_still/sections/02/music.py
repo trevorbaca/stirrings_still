@@ -800,7 +800,7 @@ def v1(cache):
             baca.spanners.scp(
                 baca.select.mgroups(u, [2, 4, 5]),
                 "P poss. =| P molto -> T =|",
-                (baca.tweak.bound_details_right_padding(2.25), 0),
+                baca.tweak.bound_details_right_padding(2.25, index=0),
                 library.left_broken_tasto_tweak(),
                 baca.tweak.staff_padding(13),
                 do_not_bookend=True,
@@ -1309,7 +1309,7 @@ def va(cache):
         baca.hairpin(
             baca.select.mgroups(o.rleaves(), [1, 1, 2]),
             "mf-- o< p--!",
-            (baca.tweak.to_bar_line_true(), -1),
+            baca.tweak.to_bar_line_true(index=-1),
         )
     with baca.scope(m.get(6, 7)) as o:
         baca.glissando(o, "Ab3")
