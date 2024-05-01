@@ -1278,12 +1278,12 @@ def grouped_pheads(argument, start=0, stop=None):
 
 def left_broken_circle_bow_tweak():
     string = r"\baca-left-broken-circle-bowing-markup"
-    return baca.tweak.bound_details_left_broken_text(string, index=-1)
+    return baca.tweak.bound_details_left_broken_text(string, i=-1)
 
 
 def left_broken_tasto_tweak():
     string = r"\baca-left-broken-t-markup"
-    return baca.tweak.bound_details_left_broken_text(string, index=-1)
+    return baca.tweak.bound_details_left_broken_text(string, i=-1)
 
 
 def make_accelerando(time_signatures, start, stop):
