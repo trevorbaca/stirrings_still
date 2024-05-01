@@ -8,9 +8,7 @@ stirrings-still-text-toplevel = \markup {
     \with-color #red {
     One night as he sat at his table head on hands he saw himself
     rise and go.
-    } }
-
-} }
+    } } } }
 
 stirrings-still-text-one = \markup {
     \with-dimensions-from \null
