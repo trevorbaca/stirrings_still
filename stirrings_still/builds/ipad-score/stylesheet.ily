@@ -2,8 +2,7 @@
 
 % #(set-default-paper-size "arch a")
 
-#(set! paper-alist
-  (cons '("my size" . (cons (* 8.5 in) (* 4.5 in))) paper-alist))
+#(set! paper-alist (cons '("my size" . (cons (* 8.5 in) (* 4.5 in))) paper-alist))
 
 \paper {
   #(set-paper-size "my size")
