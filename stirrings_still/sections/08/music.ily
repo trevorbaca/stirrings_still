@@ -2137,7 +2137,7 @@ number.8.Violin.1.Music = {
     \breathe
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.1.Music measure 7]
@@ -2201,7 +2201,7 @@ number.8.Violin.1.Music = {
     \revert TupletNumber.text
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Violin.1.Music measure 9]
@@ -2222,7 +2222,7 @@ number.8.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5
+    \tuplet 5/3
     {
 
         % [Violin.1.Music measure 10]
@@ -2239,7 +2239,7 @@ number.8.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/4
+    \tuplet 4/7
     {
 
         % [Violin.1.Music measure 11]
@@ -2266,7 +2266,7 @@ number.8.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6
+    \tuplet 6/7
     {
 
         % [Violin.1.Music measure 12]
@@ -2279,7 +2279,7 @@ number.8.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Violin.1.Music measure 13]
@@ -2300,7 +2300,7 @@ number.8.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.1.Music measure 14]
@@ -2346,7 +2346,7 @@ number.8.Violin.1.Music = {
     bf'!4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6
+    \tuplet 6/4
     {
 
         % [Violin.1.Music measure 16]
@@ -2443,7 +2443,7 @@ number.8.Violin.1.Music = {
     \override TupletBracket.direction = #down
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         gqf'!4
@@ -2490,7 +2490,7 @@ number.8.Violin.1.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         gqf'!4
@@ -2525,7 +2525,7 @@ number.8.Violin.1.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         gqf'!4
@@ -2542,7 +2542,7 @@ number.8.Violin.1.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         gqf'!4
@@ -2559,7 +2559,7 @@ number.8.Violin.1.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         gqf'!4
@@ -2626,7 +2626,7 @@ number.8.Violin.1.Music = {
     >>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1.. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.1.Music measure 30]
@@ -2816,7 +2816,7 @@ number.8.Violin.1.Music = {
     \glissando
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.1.Music measure 34]
@@ -2976,7 +2976,7 @@ number.8.Violin.1.Music = {
     \<
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1... }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.1.Music measure 38]
@@ -3117,7 +3117,7 @@ number.8.Violin.1.Music = {
     >>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { \breve. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.1.Music measure 42]
@@ -3266,7 +3266,7 @@ number.8.Violin.1.Music = {
 
     >>
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.1.Music measure 47]
@@ -3315,7 +3315,7 @@ number.8.Violin.1.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         aqs'!4
@@ -3332,7 +3332,7 @@ number.8.Violin.1.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         aqs'!4
@@ -3368,7 +3368,7 @@ number.8.Violin.1.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         aqs'!4
@@ -3511,7 +3511,7 @@ number.8.Violin.1.Music = {
     \glissando
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.1.Music measure 54]
@@ -3916,7 +3916,7 @@ number.8.Violin.2.Music = {
     \startTextSpan
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1.. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.2.Music measure 11]
@@ -3982,7 +3982,7 @@ number.8.Violin.2.Music = {
     \revert TupletNumber.text
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Violin.2.Music measure 13]
@@ -4010,7 +4010,7 @@ number.8.Violin.2.Music = {
     a'4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5
+    \tuplet 5/3
     {
 
         % [Violin.2.Music measure 15]
@@ -4063,7 +4063,7 @@ number.8.Violin.2.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.2.Music measure 16]
@@ -4158,7 +4158,7 @@ number.8.Violin.2.Music = {
     \override TupletBracket.direction = #down
     r4
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         atqf!4
@@ -4203,7 +4203,7 @@ number.8.Violin.2.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         atqf!4
@@ -4236,7 +4236,7 @@ number.8.Violin.2.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         atqf!4
@@ -4251,7 +4251,7 @@ number.8.Violin.2.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         atqf!4
@@ -4266,7 +4266,7 @@ number.8.Violin.2.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         atqf!4
@@ -4331,7 +4331,7 @@ number.8.Violin.2.Music = {
     >>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1.. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.2.Music measure 30]
@@ -4452,7 +4452,7 @@ number.8.Violin.2.Music = {
 
     >>
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.2.Music measure 33]
@@ -4503,7 +4503,7 @@ number.8.Violin.2.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         f''8
@@ -4513,7 +4513,7 @@ number.8.Violin.2.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         f''8
@@ -4523,7 +4523,7 @@ number.8.Violin.2.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.2.Music measure 34]
@@ -4535,7 +4535,7 @@ number.8.Violin.2.Music = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         f''8
@@ -4685,7 +4685,7 @@ number.8.Violin.2.Music = {
     \<
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1... }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.2.Music measure 38]
@@ -4818,7 +4818,7 @@ number.8.Violin.2.Music = {
     >>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { \breve. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Violin.2.Music measure 42]
@@ -4955,7 +4955,7 @@ number.8.Violin.2.Music = {
 
     >>
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.2.Music measure 47]
@@ -5002,7 +5002,7 @@ number.8.Violin.2.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         ef'!4
@@ -5017,7 +5017,7 @@ number.8.Violin.2.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         ef'!4
@@ -5051,7 +5051,7 @@ number.8.Violin.2.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         ef'!4
@@ -5077,7 +5077,7 @@ number.8.Violin.2.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Violin.2.Music measure 52]
@@ -5146,7 +5146,7 @@ number.8.Violin.2.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.2.Music measure 53]
@@ -5203,7 +5203,7 @@ number.8.Violin.2.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         f''8
@@ -5213,7 +5213,7 @@ number.8.Violin.2.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         f''8
@@ -5225,7 +5225,7 @@ number.8.Violin.2.Music = {
 
     {
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             % [Violin.2.Music measure 54]
@@ -5237,7 +5237,7 @@ number.8.Violin.2.Music = {
         }
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3
+        \tuplet 3/2
         {
 
             f''8
@@ -5251,7 +5251,7 @@ number.8.Violin.2.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Violin.2.Music measure 55]
@@ -5595,7 +5595,7 @@ number.8.Viola.Music = {
     \breathe
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Viola.Music measure 7]
@@ -5659,7 +5659,7 @@ number.8.Viola.Music = {
     \revert TupletNumber.text
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Viola.Music measure 9]
@@ -5689,7 +5689,7 @@ number.8.Viola.Music = {
     a4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/10
+    \tuplet 10/7
     {
 
         % [Viola.Music measure 11]
@@ -5716,7 +5716,7 @@ number.8.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8
+    \tuplet 8/7
     {
 
         % [Viola.Music measure 12]
@@ -5731,7 +5731,7 @@ number.8.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/8
+    \tuplet 8/5
     {
 
         % [Viola.Music measure 13]
@@ -5757,7 +5757,7 @@ number.8.Viola.Music = {
     b4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Viola.Music measure 15]
@@ -6026,7 +6026,7 @@ number.8.Viola.Music = {
     >>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1.. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Viola.Music measure 30]
@@ -6204,7 +6204,7 @@ number.8.Viola.Music = {
     \glissando
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Viola.Music measure 34]
@@ -6364,7 +6364,7 @@ number.8.Viola.Music = {
     \<
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1... }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Viola.Music measure 38]
@@ -6497,7 +6497,7 @@ number.8.Viola.Music = {
     >>
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { \breve. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Viola.Music measure 42]
@@ -6720,7 +6720,7 @@ number.8.Viola.Music = {
     \revert TupletBracket.direction
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Viola.Music measure 52]
@@ -6839,7 +6839,7 @@ number.8.Viola.Music = {
     \glissando
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Viola.Music measure 54]
@@ -6858,7 +6858,7 @@ number.8.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5
+    \tuplet 5/6
     {
 
         % [Viola.Music measure 55]
@@ -7574,7 +7574,7 @@ number.8.Cello.Music = {
     \glissando
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Cello.Music measure 34]
@@ -7797,7 +7797,7 @@ number.8.Cello.Music = {
     d,4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Cello.Music measure 47]
@@ -7896,7 +7896,7 @@ number.8.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Cello.Music measure 48]
@@ -8020,7 +8020,7 @@ number.8.Cello.Music = {
     \bacaStartTextSpanBCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7
+    \tuplet 7/8
     {
 
         % [Cello.Music measure 50]
@@ -8098,7 +8098,7 @@ number.8.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Cello.Music measure 51]
@@ -8148,7 +8148,7 @@ number.8.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Cello.Music measure 52]
@@ -8271,7 +8271,7 @@ number.8.Cello.Music = {
     \glissando
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Cello.Music measure 54]

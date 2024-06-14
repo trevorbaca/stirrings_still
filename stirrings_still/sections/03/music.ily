@@ -2709,7 +2709,7 @@ number.3.Rests = {
 number.3.Violin.1.Music = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Violin.1.Music measure 1]
@@ -2802,7 +2802,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.1.Music measure 2]
@@ -2819,7 +2819,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.1.Music measure 3]
@@ -2836,7 +2836,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Violin.1.Music measure 4]
@@ -2974,7 +2974,7 @@ number.3.Violin.1.Music = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.1.Music measure 7]
@@ -3034,7 +3034,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Violin.1.Music measure 8]
@@ -3053,7 +3053,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Violin.1.Music measure 9]
@@ -3074,7 +3074,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Violin.1.Music measure 10]
@@ -3150,7 +3150,7 @@ number.3.Violin.1.Music = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Violin.1.Music measure 12]
@@ -3195,7 +3195,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.1.Music measure 13]
@@ -3212,7 +3212,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Violin.1.Music measure 14]
@@ -3241,7 +3241,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.1.Music measure 15]
@@ -3258,7 +3258,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Violin.1.Music measure 16]
@@ -3283,7 +3283,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.1.Music measure 17]
@@ -3300,7 +3300,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.1.Music measure 18]
@@ -3327,7 +3327,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.1.Music measure 19]
@@ -3344,7 +3344,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Violin.1.Music measure 20]
@@ -3369,7 +3369,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Violin.1.Music measure 21]
@@ -3388,7 +3388,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Violin.1.Music measure 22]
@@ -3421,7 +3421,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Violin.1.Music measure 23]
@@ -3436,7 +3436,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.1.Music measure 24]
@@ -3470,7 +3470,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.1.Music measure 25]
@@ -3487,7 +3487,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Violin.1.Music measure 26]
@@ -3506,7 +3506,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Violin.1.Music measure 27]
@@ -3595,7 +3595,7 @@ number.3.Violin.1.Music = {
     \glissando
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.1.Music measure 29]
@@ -4420,7 +4420,7 @@ number.3.Violin.1.Music = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Violin.1.Music measure 71]
@@ -4477,7 +4477,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Violin.1.Music measure 72]
@@ -4498,7 +4498,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Violin.1.Music measure 73]
@@ -4519,7 +4519,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Violin.1.Music measure 74]
@@ -4546,7 +4546,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.1.Music measure 75]
@@ -4563,7 +4563,7 @@ number.3.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Violin.1.Music measure 76]
@@ -4766,7 +4766,7 @@ number.3.Violin.2.Music = {
     g'4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8
+    \tuplet 8/7
     {
 
         % [Violin.2.Music measure 5]
@@ -5287,7 +5287,7 @@ number.3.Violin.2.Music = {
     bf'!4
     \breathe
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.2.Music measure 28]
@@ -5340,7 +5340,7 @@ number.3.Violin.2.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         f''8
@@ -5350,7 +5350,7 @@ number.3.Violin.2.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         f''8
@@ -5360,7 +5360,7 @@ number.3.Violin.2.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.2.Music measure 29]
@@ -5372,7 +5372,7 @@ number.3.Violin.2.Music = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         f''8
@@ -6364,7 +6364,7 @@ number.3.Violin.2.MusicStaff = {
 number.3.Viola.Music = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5
+    \tuplet 5/3
     {
 
         % [Viola.Music measure 1]
@@ -6457,7 +6457,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6
+    \tuplet 6/4
     {
 
         % [Viola.Music measure 2]
@@ -6476,7 +6476,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6
+    \tuplet 6/4
     {
 
         % [Viola.Music measure 3]
@@ -6495,7 +6495,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5
+    \tuplet 5/3
     {
 
         % [Viola.Music measure 4]
@@ -6516,7 +6516,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6
+    \tuplet 6/7
     {
 
         % [Viola.Music measure 5]
@@ -6638,7 +6638,7 @@ number.3.Viola.Music = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6
+    \tuplet 6/4
     {
 
         % [Viola.Music measure 7]
@@ -6700,7 +6700,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7
+    \tuplet 7/5
     {
 
         % [Viola.Music measure 8]
@@ -6721,7 +6721,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8
+    \tuplet 8/6
     {
 
         % [Viola.Music measure 9]
@@ -6744,7 +6744,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8
+    \tuplet 8/6
     {
 
         % [Viola.Music measure 10]
@@ -6820,7 +6820,7 @@ number.3.Viola.Music = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5
+    \tuplet 5/3
     {
 
         % [Viola.Music measure 12]
@@ -6865,7 +6865,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6
+    \tuplet 6/4
     {
 
         % [Viola.Music measure 13]
@@ -6884,7 +6884,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7
+    \tuplet 7/5
     {
 
         % [Viola.Music measure 14]
@@ -6915,7 +6915,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6
+    \tuplet 6/4
     {
 
         % [Viola.Music measure 15]
@@ -6934,7 +6934,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5
+    \tuplet 5/3
     {
 
         % [Viola.Music measure 16]
@@ -6961,7 +6961,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6
+    \tuplet 6/4
     {
 
         % [Viola.Music measure 17]
@@ -6980,7 +6980,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6
+    \tuplet 6/4
     {
 
         % [Viola.Music measure 18]
@@ -7009,7 +7009,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6
+    \tuplet 6/4
     {
 
         % [Viola.Music measure 19]
@@ -7028,7 +7028,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5
+    \tuplet 5/3
     {
 
         % [Viola.Music measure 20]
@@ -7055,7 +7055,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7
+    \tuplet 7/5
     {
 
         % [Viola.Music measure 21]
@@ -7076,7 +7076,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8
+    \tuplet 8/6
     {
 
         % [Viola.Music measure 22]
@@ -7111,7 +7111,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5
+    \tuplet 5/3
     {
 
         % [Viola.Music measure 23]
@@ -7128,7 +7128,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6
+    \tuplet 6/4
     {
 
         % [Viola.Music measure 24]
@@ -7164,7 +7164,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6
+    \tuplet 6/4
     {
 
         % [Viola.Music measure 25]
@@ -7183,7 +7183,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7
+    \tuplet 7/5
     {
 
         % [Viola.Music measure 26]
@@ -7204,7 +7204,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8
+    \tuplet 8/6
     {
 
         % [Viola.Music measure 27]
@@ -7295,7 +7295,7 @@ number.3.Viola.Music = {
     \glissando
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Viola.Music measure 29]
@@ -8126,7 +8126,7 @@ number.3.Viola.Music = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7
+    \tuplet 7/5
     {
 
         % [Viola.Music measure 71]
@@ -8182,7 +8182,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8
+    \tuplet 8/6
     {
 
         % [Viola.Music measure 72]
@@ -8205,7 +8205,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8
+    \tuplet 8/6
     {
 
         % [Viola.Music measure 73]
@@ -8228,7 +8228,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5
+    \tuplet 5/3
     {
 
         % [Viola.Music measure 74]
@@ -8257,7 +8257,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6
+    \tuplet 6/4
     {
 
         % [Viola.Music measure 75]
@@ -8276,7 +8276,7 @@ number.3.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7
+    \tuplet 7/5
     {
 
         % [Viola.Music measure 76]
@@ -8363,7 +8363,7 @@ number.3.Viola.Staff = {
 number.3.Cello.Music = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/2
+    \tuplet 2/3
     {
 
         % [Cello.Music measure 1]
@@ -8458,7 +8458,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3
+    \tuplet 3/4
     {
 
         % [Cello.Music measure 2]
@@ -8471,7 +8471,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3
+    \tuplet 3/4
     {
 
         % [Cello.Music measure 3]
@@ -8484,7 +8484,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/2
+    \tuplet 2/3
     {
 
         % [Cello.Music measure 4]
@@ -8626,7 +8626,7 @@ number.3.Cello.Music = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3
+    \tuplet 3/4
     {
 
         % [Cello.Music measure 7]
@@ -8698,7 +8698,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Cello.Music measure 8]
@@ -8713,7 +8713,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5
+    \tuplet 5/6
     {
 
         % [Cello.Music measure 9]
@@ -8730,7 +8730,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5
+    \tuplet 5/6
     {
 
         % [Cello.Music measure 10]
@@ -8802,7 +8802,7 @@ number.3.Cello.Music = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/2
+    \tuplet 2/3
     {
 
         % [Cello.Music measure 12]
@@ -8859,7 +8859,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3
+    \tuplet 3/4
     {
 
         % [Cello.Music measure 13]
@@ -8872,7 +8872,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Cello.Music measure 14]
@@ -8897,7 +8897,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3
+    \tuplet 3/4
     {
 
         % [Cello.Music measure 15]
@@ -8910,7 +8910,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/2
+    \tuplet 2/3
     {
 
         % [Cello.Music measure 16]
@@ -8931,7 +8931,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3
+    \tuplet 3/4
     {
 
         % [Cello.Music measure 17]
@@ -8944,7 +8944,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3
+    \tuplet 3/4
     {
 
         % [Cello.Music measure 18]
@@ -8967,7 +8967,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3
+    \tuplet 3/4
     {
 
         % [Cello.Music measure 19]
@@ -8980,7 +8980,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/2
+    \tuplet 2/3
     {
 
         % [Cello.Music measure 20]
@@ -9001,7 +9001,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Cello.Music measure 21]
@@ -9016,7 +9016,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5
+    \tuplet 5/6
     {
 
         % [Cello.Music measure 22]
@@ -9045,7 +9045,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/2
+    \tuplet 2/3
     {
 
         % [Cello.Music measure 23]
@@ -9056,7 +9056,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3
+    \tuplet 3/4
     {
 
         % [Cello.Music measure 24]
@@ -9086,7 +9086,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3
+    \tuplet 3/4
     {
 
         % [Cello.Music measure 25]
@@ -9099,7 +9099,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Cello.Music measure 26]
@@ -9114,7 +9114,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5
+    \tuplet 5/6
     {
 
         % [Cello.Music measure 27]
@@ -9187,7 +9187,7 @@ number.3.Cello.Music = {
     \glissando
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Cello.Music measure 29]
@@ -10025,7 +10025,7 @@ number.3.Cello.Music = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Cello.Music measure 71]
@@ -10077,7 +10077,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5
+    \tuplet 5/6
     {
 
         % [Cello.Music measure 72]
@@ -10094,7 +10094,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5
+    \tuplet 5/6
     {
 
         % [Cello.Music measure 73]
@@ -10111,7 +10111,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/2
+    \tuplet 2/3
     {
 
         % [Cello.Music measure 74]
@@ -10134,7 +10134,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3
+    \tuplet 3/4
     {
 
         % [Cello.Music measure 75]
@@ -10147,7 +10147,7 @@ number.3.Cello.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Cello.Music measure 76]

@@ -424,7 +424,7 @@ number.15.Violin.1.Music = {
     \undo \hide NoteHead
     ef'!4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.1.Music measure 7]
@@ -671,7 +671,7 @@ number.15.Violin.2.Music = {
     \undo \hide NoteHead
     d'4
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.2.Music measure 7]
@@ -1147,7 +1147,7 @@ number.15.Cello.Music = {
     af!4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9
+    \tuplet 9/8
     {
 
         % [Cello.Music measure 7]

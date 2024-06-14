@@ -1086,7 +1086,7 @@ number.13.Violin.1.Music = {
     \revert Stem.transparent
     d'''1
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.1.Music measure 9]
@@ -1166,7 +1166,7 @@ number.13.Violin.1.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.1.Music measure 10]
@@ -1185,7 +1185,7 @@ number.13.Violin.1.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         <ds'! a'>4
@@ -1278,7 +1278,7 @@ number.13.Violin.1.Music = {
     \revert Stem.transparent
     d'''4.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         <ds'! a'>4
@@ -1357,7 +1357,7 @@ number.13.Violin.1.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.1.Music measure 19]
@@ -1375,7 +1375,7 @@ number.13.Violin.1.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.1.Music measure 20]
@@ -1471,7 +1471,7 @@ number.13.Violin.1.Music = {
     \revert Stem.transparent
     d'''2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.1.Music measure 26]
@@ -1552,7 +1552,7 @@ number.13.Violin.1.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         <ds'! a'>4
@@ -1854,7 +1854,7 @@ number.13.Violin.2.Music = {
     \revert Stem.transparent
     fqs''!1
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.2.Music measure 9]
@@ -1932,7 +1932,7 @@ number.13.Violin.2.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.2.Music measure 10]
@@ -1948,7 +1948,7 @@ number.13.Violin.2.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         <dqs'! gtqs'!>4
@@ -2039,7 +2039,7 @@ number.13.Violin.2.Music = {
     \revert Stem.transparent
     fqs''!4.
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         <dqs'! gtqs'!>4
@@ -2116,7 +2116,7 @@ number.13.Violin.2.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.2.Music measure 19]
@@ -2132,7 +2132,7 @@ number.13.Violin.2.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.2.Music measure 20]
@@ -2226,7 +2226,7 @@ number.13.Violin.2.Music = {
     \revert Stem.transparent
     fqs''!2.
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.2.Music measure 26]
@@ -2304,7 +2304,7 @@ number.13.Violin.2.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         <dqs'! gtqs'!>4
