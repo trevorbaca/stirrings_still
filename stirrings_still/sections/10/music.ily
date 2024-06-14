@@ -785,7 +785,7 @@ number.10.Violin.1.Music = {
     \glissando
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.1.Music measure 4]
@@ -995,7 +995,7 @@ number.10.Violin.1.Music = {
     \glissando
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7
+    \tuplet 7/8
     {
 
         % [Violin.1.Music measure 13]
@@ -1045,7 +1045,7 @@ number.10.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9
+    \tuplet 9/8
     {
 
         % [Violin.1.Music measure 14]
@@ -1126,7 +1126,7 @@ number.10.Violin.1.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8
+    \tuplet 8/7
     {
 
         % [Violin.1.Music measure 15]
@@ -1235,7 +1235,7 @@ number.10.Violin.1.Music = {
     \bacaStartTextSpanBCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Violin.1.Music measure 17]
@@ -1395,7 +1395,7 @@ number.10.Violin.2.Music = {
     % [Violin.2.Music measure 2]
     <e' gs'!>2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.2.Music measure 3]
@@ -1452,7 +1452,7 @@ number.10.Violin.2.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         f''8
@@ -1462,7 +1462,7 @@ number.10.Violin.2.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         f''8
@@ -1472,7 +1472,7 @@ number.10.Violin.2.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.2.Music measure 4]
@@ -1484,7 +1484,7 @@ number.10.Violin.2.Music = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         f''8
@@ -1599,7 +1599,7 @@ number.10.Violin.2.Music = {
     ^ \stirrings-still-third-time-no-breath-markup
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8
+    \tuplet 8/7
     {
 
         % [Violin.2.Music measure 12]
@@ -1751,7 +1751,7 @@ number.10.Violin.2.Music = {
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7
+    \tuplet 7/8
     {
 
         % [Violin.2.Music measure 14]
@@ -1817,7 +1817,7 @@ number.10.Violin.2.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8
+    \tuplet 8/7
     {
 
         % [Violin.2.Music measure 15]
@@ -1871,7 +1871,7 @@ number.10.Violin.2.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Violin.2.Music measure 16]
@@ -2166,7 +2166,7 @@ number.10.Viola.Music = {
     \glissando
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Viola.Music measure 4]
@@ -2292,7 +2292,7 @@ number.10.Viola.Music = {
     ^ \stirrings-still-third-time-no-breath-markup
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8
+    \tuplet 8/7
     {
 
         % [Viola.Music measure 12]
@@ -2392,7 +2392,7 @@ number.10.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9
+    \tuplet 9/8
     {
 
         % [Viola.Music measure 13]
@@ -2541,7 +2541,7 @@ number.10.Viola.Music = {
     \bacaStartTextSpanBCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6
+    \tuplet 6/7
     {
 
         % [Viola.Music measure 15]
@@ -2586,7 +2586,7 @@ number.10.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Viola.Music measure 16]
@@ -2636,7 +2636,7 @@ number.10.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Viola.Music measure 17]
@@ -2859,7 +2859,7 @@ number.10.Cello.Music = {
     \glissando
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Cello.Music measure 4]
@@ -2981,7 +2981,7 @@ number.10.Cello.Music = {
     ^ \stirrings-still-third-time-no-breath-markup
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1... }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Cello.Music measure 12]
