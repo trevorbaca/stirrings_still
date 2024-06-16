@@ -1,3 +1,4 @@
+\version "2.25.13"
 #(set-default-paper-size "ledger")
 #(set-global-staff-size 10)
 
@@ -136,6 +137,7 @@
     \consists Staff_collecting_engraver
     \consists Time_signature_engraver
     \accepts GlobalSkips
+    \defaultchild GlobalSkips
     \accepts GlobalRests
     \accepts PageLayout
 
