@@ -962,7 +962,7 @@ number.2.Skips = {
     % [Skips measure 29]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #blue
-    \bar ".|:"
+    \bar ".|:-|"
       %! MEASURE_92
       %! NOT_MOL
 %%% \once \override Score.BarLine.X-extent = #'(0 . 2)

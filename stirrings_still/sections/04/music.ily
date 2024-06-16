@@ -7,7 +7,7 @@ number.4.Skips = {
     %@% \baca-thick-red-bar-line
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #blue
-    \bar ".|:"
+    \bar ".|:-|"
       %! MEASURE_207
       %! NOT_MOL
     \once \override Score.BarLine.X-extent = #'(0 . 2)
@@ -1554,7 +1554,7 @@ number.4.Skips = {
     % [Skips measure 57]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #blue
-    \bar ".|:"
+    \bar ".|:-|"
       %! MEASURE_263
       %! NOT_MOL
 %%% \once \override Score.BarLine.X-extent = #'(0 . 2)
@@ -2624,7 +2624,7 @@ number.4.Skips = {
     % [Skips measure 94]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #blue
-    \bar ".|:"
+    \bar ".|:-|"
       %! MEASURE_300
       %! NOT_MOL
 %%% \once \override Score.BarLine.X-extent = #'(0 . 2)
