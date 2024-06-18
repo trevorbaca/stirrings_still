@@ -1133,7 +1133,7 @@ def make_layout(environment):
             baca.layout.Override((52, 55), (1, 36)),
         ),
     )
-    lilypond_file, bol_measure_numbers = baca.build.write_layout_ily(
+    return baca.build.write_layout_ily(
         breaks,
         environment.metadata["time_signatures"],
         fermata_measure_numbers=environment.metadata.get("fermata_measure_numbers", []),
@@ -1153,7 +1153,11 @@ def main():
         )
         persist_score(score, environment)
     if environment.arguments.layout:
-        make_layout(environment)
+        lilypond_file, bol_measure_numbers = make_layout(environment)
+        baca.build.persist_layout_ily(environment.section_directory, lilypond_file)
+        baca.build.write_bol_metadata(
+            environment.section_directory, bol_measure_numbers
+        )
 
 
 if __name__ == "__main__":
