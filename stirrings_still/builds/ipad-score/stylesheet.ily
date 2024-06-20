@@ -5,7 +5,8 @@
 
 #(set! paper-alist (cons '("my size" . (cons (* 8.5 in) (* 4.5 in))) paper-alist))
 
-\paper {
+\paper
+{
   #(set-paper-size "my size")
 }
 
@@ -15,7 +16,7 @@
 
 \paper
 {
-  right-margin = 15\mm
+  right-margin = 15
 }
 
 \layout
@@ -25,9 +26,9 @@
 
 \header
 {
-    composer = \markup \null
-    poet = \markup \null
-    title = \markup \null
+  composer = \markup \null
+  poet = \markup \null
+  title = \markup \null
 }
 
 %\stirrings-still-text-toplevel

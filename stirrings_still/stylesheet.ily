@@ -1,14 +1,13 @@
 \version "2.25.16"
-#(set-default-paper-size "ledger")
-#(set-global-staff-size 10)
-
 \include "baca.ily"
 \include "text-markups.ily"
 
+#(set-default-paper-size "ledger")
+#(set-global-staff-size 10)
 
 \paper
 {
-  %bottom-margin = 10\mm
+  %bottom-margin = 10
   evenFooterMarkup = \markup
     \if \should-print-page-number
     \fill-line {
@@ -34,14 +33,14 @@
       " "
   }
   evenHeaderMarkup = \markup \fill-line { " " }
-  left-margin = 20\mm
+  left-margin = 20
   oddFooterMarkup = \evenFooterMarkup
   oddHeaderMarkup = \markup \fill-line { " " }
   print-first-page-number = ##f
   print-page-number = ##t
   ragged-bottom = ##t
   ragged-last-bottom = ##t
-  right-margin = 5\mm
+  right-margin = 5
   markup-system-spacing = #'(
     (basic-distance . 0)
     (minimum-distance . 60)
@@ -66,7 +65,7 @@
     (padding . 0)
     (stretchability . 0)
   )
-  top-margin = 0\mm
+  top-margin = 0
 }
 
 \layout
@@ -78,12 +77,8 @@
   ragged-right = ##t
 }
 
-%%% CONTEXT
-
 \layout
 {
-
-  % GLOBAL SKIPS
   \context
   {
     \name GlobalSkips
@@ -91,39 +86,28 @@
     \consists Script_engraver
     \consists Text_engraver
     \consists \alternateTextSpannerEngraver
-
     \override TextScript.font-size = 6
-
     \override TextSpanner.font-size = 6
   }
-
-  % GLOBAL RESTS
   \context
   {
     \name GlobalRests
     \type Engraver_group
     \consists Multi_measure_rest_engraver
-
     \override MultiMeasureRest.transparent = ##t
-
     \override MultiMeasureRestText.staff-padding = 2
     \override MultiMeasureRestText.font-size = 3
     \override MultiMeasureRestText.outside-staff-priority = 0
     \override MultiMeasureRestText.padding = 0
   }
-
-  % PAGE LAYOUT
   \context
   {
     \name PageLayout
     \type Engraver_group
     \consists Text_engraver
     \consists \alternateTextSpannerEngraver
-
     \override TextSpanner.font-size = 6
   }
-
-  % GLOBAL CONTEXT
   \context
   {
     \name GlobalContext
@@ -140,16 +124,13 @@
     \defaultchild GlobalSkips
     \accepts GlobalRests
     \accepts PageLayout
-
     \override BarNumber.Y-extent = ##f
     % TODO: hide in score:
     %\override BarNumber.break-visibility = #end-of-line-invisible
     \override BarNumber.extra-offset = #'(-4 . -4)
     \override BarNumber.font-size = 1
     %\override BarNumber.stencil = ##f
-
     \override TextSpanner.to-barline = ##t
-
     % prevents StaffSymbol from starting too early after cut-away measures:
     \override TimeSignature.X-extent = ##f
     \override TimeSignature.break-align-symbol = #'left-edge
@@ -158,25 +139,18 @@
     \override TimeSignature.space-alist.clef = #'(extra-space . 0.5)
     \override TimeSignature.style = #'numbered
   }
-
-  % VOICE
   \context
   {
     \Voice
     \remove Forbid_line_break_engraver
   }
-
-  % STAFF
   \context
   {
     \Staff
     \accepts GlobalRests
     \remove Time_signature_engraver
-
     explicitClefVisibility = #end-of-line-invisible
   }
-
-  % STRING QUARTET STAFF GROUP
   \context
   {
     \StaffGroup
@@ -184,8 +158,6 @@
     \type Engraver_group
     \alias StaffGroup
   }
-
-  % MUSIC CONTEXT
   \context
   {
     \ChoirStaff
@@ -193,11 +165,8 @@
     \type Engraver_group
     \alias ChoirStaff
     \accepts StringQuartetStaffGroup
-
     systemStartDelimiter = #'SystemStartBar
   }
-
-  % SCORE
   \context
   {
     \Score
@@ -206,50 +175,34 @@
     \remove Bar_number_engraver
     \remove Metronome_mark_engraver
     \remove System_start_delimiter_engraver
-
     % necessary for uniform overlapping polyrhythms with accidentals
     \override Accidental.X-extent = ##f
-
     \override BarLine.hair-thickness = 0.5
     \override BarLine.X-extent = #'(0 . 0)
-
     \override Beam.damping = 99
-
     %\override BreathingSign.color = #red
-
     \override Glissando.thickness = 3
-
     \override Hairpin.to-barline = ##f
-
     \override NoteCollision.merge-differently-dotted = ##t
-
     \override NoteColumn.ignore-collision = ##t
-
     \shape #'((-2 . 0) (-1 . 0) (-0.5 . 0) (0 . 0)) RepeatTie         
     \override RepeatTie.X-extent = ##f
-
     \override SpacingSpanner.strict-grace-spacing = ##t
     \override SpacingSpanner.strict-note-spacing = ##t
     \override SpacingSpanner.uniform-stretching = ##t
-
     \override StemTremolo.beam-width = 1.5
     \override StemTremolo.flag-count = 4
     \override StemTremolo.slope = 0.5
-
     \override TextScript.font-name = #"Palatino"
     % DISCOVERY: overriding TextScript.X-extent = ##f
     %      makes LilyPond ignore self-alignment-X tweaks;
     %      probably should never be done at stylesheet level.
     % NOTE:    may be best to override NO text script properties.
     \override TextScript.X-extent = ##f
-
     \override TextSpanner.to-barline = ##t
-
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 2
-
     \override TupletNumber.font-size = 1
-
     autoBeaming = ##f
     barNumberFormatter = #baca-oval-bar-numbers
     tupletFullLength = ##t
@@ -306,13 +259,13 @@ bacaStopTextSpanUrtext = #(
   make-music 'TextSpanEvent 'span-direction STOP 'spanner-id "Urtext"
   )
 
-%%% MARKUP
+% MARKUP
 
-%%% B %%%%
+% B
 
 stirrings-still-nine-plus-seven-of-b-markup = \markup "(9+7)°/B"
 
-%%% E %%%
+% E
 
 stirrings-still-eleven-plus-three-of-e-markup = \markup "(11+3)°/E"
 
@@ -320,17 +273,17 @@ stirrings-still-five-plus-thirteen-of-e-markup = \markup "(5+13)°/E"
 
 stirrings-still-seven-plus-nine-of-e-markup = \markup "(7+9)°/E"
 
-%%% F %%%%
+% F
 
 stirrings-still-three-plus-seven-of-f-markup = \markup "(3+7)°/F"
 
 stirrings-still-nine-plus-eleven-of-f-markup = \markup "(9+11)°/F"
 
-%% MISC %%%
+% MISC
 
 stirrings-still-ninth-partial-markup = \markup "(9°)"
 
-%%% MORE
+% MORE
 
 stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup = \markup
   "allow vibrato to achieve loud dynamics"
@@ -378,7 +331,7 @@ stirrings-still-twelve-et-conflicts-with-viola-markup = \markup
 
 stirrings-still-twenty-four-et-markup = \markup (24ET)
 
-%%% MARGIN MARKUP %%%
+% MARGIN MARKUP
 
 stirrings-still-violin-i-markup = \markup \hcenter-in #14 "Violin I"
 stirrings-still-vn-i-markup = \markup \hcenter-in #12 "Vn. I"
@@ -392,7 +345,7 @@ stirrings-still-va-markup = \markup \hcenter-in #12 "Va."
 stirrings-still-cello-markup = \markup \hcenter-in #14 "Cello"
 stirrings-still-vc-markup = \markup \hcenter-in #12 "Vc."
 
-%%% METRONOME MARKS %%%
+% METRONOME MARKS
 
 stirrings-still-presto-largo-markup = \markup
   \concat {
