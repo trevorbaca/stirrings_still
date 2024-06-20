@@ -24,7 +24,6 @@
 \include "_sections/18.ily"
 \include "_sections/19.ily"
 
-
 \score
 {
   <<
