@@ -11388,11 +11388,2593 @@ page-layout-score = \context Score = "Score"
 <<
 
     \context GlobalContext = "GlobalContext"
-    {
+    <<
 
         \context PageLayout = "PageLayout"
         { \PageLayout }
 
-    }
+        \context GlobalSkips = "Breaks"
+        {
+
+            % [Breaks measure 1]
+            s1 * 8/16
+
+            % [Breaks measure 2]
+            s1 * 1/4
+
+            % [Breaks measure 3]
+            s1 * 12/16
+
+            % [Breaks measure 4]
+            s1 * 1/4
+
+            % [Breaks measure 5]
+            s1 * 12/16
+
+            % [Breaks measure 6]
+            s1 * 14/16
+
+            % [Breaks measure 7]
+            s1 * 1/4
+
+            % [Breaks measure 8]
+            s1 * 14/16
+
+            % [Breaks measure 9]
+            s1 * 16/16
+
+            % [Breaks measure 10]
+            s1 * 1/4
+
+            % [Breaks measure 11]
+            s1 * 16/16
+
+            % [Breaks measure 12]
+            s1 * 10/16
+
+            % [Breaks measure 13]
+            s1 * 12/16
+
+            % [Breaks measure 14]
+            s1 * 16/16
+
+            % [Breaks measure 15]
+            s1 * 14/16
+
+            % [Breaks measure 16]
+            s1 * 14/16
+
+            % [Breaks measure 17]
+            s1 * 1/4
+
+            % [Breaks measure 18]
+            s1 * 16/16
+
+            % [Breaks measure 19]
+            s1 * 1/4
+
+            % [Breaks measure 20]
+            s1 * 12/16
+
+            % [Breaks measure 21]
+            s1 * 1/4
+
+            % [Breaks measure 22]
+            s1 * 10/16
+
+            % [Breaks measure 23]
+            s1 * 12/16
+
+            % [Breaks measure 24]
+            s1 * 1/4
+
+            % [Breaks measure 25]
+            s1 * 8/16
+
+            % [Breaks measure 26]
+            s1 * 12/16
+
+            % [Breaks measure 27]
+            s1 * 14/16
+
+            % [Breaks measure 28]
+            s1 * 1/4
+
+            % [Breaks measure 29]
+            s1 * 10/16
+
+            % [Breaks measure 30]
+            s1 * 12/16
+
+            % [Breaks measure 31]
+            s1 * 12/16
+
+            % [Breaks measure 32]
+            s1 * 12/16
+
+            % [Breaks measure 33]
+            s1 * 8/16
+
+            % [Breaks measure 34]
+            s1 * 16/16
+
+            % [Breaks measure 35]
+            s1 * 16/16
+
+            % [Breaks measure 36]
+            s1 * 14/16
+
+            % [Breaks measure 37]
+            s1 * 14/16
+
+            % [Breaks measure 38]
+            s1 * 8/16
+
+            % [Breaks measure 39]
+            s1 * 12/16
+
+            % [Breaks measure 40]
+            s1 * 12/16
+
+            % [Breaks measure 41]
+            s1 * 14/16
+
+            % [Breaks measure 42]
+            s1 * 16/16
+
+            % [Breaks measure 43]
+            s1 * 3/4
+
+            % [Breaks measure 44]
+            s1 * 16/16
+
+            % [Breaks measure 45]
+            s1 * 14/16
+
+            % [Breaks measure 46]
+            s1 * 12/16
+
+            % [Breaks measure 47]
+            s1 * 10/16
+
+            % [Breaks measure 48]
+            s1 * 3/4
+
+            % [Breaks measure 49]
+            s1 * 14/16
+
+            % [Breaks measure 50]
+            s1 * 14/16
+
+            % [Breaks measure 51]
+            s1 * 1/4
+
+            % [Breaks measure 52]
+            s1 * 16/16
+
+            % [Breaks measure 53]
+            s1 * 1/4
+
+            % [Breaks measure 54]
+            s1 * 16/16
+
+            % [Breaks measure 55]
+            s1 * 8/8
+
+            % [Breaks measure 56]
+            s1 * 8/8
+
+            % [Breaks measure 57]
+            s1 * 1/4
+
+            % [Breaks measure 58]
+            s1 * 10/16
+
+            % [Breaks measure 59]
+            s1 * 1/4
+
+            % [Breaks measure 60]
+            s1 * 12/16
+
+            % [Breaks measure 61]
+            s1 * 1/4
+
+            % [Breaks measure 62]
+            s1 * 12/16
+
+            % [Breaks measure 63]
+            s1 * 1/4
+
+            % [Breaks measure 64]
+            s1 * 6/8
+
+            % [Breaks measure 65]
+            s1 * 7/8
+
+            % [Breaks measure 66]
+            s1 * 7/8
+
+            % [Breaks measure 67]
+            s1 * 4/8
+
+            % [Breaks measure 68]
+            s1 * 5/8
+
+            % [Breaks measure 69]
+            s1 * 6/8
+
+            % [Breaks measure 70]
+            s1 * 8/8
+
+            % [Breaks measure 71]
+            s1 * 8/8
+
+            % [Breaks measure 72]
+            s1 * 5/8
+
+            % [Breaks measure 73]
+            s1 * 4/8
+
+            % [Breaks measure 74]
+            s1 * 8/8
+
+            % [Breaks measure 75]
+            s1 * 6/8
+
+            % [Breaks measure 76]
+            s1 * 5/12
+
+            % [Breaks measure 77]
+            s1 * 8/8
+
+            % [Breaks measure 78]
+            s1 * 5/12
+
+            % [Breaks measure 79]
+            s1 * 7/8
+
+            % [Breaks measure 80]
+            s1 * 5/12
+
+            % [Breaks measure 81]
+            s1 * 6/8
+
+            % [Breaks measure 82]
+            s1 * 7/8
+
+            % [Breaks measure 83]
+            s1 * 8/8
+
+            % [Breaks measure 84]
+            s1 * 8/8
+
+            % [Breaks measure 85]
+            s1 * 6/8
+
+            % [Breaks measure 86]
+            s1 * 7/8
+
+            % [Breaks measure 87]
+            s1 * 7/8
+
+            % [Breaks measure 88]
+            s1 * 6/8
+
+            % [Breaks measure 89]
+            s1 * 8/16
+
+            % [Breaks measure 90]
+            s1 * 4/8
+
+            % [Breaks measure 91]
+            s1 * 1/4
+
+            % [Breaks measure 92]
+            s1 * 5/8
+
+            % [Breaks measure 93]
+            s1 * 6/8
+
+            % [Breaks measure 94]
+            s1 * 1/4
+
+            % [Breaks measure 95]
+            s1 * 8/8
+
+            % [Breaks measure 96]
+            s1 * 8/8
+
+            % [Breaks measure 97]
+            s1 * 7/8
+
+            % [Breaks measure 98]
+            s1 * 7/8
+
+            % [Breaks measure 99]
+            s1 * 1/4
+
+            % [Breaks measure 100]
+            s1 * 5/8
+
+            % [Breaks measure 101]
+            s1 * 4/8
+
+            % [Breaks measure 102]
+            s1 * 1/4
+
+            % [Breaks measure 103]
+            s1 * 6/8
+
+            % [Breaks measure 104]
+            s1 * 8/8
+
+            % [Breaks measure 105]
+            s1 * 12/16
+
+            % [Breaks measure 106]
+            s1 * 1/4
+
+            % [Breaks measure 107]
+            s1 * 8/8
+
+            % [Breaks measure 108]
+            s1 * 10/16
+
+            % [Breaks measure 109]
+            s1 * 4/8
+
+            % [Breaks measure 110]
+            s1 * 1/4
+
+            % [Breaks measure 111]
+            s1 * 16/16
+
+            % [Breaks measure 112]
+            s1 * 1/4
+
+            % [Breaks measure 113]
+            s1 * 5/8
+
+            % [Breaks measure 114]
+            s1 * 8/8
+
+            % [Breaks measure 115]
+            s1 * 6/8
+
+            % [Breaks measure 116]
+            s1 * 8/8
+
+            % [Breaks measure 117]
+            s1 * 7/8
+
+            % [Breaks measure 118]
+            s1 * 6/8
+
+            % [Breaks measure 119]
+            s1 * 7/8
+
+            % [Breaks measure 120]
+            s1 * 8/8
+
+            % [Breaks measure 121]
+            s1 * 8/8
+
+            % [Breaks measure 122]
+            s1 * 6/8
+
+            % [Breaks measure 123]
+            s1 * 7/8
+
+            % [Breaks measure 124]
+            s1 * 7/8
+
+            % [Breaks measure 125]
+            s1 * 6/8
+
+            % [Breaks measure 126]
+            s1 * 1/4
+
+            % [Breaks measure 127]
+            s1 * 14/16
+
+            % [Breaks measure 128]
+            s1 * 5/8
+
+            % [Breaks measure 129]
+            s1 * 1/4
+
+            % [Breaks measure 130]
+            s1 * 3/4
+
+            % [Breaks measure 131]
+            s1 * 4/4
+
+            % [Breaks measure 132]
+            s1 * 4/4
+
+            % [Breaks measure 133]
+            s1 * 3/4
+
+            % [Breaks measure 134]
+            s1 * 14/16
+
+            % [Breaks measure 135]
+            s1 * 1/4
+
+            % [Breaks measure 136]
+            s1 * 4/4
+
+            % [Breaks measure 137]
+            s1 * 5/4
+
+            % [Breaks measure 138]
+            s1 * 6/4
+
+            % [Breaks measure 139]
+            s1 * 6/4
+
+            % [Breaks measure 140]
+            s1 * 1/4
+
+            % [Breaks measure 141]
+            s1 * 3/4
+
+            % [Breaks measure 142]
+            s1 * 4/4
+
+            % [Breaks measure 143]
+            s1 * 5/4
+
+            % [Breaks measure 144]
+            s1 * 4/4
+
+            % [Breaks measure 145]
+            s1 * 3/4
+
+            % [Breaks measure 146]
+            s1 * 4/4
+
+            % [Breaks measure 147]
+            s1 * 4/4
+
+            % [Breaks measure 148]
+            s1 * 4/4
+
+            % [Breaks measure 149]
+            s1 * 3/4
+
+            % [Breaks measure 150]
+            s1 * 5/4
+
+            % [Breaks measure 151]
+            s1 * 6/4
+
+            % [Breaks measure 152]
+            s1 * 3/4
+
+            % [Breaks measure 153]
+            s1 * 4/4
+
+            % [Breaks measure 154]
+            s1 * 4/4
+
+            % [Breaks measure 155]
+            s1 * 5/4
+
+            % [Breaks measure 156]
+            s1 * 6/4
+
+            % [Breaks measure 157]
+            s1 * 3/4
+
+            % [Breaks measure 158]
+            s1 * 5/12
+
+            % [Breaks measure 159]
+            s1 * 3/4
+
+            % [Breaks measure 160]
+            s1 * 4/4
+
+            % [Breaks measure 161]
+            s1 * 4/4
+
+            % [Breaks measure 162]
+            s1 * 4/4
+
+            % [Breaks measure 163]
+            s1 * 10/16
+
+            % [Breaks measure 164]
+            s1 * 12/16
+
+            % [Breaks measure 165]
+            s1 * 3/4
+
+            % [Breaks measure 166]
+            s1 * 4/4
+
+            % [Breaks measure 167]
+            s1 * 3/4
+
+            % [Breaks measure 168]
+            s1 * 4/4
+
+            % [Breaks measure 169]
+            s1 * 3/4
+
+            % [Breaks measure 170]
+            s1 * 4/4
+
+            % [Breaks measure 171]
+            s1 * 4/4
+
+            % [Breaks measure 172]
+            s1 * 4/4
+
+            % [Breaks measure 173]
+            s1 * 3/4
+
+            % [Breaks measure 174]
+            s1 * 4/4
+
+            % [Breaks measure 175]
+            s1 * 3/4
+
+            % [Breaks measure 176]
+            s1 * 4/4
+
+            % [Breaks measure 177]
+            s1 * 3/4
+
+            % [Breaks measure 178]
+            s1 * 4/4
+
+            % [Breaks measure 179]
+            s1 * 4/4
+
+            % [Breaks measure 180]
+            s1 * 4/4
+
+            % [Breaks measure 181]
+            s1 * 3/4
+
+            % [Breaks measure 182]
+            s1 * 4/4
+
+            % [Breaks measure 183]
+            s1 * 3/4
+
+            % [Breaks measure 184]
+            s1 * 4/4
+
+            % [Breaks measure 185]
+            s1 * 4/4
+
+            % [Breaks measure 186]
+            s1 * 5/4
+
+            % [Breaks measure 187]
+            s1 * 6/4
+
+            % [Breaks measure 188]
+            s1 * 3/4
+
+            % [Breaks measure 189]
+            s1 * 8/16
+
+            % [Breaks measure 190]
+            s1 * 12/16
+
+            % [Breaks measure 191]
+            s1 * 4/4
+
+            % [Breaks measure 192]
+            s1 * 3/4
+
+            % [Breaks measure 193]
+            s1 * 4/4
+
+            % [Breaks measure 194]
+            s1 * 4/4
+
+            % [Breaks measure 195]
+            s1 * 4/4
+
+            % [Breaks measure 196]
+            s1 * 3/4
+
+            % [Breaks measure 197]
+            s1 * 3/4
+
+            % [Breaks measure 198]
+            s1 * 4/4
+
+            % [Breaks measure 199]
+            s1 * 1/4
+
+            % [Breaks measure 200]
+            s1 * 5/4
+
+            % [Breaks measure 201]
+            s1 * 6/4
+
+            % [Breaks measure 202]
+            s1 * 6/4
+
+            % [Breaks measure 203]
+            s1 * 3/4
+
+            % [Breaks measure 204]
+            s1 * 4/4
+
+            % [Breaks measure 205]
+            s1 * 5/4
+
+            % [Breaks measure 206]
+            s1 * 1/4
+
+            % [Breaks measure 207]
+            s1 * 10/16
+
+            % [Breaks measure 208]
+            s1 * 12/16
+
+            % [Breaks measure 209]
+            s1 * 12/16
+
+            % [Breaks measure 210]
+            s1 * 12/16
+
+            % [Breaks measure 211]
+            s1 * 8/16
+
+            % [Breaks measure 212]
+            s1 * 16/16
+
+            % [Breaks measure 213]
+            s1 * 16/16
+
+            % [Breaks measure 214]
+            s1 * 14/16
+
+            % [Breaks measure 215]
+            s1 * 14/16
+
+            % [Breaks measure 216]
+            s1 * 8/16
+
+            % [Breaks measure 217]
+            s1 * 12/16
+
+            % [Breaks measure 218]
+            s1 * 12/16
+
+            % [Breaks measure 219]
+            s1 * 14/16
+
+            % [Breaks measure 220]
+            s1 * 16/16
+
+            % [Breaks measure 221]
+            s1 * 16/16
+
+            % [Breaks measure 222]
+            s1 * 14/16
+
+            % [Breaks measure 223]
+            s1 * 12/16
+
+            % [Breaks measure 224]
+            s1 * 10/16
+
+            % [Breaks measure 225]
+            s1 * 14/16
+
+            % [Breaks measure 226]
+            s1 * 14/16
+
+            % [Breaks measure 227]
+            s1 * 16/16
+
+            % [Breaks measure 228]
+            s1 * 16/16
+
+            % [Breaks measure 229]
+            s1 * 10/16
+
+            % [Breaks measure 230]
+            s1 * 12/16
+
+            % [Breaks measure 231]
+            s1 * 12/16
+
+            % [Breaks measure 232]
+            s1 * 8/16
+
+            % [Breaks measure 233]
+            s1 * 12/16
+
+            % [Breaks measure 234]
+            s1 * 12/16
+
+            % [Breaks measure 235]
+            s1 * 10/16
+
+            % [Breaks measure 236]
+            s1 * 12/16
+
+            % [Breaks measure 237]
+            s1 * 12/16
+
+            % [Breaks measure 238]
+            s1 * 8/16
+
+            % [Breaks measure 239]
+            s1 * 16/16
+
+            % [Breaks measure 240]
+            s1 * 14/16
+
+            % [Breaks measure 241]
+            s1 * 14/16
+
+            % [Breaks measure 242]
+            s1 * 16/16
+
+            % [Breaks measure 243]
+            s1 * 1/4
+
+            % [Breaks measure 244]
+            s1 * 3/4
+
+            % [Breaks measure 245]
+            s1 * 1/4
+
+            % [Breaks measure 246]
+            s1 * 8/16
+
+            % [Breaks measure 247]
+            s1 * 12/16
+
+            % [Breaks measure 248]
+            s1 * 12/16
+
+            % [Breaks measure 249]
+            s1 * 16/16
+
+            % [Breaks measure 250]
+            s1 * 16/16
+
+            % [Breaks measure 251]
+            s1 * 14/16
+
+            % [Breaks measure 252]
+            s1 * 1/4
+
+            % [Breaks measure 253]
+            s1 * 14/16
+
+            % [Breaks measure 254]
+            s1 * 1/4
+
+            % [Breaks measure 255]
+            s1 * 10/16
+
+            % [Breaks measure 256]
+            s1 * 12/16
+
+            % [Breaks measure 257]
+            s1 * 6/4
+
+            % [Breaks measure 258]
+            s1 * 14/16
+
+            % [Breaks measure 259]
+            s1 * 16/16
+
+            % [Breaks measure 260]
+            s1 * 1/4
+
+            % [Breaks measure 261]
+            s1 * 16/16
+
+            % [Breaks measure 262]
+            s1 * 1/4
+
+            % [Breaks measure 263]
+            s1 * 4/4
+
+            % [Breaks measure 264]
+            s1 * 14/16
+
+            % [Breaks measure 265]
+            s1 * 12/16
+
+            % [Breaks measure 266]
+            s1 * 10/16
+
+            % [Breaks measure 267]
+            s1 * 12/16
+
+            % [Breaks measure 268]
+            s1 * 8/16
+
+            % [Breaks measure 269]
+            s1 * 12/16
+
+            % [Breaks measure 270]
+            s1 * 1/4
+
+            % [Breaks measure 271]
+            s1 * 10/16
+
+            % [Breaks measure 272]
+            s1 * 3/4
+
+            % [Breaks measure 273]
+            s1 * 12/16
+
+            % [Breaks measure 274]
+            s1 * 12/16
+
+            % [Breaks measure 275]
+            s1 * 12/16
+
+            % [Breaks measure 276]
+            s1 * 8/16
+
+            % [Breaks measure 277]
+            s1 * 14/16
+
+            % [Breaks measure 278]
+            s1 * 14/16
+
+            % [Breaks measure 279]
+            s1 * 16/16
+
+            % [Breaks measure 280]
+            s1 * 16/16
+
+            % [Breaks measure 281]
+            s1 * 8/16
+
+            % [Breaks measure 282]
+            s1 * 12/16
+
+            % [Breaks measure 283]
+            s1 * 12/16
+
+            % [Breaks measure 284]
+            s1 * 16/16
+
+            % [Breaks measure 285]
+            s1 * 14/16
+
+            % [Breaks measure 286]
+            s1 * 14/16
+
+            % [Breaks measure 287]
+            s1 * 16/16
+
+            % [Breaks measure 288]
+            s1 * 12/16
+
+            % [Breaks measure 289]
+            s1 * 10/16
+
+            % [Breaks measure 290]
+            s1 * 16/16
+
+            % [Breaks measure 291]
+            s1 * 16/16
+
+            % [Breaks measure 292]
+            s1 * 14/16
+
+            % [Breaks measure 293]
+            s1 * 14/16
+
+            % [Breaks measure 294]
+            s1 * 10/16
+
+            % [Breaks measure 295]
+            s1 * 12/16
+
+            % [Breaks measure 296]
+            s1 * 12/16
+
+            % [Breaks measure 297]
+            s1 * 8/16
+
+            % [Breaks measure 298]
+            s1 * 12/16
+
+            % [Breaks measure 299]
+            s1 * 6/4
+
+            % [Breaks measure 300]
+            s1 * 12/16
+
+            % [Breaks measure 301]
+            s1 * 10/16
+
+            % [Breaks measure 302]
+            s1 * 12/16
+
+            % [Breaks measure 303]
+            s1 * 6/4
+
+            % [Breaks measure 304]
+            s1 * 6/4
+
+            % [Breaks measure 305]
+            s1 * 1/4
+
+            % [Breaks measure 306]
+            s1 * 5/8
+
+            % [Breaks measure 307]
+            s1 * 4/8
+
+            % [Breaks measure 308]
+            s1 * 1/4
+
+            % [Breaks measure 309]
+            s1 * 7/8
+
+            % [Breaks measure 310]
+            s1 * 6/8
+
+            % [Breaks measure 311]
+            s1 * 8/8
+
+            % [Breaks measure 312]
+            s1 * 6/8
+
+            % [Breaks measure 313]
+            s1 * 8/8
+
+            % [Breaks measure 314]
+            s1 * 7/8
+
+            % [Breaks measure 315]
+            s1 * 6/8
+
+            % [Breaks measure 316]
+            s1 * 7/8
+
+            % [Breaks measure 317]
+            s1 * 8/8
+
+            % [Breaks measure 318]
+            s1 * 8/8
+
+            % [Breaks measure 319]
+            s1 * 6/8
+
+            % [Breaks measure 320]
+            s1 * 7/8
+
+            % [Breaks measure 321]
+            s1 * 7/8
+
+            % [Breaks measure 322]
+            s1 * 6/8
+
+            % [Breaks measure 323]
+            s1 * 4/8
+
+            % [Breaks measure 324]
+            s1 * 5/8
+
+            % [Breaks measure 325]
+            s1 * 6/8
+
+            % [Breaks measure 326]
+            s1 * 7/8
+
+            % [Breaks measure 327]
+            s1 * 7/8
+
+            % [Breaks measure 328]
+            s1 * 5/8
+
+            % [Breaks measure 329]
+            s1 * 4/8
+
+            % [Breaks measure 330]
+            s1 * 6/8
+
+            % [Breaks measure 331]
+            s1 * 8/8
+
+            % [Breaks measure 332]
+            s1 * 8/8
+
+            % [Breaks measure 333]
+            s1 * 4/8
+
+            % [Breaks measure 334]
+            s1 * 5/8
+
+            % [Breaks measure 335]
+            s1 * 8/8
+
+            % [Breaks measure 336]
+            s1 * 6/8
+
+            % [Breaks measure 337]
+            s1 * 8/8
+
+            % [Breaks measure 338]
+            s1 * 7/8
+
+            % [Breaks measure 339]
+            s1 * 8/16
+
+            % [Breaks measure 340]
+            s1 * 6/8
+
+            % [Breaks measure 341]
+            s1 * 7/8
+
+            % [Breaks measure 342]
+            s1 * 8/8
+
+            % [Breaks measure 343]
+            s1 * 8/8
+
+            % [Breaks measure 344]
+            s1 * 6/8
+
+            % [Breaks measure 345]
+            s1 * 7/8
+
+            % [Breaks measure 346]
+            s1 * 1/4
+
+            % [Breaks measure 347]
+            s1 * 8/8
+
+            % [Breaks measure 348]
+            s1 * 8/8
+
+            % [Breaks measure 349]
+            s1 * 6/8
+
+            % [Breaks measure 350]
+            s1 * 7/8
+
+            % [Breaks measure 351]
+            s1 * 7/8
+
+            % [Breaks measure 352]
+            s1 * 6/8
+
+            % [Breaks measure 353]
+            s1 * 5/8
+
+            % [Breaks measure 354]
+            s1 * 4/8
+
+            % [Breaks measure 355]
+            s1 * 6/8
+
+            % [Breaks measure 356]
+            s1 * 7/8
+
+            % [Breaks measure 357]
+            s1 * 7/8
+
+            % [Breaks measure 358]
+            s1 * 4/8
+
+            % [Breaks measure 359]
+            s1 * 5/8
+
+            % [Breaks measure 360]
+            s1 * 6/8
+
+            % [Breaks measure 361]
+            s1 * 8/8
+
+            % [Breaks measure 362]
+            s1 * 8/8
+
+            % [Breaks measure 363]
+            s1 * 5/8
+
+            % [Breaks measure 364]
+            s1 * 4/8
+
+            % [Breaks measure 365]
+            s1 * 8/8
+
+            % [Breaks measure 366]
+            s1 * 6/8
+
+            % [Breaks measure 367]
+            s1 * 1/4
+
+            % [Breaks measure 368]
+            s1 * 7/8
+
+            % [Breaks measure 369]
+            s1 * 6/8
+
+            % [Breaks measure 370]
+            s1 * 5/8
+
+            % [Breaks measure 371]
+            s1 * 4/8
+
+            % [Breaks measure 372]
+            s1 * 6/8
+
+            % [Breaks measure 373]
+            s1 * 7/8
+
+            % [Breaks measure 374]
+            s1 * 7/8
+
+            % [Breaks measure 375]
+            s1 * 4/8
+
+            % [Breaks measure 376]
+            s1 * 5/8
+
+            % [Breaks measure 377]
+            s1 * 6/8
+
+            % [Breaks measure 378]
+            s1 * 8/8
+
+            % [Breaks measure 379]
+            s1 * 8/8
+
+            % [Breaks measure 380]
+            s1 * 5/8
+
+            % [Breaks measure 381]
+            s1 * 4/8
+
+            % [Breaks measure 382]
+            s1 * 8/8
+
+            % [Breaks measure 383]
+            s1 * 6/8
+
+            % [Breaks measure 384]
+            s1 * 8/8
+
+            % [Breaks measure 385]
+            s1 * 7/8
+
+            % [Breaks measure 386]
+            s1 * 1/4
+
+            % [Breaks measure 387]
+            s1 * 6/8
+
+            % [Breaks measure 388]
+            s1 * 7/8
+
+            % [Breaks measure 389]
+            s1 * 8/8
+
+            % [Breaks measure 390]
+            s1 * 8/8
+
+            % [Breaks measure 391]
+            s1 * 1/4
+
+            % [Breaks measure 392]
+            s1 * 6/8
+
+            % [Breaks measure 393]
+            s1 * 7/8
+
+            % [Breaks measure 394]
+            s1 * 6/8
+
+            % [Breaks measure 395]
+            s1 * 7/8
+
+            % [Breaks measure 396]
+            s1 * 7/8
+
+            % [Breaks measure 397]
+            s1 * 4/8
+
+            % [Breaks measure 398]
+            s1 * 5/8
+
+            % [Breaks measure 399]
+            s1 * 6/8
+
+            % [Breaks measure 400]
+            s1 * 8/8
+
+            % [Breaks measure 401]
+            s1 * 8/8
+
+            % [Breaks measure 402]
+            s1 * 5/8
+
+            % [Breaks measure 403]
+            s1 * 4/8
+
+            % [Breaks measure 404]
+            s1 * 8/8
+
+            % [Breaks measure 405]
+            s1 * 6/8
+
+            % [Breaks measure 406]
+            s1 * 8/8
+
+            % [Breaks measure 407]
+            s1 * 8/8
+
+            % [Breaks measure 408]
+            s1 * 6/8
+
+            % [Breaks measure 409]
+            s1 * 7/8
+
+            % [Breaks measure 410]
+            s1 * 7/8
+
+            % [Breaks measure 411]
+            s1 * 6/8
+
+            % [Breaks measure 412]
+            s1 * 5/8
+
+            % [Breaks measure 413]
+            s1 * 4/8
+
+            % [Breaks measure 414]
+            s1 * 7/8
+
+            % [Breaks measure 415]
+            s1 * 6/8
+
+            % [Breaks measure 416]
+            s1 * 1/4
+
+            % [Breaks measure 417]
+            s1 * 4/8
+
+            % [Breaks measure 418]
+            s1 * 5/8
+
+            % [Breaks measure 419]
+            s1 * 6/8
+
+            % [Breaks measure 420]
+            s1 * 7/8
+
+            % [Breaks measure 421]
+            s1 * 7/8
+
+            % [Breaks measure 422]
+            s1 * 5/8
+
+            % [Breaks measure 423]
+            s1 * 4/8
+
+            % [Breaks measure 424]
+            s1 * 6/8
+
+            % [Breaks measure 425]
+            s1 * 8/8
+
+            % [Breaks measure 426]
+            s1 * 8/8
+
+            % [Breaks measure 427]
+            s1 * 4/8
+
+            % [Breaks measure 428]
+            s1 * 5/8
+
+            % [Breaks measure 429]
+            s1 * 8/8
+
+            % [Breaks measure 430]
+            s1 * 6/8
+
+            % [Breaks measure 431]
+            s1 * 8/8
+
+            % [Breaks measure 432]
+            s1 * 7/8
+
+            % [Breaks measure 433]
+            s1 * 4/4
+
+            % [Breaks measure 434]
+            s1 * 4/4
+
+            % [Breaks measure 435]
+            s1 * 3/4
+
+            % [Breaks measure 436]
+            s1 * 5/4
+
+            % [Breaks measure 437]
+            s1 * 6/4
+
+            % [Breaks measure 438]
+            s1 * 3/4
+
+            % [Breaks measure 439]
+            s1 * 4/4
+
+            % [Breaks measure 440]
+            s1 * 4/4
+
+            % [Breaks measure 441]
+            s1 * 5/4
+
+            % [Breaks measure 442]
+            s1 * 6/4
+
+            % [Breaks measure 443]
+            s1 * 1/4
+
+            % [Breaks measure 444]
+            s1 * 6/4
+
+            % [Breaks measure 445]
+            s1 * 6/4
+
+            % [Breaks measure 446]
+            s1 * 1/4
+
+            % [Breaks measure 447]
+            s1 * 14/16
+
+            % [Breaks measure 448]
+            s1 * 1/4
+
+            % [Breaks measure 449]
+            s1 * 14/16
+
+            % [Breaks measure 450]
+            s1 * 1/4
+
+            % [Breaks measure 451]
+            s1 * 8/16
+
+            % [Breaks measure 452]
+            s1 * 12/16
+
+            % [Breaks measure 453]
+            s1 * 16/16
+
+            % [Breaks measure 454]
+            s1 * 1/4
+
+            % [Breaks measure 455]
+            s1 * 16/16
+
+            % [Breaks measure 456]
+            s1 * 1/4
+
+            % [Breaks measure 457]
+            s1 * 10/16
+
+            % [Breaks measure 458]
+            s1 * 3/4
+
+            % [Breaks measure 459]
+            s1 * 5/12
+
+            % [Breaks measure 460]
+            s1 * 12/16
+
+            % [Breaks measure 461]
+            s1 * 1/4
+
+            % [Breaks measure 462]
+            s1 * 12/16
+
+            % [Breaks measure 463]
+            s1 * 8/16
+
+            % [Breaks measure 464]
+            s1 * 1/4
+
+            % [Breaks measure 465]
+            s1 * 14/16
+
+            % [Breaks measure 466]
+            s1 * 12/16
+
+            % [Breaks measure 467]
+            s1 * 10/16
+
+            % [Breaks measure 468]
+            s1 * 12/16
+
+            % [Breaks measure 469]
+            s1 * 8/16
+
+            % [Breaks measure 470]
+            s1 * 12/16
+
+            % [Breaks measure 471]
+            s1 * 1/4
+
+            % [Breaks measure 472]
+            s1 * 8/8
+
+            % [Breaks measure 473]
+            s1 * 8/8
+
+            % [Breaks measure 474]
+            s1 * 6/8
+
+            % [Breaks measure 475]
+            s1 * 7/8
+
+            % [Breaks measure 476]
+            s1 * 7/8
+
+            % [Breaks measure 477]
+            s1 * 3/4
+
+            % [Breaks measure 478]
+            s1 * 6/8
+
+            % [Breaks measure 479]
+            s1 * 4/8
+
+            % [Breaks measure 480]
+            s1 * 5/8
+
+            % [Breaks measure 481]
+            s1 * 6/8
+
+            % [Breaks measure 482]
+            s1 * 7/8
+
+            % [Breaks measure 483]
+            s1 * 7/8
+
+            % [Breaks measure 484]
+            s1 * 5/8
+
+            % [Breaks measure 485]
+            s1 * 4/8
+
+            % [Breaks measure 486]
+            s1 * 6/8
+
+            % [Breaks measure 487]
+            s1 * 8/8
+
+            % [Breaks measure 488]
+            s1 * 8/8
+
+            % [Breaks measure 489]
+            s1 * 4/8
+
+            % [Breaks measure 490]
+            s1 * 5/8
+
+            % [Breaks measure 491]
+            s1 * 8/8
+
+            % [Breaks measure 492]
+            s1 * 6/8
+
+            % [Breaks measure 493]
+            s1 * 8/8
+
+            % [Breaks measure 494]
+            s1 * 7/8
+
+            % [Breaks measure 495]
+            s1 * 6/8
+
+            % [Breaks measure 496]
+            s1 * 7/8
+
+            % [Breaks measure 497]
+            s1 * 8/8
+
+            % [Breaks measure 498]
+            s1 * 8/8
+
+            % [Breaks measure 499]
+            s1 * 6/8
+
+            % [Breaks measure 500]
+            s1 * 1/4
+
+            % [Breaks measure 501]
+            s1 * 7/8
+
+            % [Breaks measure 502]
+            s1 * 7/8
+
+            % [Breaks measure 503]
+            s1 * 1/4
+
+            % [Breaks measure 504]
+            s1 * 3/4
+
+            % [Breaks measure 505]
+            s1 * 5/12
+
+            % [Breaks measure 506]
+            s1 * 1/4
+
+            % [Breaks measure 507]
+            s1 * 8/8
+
+            % [Breaks measure 508]
+            s1 * 8/8
+
+            % [Breaks measure 509]
+            s1 * 6/8
+
+            % [Breaks measure 510]
+            s1 * 5/8
+
+            % [Breaks measure 511]
+            s1 * 4/8
+
+            % [Breaks measure 512]
+            s1 * 1/4
+
+            % [Breaks measure 513]
+            s1 * 6/8
+
+            % [Breaks measure 514]
+            s1 * 7/8
+
+            % [Breaks measure 515]
+            s1 * 7/8
+
+            % [Breaks measure 516]
+            s1 * 4/8
+
+            % [Breaks measure 517]
+            s1 * 1/4
+
+            % [Breaks measure 518]
+            s1 * 5/8
+
+            % [Breaks measure 519]
+            s1 * 6/8
+
+            % [Breaks measure 520]
+            s1 * 8/8
+
+            % [Breaks measure 521]
+            s1 * 8/8
+
+            % [Breaks measure 522]
+            s1 * 5/8
+
+            % [Breaks measure 523]
+            s1 * 10/16
+
+            % [Breaks measure 524]
+            s1 * 3/4
+
+            % [Breaks measure 525]
+            s1 * 5/12
+
+            % [Breaks measure 526]
+            s1 * 12/16
+
+            % [Breaks measure 527]
+            s1 * 4/8
+
+            % [Breaks measure 528]
+            s1 * 4/4
+
+            % [Breaks measure 529]
+            s1 * 3/4
+
+            % [Breaks measure 530]
+            s1 * 4/4
+
+            % [Breaks measure 531]
+            s1 * 3/4
+
+            % [Breaks measure 532]
+            s1 * 4/4
+
+            % [Breaks measure 533]
+            s1 * 5/4
+
+            % [Breaks measure 534]
+            s1 * 6/4
+
+            % [Breaks measure 535]
+            s1 * 6/4
+
+            % [Breaks measure 536]
+            s1 * 3/4
+
+            % [Breaks measure 537]
+            s1 * 4/4
+
+            % [Breaks measure 538]
+            s1 * 5/4
+
+            % [Breaks measure 539]
+            s1 * 8/16
+
+            % [Breaks measure 540]
+            s1 * 12/16
+
+            % [Breaks measure 541]
+            s1 * 3/4
+
+            % [Breaks measure 542]
+            s1 * 5/12
+
+            % [Breaks measure 543]
+            s1 * 12/16
+
+            % [Breaks measure 544]
+            s1 * 16/16
+
+            % [Breaks measure 545]
+            s1 * 16/16
+
+            % [Breaks measure 546]
+            s1 * 14/16
+
+            % [Breaks measure 547]
+            s1 * 14/16
+
+            % [Breaks measure 548]
+            s1 * 10/16
+
+            % [Breaks measure 549]
+            s1 * 12/16
+
+            % [Breaks measure 550]
+            s1 * 14/16
+
+            % [Breaks measure 551]
+            s1 * 16/16
+
+            % [Breaks measure 552]
+            s1 * 16/16
+
+            % [Breaks measure 553]
+            s1 * 14/16
+
+            % [Breaks measure 554]
+            s1 * 12/16
+
+            % [Breaks measure 555]
+            s1 * 10/16
+
+            % [Breaks measure 556]
+            s1 * 6/8
+
+            % [Breaks measure 557]
+            s1 * 7/8
+
+            % [Breaks measure 558]
+            s1 * 6/4
+
+            % [Breaks measure 559]
+            s1 * 3/4
+
+            % [Breaks measure 560]
+            s1 * 7/8
+
+            % [Breaks measure 561]
+            s1 * 5/8
+
+            % [Breaks measure 562]
+            s1 * 4/8
+
+            % [Breaks measure 563]
+            s1 * 6/8
+
+            % [Breaks measure 564]
+            s1 * 8/8
+
+            % [Breaks measure 565]
+            s1 * 8/8
+
+            % [Breaks measure 566]
+            s1 * 4/8
+
+            % [Breaks measure 567]
+            s1 * 5/8
+
+            % [Breaks measure 568]
+            s1 * 8/8
+
+            % [Breaks measure 569]
+            s1 * 6/8
+
+            % [Breaks measure 570]
+            s1 * 8/8
+
+            % [Breaks measure 571]
+            s1 * 7/8
+
+            % [Breaks measure 572]
+            s1 * 6/8
+
+            % [Breaks measure 573]
+            s1 * 7/8
+
+            % [Breaks measure 574]
+            s1 * 8/8
+
+            % [Breaks measure 575]
+            s1 * 8/8
+
+            % [Breaks measure 576]
+            s1 * 8/8
+
+            % [Breaks measure 577]
+            s1 * 3/4
+
+            % [Breaks measure 578]
+            s1 * 8/8
+
+            % [Breaks measure 579]
+            s1 * 6/8
+
+            % [Breaks measure 580]
+            s1 * 7/8
+
+            % [Breaks measure 581]
+            s1 * 7/8
+
+            % [Breaks measure 582]
+            s1 * 6/8
+
+            % [Breaks measure 583]
+            s1 * 5/8
+
+            % [Breaks measure 584]
+            s1 * 4/8
+
+            % [Breaks measure 585]
+            s1 * 6/8
+
+            % [Breaks measure 586]
+            s1 * 7/8
+
+            % [Breaks measure 587]
+            s1 * 7/8
+
+            % [Breaks measure 588]
+            s1 * 4/8
+
+            % [Breaks measure 589]
+            s1 * 5/8
+
+            % [Breaks measure 590]
+            s1 * 6/8
+
+            % [Breaks measure 591]
+            s1 * 8/8
+
+            % [Breaks measure 592]
+            s1 * 8/8
+
+            % [Breaks measure 593]
+            s1 * 5/8
+
+            % [Breaks measure 594]
+            s1 * 4/8
+
+            % [Breaks measure 595]
+            s1 * 8/8
+
+            % [Breaks measure 596]
+            s1 * 6/8
+
+            % [Breaks measure 597]
+            s1 * 8/8
+
+            % [Breaks measure 598]
+            s1 * 8/8
+
+            % [Breaks measure 599]
+            s1 * 7/8
+
+            % [Breaks measure 600]
+            s1 * 6/8
+
+            % [Breaks measure 601]
+            s1 * 8/8
+
+            % [Breaks measure 602]
+            s1 * 8/8
+
+            % [Breaks measure 603]
+            s1 * 6/8
+
+            % [Breaks measure 604]
+            s1 * 7/8
+
+            % [Breaks measure 605]
+            s1 * 7/8
+
+            % [Breaks measure 606]
+            s1 * 6/8
+
+            % [Breaks measure 607]
+            s1 * 4/8
+
+            % [Breaks measure 608]
+            s1 * 5/8
+
+            % [Breaks measure 609]
+            s1 * 1/4
+
+            % [Breaks measure 610]
+            s1 * 3/4
+
+            % [Breaks measure 611]
+            s1 * 4/4
+
+            % [Breaks measure 612]
+            s1 * 4/4
+
+            % [Breaks measure 613]
+            s1 * 5/4
+
+            % [Breaks measure 614]
+            s1 * 6/4
+
+            % [Breaks measure 615]
+            s1 * 3/4
+
+            % [Breaks measure 616]
+            s1 * 4/4
+
+            % [Breaks measure 617]
+            s1 * 4/4
+
+            % [Breaks measure 618]
+            s1 * 5/4
+
+            % [Breaks measure 619]
+            s1 * 6/4
+
+            % [Breaks measure 620]
+            s1 * 3/4
+
+            % [Breaks measure 621]
+            s1 * 4/4
+
+            % [Breaks measure 622]
+            s1 * 3/4
+
+            % [Breaks measure 623]
+            s1 * 4/4
+
+            % [Breaks measure 624]
+            s1 * 4/4
+
+            % [Breaks measure 625]
+            s1 * 4/4
+
+            % [Breaks measure 626]
+            s1 * 10/16
+
+            % [Breaks measure 627]
+            s1 * 12/16
+
+            % [Breaks measure 628]
+            s1 * 12/16
+
+            % [Breaks measure 629]
+            s1 * 12/16
+
+            % [Breaks measure 630]
+            s1 * 8/16
+
+            % [Breaks measure 631]
+            s1 * 14/16
+
+            % [Breaks measure 632]
+            s1 * 14/16
+
+            % [Breaks measure 633]
+            s1 * 16/16
+
+            % [Breaks measure 634]
+            s1 * 16/16
+
+            % [Breaks measure 635]
+            s1 * 8/16
+
+            % [Breaks measure 636]
+            s1 * 12/16
+
+            % [Breaks measure 637]
+            s1 * 12/16
+
+            % [Breaks measure 638]
+            s1 * 16/16
+
+            % [Breaks measure 639]
+            s1 * 14/16
+
+            % [Breaks measure 640]
+            s1 * 14/16
+
+            % [Breaks measure 641]
+            s1 * 16/16
+
+            % [Breaks measure 642]
+            s1 * 12/16
+
+            % [Breaks measure 643]
+            s1 * 10/16
+
+            % [Breaks measure 644]
+            s1 * 16/16
+
+            % [Breaks measure 645]
+            s1 * 16/16
+
+            % [Breaks measure 646]
+            s1 * 14/16
+
+            % [Breaks measure 647]
+            s1 * 14/16
+
+            % [Breaks measure 648]
+            s1 * 10/16
+
+            % [Breaks measure 649]
+            s1 * 12/16
+
+            % [Breaks measure 650]
+            s1 * 12/16
+
+            % [Breaks measure 651]
+            s1 * 8/16
+
+            % [Breaks measure 652]
+            s1 * 12/16
+
+            % [Breaks measure 653]
+            s1 * 12/16
+
+            % [Breaks measure 654]
+            s1 * 10/16
+
+            % [Breaks measure 655]
+            s1 * 12/16
+
+            % [Breaks measure 656]
+            s1 * 12/16
+
+            % [Breaks measure 657]
+            s1 * 8/16
+
+            % [Breaks measure 658]
+            s1 * 4/8
+
+            % [Breaks measure 659]
+            s1 * 5/8
+
+            % [Breaks measure 660]
+            s1 * 8/8
+
+            % [Breaks measure 661]
+            s1 * 6/8
+
+            % [Breaks measure 662]
+            s1 * 8/8
+
+            % [Breaks measure 663]
+            s1 * 7/8
+
+            % [Breaks measure 664]
+            s1 * 6/8
+
+            % [Breaks measure 665]
+            s1 * 7/8
+
+            % [Breaks measure 666]
+            s1 * 8/8
+
+            % [Breaks measure 667]
+            s1 * 8/8
+
+            % [Breaks measure 668]
+            s1 * 6/4
+
+            % [Breaks measure 669]
+            s1 * 3/4
+
+            % [Breaks measure 670]
+            s1 * 6/8
+
+            % [Breaks measure 671]
+            s1 * 7/8
+
+            % [Breaks measure 672]
+            s1 * 7/8
+
+            % [Breaks measure 673]
+            s1 * 6/8
+
+            % [Breaks measure 674]
+            s1 * 5/8
+
+            % [Breaks measure 675]
+            s1 * 4/8
+
+            % [Breaks measure 676]
+            s1 * 6/8
+
+            % [Breaks measure 677]
+            s1 * 7/8
+
+            % [Breaks measure 678]
+            s1 * 7/8
+
+            % [Breaks measure 679]
+            s1 * 4/8
+
+            % [Breaks measure 680]
+            s1 * 5/8
+
+            % [Breaks measure 681]
+            s1 * 6/8
+
+            % [Breaks measure 682]
+            s1 * 8/8
+
+            % [Breaks measure 683]
+            s1 * 8/8
+
+            % [Breaks measure 684]
+            s1 * 5/8
+
+            % [Breaks measure 685]
+            s1 * 4/8
+
+            % [Breaks measure 686]
+            s1 * 7/8
+
+            % [Breaks measure 687]
+            s1 * 8/8
+
+            % [Breaks measure 688]
+            s1 * 6/8
+
+            % [Breaks measure 689]
+            s1 * 8/8
+
+            % [Breaks measure 690]
+            s1 * 7/8
+
+            % [Breaks measure 691]
+            s1 * 6/8
+
+            % [Breaks measure 692]
+            s1 * 7/8
+
+            % [Breaks measure 693]
+            s1 * 1/4
+
+            % [Breaks measure 694]
+            s1 * 8/8
+
+            % [Breaks measure 695]
+            s1 * 8/8
+
+            % [Breaks measure 696]
+            s1 * 1/4
+
+            % [Breaks measure 697]
+            s1 * 4/4
+
+            % [Breaks measure 698]
+            s1 * 4/4
+
+            % [Breaks measure 699]
+            s1 * 3/4
+
+            % [Breaks measure 700]
+            s1 * 3/4
+
+            % [Breaks measure 701]
+            s1 * 4/4
+
+            % [Breaks measure 702]
+            s1 * 5/4
+
+            % [Breaks measure 703]
+            s1 * 8/8
+
+            % [Breaks measure 704]
+            s1 * 1/4
+
+            % [Breaks measure 705]
+            s1 * 16/16
+
+            % [Breaks measure 706]
+            s1 * 16/16
+
+            % [Breaks measure 707]
+            s1 * 14/16
+
+            % [Breaks measure 708]
+            s1 * 14/16
+
+            % [Breaks measure 709]
+            s1 * 10/16
+
+            % [Breaks measure 710]
+            s1 * 12/16
+
+            % [Breaks measure 711]
+            s1 * 12/16
+
+            % [Breaks measure 712]
+            s1 * 8/16
+
+            % [Breaks measure 713]
+            s1 * 12/16
+
+            % [Breaks measure 714]
+            s1 * 12/16
+
+            % [Breaks measure 715]
+            s1 * 10/16
+
+            % [Breaks measure 716]
+            s1 * 12/16
+
+            % [Breaks measure 717]
+            s1 * 12/16
+
+            % [Breaks measure 718]
+            s1 * 8/16
+
+            % [Breaks measure 719]
+            s1 * 14/16
+
+            % [Breaks measure 720]
+            s1 * 16/16
+
+            % [Breaks measure 721]
+            s1 * 16/16
+
+            % [Breaks measure 722]
+            s1 * 14/16
+
+            % [Breaks measure 723]
+            s1 * 8/16
+
+            % [Breaks measure 724]
+            s1 * 12/16
+
+            % [Breaks measure 725]
+            s1 * 12/16
+
+            % [Breaks measure 726]
+            s1 * 14/16
+
+            % [Breaks measure 727]
+            s1 * 14/16
+
+            % [Breaks measure 728]
+            s1 * 16/16
+
+            % [Breaks measure 729]
+            s1 * 16/16
+
+            % [Breaks measure 730]
+            s1 * 10/16
+
+            % [Breaks measure 731]
+            s1 * 7/8
+
+            % [Breaks measure 732]
+            s1 * 8/8
+
+            % [Breaks measure 733]
+            s1 * 8/8
+
+            % [Breaks measure 734]
+            s1 * 6/8
+
+            % [Breaks measure 735]
+            s1 * 7/8
+
+            % [Breaks measure 736]
+            s1 * 7/8
+
+            % [Breaks measure 737]
+            s1 * 6/8
+
+            % [Breaks measure 738]
+            s1 * 5/8
+
+            % [Breaks measure 739]
+            s1 * 4/8
+
+            % [Breaks measure 740]
+            s1 * 6/8
+
+            % [Breaks measure 741]
+            s1 * 7/8
+
+            % [Breaks measure 742]
+            s1 * 7/8
+
+            % [Breaks measure 743]
+            s1 * 4/8
+
+            % [Breaks measure 744]
+            s1 * 5/8
+
+            % [Breaks measure 745]
+            s1 * 6/8
+
+            % [Breaks measure 746]
+            s1 * 8/8
+
+            % [Breaks measure 747]
+            s1 * 8/8
+
+            % [Breaks measure 748]
+            s1 * 5/8
+
+            % [Breaks measure 749]
+            s1 * 4/8
+
+            % [Breaks measure 750]
+            s1 * 8/8
+
+            % [Breaks measure 751]
+            s1 * 6/8
+
+            % [Breaks measure 752]
+            s1 * 8/8
+
+            % [Breaks measure 753]
+            s1 * 7/8
+
+            % [Breaks measure 754]
+            s1 * 6/8
+
+            % [Breaks measure 755]
+            s1 * 7/8
+
+            % [Breaks measure 756]
+            s1 * 8/8
+
+            % [Breaks measure 757]
+            s1 * 8/8
+
+            % [Breaks measure 758]
+            s1 * 6/8
+
+            % [Breaks measure 759]
+            s1 * 7/8
+
+            % [Breaks measure 760]
+            s1 * 7/8
+
+            % [Breaks measure 761]
+            s1 * 6/8
+
+            % [Breaks measure 762]
+            s1 * 4/8
+
+            % [Breaks measure 763]
+            s1 * 5/8
+
+            % [Breaks measure 764]
+            s1 * 6/8
+
+            % [Breaks measure 765]
+            s1 * 7/8
+
+            % [Breaks measure 766]
+            s1 * 7/8
+
+            % [Breaks measure 767]
+            s1 * 5/8
+
+            % [Breaks measure 768]
+            s1 * 4/8
+
+            % [Breaks measure 769]
+            s1 * 6/8
+
+            % [Breaks measure 770]
+            s1 * 8/8
+
+            % [Breaks measure 771]
+            s1 * 8/8
+
+            % [Breaks measure 772]
+            s1 * 4/8
+
+            % [Breaks measure 773]
+            s1 * 5/8
+
+            % [Breaks measure 774]
+            s1 * 8/8
+
+            % [Breaks measure 775]
+            s1 * 6/8
+
+            % [Breaks measure 776]
+            s1 * 8/8
+
+            % [Breaks measure 777]
+            s1 * 7/8
+
+            % [Breaks measure 778]
+            s1 * 6/8
+
+            % [Breaks measure 779]
+            s1 * 7/8
+
+            % [Breaks measure 780]
+            s1 * 8/8
+
+            % [Breaks measure 781]
+            s1 * 8/8
+
+            % [Breaks measure 782]
+            s1 * 6/8
+
+            % [Breaks measure 783]
+            s1 * 7/8
+
+            % [Breaks measure 784]
+            s1 * 7/8
+
+            % [Breaks measure 785]
+            s1 * 6/8
+
+            % [Breaks measure 786]
+            s1 * 5/8
+
+            % [Breaks measure 787]
+            s1 * 4/8
+
+            % [Breaks measure 788]
+            s1 * 6/8
+
+            % [Breaks measure 789]
+            s1 * 7/8
+
+            % [Breaks measure 790]
+            s1 * 7/8
+
+            % [Breaks measure 791]
+            s1 * 4/8
+
+            % [Breaks measure 792]
+            s1 * 5/8
+
+            % [Breaks measure 793]
+            s1 * 6/8
+
+            % [Breaks measure 794]
+            s1 * 8/8
+
+            % [Breaks measure 795]
+            s1 * 8/8
+
+            % [Breaks measure 796]
+            s1 * 5/8
+
+            % [Breaks measure 797]
+            s1 * 4/8
+
+            % [Breaks measure 798]
+            s1 * 8/8
+
+            % [Breaks measure 799]
+            s1 * 6/8
+
+            % [Breaks measure 800]
+            s1 * 8/8
+
+            % [Breaks measure 801]
+            s1 * 7/8
+
+            % [Breaks measure 802]
+            s1 * 1/4
+
+            % [Breaks measure 803]
+            s1 * 6/8
+
+            % [Breaks measure 804]
+            s1 * 7/8
+
+            % [Breaks measure 805]
+            s1 * 8/8
+
+            % [Breaks measure 806]
+            s1 * 8/8
+
+            % [Breaks measure 807]
+            s1 * 6/8
+
+            % [Breaks measure 808]
+            s1 * 7/8
+
+            % [Breaks measure 809]
+            s1 * 7/8
+
+            % [Breaks measure 810]
+            s1 * 6/8
+
+            % [Breaks measure 811]
+            s1 * 4/8
+
+            % [Breaks measure 812]
+            s1 * 5/8
+
+            % [Breaks measure 813]
+            s1 * 6/8
+
+            % [Breaks measure 814]
+            s1 * 7/8
+
+            % [Breaks measure 815]
+            s1 * 7/8
+
+            % [Breaks measure 816]
+            s1 * 5/8
+
+            % [Breaks measure 817]
+            s1 * 4/8
+
+            % [Breaks measure 818]
+            s1 * 6/8
+
+            % [Breaks measure 819]
+            s1 * 8/8
+
+            % [Breaks measure 820]
+            s1 * 8/8
+
+            % [Breaks measure 821]
+            s1 * 4/8
+
+            % [Breaks measure 822]
+            s1 * 5/8
+
+            % [Breaks measure 823]
+            s1 * 4/4
+
+            % [Breaks measure 824]
+            s1 * 3/4
+
+            % [Breaks measure 825]
+            s1 * 4/4
+
+            % [Breaks measure 826]
+            s1 * 5/4
+
+            % [Breaks measure 827]
+            s1 * 6/4
+
+            % [Breaks measure 828]
+            s1 * 3/4
+
+            % [Breaks measure 829]
+            s1 * 4/4
+
+            % [Breaks measure 830]
+            s1 * 4/4
+
+            % [Breaks measure 831]
+            s1 * 5/4
+
+            % [Breaks measure 832]
+            s1 * 6/4
+
+            % [Breaks measure 833]
+            s1 * 3/4
+
+            % [Breaks measure 834]
+            s1 * 4/4
+
+            % [Breaks measure 835]
+            s1 * 4/4
+
+            % [Breaks measure 836]
+            s1 * 3/4
+
+            % [Breaks measure 837]
+            s1 * 3/4
+
+            % [Breaks measure 838]
+            s1 * 4/4
+
+            % [Breaks measure 839]
+            s1 * 1/4
+
+            % [Breaks measure 840]
+            s1 * 4/4
+
+            % [Breaks measure 841]
+            s1 * 1/4
+
+            % [Breaks measure 842]
+            s1 * 3/4
+
+            % [Breaks measure 843]
+            s1 * 4/4
+
+            % [Breaks measure 844]
+            s1 * 1/4
+
+            % [Breaks measure 845]
+            s1 * 5/4
+
+            % [Breaks measure 846]
+            s1 * 6/4
+
+            % [Breaks measure 847]
+            s1 * 6/4
+
+            % [Breaks measure 848]
+            s1 * 1/4
+
+            % [Breaks measure 849]
+            s1 * 3/4
+
+            % [Breaks measure 850]
+            s1 * 4/4
+
+            % [Breaks measure 851]
+            s1 * 5/4
+
+            % [Breaks measure 852]
+            s1 * 4/4
+
+            % [Breaks measure 853]
+            s1 * 3/4
+
+            % [Breaks measure 854]
+            s1 * 4/4
+
+            % [Breaks measure 855]
+            s1 * 1/4
+
+            % [Breaks measure 856]
+            s1 * 4/4
+
+            % [Breaks measure 857]
+            s1 * 4/4
+
+            % [Breaks measure 858]
+            s1 * 3/4
+
+            % [Breaks measure 859]
+            s1 * 1/4
+
+        }
+
+    >>
 
 >>
