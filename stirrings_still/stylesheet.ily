@@ -180,7 +180,6 @@
     \override BarLine.hair-thickness = 0.5
     \override BarLine.X-extent = #'(0 . 0)
     \override Beam.damping = 99
-    %\override BreathingSign.color = #red
     \override Glissando.thickness = 3
     \override Hairpin.to-barline = ##f
     \override NoteCollision.merge-differently-dotted = ##t
@@ -194,11 +193,6 @@
     \override StemTremolo.flag-count = 4
     \override StemTremolo.slope = 0.5
     \override TextScript.font-name = #"Palatino"
-    % DISCOVERY: overriding TextScript.X-extent = ##f
-    %      makes LilyPond ignore self-alignment-X tweaks;
-    %      probably should never be done at stylesheet level.
-    % NOTE:    may be best to override NO text script properties.
-    \override TextScript.X-extent = ##f
     \override TextSpanner.to-barline = ##t
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 2
