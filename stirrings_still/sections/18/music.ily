@@ -443,14 +443,6 @@ number.18.TimeSignatures = {
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
     s1 * 4/4
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "1"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "823"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 2]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -458,18 +450,6 @@ number.18.TimeSignatures = {
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/4
     s1 * 3/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "2"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "824"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 3]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -477,18 +457,6 @@ number.18.TimeSignatures = {
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
     s1 * 4/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "3"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "825"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 4]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -496,18 +464,6 @@ number.18.TimeSignatures = {
       %! EXPLICIT_TIME_SIGNATURE
     \time 5/4
     s1 * 5/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "4"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "826"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 5]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -515,18 +471,6 @@ number.18.TimeSignatures = {
       %! EXPLICIT_TIME_SIGNATURE
     \time 6/4
     s1 * 6/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "5"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "827"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 6]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -534,18 +478,6 @@ number.18.TimeSignatures = {
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/4
     s1 * 3/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "6"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "828"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 7]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -553,33 +485,9 @@ number.18.TimeSignatures = {
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
     s1 * 4/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "7"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "829"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 8]
     s1 * 4/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "8"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "830"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 9]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -587,18 +495,6 @@ number.18.TimeSignatures = {
       %! EXPLICIT_TIME_SIGNATURE
     \time 5/4
     s1 * 5/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "9"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "831"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 10]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -606,18 +502,6 @@ number.18.TimeSignatures = {
       %! EXPLICIT_TIME_SIGNATURE
     \time 6/4
     s1 * 6/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "10"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "832"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 11]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -625,18 +509,6 @@ number.18.TimeSignatures = {
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/4
     s1 * 3/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "11"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "833"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 12]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -644,33 +516,9 @@ number.18.TimeSignatures = {
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
     s1 * 4/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "12"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "834"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 13]
     s1 * 4/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "13"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "835"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 14]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -678,33 +526,9 @@ number.18.TimeSignatures = {
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/4
     s1 * 3/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "14"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "836"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 15]
     s1 * 3/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "15"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "837"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 16]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -712,18 +536,6 @@ number.18.TimeSignatures = {
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
     s1 * 4/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "16"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "838"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 17]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -731,26 +543,10 @@ number.18.TimeSignatures = {
       %! EXPLICIT_TIME_SIGNATURE
     \time 1/4
     s1 * 1/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "17"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "839"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [anchor skip]
       %! ANCHOR_SKIP
     s1 * 1/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
 
 }
 
