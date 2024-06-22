@@ -2,7 +2,7 @@
 
 
 \context Score = "Score"
-<<
+{
 
     \context GlobalContext = "GlobalContext"
     <<
@@ -392,8 +392,6 @@
             s1 * 7/8
 
             % [anchor skip]
-              %! ANCHOR_SKIP
-            \baca-time-signature-transparent
               %! ANCHOR_SKIP
             s1 * 1/4
               %! ANCHOR_SKIP
@@ -2604,4 +2602,4 @@
 
     >>
 
->>
+}
