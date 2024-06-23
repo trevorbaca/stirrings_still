@@ -5,6 +5,8 @@ number.7.Skips = {
     % [Skips measure 1]
       %! RED_START_BAR
     %@% \baca-thick-red-bar-line
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=56
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
       %! RED_START_BAR
@@ -111,6 +113,8 @@ number.7.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 5]
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=39
     s1 * 8/16
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -172,6 +176,8 @@ number.7.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 7]
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=56
     s1 * 16/16
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -310,6 +316,8 @@ number.7.Skips = {
     \bacaStartTextSpanSNM
 
     % [Skips measure 12]
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=117
     s1 * 3/4
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -371,6 +379,8 @@ number.7.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 14]
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=56
     s1 * 12/16
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -432,6 +442,8 @@ number.7.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 16]
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=39
     s1 * 12/16
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -523,6 +535,8 @@ number.7.Skips = {
       %! MEASURE_465
       %! ONLY_MOL
     \once \override Score.BarLine.X-extent = #'(0 . 3)
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=169
     s1 * 14/16
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -651,6 +665,8 @@ number.7.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 24]
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=91
     s1 * 12/16
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
