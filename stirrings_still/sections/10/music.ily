@@ -5,7 +5,7 @@ number.10.Skips = {
     % [Skips measure 1]
       %! RED_START_BAR
     %@% \baca-thick-red-bar-line
-      %! REAPPLIED_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=39
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
@@ -65,7 +65,7 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 3]
-      %! EXPLICIT_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=117
     s1 * 3/4
       %! CLOCK_TIME
@@ -128,7 +128,7 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 5]
-      %! EXPLICIT_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=39
     s1 * 12/16
       %! CLOCK_TIME
@@ -191,7 +191,7 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 7]
-      %! EXPLICIT_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=39
     s1 * 16/16
       %! CLOCK_TIME
@@ -309,7 +309,7 @@ number.10.Skips = {
       %! MEASURE_549
       %! ONLY_MOL
     \once \override Score.BarLine.X-extent = #'(0 . 3)
-      %! EXPLICIT_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=91
     s1 * 12/16
     - \tweak extra-offset #'(0 . 10)
