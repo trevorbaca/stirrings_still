@@ -5,6 +5,8 @@ number.6.Skips = {
     % [Skips measure 1]
       %! RED_START_BAR
     %@% \baca-thick-red-bar-line
+      %! REAPPLIED_METRONOME_MARK
+    \tempo 4=52
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
       %! RED_START_BAR
@@ -260,6 +262,8 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 12]
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=65
     s1 * 6/4
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
