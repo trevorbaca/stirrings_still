@@ -137,7 +137,6 @@
     \Staff
     \accepts GlobalRests
     \remove Time_signature_engraver
-    explicitClefVisibility = #end-of-line-invisible
   }
   \context
   {
@@ -186,7 +185,6 @@
     \override TupletBracket.padding = 2
     \override TupletNumber.font-size = 1
     autoBeaming = ##f
-    barNumberFormatter = #baca-oval-bar-numbers
     tupletFullLength = ##t
   }
 }
