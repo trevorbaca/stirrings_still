@@ -1,6 +1,6 @@
 % Stirrings Still (2018) for narrator & string quartet
 
-\version "2.25.19"
+\version "2.25.22"
 
 \include "stylesheet.ily"
 \include "layout.ily"
