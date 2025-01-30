@@ -36,8 +36,7 @@ jobs:
         echo $PYTHONPATH
 
     - name: Install LilyPond
-      run: |
-        uses: Abjad/install-lilypond@v2.25.23
+      uses: Abjad/install-lilypond@v2.25.23
 
     - name: Install Abjad trevor/dev branch
       run: |
