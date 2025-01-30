@@ -1,4 +1,4 @@
-\version "2.25.22"
+\version "2.25.23"
 stirrings-still-text-toplevel = \markup {
     \fontsize #6 {
     \vspace #8
