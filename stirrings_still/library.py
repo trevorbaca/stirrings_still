@@ -1,5 +1,5 @@
 """
-    >>> import stirrings_still
+>>> import stirrings_still
 
 """
 
