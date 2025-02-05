@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "stirrings_still"
-version = "1.0.0"
+version = "3.21"
 description = "Stirrings Still (2016-18/24) for narrator & string quartet"
 authors = [{ name = "Trevor Bača", email = "trevor.baca@gmail.com" }]
 license = { text = "MIT" }
