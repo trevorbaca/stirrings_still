@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.17.Skips = {
+number.17.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -2269,7 +2270,8 @@ number.17.Skips = {
 }
 
 
-number.17.TimeSignatures = {
+number.17.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2868,7 +2870,8 @@ number.17.TimeSignatures = {
 }
 
 
-number.17.Rests = {
+number.17.Rests =
+{
 
     % [Rests measure 1]
     R1 * 7/8
@@ -3151,7 +3154,8 @@ number.17.Rests = {
 }
 
 
-number.17.Violin.1.Music = {
+number.17.Violin.1.Music =
+{
 
     % [Violin.1.Music measure 1]
       %! REAPPLIED_CLEF
@@ -7403,18 +7407,24 @@ number.17.Violin.1.Music = {
 }
 
 
-number.17.Violin.1.Staff = <<
+number.17.Violin.1.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.17.Rests }
+    {
+        \number.17.Rests
+    }
 
     \context Voice = "Violin.1.Music"
-    { \number.17.Violin.1.Music }
+    {
+        \number.17.Violin.1.Music
+    }
 
 >>
 
 
-number.17.Violin.2.Music = {
+number.17.Violin.2.Music =
+{
 
     % [Violin.2.Music measure 1]
       %! REAPPLIED_CLEF
@@ -10691,15 +10701,19 @@ number.17.Violin.2.Music = {
 }
 
 
-number.17.Violin.2.MusicStaff = {
+number.17.Violin.2.MusicStaff =
+{
 
     \context Voice = "Violin.2.Music"
-    { \number.17.Violin.2.Music }
+    {
+        \number.17.Violin.2.Music
+    }
 
 }
 
 
-number.17.Viola.Music = {
+number.17.Viola.Music =
+{
 
     % [Viola.Music measure 1]
       %! REAPPLIED_CLEF
@@ -13682,15 +13696,19 @@ number.17.Viola.Music = {
 }
 
 
-number.17.Viola.Staff = {
+number.17.Viola.Staff =
+{
 
     \context Voice = "Viola.Music"
-    { \number.17.Viola.Music }
+    {
+        \number.17.Viola.Music
+    }
 
 }
 
 
-number.17.Cello.Music = {
+number.17.Cello.Music =
+{
 
     % [Cello.Music measure 1]
       %! REAPPLIED_CLEF
@@ -16985,9 +17003,12 @@ number.17.Cello.Music = {
 }
 
 
-number.17.Cello.Staff = {
+number.17.Cello.Staff =
+{
 
     \context Voice = "Cello.Music"
-    { \number.17.Cello.Music }
+    {
+        \number.17.Cello.Music
+    }
 
 }

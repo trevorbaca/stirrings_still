@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.19.Skips = {
+number.19.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -502,7 +503,8 @@ number.19.Skips = {
 }
 
 
-number.19.TimeSignatures = {
+number.19.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -648,7 +650,8 @@ number.19.TimeSignatures = {
 }
 
 
-number.19.Rests = {
+number.19.Rests =
+{
 
     % [Rests measure 1]
     R1 * 4/4
@@ -738,7 +741,8 @@ number.19.Rests = {
 }
 
 
-number.19.Violin.1.Music = {
+number.19.Violin.1.Music =
+{
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 }
     \tuplet 1/1
@@ -1752,18 +1756,24 @@ number.19.Violin.1.Music = {
 }
 
 
-number.19.Violin.1.Staff = <<
+number.19.Violin.1.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.19.Rests }
+    {
+        \number.19.Rests
+    }
 
     \context Voice = "Violin.1.Music"
-    { \number.19.Violin.1.Music }
+    {
+        \number.19.Violin.1.Music
+    }
 
 >>
 
 
-number.19.Violin.2.Music = {
+number.19.Violin.2.Music =
+{
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 }
     \tuplet 1/1
@@ -2693,15 +2703,19 @@ number.19.Violin.2.Music = {
 }
 
 
-number.19.Violin.2.MusicStaff = {
+number.19.Violin.2.MusicStaff =
+{
 
     \context Voice = "Violin.2.Music"
-    { \number.19.Violin.2.Music }
+    {
+        \number.19.Violin.2.Music
+    }
 
 }
 
 
-number.19.Viola.Music = {
+number.19.Viola.Music =
+{
 
     % [Viola.Music measure 1]
       %! REAPPLIED_CLEF
@@ -2883,15 +2897,19 @@ number.19.Viola.Music = {
 }
 
 
-number.19.Viola.Staff = {
+number.19.Viola.Staff =
+{
 
     \context Voice = "Viola.Music"
-    { \number.19.Viola.Music }
+    {
+        \number.19.Viola.Music
+    }
 
 }
 
 
-number.19.Cello.Music = {
+number.19.Cello.Music =
+{
 
     % [Cello.Music measure 1]
       %! REAPPLIED_CLEF
@@ -3350,9 +3368,12 @@ number.19.Cello.Music = {
 }
 
 
-number.19.Cello.Staff = {
+number.19.Cello.Staff =
+{
 
     \context Voice = "Cello.Music"
-    { \number.19.Cello.Music }
+    {
+        \number.19.Cello.Music
+    }
 
 }

@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.18.Skips = {
+number.18.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -437,7 +438,8 @@ number.18.Skips = {
 }
 
 
-number.18.TimeSignatures = {
+number.18.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -558,7 +560,8 @@ number.18.TimeSignatures = {
 }
 
 
-number.18.Rests = {
+number.18.Rests =
+{
 
     % [Rests measure 1]
     R1 * 4/4
@@ -623,7 +626,8 @@ number.18.Rests = {
 }
 
 
-number.18.Violin.1.Music = {
+number.18.Violin.1.Music =
+{
 
     \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/8
@@ -1209,18 +1213,24 @@ number.18.Violin.1.Music = {
 }
 
 
-number.18.Violin.1.Staff = <<
+number.18.Violin.1.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.18.Rests }
+    {
+        \number.18.Rests
+    }
 
     \context Voice = "Violin.1.Music"
-    { \number.18.Violin.1.Music }
+    {
+        \number.18.Violin.1.Music
+    }
 
 >>
 
 
-number.18.Violin.2.Music = {
+number.18.Violin.2.Music =
+{
 
     % [Violin.2.Music measure 1]
       %! REAPPLIED_CLEF
@@ -1791,15 +1801,19 @@ number.18.Violin.2.Music = {
 }
 
 
-number.18.Violin.2.MusicStaff = {
+number.18.Violin.2.MusicStaff =
+{
 
     \context Voice = "Violin.2.Music"
-    { \number.18.Violin.2.Music }
+    {
+        \number.18.Violin.2.Music
+    }
 
 }
 
 
-number.18.Viola.Music = {
+number.18.Viola.Music =
+{
 
     % [Viola.Music measure 1]
       %! REAPPLIED_CLEF
@@ -1935,15 +1949,19 @@ number.18.Viola.Music = {
 }
 
 
-number.18.Viola.Staff = {
+number.18.Viola.Staff =
+{
 
     \context Voice = "Viola.Music"
-    { \number.18.Viola.Music }
+    {
+        \number.18.Viola.Music
+    }
 
 }
 
 
-number.18.Cello.Music = {
+number.18.Cello.Music =
+{
 
     % [Cello.Music measure 1]
       %! REAPPLIED_CLEF
@@ -2132,9 +2150,12 @@ number.18.Cello.Music = {
 }
 
 
-number.18.Cello.Staff = {
+number.18.Cello.Staff =
+{
 
     \context Voice = "Cello.Music"
-    { \number.18.Cello.Music }
+    {
+        \number.18.Cello.Music
+    }
 
 }

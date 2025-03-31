@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.4.Skips = {
+number.4.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -2562,7 +2563,8 @@ number.4.Skips = {
 }
 
 
-number.4.TimeSignatures = {
+number.4.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -3173,7 +3175,8 @@ number.4.TimeSignatures = {
 }
 
 
-number.4.Rests = {
+number.4.Rests =
+{
 
     % [Rests measure 1]
     R1 * 10/16
@@ -3512,7 +3515,8 @@ number.4.Rests = {
 }
 
 
-number.4.Violin.1.Music = {
+number.4.Violin.1.Music =
+{
 
     % [Violin.1.Music measure 1]
       %! REAPPLIED_CLEF
@@ -5688,18 +5692,24 @@ number.4.Violin.1.Music = {
 }
 
 
-number.4.Violin.1.Staff = <<
+number.4.Violin.1.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.4.Rests }
+    {
+        \number.4.Rests
+    }
 
     \context Voice = "Violin.1.Music"
-    { \number.4.Violin.1.Music }
+    {
+        \number.4.Violin.1.Music
+    }
 
 >>
 
 
-number.4.Violin.2.Music = {
+number.4.Violin.2.Music =
+{
 
     % [Violin.2.Music measure 1]
       %! REAPPLIED_CLEF
@@ -7900,15 +7910,19 @@ number.4.Violin.2.Music = {
 }
 
 
-number.4.Violin.2.MusicStaff = {
+number.4.Violin.2.MusicStaff =
+{
 
     \context Voice = "Violin.2.Music"
-    { \number.4.Violin.2.Music }
+    {
+        \number.4.Violin.2.Music
+    }
 
 }
 
 
-number.4.Viola.Music = {
+number.4.Viola.Music =
+{
 
     % [Viola.Music measure 1]
       %! EXPLICIT_CLEF
@@ -10097,15 +10111,19 @@ number.4.Viola.Music = {
 }
 
 
-number.4.Viola.Staff = {
+number.4.Viola.Staff =
+{
 
     \context Voice = "Viola.Music"
-    { \number.4.Viola.Music }
+    {
+        \number.4.Viola.Music
+    }
 
 }
 
 
-number.4.Cello.Music = {
+number.4.Cello.Music =
+{
 
     % [Cello.Music measure 1]
       %! EXPLICIT_CLEF
@@ -11962,9 +11980,12 @@ number.4.Cello.Music = {
 }
 
 
-number.4.Cello.Staff = {
+number.4.Cello.Staff =
+{
 
     \context Voice = "Cello.Music"
-    { \number.4.Cello.Music }
+    {
+        \number.4.Cello.Music
+    }
 
 }

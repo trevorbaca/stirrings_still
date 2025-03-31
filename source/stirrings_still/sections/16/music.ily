@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.16.Skips = {
+number.16.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -649,7 +650,8 @@ number.16.Skips = {
 }
 
 
-number.16.TimeSignatures = {
+number.16.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -814,7 +816,8 @@ number.16.TimeSignatures = {
 }
 
 
-number.16.Rests = {
+number.16.Rests =
+{
 
     % [Rests measure 1]
     R1 * 16/16
@@ -897,7 +900,8 @@ number.16.Rests = {
 }
 
 
-number.16.Violin.1.Music = {
+number.16.Violin.1.Music =
+{
 
     % [Violin.1.Music measure 1]
       %! REAPPLIED_CLEF
@@ -1699,18 +1703,24 @@ number.16.Violin.1.Music = {
 }
 
 
-number.16.Violin.1.Staff = <<
+number.16.Violin.1.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.16.Rests }
+    {
+        \number.16.Rests
+    }
 
     \context Voice = "Violin.1.Music"
-    { \number.16.Violin.1.Music }
+    {
+        \number.16.Violin.1.Music
+    }
 
 >>
 
 
-number.16.Violin.2.Music = {
+number.16.Violin.2.Music =
+{
 
     % [Violin.2.Music measure 1]
       %! REAPPLIED_CLEF
@@ -2570,15 +2580,19 @@ number.16.Violin.2.Music = {
 }
 
 
-number.16.Violin.2.MusicStaff = {
+number.16.Violin.2.MusicStaff =
+{
 
     \context Voice = "Violin.2.Music"
-    { \number.16.Violin.2.Music }
+    {
+        \number.16.Violin.2.Music
+    }
 
 }
 
 
-number.16.Viola.Music = {
+number.16.Viola.Music =
+{
 
     % [Viola.Music measure 1]
       %! REAPPLIED_CLEF
@@ -3184,15 +3198,19 @@ number.16.Viola.Music = {
 }
 
 
-number.16.Viola.Staff = {
+number.16.Viola.Staff =
+{
 
     \context Voice = "Viola.Music"
-    { \number.16.Viola.Music }
+    {
+        \number.16.Viola.Music
+    }
 
 }
 
 
-number.16.Cello.Music = {
+number.16.Cello.Music =
+{
 
     % [Cello.Music measure 1]
       %! REAPPLIED_CLEF
@@ -3808,9 +3826,12 @@ number.16.Cello.Music = {
 }
 
 
-number.16.Cello.Staff = {
+number.16.Cello.Staff =
+{
 
     \context Voice = "Cello.Music"
-    { \number.16.Cello.Music }
+    {
+        \number.16.Cello.Music
+    }
 
 }

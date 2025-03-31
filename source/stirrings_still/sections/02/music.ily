@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.2.Skips = {
+number.2.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -2161,7 +2162,8 @@ number.2.Skips = {
 }
 
 
-number.2.TimeSignatures = {
+number.2.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2611,7 +2613,8 @@ number.2.TimeSignatures = {
 }
 
 
-number.2.Rests = {
+number.2.Rests =
+{
 
     % [Rests measure 1]
     R1 * 6/8
@@ -2846,7 +2849,8 @@ number.2.Rests = {
 }
 
 
-number.2.Violin.1.Music = {
+number.2.Violin.1.Music =
+{
 
     % [Violin.1.Music measure 1]
       %! REAPPLIED_CLEF
@@ -5890,18 +5894,24 @@ number.2.Violin.1.Music = {
 }
 
 
-number.2.Violin.1.Staff = <<
+number.2.Violin.1.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.2.Rests }
+    {
+        \number.2.Rests
+    }
 
     \context Voice = "Violin.1.Music"
-    { \number.2.Violin.1.Music }
+    {
+        \number.2.Violin.1.Music
+    }
 
 >>
 
 
-number.2.Violin.2.Music = {
+number.2.Violin.2.Music =
+{
 
     \tuplet 3/2
     {
@@ -9049,15 +9059,19 @@ number.2.Violin.2.Music = {
 }
 
 
-number.2.Violin.2.MusicStaff = {
+number.2.Violin.2.MusicStaff =
+{
 
     \context Voice = "Violin.2.Music"
-    { \number.2.Violin.2.Music }
+    {
+        \number.2.Violin.2.Music
+    }
 
 }
 
 
-number.2.Viola.Music = {
+number.2.Viola.Music =
+{
 
     \tuplet 3/2
     {
@@ -12139,15 +12153,19 @@ number.2.Viola.Music = {
 }
 
 
-number.2.Viola.Staff = {
+number.2.Viola.Staff =
+{
 
     \context Voice = "Viola.Music"
-    { \number.2.Viola.Music }
+    {
+        \number.2.Viola.Music
+    }
 
 }
 
 
-number.2.Cello.Music = {
+number.2.Cello.Music =
+{
 
     \tuplet 3/2
     {
@@ -15599,9 +15617,12 @@ number.2.Cello.Music = {
 }
 
 
-number.2.Cello.Staff = {
+number.2.Cello.Staff =
+{
 
     \context Voice = "Cello.Music"
-    { \number.2.Cello.Music }
+    {
+        \number.2.Cello.Music
+    }
 
 }
