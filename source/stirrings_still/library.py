@@ -1290,7 +1290,11 @@ def make_accelerando(time_signatures, start, stop):
     durations = [_.duration for _ in time_signatures]
     durations = [sum(durations)]
     tag = baca.helpers.function_name(inspect.currentframe())
-    tuplets = rmakers.accelerando(durations, [start, stop, (1, 16)], tag=tag)
+    tuplets = rmakers.accelerando(
+        durations,
+        rmakers.durations([start, stop, (1, 16)]),
+        tag=tag,
+    )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.duration_bracket(voice)
     rmakers.feather_beam(voice, beam_rests=True, stemlet_length=0.75, tag=tag)
@@ -1404,7 +1408,7 @@ def make_declamation_rhythm(time_signatures, *, protract=False):
         tuplets = rmakers.tuplet(durations, [(3, 1)], tag=tag)
         voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
         rmakers.beam(voice, tag=tag)
-        rmakers.denominator(voice, (1, 8))
+        rmakers.denominator(voice, abjad.Duration(1, 8))
         rmakers.force_fraction(voice)
         rmakers.rewrite_dots(voice, tag=tag)
         rmakers.extract_trivial(voice)
@@ -1460,7 +1464,7 @@ def make_desynchronization_rhythm(
         rmakers.force_rest(abjad.select.get(baca.select.lts(voice), ([1], 2)), tag=tag)
     elif isinstance(rests, tuple):
         rmakers.force_rest(abjad.select.get(baca.select.lts(voice), rests), tag=tag)
-    rmakers.denominator(voice, (1, denominator))
+    rmakers.denominator(voice, abjad.Duration(1, denominator))
     rmakers.force_fraction(voice)
     rmakers.trivialize(voice)
     rmakers.rewrite_dots(voice, tag=tag)
@@ -1637,7 +1641,7 @@ def make_flight_rhythm(time_signatures, counts, rotation, *, start=0):
     tuplets = rmakers.talea(durations, counts_, 8, extra_counts=extra_counts, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.beam(voice, tag=tag)
-    rmakers.denominator(voice, (1, 8))
+    rmakers.denominator(voice, abjad.Duration(1, 8))
     rmakers.force_fraction(voice)
     rmakers.trivialize(voice)
     rmakers.rewrite_dots(voice, tag=tag)
@@ -1672,7 +1676,7 @@ def make_grid_to_trajectory_rhythm(time_signatures, counts, rotation, extra):
     tuplets = rmakers.talea(durations, counts_, 8, extra_counts=extra_counts, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.beam(voice, tag=tag)
-    rmakers.denominator(voice, (1, 8))
+    rmakers.denominator(voice, abjad.Duration(1, 8))
     rmakers.force_fraction(voice)
     rmakers.extract_trivial(voice)
     rmakers.force_repeat_tie(voice, tag=tag, threshold=(1, 4))
@@ -1836,7 +1840,7 @@ def make_talea_eighth_notes(time_signatures, counts, rotation, extra, *, end_cou
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.beam(voice, tag=tag)
-    rmakers.denominator(voice, (1, 8))
+    rmakers.denominator(voice, abjad.Duration(1, 8))
     rmakers.force_fraction(voice)
     rmakers.trivialize(voice)
     rmakers.rewrite_dots(voice, tag=tag)
@@ -1865,8 +1869,12 @@ def make_to_flight_rhythm(time_signatures, weights, *, start=(1, 4), stop=(1, 8)
     durations = [sum(durations)]
     weights = abjad.durations(weights)
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
+    durations = abjad.sequence.flatten(durations)
     tuplets = rmakers.accelerando(
-        durations, [start, stop, (1, 16)], [(1, 2), (1, 2), (1, 4)], tag=tag
+        durations,
+        rmakers.durations([start, stop, (1, 16)]),
+        rmakers.durations([(1, 2), (1, 2), (1, 4)]),
+        tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.duration_bracket(voice)
@@ -1943,8 +1951,8 @@ def make_wave_rhythm(time_signatures, start, stop, *, previous_state=None):
     durations = [_.duration for _ in time_signatures]
     tuplets = rmakers.accelerando(
         durations,
-        [start, stop, (1, 16)],
-        [stop, start, (1, 16)],
+        rmakers.durations([start, stop, (1, 16)]),
+        rmakers.durations([stop, start, (1, 16)]),
         previous_state=previous_state,
         state=state,
         tag=tag,
