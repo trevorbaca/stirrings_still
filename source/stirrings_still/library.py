@@ -1856,6 +1856,7 @@ def make_taper_rhythm(time_signatures, tuplet_ratio=(1, 4, 1)):
     durations = [_.duration for _ in time_signatures]
     tuplets = rmakers.tuplet(durations, [tuplet_ratio], tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
+    rmakers.trivialize(voice)
     rmakers.beam(voice, tag=tag)
     rmakers.repeat_tie(abjad.select.notes(voice)[1:], tag=tag)
     rmakers.extract_trivial(voice)
