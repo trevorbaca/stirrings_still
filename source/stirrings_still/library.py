@@ -1332,6 +1332,7 @@ def make_circle_rhythm(
     if durations != without_overhang and remainder == abjad.LEFT:
         final_list = durations.pop()
         durations.insert(0, final_list)
+    durations = abjad.sequence.flatten(durations, depth=-1)
     components = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     if force_rest_tuplets is not None:
@@ -1727,6 +1728,7 @@ def make_picket_rhythm(
     if durations != without_overhang:
         final_list = durations.pop()
         durations.insert(0, final_list)
+    durations = abjad.sequence.flatten(durations, depth=-1)
     assert isinstance(extra_count, int), repr(extra_count)
     counts = 4 + extra_count
     tuplet_ratio = counts * (1,)
