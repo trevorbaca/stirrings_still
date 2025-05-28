@@ -12,6 +12,12 @@ import baca
 import rmakers
 
 
+def _force_fraction(argument):
+    for tuplet in abjad.select.tuplets(argument):
+        tweak_string = abjad.Tuplet.tuplet_number_calc_fraction_text_tweak_string
+        abjad.tweak(tuplet, tweak_string)
+
+
 def time_signature_series():
     time_signature_series = dict()
     numerators = [[3, 4, 4], [3, 4, 5, 6]]
@@ -1410,9 +1416,10 @@ def make_declamation_rhythm(time_signatures, *, protract=False):
         voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
         rmakers.beam(voice, tag=tag)
         rmakers.denominator(voice, abjad.Duration(1, 8))
-        rmakers.force_fraction(voice)
+        # rmakers.force_fraction(voice)
         rmakers.rewrite_dots(voice, tag=tag)
         rmakers.extract_trivial(voice)
+        _force_fraction(voice)
         music = abjad.mutate.eject_contents(voice)
         return music
 
@@ -1466,7 +1473,7 @@ def make_desynchronization_rhythm(
     elif isinstance(rests, tuple):
         rmakers.force_rest(abjad.select.get(baca.select.lts(voice), rests), tag=tag)
     rmakers.denominator(voice, abjad.Duration(1, denominator))
-    rmakers.force_fraction(voice)
+    # rmakers.force_fraction(voice)
     rmakers.trivialize(voice)
     rmakers.rewrite_dots(voice, tag=tag)
     if extra_counts[0] < 0:
@@ -1477,6 +1484,7 @@ def make_desynchronization_rhythm(
         rmakers.force_diminution(voice)
     rmakers.beam(voice, tag=tag)
     rmakers.extract_trivial(voice)
+    _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -1643,13 +1651,14 @@ def make_flight_rhythm(time_signatures, counts, rotation, *, start=0):
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.beam(voice, tag=tag)
     rmakers.denominator(voice, abjad.Duration(1, 8))
-    rmakers.force_fraction(voice)
+    # rmakers.force_fraction(voice)
     rmakers.trivialize(voice)
     rmakers.rewrite_dots(voice, tag=tag)
     rmakers.rewrite_sustained(voice, tag=tag)
     rmakers.extract_trivial(voice)
     rmakers.force_diminution(voice)
     rmakers.force_repeat_tie(voice, tag=tag, threshold=(1, 4))
+    _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -1678,9 +1687,10 @@ def make_grid_to_trajectory_rhythm(time_signatures, counts, rotation, extra):
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.beam(voice, tag=tag)
     rmakers.denominator(voice, abjad.Duration(1, 8))
-    rmakers.force_fraction(voice)
+    # rmakers.force_fraction(voice)
     rmakers.extract_trivial(voice)
     rmakers.force_repeat_tie(voice, tag=tag, threshold=(1, 4))
+    _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -1843,12 +1853,13 @@ def make_talea_eighth_notes(time_signatures, counts, rotation, extra, *, end_cou
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.beam(voice, tag=tag)
     rmakers.denominator(voice, abjad.Duration(1, 8))
-    rmakers.force_fraction(voice)
+    # rmakers.force_fraction(voice)
     rmakers.trivialize(voice)
     rmakers.rewrite_dots(voice, tag=tag)
     rmakers.rewrite_sustained(voice, tag=tag)
     rmakers.extract_trivial(voice)
     rmakers.force_repeat_tie(voice, tag=tag, threshold=(1, 4))
+    _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -1932,13 +1943,14 @@ def make_trajectory_rhythm(
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
-    rmakers.force_fraction(voice)
+    # rmakers.force_fraction(voice)
     if untie_then_tie is True:
         rmakers.untie(lleak_tuplet_pleaves(voice, [2, 6, 10, 14, 15]))
         rmakers.tie(nonlast_tuplet_pleaves(voice, [2, 6, 10, 14, 15]), tag=tag)
     rmakers.rewrite_sustained(voice, tag=tag)
     rmakers.beam(voice, tag=tag)
     rmakers.extract_trivial(voice)
+    _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
 
