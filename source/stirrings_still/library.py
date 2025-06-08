@@ -1471,7 +1471,7 @@ def make_desynchronization_rhythm(
         rmakers.force_rest(abjad.select.get(baca.select.lts(voice), ([1], 2)), tag=tag)
     elif isinstance(rests, tuple):
         rmakers.force_rest(abjad.select.get(baca.select.lts(voice), rests), tag=tag)
-    rmakers.denominator(voice, abjad.Duration(1, denominator))
+    baca.rhythm.set_tuplet_ratios_in_terms_of(voice, denominator)
     rmakers.trivialize(voice)
     rmakers.rewrite_dots(voice, tag=tag)
     if extra_counts[0] < 0:
