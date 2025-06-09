@@ -2459,14 +2459,13 @@ number.8.Violin.1.Music =
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 4/7
+    \tuplet 8/7
     {
 
         % [Violin.1.Music measure 11]
-        a'8
+        a'4
           %! SPANNER_STOP
         \stopTextSpan
-        [
           %! SPANNER_START
         - \baca-solid-line-with-arrow
           %! SPANNER_START
@@ -2476,12 +2475,11 @@ number.8.Violin.1.Music =
           %! SPANNER_START
         \startTextSpan
 
-        a'8
+        a'4
 
-        a'8
+        a'4
 
-        a'8
-        ]
+        a'4
 
     }
 
