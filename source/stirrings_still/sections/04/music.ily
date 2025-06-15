@@ -4369,11 +4369,11 @@ number.4.Violin.1.Music =
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 4/5
+    \tuplet 8/5
     {
 
         \once \override DynamicText.self-alignment-X = -1
-        <e' cqs''!>4.
+        <e' cqs''!>2.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -4388,7 +4388,7 @@ number.4.Violin.1.Music =
         \<
         \glissando
 
-        <e' cqs''!>8
+        <e' cqs''!>4
         - \baca-stop-on-string
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -6626,11 +6626,11 @@ number.4.Violin.2.Music =
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 4/5
+    \tuplet 8/5
     {
 
         \once \override DynamicText.self-alignment-X = -1
-        <eqf'! c''>4.
+        <eqf'! c''>2.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -6645,7 +6645,7 @@ number.4.Violin.2.Music =
         \<
         \glissando
 
-        <eqf'! c''>8
+        <eqf'! c''>4
         - \baca-stop-on-string
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -8883,11 +8883,11 @@ number.4.Viola.Music =
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 4/5
+    \tuplet 8/5
     {
 
         \once \override DynamicText.self-alignment-X = -1
-        <cs'! gqs'!>4.
+        <cs'! gqs'!>2.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -8902,7 +8902,7 @@ number.4.Viola.Music =
         \<
         \glissando
 
-        <cs'! gqs'!>8
+        <cs'! gqs'!>4
         - \baca-stop-on-string
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC

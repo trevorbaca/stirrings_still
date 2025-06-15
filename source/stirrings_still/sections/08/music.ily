@@ -8380,12 +8380,12 @@ number.8.Cello.Music =
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 4/5
+    \tuplet 8/5
     {
 
         % [Cello.Music measure 52]
         \override TupletBracket.direction = #down
-        b,,4
+        b,,2
           %! SPANNER_STOP
         \!
           %! SPANNER_STOP
@@ -8428,7 +8428,7 @@ number.8.Cello.Music =
         - \tweak stencil ##f
         ~
 
-        b,,4
+        b,,2
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue

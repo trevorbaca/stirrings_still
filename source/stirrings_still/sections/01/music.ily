@@ -2785,11 +2785,11 @@ number.1.Violin.1.Music =
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 8/11
+    \tuplet 16/11
     {
 
         \once \override DynamicText.self-alignment-X = -1
-        <e' cqs''!>2.
+        <e' cqs''!>1.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -2805,7 +2805,7 @@ number.1.Violin.1.Music =
         \glissando
 
         \once \override Script.padding = 1
-        <e' cqs''!>4
+        <e' cqs''!>2
         - \baca-stop-on-string
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -2898,11 +2898,11 @@ number.1.Violin.1.Music =
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 8/13
+    \tuplet 16/13
     {
 
         \once \override DynamicText.self-alignment-X = -1
-        <e' cqs''!>2.
+        <e' cqs''!>1.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -2918,7 +2918,7 @@ number.1.Violin.1.Music =
         \glissando
 
         \once \override Script.padding = 1
-        <e' cqs''!>4
+        <e' cqs''!>2
         - \baca-stop-on-string
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -5469,11 +5469,11 @@ number.1.Violin.2.Music =
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 8/11
+    \tuplet 16/11
     {
 
         \once \override DynamicText.self-alignment-X = -1
-        <eqf'! c''>2.
+        <eqf'! c''>1.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -5489,7 +5489,7 @@ number.1.Violin.2.Music =
         \glissando
 
         \once \override Script.padding = 1
-        <eqf'! c''>4
+        <eqf'! c''>2
         - \baca-stop-on-string
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -5582,11 +5582,11 @@ number.1.Violin.2.Music =
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 8/13
+    \tuplet 16/13
     {
 
         \once \override DynamicText.self-alignment-X = -1
-        <eqf'! c''>2.
+        <eqf'! c''>1.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -5602,7 +5602,7 @@ number.1.Violin.2.Music =
         \glissando
 
         \once \override Script.padding = 1
-        <eqf'! c''>4
+        <eqf'! c''>2
         - \baca-stop-on-string
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -7967,11 +7967,11 @@ number.1.Viola.Music =
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 8/11
+    \tuplet 16/11
     {
 
         \once \override DynamicText.self-alignment-X = -1
-        <cs'! gqs'!>2.
+        <cs'! gqs'!>1.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -7987,7 +7987,7 @@ number.1.Viola.Music =
         \glissando
 
         \once \override Script.padding = 1
-        <cs'! gqs'!>4
+        <cs'! gqs'!>2
         - \baca-stop-on-string
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -8080,11 +8080,11 @@ number.1.Viola.Music =
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 8/13
+    \tuplet 16/13
     {
 
         \once \override DynamicText.self-alignment-X = -1
-        <cs'! gqs'!>2.
+        <cs'! gqs'!>1.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -8100,7 +8100,7 @@ number.1.Viola.Music =
         \glissando
 
         \once \override Script.padding = 1
-        <cs'! gqs'!>4
+        <cs'! gqs'!>2
         - \baca-stop-on-string
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC

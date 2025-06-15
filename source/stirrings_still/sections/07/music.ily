@@ -5267,11 +5267,11 @@ number.7.Cello.Music =
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 4/5
+    \tuplet 8/5
     {
 
         % [Cello.Music measure 11]
-        b,,4
+        b,,2
           %! CLOUDED_PANE
           %! MATERIAL
           %! MATERIAL_ANNOTATION_SPANNER
@@ -5310,7 +5310,7 @@ number.7.Cello.Music =
         - \tweak stencil ##f
         ~
 
-        b,,4
+        b,,2
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
