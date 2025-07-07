@@ -1913,17 +1913,17 @@ def make_trajectory_rhythm(
     extra_counts = abjad.sequence.rotate(extra_counts, n=extra_counts_rotation)
 
     def lleak_tuplet_pleaves(argument, indices):
-        selection = abjad.select.tuplets(argument)
-        selection = abjad.select.get(selection, indices)
-        selection = [baca.select.pleaves(_) for _ in selection]
-        selection = [baca.select.lleak(_) for _ in selection]
-        return selection
+        result = abjad.select.tuplets(argument)
+        result = abjad.select.get(result, indices)
+        result = [baca.select.pleaves(_) for _ in result]
+        result = [baca.select.lleak(_) for _ in result]
+        return result
 
     def nonlast_tuplet_pleaves(argument, indices):
-        selection = abjad.select.tuplets(argument)
-        selection = abjad.select.get(selection, indices)
-        selection = [baca.select.pleaves(_)[:-1] for _ in selection]
-        return selection
+        result = abjad.select.tuplets(argument)
+        result = abjad.select.get(result, indices)
+        result = [baca.select.pleaves(_)[:-1] for _ in result]
+        return result
 
     durations = [_.duration for _ in time_signatures]
     tuplets = rmakers.talea(

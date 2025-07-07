@@ -477,11 +477,11 @@ def VC(voice, time_signatures):
 
 
 def measure_starts_plus_rest(argument):
-    selection_1 = baca.select.cmgroups(argument)
-    selection_1 = [abjad.select.leaf(_, 0) for _ in selection_1]
-    selection_2 = abjad.select.leaves(argument)[-1:]
-    selection = selection_1 + selection_2
-    return selection
+    lists = baca.select.cmgroups(argument)
+    leaves_1 = [abjad.select.leaf(_, 0) for _ in lists]
+    leaves_2 = abjad.select.leaves(argument)[-1:]
+    leaves = leaves_1 + leaves_2
+    return leaves
 
 
 def v1(cache):
