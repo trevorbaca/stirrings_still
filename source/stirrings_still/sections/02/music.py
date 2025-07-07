@@ -148,10 +148,10 @@ def V1(voice, time_signatures):
     voice.extend(music)
     music = library.make_clocktick_rhythm(time_signatures(14))
     voice.extend(music)
-    voice.extend(r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }")
-    voice.extend(r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }")
-    voice.extend(r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }")
-    voice.extend(r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }")
+    voice.extend(r"\tuplet 3/2 { c'8 r4 } \tuplet 3/2 { c'8 r8 }")
+    voice.extend(r"\tuplet 3/2 { c'8 r4 } \tuplet 3/2 { c'8 r4 }")
+    voice.extend(r"\tuplet 3/2 { c'8 r4 } \tuplet 3/2 { c'8 r16 }")
+    voice.extend(r"\tuplet 3/2 { c'8 r4 } \tuplet 3/2 { c'8 r8 }")
     music = library.make_clocktick_rhythm(
         time_signatures(18, 24),
         force_rest_tuplets=[-1],
@@ -275,13 +275,13 @@ def V2(voice, time_signatures):
     voice.extend(music)
     music = library.make_clocktick_rhythm(time_signatures(12))
     voice.extend(music)
-    voice.extend(r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }")
+    voice.extend(r"\tuplet 3/2 { c'8 r4 } \tuplet 3/2 { c'8 r8 }")
     music = library.make_clocktick_rhythm(time_signatures(14))
     voice.extend(music)
-    voice.extend(r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }")
-    voice.extend(r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }")
-    voice.extend(r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }")
-    voice.extend(r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }")
+    voice.extend(r"\tuplet 3/2 { c'8 r4 } \tuplet 3/2 { c'8 r8 }")
+    voice.extend(r"\tuplet 3/2 { c'8 r4 } \tuplet 3/2 { c'8 r4 }")
+    voice.extend(r" \tuplet 3/2 { c'8 r4 } \tuplet 3/2 { c'8 r16 }")
+    voice.extend(r"\tuplet 3/2 { c'8 r4 } \tuplet 3/2 { c'8 r8 }")
     music = library.make_trajectory_rhythm(
         time_signatures(18, 25),
         "C",
@@ -549,9 +549,9 @@ def VC(voice, time_signatures):
         force_rest_tuplets=[-1],
     )
     voice.extend(music)
-    voice.extend(r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }")
-    voice.extend(r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }")
-    voice.extend(r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }")
+    voice.extend(r"\tuplet 3/2 { c'8 r4 } \tuplet 3/2 { c'8 r4 }")
+    voice.extend(r" \tuplet 3/2 { c'8 r4 } \tuplet 3/2 { c'8 r16 }")
+    voice.extend(r"\tuplet 3/2 { c'8 r4 } \tuplet 3/2 { c'8 r8 }")
     music = library.make_clocktick_rhythm(
         time_signatures(18, 19),
         encroach=True,

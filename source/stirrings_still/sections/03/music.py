@@ -251,7 +251,7 @@ def V2(voice, time_signatures):
     voice.extend(music)
     music = library.make_clocktick_rhythm(time_signatures(28))
     voice.extend(music)
-    voice.extend(r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }")
+    voice.extend(r"\tuplet 3/2 { c'8 r4 } \tuplet 3/2 { c'8 r8 }")
     music = library.make_synchronized_circle_rhythm(
         time_signatures(30, 33),
         rests=[-1],

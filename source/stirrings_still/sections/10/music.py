@@ -67,7 +67,7 @@ def V2(voice, time_signatures):
     voice.extend(music)
     music = library.make_clocktick_rhythm(time_signatures(3))
     voice.extend(music)
-    voice.extend(r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }")
+    voice.extend(r"\tuplet 3/2 { c'8 r4 } \tuplet 3/2 { c'8 r8 }")
     music = library.make_urtext_field_rhythm(time_signatures(5, 11))
     voice.extend(music)
     music = library.make_trajectory_rhythm(
