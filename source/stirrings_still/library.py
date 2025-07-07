@@ -242,10 +242,10 @@ def rleaves_partition_by_counts(argument, counts):
     return lists
 
 
-def rleaves_partition_by_ratio(argument, ratio):
+def rleaves_partition_by_ratio(argument, proportion):
     leaves = abjad.select.leaves(argument)
     leaves = baca.select.rleak(leaves)
-    lists = abjad.select.partition_by_ratio(leaves, ratio)
+    lists = abjad.select.partition_by_proportion(leaves, proportion)
     return lists
 
 
