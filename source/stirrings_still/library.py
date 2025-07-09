@@ -1825,7 +1825,9 @@ def make_synchronized_circle_rhythm(
     return music
 
 
-def make_talea_eighth_notes(time_signatures, counts, rotation, extra, *, end_counts=()):
+def make_talea_eighth_notes(
+    time_signatures, counts, rotation, extra, *, end_counts=None
+):
     tag = baca.helpers.function_name(inspect.currentframe())
     assert isinstance(extra, int), extra
     extra_counts = [extra]
@@ -1896,7 +1898,7 @@ def make_trajectory_rhythm(
     rotation,
     extra_counts_rotation,
     *,
-    end_counts=(),
+    end_counts=None,
     untie_then_tie=False,
 ):
     tag = baca.helpers.function_name(inspect.currentframe())
