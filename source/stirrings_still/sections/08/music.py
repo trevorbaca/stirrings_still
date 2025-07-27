@@ -95,7 +95,7 @@ def V1(voice, time_signatures):
         [0, 2, 1],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(17, 22), head=voice.name)
+    music = baca.make_mmrests(time_signatures(17, 22), head=voice.get_name())
     voice.extend(music)
     music = library.make_picket_rhythm(
         time_signatures(23, 28),
@@ -104,7 +104,7 @@ def V1(voice, time_signatures):
         force_rest_tuplets=[0],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(29), head=voice.name)
+    music = baca.make_mmrests(time_signatures(29), head=voice.get_name())
     voice.extend(music)
     music = library.make_accelerando(
         time_signatures(30, 31),
@@ -112,11 +112,11 @@ def V1(voice, time_signatures):
         (4, 32),
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(32), head=voice.name)
+    music = baca.make_mmrests(time_signatures(32), head=voice.get_name())
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(time_signatures(33, 34))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(35), head=voice.name)
+    music = baca.make_mmrests(time_signatures(35), head=voice.get_name())
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(36, 37))
     voice.extend(music)
@@ -126,7 +126,7 @@ def V1(voice, time_signatures):
         (4, 32),
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(41), head=voice.name)
+    music = baca.make_mmrests(time_signatures(41), head=voice.get_name())
     voice.extend(music)
     music = library.make_accelerando(
         time_signatures(42, 45),
@@ -134,7 +134,7 @@ def V1(voice, time_signatures):
         (4, 32),
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(46), head=voice.name)
+    music = baca.make_mmrests(time_signatures(46), head=voice.get_name())
     voice.extend(music)
     music = library.make_picket_rhythm(
         time_signatures(47, 51),
@@ -181,7 +181,7 @@ def V2(voice, time_signatures):
         [1, 0, 2],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(17, 22), head=voice.name)
+    music = baca.make_mmrests(time_signatures(17, 22), head=voice.get_name())
     voice.extend(music)
     music = library.make_picket_rhythm(
         time_signatures(23, 28),
@@ -190,7 +190,7 @@ def V2(voice, time_signatures):
         force_rest_tuplets=[0],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(29), head=voice.name)
+    music = baca.make_mmrests(time_signatures(29), head=voice.get_name())
     voice.extend(music)
     music = library.make_accelerando(
         time_signatures(30, 31),
@@ -198,12 +198,12 @@ def V2(voice, time_signatures):
         (8, 32),
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(32), head=voice.name)
+    music = baca.make_mmrests(time_signatures(32), head=voice.get_name())
     voice.extend(music)
     music = library.make_clocktick_rhythm(time_signatures(33))
     voice.extend(music)
     voice.extend(r"\tuplet 3/2 { c'8 r4 } \tuplet 3/2 { c'8 r8 }")
-    music = baca.make_mmrests(time_signatures(35), head=voice.name)
+    music = baca.make_mmrests(time_signatures(35), head=voice.get_name())
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(36, 37))
     voice.extend(music)
@@ -213,7 +213,7 @@ def V2(voice, time_signatures):
         (8, 32),
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(41), head=voice.name)
+    music = baca.make_mmrests(time_signatures(41), head=voice.get_name())
     voice.extend(music)
     music = library.make_accelerando(
         time_signatures(42, 45),
@@ -221,7 +221,7 @@ def V2(voice, time_signatures):
         (8, 32),
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(46), head=voice.name)
+    music = baca.make_mmrests(time_signatures(46), head=voice.get_name())
     voice.extend(music)
     music = library.make_picket_rhythm(
         time_signatures(47, 51),
@@ -272,7 +272,7 @@ def VA(voice, time_signatures):
         [1, 0, 2],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(17, 22), head=voice.name)
+    music = baca.make_mmrests(time_signatures(17, 22), head=voice.get_name())
     voice.extend(music)
     music = library.make_picket_rhythm(
         time_signatures(23, 28),
@@ -281,7 +281,7 @@ def VA(voice, time_signatures):
         force_rest_tuplets=[0],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(29), head=voice.name)
+    music = baca.make_mmrests(time_signatures(29), head=voice.get_name())
     voice.extend(music)
     music = library.make_accelerando(
         time_signatures(30, 31),
@@ -289,11 +289,11 @@ def VA(voice, time_signatures):
         (12, 32),
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(32), head=voice.name)
+    music = baca.make_mmrests(time_signatures(32), head=voice.get_name())
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(time_signatures(33, 34))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(35), head=voice.name)
+    music = baca.make_mmrests(time_signatures(35), head=voice.get_name())
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(36, 37))
     voice.extend(music)
@@ -303,7 +303,7 @@ def VA(voice, time_signatures):
         (12, 32),
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(41), head=voice.name)
+    music = baca.make_mmrests(time_signatures(41), head=voice.get_name())
     voice.extend(music)
     music = library.make_accelerando(
         time_signatures(42, 45),
@@ -311,7 +311,7 @@ def VA(voice, time_signatures):
         (12, 32),
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(46), head=voice.name)
+    music = baca.make_mmrests(time_signatures(46), head=voice.get_name())
     voice.extend(music)
     music = library.make_picket_rhythm(
         time_signatures(47, 51),
@@ -331,7 +331,7 @@ def VA(voice, time_signatures):
         -1,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(56), head=voice.name)
+    music = baca.make_mmrests(time_signatures(56), head=voice.get_name())
     voice.extend(music)
 
 
@@ -342,11 +342,11 @@ def VC(voice, time_signatures):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(7, 31))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(32), head=voice.name)
+    music = baca.make_mmrests(time_signatures(32), head=voice.get_name())
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(time_signatures(33, 34))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(35), head=voice.name)
+    music = baca.make_mmrests(time_signatures(35), head=voice.get_name())
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(36, 37))
     voice.extend(music)
@@ -371,7 +371,7 @@ def VC(voice, time_signatures):
         (1, 1),
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(56), head=voice.name)
+    music = baca.make_mmrests(time_signatures(56), head=voice.get_name())
     voice.extend(music)
 
 
