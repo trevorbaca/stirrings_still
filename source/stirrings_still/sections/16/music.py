@@ -126,7 +126,7 @@ def V1(voice, time_signatures):
     voice.extend(music)
     music = library.make_eighth_notes(time_signatures(21, 25))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(26), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(26), head=voice.name())
     voice.extend(music)
 
 
@@ -165,7 +165,7 @@ def V2(voice, time_signatures):
     voice.extend(music)
     music = library.make_eighth_notes(time_signatures(21, 25))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(26), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(26), head=voice.name())
     voice.extend(music)
 
 
@@ -192,7 +192,7 @@ def VA(voice, time_signatures):
     voice.extend(music)
     music = library.make_eighth_notes(time_signatures(21, 25))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(26), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(26), head=voice.name())
     voice.extend(music)
 
 
@@ -221,7 +221,7 @@ def VC(voice, time_signatures):
     voice.extend(music)
     music = library.make_eighth_notes(time_signatures(21, 25))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(26), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(26), head=voice.name())
     voice.extend(music)
 
 

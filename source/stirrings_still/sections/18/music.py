@@ -42,14 +42,14 @@ def V1(voice, time_signatures):
         -3,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9, 17), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(9, 17), head=voice.name())
     voice.extend(music)
 
 
 def V2(voice, time_signatures):
     music = library.make_trajectory_rhythm(time_signatures(1, 8), "C", -1, -2)
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9, 17), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(9, 17), head=voice.name())
     voice.extend(music)
 
 
@@ -61,7 +61,7 @@ def VA(voice, time_signatures):
 def VC(voice, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures(1, 12))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(13, 17), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(13, 17), head=voice.name())
     voice.extend(music)
 
 

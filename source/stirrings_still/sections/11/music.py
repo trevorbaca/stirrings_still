@@ -131,7 +131,7 @@ def V1(voice, time_signatures):
         2,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(22), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(22), head=voice.name())
     voice.extend(music)
     music = library.make_picket_rhythm(
         time_signatures(23),
@@ -165,7 +165,7 @@ def V1(voice, time_signatures):
         do_not_rewrite_meter=True,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(54), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(54), head=voice.name())
     voice.extend(music)
 
 
@@ -237,7 +237,7 @@ def V2(voice, time_signatures):
         1,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(22), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(22), head=voice.name())
     voice.extend(music)
     music = library.make_picket_rhythm(
         time_signatures(23),
@@ -271,7 +271,7 @@ def V2(voice, time_signatures):
         do_not_rewrite_meter=True,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(54), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(54), head=voice.name())
     voice.extend(music)
 
 
@@ -323,7 +323,7 @@ def VA(voice, time_signatures):
         0,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(22), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(22), head=voice.name())
     voice.extend(music)
     music = library.make_picket_rhythm(
         time_signatures(23),
@@ -362,7 +362,7 @@ def VA(voice, time_signatures):
         do_not_rewrite_meter=True,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(54), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(54), head=voice.name())
     voice.extend(music)
 
 

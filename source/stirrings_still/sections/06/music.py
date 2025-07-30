@@ -38,7 +38,7 @@ def GLOBALS(skips, rests, first_measure_number):
 def V1(voice, time_signatures):
     music = library.make_clouded_pane_rhythm(time_signatures(1, 8))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9, 11), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(9, 11), head=voice.name())
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         time_signatures(12, 13),
@@ -46,14 +46,14 @@ def V1(voice, time_signatures):
         [1],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(14), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(14), head=voice.name())
     voice.extend(music)
 
 
 def V2(voice, time_signatures):
     music = library.make_clouded_pane_rhythm(time_signatures(1, 8))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9, 11), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(9, 11), head=voice.name())
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         time_signatures(12, 13),
@@ -61,7 +61,7 @@ def V2(voice, time_signatures):
         [0],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(14), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(14), head=voice.name())
     voice.extend(music)
 
 
@@ -70,7 +70,7 @@ def VA(voice, time_signatures):
         time_signatures(1, 10), do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(11), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(11), head=voice.name())
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         time_signatures(12, 13),
@@ -78,14 +78,14 @@ def VA(voice, time_signatures):
         [2],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(14), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(14), head=voice.name())
     voice.extend(music)
 
 
 def VC(voice, time_signatures):
     music = library.make_clouded_pane_rhythm(time_signatures(1, 8))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9, 11), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(9, 11), head=voice.name())
     voice.extend(music)
     music = library.make_desynchronization_rhythm(
         time_signatures(12, 13),
@@ -93,7 +93,7 @@ def VC(voice, time_signatures):
         [-1],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(14), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(14), head=voice.name())
     voice.extend(music)
 
 

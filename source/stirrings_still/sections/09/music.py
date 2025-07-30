@@ -41,7 +41,7 @@ def V1(voice, time_signatures):
         (1, 8),
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(8, 9), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(8, 9), head=voice.name())
     voice.extend(music)
     music = library.make_urtext_field_rhythm(time_signatures(10, 11))
     voice.extend(music)
@@ -54,7 +54,7 @@ def V2(voice, time_signatures):
         (1, 4),
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(8, 9), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(8, 9), head=voice.name())
     voice.extend(music)
     music = library.make_urtext_field_rhythm(time_signatures(10, 11))
     voice.extend(music)
@@ -69,7 +69,7 @@ def VA(voice, time_signatures):
         remainder=abjad.LEFT,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(8, 9), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(8, 9), head=voice.name())
     voice.extend(music)
     music = library.make_urtext_field_rhythm(time_signatures(10, 11))
     voice.extend(music)

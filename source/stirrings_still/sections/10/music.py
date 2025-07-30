@@ -98,11 +98,11 @@ def VA(voice, time_signatures):
 
 
 def VC(voice, time_signatures):
-    music = baca.make_mmrests(time_signatures(1, 2), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(1, 2), head=voice.name())
     voice.extend(music)
     music = library.make_clouded_pane_rhythm(time_signatures(3, 4))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(5, 6), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(5, 6), head=voice.name())
     voice.extend(music)
     music = library.make_urtext_field_rhythm(time_signatures(7, 11))
     voice.extend(music)
@@ -112,7 +112,7 @@ def VC(voice, time_signatures):
         (3, 32),
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(14, 17), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(14, 17), head=voice.name())
     voice.extend(music)
 
 
