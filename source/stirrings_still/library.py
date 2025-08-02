@@ -1331,7 +1331,7 @@ def make_circle_rhythm(
     tag = baca.helpers.function_name(inspect.currentframe())
     durations = [_.duration() for _ in time_signatures]
     durations = [sum(durations)]
-    weights = [abjad.Duration(weight)]
+    weights = [abjad.Duration(*weight)]
     without_overhang = abjad.sequence.split(durations, weights, cyclic=True)
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     if durations != without_overhang and remainder == abjad.LEFT:
@@ -1401,7 +1401,7 @@ def make_continuous_tremolo_material(time_signatures):
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     rmakers.beam(baca.select.plts(voice))
     rmakers.tie(baca.select.ptails(voice)[:-1], tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=(1, 2), tag=tag)
+    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 2), tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -1650,7 +1650,7 @@ def make_flight_rhythm(time_signatures, counts, rotation, *, start=0):
     rmakers.force_diminution(voice)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
     rmakers.extract_trivial(voice)
-    rmakers.force_repeat_tie(voice, tag=tag, threshold=(1, 4))
+    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.Duration(1, 4))
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -1681,7 +1681,7 @@ def make_grid_to_trajectory_rhythm(time_signatures, counts, rotation, extra):
     rmakers.beam(voice, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
     rmakers.extract_trivial(voice)
-    rmakers.force_repeat_tie(voice, tag=tag, threshold=(1, 4))
+    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.Duration(1, 4))
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -1851,7 +1851,7 @@ def make_talea_eighth_notes(
     rmakers.rewrite_dots(voice, tag=tag)
     rmakers.rewrite_sustained(voice, tag=tag)
     rmakers.extract_trivial(voice)
-    rmakers.force_repeat_tie(voice, tag=tag, threshold=(1, 4))
+    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.Duration(1, 4))
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
