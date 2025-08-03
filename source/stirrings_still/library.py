@@ -1297,7 +1297,7 @@ def make_accelerando(time_signatures, start, stop):
     tag = baca.helpers.function_name(inspect.currentframe())
     tuplets = rmakers.accelerando(
         durations,
-        rmakers.durations([start, stop, (1, 16)]),
+        abjad.duration.durations([start, stop, (1, 16)]),
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
@@ -1879,8 +1879,8 @@ def make_to_flight_rhythm(time_signatures, weights, *, start=(1, 4), stop=(1, 8)
     durations = abjad.sequence.flatten(durations)
     tuplets = rmakers.accelerando(
         durations,
-        rmakers.durations([start, stop, (1, 16)]),
-        rmakers.durations([(1, 2), (1, 2), (1, 4)]),
+        abjad.duration.durations([start, stop, (1, 16)]),
+        abjad.duration.durations([(1, 2), (1, 2), (1, 4)]),
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
@@ -1959,8 +1959,8 @@ def make_wave_rhythm(time_signatures, start, stop, *, previous_state=None):
     durations = [_.duration() for _ in time_signatures]
     tuplets = rmakers.accelerando(
         durations,
-        rmakers.durations([start, stop, (1, 16)]),
-        rmakers.durations([stop, start, (1, 16)]),
+        abjad.duration.durations([start, stop, (1, 16)]),
+        abjad.duration.durations([stop, start, (1, 16)]),
         previous_state=previous_state,
         state=state,
         tag=tag,
