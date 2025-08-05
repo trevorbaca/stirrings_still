@@ -1430,7 +1430,7 @@ def make_declamation_rhythm(time_signatures, *, protract=False):
         music = abjad.mutate.eject_contents(voice)
         return music
 
-    weights = abjad.durations([(1, 4)])
+    weights = abjad.duration.durations([(1, 4)])
     if protract is True:
         tag = baca.helpers.function_name(inspect.currentframe(), n=1)
         durations = [
@@ -1874,7 +1874,7 @@ def make_to_flight_rhythm(time_signatures, weights, *, start=(1, 4), stop=(1, 8)
     tag = baca.helpers.function_name(inspect.currentframe())
     durations = [_.duration() for _ in time_signatures]
     durations = [sum(durations)]
-    weights = abjad.durations(weights)
+    weights = abjad.duration.durations(weights)
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     durations = abjad.sequence.flatten(durations)
     tuplets = rmakers.accelerando(
