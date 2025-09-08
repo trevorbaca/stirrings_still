@@ -1292,7 +1292,7 @@ def left_broken_tasto_tweak():
 
 
 def make_accelerando(time_signatures, start, stop):
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     durations = [sum(durations)]
     tag = baca.helpers.function_name(inspect.currentframe())
     tuplets = rmakers.accelerando(
@@ -1309,7 +1309,7 @@ def make_accelerando(time_signatures, start, stop):
 
 def make_cello_cell_rhythm(time_signatures):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     tuplets = rmakers.talea(durations, [3, 1, 2, 2], 16, tag=tag)
@@ -1329,9 +1329,9 @@ def make_circle_rhythm(
     remainder=abjad.RIGHT,
 ):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     durations = [sum(durations)]
-    weights = [abjad.Duration(*weight)]
+    weights = [abjad.ValueDuration(*weight)]
     without_overhang = abjad.sequence.split(durations, weights, cyclic=True)
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     if durations != without_overhang and remainder == abjad.LEFT:
@@ -1365,11 +1365,11 @@ def make_clocktick_rhythm(
     force_rest_tuplets=None,
 ):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     if displace:
-        durations = abjad.duration.durations(time_signatures)
+        durations = abjad.duration.value_durations(time_signatures)
         counts = [1, -1]
     elif encroach:
         counts = [2, -1]
@@ -1396,19 +1396,19 @@ def make_clouded_pane_rhythm(time_signatures):
 
 def make_continuous_tremolo_material(time_signatures):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     components = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     rmakers.beam(baca.select.plts(voice))
     rmakers.tie(baca.select.ptails(voice)[:-1], tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 2), tag=tag)
+    rmakers.force_repeat_tie(voice, threshold=abjad.ValueDuration(1, 2), tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
 
 def make_declamation_rhythm(time_signatures, *, protract=False):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
 
     def tuplet_rhythm_maker(durations):
         tuplets = rmakers.tuplet(durations, [(3, 1)], tag=tag)
@@ -1430,7 +1430,7 @@ def make_declamation_rhythm(time_signatures, *, protract=False):
         music = abjad.mutate.eject_contents(voice)
         return music
 
-    weights = abjad.duration.durations([(1, 4)])
+    weights = abjad.duration.value_durations([(1, 4)])
     if protract is True:
         tag = baca.helpers.function_name(inspect.currentframe(), n=1)
         durations = [
@@ -1461,7 +1461,7 @@ def make_desynchronization_rhythm(
     assert isinstance(denominator, int), repr(denominator)
     denominators = [denominator]
     assert isinstance(extra_counts, list), repr(extra_counts)
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     tuplets = rmakers.even_division(
         durations, denominators, extra_counts=extra_counts, tag=tag
     )
@@ -1485,7 +1485,7 @@ def make_desynchronization_rhythm(
 
 def make_eighth_notes(time_signatures):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     durations = [sum(durations)]
     tuplets = rmakers.talea(durations, [1], 8, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
@@ -1640,7 +1640,7 @@ def make_flight_rhythm(time_signatures, counts, rotation, *, start=0):
     counts_ = counts_[:]
     counts_ = counts_[start:]
     extra_counts = abjad.sequence.rotate([1, 0, 2], n=rotation)
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     tuplets = rmakers.talea(durations, counts_, 8, extra_counts=extra_counts, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.beam(voice, tag=tag)
@@ -1650,7 +1650,7 @@ def make_flight_rhythm(time_signatures, counts, rotation, *, start=0):
     rmakers.force_diminution(voice)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
     rmakers.extract_trivial(voice)
-    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.Duration(1, 4))
+    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.ValueDuration(1, 4))
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -1660,7 +1660,7 @@ def make_grid_rhythm(time_signatures, *, rotation):
     tag = baca.helpers.function_name(inspect.currentframe())
     counts = [1, -3, 1, -3, 1, -2]
     counts = abjad.sequence.rotate(counts, n=rotation)
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     tuplets = rmakers.talea(durations, counts, 8, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.beam(voice, tag=tag)
@@ -1675,13 +1675,13 @@ def make_grid_to_trajectory_rhythm(time_signatures, counts, rotation, extra):
     counts_ = abjad.sequence.rotate(counts_, n=rotation)
     assert isinstance(extra, int), repr(extra)
     extra_counts = [extra]
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     tuplets = rmakers.talea(durations, counts_, 8, extra_counts=extra_counts, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.beam(voice, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
     rmakers.extract_trivial(voice)
-    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.Duration(1, 4))
+    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.ValueDuration(1, 4))
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -1697,7 +1697,7 @@ def make_loure_tuplets_material(time_signatures, extra_count):
 
 def make_measure_initiation_rhythm(time_signatures):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     tuplets = rmakers.incised(
         durations,
         prefix_talea=[2],
@@ -1722,9 +1722,9 @@ def make_picket_rhythm(
 ):
     assert isinstance(fuse, int)
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     durations = [sum(durations)]
-    weights = [abjad.Duration(fuse, 4)]
+    weights = [abjad.ValueDuration(fuse, 4)]
     without_overhang = abjad.sequence.split(durations, weights, cyclic=True)
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     if durations != without_overhang:
@@ -1764,7 +1764,7 @@ def make_running_quarter_divisions(time_signatures, count):
     assert isinstance(count, int), repr(count)
     assert 0 < count, repr(count)
     ratio = tuple(count * [1])
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     tuplets = rmakers.tuplet(durations, [ratio], tag=tag)
@@ -1777,11 +1777,11 @@ def make_running_quarter_divisions(time_signatures, count):
 
 def make_stroke_rhythm(time_signatures, rotation, *, force_rest_tuplets=None):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     durations = abjad.sequence.rotate(durations, n=rotation)
     tuplets = rmakers.incised(
         durations,
-        spelling=rmakers.Spelling(forbidden_note_duration=abjad.Duration(1, 2)),
+        spelling=rmakers.Spelling(forbidden_note_duration=abjad.ValueDuration(1, 2)),
         suffix_talea=[1],
         suffix_counts=[1],
         talea_denominator=8,
@@ -1813,7 +1813,7 @@ def make_synchronized_circle_rhythm(
     counts = abjad.sequence.rotate(counts, n=rotation)
     if not gaps:
         counts = [abs(_) for _ in counts]
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     tuplets = rmakers.talea(durations, counts, 8, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.extract_trivial(voice)
@@ -1835,7 +1835,7 @@ def make_talea_eighth_notes(
     counts_ = abjad.sequence.rotate(counts_, n=rotation)
     if end_counts is not None:
         assert all(isinstance(_, int) for _ in end_counts), repr(end_counts)
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     tuplets = rmakers.talea(
         durations,
         counts_,
@@ -1851,7 +1851,7 @@ def make_talea_eighth_notes(
     rmakers.rewrite_dots(voice, tag=tag)
     rmakers.rewrite_sustained(voice, tag=tag)
     rmakers.extract_trivial(voice)
-    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.Duration(1, 4))
+    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.ValueDuration(1, 4))
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -1859,7 +1859,7 @@ def make_talea_eighth_notes(
 
 def make_taper_rhythm(time_signatures, tuplet_ratio=(1, 4, 1)):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     tuplets = rmakers.tuplet(durations, [tuplet_ratio], tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.trivialize(voice)
@@ -1872,9 +1872,9 @@ def make_taper_rhythm(time_signatures, tuplet_ratio=(1, 4, 1)):
 
 def make_to_flight_rhythm(time_signatures, weights, *, start=(1, 4), stop=(1, 8)):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     durations = [sum(durations)]
-    weights = abjad.duration.durations(weights)
+    weights = abjad.duration.value_durations(weights)
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     durations = abjad.sequence.flatten(durations)
     tuplets = rmakers.accelerando(
@@ -1926,7 +1926,7 @@ def make_trajectory_rhythm(
         result = [baca.select.pleaves(_)[:-1] for _ in result]
         return result
 
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     tuplets = rmakers.talea(
         durations,
         counts_,
@@ -1956,7 +1956,7 @@ def make_urtext_field_rhythm(time_signatures):
 def make_wave_rhythm(time_signatures, start, stop, *, previous_state=None):
     tag = baca.helpers.function_name(inspect.currentframe())
     state = {}
-    durations = abjad.duration.durations(time_signatures)
+    durations = abjad.duration.value_durations(time_signatures)
     tuplets = rmakers.accelerando(
         abjad.duration.value_durations(durations),
         abjad.duration.value_durations([start, stop, (1, 16)]),
@@ -3091,19 +3091,19 @@ instruments = {
 
 
 metronome_marks = {
-    "larghissimo": abjad.MetronomeMark(abjad.Duration(1, 4), 39),
-    "largo meno mosso": abjad.MetronomeMark(abjad.Duration(1, 4), 48),
-    "largo": abjad.MetronomeMark(abjad.Duration(1, 4), 52),
-    "largo piu mosso": abjad.MetronomeMark(abjad.Duration(1, 4), 56),
-    "adagio meno mosso": abjad.MetronomeMark(abjad.Duration(1, 4), 60),
-    "adagio": abjad.MetronomeMark(abjad.Duration(1, 4), 65),
-    "adagio piu mosso": abjad.MetronomeMark(abjad.Duration(1, 4), 78),
-    "andante": abjad.MetronomeMark(abjad.Duration(1, 4), 91),
-    "allegro": abjad.MetronomeMark(abjad.Duration(1, 4), 117),
-    "allegro piu mosso": abjad.MetronomeMark(abjad.Duration(1, 4), 137),
-    "presto": abjad.MetronomeMark(abjad.Duration(1, 4), 169),
+    "larghissimo": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 39),
+    "largo meno mosso": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 48),
+    "largo": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 52),
+    "largo piu mosso": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 56),
+    "adagio meno mosso": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 60),
+    "adagio": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 65),
+    "adagio piu mosso": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 78),
+    "andante": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 91),
+    "allegro": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 117),
+    "allegro piu mosso": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 137),
+    "presto": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 169),
     "presto ! largo": abjad.MetronomeMark(
-        reference_duration=abjad.Duration(1, 4),
+        reference_duration=abjad.ValueDuration(1, 4),
         units_per_minute=52,
         custom_markup=abjad.Markup(r"\stirrings-still-presto-largo-markup"),
     ),
