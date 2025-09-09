@@ -1331,7 +1331,7 @@ def make_circle_rhythm(
     tag = baca.helpers.function_name(inspect.currentframe())
     durations = abjad.duration.value_durations(time_signatures)
     durations = [sum(durations)]
-    weights = [abjad.ValueDuration(*weight)]
+    weights = [abjad.Duration(*weight)]
     without_overhang = abjad.sequence.split(durations, weights, cyclic=True)
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     if durations != without_overhang and remainder == abjad.LEFT:
@@ -1401,7 +1401,7 @@ def make_continuous_tremolo_material(time_signatures):
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     rmakers.beam(baca.select.plts(voice))
     rmakers.tie(baca.select.ptails(voice)[:-1], tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=abjad.ValueDuration(1, 2), tag=tag)
+    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 2), tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -1650,7 +1650,7 @@ def make_flight_rhythm(time_signatures, counts, rotation, *, start=0):
     rmakers.force_diminution(voice)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
     rmakers.extract_trivial(voice)
-    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.ValueDuration(1, 4))
+    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.Duration(1, 4))
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -1681,7 +1681,7 @@ def make_grid_to_trajectory_rhythm(time_signatures, counts, rotation, extra):
     rmakers.beam(voice, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
     rmakers.extract_trivial(voice)
-    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.ValueDuration(1, 4))
+    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.Duration(1, 4))
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -1724,7 +1724,7 @@ def make_picket_rhythm(
     tag = baca.helpers.function_name(inspect.currentframe())
     durations = abjad.duration.value_durations(time_signatures)
     durations = [sum(durations)]
-    weights = [abjad.ValueDuration(fuse, 4)]
+    weights = [abjad.Duration(fuse, 4)]
     without_overhang = abjad.sequence.split(durations, weights, cyclic=True)
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     if durations != without_overhang:
@@ -1781,7 +1781,7 @@ def make_stroke_rhythm(time_signatures, rotation, *, force_rest_tuplets=None):
     durations = abjad.sequence.rotate(durations, n=rotation)
     tuplets = rmakers.incised(
         durations,
-        spelling=rmakers.Spelling(forbidden_note_duration=abjad.ValueDuration(1, 2)),
+        spelling=rmakers.Spelling(forbidden_note_duration=abjad.Duration(1, 2)),
         suffix_talea=[1],
         suffix_counts=[1],
         talea_denominator=8,
@@ -1851,7 +1851,7 @@ def make_talea_eighth_notes(
     rmakers.rewrite_dots(voice, tag=tag)
     rmakers.rewrite_sustained(voice, tag=tag)
     rmakers.extract_trivial(voice)
-    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.ValueDuration(1, 4))
+    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.Duration(1, 4))
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -3091,19 +3091,19 @@ instruments = {
 
 
 metronome_marks = {
-    "larghissimo": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 39),
-    "largo meno mosso": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 48),
-    "largo": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 52),
-    "largo piu mosso": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 56),
-    "adagio meno mosso": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 60),
-    "adagio": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 65),
-    "adagio piu mosso": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 78),
-    "andante": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 91),
-    "allegro": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 117),
-    "allegro piu mosso": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 137),
-    "presto": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 169),
+    "larghissimo": abjad.MetronomeMark(abjad.Duration(1, 4), 39),
+    "largo meno mosso": abjad.MetronomeMark(abjad.Duration(1, 4), 48),
+    "largo": abjad.MetronomeMark(abjad.Duration(1, 4), 52),
+    "largo piu mosso": abjad.MetronomeMark(abjad.Duration(1, 4), 56),
+    "adagio meno mosso": abjad.MetronomeMark(abjad.Duration(1, 4), 60),
+    "adagio": abjad.MetronomeMark(abjad.Duration(1, 4), 65),
+    "adagio piu mosso": abjad.MetronomeMark(abjad.Duration(1, 4), 78),
+    "andante": abjad.MetronomeMark(abjad.Duration(1, 4), 91),
+    "allegro": abjad.MetronomeMark(abjad.Duration(1, 4), 117),
+    "allegro piu mosso": abjad.MetronomeMark(abjad.Duration(1, 4), 137),
+    "presto": abjad.MetronomeMark(abjad.Duration(1, 4), 169),
     "presto ! largo": abjad.MetronomeMark(
-        reference_duration=abjad.ValueDuration(1, 4),
+        reference_duration=abjad.Duration(1, 4),
         units_per_minute=52,
         custom_markup=abjad.Markup(r"\stirrings-still-presto-largo-markup"),
     ),
