@@ -1700,9 +1700,9 @@ def make_measure_initiation_rhythm(time_signatures):
     durations = abjad.duration.durations(time_signatures)
     tuplets = rmakers.incised(
         durations,
+        talea_denominator=8,
         prefix_talea=[2],
         prefix_counts=[1],
-        talea_denominator=8,
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
@@ -1781,10 +1781,10 @@ def make_stroke_rhythm(time_signatures, rotation, *, force_rest_tuplets=None):
     durations = abjad.sequence.rotate(durations, n=rotation)
     tuplets = rmakers.incised(
         durations,
+        talea_denominator=8,
         spelling=rmakers.Spelling(forbidden_note_duration=abjad.Duration(1, 2)),
         suffix_talea=[1],
         suffix_counts=[1],
-        talea_denominator=8,
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
