@@ -1300,9 +1300,10 @@ def make_accelerando(time_signatures, start, stop):
         baca.rhythm.interpolations([start, stop, (1, 16)]),
         tag=tag,
     )
+    leaf_lists = [_[:] for _ in tuplets]
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.duration_bracket(voice)
-    rmakers.feather_beam(voice, beam_rests=True, stemlet_length=0.75, tag=tag)
+    rmakers.feather_beam(leaf_lists, beam_rests=True, stemlet_length=0.75, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -1885,9 +1886,10 @@ def make_to_flight_rhythm(time_signatures, weights, *, start=(1, 4), stop=(1, 8)
         ),
         tag=tag,
     )
+    leaf_lists = [_[:] for _ in tuplets]
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.duration_bracket(voice)
-    rmakers.feather_beam(voice, beam_rests=True, stemlet_length=0.75, tag=tag)
+    rmakers.feather_beam(leaf_lists, beam_rests=True, stemlet_length=0.75, tag=tag)
     rmakers.extract_trivial(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -1969,9 +1971,10 @@ def make_wave_rhythm(time_signatures, start, stop, *, previous_state=None):
         state=state,
         tag=tag,
     )
+    leaf_lists = [_[:] for _ in tuplets]
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.duration_bracket(voice)
-    rmakers.feather_beam(voice, beam_rests=True, stemlet_length=0.75, tag=tag)
+    rmakers.feather_beam(leaf_lists, beam_rests=True, stemlet_length=0.75, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     if previous_state is not None:
         return music, state
