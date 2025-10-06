@@ -1315,7 +1315,8 @@ def make_cello_cell_rhythm(time_signatures):
     durations = baca.sequence.quarters(durations)
     tuplets = rmakers.talea(durations, [3, 1, 2, 2], 16, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
-    rmakers.beam(voice, tag=tag)
+    leaf_lists = [_[:] for _ in tuplets]
+    rmakers.beam(leaf_lists, tag=tag)
     rmakers.extract_trivial(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -1382,7 +1383,9 @@ def make_clocktick_rhythm(
         rmakers.force_rest(
             abjad.select.get(abjad.select.tuplets(voice), force_rest_tuplets), tag=tag
         )
-    rmakers.beam(voice, tag=tag)
+    tuplets = abjad.select.tuplets(voice)
+    leaf_lists = [_[:] for _ in tuplets]
+    rmakers.beam(leaf_lists, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
     rmakers.extract_trivial(voice)
     music = abjad.mutate.eject_contents(voice)
@@ -1414,7 +1417,8 @@ def make_declamation_rhythm(time_signatures, *, protract=False):
     def tuplet_rhythm_maker(durations):
         tuplets = rmakers.tuplet(durations, [(3, 1)], tag=tag)
         voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
-        rmakers.beam(voice, tag=tag)
+        leaf_lists = [_[:] for _ in tuplets]
+        rmakers.beam(leaf_lists, tag=tag)
         baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
         rmakers.rewrite_dots(voice, tag=tag)
         rmakers.extract_trivial(voice)
@@ -1477,7 +1481,8 @@ def make_desynchronization_rhythm(
         pass
     else:
         rmakers.force_diminution(voice)
-    rmakers.beam(voice, tag=tag)
+    leaf_lists = [_[:] for _ in tuplets]
+    rmakers.beam(leaf_lists, tag=tag)
     rmakers.extract_trivial(voice)
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
@@ -1644,7 +1649,8 @@ def make_flight_rhythm(time_signatures, counts, rotation, *, start=0):
     durations = abjad.duration.durations(time_signatures)
     tuplets = rmakers.talea(durations, counts_, 8, extra_counts=extra_counts, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
-    rmakers.beam(voice, tag=tag)
+    leaf_lists = [_[:] for _ in tuplets]
+    rmakers.beam(leaf_lists, tag=tag)
     rmakers.trivialize(voice)
     rmakers.rewrite_dots(voice, tag=tag)
     rmakers.rewrite_sustained(voice, tag=tag)
@@ -1664,7 +1670,8 @@ def make_grid_rhythm(time_signatures, *, rotation):
     durations = abjad.duration.durations(time_signatures)
     tuplets = rmakers.talea(durations, counts, 8, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
-    rmakers.beam(voice, tag=tag)
+    leaf_lists = [_[:] for _ in tuplets]
+    rmakers.beam(leaf_lists, tag=tag)
     rmakers.extract_trivial(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -1679,7 +1686,8 @@ def make_grid_to_trajectory_rhythm(time_signatures, counts, rotation, extra):
     durations = abjad.duration.durations(time_signatures)
     tuplets = rmakers.talea(durations, counts_, 8, extra_counts=extra_counts, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
-    rmakers.beam(voice, tag=tag)
+    leaf_lists = [_[:] for _ in tuplets]
+    rmakers.beam(leaf_lists, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
     rmakers.extract_trivial(voice)
     rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.Duration(1, 4))
@@ -1707,7 +1715,8 @@ def make_measure_initiation_rhythm(time_signatures):
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
-    rmakers.beam(voice, tag=tag)
+    leaf_lists = [_[:] for _ in tuplets]
+    rmakers.beam(leaf_lists, tag=tag)
     rmakers.extract_trivial(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -1749,7 +1758,9 @@ def make_picket_rhythm(
         rmakers.tie(leaves, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
     rmakers.rewrite_sustained(voice, tag=tag)
-    rmakers.beam(voice, tag=tag)
+    tuplets = abjad.select.tuplets(voice)
+    leaf_lists = [_[:] for _ in tuplets]
+    rmakers.beam(leaf_lists, tag=tag)
     rmakers.extract_trivial(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -1770,7 +1781,8 @@ def make_running_quarter_divisions(time_signatures, count):
     durations = baca.sequence.quarters(durations)
     tuplets = rmakers.tuplet(durations, [ratio], tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
-    rmakers.beam(voice, tag=tag)
+    leaf_lists = [_[:] for _ in tuplets]
+    rmakers.beam(leaf_lists, tag=tag)
     rmakers.extract_trivial(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -1797,7 +1809,9 @@ def make_stroke_rhythm(time_signatures, rotation, *, force_rest_tuplets=None):
     lists = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     rmakers.untie(lists)
     rmakers.tie(lists, tag=tag)
-    rmakers.beam(voice, tag=tag)
+    tuplets = abjad.select.tuplets(voice)
+    leaf_lists = [_[:] for _ in tuplets]
+    rmakers.beam(leaf_lists, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
     rmakers.extract_trivial(voice)
     rmakers.split_measures(voice, tag=tag)
@@ -1820,7 +1834,9 @@ def make_synchronized_circle_rhythm(
     rmakers.extract_trivial(voice)
     if isinstance(rests, (list, tuple)):
         rmakers.force_rest(abjad.select.get(baca.select.lts(voice), rests), tag=tag)
-    rmakers.beam(voice, tag=tag)
+    tuplets = abjad.select.tuplets(voice)
+    leaf_lists = [_[:] for _ in tuplets]
+    rmakers.beam(leaf_lists, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -1846,7 +1862,8 @@ def make_talea_eighth_notes(
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
-    rmakers.beam(voice, tag=tag)
+    leaf_lists = [_[:] for _ in tuplets]
+    rmakers.beam(leaf_lists, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
     rmakers.trivialize(voice)
     rmakers.rewrite_dots(voice, tag=tag)
@@ -1864,7 +1881,8 @@ def make_taper_rhythm(time_signatures, tuplet_ratio=(1, 4, 1)):
     tuplets = rmakers.tuplet(durations, [tuplet_ratio], tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.trivialize(voice)
-    rmakers.beam(voice, tag=tag)
+    leaf_lists = [_[:] for _ in tuplets]
+    rmakers.beam(leaf_lists, tag=tag)
     rmakers.repeat_tie(abjad.select.notes(voice)[1:], tag=tag)
     rmakers.extract_trivial(voice)
     music = abjad.mutate.eject_contents(voice)
@@ -1945,7 +1963,9 @@ def make_trajectory_rhythm(
         rmakers.untie(lleak_tuplet_pleaves(voice, [2, 6, 10, 14, 15]))
         rmakers.tie(nonlast_tuplet_pleaves(voice, [2, 6, 10, 14, 15]), tag=tag)
     rmakers.rewrite_sustained(voice, tag=tag)
-    rmakers.beam(voice, tag=tag)
+    tuplets = abjad.select.tuplets(voice)
+    leaf_lists = [_[:] for _ in tuplets]
+    rmakers.beam(leaf_lists, tag=tag)
     rmakers.extract_trivial(voice)
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
