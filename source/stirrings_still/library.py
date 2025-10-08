@@ -1343,13 +1343,13 @@ def make_circle_rhythm(
     components = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     if force_rest_tuplets is not None:
-        rmakers.force_rest(
-            abjad.select.get(abjad.select.tuplets(voice), force_rest_tuplets), tag=tag
-        )
+        tuplets = abjad.select.get(abjad.select.tuplets(voice), force_rest_tuplets)
+        leaves = abjad.select.leaves(tuplets)
+        rmakers.force_rest(leaves, tag=tag)
     if force_rest_lts is not None:
-        rmakers.force_rest(
-            abjad.select.get(baca.select.lts(voice), force_rest_lts), tag=tag
-        )
+        lts = abjad.select.get(baca.select.lts(voice), force_rest_lts)
+        leaves = abjad.select.leaves(lts)
+        rmakers.force_rest(leaves, tag=tag)
     rmakers.beam(baca.select.plts(voice), tag=tag)
     rmakers.rewrite_sustained(voice, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
@@ -1381,9 +1381,9 @@ def make_clocktick_rhythm(
     tuplets = rmakers.talea(durations, counts, 8, extra_counts=[1], tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if force_rest_tuplets is not None:
-        rmakers.force_rest(
-            abjad.select.get(abjad.select.tuplets(voice), force_rest_tuplets), tag=tag
-        )
+        tuplets = abjad.select.get(abjad.select.tuplets(voice), force_rest_tuplets)
+        leaves = abjad.select.leaves(tuplets)
+        rmakers.force_rest(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
@@ -1474,9 +1474,15 @@ def make_desynchronization_rhythm(
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if rests is True:
-        rmakers.force_rest(abjad.select.get(baca.select.lts(voice), ([1], 2)), tag=tag)
+        lts = baca.select.lts(voice)
+        lts = abjad.select.get(lts, ([1], 2))
+        leaves = abjad.select.leaves(lts)
+        rmakers.force_rest(leaves, tag=tag)
     elif isinstance(rests, tuple):
-        rmakers.force_rest(abjad.select.get(baca.select.lts(voice), rests), tag=tag)
+        lts = baca.select.lts(voice)
+        lts = abjad.select.get(lts, rests)
+        leaves = abjad.select.leaves(lts)
+        rmakers.force_rest(leaves, tag=tag)
     if extra_counts[0] < 0:
         rmakers.force_augmentation(tuplets)
     elif extra_counts[0] == 0:
@@ -1750,12 +1756,13 @@ def make_picket_rhythm(
     tuplets = rmakers.tuplet(durations, [tuplet_ratio], tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if force_rest_tuplets is not None:
-        rmakers.force_rest(
-            abjad.select.get(abjad.select.tuplets(voice), force_rest_tuplets), tag=tag
-        )
+        tuplets = abjad.select.get(tuplets, force_rest_tuplets)
+        leaves = abjad.select.leaves(tuplets)
+        rmakers.force_rest(leaves, tag=tag)
     if force_note_and_tie is True:
         tuplet = abjad.select.tuplet(voice, 0)
-        rmakers.force_note(tuplet, tag=tag)
+        leaves = abjad.select.leaves(tuplet)
+        rmakers.force_note(leaves, tag=tag)
         tuplets = abjad.select.tuplets(voice)[:1]
         leaves = abjad.select.leaves(tuplets)[:-1]
         rmakers.tie(leaves, tag=tag)
@@ -1806,9 +1813,9 @@ def make_stroke_rhythm(time_signatures, rotation, *, force_rest_tuplets=None):
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if force_rest_tuplets is not None:
-        rmakers.force_rest(
-            abjad.select.get(abjad.select.tuplets(voice), force_rest_tuplets), tag=tag
-        )
+        tuplets = abjad.select.get(tuplets, force_rest_tuplets)
+        leaves = abjad.select.leaves(tuplets)
+        rmakers.force_rest(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     lists = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     rmakers.untie(lists)
@@ -1838,7 +1845,10 @@ def make_synchronized_circle_rhythm(
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.extract_trivial(tuplets)
     if isinstance(rests, (list, tuple)):
-        rmakers.force_rest(abjad.select.get(baca.select.lts(voice), rests), tag=tag)
+        lts = baca.select.lts(voice)
+        lts = abjad.select.get(lts, rests)
+        leaves = abjad.select.leaves(lts)
+        rmakers.force_rest(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
