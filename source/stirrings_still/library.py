@@ -1478,11 +1478,11 @@ def make_desynchronization_rhythm(
     elif isinstance(rests, tuple):
         rmakers.force_rest(abjad.select.get(baca.select.lts(voice), rests), tag=tag)
     if extra_counts[0] < 0:
-        rmakers.force_augmentation(voice)
+        rmakers.force_augmentation(tuplets)
     elif extra_counts[0] == 0:
         pass
     else:
-        rmakers.force_diminution(voice)
+        rmakers.force_diminution(tuplets)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
     rmakers.extract_trivial(tuplets)
@@ -1655,8 +1655,8 @@ def make_flight_rhythm(time_signatures, counts, rotation, *, start=0):
     rmakers.beam(leaf_lists, tag=tag)
     rmakers.trivialize(voice)
     rmakers.rewrite_dots(voice, tag=tag)
+    rmakers.force_diminution(tuplets)
     rmakers.rewrite_sustained(voice, tag=tag)
-    rmakers.force_diminution(voice)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
