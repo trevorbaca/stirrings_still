@@ -1407,7 +1407,8 @@ def make_continuous_tremolo_material(time_signatures):
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     rmakers.beam(baca.select.plts(voice))
     rmakers.tie(baca.select.ptails(voice)[:-1], tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 2), tag=tag)
+    leaves = abjad.select.leaves(voice)
+    rmakers.force_repeat_tie(leaves, threshold=abjad.Duration(1, 2), tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -1433,7 +1434,8 @@ def make_declamation_rhythm(time_signatures, *, protract=False):
         voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
         rmakers.beam(baca.select.plts(voice), tag=tag)
         rmakers.tie(baca.select.ptails(voice)[:-1], tag=tag)
-        rmakers.force_repeat_tie(voice, tag=tag)
+        leaves = abjad.select.leaves(voice)
+        rmakers.force_repeat_tie(leaves, tag=tag)
         music = abjad.mutate.eject_contents(voice)
         return music
 
@@ -1666,7 +1668,8 @@ def make_flight_rhythm(time_signatures, counts, rotation, *, start=0):
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
-    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.Duration(1, 4))
+    leaves = abjad.select.leaves(voice)
+    rmakers.force_repeat_tie(leaves, tag=tag, threshold=abjad.Duration(1, 4))
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -1699,7 +1702,8 @@ def make_grid_to_trajectory_rhythm(time_signatures, counts, rotation, extra):
     rmakers.beam(leaf_lists, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
     rmakers.extract_trivial(tuplets)
-    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.Duration(1, 4))
+    leaves = abjad.select.leaves(voice)
+    rmakers.force_repeat_tie(leaves, tag=tag, threshold=abjad.Duration(1, 4))
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -1885,7 +1889,8 @@ def make_talea_eighth_notes(
     rmakers.rewrite_sustained(voice, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
-    rmakers.force_repeat_tie(voice, tag=tag, threshold=abjad.Duration(1, 4))
+    leaves = abjad.select.leaves(voice)
+    rmakers.force_repeat_tie(leaves, tag=tag, threshold=abjad.Duration(1, 4))
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
