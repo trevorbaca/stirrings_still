@@ -1425,7 +1425,7 @@ def make_declamation_rhythm(time_signatures, *, protract=False):
         leaf_lists = [_[:] for _ in tuplets]
         rmakers.beam(leaf_lists, tag=tag)
         baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
-        rmakers.rewrite_dots(voice, tag=tag)
+        rmakers.respell_tuplets_without_dots(tuplets, tag=tag)
         rmakers.extract_trivial(tuplets)
         _force_fraction(voice)
         music = abjad.mutate.eject_contents(voice)
@@ -1664,7 +1664,8 @@ def make_flight_rhythm(time_signatures, counts, rotation, *, start=0):
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
     rmakers.trivialize(voice)
-    rmakers.rewrite_dots(voice, tag=tag)
+    tuplets = abjad.select.tuplets(voice)
+    rmakers.respell_tuplets_without_dots(tuplets, tag=tag)
     rmakers.force_diminution(tuplets)
     rmakers.rewrite_sustained(voice, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
@@ -1887,7 +1888,8 @@ def make_talea_eighth_notes(
     rmakers.beam(leaf_lists, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
     rmakers.trivialize(voice)
-    rmakers.rewrite_dots(voice, tag=tag)
+    tuplets = abjad.select.tuplets(voice)
+    rmakers.respell_tuplets_without_dots(tuplets, tag=tag)
     rmakers.rewrite_sustained(voice, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
