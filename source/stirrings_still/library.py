@@ -1355,7 +1355,8 @@ def make_circle_rhythm(
     rmakers.rewrite_rest_filled(voice, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
-    rmakers.reduce_multiplier(voice)
+    tuplets = abjad.select.tuplets(voice)
+    rmakers.reduce_tuplet_ratios(tuplets)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -1396,7 +1397,8 @@ def make_clocktick_rhythm(
 
 def make_clouded_pane_rhythm(time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures, do_not_rewrite_meter=True)
-    rmakers.reduce_multiplier(music)
+    tuplets = abjad.select.tuplets(music)
+    rmakers.reduce_tuplet_ratios(tuplets)
     return music
 
 
