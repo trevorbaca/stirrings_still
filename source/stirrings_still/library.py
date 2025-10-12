@@ -1827,7 +1827,7 @@ def make_stroke_rhythm(time_signatures, rotation, *, force_rest_tuplets=None):
     tuplets = abjad.select.tuplets(voice)
     lists = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     pleaves = baca.select.pleaves(lists)
-    rmakers.untie(pleaves)
+    rmakers.untie_leaves(pleaves)
     rmakers.tie(pleaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
@@ -1986,7 +1986,9 @@ def make_trajectory_rhythm(
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if untie_then_tie is True:
-        rmakers.untie(lleak_tuplet_pleaves(voice, [2, 6, 10, 14, 15]))
+        pleaves = lleak_tuplet_pleaves(voice, [2, 6, 10, 14, 15])
+        leaves = abjad.sequence.flatten(pleaves)
+        rmakers.untie_leaves(leaves)
         pleaves = nonlast_tuplet_pleaves(voice, [2, 6, 10, 14, 15])
         pleaves = abjad.sequence.flatten(pleaves)
         rmakers.tie(pleaves, tag=tag)
