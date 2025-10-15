@@ -1346,11 +1346,11 @@ def make_circle_rhythm(
     if force_rest_tuplets is not None:
         tuplets = abjad.select.get(abjad.select.tuplets(voice), force_rest_tuplets)
         leaves = abjad.select.leaves(tuplets)
-        rmakers.force_rest(leaves, tag=tag)
+        rmakers.replace_leaves_with_rests(leaves, tag=tag)
     if force_rest_lts is not None:
         lts = abjad.select.get(baca.select.lts(voice), force_rest_lts)
         leaves = abjad.select.leaves(lts)
-        rmakers.force_rest(leaves, tag=tag)
+        rmakers.replace_leaves_with_rests(leaves, tag=tag)
     rmakers.beam_runs(baca.select.plts(voice), tag=tag)
     tuplets = abjad.select.tuplets(voice)
     rmakers.rewrite_sustained_tuplets(tuplets, tag=tag)
@@ -1385,7 +1385,7 @@ def make_clocktick_rhythm(
     if force_rest_tuplets is not None:
         tuplets = abjad.select.get(abjad.select.tuplets(voice), force_rest_tuplets)
         leaves = abjad.select.leaves(tuplets)
-        rmakers.force_rest(leaves, tag=tag)
+        rmakers.replace_leaves_with_rests(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam_runs(leaf_lists, tag=tag)
@@ -1482,12 +1482,12 @@ def make_desynchronization_rhythm(
         lts = baca.select.lts(voice)
         lts = abjad.select.get(lts, ([1], 2))
         leaves = abjad.select.leaves(lts)
-        rmakers.force_rest(leaves, tag=tag)
+        rmakers.replace_leaves_with_rests(leaves, tag=tag)
     elif isinstance(rests, tuple):
         lts = baca.select.lts(voice)
         lts = abjad.select.get(lts, rests)
         leaves = abjad.select.leaves(lts)
-        rmakers.force_rest(leaves, tag=tag)
+        rmakers.replace_leaves_with_rests(leaves, tag=tag)
     if extra_counts[0] < 0:
         rmakers.toggle_diminished_tuplets(tuplets)
     elif extra_counts[0] == 0:
@@ -1766,11 +1766,11 @@ def make_picket_rhythm(
     if force_rest_tuplets is not None:
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
         leaves = abjad.select.leaves(tuplets)
-        rmakers.force_rest(leaves, tag=tag)
+        rmakers.replace_leaves_with_rests(leaves, tag=tag)
     if force_note_and_tie is True:
         tuplet = abjad.select.tuplet(voice, 0)
         leaves = abjad.select.leaves(tuplet)
-        rmakers.force_note(leaves, tag=tag)
+        rmakers.replace_leaves_with_notes(leaves, tag=tag)
         tuplets = abjad.select.tuplets(voice)[:1]
         leaves = abjad.select.leaves(tuplets)[:-1]
         rmakers.tie(leaves, tag=tag)
@@ -1824,7 +1824,7 @@ def make_stroke_rhythm(time_signatures, rotation, *, force_rest_tuplets=None):
     if force_rest_tuplets is not None:
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
         leaves = abjad.select.leaves(tuplets)
-        rmakers.force_rest(leaves, tag=tag)
+        rmakers.replace_leaves_with_rests(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     lists = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     pleaves = baca.select.pleaves(lists)
@@ -1858,7 +1858,7 @@ def make_synchronized_circle_rhythm(
         lts = baca.select.lts(voice)
         lts = abjad.select.get(lts, rests)
         leaves = abjad.select.leaves(lts)
-        rmakers.force_rest(leaves, tag=tag)
+        rmakers.replace_leaves_with_rests(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam_runs(leaf_lists, tag=tag)
