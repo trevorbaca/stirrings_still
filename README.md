@@ -13,4 +13,4 @@ Stirrings Still
     https://img.shields.io/badge/code%20style-black-000000.svg)](
     https://github.com/ambv/black)
 
-Stirrings Still (2018) for narrator and string quartet.
+Stirrings Still (2016-18) for narrator and string quartet.
