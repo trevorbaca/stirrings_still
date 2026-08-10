@@ -843,7 +843,7 @@ HEARING:
     [2.10] (twice with "if not to hear to listen")
 
     sound:
-        [2.6] ("the sole otehr sound that of cries")
+        [2.6] ("the sole other sound that of cries")
         [2.9] ("his soundless tread as when barefoot")
 
 NOTHING:
